@@ -39,7 +39,9 @@ Otherwise put \(M=ab/d\). Then
 \]
 
 No separate coprimality, smoothness of C, transverse-leading-form, or
-non-thick hypothesis is required.
+non-thick hypothesis is required. The test uses the actual global
+homogeneous degrees through M; a finite generic length alone, without
+the degree-exhaustion equality, would not detect outside residual curves.
 
 ### Proof
 
