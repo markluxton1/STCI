@@ -372,7 +372,7 @@ at infinity.
 
 ### Finite replays and their coverage
 
-Run the replays from the repository root with Python 3 and Macaulay2.
+The finite checks test the stated samples; the argument above supplies all-parameter coverage. To reproduce from the repository root:
 
 ```sh
 python3 -B research/computations/verify_delta_singular_identities_2026_10_24.py
