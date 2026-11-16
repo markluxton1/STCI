@@ -2,10 +2,7 @@
 
 The genus-two adjoint and entire-conductor inputs imply a global lift to
 the ambient conductor-line blowup and a normal ADE strict transform.
-The normalization itself need not be Gorenstein. This is the independently
-accepted structural proof used in the complete quartic-carrier theorem;
-it does not alone exclude a mate. The earlier proposal's pending label
-was superseded by the full independent proof reproduced here.
+The normalization itself need not be Gorenstein. This structural proof supplies the blowup model used in the [complete quartic-carrier theorem](quartic_carrier_proof.md); it does not alone exclude a mate.
 
 ## 1. Inputs and exact conclusion
 
