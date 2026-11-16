@@ -80,7 +80,7 @@ Fix positive integers a,b. The following two assertions are equivalent:
 
    for some N, as ideal sheaves on the formal completion.
 
-The inclusion means uniform nilpotence of the marked ideal in the formal quotient. Merely saying its formal topological support is C is insufficient: the underlying topological space of the completion is already C even when residual branches pass through it.
+The inclusion means uniform nilpotence of the marked ideal in the formal quotient. The containment must hold as ideal sheaves on the entire completed neighborhood, not merely at the generic point of C. Merely saying its formal topological support is C is insufficient: the underlying topological space of the completion is already C even when residual branches pass through it.
 
 Proof of 1 -> 2: the global radical equality gives a power containment by Noetherianity; complete the two equations.
 
