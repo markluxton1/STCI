@@ -51,15 +51,4 @@ equation and intersection geometry.
 
 ## Review
 
-The Phase 5 independent reviewer accepted the two-chart route over any
-field. The reviewer reconstructed the Segre graph and its conormal sequence,
-the linear transition and marked Čech cocycle, and the diagonal frames on
-both charts. The reviewer also checked the separate characteristic-zero
-Euler/Jacobian argument and ran its Macaulay2 companion over \(\mathbf Q\).
-That companion route proves the characteristic-zero splitting.
-
-The October 23 audit checked the quadric frame and the characteristic-two
-splitting and used the previously established balanced splitting as a
-premise. The October 10 audit independently checked the homogeneous
-derivative presentation, its cubic kernel basis and the quadratic syzygy
-test in characteristic zero. [Source reviews](../arguments/quartic_specialization_and_symbols.md#source-review-and-verification)
+The two-chart transition in A-0004 represents the extension by -2u^{-1} in H^1(O(-2)). It is nonzero when 2 is invertible, yielding the balanced splitting; in characteristic two it vanishes and the quadric conormal is a direct summand.
