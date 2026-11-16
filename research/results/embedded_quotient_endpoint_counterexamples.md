@@ -94,15 +94,3 @@ images; they do not exclude other moving families. The conductor of a
 nonreduced modification cannot be substituted for the normalization
 conductor of its reduction. Arithmetic reduction and fixed-field image
 formation have separate quantifiers.
-
-## Review
-
-The source has a separate review, including its characteristic-three calculation; finite arithmetic was checked separately. The legacy R-0021 keeps its own scope and review.
-
-Independent reconstruction review, 2026-11-04: reviewer
-pilot_review_hilbert accepted the exact R-0054 route after reconstructing
-the endpoint lattices, conductor proof, type-two local algebra and
-fixed-field characteristic distinctions. The reviewer independently
-recomputed the evaluation determinant 1505/7962624, coefficient determinant
-36, truncated nilpotent identity, and characteristic-two and
-characteristic-three reductions. No blocker was found. Reconstruction acceptance is limited to the stated characteristic cases. Integral flatness and the separate legacy R-0021 proof were outside this review.
