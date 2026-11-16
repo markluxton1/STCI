@@ -86,20 +86,4 @@ limit can have additional generators. This result neither classifies
 attracting sets nor proves that any such set contains a supported
 complete intersection, and it establishes no universal STCI obstruction.
 
-## Review
-
-Independent reconstruction review accepted the exact height-two
-generator criterion, regular-sequence argument, and finite cutoff
-conditional on \(\operatorname{reg}_S J\le r\), including the required
-base-change and fiber qualifications for matrix tests. The reviewer
-reconstructed the proof, compared the declared source, and found no
-blocking mathematical correction or lost contribution. No mathematical
-computation was needed. No numerical cutoff, nonempty incidence,
-attracting-locus classification, or coverage theorem was accepted.
-The review covers only the stated criterion and matrix tests.
-
-The source frames this as a geometric research formulation. It asserts no classification. This framing is distinct
-from the independent acceptance of this algebraic route; the surrounding
-attracting-locus questions remain open. This acceptance does not cover
-the composite trace corollary STCI-R-0040, whose separate reconstruction
-decision is recorded in its own Result.
+The criterion does not supply a numerical cutoff, nonempty incidence, attracting-locus classification, or coverage theorem.
