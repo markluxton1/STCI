@@ -275,29 +275,9 @@ saturated initial symbols. This branch is not empty: H=K=0
 gives generic length four and residual support. No classification of its
 higher contact is needed for the conclusion.
 
-## 6. Scope, prior exclusions, and stopping decision
+## 6. Scope of the correction obstruction
 
-The [mixed-weight contact calculation](residual_contact_cycles.md#exact-degree-six-branch-contact-on-a-mixed-weight-sextic)
-fixes a carrier \(q^3+\alpha c_0^2+\beta c_2^2\),
-\(\alpha\beta\ne0\). Its [test-curve and weighted-subalgebra
-extensions](../curve/carrier_test_curves.md) retain their actual
-carrier and boundary hypotheses. Arbitrary quartic corrections in (1)
-are not covered by fixing those sources. The
-[quadric common-boundary construction](../equations/global_equation_jets.md#constructive-interface-on-the-quadric)
-also has different hypotheses: (2) leaves different endpoint rulings for
-the two equations. None of these scoped exclusions is being rerun or
-expanded to justify the present full correction calculation.
-
-The result closes this whole explicit elementary-modification source
-and gives its uniform positive residual floor, conditional in the zero-T
-branch on the separately proved actual-pair blowup inequality. It supplies no exclusion
-of all sextic pairs, all elementary modifications, or unrestricted STCI.
-One successful source would have settled existence; failure of this
-source has no exhaustive implication. The reusable calculation is to
-compare the required normal correction with the restriction image of the
-actual global linear system, retaining every correction allowed by the
-construction. It generalizes as a method, not as an already proved
-all-degree theorem. No larger-m or higher-degree sequence is selected.
+The construction permits the full affine correction space in (1), rather than the fixed carriers of the [mixed-weight contact calculation](residual_contact_cycles.md#exact-degree-six-branch-contact-on-a-mixed-weight-sextic). The [quadric common-boundary construction](../equations/global_equation_jets.md#constructive-interface-on-the-quadric) has different endpoint rulings. The zero-\(T\) residual floor uses the separately established actual-pair blowup inequality. The exclusion applies to this explicit elementary-modification source, not all sextic pairs, elementary modifications, or STCI presentations.
 
 ## 7. Characteristic boundary and connection with absorption
 
