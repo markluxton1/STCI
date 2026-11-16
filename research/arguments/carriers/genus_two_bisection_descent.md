@@ -3,7 +3,7 @@
 This is a distinct conditional conductor argument. Under the actual
 genus-two bisection hypotheses, the [second-pencil/global ribbon proof](genus_two_bisection_proof.md)
 provides an actual Cartier double `2c~2H` with a section Q whose entire
-divisor is2c. It need not be an ambient quadric. If a degree2n mate existed,
+divisor is `2c`. It need not be an ambient quadric. If a degree-`2n` mate existed,
 its pullback would be a scalar multiple of Q^n on the normal projective
 normalization. The argument below keeps the extra quadratic section and
 its full conductor, including nilpotents; it is not an open list of
@@ -11,7 +11,7 @@ quartic mates after the global ribbon contradiction.
 
 ## 1. The extra quadratic section and its entire conductor restriction
 
-The [entire-conductor audit](genus_two_entire_conductor_proof.md)
+The [entire-conductor proof](genus_two_entire_conductor_proof.md)
 gives the actual reduced conductor line `Gamma` and the exact sequence
 
     0 -> O_X -> nu_*O_S -> O_Gamma(-2) -> 0.
@@ -80,10 +80,7 @@ factors are included in this reasoning.
 Craighero--Gattazzo's 1986 theorem excludes exactly this degree pair for
 the literal Cremona quartic over an algebraically closed field of
 characteristic different from `2,3`, hence in characteristic zero.
-The primary PDF was checked live on 2026-10-10: its abstract on printed
-page 177 states the characteristic hypotheses, and Proposition 4 on
-printed page 187 is the two-quartic exclusion. See
-[the primary paper](https://www.numdam.org/item/RSMUP_1986__76__177_0.pdf).
+The characteristic hypotheses and two-quartic exclusion appear in Proposition 4 of [the primary paper](https://www.numdam.org/item/RSMUP_1986__76__177_0.pdf).
 This use is only a `(4,4)` exclusion, not an unrestricted non-STCI
 theorem. Consequently `m!=0`.
 
