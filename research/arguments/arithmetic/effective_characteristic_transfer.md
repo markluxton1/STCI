@@ -2,7 +2,7 @@
 
 **Status, October 31, 2026: independently reviewed theorem.** This note
 derives a quantitative consequence of the finite rank-incidence construction
-in [the arithmetic degree-bound note](arithmetic_root_collision.md#arithmetic-degree-bounds-missing-jets-and-actual-non-binomial-equations).
+in [the arithmetic degree-bound note](arithmetic_equations_and_jet_gaps.md).
 It does not resolve the unrestricted characteristic-zero STCI question.
 
 Let

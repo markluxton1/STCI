@@ -1,6 +1,0 @@
-# Reproducible interpreter and editor byproducts.
-__pycache__/
-*.py[cod]
-.DS_Store
-.mypy_cache/
-.pytest_cache/

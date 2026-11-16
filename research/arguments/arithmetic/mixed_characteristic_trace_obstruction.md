@@ -235,7 +235,7 @@ lift does not exclude a horizontal component of the full incidence: the
 elementary model \(xy=p\) at \((0,0)\) has no unramified lift but
 does have the ramified lift \(x=y=\pi,\ \pi^2=p\).
 
-The [full arithmetic incidence](arithmetic_root_collision.md#mixed-characteristic-lifting-on-the-full-incidence)
+The [full arithmetic incidence](arithmetic_equations_and_jet_gaps.md#mixed-characteristic-lifting-on-the-full-incidence)
 retains both arbitrary equations, ramification and actual generic support.
 The [power-extraction theorem](prime_to_p_power_extraction.md) proves that
 no horizontal component passes through the prescribed points
