@@ -89,28 +89,4 @@ the extended Rees torsion filtration also remains open.
 
 ## Review
 
-The Phase 5 nonauthor reviewer accepted this route using R-0030 and R-0065.
-The reviewer reconstructed the resultant and full initial ideals, the
-graded Hilbert–Burch resolution, the strict lifts in the complete shifted
-modules, and the two graded augmentations that compare the Tor models
-from \(E_1\) onward. As a separate check of the page, rank and sign, the
-reviewer lifted the graded socle basis by \(s_i=y^{qi-1}D_{n-i}\) and found
-that \(s_i(e_x\wedge e_y)\) has differential \(s_{i+1}e_y\) in \(R/J\)
-for \(i<n\), and zero for \(i=n\). In weight \(a_{i+1}\) the target has
-connecting class \(\operatorname{in}_I(h_{i+1})\). The reviewer also checked
-the coprimality proof in arbitrary characteristic, the generator change
-along the affine line, and the separate projective scope. The reviewer
-inspected the verifier assertions and based the decision on the proofs.
-
-The October 24 review records two independent reconstructions of the
-recurrence, the full initial ideal by resultant and colength, the defect
-degrees, and the integral perturbation. It checks the difference between the
-lifted and graded Hilbert–Burch matrices, the \(q-2\) gap for \(q\ge3\), and
-the scope along the marked line.
-[October 24 recursive-family review](https://github.com/markluxton1/STCI/blob/737bfe4eacb93dfc1273228773695e1b55c72028/research/notes/2026-10-24-delta-singular-locus-review.md#L57)
-
-The historical primary agent inspected and replayed the two scripts. The
-separate independent executable check sampled the punctual family for three
-thickness parameters. The batch 4 replays and their scope are described with
-the proof.
-[Historical computation scope](https://github.com/markluxton1/STCI/blob/737bfe4eacb93dfc1273228773695e1b55c72028/research/notes/2026-10-24-delta-singular-locus-review.md#L75)
+The resultant and colength calculation, strict shifted Hilbert–Burch resolution, pagewise identification and integral-carrier perturbation are proved in [A-0009](../arguments/normal_koszul_cancellation.md#the-recursive-family-and-its-cancellation-page). Projective claims concern only the affine marked-line calculation.
