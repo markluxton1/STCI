@@ -83,11 +83,4 @@ not classified here. A finite quotient does not record boundary cycles,
 attachment, or endpoint schemes, and quotient flatness does not on its
 own establish projective-image flatness.
 
-## Review
-
-Independent reconstruction by the nonauthor reviewer pilot_review_sextic
-accepted this route on November 4, 2026. The reviewer reconstructed the primitive monomial degree formula,
-its inseparable-degree qualification, the dense-torus product, finiteness
-from properness, and generic local multiplicities. Acceptance makes no
-inference from quotient data alone to boundary or endpoint geometry.
-
+Quotient data alone does not determine boundary or endpoint geometry.
