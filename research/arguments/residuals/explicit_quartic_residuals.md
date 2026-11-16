@@ -140,7 +140,7 @@ M_C(W)=B_C^{\mathrm{val}}(R)
 =\sum_{d_{2,3}(u)=0}[u],
 \]
 
-with 18 distinct terms. Both cycles have degree 18, just as the distinguished \(Z\) has valuative contact degree 18. Their support and coefficients differ: for \(Z\), multiplicity excess is \(3p+3q\) and valuative contact is \(9p+9q\). A total contact degree cannot distinguish these configurations.
+with 18 distinct terms. Both cycles have degree 18, just as the distinguished \(Z\) has valuative contact degree 18. Their support and coefficients differ: for \(Z\), multiplicity excess is \(3p+3q\) and valuative contact is \(9p+9q\). A total contact degree cannot distinguish these configurations. The comparison concerns actual residual contact cycles; it makes no claim that equal contact degree determines either the first-normal determinant divisor or the residual component structure.
 
 At both distinguished endpoints this example has \(e_p(W)=e_q(W)=m_C=1\), while residual components are present elsewhere. This is a concrete benchmark against any strategy that fixes those two points in advance. An adaptive witness must be allowed to move.
 
