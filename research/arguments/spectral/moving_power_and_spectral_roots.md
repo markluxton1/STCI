@@ -434,17 +434,12 @@ is restricted to finite orders. To progress toward an STCI exclusion, one
 must use a new independent relation, Gorenstein/socle constraints, actual
 global equations, or another condition beyond this principal-relation tower.
 
-### 7. Audit verdict
-
-The uniform obstruction bundle, vanishing inequality, ambient induction, initial relation sheaves, and Cohen–Macaulay conclusion hold with the constant determinant factor explicit and truncation \(J_N=(p,I^N)\), \(N=r+g\). This does **not** imply a global carrier or STCI theorem.
-
 ---
 
 <a id="2026-10-14-generalization-spectral-root-curve-relations"></a>
 
 ## Root-curve descent and the geometry of moving binary relations
 
-Date: 2026-10-14. Status: **new structural theorem, independently reviewed**.
 This note generalizes the relation-bundle viewpoint, rather
 than enumerating further carrier degrees. The accepted moving-power
 second-relation obstruction and its independent audit are premises. No
