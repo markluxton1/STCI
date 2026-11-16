@@ -536,11 +536,11 @@ identifying these root classes with the filtered-Čech differentials, or with
 either Koszul spectral sequence, has been established. The finite-source
 calculation instead supplies a rigorously separate compatibility filter.
 
-## Evidence and computation boundary
+## Exact sextic source-image certificate
 
-Independent reviews checked the filtered Čech indexing, quartic and exact sextic cutoffs, octic application, split-quadric family bound, intrinsic deficit, \(G_3\) section extension, and general flag recursion. The recursion counts the **actual image** \(J\) unless surjectivity is proved; nonzero \(H^1\) alone is not failure.
+The [rational Čech calculator](../../computations/sextic_global_jet_cech.py) checks both normal frames, signs, and Laurent gaps. It gives source dimensions \(33,49,34,23,23\), quadratic-symbol ranks \(33,33,33,22,22\), and connecting ranks \(0,0,15,11,0\). Pure cubics have connecting rank \(15\), while the surviving \(q^3\) direction has zero fifth-order obstruction. An independent 28-generator two-chart span has source rank \(23\), quadratic rank \(22\), and combined rank \(23\) with the Čech basis, establishing equality of the computed source subspaces.
 
-The [retained rational calculator](../../computations/sextic_global_jet_cech.py) was run in the original review with SymPy 1.14.0 (SHA256 2f2b84549cb7dbc8cd8a6c402a2795730fd08986dc2fc51a50c3445ee4ccf00d). It checked both chart frames, Laurent gaps, signs, and freedoms, giving dimensions \(33,49,34,23,23\), quadratic ranks \(33,33,33,22,22\), connecting ranks \(0,0,15,11,0\), rank 15 on pure cubics, and zero order-five obstruction on the surviving \(q^3\) direction. An **independent 28-generator two-chart span** had rank 23, quadratic rank 22, and combined rank 23 with the Čech basis, verifying actual source-subspace equality, not merely dimensions. The calculator was **not rerun for consolidation**. These checks imply no finite-field extrapolation, root-incidence elimination, or actual pair. The uniform proofs are [finite normal jets](../residuals/finite_normal_jets.md) and [global lifting interfaces](global_lifting_interfaces.md).
+The filtered recursion measures the **actual image** \(J\): nonzero \(H^1\) alone does not establish failure of lifting. These calculations establish neither a finite-field extension nor a supported pair. The uniform arguments are [finite normal jets](../residuals/finite_normal_jets.md) and [global lifting interfaces](global_lifting_interfaces.md).
 
 ## Consolidated order-one carrier and defect bounds
 
