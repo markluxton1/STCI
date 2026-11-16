@@ -11,7 +11,7 @@ proofs:
     review:
       state: accepted
       basis: reconstructed
-      at: "#review"
+      at: "#statement"
 ---
 # Actual coefficient kernels and the exact complete-intersection test for a constant quotient
 
