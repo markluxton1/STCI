@@ -156,7 +156,7 @@ conductor-power descent also remain unresolved.
 
 The monic coefficient recursion gives necessary equations, not a global exclusion. The proposed eliminations omit exceptional parameter strata and cannot close the \(h=2\) branch. The original computational certificate below remains available because its standalone file is no longer present on this branch; its hypotheses and failure cases must not be discarded.
 
-### Archived exact certificate: `research/computations/verify_session_nonendpoint_h2_classification_2026_10_13.m2`
+### Exact computational source: `research/computations/verify_session_nonendpoint_h2_classification_2026_10_13.m2`
 
 Original source retained verbatim, with original limitations and relative-path assumptions.
 
