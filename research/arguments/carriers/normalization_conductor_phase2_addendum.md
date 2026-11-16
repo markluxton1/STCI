@@ -378,7 +378,7 @@ The intersection of the strict sextic with \(Q'\) has ruling class \((4,0)\). Co
 
 Accordingly, a remaining actual pair under these hypotheses must exhibit **either** nonnormality at a multiplier-zero root point **or** this precise singular trisecant ruling line. This is a conditional classification, not an exclusion. See the [reviewed source](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus), section 7.
 
-## Exact failed seed: the row also kills the free lift
+## Explicit torsion-two seed failing the cubic lift
 
 For the smooth torsion-two seed
 \[
@@ -388,7 +388,7 @@ f_0=(z^2+4)u^2+(z^2-8)v^2,\quad
 \]
 the multiplier \(\alpha_0\) is the unique projective solution of all eleven global quadratic-symbol equations. The [exact source and independent linear-algebra reconstruction](../spectral/rank_strata_and_sextic_lifts.md#2-independent-linear-algebra-reconstruction) give an annihilating row of the 23 global sextic columns and 16 correction columns, pairing to \(-384\) with \((\alpha_0f_0,\alpha_0G_0)\). The row also annihilates the free \(q^3\) cubic direction \((u+zv/2)^3\). Hence the 39-column coefficient system has rank 39 and augmented rank 40: **no global sextic lift exists for this seed, even after adding \(q^3\)**. The seed independently fails the second obstruction. This does not eliminate other roots, singular-root strata, or the global mate incidence. [Exact reproduction boundary](../spectral/rank_strata_and_sextic_lifts.md#9-reproduction-and-verification-limits).
 
-## What the conditional (6,16) computation actually tests
+## Necessary tests for the conditional (6,16) pair
 
 The conditional movement-two root of bidegree \((2,2)\) must pass **distinct** tests: abstract spectral gluing; the actual rank-22 global sextic-symbol image (23-dimensional source, kernel \(kq^3\), eleven conditions); cubic lifting; and, **assuming an actual supported pair**, the conductor restriction that the multiplier has a multiple base zero or vanishes at a root node. None is a sufficient construction of a \((6,16)\) STCI. In particular, the rejected nonfinite nodal normalization does not exclude the nodal stratum. The [spectral-root framework](../../frameworks/spectral-roots/index.md#bridges) distinguishes proved implications from proposed bridges.
 
