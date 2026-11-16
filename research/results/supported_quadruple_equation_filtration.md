@@ -72,4 +72,4 @@ in \(Q\) and sole reduced support is compatible with vanishing of
 
 ## Review
 
-The full free-algebra, relative initial-ideal and equation-filtration proof is retained in [A-0010](../arguments/punctual_comparison_defects.md#a-supported-quadruple-torsion-in-q-is-not-enough). The relative defect vanishes despite torsion in both comparison modules.
+The free supported algebra and full equation filtration are retained in [A-0010](../arguments/punctual_comparison_defects.md#a-supported-quadruple-torsion-in-q-is-not-enough). Torsion in both comparison modules survives while the defect vanishes.
