@@ -2,7 +2,7 @@
 
 ## Proof-dependency map: conditional exclusions and exceptional loci
 
-The [strict-surface argument](#nonnormal-conductor-budget-and-local-escape-models), [exceptional-locus proof](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus), [conductor continuation](#2026-10-21-conditional-2-12-surface-audit-cont2), and [free-orbit exclusion](#2026-10-21-cont2-free-orbit-global-sextic-exclusion) impose distinct restrictions on **actual supported** \((2,12;6,16;2)\) pairs. They depend on the [symbol realization tests](#2026-10-20-conditional-2-12-global-realization-incidence) and [singular conductor interface](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface). A restriction on one root orbit or singularity stratum is not an exclusion of the whole \((2,12)\) locus. The explicit calculations and exceptional cases below remain authoritative.
+The [strict-surface argument](#nonnormal-conductor-budget-and-local-escape-models), [exceptional-locus proof](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus), [conductor continuation](#2026-10-21-conditional-2-12-surface-audit-cont2), and [free-orbit exclusion](#2026-10-21-cont2-free-orbit-global-sextic-exclusion) impose distinct restrictions on **actual supported** \((2,12;6,16;2)\) pairs. They depend on the [symbol realization tests](conditional_2_12_surface_and_symbol_geometry.md#2026-10-20-conditional-2-12-global-realization-incidence) and [singular conductor interface](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface). A restriction on one root orbit or singularity stratum is not an exclusion of the whole \((2,12)\) locus. The explicit calculations and exceptional cases below remain authoritative.
 
 ## Nonnormal conductor budget and local escape models
 
@@ -659,7 +659,7 @@ saturated-first-relation application uses the hypotheses of
 [STCI-R-0010](../../results/saturated_first_relation_normal_flatness.md) and
 the separately supplied finite singular-root bridge. The new global
 source map is the previously recorded
-[exact sextic symbol calculation](#2-the-exact-global-k-linear-symbol-map).
+[exact sextic symbol calculation](conditional_2_12_surface_and_symbol_geometry.md#2-the-exact-global-k-linear-symbol-map).
 
 The exact new computations are:
 
