@@ -759,11 +759,11 @@ chart `t=1` is `Spec B`, so it really has a singular point above this smooth
 conic. This gives a projective set-theoretic complete-intersection example,
 with generic multiplicity two, rather than only a formal local model.
 
-An independent SymPy calculation on 2026-10-09 verified the normalization
-substitution modulo `v^2-4*x*g`, the displayed discriminant, the rational
-inverse identity, `F_g|C`, and the squared conic plane section. All remainders
-were zero where required. These calculations check identities; the arguments
-above establish normality, finiteness, irreducibility, and divisor behavior.
+The normalization substitution modulo `v^2-4*x*g`, discriminant,
+rational inverse identity, `F_g|C`, and squared conic plane section
+admit direct polynomial checks. These identities alone do not establish
+normality, finiteness, irreducibility, or divisor behavior; those follow
+from the arguments above.
 
 No conclusion about the fixed degree-four curve `C0`, or the universal STCI
 problem, follows from this example.
