@@ -158,30 +158,8 @@ The proof handles every net direction and carries the fixed projection
 center throughout. It does not infer singularity merely from an isolated
 rank-one projection point.
 
-## 5. Evidence and continuation scope
+## 5. Exact checks and scope
 
-The independent [Macaulay2 companion](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_genus_one_211_interfaces_2026_10_10.m2)
-checks 42 exact identities over `QQ`: the net minors and basis kernels,
-derivative injectivity, the simple basepoint and its division, cross
-products, the exact remainder matrix and rank-two witness, its kernel,
-and the final four-root factorization with distinct extra image. The
-2026-10-10 interface audit recorded use of Macaulay2 1.26.06. The
-geometric fiber argument above supplies coverage over every
-algebraically closed characteristic-zero field.
+The [Macaulay2 companion](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_genus_one_211_interfaces_2026_10_10.m2) checks 42 identities over `QQ`, including net minors, derivative injectivity, divided basepoint, rank-two remainder and distinct extra image. The geometric argument establishes coverage over algebraically closed characteristic-zero fields. The [projection checker](https://github.com/markluxton1/STCI/blob/3a50e7675d965bd5fa15084189aaab750620bca3/research/computations/verify_session_genus_one_projection_2026_10_09.py) instead checks the uniform projection and an \(A_3+2A_1\) family; the [ribbon-net checker](https://github.com/markluxton1/STCI/blob/095b25c886c5df634187982507dfa66f2c7a15da/research/computations/derive_session_rnc_ribbon_net_2026_10_09.py) checks the net basis, derivatives and common-basepoint gcd.
 
-The audit corrected the earlier attribution of the divided cubic and
-its ensuing identities to
-[`verify_session_genus_one_projection_2026_10_09.py`](https://github.com/markluxton1/STCI/blob/3a50e7675d965bd5fa15084189aaab750620bca3/research/computations/verify_session_genus_one_projection_2026_10_09.py).
-That script checks the uniform projection and a displayed A3+2A1
-family, while
-[`derive_session_rnc_ribbon_net_2026_10_09.py`](https://github.com/markluxton1/STCI/blob/095b25c886c5df634187982507dfa66f2c7a15da/research/computations/derive_session_rnc_ribbon_net_2026_10_09.py)
-checks the net basis, derivatives and common-basepoint gcd. The recorded
-older Python passes cover those assertions. [Evidence correction and independent checks](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/OCT10_BISECTION_AND_ENDPOINT_FOUNDATIONS.md#source-2026-10-10-session-genus-one-interface-independent-auditmd).
-
-Combined with the uniform necessary repeated-root condition, this
-argument leaves only conductor-contact partitions [4], [3,1], and [2,2]
-**at this intermediate stage**. Those three partitions are now excluded
-in the [separate repeated-partition proof](genus_one_ribbon_partition_proofs.md),
-so they are not open cases of the assembled genus-one quartic-carrier
-exclusion. Genus-two normalizations and higher carrier degrees remain
-outside the present argument.
+The intermediate conductor-contact partitions \([4],[3,1],[2,2]\) are excluded by the [repeated-partition proof](genus_one_ribbon_partition_proofs.md). Genus-two normalizations and higher carrier degrees are outside this argument.
