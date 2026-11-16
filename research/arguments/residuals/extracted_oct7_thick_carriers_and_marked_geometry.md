@@ -7,7 +7,7 @@ These eight conditional developments distinguish exact necessary constraints fro
 ## Normalization, conductor, and almost-Cartier support
 
 
-### 1. Audit of the existing conductor theorem
+### 1. Normalization and conductor criterion
 
 The normalization/conductor theorem says the following for an integral carrier X with finite normalization nu:S->X and full reduced inverse image
     W=(nu^{-1}(C))_red.
@@ -18,13 +18,12 @@ for some b>0; after taking a power, conductor descent is automatic.
 
 Therefore, in the clean-conductor case, conductor descent itself cannot supply a further asymptotic obstruction. The remaining obstruction is the existence/class of A.
 
-### 2. Literature connection not presently recorded in main
+### 2. Picard and almost-Cartier literature
 
 Hartshorne and Polini, "Divisor class groups of singular surfaces", Trans. AMS 367 (2015), develop exact sequences relating Pic(X), APic(X), Pic(S), and local data along the singular/conductor locus. The paper explicitly applies this framework to restrictions on set-theoretic complete-intersection curves in P3.
 
 This is more directly aligned with the present thick-carrier problem than generic conductor language alone.
 
-No novelty claim is made for the APic framework.
 
 ### 3. Correct reformulation
 
