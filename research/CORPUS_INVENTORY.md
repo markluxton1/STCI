@@ -2,7 +2,7 @@
 
 This is a **structural inventory, not a mathematical review or completed proof classification**. It is an agent entry point for the *existing* Results / Arguments / Frameworks / Investigations corpus. Its baseline is the head of `chatgpt/math-content-consolidation` (PR #136) when this inventory branch was created. Do not infer proof equivalence, independence, or correctness from metadata alone.
 
-For a file-by-file index of catalog-linked mathematical sources, see [CORPUS_FILE_INDEX.md](CORPUS_FILE_INDEX.md), extended by [87 verified Framework-linked files](CORPUS_LINK_CANDIDATES.md). Its coverage is explicitly partial until repository-wide paths are enumerated.
+For a file-by-file index of catalog-linked mathematical sources, see [CORPUS_FILE_INDEX.md](CORPUS_FILE_INDEX.md), extended by [87 verified Framework-linked files](CORPUS_LINK_CANDIDATES.md). The canonical [516-path snapshot inventory](CORPUS_TREE_INVENTORY.md) supersedes these preliminary partial indexes.
 
 ## Authoritative routes
 
@@ -19,7 +19,7 @@ The catalog currently indexes **71 typed Results, 9 typed Arguments, 9 Framework
 
 ## Structural recommendations (in progress)
 
-The [canonical 516-file inventory](CORPUS_TREE_INVENTORY.md) now includes a **structural status** and **proposed action / target** for every file. [Source-inspected transformation proposals](CORPUS_STRUCTURAL_PROPOSALS.md) record mathematical units, methods, dependencies and target decisions for selected Arguments; the [carrier](CORPUS_PROOF_ROUTES_CARRIERS.md) and [torus](CORPUS_PROOF_ROUTES_TORUS.md) route analyses distinguish theorem assemblies from case proofs and upstream lemmas. **These are preliminary proposals, not complete source-by-source coverage**: 188 Arguments still await source review and 71 catalog-linked plus 12 uncataloged Results await full proof-role classification. No mathematical content has been changed.
+The [canonical 516-file inventory](CORPUS_TREE_INVENTORY.md) now includes a **structural status** and **proposed action / target** for every file. [Source-inspected transformation proposals](CORPUS_STRUCTURAL_PROPOSALS.md) record mathematical units, methods, dependencies and target decisions for selected Arguments; the [carrier](CORPUS_PROOF_ROUTES_CARRIERS.md) and [torus](CORPUS_PROOF_ROUTES_TORUS.md) route analyses distinguish theorem assemblies from case proofs and upstream lemmas. **The structural review is complete:** all 210 Arguments, 83 Results-directory entries, 55 Frameworks, and 2 Investigations have cleanup dispositions in the canonical inventory. This is not a new mathematical proof audit. No mathematical content has been changed.
 
 ## Complete pinned-tree file inventory
 
