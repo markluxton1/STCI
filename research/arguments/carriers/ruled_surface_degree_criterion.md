@@ -284,7 +284,7 @@ new degree or characteristic.
 
 ## Review and application scope
 
-Independent reconstruction checked the minimal ruledness theorem against Mumford, canonical-intersection signs, nef descent through infinitely near centers, common-resolution invariance, inseparable-characteristic fiber bounds, and sharp product examples. It also checked the integral-gap refinement and sharp elliptic one-point-blowup examples, including nefness and infinitely near fiber-component divisibility. The degree-ten application assumes an **actual rational lift** and the stated resolution numerics. None of this extends quartic-carrier characteristic exclusions or proves carrier existence/STCI.
+The degree-ten application assumes an **actual rational lift** and the stated resolution numerics. None of this extends quartic-carrier characteristic exclusions or proves carrier existence/STCI.
 
 ## Consolidated historical source: `research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md`
 
