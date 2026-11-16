@@ -17,7 +17,7 @@ is proved independently of the remaining explanatory questions.
 
 Status: structural research note. Statements are labelled individually. This note does **not** prove that the rational quartic is not an STCI.
 
-### 0. Scope and audited starting point
+### 0. Scope and established starting point
 
 Work in characteristic zero on the fixed smooth monomial rational quartic
 \[
@@ -378,7 +378,7 @@ H^1(\operatorname{Hom}(M,L^2))=H^1(O(3e-7))
 \]
 explain why e=0,1,2 differ before any quartic rank count: their dimensions are 6,3,0.
 
-### G. Intrinsic geometric questions
+### G. Intrinsic geometric boundaries
 
 The coordinate e=1 obstruction and its complete reduced zero locus are
 proved in Sections J--K below. The remaining structural question is an
@@ -389,7 +389,7 @@ the rank-three matrix theorem is complete; a coordinate-free factorization
 through a natural rank-three space attached to the ruling fiber and
 extension class remains a distinct explanatory question.
 
-### H. Literature audit and novelty boundary
+### H. Established extension theory and remaining embedded problem
 
 The following primary antecedents identify the established extension machinery and the limits of a novelty claim.
 
