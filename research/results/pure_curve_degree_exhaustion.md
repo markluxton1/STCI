@@ -54,14 +54,3 @@ Purity of the containing curve cannot be omitted: an embedded point can
 be removed without changing degree. Generic equality alone is therefore
 insufficient. The statement does not infer properness of a pair from the
 existence of two independent sections.
-
-## Review
-
-The source review addressed its specific use of degree exhaustion. Extracting the general lemma required a separate reconstruction review.
-
-Independent reconstruction review, 2026-11-04: reviewer
-pilot_review_hilbert accepted the exact R-0056 route after reconstructing
-generic-length degree additivity, the finite-support remainder and its
-elimination by purity, and the regular-sequence and saturation application
-to a gcd-one homogeneous pair. Actual containment and purity are retained
-as essential hypotheses. No blocker was found. The reconstruction review accepts this independently reusable lemma within its stated scope.
