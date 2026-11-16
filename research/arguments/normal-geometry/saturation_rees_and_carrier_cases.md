@@ -745,9 +745,9 @@ at commit 93c0ca4519f0976bc9cbdba74fd75e5b5de2f719.
 
 ---
 
-## Consolidation status
+## Fixed-ruling implication and scope
 
-Use the final **Repair of the fixed-ruling STCI implication** rather than the retracted assertion that a mate meets a fixed ruling line only outside \(C\). The repair uses intersection multiplicity on the smooth quartic carrier. The earlier \(e=1\) quartic-mate frontier is superseded by [R-0001](../../results/quartic_carrier_exclusion.md); exact annihilator and higher-jet calculations remain useful. No new symbolic computation was performed here.
+The fixed-ruling STCI argument uses intersection multiplicity on the smooth quartic carrier; the assertion that a mate meets a fixed ruling only outside \(C\) is false. The quartic-mate exclusion is [R-0001](../../results/quartic_carrier_exclusion.md). The annihilator and higher-jet calculations below retain their separate hypotheses.
 
 ---
 
