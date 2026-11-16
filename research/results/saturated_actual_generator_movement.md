@@ -2,7 +2,6 @@
 id: STCI-R-0013
 title: "Saturated actual-generator rigidity and movement-one exclusion"
 kind: theorem
-status: proved
 scope:
   characteristic: "algebraically closed field of characteristic zero"
   curve: "fixed C0 in P3"
@@ -15,10 +14,9 @@ dependencies:
   - STCI-R-0001
   - STCI-R-0010
 evidence:
-  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
+  - "research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md"
 independent_audits:
-  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
-accepted_in: "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
+  - "research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -49,7 +47,3 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Does not apply without saturation, a full generic binary-CI initial ideal, or actual two-equation global STCI.
 - Movement zero and movement at least two are not excluded.
 - An abstract bundle sequence does not establish global embedded realizability.
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

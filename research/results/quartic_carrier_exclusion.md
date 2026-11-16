@@ -2,7 +2,6 @@
 id: STCI-R-0001
 title: Complete exclusion of integral quartic carriers of the fixed rational quartic
 kind: theorem
-status: proved
 scope:
   characteristic: "algebraically closed fields of characteristic zero"
   curve: "C0 = [s^4:s^3t:st^3:t^4] in P3, and its projective equivalents"
@@ -12,15 +11,14 @@ scope:
 statement: "For every such X and G, the set V(X,G) is not C0."
 dependencies: []
 evidence:
-  - "research/synthesis/quartic_carrier_proof.md"
-  - "research/supplements/GENUS_TWO_AMBIENT_CONIC_MODEL_PROOF.md"
-  - "research/supplements/GENUS_TWO_BISECTION_PROOF.md"
-  - "research/supplements/GENUS_TWO_NONENDPOINT_PROOF.md"
-  - "research/supplements/GENUS_TWO_ENDPOINT_PROOF.md"
-  - "research/supplements/GENUS_TWO_ENDPOINT_LOCAL_CORRECTIONS.md"
+  - "research/arguments/carriers/quartic_carrier_proof.md"
+  - "research/arguments/carriers/genus_two_ambient_conic_model_proof.md"
+  - "research/arguments/carriers/genus_two_bisection_proof.md"
+  - "research/arguments/carriers/genus_two_nonendpoint_proof.md"
+  - "research/arguments/carriers/genus_two_endpoint_proof.md"
+  - "research/arguments/carriers/genus_two_endpoint_local_corrections.md"
 independent_audits:
-  - "research/synthesis/quartic_carrier_proof.md#9-review-state"
-accepted_in: "research/synthesis/quartic_carrier_proof.md"
+  - "research/arguments/carriers/quartic_carrier_proof.md#9-verification-and-logical-boundaries"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -43,7 +41,7 @@ The theorem is invariant under projective equivalence of this embedding.
 There is no restriction on normality, normalization singularities,
 conductor scheme, mate degree, or generic normal order of the mate.
 
-The [complete current proof](../synthesis/quartic_carrier_proof.md) owns the
+The [complete current proof](../arguments/carriers/quartic_carrier_proof.md) owns the
 shared reductions, normal-case argument and exhaustive assembly. For a
 nonnormal carrier, normalized sectional genus is zero, one or two; the
 proof derives rationality, generic regularity and full inverse support
@@ -58,7 +56,7 @@ quartic-pair theorem.
 The current proof links every specialized full argument and necessary exact
 computation, and records the scope of reused independent review. The
 original accepted assembly dates from October11; consolidation changes its
-proof organization, not its quantifiers or theorem status.
+proof organization, not its quantifiers or mathematical conclusions.
 
 ## Consequences and boundaries
 
@@ -68,7 +66,7 @@ as mate. The plane, unique-quadric and classical cubic exclusions, followed
 by this theorem, force every irreducible factor to have degree at least
 five. In particular both defining degrees are at least five, even for
 reducible or repeated equations. The [factor argument and cubic literature
-input](../synthesis/05-exclusions.md#52-factors-and-the-degree-bound) give the
+input](../frameworks/carrier-normalization/degree_exclusions.md#52-factors-and-the-degree-bound) give the
 precise reduction.
 
 The unrestricted characteristic-zero existence question remains **open**.
@@ -77,15 +75,13 @@ compute common-quartic ancestor incidence, or exclude arbitrary higher-
 degree carriers and entirely thick pairs.
 
 In **every characteristic \(p>0\)**, the fixed \(C_0\) is an STCI using
-a quartic carrier. The [actual construction](../supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md#every-positive-characteristic-quartic-carrier)
-and [mechanism-by-mechanism boundary](../synthesis/quartic_carrier_proof.md#8-what-changes-in-positive-characteristic)
+a quartic carrier. The [actual construction](../arguments/arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier)
+and [mechanism-by-mechanism boundary](../arguments/carriers/quartic_carrier_proof.md#8-what-changes-in-positive-characteristic)
 explain why the characteristic-zero proof cannot be transported unchanged.
 
 ## Earlier partial mechanisms
 
-The theorem closes the earlier quartic-*mate* open labels in
+The quartic-mate exclusion subsumes the earlier partial cases in
 [normal carriers](normal_carriers.md), [order-one structures](order_one.md),
-[primitive e2 incidence](quartic_e2.md) and MF6. Their distinct normal,
-conductor, primitive, local-cohomology and ancestor calculations remain
-useful in their stated scopes. A no-mate theorem does not prove a separate
+[primitive e2 incidence](quartic_e2.md) and MF6. Those records retain distinct normal, conductor, primitive, local-cohomology and ancestor calculations. A no-mate theorem does not prove a separate
 common-ancestor incidence empty.

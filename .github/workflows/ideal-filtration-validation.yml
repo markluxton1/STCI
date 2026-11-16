@@ -5,9 +5,13 @@ on:
     paths:
       - 'research/computations/verify_ideal_filtration_*.py'
       - 'research/computations/verify_delta_singular_*'
-      - 'research/computations/validate_records.py'
-      - 'research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md'
-      - 'research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md'
+      - 'research/computations/verify_delta_conormal_annihilator_2026_10_24.m2'
+      - 'research/arguments/filtered_equation_comparison.md'
+      - 'research/arguments/normal_koszul_cancellation.md'
+      - 'research/arguments/punctual_comparison_defects.md'
+      - 'research/arguments/transverse_specialization.md'
+      - 'scripts/research.py'
+      - 'scripts/requirements-research.txt'
       - '.github/workflows/ideal-filtration-validation.yml'
   push:
     branches:
@@ -16,6 +20,7 @@ on:
       - '.github/workflows/ideal-filtration-validation.yml'
       - 'research/computations/verify_ideal_filtration_*.py'
       - 'research/computations/verify_delta_singular_*'
+      - 'research/computations/verify_delta_conormal_annihilator_2026_10_24.m2'
   workflow_dispatch:
 
 jobs:
@@ -27,21 +32,22 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Check exact arithmetic scripts and canonical metadata
+      - run: python3 -m pip install -r scripts/requirements-research.txt
+      - name: Check exact arithmetic scripts and research record structure
         run: |
           set -euo pipefail
           python3 -B research/computations/verify_ideal_filtration_counterexamples_2026_10_23.py
           python3 -B research/computations/verify_ideal_filtration_completeness_2026_10_23.py
           python3 -B research/computations/verify_ideal_filtration_quartic_lifting_2026_10_23.py
           python3 -B research/computations/verify_delta_singular_identities_2026_10_24.py
-          python3 -B research/computations/validate_records.py
+          python3 -B scripts/research.py validate
 
   macaulay2-rees:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
-      - name: Install Macaulay2 (repository-established apt method)
+      - name: Install Macaulay2
         run: |
           sudo apt-get update
           sudo apt-get install -y macaulay2
@@ -50,3 +56,4 @@ jobs:
           set -euo pipefail
           M2 --version
           M2 --script research/computations/verify_delta_singular_families_2026_10_24.m2
+          M2 --script research/computations/verify_delta_conormal_annihilator_2026_10_24.m2

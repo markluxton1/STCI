@@ -2,7 +2,6 @@
 id: STCI-R-0017
 title: "Degree-sixteen singleton plane projection family without mates"
 kind: theorem
-status: proved
 scope:
   characteristic: "algebraically closed field of characteristic zero"
   curve: "fixed C0 in P3"
@@ -14,10 +13,9 @@ dependencies:
   - STCI-R-0002
   - STCI-R-0003
 evidence:
-  - "research/supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md"
+  - "research/arguments/carriers/projection_support_differential_obstructions.md"
 independent_audits:
-  - "research/supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md"
-accepted_in: "research/supplements/PROJECTION_SUPPORT_AND_DIFFERENTIAL_OBSTRUCTIONS.md"
+  - "research/arguments/carriers/projection_support_differential_obstructions.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -47,7 +45,3 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Does not exclude every degree-sixteen plane-normalization projection or every Cartier singleton model.
 - For nonbirational parameter values the image does not give an additional degree-sixteen normalization.
 - Reduced inverse support alone does not imply conductor descent.
-
-## Current mathematical evidence
-
-The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not promote an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.

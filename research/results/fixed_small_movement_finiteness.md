@@ -2,7 +2,6 @@
 id: STCI-R-0015
 title: "Finite arithmetic possibilities for each movement one through eight"
 kind: reduction
-status: exact_reduction
 scope:
   characteristic: "algebraically closed field of characteristic zero"
   curve: "fixed C0 in P3"
@@ -13,10 +12,9 @@ statement: "For each fixed epsilon in 1,...,8 only finitely many numerical tuple
 dependencies:
   - STCI-R-0013
 evidence:
-  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
+  - "research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md"
 independent_audits:
-  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
-accepted_in: "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
+  - "research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -44,7 +42,3 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 
 - No finiteness conclusion is claimed for epsilon>=9.
 - Finite arithmetic lists are not realizability lists or STCI classifications.
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

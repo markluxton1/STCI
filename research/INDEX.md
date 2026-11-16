@@ -1,68 +1,43 @@
 # Intersections and multiple structures through the fixed quartic
 
 Fix an algebraically closed field and the embedding
-\(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\). In characteristic zero,
-its STCI status is **open**. In every characteristic \(p>0\), a quartic
-carrier has a mate defining this same curve. Exact characteristic hypotheses
-are stated with each proof; the characteristic-zero quartic exclusion does
-not extend unchanged to positive characteristic.
+\(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\). Its unrestricted STCI status in
+characteristic zero is **open**. Any defining pair in characteristic zero
+would have both degrees at least five by the
+[quartic carrier exclusion and factor reduction](results/quartic_carrier_exclusion.md).
+The same curve has a [quartic carrier presentation in every positive characteristic](arguments/arithmetic/positive_characteristic_constructions.md).
 
-The account asks which proper intersections contain this curve, which embedded
-multiple structures actual homogeneous equations realize, and what normalization,
-projection and deformation constructions produce. For a proper degree-\((a,b)\)
-pair, write \([V(F,G)]=m[C_0]+R\), where \(R\) is the effective residual cycle;
-then \(ab=4m+\deg R\). Sole support is the case \(R=0\). Describing attainable
-multiplicities, residual cycles, ACM or AG structures, and useful geometry of
-other curves is worthwhile even when it does not decide STCI.
+A proper degree-\((a,b)\) pair through \(C_0\) gives the cycle
+\([V(F,G)]=m[C_0]+R\), with \(ab=4m+\deg R\). Generic length,
+exceptional contact, and the residual projective cycle play different
+roles. Sole support is the case \(R=0\).
 
-This index offers approaches before selecting a program. For connections use
-the [mechanism map](MAP.md); for exact current claims use the
-[result records](results/INDEX.md); for concrete unresolved implications use
-[the frontier](FRONTIER.md). None of these navigation pages is an extra theorem.
+To develop or compare approaches, start with the [framework map](MAP.md).
+For the embedding itself, see the [fixed curve geometry](arguments/curve/fixed_quartic_geometry.md)
+and [special plane and line sections](arguments/curve/special_plane_and_line_sections.md).
+Find exact claims in the [catalog](CATALOG.md) and external sources in the
+[shared literature](literature/README.md).
 
-## Choose by the mathematical question
+## Find a statement, proof, or open question
 
-| Question or approach | Mathematical entry | Reach and missing step |
+Use `python3 scripts/research.py show ID` for a known claim, its proof routes
+and declared consumers. For a lane, start with the links below or run
+`python3 scripts/research.py route <lane> --compact`. Pass selected addresses
+to `python3 scripts/research.py section ADDRESS [ADDRESS ...]`. The route
+without `--compact` expands the starting sections.
+
+| Lane | Starting sections | Proofs, controls, and open dependencies |
 | --- | --- | --- |
-| Which multiplicities and residual cycles occur? | [Two surfaces and actual cycles](synthesis/02-two-surfaces.md), [residual geometry and jets](synthesis/residual_intersections_and_jets.md) | Actual constructions and bounds on specified families; no universal residual floor or monotonicity in the equation degrees is assumed |
-| What would two global equations amount to? | [Global equations, Chow forms, complements and bundles](synthesis/global_equations_and_constructions.md), [exact Chow bundle maps](synthesis/chow_bundle_maps.md), [section obstructions](synthesis/complement_section_obstructions.md) | Exact equivalents and constructions; an equivalent test still needs a pair or an obstruction covering every pair |
-| Can the curve's torus symmetry organize the search? | [Full flat limits and supported deformations](synthesis/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary), [explicit sextic residuals and limits](synthesis/toric_sextic_residuals_and_limits.md), [weight restrictions](supplements/EQUIVARIANT_DEGREE_BOUNDS.md) | Full limits retain Hilbert data but can need extra generators. The provisional sharp quotient-length bound is eight for eigenform sextics, in every characteristic; mixed-weight and supported deformation questions remain distinct |
-| What does a finite torus quotient descend to? | [Embedded quotients and endpoint descent](synthesis/toric_quotients_and_endpoint_descent.md), [full finite modification](synthesis/tropical_thickenings_and_endpoint_duality.md), [toric torsion and endpoint contacts](synthesis/toric_torsion_and_endpoint_contacts.md) | A prescribed-degree test recovers actual homogeneous source spaces; isomorphic abstract algebras can have different images. A constant quotient does not replace the moving embedded family required for a characteristic-zero sole-support CI |
-| Can an ACM thickening be constructed downstairs? | [Projected section defects](synthesis/projected_thickening_section_defects.md), [supported sources upstairs](synthesis/supported_linkage_operations.md) | ACM on the quadric threefold need not survive projection to P3; the stated power and binary-mixture images fail when the degree product is nonzero, while other actual sources remain open |
-| Which low-degree carriers cannot admit sole-support mates? | [Quartic carriers](synthesis/quartic_carrier_proof.md), [Gorenstein-normalized nonnormal quintics](synthesis/quintic_gorenstein_normalizations.md), [quintic–octic ADE constraint](synthesis/quintic_octic_surface_constraints.md) | Fixed embedding, characteristic zero; the quintic carrier theorem excludes every mate degree under its normalization hypothesis, while the ADE theorem concerns degree (5,8) |
-| Why does positive characteristic allow quartic carriers? | [Positive-characteristic constructions](supplements/POSITIVE_CHARACTERISTIC_CONSTRUCTIONS.md), [arithmetic jet gaps](supplements/ARITHMETIC_EQUATIONS_AND_JET_GAPS.md), [lifting precision](supplements/FROBENIUS_POWER_LIFTING_PRECISION.md), [toric torsion and endpoint contacts](synthesis/toric_torsion_and_endpoint_contacts.md) | Explicit equations in every p>0; degree transfer, prescribed embedded lifts and ramification have separate quantifiers, and all-pair growth remains conditional |
-| How do full torus limits organize supported ideals and two-generation? | [Attracting strata and generator incidence](synthesis/torus_attracting_strata_and_generator_incidence.md), [geometric Hilbert-boundary synthesis](synthesis/geometric_integration_and_hilbert_boundary.md) | Both opposite full-ideal limits refine the bounded supported Hilbert locus; two-generation concerns moving ideals, not necessarily their fixed limits. No exhaustive stratification or obstruction theorem is claimed |
-| What do normalization and projection construct? | [Carriers and conductor](synthesis/04-carriers.md), [elliptic projection and gluing](synthesis/projection_and_elliptic_gluing.md), [quadratic conductor boundary](synthesis/quadratic_covers_and_conductor_descent.md) | Actual sections and normalized carriers must also pass full inverse support, polarization and conductor gluing; an abstract or local model can retain independent geometric value |
-| Can local multiple structures come from actual equations? | [Embedded infinitesimal geometry](synthesis/03-infinitesimal-geometry.md), [actual source spaces](supplements/ACTUAL_EQUATION_SPACES.md), [punctual extensions and columns](synthesis/punctual_quadric_extensions.md) | Saturation, duality, roots, finite jets and source images; formal or graded existence does not supply a proper global pair |
-| What does a syzygy rank jump measure geometrically? | [Spectral pushforward powers](synthesis/spectral_pushforward_powers.md), [determinant schemes and graded families](synthesis/spectral_determinant_schemes.md), [order-three roots and actual sextics](synthesis/order_three_roots_and_sextic_lifts.md) | Picard torsion determines splitting and supplies graded families, including nonreduced parameter schemes; the actual embedded equation operator remains an additional condition |
-| How much infinitesimal data determines actual equations? | [Global equation jets](synthesis/global_equation_jets.md), [actual octic and sextic comparison](synthesis/actual_octic_root_lift_comparison.md), [bounded equation certificates](synthesis/bounded_equation_certificates.md) | Intrinsic source filtrations and small lifting quotients; an actual proper octic pair has length eight along C0 and residual degree 32, while fixed-degree verification and all-degree search remain separate |
-| Can local cohomology obstruct two equations? | [Ancestor and all-stage obstructions](supplements/LOCAL_COHOMOLOGY_ANCESTOR_OBSTRUCTIONS.md), [actual tensor certificates](supplements/LOCAL_COHOMOLOGY_DEGREE15_CERTIFICATES.md) | Exact source and multiplier families are excluded; non-quasi-cyclicity of the full module remains unproved |
-| What forces or permits residual support? | [Residual geometry and jets](synthesis/residual_intersections_and_jets.md), [two surfaces](synthesis/02-two-surfaces.md), [supported linkage operations](synthesis/supported_linkage_operations.md) | Exact cycles, attachment, capacity, blowups and liaison; uniform bounds need actual family coverage |
-| Can residual curves be absorbed? | [Marked deformation and absorption](synthesis/marked_deformation_and_absorption.md) | Actual partial constructions and lifting criteria; iteration to sole support is missing |
-| What do contact and tropical models retain? | [Contact duality and global descent](synthesis/contact_duality_and_global_descent.md), [toric torsion and endpoint contacts](synthesis/toric_torsion_and_endpoint_contacts.md) | Jacobians, full transverse families, endpoint algebras and global-presentation controls; explicit root-of-unity arrangements admit endpoint contact and jet-stabilizer descriptions. These do not classify arbitrary invariant arrangements or establish global sole support. |
-| What other intrinsic geometry is useful? | [Fixed geometry](synthesis/01-problem-and-curve.md), [marked flags and duality](supplements/QUARTIC_DUAL_FLAGS_AND_BITANGENTS.md), [projection-center moduli](supplements/QUARTIC_PROJECTION_MODULI.md) | Conormal, ruled and dual models are valuable in their own right; varying an actual equation obstruction with the embedding needs a relative source, not just the existing center classification |
+| `quartic` | [Status and degree bounds](frameworks/carrier-normalization/degree_exclusions.md#52-factors-and-the-degree-bound), [integral quartic carriers and factor reduction](results/quartic_carrier_exclusion.md#complete-quartic-carrier-exclusion-for-the-fixed-c0) | [Full quartic-carrier proof](arguments/carriers/quartic_carrier_proof.md), [carrier cases](frameworks/carrier-normalization/open_carrier_cases.md) |
+| `lifting` | [Equations for every \(p>0\)](arguments/arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-a-quartic-carrier), [prescribed nonlifting hypotheses](results/prescribed_z4_arithmetic_nonlifting.md#statement-and-hypotheses) and [limitations](results/prescribed_z4_arithmetic_nonlifting.md#limitations), [arithmetic lift strategy and open bridge](frameworks/arithmetic-supported-lifts/index.md#bridges), [strong lifts](arguments/arithmetic/frobenius_power_lifting_precision.md#strong-lifts-and-the-exact-unramified-precision-shift) | [Nonlifting proof](arguments/arithmetic/z4_lifting_and_deformation.md), [prime-to-\(p\) extraction](arguments/arithmetic/prime_to_p_power_extraction.md#extraction-theorem), [exact strong-lift precision](arguments/arithmetic/frobenius_power_lifting_precision.md#exact-obstruction-level-for-the-prescribed-quartic-construction), [endpoint specialization theorem](arguments/arithmetic/frobenius_power_lifting_precision.md#root-specialization-and-the-remaining-endpoint-defects), [prescribed \(\mu_4\) normal base change](results/quartic_normal_initial_base_change.md#statement) |
+| `torus` | [Invariant-ideal scope](results/invariant_supported_ci_exclusion.md#scope), [exclusion](results/invariant_supported_ci_exclusion.md#statement) and [limits](results/invariant_supported_ci_exclusion.md#limitations), [sextic eigenpair scope](results/sextic_eigenpair_quotient_bound.md#scope) and [STCI-R-0043 sharp length bound](results/sextic_eigenpair_quotient_bound.md#statement), [STCI-R-0070 intrinsic endpoint statement](results/intrinsic_limits_endpoint_fibers.md#statement), [opposite full limits and generation](frameworks/torus-supported-boundaries/index.md#directional-loci) | [Invariant-ideal proof](arguments/torus_hilbert_boundary.md#invariant-supported-complete-intersections), [sharp sextic bound proof](arguments/torus_sextic_residuals.md#the-sharp-sextic-eigenpair-bound) and [STCI-R-0043 review](results/sextic_eigenpair_quotient_bound.md#statement), [endpoint theorem proof](arguments/torus_hilbert_boundary.md#endpoint-fibers-in-the-two-intrinsic-limits) and [STCI-R-0070 review](results/intrinsic_limits_endpoint_fibers.md#statement), [moving-ideal generator test](arguments/torus_hilbert_boundary.md#the-moving-ideal-generator-test), [residual and loss-of-generation controls](frameworks/torus-supported-boundaries/index.md#controls) |
+| `normal-orders` | [Displayed orders and full initial generators](frameworks/formal-normal-geometry/from_symbols_to_equations.md#31-generic-normal-forms-versus-global-relations), [equal-order smooth-root bridge](results/actual_ci_smooth_root_bridge.md#statement), [integral quartic carriers](results/quartic_carrier_exclusion.md#complete-quartic-carrier-exclusion-for-the-fixed-c0) | [Smooth-root bridge proof](arguments/spectral/uniform_root_towers_and_inseparable_bridges.md#2026-10-15-generalization-inseparable-root-blowup-bridge), [entirely-thick bounds](results/entirely_thick.md), [unequal orders and the quotient relation](frameworks/formal-normal-geometry/from_symbols_to_equations.md#unequal-orders-and-the-quotient-relation) |
+| `incidence` | [Generator incidence scope](investigations/supported-generator-incidence/index.md#scope), [question](investigations/supported-generator-incidence/index.md#question) and [method](investigations/supported-generator-incidence/index.md#method), [quotient-to-Hilbert scope](investigations/quotient-hilbert-comparison/index.md#scope) and [question](investigations/quotient-hilbert-comparison/index.md#question) | [Closed incidence and both full limits](arguments/torus_hilbert_boundary.md#closed-incidence-and-both-full-limits), [directional loci](frameworks/torus-supported-boundaries/index.md#directional-loci), [proof of the moving-ideal generator test](arguments/torus_hilbert_boundary.md#the-moving-ideal-generator-test), [quotient comparison inputs](investigations/quotient-hilbert-comparison/index.md#inputs) and [findings](investigations/quotient-hilbert-comparison/index.md#findings), [framework connections](MAP.md#questions-and-active-work) |
+| `realization` | [Simultaneous realization](frameworks/formal-normal-geometry/index.md#simultaneous-realization-and-compatibility-problems), [embedded ribbon-to-triple statement](arguments/normal-geometry/formal-normal-intersection.md#the-canonical-embedded-extension) | [Canonical extension proof](arguments/normal-geometry/formal-normal-intersection.md#independent-proof), [one-step boundary and Gorenstein repair](arguments/one_step_boundary_repair.md#one-step-boundary-repair-and-the-final-gorenstein-obstruction), [actual global sources](arguments/equations/global_equation_jets.md#exact-homogeneous-equation-spaces-and-fixed-quadric-restrictions) |
 
-## Short retrieval paths
-
-- **An exact claim:** result record → current proof → necessary computation only
-  if that argument uses one. A script's successful rank is not its coverage proof.
-- **A proposed extension:** inspect the proof's characteristic, embedding,
-  normality, saturation, properness and global-source assumptions.
-- **A missing implication:** frontier → owning mathematical home and controls.
-- **A shared mechanism:** map → full lemma owner; other topics link its application.
-
-The [six short orientation chapters](synthesis/README.md) introduce the account.
-The proof homes they link contain full arguments, including informative failed
-constructions and generalizations. [State](STATE.md) distinguishes promoted
-results from reviewed provisional contributions. [Literature](LITERATURE_LEDGER.md)
-records checked external statements and application limits; the relevant
-literature also appears in the mathematics itself.
-
-For applications beyond the original example, start with the [general lifting
-quotient](synthesis/global_lifting_interfaces.md), [graded conductor mechanism](synthesis/quadratic_covers_and_conductor_descent.md#11-a-common-graded-mechanism-one-extra-homogeneous-module-generator),
-[projection section defects](synthesis/projected_thickening_section_defects.md),
-[carrier conductor–differential comparison](synthesis/carrier_conductor_differential_comparison.md),
-[spectral powers](synthesis/spectral_pushforward_powers.md),
-[global equation jets](synthesis/global_equation_jets.md),
-or [ruled-surface degree criterion](synthesis/ruled_surface_degree_criterion.md).
-Their hypotheses, rather than the fixed-quartic motivation, determine their reach.
+For local equation comparison and specialization use [conormal and actual
+quartic symbols](arguments/quartic_specialization_and_symbols.md), the
+[filtered equation defect](results/local_filtration_comparison_defect.md),
+[normal Koszul cancellation](arguments/normal_koszul_cancellation.md),
+[transverse specialization](arguments/transverse_specialization.md), and
+[punctual defect and support](arguments/punctual_comparison_defects.md#statements-and-proofs).

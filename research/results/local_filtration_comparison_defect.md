@@ -1,65 +1,99 @@
 ---
 id: STCI-R-0030
-title: "Local filtered-equation comparison and punctual defect criterion"
-kind: theorem
-status: proved
-scope:
-  characteristic: "arbitrary where the stated regular local hypotheses hold"
-  curve: "smooth codimension-two curve in smooth threefold"
-  hypotheses:
-    - "J=(f,g) is a two-generator regular sequence contained in I_C"
-    - "Generic finite-length and generic defect-free hypotheses are imposed only for the corresponding conclusions"
-statement: "The initial-equation comparison has a canonical exact sequence; generic defect is initial-generator excess; under generic vanishing punctual defect is the torsion lost by the comparison, supported at simultaneous carrier singularities."
-dependencies: []
-evidence:
-  - "research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md"
-  - "research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md"
-  - "research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md"
-independent_audits:
-  - "research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md"
-  - "research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md"
-accepted_in: "research/supplements/DELTA_EMBEDDING_NORMAL_AND_REES_GEOMETRY.md"
-legacy_ids: []
-supersedes: []
-superseded_by: []
-limitations:
-  - "Local statements only; no global quartic twisting assertion"
-  - "No existence or impossibility theorem for punctual defects under radical(J)=I"
-  - "No new executable replay in this promotion"
+type: result
+title: Local filtered-equation comparison and punctual defect criterion
+scope: "#scope"
+statement: "#statement"
+proofs:
+  - name: initial ideals, the DVR length identity, and smooth-carrier straightening
+    at: "research/arguments/filtered_equation_comparison.md#local-comparison-and-the-punctual-defect"
+    using: []
+    review:
+      state: accepted
+      basis: reconstructed
+      at: "#statement"
 ---
 # Local filtered-equation comparison
 
+## Scope
+
+The comparison itself is local algebra for ideals \(J\subset I\) in a
+Noetherian local ring \(R\), in arbitrary characteristic. The geometric
+conclusions concern a smooth codimension-two curve \(C\) in a smooth
+threefold and a two-generator regular-sequence ideal \(J=(f,g)\subset I_C\).
+The generic count assumes a transverse parameter ideal. The length formula
+assumes generic vanishing on an integral smooth curve. The smooth-carrier
+calculation is equicharacteristic.
+
 ## Statement
-Let I be the ideal of a smooth codimension-two curve in a smooth threefold, J=(f,g) subset I a regular sequence, S=gr_I R, H=in_I(J), B=in_I(IJ), and S_+ the positive ideal. Give D=J/IJ the filtration F^nD=(J intersect I^n+IJ)/IJ. Then S_+H subset B and, for every n, there is a canonical exact sequence
 
-0 -> Delta_n=B_n/(S_+H)_n -> Q_n=H_n/(S_+H)_n -> gr_F^nD=H_n/B_n -> 0.
+Write \(S=\operatorname{gr}_I R\), \(S_+=\bigoplus_{n>0}S_n\),
+\(H=\operatorname{in}_I(J)\), and \(B=\operatorname{in}_I(IJ)\).
+With \(K=I/J\), the full normal graded algebra is
+\(\operatorname{gr}_K(R/J)=S/H\).
+Give the actual equation module \(D=J/IJ\) the filtration
+\[
+F^nD=((J\cap I^n)+IJ)/IJ,\qquad n\ge1.
+\]
+The first conormal map \(\phi:D\to I/I^2\) has kernel \(F^2D\). Then
+\(S_+H\subset B\subset H\), and in every degree \(n\ge1\) the quotient map
+gives a canonical exact sequence
+\[
+0\longrightarrow \Delta_n=B_n/(S_+H)_n
+\longrightarrow Q_n=H_n/(S_+H)_n
+\longrightarrow G_n=\operatorname{gr}_F^nD=H_n/B_n
+\longrightarrow0 .
+\]
+Thus the comparison is invertible in all degrees precisely when \(B=S_+H\).
 
-At a generic transverse field where J is a parameter ideal, dim Delta=mu(H)-2. If Delta vanishes generically along an integral smooth curve, then at each DVR stalk
+At a generic transverse point where \(R\) is regular of dimension two,
+\(I\) is its maximal ideal and \(J\) is a two-generator parameter ideal,
+\(\dim_{\kappa(\eta)}\Delta=\mu(H)-2\). Here \(\mu(H)\) is the minimal
+homogeneous generator count over \(\kappa(\eta)\).
 
-length Delta_n = length tors(Q_n) - length tors(gr_F^n D).
+If \(\Delta_\eta=0\) along a smooth integral curve, at every closed-point
+DVR stalk the torsion modules fit in
+\[
+0\longrightarrow\Delta_n\longrightarrow\operatorname{tors}Q_n
+\longrightarrow\operatorname{tors}G_n\longrightarrow0,
+\qquad
+\ell(\Delta_n)=\ell(\operatorname{tors}Q_n)-\ell(\operatorname{tors}G_n).
+\]
+In particular torsion-free \(Q\) and generic vanishing imply \(\Delta=0\).
 
-In particular torsion-free Q implies Delta=0 under generic vanishing. If either carrier is smooth at p on C, then Delta_p=0. Thus Supp Delta is contained in C intersect Sing(F) intersect Sing(G), without asserting this intersection is nonempty.
-
-## Hypotheses and quantifiers
-The exact sequence is an algebraic initial-ideal identity. The generator-excess count assumes a generic finite-length transverse complete intersection. The DVR formula assumes generic Delta=0. The support containment assumes regular local ambient geometry and the stated two-generator complete intersection.
-
-## Proof outline
-Take initial symbols of J, IJ, and the intrinsic filtered equation module. The quotient identities give the exact sequence. At the generic transverse point, J/IJ has dimension two, so summing its graded dimensions gives the generator excess. Over a DVR the surjective comparison induces an isomorphism on equal-rank torsion-free quotients, yielding the length identity. At a smooth carrier, straighten its equation to one normal parameter; the completed-local standard-basis calculation gives in(IJ)=S_+in(J), and faithful flatness descends the vanishing.
-
-## Dependencies
-No canonical result dependency; original reviewed local algebra is cited as evidence.
-
-## Evidence and verification
-The October 23 and 24 independent mathematical reviews checked the exact comparison, local support calculation, and torsion formula. The October 26 note independently checks the elementary quotient and DVR arguments. Saved validation scripts were not rerun in this promotion.
-
-## Consequences
-Separates generic extra initial generators from isolated torsion cancellations, and gives a necessary simultaneous-singularity condition for punctual defect.
+In the smooth equicharacteristic setting, if either carrier has a nonzero
+fiber conormal symbol at \(p\), equivalently is smooth there, then
+\(\Delta_p=0\). Thus
+\[
+\operatorname{Supp}\Delta
+\subset C\cap\operatorname{Sing}V(f)\cap\operatorname{Sing}V(g).
+\]
 
 ## Limitations
-Does not promote the characteristic-two O(-24) global identification or the filtered normal-Koszul spectral sequence. Does not decide whether a nonzero punctual defect exists under radical(J)=I and generic Delta=0. Counterexamples with residual support do not settle that question.
 
-## Current proof navigation
+The support statement gives a necessary condition for a nonzero defect.
+In regular codimension two the
+[conormal entry ideal](conormal_entry_annihilator.md) annihilates the
+defect scheme-theoretically.
+Torsion in \(Q_n\) can survive in \(G_n\), and the length formula uses their
+difference, as illustrated by the
+[supported quadruple](supported_quadruple_equation_filtration.md).
+The local comparison alone gives no global line-bundle
+identification or splitting of the first conormal kernel. The
+[prescribed characteristic-two quartic](quartic_char2_fourth_equation_kernel.md)
+needs the full filtration and compatible chart lifts. The relative
+[normal Koszul construction](normal_koszul_comparison_defect.md)
+has its own proof and indexing.
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The [punctual relative-defect question under sole support](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support)
+remains open. The
+[degree-four counterexample](initial_equation_cancellation_counterexample.md)
+has nonzero generic defect after adjoining a curve parameter. The
+[supported length-five specialization](supported_length_five_defect_specialization.md)
+has zero relative defect and nonzero actual defect on the transverse
+closed fiber. The relative DVR criterion alone gives no conclusion about
+the actual comparison after such a base change. The separate
+[normal-flat specialization theorem](normal_flat_comparison_specialization.md)
+gives sufficient hypotheses for that identification.
 
-The [supported length-five specialization control](../synthesis/comparison_defect_specialization.md) computes zero relative comparison defect and nonzero actual closed-fiber comparison defect. It shows why exceptional transverse slices do not by themselves establish a punctual relative defect. This reviewed provisional example does not change the canonical theorem or settle its remaining sole-support existence question.
+The smooth-carrier leading coefficient need not be a unit.

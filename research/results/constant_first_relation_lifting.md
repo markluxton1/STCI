@@ -2,7 +2,6 @@
 id: STCI-R-0033
 title: "Constant first-relation quadratic lifting obstruction"
 kind: theorem
-status: proved
 scope:
   characteristic: "characteristic zero; factor multiplicity nonzero in arbitrary characteristic"
   curve: "smooth rational curve with balanced conormal bundle"
@@ -13,10 +12,9 @@ statement: "Every linear factor direction m of f with multiplicity nonzero in th
 dependencies: 
   - STCI-R-0032
 evidence:
-  - research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md
+  - research/arguments/equations/global_lifting_interfaces.md#quadratic-formal-neighborhood-obstruction-to-zero-defect-thickenings
 independent_audits:
-  - research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md
-accepted_in: "research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md"
+  - research/arguments/equations/global_lifting_interfaces.md#quadratic-formal-neighborhood-obstruction-to-zero-defect-thickenings
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -37,15 +35,11 @@ Required hypotheses:
 
 ## Proof and verification
 
-- [Source proof](../supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-geometrymd)
-- [Independent audit](../supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-relation-obstruction-independent-auditmd)
+- [Source proof](../arguments/equations/global_lifting_interfaces.md#source-2026-10-13-generalization-thick-equality-geometrymd)
+- [Independent audit](../arguments/equations/global_lifting_interfaces.md#source-2026-10-13-generalization-thick-relation-obstruction-independent-auditmd)
 
 ## Dependencies and limitations
 
-Canonical dependencies: STCI-R-0032. Additional inherited premises are in the proof and audit.
+Dependencies: STCI-R-0032. Additional inherited premises are in the proof and audit.
 - Uses inherited P-010 direction classes for the C0 consequence
 - Does not exclude moving first relations, extra next-order relations, or positive-defect models
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

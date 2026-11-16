@@ -2,7 +2,6 @@
 id: STCI-R-0024
 title: "Independent residual-node smoothing at fixed boundary"
 kind: theorem
-status: proved
 scope:
   characteristic: "0"
   curve: "fixed C0"
@@ -12,12 +11,11 @@ statement: "The fixed-boundary Grassmannian fiber is smooth of dimension 14 and 
 dependencies:
   - STCI-R-0023
 evidence:
-  - "research/synthesis/fixed_boundary_smoothing.md"
+  - "research/arguments/residuals/fixed_boundary_smoothing.md"
   - "research/computations/verify_ci_fixed_boundary_node_smoothing_2026_10_25.py"
   - "research/computations/ci_fixed_boundary_node_smoothing_2026_10_25.json"
 independent_audits:
-  - "research/synthesis/fixed_boundary_smoothing.md"
-accepted_in: "research/results/ci_quartic_fixed_boundary_smoothing.md"
+  - "research/arguments/residuals/fixed_boundary_smoothing.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -28,7 +26,7 @@ limitations:
 # Fixed-boundary smoothing of five residual nodes
 
 ## Statement
-At the (1,1) pencil in R-0023, the affine boundary, node, and joint tangent maps on the 36-dimensional ordered quartic source have respective ranks 19, 5, and 24. After passing to the Grassmannian of pencils, the projective boundary rank is 18, so the fixed-boundary fiber is smooth of dimension 14. After splitting and labeling the five nodes, its completed local ring is k[[tau1,tau2,tau3,tau4,tau5,z1,...,z9]], with tau_i independent node-smoothing parameters.
+At the (1,1) pencil in R-0023, the affine boundary, node, and joint tangent maps on the 36-dimensional ordered quartic source have respective ranks 19, 5, and 24. After passing to the Grassmannian of pencils, the projective boundary rank is 18, so the fixed-boundary fiber is smooth of dimension 14 at the specified pencil (after the stated étale localization). After splitting and labeling the five nodes, its completed local ring is k[[tau1,tau2,tau3,tau4,tau5,z1,...,z9]], with tau_i independent node-smoothing parameters.
 
 ## Hypotheses and quantifiers
 The specified characteristic-zero pencil, after splitting the geometric nodes and etale localization.
@@ -47,7 +45,3 @@ Residual nodes can be smoothed independently with the attachment divisor exactly
 
 ## Limitations
 No explicit polynomial or rational coefficient arc, nor universal theorem for all quartic pairs.
-
-## Current proof home
-
-The complete consolidated proof and its exact qualifications are in [the mathematical account](../synthesis/fixed_boundary_smoothing.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new inherited CAS execution was required.

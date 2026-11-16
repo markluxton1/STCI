@@ -2,7 +2,6 @@
 id: STCI-R-0016
 title: "Effective resultant budget for nonsaturated actual first relations"
 kind: theorem
-status: proved
 scope:
   characteristic: "algebraically closed field of characteristic zero"
   curve: "smooth connected projective curve in smooth threefold"
@@ -15,14 +14,13 @@ dependencies:
   - STCI-R-0010
   - STCI-R-0011
 evidence:
-  - "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
-  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
-  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
+  - "research/arguments/spectral/spectral_torsion_and_syzygy_splitting.md#first-relation-defects-and-the-effective-resultant-budget"
+  - "research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md"
+  - "research/arguments/spectral/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
 independent_audits:
-  - "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
-  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
-  - "research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md"
-accepted_in: "research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md"
+  - "research/arguments/spectral/spectral_torsion_and_syzygy_splitting.md#first-relation-defects-and-the-effective-resultant-budget"
+  - "research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md"
+  - "research/arguments/spectral/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -54,7 +52,3 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - The formula is conditional on full generic binary CI and actual lci with unique support; it is not a general STCI obstruction.
 - Nonsaturated roots may pay an effective degeneration divisor, rather than being excluded.
 - Local gap-three counterexamples do not establish global homogeneous examples.
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

@@ -2,7 +2,6 @@
 id: STCI-R-0002
 title: Minimal-degree normalization for a Cartier singleton lift
 kind: theorem
-status: proved
 scope:
   characteristic: "algebraically closed field of characteristic zero"
   curve: "smooth rational curve C in P3 of degree d"
@@ -15,11 +14,10 @@ statement: "The complete linear system |c| identifies S with a normal minimal-de
 dependencies:
   - STCI-R-0001
 evidence:
-  - "research/supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md"
+  - "research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md"
 independent_audits:
-  - "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
-  - "research/supplements/OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md"
-accepted_in: "research/supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md"
+  - "research/arguments/spectral/quadratic_root_and_blowup_incidence.md#quadratic-root-and-blowup-incidence"
+  - "research/arguments/normal-geometry/thick_equality_socle.md#symbolic-ribbons-valuation-bounds-and-normalization-controls"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -56,7 +54,7 @@ Because \(c\) is Cartier and smooth, the normal surface \(S\) is regular along \
 
 ## Consequences for the fixed C0
 
-For \(C_0=[s^4:s^3t:st^3:t^4]\), the accepted all-integral-quartic exclusion [STCI-R-0001](quartic_carrier_exclusion.md) removes the degree-four entries. Exactly three **higher-degree necessary models within these hypotheses** remain:
+For \(C_0=[s^4:s^3t:st^3:t^4]\), the all-integral-quartic exclusion [STCI-R-0001](quartic_carrier_exclusion.md) removes the degree-four entries. Exactly three **higher-degree necessary models within these hypotheses** remain:
 
 | Carrier degree | Normalization \(S\) | Lift and polarization |
 | --- | --- | --- |
@@ -66,17 +64,14 @@ For \(C_0=[s^4:s^3t:st^3:t^4]\), the accepted all-integral-quartic exclusion [ST
 
 ## Evidence and verification
 
-- [Original singular-normalization theorem](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md)
-- [Independent new-scope audit: PASS](../supplements/QUADRATIC_ROOT_AND_BLOWUP_INCIDENCE.md#2026-10-14-generalization-cartier-lift-independent-audit)
-- [Earlier smooth-normalization framework](../supplements/FIXED_CARRIER_DESCENT_AND_CARTIER_MODELS.md)
-- [Earlier independent smooth-normalization audit](../supplements/OCT13_THICK_EQUALITY_SOCLE_AND_FILTRATIONS.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd)
+- [Original singular-normalization theorem](../arguments/carriers/fixed_carrier_descent_and_cartier_models.md)
+- [Independent new-scope audit: PASS](../arguments/spectral/quadratic_root_and_blowup_incidence.md#2026-10-14-generalization-cartier-lift-independent-audit)
+- [Earlier smooth-normalization framework](../arguments/carriers/fixed_carrier_descent_and_cartier_models.md)
+- [Earlier independent smooth-normalization audit](../arguments/normal-geometry/thick_equality_socle.md#source-2026-10-13-generalization-smooth-normalization-independent-auditmd)
 
-These links identify the current scope-preserving proof homes. Their inherited independent review covers the original mathematical statements; replacement review covers their consolidation.
+These links identify the current scope-preserving proof homes. Their independent review covers the original mathematical statements; replacement review covers their consolidation.
 
 ## Limitations
 
 The actual projection parameters, complete inverse support, and full conductor descent for the three fixed-\(C_0\) models **remain unresolved**. The classification does not establish existence of a mate on any listed carrier. The unrestricted STCI problem for \(C_0\) remains open.
 
-## Current mathematical evidence
-
-The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not promote an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.

@@ -277,7 +277,6 @@ def main():
     assert combined_rank == 26
 
     output = {
-        'status':'new exact reduction; see independent audit note; no canonical promotion',
         'field':'QQ; formulas base-change to every characteristic-zero field',
         'curve':['s^4','s^3*t','s*t^3','t^4'],
         'chart':['1','z','z^3+v','z^4+u+(3/2)*z*v'],

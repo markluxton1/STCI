@@ -1,4 +1,4 @@
--- One global characteristic-zero K1+K2 incidence, no coefficient chart.
+- One global characteristic-zero K1+K2 incidence, no coefficient chart.
 -- First/second classes are accepted inputs; this is a new dual compression.
 R=QQ[a0,a1,a2,b0,b1,b2,c0,c1,c2,h0,h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,smoothInverse,MonomialOrder=>GRevLex];
 firstEquations={-5*a0+3*b1-a0*h2-a1*h1-a2*h0,-4*a1+3*b2-a0*h3-a1*h2-a2*h1,-3*a2-a0*h4-a1*h3-a2*h2,-a0*h5-a1*h4-a2*h3,-7/2*b0+6*c1-a0*h8-a1*h7-a2*h6-b0*h2-b1*h1-b2*h0,-6*a0-5/2*b1+6*c2-a0*h9-a1*h8-a2*h7-b0*h3-b1*h2-b2*h1,-11/2*a1-3/2*b2-a0*h10-a1*h9-a2*h8-b0*h4-b1*h3-b2*h2,-5*a2-a0*h11-a1*h10-a2*h9-b0*h5-b1*h4-b2*h3,-2*c0-b0*h8-b1*h7-b2*h6-c0*h2-c1*h1-c2*h0,-21/4*b0-c1-b0*h9-b1*h8-b2*h7-c0*h3-c1*h2-c2*h1,-3/4*a0-19/4*b1-b0*h10-b1*h9-b2*h8-c0*h4-c1*h3-c2*h2,-3/4*a1-17/4*b2-b0*h11-b1*h10-b2*h9-c0*h5-c1*h4-c2*h3,-c0*h8-c1*h7-c2*h6,-9/2*c0-c0*h9-c1*h8-c2*h7,-3/8*b0-4*c1-c0*h10-c1*h9-c2*h8,-3/8*b1-7/2*c2-c0*h11-c1*h10-c2*h9};

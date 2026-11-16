@@ -1,8 +1,6 @@
 # Order-one structure
 
-Canonical status: **PROVED under the stated characteristic-zero rational-quartic/BF hypotheses**
-
-Let \(C\subset\mathbf P^3\) be a smooth nondegenerate rational quartic and suppose an STCI pair has at least one equation of generic normal order one along \(C\). The generic transverse algebra is curvilinear and the saturated multiple structure is quasiprimitive. Write
+Over an algebraically closed field of characteristic zero, let \(C\subset\mathbf P^3\) be a smooth nondegenerate rational quartic and suppose an STCI pair has at least one equation of generic normal order one along \(C\). The generic transverse algebra is curvilinear and the saturated multiple structure is quasiprimitive. Write the saturated Bănică–Forster layers as
 \[
 E_i=L^i(D_i),\qquad L=O_{\mathbf P^1}(e-7).
 \]
@@ -20,15 +18,12 @@ If \(F_a\) is the equation with nonzero generic first-normal symbol, the numeric
 
 These statements do not apply to the entirely-thick branch.
 
-## Provenance
+## Proof sources and open questions
 
-Primary proof record:
-- \`../supplements/OCT6_SESSION_FRONTIERS_AND_VALIDATION.md#2026-10-06-uniform-order-one-frontier\`
-- \`../supplements/MULTIPLICITY_MIXED46_AND_MF6.md#2026-10-05-mf6-pairing-audit\`
-- \`../notes/2026-10-05-mumford-normal-bound.md\`
-- \`../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-primitive-quadruple-audit\`
+The [order-one degree argument](https://github.com/markluxton1/STCI/blob/d158a740d2449c458867ccbc5e3b2ee2c4bec2f4/research/supplements/ORDER_ONE_JETS_AND_DEGREE_BUDGETS.md#2026-10-06-uniform-order-one-frontier) uses [saturated duality](../arguments/normal-geometry/curvilinear_genus_and_defects.md#2-direct-proof-of-the-saturated-duality-and-effective-defects) and the [numerical normal-sheaf inequality](../arguments/carriers/numerical_surface_pullback.md). See also the [multiplicity-six pairing calculation](../arguments/residuals/quasiprimitive_residual_cycles.md#mf6-prerequisite-audit-perfect-pairings-on-the-saturated-filtration) and [primitive-fourth calculation](../arguments/carriers/normal_carrier_compression.md#5-early-defect-and-ancestor-degree-bounds).
 
-Current frontier: \`../open/jet_condition_framework.md\` and \`../open/mf6.md\`.
+Open questions concern [jet discrepancies](../frameworks/formal-normal-geometry/open_normal_geometry.md#successive-jet-discrepancies-in-actual-equation-spaces)
+and [multiplicity-six incidence](../frameworks/formal-normal-geometry/open_normal_geometry.md#multiplicity-six-incidence-in-actual-jets).
 
 ## Historical jet-discrepancy comparison (scope-limited)
 
@@ -40,4 +35,4 @@ The first quartic-source space K_R=H^0(Q,I_{R/Q}(1,3)) has dimension 7-e+epsilon
 
 The comparison-zero e=1 direction is excluded from the divisor-R formulation and is analyzed separately in the later e=1 rebuild. That rebuild also corrects an invalid inference that any mate meeting a fixed ruling line creates support outside C; the repaired argument uses intersection multiplicity on a smooth carrier. None of these calculations settles unrestricted characteristic-zero STCI.
 
-Sources: [October 6 jet-discrepancy framework](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-order-one-jet-discrepancy-framework) and [October 7 e=1 rebuild](../supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#2026-10-07-e1-jet-rebuild). Preserve the original proofs and certificates pending claim-level audit.
+Sources: [October 6 jet-discrepancy framework](../arguments/carriers/normal_carrier_compression.md#5-early-defect-and-ancestor-degree-bounds) and [October 7 e=1 rebuild](https://github.com/markluxton1/STCI/blob/c68a8cb1f3ade682172bce338abd632f79cf0881/research/supplements/OCT7_SATURATION_REES_AND_CARRIER_CLASSIFICATION.md#2026-10-07-e1-jet-rebuild). Preserve the original proofs and certificates pending claim-level audit.

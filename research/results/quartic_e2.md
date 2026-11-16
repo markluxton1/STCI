@@ -1,8 +1,6 @@
 # Primitive e=2 quartic results
 
-Canonical status: **PROVED for the fixed monomial quartic in the stated \((4,7)\) and \((4,8)\) branches; all quartic carriers subsequently excluded by R-0001**
-
-For
+In characteristic zero, for
 \[
 C_0=[s^4:s^3t:st^3:t^4]
 \]
@@ -26,15 +24,17 @@ The dx=1/P-044 residual slice is independently closed by the later saturation ce
 
 ## Full proofs and exact support
 
-The [universal primitive-fourth proof and independent contact calculation](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-primitive-quadruple-universal)
+The [primitive e=2 obstruction and quartic-incidence account](../arguments/normal-geometry/e2_primitive_quartic_incidence.md#e2-obstruction-primitive-structures-and-quartic-incidence)
 retain the obstruction zero locus, every parameter chart and cubic-times-
-linear quartic kernel. The [earlier incidence and surviving-family analysis](../supplements/E2_PRIMITIVE_QUARTIC_INCIDENCE.md)
+linear quartic kernel. The [earlier incidence and surviving-family analysis](../arguments/normal-geometry/e2_primitive_quartic_incidence.md#e2-obstruction-primitive-structures-and-quartic-incidence)
 retains the false universal-exclusion counterexample and the distinct
-primitive-septuple consequences. These mechanisms are not discarded by
-the later all-degree quartic-carrier theorem.
+primitive-septuple consequences. The separate
+[quartic-carrier theorem](quartic_carrier_exclusion.md) excludes every mate
+degree for integral quartic carriers of this fixed curve in characteristic zero.
 
-The [certificate map](../certificates/README.md) locates the universal
-quadruple, quartic-factor and parity sources. The repaired boundary
+The [universal quadruple replays](../arguments/normal-geometry/e2_primitive_quartic_incidence.md#reproducibility-and-epistemic-status)
+and [quartic-factor and incidence evidence](../arguments/normal-geometry/e2_primitive_quartic_incidence.md#reproducibility-and-epistemic-status)
+give the exact checks and their scopes. The repaired boundary
 checker now states its actual `x!=0` chart, and the incidence checker
 allows exact rational coefficients after clearing parameter denominators;
 both targeted checks passed after independent code review in this

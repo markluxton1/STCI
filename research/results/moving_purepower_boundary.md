@@ -2,7 +2,6 @@
 id: STCI-R-0009
 title: Moving pure-power relation tower and unavoidable second-relation degeneration
 kind: theorem
-status: proved
 scope:
   characteristic: "zero"
   curve: "smooth curve in a smooth threefold with balanced split conormal"
@@ -15,12 +14,11 @@ statement: "Finite principal-relation lifting can persist for many orders, but a
 dependencies:
   - STCI-R-0008
 evidence:
-  - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
-  - "research/supplements/MOVING_POWER_SECOND_RELATION.md"
+  - "research/arguments/spectral/moving_power_and_spectral_roots.md"
+  - "research/arguments/spectral/moving_power_second_relation.md"
 independent_audits:
-  - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
-  - "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
-accepted_in: "research/supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md"
+  - "research/arguments/spectral/moving_power_and_spectral_roots.md"
+  - "research/arguments/spectral/moving_power_and_spectral_roots.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -58,9 +56,9 @@ The divisor D records actual special-point degeneration, including failures of s
 
 ## Original evidence and independent audits
 
-- [Moving-power tower](../supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-power-obstruction-tower) and [independent audit](../supplements/MOVING_POWER_AND_SPECTRAL_ROOTS.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
-- [Second-relation payment](../supplements/MOVING_POWER_SECOND_RELATION.md#1-hypotheses-and-the-second-relation-quotient) and [independent audit](../supplements/MOVING_POWER_SECOND_RELATION.md).
+- [Moving-power tower](../arguments/spectral/moving_power_and_spectral_roots.md#2026-10-14-generalization-moving-power-obstruction-tower) and [independent audit](../arguments/spectral/moving_power_and_spectral_roots.md#2026-10-14-generalization-moving-purepower-tower-independent-audit).
+- [Second-relation payment](../arguments/spectral/moving_power_second_relation.md#1-hypotheses-and-the-second-relation-quotient) and [independent audit](../arguments/spectral/moving_power_second_relation.md).
 
 ## Current proof navigation
 
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.
+The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.

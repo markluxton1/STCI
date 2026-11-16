@@ -2,7 +2,6 @@
 id: STCI-R-0004
 title: Full-conductor phase and torsion-coset reduction for projection families
 kind: reduction
-status: proved
 scope:
   characteristic: "algebraically closed field of characteristic zero"
   curve: "fixed embedded smooth curve C in projective three-space"
@@ -16,10 +15,9 @@ dependencies:
   - STCI-R-0002
   - STCI-R-0003
 evidence:
-  - "research/supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md"
+  - "research/arguments/carriers/projection_torsion_and_rational_phase_bounds.md"
 independent_audits:
-  - "research/supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md"
-accepted_in: "research/supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md"
+  - "research/arguments/carriers/projection_torsion_and_rational_phase_bounds.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -37,23 +35,23 @@ Fix an algebraically closed characteristic-zero field, a normal integral project
 
 Retain only parameters for which the sections are basepoint free, define finite birational maps onto integral hypersurfaces, and have full reduced inverse support of C equal to c, without isolated extra inverse points.
 
-The accepted theorem constructs, after finite locally closed stratification, a constructible parameter locus T0, a finite surjective cover Z->T0, and a phase morphism z:Z->(G_m)^D such that a carrier has a set-theoretic mate exactly when its phase tuple is torsion. All generic conductor curves, nilpotent conductor equations, and admissibility boundaries are retained.
+The theorem constructs, after finite locally closed stratification, a constructible parameter locus T0, a finite surjective cover Z->T0, and a phase morphism z:Z->(G_m)^D such that a carrier has a set-theoretic mate exactly when its phase tuple is torsion. All generic conductor curves, nilpotent conductor equations, and admissibility boundaries are retained.
 
 For the constructible phase image W=z(Z), the torsion points of W are a finite union of torsion points in nonempty relatively open subsets of torsion cosets contained in W. This is a finite structural envelope, not an explicit computation of those cosets.
 
 ## Hypotheses and proof outline
 
-The original proof uses flattening and monic Noether-normalization equations before rational localization to preserve all generic conductor components on specialization. Finite Artinian matrix calculations retain the full nilpotent conductor defect. A finite root-ordering cover produces a phase tuple in a fixed torus. Laurent's theorem gives the torsion-coset envelope for the constructible phase image, with excluded parameter boundaries still excluded. The [independent review](../supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-independent-review) records the corrections needed for specialization and confirms the result.
+The original proof uses flattening and monic Noether-normalization equations before rational localization to preserve all generic conductor components on specialization. Finite Artinian matrix calculations retain the full nilpotent conductor defect. A finite root-ordering cover produces a phase tuple in a fixed torus. Laurent's theorem gives the torsion-coset envelope for the constructible phase image, with excluded parameter boundaries still excluded. The [independent review](../arguments/carriers/projection_torsion_and_rational_phase_bounds.md#2026-10-15-generalization-projection-torsion-coset-independent-review) records the corrections needed for specialization and confirms the result.
 
 ## Consequences for fixed C0
 
-The three Cartier singleton models from [STCI-R-0002](cartier_singleton_lift.md) fall within the accepted framework: degree-eight smooth quadric, degree-eight quadric cone, and degree-sixteen plane normalizations. The source establishes actual on-C conductor thresholds M=5,5,13, respectively. If the phase order is E, every positive multiple of E at least M is a mate degree; additional mate degrees, if any, are multiples of E below M. A zero-dimensional-only surviving torsion-coset envelope bounds minimum mate degrees within the family; a positive-dimensional surviving coset yields unbounded phase orders. These statements do not calculate the actual phase images or settle existence for any of the three models.
+The three Cartier singleton models from [STCI-R-0002](cartier_singleton_lift.md) fall within the framework: degree-eight smooth quadric, degree-eight quadric cone, and degree-sixteen plane normalizations. The source establishes actual on-C conductor thresholds M=5,5,13, respectively. If the phase order is E, every positive multiple of E at least M is a mate degree; additional mate degrees, if any, are multiples of E below M. A zero-dimensional-only surviving torsion-coset envelope bounds minimum mate degrees within the family; a positive-dimensional surviving coset yields unbounded phase orders. These statements do not calculate the actual phase images or settle existence for any of the three models.
 
 ## Evidence
 
-[Accepted source theorem](../supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-reduction).
+[Source theorem](../arguments/carriers/projection_torsion_and_rational_phase_bounds.md#2026-10-15-generalization-projection-torsion-coset-reduction).
 
-[Independent review (PASS with recorded corrections)](../supplements/PROJECTION_TORSION_AND_RATIONAL_PHASE_BOUNDS.md#2026-10-15-generalization-projection-torsion-coset-independent-review).
+[Independent review (PASS with recorded corrections)](../arguments/carriers/projection_torsion_and_rational_phase_bounds.md#2026-10-15-generalization-projection-torsion-coset-independent-review).
 
 ## Limitations
 
@@ -61,4 +59,4 @@ The torsion set and mate locus need not be constructible. The actual C0 projecti
 
 ## Current mathematical evidence
 
-The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not promote an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.
+The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not imply an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.

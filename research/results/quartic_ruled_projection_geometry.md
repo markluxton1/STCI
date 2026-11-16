@@ -2,7 +2,6 @@
 id: STCI-R-0028
 title: "Ruled projection and normalization models"
 kind: theorem
-status: proved
 scope:
   characteristic: "0"
   curve: "fixed marked rational quartic"
@@ -11,13 +10,12 @@ scope:
 statement: "The prescribed cone and projected cubic have the finite normalizations, smooth resolutions, conductors and endpoint corrections recorded below."
 dependencies: []
 evidence:
-  - "research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md"
-  - "research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md"
-  - "research/computations/verify_p4_ruled_surfaces_2026_10_24.py"
+  - "research/arguments/curve/quartic_cones_and_ruled_models.md"
+  - "research/arguments/carriers/ruled_surface_degree_criterion.md#paired-secant-cubic-normalization-conductor-and-gauss-dual"
+  - "https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_p4_ruled_surfaces_2026_10_24.py"
 independent_audits:
-  - "research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md"
-  - "research/supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md"
-accepted_in: "research/supplements/QUARTIC_CONES_AND_RULED_MODELS.md"
+  - "research/arguments/curve/quartic_cones_and_ruled_models.md"
+  - "research/arguments/carriers/ruled_surface_degree_criterion.md#paired-secant-cubic-normalization-conductor-and-gauss-dual"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -37,7 +35,7 @@ The specific center, scroll and ordered endpoint marking in the cited audits.
 Projective bundle formulas, finite normalization and conductor calculations, local intersection rings, and tracked elementary transforms establish the statements.
 
 ## Dependencies
-No other canonical theorem is required; marked setup agrees with R-0026.
+No other theorem is required; marked setup agrees with R-0026.
 
 ## Evidence and verification
 Documentary independent audits and saved exact symbolic evidence. No fresh script execution.
@@ -50,4 +48,4 @@ No universal projected-scroll classification or STCI exclusion.
 
 ## Current proof
 
-[Quartic cones, graph sections and marked ruled models](../supplements/QUARTIC_CONES_AND_RULED_MODELS.md), [Paired-secant cubic: normalization, conductor and Gauss dual](../supplements/CUBIC_SCROLL_AND_RULED_SURFACES.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.
+[Quartic cones, graph sections and marked ruled models](../arguments/curve/quartic_cones_and_ruled_models.md), [Paired-secant cubic: normalization, conductor and Gauss dual](../arguments/carriers/ruled_surface_degree_criterion.md#paired-secant-cubic-normalization-conductor-and-gauss-dual). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.

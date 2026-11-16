@@ -2,7 +2,6 @@
 id: STCI-R-0029
 title: "Arithmetic ruled four-section family"
 kind: theorem
-status: proved
 scope:
   characteristic: "mixed over Z localized at 2"
   curve: "fixed prescribed quartic family"
@@ -12,10 +11,9 @@ statement: "The prescribed arithmetic ruled model has the normalization, conduct
 dependencies:
   - STCI-R-0021
 evidence:
-  - "research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md"
+  - "research/arguments/arithmetic/arithmetic_four_section_family.md"
 independent_audits:
-  - "research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md"
-accepted_in: "research/supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md"
+  - "research/arguments/arithmetic/arithmetic_four_section_family.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -42,7 +40,7 @@ Graded normalization, conductor calculations, Cartier finite flatness, root-valu
 R-0021 records the related projective complete-intersection degeneration; its flatness is not inferred from the Cartier divisor alone.
 
 ## Evidence and verification
-Written calculations and independent arithmetic audit, without a fresh execution in this promotion.
+Written calculations and independent arithmetic audit, without a fresh execution during consolidation.
 
 ## Consequences
 Distinguishes specialization of a finite flat divisor, normalization of the total space, and normalization of a special fiber.
@@ -52,4 +50,4 @@ No unrestricted characteristic-two lifting or STCI theorem.
 
 ## Current proof
 
-[Arithmetic graph sections, endpoint images and normalization](../supplements/ARITHMETIC_FOUR_SECTION_FAMILY.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.
+[Arithmetic graph sections, endpoint images and normalization](../arguments/arithmetic/arithmetic_four_section_family.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.

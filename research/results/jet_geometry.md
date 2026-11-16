@@ -1,10 +1,8 @@
 # Quartic jet geometry
 
-Canonical status: **structural lemmas proved; general framework open**
-
 Let \(Q\cong\mathbf P^1\times\mathbf P^1\) be the unique smooth quadric containing the rational quartic \(C\). Comparing the conormal sequence from \(Q\) with a primitive double produces a degree-three divisor \(R\) on \(C\) measuring where the primitive conormal direction agrees with the quadric direction.
 
-The established structural facts include:
+The quartic jet geometry includes the following facts.
 
 - the codimension-three first-normal extension condition has an intrinsic cohomological description on \(Q\);
 - the primitive conormal kernel is an elementary modification of the quadric conormal direction at \(R\);
@@ -12,16 +10,11 @@ The established structural facts include:
 - the P-045 rank jump corresponds geometrically to \(R\) being a ruling-fiber divisor;
 - after quotienting the universal quadric-square direction, the essential second-order target is supported on the doubled divisor \(2R\).
 
-These facts motivate the jet-condition/discrepancy framework: expected condition counts are insufficient unless one understands when successive containment conditions become dependent.
+These facts motivate the [jet-discrepancy question](../frameworks/formal-normal-geometry/open_normal_geometry.md#successive-jet-discrepancies-in-actual-equation-spaces)
+for higher-degree carriers and residual intersections.
 
 The older side-thread statement that \((4,7),e=2\) remained open is superseded by the quartic factorization result.
 
-## Provenance
+## Scope
 
-- \`../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-quartic-jet-geometry-structural-supplement\`
-
-Active continuation: \`../open/jet_condition_framework.md\`.
-
-## Scope reconciliation (October 2026 consolidation)
-
-This result describes the e=2 quartic-order-one comparison: the degree-three divisor R and its doubled-jet evaluation. The general successive-map rank-defect definitions, and the e=0,1 comparisons, are consolidated in [order-one structure](order_one.md). The historical source [structural supplement](../supplements/NORMAL_CARRIERS_PRIMITIVE_JETS_AND_CHARACTERISTIC.md#2026-10-06-quartic-jet-geometry-structural-supplement) retains obsolete open-status language explicitly superseded by [R-0001](quartic_carrier_exclusion.md); it is evidence of the calculation, not a current quartic-mate frontier. The current proof and its exact computational dependencies are linked above.
+This result concerns the e=2 quartic order-one comparison, including the degree-three divisor R and its doubled-jet evaluation. General successive-map rank defects and e=0,1 comparisons are treated in [order-one structure](order_one.md). The earlier quartic-mate open status is superseded by [R-0001](quartic_carrier_exclusion.md).

@@ -2,7 +2,6 @@
 id: STCI-R-0014
 title: "Six necessary movement-two numerical rows"
 kind: reduction
-status: exact_reduction
 scope:
   characteristic: "algebraically closed field of characteristic zero"
   curve: "fixed C0 in P3"
@@ -17,11 +16,10 @@ dependencies:
   - STCI-R-0011
   - STCI-R-0013
 evidence:
-  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
+  - "research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md"
 independent_audits:
-  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
-  - "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
-accepted_in: "research/supplements/NORMAL_FLATNESS_AND_FILTERED_CI.md"
+  - "research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md"
+  - "research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -82,7 +80,3 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Does not exhaust arbitrary characteristic-zero STCI pairs.
 - Picard descent, singular full roots, formal lifting, and actual homogeneous equations remain untested for the rows.
 - STCI-R-0011 ensures reduction of moving full roots only under its own Picard-descent interface.
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. Consolidation changes their location and incorporates reviewed corrections; the canonical statement and limitations remain unchanged. The [filtration chapter](../synthesis/03-infinitesimal-geometry.md) explains how these hypotheses differ from arbitrary STCI equations.

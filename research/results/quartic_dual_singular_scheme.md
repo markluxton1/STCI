@@ -2,7 +2,6 @@
 id: STCI-R-0027
 title: "Dual discriminant intersections and singular scheme of the marked quartic"
 kind: theorem
-status: proved
 scope:
   characteristic: "0"
   curve: "fixed marked rational quartic C0"
@@ -12,16 +11,15 @@ statement: "The dual discriminant has the stated scheme-theoretic intersection i
 dependencies:
   - STCI-R-0026
 evidence:
-  - "research/supplements/QUARTIC_DUAL_SCHEMES.md"
-  - "research/computations/verify_quartic_dual_singular_scheme_2026_10_24.m2"
+  - "research/arguments/curve/quartic_dual_schemes.md"
+  - "research/results/quartic_dual_singular_scheme.support/verify.m2"
 independent_audits:
-  - "research/supplements/QUARTIC_DUAL_SCHEMES.md"
-accepted_in: "research/supplements/QUARTIC_DUAL_SCHEMES.md"
+  - "research/arguments/curve/quartic_dual_schemes.md"
 legacy_ids: []
 supersedes: []
 superseded_by: []
 limitations:
-  - "Saved Macaulay2 certificates inspected, not freshly rerun"
+  - "Exact Jacobian replay over QQ in the specified dual coordinates"
   - "Specific marked dual discriminant only"
 ---
 # Dual discriminant and singular scheme
@@ -43,7 +41,12 @@ The discriminant identities are polynomial identities. The colon, saturation, as
 R-0026 supplies the marked flag and dual-geometric setup.
 
 ## Evidence and verification
-Independent audit and saved Macaulay2 source and outputs; no fresh execution in this promotion.
+The [Macaulay2 verifier](quartic_dual_singular_scheme.support/verify.m2) was
+replayed over \(\mathbb Q\) with Macaulay2 1.26.06. It checks saturation,
+the socle colon and syzygies, the primary-component and associated-prime
+identities, the two Hilbert polynomials, and the local endpoint
+Hilbert–Burch calculation. The independent audit explains the geometry and
+the characteristic-zero scope.
 
 ## Consequences
 Distinguishes the unmixed singular cycle from its two embedded endpoint contributions.
@@ -53,4 +56,4 @@ No global STCI obstruction and no claim about other dual varieties.
 
 ## Current proof
 
-[Dual discriminant: intersections, singular cycle and endpoint socles](../supplements/QUARTIC_DUAL_SCHEMES.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.
+[Dual discriminant: intersections, singular cycle and endpoint socles](../arguments/curve/quartic_dual_schemes.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.
