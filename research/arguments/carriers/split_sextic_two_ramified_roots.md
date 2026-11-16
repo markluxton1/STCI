@@ -419,7 +419,3 @@ selected `A3`, and symbolic ambient-lift checks. Its mathematical content
 conditions were unchanged.
 
 The [preceding split-carrier account](split_sextic_conductor_and_contact.md#split-sextic-geometry-and-multiplicity-six-restrictions) supplies the complete numerical prerequisites. This reduction concerns only the stated totally ramified two-root family.
-
-## Consolidation review
-
-Independent review checked the complete source proof and its computation support, including the zero-polynomial stratum, exceptional parameter values and the exact surviving carrier line. No material mathematical preservation finding remains. The carrier line is not a constructed STCI pair, and the other split-root configurations retain their own scope.
