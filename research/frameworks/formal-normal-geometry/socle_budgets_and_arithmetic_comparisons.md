@@ -13,12 +13,9 @@ where n is generic length, d the Loewy index, M the weighted layer-rank sum, L t
 The [constant-first-relation obstruction R-0033](../../results/constant_first_relation_lifting.md) requires an actual embedded thickening, a constant first form f, and next initial relation space exactly fV. For a factor direction m of multiplicity nonzero in the field, the quadratic obstruction h_m must vanish. For the fixed characteristic-zero quartic, the inherited nonvanishing of the direction classes excludes the corresponding zero-defect constant-graded-CI equality models. It does not exclude a moving f, an extra next-order relation, or a positive-defect model.
 
 
-## A bounded next experiment, not another case catalogue
+## Interfaces required for a complete comparison
 
-The most informative single test is to choose one candidate whose generic transverse algebra is explicit and carry it across the exceptional points of C. Record in one place the full initial ideal, the first-relation saturation divisor, the local comparison module Delta, the torsion-corrected conormal layers, the next extension class, and the image of global homogeneous sections. A failed candidate should be classified by the *first failed interface*: generic algebra, saturation, punctual comparison, embedded lifting, global source, or residual support. State whether the failure survives coordinate changes or is specific to the chosen family.
-
-A useful negative outcome is a mechanism that excludes an entire invariant class; a failed isolated pair without that explanation is not a general obstruction. The characteristic-two split conormal example and the characteristic-zero balanced extension provide a controlled comparison, but arithmetic specialization by itself does not transfer sole reduced support.
-
+A candidate with explicit generic transverse algebra must be compared at the exceptional points of \(C\) using the full initial ideal, first-relation saturation divisor, local comparison module \(\Delta\), torsion-corrected conormal layers, next extension class and image of global homogeneous sections. Distinguish failures of generic algebra, saturation, punctual comparison, embedded lifting, global source and residual support, including whether failure is invariant under coordinate changes. A single failed pair is not a class-wide obstruction. Characteristic-two split conormal and characteristic-zero balanced extension examples can be compared, but arithmetic specialization does not transfer sole reduced support.
 
 ## Ordinary ideal powers and filtered equation modules are different source questions
 
