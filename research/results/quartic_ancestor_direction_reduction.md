@@ -407,13 +407,9 @@ M2 --script research/results/quartic_ancestor_direction_reduction.support/actual
 python3 research/results/quartic_ancestor_direction_reduction.support/verify_pure_direction.py
 ```
 
-All three commands also passed during the repository consolidation with
-Python 3.12, SymPy 1.14.0 and Macaulay2 1.26.06. They were first completed
-for this proof on 2026-11-10 with Python 3.12.16,
-SymPy 1.14.0 and Macaulay2 1.26.06. The original full tensor was
-reconstructed literally. The new calculation uses rational arithmetic,
-complete exact number fields, and one certified modular linear-rank
-lower bound accompanied by the rational upper bound proved above.
+The calculation uses rational arithmetic, complete exact number fields,
+and one certified modular linear-rank lower bound accompanied by the
+rational upper bound proved above. The full tensor is reconstructed literally.
 
 ## Exact verification
 
