@@ -54,8 +54,10 @@ at every P, so the resultant is nowhere zero.
 
 Hence the original single-section, no-other-curve CI hypothesis plus
 generic coprimality suffices for the line-bundle identity; no extra uniform
-transversality assumption is needed. This is a chosen-generator CI argument,
-not a claim that an arbitrary full generic initial CI forces normal flatness.
+transversality assumption is needed. This is a chosen-generator CI argument, not a claim that an
+arbitrary full generic initial CI forces normal flatness. The
+finite-flat bridge requires the full sole-section support and excludes
+vertical exceptional curve components at the second center.
 The later defect-divisor variant applies once the sole-smooth-support or
 finite-flat/minimal-length hypotheses are relaxed.
 
