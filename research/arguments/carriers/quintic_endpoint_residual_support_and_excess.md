@@ -772,24 +772,9 @@ Hence full inverse support is impossible throughout the endpoint a!=0
 family with at most two distinct common U,W roots. The three-distinct-
 common-root family remains a separate obligation in this note.
 
-## 7. Execution provenance and failure corrections
+## 7. Exact local-excess evidence
 
-The exact local-excess source has SHA-256 `84d8ffa69ff8e74f971112cc3a8e18efe33832af8c6ed5ab0bd0a8b26c67fccd` and verifies the fourteen identities, including both Bézout checks.
-
-Three failed source versions are preserved. The first two assertions
-failed because unparenthesized multiline M2 assignments silently omitted
-the following-line terms. An initial tentative quotient-ring diagnosis
-was superseded by inspection of the actual parsed equations. Parentheses
-repaired the source; the fraction-field presentation was retained and
-every resulting rational identity is interpreted with the explicit
-nonzero conditions above. The third version passed all fourteen checks
-but failed while exporting coefficients because q had the wrong ring
-binding. Rebinding to QQ[q] repaired only that export.
-
-Earlier scratch resultant and parameter scripts are exploratory leads,
-not additional accepted theorem certificates. The source's exact identities
-and Bezout certificates support the algebraic calculations; the preceding
-local determinant and support arguments supply the geometric quantifiers.
+The local-excess source (SHA-256 `84d8ffa69ff8e74f971112cc3a8e18efe33832af8c6ed5ab0bd0a8b26c67fccd`) checks fourteen identities, including both Bézout certificates. Rational identities use the explicit nonzero conditions stated above. These algebraic checks do not replace the local determinant and inverse-support arguments supplying the geometric quantifiers.
 
 ## Endpoint septic: independent two-common-root contact audit
 
