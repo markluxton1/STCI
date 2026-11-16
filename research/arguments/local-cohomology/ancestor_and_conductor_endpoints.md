@@ -730,7 +730,7 @@ d2=4 Gorenstein stratum follows.
 
 <a id="source-2026-10-08-session-localcoh-e1-d4-independent-auditmd"></a>
 
-## Independent audit of the algebraic e1,d2=4 quartic exclusion
+## Algebraic e1,d2=4 quartic exclusion: complete verification
 
 Date: 2026-10-08. Fixed C0, characteristic zero. Scope: exactly
 `A=r*z,B=1,12r^2+4r+3=0`, genuine degree-four second defect. The audited
