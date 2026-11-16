@@ -34,7 +34,7 @@ Let \(\nu:X\to S\) be the finite normalization and put
 \(H=\nu^*\mathcal O_S(1)\). The reduced inverse image
 \(W=(\nu^{-1}C_0)_{\rm red}\) can have several curve components, components
 mapping with degree greater than one, and isolated points. If a mate exists,
-its pullback has support exactly (W\); an isolated point away from those
+its pullback has support exactly \(W\); an isolated point away from those
 curves already obstructs it. For curve components \(\Gamma_i\), the pulled
 back divisor has the form \(\sum_i n_i\Gamma_i\), with every \(n_i>0\),
 and is linearly equivalent to \(bH\). This full-support requirement must
