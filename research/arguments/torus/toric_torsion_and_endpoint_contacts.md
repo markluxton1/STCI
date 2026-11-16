@@ -476,28 +476,19 @@ give the fixed-lower extension criterion in the actual equation module.
 
 <a id="2026-10-27-one-step-boundary-obstruction-audit"></a>
 
-## Independent audit: one-step boundary and final Gorenstein obstruction
+## One-step boundary and final Gorenstein obstruction
 
-The [independent reconstruction](../one_step_boundary_repair.md#2026-10-27-one-step-boundary-obstruction-audit)
-records the checked scope, including the fixed-surface criterion.
+The [one-step obstruction](../one_step_boundary_repair.md#2026-10-27-one-step-boundary-obstruction-audit) has a fixed-surface criterion; it does not classify all admissible lower embeddings.
 
 ---
 
 <a id="2026-10-26-ci-cycle-fixed-boundary-node-smoothing-audit"></a>
 
-## Independent final audit of node smoothing at fixed boundary
+## Node smoothing at fixed boundary
 
-Date: 2026-10-26. Reviewer: independent cycle-notebook audit agent.
-Status: exact tangent calculation and local deformation interpretation
-reviewed.
+The [fixed-boundary calculation](../residuals/fixed_boundary_smoothing.md) and [line-plus-degree-eleven geometry](../residuals/explicit_quartic_residuals.md) give the following local formal result.
 
-This finishes review of the existing
-[fixed-boundary node-smoothing calculation](../residuals/fixed_boundary_smoothing.md).
-The underlying line-plus-degree-eleven curve has its separate
-[geometric audit](../residuals/explicit_quartic_residuals.md).
-No new investigation is started here.
-
-**Outcome.** The ranks \(19,5,24\) are correct for the actual global quartic
+**Conclusion.** The ranks \(19,5,24\) are correct for the actual global quartic
 source. The fixed-boundary fiber is locally smooth of dimension fourteen,
 and its five residual node parameters have independent differentials.
 After splitting and labelling the geometric nodes, its complete local ring
