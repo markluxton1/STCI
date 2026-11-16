@@ -172,7 +172,7 @@ Vanishing obstruction groups do not remove that global cost.
 ### 4. The degree-one moving linear branch has an exact zero locus
 
 The new independently derived calculation in
-[the moving linear audit](spectral_pushforward_powers.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd)
+[the moving linear audit](spectral_pushforward_powers.md#focused-cyclic-cover-and-spectral-power-developments)
 also treats the smallest movement case, where `r=e=1` and
 `Q_1=O(-4)` has nonzero cohomology. Write
 
@@ -213,7 +213,7 @@ Inputs used as accepted premises:
 
 New independent review:
 
-- [Moving linear quadratic obstruction and pure-power quadratic splitting](spectral_pushforward_powers.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd).
+- [Moving linear quadratic obstruction and pure-power quadratic splitting](spectral_pushforward_powers.md#focused-cyclic-cover-and-spectral-power-developments).
 - [Completed independent higher-tower audit](#2026-10-14-generalization-moving-purepower-tower-independent-audit).
   Its finite-order scope is now accepted; it supplies no global STCI pair.
 
@@ -236,7 +236,7 @@ for the rational quartic is used as a premise. No accepted chart-transition,
 normal-bundle, or constant-direction computation is repeated.
 
 This note audits the proposed generalization of the next-order calculation in
-[the moving linear relation review](spectral_pushforward_powers.md#source-2026-10-14-moving-linear-quadratic-obstruction-independent-auditmd).
+[the moving linear relation review](spectral_pushforward_powers.md#focused-cyclic-cover-and-spectral-power-developments).
 The apolar quotient, the successive gluing obstruction, the vanishing range,
 and the Cohen--Macaulay assertion all pass. The construction supplies embedded
 finite-order thickenings; it does not supply a global carrier or an STCI pair.

@@ -219,7 +219,7 @@ to full inverse support, and no nonlinear conductor descent.
 
 Date: 2026-10-15. Status: **GLOBAL COVER AND EXACT INPUT ASSEMBLY;
 independently audited** in the
-[global monic ODE review](normalization_conductor_phase2_addendum.md#2026-10-16-generalization-quintic-h2-global-monic-ode-independent-audit).
+[global monic ODE review](normalization_conductor_phase2_addendum.md#separate-finite-root-arithmetic-and-quintic-boundaries).
 Accepted conormal forms, the actual
 conductor octic, the full h2 conductor factor, global Delta1 open, ODE
 and spectral reductions are premises. No accepted verifier is replayed.

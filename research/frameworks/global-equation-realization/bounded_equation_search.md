@@ -5,7 +5,7 @@ For fixed-embedding finite verification and witness bounds, see
 
 ## Variation of the embedding
 
-The [projection-center moduli](../../arguments/carriers/quartic_carrier_proof.md#projection-center-moduli-and-the-exact-characteristic-two-comparison)
+The [projection-center moduli](../../arguments/carriers/quartic_carrier_proof.md#related-independent-mathematical-developments)
 identify C0's special orbit among smooth projected quartics. Choose a
 characteristic-zero one-parameter family leaving that orbit while retaining
 smooth embeddings, and first construct a relative marked source for one

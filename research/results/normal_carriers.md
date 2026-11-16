@@ -32,7 +32,7 @@ The [normal-quartic proof's exceptional-correction analysis](../arguments/carrie
 covers the smooth elliptic exceptional curve separately. The [Type D Green-function argument](../arguments/normal-geometry/saturation_rees_and_carrier_cases.md#q-two-arm-coefficient-one-tails-exact-comparison)
 requires the terminal effective diagonal bound \(d_{\mathrm{eff}}\ge3\)
 in its two-arm reduction (D25). The full normal proof
-closes Type D via the pulled maximal ideal, with its [preservation review](../arguments/carriers/quartic_carrier_proof.md#normal-route-preservation-review)
+closes Type D via the pulled maximal ideal, with its [preservation review](../arguments/carriers/quartic_carrier_proof.md#9-verification-and-logical-boundaries)
 recorded separately. The unrestricted higher-degree STCI question remains
 open. Positive-characteristic quartic-carrier examples and the limits of
 each proof mechanism are described in the [characteristic boundary](../arguments/carriers/quartic_carrier_proof.md#8-what-changes-in-positive-characteristic).

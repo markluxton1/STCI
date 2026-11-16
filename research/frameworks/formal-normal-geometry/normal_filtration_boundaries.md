@@ -99,7 +99,7 @@ The full mathematical developments have moved to focused documents. Original hea
 
 ## Remaining comparison interface
 
-[Complete development](socle_budgets_and_arithmetic_comparisons.md#a-bounded-next-experiment-not-another-case-catalogue)
+[Complete development](socle_budgets_and_arithmetic_comparisons.md#interfaces-required-for-a-complete-comparison)
 
 ## Ordinary ideal powers and filtered equation modules are different source questions
 

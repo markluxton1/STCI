@@ -512,7 +512,7 @@ The exact equation-module comparison, normal-Koszul filtration, conormal-entry a
 
 ## Local filtration audit and scope boundary — 2026-10-26
 
-[R-0030 records the audit's scope and links the original decision](../../results/local_filtration_comparison_defect.md#statement-and-hypotheses).
+[R-0030 records the audit's scope and links the original decision](../../results/local_filtration_comparison_defect.md#statement).
 The [local comparison argument](../filtered_equation_comparison.md#local-comparison-and-the-punctual-defect)
 gives the proofs of the quotient comparison, generic count, DVR length formula,
 and smooth-carrier vanishing.

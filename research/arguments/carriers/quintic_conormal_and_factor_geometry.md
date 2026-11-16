@@ -92,7 +92,7 @@ The ribbon and generic conormal deductions above are written out directly.
 
 ## 3. Multiplicity ten without global primitivity or a regular ratio
 
-The separately delegated [multiplicity-ten filtration audit](../residuals/quasiprimitive_residual_cycles.md#source-2026-10-11-session-multiplicity-ten-filtration-auditmd)
+The separately delegated [multiplicity-ten filtration audit](../residuals/quasiprimitive_residual_cycles.md#uniform-quasiprimitive-restrictions-with-a-quartic-carrier)
 supplies a direct finite-flat Frobenius proof, read and checked by this
 auditor. A hypothetical CI(5,8) is generically curvilinear by Section 1.
 Its saturated graded pieces E_i are line bundles, even at nonprimitive

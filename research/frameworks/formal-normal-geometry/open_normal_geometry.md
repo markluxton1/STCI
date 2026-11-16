@@ -36,7 +36,7 @@ lci setting.
 For a hypothetical characteristic-zero \((4,b)\) pair with sole support
 \(C_0\) and \(e=0\), the [global bound](../../arguments/residuals/quasiprimitive_residual_cycles.md#mf6-audit-and-higher-jet-exclusions-for-the-mixed-46-pole-branch)
 is \(\deg D_2\ge3\). For bidegree \((4,6)\) and \(e=0\), set
-\((d_2,d_3)=(\deg D_2,\deg D_3)\). The [nonregular exclusion](../../arguments/local-cohomology/contact_parity_and_mf6.md#independent-audit-of-the-mf6-degree-three-nonregular-exclusion)
+\((d_2,d_3)=(\deg D_2,\deg D_3)\). The [nonregular exclusion](../../arguments/local-cohomology/contact_parity_and_mf6.md#mf6-degree-three-nonregular-exclusion)
 for \((d_2,d_3)=(3,6)\) leaves the regular-ratio case to the general
 [quartic-mate theorem](../../results/quartic_carrier_exclusion.md). The
 \((d_2,d_3)=(4,5)\) type also has its own

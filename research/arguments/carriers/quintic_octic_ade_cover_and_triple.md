@@ -27,7 +27,7 @@ We use the following inputs at their stated scopes:
   [the shared filtration and first-symbol proofs](quintic_octic_surface_constraints.md#1-filtration-data-and-the-three-numerical-rows).
   In particular the quintic first symbol is nonzero, with divisor degree q+6.
 - The exact constant-direction quadratic cocycle in
-  [the full embedded-triple calculation](../residuals/quasiprimitive_residual_cycles.md#2026-10-05-mf6-further-audit).
+  [the full embedded-triple calculation](../residuals/quasiprimitive_residual_cycles.md#mf6-audit-and-higher-jet-exclusions-for-the-mixed-46-pole-branch).
   Its embedded-triple calculation is independent of the final carrier degree.
   Section 6 below extends that calculation to this application; it does not
   import the later quartic-membership argument. [R-0033](../../results/constant_first_relation_lifting.md) alone does not exclude

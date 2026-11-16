@@ -10,7 +10,7 @@ The all-quartic-carrier theorem already excludes a characteristic-zero \((4,6)\)
 
 Except for the explicitly characteristic-free singleton-normalization lemma and final local control, the split-carrier numerical and projection arguments below retain their characteristic-zero scope. The conormal splitting, divisions by two, actual source ranks and characteristic-zero geometric arguments are not silently transferred to characteristic two or three. The fixed curve does have a [quartic-carrier STCI in every positive characteristic](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier), which is a separate construction.
 
-The [saturated Gorenstein pairing proof](../residuals/quasiprimitive_residual_cycles.md#2026-10-05-mf6-pairing-audit) supplies the rank-six duality input; [the full primitive-triple obstruction](../normal-geometry/formal-normal-intersection.md#primitive-triples-on-smooth-rational-quartics) is the stated exclusion input used in the last section. The exact first-normal source space is preserved below with its chosen balanced frame.
+The [saturated Gorenstein pairing proof](../residuals/quasiprimitive_residual_cycles.md#mf6-prerequisite-audit-perfect-pairings-on-the-saturated-filtration) supplies the rank-six duality input; [the full primitive-triple obstruction](../normal-geometry/formal-normal-intersection.md#primitive-triples-on-smooth-rational-quartics) is the stated exclusion input used in the last section. The exact first-normal source space is preserved below with its chosen balanced frame.
 
 ## A normalization obstruction for an integral thick sextic
 
