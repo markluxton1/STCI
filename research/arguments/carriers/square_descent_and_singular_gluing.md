@@ -744,7 +744,7 @@ For the fixed quartic, an existence-oriented torsion construction must provide t
 
 The polynomial Q,G,A,B identities and support proof of the twisted-cubic benchmark hold in every characteristic; in characteristic two the coefficient 2 vanishes, while the direct equations still give the same reduced support and cycle. The sign-quotient interpretation uses characteristic different from two, and in characteristic two is replaced by the inseparable squaring interpretation. The finite-group semi-invariant lemma and nodal-pinching injectivity contradiction hold in every characteristic. The quoted torsion-freeness statement for Pic(X)/Z[H] is the characteristic-zero literature theorem and is not extended here.
 
-## Consolidation review
+## Scope and proof dependencies
 
 Independent consolidation review checked the corrected-square polynomial identities and support, the non-Cartier cone-class interpretation, finite semi-invariant orbit-polynomial argument without a Reynolds assumption, the nodal pinching contradiction and all displayed characteristic boundaries. The twisted cubic remains a different curve, and no quartic construction or global pinching realization is inferred.
 
