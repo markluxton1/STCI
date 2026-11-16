@@ -252,7 +252,7 @@ not asserted homogeneous realizations on the fixed quartic. The actual
 projective residual test remains the full generic length and degree identity.
 
 
-## Consolidated historical source: `research/supplements/MIXED_SEXTIC_CONTACT.md`
+## Mixed sextic contact: exact family and residual consequences
 
 # Exact degree-six branch contact on a mixed-weight sextic
 
@@ -472,4 +472,4 @@ cycle is counted as a residual curve.
 
 ## Necessary exact computational support
 
-The historical primary verifier and [separately assembled verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/stci_mixed_contact_audit_2026_10_29.m2), with the independent saved output, retain the exact \(\mathbf Q[h]\) matrix and both exceptional rank strata. A sampled rank at one \(h\), or the first finite scheme alone, would not establish the theorem: the second scheme removes the roots of \(P_7\). Their algebraic interpretation is the kernel of actual global sextics restricting to order at least five on one formal branch. No function-field source coefficients are permitted. The inherited independent review reconstructed the recurrence, weight blocks, invariant factors, and integrality deduction. No fresh rank run was required for the editorial consolidation.
+The historical primary verifier and [separately assembled verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/stci_mixed_contact_audit_2026_10_29.m2), with the independent saved output, retain the exact \(\mathbf Q[h]\) matrix and both exceptional rank strata. A sampled rank at one \(h\), or the first finite scheme alone, would not establish the theorem: the second scheme removes the roots of \(P_7\). Their algebraic interpretation is the kernel of actual global sextics restricting to order at least five on one formal branch. No function-field source coefficients are permitted. The recurrence, weight blocks, invariant factors, and integrality deduction are the required exact ingredients.
