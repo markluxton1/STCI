@@ -209,6 +209,22 @@ stability on the improper equation coordinates of their
 full graph limits. Other VGIT chambers need not be
 enumerated to cover supported pairs.
 
+## Invariant residual incidence and absorption
+
+The [orbit-curve classification and residual counterexample](../../arguments/torus_hilbert_boundary.md#invariant-residual-supports-and-absorption-limits)
+show that invariant reduced curves meet the marked quartic
+only at its endpoints, except for the unique disjoint
+coordinate line \(L_{12}\). The latter can occur in a
+connected proper intersection through chains of other
+residual components, so direct endpoint attachment is
+not a universal constraint. Under flat specialization
+the marked multiplicity can rise as residual cycle
+specializes onto \(C\), but cycle-level absorption
+does not ensure a two-generated full Hilbert limit.
+These distinctions refine the geometric incidence
+strata without asserting that all residuals can be
+removed by further torus translations.
+
 ## Coverage boundaries
 
 Failure of eigenform equations does not exclude other moving equations or
