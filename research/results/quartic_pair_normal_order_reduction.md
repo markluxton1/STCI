@@ -52,14 +52,4 @@ complete-intersection locus.
 
 ## Review
 
-The Phase 5 independent reviewer accepted the route for coprime quartics
-over an algebraically closed field, using R-0058. The reviewer checked the
-quadric divisor-class obstruction, the use of an actual first-order
-equation as a formal parameter, and both implications of the cycle-degree
-test with complete-intersection purity. The reviewer also reconstructed
-the Cartier quadruple and the nonlinear overlap of the prescribed
-characteristic-two pair.
-
-The October 23 audit checked the symbol calculations underlying this
-reduction. The separate filtered characteristic-zero exclusion has
-additional premises and a different proof review. [Source review](../arguments/quartic_specialization_and_symbols.md#source-review-and-verification)
+The complete argument in A-0004 uses the unique double-vanishing quartic q^2, the divisor class (4,4) on Q, the local normal-parameter criterion and degree exhaustion for a proper (4,4) complete intersection. The criterion requires actual global coprime quartics, not arbitrary formal normal equations.
