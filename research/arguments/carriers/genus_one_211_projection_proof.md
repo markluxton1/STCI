@@ -8,7 +8,7 @@ Date: 2026-10-09. Author: `normal_global_adversarial`.
 Status: **PROVED HERE under the accepted genus-one ribbon-net reduction**.
 This rules out the entire binary-quartic multiplicity partition [2,1,1]
 for a hypothetical genus-one quartic mate, in characteristic zero.
-It does not yet exclude the partitions [4], [3,1], or [2,2].
+The partitions [4], [3,1], and [2,2] are excluded in the separate repeated-partition proof; they were outside this individual [2,1,1] calculation.
 No frontier file is edited.
 
 Inputs are the [independent ribbon-net proof](genus_one_ribbon_conormal_net_proof.md)
