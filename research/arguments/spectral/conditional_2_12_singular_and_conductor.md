@@ -15,7 +15,7 @@ Preserve the exact two-node factors, torsion scheme, diagonal-slice countercheck
 ---
 
 
-Permanent mathematical dossier. The (2,12) setting and every other hypothesis remain conditional as in the original arguments; full calculations, exceptional cases and failures are retained.
+The \((2,12)\) configuration is conditional throughout; no actual global pair is constructed.
 
 ---
 
@@ -23,15 +23,7 @@ Permanent mathematical dossier. The (2,12) setting and every other hypothesis re
 
 # Conditional (2,12;6,16;2): exact two-node torsion and a diagonal exclusion
 
-Date: 2026-10-20. Author: `singular_gluing` continuation worker.
-Status: **new proposal; exact reduction and scoped exclusion**. No
-record or inherited proof is changed. The factor-matrix and
-torsion-scheme calculation below was independently reconstructed by
-`two_node_torsion_audit`, with an additional factorization check by its
-`factor_check` worker. The diagonal ambient exclusion, its exact
-contraction ideal, its source substitution in the actual chart,
-and its arithmetic were independently reviewed by the same auditor
-and its `diagonal_arithmetic` worker, with verdict PASS.
+The factor-matrix and torsion-scheme calculation gives an exact reduction and a diagonal ambient exclusion on the stated chart, with its contraction ideal and source substitution. The exceptional and collision strata are not excluded by this calculation.
 
 ## Scope and existing interface
 
