@@ -98,42 +98,4 @@ gives sufficient hypotheses for that identification.
 
 ## Review
 
-The Phase 5 nonauthor reviewer accepted this local route after reconstructing
-the filtration denominator, the presentation syzygies and Artin–Rees
-finiteness, the generic generator count, and the torsion sequence over the
-DVR. The reviewer checked the completed-local initial ideals with a
-possibly nonunit leading coefficient and faithful-flat descent. This
-decision covers the local comparison, count, length and support statements
-under their respective hypotheses.
-
-The cleanup preservation reviewer `delta_review` accepted the consolidated
-route in A-0005 after reconstructing the quotient and filtration finiteness,
-the degreewise count for a transverse parameter ideal, the equal-rank DVR
-torsion sequence under generic vanishing, and the smooth-carrier calculation
-with a possibly nonunit coefficient. The decision covers the local route.
-
-The October 23 independent review checked the quotient denominator, the
-direction of comparison, the presentation syzygies and the completed-local
-smooth-carrier calculation. It kept the leading coefficient nonzero in the
-coefficient domain while allowing it to vanish at the closed point.
-[October 23 comparison review](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#filtered-equation-module) ·
-[Smooth-carrier review](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#additional-smooth-carrier-proposition)
-
-The October 24 continuation derives the generic generator excess and the
-DVR torsion sequence. The independent review checks both under their separate
-hypotheses.
-[October 24 continuation](https://github.com/markluxton1/STCI/blob/737bfe4eacb93dfc1273228773695e1b55c72028/research/notes/2026-10-24-delta-singular-locus-continuation.md#L130-L168) ·
-[October 24 review](https://github.com/markluxton1/STCI/blob/737bfe4eacb93dfc1273228773695e1b55c72028/research/notes/2026-10-24-delta-singular-locus-review.md#L38-L44)
-
-### October 26 local audit
-
-The audit checked the initial-ideal quotient comparison, the generic count
-for a transverse parameter ideal, and the DVR torsion sequence and length
-formula under generic vanishing. It used the October 23 completed-local
-straightening to delimit smooth-carrier support containment. It distinguished
-the punctual residual example from the supported quadruple with zero
-defect. Its decision concerned the local statements. The global
-characteristic-two quartic gluing and the relative normal-Koszul spectral
-sequence lay outside this audit's scope. The audit recorded no fresh
-executable replay.
-[Original October 26 audit and decision](https://github.com/markluxton1/STCI/blob/42d7c1bbc0b7670dfb55ce9da208248eb9c10066/research/notes/2026-10-26-filtration-local-proof-audit.md)
+The proof of the comparison, DVR torsion formula and smooth-carrier vanishing is retained in [the filtered-equation Argument](../arguments/filtered_equation_comparison.md). The smooth-carrier leading coefficient need not be a unit.
