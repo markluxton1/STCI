@@ -2,8 +2,6 @@
 
 # October 7 saturation, Rees valuations, blowup budgets, and rational carriers
 
-Topical preservation of mathematical source material, including counterexamples and original audit qualifications.
-
 ---
 
 ## 2026-10-07-dx1-saturation-audit
