@@ -555,7 +555,7 @@ a degree-by-degree verification or a global exhaustion theorem.
 
 <a id="2026-10-14-generalization-normal-index-general-scope-independent-audit"></a>
 
-## Independent audit of the general normal-index consequences
+## General normal-index consequences and equality cases
 
 Independent reconstruction checked the degree-independent inequality, integer and equality cases, tame-characteristic scope, and intrinsic no-mate version, taking the [local power-socle theorem](normal_carrier_symbolic_torsion.md#2026-10-14-generalization-index12-filtered-compatibility) as a premise. It did not rerun the local theorem, curve obstructions, or computational certificates.
 
@@ -900,8 +900,6 @@ torsion factor.
 
 ## A full first-layer and socle bound for transverse ramification
 
-Status: **NEW WRITTEN
-PROOF; independent review requested**. The accepted normal bundle of
 fixed C0 and accepted carrier exclusions are premises, with no reruns.
 This note studies new restrictions on the three Cartier-lift models
 from the [accepted classification](../spectral/quadratic_root_and_blowup_incidence.md#2026-10-14-generalization-cartier-lift-independent-audit).
@@ -1103,7 +1101,7 @@ necessary common-root bounds in the remaining Cartier-lift models.
 
 <a id="2026-10-14-generalization-transverse-socle-independent-audit"></a>
 
-## Independent review: the actual transverse first layer and global socle
+## Transverse first-layer theorem: hypotheses and numerical scope
 
 Independent reconstruction verified [the transverse-differential theorem](#2026-10-14-generalization-transverse-differential-socle-bound) in all characteristics, assuming the established socle duality and \(C_0\) splitting. The carrier is generically regular, and the entire normalization inverse support is a singleton smooth degree-one Cartier curve \(c\). Saturating the global normal differential gives \(B=\mathcal O_c(c)(A)\), with \(A\) its common-zero divisor. The **actual** first layer is
 \[
@@ -1124,7 +1122,7 @@ Finite-point socle defects only strengthen this bound. For \(C_0\), the image li
 
 <a id="source-2026-10-14-generalization-ribbon-independent-reviewmd"></a>
 
-## Independent written review of the symbolic-ribbon generalization
+## Symbolic-ribbon generalization: sheaf proof and scope
 
 The independent written review of the [symbolic-ribbon criterion](../normal-geometry/thick_equality_socle.md#source-2026-10-13-generalization-ribbon-numerical-criterionmd) reconstructed its sheaf arguments, multiplication maps, Euler identity, and numerical specializations. Its conclusion requires normality, a smooth curve, an **actual Cartier relation**, finite normalized-carrier map, and degree-one lift. The conormal inequality also needs a generically nonzero first-layer map; the valuation variant uses its first surviving layer. No inherited verifier was rerun.
 
@@ -1383,8 +1381,6 @@ The two `L=12` rows are only necessary arithmetic survivors. No existence statem
 
 ## All-degree torsion filter for normal carriers of fixed C0
 
-Status: **NEW DIRECT
-COROLLARY OF ACCEPTED PREMISES; independent review requested**.
 No earlier verifier or proof was rerun.
 
 ### 1. Exact divisor-class criterion
