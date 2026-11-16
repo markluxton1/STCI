@@ -19,11 +19,11 @@ The catalog currently indexes **71 typed Results, 9 typed Arguments, 9 Framework
 
 ## Complete pinned-tree file inventory
 
-The [research Markdown tree](CORPUS_TREE_INVENTORY.md) lists all **357** research Markdown files; the [remaining-file inventory](CORPUS_OTHER_FILES.md) lists all **159** other repository files, with paths, blob sizes, formats and provisional path-based roles. Together they partition all **516** blobs in the pinned, untruncated Git tree. This completes **file-level metadata inventory**, not mathematical review or code verification. Later inventory commits are outside the pinned snapshot.
+The [single canonical repository inventory](CORPUS_TREE_INVENTORY.md) lists **all 516 files** in one table with paths, blob sizes, formats, and provisional path-based roles. This includes **357 research Markdown** and **159 other** files. This completes **file-level metadata inventory**, not mathematical review or code verification. Later inventory commits are outside the pinned snapshot.
 
 ## Authoritative repository tree coverage
 
-The [complete research Markdown tree inventory](CORPUS_TREE_INVENTORY.md) was generated from GitHub's recursive Git Trees API at commit `f6d2751e1c5eddd484d7f854841fa995e75a0ebe` (tree `902ff7719e6e601b40b4d93453a156f61c560b30`, `truncated=false`). The snapshot contains **516 repository files** and **357 research Markdown files**, including navigation and inventory files. The earlier 220-path link crawl missed **137** research Markdown paths, including **128 mathematical or supporting files** and **9 navigation/inventory files**. This closes path enumeration **for the pinned tree snapshot**; it does not complete content or proof review. The inventory file itself was committed afterward and is therefore not counted in its own snapshot.
+The [complete repository inventory](CORPUS_TREE_INVENTORY.md) was generated from GitHub's recursive Git Trees API at commit `f6d2751e1c5eddd484d7f854841fa995e75a0ebe` (tree `902ff7719e6e601b40b4d93453a156f61c560b30`, `truncated=false`). The snapshot contains **516 repository files** and **357 research Markdown files**, including navigation and inventory files. The earlier 220-path link crawl missed **137** research Markdown paths, including **128 mathematical or supporting files** and **9 navigation/inventory files**. This closes path enumeration **for the pinned tree snapshot**; it does not complete content or proof review. The inventory file itself was committed afterward and is therefore not counted in its own snapshot.
 
 ## Additional dependency-linked files (verified)
 
