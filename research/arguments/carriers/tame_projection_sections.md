@@ -134,14 +134,3 @@ in every odd characteristic and has embedding dimension two. The
 therefore cannot reduce all pairs to the curvilinear case. No identification
 of the section's pole defect with a saturated normal-filtration socle
 divisor is made; such a comparison would require a separate proof.
-
-## Independent review
-
-An independent reconstruction accepted the canonical section, the
-arbitrary-pair bound (1), and the exact local pole order in the stated
-characteristics. It checked purity and global nilpotence, the integral
-recursive fourth root without factorial inversion, the base-coordinate
-pole order and the module-versus-algebra distinction, and local sharpness
-through the last nonzero nilpotent coefficient. It also checked the
-noncurvilinear Jacobian example. No global homogeneous STCI realization or
-identification with a normal-filtration defect is asserted or reviewed.
