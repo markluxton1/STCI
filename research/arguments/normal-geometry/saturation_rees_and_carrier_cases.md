@@ -1438,7 +1438,7 @@ But the global B/G Bezout tradeoff requires
 
 Therefore:
 
-> **PROVED, subject to independent audit of the branch-effective-diagonal lemma.** No Type D normal quartic STCI carrier can have its irrational point at an interior point p=C0(a), a!=0,infinity.
+> **CONDITIONAL historical claim, superseded by §§O–Q.** The argument in §N uses a branch-effective-diagonal bound that is not proved in the stated generality. Sections O–Q give the corrected anticanonical coefficient recursion and reduce the interior-point Type D exclusion to a finite boundary calculation (in particular the terminal effective-diagonal condition (D25)). No unconditional interior-point exclusion follows from this section.
 
 Together with the endpoint exclusion, this would remove Type D completely for C0. The branch-effective-diagonal assertion used in N.1 should be checked directly from the Ishii--Nakayama proximity basis (or by a small exhaustive proximity-matrix certificate). That check is preferable to relying on electrical-network intuition.
 
