@@ -61,7 +61,3 @@ The spectral criterion covers singular and nonreduced root schemes; [STCI-R-0005
 - [Independent spectral audit](../arguments/spectral/moving_power_and_spectral_roots.md#2026-10-14-generalization-spectral-root-curve-independent-audit).
 
 The current full proof and its independently reconstructed scope are linked above; no ambient existence claim is asserted.
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.
