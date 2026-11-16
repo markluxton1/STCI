@@ -481,13 +481,9 @@ The [symbol producer](../../computations/conditional_2_12_symbol_map_2026_10_20.
 
 ## 2026-10-20-conditional-2-12-incidence-audit
 
-# Independent audit of the conditional (2,12;6,16;2) incidence
+# Independent reconstruction of the conditional (2,12;6,16;2) incidence
 
-Date: 2026-10-20. Reviewer: `incidence_audit` worker, separate from the
-symbol-map and singular-gluing authors.
-
-Status: **PASS for the exact reductions specified below; no
-emptiness certificate, nonemptiness certificate, or global realization.**
+The reductions below do not establish emptiness, nonemptiness, or global realization.
 
 ## 1. Scope and dependencies
 
@@ -705,19 +701,11 @@ and its explicit first missing global lift.
 
 The conditional \((2,12)\) incidence has a 23-dimensional sextic source, eleven image equations, and a 22-row minor of determinant \(48\); \(T_{12}\) has Laurent exponent \(n-m=j-\ell\). The tangent test shows nonautomatic \(K_1\) membership, not emptiness of the second incidence. The cubic seed proves neither nonemptiness nor an actual pair; gcd/Bezout sole-support testing applies only after global equations are constructed.
 
-### Exact certificate: [conditional_2_12_cubic_reduction_2026_10_21.json](../../computations/conditional_2_12_cubic_reduction_2026_10_21.json)
+### Exact computational sources
 
-The original json source is preserved in the linked file. Its computational conclusions retain the scope and limitations stated in the mathematical argument above.
+- [Cubic-reduction output](../../computations/conditional_2_12_cubic_reduction_2026_10_21.json)
+- [Candidate output](../../computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.json)
+- [Candidate computation](../../computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.py)
 
-
-
-### Exact certificate: [conditional_2_12_cubic_reduction_2026_10_21_candidates.json](../../computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.json)
-
-The original json source is preserved in the linked file. Its computational conclusions retain the scope and limitations stated in the mathematical argument above.
-
-
-
-### Exact certificate: [conditional_2_12_cubic_reduction_2026_10_21_candidates.py](../../computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.py)
-
-The original python source is preserved in the linked file. Its computational conclusions retain the scope and limitations stated in the mathematical argument above.
+These certificates have only the scope established above.
 
