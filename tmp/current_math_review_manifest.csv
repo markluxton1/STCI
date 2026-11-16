@@ -187,7 +187,7 @@ path,status,findings,action,commit
 "research/arguments/spectral/moving_power_second_relation.md","complete","Reviewed actual saturated moving pure-power relation quotient via apolar annihilator, evaluation line and effective divisor lower bound (r-1)e, torsion-inclusive Delta_s, nonsaturated first-relation corrections tau, gap-cost and finite characteristic restrictions","Full mathematical and hypothesis review; linked computations and previously proved inequalities treated as conditional inputs",""
 "research/arguments/spectral/order_three_roots_and_sextic_lifts.md","pending","","",""
 "research/arguments/spectral/quadratic_root_and_blowup_incidence.md","pending","","",""
-"research/arguments/spectral/quadratic_root_second_obstruction.md","pending","","",""
+"research/arguments/spectral/quadratic_root_second_obstruction.md","complete","Reviewed smooth (2,2) root relative Picard torsion divisors and involution translation, order-two det M=0 equivalence, transversality at explicit seed and specified component second-zero dimension at most 2, full 25 complementary-minor Serre pairings for rank16 obstruction, homogeneous discriminant and chart-free universal incidence","Scheme-level dual compression and hypotheses reviewed; global 16+25 equation elimination incomplete and no seed rerun","be98acb5944ef6b070a474f90c7db34d1541fb6a"
 "research/arguments/spectral/quadratic_root_torsion_two_lifting.md","pending","","",""
 "research/arguments/spectral/rank_strata_and_sextic_lifts.md","pending","","",""
 "research/arguments/spectral/saturated_duality_and_moving_powers.md","pending","","",""
