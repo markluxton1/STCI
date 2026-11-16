@@ -164,7 +164,7 @@ h^p\cdot\{\text{binary forms of degree }2p\text{ with at most }\min(p,q)\text{ r
 
 Thus before applying APic one should classify or constrain the ambient lifts in I_C^p(3p).
 
-### 5. Associated-graded target
+### 5. Associated-graded restriction and unresolved image
 
 The first symbol of F lies in
 \[
@@ -179,14 +179,14 @@ Since N_C^*=O(-7)\oplus O(-7),
 
 The quadric direction supplies one distinguished linear factor in the conormal bundle. Restricting the first symbol to that direction recovers R_F|_C. Equality a=3p therefore fixes a highly special slice of the first symbol but does not a priori determine the other p normal-direction coefficients.
 
-The next exact calculation should determine the image and kernel of
+The unresolved map is
 \[
 H^0(I_C^p(3p))\to
 H^0(I_C^p/I_C^{p+1}(3p))
 \]
 together with restriction to the quadric direction.
 
-If this map has small kernel or a forced factorization at degree 3p, then the equality boundary may classify the carrier itself. If the kernel is large, normalization cannot yet be forced from boundary numerics.
+No factorization or normalization theorem follows from the equality boundary without controlling this image.
 
 ### 6. Boundary of the claim
 
@@ -667,9 +667,7 @@ This converts the earlier existence-of-a-zero argument into a stronger one-varia
 
 ### 5. Pure-power restriction on each marked ruling
 
-If every zero of the section R_G|L_T in H^0(L_T,O(q)) is supported at P=L_T intersect C,
-
-Over an algebraically closed field this forces
+If every zero of the nonzero section \(R_G|_{L_T}\in H^0(L_T,\mathcal O(q))\) is supported at \(P=L_T\cap C\), then over an algebraically closed field this forces
     R_G|L_T = lambda * ell_P^q
 for some nonzero scalar lambda,
 unless R_G|L_T is identically zero.
@@ -678,9 +676,9 @@ Thus on every ruling component L_T of R_F, the mate residual restricts to a pure
 
 This is a substantial sharpening of the existing repeated-root statement.
 
-### 6. New target
+### 6. Global interpolation condition
 
-Exploit the simultaneous conditions
+The simultaneous conditions
     R_F = product_i L_i^{M_i},  sum M_i=2p,
 and
     R_G|L_i = lambda_i ell_{P_i}^q  or 0
@@ -690,7 +688,7 @@ Since R_G has bidegree (3q,q), these pure-power restrictions are interpolation c
 
 The unresolved condition is the rank of the restriction map from H^0(O_Q(3q,q)) to jets on the selected ruling lines, including zero restrictions. The local pure-power conditions alone do not establish a global obstruction.
 
-This reconnects the entirely-thick branch to the project's jet-condition/discrepancy framework.
+This is the remaining global compatibility condition; the local restrictions alone do not establish nonexistence.
 
 
 ---
