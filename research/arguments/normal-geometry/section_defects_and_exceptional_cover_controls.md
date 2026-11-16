@@ -242,7 +242,9 @@ and its blowup and cannot identify these exceptional constructions.
 ## Smooth models and dynamical source hypotheses
 
 The full-ideal line-supported examples above already allow ramified
-exceptional covers of arbitrarily large genus. Rational support therefore
+exceptional covers of arbitrarily large genus. This is an obstruction
+to inferring a rational exceptional cover from rational reduced support,
+not an assertion about a fixed quartic's allowed root strata. Rational support therefore
 does not force rational or unramified normalized covers. Generic ruledness
 does not supply an everywhere smooth \(\mathbf P^1\)-bundle model, and
 singular fibers cannot be counted as additional support curves downstairs.
