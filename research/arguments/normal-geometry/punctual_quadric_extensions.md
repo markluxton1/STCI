@@ -436,8 +436,6 @@ A general conditional form of the punctual construction is useful. Let S be a sm
 
 The constructions leave open how actual homogeneous equation columns constrain the amount and scheme structure of defect, and whether a new operation can retain both the full column divisor and sole embedded support. An unrestricted supported pair is neither constructed nor excluded.
 
-## Independent review and scope
+## Scope
 
-The finite-order Picard and punctual MCM statements, the actual-column dictionary, bounded operation invariant and rank-zero reset were independently checked against their source proofs. The characteristic-free scope of the actual-column identities and the conditional punctured-surface extension were reconstructed separately. The matrix-literature restrictions remain explicit. These statements do not provide compatible all-order global extensions or a supported pair.
-
-The inherited mathematical inputs retain the scope and review evidence of their linked owners. No inherited CAS campaign was broadly rerun, and the unrestricted characteristic-zero STCI question remains open.
+The actual-column identities are characteristic-free; punctured-surface extension is conditional. These results do not construct compatible all-order global extensions or a supported pair. The unrestricted characteristic-zero STCI question remains open.
