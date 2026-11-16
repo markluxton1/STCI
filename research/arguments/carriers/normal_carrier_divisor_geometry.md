@@ -379,6 +379,6 @@ close nonnormal or entirely-thick carriers.
 ---
 
 
-## Review scope
+## Scope
 
-Independent preservation review covered the full source argument. A subsequent mathematical review reconstructed the Hodge equality and exact-order proofs and checked the local-criterion application against its inherited socle identity. The final text explicitly requires a smooth Q-Cartier curve in Section 2 and distinguishes local unbounded-index examples from the unanswered fixed-degree global question. Existence needs numerical triviality to give torsion; the exact-order formulas additionally use the stated torsion-free Picard input. These are reviewed statements; no new computation or unrestricted positive-characteristic transfer is asserted.
+The local divisor criterion requires a smooth Q-Cartier curve. Numerical triviality gives torsion only under the stated hypotheses; exact-order formulas additionally use torsion-free Picard input. Local unbounded-index examples do not settle the fixed-degree global question.
