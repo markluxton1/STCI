@@ -7,7 +7,7 @@ statement: "#statement"
 proofs:
   - name: prime cancellation and generic lengths
     at: "research/arguments/torus_sextic_residuals.md#a-colon-formula-for-divisor-cycles"
-    using: [STCI-R-0044]
+    using: [STCI-R-0041, STCI-R-0044]
     review:
       state: accepted
       basis: reconstructed
@@ -53,7 +53,7 @@ generic length is
 
 The [complete colon proof](../arguments/torus_sextic_residuals.md#a-colon-formula-for-divisor-cycles)
 uses primality of \(q\) to cancel the coefficient of \(ab\); localization
-of the exact sequence and R-0044 then compute the cycle.
+of the exact sequence and the local multiplicity theorem R-0044 then compute the cycle.
 
 ## Evidence
 
@@ -83,4 +83,3 @@ smoothness hypothesis, including the specialization used in R-0046.
 Acceptance concerns a cycle formula, without inferring saturation or
 endpoint structure for arbitrary such ideals.
 
-Independent reconstruction review accepts this route within its stated scope.
