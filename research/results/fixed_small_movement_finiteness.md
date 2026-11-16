@@ -42,7 +42,3 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 
 - No finiteness conclusion is claimed for epsilon>=9.
 - Finite arithmetic lists are not realizability lists or STCI classifications.
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.
