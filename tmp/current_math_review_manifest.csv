@@ -209,7 +209,7 @@ path,status,findings,action,commit
 "research/arguments/torus/seven_branch_endpoint_jets_and_conductors.md","pending","","",""
 "research/arguments/torus/toric_torsion_and_endpoint_contacts.md","pending","","",""
 "research/arguments/torus/tropical_thickenings_and_endpoint_duality.md","pending","","",""
-"research/arguments/torus_embedded_quotients.md","pending","","",""
+"research/arguments/torus_embedded_quotients.md","complete","Reviewed full proof of finite image and purity; endpoint finite modification and Hilbert polynomial; degree exhaustion; weight kernels and exact CI test; fourth-root conductor; embedded characteristic 2 and 3 examples; flat collision and base change; binomial quotient scope","Removed redundant audit section and obsolete review cross-reference","0f06942ecf3e998fe94cb377f6c5367836be2c6b"
 "research/arguments/torus_hilbert_boundary.md","pending","","",""
 "research/arguments/torus_sextic_residuals.md","complete","Reviewed all sections: orbit quotient, trace, sharp bound, local algebra, residual families, Hilbert-Burch full limit, endpoint charts and transverse example","Retain full proof; no mathematical correction identified",""
 "research/arguments/transverse_specialization.md","pending","","",""
