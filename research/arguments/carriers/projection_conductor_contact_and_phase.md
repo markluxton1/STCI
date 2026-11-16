@@ -481,7 +481,7 @@ replacement for that false inference.
 
 ### 8. A deliberately preserved failed global phase construction
 
-The [opposite-ruling normal form](carrier_conductor_differential_comparison.md#the-opposite-ruling-pairing-and-its-complete-coefficient-freedom)
+The [opposite-ruling normal form](projection_support_differential_obstructions.md#the-opposite-ruling-pairing-and-its-complete-coefficient-freedom)
 gives the entire coefficient family for the specified pairing
 `(x,0)<->(0,a x)` through one diagonal point. It retains arbitrary
 four-vectors `D,E`; its branchwise phase is `a^(-2)`. This is a

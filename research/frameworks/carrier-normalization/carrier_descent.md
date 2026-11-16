@@ -105,7 +105,7 @@ The accepted [projection-family reduction, STCI-R-0004](../../results/projection
 
 This is a significant reduction: it replaces an unbounded search over mate degrees by a structured question about the phase image and its torsion points. But the actual phase images and surviving torsion cosets for the three fixed-\(C\) models **have not been computed**. The mate locus need not itself be constructible.
 
-The actual [plane and smooth-quadric examples](../../arguments/carriers/carrier_conductor_differential_comparison.md#projection-support-and-differential-obstructions) distinguish the two principal failures. In the plane family full inverse support holds but every unit power fails infinitesimal descent. In the quadric families isolated inverse points already obstruct a divisor pullback. These restricted exclusions do not exhaust the complete projection families.
+The actual [plane and smooth-quadric examples](../../arguments/carriers/projection_support_differential_obstructions.md) distinguish the two principal failures. In the plane family full inverse support holds but every unit power fails infinitesimal descent. In the quadric families isolated inverse points already obstruct a divisor pullback. These restricted exclusions do not exhaust the complete projection families.
 
 ## 4.6 Interface with the simultaneous-equation geometry
 

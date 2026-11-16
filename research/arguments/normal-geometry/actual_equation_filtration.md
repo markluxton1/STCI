@@ -344,10 +344,10 @@ such an obstruction. Its reduced residue class is already trivial;
 the first nilpotent term obstructs every power. This demonstrates why
 reduced phase or inverse-support checks alone cannot settle Q0001.
 
-Proof: [singleton-projection note](../carriers/carrier_conductor_differential_comparison.md#plane-normalization-actual-support-but-no-descending-power).
+Proof: [singleton-projection note](../carriers/projection_support_differential_obstructions.md#plane-normalization-actual-support-but-no-descending-power).
 Independent review, including a closing reconstruction of the broader
 coordinate sublane:
-[carrier audit](../carriers/carrier_conductor_differential_comparison.md#plane-normalization-actual-support-but-no-descending-power).
+[carrier audit](../carriers/projection_support_differential_obstructions.md#plane-normalization-actual-support-but-no-descending-power).
 The full plane-model projection/descent question remains open.
 
 ### 5. Main finding D: a reduced singular movement-two root requires a singular formal surface

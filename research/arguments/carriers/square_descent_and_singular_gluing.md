@@ -848,7 +848,7 @@ In characteristic p, the same finite conductor nilpotent is killed by a p-power;
 
 ## Full inverse fibers, rather than distinct-sheet shortcuts
 
-An intersection multiplicity is a scheme length and need not count distinct points. A nonzero transverse differential does not by itself prove a second distinct normalization sheet. For each actual finite normalization compute the full inverse fiber scheme and its entire reduced support, including isolated points, before drawing that conclusion. The plane and quadric examples in [projection support](carrier_conductor_differential_comparison.md#projection-support-and-differential-obstructions) illustrate the distinct failure mechanisms.
+An intersection multiplicity is a scheme length and need not count distinct points. A nonzero transverse differential does not by itself prove a second distinct normalization sheet. For each actual finite normalization compute the full inverse fiber scheme and its entire reduced support, including isolated points, before drawing that conclusion. The plane and quadric examples in [projection support](projection_support_differential_obstructions.md) illustrate the distinct failure mechanisms.
 
 ## Pinching with support along the full conductor
 

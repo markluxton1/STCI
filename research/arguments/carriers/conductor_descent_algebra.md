@@ -245,7 +245,7 @@ Indeed, a hypothetical section of L^b pulls back to a divisor r c. Since `(r-mb)
 
     d(lambda q^b)_p(v)=lambda b q(p)^(b-1)dq_p(v)!=0.
 
-This contradiction uses q(p)!=0 and characteristic zero. A different downstairs frame multiplies q by a pulled-back unit, whose derivative kills ker(dnu_p), so the test is frame independent. The target X may be singular: its Zariski tangent space suffices. [Plane projection examples](carrier_conductor_differential_comparison.md#projection-support-and-differential-obstructions) realize this obstruction even when full inverse support and the upstairs divisor class both pass.
+This contradiction uses q(p)!=0 and characteristic zero. A different downstairs frame multiplies q by a pulled-back unit, whose derivative kills ker(dnu_p), so the test is frame independent. The target X may be singular: its Zariski tangent space suffices. [Plane projection examples](projection_support_differential_obstructions.md) realize this obstruction even when full inverse support and the upstairs divisor class both pass.
 
 The hypothesis that Q is a section of the pullback of an actual downstairs line bundle is essential for this comparison. The unit-power lemma applies to the full nilpotent structure, while this differential test can already detect a nonzero first defect. In characteristic p, the derivative of a p-th power is zero; the all-power conclusion is unavailable.
 

@@ -847,7 +847,7 @@ center, the smooth cubic scroll controls the osculating-pair incidence,
 and the projected cubic has a double directrix. These are distinct cubic
 objects. The discriminant value \(I^3/J^2=27\) retains its previous
 binary-quartic meaning; this work produces no relation to the twenty-seven
-lines on a smooth cubic surface. The [literature check](../carriers/quartic_carrier_proof.md#projection-center-moduli-and-the-exact-characteristic-two-comparison)
+lines on a smooth cubic surface. The [literature check](../carriers/quartic_carrier_proof.md#related-independent-mathematical-developments)
 places the constructions in their classical setting and makes no novelty
 claim.
 

@@ -1726,7 +1726,7 @@ the accepted projective frontier. The argument does not require
 birationality and places no restriction on the order of `a^{-2}`.
 
 It also does not exclude general opposite-ruling pairs. The
-[complete coefficient normal form](../carriers/carrier_conductor_differential_comparison.md#the-opposite-ruling-pairing-and-its-complete-coefficient-freedom)
+[complete coefficient normal form](../carriers/projection_support_differential_obstructions.md#the-opposite-ruling-pairing-and-its-complete-coefficient-freedom)
 contains arbitrary vectors `D,E in k^4` in place of the restricted
 choice `D=W2,E=u W2`; those coefficients can remove this particular
 boundary obstruction. No general phase-order bound or full
