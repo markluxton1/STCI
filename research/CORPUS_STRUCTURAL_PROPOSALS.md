@@ -378,3 +378,22 @@ All catalog-linked Results now have source-inspected statement/proof navigation.
 | [supported_quadruple_equation_filtration.md](results/supported_quadruple_equation_filtration.md) | quadruple with retained torsion | punctual_comparison_defects.md#a-supported-quadruple-torsion-in-q-is-not-enough | counterexample |
 | [torus_eigenvector_generator_lifting.md](results/torus_eigenvector_generator_lifting.md) | equivariant graded minimal generators | torus_hilbert_boundary.md#equivariant-minimal-generator-lifting | global presentation caveat |
 | [torus_orbit_curve_degree.md](results/torus_orbit_curve_degree.md) | primitive orbit degrees and quotient multiplicities | torus_sextic_residuals.md#orbit-curves-and-finite-quotient-degree; self-contained Result proof | finite transverse quotient |
+
+## Uncataloged Results-directory entries — 12 classified
+
+**Do not treat every path under `results/` as a separate Result.** These were inspected directly; no proof verification was run. Keep existing paths until the later cleanup confirms inbound dependencies.
+
+| Existing path / retained target | Function and mathematical content | Dependency / later action |
+| --- | --- | --- |
+| [entirely_thick.md](results/entirely_thick.md) | Numerical restrictions, exact (3,4) boundary | `normal-geometry/rees_and_vertical_controls.md`; scoped mathematical summary |
+| [INDEX.md](results/INDEX.md) | Legacy Results locator and validator links | Navigation infrastructure, not a theorem; retire only after inbound-link check |
+| [jet_geometry.md](results/jet_geometry.md) | Primitive conormal jet discrepancy and degree-three divisor | `frameworks/formal-normal-geometry/open_normal_geometry.md`; retain scoped summary |
+| [normal_carriers.md](results/normal_carriers.md) | Normal quartic carrier summary | R-0001 and `carriers/quartic_carrier_proof.md`; do not duplicate theorem proof |
+| [normalization_conductor.md](results/normalization_conductor.md) | Full inverse-image conductor support | `carriers/fixed_carrier_descent_and_cartier_models.md`; scope includes isolated inverse points |
+| [order_one.md](results/order_one.md) | Order-one structure and historical scope-limited jet comparison | `normal-geometry/curvilinear_genus_and_defects.md`; preserve caveats |
+| [quartic_e2.md](results/quartic_e2.md) | Primitive e=2 quartic calculations and support | `normal-geometry/e2_primitive_quartic_incidence.md`; preserve status of universal obstruction |
+| [ci_fixed_sextic_jet_rigidity.support/verify.py](results/ci_fixed_sextic_jet_rigidity.support/verify.py) | Independent sextic normal-division verification script | Child of `ci_fixed_sextic_jet_rigidity.md`, not a new proof document |
+| [quartic_ancestor_direction_reduction.support/actual-tensor-reconstruction.m2](results/quartic_ancestor_direction_reduction.support/actual-tensor-reconstruction.m2) | Tensor reconstruction script | Child of `quartic_ancestor_direction_reduction.md` |
+| [quartic_ancestor_direction_reduction.support/verify_pure_direction.py](results/quartic_ancestor_direction_reduction.support/verify_pure_direction.py) | Pure constant-direction audit script | Child of `quartic_ancestor_direction_reduction.md` |
+| [quartic_ancestor_direction_reduction.support/verify.py](results/quartic_ancestor_direction_reduction.support/verify.py) | Finite ancestor direction replay script | Child of `quartic_ancestor_direction_reduction.md` |
+| [quartic_dual_singular_scheme.support/verify.m2](results/quartic_dual_singular_scheme.support/verify.m2) | Dual singular-scheme exact algebra script | Child of `quartic_dual_singular_scheme.md` |
