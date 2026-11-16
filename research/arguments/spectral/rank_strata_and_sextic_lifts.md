@@ -258,283 +258,77 @@ On the actual-pair-admissible root open, cubic actual-source matching has a **un
 
 Independent reconstruction checked determinantal and nonreduced-base strata, bounded-polynomial rank drops, the \(q^3\) cubic layer, actual-pair admissibility, uniqueness of regular lifts under full column rank, and the pivot-residual test. Inherited computations were not rerun. Nonlinear-chart emptiness, a degree-sixteen mate, properness, and sole support remain unproved.
 
-## Consolidated historical supplement: `research/supplements/ACTUAL_SEXTIC_MATE_CERTIFICATES.md`
-
-**Full development moved to [actual_sextic_mate_certificates.md](actual_sextic_mate_certificates.md).** The headings below are retained as compatibility anchors for existing inbound references; follow the link for the complete hypotheses, proofs, computations, and open cases.
-
-# Selected sextics: full mate spaces and rigid residual schemes
-
-[Full text of this section](actual_sextic_mate_certificates.md).
-
-## Search question and inputs
-
-[Full text of this section](actual_sextic_mate_certificates.md).
-
-## A concrete candidate and its exact failure
-
-[Full text of this section](actual_sextic_mate_certificates.md).
-
-## Exact score for all mates of each selected carrier
-
-[Full text of this section](actual_sextic_mate_certificates.md).
-
-## Why finite-field rank proves a characteristic-zero failure here
-
-[Full text of this section](actual_sextic_mate_certificates.md).
-
-## Computational meaning and limitations
-
-[Full text of this section](actual_sextic_mate_certificates.md).
-
-## Geometry of the parameter boundary and remaining limitations
-
-[Full text of this section](actual_sextic_mate_certificates.md).
-
-## Consolidated historical supplement: `research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md`
-
-**Full development moved to [conditional_2_12_continuation_and_sextic_exclusions.md](conditional_2_12_continuation_and_sextic_exclusions.md).** The headings below are retained as compatibility anchors for existing inbound references; follow the link for the complete hypotheses, proofs, computations, and open cases.
-
-# conditional 2 12 continuation and sextic exclusions
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## Proof-dependency map: conditional exclusions and exceptional loci
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## Nonnormal conductor budget and local escape models
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 4. Conductor budget: a useful identity, not yet an exclusion
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 5. Local nonnormal escape models and the global degree boundary
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-# Conditional (2,12;6,16;2): geometric audit and an exact exceptional locus
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 1. Exact scope and reviewed dependencies
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 2. Normal strict sextics: independent review PASS
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 3. Ampleness extends the exclusion to a whole root open
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 4. First polynomial exceptional locus (strengthened in section 6)
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 5. Why the exceptional strata cannot be silently discarded
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 6. Nodal extension: only a nonreduced multiplier divisor remains
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 7. Where a remaining singular curve must meet the root
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 2026-10-21-conditional-2-12-surface-audit-cont2
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-# Conditional (2,12;6,16;2): cubic-model and conductor continuation audit
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 1. Scope and reviewed files
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 3. Full conductor duality and component genus: independent review PASS
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 4. Ramified simple-base zeros: independent review PASS
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 5. Strengthened exact exceptional locus
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 6. Rejected finite-normalization assertion in the nodal caution
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## 2026-10-21-cont2-free-orbit-global-sextic-exclusion
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-# Free cube-orbit endpoint chart: exact global sextic exclusion
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## Inputs and evidence
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## The norm-symbol equations collapse to a symmetric family
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## First compatibility and the quadric part of C3 leave four points
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## Full global sextic C3 gives a two-line unit certificate
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## Precisely what remains outside this result
-
-[Full text of this section](conditional_2_12_continuation_and_sextic_exclusions.md).
-
-## Consolidated historical supplement: `research/supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md`
-
-**Full development moved to [conditional_2_12_surface_and_symbol_geometry.md](conditional_2_12_surface_and_symbol_geometry.md).** The headings below are retained as compatibility anchors for existing inbound references; follow the link for the complete hypotheses, proofs, computations, and open cases.
-
-# conditional 2 12 surface and symbol geometry
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## Proof-dependency map: symbol equations to actual sextic realization
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 2026-10-20-conditional-2-12-elimination
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-# Conditional (2,12;6,16;2): compact norm-symbol and cubic realization incidence
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 1. Eight symbol equations are a norm factorization
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 2. A finite cover of the nonzero-endpoint chart
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 3. Eight first-incidence correction variables disappear without denominators
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 4. An exact polynomial test for the actual sextic cubic lift
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 5. Reproduction and current computational boundary
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 2026-10-20-conditional-2-12-global-realization-incidence
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-# Conditional (2,12;6,16;2): global sextic symbols and the exact remaining incidence
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 1. Scope and inputs
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 2. The exact global k-linear symbol map
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 3. Eleven bilinear global-symbol equations
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 4. Necessity of both ambient tests at singular roots
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 5. Full spectral torsion, root types, and actual gluing
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 6. The exact remaining scheme
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 7. First unresolved GLOBAL lift: the actual sextic cubic jet
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 8. What a realization would have to certify
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 9. Reproduction and verification limits
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 2026-10-20-conditional-2-12-incidence-audit
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-# Independent audit of the conditional (2,12;6,16;2) incidence
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 1. Scope and dependencies
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 2. Independent linear-algebra reconstruction
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 3. Finite bridge at singular roots
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 4. Root strata and the torsion presentation
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 5. The first unresolved global lift is genuinely additional
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 6. Eventual realization certificate and stopping boundary
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-## 7. Final assembled-note review
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-### Exact certificate: [conditional_2_12_cubic_reduction_2026_10_21.json](../../computations/conditional_2_12_cubic_reduction_2026_10_21.json)
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-### Exact certificate: [conditional_2_12_cubic_reduction_2026_10_21_candidates.json](../../computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.json)
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
-### Exact certificate: [conditional_2_12_cubic_reduction_2026_10_21_candidates.py](../../computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.py)
-
-[Full text of this section](conditional_2_12_surface_and_symbol_geometry.md).
-
+## Focused sextic developments
+
+The full mathematical developments, including exact computations, hypotheses and unresolved cases, are in [actual sextic mate certificates](actual_sextic_mate_certificates.md), [conditional sextic exclusions](conditional_2_12_continuation_and_sextic_exclusions.md), and [conditional symbol and global realization geometry](conditional_2_12_surface_and_symbol_geometry.md). The identifiers below preserve historical section references without duplicating their expositions.
+
+<a id="consolidated-historical-supplement-researchsupplementsactual_sextic_mate_certificatesmd"></a>
+<a id="selected-sextics-full-mate-spaces-and-rigid-residual-schemes"></a>
+<a id="search-question-and-inputs"></a>
+<a id="a-concrete-candidate-and-its-exact-failure"></a>
+<a id="exact-score-for-all-mates-of-each-selected-carrier"></a>
+<a id="why-finite-field-rank-proves-a-characteristic-zero-failure-here"></a>
+<a id="computational-meaning-and-limitations"></a>
+<a id="geometry-of-the-parameter-boundary-and-remaining-limitations"></a>
+<a id="consolidated-historical-supplement-researchsupplementsconditional_2_12_continuation_and_sextic_exclusionsmd"></a>
+<a id="conditional-2-12-continuation-and-sextic-exclusions"></a>
+<a id="proof-dependency-map-conditional-exclusions-and-exceptional-loci"></a>
+<a id="nonnormal-conductor-budget-and-local-escape-models"></a>
+<a id="4-conductor-budget-a-useful-identity-not-yet-an-exclusion"></a>
+<a id="5-local-nonnormal-escape-models-and-the-global-degree-boundary"></a>
+<a id="2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus"></a>
+<a id="conditional-2126162-geometric-audit-and-an-exact-exceptional-locus"></a>
+<a id="1-exact-scope-and-reviewed-dependencies"></a>
+<a id="2-normal-strict-sextics-independent-review-pass"></a>
+<a id="3-ampleness-extends-the-exclusion-to-a-whole-root-open"></a>
+<a id="4-first-polynomial-exceptional-locus-strengthened-in-section-6"></a>
+<a id="5-why-the-exceptional-strata-cannot-be-silently-discarded"></a>
+<a id="6-nodal-extension-only-a-nonreduced-multiplier-divisor-remains"></a>
+<a id="7-where-a-remaining-singular-curve-must-meet-the-root"></a>
+<a id="2026-10-21-conditional-2-12-surface-audit-cont2"></a>
+<a id="conditional-2126162-cubic-model-and-conductor-continuation-audit"></a>
+<a id="1-scope-and-reviewed-files"></a>
+<a id="3-full-conductor-duality-and-component-genus-independent-review-pass"></a>
+<a id="4-ramified-simple-base-zeros-independent-review-pass"></a>
+<a id="5-strengthened-exact-exceptional-locus"></a>
+<a id="6-rejected-finite-normalization-assertion-in-the-nodal-caution"></a>
+<a id="2026-10-21-cont2-free-orbit-global-sextic-exclusion"></a>
+<a id="free-cube-orbit-endpoint-chart-exact-global-sextic-exclusion"></a>
+<a id="inputs-and-evidence"></a>
+<a id="the-norm-symbol-equations-collapse-to-a-symmetric-family"></a>
+<a id="first-compatibility-and-the-quadric-part-of-c3-leave-four-points"></a>
+<a id="full-global-sextic-c3-gives-a-two-line-unit-certificate"></a>
+<a id="precisely-what-remains-outside-this-result"></a>
+<a id="consolidated-historical-supplement-researchsupplementsconditional_2_12_surface_and_symbol_geometrymd"></a>
+<a id="conditional-2-12-surface-and-symbol-geometry"></a>
+<a id="proof-dependency-map-symbol-equations-to-actual-sextic-realization"></a>
+<a id="2026-10-20-conditional-2-12-elimination"></a>
+<a id="conditional-2126162-compact-norm-symbol-and-cubic-realization-incidence"></a>
+<a id="1-eight-symbol-equations-are-a-norm-factorization"></a>
+<a id="2-a-finite-cover-of-the-nonzero-endpoint-chart"></a>
+<a id="3-eight-first-incidence-correction-variables-disappear-without-denominators"></a>
+<a id="4-an-exact-polynomial-test-for-the-actual-sextic-cubic-lift"></a>
+<a id="5-reproduction-and-current-computational-boundary"></a>
+<a id="2026-10-20-conditional-2-12-global-realization-incidence"></a>
+<a id="conditional-2126162-global-sextic-symbols-and-the-exact-remaining-incidence"></a>
+<a id="1-scope-and-inputs"></a>
+<a id="2-the-exact-global-k-linear-symbol-map"></a>
+<a id="3-eleven-bilinear-global-symbol-equations"></a>
+<a id="4-necessity-of-both-ambient-tests-at-singular-roots"></a>
+<a id="5-full-spectral-torsion-root-types-and-actual-gluing"></a>
+<a id="6-the-exact-remaining-scheme"></a>
+<a id="7-first-unresolved-global-lift-the-actual-sextic-cubic-jet"></a>
+<a id="8-what-a-realization-would-have-to-certify"></a>
+<a id="9-reproduction-and-verification-limits"></a>
+<a id="2026-10-20-conditional-2-12-incidence-audit"></a>
+<a id="independent-audit-of-the-conditional-2126162-incidence"></a>
+<a id="1-scope-and-dependencies"></a>
+<a id="2-independent-linear-algebra-reconstruction"></a>
+<a id="3-finite-bridge-at-singular-roots"></a>
+<a id="4-root-strata-and-the-torsion-presentation"></a>
+<a id="5-the-first-unresolved-global-lift-is-genuinely-additional"></a>
+<a id="6-eventual-realization-certificate-and-stopping-boundary"></a>
+<a id="7-final-assembled-note-review"></a>
+<a id="exact-certificate-conditional_2_12_cubic_reduction_2026_10_21jsoncomputationsconditional_2_12_cubic_reduction_2026_10_21json"></a>
+<a id="exact-certificate-conditional_2_12_cubic_reduction_2026_10_21_candidatesjsoncomputationsconditional_2_12_cubic_reduction_2026_10_21_candidatesjson"></a>
+<a id="exact-certificate-conditional_2_12_cubic_reduction_2026_10_21_candidatespycomputationsconditional_2_12_cubic_reduction_2026_10_21_candidatespy"></a>
