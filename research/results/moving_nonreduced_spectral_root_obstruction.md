@@ -27,7 +27,7 @@ limitations:
 
 # Moving nonreduced spectral-root obstruction
 
-Let Z be a full finite-flat effective Cartier root divisor of class (epsilon,r) in P1_base x P1_direction, with epsilon>0. If O_Z(0,s) is pulled back from the base for some s>0, then Z is reduced.
+Over an algebraically closed field of **characteristic zero**, let Z be a full finite-flat effective Cartier root divisor of class (epsilon,r) in P1_base x P1_direction, with epsilon>0. If O_Z(0,s) is pulled back from the base for some s>0, then Z is reduced.
 
 The geometric lemma is injectivity of Pic(P1 x P1) -> Pic(2D) for any effective divisor D of strictly positive bidegrees. A trivialization modulo I_D^2 kills the ambient restricted logarithmic Chern class; H^1(Omega^1(-D))=0 gives injectivity on H^1(Omega^1), which detects both ruling degrees in characteristic zero. A repeated moving component would contain 2D and contradict this lemma.
 
