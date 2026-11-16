@@ -388,8 +388,3 @@ the torsion determinant argument, and reported PASS. Its substantive
 scope correction was to put the global cubic matching (8) before
 the abstract third Cartier obstruction as the first unresolved
 global lifting condition. This section records that correction.
-
-
-## Preservation review
-
-Independent comparison verified the complete unchanged mathematical body against its original mixed-source block and checked the explicit scope and live local proof dependencies. This certifies preservation through relocation; in particular it does not change a proposed statement into an independently certified theorem or supply a new computation.
