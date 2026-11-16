@@ -388,9 +388,9 @@ Its maximal minors generate `J` and `gens(J)*H=0`. Restricting `H` to `k[t]=k[t,
 
 [Full mathematical section](extracted_multiplicity_six_quartic_contact.md).
 
-## Consolidated historical source: `research/supplements/RESIDUAL_CYCLES_AND_SPLIT_CONFIGURATIONS.md`
+## Residual cycles and split configurations: proof index
 
-**Complete development: [extracted_residual_cycles_and_split_configurations.md](extracted_residual_cycles_and_split_configurations.md).** Original headings below remain as compatibility anchors; the linked file retains the full proof and hypotheses.
+**[Complete proof and hypotheses](extracted_residual_cycles_and_split_configurations.md).** The headings below are compatibility anchors for the focused argument.
 
 # Residual cycles, split cases, and Type A configurations
 
