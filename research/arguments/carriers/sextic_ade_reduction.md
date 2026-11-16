@@ -1,4 +1,4 @@
-# ADE sextic and quintic pencil reductions
+# ADE sextic pencils and quintic normal-carrier reductions
 
 <a id="sextic-pairs-with-an-ade-pencil-carrier"></a>
 
