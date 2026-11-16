@@ -1605,18 +1605,6 @@ checker status alone, establish normality, integral degree-four
 image, finite birationality, equality of the conductor scheme and
 the all-mate obstruction.
 
-The final replay returned exit 0 and `status: PASS` on 2026-10-09.
-Source SHA256:
-`9cf1ac1ff6d30f1f0415afe59a3b987de06631253dd8359ca6fd55e9040f0dc0`.
-
-The first replay failed at a SymPy structural-equality comparison of
-two differently factored expressions for the same discriminant. The
-expanded difference was exactly zero. The correction compares that
-expanded difference with zero; it changes no mathematical identity.
-
-The [independent proof audit](#source-2026-10-09-session-dp4-projection-independent-auditmd)
-accepted the finite birational normalization, actual conductor module
-and all-mate fiber obstruction.
 Serre's criterion used above is the primary
 [Stacks Project lemma](https://stacks.math.columbia.edu/tag/031S).
 
