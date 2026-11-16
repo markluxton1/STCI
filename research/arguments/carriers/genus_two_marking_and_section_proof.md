@@ -6,9 +6,7 @@ configuration is realized. The full fixed-C0 quartic-mate problem is
 closed by [the complete carrier proof](quartic_carrier_proof.md);
 the bounded marking and counterexamples below are its reusable geometry.
 
-The prior [adjoint audit](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-adjoint-independent-auditmd)
-and [exceptional/mate-strata audit](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/OCT9_GENUS_ONE_TWO_AND_CONDUCTOR.md#source-2026-10-09-session-genus-two-nullcurve-mate-independent-auditmd)
-establish, over an algebraically closed characteristic-zero field,
+The [entire conductor](genus_two_entire_conductor_proof.md) and [ambient conic model](genus_two_ambient_conic_model_proof.md) establish, over an algebraically closed characteristic-zero field,
 
     M smooth rational; L nef, big and globally generated;
     L^2=4, K.L=-2, K^2=0, h0(L)=4;
@@ -305,4 +303,3 @@ Independent review accepted both line cases under the characteristic-zero
 marked section and smooth descent hypotheses with \(B\) absent. The
 integer recurrences and intersection inequalities alone remain available
 when those geometric inputs are established in another characteristic.
-[Original free-chain proof and negative controls](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/supplements/GENUS_TWO_LAMBDA_ONE_HORIZONTAL_LINE_BUDGET.md).
