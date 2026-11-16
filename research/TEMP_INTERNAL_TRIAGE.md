@@ -2,7 +2,7 @@
 
 Baseline: `chatgpt/context-efficient-structural-inventory` (PR #137). Scope: individual-file content only; no edits to mathematical documents and no cross-document comparisons.
 
-**Status: INITIAL FILE-INTERNAL STRUCTURAL TRIAGE COMPLETE; uncertain dispositions require deeper content review before edits.** The baseline contains 344 Markdown files in `research/{arguments,frameworks,results,investigations}/`. 344 have been structurally triaged across ten batches. **Unlisted files are unreviewed, not clean.** Findings below identify candidates, not authorization to delete mathematics.
+**Status: initial file-internal structural triage complete; Stage 1 editorial cleanup complete; Stage 2 substantive audit/integration review complete (53 files, zero pending). Stage 3 remains open (132 uncertain files; two additional files were resolved prematurely during Stage 3).** The baseline contains 344 Markdown files in `research/{arguments,frameworks,results,investigations}/`; all 344 received initial structural triage across ten batches. The dispositions below record subsequent file-level decisions, not authorization to delete mathematics. Unlisted files are not implicitly clean. Cross-document consolidation is outside this log's scope.
 
 | File | Location | Finding | Proposed action | Caution | Disposition |
 | --- | --- | --- | --- | --- | --- |
