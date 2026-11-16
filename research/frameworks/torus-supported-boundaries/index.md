@@ -109,18 +109,18 @@ realizing a prescribed torus boundary as an orbit limit is a stronger task.
 
 ## Cycle incidence versus actual equations
 
-For a proper pair of degrees \((a,b)\) containing \(C\), its fundamental
-cycle has the form \([Y]=m[C]+R\) with \(ab=4m+\deg R\).
+For a proper pair of degrees \(\(a,b\)\) containing \(C\), its fundamental
+cycle has the form \(\([Y]=m[C]+R\)\) with \(\(ab=4m+\deg R\)\).
 This provides a **cycle-level** stratification of the proper equation
 space; it is not a stratification of the full saturated ideals.
-In particular, a pure Chow cycle \((ab/4)[C]\) is a necessary condition
-for sole support (when \(4\mid ab\)), but does not recover embedded
+In particular, a pure Chow cycle \(\(ab/4\)[C]\) is a necessary condition
+for sole support (when \(\(4\mid ab\)\)), but does not recover embedded
 structure, the complete-intersection Hilbert polynomial, or the
 two-generator property of a limiting ideal.
 
 There are therefore two complementary parameterizations, not interchangeable
 tests. The proper-pair locus in
-\(\mathbf P(I_C(a))\times\mathbf P(I_C(b))\) (or the pencil Grassmannian
+\(\mathbf P\(I_C(a)\)\times\mathbf P\(I_C(b)\)\) (or the pencil Grassmannian
 when \(a=b\)) retains **actual equations**; its cycle map records
 multiplicity and residual degree. The bounded supported Hilbert incidence
 \(H_N\) retains **full flat ideals**, including the two opposite limits.
