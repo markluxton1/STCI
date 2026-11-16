@@ -354,93 +354,69 @@ nilpotent defect and the unique torsion lift.
 
 ## 9. Split fields: the exact Kummer and phase factorization
 
-Assume now that `K` has characteristic zero and contains all roots of
-unity. Let `alpha=(alpha_i) in product E_i^*` have torsion class in
-`R`, meaning that `alpha_i^n` are all the same element of `K^*` for
-some `n>0`.
+Assume `K` has characteristic zero and contains all roots of unity.
+Let `E=product_i E_i` be the reduced semilocal upstairs algebra,
+with each `E_i/K` finite, and `alpha=(alpha_i) in E^*`.
+The intrinsic reduced descent exponent is the order `e` of the class
+of `alpha` in `E^*/K^*`, when this order is finite.
 
-Fix embeddings of the `E_i` into one algebraic closure of `K`. Then
+Suppose `alpha^n=(beta,...,beta)` for some `beta in K^*`.
+Choose embeddings `E_i -> Kbar`. Every chosen value of `alpha_i`
+is a root of `T^n-beta`; hence the ratios of any two chosen values
+are roots of unity in `K`. All the fields `K(alpha_i)` inside
+`Kbar` are consequently the same cyclic Kummer extension `L/K`.
+Put `m=[L:K]`. Then `m` divides `[E_i:K]` for every `i`,
+and `alpha_i^m in K^*`, independently of these embeddings.
+The last assertion follows from the cyclic Galois action
+`sigma(alpha_i)/alpha_i in mu_m(K)`.
 
-```
-alpha_i = zeta_i alpha_1,  zeta_i in mu_infinity(K),  zeta_1=1.
-```
-
-It follows that all fields `K(alpha_i)` are the **same cyclic Kummer
-extension** in this algebraic closure. Put
-
-```
-m = [K(alpha_i):K].
-```
-
-Then `m` divides every `[E_i:K]`. Also `alpha_i^m in K^*` for every
-`i`. If
+Set `beta_i=alpha_i^m in K^*`. The exact residual order is
 
 ```
-beta_i = alpha_i^m,
-t = lcm_i order(beta_i/beta_1),
+e = m * lcm_i order(beta_i/beta_1)
+  = lcm(m, order(zeta_2), ..., order(zeta_s)),
 ```
 
-the exact residual order is
+where `zeta_i=alpha_i/alpha_1` for chosen embeddings, `zeta_1=1`,
+and the `order` of a non-torsion ratio is interpreted as infinity.
+For the first equality, any exponent making each `alpha_i` an
+element of `K` is divisible by `m`; an exponent `m h` gives a
+single diagonal element of `K^*` precisely when all
+`(beta_i/beta_1)^h=1`. For the second equality, the condition
+that all `alpha_i^e` agree is equivalent to the order conditions
+on the `zeta_i`, together with `m|e`. Both formulas compute
+the intrinsic order of `alpha` in `E^*/K^*`.
 
-```
-e = m t = lcm(m, order(zeta_2), ..., order(zeta_s)).
-```
-
-Proof. The polynomial `T^n-alpha_1^n` splits over `K(alpha_1)` because
-`mu_n subset K`; thus `K(alpha_1)/K` is cyclic Galois. Its group embeds
-in `mu_n` by `sigma -> sigma(alpha_1)/alpha_1`. Its order is `m`,
-and `alpha_1^m in K`. Any exponent putting `alpha_1` in `K` is
-divisible by `m`; conversely each multiple of `m` does so.
-The same statements hold for each `alpha_i`. After writing an exponent
-as `m h`, equality of all branch values is equivalent to
-`(beta_i/beta_1)^h=1` for every `i`, giving `e=m t`.
-
-The formula using `beta_i` uses the values in their field extensions
-and compares their images after fixing embeddings. Its numerical result
-is intrinsic because it computes the order of the class in the reduced
-unit quotient. The alternative `zeta_i` expression depends on chosen
-embeddings, but computes the same intrinsic order.
-
-The distinction between the bounded Kummer degree and unbounded split
-phase is essential: the single-field conclusion does not extend to an
-arbitrary semilocal conductor by replacing the field degree with the
-sum of branch degrees. One must compute the residual class in the
-quotient of units, including the relative phases, before applying the
-nilpotent logarithmic test.
-
-For a single field `E`, the phase factor is absent:
+A single field has no relative phase factor:
 
 ```
 e=m divides [E:K].
 ```
 
-This sharpens the original proposal. If actual residual extension
-degrees at the finitely many generic conductor components are known,
-a sufficient common exponent is the least common multiple of those extension degrees. The proposal's
-`lcm(1,...,r)` remains valid when only the numerical bound
-`[E:K]<=r` is known. In particular, degree three is a sufficient exponent for an actual degree-three residual field, conditional on eventual descent; the least local exponent is one or three. This improves the conservative exponent six obtained from the bound alone, without identifying the minimum from the extension degree.
+Thus, under eventual full descent and the characteristic-zero unit
+lemma, the least descending exponent at a single-field conductor is
+`[K(alpha):K]`, not merely a divisor of some eventual exponent.
+At several generic conductor components with single-field reduced
+algebras, the least common multiple of their residual field degrees
+is a sufficient global exponent if purity holds. If their degrees
+are at most `r`, the conservative bound is `lcm(1,...,r)`.
+For example, a degree-three residual field has minimum exponent
+one or three, conditional on eventual full descent.
 
-For several fields, the bounded Kummer factor satisfies
+For several upstairs fields the bounded Kummer factor satisfies
+`m | gcd_i [E_i:K]`, but the relative phase factor is unbounded.
+The split example `A=k, B=k x k, u=(1,zeta)`, where `zeta` is
+a root of unity of arbitrary order, has exact exponent
+`order(zeta)` although the upstairs residual algebra has length two.
+No degree bound obtained for a single field extends to split
+conductors merely by summing branch degrees.
 
-```
-m divides gcd_i [E_i:K],
-```
-
-but the relative phase factor can have arbitrarily large order.
-The example `A=k`, `B=k x k`, `u=(1,zeta)` exhibits arbitrary exact
-order with total residual degree two. This obstruction persists with
-fixed ring lengths. A degree or length bound alone cannot control
-split phases.
-
-For a torsion class, choosing embeddings of the fields `E_i` into
-one algebraic closure identifies the **particular values** `alpha_i`
-up to roots of unity. The field generated by those values is the common
-cyclic Kummer field `K(alpha_1)`; it is contained in every embedded
-`E_i`, but the ambient fields may be larger. The root-of-unity ratios
-do not by themselves establish a canonical direct-product splitting of
-the torsion unit quotient. The intrinsic residual unit quotient and
-the exponent formula `e=m t` above are the assertions needed here.
-
+The common Kummer subfield is `L=K(alpha_1)`, generated by
+the particular residual values, not generally the intersection of
+the full ambient extensions `E_i`. There is no need to assert
+a direct-product decomposition of the torsion unit quotient.
+The exact sequence and logarithmic defect in Section 8 specify when
+a *given* lift with torsion residue actually has a descending power.
 
 ## 10. Global compression and characteristic boundaries
 
