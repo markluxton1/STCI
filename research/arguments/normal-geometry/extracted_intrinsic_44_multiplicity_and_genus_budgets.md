@@ -5,7 +5,7 @@
 The common setup is the fixed smooth quartic, its conormal bundle, and generic transverse length four. The following arguments have **different hypotheses** and cannot be substituted for one another:
 
 - [Filtered quartic-contact classification](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd): the two saturated numerical types and actual cubic-contact lifting constraints; the source's exhaustiveness hypotheses remain necessary.
-- [First-symbol and K3 surface-singularity argument](#4-direct-blowups-and-the-global-contradiction): moving singularities and exceptional-rank contradiction, specific to the characteristic-zero K3 setting.
+- [First-symbol and K3 surface-singularity argument](quartic_pair_obstruction.md#4-direct-blowups-and-the-global-contradiction): moving singularities and exceptional-rank contradiction, specific to the characteristic-zero K3 setting.
 - [Explicit local multiplication and defect types](quartic_pair_obstruction.md): local normal form and fixed divisor, which do not establish global realizability.
 - [Genus and torsion budgets](curvilinear_genus_and_defects.md#normal-torsion-spectral-genus-budget): necessary numerical restrictions under degeneration, not an independent global exclusion.
 
@@ -275,7 +275,7 @@ The maximum-three and integral-pencil singularity conclusions were checked, with
 
 ## 9. An independent route to the multiplicity-four bound
 
-The [complete rank-four surface proof](#1-a-common-numerical-reduction) excludes multiplicity four without R-0001 or R-0022 as inputs. Thus it supplies an independent proof of the maximum-multiplicity assertion here. The all-members-integral assertion for arbitrary multiplicity-three pencils in section 3 retains its separate R-0001 dependency.
+The [complete rank-four surface proof](quartic_pair_obstruction.md#1-a-common-numerical-reduction) excludes multiplicity four without R-0001 or R-0022 as inputs. Thus it supplies an independent proof of the maximum-multiplicity assertion here. The all-members-integral assertion for arbitrary multiplicity-three pencils in section 3 retains its separate R-0001 dependency.
 
 ## 44-intrinsic-proof-routes-audit
 
