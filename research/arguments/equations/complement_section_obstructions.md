@@ -288,9 +288,3 @@ or carrier data beyond the classes computed above. The results do not
 exhaust enriched motivic information, nor do they construct equations.
 Higher motivic or actual-surface invariants are distinct uncomputed
 interfaces, without an inferred obstruction value or section theorem.
-
-## Independent review and scope
-
-Independent reconstruction checked the complete continuous rank-two section criterion, the nonaffine twisted Chow-Witt comparison, characteristic Euler consequence, K-theory comparison, Hartogs realization and nonsplitting. The affine, analytic and motivic theorem boundaries were checked against the cited primary sources. These primary tests do not produce an algebraic or holomorphic section on the nonaffine complement.
-
-The inherited mathematical inputs retain the scope and review evidence of their linked owners. No inherited CAS campaign was broadly rerun, and the unrestricted characteristic-zero STCI question remains open.
