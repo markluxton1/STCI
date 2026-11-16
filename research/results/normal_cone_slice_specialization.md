@@ -84,16 +84,4 @@ the marked curve.
 
 ## Review
 
-The Phase 5 nonauthor reviewer `review_specialization` accepted the
-neighborhood Tor and Artin–Rees route. The reviewer reconstructed the image
-of the tensor map, the connecting homomorphism and the multiplication action
-on its cokernels. They checked where injectivity of \(t\) and agreement in
-every degree enter the flatness implication, and reconstructed both the
-nonflat residual example and the characteristic-zero single-degree example.
-The decision concerns the stated DVR criterion and its controls.
-
-The October 24 account records independent local reconstruction of the
-specialization development. The single-degree example uses the \(m=2\)
-case of its characteristic-zero punctual family.
-[Specialization source](../arguments/normal-geometry/rees_equation_persistence.md#delta-transverse-specialization-and-normal-flatness) ·
-[Punctual family](punctual_comparison_defect_family.md)
+The Tor exact sequence, multiplicative compatibility and Artin–Rees converse are proved in [the transverse-specialization Argument](../arguments/transverse_specialization.md). The equivalence requires flatness of the ambient quotient over the parameter DVR.
