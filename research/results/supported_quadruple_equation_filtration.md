@@ -70,6 +70,4 @@ in \(Q\) and sole reduced support is compatible with vanishing of
 \(\Delta\). See the
 [open sole-support question](../frameworks/formal-normal-geometry/open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 
-## Review
-
-The free supported algebra and full equation filtration are retained in [A-0010](../arguments/punctual_comparison_defects.md#a-supported-quadruple-torsion-in-q-is-not-enough). Torsion in both comparison modules survives while the defect vanishes.
+Torsion in both comparison modules survives while the defect vanishes.
