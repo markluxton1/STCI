@@ -113,24 +113,4 @@ equations. See the
 
 ## Review
 
-The Phase 5 nonauthor reviewer accepted this route using R-0030. The reviewer
-reconstructed the graded Tor identification, normal generator weights and
-differential indexing, and convergence in the nilpotent and complete
-Noetherian adic cases. For the adic case the review checked both the
-Artin–Rees correction of approximate cycles and stabilization of boundary
-symbols. With matching connecting signs, it checked on representatives
-that the induced filtration is the equation filtration and the edge map is
-the R-0030 quotient. The decision also covers the successive incoming
-images, degree bounds and transverse-field Betti count. It is a mathematical
-review of the local route.
-
-The October 24 review independently reconstructed the Tor identification,
-the distinction between the normal and carrier complexes, the induced
-filtration on \(J/IJ\), the incoming subquotients and degree bounds. The
-primary author supplied the explicit Artin–Rees convergence estimate in that
-source. The October 26 audit addressed the local quotient comparison,
-generic count, torsion criterion and smooth-carrier support. It left the
-spectral-sequence details to the earlier source and recorded no fresh
-executable replay or global sheafification check.
-[October 24 review](https://github.com/markluxton1/STCI/blob/737bfe4eacb93dfc1273228773695e1b55c72028/research/notes/2026-10-24-delta-singular-locus-review.md#L26) ·
-[Scope of the October 26 local audit](local_filtration_comparison_defect.md#october-26-local-audit)
+The normal Koszul Tor identification, filtered convergence, comparison on representatives and degree bounds are proved in [A-0009](../arguments/normal_koszul_cancellation.md#normal-koszul-comparison-and-degree-bounds). The incoming images form a filtration, not a canonical direct-sum decomposition.
