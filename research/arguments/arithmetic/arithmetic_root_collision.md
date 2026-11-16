@@ -270,7 +270,7 @@ The [geometric root pencil](../torus/root_pencil_geometry.md) supplies actual co
 
 ## Exact arithmetic support
 
-The historical collision-tree Python verifier checked the discriminant and scale calculations and was retired during Phase 3B. Its previously recorded 50 checks and [historical output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/ci_cycle_root_collision_valuations_2026_10_25.json) remain available through Git history; no new replay is claimed. The proof above uses the actual Newton polygons and residue polynomials; a list of root valuations alone would miss the residual collision.
+The proof uses the actual Newton polygons and residue polynomials; a list of root valuations alone would miss the residual collision.
 
 
 ## Focused mathematical developments
