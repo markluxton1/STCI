@@ -322,26 +322,9 @@ different exact verification. Neither proof imposes an unjustified
 even-valuation claim at singular normalization points or uses the
 isolated-rank-one differential obstruction.
 
-## 6. Evidence, dependency boundary, and completion status
+## 6. Exact certificate and scope
 
-The exact companion
-[verify_session_ribbon_repeated_partitions_2026_10_09.py](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_ribbon_repeated_partitions_2026_10_09.py)
-contains the 72 exact identity checks supporting this proof.
-
-The checks verify the literal RNC ideal, omitted-coordinate derivative,
-center-preserving reversal, every determinant and direction kernel,
-both augmented-system exclusions, complete remaining affine solution
-families, both actual singular lines, and the entire-conductor
-trace/norm certificate. They are exact identities supporting the
-preceding proofs; a `PASS` does not replace their geometric reasoning.
-
-The exact bounded task is complete: **[4], [3,1], and [2,2] all excluded
-under the stated accepted inputs**. The independent ideal and conductor certificates below supplement the main proof; the separate [2,1,1] case is treated in its focused argument. This note itself makes
-no claim about genus-two normalizations,
-higher quartic ancestors, arbitrary higher carrier degrees, or the
-universal STCI question.
-
-
+The [72-identity verification program](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_ribbon_repeated_partitions_2026_10_09.py) checks the RNC ideal, direction kernels, augmented-system exclusions, singular lines, and conductor trace/norm. Together with the proofs above and the independent certificates below, it excludes the \([4]\), \([3,1]\), and \([2,2]\) partitions under their stated hypotheses. The \([2,1,1]\) case is separate; no higher-degree carrier or unrestricted STCI conclusion follows.
 
 ## Independent ideal and conductor certificates
 
