@@ -80,7 +80,8 @@ Consequently:
 > intersection with a unique later generator.
 
 This statement concerns the **full graded initial algebra in every
-fiber**. It does not assert that the ordinary embedded algebra cannot be
+fiber**. Generic complete-intersection initial type does not imply
+this uniform fiberwise condition. It does not assert that the ordinary embedded algebra cannot be
 locally a complete intersection. Its associated graded algebra can
 degenerate at special points. It also does not cover `r=1`: then the
 quotient in (1) has rank one and (4) imposes no movement penalty.
