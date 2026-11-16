@@ -7,11 +7,6 @@ families in which \(m\) increases and residual degree moves onto the fixed
 embedded curve. Such partial absorption occurs in characteristic zero.
 The unrestricted question whether \(R\) can vanish remains open.
 
-These are independently reviewed deductions. Consolidation review reconstructed the proofs, the
-normal-carrier endpoint criterion, the explicit ribbon-quotient boundary,
-the rational-curve extension, and the characteristic statements. Inputs are cited at their exact uses. No computation is needed for these
-proofs.
-
 ## Geometric orientation: incidence, specialization, and the marked curve
 
 The organizing object is the incidence space of complete intersections
