@@ -264,7 +264,7 @@ quartic ancestors to E4[-7], where E4=Ext²(S/I⁴,S), of dimension30. The exact
 injection into Ext²(S/(q⁴,B⁴),S) represents these sections by 30 homogeneous
 degree13 numerators, modulo (q⁴,B⁴).
 
-The exact [tensor exporter](../computations/localcoh-incidence-tensor.m2) and its associated basis output fix the coordinate conventions used below.
+The exact [tensor exporter](../../computations/localcoh-incidence-tensor.m2) and its associated basis output fix the coordinate conventions used below.
 
 The quartic basis has18 elements. Its products with the30 ancestors span the
 entire74-dimensional E3[-3] piece. Appending the two target numerators
