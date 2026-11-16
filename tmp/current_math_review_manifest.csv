@@ -192,7 +192,7 @@ path,status,findings,action,commit
 "research/arguments/spectral/rank_strata_and_sextic_lifts.md","pending","","",""
 "research/arguments/spectral/saturated_duality_and_moving_powers.md","pending","","",""
 "research/arguments/spectral/singular_root_actual_pair_bridge.md","pending","","",""
-"research/arguments/spectral/spectral_determinant_schemes.md","pending","","",""
+"research/arguments/spectral/spectral_determinant_schemes.md","complete","Reviewed universal (2,2) elliptic spectral coefficient determinant Fitting equation, relative Picard identity scheme, n-invertible smoothness, scheme gcd intersection, ordinary/supersingular fixed-curve p-power multiplicity and nonreduced base graded CI universal family","Proof reviewed under smooth-root hypotheses; normal bundle graded construction not ambient STCI and singular root boundary unresolved","0a08c3765ce403b671fe62228a62b3f1910eb854"
 "research/arguments/spectral/spectral_pushforward_boundary.md","pending","","",""
 "research/arguments/spectral/spectral_pushforward_powers.md","pending","","",""
 "research/arguments/spectral/spectral_torsion_and_syzygy_splitting.md","pending","","",""
