@@ -84,3 +84,7 @@ quotient; it is not a parametrization of arbitrary moving supported
 complete intersections. The finite map is not called a normalization when
 \(B\) is nonreduced. Purity does not assert that \(Z_B\) is arithmetically
 Cohen--Macaulay or a complete intersection.
+
+## Review
+
+The complete mathematical argument is retained in [the embedded-quotient proof](../arguments/torus_embedded_quotients.md); its hypotheses and limitations are stated above.
