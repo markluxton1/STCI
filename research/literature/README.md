@@ -542,7 +542,7 @@ algebraic varieties,” *Annals of Mathematics* 137 (1993), 71--128.
 
 ## Status conclusion after the dated search
 
-The searches included exact-title and citation searches around the sources
+The inherited searches (through 2026-09-30) included exact-title and citation searches around the sources
 above, 2024--2026 arXiv and journal results on residual intersections, affine
 lci curves, toric arithmetic rank, multiple structures, and projective space
 curves. No later source was found that:
