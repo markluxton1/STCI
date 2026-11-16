@@ -83,37 +83,34 @@ problem distinct from the stronger prescribed-boundary problem.
 
 ## Cycle-to-ideal realization gate
 
-Before computing attracting strata, separate three successive conditions
-on any proposed sextic pencil or degeneration:
+For any proposed sextic pencil or degeneration, distinguish:
 
-1. **Proper equations and cycle:** verify that the two sextics have height
-   two, contain \(C\), and determine the marked multiplicity and residual
-   cycle. The Chow condition \(\([Y]=9[C]\)\) is necessary for a sole-supported
-   \(\(6,6\)\) intersection, but is not by itself a scheme-theoretic
-   support or generation certificate.
-2. **Full supported ideal:** verify the prescribed Hilbert polynomial and
-   support in an actual flat family (or in some \(H_N\)), retaining embedded
-   points and the complete saturated ideal at both limits. A graph closure
-   of the equation-to-ideal map can have boundary ideals with extra
+1. **Proper equations and cycle.** Verify height two, containment of
+   \(C\), and marked multiplicity and residual cycle. The cycle
+   \([Y]=9[C]\) is necessary for a sole-supported \((6,6)\)
+   intersection, but is not a certificate for its full scheme or
    generators.
-3. **Moving generator incidence:** only after (1)--(2), impose the full
-   two-sextic generator criterion from R-0039, with a justified finite
-   regularity bound when using multiplication matrices.
+2. **Full supported ideal.** Verify the prescribed Hilbert polynomial
+   and support in an actual flat family (or some \(H_N\)), retaining
+   embedded structure and the complete saturated ideal at both limits.
+   Boundary ideals of the equation-to-ideal graph can have extra
+   generators.
+3. **Moving generator incidence.** Impose the full two-sextic generator
+   criterion from R-0039, with a justified regularity bound if using
+   finitely many multiplication matrices.
 
 These gates distinguish the older Chow-incidence and surface-pair VGIT
-approaches from the existing Hilbert-boundary method without introducing
-a second framework. The concrete decision is whether a cycle or
-weight stratum cuts down the **same** supported moving-ideal family
-enough to make its two-generator incidence computable. If not, retain
-the existing bounded Hilbert-family question rather than introducing
-a parallel VGIT classification.
+approaches from the existing Hilbert-boundary method without creating
+a second framework. The concrete decision is whether cycle or weight
+strata cut down the **same** supported moving-ideal family enough to
+make its two-generator incidence computable. Otherwise keep the bounded
+Hilbert-family question rather than launch a parallel VGIT classification.
 
-A candidate derived only from invariant cycles or extreme forms must
-not be called a supported boundary ideal. Conversely, a supported
-boundary with more than two generators is not an exclusion unless
-its relevant attracting family has been tested. Residual absorption
-on a carrier is a separate actual-equation construction and may provide
-a family to which these gates can be applied.
+An invariant cycle or extreme-form pair does not determine a supported
+boundary ideal. Conversely, a supported boundary with extra generators
+does not exclude a moving supported CI until its attracting family is
+tested. Actual-equation residual absorption on a carrier may provide
+candidate families for these gates.
 
 ## Findings
 
