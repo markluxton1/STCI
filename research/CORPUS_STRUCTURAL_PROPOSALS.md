@@ -397,3 +397,28 @@ All catalog-linked Results now have source-inspected statement/proof navigation.
 | [quartic_ancestor_direction_reduction.support/verify_pure_direction.py](results/quartic_ancestor_direction_reduction.support/verify_pure_direction.py) | Pure constant-direction audit script | Child of `quartic_ancestor_direction_reduction.md` |
 | [quartic_ancestor_direction_reduction.support/verify.py](results/quartic_ancestor_direction_reduction.support/verify.py) | Finite ancestor direction replay script | Child of `quartic_ancestor_direction_reduction.md` |
 | [quartic_dual_singular_scheme.support/verify.m2](results/quartic_dual_singular_scheme.support/verify.m2) | Dual singular-scheme exact algebra script | Child of `quartic_dual_singular_scheme.md` |
+
+## Framework and Investigation routing — 57 source-inspected files
+
+All **55 Frameworks** and **2 Investigations** were inspected for their topic headings, interfaces, and direct mathematical links. **Target: retain existing paths pending cleanup.** This is a retrieval map, not a proof audit. Frameworks are navigation and synthesis, not substitute proofs. Investigations preserve open questions, inputs and completion criteria; they must not be promoted to Results by proximity.
+
+| Exact existing framework group / target | Files | Retrieval function and dependencies | Cleanup-specific decision |
+| --- | ---: | --- | --- |
+| [arithmetic-supported-lifts/index.md](frameworks/arithmetic-supported-lifts/index.md) | 1 | Mixed-characteristic lifting, Frobenius and Z4 nonlifting; arithmetic Arguments and R nonlifting | Keep framework index |
+| [carrier-normalization/index.md](frameworks/carrier-normalization/index.md) and its siblings | 17 | Quartic carrier proof lanes, genus-one/two conductor, quintic projection, normalization, descent; links to carrier Arguments and R-0001 | Preserve proof-route distinctions; `normalization_conductor_projection.md` and `fixed_carrier_and_cartier_projection.md` have overlapping sections: compare actual text and inbound links later, do not merge by title |
+| [embedded-torus-quotients/index.md](frameworks/embedded-torus-quotients/index.md) and contact interface | 2 | Constant embedded quotient orbit images, endpoint genus, contact duality, global descent; torus Arguments and orbit-image Results | Keep quotient-specific scope separate from moving supported Hilbert loci |
+| [formal-normal-geometry/index.md](frameworks/formal-normal-geometry/index.md) and siblings | 15 | Normal filtration, saturation, equation modules, sextic jets, characteristic two, boundary repair, socle and open comparisons | `from_symbols_to_equations.md` overlaps `generic_normal_forms_and_relation_saturation.md`; `normal_filtration_boundaries.md` overlaps `normal_neighborhoods_and_boundary_repairs.md`. Verify inbound links and actual duplication before cleanup |
+| [global-equation-realization/index.md](frameworks/global-equation-realization/index.md) and siblings | 3 | Global sections, bounded certificates, Chow maps, projection and liaison; equation and linkage Arguments | Retain global actual-equation distinction |
+| [local-cohomology/index.md](frameworks/local-cohomology/index.md) and open ancestor question | 2 | Simultaneous ancestors and finite quartic direction reductions | Preserve open two-target case |
+| [residual-construction/index.md](frameworks/residual-construction/index.md) and siblings | 4 | Residual attachment, flat deformation, octic multipliers, blowup cycles | Keep actual residual support vs formal contact distinction |
+| [spectral-roots/index.md](frameworks/spectral-roots/index.md) and open lifts | 2 | Picard torsion, spectral roots, actual lifts, conditional two-node sextic pencil | Keep graded root criterion vs ambient CI gap |
+| [torus-supported-boundaries/index.md](frameworks/torus-supported-boundaries/index.md) and siblings | 9 | Intrinsic/transverse tori, endpoint frames, full Hilbert limits, normal symbols, sextic postulation | `weights_and_limits.md` contains I–VI material mirrored by six focused siblings; retain both pending inbound-link and overlap audit |
+
+### Investigations — retain as questions, not Results
+
+| Exact existing source | Question and inputs | Completion condition |
+| --- | --- | --- |
+| [quotient-hilbert-comparison/index.md](investigations/quotient-hilbert-comparison/index.md) | Specialization of moving transverse quotients versus full supported Hilbert limits; embedded quotient and torus boundary frameworks | Identify precise compatibility or obstruction between families; preserve stated findings and remaining decisions |
+| [supported-generator-incidence/index.md](investigations/supported-generator-incidence/index.md) | Two-equation incidence in bounded supported attracting families; Hilbert and minimal-generator Results | Decide actual two-generation on bounded strata, not merely support of limit |
+
+**Inventory lifecycle:** This corpus-wide map is temporary cleanup infrastructure. Do not make it a permanent research object by default; after topic-based cleanup and link validation, retire it (and redundant structural proposals) unless a concrete ongoing retrieval need emerges. Preserve only necessary stable Result/Argument/Framework/Investigation navigation.
