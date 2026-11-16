@@ -81,6 +81,104 @@ An arbitrary supported deformation to the desired CI is useful even if it
 does not realize a prescribed torus orbit history. Keep that construction
 problem distinct from the stronger prescribed-boundary problem.
 
+## Cycle-to-ideal realization gate
+
+For any proposed sextic pencil or degeneration, distinguish:
+
+1. **Actual proper equations and cycle.** Verify height two,
+   containment of \(C\), and marked multiplicity. For an **actual
+   proper** \((6,6)\) pair, the terminal condition \([Y]=9[C]\)
+   is equivalent to sole support, by purity and degree exhaustion.
+   The [existing rank-strata argument](../../arguments/residuals/marked_deformation_and_absorption.md#fixed-degree-multiplicity-strata-of-actual-pairs)
+   gives equations for this locus; the Chow divisibility description
+   gives a second, cycle-level presentation of the same condition.
+2. **Full supported ideal.** When working with a limit or graph
+   boundary instead of an actual proper pair, verify the prescribed
+   Hilbert polynomial and support in an actual flat family (or some
+   \(H_N\)), retaining embedded structure and the saturated ideal
+   at both limits. A limiting cycle equal to \(9[C]\) does not
+   determine the limiting generators.
+3. **Moving generator incidence.** On a proposed supported Hilbert
+   boundary, impose the full two-sextic generator criterion from
+   R-0039, with a justified regularity bound if using finitely many
+   multiplication matrices. For a saturated ideal with the exact
+   \((6,6)\) CI Hilbert polynomial, the existence of a **proper**
+   sextic pencil inside its degree-six part already implies equality
+   of ideals (see the complete-intersection-polynomial criterion in
+   the torus Hilbert-boundary argument).
+
+The concrete question is whether Chow or torus-weight strata cut down
+the **same** supported moving-ideal family enough to make its
+two-generator incidence computable. Otherwise keep the bounded
+Hilbert-family question rather than launch a parallel VGIT
+classification. An invariant cycle or extreme-form pair does not
+determine a supported boundary ideal; conversely, a supported
+boundary with extra generators does not exclude a moving supported
+CI until its attracting family is tested.
+
+## First-cancellation obstruction
+
+For a proposed supported characteristic-zero sextic pair, the
+[clean-cancellation theorem](../../arguments/torus_hilbert_boundary.md#clean-cancellation-and-residual-descent)
+requires the first nonzero cancellation coefficient \(D_0\)
+to share a factor with the full common factor \(H\) of the
+extreme sextics, **in both torus directions**. Otherwise the
+full initial ideal is explicitly ACM and splits at cycle level
+into eigenform complete intersections, contradicting the
+known eigenform obstruction. This is a necessary gate before
+any higher cancellation or endpoint analysis.
+
+The surviving case \(\gcd(H,D_0)\ne1\) does not yield a
+smaller supported pair: additional generators, embedded
+structure, or a unit quotient can defeat descent. The
+relevant unresolved question is whether the surviving
+first-cancellation strata intersect the same bounded
+supported Hilbert attracting family and its actual proper
+two-sextic locus. Do not replace that incidence problem
+with a numerical degree-product induction.
+
+## Top-cycle and weight gates
+
+The [triple-graph formulation](../../arguments/torus_hilbert_boundary.md#equationhilbertchow-graph-and-its-top-fiber)
+provides a second, equivalent fixed-degree existence test:
+does the top Chow fiber meet the open CI locus in the
+**Hilbert coordinate**? This is not the same as asking
+whether the limiting displayed pencil is proper. The
+top-cycle fiber may include limits of residual pairs;
+the closure of supported approximants is smaller or equal,
+with stronger power containment.
+
+The centered-weight semistability condition excludes
+one-sided weight blocks for **actual** supported proper
+sextic pencils. It does not exclude improper limiting
+pencils, so it should be applied to the moving equation
+coordinate, alongside the first-cancellation and full
+generator gates. The next genuine calculation would
+identify a nonempty top-cycle graph stratum and determine
+whether its Hilbert CI locus is empty or nonempty, rather
+than classify all abstract VGIT chambers.
+
+## Local leading ideals are not a global generator certificate
+
+The [GHK reconciliation](../../arguments/normal-geometry/actual_equation_filtration.md#generic-leading-ideals-versus-actual-global-equations)
+separates local realizability of a two-dimensional parameter
+ideal from realizability by two **prescribed-degree global
+equations**. A locally normalized generating pair may use
+\(k(C)\)-valued coefficients unavailable to homogeneous
+global row operations. Even a locally realizable full
+initial ideal must pass actual symbol-source maps,
+higher-jet syzygy compatibility, and the projective
+sole-support test.
+
+For the sextic \((6,6)\) search, retain the global
+two-sextic incidence rather than substituting the
+locally minimized order/excess. The conditional
+\((6,16)\) two-node cubic-jet zero locus is a
+**separate** fixed-degree investigation, already developed
+in the spectral Arguments; its unresolved compatibility
+does not provide an exclusion of \((6,6)\) or an
+unrestricted quartic STCI.
+
 ## Findings
 
 This is an unperformed mathematical investigation. The pilot has reconstructed

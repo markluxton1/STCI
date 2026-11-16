@@ -56,6 +56,33 @@ computes the generic length needed for exhaustion. A uniform bound in a
 family has to include the actual equation parameter space and its special
 strata.
 
+## Invariant residual chains and absorption
+
+The [invariant orbit-curve analysis](../../arguments/torus_hilbert_boundary.md#invariant-residual-supports-and-absorption-limits)
+sharpens the attachment problem: every reduced irreducible curve
+invariant under the intrinsic torus and distinct from \(C_0\)
+meets \(C_0\) only at the endpoints, **unless** it is the
+coordinate line \(L_{12}\), which is disjoint from \(C_0\).
+That line occurs in an actual invariant proper \((3,4)\)
+intersection containing \(C_0\), connected through other
+residual lines. Hence connectedness of the full intersection
+does not force direct endpoint attachment of every residual
+component. This rules out an overly restrictive incidence
+model, without altering any previously established residual
+degree bound.
+
+Under flat specialization preserving the marked curve,
+the coefficient of \([C_0]\) in the fundamental cycle
+can increase by specialization of residual cycle; the
+remaining residual degree decreases accordingly. A moving
+invariant quartic can collide with \(C_0\) at cycle level,
+but this does not construct a flat two-equation realization.
+For absorption questions, distinguish **cycle transfer**,
+**embedded Hilbert realization**, and **global generator
+realization**. The unresolved implication belongs jointly
+to this Framework, the [full torus boundary Framework](../torus-supported-boundaries/index.md),
+and [global equation realization](../global-equation-realization/index.md).
+
 ## Bridges
 
 - To iterate absorption, preserve the mark, lift the complete embedded

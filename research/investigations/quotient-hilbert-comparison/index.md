@@ -96,6 +96,32 @@ control outside the supported incidence whenever residual curves remain.
 Positive-characteristic collisions can test characteristic dependence, but do
 not supply a characteristic-zero supported deformation.
 
+## Impact of the residual and full-limit comparison
+
+The [invariant residual analysis](../../arguments/torus_hilbert_boundary.md#invariant-residual-supports-and-absorption-limits)
+rules out the simplifying assumption that every invariant
+residual component meets the marked curve directly: a
+disjoint \(L_{12}\) can be connected through other residual
+curves in an actual proper intersection. This is a
+**control outside the sole-supported family**, not a new
+candidate quotient in the present Investigation.
+
+The [four-generator full-limit control](../../arguments/torus_hilbert_boundary.md#a-four-generator-full-limit-with-an-embedded-point)
+shows that a flat full ideal can acquire embedded punctual
+structure while its pure hull has a different Hilbert
+polynomial. It reinforces the existing requirement to
+compare **the same moving embedded family**, including
+its equation modules and both endpoint images. Neither
+the residual orbit classification nor a cycle-level
+absorption argument supplies the missing comparison map.
+
+**Priority consequence:** retain this active bridge as a
+prerequisite for interpreting proposed opposite-limit
+generator strata, but do not expand its scope to classify
+all invariant residual arrangements. A decisive outcome
+remains an actual specialization statement or a concrete
+compatibility obstruction for one declared family.
+
 ## Findings
 
 [R-0070](../../results/intrinsic_limits_endpoint_fibers.md) now compares each

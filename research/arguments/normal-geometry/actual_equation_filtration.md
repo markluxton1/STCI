@@ -10,6 +10,77 @@ Complete source texts below, retaining mathematical arguments, hypotheses, count
 
 <a id="source-2026-10-20-normal-filtration-research-reportmd"></a>
 
+## Generic leading ideals versus actual global equations
+
+The classical local theory of Goto–Heinzer–Kim (GHK),
+[Part I](https://www.math.purdue.edu/~heinzer/preprints/GHK2.pdf),
+[Part II](https://www.math.purdue.edu/~heinzer/preprints/6ghk2.pdf),
+and their [two-dimensional realization theorem](https://www.math.purdue.edu/~heinzer/preprints/7ghk91.pdf),
+applies at the generic point of \(C\): the local ring is a
+two-dimensional regular local ring with infinite residue field
+\(K=k(C)\) and factorial associated graded ring \(K[u,v]\).
+The theorems describe the initial generators, gcd-degree
+sequence, Hilbert function and allowable local cancellations
+for a two-generated parameter ideal. The realization theorem
+produces **local** parameter ideals with admissible numerical
+sequences; it does not construct two global homogeneous
+equations of prescribed degrees through the fixed embedding.
+
+For a normalized local generating pair with orders
+\(c_1\le c_2\), write \(\xi_i\) for the successive minimal
+initial generators, \(c_i=\deg\xi_i\),
+\(D_i=\gcd(\xi_1,\ldots,\xi_i)\),
+\(d_i=\deg D_i\), and
+\(e_i=c_i+d_{i-1}-d_i\). The GHK formula yields
+\[
+ \ell(R/J)-c_1c_2
+   =\sum_{i=2}^{n-1}d_i(c_{i+1}-e_i).
+\]
+This is the **minimum displayed excess** after permitted
+local changes of generators. It vanishes exactly when the
+full local initial ideal has two minimal generators. It
+must not be confused with the excess of a prescribed pair
+of homogeneous equations: local row operations can use
+coefficients in \(k(C)\), whereas equal-degree global
+equations allow only constant basis changes, and unequal
+degrees permit polynomial multiples of the lower-degree
+form of the specified twist.
+
+The local-to-global realization gates are distinct:
+
+1. Realize an admissible leading ideal over \(k(C)\)
+   (covered by the local theory under its hypotheses).
+2. Lift its symbols through the actual source maps
+   \(H^0(I_C^j(d))\to H^0(C,\operatorname{Sym}^jN_C^\vee(d))\),
+   including connecting obstructions and higher jets;
+   see [global equation jets](../equations/global_equation_jets.md).
+3. Lift the local syzygies with compatible coefficients
+   along the **whole** curve, not just at its generic point.
+   Standard-basis criteria such as Valabrega–Valla and
+   Rossi–Sharifan apply to the given filtered local module,
+   not automatically to globally prescribed twists.
+4. Find two actual homogeneous sections spanning the
+   proposed local ideal modulo its maximal ideal, then
+   establish properness and sole projective support.
+   The last step is not supplied by local realization.
+
+The conditional characteristic-zero \((6,16)\) two-node
+stratum is a concrete instance of gate 3, not a generic
+local-algebra obstruction. Its remaining cubic-jet equation is
+\[
+ [(H_1H_2+\eta q^3)_3-\alpha G_0]\bmod f=0,
+ \qquad f=\ell_1\ell_2,\quad \alpha=\alpha_1\alpha_2,
+\]
+subject to the retained node-gluing, pairing and
+actual-equation hypotheses. The source calculation gives
+\(\dim H^0(I_C^2(6))=23\), quadratic-symbol image rank
+\(22\) in dimension \(33\), and kernel \(kq^3\).
+The [conditional two-node argument](../spectral/conditional_2_12_singular_and_conductor.md#8-first-unresolved-lifting-conditions-and-actual-pair-boundary)
+and [rank-strata argument](../spectral/rank_strata_and_sextic_lifts.md#6-the-obstruction-bundle-zero-locus-and-uniqueness-of-a-lift)
+already retain the detailed incidence and boundary
+conditions. No local realization theorem decides whether
+their global zero locus is empty.
+
 ## Independent continuation: homogeneous generators, defect divisors, and actual carriers
 
 Investigation begun 2026-10-19; closing report 2026-10-20.
