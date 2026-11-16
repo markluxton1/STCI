@@ -1361,9 +1361,9 @@ for that criterion.
 The two conditional lemmas were independently reconstructed with their reduced-divisor, single-automorphism, birationality and tame-cotangent hypotheses. Neither supplies the missing conductor or globally descending sections.
 
 
-### Archived exact certificate: `research/computations/verify_session_genus_one_projection_2026_10_09.py`
+### Exact computational source: `research/computations/verify_session_genus_one_projection_2026_10_09.py`
 
-The following original computational certificate is preserved verbatim, with its original hypotheses, limitations, and external dependencies. No additional mathematical conclusion is asserted by its archival transfer.
+The source below checks only its stated identities and cases; it does not establish an unrestricted STCI result.
 
 <details><summary>Original source</summary>
 
@@ -1482,7 +1482,7 @@ if __name__ == "__main__":
 </details>
 
 
-### Archived exact certificate: `research/computations/projection_incidence_certificates.m2`
+### Exact computational source: `research/computations/projection_incidence_certificates.m2`
 
 Original source preserved verbatim, including its limitations and external dependencies. This is an archival transfer, not a new proof audit.
 
