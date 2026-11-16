@@ -96,6 +96,4 @@ the actual comparison after such a base change. The separate
 [normal-flat specialization theorem](normal_flat_comparison_specialization.md)
 gives sufficient hypotheses for that identification.
 
-## Review
-
-The proof of the comparison, DVR torsion formula and smooth-carrier vanishing is retained in [the filtered-equation Argument](../arguments/filtered_equation_comparison.md). The smooth-carrier leading coefficient need not be a unit.
+The smooth-carrier leading coefficient need not be a unit.
