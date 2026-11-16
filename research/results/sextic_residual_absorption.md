@@ -79,4 +79,3 @@ with specialization. A separate sparse-polynomial implementation over
 the integers checked the absorption factorization. The surviving
 twelvefold line and lack of an iteration to sole support remain limitations.
 
-Independent reconstruction review accepts this route within its stated scope.
