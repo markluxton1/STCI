@@ -1032,13 +1032,7 @@ The double-divisor restriction argument and spectral application are
 proved here; the cited sources are inputs, not claims that this exact
 STCI application was previously established.
 
-Independent reconstruction and failure tests are recorded in
-[the separate audit](#2026-10-19-spectral-nonreduced-root-independent-audit).
-The most valuable next bridge is to derive uniformity, or a sufficiently
-controlled replacement for it, from the actual filtered Gorenstein
-algebra. The component classification also reduces the movement-two
-spectral boundary to integral singular curves and equal-slope pairs
-of rational components, without discarding ramification or gluing.
+The movement-two spectral boundary still includes integral singular curves and equal-slope pairs of rational components, with ramification and gluing retained. Uniformity from the actual filtered Gorenstein algebra is not established here.
 
 
 ---
