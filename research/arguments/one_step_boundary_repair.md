@@ -777,18 +777,6 @@ The 2 D_soc bound does not apply to raw initial-equation torsion
 without subtracting Delta. The source preserves the unresolved
 punctual-Delta question and does not claim to settle it.
 
-### Outcome
+### Scope of the obstruction
 
-**PASS for the inspected source, including the automatic-source refinement.**
-No substantive correction is required. The explicit one-step lifting
-comparison and its final Gorenstein sharpening are independently
-reconstructed. The exact contact criterion and fixed-surface reduction
-apply to a whole fixed lower embedding, without sampled examples.
-The source does not prove that the admissible lower-embedding family
-has a proper source point or that its fixed-surface condition always
-fails. Those remain the global classification question.
-
-All new claims remain reviewed research evidence. The
-audit does not reopen an accepted exclusion. No inherited certificate or proof was replayed.
-
----
+The contact criterion and fixed-surface reduction apply to an entire fixed lower embedding. They do not establish that the admissible lower-embedding family contains a proper source point or that the fixed-surface condition always fails. The global classification remains open.
