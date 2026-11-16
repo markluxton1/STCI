@@ -64,4 +64,4 @@ local intersection and global properness tests.
 
 ## Review
 
-The proof uses restriction of quartics through C to the smooth quadric, the eight-dimensional (1,3) restriction image, and the unique degree-four double equation q^2. The coefficient conditions follow from the marked conormal transitions and are valid in their stated characteristics.
+The [quadric restriction and actual-symbol proof](../arguments/quartic_specialization_and_symbols.md#4-which-symmetric-algebra-sections-come-from-quartics) establishes the image and coefficient conditions.
