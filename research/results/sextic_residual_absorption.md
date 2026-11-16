@@ -68,14 +68,3 @@ The twelvefold residual line remains. This gives neither an iteration
 absorbing all residual support nor a supported complete intersection.
 The assertion concerns this actual family, not all residual deformation
 directions.
-
-## Review
-
-Independent reconstruction by the nonauthor reviewer pilot_review_sextic
-accepted this route on November 4, 2026. The reviewer reconstructed properness and flatness of the full family,
-smoothness of the moving graph, the generic and special divisor
-multiplicities, and the precise failure of residual extraction to commute
-with specialization. A separate sparse-polynomial implementation over
-the integers checked the absorption factorization. The surviving
-twelvefold line and lack of an iteration to sole support remain limitations.
-
