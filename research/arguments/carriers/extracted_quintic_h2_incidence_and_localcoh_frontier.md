@@ -150,15 +150,9 @@ roots and inverse-map boundary cases. Merely replaying the two proposed
 resultants is insufficient. The degree-six `j != 0` branch and nonlinear
 conductor-power descent also remain unresolved.
 
-## Review scope
+## Mathematical scope
 
-Independent review compared the actual primitive input, source-coordinate
-correction, full monic coefficient recursion and both proposed elimination
-accounts. It found the coordinate and reduction gaps above without running
-the invalid verifier. Consolidation retains the valid necessary equations
-and the distinct polynomial-dual theorem; it does not infer nonemptiness,
-new rank facts or a broader STCI conclusion.
-
+The monic coefficient recursion gives necessary equations, not a global exclusion. The proposed eliminations omit exceptional parameter strata and cannot close the \(h=2\) branch. The original computational certificate below remains available because its standalone file is no longer present on this branch; its hypotheses and failure cases must not be discarded.
 
 ### Archived exact certificate: `research/computations/verify_session_nonendpoint_h2_classification_2026_10_13.m2`
 
