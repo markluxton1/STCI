@@ -474,11 +474,9 @@ map `x=u^r,y=v^r,z=uv` from the smooth plane by
 of exact order `r`. Its indices are arbitrarily large. This is a
 local failure shield, not a constructed global `C0` carrier.
 
-### 7. Audit record and successor target
+### 7. Remaining actual-index obstruction
 
-Independent reconstruction checked Kummer connectedness, étaleness near Cartier points, ample-divisor connectedness, SGA 2 local class-group inputs, nodal/index arithmetic, and the bounded-index divisor table. The [cyclic-cover argument](../spectral/spectral_pushforward_powers.md#2026-10-14-normal-cyclic-cover-torsion-detection) and [Picard/local-torsion inputs](normal_index_socle_and_torsion.md#source-2026-10-14-normal-carrier-picard-local-torsion-primarymd) retain the proofs. Accepted low-degree exclusions were not rerun.
-
-The unresolved target is whether the specific class \`Delta_0\` can have the required torsion and local indices, or whether its finite cyclic cover can exist. Nodal classes are excluded in every degree; local exponents dividing \(2,3,4,6\) are excluded, while exponent \(12\) leaves only \((6,8)\) with generic intersection length \(12\). That case requires compatibility with actual index-three/four contributions at singular points, without assuming a primitive pair or discarding higher jets. General normal carriers require actual Cartier indices at points of \(C_0\); nonnormal and entirely thick carriers have separate conductor and branch-lattice questions.
+The [cyclic-cover proof](../spectral/spectral_pushforward_powers.md#2026-10-14-normal-cyclic-cover-torsion-detection) and [Picard/local-torsion argument](normal_index_socle_and_torsion.md#source-2026-10-14-normal-carrier-picard-local-torsion-primarymd) provide the requisite connectedness and local class-group inputs. Nodal classes and local exponents dividing \(2,3,4,6\) are excluded; exponent \(12\) retains the \((6,8)\) case of generic length \(12\). That case still requires compatibility with **actual** index-three/four contributions, without assuming primitive generators. Higher indices and nonnormal carriers lie outside these conclusions.
 
 ---
 
@@ -747,9 +745,9 @@ must pay at three distinct curve points; an endpoint model requires
 the appropriate doubled point. These are necessary support constraints,
 not existence claims for their embedded higher lifts.
 
-### 8. Scope and independent review
+### 8. Scope of the symbolic-triple certificate
 
-The normalized budget (2) concerns normal mate-bearing \(C_0\) carriers. The symbolic-triple obstruction requires constant direction \(\ell=7\); for \(\ell\le6\) the earlier index inequality gives the stronger scalar bound. Nonconstant directions, larger pole divisors, index-two terms, and positive higher-index defects remain open. Relation-module quotients, coefficient-six arithmetic, and primitive Cartier multiples of lengths two and three were independently checked; proofs appear above.
+The normalized budget applies to normal mate-bearing \(C_0\) carriers. The symbolic-triple obstruction requires constant direction \(\ell=7\); for \(\ell\le6\), the earlier scalar index inequality is stronger. Nonconstant directions, higher-index defects, and the parity-sensitive cases retain the stated hypotheses.
 
 ---
 
