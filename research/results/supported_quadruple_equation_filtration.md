@@ -72,27 +72,4 @@ in \(Q\) and sole reduced support is compatible with vanishing of
 
 ## Review
 
-The Phase 5 nonauthor reviewer `review_proofs` accepted the free supported algebra and
-full equation filtration route with R-0030 over every field. They checked
-the radical and free basis, both full relative initial ideals, the powers
-in \(R/IJ\) and their intersections with \(J/IJ\), and the maps retaining
-both torsion generators. They reconstructed the actual generic and closed
-algebras and the comparison with the coefficient images of the relative
-initial ideals. This review used symbolic arguments. The separate finite
-replay checks the full relative initials and \(I^4\subset J\).
-
-The cleanup preservation reviewer `delta_review` accepted retaining this
-route after checking the free bases of \(R/J\) and \(R/IJ\), the full
-filtration and images of both torsion generators, and the distinction
-between the length-six coefficient specialization and the length-four
-actual closed normal algebra. They reran the quadruple sample in A-0010.
-
-The October 24 review records the quadruple as a separate primary-agent
-calculation from the free basis \(1,x,y,xy\), with full initial ideals
-verified by Rees saturation. The review records torsion survival and
-zero relative defect for this example. The normal-cone regularity audit
-used this calculation as inherited evidence, and the October 26 local
-audit retained its scope as a control with sole support.
-[October 24 review](https://github.com/markluxton1/STCI/blob/737bfe4eacb93dfc1273228773695e1b55c72028/research/notes/2026-10-24-delta-singular-locus-review.md#L69) ·
-[Normal-cone audit](../arguments/normal-geometry/rees_equation_persistence.md#4-next-directions-and-evidence-boundary) ·
-[Scope of the October 26 local audit](local_filtration_comparison_defect.md#october-26-local-audit)
+The full free-algebra, relative initial-ideal and equation-filtration proof is retained in [A-0010](../arguments/punctual_comparison_defects.md#a-supported-quadruple-torsion-in-q-is-not-enough). The relative defect vanishes despite torsion in both comparison modules.
