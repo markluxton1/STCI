@@ -423,15 +423,9 @@ note reconstructs their complete quartic fibers and proves the six
 bounded exclusions. The principal `a0*b1!=0` portion of the sextic
 remains unsolved.
 
-### 5. Continuation-ready next calculation
+### 5. Remaining obstruction
 
-The highest-value next step is the intrinsic class in (2), calculated
-on the actual triple incidence (5) or (7), with delta/gamma flatness
-and complete ambient quartic containment. For type (2,2), test the
-five coefficients directly. For type (1,3), test the actual quadratic
-annihilator matrix (3) on the remaining principal direction sextic.
-The six boundary fibers above have now been checked and excluded in
-the separate endpoint proof.
+The intrinsic class in (2) has not been computed on the actual triple incidence (5) or (7), subject to delta/gamma flatness and complete ambient quartic containment. Type (2,2) retains five coefficient conditions; type (1,3) retains the quadratic annihilator matrix (3) on the principal direction sextic. The six boundary fibers are excluded by the separate endpoint proof.
 
 The companion
 [`verify_mf6_e1_defective_structural.py`](../../computations/verify_mf6_e1_defective_structural.py)
