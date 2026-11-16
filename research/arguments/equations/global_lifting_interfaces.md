@@ -119,17 +119,9 @@ classes, and the global Hodge/Noether bound gives a contradiction. The
 matrix: integral ideal vanishing versus rational numerical orthogonality.
 The shared use of exceptional curves does not make these the same obstruction.
 
-## Review status
+## Filtered relation-lifting interfaces
 
-The fixed-symbol lemma, its fixed-data restrictions, actual sextic source/kernel application, and seed annihilation were independently reconstructed. The vector-space lemma is characteristic-free; the sextic computation uses characteristic-zero coefficients. Linked applications retain their own hypotheses. The comparison is organizational, not a new theorem or an STCI solution.
-
-## Consolidated historical source: `research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md`
-
-# Actual generator filtrations and the cost of lifting a relation
-
-This owner treats three successive questions: how a full regular initial sequence determines the filtered module of actual equations; how an embedded first relation meets the next nonlinear normal transition; and what defect divisor is required to repair that obstruction. The complete proofs and substantive audit refinements follow. The statement for constant relations is governed by [R-0033](../../results/constant_first_relation_lifting.md); arbitrary actual pairs must not acquire its hypotheses by replacing their full initial ideal with two displayed symbols.
-
-The full embedded quadratic neighborhood matters: a constant relation factor extracts a direction obstruction only when its multiplicity is nonzero in the ground field and the next relation space is exactly the prescribed first-relation multiples. Divisor-twisted repair then compares the actual cohomology class with a common allowable divisor. The later [one-step theorem](../torus/toric_torsion_and_endpoint_contacts.md#boundary-obstruction-and-endpoint-scope-investigations) and [boundary-repair principal-parts criterion](../normal-geometry/normal_boundary_weighted_initials.md#normal-boundary-weighted-initials-and-lifting) have separate precise hypotheses; they are applications of the same gluing mechanism, not automatic equivalents.
+The characteristic-free fixed-symbol lemma has separate fixed-data restrictions; the sextic source/kernel computation uses characteristic zero. For a regular full initial sequence, the generator filtration is controlled by its actual filtered module, not by two displayed symbols. Lifting a first relation depends on the quadratic normal transition, its multiplicity in the ground field, and the **entire** next relation space. Defect-divisor repair further requires a correction in the image of the global homogeneous source. [R-0033](../../results/constant_first_relation_lifting.md), [one-step boundary lifting](../torus/toric_torsion_and_endpoint_contacts.md#boundary-obstruction-and-endpoint-scope-investigations), and [weighted principal-parts repair](../normal-geometry/normal_boundary_weighted_initials.md#normal-boundary-weighted-initials-and-lifting) have different hypotheses; none alone excludes unrestricted STCI.
 
 ---
 
