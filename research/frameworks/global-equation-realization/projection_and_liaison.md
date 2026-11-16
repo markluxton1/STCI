@@ -2,9 +2,7 @@
 
 ## An actual homogeneous ACM thickening downstairs
 
-This target
-is weaker than AG, which in codimension two would give a complete intersection.
-Generic type two is allowed at the ACM stage. An actual ideal or finite-projection source requires a computation of the
+This target is weaker than arithmetically Gorenstein (AG): a height-two homogeneous Gorenstein ideal in a polynomial ring is a complete intersection. Generic Cohen–Macaulay type two is allowed at the ACM stage, but cannot be treated as an AG or two-generator certificate. An actual ideal or finite-projection source requires a computation of the
 image's section module: ACMness does not transfer from the covering quadric. The existing [section-defect theorem](../../arguments/linkage/projected_thickening_section_defects.md)
 and [liaison constructions](../../arguments/linkage/supported_linkage_operations.md) specify
 what the covered sources accomplish and where they fail.
