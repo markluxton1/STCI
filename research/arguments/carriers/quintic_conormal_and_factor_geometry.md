@@ -15,6 +15,7 @@ Permanent mathematical supplement. The following five complete analyses retain t
 
 ---
 
+<a id="1-quintic-conormal-and-delpezzo-audit"></a>
 ## Quintic conormal and del Pezzo structural reductions
 
 For the fixed characteristic-zero \(C_0\), this analysis uses the established conormal splitting \(N_{C_0}^\vee=\mathcal O(-7)^2\), [smooth-carrier obstruction](../equations/global_equations_and_constructions.md#p-005-a-smooth-carrier-obstruction), [formal-normal resultant](../normal-geometry/formal-normal-intersection.md#p-006), [normal-order bound](../normal-geometry/formal-normal-intersection.md#low-degree-surfaces-singular-along-the-whole-quartic), and [fixed-carrier descent](fixed_carrier_descent_and_cartier_models.md#canonical-compression-on-a-minimum-actual-carrier). The results below are necessary structural reductions, not a general quintic-carrier exclusion.
@@ -356,6 +357,7 @@ The \(A_4\) anticanonical projection and its distinguished nonambient quartic se
 
 ---
 
+<a id="2-quintic-endpoint-factor-independent-audit"></a>
 ## Endpoint quintic quadric-factor and contact reduction
 
 This calculation concerns the **displayed endpoint projection** of the \(A_4\) anticanonical model, not every quintic projection center. The [intrinsic pair classification](del_pezzo_five_a4.md#1-dp5-a4-intrinsic-pair-classification) treats endpoint and nonendpoint centers separately; the [explicit model](del_pezzo_five_a4.md#2-dp5-a4-explicit-model-independent-audit) supplies the coordinates. The factor and contact conclusions are necessary, not an exclusion of all quintic mates.
@@ -603,6 +605,7 @@ Since a!=0, U has degree three, so at most three finite points can carry the exc
 
 The divisibility used in the exact local length argument comes from the actual morphism c→C0, not from equality of reduced support. For example, t=z² and phi=z in k[[z]] have identical zero support, but phi is not divisible by t. This control explains why the scheme-theoretic ideal containment is an essential step.
 
+<a id="8-exact-evidence-and-remaining-boundary"></a>
 ## 8. Exact certificate and remaining boundary
 
 The [sparse-polynomial certificate](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-11-quintic-endpoint-factor-audit/verify_polynomials.py) verifies seven identities: \(q=hK\), both first-normal coefficients, \(W=K|_c=V-rU\), and the cubic residual factor and normalized numerator. The independent contact argument establishes the length exact sequences and projective scaling. These calculations do **not** prove an STCI exclusion.
