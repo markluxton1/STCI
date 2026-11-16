@@ -62,7 +62,8 @@ valid in every odd characteristic, even when \(p\le m\).
 It satisfies \(T^4=z\) and reduces to \(x\) on \(C\), so formal
 étaleness identifies it with the canonical section. Locally at zero,
 \(\mathcal R\) has basis \(1,t,t^2,t^3\) over \(\mathcal O_B\).
-For \(j=1,2,3\),
+For \(j=1,2,3\), the identities below are taken in the
+nilpotent algebra, not in an ordinary function-field extension:
 \[
  z^{m-1}T^j=
  \sum_{h=0}^{m-1}\binom{m-1+j/4}{h}
