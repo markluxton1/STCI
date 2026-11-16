@@ -145,6 +145,29 @@ already establishes partial-absorption controls. Further Chow or
 VGIT machinery should strengthen these existing tests rather than
 duplicate them.
 
+## Clean-cancellation boundary
+
+The [clean-cancellation theorem](../../arguments/torus_hilbert_boundary.md#clean-cancellation-and-residual-descent)
+gives a sharper necessary condition than merely requiring common
+extreme factors. For a hypothetical characteristic-zero supported
+pair, in **each** torus direction write the extreme forms as
+\(Hu,Hv\) with \(\gcd(u,v)=1\), and let \(D_0\) be the first
+nonzero normalized cancellation coefficient. Then
+\(\gcd(H,D_0)\ne1\): otherwise the full initial ideal is the
+three-generator ACM ideal \((Hu,Hv,D_0)\), and its cycle
+decomposition forces an excluded eigenform STCI for \(C\).
+This restricts the **first correction**, not just the extreme
+forms. Further shared factors and higher cancellations remain
+unclassified; the statement is not an all-degree exclusion.
+
+The extra initial generators can be measured by
+\(H^0_{(t)}(S[t]/(F_t,G_t))/t\), the vertical torsion of the
+chosen equation presentation. It is different from the
+intrinsic \(I_C\)-adic comparison defect in
+[R-0030](../../results/local_filtration_comparison_defect.md).
+Keep these two filtrations separate when connecting torus
+limits to normal Rees data.
+
 ## Coverage boundaries
 
 Failure of eigenform equations does not exclude other moving equations or
