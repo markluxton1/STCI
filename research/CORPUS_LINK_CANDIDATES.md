@@ -129,3 +129,20 @@ These 12 files were fetched in full at this branch; byte counts are UTF-8 text s
 | [arguments/local-cohomology/local_cohomology_conormal_geometry.md](arguments/local-cohomology/local_cohomology_conormal_geometry.md) | 22740 | 577 |
 | [arguments/local-cohomology/polynomial_duals_and_affine_pencils.md](arguments/local-cohomology/polynomial_duals_and_affine_pencils.md) | 15695 | 380 |
 | [arguments/normal-geometry/formal-normal-intersection.md](arguments/normal-geometry/formal-normal-intersection.md) | 66915 | 750 |
+
+## Third verified candidate sample
+
+| File | Characters | Lines / status |
+| --- | ---: | --- |
+| [arguments/residuals/blowup_residual_geometry.md](arguments/residuals/blowup_residual_geometry.md) | 33645 | 827 |
+| [arguments/residuals/finite_normal_jets.md](arguments/residuals/finite_normal_jets.md) | 12340 | 205 |
+| [arguments/residuals/marked_deformation_and_absorption.md](arguments/residuals/marked_deformation_and_absorption.md) | 63736 | 1326 |
+| [arguments/residuals/quadric_modification_and_global_corrections.md](arguments/residuals/quadric_modification_and_global_corrections.md) | 12945 | 327 |
+| [arguments/spectral/actual_octic_root_lift_comparison.md](arguments/spectral/actual_octic_root_lift_comparison.md) | 38410 | 852 |
+| [arguments/spectral/order_three_roots_and_sextic_lifts.md](arguments/spectral/order_three_roots_and_sextic_lifts.md) | 21768 | 471 |
+| [arguments/spectral/rank_strata_and_sextic_lifts.md](arguments/spectral/rank_strata_and_sextic_lifts.md) | 29620 | 335 |
+| [arguments/spectral/spectral_determinant_schemes.md](arguments/spectral/spectral_determinant_schemes.md) | 10667 | 201 |
+| [arguments/spectral/spectral_pushforward_boundary.md](arguments/spectral/spectral_pushforward_boundary.md) | 47268 | 1033 |
+| [arguments/torus/tropical_thickenings_and_endpoint_duality.md](arguments/torus/tropical_thickenings_and_endpoint_duality.md) | 25103 | 498 |
+| [frameworks/carrier-normalization/carrier_descent.md](frameworks/carrier-normalization/carrier_descent.md) | 21416 | 203 |
+| [frameworks/carrier-normalization/cartier_indices_and_sextic_applications.md](frameworks/carrier-normalization/cartier_indices_and_sextic_applications.md) | 7261 | 51 |
