@@ -49,9 +49,10 @@ the decomposition is exactly
 w=z-A/2,       delta=A^2/4+R1,       m=q2+A ell/2
 ```
 
-on the entire `Gamma`, including its nilpotents. The complete conductor
+on the entire `Gamma`, including its nilpotents. Under the split quadratic conductor model, the complete conductor
 square identifies descent of `Q^n` to the quartic surface with invariance
-of `q^n` under the involution. This note addresses that algebraic
+of `q^n` under the involution. This uses the full conductor-square
+identification, not merely invariance on reduced support. This note addresses that algebraic
 invariance; the conductor-square identification is proved in the separate
 entire-conductor note.
 
