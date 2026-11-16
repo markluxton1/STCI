@@ -8,7 +8,7 @@ Consequently the residual ruling lines are `w^4=1`; along each such line `c_2=-w
 \[
 4t^{10}q^2-4t^{11}qu+(t^{12}-1)u^2,
 \]
-whose discriminant is `16t^{10}`. This is a split normal node over the function field, in contrast to the nonsplit control in the global-equations chapter. The derivative of the quadric restriction at `w=1` equals `4(1-t^3)^2`, proving generic smoothness of that residual line away from its contact points. These are exact restrictions and attachment identities, not a classification of all sextic carriers or an STCI construction.
+whose discriminant is `16t^{10}`. This is a split normal node over the function field, in contrast to the nonsplit control in the global-equations chapter. The derivative of the quadric restriction at `w=1` equals `4(1-t^3)^2`, proving generic smoothness of that residual line away from its contact points. These are exact restrictions and attachment identities, not a classification of all sextic carriers or an STCI construction. The two archived certificates below concern distinct quartic and split-root families; neither is evidence of a global mate for the mixed-weight sextic.
 
 
 ### Archived exact certificate: `research/computations/ci_cycle_line_degeneration_2026_10_25.py`
