@@ -112,3 +112,20 @@ These 12 files were fetched in full at this branch; byte counts are UTF-8 text s
 | [arguments/carriers/quintic_non_gorenstein_toric_sources.md](arguments/carriers/quintic_non_gorenstein_toric_sources.md) | 16849 | 346 |
 | [arguments/carriers/quintic_octic_ade_cover_and_triple.md](arguments/carriers/quintic_octic_ade_cover_and_triple.md) | 20028 | 377 |
 | [arguments/curve/fixed_quartic_geometry.md](arguments/curve/fixed_quartic_geometry.md) | 11542 | 82 |
+
+## Second verified candidate sample
+
+| File | Characters | Lines / status |
+| --- | ---: | --- |
+| [arguments/curve/special_plane_and_line_sections.md](arguments/curve/special_plane_and_line_sections.md) | 30464 | 789 |
+| [arguments/equations/bounded_equation_certificates.md](arguments/equations/bounded_equation_certificates.md) | 14117 | 227 |
+| [arguments/equations/chow_bundle_maps.md](arguments/equations/chow_bundle_maps.md) | 10672 | 252 |
+| [arguments/equations/complement_section_obstructions.md](arguments/equations/complement_section_obstructions.md) | 14443 | 297 |
+| [arguments/equations/global_equation_jets.md](arguments/equations/global_equation_jets.md) | 65885 | 1416 |
+| [arguments/equations/global_equations_and_constructions.md](arguments/equations/global_equations_and_constructions.md) | 73171 | 1118 |
+| [arguments/linkage/projected_thickening_section_defects.md](arguments/linkage/projected_thickening_section_defects.md) | 15850 | 300 |
+| [arguments/local-cohomology/direction_and_apolarity.md](arguments/local-cohomology/direction_and_apolarity.md) | 45829 | 1337 |
+| [arguments/local-cohomology/local_cohomology_ancestor_obstructions.md](arguments/local-cohomology/local_cohomology_ancestor_obstructions.md) | 15272 | 430 |
+| [arguments/local-cohomology/local_cohomology_conormal_geometry.md](arguments/local-cohomology/local_cohomology_conormal_geometry.md) | 22740 | 577 |
+| [arguments/local-cohomology/polynomial_duals_and_affine_pencils.md](arguments/local-cohomology/polynomial_duals_and_affine_pencils.md) | 15695 | 380 |
+| [arguments/normal-geometry/formal-normal-intersection.md](arguments/normal-geometry/formal-normal-intersection.md) | 66915 | 750 |
