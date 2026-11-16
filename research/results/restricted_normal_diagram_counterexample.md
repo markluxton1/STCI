@@ -209,24 +209,4 @@ intersection directly in degree zero.
 
 ## Review
 
-The Phase 5 nonauthor reviewer accepted the local binomial proof after
-checking the integral presentations, the unit factors and localization,
-the normal filtration of the eight-element bases, the maps for all seven
-strict triples and the square-zero distinction. The review checked
-recovery of the embedded ideal from the original degree-zero map.
-All seven finite arithmetic checks passed on replay.
-
-The [October 23 completeness review](../arguments/normal-geometry/ideal_filtrations_quartic_exclusion.md#completeness-counterexample)
-checked the two local integral-hypersurface presentations, the common
-normal graded algebra, all nine restricted graded objects, the intrinsic
-nonisomorphism, and the distinction from the full diagram retaining
-the original bases and ambient maps. The
-[review assignments](../arguments/normal-geometry/ideal_filtrations_quartic_exclusion.md#review-assignments-and-findings)
-also record separate checks of the general embedding bases and higher
-graded maps in the source investigation.
-
-The [exact arithmetic script](../computations/verify_ideal_filtration_completeness_2026_10_23.py)
-checks the unit identities, eight-dimensional transverse models over
-\(\mathbb Q\), normal Hilbert functions, and square coefficients. The
-proof above supplies integrality, the coefficient-ring and localization
-arguments, and the comparison of the full restricted diagrams.
+The proof above gives the binomial-domain presentations, the common eight-element transverse bases, all nine restricted graded algebras and the seven strict-triple maps. The square-zero distinction uses characteristic zero. The original ambient degree-zero quotient map recovers the embedded ideal, so the counterexample applies only after restriction to the reduced curve.
