@@ -59,7 +59,7 @@ The technical developments are preserved in the focused documents linked under t
 
 ## 9. Genus-two bisection: global ribbon contradiction and distinct conductor algebra
 
-[Complete development](quartic_carrier_genus_two_conductor.md#9-genus-two-bisection-global-ribbon-contradiction-and-distinct-conductor-algebra)
+[Complete development](quartic_carrier_genus_two_conductor.md#1-genus-two-bisection-global-ribbon-contradiction-and-distinct-conductor-algebra)
 
 ## 10. Genus-zero normalization: classification and singular-cone mechanism
 
@@ -75,23 +75,23 @@ The technical developments are preserved in the focused documents linked under t
 
 ## 13. Entire genus-two conductor and ambient conic model
 
-[Complete development](quartic_carrier_genus_two_conductor.md#13-entire-genus-two-conductor-and-ambient-conic-model)
+[Complete development](quartic_carrier_genus_two_conductor.md#2-entire-genus-two-conductor-and-ambient-conic-model)
 
 ## 14. Exact conductor coordinates and fixed-curve fiber condition
 
-[Complete development](quartic_carrier_genus_two_conductor.md#14-exact-conductor-coordinates-and-fixed-curve-fiber-condition)
+[Complete development](quartic_carrier_genus_two_conductor.md#2-entire-genus-two-conductor-and-ambient-conic-model)
 
 ## 15. Genus-two conductor-line positions on the fixed quartic
 
-[Complete development](quartic_carrier_genus_two_conductor.md#15-genus-two-conductor-line-positions-on-the-fixed-quartic)
+[Complete development](quartic_carrier_genus_two_conductor.md#3-genus-two-conductor-line-positions-on-the-fixed-quartic)
 
 ## 16. Bisection fiber counts: integral descent and the three-center obstruction
 
-[Complete development](quartic_carrier_genus_two_conductor.md#16-bisection-fiber-counts-integral-descent-and-the-three-center-obstruction)
+[Complete development](quartic_carrier_genus_two_conductor.md#4-bisection-fiber-counts-integral-descent-and-the-three-center-obstruction)
 
 ### Bisection with an even fiber count
 
-[Continue in focused development](quartic_carrier_genus_two_conductor.md#bisection-with-an-even-fiber-count)
+[Continue in focused development](quartic_carrier_genus_two_conductor.md#4-bisection-fiber-counts-integral-descent-and-the-three-center-obstruction)
 
 ## 17. Trisecant carrier ideal and discriminant boundary
 
@@ -103,11 +103,11 @@ The technical developments are preserved in the focused documents linked under t
 
 ## 19. Genus-two marked section case
 
-[Complete development](quartic_carrier_genus_two_conductor.md#19-genus-two-marked-section-case)
+[Complete development](quartic_carrier_genus_two_conductor.md#5-genus-two-marked-section-case)
 
 ### Free-chain proof when the marked prime is absent
 
-[Continue in focused development](quartic_carrier_genus_two_conductor.md#free-chain-proof-when-the-marked-prime-is-absent)
+[Continue in focused development](quartic_carrier_genus_two_conductor.md#free-chain-exclusion-when-the-marked-prime-is-absent)
 
 ### Marked constraints and the case with the horizontal prime
 
