@@ -52,7 +52,3 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - The formula is conditional on full generic binary CI and actual lci with unique support; it is not a general STCI obstruction.
 - Nonsaturated roots may pay an effective degeneration divisor, rather than being excluded.
 - Local gap-three counterexamples do not establish global homogeneous examples.
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.
