@@ -1,8 +1,4 @@
-# Normal carrier indices, symbolic torsion, and actual layers
-
-Proofs and qualifications are retained here, with cross-references where the full filtered compatibility audit supplies the same argument.
-
-# Normal carriers: class-group torsion, symbolic triples and local indices
+# Normal carriers: class-group torsion, symbolic triples, and local indices
 
 ## Integration guide: class-group torsion, index bounds, and the mate problem
 
@@ -23,8 +19,6 @@ replaced by the neighboring normal-index budget.
 A normal carrier's symbolic divisor data is **not** by itself a construction of a set-theoretic complete intersection. The local index, actual homogeneous lifting, and residual-support questions remain distinct.
 
 ---
-
-Permanent mathematical dossier. Complete source arguments are preserved with their precise hypotheses, conditional scope, calculations, failed approaches, and unresolved boundaries.
 
 ---
 
@@ -1429,7 +1423,4 @@ simultaneous support points. They do not claim that any remaining
 system lifts to a global pair or that C0 is non-STCI. The unrestricted
 normal, nonnormal, and entirely thick branches remain open.
 
-### 8. Audit provenance
-
-Independent reconstruction checked socle base change, the normal-domain colon argument, shared free normal generator, symbolic-triple saturation, and the Frobenius/Jacobian index bridge. The primary Jacobian theorem was checked; inherited computations were not rerun. Sections 1–6 supply the proofs.
 
