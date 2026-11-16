@@ -208,7 +208,7 @@ not invert this implication without a separate global relation.
 The global Cartier index of `C0` is exactly `R`: a Weil divisor on
 a normal surface is Cartier if and only if it is Cartier at every
 point, and its local classes are already zero at the regular points
-and away from its support. Hence `R C0` is an actual Cartier divisor.
+and away from its support, where the divisor is locally zero. Hence `R C0` is an actual Cartier divisor.
 Under a hypothetical mate, `C0` is numerically `(4/a)H` and
 
 ```
