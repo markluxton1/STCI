@@ -103,13 +103,4 @@ or arbitrary sextic pairs. The length-six local quotient has residual
 support and contradicts no sole-support curvilinearity theorem. Equal
 quotient lengths or fundamental cycles do not identify endpoint schemes.
 
-## Review
-
-Independent reconstruction by the nonauthor reviewer pilot_review_sextic
-accepted this route on November 4, 2026. The reviewer reconstructed the finite quotient factors and
-characteristic collisions, boundary support, local lengths four and
-twelve, primary contraction, endpoint equations, and noncurvilinear
-quadric-divisor control. The source's distinct examples and qualifications
-are preserved. Acceptance does not classify all finite algebras or
-invariant ideals.
-
+These controls do not classify all finite algebras or invariant ideals.
