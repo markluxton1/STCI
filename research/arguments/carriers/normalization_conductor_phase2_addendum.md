@@ -18,7 +18,7 @@ The October 20 proposal assumes an actual supported (6,16) pair, full generic co
 
 The October 21 conductor-budget proposal originally depended on an anticanonical contraction hypothesis. The independent continuation audit subsequently VERIFIED that hypothesis in the precise actual-pair setting: a cubic-image model V is a smooth integral threefold with canonical bundle O(-2), and the strict sextic descends to an integral anticanonical surface T. Finite duality and the local monic double-cover normalization then exclude singular-curve contacts at ramified simple base zeros. Combined with the separate nodal analysis, the reviewed result gives a sharp NECESSARY alternative for any actual pair: the multiplier alpha has a multiple base zero, or alpha vanishes at a node of the full root. For a smooth full root the necessary discriminant equation is Disc_8(Ncomp(tau))=0, of degree 28 in the root coefficients. These exceptional strata have not been eliminated; no complete exclusion follows. A different proposed nodal normalization obtained by dividing by a nonunit was rejected as nonfinite. Its suggested integral replacement is not yet certified normal or equipped with an exact conductor.
 
-Sources: [current proof](../spectral/singular_root_actual_pair_bridge.md) and [current proof](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-conductor-ramification). Conditional cross-family work.
+Sources: [current proof](../spectral/singular_root_actual_pair_bridge.md) and [current proof](../spectral/conditional_2_12_singular_and_conductor.md#2026-10-21-conditional-2-12-conductor-ramification). Conditional cross-family work.
 
 ## Seven-cubic contraction and five-quadric anticanonical model
 
@@ -38,7 +38,7 @@ The homogeneous ring has free resolution of ranks \((1,5,5,1)\), shifts \((0,2,3
 
 Every sextic in \(H^0(I_{C_0}^2(6))\) is a quadratic expression in these seven cubics and descends to \(T\in|\mathcal O_V(2)|\), with \(\omega_T=\mathcal O_T\). **For an actual supported pair** the low-degree carrier exclusion forces the sextic, its strict transform, and \(T\) to be integral, and the quadric cannot be a component. Finite duality for the normalization \(Y\to T\) identifies \(\omega_Y\) with its full conductor ideal, and the resulting conductor curve \(\Delta\) satisfies \(\omega_\Delta=\mathcal O_\Delta\), even if the conductor is nonreduced or \(Y\) is not Gorenstein. A generically reduced irreducible conductor component of multiplicity one must have arithmetic genus at most one. This global restriction drives the reviewed exclusion of ramified contacts over **simple** zeros of the multiplier \(\alpha\). It does not exclude repeated zeros or nodal root contacts where \(\alpha\) vanishes.
 
-The exact cubic model, graph identification, conductor duality, and simple-zero exclusion received an independent **PASS under the conditional actual-pair hypotheses**. A different nodal example's purported finite normalization by dividing by a nonunit was explicitly **rejected** and is not used. No unconditional \((6,16)\) or STCI exclusion follows. [Cubic image and conductor construction](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface); [independent review and rejected nodal claim](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-surface-audit-cont2).
+The exact cubic model, graph identification, conductor duality, and simple-zero exclusion received an independent **PASS under the conditional actual-pair hypotheses**. A different nodal example's purported finite normalization by dividing by a nonunit was explicitly **rejected** and is not used. No unconditional \((6,16)\) or STCI exclusion follows. [Cubic image and conductor construction](../spectral/conditional_2_12_singular_and_conductor.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface); [independent review and rejected nodal claim](../spectral/conditional_2_12_continuation_and_sextic_exclusions.md#2026-10-21-conditional-2-12-surface-audit-cont2).
 
 ## Exact global sextic-symbol restriction in the conditional (6,16) lane
 
@@ -53,7 +53,7 @@ checks this whole affine line.
 
 The [structured incidence](../spectral/rank_strata_and_sextic_lifts.md#6-the-exact-remaining-scheme)
 also imposes both ambient obstruction tests and full spectral torsion,
-including nodal gluing. The [independent audit](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#2026-10-20-conditional-2-12-incidence-audit)
+including nodal gluing. The [independent audit](../spectral/conditional_2_12_surface_and_symbol_geometry.md#2026-10-20-conditional-2-12-incidence-audit)
 reviews the exact symbol map and conditional necessity. Realization by a
 proper supported pair still requires the
 [global equation certificate](../spectral/rank_strata_and_sextic_lifts.md#8-what-a-realization-would-have-to-certify).
@@ -110,7 +110,7 @@ The coefficient equations become \(h_i+\eta\tau_i=(a\ell,\ b\ell+am,\ c\ell+bm)_
 
 ## Existing full-lift exclusion on the free cube-orbit chart
 
-The historical [free cube-orbit global sextic calculation](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-cont2-free-orbit-global-sextic-exclusion) already includes the previously omitted \(\eta q^3\) freedom. It concerns a **restricted chart**, not all quadratic roots: the multiplier is the canonical cube norm of the quadric-line restriction, both endpoint coefficients are nonzero, and no two roots lie in the same primitive-cube orbit. The application to actual supported pairs additionally depends on the separate quadric-cycle norm necessity bridge.
+The historical [free cube-orbit global sextic calculation](../spectral/conditional_2_12_continuation_and_sextic_exclusions.md#2026-10-21-cont2-free-orbit-global-sextic-exclusion) already includes the previously omitted \(\eta q^3\) freedom. It concerns a **restricted chart**, not all quadratic roots: the multiplier is the canonical cube norm of the quadric-line restriction, both endpoint coefficients are nonzero, and no two roots lie in the same primitive-cube orbit. The application to actual supported pairs additionally depends on the separate quadric-cycle norm necessity bridge.
 
 After the first ambient equations and the chart normalization, its candidate scheme is
 \[
@@ -135,7 +135,7 @@ The general warning about testing only one lift remains essential. For the saved
 
 ## Two-node root strata: exact exclusions and retained pencils
 
-The historical [forced-norm two-node continuation](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-singular-continuation2) gives more than an unclassified singular-root boundary. Under its stated actual-pair, saturated movement-two, forced-norm and two-node hypotheses, it computes the nonzero cubic-defect locus. The generic component decomposes into a line and a conic. The **entire generic line component** is excluded by exact first-incidence plus spectral-torsion unit calculations for \(w=1\) and the primitive cube-root branches. The nonzero-defect \(B=0\) and \(C=0\) boundaries are also excluded, the latter by the actual involution \(x_0\leftrightarrow x_3,\ x_1\leftrightarrow x_2\). These are scoped coefficient-scheme exclusions, not an unrestricted characteristic-zero theorem.
+The historical [forced-norm two-node continuation](../spectral/conditional_2_12_singular_and_conductor.md#2026-10-21-conditional-2-12-singular-continuation2) gives more than an unclassified singular-root boundary. Under its stated actual-pair, saturated movement-two, forced-norm and two-node hypotheses, it computes the nonzero cubic-defect locus. The generic component decomposes into a line and a conic. The **entire generic line component** is excluded by exact first-incidence plus spectral-torsion unit calculations for \(w=1\) and the primitive cube-root branches. The nonzero-defect \(B=0\) and \(C=0\) boundaries are also excluded, the latter by the actual involution \(x_0\leftrightarrow x_3,\ x_1\leftrightarrow x_2\). These are scoped coefficient-scheme exclusions, not an unrestricted characteristic-zero theorem.
 
 The surviving nonzero-defect locus from that calculation is the generic conic
 \[
@@ -352,11 +352,11 @@ identity does not make that already obstructed seed a survivor.
 
 ### Independent review of the norm argument
 
-The [norm-argument review](https://github.com/markluxton1/STCI/blob/a779730c6645e293cc0a501597bd4e09a50b36d6/research/supplements/CONDITIONAL_2_12_SURFACE_AND_SYMBOL_GEOMETRY.md#6-independent-review-of-the-norm-argument) checked the strict-ideal restriction to \(Q'\), regularity for \(\tau\ne0\), absence of a common ruling component of \(T,R\), \(F_6|_Q=v^2R_4(b)\), and homogeneous formulas at collisions and ramification. The norm condition is necessary, not sufficient for a mate; its unit observation enters the local surface calculation.
+The [norm-argument review](../spectral/conditional_2_12_surface_and_symbol_geometry.md#6-independent-review-of-the-norm-argument) checked the strict-ideal restriction to \(Q'\), regularity for \(\tau\ne0\), absence of a common ruling component of \(T,R\), \(F_6|_Q=v^2R_4(b)\), and homogeneous formulas at collisions and ramification. The norm condition is necessary, not sufficient for a mate; its unit observation enters the local surface calculation.
 
 ## Local surface singularities and the remaining scope
 
-The strict sextic has class \(D=6H-2E\). A smooth member has \(c_2=28\), \(K^2=-4\), and \(\chi(\mathcal O_D)=2\). At a **simple** zero of the root multiplier \(\alpha|_Z\), the actual-generator change forces a unit coefficient in the local equation \(Ap+t^{10}B\); the local germ is \(A_9\). The multiplier divisor on \(Z\) has length sixteen. A multiple-zero model \((t+z^m)p+t^{10}\) has type \(A_{10m-1}\), but this example does not classify all multiple-zero germs. The global vanishing-cycle exclusion needs normality and control of singular-root, nonnormal-surface, and exceptional-fiber boundaries. See the [normal/reduced-divisor argument](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus) and [nonnormal local models](../spectral/rank_strata_and_sextic_lifts.md#nonnormal-conductor-budget-and-local-escape-models).
+The strict sextic has class \(D=6H-2E\). A smooth member has \(c_2=28\), \(K^2=-4\), and \(\chi(\mathcal O_D)=2\). At a **simple** zero of the root multiplier \(\alpha|_Z\), the actual-generator change forces a unit coefficient in the local equation \(Ap+t^{10}B\); the local germ is \(A_9\). The multiplier divisor on \(Z\) has length sixteen. A multiple-zero model \((t+z^m)p+t^{10}\) has type \(A_{10m-1}\), but this example does not classify all multiple-zero germs. The global vanishing-cycle exclusion needs normality and control of singular-root, nonnormal-surface, and exceptional-fiber boundaries. See the [normal/reduced-divisor argument](../spectral/conditional_2_12_continuation_and_sextic_exclusions.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus) and [nonnormal local models](../spectral/rank_strata_and_sextic_lifts.md#nonnormal-conductor-budget-and-local-escape-models).
 
 ## Geometric exceptional locus for actual pairs
 
@@ -364,7 +364,7 @@ The October 21 independently reviewed geometric argument gives a necessary condi
 \[
 \operatorname{Disc}_8(N_{\rm comp}(\tau))\,\operatorname{Res}_{8,4}(N_{\rm comp}(\tau),\Delta)=0,\qquad\Delta=b^2-4ac.
 \]
-The degrees in the original root coefficients are 28 and 24. The earlier degree-64 condition also included `Disc_4(Delta)`; the reviewed nodal extension removes that factor, since singular roots with a reduced multiplier divisor have already been excluded. Every homogeneous infinity root remains included. Whether the exceptional locus contains an actual pair remains open. [Proof and dependencies](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus).
+The degrees in the original root coefficients are 28 and 24. The earlier degree-64 condition also included `Disc_4(Delta)`; the reviewed nodal extension removes that factor, since singular roots with a reduced multiplier divisor have already been excluded. Every homogeneous infinity root remains included. Whether the exceptional locus contains an actual pair remains open. [Proof and dependencies](../spectral/conditional_2_12_continuation_and_sextic_exclusions.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus).
 
 ## Singular curves on the strict sextic: two conditional alternatives
 
@@ -376,7 +376,7 @@ If \(\Sigma\) is not contained in the strict quadric \(Q'\sim2H-E\), effectivity
 
 The intersection of the strict sextic with \(Q'\) has ruling class \((4,0)\). Consequently \(\Sigma\) must be a trisecant ruling line, with \(d=1\), \(e=3\), \(n=1\), meeting the full root at one ordinary node in the quadric direction. Its multiplicity in the sextic-quadric intersection is at least two. The forced norm then requires additional multiplier multiplicities along its ruling orbit. The line is not an endpoint branch fiber.
 
-Accordingly, a remaining actual pair under these hypotheses must exhibit **either** nonnormality at a multiplier-zero root point **or** this precise singular trisecant ruling line. This is a conditional classification, not an exclusion. See the [reviewed source](https://github.com/markluxton1/STCI/blob/20b05fb7ee16f14e4e371c7e0dce7256ba11b480/research/supplements/CONDITIONAL_2_12_CONTINUATION_AND_SEXTIC_EXCLUSIONS.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus), section 7.
+Accordingly, a remaining actual pair under these hypotheses must exhibit **either** nonnormality at a multiplier-zero root point **or** this precise singular trisecant ruling line. This is a conditional classification, not an exclusion. See the [reviewed source](../spectral/conditional_2_12_continuation_and_sextic_exclusions.md#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus), section 7.
 
 ## Explicit torsion-two seed failing the cubic lift
 
