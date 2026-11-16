@@ -8,10 +8,6 @@ The argument here uses the full nilpotence condition. It excludes all
 ramified lifts of the known powered-quartic special pairs when the power
 is prime to the residue characteristic.
 
-**Status, October 31, 2026:** independently reconstructed, reviewed
-proposed theorem. No unrestricted
-characteristic-zero conclusion.
-
 The [Frobenius-power extension](frobenius_power_lifting_precision.md)
 quantifies finite unramified precision and extracts powers divisible by
 \(p\) when the absolute ramification index is below \(p-1\).
