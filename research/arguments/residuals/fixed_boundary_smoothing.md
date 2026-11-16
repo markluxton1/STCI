@@ -162,7 +162,7 @@ On the completed fixed-boundary fiber, the five linear forms \(d\tau_i\) are ind
 k[[\tau_1,\ldots,\tau_5,z_1,\ldots,z_9]].     \tag{9}
 \]
 
-In this formal sense the five residual nodes can be smoothed independently while the boundary divisor is held exactly fixed. This conclusion uses the standard node local form and the formal inverse-function argument in addition to the finite rank computation.
+In this formal sense the five residual nodes can be smoothed independently while the boundary divisor is held exactly fixed. This uses unobstructedness of the smooth fixed-boundary parameter fiber, not merely the existence of five first-order vectors. This conclusion uses the standard node local form and the formal inverse-function argument in addition to the finite rank computation.
 
 The étale node charts also give a local algebraic existence interpretation. After a common étale base change that labels the nodes, the five node parameters are regular functions. The joint map \((\beta,\tau_1,\ldots,\tau_5)\) has surjective differential, so its restriction to the fixed-boundary fiber maps smoothly to \(\mathbf A^5\) near the marked point. A chosen one-parameter pattern \(\tau_i=c_i t\) therefore lifts locally after an étale change of the one-parameter base; a zero \(c_i\) retains that node, and a nonzero \(c_i\) smooths it in the generic fiber. This is an existence statement for local algebraic families, derived from smoothness and the node charts. It does not display their coefficients in the original global quartic chart.
 
