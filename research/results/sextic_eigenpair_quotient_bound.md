@@ -83,4 +83,3 @@ in every characteristic, and sharp attainment. The sharp-example premise
 R-0047 is explicitly declared following review. Acceptance concerns proper
 eigenpairs only, without extending to arbitrary mixed-weight pairs.
 
-Independent reconstruction review accepts this route within its stated scope.
