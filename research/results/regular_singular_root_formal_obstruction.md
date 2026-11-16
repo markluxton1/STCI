@@ -45,7 +45,3 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Regularity of the entire formal lifted surface is essential, not automatic from Cartier lifting.
 - No exclusion of singular formal surfaces, finite lifts, or arbitrary actual STCI equations is obtained.
 - The suggested degree-e generalization is not included in this result.
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.
