@@ -16,8 +16,8 @@ singularity quartic theorem concerns smooth curves on such carriers;
 positive-genus ruled carriers cannot contain **any** rational degree-four
 curve; the denominator theorem applies conditionally on a whole rational
 resolution. Their proofs and limits are retained in
-[NORMAL_PRIMITIVE_CARRIERS_AND_BOUNDS](../arguments/carriers/normal_carrier_compression.md#normal-singularities-primitive-cubic-carriers-and-ancestor-charts)
-and [normal compression and jets](../arguments/carriers/normal_carrier_compression.md#primitive-quartic-structures-extension-contact-and-factorization).
+[NORMAL_PRIMITIVE_CARRIERS_AND_BOUNDS](../arguments/carriers/normal_carrier_compression.md#exact-sources-and-scope)
+and [normal compression and jets](../arguments/carriers/normal_carrier_compression.md#related-distinct-developments).
 Those broader preliminary statements do not generalize the final fixed-
 \(C_0\) exclusion to every rational quartic embedding.
 
@@ -28,7 +28,7 @@ and the [historical note at commit 2e29ee4](https://github.com/markluxton1/STCI/
 For reuse on other carriers, see the hypotheses of [global denominator compression](../arguments/carriers/normal_carrier_compression.md#1-global-denominator-compression)
 and the [index-two counterexample to a bound on numerical correction](../arguments/carriers/numerical_surface_pullback.md#cartier-index-does-not-bound-the-numerical-correction).
 
-The [weighted simple-elliptic proof](../arguments/carriers/normal_carrier_compression.md#4-a-smooth-elliptic-exceptional-curve)
+The [normal-quartic proof's exceptional-correction analysis](../arguments/carriers/quartic_carrier_proof.md#3-normal-quartics-exceptional-correction-and-actual-ideal-vanishing)
 covers the smooth elliptic exceptional curve separately. The [Type D Green-function argument](../arguments/normal-geometry/saturation_rees_and_carrier_cases.md#q-two-arm-coefficient-one-tails-exact-comparison)
 requires the terminal effective diagonal bound \(d_{\mathrm{eff}}\ge3\)
 in its two-arm reduction (D25). The full normal proof
