@@ -15,7 +15,7 @@ The technical developments are preserved in the focused documents linked under t
 
 ### Entire genus-one conductor: proof by graded modules
 
-[Continue in focused development](quartic_carrier_six_lanes_and_genus_one.md#entire-genus-one-conductor-proof-by-graded-modules)
+[Continue in focused development](quartic_carrier_six_lanes_and_genus_one.md#entire-genus-one-conductor)
 
 ### Ribbon-net completeness and repeated-root certificates
 
@@ -47,11 +47,11 @@ The technical developments are preserved in the focused documents linked under t
 
 ## 6. Source evidence and editorial disposition
 
-[Complete development](quartic_carrier_trisecant_and_proof_routes.md#6-source-evidence-and-editorial-disposition)
+[Complete development](quartic_carrier_trisecant_and_proof_routes.md#6-complete-proofs)
 
 ## 7. Evidence and retention
 
-[Complete development](quartic_carrier_trisecant_and_proof_routes.md#7-evidence-and-retention)
+[Complete development](quartic_carrier_trisecant_and_proof_routes.md#6-complete-proofs)
 
 ## 8. Veronese projection classification
 
