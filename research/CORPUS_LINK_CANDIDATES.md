@@ -163,3 +163,20 @@ These 12 files were fetched in full at this branch; byte counts are UTF-8 text s
 | [frameworks/carrier-normalization/quartic_carrier_trisecant_and_proof_routes.md](frameworks/carrier-normalization/quartic_carrier_trisecant_and_proof_routes.md) | 6136 | 65 |
 | [frameworks/carrier-normalization/quartic_carrier_trisecant_discriminant.md](frameworks/carrier-normalization/quartic_carrier_trisecant_discriminant.md) | 3587 | 42 |
 | [frameworks/carrier-normalization/quartic_carrier_veronese_and_genus_zero.md](frameworks/carrier-normalization/quartic_carrier_veronese_and_genus_zero.md) | 2632 | 16 |
+
+## Fifth verified candidate sample
+
+| File | Characters | Lines / status |
+| --- | ---: | --- |
+| [frameworks/carrier-normalization/quartic_proof_interfaces.md](frameworks/carrier-normalization/quartic_proof_interfaces.md) | 5578 | 116 |
+| [frameworks/carrier-normalization/quintic_carriers_and_a4_contact.md](frameworks/carrier-normalization/quintic_carriers_and_a4_contact.md) | 12889 | 77 |
+| [frameworks/embedded-torus-quotients/contact_and_global_descent.md](frameworks/embedded-torus-quotients/contact_and_global_descent.md) | 12574 | 191 |
+| [frameworks/formal-normal-geometry/actual_equation_module_and_ci_bridge.md](frameworks/formal-normal-geometry/actual_equation_module_and_ci_bridge.md) | 4477 | 30 |
+| [frameworks/formal-normal-geometry/characteristic_two_and_sextic_lifts.md](frameworks/formal-normal-geometry/characteristic_two_and_sextic_lifts.md) | 6412 | 43 |
+| [frameworks/formal-normal-geometry/embedded_one_step_lifts_and_arithmetic_boundaries.md](frameworks/formal-normal-geometry/embedded_one_step_lifts_and_arithmetic_boundaries.md) | 10996 | 66 |
+| [frameworks/formal-normal-geometry/filtered_equation_module_and_sextic_obstruction.md](frameworks/formal-normal-geometry/filtered_equation_module_and_sextic_obstruction.md) | 3892 | 34 |
+| [frameworks/formal-normal-geometry/filtration_computational_sources.md](frameworks/formal-normal-geometry/filtration_computational_sources.md) | 4771 | 55 |
+| [frameworks/formal-normal-geometry/from_symbols_to_equations.md](frameworks/formal-normal-geometry/from_symbols_to_equations.md) | 7051 | 129 |
+| [frameworks/formal-normal-geometry/generic_normal_forms_and_relation_saturation.md](frameworks/formal-normal-geometry/generic_normal_forms_and_relation_saturation.md) | 7047 | 101 |
+| [frameworks/formal-normal-geometry/mixed_degree_fitting_and_realization.md](frameworks/formal-normal-geometry/mixed_degree_fitting_and_realization.md) | 6315 | 42 |
+| [frameworks/formal-normal-geometry/normal_filtration_boundaries.md](frameworks/formal-normal-geometry/normal_filtration_boundaries.md) | 6192 | 140 |
