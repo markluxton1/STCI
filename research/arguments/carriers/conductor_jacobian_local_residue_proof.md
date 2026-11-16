@@ -158,7 +158,7 @@ Cartier lift are explicit hypotheses and inputs.
 The proposition does not treat a singular normalization along the lift,
 a non-Cartier lift, several inverse branches, an inverse curve of higher
 degree over `C`, or a carrier singular at the generic point of `C`.
-It supplies no automatic bound on split residual phase orders.
+It supplies no automatic bound on split residual phase orders; the local residue identity controls conductor contact, not the unit-group descent order of a potential mate.
 
 
 
