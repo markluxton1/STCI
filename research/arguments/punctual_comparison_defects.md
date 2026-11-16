@@ -481,8 +481,7 @@ with \((X,Y)\). The quotient by the image of \(H\) has basis
 
 ## Finite replays and their coverage
 
-All three replays completed successfully for the October 24 source batch.
-Run them from the repository root with Python 3 and Macaulay2.
+The three exact checks cover the stated finite samples; the proofs establish the all-parameter assertions. From the repository root:
 
 ```sh
 python3 -B research/computations/verify_delta_singular_identities_2026_10_24.py
