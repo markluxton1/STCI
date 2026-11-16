@@ -510,5 +510,4 @@ covers, trace/involution when two is invertible, and cancellation after
 differentiating a mate power of degree nonzero in the field. Characteristic
 p dividing that degree invalidates the cancellation, and Frobenius can
 remove nilpotent phase obstructions. Thus no all-positive-characteristic
-scroll or fixed-C0 exclusion is claimed. These exact characteristic-zero
-case arguments reuse their independent reviews, independently confirmed for this consolidated replacement.
+scroll or fixed-C0 exclusion is claimed.
