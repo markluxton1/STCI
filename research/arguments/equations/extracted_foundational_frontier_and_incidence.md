@@ -67,7 +67,7 @@ coregularity criteria:
 A search on 2026-10-05 found no subsequent unrestricted resolution. This is
 a dated search conclusion, not a proof of absence of unindexed work.
 
-#### Mandal--Zinna: version and affine scope checked again
+#### Mandal--Zinna: affine scope and version distinction
 
 <https://arxiv.org/abs/2511.07589> still lists only v1, submitted 2025-11-10,
 and no journal reference. Its abstract asserts a broad theorem for lci
