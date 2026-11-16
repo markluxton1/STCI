@@ -648,28 +648,9 @@ hypersurface degrees. No proof of the vanishing or nonvanishing of
 that moving-relation class is claimed here; (21)--(22) already charge
 its movement to the exact global budget.
 
-## 9. Provenance and continuation record
+## 9. Dependencies and unresolved moving-relation boundary
 
-- Accepted input: `2026-10-13-evening-entirely-thick-rees-progress.md`,
-  Sections 2--7, for the full budget and constant equality algebra.
-- Previously verified input: P-010 and
-  `2026-10-06-localcoh-constant-direction-apolar.md`, for nonzero
-  defect-free primitive-triple obstruction in every constant direction.
-- New independent filtered-module derivation:
-  `2026-10-13-generalization-thick-generator-filtration-audit.md`.
-- New quadratic transition/factor extraction derivation:
-  `2026-10-13-generalization-thick-equality-geometry.md`.
-- New first-relation/pole-budget extension: Section 6 here, with an
-  additional independent sheaf-scaling check requested from the
-  filtered-generator agent.
-- New saturation/gap-cost theorem: Section 7 here, with an additional
-  independent bundle-image check requested from the same agent.
-- New exact moving-relation operator: Section 8 and
-  [the exact Python operator](../../computations/generalization_moving_first_relation_operator.py).
-  Its standard-library replay reproduced the [historical JSON](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/generalization_moving_first_relation_operator.json)
-  on stdout. No uniform moving-relation exclusion is claimed.
-- Independent review requested from the agent auditing the socle
-  theorem; the independent review of (10) remains pending.
+The equality argument assumes the complete socle budget and constant graded algebra, together with the nonzero P-010 quadratic obstruction in constant directions. The filtered generator-bundle theorem, quadratic transition/factor extraction, and first-relation defect bound are proved separately below. The [exact moving-relation operator](../../computations/generalization_moving_first_relation_operator.py) implements the stated next-order calculation; it does **not** establish a uniform moving-relation exclusion. In particular, two displayed symbols cannot substitute for the full initial ideal when invoking [R-0033](../../results/constant_first_relation_lifting.md).
 
 ---
 
