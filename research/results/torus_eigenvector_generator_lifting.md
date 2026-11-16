@@ -68,16 +68,4 @@ without a separate theorem concerning actual eigenform equations.
 The torus is split; no assertion about diagonalizing a nonsplit torus
 over its ground field is made.
 
-## Review
-
-Independent reconstruction review accepted the rational split-torus
-character decomposition, equivariant weight lifts, and ordinary-degree
-induction proving generation and minimality in every characteristic.
-The reviewer reconstructed the proof, compared the declared source,
-and found no blocking mathematical correction or lost contribution.
-No mathematical computation was needed. This acceptance concerns an
-already invariant ideal, not invariant support or the behavior of a
-moving ideal's limit. The reconstruction review accepts this proof within its stated scope.
-
-Separately, the source review of the characteristic extensions is distinct from the reconstruction decision above. The composite trace corollary STCI-R-0040 has a separate
-reconstruction decision recorded in its own Result.
+The lifting theorem concerns an already invariant ideal, not invariant support or limits of moving ideals.
