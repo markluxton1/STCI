@@ -25,7 +25,6 @@ A normal carrier's symbolic divisor data is **not** by itself a construction of 
 <a id="2026-10-14-generalization-normal-carrier-torsion"></a>
 ## Normal carriers: global torsion is exactly the local index obstruction
 
-Date: 2026-10-14. Author: `conductor_general`.
 Status: **NEW PROVED STRUCTURAL RESULTS AND CONDITIONAL ALL-DEGREE
 EXCLUSIONS; independent new-proof audits recorded below.**
 
@@ -486,7 +485,6 @@ The unresolved target is whether the specific class \`Delta_0\` can have the req
 <a id="2026-10-14-generalization-normal-carrier-symbolic-triple-certificate"></a>
 ## A symbolic-triple defect certificate for unrestricted normal carriers
 
-Date: 2026-10-14. Author: `socle_audit`.
 Status: **PROVED NEW NECESSARY CARRIER-WIDE CERTIFICATE AND STRONGER
 POINTWISE-INDEX/DEGREE BOUND.** The all-index-at-most-four exclusion and
 the exact local power-socle formula are accepted inputs; they are not
@@ -758,7 +756,6 @@ The normalized budget (2) concerns normal mate-bearing \(C_0\) carriers. The sym
 <a id="2026-10-14-generalization-symbolic-triple-torsion-comparison-audit"></a>
 ## Symbolic triple torsion comparison: independent structural audit
 
-Date: 2026-10-14. Worker: `socle_audit/higher_moments`.
 Status: **PROVED NEW COMPARISON AND ARITHMETIC CONSEQUENCE, CONDITIONAL
 ONLY ON THE EXPLICIT ACCEPTED INPUTS BELOW.**
 
@@ -918,7 +915,6 @@ carriers, nonnormal carriers, or all STCI presentations of C0.
 <a id="2026-10-14-generalization-curvilinear-torsion-and-index12"></a>
 ## Curvilinear ordinary normal layers and local index compatibility
 
-Date: 2026-10-14. Root continuation from the `socle_audit` worker's
 index-twelve program. This precursor's new proofs are now independently
 accepted in the [full filtered compatibility audit](#2026-10-14-generalization-index12-filtered-compatibility).
 The [current theorem and scope record](normal_index_socle_and_torsion.md#2026-10-14-generalization-normal-index-socle-theorem)
@@ -1054,7 +1050,6 @@ pointwise Frobenius-lattice argument before relying on the conclusion.
 <a id="2026-10-14-generalization-index12-filtered-compatibility"></a>
 ## Full filtered compatibility with local Cartier indices
 
-Date: 2026-10-14. Author: `socle_audit`, including an independent
 reconstruction of the root's new Jacobian/index argument.
 Status: **PROVED NEW STRUCTURAL THEOREMS AND ALL-DEGREE EXCLUSION FOR
 NORMAL C0 CARRIERS WITH ACTUAL ON-CURVE LOCAL INDICES AT MOST FOUR.**
