@@ -226,10 +226,13 @@ component is the strict transform of the actual residual D:
 \]
 
 The primary component along e has ideal (u,z^{m-1}). The displayed
-residual gives the same cycle decomposition. The scheme-theoretic union
-claim requires care: the two factors of the eliminated equation have no
-common irreducible factor, but are not comaximal at their attachment
-point, so relative primality alone does not prove equality of ideals. Thus the cycle
+residual gives the same cycle decomposition. In fact the scheme union is
+exactly W: modulo (u+z^{m-1}), the two ideals become (z^{m-1}) and
+(t+z^{r-m}) in the regular ring k[[t,z]], and
+(z^{m-1})\cap(t+z^{r-m})=z^{m-1}(t+z^{r-m}), since the latter
+factor is a nonzerodivisor modulo (z^{m-1}). Relative primality alone
+would not justify the scheme-union assertion; the nonzerodivisor
+calculation does. Thus the cycle
 multiplicity in (10b) has a specified primary scheme behind it.
 
 The other blowup chart has z=v*y and strict equations
