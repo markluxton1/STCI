@@ -183,10 +183,7 @@ This is stronger than merely being transverse to that prime.
 The proper-horizontal-line cases, with the degree-zero
 horizontal prime absent, are being examined by a bounded
 free-chain/Schur-complement argument. They are not claimed as
-a complete lambda=1 exclusion in this pause record. The case
-with e0-e_i-e_j present still requires separate coverage,
-including its possible unique satellite and the entire
-connected fiber containing the contact vertical line.
+a complete lambda=1 exclusion in this pause record. The case with e0-e_i-e_j present is **not settled by this plane-marking argument**: its possible unique satellite and entire connected contact fiber require the separate ambient-conductor proof. The complete quartic-carrier exclusion is established by the linked ambient proofs, so this is a limitation of the marking method, not an open mate case.
 
 ## 6. Counterexamples to shortcuts
 
