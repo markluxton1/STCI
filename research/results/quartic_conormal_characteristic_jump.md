@@ -51,4 +51,4 @@ equation and intersection geometry.
 
 ## Review
 
-The two-chart transition in A-0004 represents the extension by -2u^{-1} in H^1(O(-2)). It is nonzero when 2 is invertible, yielding the balanced splitting; in characteristic two it vanishes and the quadric conormal is a direct summand.
+The [two-chart transition proof](../arguments/quartic_specialization_and_symbols.md#conormal-transition-p-009-characteristic-jump-in-the-normal-bundle-of-c_0) establishes the stated extension class and characteristic-dependent splitting.
