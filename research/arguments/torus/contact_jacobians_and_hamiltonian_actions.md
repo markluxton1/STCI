@@ -357,7 +357,7 @@ modulo scalar dilation. But \(q\) is only in the radical: involutivity of
 or an equivariant splitting. The realization problem still concerns the
 quartic's actual global homogeneous equations. The socle and contact identities
 constrain any such pair, while the polarized retraction obstruction explains one failure
-of extending the punctured pencil geometry. None supplies an arbitrary
+of extending the punctured pencil geometry. The line-bundle quantization and rational supported characteristic-class results do not quantize a nonreduced supported CI or yield actual homogeneous equations. None supplies an arbitrary
 unpolarized splitting or a contradiction for every homogeneous pair; the
 remaining task is an actual supported construction or an obstruction with
 the necessary global coverage.
