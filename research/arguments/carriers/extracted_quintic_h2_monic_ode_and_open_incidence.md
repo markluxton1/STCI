@@ -1,4 +1,4 @@
-# quintic h2 monic ode and open incidence
+# Quintic h=2: monic ODE and admissible open incidence
 
 ## Integration guide: the actual open and the differential equations
 
@@ -6,8 +6,6 @@ This dossier studies the quintic h=2 incidence scheme on the stated nonvanishing
 
 ---
 
-
-Permanent mathematical dossier retaining full computations, coefficient systems, corrected formulas, proof scope and unresolved cases. Source labels below organize mathematics, not provenance authority.
 
 ---
 
