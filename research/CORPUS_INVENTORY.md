@@ -17,6 +17,10 @@ The linked-path inventory now covers **220 distinct Markdown files**: 127 catalo
 
 The catalog currently indexes **71 typed Results, 9 typed Arguments, 9 Frameworks and 2 Investigations**. Ordinary untyped Argument and topic Markdown files also carry mathematical content: the typed counts are **not** a count of all files, proofs, or coherent topics. The generated catalog currently displays **32 Result rows with “no recorded proof route”**; many also list evidence or independent audits. This means the proof-route metadata must be checked against the actual text, not that the Results are unproved.
 
+## Structural recommendations (in progress)
+
+The [canonical 516-file inventory](CORPUS_TREE_INVENTORY.md) now includes a **structural status** and **proposed action / target** for every file. [Source-inspected transformation proposals](CORPUS_STRUCTURAL_PROPOSALS.md) record mathematical units, methods, dependencies and target decisions for selected Arguments; the [carrier](CORPUS_PROOF_ROUTES_CARRIERS.md) and [torus](CORPUS_PROOF_ROUTES_TORUS.md) route analyses distinguish theorem assemblies from case proofs and upstream lemmas. **These are preliminary proposals, not complete source-by-source coverage**: 188 Arguments still await source review and 71 catalog-linked plus 12 uncataloged Results await full proof-role classification. No mathematical content has been changed.
+
 ## Complete pinned-tree file inventory
 
 The [single canonical repository inventory](CORPUS_TREE_INVENTORY.md) lists **all 516 files** in one table with paths, blob sizes, formats, and provisional path-based roles. This includes **357 research Markdown** and **159 other** files. This completes **file-level metadata inventory**, not mathematical review or code verification. Later inventory commits are outside the pinned snapshot.
