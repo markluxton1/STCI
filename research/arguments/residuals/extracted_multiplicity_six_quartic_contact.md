@@ -112,7 +112,7 @@ Exactly `deg J=17` and `Jhat(0)=1/2`.
 
 ## 3. Intrinsic one-unit annihilator and the degree argument
 
-The [exact third-piece DVR lattice lemma](#4-the-exact-third-piece-lattice-lemma) gives, at every
+The [exact third-piece DVR lattice lemma](quasiprimitive_residual_cycles.md#4-the-exact-third-piece-lattice-lemma) gives, at every
 finite point,
 
     ord(D3-D2)=max(0,ord S-ord T).

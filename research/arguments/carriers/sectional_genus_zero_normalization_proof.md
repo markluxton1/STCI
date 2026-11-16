@@ -53,7 +53,7 @@ the general plane section is positive. Consequently
     0 <= pi <= 2
 
 in the nonnormal case. The separate
-[singular-degree audit](quartic_carrier_proof.md#reduced-singular-support-and-singleton-normalization-fibers)
+[singular-degree audit](quartic_carrier_proof.md#4-sectional-genus-zero-finite-normalization-and-descent)
 records the complete plane-section defect argument. Here pi is a
 normalization sectional genus, not the arithmetic genus of an ambient
 plane quartic and not the degree of a conductor or Jacobian scheme.

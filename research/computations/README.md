@@ -70,7 +70,7 @@ does not supply a replay environment in the current tree. A reference to a saved
 Taylor array, or other validation export in an older research note is historical
 unless its current availability is separately confirmed.
 
-The [H2 monic ODE account](../arguments/carriers/quintic_toric_center_incidence.md#quintic-h2-monic-ode-and-open-incidence)
+The [H2 monic ODE account](../arguments/carriers/extracted_quintic_h2_monic_ode_and_open_incidence.md)
 records the export construction. Replaying it requires the historical
 coefficient inputs, including the seventeen-equation and domain-polynomial
 exports, or their regeneration.

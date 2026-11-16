@@ -830,7 +830,7 @@ projection hypothesis. Write `d=delta`, `k=kappa=aq+B`,
 
 Impose the complete finite common-root incidence `Pt(q)=Jt(q)=0`, with
 `G=Gs,J=Js` as in the accepted
-[Taylor incidence](quintic_toric_center_incidence.md#2026-10-13-session-nonendpoint-single-root-taylor-incidence).
+[Taylor incidence](quintic_toric_center_incidence.md#related-quintic-incidence-developments).
 The actual octic conductor restriction has expansion
 
     F(q+t)=sum_(i=1)^8 f_i t^i,
@@ -851,7 +851,7 @@ Jbar nonzero or the sole-root condition.
 **All-mate consequence.** If additionally `Jbar=Js!=0` and q is
 the sole common homogeneous conormal root, there is no mate of any
 positive degree on the regular chart. The inherited
-[quotient-fiber theorem](quintic_toric_center_incidence.md#2026-10-13-session-nonendpoint-single-root-quotient-fibers)
+[quotient-fiber theorem](quintic_toric_center_incidence.md#related-quintic-incidence-developments)
 already excludes the regular L1 branch under full inverse support.
 The remaining branch has `L1!=0,L2=0`, but full inverse support and
 the sole-root/Jbar hypotheses concentrate the nonzero degree-eight
@@ -1046,7 +1046,7 @@ conormal roots. Other normalization genera and other carrier degrees
 are outside this model. The universal projective-curve STCI question
 and the unrestricted characteristic-zero C0 question remain open.
 
-The [independently reviewed geometric bridge](quintic_toric_center_incidence.md#reviewed-geometric-bridges-for-the-regular-sole-root-branches)
+The [independently reviewed geometric bridge](quintic_toric_center_incidence.md#related-quintic-incidence-developments)
 retains the same complete cover and original-generator witnesses, including
 the corrected discriminant normalization at q=2. The regular sole-root,
 Jbar-nonzero consequence is accepted in this precise scope; no denominator,

@@ -354,7 +354,7 @@ documents a separate branch. Historical verification of the other identities
 must not be mistaken for presently replayable certification or an independent
 symbolic proof.
 
-The sole-common-root regular-L1/L2 bridges are a different contribution, owned with [single-root incidence](quintic_toric_center_incidence.md#nonendpoint-single-root-incidence-and-actual-quotient-fibers) and the full L2 theorem in [the A4 conductor/incidence treatment](quintic_a4_contact_and_norm.md#2026-10-13-generalization-quintic-l2). They do not settle Z=0, target infinity, Jbar=0 or several allowed support points by themselves.
+The sole-common-root regular-L1/L2 bridges are a different contribution, owned with [single-root incidence](quintic_toric_center_incidence.md#related-quintic-incidence-developments) and the full L2 theorem in [the A4 conductor/incidence treatment](quintic_a4_contact_and_norm.md#2026-10-13-generalization-quintic-l2). They do not settle Z=0, target infinity, Jbar=0 or several allowed support points by themselves.
 
 The h=2 incidence, degree-one singular quotient-fiber charts, other quintic normalizations and entirely thick presentations remain separate questions. The coefficient identities are exact characteristic-zero proofs on the stated unit charts. Their geometric setup, scalar inversions, multiplicity derivatives and witness nonvanishing must be verified before any reduction modulo a prime; no arbitrary positive-characteristic exclusion is asserted.
 

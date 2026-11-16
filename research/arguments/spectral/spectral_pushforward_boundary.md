@@ -197,7 +197,7 @@ Original mathematical content, hypotheses, qualifications, and proof status pres
 
 ## Integration guide: spectral acceleration versus existence
 
-The spectral accelerator, generator equations, and rank conditions are **different presentations of constrained incidence calculations**, conditional on the same quintic h=2 setup. Compare [the monic ODE/open derivation](../carriers/quintic_toric_center_incidence.md#quintic-h2-monic-ode-and-open-incidence) for the underlying action equations and [the degree-five incidence frontier](../carriers/quintic_toric_center_incidence.md#quintic-h2-the-degree-five-necessary-incidence-and-its-open-boundary) for the proposed global elimination step. A vanishing determinant, an exact generator identity, or an open-chart incidence computation does not by itself prove that the required homogeneous mate exists or that all residual support disappears. Retain the individual exact certificates and audits.
+The spectral accelerator, generator equations, and rank conditions are **different presentations of constrained incidence calculations**, conditional on the same quintic h=2 setup. Compare [the monic ODE/open derivation](../carriers/extracted_quintic_h2_monic_ode_and_open_incidence.md) for the underlying action equations and [the degree-five incidence frontier](../carriers/extracted_quintic_h2_monic_ode_and_open_incidence.md#denominator-free-incidence-for-all-remaining-homogeneous-h2-candidates) for the proposed global elimination step. A vanishing determinant, an exact generator identity, or an open-chart incidence computation does not by itself prove that the required homogeneous mate exists or that all residual support disappears. Retain the individual exact certificates and audits.
 
 ---
 
