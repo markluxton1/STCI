@@ -754,7 +754,7 @@ The normalized budget (2) concerns normal mate-bearing \(C_0\) carriers. The sym
 ---
 
 <a id="2026-10-14-generalization-symbolic-triple-torsion-comparison-audit"></a>
-## Symbolic triple torsion comparison: independent structural audit
+## Symbolic-triple torsion comparison and arithmetic consequences
 
 Status: **PROVED NEW COMPARISON AND ARITHMETIC CONSEQUENCE, CONDITIONAL
 ONLY ON THE EXPLICIT ACCEPTED INPUTS BELOW.**
@@ -1048,7 +1048,7 @@ pointwise Frobenius-lattice argument before relying on the conclusion.
 ---
 
 <a id="2026-10-14-generalization-index12-filtered-compatibility"></a>
-## Full filtered compatibility with local Cartier indices
+## Filtered compatibility with local Cartier indices
 
 reconstruction of the root's new Jacobian/index argument.
 Status: **PROVED NEW STRUCTURAL THEOREMS AND ALL-DEGREE EXCLUSION FOR
