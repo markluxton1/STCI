@@ -178,7 +178,7 @@ depth in *every* hypothetical homogeneous defining pair.
 
 ## Exact limitation
 
-The surface-effective threshold is the least slope a/p permitted by effectivity of aH-pC for equations not containing the chosen surface. The component-exclusion step above is indispensable. Arbitrarily deep local contact exists and this chapter supplies no homogeneous realization or uniform upper depth bound. The tail formula concerns generic contact mass, not residual curve degree.
+The surface-effective threshold is the least slope a/p permitted by effectivity of aH-pC for equations not containing the chosen surface. The slope concerns the actual surface restriction after removing generic normal order; a containing-surface factor is not allowed. The component-exclusion step above is indispensable. Arbitrarily deep local contact exists and this chapter supplies no homogeneous realization or uniform upper depth bound. The tail formula concerns generic contact mass, not residual curve degree.
 
 
 ## Characteristic reach and limitation
