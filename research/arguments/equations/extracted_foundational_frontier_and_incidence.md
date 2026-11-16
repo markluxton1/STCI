@@ -8,7 +8,7 @@ Consolidated research material, including open questions and source assessments.
 
 ## Foundational theorem interfaces and source qualifications
 
-The complete [complement-morphism theorem P-029](global_equations_and_constructions.md#p-029), [graded Gorenstein criterion P-035](global_equations_and_constructions.md#p-035), and [ordinary/symbolic power theorem on a smooth quadric](../normal-geometry/formal-normal-intersection.md#12-ordinary-ideal-powers-on-a-smooth-quadric-complete-proof) retain their proofs in the focused Arguments. The distinctions below are essential when applying them.
+The complete [complement-morphism theorem P-029](global_equations_and_constructions.md#p-029-complement-morphisms-and-two-generated-positive-line-bundles), [graded Gorenstein criterion P-035](global_equations_and_constructions.md#p-035-arithmetically-gorenstein-thickening-criterion), and [ordinary/symbolic power theorem on a smooth quadric](../normal-geometry/formal-normal-intersection.md#12-ordinary-ideal-powers-on-a-smooth-quadric-complete-proof) retain their proofs in the focused Arguments. The distinctions below are essential when applying them.
 
 ### Complement morphisms and global ACMness
 
