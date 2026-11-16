@@ -242,7 +242,3 @@ remain visible: the obstruction is carrier-specific.
 
 
 The support-contained proof is a direct global conductor-ideal power argument; it does not discard nilpotents or infer section descent from numerical equivalence. Its control is a twisted cubic on a specific singular carrier, while the same curve admits the corrected-square degree-(2,3) construction on a different carrier. Thus the isolated inverse point excludes that carrier rather than the curve.
-
-## Consolidation review
-
-Independent reconstruction compared the full original prescribed-degree proof and support-contained descent source, including the corrected entire inverse support, module factorization, inseparable degree formula and complete normalized-blowup center argument. It checked the explicit isolated-point twisted-cubic control against its retained exact verifier and preserved its characteristic restriction. The source record and duplicate support note are superseded by this mathematical home; the checker remains necessary support and no other split-sextic source is retired by this review.
