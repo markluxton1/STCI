@@ -233,3 +233,30 @@ Since \(L_C\) has zero middle coefficient while \(A_C-2z_c\) has middle coeffici
 
 
 
+
+
+## 8. Entire genus-one conductor by graded modules
+
+The conductor identity above admits a short, complete algebraic proof, worth retaining separately from its computational verification. Let \(T=k[x_0,x_1,x_2,x_3]\), \(A_X=T/(F)\), and \(B=T[z]/(Q_1,Q_2)\), where \(Q_1=z^2-Az-R_1\), \(Q_2=Lz+R\), and \(F=R^2+ALR-R_1L^2\). The projection identifies the fraction fields, and the integral degree-four image has equation \(F\), so \(A_X\hookrightarrow B\). The two quadrics form a complete intersection and \(B\) is normal under the genus-one hypotheses.
+
+If \(R\) were divisible by \(L\), the equation \(Q_2\) would factor into linear forms on the integral nondegenerate surface. Hence \(L,R\) form a regular sequence in \(T\), and \(C_\Gamma=T/(L,R)\) is the **entire** coordinate ring of a plane conic, possibly reducible or doubled. In \(B\),
+\[
+Lz=-R,\qquad Rz=AR-LR_1.
+\]
+Thus \((L,R)\) annihilates \(B/A_X\), and monicity of \(Q_1\) gives a surjection \(C_\Gamma(-1)\twoheadrightarrow B/A_X\). The Hilbert series are
+\[
+\operatorname{HS}(B)=\frac{(1+t)^2}{(1-t)^3},\quad
+\operatorname{HS}(A_X)=\frac{1+t+t^2+t^3}{(1-t)^3},\quad
+\operatorname{HS}(C_\Gamma)=\frac{1+t}{(1-t)^2}.
+\]
+Since \(\operatorname{HS}(B)-\operatorname{HS}(A_X)=t\operatorname{HS}(C_\Gamma)\), the surjection is an isomorphism **in every graded degree**, not merely after removing finite-length modules. Consequently
+\[
+B/A_X\cong C_\Gamma(-1),\qquad
+\operatorname{cond}(A_X,B)=\operatorname{Ann}_{A_X}(B/A_X)=(L,R).
+\]
+Moreover, \((L,R)B=(L)\), so the entire upstairs conductor has coordinate ring
+\[
+B/(L)=C_\Gamma[z]/(z^2-Az-R_1).
+\]
+It is free of rank two over \(C_\Gamma\), including over doubled or reducible conics. The trace-zero generator \(w=z-A/2\) satisfies \(w^2=A^2/4+R_1\). The calculation fixes the conductor scheme and quadratic algebra without passing to radicals. The fixed-curve coefficient restrictions are established in Section 7 above.
+
