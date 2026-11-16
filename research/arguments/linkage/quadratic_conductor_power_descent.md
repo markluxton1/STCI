@@ -299,7 +299,3 @@ ignoring those singular points.
 ## Characteristic range and scope
 
 The universal odd-binomial coefficient equation follows from a free quadratic basis whenever the stated split trace algebra exists. The trace-zero decomposition and involution use2 invertible. The all-positive-power cyclotomic criterion and nilpotent rigidity above are characteristic zero: a p-power in characteristic p can kill finite nilpotent defects, so the full double-line countershields and all-power conclusions cannot be transported unchanged. The full generic conductor membership method in [conductor algebra](../carriers/conductor_descent_algebra.md) supplies the relevant characteristic-independent test. Neither finite rank minors nor a reduced conductor ratio replace that membership.
-
-## Consolidation review
-
-Independent review checked exact preservation of the source setup and universal binomial equation, the complete stronger necessity/sufficiency audit, both nilpotent countershields, coefficient dimensions/minors, connected genus-one unbounded-order example, and the separate A1 anti-invariant surface control. The two original power-descent proof/audit blocks are superseded by this home; adjacent geometry is not covered by this retirement. No actual carrier construction or unrestricted positive-characteristic criterion is claimed.
