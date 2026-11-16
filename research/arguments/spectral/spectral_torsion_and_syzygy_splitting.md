@@ -822,7 +822,7 @@ The note still concerns actual lci thickenings with unique smooth support and a 
 
 ## A doubled-divisor obstruction to nonreduced moving spectral roots
 
-The [independent reconstruction](#2026-10-19-doubled-divisor-independent-audit) checks the argument and its component corollaries at the hypotheses stated below.
+The [independent reconstruction](#2026-10-19-spectral-nonreduced-root-independent-audit) checks the argument and its component corollaries at the hypotheses stated below.
 
 ### 1. Exact question, accepted inputs, and scope
 
