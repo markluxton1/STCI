@@ -2,8 +2,6 @@
 
 # quadratic root second zero and dual compression
 
-Permanent mathematical dossier preserving complete arguments, assumptions, characteristic boundaries, counterexamples and unresolved claims.
-
 ---
 
 <a id="2026-10-15-generalization-quadratic-root-torsion-second-zero-geometry"></a>
@@ -572,7 +570,7 @@ claimed until an exact global certificate or a new geometric proof exists.
 
 ## Independent audit of the twenty-five global second-obstruction tests
 
-Independent review accepted the global compression, universal-model algorithm, and homogeneous smoothness criterion, conditional on the previously established first and second obstruction constructions. The proof uses bundle duality, Laplace identities, and a local double-cover calculation. The companion model and Python algorithm were compared after the mathematical review; no inherited seed, profile, verifier, or CAS computation was rerun.
+The global compression, universal-model algorithm, and homogeneous smoothness criterion depend on the previously established first and second obstruction constructions. Their proof uses bundle duality, Laplace identities, and a local double-cover calculation.
 
 ### 1. The correct dual bundle on the whole basepoint-free locus
 
