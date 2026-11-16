@@ -50,9 +50,9 @@ and the [independent argument](#2026-10-16-generalization-quintic-h2-global-moni
 
 ---
 
-## Independent audit: one global monic h2 ODE incidence
+## Global monic h=2 ODE incidence and its unsolved saturation
 
-The necessary global monic \(h_2\) incidence has seventeen equations in nine variables on \(\delta E\Delta_1\ne0\), including repeated roots and the finite inverse-map boundary. The [original incidence](https://github.com/markluxton1/STCI/blob/63b401a4b399c435fe292820dcbf630470e01ff6/research/supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence) supplies conormal, octic, conductor, and ODE inputs. Review checked coefficient identities and artifacts, not a new CAS run, saturation, or emptiness proof.
+The necessary global monic \(h_2\) incidence has seventeen equations in nine variables on \(\delta E\Delta_1\ne0\), including repeated roots and the finite inverse-map boundary. The [original incidence](https://github.com/markluxton1/STCI/blob/63b401a4b399c435fe292820dcbf630470e01ff6/research/supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence) supplies conormal, octic, conductor, and ODE inputs. The seventeen equations are necessary; neither their saturation nor emptiness of the admissible locus has been proved.
 
 ### 1. Monic coverage and exact homogeneous gcd degree
 
