@@ -75,6 +75,3 @@ These links identify the current scope-preserving proof homes. Their independent
 
 The actual projection parameters, complete inverse support, and full conductor descent for the three fixed-\(C_0\) models **remain unresolved**. The classification does not establish existence of a mate on any listed carrier. The unrestricted STCI problem for \(C_0\) remains open.
 
-## Current mathematical evidence
-
-The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not imply an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.
