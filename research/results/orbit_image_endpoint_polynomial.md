@@ -68,13 +68,3 @@ residual curve degrees. The two geometric endpoints here are distinct from
 the two opposite directions of a full torus Hilbert limit; no comparison
 or specialization map between these constructions is asserted. A Hilbert
 polynomial identity does not supply global generators.
-
-## Review
-
-The historical source records independent review of its endpoint arguments.
-
-Independent reconstruction review, 2026-11-04: reviewer
-pilot_review_hilbert accepted the exact R-0052 route after independently
-reconstructing the endpoint image algebras, finite-cokernel exact sequence,
-polarization pullback and Hilbert polynomial calculation in the stated
-characteristics. No blocker was found. The reconstruction review accepts this route within its stated scope. No comparison with opposite Hilbert-limit directions was included or inferred.
