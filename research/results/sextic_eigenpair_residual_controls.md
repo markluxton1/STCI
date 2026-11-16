@@ -113,4 +113,3 @@ quadric-divisor control. The source's distinct examples and qualifications
 are preserved. Acceptance does not classify all finite algebras or
 invariant ideals.
 
-Independent reconstruction review accepts this route within its stated scope.
