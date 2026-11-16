@@ -1,27 +1,10 @@
 # Genus-two bisection: three-center fiber obstruction
 
-## Dependency guide: odd fiber obstruction and surviving cases
-
-This conditional three-blowup-fiber exclusion covers irreducible, reduced, and nonreduced graphs, including the numerical near-counterexample. It complements the [even-fiber exclusion](../../frameworks/carrier-normalization/quartic_proof_interfaces.md#bisection-with-an-even-fiber-count). Both assume the second-pencil reduction and smooth embedded lift. The four-single-blowup partition and global mate problem remain unresolved here.
-
----
-
-# Genus-two bisections: the three-blowup fiber is impossible
-
-Date: 2026-10-10. Author: `k3_fiber_enumeration`, independently
-assigned by `bisection_local_fibers`. Status: **PROVED HERE,
-conditional on the accepted second-pencil reduction and the smooth
-embedded lift; awaiting the parent's separate adversarial audit**.
-No frontier file was edited.
-
-This note excludes a fiber with blowup count `k_t=3`. It includes
-nonreduced fibers and preexisting ADE exceptional components. It does
-not by itself exclude the surviving four-single-blowup partition.
+**Scope.** Conditional characteristic-zero obstruction for a fiber with three of the four extra blowup centers, including nonreduced fibers and infinitely near centers. It assumes the second-pencil reduction and smooth embedded lift stated below. This argument alone leaves the four-single-center partition; the [global ribbon argument](genus_two_bisection_proof.md) independently excludes the entire bisection lane. The [carrier assembly](quartic_carrier_proof.md) gives the all-degree quartic-carrier conclusion.
 
 ## 1. Exact input
 
-Use the notation of the
-[second-pencil audit](https://github.com/markluxton1/STCI/blob/2cc61e8ddb8d1fbfe7034285dac65df5b4c2ac75/research/supplements/OCT10_GENUS_TWO_ENDPOINT_AND_BLOWUP_AUDITS.md#source-2026-10-10-session-genus-two-bisection-second-pencil-independent-auditmd).
+Use the second-pencil setup of the [global bisection proof](genus_two_bisection_proof.md).
 The smooth weak del Pezzo surface V is the minimal crepant resolution
 of its ADE double-cover model W. The connected rational pencils f
 and c on V satisfy
@@ -217,5 +200,5 @@ obstruction proved directly, without a graph-table assertion.
 
 Every permitted fiber and three-center history contradicts the accepted characteristic-zero \(\lambda=0\) bisection mate reduction: \(k_t=3\) is impossible. With the separate [even-count exclusion](../../frameworks/carrier-normalization/quartic_proof_interfaces.md#bisection-with-an-even-fiber-count), only \([1,1,1,1]\) remains.
 
-The nonreduced \(D_5\) near-counterexample has effective correction and \(c\cdot Z_t=3\), but violates the **integral anti-nef uniformizer cycle of contact coefficient one** required by the smooth embedded curve. Rational divisor correction alone would not exclude it. No global quartic-carrier or universal STCI conclusion follows.
+The nonreduced \(D_5\) near-counterexample has effective correction and \(c\cdot Z_t=3\), but violates the **integral anti-nef uniformizer cycle of contact coefficient one** required by the smooth embedded curve. Rational divisor correction alone would not exclude it. This local calculation is not itself a global quartic-carrier exclusion; that conclusion uses the independent global ribbon argument and carrier assembly.
 
