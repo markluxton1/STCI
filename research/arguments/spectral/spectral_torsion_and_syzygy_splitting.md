@@ -625,8 +625,6 @@ Identities (7)–(9) and constraints (13)–(18) give an effective resultant div
 
 ## Independent audit: first-relation defects and the effective resultant budget
 
-Independent review accepted the [first-relation defect investigation](#2026-10-19-first-relation-defect-investigation) under its explicit hypotheses. Previously established proofs, computations, and Result records were not rerun or changed.
-
 ### 1. Exact scope and authority
 
 The setting is an actual locally complete-intersection thickening `Y` of a smooth connected projective curve `C` in a smooth threefold, over an algebraically closed field of characteristic zero, with **unique reduced support** `Y_red=C`. Write `J=I_C O_Y`, `E=N_C^*`, and assume the **full** generic ordinary initial algebra is the coprime binary CI of degrees `2<=r<s`.
@@ -1036,9 +1034,6 @@ STCI application was previously established.
 
 Independent reconstruction and failure tests are recorded in
 [the separate audit](#2026-10-19-spectral-nonreduced-root-independent-audit).
-The review outcome is PASS, including the component bound and the
-movement-two dichotomy. The proof and review scopes are stated above
-
 The most valuable next bridge is to derive uniformity, or a sufficiently
 controlled replacement for it, from the actual filtered Gorenstein
 algebra. The component classification also reduces the movement-two
