@@ -431,6 +431,76 @@ descent: \((x^2,z^4)\subset K\) still has radical \((x,z)\).
 It also does not replace the supported-quartic
 generator-incidence test.
 
+## Equation–Hilbert–Chow graph and its top fiber
+
+For fixed degrees \((a,b)\), let \(U\) be the open locus of proper
+pairs containing \(C\), in the ordered equation space (or
+\(\operatorname{Gr}(2,I_a)\) when \(a=b\)). The intersection map
+\(f:U\to\operatorname{Hilb}^{P_{a,b}}(\mathbf P^3)\) is a morphism.
+Its reduced graph closure in the product with the projective
+equation space retains **both** the limiting equations and the
+full limiting ideal. A boundary equation pair can be improper
+even when the Hilbert coordinate is a flat limit of proper CIs.
+If the boundary pair is proper, the inclusion of its ideal in
+the Hilbert-coordinate ideal and equality of Hilbert polynomials
+force equality; hence every extra-generator graph limit lies
+over the improper-pair boundary.
+
+Let \(\chi:U\to\mathbf P(E_{ab})\) be the universal-line Chow
+resultant map, with \(E_e=H^0(\operatorname{Gr}(2,4),
+\mathcal O(e))\), and let \(Q\in E_4\) be the Chow form of
+\(C\). In characteristic zero the reduced **triple graph**
+\[
+ \widehat\Gamma=
+ \overline{\{(x,f(x),\chi(x)):x\in U\}}
+ \subset X\times\operatorname{Hilb}^{P_{a,b}}
+               \times\mathbf P(E_{ab})
+\]
+retains the equation coordinate, full embedded scheme and
+specialized fundamental cycle. When \(4\mid ab\), put
+\(m=ab/4\) and take the top Chow fiber over \([Q^m]\).
+
+This top fiber must not be confused with the closure of the
+graph of **supported** proper pairs. A residual pair can
+specialize to the top Chow cycle without its generic fibers
+being supported. Nevertheless, each Hilbert coordinate of the
+top fiber has connected underlying scheme: over a DVR trait
+through a graph boundary, the proper flat family of connected
+complete intersections has
+\(H^0(Y_\eta,\mathcal O)=K\); the finite \(A\)-algebra
+\(H^0(Y,\mathcal O)\) embeds in \(K\) and equals the
+integrally closed DVR \(A\). Stein factorization yields
+geometrically connected fibers. In characteristic zero the
+top Chow coordinate gives one-dimensional support \(C\);
+connectedness then excludes isolated components away from
+\(C\). This does not imply primary structure or the uniform
+containment \(I_C^m\subset J\) for every boundary point.
+
+The **CI locus** inside the top fiber is exactly the
+fixed-degree supported-CI existence test: if its Hilbert
+coordinate is an actual CI, purity and the top cycle force
+sole support \(C\), even if the displayed equation coordinate
+is improper. Conversely every actual supported pair already
+lies in the open graph. Thus the incidence
+\[
+ \widehat\Gamma_{[Q^m]}\cap
+ p_H^{-1}(\mathrm{CI}_{a,b})
+\]
+is nonempty exactly when a supported type-\((a,b)\)
+complete intersection exists. This is an exact reformulation,
+not a proof of nonemptiness or emptiness.
+
+For an **actual** sole-supported proper CI, a stronger uniform
+power bound holds: its ideal is \(I_C\)-primary with generic
+transverse length \(m\), hence
+\(I_C^{(m)}\subset J\) and \(I_C^m\subset J\).
+The first inclusion uses primary contraction and the fact that
+the \(m\)-th power of the maximal ideal of a length-\(m\)
+Artinian local algebra vanishes. The containment persists in
+flat limits **within this supported family**, not for arbitrary
+points of the top Chow fiber. This is the distinction between
+the supported graph closure and the larger top-cycle fiber.
+
 ## What the boundary retains and what remains open
 
 All assertions about full limits above concern the embedded Hilbert
