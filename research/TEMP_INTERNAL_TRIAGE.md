@@ -2,7 +2,7 @@
 
 Baseline: `chatgpt/context-efficient-structural-inventory` (PR #137). Scope: individual-file content only; no edits to mathematical documents and no cross-document comparisons.
 
-**Status: IN PROGRESS — NOT CORPUS-WIDE COMPLETE.** The baseline contains 344 Markdown files in `research/{arguments,frameworks,results,investigations}/`. 143 have been individually inspected across five batches. **Unlisted files are unreviewed, not clean.** Findings below identify candidates, not authorization to delete mathematics.
+**Status: IN PROGRESS — NOT CORPUS-WIDE COMPLETE.** The baseline contains 344 Markdown files in `research/{arguments,frameworks,results,investigations}/`. 183 have been individually inspected across six batches. **Unlisted files are unreviewed, not clean.** Findings below identify candidates, not authorization to delete mathematics.
 
 | File | Location | Finding | Proposed action | Caution | Disposition |
 | --- | --- | --- | --- | --- | --- |
@@ -23,7 +23,7 @@ Baseline: `chatgpt/context-efficient-structural-inventory` (PR #137). Scope: ind
 - **uncertain** — mathematical value or redundancy cannot yet be judged without closer inspection.
 - **unreviewed** — not yet examined; never infer clean from absence in this log.
 
-Do not execute stages 2 or 3 until the remaining 201 files have been inspected and assigned dispositions. This file is a temporary handoff, not a permanent research record.
+Do not execute stages 2 or 3 until the remaining 161 files have been inspected and assigned dispositions. This file is a temporary handoff, not a permanent research record.
 
 ## Batch 2 — 15 additional files inspected
 
@@ -179,3 +179,48 @@ Do not execute stages 2 or 3 until the remaining 201 files have been inspected a
 | `research/arguments/carriers/elliptic_double_inverse_construction.md` | A distinct failed marked inverse candidate | Failed candidate may be useful as mathematical counterexample | **inspect** | Preserve failure mechanism and inverse construction | uncertain |
 | `research/arguments/carriers/genus_two_endpoint_local_corrections.md` | Repeated root exact formal factorization | No obvious audit material | **inspect** | Preserve simple versus repeated root distinctions | uncertain |
 | `research/arguments/residuals/extracted_residual_cycles_and_split_configurations.md` | Dated residual-cycle audit; Verification and continuation boundary | Dated audit and continuation material are cleanup candidates | **condense** | Preserve split configurations and residual cycles | revision needed |
+
+## Batch 6 — 40 additional mathematical files inspected
+
+| File | Location | Finding | Proposed action | Caution | Disposition |
+| --- | --- | --- | --- | --- | --- |
+| `research/arguments/normal-geometry/section_defects_and_exceptional_cover_controls.md` | Smooth models and dynamical source hypotheses | No obvious historical audit block | **inspect** | Preserve exceptional-cover and section-defect hypotheses | uncertain |
+| `research/arguments/linkage/projected_thickening_section_defects.md` | Independent reconstruction and scope | Closing independent reconstruction may restate proof | **condense** | Preserve missing-section quotient counterexample | revision needed |
+| `research/arguments/carriers/split_sextic_two_ramified_roots.md` | Provenance and failed reductions preserved; Consolidation review | Provenance and consolidation status appear administrative | **condense** | Preserve surviving line and ramified-root constraints | revision needed |
+| `research/arguments/torus/equivariant_degree_bounds.md` | Independent review | Standalone review near beginning of degree-bound analysis | **condense** | Preserve full cancellation control for next weight case | revision needed |
+| `research/arguments/local-cohomology/polynomial_duals_and_affine_pencils.md` | Exact determinantal fallback | No obvious archival sections despite many code examples | **inspect** | Preserve determinantal fallback and exception factors | uncertain |
+| `research/arguments/carriers/pencil_milnor_budget.md` | Characteristic reach and evidence | No obvious audit or historical source | **inspect** | Preserve Milnor budget and local versus global realization | uncertain |
+| `research/arguments/carriers/ramification_and_socle_controls.md` | Two dated Source sections including adversarial audit | Historical source imports and large code blocks | **integrate** | Preserve ramification counterexample and socle constraints | revision needed |
+| `research/arguments/local-cohomology/local_cohomology_ancestor_obstructions.md` | Consolidation review | Closing consolidation status is expendable | **remove** | Preserve endpoint multiplier and ancestor obstruction | revision needed |
+| `research/arguments/arithmetic/arithmetic_root_collision.md` | Exact arithmetic support | No obvious historical review section | **inspect** | Preserve root collision arithmetic | uncertain |
+| `research/arguments/carriers/prescribed_singular_carriers.md` | Verified literature scope | Literature scope appears mathematically relevant | **inspect** | Preserve singular carrier construction hypotheses | uncertain |
+| `research/arguments/torus/endpoint_valuations.md` | Blowup warning on exceptional components | No obvious administrative block | **inspect** | Preserve downstairs residual distinction | uncertain |
+| `research/arguments/local-cohomology/endpoint_and_two_target_lifts.md` | Historical retracted argument | Retracted argument retained in proof flow | **remove** | Preserve correction and valid cubic pole bound | revision needed |
+| `research/arguments/normal-geometry/intrinsic_fourth_extension.md` | Independent reconstruction | Review framing at end may be condensed | **condense** | Preserve embedded-neighborhood proof | revision needed |
+| `research/results/supported_length_five_defect_specialization.md` | Review | Review section in Result may be administrative | **condense** | Preserve precise length-five specialization statement | revision needed |
+| `research/arguments/equations/complement_section_obstructions.md` | Independent review and scope | Review paragraph after conclusion | **condense** | Preserve complement-section obstruction | revision needed |
+| `research/arguments/carriers/jaffe_type_and_generic_contact.md` | Negative result of the audit | Negative result may be mathematically essential | **inspect** | Preserve Jaffe-type obstruction and failed implication | uncertain |
+| `research/arguments/equations/bounded_equation_certificates.md` | What to measure in the next calculation; Scope and review | Research-workflow advice mixed with mathematical certificate criteria | **condense** | Preserve finite verification theorem and hardness bounds | revision needed |
+| `research/arguments/carriers/genus_two_ambient_conic_model_proof.md` | Added mate line-position consequences | No obvious audit narrative | **inspect** | Preserve crepancy and conic ruling | uncertain |
+| `research/arguments/arithmetic/rational_quartics_in_positive_characteristic.md` | Constructibility P-013; Cuspidal carrier minima P-014 | No obvious archival content | **inspect** | Preserve constructibility and sharp minima | uncertain |
+| `research/arguments/equations/extracted_affine_projective_and_literature_limits.md` | Exact audit of arXiv Step 3; Failed unique-prime inference | Source audits include substantive counterexample and literature correction | **inspect** | Do not remove counterexample or qualified literature statements | uncertain |
+| `research/arguments/residuals/formal_residual_visibility.md` | Verified extension input | No obvious archival section | **inspect** | Preserve formal residual visibility | uncertain |
+| `research/arguments/carriers/quintic_h2_rank_incidence_and_ode.md` | Exact model and checking boundary | No obvious review bulk | **inspect** | Preserve seventeen-equation system | uncertain |
+| `research/arguments/carriers/sectional_genus_zero_normalization_proof.md` | Correction retained at singular normalization points | Correction is mathematical, not mere history | **inspect** | Preserve normalization correction | uncertain |
+| `research/arguments/carriers/carrier_complement_and_collision_controls.md` | Corrected coordinate quintic benchmark | No obvious audit bulk | **inspect** | Preserve collision and blowup examples | uncertain |
+| `research/arguments/carriers/normal_carrier_divisor_geometry.md` | What was removed and what remains; Review scope | Removal history and review commentary amid many code blocks | **condense** | Preserve divisor geometry and countermodels | revision needed |
+| `research/arguments/filtered_equation_comparison.md` | Source proofs and review scope | Closing review framing may be reducible | **condense** | Preserve filtered equation comparison | revision needed |
+| `research/arguments/linkage/quadratic_conductor_power_descent.md` | Consolidation review | Consolidation status section candidate for removal | **remove** | Preserve quadratic conductor power descent | revision needed |
+| `research/arguments/carriers/foliation_and_affine_degree_mechanisms.md` | What remains to be proved | Open conditions appear substantive | **inspect** | Preserve foliation and affine degree constraints | uncertain |
+| `research/frameworks/formal-normal-geometry/quartic_ancestor_and_endpoint_exclusions.md` | Source-preserved ancestor restrictions | No obvious audit prose in compact Framework | **inspect** | Preserve defective e=1 MF6 conditions | uncertain |
+| `research/arguments/carriers/genus_two_nonendpoint_proof.md` | Exact all-length contradiction | No obvious archival block | **inspect** | Preserve transverse crossing contradiction | uncertain |
+| `research/arguments/residuals/quadric_modification_and_global_corrections.md` | Scope prior exclusions and stopping decision | Stopping-decision commentary may be historical | **condense** | Preserve global correction and absorption boundary | revision needed |
+| `research/arguments/carriers/genus_one_uniform_projection_analysis.md` | Exact projection certificate; Entire genus-one conductor by graded modules | No obvious review bulk | **inspect** | Preserve conductor and projection certificate | uncertain |
+| `research/frameworks/carrier-normalization/quintic_carriers_and_a4_contact.md` | Full conductor contact and weighted budget | Compact coherent Framework with no obvious historical material | **clean** | Preserve concise framework | clean |
+| `research/frameworks/embedded-torus-quotients/contact_and_global_descent.md` | Literature and bounded stopping points | Literature boundary appears relevant | **inspect** | Preserve descent interface and bounded stopping conditions | uncertain |
+| `research/arguments/carriers/quintic_toric_center_incidence.md` | Exact computational evidence and scope | Evidence may be concise and necessary | **inspect** | Preserve toric center incidence | uncertain |
+| `research/arguments/carriers/genus_two_entire_conductor_proof.md` | Generic transverse multiplicity exactly two | No obvious audit block | **inspect** | Preserve conductor proof | uncertain |
+| `research/arguments/carriers/normal_carrier_compression.md` | Exact sources and scope | Source section may be brief and useful | **inspect** | Preserve compression theorem | uncertain |
+| `research/arguments/carriers/actual_pair_top_socle_and_colength.md` | Exact colength in thickening on carrier normalization | Many code blocks but no clearly removable historical section | **inspect** | Preserve top socle and colength identities | uncertain |
+| `research/arguments/residuals/finite_normal_jets.md` | Candidate A: nonsaturated first-relation defect | Exploratory candidate included after scope section | **inspect** | Preserve actual integral-curve certificate and distinguish conjectural candidate | uncertain |
+| `research/arguments/arithmetic/effective_characteristic_transfer.md` | Scope of conclusions | No obvious audit narrative | **inspect** | Preserve unconditional characteristic bounds | uncertain |
