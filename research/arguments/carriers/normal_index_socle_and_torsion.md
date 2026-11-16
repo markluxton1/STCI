@@ -2,7 +2,7 @@
 
 ## Integration guide: numerical indices and actual symbolic structures
 
-The [general index scope](#2026-10-14-generalization-normal-index-general-scope) derives inequalities that may be applied before a second defining surface is chosen; the [socle theorem](#2026-10-14-generalization-normal-index-socle-theorem) then imposes additional local structure under its exact assumptions. The independent audit distinguishes scalar inequalities from stronger equality-case conclusions and records characteristic restrictions.
+The [general index scope](#2026-10-14-generalization-normal-index-general-scope) derives inequalities that may be applied before a second defining surface is chosen; the [socle theorem](#2026-10-14-generalization-normal-index-socle-theorem) then imposes additional local structure under its exact assumptions. The scalar inequalities, equality-case conclusions, and characteristic restrictions have distinct hypotheses.
 
 [Symbolic carrier torsion](normal_carrier_symbolic_torsion.md#2026-10-14-generalization-normal-carrier-torsion) provides Cartier-index and divisor-class information, while [normal flatness](../normal-geometry/normal_flatness_and_filtered_ci.md#2026-10-19-filtered-generic-ci-normal-flatness) concerns propagation of a filtered complete-intersection structure. Neither a favorable scalar budget nor a formal normal carrier supplies a global second equation automatically. Conversely, the presence of a mate introduces additional numerical constraints that should not be silently assumed in the one-carrier arguments.
 
@@ -10,15 +10,11 @@ The equality-case, characteristic, and pointwise-index qualifications are part o
 
 ---
 
-
----
-
 <a id="2026-10-14-generalization-normal-index-general-scope"></a>
 
 ## An intrinsic normal divisor and index thresholds for smooth curves
 
-Status: **PROVED NEW STRUCTURAL THEOREMS; independently reviewed in
-[the general-scope audit](#2026-10-14-generalization-normal-index-general-scope-independent-audit).**
+The [general-scope verification](#2026-10-14-generalization-normal-index-general-scope-independent-audit) records the equality and characteristic hypotheses.
 The accepted local power-socle theorem in
 [the root theorem](#2026-10-14-generalization-normal-index-socle-theorem)
 and its
