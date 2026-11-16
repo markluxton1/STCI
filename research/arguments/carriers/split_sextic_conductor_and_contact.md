@@ -703,8 +703,3 @@ asserts no projective realization with prescribed degrees.
 
 The [full two totally ramified-root reduction](split_sextic_two_ramified_roots.md#two-totally-ramified-residual-roots-a-full-higher-jet-reduction) treats the entire stated two-root family, including the zero-polynomial stratum, and leaves an explicit one-parameter carrier line. It is distinct from the preceding first-normal and numerical restrictions.
 
-## Consolidation review
-
-Independent review reconstructed all preserved P019/P020/P022/P023/P027/P030/P041/P042 arguments, source coverage and characteristic boundaries, including the entire-conductor qualification for global invariants. The separate full two-ramified-root reduction was also independently reconstructed and accepted. The bounded proof clarifications in this account
-were checked against the original arguments; no material preservation finding
-remains. The claims retain their stated hypotheses.
