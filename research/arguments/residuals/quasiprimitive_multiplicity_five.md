@@ -802,10 +802,9 @@ exclusion in P-025 on every chart.
 
 ## Validation and limits
 
-The script passed on 2026-10-05 using SymPy and exact rational arithmetic.
-It independently reconstructs the entire type-A claim rather than accepting
-its previously recorded terminal vector as an input. No approximate
-root-finding, finite-field scan, or frozen transition coefficient is used.
+The exact rational-arithmetic script reconstructs the type-A claim without
+assuming its terminal vector. It uses no approximate root-finding,
+finite-field scan, or frozen transition coefficient.
 The original Bănică--Forster classification of the relevant structures remains
 the theoretical input. The conclusion excludes the stated multiplicity-five
 type on `C0`; it imposes no bound on other degree pairs.
