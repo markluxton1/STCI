@@ -394,7 +394,7 @@ reported as closure of this global seventeen-equation problem.
 
 ## Required evidence for an exclusion
 
-The global seventeen-equation incidence remains unresolved. An exclusion by saturation must use the original domain δEΔ1, without silently adding a cover discriminant, K, coefficient or j inverse. A unit-ideal output needs an exact identity in the declared original generators and complete coverage of the stated boundary. A bounded attempt or its process-control checks supplies neither.
+The global seventeen-equation incidence remains unresolved. The scheme-level ODE equivalence uses unimodularity only after localization at the actual domain `delta*E*Delta1`; the degree-five H2 branch and omitted projection boundaries remain outside any claimed exclusion. An exclusion by saturation must use the original domain δEΔ1, without silently adding a cover discriminant, K, coefficient or j inverse. A unit-ideal output needs an exact identity in the declared original generators and complete coverage of the stated boundary. A bounded attempt or its process-control checks supplies neither.
 
 
 ### Archived exact certificate: `research/computations/generalization_quintic_h2_global_monic_ode_export_2026_10_15_attempt02.m2`
