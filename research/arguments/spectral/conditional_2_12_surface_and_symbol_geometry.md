@@ -432,7 +432,7 @@ divisibility and retains every zero of `alpha`.
 
 For the seed in section 3, `G0=(z/8)u^2v-(3/4)uv^2+(z/8)v^3`.
 The `73 x 39` system (11) has coefficient rank 39 and augmented rank 40.
-The [exact annihilating row](../carriers/normalization_conductor_phase2_addendum.md#exact-failed-seed-the-row-also-kills-the-free-lift)
+The [exact annihilating row](../carriers/normalization_conductor_phase2_addendum.md#explicit-torsion-two-seed-failing-the-cubic-lift)
 annihilates all 23 sextic and sixteen correction columns, including the
 cubic direction of `q^3`, and pairs with the target to `-384`. This
 excludes the entire affine line (4) at that seed. The independent audit
