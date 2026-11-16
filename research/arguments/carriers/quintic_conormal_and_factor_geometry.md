@@ -1,17 +1,8 @@
-# Quintic carrier conormal and factors
-
-Original mathematical content and its qualifications are retained verbatim. Relative links refer to the source's original supplement location.
-
 # Quintic carriers: conormal, factorization, residual divisors and low-pole spaces
 
 ## Integration guide: carrier structure is not mate existence
 
 The conormal, factorization, residual-divisor, and low-pole-space analyses impose **necessary restrictions on a quintic carrier**. They do not automatically produce or exclude a homogeneous mate. The [endpoint jet/power-descent proofs](quintic_endpoint_jets_and_power_descent.md), [endpoint residual-support calculations](quintic_endpoint_residual_support_and_excess.md), and [intrinsic A4 conductor/sextic incidence](quintic_a4_contact_and_norm.md#quintic-a4-conductor-actual-contact-and-homogeneous-norm) test additional compatibility conditions. The normalization, factorization, and mate-existence steps have distinct hypotheses; retain their separate computations and counterexamples.
-
----
-
-
-Permanent mathematical supplement. The following five complete analyses retain their exact hypotheses, arguments, computations, limitations and corrections. Their constituent proofs are organized by subject rather than by chronological authority.
 
 ---
 
@@ -618,7 +609,6 @@ For \(a\ne0\), the factorization gives an integral genus-one residual, \(Q\)-typ
 
 # Exact low pole spaces on the degree-five A4 normalization
 
-Date: 2026-10-11. Owner: `oct11_nonendpoint_quadric_structure/nonendpoint_pole_spaces`.
 
 The original note recorded its direct proof as pending parent review. The
 complete filtration derivation is linked below. Its section spaces through
