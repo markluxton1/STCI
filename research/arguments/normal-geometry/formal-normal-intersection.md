@@ -376,24 +376,9 @@ of \(C\). In particular, the genuinely thick-carrier escape route cannot begin
 below degree six.
 
 
-## Consolidated historical supplement: `research/supplements/HIGHER_INITIAL_IDEALS_AND_EMBEDDED_THICKENINGS.md`
+## Higher initial ideals and embedded thickenings
 
-# higher initial ideals and embedded thickenings
-
-## Integration guide: cancellations and higher embedded data
-
-The [higher-initial investigation](#2026-10-21-higher-initial-ideals-valuations) records how cancellations between leading normal forms create higher initial generators; the explicit examples must be retained because they rule out replacing the full initial ideal with just the first symbols. The [embedded ribbon/triple obstruction](#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction) concerns a different global extension and gluing problem, with its own Čech and coordinate-invariance hypotheses.
-
-Compare the [full ideal-filtration diagram](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), the [valuation length counterexample](../torus/coefficient_valuations.md), and the [boundary equation-module test](../one_step_boundary_repair.md#2026-10-27-one-step-boundary-obstruction). The common obstruction to an overly simple approach is loss of higher-order or gluing information, **not** a theorem that any given local thickening fails globally.
-
-The original coprime theorem, examples, and unreviewed status remain intact below.
-
----
-
-
-Complete mathematical arguments and exploratory boundaries preserved. Conditional conclusions remain conditional; computational and geometric obstructions are not asserted beyond their original hypotheses.
-
----
+The [higher-initial investigation](#2026-10-21-higher-initial-ideals-valuations) distinguishes cancellations between leading normal forms from the full initial ideal; its explicit counterexamples prohibit replacing the latter by two displayed symbols. The [embedded ribbon/triple obstruction](#2026-10-21-intrinsic-embedded-ribbon-triple-obstruction) is a separate global gluing problem, requiring its fixed-quotient, Čech, and coordinate-invariance hypotheses. Compare [ideal filtrations](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-ideal-filtrations-independent-investigationmd), [valuation counterexamples](../torus/coefficient_valuations.md), and [actual equation-module lifting](../one_step_boundary_repair.md#2026-10-27-one-step-boundary-obstruction). None gives a universal STCI obstruction.
 
 ## 2026-10-21-higher-initial-ideals-valuations
 
