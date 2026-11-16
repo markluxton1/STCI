@@ -1,6 +1,6 @@
 # Quadratic covers, projected thickenings and conductor descent
 
-**Scope and status.** Independently reviewed mathematics. Fix the smooth rational quartic \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), over an algebraically closed field. Characteristic zero is the default; every positive-characteristic statement below identifies its extra hypotheses. Characteristic-zero STCI remains open.
+**Scope.** Fix the smooth rational quartic \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), over an algebraically closed field. Characteristic zero is the default; every positive-characteristic statement below identifies its extra hypotheses. Characteristic-zero STCI remains open.
 
 This chapter asks which multiple structures and intersections with this
 support can arise from actual homogeneous equations, and what projection
@@ -1003,7 +1003,7 @@ presuming either existence or nonexistence of a supported pair.
 
 ## Independent review and scope
 
-Independent reconstruction checked the projected-source and arbitrary-pair distinction, full primary extraction, conductor and attachment formulas, characteristic bounds, and conjugate descent. The degree-d theorem was proved again with full finite-birational, module-generation, CM and support hypotheses, including the nonreduced setting, exact shifts and Hilbert inequalities. No incompatible upper boundary bound, AG conjugate union, or unrestricted STCI conclusion follows.
+The degree-\(d\) theorem uses finite birationality, module generation, Cohen–Macaulay and support hypotheses, including the nonreduced setting, exact shifts and Hilbert inequalities. It does not give an incompatible upper boundary bound, an arithmetically Gorenstein conjugate union, or an unrestricted STCI conclusion.
 
 The separately reviewed norm/postulation theorem is retained with its full actual-ring proof, including nilpotent h, nonsquare polynomial norm, parity cutoff, and characteristic boundaries. The conductor-endomorphism application retains its scoped source review: it identifies section completion and the actual quadratic graph presentation, without an embedded ACM repair or a new exclusion. These additions do not re-certify unrelated source material.
 
