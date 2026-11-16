@@ -1,0 +1,740 @@
+{
+  "status": "actual endpoint-four sextic realization; no mate claim",
+  "accepted_input": "research/computations/conditional_2_12_symbol_map_2026_10_20.json",
+  "accepted_input_sha256": "06d352e09f6592315922b68e1b1469e4490d53d431a57b3ec605b171a7abd1d4",
+  "premises_not_rerun": [
+    "source dimension 23",
+    "symbol rank 22",
+    "kernel k*q^3"
+  ],
+  "coefficient_ring": "QQ[a0,b1,b2,kappa]; cyclotomic specialization afterward",
+  "ambient_generators": {
+    "q": "x0*x3-x1*x2",
+    "D": "x2^3-x1*x3^2"
+  },
+  "frame": "(x0,x1,x2,x3)=(1,z,z^3+v,z^4+u+(3/2)*z*v)",
+  "target_root": {
+    "a": "a0+2*b2*z+z^2",
+    "b": "b1*z+b2*z^2",
+    "c": "(b1/2-a0/4)*z^2",
+    "alpha": "z^8"
+  },
+  "actual_formula": "(2*b1-a0)*q^2*x3^2+(b1-a0)*q*D*x2-b2*q*D*x3+D^2/4+kappa*q^3",
+  "cyclotomic_specialization": "b1=a0*(rho+1)/2; rho^12=1, rho!=1; a0!=0",
+  "actual_torus": {
+    "ambient": "T_lambda=diag(1,lambda,lambda^3,lambda^4)",
+    "equation": "lambda^-18 F(T_lambda*x)",
+    "parameter_action": "a0,b1 -> lambda^-2(a0,b1); b2 -> lambda^-1*b2; kappa -> lambda^-6*kappa",
+    "normalization": "lambda^2=a0 gives a0=1 on a finite etale square-root cover",
+    "residual_action": "mu2 changes sign of b2 and fixes b1,kappa"
+  },
+  "image_basis_coefficients": {
+    "a0": {
+      "q^2*1*x3^2": "-1",
+      "q*D*x2": "-1"
+    },
+    "b1": {
+      "q^2*1*x3^2": "2",
+      "q*D*x2": "1"
+    },
+    "b2": {
+      "q*D*x3": "-1"
+    },
+    "constant": {
+      "D*D": "1/4"
+    }
+  },
+  "ambient_exponent_order": [
+    "x0",
+    "x1",
+    "x2",
+    "x3"
+  ],
+  "ambient_parameter_blocks": {
+    "a0": [
+      {
+        "exponents": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponents": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "coefficient": "-2"
+      },
+      {
+        "exponents": [
+          1,
+          0,
+          4,
+          1
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponents": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "coefficient": "3"
+      },
+      {
+        "exponents": [
+          2,
+          0,
+          0,
+          4
+        ],
+        "coefficient": "-1"
+      }
+    ],
+    "b1": [
+      {
+        "exponents": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponents": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "coefficient": "3"
+      },
+      {
+        "exponents": [
+          1,
+          0,
+          4,
+          1
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponents": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "coefficient": "-5"
+      },
+      {
+        "exponents": [
+          2,
+          0,
+          0,
+          4
+        ],
+        "coefficient": "2"
+      }
+    ],
+    "b2": [
+      {
+        "exponents": [
+          0,
+          1,
+          4,
+          1
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponents": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponents": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponents": [
+          1,
+          1,
+          0,
+          4
+        ],
+        "coefficient": "1"
+      }
+    ],
+    "constant": [
+      {
+        "exponents": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "coefficient": "1/4"
+      },
+      {
+        "exponents": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "coefficient": "-1/2"
+      },
+      {
+        "exponents": [
+          0,
+          2,
+          0,
+          4
+        ],
+        "coefficient": "1/4"
+      }
+    ],
+    "kappa": [
+      {
+        "exponents": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponents": [
+          1,
+          2,
+          2,
+          1
+        ],
+        "coefficient": "3"
+      },
+      {
+        "exponents": [
+          2,
+          1,
+          1,
+          2
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "exponents": [
+          3,
+          0,
+          0,
+          3
+        ],
+        "coefficient": "1"
+      }
+    ]
+  },
+  "chart_exponent_order": [
+    "z",
+    "u",
+    "v"
+  ],
+  "full_chart_parameter_blocks": {
+    "a0": [
+      {
+        "exponents": [
+          0,
+          1,
+          4
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponents": [
+          0,
+          4,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponents": [
+          1,
+          0,
+          5
+        ],
+        "coefficient": "-1/2"
+      },
+      {
+        "exponents": [
+          1,
+          3,
+          1
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "exponents": [
+          2,
+          2,
+          2
+        ],
+        "coefficient": "-2"
+      },
+      {
+        "exponents": [
+          3,
+          1,
+          3
+        ],
+        "coefficient": "-13/4"
+      },
+      {
+        "exponents": [
+          4,
+          0,
+          4
+        ],
+        "coefficient": "-23/16"
+      },
+      {
+        "exponents": [
+          4,
+          3,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponents": [
+          5,
+          2,
+          1
+        ],
+        "coefficient": "1/2"
+      },
+      {
+        "exponents": [
+          6,
+          1,
+          2
+        ],
+        "coefficient": "-7/4"
+      },
+      {
+        "exponents": [
+          7,
+          0,
+          3
+        ],
+        "coefficient": "-9/8"
+      },
+      {
+        "exponents": [
+          8,
+          2,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponents": [
+          10,
+          0,
+          2
+        ],
+        "coefficient": "-1/4"
+      }
+    ],
+    "b1": [
+      {
+        "exponents": [
+          0,
+          1,
+          4
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponents": [
+          0,
+          4,
+          0
+        ],
+        "coefficient": "2"
+      },
+      {
+        "exponents": [
+          1,
+          0,
+          5
+        ],
+        "coefficient": "1/2"
+      },
+      {
+        "exponents": [
+          1,
+          3,
+          1
+        ],
+        "coefficient": "7"
+      },
+      {
+        "exponents": [
+          2,
+          2,
+          2
+        ],
+        "coefficient": "15/2"
+      },
+      {
+        "exponents": [
+          3,
+          1,
+          3
+        ],
+        "coefficient": "25/4"
+      },
+      {
+        "exponents": [
+          4,
+          0,
+          4
+        ],
+        "coefficient": "2"
+      },
+      {
+        "exponents": [
+          4,
+          3,
+          0
+        ],
+        "coefficient": "3"
+      },
+      {
+        "exponents": [
+          5,
+          2,
+          1
+        ],
+        "coefficient": "9/2"
+      },
+      {
+        "exponents": [
+          6,
+          1,
+          2
+        ],
+        "coefficient": "21/4"
+      },
+      {
+        "exponents": [
+          7,
+          0,
+          3
+        ],
+        "coefficient": "15/8"
+      },
+      {
+        "exponents": [
+          9,
+          1,
+          1
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponents": [
+          10,
+          0,
+          2
+        ],
+        "coefficient": "1/2"
+      }
+    ],
+    "b2": [
+      {
+        "exponents": [
+          0,
+          2,
+          3
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "exponents": [
+          1,
+          1,
+          4
+        ],
+        "coefficient": "-2"
+      },
+      {
+        "exponents": [
+          1,
+          4,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponents": [
+          2,
+          0,
+          5
+        ],
+        "coefficient": "-3/4"
+      },
+      {
+        "exponents": [
+          2,
+          3,
+          1
+        ],
+        "coefficient": "5"
+      },
+      {
+        "exponents": [
+          3,
+          2,
+          2
+        ],
+        "coefficient": "6"
+      },
+      {
+        "exponents": [
+          4,
+          1,
+          3
+        ],
+        "coefficient": "-1/4"
+      },
+      {
+        "exponents": [
+          5,
+          0,
+          4
+        ],
+        "coefficient": "-17/16"
+      },
+      {
+        "exponents": [
+          5,
+          3,
+          0
+        ],
+        "coefficient": "3"
+      },
+      {
+        "exponents": [
+          6,
+          2,
+          1
+        ],
+        "coefficient": "15/2"
+      },
+      {
+        "exponents": [
+          7,
+          1,
+          2
+        ],
+        "coefficient": "9/4"
+      },
+      {
+        "exponents": [
+          8,
+          0,
+          3
+        ],
+        "coefficient": "-3/8"
+      },
+      {
+        "exponents": [
+          9,
+          2,
+          0
+        ],
+        "coefficient": "2"
+      },
+      {
+        "exponents": [
+          10,
+          1,
+          1
+        ],
+        "coefficient": "1"
+      }
+    ],
+    "constant": [
+      {
+        "exponents": [
+          0,
+          0,
+          6
+        ],
+        "coefficient": "1/4"
+      },
+      {
+        "exponents": [
+          1,
+          2,
+          3
+        ],
+        "coefficient": "-1/2"
+      },
+      {
+        "exponents": [
+          2,
+          1,
+          4
+        ],
+        "coefficient": "-3/2"
+      },
+      {
+        "exponents": [
+          2,
+          4,
+          0
+        ],
+        "coefficient": "1/4"
+      },
+      {
+        "exponents": [
+          3,
+          0,
+          5
+        ],
+        "coefficient": "3/8"
+      },
+      {
+        "exponents": [
+          3,
+          3,
+          1
+        ],
+        "coefficient": "3/2"
+      },
+      {
+        "exponents": [
+          4,
+          2,
+          2
+        ],
+        "coefficient": "15/8"
+      },
+      {
+        "exponents": [
+          5,
+          1,
+          3
+        ],
+        "coefficient": "-17/8"
+      },
+      {
+        "exponents": [
+          6,
+          0,
+          4
+        ],
+        "coefficient": "9/64"
+      },
+      {
+        "exponents": [
+          6,
+          3,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponents": [
+          7,
+          2,
+          1
+        ],
+        "coefficient": "3"
+      },
+      {
+        "exponents": [
+          8,
+          1,
+          2
+        ],
+        "coefficient": "-3/4"
+      },
+      {
+        "exponents": [
+          10,
+          2,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ],
+    "kappa": [
+      {
+        "exponents": [
+          0,
+          3,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "exponents": [
+          1,
+          2,
+          1
+        ],
+        "coefficient": "3/2"
+      },
+      {
+        "exponents": [
+          2,
+          1,
+          2
+        ],
+        "coefficient": "3/4"
+      },
+      {
+        "exponents": [
+          3,
+          0,
+          3
+        ],
+        "coefficient": "1/8"
+      }
+    ]
+  },
+  "checks": [
+    "four exact target right-hand sides solved",
+    "actual ambient substitution has target second symbol",
+    "zeroth and first normal symbols vanish",
+    "all ambient blocks homogeneous of degree six",
+    "L0-order is three for kappa block and four for all other blocks",
+    "actual torus weights agree with the stated square-root normalization"
+  ],
+  "limitations": [
+    "a0 remains free in the universal formula; a0=1 requires the recorded torus cover",
+    "root open and nodal torsion condition retained, not solved",
+    "no higher compatible ambient root lift or G16 is asserted"
+  ]
+}

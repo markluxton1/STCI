@@ -1,0 +1,58 @@
+---
+id: STCI-R-0016
+title: "Effective resultant budget for nonsaturated actual first relations"
+kind: theorem
+scope:
+  characteristic: "algebraically closed field of characteristic zero"
+  curve: "smooth connected projective curve in smooth threefold"
+  hypotheses:
+    - "Actual lci thickening Y with unique reduced support C"
+    - "Full generic ordinary initial algebra a coprime binary CI of degrees 2<=r<s"
+    - "First actual kernel K_r=R(-D), R its line-subbundle saturation, D effective; saturated filtration and generation lengths c_j as in source"
+statement: "The quotient-relation resultant defines an effective divisor Delta supported on first-relation saturation defects, with deg Delta=(r-1)c_(s-1)-r*c_s and 0<=deg Delta<=(r-1)*binom(s-r,2)*length(D). For gaps s-r<=2 normal flatness follows, without assuming the first kernel is saturated."
+dependencies:
+  - STCI-R-0010
+  - STCI-R-0011
+evidence:
+  - "research/arguments/spectral/spectral_torsion_and_syzygy_splitting.md#first-relation-and-spectral-roots"
+  - "research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md"
+  - "research/arguments/spectral/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
+independent_audits:
+  - "research/arguments/spectral/spectral_torsion_and_syzygy_splitting.md#first-relation-and-spectral-roots"
+  - "research/arguments/normal-geometry/normal_flatness_and_filtered_ci.md"
+  - "research/arguments/spectral/spectral_pushforward_powers.md#saturated-duality-root-descent-and-embedded-formal-surfaces"
+legacy_ids: []
+supersedes: []
+superseded_by: []
+limitations:
+  - "The formula is conditional on full generic binary CI and actual lci with unique support; it is not a general STCI obstruction."
+  - "Nonsaturated roots may pay an effective degeneration divisor, rather than being excluded."
+  - "Local gap-three counterexamples do not establish global homogeneous examples."
+  - "R0010 is a comparison/special case, not an input establishing the nonsaturated resultant formula; R0011 is used only for the optional repeated-root strengthening."
+---
+
+# Effective resultant budget for nonsaturated actual first relations
+
+## Statement and hypotheses
+
+The quotient-relation resultant defines an effective divisor Delta supported on first-relation saturation defects, with deg Delta=(r-1)c_(s-1)-r*c_s and 0<=deg Delta<=(r-1)*binom(s-r,2)*length(D). For gaps s-r<=2 normal flatness follows, without assuming the first kernel is saturated.
+
+- Actual lci thickening Y with unique reduced support C
+- Full generic ordinary initial algebra a coprime binary CI of degrees 2<=r<s
+- First actual kernel K_r=R(-D), R its line-subbundle saturation, D effective; saturated filtration and generation lengths c_j as in source
+
+## Proof, verification, and acceptance
+
+The principal formula uses the separately proved saturated Gorenstein-duality and local exact-order normal-flatness lemmas listed as evidence, not R0010 applied to a nonsaturated first relation. R0010 is a comparison theorem for the zero-defect saturated case; R0011 enters only the additional repeated-root payment argument. Saturated Gorenstein duality computes the quotient relation line and the degree of its resultant section; the independent audit reconstructs the defect sheaves, signs, support and gap-two local classification. The source separately supplies the stronger pure-power defect payment with the denominator restriction s-r>=2. R0010 covers the zero-defect saturated special case; this record does not weaken its assumptions.
+
+Full proofs and their recorded independent reconstruction reside in the linked evidence and audits above.
+
+## Limitations
+
+- The formula is conditional on full generic binary CI and actual lci with unique support; it is not a general STCI obstruction.
+- Nonsaturated roots may pay an effective degeneration divisor, rather than being excluded.
+- Local gap-three counterexamples do not establish global homogeneous examples.
+
+## Current proof navigation
+
+The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.

@@ -1,0 +1,66 @@
+{
+  "execution": {
+    "command": "PYTHONPATH=/private/tmp/stci-symbolic python3 /private/tmp/stci-toric-finite-center-incidence.py",
+    "python": "3.15.2",
+    "sympy": "1.14.0"
+  },
+  "orbit_formula": {
+    "GL2_change": "U=u+v, V=q*u+r*v",
+    "coefficient_u2v2": [
+      "6",
+      "3*q + 3*r",
+      "q**2 + 4*q*r + r**2",
+      "3*q**2*r + 3*q*r**2",
+      "6*q**2*r**2"
+    ],
+    "determinant": "r-q",
+    "symmetric_parameters": "m=r+q, n=r*q"
+  },
+  "center": {
+    "a": "3*m*n",
+    "b": "3*(m+2)",
+    "c": "m^2+2*n+3*m",
+    "d": "m^2+2*n+3*m*n",
+    "e": "m^2+2*n+6*m*n+6*n^2",
+    "K_QP": "-(m**2 - 4*n)*(m**2 + 3*m - n + 3)"
+  },
+  "R_at_center": "-(m**2 - 4*n)*(m**4 + 6*m**3*n + 9*m**2*n**2 + m**2*n + 9*m*n**3 - 6*m*n**2 - 2*n**2)",
+  "generic_W_coefficients_low_to_high": {
+    "0": "(m**2 + 3*m - n + 3)*(m**4 + 3*m**3 + 4*m**2*n + 3*m**2 + 6*m*n + 4*n**2 - 12*n)",
+    "1": "-m**6 - 9*m**5*n - 6*m**5 - 48*m**4*n - 9*m**4 - 18*m**3*n**2 - 78*m**3*n + 9*m**3 - 81*m**2*n**2 + 9*m**2*n + 27*m**2 - 78*m*n**2 + 126*m*n - 32*n**3 + 108*n**2",
+    "2": "m**6 + 6*m**5*n + 30*m**4*n**2 + 12*m**4*n - 21*m**4 + 132*m**3*n**2 - 72*m**3*n - 45*m**3 + 39*m**2*n**3 + 108*m**2*n**2 - 237*m**2*n + 132*m*n**3 - 252*m*n**2 - 36*m*n + 12*n**4 - 40*n**3 - 12*n**2",
+    "3": "m**6 + 12*m**5 - 9*m**4*n**2 + 48*m**4*n + 30*m**4 - 45*m**3*n**3 + 54*m**3*n**2 + 183*m**3*n - 126*m**2*n**3 + 333*m**2*n**2 + 39*m**2*n - 36*m*n**4 + 108*m*n**3 + 48*m*n**2 - 4*n**3 + 12*n**2",
+    "4": "-2*m**6 - 12*m**5*n - 9*m**5 - 18*m**4*n**2 - 69*m**4*n - 9*m**3*n**3 - 147*m**3*n**2 - 18*m**3*n + 27*m**2*n**4 - 171*m**2*n**3 - 18*m**2*n**2 - 18*m*n**4 - 30*m*n**3 + 8*n**3",
+    "5": "(m**2 + 3*m*n + 2*n)*(m**4 + 6*m**3*n + 9*m**2*n**2 + m**2*n + 9*m*n**3 - 6*m*n**2 - 2*n**2)"
+  },
+  "symmetrize_remainders": {
+    "0": "0",
+    "1": "0",
+    "2": "0",
+    "3": "0",
+    "4": "0",
+    "5": "0"
+  },
+  "W_leading": "(m**2 + 3*m*n + 2*n)*(m**4 + 6*m**3*n + 9*m**2*n**2 + m**2*n + 9*m*n**3 - 6*m*n**2 - 2*n**2)",
+  "W_at_0": "(m**2 + 3*m - n + 3)*(m**4 + 3*m**3 + 4*m**2*n + 3*m**2 + 6*m*n + 4*n**2 - 12*n)",
+  "W_at_minus1": "-(m**2 + 3*m - n + 3)*(m**2 + 6*m + 2*n + 6)*(m**2 + 6*m*n + 6*n**2 + 2*n)",
+  "resultant_W_H": "(m**2 - 4*n)**4*(m**2 + 3*m*n + 2*n)**2*(m**2 + 3*m - n + 3)**3*(11*m**4 + 15*m**3*n + 36*m**3 + 21*m**2*n**2 + 8*m**2*n + 39*m**2 + 9*m*n**3 + 30*m*n**2 - 45*m*n + 27*m + 6*n**3 + 8*n**2 - 30*n + 18)",
+  "corrected_generic_extra_point_gate": "For finite distinct r,q with K!=0 and d*N*U0*V1*V2*M!=0, W has degree 5 and no root in {0,-1} union {H=0}; hence a finite off-c inverse point exists.",
+  "finite_exception_factors": {
+    "d": "m^2+2*n+3*m*n",
+    "N": "m**4 + 6*m**3*n + 9*m**2*n**2 + m**2*n + 9*m*n**3 - 6*m*n**2 - 2*n**2",
+    "U0": "m**4 + 3*m**3 + 4*m**2*n + 3*m**2 + 6*m*n + 4*n**2 - 12*n",
+    "V1": "m**2 + 6*m + 2*n + 6",
+    "V2": "m**2 + 6*m*n + 6*n**2 + 2*n",
+    "M": "11*m**4 + 15*m**3*n + 36*m**3 + 21*m**2*n**2 + 8*m**2*n + 39*m**2 + 9*m*n**3 + 30*m*n**2 - 45*m*n + 27*m + 6*n**3 + 8*n**2 - 30*n + 18"
+  },
+  "infinity_fiber": {
+    "Q": "lambda*(d+lambda*K)",
+    "R": "lambda^3*R(P)",
+    "extra_condition": "d!=0 and R(P)=0, equivalently d!=0 and N=0 for r!=q."
+  },
+  "d_zero_curve": "n=-m^2/(3*m+2); W has degree 4 for admissible distinct centers. Numerators of rem_t([t(t+1)H]^5,W) have gcd 243*(m+2)^5, whose only root m=-2 is diagonal; thus no full inverse support on d=0.",
+  "Q_P_zero": "All admissible finite distinct-pair centers on Q(P)=0 have an extra point, by the explicit cases in the accompanying message.",
+  "exact_remaining_finite_incidence": "Only U0*V1*V2*M=0 with Disc*K0*d*N!=0 remains. For each such specialization, let W_actual be the common residual gcd of the specialized R/l,T/l after lambda=-t(t+1)H/K, with universal t(t+1) factors removed. Full inverse support is equivalent to W_actual!=0 and rad(W_actual) dividing rad(t(t+1)H); when deg W_actual<=5 this is W_actual | [t(t+1)H]^5. No classification of this residual incidence is claimed.",
+  "scope": "Finite distinct-pair orbit chart only; one-infinity chart is handled separately."
+}

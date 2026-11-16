@@ -1,0 +1,45 @@
+name: Research records
+on:
+  pull_request:
+    paths:
+      - "research/results/**"
+      - "research/frameworks/**"
+      - "research/computations/validate_records.py"
+      - "research/computations/validate_result_records.py"
+      - ".github/workflows/research-records.yml"
+  push:
+    branches: [main]
+    paths:
+      - "research/results/**"
+      - "research/frameworks/**"
+      - "research/computations/validate_records.py"
+      - "research/computations/validate_result_records.py"
+      - ".github/workflows/research-records.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install -r scripts/requirements-research.txt
+      - run: python3 scripts/research.py validate
+
+  replay-r0025:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify the R-0025 jet matrix and modular rank
+        shell: bash
+        run: python3 -B research/results/ci_fixed_sextic_jet_rigidity.support/verify.py | tee "$RUNNER_TEMP/r0025-replay.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: r0025-independent-replay
+          path: ${{ runner.temp }}/r0025-replay.json
