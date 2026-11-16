@@ -288,8 +288,9 @@ also has different hypotheses: (2) leaves different endpoint rulings for
 the two equations. None of these scoped exclusions is being rerun or
 expanded to justify the present full correction calculation.
 
-The new result closes this whole explicit elementary-modification source
-and gives its uniform positive residual floor. It supplies no exclusion
+The result closes this whole explicit elementary-modification source
+and gives its uniform positive residual floor, conditional in the zero-T
+branch on the separately proved actual-pair blowup inequality. It supplies no exclusion
 of all sextic pairs, all elementary modifications, or unrestricted STCI.
 One successful source would have settled existence; failure of this
 source has no exhaustive implication. The reusable calculation is to
