@@ -391,7 +391,7 @@ are the same element of `K` precisely when `m|e` and
 `zeta_i^e=1` for all `i`. These are intrinsic order conditions,
 so choosing different embeddings cannot change the least exponent.
 
-A single field has no relative phase factor:
+A single residual field has no relative phase factor:
 
 ```
 e=m divides [E:K].
