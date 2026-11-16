@@ -210,18 +210,7 @@ The three complete proofs below are the independently reconstructed spectral, de
 
 # Independent audit: one eta spectral accelerator for the shared ODE
 
-Date: 2026-10-15.
-
-Status: **PASS. The proposed single spectral polynomial belongs to
-the localized shared ODE ideal, with exact scheme-theoretic scope,
-including nonreduced parameter rings.** The accepted ODE presentation,
-coefficient unimodularity, derived degree equation and degree-six
-Hamiltonian characteristic polynomial are premises and were not
-replayed.
-
-This note audits only the new degree-five spectral input and its
-combination with the accepted shared ODE. It gives no actual-parameter
-emptiness or conductor-descent conclusion.
+The degree-five spectral polynomial belongs to the localized shared ODE ideal, including over nonreduced parameter rings. This uses the ODE presentation, coefficient unimodularity, degree equation, and degree-six Hamiltonian characteristic polynomial as inputs. No actual-parameter emptiness or conductor descent follows.
 
 The reviewed proposal is
 [the unified spectral-accelerator note](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/QUINTIC_H2_SPECTRAL_AND_GENERATOR_SYSTEM.md#2026-10-15-generalization-quintic-h2-eta-spectral-independent-audit).
