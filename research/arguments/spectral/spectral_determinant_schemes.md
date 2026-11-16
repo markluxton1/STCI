@@ -179,14 +179,6 @@ equations, support-preserving formal lift or projective pair follow.
 
 ## Review and remaining questions
 
-Independent review on 2026-10-31 by `review_determinant_schemes` (GPT-6.1 Sol,
-high reasoning) reconstructed the family cohomology complex, Picard evaluation
-divisor, arbitrary-base-change assertion, characteristic scope, scheme gcd
-identity and universal graded construction over nonreduced bases. It also
-checked the distinction between fixed-curve fiber multiplicity and total
-parameter-space multiplicity, and the primary-source scope. The review found
-no material error or unresolved proof gap. The fixed-curve Picard citation
-was relabeled to avoid attributing the relative proof to that narrower source.
 A separate `spectral_determinant` continuation checked the varying-B tangent
 argument in characteristic two and the fixed-curve/total-space distinction;
 the earlier characteristic-zero origin-choice argument is not used there.
