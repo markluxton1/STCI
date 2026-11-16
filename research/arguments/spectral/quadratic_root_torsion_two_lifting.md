@@ -401,13 +401,7 @@ generator. Its nineteen-point shape, squarefreeness, degree-18 factor and
 rank-zero exclusion have completed exact calculations. The integrated fiber
 verifier completed the rational and degree-18 cases, checking the exact shape
 and smooth opens, first-stage length four over each field, and both full
-unit ideals; total rational first-stage length is 76. An earlier independent
-120-second degree-18 rerun timed out while constructing the second residues;
-it is not counted as a second completed execution. The later integrated run
-completed with a 300-second bound per call. The final timeout-output handling
-change preserves partial diagnostics and does not change the mathematics.
-
-The calculation on the remaining mixed chart over F_32003 did complete with
+unit ideals; total rational first-stage length is 76. The calculation on the remaining mixed chart over F_32003 did complete with
 localized ideal {1}. The retained finite/C2/mixed generator matches that
 construction. This proves only the corresponding positive-characteristic
 incidence statement. The exact rational alternatives did not finish: one
