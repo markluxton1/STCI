@@ -300,6 +300,76 @@ search by a proper-pencil incidence on a specified Hilbert family.
 This is distinct from checking the Chow cycle of an improper
 equation limit.
 
+## Clean cancellation and residual descent
+
+A torus limit of a proper degree-\((a,b)\) pair may acquire a
+common initial factor even though its **full** weight-initial ideal
+is flat. Write the two extreme forms as \(F_0=Hu\), \(G_0=Hv\),
+where \(H\) is their full gcd, \(h=\deg H>0\), and
+\(\gcd(u,v)=1\). The first nonzero coefficient of the normalized
+cancellation \(vF_t-uG_t\) is a homogeneous eigenform
+\(D_0\in(u,v)\) of ordinary degree \(a+b-h\); it belongs to the
+full weight-initial ideal \(J_0\).
+
+**Clean-cancellation proposition.** If \(\gcd(H,D_0)=1\), then
+\[
+ J_0=(Hu,Hv,D_0),\qquad
+ [\operatorname{Proj}(S/J_0)]
+   =[\operatorname{Proj}(S/(u,v))]
+    +[\operatorname{Proj}(S/(H,D_0))].
+\]
+The first cycle is omitted if one of \(u,v\) is a unit.
+The ideal \(J_0\) is saturated and arithmetically
+Cohen--Macaulay, without embedded components.
+
+Indeed, put \(U=(u,v)\), \(K=(HU,D_0)\).
+The assumption that \((H,D_0)\) is a regular sequence,
+together with \(D_0\in U\), gives the exact sequence
+\[
+ 0\longrightarrow S/U(-h)
+   \xrightarrow{\ H\ }S/K
+   \longrightarrow S/(H,D_0)\longrightarrow0.
+\]
+The outer quotients are codimension-two complete intersections
+when nonzero; the depth lemma makes \(S/K\) Cohen--Macaulay
+of dimension two. Its Hilbert numerator is
+\[
+ z^h(1-z^{a-h})(1-z^{b-h})
+ +(1-z^h)(1-z^{a+b-h})
+ =1-z^a-z^b+z^{a+b}.
+\]
+Since \(K\subseteq J_0\) and the latter is the flat weight
+initial ideal of the original complete intersection, equality
+of Hilbert series forces \(K=J_0\).
+
+For the integral quartic \(C\), if an actual sole-supported
+pair existed, both full torus limits would have radical
+\(I_C\). In the clean case each nonempty summand above would
+then be an eigenform complete intersection with reduced support
+\(C\), contrary to the established eigenform trace obstruction
+[R-0042](../results/eigenform_trace_obstruction.md) in
+characteristic zero. Consequently, **in each direction**, the
+first nonzero cancellation must satisfy
+\(\gcd(H,D_0)\ne1\). This is a conditional necessary condition,
+not an exclusion of moving pairs. When \(h=\min(a,b)\), the
+unit-quotient case does not decrease the degree product;
+even in the other cases, common factors can require further
+parameter divisions and invalidate a naive residual induction.
+
+The proposition is a full-ideal statement: merely taking the
+intersection of extreme equation forms would miss the
+parameter-torsion corrections. For the normalized family
+\(A_t=S[t]/(F_t,G_t)\), its \(t\)-torsion
+\(\mathcal D=H^0_{(t)}(A_t)\) fits into
+\(0\to\mathcal D\to A_t\to B_t\to0\), where
+\(B_t\) is the flat contracted family. Since \(B_t\) is
+\(t\)-flat, specialization yields
+\(\mathcal D/t\mathcal D\simeq J_0/(F_0,G_0)\).
+This **presentation-dependent vertical excess** is not the
+intrinsic \(I_C\)-adic comparison defect R-0030; the two
+filtrations must not be identified without a compatible
+double-Rees comparison.
+
 ## What the boundary retains and what remains open
 
 All assertions about full limits above concern the embedded Hilbert
