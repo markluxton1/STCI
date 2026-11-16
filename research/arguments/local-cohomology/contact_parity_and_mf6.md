@@ -175,11 +175,8 @@ sum all four ideal-generator contributions and whose full product span has
 exact dimension74=dim E3[-3]. The older faulty script is not part of this
 proof.
 
-Validation on Oct6: the complete actual tensor and basis regenerated
-byte-identically; Macaulay2 1.26.06 reran the two-variable module calculation;
-the standard-library Python verifier checked the polynomial identity. The
-remaining degree0/1/2 direction strata and the complete finite quartic
-incidence remain separate research tasks.
+The remaining degree-0/1/2 direction strata and the complete finite quartic
+incidence are not settled by this certificate.
 
 
 ---
