@@ -1,6 +1,6 @@
 # Generic contact depth and surface thresholds
 
-This independently audited necessary-condition argument separates the common generic contact tree from vertical degeneration at closed points. It is unchanged in scope and supplies no unrestricted exclusion. Depth is measured after extending the generic function field; arithmetic residue degrees are instead retained in the integral point-basis account in [valuations and contact](valuations_and_residual_contact.md).
+This necessary-condition argument separates the common generic contact tree from vertical degeneration at closed points. It supplies no unrestricted exclusion. Depth is measured after extending the generic function field; arithmetic residue degrees are instead retained in the integral point-basis account in [valuations and contact](valuations_and_residual_contact.md).
 
 ## 1. Generic normal contact tree
 
