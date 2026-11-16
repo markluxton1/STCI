@@ -20,7 +20,7 @@ Work over an algebraically closed characteristic-zero field. The global
 monic exact-gcd-two incidence has parameters `delta,a,B,G,j,v,w` and
 `H=x²+vx+w`, on the original open `delta E Delta1 != 0`. Keep repeated
 roots of `H` and the inverse-map boundary. The full
-[monic ODE proof](https://github.com/markluxton1/STCI/blob/63b401a4b399c435fe292820dcbf630470e01ff6/research/supplements/QUINTIC_H2_MONIC_ODE_AND_OPEN_INCIDENCE.md#2026-10-15-generalization-quintic-h2-global-monic-ode-incidence)
+[monic ODE proof](extracted_quintic_h2_monic_ode_and_open_incidence.md#2026-10-15-generalization-quintic-h2-global-monic-ODE-incidence)
 retains all seventeen equations in nine variables, without inverting the
 discriminant or the inverse-map denominator. The
 [spectral/generator identities](../spectral/spectral_pushforward_boundary.md#quintic-h2-spectral-operators-determinant-generators-and-actual-coefficient-units)
