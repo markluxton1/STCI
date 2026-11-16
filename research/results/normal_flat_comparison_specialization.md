@@ -80,6 +80,4 @@ open here. See also the
 No identification of the full filtered
 scheme from its cone or defect and no global quartic realization follows.
 
-## Review
-
-The two-cone criterion and two-lowest-degree argument are proved in [the transverse-specialization Argument](../arguments/transverse_specialization.md). Normal flatness is a sufficient, not necessary, hypothesis for defect compatibility.
+Normal flatness is sufficient, not necessary, for defect compatibility.
