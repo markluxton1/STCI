@@ -171,6 +171,4 @@ establishes neither a characteristic-zero lift nor an STCI obstruction.
 The graded identification alone does not recover the nonlinear chart
 gluing of this embedded intersection.
 
-## Review
-
-The proof above computes both chart ideals, conormal transitions, corrected order-four lifts, the intrinsic filtration and nonlinear overlap. The comparison is canonical for the prescribed characteristic-two pair; it does not assert a lift to characteristic zero.
+The comparison is canonical for the prescribed characteristic-two pair; it does not assert a lift to characteristic zero.
