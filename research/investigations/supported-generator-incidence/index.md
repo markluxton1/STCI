@@ -116,6 +116,27 @@ determine a supported boundary ideal; conversely, a supported
 boundary with extra generators does not exclude a moving supported
 CI until its attracting family is tested.
 
+## First-cancellation obstruction
+
+For a proposed supported characteristic-zero sextic pair, the
+[clean-cancellation theorem](../../arguments/torus_hilbert_boundary.md#clean-cancellation-and-residual-descent)
+requires the first nonzero cancellation coefficient \(D_0\)
+to share a factor with the full common factor \(H\) of the
+extreme sextics, **in both torus directions**. Otherwise the
+full initial ideal is explicitly ACM and splits at cycle level
+into eigenform complete intersections, contradicting the
+known eigenform obstruction. This is a necessary gate before
+any higher cancellation or endpoint analysis.
+
+The surviving case \(\gcd(H,D_0)\ne1\) does not yield a
+smaller supported pair: additional generators, embedded
+structure, or a unit quotient can defeat descent. The
+relevant unresolved question is whether the surviving
+first-cancellation strata intersect the same bounded
+supported Hilbert attracting family and its actual proper
+two-sextic locus. Do not replace that incidence problem
+with a numerical degree-product induction.
+
 ## Findings
 
 This is an unperformed mathematical investigation. The pilot has reconstructed
