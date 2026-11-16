@@ -87,6 +87,4 @@ and the number of generators to be determined. The sharpness example
 concerns a marked curve and gives no sole-support realization. The proof
 uses normal codimension two.
 
-## Review
-
-The entrywise Koszul identities, rank-two Fitting description and sharp DVR example are retained in [A-0010](../arguments/punctual_comparison_defects.md#the-conormal-entry-ideal-annihilates-the-defect). Equality of annihilators is asserted only for the sharpness family.
+Equality of annihilators is asserted only for the sharpness family.
