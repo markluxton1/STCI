@@ -204,23 +204,8 @@ Applying the flag recursion to an actual root-lifting incidence requires a
 specified rank stratum and comparison maps retaining all correction freedoms.
 A larger unified complex alone establishes no such comparison.
 
-## Scope and review
+## Scope
 
-The fixed-degree verification theorem is reused at its full hypotheses from
-[finite normal jets](../residuals/finite_normal_jets.md), without another proof copy. The
-source's `report_math_review` checked the13/28degree controls and
-verification/search distinctions; `root_complexity_generalization_review`
-and `global_jet_bound_review` independently checked the finite-algebra scalar
-lemma, closed-point versus embedding count and its finite-field counterexample.
-`intrinsic_filtration_review` checked the conditional O(ND³) field-operation
-cost, excluding matrix construction and coefficient growth.
+The fixed-degree verification theorem is used under the hypotheses of [finite normal jets](../residuals/finite_normal_jets.md). The finite-algebra scalar lemma distinguishes closed-point counts from embedding counts, including over finite fields. The conditional \(O(ND^3)\) field-operation bound excludes matrix construction and coefficient growth.
 
-The all-power spectral proof belongs to [spectral pushforwards](../spectral/spectral_pushforward_powers.md);
-the n=4 application is [syzygy splitting](../spectral/spectral_torsion_and_syzygy_splitting.md).
-The [torsion-two actual lifting account](../spectral/quadratic_root_torsion_two_lifting.md)
-owns completed diagonal/pure-square/rank-drop exclusions and the exact finite
-scalar application. Those are bounded source-level results, not emptiness of
-the remaining full root incidence. The smooth formal-root theorem supplies
-an existential finite empty stage only at its own fixed-root-order hypotheses,
-not a numerical stage or a bound on arbitrary STCI equation degrees. No
-arbitrary-PGL2 operator symmetry is inferred from abstract spectral geometry.
+The all-power spectral proof is in [spectral pushforwards](../spectral/spectral_pushforward_powers.md), its \(n=4\) application in [syzygy splitting](../spectral/spectral_torsion_and_syzygy_splitting.md), and bounded diagonal, pure-square, rank-drop and scalar results in [torsion-two actual lifting](../spectral/quadratic_root_torsion_two_lifting.md). These do not establish emptiness of the full root incidence. The smooth formal-root theorem supplies an existential finite empty stage only at fixed-root-order hypotheses, not a numerical cutoff or bound on arbitrary STCI degrees. Abstract spectral geometry gives no arbitrary \(\mathrm{PGL}_2\) operator symmetry.
