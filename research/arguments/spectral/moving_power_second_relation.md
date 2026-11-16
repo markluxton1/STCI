@@ -209,7 +209,7 @@ This describes the equality support at the relation-bundle level.
 It does not assert that every such divisor comes from an embedded
 complete-intersection thickening.
 
-## 6. Provenance and audit status
+## 6. Inputs and unresolved degeneration
 
 Inputs are the [normal-layer/socle budget](../normal-geometry/socle_and_loewy_bounds.md#source-2026-10-13-evening-entirely-thick-rees-progressmd), [movement-gap audit](#source-2026-10-14-generalization-moving-relation-gap-cost-independent-auditmd), [moving-power tower](moving_power_and_spectral_roots.md#2026-10-14-generalization-moving-power-obstruction-tower), and [independent tower review](moving_power_and_spectral_roots.md#2026-10-14-generalization-moving-purepower-tower-independent-audit). The proof here establishes second-relation evaluation, torsion-inclusive degree identity, and combined defect bound under their hypotheses. Movement can clear first-relation cohomology obstructions while the next coprime relation degenerates; whether the global socle identity and later relation filtration rule out all degeneration divisors remains open.
 
@@ -219,13 +219,9 @@ Inputs are the [normal-layer/socle budget](../normal-geometry/socle_and_loewy_bo
 
 # Independent review of the constant-relation pole budget
 
-Date: 2026-10-14, America/New_York. Reviewer: root.
-Status: **PROVED under the explicit hypotheses below**. This reviews new
-Section 6 of [the thick extension](https://github.com/markluxton1/STCI/blob/ffe78df0f9d4378255d1a2cdcf64b2e8a80a4655/research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-extensionmd).
-The previously accepted quadratic transition and apolar annihilator
-classification are inputs; their calculations were not repeated.
+The quadratic transition and apolar annihilator classification are inputs from the [thick extension](https://github.com/markluxton1/STCI/blob/ffe78df0f9d4378255d1a2cdcf64b2e8a80a4655/research/supplements/RELATION_LIFTING_AND_GAP_COSTS.md#source-2026-10-13-generalization-thick-equality-extensionmd).
 
-## 1. Hypotheses and verdict
+## 1. Hypotheses and conclusion
 
 Work in characteristic zero on fixed
 `C0=[s^4:s^3t:st^3:t^4]`, with `N_C0=O(7)^2`. Let `Q` be an actual
