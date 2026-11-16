@@ -345,7 +345,8 @@ Take a pure \(Z\) with \(Z_{\mathrm{red}}=C\) and generic length \(m\).
 Use \(r,u,v\) on \(\Omega\) as in
 [the torus chart](../frameworks/torus-supported-boundaries/weights_and_limits.md#intrinsic-and-transverse-actions).
 Since \((u-1,v-1)^m\) vanishes on the generic normal algebra, it vanishes
-on \(Z\cap\Omega\) by purity. Its full closure \(W\) in
+on \(Z\cap\Omega\) by purity: any resulting section supported on
+finitely many points of the pure curve is zero. Its full closure \(W\) in
 \(\mathbf P^1_r\times\mathbf G_m^2\) lies in this fixed finite neighborhood.
 On the interior purity gives torsion-freeness over \(k[r,r^{-1}]\), and
 contraction to the endpoint charts gives torsion-freeness there. Thus \(W\)
