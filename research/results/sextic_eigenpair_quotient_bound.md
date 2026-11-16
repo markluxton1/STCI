@@ -73,13 +73,3 @@ This is a bound for actual pairs of eigenforms, not arbitrary
 mixed-weight sextics, all invariant ideals, or full limits with more than
 two generators. It does not classify boundary schemes or exclude all
 sole-supported sextic complete intersections.
-
-## Review
-
-Independent reconstruction by the nonauthor reviewer pilot_review_sextic
-accepted this route on November 4, 2026. The reviewer checked orbit multiplicities, purity in the
-degree-exhaustion case, fixed-point incidence, integer-character reasoning
-in every characteristic, and sharp attainment. The sharp-example premise
-R-0047 is explicitly declared following review. Acceptance concerns proper
-eigenpairs only, without extending to arbitrary mixed-weight pairs.
-
