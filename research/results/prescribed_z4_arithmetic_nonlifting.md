@@ -13,8 +13,7 @@ statement: "No such flat embedded family exists; every hypothetical family force
 dependencies: []
 evidence:
   - "research/arguments/arithmetic/z4_lifting_and_deformation.md"
-independent_audits:
-  - "research/arguments/arithmetic/z4_lifting_and_deformation.md"
+independent_audits: []
 legacy_ids: []
 supersedes: []
 superseded_by: []
@@ -46,6 +45,6 @@ The complete proof and the independently reconstructed scope are retained in [th
 - Does not cover arbitrary ramified DVRs of residue characteristic two.
 - Does not imply that the prescribed characteristic-two ribbon itself fails to lift.
 
-## Current proof
+## Related intrinsic theory
 
-[Z4_LIFTING_AND_DEFORMATION](../arguments/arithmetic/z4_lifting_and_deformation.md). The full proof and exact scope are retained in these mathematical homes; the independent review described there covers the inherited result.
+The [embedded primitive-tower comparison](../arguments/arithmetic/z4_intrinsic_arithmetic_mechanism.md) develops the reusable ribbon-to-triple obstruction and quadratic-neighborhood gluing theory. It is **not** a second proof of this arithmetic nonlifting theorem: the prescribed special fiber, flatness reduction, and integral obstruction calculation belong to the [nonlifting argument](../arguments/arithmetic/z4_lifting_and_deformation.md).
