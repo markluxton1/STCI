@@ -708,13 +708,13 @@ no global finite-generation theorem or characteristic-zero STCI exclusion.
 
 <a id="weighted-initials-normal-boundary-audit"></a>
 
-## Independent weighted-initial reconstruction
+## Weighted-initial coefficient rings and frame changes
 
-The independent reconstruction checks the coefficient-ring distinction, frame changes, determinant-lattice interpretation, and all positive rational weight chambers. It relies on the previously established Gauss/domain construction and does not turn the local weighted valuation into a canonical global family or an STCI exclusion.
+The coefficient-ring distinction, frame changes, determinant-lattice interpretation, and positive rational weight chambers use the Gauss/domain construction above. These local weighted valuations do not define a canonical global family or yield an STCI exclusion.
 
 ### 1. Verification of domains and frames
 
-The preceding source gives the Gauss valuation on \(k(C)[X,Y]\), the distinction between \(k[T]\) and \(k[T,T^{-1}]\) in the graded coefficient ring, and the divergent series \(\sum t^{-n^2}X^n\) excluding arbitrary formal series. The independent review reconstructed these facts for the stated positive rational weights, including tied residue terms. It also checked that a diagonal frame change \(X'=fX\) shifts the transported weight by \(\operatorname{ord}_p(f)\), whereas a general \(\mathrm{GL}_2\) change requires initial residue relations, not merely the new variable values. At fixed coefficient weight the chambers form an affine complex, not automatically a fan; integer weights may miss rational chambers. These verifications do not establish a canonical global family of weighted valuations.
+The preceding source gives the Gauss valuation on \(k(C)[X,Y]\), the distinction between \(k[T]\) and \(k[T,T^{-1}]\) in the graded coefficient ring, and the divergent series \(\sum t^{-n^2}X^n\) excluding arbitrary formal series. For positive rational weights, including tied residue terms, a diagonal frame change \(X'=fX\) shifts the transported weight by \(\operatorname{ord}_p(f)\), whereas a general \(\mathrm{GL}_2\) change requires initial residue relations, not merely the new variable values. At fixed coefficient weight the chambers form an affine complex, not automatically a fan; integer weights may miss rational chambers. This does not establish a canonical global family of weighted valuations.
 
 ### 2. Full chamber calculation, all stated weights
 
