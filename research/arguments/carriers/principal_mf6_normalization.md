@@ -1072,7 +1072,7 @@ D2. This does not exclude every defect-four Gorenstein quadruple.
 
 ## Independent audit: the generic nonimmersion-prime obstruction
 
-Date: 2026-10-08. Auditor: `verification`. Status: **PROVED HERE**, independently audited from the full power identity. This note does not classify all nonnormal quartic surfaces.
+The full power identity proves the stated case but does not classify all nonnormal quartic surfaces.
 
 ### Exact statement
 
