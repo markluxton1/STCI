@@ -1,6 +1,6 @@
 # STCI Literature Ledger
 
-Broad search assessed through 2026-09-30; selected primary-source mechanisms and inherited October 13 corrections rechecked/integrated on 2026-10-31. These are bounded checks, not a claim of exhaustive coverage.
+Broad search assessed through 2026-09-30; selected primary-source mechanisms and inherited October 13 corrections rechecked/integrated on 2026-10-31. These are bounded checks, not a claim of exhaustive coverage. **No fresh external literature search was performed in the November 16, 2026 GitHub-only mathematical cleanup.** The references below retain their individual dated verification scopes; the ledger does not certify that no later solution has appeared.
 
 This ledger records the scope actually used in the research report. A source is
 not listed as settling more than its hypotheses permit. “No later resolution
