@@ -80,7 +80,3 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Does not exhaust arbitrary characteristic-zero STCI pairs.
 - Picard descent, singular full roots, formal lifting, and actual homogeneous equations remain untested for the rows.
 - STCI-R-0011 ensures reduction of moving full roots only under its own Picard-descent interface.
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.
