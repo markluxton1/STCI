@@ -44,7 +44,3 @@ Provides a concrete smooth residual and a five-node line degeneration.
 
 ## Limitations
 No universal statement about quartic pairs or STCI.
-
-## Current proof home
-
-The complete consolidated proof and its exact qualifications are in [the mathematical account](../arguments/residuals/explicit_quartic_residuals.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new CAS execution was required.
