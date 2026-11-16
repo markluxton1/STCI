@@ -68,7 +68,3 @@ residual curve degrees. The two geometric endpoints here are distinct from
 the two opposite directions of a full torus Hilbert limit; no comparison
 or specialization map between these constructions is asserted. A Hilbert
 polynomial identity does not supply global generators.
-
-## Review
-
-The complete mathematical argument is retained in [the embedded-quotient proof](../arguments/torus_embedded_quotients.md); its hypotheses and limitations are stated above.
