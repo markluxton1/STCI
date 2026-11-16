@@ -555,6 +555,4 @@ between geometric endpoint data and opposite full Hilbert limits remains open.
 The exact endpoint rank sums, determinants and truncated algebra identities
 used in the embedded quotient examples are covered by the shared replay suite
 in [the sextic Argument evidence](torus_sextic_residuals.md#finite-replay-evidence).
-The suite includes deliberate coefficient corruption controls and is limited
-to the displayed examples; it does not replace their geometric proofs or imply
-characteristic coverage beyond the stated inputs.
+The finite checks apply only to the displayed examples and do not establish geometric proofs or additional characteristic coverage.
