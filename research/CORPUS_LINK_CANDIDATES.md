@@ -93,3 +93,22 @@ This list extends the [catalog-linked file index](CORPUS_FILE_INDEX.md) using re
 | [results/quartic_e2.md](results/quartic_e2.md) | results/INDEX.md |
 
 Discovered 87 additional candidate paths beyond the catalog-linked file index. Some links may be stale; verify existence before counting files.
+
+## Verified candidate sample (GitHub file reads)
+
+These 12 files were fetched in full at this branch; byte counts are UTF-8 text string lengths as returned by the connector (not tokenizer measurements). No mathematical review or proof equivalence classification is implied.
+
+| File | Characters | Lines |
+| --- | ---: | ---: |
+| [arguments/arithmetic/arithmetic_equations_and_jet_gaps.md](arguments/arithmetic/arithmetic_equations_and_jet_gaps.md) | 36663 | 755 |
+| [arguments/arithmetic/effective_characteristic_transfer.md](arguments/arithmetic/effective_characteristic_transfer.md) | 12312 | 268 |
+| [arguments/arithmetic/frobenius_power_lifting_precision.md](arguments/arithmetic/frobenius_power_lifting_precision.md) | 17613 | 404 |
+| [arguments/arithmetic/positive_characteristic_constructions.md](arguments/arithmetic/positive_characteristic_constructions.md) | 19979 | 421 |
+| [arguments/arithmetic/prime_to_p_power_extraction.md](arguments/arithmetic/prime_to_p_power_extraction.md) | 10190 | 234 |
+| [arguments/carriers/normalization_conductor_phase2_addendum.md](arguments/carriers/normalization_conductor_phase2_addendum.md) | 38873 | 424 |
+| [arguments/carriers/normalization_residual_capacity.md](arguments/carriers/normalization_residual_capacity.md) | 26638 | 705 |
+| [arguments/carriers/projection_and_elliptic_gluing.md](arguments/carriers/projection_and_elliptic_gluing.md) | 84503 | 1694 |
+| [arguments/carriers/quintic_gorenstein_normalizations.md](arguments/carriers/quintic_gorenstein_normalizations.md) | 23968 | 466 |
+| [arguments/carriers/quintic_non_gorenstein_toric_sources.md](arguments/carriers/quintic_non_gorenstein_toric_sources.md) | 16849 | 346 |
+| [arguments/carriers/quintic_octic_ade_cover_and_triple.md](arguments/carriers/quintic_octic_ade_cover_and_triple.md) | 20028 | 377 |
+| [arguments/curve/fixed_quartic_geometry.md](arguments/curve/fixed_quartic_geometry.md) | 11542 | 82 |
