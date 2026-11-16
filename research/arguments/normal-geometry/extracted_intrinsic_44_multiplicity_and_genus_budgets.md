@@ -564,9 +564,6 @@ The forms \(F,q^2\) are linearly independent modulo \(S\): comparing the coeffic
 
 Finally, adjunction on the smooth quartic gives \(C^2=-2\), and \(C'=2H-C\) gives \(C\cdot C'=10\), agreeing independently with the explicit intersections. The change from eighteen boundary units for a component of a reduced \((4,4)\) curve to ten for a component of the reduced \((2,4)\) support is correctly distinguished.
 
-## Review decision and limitations
+## Limitations
 
-The elementary claims were independently reconstructed; inherited inputs were not rerun. The argument neither classifies embedded limits nor realizes arbitrary numerical data, and gives no unrestricted STCI conclusion.
-
----
-
+The argument neither classifies embedded limits nor realizes arbitrary numerical data, and gives no unrestricted STCI conclusion.
