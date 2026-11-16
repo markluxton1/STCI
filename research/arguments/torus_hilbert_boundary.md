@@ -594,9 +594,8 @@ This imposes both defect and source-space conditions on a sole-support
 sextic pair. The full opposite-endpoint algebra and moving generator
 incidence remain open.
 
-## Review
+## Scope and references
 
-Independent reconstruction accepted STCI-R-0037–0039 under their stated hypotheses: relative generation and base change, full Hilbert limits in all characteristics, nilpotence and generic length with embedded boundary, split-torus character lifting, and the height-two generator criterion with its module-regularity and fiber qualifications. It supplies **no** uniform \(N\), numerical cutoff, classification, nonempty incidence, or quotient comparison. A separate review accepted invariant-supported-CI route R-0040 after trace result R-0042; it is not an arbitrary-pair reduction.
+The supported Hilbert construction gives neither a uniform nilpotence exponent nor a numerical generator cutoff, classification, nonempty incidence, or quotient comparison. The invariant-ideal exclusion does not reduce arbitrary supported pairs to invariant ideals.
 
-The original [Hilbert-boundary exposition](equations/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary), [attracting-locus formulation](https://github.com/markluxton1/STCI/blob/b3db4bfcc4b70d85a13ff1862b2a81a553f78b39/research/synthesis/torus_attracting_strata_and_generator_incidence.md), and [positive-movement proof](torus/tropical_thickenings_and_endpoint_duality.md#positive-movement-and-the-global-presentation-barrier) remain distinct sources. Open questions live in [F-0001](../frameworks/torus-supported-boundaries/index.md#directional-loci), [I-0001](../investigations/supported-generator-incidence/index.md#question), and [I-0002](../investigations/quotient-hilbert-comparison/index.md#question).
-
+For related questions see [F-0001](../frameworks/torus-supported-boundaries/index.md#directional-loci), [I-0001](../investigations/supported-generator-incidence/index.md#question), and [I-0002](../investigations/quotient-hilbert-comparison/index.md#question).
