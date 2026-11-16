@@ -282,25 +282,7 @@ surface degrees (6,16), and must vary the root beyond the failed example.
 
 ## Review and remaining realization question
 
-Independent review on 2026-10-31 by `review_spectral_powers` (GPT-6.1 Sol,
-high reasoning) reconstructed the characteristic-free pushforward proof,
-coefficient-map orientation, determinant/kernel identification, quotient-ideal
-construction, exact-order tests and explicit example against R-0008 and its
-retained proof. The review passed after clarifying that n>2 is the
-unequal-degree convention, not a nonexistence claim for degree-two second
-relations. No mathematical computation was needed or run for sections 1--5.
-
-For section 6, an exact rational diagnostic reused the
-[accepted incidence generator](../../computations/generalization_quadratic_root_curve_universal_incidence.py)
-at (a1,b0,c2)=(-1,-1,1), with all other coefficients zero. It found rank
-12 and inconsistency. Equation (11) retains the complete three-term
-certificate as a direct proof; no new verifier or generated output is
-needed. Independent review by `review_spectral_powers` reconstructed its
-three coefficients, annihilation identity, first-lift bridge and numerical
-scope against R-0006, R-0007, R-0013 and R-0014. It passed after clarifying
-that a question about embedded realizability does not assert an embedded
-object. The reviewer did not rerun the diagnostic; the direct certificate
-is the independently checked evidence.
+The convention `n>2` denotes unequal-degree second relations; it does not exclude degree-two second relations. For the section 6 rational diagnostic, the [incidence generator](../../computations/generalization_quadratic_root_curve_universal_incidence.py) at `(a1,b0,c2)=(-1,-1,1)` (other coefficients zero) yields rank 12 and inconsistency. Equation (11) gives the direct three-term certificate, including its numerical scope; the diagnostic alone does not establish embedded realizability.
 
 The new construction ends at an abstract graded family. The next embedded
 question is which of these families admit successive lifts in the actual
