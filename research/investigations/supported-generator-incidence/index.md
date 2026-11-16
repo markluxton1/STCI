@@ -85,32 +85,36 @@ problem distinct from the stronger prescribed-boundary problem.
 
 For any proposed sextic pencil or degeneration, distinguish:
 
-1. **Proper equations and cycle.** Verify height two, containment of
-   \(C\), and marked multiplicity and residual cycle. The cycle
-   \([Y]=9[C]\) is necessary for a sole-supported \((6,6)\)
-   intersection, but is not a certificate for its full scheme or
-   generators.
-2. **Full supported ideal.** Verify the prescribed Hilbert polynomial
-   and support in an actual flat family (or some \(H_N\)), retaining
-   embedded structure and the complete saturated ideal at both limits.
-   Boundary ideals of the equation-to-ideal graph can have extra
-   generators.
-3. **Moving generator incidence.** Impose the full two-sextic generator
-   criterion from R-0039, with a justified regularity bound if using
-   finitely many multiplication matrices.
+1. **Actual proper equations and cycle.** Verify height two,
+   containment of \(C\), and marked multiplicity. For an **actual
+   proper** \((6,6)\) pair, the terminal condition \([Y]=9[C]\)
+   is equivalent to sole support, by purity and degree exhaustion.
+   The [existing rank-strata argument](../../arguments/residuals/marked_deformation_and_absorption.md#fixed-degree-multiplicity-strata-of-actual-pairs)
+   gives equations for this locus; the Chow divisibility description
+   gives a second, cycle-level presentation of the same condition.
+2. **Full supported ideal.** When working with a limit or graph
+   boundary instead of an actual proper pair, verify the prescribed
+   Hilbert polynomial and support in an actual flat family (or some
+   \(H_N\)), retaining embedded structure and the saturated ideal
+   at both limits. A limiting cycle equal to \(9[C]\) does not
+   determine the limiting generators.
+3. **Moving generator incidence.** On a proposed supported Hilbert
+   boundary, impose the full two-sextic generator criterion from
+   R-0039, with a justified regularity bound if using finitely many
+   multiplication matrices. For a saturated ideal with the exact
+   \((6,6)\) CI Hilbert polynomial, the existence of a **proper**
+   sextic pencil inside its degree-six part already implies equality
+   of ideals (see the complete-intersection-polynomial criterion in
+   the torus Hilbert-boundary argument).
 
-These gates distinguish the older Chow-incidence and surface-pair VGIT
-approaches from the existing Hilbert-boundary method without creating
-a second framework. The concrete decision is whether cycle or weight
-strata cut down the **same** supported moving-ideal family enough to
-make its two-generator incidence computable. Otherwise keep the bounded
-Hilbert-family question rather than launch a parallel VGIT classification.
-
-An invariant cycle or extreme-form pair does not determine a supported
-boundary ideal. Conversely, a supported boundary with extra generators
-does not exclude a moving supported CI until its attracting family is
-tested. Actual-equation residual absorption on a carrier may provide
-candidate families for these gates.
+The concrete question is whether Chow or torus-weight strata cut down
+the **same** supported moving-ideal family enough to make its
+two-generator incidence computable. Otherwise keep the bounded
+Hilbert-family question rather than launch a parallel VGIT
+classification. An invariant cycle or extreme-form pair does not
+determine a supported boundary ideal; conversely, a supported
+boundary with extra generators does not exclude a moving supported
+CI until its attracting family is tested.
 
 ## Findings
 
