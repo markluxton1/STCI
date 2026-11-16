@@ -420,10 +420,3 @@ finite-Laurent contradiction, so the earlier inconsistent stage-three system
 over \(\mathbf F_{32003}\) is now only a superseded corroborative experiment.
 
 A failed modular correction experiment in a finite primary model is not a characteristic-zero all-stage proof. The exact direct-limit statements in §1 and §3 supply their own arguments; they do not rely on extrapolating such finite experiments.
-
-## Consolidation review
-
-Independent review reconstructed the preserved arguments, source coverage and
-characteristic boundaries. The bounded proof clarifications in this account
-were checked against the original arguments; no material preservation finding
-remains. The claims retain their stated hypotheses.
