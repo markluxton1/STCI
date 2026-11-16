@@ -122,15 +122,9 @@ explicit degenerate-cusp coordinate transformation.
 
 ## Source: 2026-10-07-session-socle-bridge-adversarial-audit.md
 
-# Independent frame audit of the corrected primitive-e=1 ancestor bridge
+# Corrected primitive-e=1 ancestor bridge
 
-Date: 2026-10-07. Scope: the fixed characteristic-zero curve
-`C0=[s^4:s^3t:st^3:t^4]`, quartic multipliers, and the stratum
-`e=1,D2=0`. Status: **PROVED CONDITIONAL ON THE ACCEPTED ANTECEDENTS**
-listed below. The corrected two-target argument passes an independent
-geometric audit. The old single-multiplier pole argument does not pass.
-This note makes no assertion that C0 is not a set-theoretic complete
-intersection or that the whole quartic ancestor incidence is empty.
+Work in characteristic zero with the fixed curve `C0=[s^4:s^3t:st^3:t^4]`, quartic multipliers, and `e=1,D2=0`. The two-target argument depends on the hypotheses below; the single-multiplier pole implication is invalid. Neither the unrestricted STCI question nor the full quartic ancestor incidence is decided.
 
 ## 1. Verdict, dependencies, and the rejected implication
 
