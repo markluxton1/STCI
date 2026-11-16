@@ -81,9 +81,7 @@ explain why the characteristic-zero proof cannot be transported unchanged.
 
 ## Earlier partial mechanisms
 
-The theorem closes the earlier quartic-*mate* open labels in
+The quartic-mate exclusion subsumes the earlier partial cases in
 [normal carriers](normal_carriers.md), [order-one structures](order_one.md),
-[primitive e2 incidence](quartic_e2.md) and MF6. Their distinct normal,
-conductor, primitive, local-cohomology and ancestor calculations remain
-useful in their stated scopes. A no-mate theorem does not prove a separate
+[primitive e2 incidence](quartic_e2.md) and MF6. Those records retain distinct normal, conductor, primitive, local-cohomology and ancestor calculations. A no-mate theorem does not prove a separate
 common-ancestor incidence empty.
