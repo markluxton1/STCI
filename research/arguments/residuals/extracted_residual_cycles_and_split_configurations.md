@@ -253,9 +253,6 @@ would give \(\deg N_{\Gamma/D}^{\rm tf}=\delta-4\).  The mate's
 the displayed \(R,g\), this suggests finite common-factor equations.  It is
 an open route here, not a theorem currently used in the fixed-survivor proof.
 
-
----
-
 ## 2026-10-05-split4-nonramified
 
 # Split sextics with nonramified quadruple residual roots
@@ -451,12 +448,11 @@ clusters rather than inferred from visible reduced roots alone.
 
 ## Verification and continuation boundary
 
-Run research/computations/verify_split4_nonramified.py with the existing
-python3.  It verifies all displayed affine
+The `research/computations/verify_split4_nonramified.py` checker verifies all displayed affine
 image equations, proves the fixed rank minors, checks the content and
 selected-point derivative formulas, and independently reconstructs the
 rank-22 ambient normal map.  It checks a symbolic ambient lift with all
-six high coefficients and P still free.  Its lift_normal function supplies
+six high coefficients and P still free. Its `lift_normal` function supplies
 an ambient carrier for any target in the normal image; P-022 supplies the
 full lift fiber F0+λq³.
 
