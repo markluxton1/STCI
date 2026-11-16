@@ -211,7 +211,7 @@ path,status,findings,action,commit
 "research/arguments/torus/tropical_thickenings_and_endpoint_duality.md","pending","","",""
 "research/arguments/torus_embedded_quotients.md","pending","","",""
 "research/arguments/torus_hilbert_boundary.md","pending","","",""
-"research/arguments/torus_sextic_residuals.md","pending","","",""
+"research/arguments/torus_sextic_residuals.md","complete","Reviewed all sections: orbit quotient, trace, sharp bound, local algebra, residual families, Hilbert-Burch full limit, endpoint charts and transverse example","Retain full proof; no mathematical correction identified",""
 "research/arguments/transverse_specialization.md","pending","","",""
 "research/computations/README.md","pending","","",""
 "research/figures/quartic-geometry-2026-10-24/README.md","pending","","",""
