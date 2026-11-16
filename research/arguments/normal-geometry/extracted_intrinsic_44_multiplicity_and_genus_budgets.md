@@ -1,27 +1,18 @@
 # INTRINSIC 44 MULTIPLICITY AND GENUS BUDGETS
 
-## Cross-supplement synthesis: distinct (4,4) obstruction routes (editorial, not a new audit)
+## Distinct characteristic-zero \((4,4)\) obstruction routes
 
-The historical material contains several arguments with different inputs and different logical targets. They should not be conflated:
+The common setup is the fixed smooth quartic, its conormal bundle, and generic transverse length four. The following arguments have **different hypotheses** and cannot be substituted for one another:
 
-| Route | Retained location | What it supplies | Limitation |
-| --- | --- | --- | --- |
-| Filtered quartic-contact calculation | [Filtered proposal and independent audit](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd) | A classification- and calculation-dependent route through the two saturated numerical types and actual cubic-contact constraints | Its computational exhaustiveness and inherited hypotheses remain attached to the original audit; this synopsis is not an independent rerun |
-| First-symbol pencil and surface singularities | [Intrinsic K3 proposal](#4-direct-blowups-and-the-global-contradiction) and [audit](#4-direct-blowups-and-the-global-contradiction) | A different route from the defect algebra and first-symbol divisor to moving singularities and an exceptional-rank contradiction | Characteristic-zero and K3-specific; preserve as historical reviewed evidence, not a new result |
-| Explicit local multiplication and defect types | [Intrinsic quadruple local algebra](quartic_pair_obstruction.md) | The local normal form and identification of the fixed divisor, with coefficient-function qualifications | Local algebra does not by itself prove global realizability or a global STCI exclusion |
-| Genus and torsion budgets | [Degeneration genus budgets](#44-degeneration-genus-budgets) and [normal torsion spectral budget](curvilinear_genus_and_defects.md#normal-torsion-spectral-genus-budget) | Numerical bookkeeping, boundary divisors, and explicit reduced/nonreduced comparison examples | Necessary conditions and examples are not sufficient to exclude all pairs |
+- [Filtered quartic-contact classification](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd): the two saturated numerical types and actual cubic-contact lifting constraints; the source's exhaustiveness hypotheses remain necessary.
+- [First-symbol and K3 surface-singularity argument](#4-direct-blowups-and-the-global-contradiction): moving singularities and exceptional-rank contradiction, specific to the characteristic-zero K3 setting.
+- [Explicit local multiplication and defect types](quartic_pair_obstruction.md): local normal form and fixed divisor, which do not establish global realizability.
+- [Genus and torsion budgets](curvilinear_genus_and_defects.md#normal-torsion-spectral-genus-budget): necessary numerical restrictions under degeneration, not an independent global exclusion.
 
-**Shared starting point.** The fixed quartic curve, its conormal bundle and the generic transverse length-four hypothesis belong to the common setup. The filtered and surface-singularity arguments then diverge: one analyzes actual quartic lifting/contact spaces; the other counts singularities of a general pencil member. The genus-budget work instead studies what numerical restrictions survive under degeneration. The local-algebra source is a bridge between the two obstruction routes, not a replacement for either global step.
-
-**Preservation rule.** Keep the explicit triple-multiplicity plus residual-quartic examples in [the multiplicity-three construction](#44-multiplicity-three-forces), the negative control where quadric restrictions fail to determine normal multiplicity in [the proof-routes discussion](#44-intrinsic-proof-routes), and the nonreduced degeneration examples in [the genus-budget section](#44-degeneration-genus-budgets). These prevent the stronger-looking arguments from being incorrectly extended to lower generic multiplicity, arbitrary residual support, or higher degrees. The source audits and their epistemic qualifications remain authoritative for their own claims.
+The [multiplicity-three residual-quartic examples](#44-multiplicity-three-forces), [quadric-restriction counterexample](#44-intrinsic-proof-routes), and [nonreduced genus degenerations](#44-degeneration-genus-budgets) remain indispensable: they prevent invalid extensions of the arguments to smaller generic multiplicity, arbitrary residual support, or other degrees.
 
 ---
 
-
-Permanent subject consolidation. All source mathematical detail retained with its original conditional and audited status.
-
-
----
 
 ## 44-intrinsic-proof-routes
 
