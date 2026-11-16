@@ -197,3 +197,20 @@ These 12 files were fetched in full at this branch; byte counts are UTF-8 text s
 | [frameworks/residual-construction/residual_geometry.md](frameworks/residual-construction/residual_geometry.md) | 11397 | 174 |
 | [frameworks/residual-construction/two_surfaces.md](frameworks/residual-construction/two_surfaces.md) | 10228 | 191 |
 | [frameworks/spectral-roots/open_root_lifts.md](frameworks/spectral-roots/open_root_lifts.md) | 1826 | 20 |
+
+## Seventh verified candidate sample
+
+| File | Characters | Lines / status |
+| --- | ---: | --- |
+| [frameworks/torus-supported-boundaries/extreme_weights_and_hilbert_limits.md](frameworks/torus-supported-boundaries/extreme_weights_and_hilbert_limits.md) | 6553 | 96 |
+| [frameworks/torus-supported-boundaries/generic_algebras_and_endpoint_contact.md](frameworks/torus-supported-boundaries/generic_algebras_and_endpoint_contact.md) | 10380 | 165 |
+| [frameworks/torus-supported-boundaries/global_postulation_and_residual_support.md](frameworks/torus-supported-boundaries/global_postulation_and_residual_support.md) | 6969 | 133 |
+| [frameworks/torus-supported-boundaries/sextic_filtration_and_source_comparisons.md](frameworks/torus-supported-boundaries/sextic_filtration_and_source_comparisons.md) | 10554 | 107 |
+| [frameworks/torus-supported-boundaries/supported_deformation_questions.md](frameworks/torus-supported-boundaries/supported_deformation_questions.md) | 1526 | 19 |
+| [frameworks/torus-supported-boundaries/torus_actions_and_endpoint_frames.md](frameworks/torus-supported-boundaries/torus_actions_and_endpoint_frames.md) | 6076 | 66 |
+| [frameworks/torus-supported-boundaries/weight_symbols_and_normal_filtrations.md](frameworks/torus-supported-boundaries/weight_symbols_and_normal_filtrations.md) | 7177 | 132 |
+| [frameworks/torus-supported-boundaries/weights_and_limits.md](frameworks/torus-supported-boundaries/weights_and_limits.md) | 5677 | 138 |
+| [literature/README.md](literature/README.md) | 44594 | 677 |
+| [results/entirely_thick.md](results/entirely_thick.md) | 2009 | 45 |
+| [results/jet_geometry.md](results/jet_geometry.md) | 1789 | 21 |
+| [results/normal_carriers.md](results/normal_carriers.md) | 3233 | 39 |
