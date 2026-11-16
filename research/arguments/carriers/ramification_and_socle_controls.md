@@ -20,7 +20,8 @@ Let k be algebraically closed of characteristic zero and consider
     nu(w,z)=(X,Y,Z)=(-w^3-wz^2,-w^2-z^2,z).
 
 The map is finite and birational: w satisfies w^2+Y+Z^2=0, and
-w=X/Y in the common function field. B is the normalization. Its
+w=X/Y in the common function field (using Y=-(w^2+z^2) and
+X=wY). B is the normalization. Its
 conductor is YB, the reduced nodal divisor w^2+z^2=0. Indeed with
 A0=k[Y,Z] one has B=A0+ A0 w and A=A0+Y A0 w. Modulo YB the inclusion
 is k[z] in k[z,w]/(w^2+z^2). A conductor element must belong to k[z],
