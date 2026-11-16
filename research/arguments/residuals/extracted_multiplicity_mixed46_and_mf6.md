@@ -1289,7 +1289,7 @@ classified all coprime quadratic pairs and is not a no-`(4,7)` theorem.
 
 Date: 2026-10-11.
 
-Status: **DIRECT PROOF AUDIT AND NECESSARY NUMERICAL REDUCTION**. This note
+This note
 does not exclude degree `(5,8)`, does not classify embedded multiplicity-ten
 structures, and does not establish that `C0` is not an STCI.
 
