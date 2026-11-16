@@ -15,7 +15,7 @@ is proved independently of the remaining explanatory questions.
 
 ## Extension and quartic contact maps on the quadric
 
-Status: structural research note. Statements are labelled individually. This note does **not** prove that the rational quartic is not an STCI.
+The extension and contact calculations are conditional; they do not establish an unrestricted STCI exclusion.
 
 ### 0. Scope and established starting point
 
@@ -792,7 +792,7 @@ these structural questions do not reopen that theorem.
 
 ## Universal degree-two primitive fourth structures
 
-Status: exact universal classification and carrier theorem, verified over
+Classification and carrier theorem, verified over
 characteristic zero. The result excludes the degree-two direction branches
 of hypothetical `(4,7)` and `(4,8)` complete intersections on the fixed curve
 `C0=[s^4:s^3t:st^3:t^4]`. It does not settle STCI for `C0`, other rational
@@ -1057,7 +1057,7 @@ The [universal quadruple certificate](https://github.com/markluxton1/STCI/blob/2
 
 ## A parity slice and its fourth-layer defect obstruction
 
-Status: exact characteristic-zero classification of the entire parity
+Characteristic-zero classification of the entire parity
 slice; necessary extension argument checked conceptually by the frontier
 audit lane. The statement concerns the fixed curve
 `C0=[s^4:s^3t:st^3:t^4]`, a hypothetical complete intersection with a
