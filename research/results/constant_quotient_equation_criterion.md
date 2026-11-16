@@ -80,15 +80,3 @@ existence clause. The genus identity is necessary only; it is not a
 sufficiency assertion for ACMness, Gorensteinness or two generators.
 The test applies to this constant embedded quotient, not to every moving
 supported intersection or every full torus-limit ideal.
-
-## Review
-
-The source has a separate review of its proper-pair and equation-space arguments; that review is distinct from the reconstruction decision recorded here.
-
-Independent reconstruction review, 2026-11-04: reviewer
-pilot_review_hilbert accepted the exact R-0053 route after reconstructing
-the actual coefficient kernels in every characteristic, the gcd-one
-regular-sequence condition, and the degree-exhaustion argument with its
-finite-support kernel eliminated by purity. The necessary endpoint budget
-and its nonsufficiency were checked. No blocker was found within the
-specified constant-quotient scope. The reconstruction review accepts this route within its stated scope. The criterion itself does not complete the proper-pair search.
