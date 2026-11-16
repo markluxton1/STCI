@@ -182,6 +182,33 @@ obstruction to all moving supported pairs. Together they rule
 out replacing full-limit incidence by a pure-hull, cycle-only,
 or monotone degree-product argument.
 
+## Graph incidence and the centered-weight gate
+
+The [equation–Hilbert–Chow graph](../../arguments/torus_hilbert_boundary.md#equationhilbertchow-graph-and-its-top-fiber)
+distinguishes the closure of **supported** proper pairs from
+the larger top-cycle fiber reached also by residual pairs.
+In characteristic zero, connectedness of complete-intersection
+graph limits and cycle specialization imply that the latter
+fiber has reduced support \(C\); nevertheless only its
+intersection with the actual CI locus solves the prescribed
+degree existence problem. The supported-approximant closure
+also retains the uniform power containment \(I_C^{ab/4}\subset J\),
+which cannot be inferred for an arbitrary top-cycle boundary.
+
+For the centered torus weights \((-2,-1,1,2)\), the Chow
+resultant gives a nonvanishing invariant section of the
+natural \(\mathcal O(b,a)\) linearization on every actual
+sole-supported proper pair. Hence such a pair is
+\(T\)-semistable at character zero; for equal degrees its
+pencil is semistable for the Plücker polarization.
+In characteristic zero, the eigenform obstruction makes
+these inequalities **strict** on actual supported pairs.
+This removes wholly one-sided centered weight blocks
+from the *moving proper-pair search*, but does not impose
+stability on the improper equation coordinates of their
+full graph limits. Other VGIT chambers need not be
+enumerated to cover supported pairs.
+
 ## Coverage boundaries
 
 Failure of eigenform equations does not exclude other moving equations or
