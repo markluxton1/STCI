@@ -503,6 +503,6 @@ ordinary powers, standalone nongorenstein lattices, or the branch where
 both equations have generic normal order at least two.
 
 
-## Review scope and computational support
+## Scope of the degree restrictions
 
-The ordinary-layer Euler-characteristic sign, saturated lattice comparison, pointwise Gram-determinant formula and supported boundary model were independently reconstructed in the inherited source state. The counterexample above verifies the missing Gorenstein condition. The perfect saturated multiplication argument is a different direct proof of the self-dual flag used by the degree restrictions. The finite primitive-degree reduction is exhausted by the displayed positive-divisor factorization, with the strict positivity argument; its historical exact divisor enumeration was corroboration, not a bounded-search replacement for that proof. The independent arithmetic audit explicitly retained the(17,220) row and the requirement4|ab. No corresponding finite bound on an unbounded socle divisor is asserted. The [positive-characteristic quartic-carrier construction](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier) is compatible with these conditional structural identities.
+The positive-divisor factorization proves the finite primitive-degree reduction; a finite enumeration is not a substitute for the positivity argument. Retain the \((17,220)\) row and the condition \(4\mid ab\). There is no finite bound here for an unbounded socle divisor. The [positive-characteristic quartic-carrier construction](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier) is compatible with these conditional identities.
