@@ -172,7 +172,3 @@ No proper degree-sixteen mate for this selected sextic has sole reduced support 
 
 ## Limitations
 No general sextic or unrestricted STCI theorem.
-
-## Review state
-
-The exact computation and local-length bridge remain within the selected-carrier/degree scope. Their full mathematical bridge and actual independent CI replay are retained directly above. Independent consolidation review accepted the transferred proof bridge, its actual-source/specialization interpretation, the characteristic-65521 consequence and the cofinite-prime existence statement. The new deductions remain separately identified; the characteristic-zero scope is unchanged. The consolidation replay executed the normal-division verifier.
