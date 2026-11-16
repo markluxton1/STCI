@@ -680,11 +680,9 @@ was found in the current calculation.
 
 ## Scope audit: the selected endpoint-four carrier has a nonsplit generic node
 
-Date: 2026-10-26. Reviewer: `pencil_geometry`, independently reconstructing
-the local-to-global implication. **Completed fixed-carrier scope bridge,
-with two exact finite certificates; research.** The local node lemma and the modular-to-characteristic-zero
-argument are distinct from the finite rank computations. This final audit
-starts no new computation or research lane.
+The local node lemma and the modular-to-characteristic-zero argument
+are distinct from the two exact finite rank certificates. The conclusion
+applies only to the selected fixed carrier.
 
 ### Validated jet-kernel input and independent finite evidence
 
