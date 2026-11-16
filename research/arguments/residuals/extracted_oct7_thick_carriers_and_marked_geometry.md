@@ -75,22 +75,6 @@ Thus APic is the appropriate place to seek a theorem coupling:
 - special pinch/triple/conductor points;
 - global hyperplane linear equivalence.
 
-### 7. Next concrete target
-
-Do not attempt this first for an arbitrary thick carrier.
-
-Choose the simplest surviving integral nonnormal carrier class already represented in the repository, compute:
-1. its normalization S;
-2. the full inverse image of C and branch curves Gamma_j;
-3. their classes in Pic(S);
-4. the hyperplane class H;
-5. the local APic/conductor contribution at special points.
-
-Then solve the positive integer relation
-    sum n_j [Gamma_j] = b[H]
-in Pic(S), with the local APic compatibility.
-
-This can either exclude that carrier class or produce an explicit finite family of admissible coefficient vectors for comparison with the thick valuation tree.
 
 ### 8. Boundary of the claim
 
@@ -429,28 +413,6 @@ One should compute:
 
 This is a global ruled-surface calculation, not a local semicontinuity calculation.
 
-### 6. Immediate next target
-
-Use the known identifications
-\[
-E\simeq P^1\times P^1,\qquad
-H|_E=O_E(4,0),\qquad
-E|_E=O_E(7,-1)
-\]
-to identify the exact classes of:
-- constant horizontal sections T_j;
-- the quadric-direction section S_Q.
-
-Then compute T_j.S_Q and the restriction of D|_E and D'|_E to S_Q.
-
-This should determine whether the repeated-root multiplicities are already encoded by the intersection divisor
-\[
-W|_{S_Q}
-\]
-and, crucially, whether the coefficients c_j enter that divisor or disappear after restriction.
-
-
----
 
 ## Generic normalization valuation and Pic/APic filter
 
@@ -648,20 +610,6 @@ still has arbitrary higher local coefficients compatible with the reduced STCI s
 
 So the obstruction cannot be purely local at one trisecant line if it uses only reduced support.
 
-### 6. What information is still missing
-
-A surviving obstruction must import scheme-theoretic information that reduced support forgets. The candidates are now sharply narrowed to:
-
-1. the actual complete-intersection multiplicity/Noether cluster of (F,G) over C;
-2. variation and proximity of that cluster as the point of C moves;
-3. a global divisor relation on successive exceptional surfaces;
-4. normalization/conductor data of an actual carrier;
-5. a relation imposed by the fact that F and G are global homogeneous equations, beyond their separately flexible restrictions.
-
-The first item is the most immediate: compute the local pair ideal at P after the first blowup, retaining simultaneously the horizontal section T corresponding to L and the special point Ptilde=T cap S_Q. This is the first place where generic-along-T multiplicity and marked-point degeneration coexist in one two-dimensional family.
-
-
----
 
 ## Marked-point jets versus section budgets
 
@@ -717,9 +665,9 @@ and R_G|L_T is a degree-q section whose zeros must all lie at L_T intersect C. S
 
 This converts the earlier existence-of-a-zero argument into a stronger one-variable restriction problem.
 
-### 5. Next exact question
+### 5. Pure-power restriction on each marked ruling
 
-Determine the possible section R_G|L_T in H^0(L_T,O(q)) under the condition that every zero is supported at P=L_T intersect C.
+If every zero of the section R_G|L_T in H^0(L_T,O(q)) is supported at P=L_T intersect C,
 
 Over an algebraically closed field this forces
     R_G|L_T = lambda * ell_P^q
@@ -740,8 +688,7 @@ for at most min(p,q) distinct ruling lines L_i.
 
 Since R_G has bidegree (3q,q), these pure-power restrictions are interpolation conditions on a single global section of O_Q(3q,q).
 
-The next calculation is therefore finite-dimensional and global on Q:
-compute the codimension/rank of the restriction map from H^0(O_Q(3q,q)) to the jets on the selected ruling lines, allowing the zero restriction case, and compare it with the freedom in choosing the roots of R_F.
+The unresolved condition is the rank of the restriction map from H^0(O_Q(3q,q)) to jets on the selected ruling lines, including zero restrictions. The local pure-power conditions alone do not establish a global obstruction.
 
 This reconnects the entirely-thick branch to the project's jet-condition/discrepancy framework.
 
