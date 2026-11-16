@@ -35,9 +35,9 @@ The kernel of
 \]
 is trivial. Hence
 \[
-\boxed{\operatorname{Stab}_{\mathrm{PGL}_4}(C_0)\cong\mathbf G_m\times\mathbf Z/2.}
+\boxed{\operatorname{Stab}_{\mathrm{PGL}_4}(C_0)\cong\mathbf G_m\rtimes(\mathbf Z/2).}
 \]
-In the formal coordinates used below the torus acts by
+The nontrivial involution acts on the torus by conjugation as \(\lambda\mapsto\lambda^{-1}\); this is a semidirect, not a direct product. In the formal coordinates used below the torus acts by
 \[
 z\mapsto\lambda z,\qquad U\mapsto\lambda^4U,\qquad V\mapsto\lambda^3V.
 \]
@@ -815,7 +815,7 @@ farther up the primitive tower.
 
 ## 2026-10-06-dx1-p044-classification
 
-> **SUPERSEDED STATUS NOTICE (2026-10-06 cleanup):** The residual saturation calculation requested below was subsequently completed exactly. The Macaulay2 unit-ideal/saturation certificate in `research/computations/session_dx1_saturation_2026_10_06.m2` and its recorded output closes the residual open set. Together with the audited boundary calculation, the basepoint-free P-044 locus on the dx=1 slice is exactly P-045. This note is retained as provenance for the pre-certificate argument and its identified gap; do not use its OPEN conclusion as current status. See `research/AUDITED_STATE_2026-10-06.md`, Section G.
+> **CURRENT STATUS (mathematical review):** The `dx=1` P-044 residual open is closed by the previously recorded exact saturation certificate, so its basepoint-free P-044 locus is P-045. The subsequent historical section's `OPEN` wording records the *pre-certificate* proof gap and must not be cited as a current open problem. The full four-parameter P-044 classification outside `dx=1` remains open. The historical checker referenced below is not present on this cleanup branch and was not rerun.\n\n> **SUPERSEDED STATUS NOTICE (2026-10-06 cleanup):** The residual saturation calculation requested below was subsequently completed exactly. The Macaulay2 unit-ideal/saturation certificate in `research/computations/session_dx1_saturation_2026_10_06.m2` and its recorded output closes the residual open set. Together with the audited boundary calculation, the basepoint-free P-044 locus on the dx=1 slice is exactly P-045. This note is retained as provenance for the pre-certificate argument and its identified gap; do not use its OPEN conclusion as current status. See `research/AUDITED_STATE_2026-10-06.md`, Section G.
 
 # dx=1 P-044 classification
 
