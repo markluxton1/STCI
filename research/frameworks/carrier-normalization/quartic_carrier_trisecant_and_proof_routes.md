@@ -62,7 +62,3 @@ The calculation supplies the crossings for the irreducible-residual case. The [f
 
 The [quartic-carrier exclusion](../../arguments/carriers/quartic_carrier_proof.md) assembles the focused [nonendpoint](../../arguments/carriers/genus_two_nonendpoint_proof.md) and [endpoint](../../arguments/carriers/genus_two_endpoint_proof.md) contradictions. The distinct irreducible-residual crossing calculation above is retained.
 
-## 7. Evidence and retention
-
-The complete proof dependencies and exact local calculations are retained in those Arguments.
-
