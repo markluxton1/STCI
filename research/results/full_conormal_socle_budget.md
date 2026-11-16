@@ -30,7 +30,3 @@ Let C have degree e and genus g, and let Y=V(F_a,G_b) be an actual complete inte
 The actual socle is omega_C tensor O_C(4-a-b). In particular lambda*d>=L. Equality gives globally Gorenstein graded self-duality; identifying a constant algebra requires the additional balanced rational hypothesis.
 
 The [original proof](../arguments/normal-geometry/socle_and_loewy_bounds.md#source-2026-10-13-evening-entirely-thick-rees-progressmd), [independent audit](../arguments/normal-geometry/socle_and_loewy_bounds.md#source-2026-10-13-generalization-socle-independent-auditmd) delimit the claim. No general STCI exclusion follows.
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.
