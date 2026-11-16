@@ -513,7 +513,10 @@ canonical submodules. It may not be extended by reducing a nonreduced
 conductor, by adding an unproved attachment term, or by replacing generic
 canonical generation with nonvanishing. The integral square case and the
 smooth-conductor all-power extension have different algebra-closure
-hypotheses, as their proofs state. Characteristic zero is retained for the
+hypotheses, as their proofs state. In particular, an arbitrary
+positive power descending does not make the intermediate algebra
+`A+Aq` multiplicatively closed without the smooth-conductor
+rank-two Cayley–Hamilton argument. Characteristic zero is retained for the
 root-of-unity branch and parity arguments. Review reconstructed the
 integral length/support formula, reduced-component purity, marked A4
 cases and the 17-versus-16 comparison. The actual positive controls in
