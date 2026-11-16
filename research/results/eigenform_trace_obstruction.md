@@ -72,13 +72,3 @@ hypotheses. In characteristic two, the trace calculation gives no parity
 claim for \(m_C\). The sharp large-prime minimum using separate positive
 characteristic constructions is outside this reconstructed proof closure.
 The unrestricted characteristic-zero STCI question remains open.
-
-## Review
-
-Independent reconstruction by the nonauthor reviewer pilot_review_sextic
-accepted this route on November 4, 2026. The reviewer reconstructed the finite-free basis, nilpotent trace,
-congruence base change, and graded-domain reduction from one eigenform
-with an arbitrary mate. The factor qualification and characteristic-two
-limitation were retained. Acceptance concerns the stated source
-hypotheses; no arbitrary-pair reduction is claimed.
-
