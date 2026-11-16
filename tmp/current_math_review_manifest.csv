@@ -109,7 +109,7 @@ path,status,findings,action,commit
 "research/arguments/curve/quartic_dual_schemes.md","in-progress","Local Markdown targets and intra-group anchors checked; mathematical content review pending","link audit passed",""
 "research/arguments/curve/quartic_projection_and_special_geometry.md","in-progress","Local Markdown targets and intra-group anchors checked; mathematical content review pending","link audit passed",""
 "research/arguments/curve/special_plane_and_line_sections.md","in-progress","Local Markdown targets and intra-group anchors checked; mathematical content review pending","link audit passed",""
-"research/arguments/curve/veronese_quartic_projections.md","in-progress","Local Markdown targets and intra-group anchors checked; mathematical content review pending","link audit passed",""
+"research/arguments/curve/veronese_quartic_projections.md","pending","","",""
 "research/arguments/equations/bounded_equation_certificates.md","in-progress","Local Markdown targets and intra-group anchors checked; mathematical content review pending","link audit passed",""
 "research/arguments/equations/chow_bundle_maps.md","in-progress","Local Markdown targets and intra-group anchors checked; mathematical content review pending","link audit passed",""
 "research/arguments/equations/complement_section_obstructions.md","in-progress","Local Markdown targets and intra-group anchors checked; mathematical content review pending","link audit passed",""
