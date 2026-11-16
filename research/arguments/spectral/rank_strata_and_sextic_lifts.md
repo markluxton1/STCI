@@ -254,9 +254,9 @@ The representation of \(G_0\), the twenty-five second-obstruction pairings, full
 
 On the actual-pair-admissible root open, cubic actual-source matching has a **unique** regular lift, not a free \(q^3\) parameter. Collision, node, and endpoint opens still need their own target/gluing data and finite completion tests. No degree-sixteen mate, properness, sole support, or unrestricted characteristic-zero STCI conclusion follows.
 
-## Independent review
+## Scope
 
-Independent reconstruction checked determinantal and nonreduced-base strata, bounded-polynomial rank drops, the \(q^3\) cubic layer, actual-pair admissibility, uniqueness of regular lifts under full column rank, and the pivot-residual test. Inherited computations were not rerun. Nonlinear-chart emptiness, a degree-sixteen mate, properness, and sole support remain unproved.
+The determinantal and pivot-residual criteria do not establish nonlinear-chart emptiness, a degree-sixteen mate, properness, or sole support.
 
 ## Focused sextic developments
 
