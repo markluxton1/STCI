@@ -47,7 +47,3 @@ Full proofs and their recorded independent reconstruction reside in the linked e
 - Does not apply without saturation, a full generic binary-CI initial ideal, or actual two-equation global STCI.
 - Movement zero and movement at least two are not excluded.
 - An abstract bundle sequence does not establish global embedded realizability.
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.
