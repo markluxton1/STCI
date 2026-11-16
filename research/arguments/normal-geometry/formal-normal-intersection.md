@@ -524,19 +524,10 @@ On the two standard affine charts, H¹(O(-4)) has Laurent representatives u^-1,u
 
 The statement that one can subtract arbitrary lifts of M *inside I/I³* as O_C-linear maps is not justified: I/I³ has no canonical O_C-module structure. Also the expression I²/(I³+IJ) is circular unless J is fixed and it does not by itself define a common comparison object for varying J. The common object is instead **J₂/(I J₂+I³)**. It is annihilated by I, so the difference construction and its additive law are literal O_C-module statements. The original numerical calculation survives; the original general proof contains the gap described above.
 
-## Independent audit and arithmetic provenance
+## Fixed-quotient and arithmetic scope
 
-The October 21 independent reviewer gave **verdict B** after replacing
-the difference-of-lifts argument by (*). The audit read the original
-proposal, the literature report and the five October 20 lifting
-reports. It reconstructed the general fixed-ambient, fixed-quotient
-torsor, descent and coordinate invariance by ideal and module operations.
-It inherited the Laurent coefficient, sign conventions and mod-four
-reduction from the earlier quartic audits. Those calculations have the
-arithmetic scope stated above. The audit’s handoff permits using the
-corrected class with the fixed-quotient and base-change hypotheses.
-Identification with a divided-Frobenius operation remains open.
-[Original independent audit](https://github.com/markluxton1/STCI/blob/a5ed68f7f11d3b51e5e972a9a4b90e0a3bd7ce5b/research/notes/2026-10-21-intrinsic-ribbon-triple-independent-audit.md).
+The corrected difference-of-lifts identity \((*)\) defines the torsor and descent class only with **fixed ambient and fixed quotient**. Coordinate invariance follows from the stated ideal/module transformations. The Laurent coefficient, signs, and reduction modulo four retain the separate arithmetic hypotheses proved in the quartic calculations; no divided-Frobenius identification is established. See the [independent derivation](https://github.com/markluxton1/STCI/blob/a5ed68f7f11d3b51e5e972a9a4b90e0a3bd7ce5b/research/notes/2026-10-21-intrinsic-ribbon-triple-independent-audit.md).
+
 
 ## A coordinate change as an explicit control
 
