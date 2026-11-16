@@ -26,7 +26,7 @@ limitations:
 # Fixed-boundary smoothing of five residual nodes
 
 ## Statement
-At the (1,1) pencil in R-0023, the affine boundary, node, and joint tangent maps on the 36-dimensional ordered quartic source have respective ranks 19, 5, and 24. After passing to the Grassmannian of pencils, the projective boundary rank is 18, so the fixed-boundary fiber is smooth of dimension 14. After splitting and labeling the five nodes, its completed local ring is k[[tau1,tau2,tau3,tau4,tau5,z1,...,z9]], with tau_i independent node-smoothing parameters.
+At the (1,1) pencil in R-0023, the affine boundary, node, and joint tangent maps on the 36-dimensional ordered quartic source have respective ranks 19, 5, and 24. After passing to the Grassmannian of pencils, the projective boundary rank is 18, so the fixed-boundary fiber is smooth of dimension 14 at the specified pencil (after the stated étale localization). After splitting and labeling the five nodes, its completed local ring is k[[tau1,tau2,tau3,tau4,tau5,z1,...,z9]], with tau_i independent node-smoothing parameters.
 
 ## Hypotheses and quantifiers
 The specified characteristic-zero pencil, after splitting the geometric nodes and etale localization.
