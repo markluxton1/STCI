@@ -385,7 +385,8 @@ element of `K` is divisible by `m`; an exponent `m h` gives a
 single diagonal element of `K^*` precisely when all
 `(beta_i/beta_1)^h=1`. For the second equality, the condition that all `alpha_i^e`
 are the same element of `K` is equivalent to `m|e` and the
-root-of-unity ratios `zeta_i^e=1` for every `i`. Both formulas compute
+root-of-unity ratios `zeta_i^e=1` for every `i`. In particular,
+changes of the chosen embeddings do not change the least exponent. Both formulas compute
 the intrinsic order of `alpha` in `E^*/K^*`.
 
 A single field has no relative phase factor:
