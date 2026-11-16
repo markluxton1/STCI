@@ -58,9 +58,9 @@ For an irreducible residual \(R\) of class \((1,2)\), the transformed surface ha
 The calculation supplies the crossings for the irreducible-residual case. The [full endpoint proof](../../arguments/carriers/genus_two_endpoint_proof.md) treats reducible and doubled residuals.
 
 
-## 6. Source evidence and editorial disposition
+## 6. Complete proofs
 
-The [quartic-carrier assembly](../../arguments/carriers/quartic_carrier_proof.md) proves the exhaustive exclusion, using the focused [nonendpoint](../../arguments/carriers/genus_two_nonendpoint_proof.md) and [endpoint](../../arguments/carriers/genus_two_endpoint_proof.md) arguments. The distinct irreducible-residual crossing calculation above remains available for reuse.
+The [quartic-carrier exclusion](../../arguments/carriers/quartic_carrier_proof.md) assembles the focused [nonendpoint](../../arguments/carriers/genus_two_nonendpoint_proof.md) and [endpoint](../../arguments/carriers/genus_two_endpoint_proof.md) contradictions. The distinct irreducible-residual crossing calculation above is retained.
 
 ## 7. Evidence and retention
 
