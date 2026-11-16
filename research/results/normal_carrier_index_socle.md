@@ -44,7 +44,3 @@ Required hypotheses:
 Inherited premises are described in the proof and audit.
 - Actual local Cartier index cannot be replaced by surface multiplicity
 - No unconditional carrier exclusion follows
-
-## Current proof navigation
-
-The evidence paths above point directly to the retained mathematical proofs. The consolidation incorporates reviewed corrections; the statement and limitations remain unchanged. The [filtration chapter](../frameworks/formal-normal-geometry/from_symbols_to_equations.md) explains how these hypotheses differ from arbitrary STCI equations.
