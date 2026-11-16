@@ -54,3 +54,7 @@ Purity of the containing curve cannot be omitted: an embedded point can
 be removed without changing degree. Generic equality alone is therefore
 insufficient. The statement does not infer properness of a pair from the
 existence of two independent sections.
+
+## Review
+
+The complete mathematical argument is retained in [the embedded-quotient proof](../arguments/torus_embedded_quotients.md); its hypotheses and limitations are stated above.
