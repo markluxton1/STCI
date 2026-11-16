@@ -1,5 +1,7 @@
 # STCI research
 
+For corpus refactoring, consult the [structural inventory](research/CORPUS_INVENTORY.md) and [file index](research/CORPUS_FILE_INDEX.md); these are inventories, not proof verification.
+
 Start at the [lane routes](research/INDEX.md#find-a-statement-proof-or-open-question)
 and [framework map](research/MAP.md). Use `python3 scripts/research.py frameworks`
 to discover approaches, `show ID` for proofs and declared consumers,
