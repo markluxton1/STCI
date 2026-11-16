@@ -1694,9 +1694,11 @@ so
 
     delta_F <= (t+3)/4.                            (D22)
 
-Each zero-charge arm vertex arises from a B/G separation blowup, so the local separation length satisfies
+Provided the `r+s` zero-charge arm vertices correspond to distinct B/G separation centers in the actual proximity process, the local separation length satisfies
 
     mu >= r+s=t.                                   (D23)
+
+The conditional identification is geometric; the abstract weighted intersection matrix alone does not establish it.
 
 The global Bezout tradeoff requires
 
@@ -1708,13 +1710,13 @@ This is stronger than a finite mu<=12 check: it holds for arbitrary arm lengths.
 
 ### Q.1 Exact remaining audit point
 
-The only unproved input in this reduction is the terminal-response assertion
+The terminal-response assertion still to be verified is
 
     d_eff >= 3.                                    (D25)
 
 It must be verified for the finite list of original degree-three G boundary germs allowed by the Ishii--Nakayama Type D separation process. It should not be assumed from rational-component adjunction, because an original cubic component can be singular or nonreduced.
 
-Thus the general-point Type D exclusion is now conditional on one finite boundary calculation: prove (D25) for each original cubic boundary type reached by a coefficient-one arm. Once (D25) is established, (D21)--(D24) eliminate the last 1+1 motif, while the direct coefficient-two motifs are handled separately by the coefficient recursion.
+Thus the general-point Type D exclusion remains conditional on a finite boundary-and-proximity audit: establish (D25) for each original cubic boundary type reached by a coefficient-one arm **and** verify that the arms counted in (D23) are distinct B/G separation centers. Under both conditions, (D21)--(D24) eliminate the last 1+1 motif; direct coefficient-two motifs need their separate coefficient-recursion check. Neither condition follows merely from negative definiteness.
 
 
 ---
