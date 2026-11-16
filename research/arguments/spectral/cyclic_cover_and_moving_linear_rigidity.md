@@ -1,6 +1,6 @@
 # cyclic cover and moving linear rigidity
 
-Permanent subject dossier retaining full mathematical computations, counterexamples, proofs, precise hypotheses and unresolved scope. Computational implementations, where present, remain separate.
+Computational implementations, where present, remain separate.
 
 ---
 
