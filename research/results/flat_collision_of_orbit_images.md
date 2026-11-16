@@ -69,7 +69,3 @@ polynomial differs from the fourth-root CI's \(16d-32\); this is not a
 flat deformation of that CI through these images. It does not produce
 a supported complete intersection or a comparison with opposite full
 torus Hilbert limits.
-
-## Review
-
-The complete mathematical argument is retained in [the embedded-quotient proof](../arguments/torus_embedded_quotients.md); its hypotheses and limitations are stated above.
