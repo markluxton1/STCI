@@ -9,11 +9,6 @@ equation. This note studies simultaneous deformations of a pair whose
 **two special-fiber equations** are weight-homogeneous. Both lifted
 equations may lose this symmetry.
 
-**Status, October 31, 2026:** independently reconstructed, reviewed
-deductions. These constrain lifts of
-specified special fibers. They do not exclude arbitrary characteristic-zero
-STCIs or prove that every characteristic-zero pair specializes to this locus.
-
 The later [prime-to-p extraction theorem](prime_to_p_power_extraction.md)
 excludes **all** ramified supported lifts of the particular powered-quartic
 pairs below when the power is prime to \(p\). It uses full nilpotence
