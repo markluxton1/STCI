@@ -1047,43 +1047,9 @@ structures with a defect before the fourth layer, nor carriers of higher
 degrees. The cubic `T` can be singular at the zeros of `q0`; its existence
 does not furnish a smooth supporting surface or an STCI construction.
 
-### Reproduction and continuation evidence
+### Verification and unresolved extension boundary
 
-One repository-local command verifies the full calculation, including
-exact ideal membership and all-chart rank minors:
-
-The archived command uses [verify_primitive_quadruple_universal.py](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/verify_primitive_quadruple_universal.py) from the pinned repository snapshot.
-
-```sh
-python research/computations/verify_primitive_quadruple_universal.py
-```
-
-It requires SymPy and Macaulay2's `M2`; the recorded verification used Macaulay2 1.26.06. It regenerates its
-inspectable scratch equations, derives all jets with sparse polynomial
-arithmetic, checks ten directions against the original independent
-rational-series implementation, verifies the universal cubic restrictions,
-and runs exact Macaulay2 certificates. The ten sample comparisons are
-cross-checks; the global conclusions come from the polynomial identities,
-resultant-localized membership certificates, and covering minors.
-
-The verifier uses `scratch/primitive47universal/generate.py` to generate
-`equations.json` and `classify.m2`, and `quartic_contact.py` to generate
-`quartic_contact.m2` and `quartic_contact.json`. A replay from absent
-generated files reproduced all four files byte for byte and passed the
-exact Macaulay2 certificates. The separate independent quartic-contact
-audit uses the retained `quartic_contact.json` as its literal input.
-The independent theoretical reconstruction is in
-`2026-10-05-primitive-carrier-theory.md`; the frontier-audit lane is
-checking the quadratic cocycle and contact matrix by a separate
-Bezout-independent computation.
-
-A tempting fifth-order exclusion also fails for the sample
-`A=z^2+1,B=-2z`: its fifth obstruction is zero, as recorded with exact
-Laurent coefficients in the theory note. The productive next question is
-therefore the uniform ambient compatibility of an e=2 primitive triple,
-and then the remaining case `deg D2=1`; increasing sampled primitive
-orders does not address the ambient quartic factor obstruction.
-
+The [universal quadruple certificate](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/verify_primitive_quadruple_universal.py) verifies exact polynomial identities, all-chart rank minors, quartic contact, and Macaulay2 membership. The sample fifth-order obstruction vanishes for \(A=z^2+1,B=-2z\); therefore it gives no general fifth-order exclusion. The remaining distinct questions are ambient compatibility of an \(e=2\) primitive triple and the defective \(\deg D_2=1\) case.
 
 ---
 
@@ -1295,34 +1261,6 @@ factor. Every other parameter admits no quartic containing its primitive
 triple. Therefore the entire basepoint-free parity family with `D2=0`
 is excluded for **every mate degree**.
 
-### Reproduction and remaining open computation
+### Exact parity verification and remaining boundary
 
-The exact companion is
-
-The archived command uses [verify_primitive_triple_parity.py](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/verify_primitive_triple_parity.py) from the pinned repository snapshot.
-
-```sh
-python research/computations/verify_primitive_triple_parity.py
-```
-
-It regenerates the arbitrary-direction quartic contact matrix, uses
-polynomial-domain determinants over `QQ[beta]` for all ten maximal minors,
-checks their gcd and the three exceptional ranks, reconstructs the two
-unique quartics, checks their classes against the original rational-series
-fourth-obstruction implementation, and verifies both Hankel determinants.
-The replay regenerated `parity_triple_certificate.json` and the full
-all-direction matrix `general_triple_contact.json` byte for byte.
-
-The [six-parameter Macaulay2 saturation](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/scratch/primitive47universal/general_triple_contact.m2)
-was stopped, as were the [normalized-chart attempt](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/scratch/primitive47universal/triple_contact_p_chart.m2)
-and a finite-field version. The
-[one-chart Dynamic determinant calculation](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/scratch/primitive47universal/triple_contact_p_factors.m2)
-completed with large expanded minors. The saturated rank-drop ideal in
-this approach remains uncomputed.
-
-The strongest continuation target is the arbitrary-direction rank-drop
-locus of the ten-by-nine matrix, followed by the quadratic-annihilator
-incidence condition for its fourth obstruction. The separate case
-`deg D2=1` needs a defective-triple gluing state; a primitive-triple
-calculation cannot silently be applied to it.
-
+The [parity-triple certificate](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/verify_primitive_triple_parity.py) checks the ten maximal minors, exceptional ranks, unique quartics, and both Hankel determinants. The six-parameter saturated rank-drop ideal remains uncomputed; an interrupted elimination is not an exclusion. Arbitrary-direction rank drop and quadratic-annihilator incidence require separate analysis. The defective \(\deg D_2=1\) case is not covered by primitive-triple calculations.
