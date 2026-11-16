@@ -18,13 +18,10 @@ The [multiplicity-three residual-quartic examples](#44-multiplicity-three-forces
 
 [Complete proof routes and negative controls](quartic_pair_obstruction.md), including the [completed embedded fourth-extension proof](intrinsic_fourth_extension.md).
 
-## 44-multiplicity-three-forces-audit
+<a id="44-multiplicity-three-forces-audit"></a>
+## Independent reconstruction of the multiplicity-three arguments
 
-# Independent audit: what multiplicity at least three forces in (4,4)
-
-Date: 2026-10-26. Reviewer: independent `triple_classification` agent. Reviewed document: [multiplicity-three deductions](#44-multiplicity-three-forces). **Outcome: the stated deductions pass independent reconstruction at their stated scopes.**
-
-## Scope and accepted premises
+## Hypotheses and established inputs
 
 The field is algebraically closed of characteristic zero, the curve is the fixed embedding \(C=[s^4:s^3t:st^3:t^4]\), and the quartic pair is proper. The audit read the research index and the literal statements of [R0001](../../results/quartic_carrier_exclusion.md), [R0020](../../results/quartic_conormal_characteristic_jump.md), and [R0022](../../results/quartic_44_filtered_exclusion.md). Their accepted proofs and certificates are premises, not verification tasks. The earlier [smooth-carrier deduction](#44-degeneration-genus-budgets) and the accepted source-level conjugate pencil in the [filtered proof](https://github.com/markluxton1/STCI/blob/ca33958696fdc4f06a1c39b160aa13d097f24146/research/supplements/IDEAL_FILTRATIONS_AND_44_FILTERED_EXCLUSION.md#2026-10-23-quartic-44-filtered-proof-proposalmd) were consulted at their recorded scope.
 
@@ -81,8 +78,6 @@ Independent reconstruction checked the attained maximum three, forced residual d
 ## 44-multiplicity-three-forces
 
 # What multiplicity at least three forces in a (4,4) intersection
-
-Date: 2026-10-26. Status: new deductions and explicit residual calculation, independently reviewed in the [audit](#44-multiplicity-three-forces-audit).
 
 ## 1. Exact question, inputs, and answer
 
@@ -284,8 +279,6 @@ The [complete rank-four surface proof](quartic_pair_obstruction.md#1-a-common-nu
 ## 44-degeneration-genus-budgets
 
 # Degenerating a (4,4) curve: cycles, gluing, and nilpotent genus
-
-Date: 2026-10-26. Status: exploratory synthesis and new elementary deductions; independent review is recorded in the [audit](#44-degeneration-genus-budgets-audit).
 
 ## 1. Question and scope
 
@@ -510,11 +503,8 @@ Product examples, genus allocations, nilpotent calculations, and the smooth-carr
 
 ---
 
-## 44-degeneration-genus-budgets-audit
-
-# Independent audit: (4,4) degeneration and genus budgets
-
-Date: 2026-10-26. Reviewer: independent `genus_topology` agent. Reviewed document: [degeneration and genus budgets](#44-degeneration-genus-budgets). **Outcome: the stated elementary deductions pass independent reconstruction at the scopes below. This is an evidence audit.**
+<a id="44-degeneration-genus-budgets-audit"></a>
+## Independent reconstruction of genus and conductor budgets
 
 ## Scope and inputs
 
