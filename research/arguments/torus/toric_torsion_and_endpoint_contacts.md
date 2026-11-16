@@ -463,23 +463,9 @@ against the restored passages. The review concerns these explicit families
 and the transfer of their proofs and qualifications.
 
 
-## Consolidated historical source: `research/supplements/BOUNDARY_ONE_STEP_AND_ENDPOINT_SCOPE.md`
+## Boundary one-step obstruction and endpoint geometry
 
-# Boundary obstruction and endpoint scope investigations
-
-## Integration guide: one-step obstructions and global endpoint tests
-
-The [one-step boundary obstruction](#2026-10-27-one-step-boundary-obstruction) treats extensions in the **actual equation module**, not arbitrary formal transverse sections. Its independent audit keeps the Gorenstein final-step restrictions and the precise converse separate. The accompanying fixed-boundary smoothing audit concerns a different deformation problem and must not be read as a universal STCI obstruction.
-
-Compare [global repair and weighted initials](../normal-geometry/normal_boundary_weighted_initials.md#boundary-repair-global-lifting): a repair divisor is useful only when the required correction belongs to the image of the global homogeneous source. [Intrinsic valuations](coefficient_valuations.md) supplies normal/coefficent valuation distinctions but not the missing global lift. [Rees and residual cycles](../normal-geometry/rees_and_vertical_controls.md) supplies cycle budgets but cannot substitute for this module-level test.
-
-**Logical boundary:** one-step obstruction, final socle obstruction, and global residual-support exclusion are three different assertions. Retain the separate hypotheses and counterexamples in their source sections.
-
----
-
-Full historical mathematics retained, including independently reviewed limits.
-
----
+The [one-step boundary theorem](#2026-10-27-one-step-boundary-obstruction) concerns the **actual equation module**, not arbitrary formal transverse sections. Its final Gorenstein restriction and converse have distinct hypotheses. Fixed-boundary node smoothing is a separate deformation question; neither result alone excludes unrestricted STCI. [Weighted initial repair](../normal-geometry/normal_boundary_weighted_initials.md#boundary-repair-global-lifting) additionally requires a global homogeneous correction, while [coefficient valuations](coefficient_valuations.md) and [Rees residual cycles](../normal-geometry/rees_and_vertical_controls.md) supply different numerical controls.
 
 <a id="2026-10-27-one-step-boundary-obstruction"></a>
 
