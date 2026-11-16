@@ -367,8 +367,9 @@ are roots of unity in `K`. All the fields `K(alpha_i)` inside
 `Kbar` are consequently the same cyclic Kummer extension `L/K`.
 Put `m=[L:K]`. Then `m` divides `[E_i:K]` for every `i`,
 and `alpha_i^m in K^*`, independently of these embeddings.
-The last assertion follows from the cyclic Galois action
-`sigma(alpha_i)/alpha_i in mu_m(K)`.
+The last assertion follows because the cyclic Galois group has order
+`m` and acts on `alpha_i` through the group of `m`-th roots of unity
+in `K`.
 
 Set `beta_i=alpha_i^m in K^*`. The exact residual order is
 
