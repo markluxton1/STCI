@@ -321,3 +321,30 @@ These 20 Results were inspected for statement sections and proof-navigation link
 | [moving_sextic_residual_limit.md](results/moving_sextic_residual_limit.md) | endpoint-avoiding residual full boundary | torus_sextic_residuals.md#moving-residual-curves-and-their-full-limit; Result contains proof | Full limit not scheme-theoretic intersection of limits |
 | [nonsaturated_first_relation_resultant.md](results/nonsaturated_first_relation_resultant.md) | resultant budget for nonsaturated relation | No direct Argument link in Result; candidate residuals/finite_normal_jets.md | Confirm proof source before link |
 | [normal_carrier_bounded_index_exclusion.md](results/normal_carrier_bounded_index_exclusion.md) | bounded normal-carrier index exclusion | carriers/normal_index_socle_and_torsion.md#2026-10-14-generalization-normal-index-socle-theorem | Symbolic torsion links are supporting dependencies |
+
+## Results statement-to-proof routes — 20 normal, quartic and arithmetic Results
+
+**All targets remain existing Result files.** Sources were inspected for statements and cited proof navigation; where no Argument citation exists this is recorded rather than guessed. Mathematical validity was not re-audited.
+
+| Exact Result / retained target | Mathematical unit | Proof route | Retrieval caution |
+| --- | --- | --- | --- |
+| [normal_carrier_index_socle.md](results/normal_carrier_index_socle.md) | normal index and local socle compatibility | carriers/normal_index_socle_and_torsion.md#2026-10-14-generalization-normal-index-socle-theorem | symbolic-torsion compatibility is dependency |
+| [normal_cone_slice_specialization.md](results/normal_cone_slice_specialization.md) | normal cone specified slice | transverse_specialization.md#normal-cone-specialization | single primary proof |
+| [normal_flat_comparison_specialization.md](results/normal_flat_comparison_specialization.md) | equation comparison under normal flatness | transverse_specialization.md#comparison-under-normal-flatness | other sections are supporting examples |
+| [normal_koszul_comparison_defect.md](results/normal_koszul_comparison_defect.md) | normal Koszul filtration defect | normal_koszul_cancellation.md#normal-koszul-comparison-and-degree-bounds | preserve filtration assumptions |
+| [orbit_image_endpoint_polynomial.md](results/orbit_image_endpoint_polynomial.md) | constant orbit-image Hilbert polynomial | torus_embedded_quotients.md#endpoint-defects-and-hilbert-polynomial | constant embedded quotient |
+| [pointwise_conductor_socle_defect.md](results/pointwise_conductor_socle_defect.md) | pointwise conductor vs top socle | carriers/carrier_conductor_differential_comparison.md#the-actual-differential-has-a-smaller-zero-divisor | socle audit is not independent proof |
+| [prescribed_z4_arithmetic_nonlifting.md](results/prescribed_z4_arithmetic_nonlifting.md) | Z4 nonlifting to mixed characteristic | arithmetic/z4_lifting_and_deformation.md | specific prescribed thickening |
+| [prime_element_colon_identity.md](results/prime_element_colon_identity.md) | prime colon exact sequence | torus_sextic_residuals.md#a-colon-formula-for-divisor-cycles; Result contains proof | overlap with colon_divisor_cycle; distinct statement |
+| [projection_phase_reduction.md](results/projection_phase_reduction.md) | projection phase and torsion cosets | carriers/projection_torsion_and_rational_phase_bounds.md#2026-10-15-generalization-projection-torsion-coset-reduction | independent review is supporting |
+| [punctual_comparison_defect_family.md](results/punctual_comparison_defect_family.md) | arbitrary punctual comparison defects | punctual_comparison_defects.md#arbitrary-punctual-degree-and-length-with-integral-carriers | counterexamples not general exclusions |
+| [pure_curve_degree_exhaustion.md](results/pure_curve_degree_exhaustion.md) | degree-exhaustion lemma | torus_embedded_quotients.md#pure-curve-degree-exhaustion | pure curve hypothesis |
+| [quadratic_root_obstruction_model.md](results/quadratic_root_obstruction_model.md) | quadratic movement-two root; second obstruction | spectral/quadratic_root_and_blowup_incidence.md; spectral/quadratic_root_second_obstruction.md | multiple units; audits not new methods |
+| [quartic_44_filtered_exclusion.md](results/quartic_44_filtered_exclusion.md) | characteristic-zero (4,4) exclusion | normal-geometry/quartic_pair_obstruction.md; normal-geometry/intrinsic_fourth_extension.md | distinct routes must remain separately retrievable |
+| [quartic_actual_symbols.md](results/quartic_actual_symbols.md) | actual quartic normal symbols | Result contains statement; no direct Argument link | find proof source before linking |
+| [quartic_ancestor_direction_reduction.md](results/quartic_ancestor_direction_reduction.md) | quartic ancestor finite direction reduction | local-cohomology/direction_and_apolarity.md; Result contains proof | separate pure constant audit |
+| [quartic_arithmetic_ruled_models.md](results/quartic_arithmetic_ruled_models.md) | arithmetic ruled four-section family | arithmetic/arithmetic_four_section_family.md | characteristic restrictions |
+| [quartic_carrier_exclusion.md](results/quartic_carrier_exclusion.md) | complete integral quartic carrier exclusion | carriers/quartic_carrier_proof.md | positive characteristic reference is boundary |
+| [quartic_char2_fourth_equation_kernel.md](results/quartic_char2_fourth_equation_kernel.md) | char-2 fourth normal equation | Result contains complete proof | no extra Argument required unless desired |
+| [quartic_conormal_characteristic_jump.md](results/quartic_conormal_characteristic_jump.md) | characteristic-dependent splitting | quartic_specialization_and_symbols.md#an-independent-homogeneous-eulerjacobian-proof | distinct homogeneous method |
+| [quartic_dual_singular_scheme.md](results/quartic_dual_singular_scheme.md) | dual discriminant singular scheme | curve/quartic_dual_schemes.md | preserve characteristic hypotheses |
