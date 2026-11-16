@@ -343,8 +343,3 @@ thick carriers is inferred.
 
 The universal STCI question and unrestricted characteristic-zero
 `C0` remain open.
-
-## Consolidation review
-
-Independent reconstruction checked the residue-ideal identity, actual-CI injection into the pullback thickening, closed-fiber Jacobian socle generation, pointwise divisor, colength, and parity conclusions. The prime-to-\(n\) Artin-fiber hypothesis was checked against Eisenbud–Ulrich. The ordinary-power lattice input belongs to the linked normal-index theorem; **no** saturated-filtration equivalence is asserted.
-
