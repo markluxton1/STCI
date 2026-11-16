@@ -237,23 +237,11 @@ This confirms the stated finite early-jet reduction under its checked BF,
 normal-bundle, and linear-contraction inputs. It does not cover two
 entirely thick equations or bound either equation degree.
 
-## Evidence and scope
+## Exact sources and scope
 
-The general compression, arithmetic-genus determinant proof, order-one
-application and early-jet bounds reuse their accepted independent source
-reviews. The normal-quartic classification supplies the d/rho data; see
-[Ishii--Nakayama, Main Theorem and rational types](https://www.jstage.jst.go.jp/article/jmath1948/56/3/56_3_941/_pdf).
-Exact arithmetic and the cusp illustration are checked by
-[verify_normal_rational_carrier_compression.py](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_normal_rational_carrier_compression.py).
-No new execution is needed for their unchanged formulas. The exact fixed-C0
-normal bundle is proved in [the bisection argument](genus_two_bisection_proof.md#2-the-characteristic-zero-normal-bundle).
+The determinant argument uses [Ishii–Nakayama's rational surface classification](https://www.jstage.jst.go.jp/article/jmath1948/56/3/56_3_941/_pdf). The [exact arithmetic certificate](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_normal_rational_carrier_compression.py) checks the compression and cusp example; the [normal bundle computation](genus_two_bisection_proof.md#2-the-characteristic-zero-normal-bundle) supplies the fixed-curve input.
 
-These bounds do not enumerate surfaces, construct a numerical model as a
-carrier, cancel arbitrary local class-group torsion, or cover a pair whose
-two equations both have generic normal order at least two. For fixed-C0
-quartic mates the later [full exclusion](quartic_carrier_proof.md) closes
-that special case; the general compression and higher-degree necessary
-bounds remain useful mathematics.
+These necessary bounds neither classify all carriers nor control arbitrary local class-group torsion. They do not cover pairs with both generic normal orders at least two. The [quartic-carrier theorem](quartic_carrier_proof.md) separately closes the degree-four case.
 
 ## Related distinct developments
 
@@ -261,4 +249,4 @@ bounds remain useful mathematics.
 - [Primitive quartic jets and characteristic](normal_carriers_primitive_jets_and_characteristic.md): intrinsic extension, fourth obstruction, parity and characteristic boundaries.
 - [Normal singularities and primitive ancestor charts](normal_primitive_carriers_and_bounds.md): singularity restrictions, cubic factors, and pure-top charts.
 
-These linked Arguments contain the complete mathematical developments. The former historical appendix consisted primarily of section-title stubs linking to them, not additional proofs.
+These linked Arguments retain the distinct complete proofs.
