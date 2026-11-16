@@ -316,371 +316,99 @@ its owning chapter. No all-n ambient obstruction model, formal lift,
 projective pair or change to C0's STCI status is asserted here.
 
 
-## Consolidated historical supplement: `research/supplements/CYCLIC_COVER_AND_MOVING_LINEAR_RIGIDITY.md`
-
-**Full development moved to [cyclic_cover_and_moving_linear_rigidity.md](cyclic_cover_and_moving_linear_rigidity.md).** The headings below are retained as compatibility anchors for existing inbound references; follow the link for the complete hypotheses, proofs, computations, and open cases.
-
-# cyclic cover and moving linear rigidity
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-## Local torsion order, cyclic-cover splitting, and ramification along a smooth curve
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 1. Setup and the exact local formula
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-#### Proof
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 2. A `D_n` counterexample: local order two, ramification one
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 3. The complete `A`-type family realizes every possible ramification divisor
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-#### Proof of exact order and cover identification
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-#### Every index--ramification pair occurs
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 4. The gluing defect is visible in the discriminant
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 5. Consequences and failure shields for the global structural lane
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-## A smooth curve of local class order two whose cyclic cover splits
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 1. The surface and smooth curve
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 2. The normalized class cover
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 3. Two inverse branches, each unramified over the curve
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 4. Consequence and a whole `D_n` family
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 5. Independent audit of an arbitrary-order cyclic-quotient family
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 6. The fractional-intersection explanation
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 7. Signed independent audit of the general theorem and discriminant
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-## Torsion detected on an ample smooth rational curve
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 1. An intrinsic torsion-detection theorem
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-#### Proof of the cyclic-cover construction
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-#### Proof of the torsion-detection assertion
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 2. Exact normal-carrier formula for the quartic
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 3. Failure shield: local order is not curve ramification
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 4. A conditional global budget retaining the gluing
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 5. What this proves and what remains
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-## Degree-one moving linear relations: the cubic obstruction
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 1. Accepted inputs and the next target
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 2. Canonical quadratic correction and the unit term
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 3. Exact chart calculation
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 4. Conclusion and scope
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-## Independent audit of the degree-one moving linear cubic obstruction
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 1. Frame and correction signs
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 2. Independent expansion method and exact output
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 3. Lifting freedom and primitive length-four scope
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-## Degree-one moving linear relations: ideal rigidity and a carrier consequence
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 1. Finite principal ideals with a fixed relation line
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 2. The quadric direction is rigid at every finite length
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 3. Consequence for a normal carrier
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 4. Verification and boundary
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-## A global opposite-ruling phase family always has extra inverse points
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-## Moving linear relations: exact quadratic obstruction and independent review
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 1. Frames and the cohomology target
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 2. Exact coefficient calculation
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 3. Complete obstruction-zero locus on Delta != 0
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 4. Independent review of the pure-power quotient
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 5. All finite steps before the second independent relation
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### 6. Audit scope
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-### Exact certificate: [moving_linear_cubic_independent_audit_2026_10_14.py](../../computations/moving_linear_cubic_independent_audit_2026_10_14.py)
-
-[Full text of this section](cyclic_cover_and_moving_linear_rigidity.md).
-
-## Consolidated historical supplement: `research/supplements/SATURATED_DUALITY_AND_MOVING_POWERS.md`
-
-**Full development moved to [saturated_duality_and_moving_powers.md](saturated_duality_and_moving_powers.md).** The headings below are retained as compatibility anchors for existing inbound references; follow the link for the complete hypotheses, proofs, computations, and open cases.
-
-# Saturated duality, root descent and embedded formal surfaces
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## Projective normal flatness by duality and resultants
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 1. Exact setting, claim, and authority
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 2. Saturation and perfect complementary pairings
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 3. The actual saturated first relation determines all early layers
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 4. Determinants force a zero-degree second spectral section
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 5. Why nilpotents and special fibers cannot hide zeros
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 6. The uniform quotient forces normal flatness
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 7. Arbitrary conormal: the resultant upgrade
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 8. Independent pure-power shortcut
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 9. Adversarial checks and retained boundaries
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 2026-10-19-singular-root-investigation
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-# Reduced movement-two roots: the remaining formal surface must be singular
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 1. Exact scope and accepted premises
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 2. Regular-formal-surface theorem
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 3. Algebraize using the singular root itself
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 4. The normal line is generated and unobstructed
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 5. An embedded smoothing lemma and its application
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 6. Opposing degree bounds
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 7. Separate two-component proof without Hilbert smoothing
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 8. The exact residual gap and local countershields
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 9. General balanced-degree observation
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 10. Evidence and review status
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## Characteristic scope of descent, duality and formal lifting
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## Source: 2026-10-19-regular-reducible-root-independent-audit.md
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-# Independent audit: a regular formal surface cannot lift the equal split root
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 1. Exact statement and inputs
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 2. Local algebra and the component normal degree
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 3. Algebraization and why the other component is retained
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 4. Normalization, degree, and Hodge index
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 5. Numerical contradiction
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 6. Outcome, limitations, and frontier impact
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## Source: 2026-10-19-regular-singular-root-smoothing-audit.md
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-# Independent audit: regular formal surfaces with singular movement-two roots
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 1. Exact scope and authority
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 2. Normal line, connectedness, and algebraization
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 3. Normalization still preserves the entire singular root
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 4. Independent cohomology calculation
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 5. Smoothing on the fixed algebraic surface
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## 6. Numerical contradiction and boundary
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
-## Review record
-
-[Full text of this section](saturated_duality_and_moving_powers.md).
-
+## Focused cyclic-cover and spectral-power developments
+
+The complete proofs, counterexamples, and open cases are in [cyclic-cover and moving-linear rigidity](cyclic_cover_and_moving_linear_rigidity.md) and [saturated duality and moving powers](saturated_duality_and_moving_powers.md). Historical heading identifiers are retained below without duplicating the complete mathematical text.
+
+<a id="consolidated-historical-supplement-researchsupplementscyclic_cover_and_moving_linear_rigiditymd"></a>
+<a id="cyclic-cover-and-moving-linear-rigidity"></a>
+<a id="local-torsion-order-cyclic-cover-splitting-and-ramification-along-a-smooth-curve"></a>
+<a id="1-setup-and-the-exact-local-formula"></a>
+<a id="proof"></a>
+<a id="2-a-d_n-counterexample-local-order-two-ramification-one"></a>
+<a id="3-the-complete-a-type-family-realizes-every-possible-ramification-divisor"></a>
+<a id="proof-of-exact-order-and-cover-identification"></a>
+<a id="every-index--ramification-pair-occurs"></a>
+<a id="4-the-gluing-defect-is-visible-in-the-discriminant"></a>
+<a id="5-consequences-and-failure-shields-for-the-global-structural-lane"></a>
+<a id="a-smooth-curve-of-local-class-order-two-whose-cyclic-cover-splits"></a>
+<a id="1-the-surface-and-smooth-curve"></a>
+<a id="2-the-normalized-class-cover"></a>
+<a id="3-two-inverse-branches-each-unramified-over-the-curve"></a>
+<a id="4-consequence-and-a-whole-d_n-family"></a>
+<a id="5-independent-audit-of-an-arbitrary-order-cyclic-quotient-family"></a>
+<a id="6-the-fractional-intersection-explanation"></a>
+<a id="7-signed-independent-audit-of-the-general-theorem-and-discriminant"></a>
+<a id="torsion-detected-on-an-ample-smooth-rational-curve"></a>
+<a id="1-an-intrinsic-torsion-detection-theorem"></a>
+<a id="proof-of-the-cyclic-cover-construction"></a>
+<a id="proof-of-the-torsion-detection-assertion"></a>
+<a id="2-exact-normal-carrier-formula-for-the-quartic"></a>
+<a id="3-failure-shield-local-order-is-not-curve-ramification"></a>
+<a id="4-a-conditional-global-budget-retaining-the-gluing"></a>
+<a id="5-what-this-proves-and-what-remains"></a>
+<a id="degree-one-moving-linear-relations-the-cubic-obstruction"></a>
+<a id="1-accepted-inputs-and-the-next-target"></a>
+<a id="2-canonical-quadratic-correction-and-the-unit-term"></a>
+<a id="3-exact-chart-calculation"></a>
+<a id="4-conclusion-and-scope"></a>
+<a id="independent-audit-of-the-degree-one-moving-linear-cubic-obstruction"></a>
+<a id="1-frame-and-correction-signs"></a>
+<a id="2-independent-expansion-method-and-exact-output"></a>
+<a id="3-lifting-freedom-and-primitive-length-four-scope"></a>
+<a id="degree-one-moving-linear-relations-ideal-rigidity-and-a-carrier-consequence"></a>
+<a id="1-finite-principal-ideals-with-a-fixed-relation-line"></a>
+<a id="2-the-quadric-direction-is-rigid-at-every-finite-length"></a>
+<a id="3-consequence-for-a-normal-carrier"></a>
+<a id="4-verification-and-boundary"></a>
+<a id="a-global-opposite-ruling-phase-family-always-has-extra-inverse-points"></a>
+<a id="moving-linear-relations-exact-quadratic-obstruction-and-independent-review"></a>
+<a id="1-frames-and-the-cohomology-target"></a>
+<a id="2-exact-coefficient-calculation"></a>
+<a id="3-complete-obstruction-zero-locus-on-delta--0"></a>
+<a id="4-independent-review-of-the-pure-power-quotient"></a>
+<a id="5-all-finite-steps-before-the-second-independent-relation"></a>
+<a id="6-audit-scope"></a>
+<a id="exact-certificate-moving_linear_cubic_independent_audit_2026_10_14pycomputationsmoving_linear_cubic_independent_audit_2026_10_14py"></a>
+<a id="consolidated-historical-supplement-researchsupplementssaturated_duality_and_moving_powersmd"></a>
+<a id="saturated-duality-root-descent-and-embedded-formal-surfaces"></a>
+<a id="projective-normal-flatness-by-duality-and-resultants"></a>
+<a id="1-exact-setting-claim-and-authority"></a>
+<a id="2-saturation-and-perfect-complementary-pairings"></a>
+<a id="3-the-actual-saturated-first-relation-determines-all-early-layers"></a>
+<a id="4-determinants-force-a-zero-degree-second-spectral-section"></a>
+<a id="5-why-nilpotents-and-special-fibers-cannot-hide-zeros"></a>
+<a id="6-the-uniform-quotient-forces-normal-flatness"></a>
+<a id="7-arbitrary-conormal-the-resultant-upgrade"></a>
+<a id="8-independent-pure-power-shortcut"></a>
+<a id="9-adversarial-checks-and-retained-boundaries"></a>
+<a id="2026-10-19-singular-root-investigation"></a>
+<a id="reduced-movement-two-roots-the-remaining-formal-surface-must-be-singular"></a>
+<a id="1-exact-scope-and-accepted-premises"></a>
+<a id="2-regular-formal-surface-theorem"></a>
+<a id="3-algebraize-using-the-singular-root-itself"></a>
+<a id="4-the-normal-line-is-generated-and-unobstructed"></a>
+<a id="5-an-embedded-smoothing-lemma-and-its-application"></a>
+<a id="6-opposing-degree-bounds"></a>
+<a id="7-separate-two-component-proof-without-hilbert-smoothing"></a>
+<a id="8-the-exact-residual-gap-and-local-countershields"></a>
+<a id="9-general-balanced-degree-observation"></a>
+<a id="10-evidence-and-review-status"></a>
+<a id="characteristic-scope-of-descent-duality-and-formal-lifting"></a>
+<a id="source-2026-10-19-regular-reducible-root-independent-auditmd"></a>
+<a id="independent-audit-a-regular-formal-surface-cannot-lift-the-equal-split-root"></a>
+<a id="1-exact-statement-and-inputs"></a>
+<a id="2-local-algebra-and-the-component-normal-degree"></a>
+<a id="3-algebraization-and-why-the-other-component-is-retained"></a>
+<a id="4-normalization-degree-and-hodge-index"></a>
+<a id="5-numerical-contradiction"></a>
+<a id="6-outcome-limitations-and-frontier-impact"></a>
+<a id="source-2026-10-19-regular-singular-root-smoothing-auditmd"></a>
+<a id="independent-audit-regular-formal-surfaces-with-singular-movement-two-roots"></a>
+<a id="1-exact-scope-and-authority"></a>
+<a id="2-normal-line-connectedness-and-algebraization"></a>
+<a id="3-normalization-still-preserves-the-entire-singular-root"></a>
+<a id="4-independent-cohomology-calculation"></a>
+<a id="5-smoothing-on-the-fixed-algebraic-surface"></a>
+<a id="6-numerical-contradiction-and-boundary"></a>
+<a id="review-record"></a>
