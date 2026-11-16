@@ -218,7 +218,7 @@ relative positions of sheets after that contact has been separated.
 The distinguished arrangement is a symmetry point in this moduli
 coordinate, and a continuous family shares its boundary. One should not
 claim from this that an elliptic curve is canonically attached to every
-complete intersection containing \(C\). In this laboratory we chose the
+complete intersection containing \(C\). Nor does constancy of the marked conductor divisor classify the separated sheets or their elliptic cross-ratio. In this laboratory we chose the
 fixed carrier \(F\), the order-three separation, and one endpoint.
 The two endpoints do supply the same modulus on this open pencil. Indeed,
 for a root \(\lambda\),
