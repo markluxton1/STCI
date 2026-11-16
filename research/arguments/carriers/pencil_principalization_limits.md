@@ -38,7 +38,7 @@ weighted point blowup with these weights. Taking M=N² in (2) gives
 \nu(w)=N^2,\quad\nu(v)=1,\quad\nu(u)=N.
 \tag{3}
 \]
-The last equality uses \(u=w-v^N\) and \(N^2>N\).
+The last equality uses \(u=w-v^N\) and \(N^2>N\). The normalized blowup valuation is determined by the actual ideal, not by the chosen generators: its displayed orders change form after replacing \(u\) with \(w\).
 Every normal principalizing modification dominates the normalized
 ideal blowup, so it must retain this exceptional divisorial valuation.
 A fixed finite modification has only finitely many exceptional
