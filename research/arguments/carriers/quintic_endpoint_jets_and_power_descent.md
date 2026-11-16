@@ -177,50 +177,17 @@ forces its derivative under `D` to be zero. Section 4 makes that
 derivative `lambda k(5-2r+4g)`, which is nonzero. This contradiction
 excludes every mate in every positive degree.
 
-## 5. Audit verdict and continuation boundary
+## 5. Characteristic and geometric scope
 
-The saved owner argument has no gap in its source-section scaling,
-rank/kernel computation, generic-point regularity, or all-mate
-implication within the stated antecedents. It supplies a necessary
-descent obstruction at one actual smooth normalization chart. No
-reduced/flat conductor-cover assumption, conductor sufficiency test,
-or bound on later contact multiplicities is used. The use of a first
-jet is sufficient here for all powers because the tested function is
-a unit with constant restriction, so the exact power rule preserves
-its nonzero transverse derivative. Characteristic zero is essential
-to this all-positive-integer claim: in characteristic `p`, a positive
-power divisible by `p` kills this derivative, so the displayed first jet
-alone does not give an all-power exclusion there.
+The obstruction is necessary at the stated smooth normalization chart, not a sufficient conductor criterion. The first jet excludes all positive powers in characteristic zero because the function is a unit with constant restriction and its transverse derivative is nonzero. In characteristic \(p\), powers divisible by \(p\) have zero first derivative, so this argument gives no all-power exclusion. No reduced or flat conductor-cover assumption or bound on later contact multiplicities is used. The [remaining \(a=0\) support](quintic_endpoint_residual_support_and_excess.md#full-inverse-support-when-a-vanishes-and-b-is-nonzero) and [\(a\ne0\) support](quintic_endpoint_residual_support_and_excess.md#full-inverse-support-when-a-is-nonzero) are treated separately; nonendpoint normalization cases are not excluded here.
 
-The [complete `a=0,b!=0` support proof](quintic_endpoint_residual_support_and_excess.md#full-inverse-support-when-a-vanishes-and-b-is-nonzero)
-closes the rest of the `a=0` endpoint stratum. The
-[complete `a!=0` inverse-support proof](quintic_endpoint_residual_support_and_excess.md#full-inverse-support-when-a-is-nonzero)
-closes the complementary endpoint stratum. The nonendpoint modulus and
-other quintic normalization strata remain separate; no unrestricted
-quintic-carrier theorem is asserted.
+## 6. Exact first-jet evidence
 
-## 6. Supporting exact record and source snapshots
-
-The independent coefficient calculation is supported by the standard-library [source](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/verify_first_jets.py), SHA-256 `cac0df14cdeebf27f804628b8840b4a04f87d659c5f3302318f2e309d228a194`. It checks twelve polynomial/first-jet identities over `Z[x,r,g,d]`. The all-positive-integer conclusion comes from section 4, not a test of finitely many powers.
-
-The value of `q` and its derivative are evaluated in the actual
-downstairs frame `X2^4`. Any alternative regular downstairs frame
-differs by a downstairs unit, whose pullback `D` kills. Thus such a
-permitted frame change cannot remove the nonzero derivative. An
-arbitrary source unit is not an alternative downstairs trivialization.
-
-The original owner proof and both independent audits were compared in full
-during consolidation. The retained calculation includes the nonunit
-cancellation, correct downstairs frame, quotient/localization argument for
-a singular target, and characteristic-zero power rule; no saved verifier
-or mathematical input was removed.
-
-
----
+The [coefficient verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/validation/2026-10-11-quintic-endpoint-ell-first-jet-audit/verify_first_jets.py) checks twelve polynomial and first-jet identities over \(\mathbf Z[x,r,g,d]\). The power conclusion is proved in section 4. The frame is the actual downstairs \(X_2^4\): multiplying by a downstairs unit cannot remove the derivative because its pullback is annihilated by \(D\); an arbitrary source unit is not an admissible downstairs frame change.
 
 ## Full-conductor algebra and power descent
 
-The full proof now belongs to [full conductor algebra](conductor_descent_algebra.md): actual membership via the conductor fiber product, the false tensor-equalizer counterexample, nilpotent unit-power rigidity, exact reduced phase orders, the single-field bound and split-phase counterexample, generic-to-global purity, and the exact quintic application. These are all retained with complete proofs, and the source algebra review has been reused through an independent scope-preserving consolidation review. The endpoint fourth-blowup source and coefficient derivations above remain the geometric inputs to this application.
+The full proof is in [full conductor algebra](conductor_descent_algebra.md): actual membership via the conductor fiber product, the false tensor-equalizer counterexample, nilpotent unit-power rigidity, exact reduced phase orders, the single-field bound and split-phase counterexample, generic-to-global purity, and the exact quintic application. The endpoint fourth-blowup source and coefficient derivations above remain the geometric inputs to this application.
 
 <a id="4-power-descent-algebra-audit"></a>
-The former algebra audit's full mathematical content is in that proof home, including the alternative Henselian proof and all characteristic and unit hypotheses.
+The linked proof includes an alternative Henselian argument with its characteristic and unit hypotheses.
