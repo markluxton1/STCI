@@ -646,28 +646,9 @@ standard-basis certificate and its coprimality, and the global
 gcd/Bezout argument remain necessary. None of the reduced schemes
 in this note is asserted nonempty or realized.
 
-## 9. Metadata correction and evidence boundaries
+## 9. Exact certificate authority and remaining discrepancy
 
-Independent review found a naming defect in an earlier generic two-node
-metadata export: its
-`norm_symbol_equations` strings were formatted after the exporter
-mutated its display-name array for the later line exports. The
-original-coordinate `.m2` equations were formatted BEFORE that
-mutation and are correct; all completed calculations use those
-mathematical input files. The old JSON strings are not equation
-authority. The [exporter](../../computations/conditional_2_12_singular_continuation_2026_10_21.py)
-now captures the original-coordinate equation strings before renaming the
-display variables, so its metadata agrees with the actual equation source. This metadata repair leaves every generated
-M2 mathematical input unchanged and does not repair or resolve the separate
-FIRST-residual discrepancy in the reconciliation dossier.
-
-The old generic mixed-cube-root line trial returned a large first
-Groebner basis but was stopped before a torsion result; it is not
-used as an exclusion. Splitting `w=1` and the primitive quadratic
-field, suppressing large intermediate output and eliminating
-linear unit variables first produced the completed certificates
-in section 5. The proof depends on their exact inputs and returned
-unit ideals, not on the interrupted trial or an equation count.
+The original-coordinate `.m2` equations, rather than the formerly mislabeled `norm_symbol_equations` JSON strings, are authoritative. The [exporter](../../computations/conditional_2_12_singular_continuation_2026_10_21.py) now captures equation strings before display-variable renaming. This does not resolve the separate FIRST-residual discrepancy. The exclusion in section 5 uses the completed `w=1` and primitive-quadratic-field unit-ideal certificates; the interrupted mixed-cube-root trial proves nothing.
 
 
 ---
@@ -1090,17 +1071,9 @@ The actual anticanonical contraction and reviewed monic ramification exclusion d
 
 ## 2026-10-21-conditional-2-12-conductor-and-chart-independent-review
 
-# Independent review: cubic contraction, conductor and realization charts
+# Cubic contraction, conductor and realization charts
 
-Date: 2026-10-21. Reviewer: `incidence_audit` worker.
-
-Status: **PASS for the scoped bridges and chart exclusions described
-below; no full conditional emptiness claim.**
-This review uses saved source notes and executable certificates, not
-unsaved worker conclusions. All actual-pair implications retain the
-fixed `C0`, characteristic zero, degrees `(6,16)`, FULL generic coprime
-ordinary initial CI `(2,12)`, ACTUAL saturated movement-two first
-relation, and sole reduced support `C0`.
+The scoped bridges and chart exclusions below assume fixed `C0`, characteristic zero, degrees `(6,16)`, full generic coprime ordinary initial CI `(2,12)`, actual saturated movement-two first relation, and sole reduced support `C0`. They do not prove full conditional emptiness.
 
 ## 4. Tiny free-orbit unit certificate and its exact coverage
 
