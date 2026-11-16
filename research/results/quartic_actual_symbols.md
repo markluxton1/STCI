@@ -64,15 +64,4 @@ local intersection and global properness tests.
 
 ## Review
 
-The Phase 5 independent reviewer accepted the quadric restriction route
-using R-0020. The reviewer reconstructed the ambient lifts, the eight
-restricted monomials, the coefficient tests in the balanced and split
-frames, and the second-symbol line and target dimensions. Independent
-enumeration of the 35 quartic monomials confirmed the first-symbol rank and
-coefficient conditions over \(\mathbf Q,\mathbf F_2,\mathbf F_3,\mathbf F_5\)
-and \(\mathbf F_7\). The geometric restriction and transition arguments
-give the assertion over any field.
-
-The October 23 audit checked the intrinsic restriction and double-vanishing
-argument and ran the complete finite source calculation over \(\mathbf Q\)
-and \(\mathbf F_2\). [Source review](../arguments/quartic_specialization_and_symbols.md#source-review-and-verification)
+The proof uses restriction of quartics through C to the smooth quadric, the eight-dimensional (1,3) restriction image, and the unique degree-four double equation q^2. The coefficient conditions follow from the marked conormal transitions and are valid in their stated characteristics.
