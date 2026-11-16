@@ -1326,8 +1326,3 @@ incidence condition for its fourth obstruction. The separate case
 `deg D2=1` needs a defective-triple gluing state; a primitive-triple
 calculation cannot silently be applied to it.
 
-
----
-
-
-
