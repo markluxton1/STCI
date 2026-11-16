@@ -4,8 +4,6 @@ The historical sections retain their hypotheses, qualifications, and proof statu
 
 # October 9 historical mathematics
 
-This compilation retains the mathematical hypotheses, counterexamples, unsuccessful arguments, and open questions. This compilation supplies no new independent audit.
-
 ---
 
 ## Source: 2026-10-09-session-elliptic-conductor-quadratic-descent-independent-audit.md
