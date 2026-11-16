@@ -18,7 +18,7 @@ The inputs are the
 [independent ribbon-net proof](genus_one_ribbon_conormal_net_proof.md),
 [actual-coordinate full-fiber conditions](genus_one_uniform_projection_analysis.md),
 and [entire conductor calculation](../../frameworks/carrier-normalization/quartic_proof_interfaces.md).
-The separate [partition [2,1,1] proof](GENUS_ONE_211_PROJECTION_PROOF.md)
+The separate [partition [2,1,1] proof](genus_one_211_projection_proof.md)
 is outside this note's independently computed coverage. Combining all four
 partitions requires accepting that separate proof and the preceding inputs;
 agreement between owners is not the proof.
