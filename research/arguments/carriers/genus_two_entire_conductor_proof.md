@@ -274,7 +274,7 @@ equation in the ideal of the conductor line. Thus the homogeneous
 equation belongs to `I_Gamma^2` and not to `I_Gamma^3`. Higher
 multiplicity at special points has not been excluded.
 
-## 8. Audit boundary and continuation
+## 8. Scope and downstream dependencies
 
-The entire-conductor reduction includes non-Gorenstein normalizations, nonreduced upstairs conductors, and special fibers under its rational genus-two/quartic-polarization hypotheses. It does **not** identify the pencil of planes through \(\Gamma\) with the adjoint pencil or prove extension on the chosen resolution. Normality of the strict transform in \(\operatorname{Bl}_\Gamma\mathbf P^3\) requires that identification or another proof. The genus-two mate and unrestricted STCI questions remain open.
+The entire-conductor reduction includes non-Gorenstein normalizations, nonreduced upstairs conductors, and special fibers under its rational genus-two/quartic-polarization hypotheses. It does **not** identify the pencil of planes through \(\Gamma\) with the adjoint pencil or prove extension on the chosen resolution. The required adjoint-pencil identification, blowup lift, and normal ADE strict transform are proved separately in [the ambient conic-model argument](genus_two_ambient_conic_model_proof.md). The genus-two mate cases are assembled and excluded in [the quartic-carrier proof](quartic_carrier_proof.md); the unrestricted characteristic-zero STCI question with both degrees at least five remains open.
 
