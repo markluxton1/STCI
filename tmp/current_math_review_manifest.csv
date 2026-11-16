@@ -6,7 +6,7 @@ path,status,findings,action,commit
 "research/arguments/arithmetic/arithmetic_equations_and_jet_gaps.md","pending","","",""
 "research/arguments/arithmetic/arithmetic_four_section_family.md","pending","","",""
 "research/arguments/arithmetic/arithmetic_root_collision.md","pending","","",""
-"research/arguments/arithmetic/effective_characteristic_transfer.md","in-progress","Stale cross-document link repaired; full review pending","link repaired","4eed65cfac78481d65a63342b2eea70a3590e36a"
+"research/arguments/arithmetic/effective_characteristic_transfer.md","complete","Reviewed integral incidence and rank criterion against arithmetic_equations_and_jet_gaps; checked properness minors, arithmetic Nullstellensatz parameter bounds, quartic remainder charts and conditionality","Removed dated audit history; retained concise scope and limitations","831d8b55b00e49f6330c058f0a8a49c191e238b4"
 "research/arguments/arithmetic/frobenius_power_lifting_precision.md","pending","","",""
 "research/arguments/arithmetic/mixed_characteristic_trace_obstruction.md","in-progress","Stale cross-document link repaired; full review pending","link repaired","4eed65cfac78481d65a63342b2eea70a3590e36a"
 "research/arguments/arithmetic/positive_characteristic_constructions.md","pending","","",""
