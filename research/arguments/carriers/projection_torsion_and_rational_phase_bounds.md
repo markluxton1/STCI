@@ -6,12 +6,7 @@ points. The final part is an independent geometric formal-branch criterion; it
 is not a consequence of torsion-coset arithmetic. All substantive statements
 retain their exact characteristic-zero and family hypotheses.
 
-**Review.** The family specialization, torsion-coset, effective rational and
-nef-scope arguments have inherited independent review. Mathematical corrections
-from those audits are integrated below; no separate audit narrative is needed.
-No phase image, Mann partition enumeration, or family-wide decision has been
-executed for the three fixed-C0 families. Independent replacement review
-accepted the corrected proof preservation and scope; no material finding remains.
+The three fixed-\(C_0\) families have no computed full phase image, Mann partition enumeration, or family-wide decision. The torsion-coset and nef formal-branch arguments below have separate hypotheses and do not supply these missing calculations.
 
 <a id="actual-families-and-their-finite-phase-image"></a>
 <a id="2026-10-15-generalization-projection-torsion-coset-reduction"></a>
