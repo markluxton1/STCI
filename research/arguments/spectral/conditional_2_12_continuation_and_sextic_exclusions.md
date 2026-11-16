@@ -480,17 +480,15 @@ remains open in this note.
 
 ---
 
-## 2026-10-21-conditional-2-12-surface-audit-cont2
-
-# Conditional (2,12;6,16;2): cubic-model and conductor continuation
+## Conditional (2,12;6,16;2): cubic-model and conductor continuation
 
 The cubic-model interface and ramified simple-multiplier exclusion have the stated hypotheses. The incorrect normalization claim in the separate nodal example is rejected below. No actual pair or full emptiness theorem is established.
 
-## 1. Scope and reviewed files
+## 1. Hypotheses and dependencies
 
 This continuation uses the same characteristic-zero **actual supported \((6,16)\)**, saturated movement-two, full generic \((2,12)\) CI hypotheses as [the geometric audit](#2026-10-21-conditional-2-12-geometric-audit-and-exceptional-locus). The additional inputs are the [cubic-image/conductor interface](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-cubic-image-and-conductor-interface), [ramification argument](https://github.com/markluxton1/STCI/blob/6e5fecb713e5a5c7aa79010b4338bd4e08e9ec54/research/supplements/CONDITIONAL_2_12_SINGULAR_AND_CONDUCTOR.md#2026-10-21-conditional-2-12-conductor-ramification), and [normality/nodal extension](#nonnormal-conductor-budget-and-local-escape-models). The singular-root finite bridge is a separate necessary dependency, not a consequence of smooth-root theory. The low-degree carrier and factor exclusions come from [R-0001](../../results/quartic_carrier_exclusion.md), not this conditional calculation.
 
-## 3. Full conductor duality and component genus: independent review PASS
+## 3. Full conductor duality and component genus
 
 Let `Y` normalize the integral Gorenstein `T` with `omega_T=O_T`.
 Finite duality identifies `omega_Y` with the conductor ideal `I`
@@ -525,7 +523,7 @@ This remains true when the particular singular point lies on `Q'`.
 **Verdict: PASS.** No assumption that the whole conductor is reduced,
 or that the normalization is Gorenstein, has been inserted.
 
-## 4. Ramified simple-base zeros: independent review PASS
+## 4. Ramified simple-base zeros
 
 At a smooth ramification point with a simple base zero of `alpha`,
 both `A` and `p` are regular in the base coordinate `z`. Factoring
