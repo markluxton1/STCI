@@ -193,6 +193,4 @@ Two such quartics cannot intersect properly, proving the embedded-neighborhood \
 
 The [exact universal cocycle derivation](../../computations/quartic_fourth_extension_cocycles.py) works in \(k(z,\mathrm{parameters})[y]/(y^4)\), reconstructing the defective class, kernel transitions, and three primitive coefficients independently of (2)–(3). The formulas and hand elimination, not numerical sampling, prove parameter exhaustion.
 
-## Independent reconstruction
-
-Independent review reconstructed the extension correspondence and multiplication identification, the full quotient parameter spaces and failed-purity boundaries, and the contact-module frame laws after removing defect torsion. A separate derivation from the rational ambient charts verified the universal coefficients before imposing triple compatibility, and review checked all four branches of the hand elimination. No material defect remained. The classification is confined to the two stated saturated quadruple types on this embedding in characteristic zero. The resulting alternative proof of R-0022 uses neither the all-degree carrier theorem nor a global surface bound and does not address arbitrary higher-degree STCI pairs.
+The classification is confined to the two stated saturated quadruple types in characteristic zero. It does not address arbitrary higher-degree STCI pairs.
