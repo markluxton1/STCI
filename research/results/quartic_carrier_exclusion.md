@@ -18,7 +18,7 @@ evidence:
   - "research/arguments/carriers/genus_two_endpoint_proof.md"
   - "research/arguments/carriers/genus_two_endpoint_local_corrections.md"
 independent_audits:
-  - "research/arguments/carriers/quartic_carrier_proof.md#9-review-state"
+  - "research/arguments/carriers/quartic_carrier_proof.md#9-verification-and-logical-boundaries"
 legacy_ids: []
 supersedes: []
 superseded_by: []
