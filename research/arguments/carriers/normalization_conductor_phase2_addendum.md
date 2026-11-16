@@ -394,7 +394,7 @@ For the actual-pair \((6,16)\) lane with saturated movement two, the \((2,2)\) r
 
 The seven-cubic anticanonical model and conductor duality arise **only under the hypothetical supported-pair assumptions**. They exclude ramified simple-base zeros but leave multiple-base-zero and nodal-contact loci; a nonfinite proposed normalization cannot exclude the latter. The [full descent criterion](../../frameworks/carrier-normalization/carrier_descent.md#42-the-full-conductor-descent-criterion) and [descent algebra](conductor_descent_algebra.md) are separate from necessary symbol tests.
 
-For [movement-two geometry](../../results/movement_two_six_rows.md), \(\varepsilon\) is the degree of the coefficient map and the root has bidegree \((\varepsilon,r)=(2,2)\). Saturation forbids coefficient-map base points, not singular roots or fiberwise noncoprimality. The six numerical rows are conditional candidates, not a classification of arbitrary presentations. No unrestricted STCI conclusion follows.
+For [movement-two geometry](../../results/movement_two_six_rows.md), \(\varepsilon\) is the degree of the coefficient map and the root has bidegree \((\varepsilon,r)=(2,2)\). Saturation forbids coefficient-map base points, not singular roots or fiberwise noncoprimality. The six numerical rows are conditional candidates, not a classification of arbitrary presentations. The forced-norm calculation, varying q³ lift and admissible cubic-jet quotient are successive necessary tests, not independently sufficient conditions for a supported pair. No unrestricted STCI conclusion follows.
 
 ## Endpoint-four: the finite actual-equation question
 
