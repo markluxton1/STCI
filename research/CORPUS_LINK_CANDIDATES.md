@@ -146,3 +146,20 @@ These 12 files were fetched in full at this branch; byte counts are UTF-8 text s
 | [arguments/torus/tropical_thickenings_and_endpoint_duality.md](arguments/torus/tropical_thickenings_and_endpoint_duality.md) | 25103 | 498 |
 | [frameworks/carrier-normalization/carrier_descent.md](frameworks/carrier-normalization/carrier_descent.md) | 21416 | 203 |
 | [frameworks/carrier-normalization/cartier_indices_and_sextic_applications.md](frameworks/carrier-normalization/cartier_indices_and_sextic_applications.md) | 7261 | 51 |
+
+## Fourth verified candidate sample
+
+| File | Characters | Lines / status |
+| --- | ---: | --- |
+| [frameworks/carrier-normalization/cubic_and_conic_conductor_schemes.md](frameworks/carrier-normalization/cubic_and_conic_conductor_schemes.md) | 6930 | 50 |
+| [frameworks/carrier-normalization/degree_exclusions.md](frameworks/carrier-normalization/degree_exclusions.md) | 10621 | 150 |
+| [frameworks/carrier-normalization/fixed_carrier_and_cartier_projection.md](frameworks/carrier-normalization/fixed_carrier_and_cartier_projection.md) | 9038 | 50 |
+| [frameworks/carrier-normalization/normalization_conductor_projection.md](frameworks/carrier-normalization/normalization_conductor_projection.md) | 4387 | 96 |
+| [frameworks/carrier-normalization/open_carrier_cases.md](frameworks/carrier-normalization/open_carrier_cases.md) | 4702 | 65 |
+| [frameworks/carrier-normalization/projection_pairings_and_conductor_failures.md](frameworks/carrier-normalization/projection_pairings_and_conductor_failures.md) | 6755 | 53 |
+| [frameworks/carrier-normalization/quartic_carrier_genus_one_and_ribbon_nets.md](frameworks/carrier-normalization/quartic_carrier_genus_one_and_ribbon_nets.md) | 4623 | 26 |
+| [frameworks/carrier-normalization/quartic_carrier_genus_two_conductor.md](frameworks/carrier-normalization/quartic_carrier_genus_two_conductor.md) | 8316 | 61 |
+| [frameworks/carrier-normalization/quartic_carrier_six_lanes_and_genus_one.md](frameworks/carrier-normalization/quartic_carrier_six_lanes_and_genus_one.md) | 6764 | 49 |
+| [frameworks/carrier-normalization/quartic_carrier_trisecant_and_proof_routes.md](frameworks/carrier-normalization/quartic_carrier_trisecant_and_proof_routes.md) | 6136 | 65 |
+| [frameworks/carrier-normalization/quartic_carrier_trisecant_discriminant.md](frameworks/carrier-normalization/quartic_carrier_trisecant_discriminant.md) | 3587 | 42 |
+| [frameworks/carrier-normalization/quartic_carrier_veronese_and_genus_zero.md](frameworks/carrier-normalization/quartic_carrier_veronese_and_genus_zero.md) | 2632 | 16 |
