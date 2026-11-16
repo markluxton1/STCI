@@ -11,7 +11,7 @@ proofs:
     review:
       state: accepted
       basis: reconstructed
-      at: "#review"
+      at: "#statement"
 ---
 # Bounded supported Hilbert loci and both full torus limits
 

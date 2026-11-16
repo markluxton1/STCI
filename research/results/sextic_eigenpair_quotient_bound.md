@@ -11,7 +11,7 @@ proofs:
     review:
       state: accepted
       basis: reconstructed
-      at: "#review"
+      at: "#statement"
 ---
 # Sharp quotient length eight for proper sextic eigenpairs
 

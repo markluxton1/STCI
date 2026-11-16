@@ -11,7 +11,7 @@ proofs:
     review:
       state: accepted
       basis: reconstructed
-      at: "#review"
+      at: "#statement"
 ---
 
 # A supported quadruple whose equation filtration retains the torsion

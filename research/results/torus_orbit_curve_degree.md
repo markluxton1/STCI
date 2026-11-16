@@ -11,7 +11,7 @@ proofs:
     review:
       state: accepted
       basis: reconstructed
-      at: "#review"
+      at: "#statement"
 ---
 # Primitive orbit degrees and finite transverse quotient multiplicities
 

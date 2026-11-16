@@ -11,7 +11,7 @@ proofs:
     review:
       state: accepted
       basis: reconstructed
-      at: "#review"
+      at: "#statement"
 ---
 
 # A supported length-five family with a jump in the actual transverse defect
