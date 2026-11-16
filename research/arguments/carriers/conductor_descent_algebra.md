@@ -431,18 +431,17 @@ order with total residual degree two. This obstruction persists with
 fixed ring lengths. A degree or length bound alone cannot control
 split phases.
 
-One optional description of the residual torsion is useful. With
-the chosen embeddings, put `F=intersection_i E_i` inside the algebraic
-closure. The preceding argument gives
-
-```
-Tor((product E_i^*)/K^*)
-    ~= Tor(F^*/K^*) x mu_infinity(K)^(s-1),
-```
-
-by taking the common radical class represented by `alpha_1` and the
-ratios `alpha_i/alpha_1`. The displayed splitting uses embeddings;
-the intrinsic exponent and the torsion reduction theorem do not.
+The common radical values admit a description after choosing embeddings
+of the fields `E_i` into an algebraic closure of `K`. For a torsion
+class all chosen values are roots-of-unity multiples of one another,
+and their common radical value lies in `F = intersection_i E_i`.
+The relative phase tuple is then defined only modulo the action of
+`Gal(F/K)` on that common value. Thus a naive direct-product splitting
+with `mu_infinity(K)^(s-1)` is **not** canonical and need not hold as
+stated for arbitrary chosen embeddings: the pair of a common value and
+relative phases must be invariant under changes of embeddings. The
+intrinsic residual unit quotient and the exponent formula `e=m t`
+above avoid this ambiguity.
 
 
 ## 10. Global compression and characteristic boundaries
