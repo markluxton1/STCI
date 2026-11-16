@@ -843,10 +843,6 @@ None of these proves coverage of arbitrary mixed-weight pairs or a
 deformation preserving sole support. The characteristic-zero STCI
 question remains open.
 
-## Review
-
-Independent reconstruction accepted routes R-0042–R-0050 under their hypotheses: trace and arbitrary-mate reductions, integer-character quotient bound, local filtration/unit-factor lengths, colon sequence, graph/divisor arguments, full-family determinants, saturation, cycles, and endpoint schemes. Separate integer sparse-polynomial checks covered generator changes, three maximal minors, cancellation, Segre restrictions of \(a_6,b_4\), and moving/absorption/special-divisor factorizations. The source's core §§1–4.1 and primitive orbit-degree statement were preserved. Later attainment, extreme-component, and cancellation investigations are outside this proof closure. Finite identities alone do **not** prove flatness, saturation, or exhaustive coverage; no supported deformation or unrestricted characteristic-zero STCI follows.
-
 <a id="finite-replay-evidence"></a>
 
 ## Finite replay evidence
