@@ -45,7 +45,3 @@ Residual nodes can be smoothed independently with the attachment divisor exactly
 
 ## Limitations
 No explicit polynomial or rational coefficient arc, nor universal theorem for all quartic pairs.
-
-## Current proof home
-
-The complete consolidated proof and its exact qualifications are in [the mathematical account](../arguments/residuals/fixed_boundary_smoothing.md). Inherited review covers unchanged proofs. Independent consolidation review reconstructed the replacement, checked scope and dependencies, and accepted the replacement and bounded source removals; no new CAS execution was required.
