@@ -213,65 +213,11 @@ and no STCI construction from this calculation. The temporary unfinished
 program has no continuing consumer; the exact input W and condition (2)
 preserve the mathematical question.
 
-## 5. Exact evidence and integration scope
+## 5. Exact computational evidence and scope
 
-The proof and five exact support files are selectively preserved from commit
-`61290bdf906aa419c9542732f32fdcc34ba338a1`. The finite chart, boundary,
-three exceptional curves and specialization audit keep their original formulas
-and characteristic-zero hypotheses. This integration makes no new mathematical
-deduction. Independent preservation and scope
-review passed without a material finding, by direct comparison to the fixed
-source and all five exact support files. This review made no fresh CAS replay;
-the unchanged source arguments retain the reviews described below.
+The [finite-center program](../../computations/quintic_toric_finite_centers.py), [coefficient input](../../computations/quintic_toric_finite_centers.json), and [one-infinity boundary program](../../computations/quintic_toric_boundary_centers.py) record the exact polynomial calculations. The [three-curve specialization certificate](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/quintic_toric_exception_centers.py) and [independent specialization audit](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/quintic_toric_exception_audit.py) establish the stated exclusions under \(\Delta K_0dN\ne0\). Their exact source versions were previously checked; these files have not been rerun in this consolidation.
 
-The independent source implementation review checked the finite chart and
-corrected one-infinity calculation and executed them with Python 3.15.2 /
-SymPy 1.14.0, exit zero. The retained finite copy differed only in execution
-metadata and removal of an unused no-op; the boundary copy was byte-identical
-to that reviewed version. The support lemma (2) separately received mathematical
-reconstruction. A fresh independent closeout review reconstructed the final
-written §§1–4, including the K=0 points, universal residual-factor identities,
-parameter coverage, denominator and leading-coefficient specializations, endpoints
-and exact remaining multiplicity patterns. It found no material correction.
-That reviewer executed the retained three-curve program and retained independent
-specialization audit with Python 3.15.2 / SymPy 1.14.0, both exit zero; the
-latter ended in PASS. No M-locus calculation was performed or certified.
-
-| Exact retained support | SHA-256 |
-| --- | --- |
-| [Finite-center program](../../computations/quintic_toric_finite_centers.py) | `091e9b878f2dbb3b4cca64cac3e366449111dc26305936a13330da516ba05e80` |
-| [Finite-center JSON input](../../computations/quintic_toric_finite_centers.json) | `924bc8245c2b9cbee76f98862e7e304e9aecb32c4d2a96279666734f10a5b6ec` |
-| [One-infinity boundary program](../../computations/quintic_toric_boundary_centers.py) | `6de86103d9539039366cee0d99693b06f7d2eed511dad4566bb5233ac6a420b5` |
-| [Three-curve program](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/quintic_toric_exception_centers.py) | `46a86f93c6aec48a8a79ec897bb60203d226cb27a263435cb4dfae863208016f` |
-| [Independent specialization audit](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/quintic_toric_exception_audit.py) | `4d2b338367b09858427bcf8f036b5ffe64d39570bc9add8809198607618cdd00` |
-
-The JSON preserves the six coefficients of W and the earlier four-curve gate
-(1). Its remaining-incidence field describes that stage of the calculation;
-§4 gives the later reviewed exclusion of U0,V1,V2. The JSON is an exact input,
-not an independent statement that all four curves are still open. Both the
-three-curve program and audit read the sibling JSON; no temporary input is
-needed. The audit additionally prints the three-curve program's hash. The
-finite and boundary programs are otherwise self-contained apart from SymPy
-and the Python standard library.
-
-For reproduction, use Python with SymPy and run these individual scripts from
-`research/computations/`. This integration checks exact source-byte preservation
-and dependencies; it does not claim a fresh CAS replay. The source closeout's
-captured three-curve output SHA-256 was
-`e11e46536605ea9153e71be7e52a06d1bd5cade48929368e06f17deee51fe94f`;
-the specialization-audit output SHA-256 was
-`5f0a79542fb6f4a95c7886108fbc81a4d8b6b4bf87c17bdb11a14cd90db563f6`.
-These identify the source executions, not executions in this integration.
-
-The result is a partial exclusion for the exhaustive toric quintic-source
-reduction. It leaves (3) unresolved and does not imply a complete toric-quintic
-exclusion, a classification of non-Gorenstein quintic normalizations, or an
-unrestricted characteristic-zero STCI conclusion. Even a surviving full-support
-center would still require actual descent of a pure power q^N through its
-projection/conductor algebra.
-
-
-The archived specialization script and its exact hypotheses are available through the [source certificate](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/quintic_toric_exception_audit.py). The mathematical exclusions and remaining `M=0` boundary are stated in §§2–4; the script is not an additional theorem.
+The JSON describes an earlier four-curve necessary gate; the later exclusions of \(U_0,V_1,V_2\) in §4 supersede that field. The \(M=0\) locus remains unresolved, as does descent of a power of the upstairs section through the actual projection/conductor algebra. No complete toric-quintic or unrestricted characteristic-zero STCI exclusion follows.
 
 ## Related quintic incidence developments
 
