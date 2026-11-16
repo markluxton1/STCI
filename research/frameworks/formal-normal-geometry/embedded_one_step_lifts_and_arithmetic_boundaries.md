@@ -4,7 +4,7 @@
 
 ## 3.11 Embedded one-step lifting and the actual homogeneous source
 
-The [October 27 one-step investigation](../../arguments/torus/toric_torsion_and_endpoint_contacts.md#boundary-obstruction-and-endpoint-scope-investigations) supplies a source-level theorem for a *fixed embedded lower thickening* Y with generic algebra K[y]/(y^n), n at least two. Write I=I_C, J=I_Y, and let M_Y=(J/IJ)/torsion. The first-symbol quotient is V_Y=R(-B_Y), and the saturated kernel of the first-symbol map is Ubar_Y=L^n(A_Y), where L is the torsion-free first normal quotient. The actual equation module sits in
+The [October 27 one-step investigation](../../arguments/torus/toric_torsion_and_endpoint_contacts.md#boundary-one-step-obstruction-and-endpoint-geometry) supplies a source-level theorem for a *fixed embedded lower thickening* Y with generic algebra K[y]/(y^n), n at least two. Write I=I_C, J=I_Y, and let M_Y=(J/IJ)/torsion. The first-symbol quotient is V_Y=R(-B_Y), and the saturated kernel of the first-symbol map is Ubar_Y=L^n(A_Y), where L is the torsion-free first normal quotient. The actual equation module sits in
 
     0 -> Ubar_Y -> M_Y -> V_Y -> 0,
 
@@ -37,7 +37,7 @@ h\longmapsto (q\mapsto\langle o,hq\rangle)
 \]
 has a nonzero kernel. If \(B\ge\lfloor r/2\rfloor\), a kernel exists by dimension for every class, but this only allows an *arbitrarily chosen* divisor. For a direct sum of obstruction lines the **same** \(h\) must repair all components, so their catalecticant maps must be stacked. The [boundary supplement](../../arguments/normal-geometry/normal_boundary_weighted_initials.md#normal-boundary-weighted-initials-and-lifting) gives the complete calculation and the unproved comparison with the ambient lifting complex.
 
-The [one-step package](../../arguments/torus/toric_torsion_and_endpoint_contacts.md#boundary-obstruction-and-endpoint-scope-investigations) is more restrictive: it fixes an embedded lower thickening, its equation module and permissible socle boundary. One must establish that the geometric boundary actually induces the proposed modification of the **correct obstruction bundle**, rather than applying an arbitrary twist to an unrelated cohomology class. Vanishing, the final Gorenstein pairing and the existence of two **proper decomposable** elements in actual homogeneous source spaces are distinct tests. A nonzero linear kernel need not meet the decomposable locus.
+The [one-step package](../../arguments/torus/toric_torsion_and_endpoint_contacts.md#boundary-one-step-obstruction-and-endpoint-geometry) is more restrictive: it fixes an embedded lower thickening, its equation module and permissible socle boundary. One must establish that the geometric boundary actually induces the proposed modification of the **correct obstruction bundle**, rather than applying an arbitrary twist to an unrelated cohomology class. Vanishing, the final Gorenstein pairing and the existence of two **proper decomposable** elements in actual homogeneous source spaces are distinct tests. A nonzero linear kernel need not meet the decomposable locus.
 
 The [Delta-embedding package](../../arguments/normal-geometry/rees_equation_persistence.md#the-equation-filtration-conormal-torsion-and-specialization) addresses a different local comparison defect. It is not interchangeable with the repair divisor, with the saturated first-relation defect or with a residual projective curve. See the [open sole-support question](open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 
