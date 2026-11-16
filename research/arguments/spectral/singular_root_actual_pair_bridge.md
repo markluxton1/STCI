@@ -341,7 +341,7 @@ restriction; it must not be dropped from the incidence.
 
 ## 8. What this reduction does and does not settle
 
-The singular-root part of the structured incidence is now precise:
+The singular-root part of the structured incidence is now precise within the full actual-pair, saturated normal-flat hypotheses:
 cuspidal and tangent-component roots are excluded by full Picard
 torsion; integral nodal roots retain (3)-(5); two-node pairs retain
 the ratio of the two conductor identifications; and smooth roots
