@@ -419,9 +419,8 @@ The common Kummer subfield `L=K(alpha_1)` is contained in every
 embedded `E_i`. The ambient fields may be larger without changing
 the residual exponent formula. There is no need to assert
 a direct-product decomposition of the torsion unit quotient.
-The exact sequence and logarithmic defect in Section 8 specify when
-a *given* lift with torsion residue actually has a descending power.
-It does not replace the full nonreduced conductor-membership test.
+Section 8's logarithmic defect distinguishes a particular unit with
+a descending power from one having merely torsion residual phase.
 
 ## 10. Global compression and characteristic boundaries
 
