@@ -428,7 +428,7 @@ The following remain questions rather than conclusions:
 - Which invariant endpoint configurations occur in full Hilbert limits of actual complete intersections containing \(C_0\)? Can equivariant deformation theory organize the realizable configurations into locally closed loci, and which can occur under sole support?
 - For integral equivariant carriers, how do normalization and boundary affect the transverse character descent semigroup? Do the two opposite carriers sit in a larger configuration under the normalizer of the intrinsic torus? These questions concern geometry beyond the reviewed invariant-carrier exclusion.
 
-No affirmative answer is asserted here.
+No affirmative answer is asserted here. In particular, the rooted contact filtration is only a comparison invariant for the displayed cyclic orbit; it does not characterize a full Hilbert limit or determine a thickening ideal.
 
 ## 9. Logical safeguards
 
