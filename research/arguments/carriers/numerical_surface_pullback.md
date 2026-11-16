@@ -118,7 +118,9 @@ index for the full resolution data.
 ## Limits of numerical and generic input
 
 The correction matrix, discrepancy divisor and actual normal derivatives are
-different inputs. For arbitrary normal surface singularities, one cannot assume
+different inputs. In particular, the inequality for the conormal line
+is conditional on principalization of the actual curve ideal, not on
+an arbitrary numerical pullback chosen without that ideal. For arbitrary normal surface singularities, one cannot assume
 the discrepancy contribution has the sign available in a crepant ADE
 calculation. Nor does the Cartier index alone establish a lower bound
 \(\operatorname{ord}_p(\nabla F|_C)\ge r_p-1\). A proof using either step
