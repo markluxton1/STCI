@@ -126,17 +126,3 @@ pairs. Initial forms of the two chosen equations alone do not generate
 the full limit. No identification with the normal-cone initial ideal
 along \(C\) is made. A preserved cycle, polynomial, or quotient cannot
 replace the actual saturated ideal or endpoint charts.
-
-## Review
-
-Independent reconstruction by the nonauthor reviewer pilot_review_sextic
-accepted this route on November 4, 2026. The reviewer reconstructed the height-two Hilbert–Burch proof,
-parameter regularity, flatness, parameter and irrelevant saturation,
-minimal resolution, both cycle calculations, and endpoint chart ideals.
-A separate sparse-polynomial implementation over the integers checked the
-generator change, all three matrix minors, cancellation relation, Segre
-restrictions of a6 and b4, and original-cycle restriction factorizations.
-Those identity checks support the geometric reduction with necessary
-exact algebra; they do not replace its flatness or saturation argument.
-The residual-degree-32 example remains outside sole support.
-
