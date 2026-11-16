@@ -424,69 +424,30 @@ The fixed-carrier certificate for the selected rho=−1, b2=0, q³-coefficient=1
 
 The six-row reduction and full spectral-gluing package are **characteristic zero**. The regular-sequence length identity and multiplication injectivity are characteristic-independent under their ring hypotheses, but the balanced source matrices require denominators and rank checks after reduction. The cube-orbit argument uses separability and cube roots, and does not transfer to characteristic three. The seed obstruction \(-384\) vanishes at primes dividing it; the characteristic-zero Milnor/Hodge bound and degree-52 condition do not yield positive-characteristic exclusions. This does not conflict with the [positive-characteristic quartic-carrier constructions](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier).
 
-## Related finite-root and structural incidence developments
+## Normal-flatness, moving-root, and exceptional-cycle dependencies
 
-Complete mathematical dossier preserving the actual investigations, calculations, exact conditions, negative results, and unresolved boundaries. Administrative commentary is retained pending editorial consolidation, not treated as proof authority.
+The conditional sextic lifting problem uses four independently established developments, whose complete proofs belong to their respective Arguments:
 
----
+- [Projective normal-flatness from duality and the resultant](../spectral/spectral_pushforward_powers.md#projective-normal-flatness-by-duality-and-resultants): actual lci thickening, coprime generic binary CI, and a saturated first-relation line; compare the [local Hilbert-function proof](../normal-geometry/normal_flatness_and_filtered_ci.md#2026-10-19-filtered-generic-ci-normal-flatness).
+- [Nonreduced moving full-root obstruction](../spectral/spectral_torsion_and_syzygy_splitting.md#2026-10-19-spectral-nonreduced-root-obstruction): reduced full roots under the finite-flat Cartier and Picard-pullback hypotheses; special fibers may remain nonreduced.
+- [Exceptional-cycle and residual slope bounds](../residuals/blowup_residual_geometry.md): generator-sensitive necessary inequalities, not a residual existence theorem.
+- [Degree-eight isolated inverse-support examples](carrier_conductor_differential_comparison.md#smooth-quadric-isolated-inverse-points-prohibit-every-mate): explicit families with no mate, not an exhaustion of degree-eight carriers.
 
-<a id="2026-10-19-independent-investigation-report"></a>
+The remaining limitations of these inputs are recorded below; none supplies global lifting or sole support by itself.
 
-## Independent investigation: saturated normal cones, moving roots, and exceptional cycles
-
-Date: 2026-10-19. Starting branch: `main`.
-Research branch: `codex/normal-cone-rigidity-2026-10-19`.
-
-**Status:** research with separate independent audits. The unrestricted characteristic-zero STCI problem
-for `C0=[s^4:s^3t:st^3:t^4]` remains open.
-
-### A. Main findings
-
-#### A1. Actual normal-flatness from duality and a resultant
-
-For a smooth connected projective curve \(C\) in a smooth threefold, let \(Y\) be an **actual lci thickening** with reduced support \(C\), \(J=I_C\mathcal O_Y\), and \(E=N_{C/X}^\vee\). Assume the **full generic ordinary initial ideal** is a coprime binary CI \((f_r,g_s)\), \(2\le r<s\), and the actual first relation \(\ker(\operatorname{Sym}^r E\to J^r/J^{r+1})\) is a line **subbundle** \(R\). Then every ordinary normal layer is locally free and every special graded fiber is a CI of degrees \((r,s)\), without balanced conormal, smooth roots, or jointly generated displayed symbols.
-
-The [complete projective proof](../spectral/spectral_pushforward_powers.md#projective-normal-flatness-by-duality-and-resultants) saturates ordinary powers \(P_i\), uses the Gorenstein complementary pairings into the socle line \(S\) of degree \(d=r+s-2\), and proves \(P_i=J^i\) through \(s\). If \(h=\deg E\), \(a=\deg R\), then
-\[
-\deg S=(s-1)h-(s-r)a/r,\qquad \deg T=sh-sa/r
-\]
-for the second quotient-relation line \(T\). The resultant section of \((\det E)^{rs}\otimes R^{-s}\otimes T^{-r}\) has degree zero and is generically nonzero, hence nowhere zero. The full graded CI then maps isomorphically onto the saturated graded algebra by socle duality; degree-one generation gives \(P_i=J^i\) for all \(i\). The [independent local Hilbert-function proof](../normal-geometry/normal_flatness_and_filtered_ci.md#2026-10-19-filtered-generic-ci-normal-flatness) drops projectivity and also treats \(r=s\), but requires its separate sharp Gorenstein Hilbert-function input and constant-order hypotheses.
-
-#### A2. Moving nonreduced full roots
-
-In characteristic zero, for a finite-flat Cartier root \(Z\subset\mathbf P^1\times\mathbf P^1\) of class \((\varepsilon,r)\), \(\varepsilon>0\), if \(\mathcal O_Z(0,s)=\pi^*\mathcal O(n)\) for \(s>0\), then \(Z\) is **reduced**. Its irreducible component classes are \(t_i(\varepsilon/g,r/g)\), where \(g=\gcd(\varepsilon,r)\), \(t_i>0\), \(\sum t_i=g\). The [Picard proof](../spectral/spectral_torsion_and_syzygy_splitting.md#2026-10-19-spectral-nonreduced-root-obstruction) uses injectivity of \(\operatorname{Pic}(\mathbf P^1\times\mathbf P^1)\to\operatorname{Pic}(2D)\) for positive-bidegree \(D\), from logarithmic differentials and \(H^1(\Omega(-D))=0\). Combined with A1 and [R-0008](../../results/spectral_root_picard_criterion.md), this excludes nonreduced moving **full roots** of actual supported CIs only under the stated saturated-first-line and generic-CI hypotheses. For movement two, the survivors are integral reduced \((2,r)\) roots (possibly singular) or, for even \(r\), two distinct \((1,r/2)\) components. A reduced root can have nonreduced special fibers.
-
-#### A3. Exact exceptional-cycle balance
-
-For a proper intersection \([V(F,G)]=m[C_0]+R_{\rm res}\), set \(\delta=de-4m\), displayed generic normal orders \(p,q\), and \(\lambda=E\cdot\widetilde R_{\rm res}\). If the exceptional first-blowup cycle has class \(A\alpha+B\beta\), then
-\[
-B=m-pq,\quad A=\lambda+7(m+pq)-4(dq+ep).
-\]
-If every horizontal common **displayed-symbol** root has slope at least \(\rho\), effectivity gives \(A\ge\rho B\). For an entirely thick STCI, \(x=d/p,y=e/q\ge3\), so
-\[
-\frac{7-\rho}{4}xy+7+\rho\ge4(x+y).
-\]
-Consequences: some root has slope below seven; a sole graph root has degree at most six; all slopes at least two exclude \(\min(x,y)\le16/5\), including normalized \((4,4)\); for a sole degree-one graph, \(x=3\) forces \(y\ge8\). The residual inequality is \(7de+28pq+5\delta\ge16(dq+ep)\), with coefficient five improving to one if no residual component lies on the quadric. These are necessary, generator-sensitive constraints, **not** residual-existence results. [Complete cycle proof](../residuals/blowup_residual_geometry.md).
-
-#### A4. Counterexamples and actual degree-eight carriers
-
-The local family \(f=t^Nu^p+v^a,\ g=f+u^b\), \(a,b>p\ge2\), is finite free of rank \(ab\) over \(k[t]\), but its first exceptional vertical coefficient is \(N(b-p)\), unbounded at fixed displayed orders and generic multiplicity. For \(N=aL\), even the full generic filtered algebra stays fixed; replacing \(g\) by \(g-f\) removes the vertical component. Thus exceptional vertical multiplicity is not an intrinsic residual curve or generator-independent ideal invariant. The [full counterexamples](../residuals/blowup_residual_geometry.md) include a homogeneous pure-line model.
-
-Two actual one-parameter degree-eight integral carrier families arise from smooth-quadric normalizations and contain the fixed \(C_0\). Both have extra isolated points in the full inverse support, excluding **every** positive-degree mate; at \(\gamma=1\) one inverse support is the diagonal plus exactly five isolated points. These do not exhaust degree-eight projections. [Exact family proof](carrier_conductor_differential_comparison.md#smooth-quadric-isolated-inverse-points-prohibit-every-mate).
-
-### B. Dependencies and remaining cases
+## Dependencies and remaining cases
 
 A1 requires an **actual saturated** first relation; its projective resultant proof and the local Gorenstein Hilbert-function proof have distinct hypotheses. A2 uses [the full-root Picard criterion](../../results/spectral_root_picard_criterion.md) only after A1. A3 concerns **displayed-symbol roots**, not A2's full roots, and uses \(d/p,e/q\ge3\) from the [entirely-thick bound](../normal-geometry/rees_and_vertical_controls.md#supported-cycle-bidegrees-and-the-universal-numerical-restriction). The [quartic carrier](../../results/quartic_carrier_exclusion.md) and [fixed-carrier conductor](../../results/fixed_carrier_conductor_criterion.md) results retain their separate hypotheses.
 
-### C. Mechanism
+## Mechanism
 
 Gorenstein duality supplies a degree-zero resultant for the second quotient relation, forcing uniform normal layers from the **actual** saturated first relation. Generic coprimality alone does not. The blowup slope inequalities instead retain chosen-generator and vertical-cycle information, as the counterexamples in A4 require.
 
-### D. Remaining obstacles
+## Remaining obstacles
 
 The theorem does not cover a nonsaturated first relation (its torsion disrupts early-layer identification), a non-CI generic initial ideal (no established graded-Gorenstein symmetry), or ambient lifting and gluing of reduced singular roots. The exceptional cycle class does not determine directional higher contact. The degree-eight carrier examples have extra inverse points and do not address full-singleton-support projections. **No common singular point of arbitrary defining surfaces is assumed.**
 
-### E. Scope of continuation
+## Scope of continuation
 
 Open gaps include nonsaturated-relation defects, non-CI annihilator flags, lifting and gluing reduced singular roots, and directional exceptional contact multiplicities. A1–A4 have their own proofs; bounded computations do not establish elimination or unrestricted STCI classification.
 
