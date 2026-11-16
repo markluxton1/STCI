@@ -4,7 +4,7 @@ Original mathematical content, hypotheses, qualifications, and proof status pres
 
 # Actual normal equations, filtration duality and characteristic benchmarks
 
-Complete source texts below, retaining mathematical arguments, hypotheses, counterexamples, corrections and unresolved cases. This compilation supplies no new independent audit.
+Complete source texts below, retaining mathematical arguments, hypotheses, counterexamples, corrections and unresolved cases. This compilation supplies no new independent audit. In particular, the failed FIRST residual comparison below remains a live discrepancy: the separately reconstructed and saved coefficient rows disagree at an explicit rational point, and no certificate requiring their equality is validated by this file.
 
 ---
 
