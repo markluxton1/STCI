@@ -400,10 +400,11 @@ original ones by powers of the unit \(\lambda\). The subalgebra \(A\)
 of \(M\) is \(\lambda\)-torsion-free. Thus the kernel of the ambient
 coordinate map to \(A\) is the contraction of its localization at
 \(\lambda\), and \(A\) is the coordinate algebra of the full orbit
-closure on this chart. The algebra \(M\) is generated as a module by
-the monomials \(U^aV^b\) with \(a+b<m\). Multiplying them by \(r^{4(m-1)}\)
-puts them in \(A\), so \(N\) is finite over \(k[\lambda]\), supported
-over \(r=0\). The sequence after reduction is
+closure on this chart. The algebra \(M\) is generated as an \(R\)-module by
+the monomials \(U^aV^b\) with \(a+b<m\): the nilpotent ideal has
+its \(m\)-th power zero in the rank-\(m\) fibers. Multiplying each
+such monomial by \(r^{4(m-1)}\) puts it in \(A\). Hence \(N\)
+is supported on \(r=0\) and is finite over \(k[\lambda]\). The sequence after reduction is
 
 \[
 0\to N[\lambda]\longrightarrow A/\lambda A
