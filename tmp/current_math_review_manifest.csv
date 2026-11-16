@@ -10,7 +10,7 @@ path,status,findings,action,commit
 "research/arguments/arithmetic/frobenius_power_lifting_precision.md","pending","","",""
 "research/arguments/arithmetic/mixed_characteristic_trace_obstruction.md","in-progress","Reviewed integral trace coefficient and character-grading argument, Witt hypotheses and ramified residual example; historical status removed; deeper proof verification outstanding","dated status removed",""
 "research/arguments/arithmetic/positive_characteristic_constructions.md","pending","","",""
-"research/arguments/arithmetic/prime_to_p_power_extraction.md","in-progress","Reviewed prime-to-p extraction hypotheses, primary-ideal correction space, local nilpotence and coefficient induction; historical status removed; deeper verification of global-to-local step outstanding","dated status removed",""
+"research/arguments/arithmetic/prime_to_p_power_extraction.md","complete","Reviewed full proof: primary-ideal global correction space; generic nilpotence from purity and flatness; Weierstrass normal algebra; prime-to-p divided-power induction; integral coefficient lifting; ramification-independent prescribed-point conclusion","Removed duplicated historical audit, retained limitations and sum-versus-direct-sum warning","1769d774eba770e3f2903706999dfd66bbbb4f75"
 "research/arguments/arithmetic/rational_quartics_in_positive_characteristic.md","pending","","",""
 "research/arguments/arithmetic/z4_intrinsic_arithmetic_mechanism.md","pending","","",""
 "research/arguments/arithmetic/z4_lifting_and_deformation.md","in-progress","Stale cross-document link repaired; full review pending","link repaired","4eed65cfac78481d65a63342b2eea70a3590e36a"
