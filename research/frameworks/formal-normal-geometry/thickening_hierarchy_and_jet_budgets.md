@@ -23,7 +23,7 @@ When saturation fails, [R-0016](../../results/nonsaturated_first_relation_result
 
 1. For a candidate actual pair with \(\sqrt J=I_C\), compute the full local initial ideal and the R-0030 comparison at every exceptional point. See the [punctual relative-defect question](open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 2. In a surviving saturated-root family, check full fiberwise coprimality, the actual generator hypotheses, and successive embedded lifting separately; calculate the remaining zero locus rather than extrapolating from one obstructed seed.
-3. For a fixed lower thickening, compute the extension class and permitted repair divisor described in [the one-step note](../../arguments/torus/toric_torsion_and_endpoint_contacts.md#boundary-obstruction-and-endpoint-scope-investigations), then impose the actual global degree-\(d\) source image. A vanishing extension class alone does not supply two defining equations.
+3. For a fixed lower thickening, compute the extension class and permitted repair divisor described in [the one-step note](../../arguments/torus/toric_torsion_and_endpoint_contacts.md#boundary-one-step-obstruction-and-endpoint-geometry), then impose the actual global degree-\(d\) source image. A vanishing extension class alone does not supply two defining equations.
 
 These tests are complementary rather than a mandated sequence. For detailed boundary-repair and punctual-defect discussion, continue to [the filtration supplement](normal_filtration_boundaries.md).
 
