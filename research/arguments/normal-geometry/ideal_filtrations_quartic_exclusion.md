@@ -603,21 +603,11 @@ flatness gives the local equality of the initial ideals. This proves a
 support containment. A simultaneous carrier singularity alone leaves the
 value of the defect undetermined.
 
-## Corrections made before saving the final package
+## Hypotheses and scope of the filtered comparison
 
-1. Required \(m\ge2\) in the family \((x,x+y^m)\) when asserting identical first-order diagrams and a higher differential \(d_{m-1}\).
-2. Named \(k[a]\) as the tensor base for the characteristic-zero endpoint slice, avoiding an implicit retraction \(Z\to C\).
-3. Qualified the recommendation: the insufficient objects are the \(C\)-restricted normal data and graded spectral-sequence limits. The full based nine-graded diagram remains sufficient through its degree-zero data.
-4. Replaced potentially ambiguous “integral closures” language by scheme-theoretic closures of an open piece.
-5. Narrowed the next research question to the remaining simultaneous-singular locus after proving the smooth-carrier criterion.
+The family \((x,x+y^m)\) requires \(m\ge2\) for identical first-order diagrams and the higher differential \(d_{m-1}\). The characteristic-zero endpoint slice is over the tensor base \(k[a]\), with no implicit retraction \(Z\to C\). The insufficient invariants are the \(C\)-restricted normal data and graded spectral-sequence limits; the full based nine-graded diagram still determines the embedded ideal through degree zero. Closures of open pieces are scheme-theoretic, not integral closures. The simultaneous-singular locus remains separate from the proved smooth-carrier criterion.
 
-## Evidence and limits
-
-The scripts verify finite local identities and algebra models. The proof audit separately checks the general algebra, gluing, and scope arguments. No unrestricted characteristic-zero STCI theorem, new global pair, or novelty claim is certified. Result and question records remain unchanged.
-
-
-
----
+Finite scripts check local identities and algebra models, not a new global pair or unrestricted characteristic-zero STCI theorem.
 
 ## 2026-10-23-quartic-44-filtered-proof-proposal.md
 
