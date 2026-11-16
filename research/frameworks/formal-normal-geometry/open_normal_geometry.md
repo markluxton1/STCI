@@ -28,13 +28,13 @@ closes the integral quartic-carrier mate cases, including the historical
 For a saturated quasiprimitive length-six structure, express the finite
 incidence conditions through successive jet ranks on a declared actual
 source. Test whether the saturated divisors and the higher-jet maps
-together explain the rank strata. The [perfect pairings](../../arguments/residuals/quasiprimitive_residual_cycles.md#2026-10-05-mf6-pairing-audit)
+together explain the rank strata. The [perfect pairings](../../arguments/residuals/quasiprimitive_residual_cycles.md#mf6-prerequisite-audit-perfect-pairings-on-the-saturated-filtration)
 use finite-flat Gorenstein duality. The [rank-six Fitting identity](../../arguments/residuals/quasiprimitive_residual_cycles.md#1-mf6-including-the-torsion-and-generation-steps)
 also uses generation by the two ambient normal coordinates in the embedded
 lci setting.
 
 For a hypothetical characteristic-zero \((4,b)\) pair with sole support
-\(C_0\) and \(e=0\), the [global bound](../../arguments/residuals/quasiprimitive_residual_cycles.md#2026-10-05-mf6-further-audit)
+\(C_0\) and \(e=0\), the [global bound](../../arguments/residuals/quasiprimitive_residual_cycles.md#mf6-audit-and-higher-jet-exclusions-for-the-mixed-46-pole-branch)
 is \(\deg D_2\ge3\). For bidegree \((4,6)\) and \(e=0\), set
 \((d_2,d_3)=(\deg D_2,\deg D_3)\). The [nonregular exclusion](../../arguments/local-cohomology/contact_parity_and_mf6.md#independent-audit-of-the-mf6-degree-three-nonregular-exclusion)
 for \((d_2,d_3)=(3,6)\) leaves the regular-ratio case to the general
