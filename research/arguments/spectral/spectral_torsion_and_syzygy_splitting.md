@@ -193,22 +193,15 @@ pure-direction or subsequent boundary exclusion is part of this result,
 and no mathematical computation was run for this extraction.
 
 
-## Consolidated historical supplement: `research/supplements/FIRST_RELATION_AND_SPECTRAL_ROOTS.md`
+## First-relation defects and nonreduced spectral roots
 
-# first relation and spectral roots
-
-Complete mathematical dossier preserving proofs, counterexamples, assumptions, conditional claims and unresolved questions. Source headings below organize the arguments, with their proof and review scopes stated below.
-
----
+The following are two distinct geometric arguments: a resultant-degree budget for a possibly unsaturated first relation, and a doubled-divisor Picard obstruction for a saturated moving root. Their independent reconstructions retain separate hypotheses and do not imply an unrestricted STCI exclusion.
 
 <a id="2026-10-19-first-relation-defect-investigation"></a>
 
 ## First-relation defects and the effective resultant budget
 
-Date: 2026-10-19.
-Author: `saturation_defects` research worker.
-Status: **structural theorem package; independent audit PASS**.
-Independent reconstruction: [defect audit](#2026-10-19-first-relation-defect-independent-audit).
+Independent reconstruction: [resultant-defect proof](#2026-10-19-first-relation-defect-independent-audit).
 
 ### 1. Scope, dependencies, and proposed contribution
 
@@ -829,9 +822,7 @@ The note still concerns actual lci thickenings with unique smooth support and a 
 
 ## A doubled-divisor obstruction to nonreduced moving spectral roots
 
-Date: 2026-10-19. Author: primary research agent.
-Status: **independently reviewed proposal; audit PASS**. The review
-reconstructed the full argument and component corollaries.
+The [independent reconstruction](#2026-10-19-doubled-divisor-independent-audit) checks the argument and its component corollaries at the hypotheses stated below.
 
 ### 1. Exact question, accepted inputs, and scope
 
