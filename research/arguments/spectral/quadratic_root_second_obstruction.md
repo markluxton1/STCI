@@ -18,7 +18,7 @@ and the accepted canonical second obstruction and its nonzero seed value
 are premises. None of those computations is rerun. This note proves a
 Picard-theoretic description of the torsion loci and a dimension bound
 on one specified torsion branch of the second zero locus. No additional
-seed or coefficient profile is computed.
+seed or coefficient profile is computed. The dimension bound concerns only the named irreducible torsion-two component through the seed, not every component of the second-zero scheme.
 
 ### 1. Setup and scope
 
