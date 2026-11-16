@@ -6,180 +6,39 @@ Consolidated research material, including open questions and source assessments.
 
 <a id="2026-10-05-foundational-frontier-audit"></a>
 
-## Independent foundational audit and strategic boundaries
+## Foundational theorem interfaces and source qualifications
 
-Date: 2026-10-05. Scope: P-029, P-035, the uniform smooth-quadric power
-algebra, and the positive-characteristic constructions P-012/P-014/P-028.
-This is an independent proof audit; it does not resolve the unrestricted STCI
-problem. The dedicated positive-characteristic audit and fixed-carrier
-refinement are recorded separately in
-`2026-10-05-positive-quartic-carrier-optimality.md`.
+The complete [complement-morphism theorem P-029](global_equations_and_constructions.md#p-029), [graded Gorenstein criterion P-035](global_equations_and_constructions.md#p-035), and [ordinary/symbolic power theorem on a smooth quadric](../normal-geometry/formal-normal-intersection.md#12-ordinary-ideal-powers-on-a-smooth-quadric-complete-proof) retain their proofs in the focused Arguments. The distinctions below are essential when applying them.
 
-### Audit outcomes
+### Complement morphisms and global ACMness
 
-| Claim | Outcome | Essential boundary |
+P-029 uses an **integral codimension-two** curve, positivity of the degree of a nonconstant map to \(\mathbf P^1\), and a generating homogeneous pencil; the equal-degree regular-sequence graph has equation \(uG-vF=0\). A reducible support requires additional componentwise arguments.
+
+P-035 requires **arithmetically Gorenstein**, hence Cohen–Macaulay, homogeneous coordinate algebra. The last free module in the Hilbert–Burch resolution has rank \(\mu(J)-1\), giving the canonical-module type. For an lci projective thickening, subcanonicality alone is insufficient: the Rao-module vanishing \(H^1(\mathbf P^3,\mathcal I_X(n))=0\) for every \(n\) is separate.
+
+The smooth-quadric theorem uses a local colon identity and homogeneous lifting by binary monomial products, plus saturation to rule out an embedded vertex prime. Sheaf exactness alone does not establish equality of saturated homogeneous powers. The [finite M2 checks](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_quadric_powers.m2) corroborate, but do not replace, its all-order proof.
+
+### Positive-characteristic carrier scope
+
+The separate [positive-characteristic constructions](../arithmetic/arithmetic_equations_and_jet_gaps.md) and [fixed cone analysis](../arithmetic/arithmetic_equations_and_jet_gaps.md) treat the specified smooth rational quartics and cuspidal carriers, **not** arbitrary projective curves. Their projection argument retains the degree-three separable/characteristic-three inseparable distinction, the characteristic-two ramification case, and the characteristic-three cusp coefficient. The normalization and semigroup descent are characteristic-sensitive; no characteristic-zero specialization follows.
+
+For the explicit quartic cone \(V(x_0x_3^3-x_2^4)\), the full set of mate degrees \(N\) has the following minimum and divisibility:
+ 
+| Characteristic | Necessary and sufficient condition | Minimum |
 | --- | --- | --- |
-| P-029, complement morphism | Verified | The complement has codimension two, and the curve is integral; a nonconstant map really has positive pullback degree. |
-| P-035, graded Gorenstein thickening | Verified | Graded Gorenstein includes Cohen--Macaulayness; local Gorensteinness alone is insufficient. |
-| Smooth-quadric power equality | Verified | The explicit multiplication/lifting argument is necessary; sheaf exactness alone would not establish saturation. |
-| P-012/P-014, positive characteristic | No mathematical gap found in dedicated independent audit | Covers smooth rational quartics and the specified cuspidal carriers, rather than arbitrary projective curves. |
-| P-028, explicit quartic cone | Verified and sharpened | A new exact mate-degree minimum is available on this fixed carrier; it is a carrier-specific result. |
-| Broad ACM literature assertion | Source scope unresolved | The original source inspected proves the monomial ACM class. A broad modern survey statement does not reconstruct that broader original proof. |
+| \(2\) | \(4\mid N\) | \(4\) |
+| \(3\) | \(3\mid N\) | \(3\) |
+| \(5\) | \(25\mid N\) | \(25\) |
+| \(p\ge7\) | \(p\mid N\) | \(p\) |
+| \(0\) | no mate | — |
 
-### 1. P-029: the complement morphism equivalence survives audit
+The finite birational normalization \(\mathbf P(1,1,4)\to V(x_0x_3^3-x_2^4)\) sends \([s:t:z]\mapsto[s^4:z:st^3:t^4]\), with inverse support \(z-s^3t=0\). Every degree-\(N\) mate pulls back to a scalar multiple of \((z-s^3t)^N\). By Lucas's theorem, descent is equivalent to the smallest positive base-\(p\) digit exponent \(p^{v_p(N)}\) belonging to the semigroup \(\langle3,4\rangle\); this includes arbitrary non-binomial mates. The characteristic-zero exclusion overlaps the one-binomial-carrier theorem.
 
-The October 5 audit verified [P-029 and its Rees graph calculation](#p-029-complement-morphisms-and-two-generated-positive-line-bundles).
-It checked the codimension-two class group and section extension, the
-positivity of the degree of a nonconstant morphism and the height-two
-argument. Integrality is used in the final support argument. For a
-reducible curve, one would also need to show that the base locus meets
-every component in dimension one. Regular functions on the complement are
-constant. The morphism to \(\mathbf P^1\) requires a generating pencil and
-recovers the original homogeneous base-locus condition. For the equal-degree
-regular-sequence presentation, linear type gives the single graph equation
-\(uG-vF=0\).
+### Precise source limitation: ACM-to-STCI
 
-### 2. P-035: the homogeneous primary/Gorenstein criterion survives audit
+[Robbiano–Valla (1983)](https://doi.org/10.1007/BF02924906), §4, fixes a **monomial** parametrization before its ACM-to-STCI proposition. This inspected proof does not justify an attribution for every ACM space curve. [D'Cruz, Theorem 2.7](https://arxiv.org/html/2003.09101v1), states the broader implication and cites Robbiano–Valla and Stückrad–Vogel; the latter original proof has not been checked here. The broader assertion is **not disproved**, but should be cited with its source qualification. No argument above depends on it.
 
-The October 5 audit verified the
-[primary and graded Gorenstein criterion](#p-035-arithmetically-gorenstein-thickening-criterion).
-The vertex already belongs to the affine cone, and unmixedness of the
-complete intersection then gives a primary ideal. The audit checked the
-type calculation by dualizing the minimal Hilbert–Burch resolution.
-The last free module has rank \(\mu(J)-1\), which gives the number of
-minimal canonical-module generators.
-
-For an lci projective thickening \(X\), the equivalent condition combines
-\(\omega_X\simeq\mathcal O_X(t)\) with \(H^1(\mathbf P^3,\mathcal I_X(n))=0\)
-for every \(n\). A transverse Gorenstein algebra or a subcanonical
-multiple structure leaves the Rao module to be checked.
-
-### 3. The smooth-quadric ordinary/symbolic power theorem survives audit
-
-The October 5 audit verified the [smooth-quadric power proof](../normal-geometry/formal-normal-intersection.md#12-ordinary-ideal-powers-on-a-smooth-quadric-complete-proof)
-for integral Cartier divisors of positive bidegrees, including singular
-curves. It checked the local colon identity, ordinary homogeneous lifting
-by binary monomial products in every characteristic, and exclusion of an
-embedded vertex prime by saturation.
-
-The verifier `computations/verify_quadric_powers.m2` passed under
-`/opt/homebrew/bin/M2 --script`, checking \(C_0\) through \(m=6\) and two
-other quadric divisors through \(m=4\). The finite checks corroborate the
-uniform proof. The checked \(C_0\) power quotients remain non-Cohen–Macaulay.
-The dimension-three local Cowsik criterion has different hypotheses from
-those for the dimension-four homogeneous coordinate ring.
-
-### 4. P-012/P-014: positive-characteristic hinge audit
-
-The dedicated worker audited P-012 and P-014 without changing their proofs;
-the parent then reread both complete arguments. No gap was found.
-
-For P-012, separable degree-three ruling maps have different of degree four
-by Riemann--Hurwitz, including wild characteristic two. A ramified fiber
-therefore has shape 2R+P or 3R. Inseparable degree three can occur only in
-characteristic three and supplies 3R directly. The projection center removes
-exactly one base point: smooth immersion supplies a hyperplane vanishing to
-order one there, and hyperplanes separate every other point from the center.
-The residual linear system is consequently basepoint-free of degree three.
-Its image is not a line, so its map to a plane cubic is birational.
-
-The singleton nonimmersive fiber over R was checked separately in both
-ramification cases. For triple contact, the local coefficient v2 is in the
-span of v1, which makes the projected derivative vanish in every
-characteristic. The plane cubic's total delta-invariant is one, so this
-unibranch singularity uses the whole singularity budget. The characteristic
-three alpha term in the cusp normal form is essential; for 3 nonzero the
-coordinate substitution removes it, including in characteristic two.
-
-The weighted cubic-cone normalization is finite and birational with singleton
-geometric fibers, hence a universal homeomorphism. Since h(P) is nonzero,
-the graph equation lz-h is irreducible. Its weighted closure includes exactly
-the vertex over the projection center. All binary coefficients of its
-3p-th power descend in the standard cusp case, because the only missing
-binary exponent is one and every exponent is divisible by p. In the
-nonclassical characteristic-three case, the explicit s9,t9 identities give
-the needed descent. These checks yield the homogeneous degree-(3,4p) pair.
-
-P-014's repaired three-case necessity argument was also checked: when l is a
-multiple of t, smooth immersion forces the st3 coefficient of h to be
-nonzero. It is the z^(N-1) coefficient that exposes the missing semigroup
-monomial in that case. In the nonclassical cusp, the single top-coefficient
-relation cuts the binary section space by codimension one; the degree-piece
-dimension verifies sufficiency, and it excludes exponents three and six
-while allowing nine. The minima are carrier-specific.
-
-The positive-quartic descent verifier uses SymPy. None of the arguments imports a degree bound uniform in characteristic, and no characteristic-zero specialization is implied.
-
-### 5. Source audit: the broad ACM assertion should remain qualified
-
-The author's uploaded original Robbiano--Valla article
-*On set-theoretic complete intersections in the projective space* (1983),
-DOI [10.1007/BF02924906](https://doi.org/10.1007/BF02924906), was inspected at
-[the author full text](https://www.researchgate.net/publication/225984491_On_set-theoretic_complete_intersections_in_the_projective_space).
-Its introduction distinguishes positive-characteristic monomial curves
-from characteristic-zero monomial projectively Cohen--Macaulay curves.
-Section 4 fixes a monomial parametrization before Proposition 2 asserts the
-ACM-to-STCI implication. Thus that proposition cannot be quoted for an
-arbitrary ACM space curve.
-
-[D'Cruz's Theorem 2.7](https://arxiv.org/html/2003.09101v1) does literally
-state the broader implication and cites Robbiano--Valla and
-Stueckrad--Vogel. The full original LNM 997 chapter and the cited
-Stueckrad--Vogel proof were not recovered. This audit therefore does not
-claim the broad assertion false. It does establish that the main report's
-unqualified attribution is stronger than the original proof inspected here.
-Until the missing original proof scope is checked, use the modern statement
-with an explicit source qualification, or restrict the proved positive class
-to ACM monomial space curves. No result in this audit depends on the broader
-assertion.
-
-The current-open-status source
-[Hartshorne--Polini](https://arxiv.org/html/1907.05472v1) was checked freshly
-and retains the general question. A retrieval attempt for the 2026 Murayama
-notes returned an internal browsing error, so this audit does not claim a
-fresh full-text verification of those notes. The repository's previous
-dated verification remains separate evidence.
-
-### 6. Exact fixed-carrier improvement and continuation recommendation
-
-For P-028's quartic cone, the dedicated audit derives the full allowable
-mate-degree set in characteristic p, with the resulting minimum:
-
-    p=2: 4 divides N, minimum 4;
-    p=3: 3 divides N, minimum 3;
-    p=5: 25 divides N, minimum 25;
-    p>=7: p divides N, minimum p;
-    characteristic zero: no mate.
-
-The proof uses the finite birational weighted normalization
-
-    P(1,1,4) -> V(x0*x3^3-x2^4),
-    [s:t:z] -> [s^4:z:s*t^3:t^4].
-
-C0 pulls back to the single Cartier curve z-s^3*t=0. A degree-N mate must
-pull back to a scalar multiple of (z-s^3*t)^N. Lucas's theorem singles out
-the coefficient indexed by p^(v_p(N)); its membership in the normalization
-subring is equivalent to p^(v_p(N)) belonging to the semigroup <3,4>.
-The separate note supplies the complete proof and exact small-prime controls.
-This is an internal proof, with no novelty claim; the characteristic-zero
-carrier exclusion also overlaps Thoma's broader one-binomial-carrier
-theorem.
-
-An adversarial second proof audit checked the weighted normalization in
-all characteristics, the implication from projective support to the single
-affine polynomial factor, the nonzero coefficient of z^(N-r), and both
-directions of the semigroup criterion. It found no gap. In particular,
-arbitrary non-binomial mates are covered by the pullback argument.
-
-The most useful broad organizing condition remains P-035: every proposed
-local structure must eventually supply global ACMness and homogeneous
-Gorensteinness. For the rational quartic, use the verified arbitrary-order
-quadric power algebra to parameterize equations, while retaining all higher
-jets and vertical defects. Leading forms, a finite pole-stratum list, or a
-local Gorenstein fiber cannot supply that final global test. The new fixed
-cone result is a rigorous positive-characteristic control for any proposed
-uniform obstruction.
-
+The unrestricted characteristic-zero rational-quartic STCI problem remains open. Neither finite power checks, positive-characteristic descent, nor a local Gorenstein thickening supplies the missing global homogeneous pair.
 
 ---
 
