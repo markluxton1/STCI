@@ -59,7 +59,7 @@ unique. There is a vector bundle `V_m` on `S`, of rank
 
     rank(V_m)=g-1-A+m*nu,                                  (3)
 
-whose canonical obstruction section on `K_(m-1)` has zero scheme `K_m`.
+whose canonical obstruction section restricts to `K_(m-1)` and has zero scheme `K_m`.
 For some finite integer `N`,
 
     K_N=K_(N+1)=K_(N+2)=...                                (4)
