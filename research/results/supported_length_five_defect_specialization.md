@@ -328,23 +328,4 @@ the residual conic described above.
 
 ## Review
 
-The Phase 5 nonauthor reviewer `review_length_five` accepted the finite
-free algebra and full equation filtration route over every field, using
-the canonical comparison of R-0030. The reviewer reconstructed the free
-basis, the generic algebra, all normal ideal powers and the full relative
-\(H\) and \(B\). They checked filtered division through order six and the
-annihilator and image of each comparison generator. They reconstructed the
-actual closed initial ideals and distinguished them from the coefficient
-specialization of \(H\). They also checked the conic multiplicity of the
-homogenized intersection separately from the closure of the affine scheme.
-An exact polynomial replay over the integers checked the lift identities,
-the multiplication operators and their relations, the normal monomial images
-through degree five, and the local conic identity. The proof gives the full
-filtration calculation and the characteristic range.
-
-The [source review](https://github.com/markluxton1/STCI/blob/ddcb50e003aff185d48455f6edec420e7bec34a8/research/synthesis/comparison_defect_specialization.md#independent-review)
-records independent reconstruction of the finite free actual algebra,
-all powers of its normal ideal, the full initial ideal, terminating
-filtered division for the equation module, and the comparison in every
-degree. It records separate checks of the closed-fiber mismatch and
-the doubled residual conic, with integer identities in all characteristics.
+The direct proof above establishes the finite free algebra, full relative initial ideals, filtered equation comparison, closed-fiber defect and doubled residual conic. In particular the degree-four defect belongs to the actual closed fiber, not to the relative family; the projective homogenization has residual conic support.
