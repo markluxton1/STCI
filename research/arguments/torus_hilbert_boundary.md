@@ -501,6 +501,69 @@ flat limits **within this supported family**, not for arbitrary
 points of the top Chow fiber. This is the distinction between
 the supported graph closure and the larger top-cycle fiber.
 
+## Invariant residual supports and absorption limits
+
+For the intrinsic diagonal torus with distinct weights
+\((0,1,3,4)\), every reduced irreducible invariant curve
+is the closure of a nonfixed orbit. If its nonzero coordinate
+support is \(I\), its degree is
+\[
+ \frac{\max_{i\in I}w_i-\min_{i\in I}w_i}
+      {\gcd_{i\in I}(w_i-\min_{j\in I}w_j)}.
+\]
+Its normalization is \(\mathbf P^1\), with boundary points
+the coordinate points at the two extreme weights. The
+possible support degrees are \(1\) (two coordinates),
+\(3\) (supports \(012,123\)), and \(4\) (supports \(013,023,0123\)).
+The coefficients of a full-support orbit quartic still
+vary in a two-dimensional family; this is not a finite
+classification of fixed ideals.
+
+If \(D\ne C\) is an invariant irreducible curve, its
+intersection with \(C\) is a finite invariant subset
+and hence is contained in \(\{p_0,p_\infty\}\).
+The **only** invariant irreducible curve disjoint from
+\(C\) is the coordinate line \(L_{12}=V(x_0,x_3)\).
+This does not imply that every residual component of
+an invariant proper intersection meets \(C\): connectedness
+requires only a chain of components linking it to \(C\).
+
+An explicit counterexample is the proper invariant
+\((3,4)\) complete intersection
+\[
+ F=x_0q,\quad G=x_3A,\qquad
+ q=x_0x_3-x_1x_2,\quad A=x_0^2x_2-x_1^3.
+\]
+Its fundamental cycle is
+\[
+ [V(F,G)]=[C]+5[L_{23}]+[L_{02}]+[L_{01}]+[L_{12}].
+\]
+Indeed, distributivity of the two effective Cartier
+divisors gives \(V(x_0,x_3)=L_{12}\),
+\(V(x_0,A)=3L_{23}\),
+\(V(q,x_3)=L_{02}+L_{01}\), and
+\(V(q,A)=C+2L_{23}\). The disjoint line
+\(L_{12}\) is connected to \(C\) through other lines.
+Since the ideal is itself invariant, repeating this
+torus degeneration cannot absorb its residual curves.
+
+The marked multiplicity of \(C\) is **nondecreasing**
+under flat specialization of a containing intersection:
+if the generic cycle is \(m[C]+R\), then
+\[
+ [Y_0]=m[C]+\operatorname{sp}(R),\qquad
+ m_0=m+\operatorname{coeff}_C\operatorname{sp}(R).
+\]
+Residual degree therefore drops by a multiple of four
+when marked multiplicity increases. This is a statement
+about fundamental cycles, not primary components or
+embedded Hilbert structure. Invariant full-support
+quartics can move in a two-dimensional diagonal-torus
+family and specialize to \(C\) **as cycles**, but such
+motion does not automatically lift to a flat family of
+proper two-equation intersections. This is the actual
+absorption-realization gap.
+
 ## What the boundary retains and what remains open
 
 All assertions about full limits above concern the embedded Hilbert
