@@ -66,14 +66,4 @@ requires its own comparison argument.
 
 ## Review
 
-The Phase 5 independent reviewer accepted the route using the chart
-identities of R-0021. The reviewer checked the lowest-term product over a
-domain, the opposite chart by coordinate reversal, the cancellation
-giving the order-four generator, and the comparison map with kernel
-\((\eta^4)\). The review checked the \(\mathbf Z\)-flat filtration terms
-and the nonzero \(4\)-torsion in their associated graded algebra.
-
-The October 23 audit checked the principal-order argument, the distinction
-from the first symbols of the displayed generators, and the failure of
-base change. It distinguished flatness of the filtration terms from torsion
-in their successive quotients. [Source review](../arguments/quartic_specialization_and_symbols.md#source-review-and-verification)
+The principal polynomial P is monic in Y over Z[u] and has lowest Y-coefficient 4u^9. Its full Y-adic initial ideal is therefore (4u^9 eta) over the integral domain; in characteristic two the initial equation becomes eta^4. The chart algebra and its filtration ideals are Z-flat even though their associated graded quotient has 4-torsion.
