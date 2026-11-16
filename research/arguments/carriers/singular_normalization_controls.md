@@ -2,15 +2,12 @@
 
 # October 9 historical mathematics
 
-This compilation retains the mathematical hypotheses, counterexamples, unsuccessful arguments, and open questions. This compilation supplies no new independent audit.
-
 ---
 
 ## Source: 2026-10-09-session-singular-delpezzo-four-A1-family-independent-audit.md
 
 # Independent audit of the projected four-A1 family
 
-Date: 2026-10-09. Auditor: `family2_quadratic_independent_audit`, independent of the construction owner. This bounded audit used no child agents and edited no original source or frontier document.
 
 ## Verdict and exact scope
 
