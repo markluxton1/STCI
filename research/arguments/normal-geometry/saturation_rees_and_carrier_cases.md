@@ -259,7 +259,7 @@ All three pass. A direct large-ideal SymPy Groebner attempt was interrupted afte
 
 ## 2026-10-07-e1-jet-rebuild
 
-**Scope correction.** The original fixed-line argument below incorrectly inferred that any positive-degree mate forces support outside `C`. A mate may intersect a forced ruling line only at points of `C`. The correct intersection-theoretic repair is in [Repair of the fixed-ruling STCI implication](#repair-of-the-fixed-ruling-stci-implication), and the complete quartic-carrier exclusion is owned by [R-0001](../../results/quartic_carrier_exclusion.md). Retain the explicit pencils and line calculations as evidence, not the retracted line-only implication.
+**Scope correction.** The original fixed-line argument below incorrectly inferred that any positive-degree mate forces support outside `C`. A mate may meet a fixed ruling line only at points of `C`. The [repaired intersection argument](#repair-of-the-fixed-ruling-stci-implication) proves exclusion in the basepoint-free primitive cases by showing that a fixed line has intersection number three with `C` on the carrier; consequently the mate must contain the whole line. The complete quartic-carrier exclusion is owned by [R-0001](../../results/quartic_carrier_exclusion.md). Retain the explicit pencils and line calculations, but use this repaired argument rather than the original inference.
 
 # e=1 jet lane rebuild — 2026-10-07
 
