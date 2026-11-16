@@ -84,13 +84,3 @@ quotient; it is not a parametrization of arbitrary moving supported
 complete intersections. The finite map is not called a normalization when
 \(B\) is nonreduced. Purity does not assert that \(Z_B\) is arithmetically
 Cohen--Macaulay or a complete intersection.
-
-## Review
-
-The historical source records a separate review of its image and endpoint arguments.
-
-Independent reconstruction review, 2026-11-04: reviewer
-pilot_review_hilbert accepted the exact R-0051 route after independently
-reconstructing the scheme image, saturation, finite charts, support and
-Cohen--Macaulay purity arguments. No blocker was found within the stated
-constant embedded-quotient scope. The reconstruction review accepts this route within its stated scope.
