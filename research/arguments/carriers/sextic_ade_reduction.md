@@ -273,18 +273,30 @@ wedge-map ranks. The value 26 in a historical branch summary for the
 algebraic joint rank is incorrect.
 
 The retained [exact sextic audit](../../computations/audit_sextic_triple_spaces_2026_10_31.py)
-now constructs all \(\binom{27}{2}=351\) wedge columns directly in
-\(\mathbb Q(\sqrt{-2})[z]\) and computes their rank by exact row
-reduction. This supplies a reproducible **verification procedure**, not
-an independently executed certificate in this integration review.
-The branch's principal-orbit values
-\(\operatorname{rank}\Omega_3=23\) and
-\(\dim\ker\Omega_3=328\) remain **unverified until that
-augmented audit is run and its output checked**. Even a verified full
-wedge rank would say nothing by itself about whether
+constructs all \(\binom{27}{2}=351\) wedge columns in
+\(\mathbb Q(\sqrt{-2})[z]\) and computes their rank by exact row reduction.
+A run of this augmented script reported the following exact-arithmetic
+results for **both** the principal and algebraic orbits:
+\[
+\operatorname{rank}\Omega_3=23,\qquad
+\dim\ker\Omega_3=328,\qquad
+\operatorname{im}\Omega_3=k[z]_{\leq22}.
+\]
+The reported output degrees are every integer from \(0\) through \(22\);
+thus rank \(23\) implies surjectivity onto that 23-dimensional polynomial
+space. The calculation is reproducible using
+\`PYTHONDONTWRITEBYTECODE=1 python3 research/computations/audit_sextic_triple_spaces_2026_10_31.py\`.
+The numerical output was supplied from an execution of the retained
+script; this records a computational verification, **not** an independent
+proof of the script's mathematical implementation.
+
+The equality of the wedge ranks across orbit types does **not** imply
+equality of their joint-map ranks, which remain \(23\) and \(24\).
+Nor does surjectivity of \(\Omega_3\) imply that
 \(\mathbf P(\ker\Omega_3)\cap\operatorname{Gr}(2,V)\)
-contains a proper pencil, much less one passing the higher-contact and
-sole-support conditions.
+contains a **proper** pencil satisfying cubic contact. The
+decomposability, higher-contact, properness, and sole-support conditions
+must be addressed separately.
 
 ## Necessary ADE arithmetic census for a normal quintic with direction degree one
 
