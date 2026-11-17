@@ -985,3 +985,94 @@ incidence remain open.
 The supported Hilbert construction gives neither a uniform nilpotence exponent nor a numerical generator cutoff, classification, nonempty incidence, or quotient comparison. The invariant-ideal exclusion does not reduce arbitrary supported pairs to invariant ideals.
 
 For related questions see [F-0001](../frameworks/torus-supported-boundaries/index.md#directional-loci), [I-0001](../investigations/supported-generator-incidence/index.md#question), and [I-0002](../investigations/quotient-hilbert-comparison/index.md#question).
+
+## Degree-12 relation persistence for the residual sextic pencil
+
+This finite calculation is a **residual control**, not a supported STCI
+construction. Work over \(\mathbb Q\) with centered weights
+\((-2,-1,1,2)\), and set
+\[
+q=x_0x_3-x_1x_2,\quad A=x_0^2x_2-x_1^3,\quad
+g=x_0^3x_2q,\quad
+a_\tau=x_0^2x_3A+\tau qx_0A.
+\]
+The proper sextic pencils are
+\(W_\tau=\langle q^3+a_\tau,g\rangle\), for \(\tau=0,1\).
+Both have coarse Plücker extremes \([-10,-5]\). Their common
+negative full limit is \((q^3,g,x_0^5x_2x_3A)\), since
+\((a_1-a_0)x_0^3x_2=(x_0A)g\); this is the already established
+Hilbert--Burch limit. Their positive degree-12 characters differ.
+
+The smaller invariant is the degeneration of multiplication on the
+fixed hypersurface \(D=V(g)\). Write \(R=S/(g)\) and
+\[
+\mu_\tau(v):R_6[[v]]\longrightarrow R_{12}[[v]],\qquad
+h\longmapsto(a_\tau+vq^3)h.
+\]
+Here \(\dim R_6=83\), \(\dim R_{12}=371\), and the generic
+map is injective. Its positive Smith exponents over the DVR
+\(\mathbb Q[[v]]\) measure the lengths of the parameter-torsion
+summands of its cokernel, or equivalently the persistence of limiting
+relations through successive lifting orders. They are *family*
+invariants, not invariants of the limiting pencil alone. Under
+\(v=u^m\) they scale by \(m\); comparisons use the primitive
+parameter \(v=t^5\).
+
+At \(v=0\), the gcds \(\gcd(a_0,g)=x_0^2\) and
+\(\gcd(a_1,g)=x_0\) yield kernel dimensions 9 and 3.
+For \(a_\tau=d_\tau A_\tau\), \(g=d_\tau B_\tau\),
+the limiting relations are represented by
+\(B_\tau S_{\deg d_\tau}/d_\tau S_0\).
+The first obstruction is the induced map
+\[
+\delta_\tau:\ker\mu_\tau(0)\longrightarrow
+\operatorname{coker}\mu_\tau(0),\qquad
+[B_\tau h]\longmapsto[B_\tau hq^3].
+\]
+Exact rational elimination in degree 12 gives
+\[
+\begin{array}{c|ccc|c}
+\tau & \operatorname{rank}\mu(0)&
+\operatorname{rank}\mu\bmod v^2&
+\operatorname{rank}\mu\bmod v^3&
+\text{positive Smith exponents}\\\hline
+0&74&156&239&(1^8,2)\\
+1&80&162&245&(1^2,2)
+\end{array}
+\]
+where ranks in the middle columns are ranks of the underlying
+\(\mathbb Q\)-linear maps on the truncated parameter modules.
+Indeed for source rank 83,
+\(83k-\operatorname{rank}(\mu\bmod v^k)
+=\sum_i\min(k,e_i)\). The rank defects are respectively
+\((9,10,10)\) and \((3,4,4)\). The existing exact state
+certificate supplies total lengths 10 and 4, so these truncated
+ranks also exclude exponents above two. The independently
+reproducible degree-12 exact calculation is
+[`verify_positive_smith_Q.py`](torus-sextic-controls.support/verify_positive_smith_Q.py).
+The first obstruction has ranks 8 and 2 and one-dimensional kernel
+in each case.
+
+The determinant character before removing parameter torsion is
+\(-830\): the \(gS_6\) contribution is \(-420\), and
+\(a_\tau R_6\) contributes \(-410\). Each parameter
+division changes the centered character by \(+5\). Thus
+\[
+\operatorname{wt}\det(J_{+,\tau})_{12}
+=-830+5\sum_i e_i
+=\begin{cases}-780&\tau=0,\\-810&\tau=1.\end{cases}
+\]
+This is a **degree-12** statement, not a claim that degree 12
+is a uniform Hilbert embedding or that the entire positive
+limit ideal has been classified.
+
+The conceptual intermediate invariant is the relation-persistence
+filtration (the standard DVR elementary-divisor filtration of a
+multiplication map). It refines the limiting gcd and coarse VGIT
+weights before one constructs the entire flat initial ideal.
+The sum of exponents is the valuation of the ideal of maximal
+minors, equivalently the determinantal/Fitting contact order.
+It is not the intrinsic \(I_C\)-adic defect or the endpoint
+image-lattice defect: comparing those requires a compatible
+construction, not a numerical identification.
+
