@@ -40,3 +40,36 @@ Elementary algebra checked directly from the stated hypotheses:
 - The VGIT source's universal modular-intersection implication fails under its published gcd assumptions, as shown by the explicit counterexample above. Whether its intended restricted geometric locus automatically satisfies the stronger height-three hypothesis remains open.
 
 No executable certificate was run, and the asserted numerical ranks, 153-pair exhaustive classification, order-six colength, and universal blowup extension remain **unverified**. They must not be restored to canonical Arguments before their proofs and computation are independently checked.
+
+
+## Independent source-code audit: 153-case exhaustiveness is not certified
+
+Inspection of \`research/computations/verify_sextic_triple_toric_vgit.py\`
+on \`recovery/gemini-audit-worktree\`, specifically lines 410–574,
+reveals a **certificate coverage defect**:
+
+- The docstring at lines 416–418 promises exhaustive classification
+  across all 153 pairs of 17 torus weights.
+- Lines 463–488 construct \`basis_by_w\`, but no subsequent loop
+  over all pairs \`(w_1,w_2)\` tests the contact kernel or its
+  decomposable vectors.
+- Lines 543–563 check the *already selected* weight pairs
+  \`(0,0)\` and \`(-1,0)\` (with \`(0,+1)\` invoked by symmetry);
+  lines 565–573 check only a discriminant on \`(-1,+1)\`.
+- The local-colength assertions at lines 553 and 563 concern
+  two constructed candidate pencils. They do not rule out
+  additional coprime solutions at other weight pairs.
+
+**Disposition:** The historical verifier is not an exhaustive
+certificate of the claimed 153-pair classification. Even a successful
+run would not establish that no further exceptional pencils exist.
+This is a gap in the certificate's *coverage*, not proof that the
+classification statement itself is false. Do not promote the
+exhaustive classification or the resulting fixed-pencil exclusion.
+To close this gate, supply a reproducible exact computation for
+each relevant weight pair (including same-weight Grassmannians),
+or a theoretical argument eliminating all untested pairs, with
+decomposability and common-factor checks performed on each kernel.
+
+This finding is independent of the earlier VGIT missing-height-three
+defect and does not affect the previously established ADE reduction.
