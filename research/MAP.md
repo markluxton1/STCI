@@ -58,3 +58,5 @@ Other usable starting points include
 [the quartic two-target problem](frameworks/local-cohomology/open_quartic_ancestors.md).
 These are mathematical entry points. Use the [bounded work guide](MODEL.md#choosing-bounded-work)
 to decide whether a particular question is ready for an Investigation.
+
+A [geometric synthesis of quadric restriction and contact rigidity](frameworks/residual-construction/quadric_restriction_and_contact_rigidity.md) separates the degree-independent Picard-class support obstruction from the computational sharp sextic contact bound. It records the symbolic-power vanishing equivalent to the rank test, the residual quartic cycles, and a bounded uniform proof-replacement question; it does not assert a new exclusion.
