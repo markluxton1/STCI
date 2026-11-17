@@ -100,6 +100,15 @@ mathematics warrants, independently of the agent hierarchy.
 
 ## Choosing bounded work
 
+The central characteristic-zero objective for the fixed rational quartic is to construct or obstruct **actual proper homogeneous equation pairs** with sole support, equivalently maximal generic multiplicity. This equivalence follows from intersection-cycle degree exhaustion; it is a problem formulation, not a mechanism for bounding multiplicity. Before opening work, check the strongest applicable literature and existing repository proofs, then state explicitly:
+
+- **Coverage:** which actual equation pairs, degrees, characteristics, singularity classes, or moving ideals are controlled, and what remains outside the scope;
+- **Decision:** the exact theorem, construction, exclusion, or missing implication that either outcome could establish;
+- **Consequence:** the logical bridge from that decision to unrestricted STCI, if any; and
+- **Novel gap:** why established theory and the repository's existing Results do not already answer the question.
+
+A bounded calculation can be useful without an unrestricted consequence, but label it bounded and do not infer general coverage. Prefer tests that create a new structural constraint or a concrete realization/coverage bridge over accumulating cases within an unchanged obstruction. The full-ideal torus, residual, and formal-normal methods are investigative tools, not presumed solutions; local cohomology and fixed-carrier criteria remain available when they offer a consequential new bridge. Do not launch a new classification solely because a neighboring family is unresolved.
+
 State the curve, characteristic, actual source or candidate family, question,
 and what either outcome changes. Constructing an example, closing a covered
 sector, finding a counterexample, or identifying a missing comparison can
