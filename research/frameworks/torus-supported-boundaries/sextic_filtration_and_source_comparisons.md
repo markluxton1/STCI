@@ -68,6 +68,20 @@ The degree-six equation space vanishing on \(C\) has dimension \(59\), so sextic
 
 The quartic root pencil \(z^4-\eta z+\eta-1\) has characteristic-zero discriminant \((\eta-4)^2(-27\eta^2+40\eta-16)\). At \(\eta=1\), a separable root exits the quotient torus at zero; the \(\eta=\infty\) boundary and collisions of marked and residual points are different events. These are calculations for this parameter line, not a general root-space classification. [Root-pencil proof](../../arguments/torus/root_pencil_geometry.md#3-three-ways-the-pencil-leaves-the-open-arrangement).
 
+### What the new weight information does and does not test
+
+The eleven missing second-order sextic symbols admit the proposed
+multiplicity-free centered character list \(-5,-4,\ldots,5\);
+see [the source-image argument](../../arguments/equations/global_equation_jets.md#torus-character-refinement-of-the-eleven-symbol-deficit).
+This partitions an already known global lifting deficit; it does not
+construct a canonical cohomological comparison or certify a supported
+pair. For the three surviving ADE primitive triples, the
+[sextic contact argument](../../arguments/carriers/sextic_ade_reduction.md#interpretation-of-the-cubic-contact-ranks)
+separates the joint \((h,\Theta)\) ranks \(23/24\) from the
+decomposable-wedge, higher-contact and sole-support conditions.
+These are the useful interfaces between torus weights and actual
+equations. A VGIT chamber enumeration alone does not settle them.
+
 ### Source map and scope
 
 <a id="proofs-of-orbit-multiplicities-and-full-limits"></a>
