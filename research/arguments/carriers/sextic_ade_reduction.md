@@ -389,3 +389,62 @@ The historical finite enumeration was **necessary-only**, not a geometric existe
 
 The original python source is preserved in the linked file. Its computational conclusions retain the scope and limitations stated in the mathematical argument above.
 
+
+
+## Double-sextic kernel and the remaining torus-contact certificate
+
+The historical sextic ADE supplement contains a further
+torus-equivariant analysis of the three surviving primitive-triple
+orbits. Its elementary kernel identification can be stated without
+promoting the more extensive computer-assisted classification.
+
+Let \(I_{\mathrm{triple}}=(q',y^3)\) generically along \(C\), with
+\(q'=m+\gamma y^2\) and \(I_C=(m,y)=(q',y)\). Write
+\(V_{\mathrm{triple},6}=H^0(\mathcal I_{\mathrm{triple}}(6))\).
+The first-normal map
+\(h:V_{\mathrm{triple},6}\to H^0(\mathcal O_C(16))\)
+has kernel
+\[
+ \ker h=H^0((\mathcal I_{\mathrm{triple}}\cap
+ \mathcal I_C^2)(6)).
+\]
+Indeed the image sheaf modulo \(\mathcal I_C^2\) is the
+ribbon line \(\mathcal O_C(-8)\), twisted to
+\(\mathcal O_C(16)\) in degree six. Using the previously
+computed source dimension \(27\) and rank \(17\) gives
+\(\dim\ker h=10\) for each surviving orbit.
+
+In the same local coordinates,
+\[
+ I_{\mathrm{triple}}\cap I_C^2
+  =((q')^2,q'y,y^3),\qquad
+ I_C I_{\mathrm{triple}}
+  =((q')^2,q'y,y^4).
+\]
+Their quotient is the cubic normal line
+\(\mathcal O_C(-18)\), of degree six after twisting.
+Thus the cubic contact map restricted to \(\ker h\) has
+target \(H^0(\mathcal O_C(6))\), and
+\[
+ \operatorname{rank}(h,\Theta)
+  =17+\operatorname{rank}(\Theta|_{\ker h}).
+\]
+The existing joint-rank calculation \(23\) on the principal
+orbit and \(24\) on the algebraic orbits corresponds to
+ranks \(6\) and \(7\) of the restricted map.
+
+**Unpromoted historical extension.** The recovery source
+\`research/supplements/SEXTIC_ADE_REDUCTION.md\` on
+\`recovery/gemini-audit-worktree\` goes further: it proposes
+explicit torus weight decompositions, bilinear contact maps
+\(\Omega_3,\Omega_4,\Omega_5\), an exact classification of
+153 torus-fixed weight-pair cases, and order-six failure of
+three remaining coprime fixed pencils. These assertions
+depend on the historical verifier
+\`research/computations/verify_sextic_triple_toric_vgit.py\`,
+which is **not present on main**. The classification has
+not been independently rerun or proof-checked in this
+recovery review and is not a general exclusion of moving
+sextic pencils. Preserve it as a candidate investigation,
+not as a new canonical Result, until the exact certificate
+and the global-to-local hypotheses are verified.
