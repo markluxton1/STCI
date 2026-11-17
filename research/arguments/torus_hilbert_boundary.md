@@ -501,6 +501,94 @@ flat limits **within this supported family**, not for arbitrary
 points of the top Chow fiber. This is the distinction between
 the supported graph closure and the larger top-cycle fiber.
 
+## Reconciled Chow filtration and finite sextic weight partition
+
+These fixed-degree statements concern **actual proper pairs**, not arbitrary
+Hilbert-boundary ideals. They reconcile the November 1 torus-homogeneous-descent
+work with the current equation–Hilbert–Chow argument.
+
+Let \(C\subset\mathbf P^3\) be integral of degree \(\delta\),
+\(D=ab\), \(G=\operatorname{Gr}(2,4)\), and
+\(E_n=H^0(G,\mathcal O_G(n))\). Write \(Q=\operatorname{Ch}_C\in E_\delta\).
+On the open locus \(U\) of coprime ordered containing pairs, the
+universal-line resultant defines \(\chi:U\to\mathbf P(E_D)\).
+For \(r\delta\le D\), the locus of generic multiplicity at least \(r\)
+along \(C\) is exactly
+\[
+ U_{\ge r}=\chi^{-1}\bigl(\mathbf P(Q^r E_{D-r\delta})\bigr).
+\]
+Multiplication by \(Q^r\) is injective because \(G\) is integral;
+factorization into irreducible Chow divisors identifies divisibility
+by \(Q^r\) with the generic cycle multiplicity. Thus \(U_{\ge r}\)
+is closed **relative to \(U\)**, multiplicity is upper semicontinuous,
+and residual degree \(D-\delta m_C\) is lower semicontinuous there.
+The exact multiplicity strata are locally closed. No assertion extends
+across the common-factor boundary.
+
+In bases of \(E_D/(Q^r E_{D-r\delta})\), these conditions become
+finitely many polynomial resultant-coefficient equations. If \(B\)
+is the ideal of all resultant coefficients and \(L_r\) the ideal of
+the quotient coefficients on the projective presentation space,
+the scheme-theoretic closure of the incidence subscheme on
+\(X\setminus V(B)=U\) is given by \(L_r:B^\infty\), with the
+usual homogeneous sheaf interpretation. Its reduction is the
+set-theoretic closure of the geometric incidence locus; the
+incidence subscheme itself need not be reduced. Using \(V(L_r)\)
+alone admits spurious improper-boundary components.
+
+If \(\delta\mid D\), put \(M=D/\delta\). Choose a linear functional
+\(L:E_D\to k\) with \(L(Q^M)\ne0\). The section
+\(s=L(R_{F,G})\) of the ample bundle \(\mathcal O(b,a)\) on
+\(X=\mathbf P(I_C(a))\times\mathbf P(I_C(b))\) has affine
+nonvanishing locus \(X_s\). Every supported proper pair lies in
+this **single** chart, and its locus is the closed fiber
+\(\chi^{-1}([Q^M])\cap X_s\), hence affine. This is an exact fixed-degree existence problem entirely
+inside an affine scheme excluding improper pairs; projective equation
+and Hilbert graph closures remain useful for degeneration obstructions,
+not prerequisites for defining this incidence. For equal degrees
+\(R_{A(F,G)}=\det(A)^dR_{F,G}\) gives the analogous assertion
+on \(\operatorname{Gr}(2,I_C(d))\) with Plücker power
+\(\mathcal O(d)\). This does not imply affineness of the supported
+Hilbert locus or an unspecified unequal-degree quotient.
+
+For the fixed quartic with centered torus weights \((-2,-1,1,2)\),
+the sextic equation space \(V_6=I_C(6)\) has dimension \(59\).
+Its nonzero **uncentered** weight-space dimensions, from weights
+\(3\) through \(21\), are
+\[
+(1,2,2,3,3,4,4,4,4,5,4,4,4,4,3,3,2,2,1).
+\]
+Indeed a degree-six monomial of weight \(j\) restricts to the same
+binary monomial \(s^{24-j}t^j\); the weight-\(j\) kernel has
+dimension \(n_j-1\), where \(n_j\) counts such monomials.
+Thus \(X_6=\operatorname{Gr}(2,V_6)\) has dimension \(114\).
+Nonzero Plücker weights cover all integers \(-17,\ldots,17\)
+in centered coordinates, allowing a repeated summand only when
+its weight space has dimension at least two. These are 35
+*ambient candidate* walls, with 34 intervening chambers and
+at most \(35\cdot36/2=630\) extremal-weight blocks. They
+are not a classification of supported geometric families.
+
+For a pencil \(W\), let \(\ell(W)\) and \(u(W)\) be the extreme
+weights of its nonzero Plücker components. With linearization
+convention that weight \(r\) in \(\mathcal O(q)\) shifts to
+\(qr-k\), and \(\theta=k/q\), the torus criterion gives
+\[
+ W\text{ is }\theta\text{-semistable}
+ \iff \ell(W)\le\theta\le u(W).
+\]
+Strict inequalities give stability. The existing centered Chow
+argument forces \(\ell(W)\le0\le u(W)\) for supported proper
+sextic pencils, strictly in characteristic zero by the established eigenform
+obstruction R-0042. Consequently supported proper pencils are stable
+for the centered character-zero linearization in characteristic zero;
+stability is necessary, not sufficient for support. This conclusion
+concerns moving proper pencils, not improper limiting equation
+coordinates. Thus a full chamber sweep is **not** needed to cover
+supported pairs. The finite partition can guide targeted residual
+and graph-boundary comparisons, but neither certifies support nor
+classifies full Hilbert limits.
+
 ## Invariant residual supports and absorption limits
 
 For the intrinsic diagonal torus with distinct weights

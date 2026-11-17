@@ -158,6 +158,48 @@ identify a nonempty top-cycle graph stratum and determine
 whether its Hilbert CI locus is empty or nonempty, rather
 than classify all abstract VGIT chambers.
 
+### Reconciled fixed-degree decision target
+
+For actual proper sextic pencils, the terminal incidence is precisely
+\[
+\chi^{-1}([Q^9])\subset U_{6,6},
+\]
+where \(Q=\operatorname{Ch}_C\) and \(U_{6,6}\) is the open locus of
+proper pencils in \(\operatorname{Gr}(2,I_C(6))\). It lies in a **single
+affine Chow-resultant chart**, with finite coefficient equations; see the
+[reconciled argument](../../arguments/torus_hilbert_boundary.md#reconciled-chow-filtration-and-finite-sextic-weight-partition).
+Nonemptiness in characteristic zero remains open. This formulation
+is an alternative exact description of the same set-theoretic terminal
+normal-jet rank condition, not an assertion that the two incidence
+scheme structures agree and not a new existence theorem. Work inside
+this affine proper-pair chart for fixed-degree existence; retain
+projective and Hilbert graph closures for degeneration obstructions.
+
+For a bounded attracting-family test, distinguish three gates on the
+same declared family: (1) **cycle incidence**, the terminal Chow
+condition on actual proper pencils; (2) **torus obstructions**, centered
+stability and first cancellation in both directions on the same moving
+family; and (3) **full-ideal realization** for Hilbert-boundary points,
+including the saturated ideal and prescribed-degree generators. For an
+actual proper pencil, the terminal Chow condition already proves sole
+support and the pair itself generates its CI ideal: do not repeat a
+full generator test there. On a Hilbert boundary, the full two-sextic
+generator criterion remains essential.
+A graph-boundary point with top cycle is not an actual proper pencil,
+and an improper displayed limit cannot be inserted into \(U_{6,6}\).
+Record explicitly whether the test is on the moving proper equation
+coordinate or the full Hilbert ideal. The centered character-zero stability gate in characteristic zero
+removes one-sided proper pencils (using R-0042); the other 34
+ambient VGIT chambers are not a priority unless needed to separate
+specific residual or full-limit strata. A targeted next test is to
+intersect existing two-direction endpoint-constrained sextic families
+with the terminal Chow incidence, keeping both endpoint limits tied
+to the same moving family. This is a proposed incidence test, not an
+assertion that such a family has been realized or the equations solved.
+The general fixed-degree Chow filtration is separate from the sextic-only
+VGIT counts; in particular it neither resolves the (6,16) cubic-jet
+gate nor establishes an unrestricted characteristic-zero exclusion.
+
 ## Local leading ideals are not a global generator certificate
 
 The [GHK reconciliation](../../arguments/normal-geometry/actual_equation_filtration.md#generic-leading-ideals-versus-actual-global-equations)
