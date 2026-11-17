@@ -382,6 +382,25 @@ Thus a leading symbol can be globally compatible through quartic normal
 order and still fail to be the symbol of any global sextic. This is a
 specific higher-gluing obstruction, not merely a count of extra parameters.
 
+### Torus-character refinement of the eleven-symbol deficit
+
+For the fixed quartic in characteristic zero, the already established
+second-order sextic symbol map has 33-dimensional target, rank 22,
+and eleven-dimensional cokernel. Under the centered torus action,
+the branch calculation gives the **multiplicity-free character
+decomposition**
+\[
+\operatorname{coker}(\sigma_{6,2})
+\cong_T \bigoplus_{w=-5}^{5} k_w.
+\]
+This refines the dimension count, not the source-image theorem or its
+order-five cutoff. An abstract character match with a Künneth
+cohomology representation does **not** produce a canonical geometric
+identification or a comparison of obstruction maps. Constructing such
+a natural comparison, if useful, remains open. The character calculation
+should be checked against the fixed grading conventions before being
+promoted as a separately reviewed theorem.
+
 ### The exact minimum sextic cutoff is order five
 
 The map \(H^0(I^2(6))\to H^0(T_{2,5}(6))\) is injective, since
