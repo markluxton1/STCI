@@ -236,126 +236,148 @@ Run `PYTHONDONTWRITEBYTECODE=1 python3 research/computations/audit_sextic_triple
 This completes the stated linear calculation and first necessary contact
 test; it does not exclude the remaining sextic pairs.
 
-### Interpretation of the cubic-contact ranks
+### Geometry of the cubic-contact incidence
 
-For each of the three surviving primitive triples, the existing
-27-dimensional sextic source has first-normal map \(h\) of rank 17.
-Its kernel is the intersection of the triple-containing sextics with
-\(H^0(\mathcal I_C^2(6))\): vanishing of the first normal coefficient
-is exactly second-order vanishing. Thus \(\dim\ker h=10\).
-The rank table above gives
+Fix one of the three surviving embedded primitive triples
+\(T_3\subset\mathbf P^3\), supported on \(C\), and let
 \[
-\operatorname{rank}(\Theta|_{\ker h})=
-\operatorname{rank}(h,\Theta)-17=
-\begin{cases}6&\text{principal orbit},\\7&\text{either algebraic orbit}.
-\end{cases}
+V=H^0(\mathbf P^3,\mathcal I_{T_3}(6)),\qquad \dim V=27.
 \]
-This identifies the **linear** difference between the orbits without
-claiming that the contact incidence is nonempty.
+A pencil is a point of \(\operatorname{Gr}(2,V)\). Its members already
+contain \(T_3\); the next condition asks whether their common
+intersection has transverse contact beyond this prescribed triple.
 
-For \(V=H^0(\mathcal I_{\mathrm{triple}}(6))\), the necessary
-curvilinear cubic-contact equation is the vanishing of the quadratic
-map \(F\wedge G\mapsto h_G\Theta_F-h_F\Theta_G\).
-The corresponding projective linear kernel must be intersected with
-the Plücker Grassmannian \(\operatorname{Gr}(2,V)\): an arbitrary
-kernel vector need not be decomposable. Even a decomposable solution
-must pass the higher contact orders, properness and sole-support tests.
-The full wedge map is the **linear** map
+At the generic point of \(C\), use a first normal equation \(q'\) and
+a transverse parameter \(y\) so that a member of the linear system has
+the form
 \[
-\Omega_3:\bigwedge^2 V\longrightarrow k[z],\qquad
-F\wedge G\longmapsto h_G\Theta_F-h_F\Theta_G.
+ F=h_Fq'-\Theta_Fy^3+\text{higher terms}.
 \]
-Its rank is not determined by the separate ranks of \(h\), \(\Theta\),
-or the joint map \((h,\Theta)\): polynomial multiplication and
-antisymmetrization impose additional relations. In particular, the
-established principal/algebraic joint ranks \(23/24\) are **not**
-wedge-map ranks. The value 26 in a historical branch summary for the
-algebraic joint rank is incorrect.
+The first coefficient \(h_F\) is the *first-normal symbol* of the
+carrier. The second, \(\Theta_F\), is its first residual contact
+coefficient. Their values depend on the chosen frame, but the vanishing
+of the determinant below is intrinsic: it expresses proportionality
+of the two leading relations in the successive normal-jet quotient.
 
-The retained [exact sextic audit](../../computations/audit_sextic_triple_spaces_2026_10_31.py)
-constructs all \(\binom{27}{2}=351\) wedge columns in
-\(\mathbb Q(\sqrt{-2})[z]\) and computes their rank by exact row reduction.
-A run of this augmented script reported the following exact-arithmetic
-results for **both** the principal and algebraic orbits:
+For a pencil \(\langle F,G\rangle\), the first residual obstruction is
 \[
-\operatorname{rank}\Omega_3=23,\qquad
-\dim\ker\Omega_3=328,\qquad
-\operatorname{im}\Omega_3=k[z]_{\leq22}.
+ \Omega_3(F\wedge G)=h_G\Theta_F-h_F\Theta_G.
 \]
-The reported output degrees are every integer from \(0\) through \(22\);
-thus rank \(23\) implies surjectivity onto that 23-dimensional polynomial
-space. The calculation is reproducible using
-`PYTHONDONTWRITEBYTECODE=1 python3 research/computations/audit_sextic_triple_spaces_2026_10_31.py`.
-The numerical output was supplied from an execution of the retained
-script; this records a computational verification, **not** an independent
-proof of the script's mathematical implementation.
+It is a section-valued Plücker equation, rather than an arbitrary
+condition on the 351-dimensional vector space \(\bigwedge^2V\).
+Its vanishing is necessary for the two surfaces to meet with contact
+beyond the primitive triple when at least one first-normal symbol is
+nonzero. The full length-nine condition requires further jet
+compatibility through order eight.
 
-The equality of the wedge ranks across orbit types does **not** imply
-equality of their joint-map ranks, which remain \(23\) and \(24\).
-Nor does surjectivity of \(\Omega_3\) imply that
-\(\mathbf P(\ker\Omega_3)\cap\operatorname{Gr}(2,V)\)
-contains a **proper** pencil satisfying cubic contact. The
-decomposability, higher-contact, properness, and sole-support conditions
-must be addressed separately.
+#### The geometric kernel and its pencils
 
-### Proper pencils satisfying the cubic-contact equation
-
-**Proposition (cubic-order properness, not length-nine realization).**
-For each of the three surviving primitive-triple directions, there are
-linearly independent sextics \(F,G\in V\) with
+The first-normal symbol defines a map from the linear system to the
+space of normal symbols. Its kernel consists of sextics that vanish to
+second order along \(C\) *and* contain the chosen triple:
 \[
-\gcd(F,G)=1,\qquad h_F\ne0,\qquad
-\Omega_3(F\wedge G)=0.
+ \ker h=V\cap H^0(\mathcal I_C^2(6)),\qquad \dim\ker h=10.
 \]
-In particular the decomposable cubic-contact incidence meets the locus
-of proper pencils with nonzero first-normal coefficient. This does **not**
-establish higher contact, generic transverse length nine, or sole support.
-
-**Proof.** Put \(K=\ker(h,\Theta)\). The exact joint-rank calculation gives
-\(\dim K=4\) for the principal orbit and \(3\) for either algebraic
-orbit. Choose \(0\ne G\in K\). For any \(F\in V\),
-\(\Omega_3(F\wedge G)=0\), since \(h_G=\Theta_G=0\).
-
-It remains to choose \(F\) with \(h_F\ne0\) and no common factor with
-\(G\). We show that the full linear system \(V\) has no fixed
-irreducible surface factor. The cubic \(q^3\), where
-\(q=x_0x_3-x_1x_2\), belongs to the ideal of every embedded triple
-supported on \(C\), so \(q^3\in V\). Since \(q\) is irreducible, a
-fixed irreducible factor would have to be \(q\).
-
-For the surviving directions the restriction of \(q\) to the generic
-primitive triple is a nonzero element of order one in its nilpotent
-parameter. Indeed, in the chart used above its linear coefficient is
+Inside it lies the linear system
 \[
- A+\tfrac z2 B=
+ K=\ker(h,\Theta),
+\]
+whose members have both leading normal-jet coefficients zero.
+The retained exact source calculation gives
+\[
+ \dim K=
  \begin{cases}
- 1-4z^2&\text{principal orbit},\\
- (r+\tfrac12)z&\text{algebraic orbit},
+ 4&\text{principal orbit},\\
+ 3&\text{either algebraic orbit}.
  \end{cases}
 \]
-which is nonzero over \(k(z)\) in each case (the excluded orbit
-\(r=-1/2\) is precisely the exceptional quadric direction).
-Consequently, if \(qH\in V\) for a quartic \(H\), the constant
-coefficient of \(H\) along \(C\) vanishes: \(H\in H^0(\mathcal I_C(4))\).
-If \(q\) divided every element of \(V\), multiplication by \(q\)
-would embed \(V\) into \(H^0(\mathcal I_C(4))\), but
+Equivalently, the first residual contact coefficient on the
+second-order subsystem has ranks six and seven, respectively. These
+are geometric filtration dimensions; their present numerical
+verification is computational.
+
+Every pencil containing a nonzero member of \(K\) automatically
+satisfies the cubic-contact equation: for \(G\in K\),
+\(\Omega_3(F\wedge G)=0\) for every \(F\in V\).
+Thus the cubic-contact locus contains the incidence of lines in
+\(\mathbf P(V)\) meeting \(\mathbf P(K)\). This exhibits
+*decomposable* solutions directly, without inferring them from the
+rank of the map on the full exterior square.
+
+#### No fixed surface and proper pencils
+
+**Proposition.** For each surviving triple \(T_3\), the cubic-contact
+incidence contains a pencil \(\langle F,G\rangle\) with
 \[
- \dim V=27>h^0(\mathcal I_C(4))=35-17=18,
+ \gcd(F,G)=1,\qquad h_F\ne0.
 \]
-a contradiction.
+This is a proper intersection of two sextic surfaces, but its
+intersection need not have sole support \(C\) or generic length nine.
 
-Thus, for each irreducible factor \(P\) of \(G\), the subspace
-\(\{F\in V:P\mid F\}\) is proper. The subspace \(\ker h\) is also
-proper because \(\operatorname{rank}h=17\). Over an infinite
-characteristic-zero field, a finite union of proper linear subspaces
-cannot cover \(V\). Choose \(F\) outside that union. Then
-\(h_F\ne0\), \(\gcd(F,G)=1\), and the cubic-contact equation holds.
-\(\square\)
+**Proof.** We first show that the complete linear system
+\(\mathbf P(V)\) has no fixed surface component. Let
+\(q=x_0x_3-x_1x_2\) be the equation of the unique quadric \(Q\)
+containing \(C\). Since \(q\in\mathcal I_C\), its cube vanishes on
+every triple supported on \(C\), and \(q^3\in V\). Any fixed
+irreducible surface component must therefore be \(Q\).
 
-The remaining question is whether any such proper cubic-contact pencil
-extends to **all** necessary contact orders through eight and has
-reduced support exactly \(C\). The displayed construction does not
-assert that the pairs with \(G\in K\) meet those stronger conditions.
+But \(Q\) does not contain any of the surviving triples as a
+subscheme. Its generic first-normal direction is transverse to
+their primitive direction. In the above frame, the first coefficient
+of \(q\) is \(A+\frac z2B\), which is
+\(1-4z^2\) in the principal orbit and
+\((r+\frac12)z\) in an algebraic orbit; neither is identically
+zero. (The excluded direction \(r=-1/2\) is the quadric triple.)
+
+This transversality gives a useful restriction: if \(qH\) contains
+\(T_3\) for a quartic \(H\), then \(H\) must vanish on \(C\).
+Indeed, over \(k(C)\) the class of \(q\) in
+\(k(C)[y]/(y^3)\) is a unit times \(y\), and
+\(qH=0\) there forces the constant coefficient of \(H\) to vanish.
+Consequently, if \(Q\) were fixed in \(\mathbf P(V)\), division by
+\(q\) would inject \(V\) into \(H^0(\mathcal I_C(4))\).
+But
+\[
+ h^0(\mathcal I_C(4))
+ =h^0(\mathcal O_{\mathbf P^3}(4))-h^0(\mathcal O_C(4))
+ =35-17=18<27=\dim V,
+\]
+using projective normality in degree four for this rational quartic
+(or directly the surjectivity of quartic restrictions).
+Hence \(\mathbf P(V)\) has no fixed surface component.
+
+Take any nonzero \(G\in K\). The divisors in \(\mathbf P(V)\)
+sharing a component with \(V(G)\) form a finite union of proper
+linear subsystems: one for each irreducible component of \(V(G)\).
+The subsystem with zero first-normal symbol is also proper because
+\(h\ne0\). Their complement is a nonempty Zariski-open subset of
+\(\mathbf P(V)\). Choose \(F\) there. Then \(F,G\) have no common
+surface component, \(h_F\ne0\), and their pencil satisfies
+\(\Omega_3(F\wedge G)=0\). \(\square\)
+
+#### What the exact wedge computation adds
+
+The retained [exact sextic audit](../../computations/audit_sextic_triple_spaces_2026_10_31.py)
+computes the full exterior-square map and reports, for both orbit
+types,
+\[
+ \operatorname{rank}\Omega_3=23,\qquad
+ \dim\ker\Omega_3=328,\qquad
+ \operatorname{im}\Omega_3=k[z]_{\le22}.
+\]
+This is a check of the **span of cubic-contact obstructions**, not
+a count of geometric pencils. The different ranks of the joint
+normal-jet maps, \(23\) for the principal orbit and \(24\) for the
+algebraic orbit, are distinct invariants. The historical algebraic
+joint-rank value \(26\) is incorrect. The exact-arithmetic output
+was supplied from an execution of the retained script; its
+implementation has not received an independent mathematical audit.
+
+The geometric incidence argument above settles the existence of
+proper cubic-contact pencils without relying on surjectivity of
+\(\Omega_3\). It does **not** settle the higher-order equations,
+generic transverse multiplicity nine, or sole support \(C\).
+Those are the remaining substantive gates for a supported sextic pair.
 
 ## Necessary ADE arithmetic census for a normal quintic with direction degree one
 
