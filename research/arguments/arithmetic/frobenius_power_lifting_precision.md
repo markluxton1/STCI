@@ -401,3 +401,63 @@ Finite-level heights here refer to strong
 nilpotence, not merely to points of an incidence defined by field-valued
 rank conditions. Every actual supported DVR trait has the requisite strong
 nilpotence, so the resulting trait obstructions do apply.
+
+
+## Torus weights and splitting of the powered-quartic boundary
+
+For the prescribed family with \(p\ge 7\), \(3b+4c=p\), and
+\(a=p-b-c\ge0\), put
+\[
+ F_p=x_1^p-x_0^a x_2^b x_3^c,\qquad
+ H_4=x_2^4-x_0x_3^3.
+\]
+The curve-preserving torus \(T\) has weights \((0,1,3,4)\) on
+\((x_0,x_1,x_2,x_3)\). Both forms are eigenforms:
+\(F_p\) has weight \(p\), and \(H_4\) has weight \(12\).
+Subtracting twice the homogeneous degree gives centered weights
+\(-p\) and \(+4\), respectively; \(H_4^n\) has centered weight \(4n\).
+
+There is also a commuting diagonal subgroup scheme
+\(\mu_p^{(1)}=\{[1:\zeta:1:1]:\zeta^p=1\}\).
+It fixes both equations. Over an algebraically closed field of
+characteristic zero, the **cycle** of the complete intersection
+\(V(F_p,H_4)\) is
+\[
+ [V(F_p,H_4)]=\sum_{\zeta^p=1}[C_\zeta],\qquad
+ C_\zeta=[s^4:\zeta s^3t:st^3:t^4].
+\]
+Indeed, on \(x_0=1\), the cusp \(x_2^4=x_3^3\) has normalization
+\((x_2,x_3)=(\tau^3,\tau^4)\), and the remaining equation becomes
+\(x_1^p=\tau^p\). The \(p\) components are distinct, generically
+reduced, of degree four, and all meet the two fixed endpoints.
+This is a cycle identity; it does **not** assert that the union is
+scheme-theoretically reduced at the endpoints.
+
+In characteristic \(p\), the group scheme \(\mu_p^{(1)}\) is
+nonreduced and the same normalization equation is
+\((x_1-\tau)^p=0\). Thus the intersection has sole reduced support
+\(C=C_1\) and generic multiplicity \(p\). This explains the
+characteristic-zero splitting versus characteristic-\(p\) coalescence
+without claiming a mixed-characteristic lift of an STCI pair.
+
+For a **genuinely \(T\)-equivariant** DVR family with the root
+closure \(D\) and special Cartier multiple \(Z_0\) as above, the
+zero-dimensional defect \(\mathcal T=I_{Z_0}/I_{D_0}\) is
+\(T\)-equivariant. Its support is contained in the two endpoints,
+so it splits as
+\(\mathcal T=\mathcal T_{p_0}\oplus\mathcal T_{p_\infty}\),
+each summand carrying a torus grading, and
+\[
+ \operatorname{length}\mathcal T_{p_0}
+ +\operatorname{length}\mathcal T_{p_\infty}
+ =1+2p^2-p_a(D_K).
+\]
+The equivariance hypothesis is essential: an arbitrary supported
+DVR trait need not carry a torus action, even though its special
+equations are eigenforms. For an arbitrary trait, only the
+endpoint-supported decomposition as sheaves and the length identity
+follow from the preceding section; no grading is asserted.
+
+These identities describe the boundary and its possible defects,
+not an exclusion of the remaining endpoint defect or a realization
+of a characteristic-zero supported trait.
