@@ -86,6 +86,30 @@ independently in their degrees, by the same reduction. The grading
 shift in (2) gives (1). This does not assert that \(b^2H,c^2H\) vanish
 or identify the exact annihilator of H.
 
+### Torus grading of the four explicit Rao classes
+
+For the fixed quartic and the centered action with coordinate weights
+\((-2,-1,1,2)\), assign \(\operatorname{wt}(z)=0\) in
+\(z^2=2bc-ad\). The forms \(f=b^2-az\) and \(g=c^2-dz\)
+have weights \(-2\) and \(2\). Their power relations, and hence
+\(q_u,t_v\), are homogeneous. With \(e=2u+2v-3\), the four
+nonzero missing-section classes established above have the following
+degrees and weights:
+ 
+| Class | Degree | Centered weight |
+| --- | ---: | ---: |
+| \(H_{uv}z\) | \(e\) | \(2(v-u)\) |
+| \(bH_{uv}z\) | \(e+1\) | \(2(v-u)-1\) |
+| \(cH_{uv}z\) | \(e+1\) | \(2(v-u)+1\) |
+| \(bcH_{uv}z\) | \(e+2\) | \(2(v-u)\) |
+
+This refines the proved \(1,2,1\) **lower bounds** to a
+four-dimensional graded subrepresentation. It does not determine the
+entire Rao module, its exact annihilator, or a conductor equivalence.
+The characteristic restriction remains \(uv\ne0\) in \(k\).
+The weight observation is an elementary consequence of the displayed
+classes, not a new ACM exclusion.
+
 ## The defect is an actual missing ambient section
 
 The source section \(H_{uv}z\) has degree \(e=2u+2v-3\). The two
