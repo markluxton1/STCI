@@ -18,17 +18,20 @@ The actual degree-d normal-jet source is the image of global sections of I(d) in
 
 ### Two precise sextic questions
 
-1. Does the multiplicity-free torus character decomposition of the
-   eleven missing quadratic sextic symbols arise from a **natural**
-   connecting morphism or a geometric exact sequence, rather than an
-   abstract representation isomorphism? The rank-11 source-image
-   obstruction is already proved; its canonical geometric comparison
-   is not.
-2. In the ADE primitive-triple lane, which decomposable wedges in the
-   cubic-contact kernel survive higher normal contact and the full
-   properness and sole-support conditions? The \(23/24\) joint-rank
-   split is linear information, not a solution to this incidence
-   question. See the [triple calculation](../../arguments/carriers/sextic_ade_reduction.md#interpretation-of-the-cubic-contact-ranks).
+1. The eleven missing quadratic sextic symbols are already identified
+   canonically and equivariantly with \(H^1(\mathbf P^3,I_C^3(6))\);
+   the unique-quadric filtration explains their \(8+3\) character
+   contributions. The remaining comparison question is to identify
+   explicitly how this quadric filtration and its connecting maps relate
+   to the target filtration of the order-five Čech differential.
+   See [the cohomological proof](../../arguments/equations/global_equation_jets.md#verified-characters-and-the-quadric-flag-cohomology).
+2. For each surviving ADE primitive triple, proper decomposable
+   cubic-contact sextic pencils **exist**. Which of these pencils
+   satisfy higher normal-jet compatibility through order eight,
+   generic transverse length nine, and sole support? The computed
+   \(23/24\) joint ranks and rank-23 exterior-square obstruction
+   describe linear maps, not these remaining geometric conditions.
+   See [the incidence proof](../../arguments/carriers/sextic_ade_reduction.md#geometry-of-the-cubic-contact-incidence).
 
 These are bounded interfaces to existing Arguments, not new
 Investigations until a specific test and stopping condition are fixed.
