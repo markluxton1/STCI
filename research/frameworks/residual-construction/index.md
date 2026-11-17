@@ -35,6 +35,24 @@ proper equations. The realization question also connects to
 [spectral roots](../spectral-roots/index.md) supplies graded Picard data
 for octic constructions.
 
+### Two presentations of fixed-degree multiplicity
+
+The [normal-jet rank strata](../../arguments/residuals/marked_deformation_and_absorption.md#fixed-degree-multiplicity-strata-of-actual-pairs)
+and the [Chow-divisibility filtration](../../arguments/torus_hilbert_boundary.md#reconciled-chow-filtration-and-finite-sextic-weight-partition)
+describe the **same closed condition on actual proper containing pairs**:
+\(m_C\ge r\). The first uses finite transverse multiplication
+matrices and is adapted to local thickness and attachment questions;
+the second is the pullback of
+\(\mathbf P(Q^rE_{ab-4r})\) under the proper-pair Chow map and is
+adapted to global cycle incidence and residual-degree bookkeeping.
+In either presentation \(ab=4m_C+\deg R\), and multiplicity can rise
+while residual degree falls along a specialization **remaining proper**.
+
+Do not use Chow divisibility on an improper limiting pair or a
+Hilbert-boundary cycle as a substitute for a flat residual
+construction or two global defining equations. The fixed-degree
+terminal condition is exact but does not show its stratum is nonempty.
+
 ## How residual degree can change
 
 The [explicit quartic pairs](../../arguments/residuals/explicit_quartic_residuals.md)
