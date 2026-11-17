@@ -1089,3 +1089,64 @@ It is not the intrinsic \(I_C\)-adic defect or the endpoint
 image-lattice defect: comparing those requires a compatible
 construction, not a numerical identification.
 
+
+
+## Equivariant set-theoretic rank and its limits
+
+The minimal number of **torus eigenforms** needed to define a radical
+is different from the minimal number of arbitrary homogeneous
+equations. This distinction is invariant under changing the
+thickening: if \(P=\sqrt K\), then \(P^N\subset K\subset P\) for
+some \(N\). Eigenforms \(f_i\in P\) with
+\(\sqrt{(f_1,\ldots,f_r)}=P\) yield eigenforms \(f_i^N\in K\)
+with the same radical; the converse follows from inclusion.
+This power argument places no bound on the degrees.
+
+For the fixed quartic in characteristic zero, the known
+eigenform-pair obstruction (R-0042) excludes two eigenforms.
+Three suffice in **every** characteristic:
+\[
+ q=x_0x_3-x_1x_2,\qquad
+ A=x_1^3-x_0^2x_2,\qquad
+ D=x_2^3-x_1x_3^2,\qquad
+ \sqrt{(q,A,D)}=I_C.
+\]
+They have intrinsic torus weights \(4,3,9\). On the smooth
+quadric \(Q\), use Segre coordinates
+\((x_0,x_1,x_2,x_3)=(ac,ad,bc,bd)\).
+The restrictions of \(A,D\) are respectively
+\(a^2(ad^3-bc^3)\) and \(-b^2(ad^3-bc^3)\);
+their common zero on \(Q\) is precisely \(C\).
+Thus the **equivariant homogeneous set-theoretic rank is three**
+in characteristic zero, whereas the unrestricted homogeneous
+set-theoretic rank of \(C\) remains the STCI question.
+The power lemma extends the eigenform rank statement to any
+homogeneous \(K\) with radical \(I_C\).
+
+The distinction cannot be removed by a general descent
+principle for higher-rank tori. In \(k[v,x,y,z]\), the union
+\(B\) of the three concurrent coordinate lines has
+\(I_B=(xy,xz,yz)\) and
+\(\sqrt{(xy,z(x+y))}=I_B\).
+For the two-dimensional torus
+\((v,x,y,z)\mapsto(v,tx,uy,z)\), no two eigenforms cut out
+\(B\): on \(v=0\), each nonzero eigenform restricts to a
+monomial, and two monomials cannot define the three coordinate
+points set-theoretically. For the one-parameter subgroup
+\(\lambda(t)=(t,t^2)\), the complete intersection
+\((xy,xz+yz)\) has full flat limit
+\[
+ (xy,xz+t yz):t^\infty\big|_{t=0}
+   =(xy,xz,y^2z).
+\]
+The limit is ACM, has three minimal generators, and retains
+the original complete-intersection Hilbert series. This is a
+counterexample to unrestricted **higher-rank** equivariant
+descent, not to descent for the prescribed one-dimensional
+quartic torus: with respect to \(\lambda\) alone,
+\(xy,z(x^2+yz)\) is an eigenform set-theoretic pair for \(B\).
+
+These controls do not establish an obstruction to a moving
+two-equation presentation of \(C\); full Hilbert limits may
+require additional generators even when the original ideal
+was a complete intersection.
