@@ -285,7 +285,7 @@ results for **both** the principal and algebraic orbits:
 The reported output degrees are every integer from \(0\) through \(22\);
 thus rank \(23\) implies surjectivity onto that 23-dimensional polynomial
 space. The calculation is reproducible using
-\`PYTHONDONTWRITEBYTECODE=1 python3 research/computations/audit_sextic_triple_spaces_2026_10_31.py\`.
+`PYTHONDONTWRITEBYTECODE=1 python3 research/computations/audit_sextic_triple_spaces_2026_10_31.py`.
 The numerical output was supplied from an execution of the retained
 script; this records a computational verification, **not** an independent
 proof of the script's mathematical implementation.
