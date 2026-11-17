@@ -236,6 +236,37 @@ Run `PYTHONDONTWRITEBYTECODE=1 python3 research/computations/audit_sextic_triple
 This completes the stated linear calculation and first necessary contact
 test; it does not exclude the remaining sextic pairs.
 
+### Interpretation of the cubic-contact ranks
+
+For each of the three surviving primitive triples, the existing
+27-dimensional sextic source has first-normal map \(h\) of rank 17.
+Its kernel is the intersection of the triple-containing sextics with
+\(H^0(\mathcal I_C^2(6))\): vanishing of the first normal coefficient
+is exactly second-order vanishing. Thus \(\dim\ker h=10\).
+The rank table above gives
+\[
+\operatorname{rank}(\Theta|_{\ker h})=
+\operatorname{rank}(h,\Theta)-17=
+\begin{cases}6&\text{principal orbit},\\7&\text{either algebraic orbit}.
+\end{cases}
+\]
+This identifies the **linear** difference between the orbits without
+claiming that the contact incidence is nonempty.
+
+For \(V=H^0(\mathcal I_{\mathrm{triple}}(6))\), the necessary
+curvilinear cubic-contact equation is the vanishing of the quadratic
+map \(F\wedge G\mapsto h_G\Theta_F-h_F\Theta_G\).
+The corresponding projective linear kernel must be intersected with
+the Plücker Grassmannian \(\operatorname{Gr}(2,V)\): an arbitrary
+kernel vector need not be decomposable. Even a decomposable solution
+must pass the higher contact orders, properness and sole-support tests.
+The branch's \(\operatorname{rank}\Omega_3=23\) and
+\(\dim\ker\Omega_3=328\) for the principal orbit are **computational
+claims requiring an independently checkable nonvanishing witness** before
+use as a geometric rank theorem; the existing \(23/24\) joint ranks
+are separately established above. Do not substitute the incorrect
+algebraic joint-rank value 26 from a branch-level summary.
+
 ## Necessary ADE arithmetic census for a normal quintic with direction degree one
 
 The historical finite enumeration was **necessary-only**, not a geometric existence or exclusion proof. Its inputs are the smooth marked ADE pairs in Jaffe's classification, target quadratic defect `46/5`, total ADE rank at most `44`, and total marked order at most `12` for direction degree one (the auxiliary degree-zero option uses order at most `13`). For `A_n^k` it assigns rank `n`, marked order `k`, defect `k(n+1-k)/(n+1)`, and local index `(n+1)/gcd(n+1,k)`. For marked `D_n` vector/spin and `E_6,E_7` it uses the corresponding Jaffe table. It enumerates multisets with exact total defect `46/5`, pruning by the rank/order budgets and the upper bound `q <= nr*pr/(nr+pr)` on the remaining defect. Every surviving numerical row for direction degree one has **marked order exactly 12 and rank at least 40** (the looser degree-zero enumeration has order at least 12 and rank at least 32). The local-index lcm yields only a necessary mate divisibility `4*index/gcd(index,5)`. These numerical rows are not asserted to be realized by a normal quintic or by a global supported pair.
