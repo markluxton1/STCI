@@ -1,12 +1,12 @@
 # STCI research
 
-For the temporary corpus cleanup, consult the [canonical structural inventory](research/CORPUS_TREE_INVENTORY.md) and [topic proposals](research/CORPUS_STRUCTURAL_PROPOSALS.md). These are not mathematical proof verification.
-
 Start at the [lane routes](research/INDEX.md#find-a-statement-proof-or-open-question)
 and [framework map](research/MAP.md). Use `python3 scripts/research.py frameworks`
 to discover approaches, `show ID` for proofs and declared consumers,
 and `route LANE --compact` or `section ADDRESS` for scoped reading.
-Read the owning proof and necessary evidence before rederiving a claim.
+Read the owning proof and strongest applicable literature before rederiving a claim.
+
+For a new investigation, first identify (1) the class of **actual equation pairs** covered, (2) the theorem or decision obtainable, (3) its precise bearing on unrestricted STCI, and (4) why existing results do not already settle it. Maximal generic multiplicity is equivalent to sole support for proper pairs, not a new obstruction. A bounded negative test must not be promoted to an all-pairs exclusion without coverage.
 
 Record the exact curve, characteristic, hypotheses and question. Study
 containment and residual support before imposing sole support. For a torus
