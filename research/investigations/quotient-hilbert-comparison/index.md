@@ -165,3 +165,23 @@ noncurvilinear endpoint fibers still require an actual source test and
 a compatibility proof for their occurrence in one moving family.
 Realizing or excluding all such families requires its own coverage
 argument. The comparison above leaves that constructive incidence open.
+
+## Relation-persistence control and remaining bridge
+
+The [exact residual sextic comparison](../../arguments/torus_hilbert_boundary.md#degree-12-relation-persistence-for-the-residual-sextic-pencil)
+supplies a bounded control for equation-module specialization:
+two moving pencils share the coarse Plücker interval and one
+full torus endpoint but have different positive degree-12
+relation-persistence profiles. The DVR elementary divisors
+measure parameter-torsion in the multiplication presentation,
+not the embedded transverse quotient or its endpoint image
+lattice. Thus their differing determinantal contact orders
+do **not** yet give a compatibility obstruction for a
+sole-supported family.
+
+A concrete next comparison would construct a map between the
+equation-module degeneration and the endpoint image module
+for **one specified moving family** and test whether it
+respects the two filtrations. No general comparison theorem
+or new sole-support exclusion follows from the control.
+
