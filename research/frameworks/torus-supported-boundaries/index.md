@@ -296,8 +296,11 @@ agree. Their degree-12 positive determinant weights are
 
 This is a standard filtered-module construction, not a
 classification of graph fibers or a new STCI obstruction.
-The profile depends on the moving family and primitive
-parameter, not only its endpoint equations. Use it as an
+The profile belongs to the specified multiplication presentation and
+the uniformizer of the effective orbit trait (here \\(v=t^5\\), rather
+than the original torus coordinate \\(t\\)). It is not intrinsic to a
+Hilbert boundary point and need not be comparable across different
+presentations or fixed hypersurfaces. Use it as an
 intermediate check when a common-factor limit makes direct
 full-ideal computation expensive. It must not be conflated
 with the intrinsic normal filtration along \(C\), nor with
