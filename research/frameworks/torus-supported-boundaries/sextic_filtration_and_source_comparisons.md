@@ -80,9 +80,12 @@ shifts; see [the weight-by-weight proof](../../arguments/equations/global_equati
 This explains the symbol deficit cohomologically but does not yet identify
 the quadric filtration with the target filtration of the order-five Čech
 differential, nor certify a supported pair. For the three surviving ADE primitive triples, the
-[sextic contact argument](../../arguments/carriers/sextic_ade_reduction.md#interpretation-of-the-cubic-contact-ranks)
-separates the joint \((h,\Theta)\) ranks \(23/24\) from the
-decomposable-wedge, higher-contact and sole-support conditions.
+[sextic contact argument](../../arguments/carriers/sextic_ade_reduction.md#geometry-of-the-cubic-contact-incidence)
+constructs proper decomposable cubic-contact pencils using the
+nonzero joint kernel and absence of a fixed surface component.
+The joint \((h,\Theta)\) ranks \(23/24\) and computed rank-23
+exterior-square map do not settle higher contact, generic length nine,
+or sole support.
 These are the useful interfaces between torus weights and actual
 equations. A VGIT chamber enumeration alone does not settle them.
 
