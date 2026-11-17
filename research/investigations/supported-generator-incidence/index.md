@@ -133,6 +133,16 @@ checkable nonvanishing witness before it is used as a geometric rank
 certificate. A zero or nonzero incidence result must be stated for the
 declared family; no coverage of all sextic pencils follows automatically.
 
+The eleven-character second-order sextic symbol deficit is now **verified**:
+its canonical obstruction space is \(H^1(\mathbf P^3,I_C^3(6))\), with
+unshifted weights \(7,\ldots,17\), and its unique-quadric filtration
+has \(8+3\) cohomological character contributions. See the
+[weight-by-weight argument](../../arguments/equations/global_equation_jets.md#verified-characters-and-the-quadric-flag-cohomology).
+The remaining comparison question concerns the **maps and filtrations**
+connecting this cohomology to the order-five Čech differential, not the
+existence of a cohomological interpretation. This calculation alone
+neither solves decomposable cubic contact nor establishes sole support.
+
 ## First-cancellation obstruction
 
 For a proposed supported characteristic-zero sextic pair, the
