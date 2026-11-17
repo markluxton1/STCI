@@ -134,3 +134,5 @@ and [global equation realization](../global-equation-realization/index.md).
   mechanism without serving as a boundary point of the supported locus.
   Comparing the full normal cone with a [marked Quot incidence](../formal-normal-geometry/open_normal_geometry.md#comparing-the-normal-cone-with-marked-quot-incidence)
   requires a map retaining the relations used by the deformation.
+
+The [quadric restriction and contact rigidity synthesis](quadric_restriction_and_contact_rigidity.md) distinguishes the degree-independent Picard-class obstruction to sole support from the sharp, computational sextic multiplicity bound. It reformulates the latter as a uniform symbolic-power vanishing on quartic carriers and identifies residual quartic cycles as possible geometric proof inputs, without asserting the vanishing has a calculation-free proof.
