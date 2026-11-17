@@ -209,6 +209,25 @@ stability on the improper equation coordinates of their
 full graph limits. Other VGIT chambers need not be
 enumerated to cover supported pairs.
 
+### Fixed-degree incidence and VGIT scope
+
+The [reconciled Chow filtration and sextic weight partition](../../arguments/torus_hilbert_boundary.md#reconciled-chow-filtration-and-finite-sextic-weight-partition)
+make the proper-pair side of this framework more explicit. For each degree
+type, the locus of generic multiplicity at least \(r\) is the inverse image
+of the linear Chow subspace \(\mathbf P(Q^rE_{ab-4r})\), **relative to
+the open proper-pair locus**. When \(4\mid ab\), all actual supported
+pairs lie in one affine nonvanishing chart of a Chow-resultant coefficient;
+the terminal fiber is cut out by finite coefficient equations there.
+Neither the affine chart nor its Chow equations determine the full
+Hilbert-boundary ideal.
+
+For sextic pencils the coarse Plücker-weight calculation gives 35 ambient
+candidate walls and 34 chambers. The centered Chow semistability gate
+already covers every supported proper pencil at character zero, so a
+full VGIT chamber sweep is **not a prerequisite** for the STCI search.
+Use other chambers only for a declared residual or graph-boundary
+comparison, and always retain the actual generator and endpoint tests.
+
 ## Invariant residual incidence and absorption
 
 The [orbit-curve classification and residual counterexample](../../arguments/torus_hilbert_boundary.md#invariant-residual-supports-and-absorption-limits)
