@@ -342,8 +342,9 @@ But
  =h^0(\mathcal O_{\mathbf P^3}(4))-h^0(\mathcal O_C(4))
  =35-17=18<27=\dim V,
 \]
-using projective normality in degree four for this rational quartic
-(or directly the surjectivity of quartic restrictions).
+using surjectivity of quartic restrictions: sums of four weights from
+\(\{0,1,3,4\}\) cover every integer from \(0\) through \(16\).
+No projective-normality assertion is needed.
 Hence \(\mathbf P(V)\) has no fixed surface component.
 
 Take any nonzero \(G\in K\). The divisors in \(\mathbf P(V)\)
