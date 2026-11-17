@@ -821,7 +821,7 @@ farther up the primitive tower.
 
 Date: 2026-10-06
 
-Status: **OPEN pending one residual saturation calculation.** Independent audit found a genuine gap in the previous residual-open argument: coprimality of two multivariate resultant factors does not imply that their common affine zero set is empty.
+Status: **HISTORICAL OPEN QUESTION — RESOLVED (2026-10-07).** The complete five-coordinate saturation proof is in [Saturation, Rees data, and carrier cases](saturation_rees_and_carrier_cases.md#2026-10-07-dx1-saturation-audit). On the basepoint-free `dx=1` slice, the P-044 zero locus is exactly `a=-1/2, b=-2` (with `x != 0, 1/4`). The argument below records the genuine earlier gap: coprimality of two multivariate resultant factors does not imply that their common affine zero set is empty. The invalid three-equation subsystem is not a substitute for the full five-coordinate proof. This classification does not construct a quartic carrier or an STCI.
 
 On the slice
 \[
@@ -889,7 +889,7 @@ a=-\frac12,\quad b=-2
 \]
 is **not yet proved**.
 
-Consequently the no-carrier statement on the whole \(dx=1\) slice is also **OPEN pending this residual calculation**. Its final implication remains valid: if the classification is repaired, P-045's cubic-factor theorem excludes a quartic carrier.
+**Historical conclusion (superseded):** At this stage the no-carrier statement on the whole \(dx=1\) slice was **OPEN pending the residual calculation**. The subsequent [exact saturation proof](saturation_rees_and_carrier_cases.md#2026-10-07-dx1-saturation-audit) closes that classification gap; combined with P-045's cubic-factor theorem it excludes a quartic carrier on this slice. This does not settle the full parameter space or the STCI question.
 
 Verifier/diagnostic:
 `research/computations/verify_dx1_p044_residual.py`.
