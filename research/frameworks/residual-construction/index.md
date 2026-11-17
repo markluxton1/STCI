@@ -116,6 +116,12 @@ and [global equation realization](../global-equation-realization/index.md).
   [normalization capacity](../../arguments/carriers/normalization_residual_capacity.md)
   gives a nef comparison; equality may still require conductor descent
   on an [actual normalized carrier](../carrier-normalization/index.md).
+- For proper sextic pencils through the surviving ADE triples with a
+  first-order member and dependent quadric restrictions, the
+  [sharp residual floor](../../arguments/carriers/sextic_ade_reduction.md#sharp-length-five-for-pencils-with-a-quadric-divisible-member)
+  is sixteen. At equality the factorization \(G=qP\) splits the residual
+  cycle into degree eight from the quadric and degree eight from the
+  quartic \(P\), counted with intersection multiplicities.
 - The [octic source](octic_multiplier_kernels.md) offers a concrete
   construction: determine the actual multiplier kernels and their fixed
   divisors. Where they generate jointly, the existing argument gives

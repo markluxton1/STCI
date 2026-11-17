@@ -26,17 +26,17 @@ open implications relevant to its approach.
 | [Arithmetic supported lifts](frameworks/arithmetic-supported-lifts/index.md) | Positive-characteristic equations, normal specialization and obstruction to prescribed lifts. Endpoint root defects have no proved identification with spectral Picard torsion or carrier Weil classes. |
 | [Local cohomology](frameworks/local-cohomology/index.md) | Simultaneous ancestors in actual homogeneous multiplication spaces. The quartic two-target reduction gives a bounded problem; higher multiplier degrees belong to the full-module question. |
 
-The current sextic interfaces are (i) the now-proved existence of proper
-decomposable cubic-contact pencils for each surviving ADE primitive triple,
-followed by the still-open higher-contact, generic-length-nine and
-sole-support tests, and (ii) comparison of the established canonical
+The current sextic interfaces are (i) higher contact for proper pencils
+through the surviving ADE primitive triples with independent restrictions
+to the containing quadric, and (ii) comparison of the established canonical
 cohomological obstruction and unique-quadric filtration for the eleven
 missing sextic symbols with the order-five Čech target filtration.
-See [ADE contact](arguments/carriers/sextic_ade_reduction.md#geometry-of-the-cubic-contact-incidence),
+For pencils with a first-order member and dependent quadric restrictions,
+the sharp generic length is five in all three orbits, so the residual
+degree is at least sixteen. See
+[the ADE contact bound](arguments/carriers/sextic_ade_reduction.md#sharp-length-five-for-pencils-with-a-quadric-divisible-member),
 [global symbol cohomology](arguments/equations/global_equation_jets.md#verified-characters-and-the-quadric-flag-cohomology),
 and [formal normal questions](frameworks/formal-normal-geometry/filtered_equation_module_and_sextic_obstruction.md#two-precise-sextic-questions).
-The cohomological interpretation and cubic-contact properness are settled
-at their stated scope; neither proves length nine or sole support.
 Existing torus-boundary investigations continue to require a single
 realizable moving ideal with both full limits.
 The [residual sextic relation-persistence control](arguments/torus_hilbert_boundary.md#degree-12-relation-persistence-for-the-residual-sextic-pencil) gives an exact rational intermediate invariant between a limiting equation pencil and its full Hilbert limit; it does not supply a supported family or compare intrinsic normal and endpoint filtrations.

@@ -23,9 +23,15 @@ retain their own higher-order lifting and conductor tests.
 
 Use the [complete triple classification and actual sextic spaces](../../arguments/carriers/sextic_ade_reduction.md#three-remaining-primitive-triple-orbits),
 retaining all 27 dimensions, including the seven directions beyond
-quartic-source multiples. The first contact equation and existence of **proper decomposable cubic-contact pencils** are proved for all three surviving triples. What remains is higher contact through order eight, properness of any resulting higher-contact candidate, generic length nine, and sole support. An exclusion must cover all three orbits at a stated contact stage;
-an exact proper pair of generic length nine would exhaust degree 36. This covers the ADE general-pencil
-sector only. The [singularity and cover comparison](#compatibility-of-the-normal-sextic-cyclic-cover) has no such ADE hypothesis.
+quartic-source multiples. Proper cubic-contact pencils exist for all
+three triples. The [uniform fourth-coefficient
+test](../../arguments/carriers/sextic_ade_reduction.md#sharp-length-five-for-pencils-with-a-quadric-divisible-member)
+gives a sharp length bound of five for proper pencils with a first-order
+member and dependent quadric restrictions. Continue the length-nine test
+on pencils with independent quadric restrictions. For a proper pair,
+length nine exhausts degree 36. The triple reduction uses the general-pencil
+ADE hypothesis. The [singularity and cover comparison](#compatibility-of-the-normal-sextic-cyclic-cover)
+applies to the general normal carrier.
 
 ## The remaining toric quintic M locus
 
@@ -57,7 +63,7 @@ including \(K_Y^2=72\) and profile-dependent Euler characteristic and lower
 irregularity bounds. An additional compatibility remains to be established with the index-nine local classes, polarization and
 three defect profiles, or construct such data. Under the additional general-pencil
 ADE hypothesis, use the [three surviving primitive-triple orbits](../../arguments/carriers/sextic_ade_reduction.md#sextic-pairs-with-an-ade-pencil-carrier)
-and the computed actual sextic source and first contact equation; higher
-contact and support are still open. Distinguish the normal
-covering surface from a resolution; smooth-surface inequalities require their
-own hypotheses. No contradictory upper bound is currently proved.
+and the [remaining higher-contact locus](#higher-contact-in-the-ade-66-triple-orbits).
+Distinguish the normal covering surface from a resolution when applying
+smooth-surface inequalities. No contradictory upper bound is currently
+proved.

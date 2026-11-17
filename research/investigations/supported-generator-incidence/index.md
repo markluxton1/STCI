@@ -127,12 +127,13 @@ and a coprime second sextic with nonzero first-normal symbol.
 This is not yet a length-nine supported intersection or a supported
 Hilbert family.
 
-The next bounded test is to impose the higher normal-contact equations
-through order eight on these proper pencils, check generic transverse
-length nine and the terminal Chow condition \([Y]=9[C]\), and, for a
-prescribed torus degeneration, verify both full limits on the **same**
-family. Properness is already established at cubic order; it need not
-be rediscovered. The exact-arithmetic wedge computation reports
+The [uniform fourth-coefficient test](../../arguments/carriers/sextic_ade_reduction.md#sharp-length-five-for-pencils-with-a-quadric-divisible-member)
+gives a sharp generic length of five in the dependent quadric-restriction
+locus with a first-order member. Any length-nine candidate in this
+construction must have independent quadric restrictions. A proper
+candidate that reaches length nine has terminal Chow cycle \([Y]=9[C]\).
+For a prescribed torus degeneration, both full limits must come from
+the same family. The exact-arithmetic wedge computation reports
 \(\operatorname{rank}\Omega_3=23\) and nullity 328 for both orbit types;
 its implementation has not been independently audited, so do not use
 that rank as an independent geometric incidence certificate.

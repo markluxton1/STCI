@@ -172,8 +172,8 @@ two roots of \(12r^2+4r+3=0\) remain.
 Independent reuse review checked the classification's complete curve-only
 scope, the actual torus action, frame convention, unique triple, and
 quadric restriction. These three orbits classify the remaining triples.
-Their full degree-six equation spaces and first further contact condition
-are computed below; higher extensions and sole support remain unresolved.
+The next sections compute their full degree-six equation spaces and test
+successive contact conditions.
 
 ## Full sextic spaces and the first further contact equation
 
@@ -224,7 +224,7 @@ Thus a generically curvilinear supported sextic pair necessarily satisfies
 Otherwise its generic transverse length is three, instead of nine.
 At least one first-normal coefficient is nonzero in the length-nine
 curvilinear setting. The next coefficients through order eight must also
-vanish; those conditions and properness have not been solved here.
+vanish.
 
 The script uses exact rational arithmetic and
 \(\mathbb Q(\sqrt{-2})\). Conjugation transports the complete algebraic
@@ -376,9 +376,120 @@ implementation has not received an independent mathematical audit.
 
 The geometric incidence argument above settles the existence of
 proper cubic-contact pencils without relying on surjectivity of
-\(\Omega_3\). It does **not** settle the higher-order equations,
-generic transverse multiplicity nine, or sole support \(C\).
-Those are the remaining substantive gates for a supported sextic pair.
+\(\Omega_3\). The next test can be solved uniformly for pencils with
+a quadric-divisible member.
+
+### Sharp length five for pencils with a quadric-divisible member
+
+Fix one of the three surviving characteristic-zero triples \(T_3\) on
+\(C=C_0\), and write \(V_d=H^0(\mathcal I_{T_3}(d))\). Let a proper
+sextic pencil in \(V_6\) have a member \(F\) with \(h_F\ne0\). If
+the pencil has a nonzero member divisible by the equation \(q\) of the
+containing quadric, then its generic transverse length is at most five.
+The bound is attained in each orbit. A length-nine pencil with a
+first-order member through any of these triples must restrict injectively to
+\(H^0(Q,\mathcal O_Q(6,6))\). The quadric divisor class already
+forces residual support for a proper pencil with a quadric factor.
+The uniform contact test determines the sharp residual degree in this
+locus and gives actual pairs attaining it.
+
+**Coverage and local reduction.** Work in \(k(C)[[q',y]]\), where
+\(q'=m+\gamma y^2\) and \(T_3\) has ideal \((q',y^3)\). The equation
+\(F\) defines a smooth transverse formal branch with \(y\) as parameter.
+The restriction of \(q\) to this branch has order one by the quadric
+transversality computed above. A quadric-divisible pencil member is
+\(G=qP\) for a quartic \(P\). Since \(G\) vanishes on the triple,
+\(P|_{F=0}\) has order at least two. In particular \(P\) vanishes on
+\(C\), so \(G\) has normal order at least two and \(F,G\) span the
+pencil. Length at least four requires
+\(P|_{F=0}\) to have order at least three. Thus \(P\) vanishes on the
+generic triple and belongs to \(V_4\) by purity of \(T_3\).
+
+Every nonzero \(P\in V_4\) is irreducible. There is no form of degree
+less than four vanishing on \(T_3\), since its multiples in degree four
+would span at least four dimensions while \(\dim V_4=2\). In a
+factorization of \(P\), a sole factor through \(C\), counted with
+multiplicity, would itself contain \(T_3\) because the other factors
+are units at its generic point. Two factors through \(C\) would both
+have to be \(q\) up to scalars, whose square has order two on \(T_3\).
+The first-normal map on \(V_4\) is injective, so \(P\) too defines a
+smooth transverse formal branch. Additivity of order on the branch of
+\(F\), followed by exchanging the two equations of the local
+intersection \((F,P)\), gives
+\[
+m_C(F,qP)=1+\operatorname{length}\bigl(k(C)[[q',y]]/(F,P)\bigr)
+         =1+\operatorname{ord}_y(F|_{P=0}).
+\]
+
+**Uniform restriction test.** For a member \(H\) of either source,
+write its coefficients up to weight four in \(q',y\) of weights \(3,1\)
+as \(h_Hq'-\Theta_H y^3+e_Hq'y+d_Hy^4\). Along \(P=0\),
+\[
+q'=\frac{\Theta_P}{h_P}y^3-
+\frac{h_Pd_P+e_P\Theta_P}{h_P^2}y^4+O(y^5).
+\]
+Consequently the condition \(\operatorname{ord}_y(F|_{P=0})\ge5\)
+is the simultaneous vanishing of the two polynomials
+\[
+\Theta_P h_F-h_P\Theta_F,\qquad
+h_P^2d_F+\Theta_Ph_Pe_F-(h_Pd_P+e_P\Theta_P)h_F.
+\]
+Here clearing \(h_P\) takes place over \(k(C)\). Its zeros on \(C\)
+do not remove parameters \([P]\) from the computation.
+
+The [exact verifier](../../computations/verify_sextic_quadric_member_contact.py)
+reconstructs the full characteristic-zero kernels in degrees four and six,
+expands the actual homogeneous monomials in the displayed chart and takes
+the coefficient rows of these two polynomials in \(z\). For
+\(P=uP_0+vP_1\), the two row blocks have parameter degrees one and two.
+Each kernel contains the ten-dimensional space of quadratic multiples of
+\(P\), so rank (17\) suffices for equality. The verifier reduces this
+matrix at the split prime \(107\) in the rational and quadratic coefficient
+fields. At \([0:1]\) it checks a nonzero \(17\)-minor. On the affine
+chart \([1:v]\) it computes two maximal minors by exact interpolation
+through their degree bounds, with the following output.
+
+| Orbit representative | Affine minor degrees | Affine gcd | Rank at infinity |
+| --- | --- | --- | --- |
+| Principal | 22, 15 | 1 | 17 |
+| One root of \(12r^2+4r+3=0\) | 22, 0 | 1 | 17 |
+
+The gcd check excludes rank drop over the algebraic closure of the residue
+field. The rank-drop locus is closed on the projective parameter line over
+the coefficient ring localized at the chosen prime. Its image in the
+base is closed by properness. A nonempty characteristic-zero fiber would
+therefore force a nonempty geometric special fiber. Conjugation gives the
+result for the second algebraic orbit. Thus through order four the kernel
+is exactly \(P\cdot H^0(\mathcal O_{\mathbf P^3}(2))\) for every
+\([P]\). A proper pencil excludes these multiples, proving the length
+bound. Independent review reconstructed the local reduction, expanded the
+full equation bases in \((m,y)\) to check the corrected quartic coefficient,
+and replayed the maximal-minor and parameter-coverage checks.
+
+**Sharpness and residual support.** For any nonzero \(P\in V_4\), take
+\(P'\) independent of \(P\) and set
+\[
+F=x_0^2P+qP',\qquad G=qP.
+\]
+Both sextics belong to \(V_6\) and \(h_F=(x_0^2|_C)h_P\) is nonzero.
+Reducing \(F\) modulo \(q\) and \(P\) shows properness. The verifier
+checks that the first-normal map of the quartic pencil has rank two and
+its cubic determinant is nonzero in each orbit. The determinant scales
+by a nonzero constant under a basis change, so \(P'|_{P=0}\) has
+order three for every such choice. Consequently \(F|_{P=0}=qP'|_{P=0}\)
+has order four, and \(m_C(F,G)=5\). The residual cycle has degree
+\(36-4\cdot5=16\). It contains the divisor residual to \(C\) in
+\(F|_Q\), of class \((5,3)\) and degree eight, and the residual
+cycle of \(V(F,P)\), also of degree eight, with multiplicities added
+if they share components.
+
+Replay with
+`python3 -B research/computations/verify_sextic_quadric_member_contact.py`.
+This establishes a sharp contact bound in the locus of pencils with
+dependent quadric restrictions. The higher contact problem for pencils
+with independent restrictions, including the generic length-nine gate,
+remains open. The use of the three triples in the sextic STCI reduction
+requires the general-pencil ADE hypothesis.
 
 ## Necessary ADE arithmetic census for a normal quintic with direction degree one
 

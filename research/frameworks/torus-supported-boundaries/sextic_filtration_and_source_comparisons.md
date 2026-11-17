@@ -83,11 +83,11 @@ differential, nor certify a supported pair. For the three surviving ADE primitiv
 [sextic contact argument](../../arguments/carriers/sextic_ade_reduction.md#geometry-of-the-cubic-contact-incidence)
 constructs proper decomposable cubic-contact pencils using the
 nonzero joint kernel and absence of a fixed surface component.
-The joint \((h,\Theta)\) ranks \(23/24\) and computed rank-23
-exterior-square map do not settle higher contact, generic length nine,
-or sole support.
-These are the useful interfaces between torus weights and actual
-equations. A VGIT chamber enumeration alone does not settle them.
+The [fourth-coefficient test](../../arguments/carriers/sextic_ade_reduction.md#sharp-length-five-for-pencils-with-a-quadric-divisible-member)
+gives a sharp length-five bound on proper pencils with a first-order member
+and dependent quadric restrictions. Higher contact with independent
+restrictions is open. Applying the residual examples to a torus limit
+requires specifying a moving family and tracking its full initial ideal.
 
 ### Source map and scope
 

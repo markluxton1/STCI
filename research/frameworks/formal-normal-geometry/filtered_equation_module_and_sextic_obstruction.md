@@ -25,13 +25,12 @@ The actual degree-d normal-jet source is the image of global sections of I(d) in
    explicitly how this quadric filtration and its connecting maps relate
    to the target filtration of the order-five Čech differential.
    See [the cohomological proof](../../arguments/equations/global_equation_jets.md#verified-characters-and-the-quadric-flag-cohomology).
-2. For each surviving ADE primitive triple, proper decomposable
-   cubic-contact sextic pencils **exist**. Which of these pencils
-   satisfy higher normal-jet compatibility through order eight,
-   generic transverse length nine, and sole support? The computed
-   \(23/24\) joint ranks and rank-23 exterior-square obstruction
-   describe linear maps, not these remaining geometric conditions.
-   See [the incidence proof](../../arguments/carriers/sextic_ade_reduction.md#geometry-of-the-cubic-contact-incidence).
+2. For each surviving ADE primitive triple, proper cubic-contact
+   sextic pencils exist. On the locus with a first-order member and
+   dependent quadric restrictions, the [fourth-coefficient test](../../arguments/carriers/sextic_ade_reduction.md#sharp-length-five-for-pencils-with-a-quadric-divisible-member)
+   caps the generic length sharply at five. Which pencils with independent
+   quadric restrictions satisfy the higher compatibilities through order
+   eight and reach generic transverse length nine?
 
 These are bounded interfaces to existing Arguments, not new
 Investigations until a specific test and stopping condition are fixed.
