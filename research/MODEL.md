@@ -113,6 +113,20 @@ information. Revisit a closed family when the source, hypotheses, boundary
 calculation or coverage genuinely changes. Read the Framework's open steps
 and compare related approaches before choosing a bounded Investigation.
 
+### Claim propagation at integration
+
+When a finding changes the research state, give its **exact hypotheses and
+characteristic**, the **owning proof or reproducible calculation**, its
+**verification status** (proved, independently checked computation, or
+conditional interpretation), and the **precise question it resolves**.
+Identify the existing Result or Argument rather than creating a duplicate
+account. When carrying it into Frameworks, Investigations or navigation,
+retain its scope: a linear rank is not a nonempty incidence locus, a
+weight-module match is not a canonical geometric isomorphism, and a
+necessary boundary condition is not a sole-support realization. Check
+nearby consumers and remove superseded open questions. This is a
+lightweight review convention, not a new record or certificate.
+
 ## Evidence and review
 
 Assess the literal statement, proof, jointly required premises, and scope of
