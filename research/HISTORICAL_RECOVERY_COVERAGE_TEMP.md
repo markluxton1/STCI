@@ -355,3 +355,38 @@ The historical `toric_integration_evaluation_and_ranking.md` is a ranked integra
 For the sextic supplement, restored the intrinsic identification `ker(h)=H^0((I_triple intersect I_C^2)(6))`, its dimension 10, and the cubic-contact quotient and rank decomposition to `arguments/carriers/sextic_ade_reduction.md` in commit `df344e1`. The proposed 153-case torus-fixed pencil classification and order-six exclusion remain unverified and are **not** promoted as a canonical Result. Its original Python verifier exists on `recovery/gemini-audit-worktree` but not `main`.
 
 For the VGIT synthesis, restored the exact degreewise common-factor rank-loss formula and prime-ideal carrier/coprime-pencil dichotomy to `arguments/torus_hilbert_boundary.md` in commit `456db66`. Its detailed Pluecker partition and Hilbert–Burch blowup resolution remain unverified, and its original verifier likewise exists only on the recovery branch. The two primary historical sources remain open pending proof-level adjudication and a decision on retaining the exact certificates.
+
+
+## Proof-level issue in historical VGIT §8.3 — modular intersection identity
+
+The claimed first-blowup Hilbert–Burch theorem in
+\`research/synthesis/vgit_surface_pairs_and_full_limits.md\`
+(§8.3) asserts that \(\gcd(A,B)=\gcd(D,G)=1\),
+with \(G=B\widetilde F-A\widetilde G\in(A,B)\),
+forces \((D,A,B)\) to be a regular sequence and hence
+\[
+ (DA,DB,G)=(D,G)\cap(A,B).
+\]
+**That implication is false without a further hypothesis.**
+For an elementary homogeneous example in \(k[x,y,z,w]\),
+take \(A=x\), \(B=y\), \(D=x+y\),
+\(\widetilde F=xz\), \(\widetilde G=yw\).
+Then \(G=xy(z-w)\), so
+\(\gcd(A,B)=\gcd(D,G)=1\), but
+\(D\in(A,B)\) and \((D,A,B)\) has height two,
+not three. Thus
+\((D,G)\cap(A,B)=(D,G)\) while
+\((DA,DB,G)\ne(D,G)\).
+This counterexample is to the stated *general algebraic implication*;
+it is not by itself a counterexample in the restricted
+quartic-containing pencil locus \(X_d\). The source must prove the
+missing height-three hypothesis in that locus or explicitly impose it.
+The canonical restoration in commit \`456db66\` intentionally
+excluded the §8.3 blowup theorem. Do not promote its modular
+intersection identity or its asserted exhaustive secondary
+indeterminacy classification without repair.
+
+The Hilbert–Burch **three-minor construction** and
+degreewise rank-drop formula may still be valid under their
+appropriate codimension hypotheses. This defect does not invalidate
+those narrower statements.
