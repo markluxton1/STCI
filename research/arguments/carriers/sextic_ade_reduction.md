@@ -260,12 +260,31 @@ The corresponding projective linear kernel must be intersected with
 the Plücker Grassmannian \(\operatorname{Gr}(2,V)\): an arbitrary
 kernel vector need not be decomposable. Even a decomposable solution
 must pass the higher contact orders, properness and sole-support tests.
-The branch's \(\operatorname{rank}\Omega_3=23\) and
-\(\dim\ker\Omega_3=328\) for the principal orbit are **computational
-claims requiring an independently checkable nonvanishing witness** before
-use as a geometric rank theorem; the existing \(23/24\) joint ranks
-are separately established above. Do not substitute the incorrect
-algebraic joint-rank value 26 from a branch-level summary.
+The full wedge map is the **linear** map
+\[
+\Omega_3:\bigwedge^2 V\longrightarrow k[z],\qquad
+F\wedge G\longmapsto h_G\Theta_F-h_F\Theta_G.
+\]
+Its rank is not determined by the separate ranks of \(h\), \(\Theta\),
+or the joint map \((h,\Theta)\): polynomial multiplication and
+antisymmetrization impose additional relations. In particular, the
+established principal/algebraic joint ranks \(23/24\) are **not**
+wedge-map ranks. The value 26 in a historical branch summary for the
+algebraic joint rank is incorrect.
+
+The retained [exact sextic audit](../../computations/audit_sextic_triple_spaces_2026_10_31.py)
+now constructs all \(\binom{27}{2}=351\) wedge columns directly in
+\(\mathbb Q(\sqrt{-2})[z]\) and computes their rank by exact row
+reduction. This supplies a reproducible **verification procedure**, not
+an independently executed certificate in this integration review.
+The branch's principal-orbit values
+\(\operatorname{rank}\Omega_3=23\) and
+\(\dim\ker\Omega_3=328\) remain **unverified until that
+augmented audit is run and its output checked**. Even a verified full
+wedge rank would say nothing by itself about whether
+\(\mathbf P(\ker\Omega_3)\cap\operatorname{Gr}(2,V)\)
+contains a proper pencil, much less one passing the higher-contact and
+sole-support conditions.
 
 ## Necessary ADE arithmetic census for a normal quintic with direction degree one
 
