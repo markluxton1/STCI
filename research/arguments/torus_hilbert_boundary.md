@@ -1207,3 +1207,27 @@ being promoted here as an exhaustive resolution or
 supported-stratum classification. Its verifier
 \`research/computations/verify_vgit_surface_pairs.py\`
 is absent from \`main\`.
+
+
+### Warning on the proposed first common-factor blowup
+
+The historical §8.3 Hilbert–Burch construction forms the
+three-minor ideal \((DA,DB,G)\), with \(G\in(A,B)\).
+The claimed **scheme-theoretic intersection**
+\[
+ (DA,DB,G)=(D,G)\cap(A,B)
+\]
+requires, for example, that \(D\) be a nonzerodivisor
+modulo \((A,B)\), equivalently that
+\(\operatorname{ht}(D,A,B)=3\).
+It does **not** follow merely from
+\(\gcd(A,B)=\gcd(D,G)=1\).
+For instance, with \(A=x\), \(B=y\), \(D=x+y\)
+and \(G=xy(z-w)\), both gcd conditions hold,
+but \(D\in(A,B)\); the right-hand intersection is
+\((D,G)\), strictly larger than \((DA,DB,G)\).
+The proposed full blowup resolution and its
+secondary-indeterminacy classification are therefore
+not established by that historical argument as stated.
+The degreewise rank-loss and prime-ideal dichotomy
+above do not rely on the faulty implication.
