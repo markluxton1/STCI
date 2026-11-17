@@ -1,5 +1,13 @@
 # Mathematical approaches and their interfaces
 
+## Central problem and research selection
+
+For the fixed rational quartic \(C_0\subset\mathbf P^3\) in characteristic zero, the unrestricted question concerns **actual homogeneous pairs** \(F\in I_{C_0}(a)\), \(G\in I_{C_0}(b)\) forming a proper intersection. Its effective cycle is \([V(F,G)]=m_{C_0}[C_0]+R\), where \(ab=4m_{C_0}+\deg R\). Thus maximal generic multiplicity \(m_{C_0}=ab/4\) is equivalent to sole support. This is classical degree exhaustion and a reformulation of STCI, **not** a new obstruction or a reason to assume a degree-independent bound exists.
+
+The principal investigative interfaces are **actual global realization and formal normal geometry**, **full-ideal torus degeneration with its coverage problem**, and **residual construction or absorption**. Each must ultimately constrain or construct actual proper equation pairs. Local cohomology, fixed-carrier normalization, spectral roots, and prescribed arithmetic lifts remain mathematically valid methods and sources of tests, but bounded results in these settings do not acquire unrestricted coverage without a separate bridge. No approach currently proves a degree-independent obstruction.
+
+Before prioritizing new work, state the exact class of equation pairs covered, the theorem or decision obtainable, its implication for unrestricted STCI, and the strongest existing result that leaves the gap open. A bounded question may remain open without being an active priority.
+
 Choose an approach by the object it studies and the map it would need to
 construct. Use the [index](INDEX.md) for exact proof routes and
 `python3 scripts/research.py frameworks` for entry and bridge addresses and
@@ -36,9 +44,9 @@ The [residual sextic relation-persistence control](arguments/torus_hilbert_bound
 ## Questions and active work
 
 Two bounded objects in [Investigations](investigations/) currently connect the
-torus approaches: [moving quotient and full Hilbert comparison](investigations/quotient-hilbert-comparison/index.md)
+torus approaches, at different stages of readiness: [moving quotient and full Hilbert comparison](investigations/quotient-hilbert-comparison/index.md)
 is active, and [generator incidence](investigations/supported-generator-incidence/index.md)
-describes the planned test on a declared supported family. The Frameworks
+describes a **planned, unperformed** test requiring an actual declared supported family. Its existing generator criterion is not evidence that such a family has been constructed. The Frameworks
 explain how either outcome would change the approach.
 
 Other usable starting points include

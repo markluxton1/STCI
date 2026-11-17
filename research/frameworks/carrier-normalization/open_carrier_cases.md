@@ -23,8 +23,7 @@ retain their own higher-order lifting and conductor tests.
 
 Use the [complete triple classification and actual sextic spaces](../../arguments/carriers/sextic_ade_reduction.md#three-remaining-primitive-triple-orbits),
 retaining all 27 dimensions, including the seven directions beyond
-quartic-source multiples. The first contact equation is known; higher
-coefficients through order eight and properness remain. An exclusion must cover all three orbits at a stated contact stage;
+quartic-source multiples. The first contact equation and existence of **proper decomposable cubic-contact pencils** are proved for all three surviving triples. What remains is higher contact through order eight, properness of any resulting higher-contact candidate, generic length nine, and sole support. An exclusion must cover all three orbits at a stated contact stage;
 an exact proper pair of generic length nine would exhaust degree 36. This covers the ADE general-pencil
 sector only. The [singularity and cover comparison](#compatibility-of-the-normal-sextic-cyclic-cover) has no such ADE hypothesis.
 
