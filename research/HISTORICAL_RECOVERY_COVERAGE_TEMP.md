@@ -38,3 +38,218 @@ This is a **temporary audit tracker**, not a new mathematical authority or corpu
 4. Retire this temporary tracker when the audit is complete, retaining only any genuine mathematical correction.
 
 **Current audit metric:** 16/16 non-retirement divergent recovery branches compared, 208/208 changed paths enumerated in comparison output, 16 subject-level decisions above, **0 confirmed content gaps**, **208/208 paths not yet individually dispositioned**. Subject decisions do not decrement path count.
+
+## Complete deduplicated path register (16 recovery branches)
+
+All 208 paths are recorded below. **Unadjudicated** means no path-specific preservation verdict has been established, even where a subject-level match is recorded above. Branch lists and statuses come from live GitHub comparisons against `main`; `added` means absent at the same path on main, not lost content. Subject classification is filename-based triage, not a mathematical judgment.
+
+| Historical path | Diff | Topic triage | Branches | Path verdict |
+| --- | --- | --- | --- | --- |
+| `research/AUDITED_STATE_2026-10-06.md` | added | navigation / miscellaneous | local-cohomology-generator | Unadjudicated |
+| `research/computations/audit_z4_lift_2026_10_20.m2` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/computations/branch_dx1_p044.out` | added | local cohomology / primitive | residual-verifier-fix | Unadjudicated |
+| `research/computations/branch_dx1_p044.py` | added | local cohomology / primitive | local-cohomology-generator, residual-verifier-fix | Unadjudicated |
+| `research/computations/branch_dx1_quartic_reduce.py` | added | local cohomology / primitive | local-cohomology-generator, residual-verifier-fix | Unadjudicated |
+| `research/computations/draw_quartic_geometry_2026_10_24.py` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/computations/explore_localcoh_direction_contact_chart45_details.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/explore_localcoh_direction_contact_chart45.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/explore_localcoh_direction_contact_chart46.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/explore_localcoh_direction_contact_chart47_details.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/explore_localcoh_direction_contact_chart47.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/explore_localcoh_direction_contact_chart56.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/explore_localcoh_direction_contact_chart57.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/explore_localcoh_direction_contact_chart67.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/explore_localcoh_direction_contact_lambda0.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/explore_localcoh_direction_contact_lambda1.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/explore_localcoh_direction_contact_lambda2.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/explore_localcoh_direction_contact.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-e2-incidence-2026-10-06.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-e2-p-constant-both-2026-10-06.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-e2-p-constant-u-2026-10-06.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-e2-p-t-both-2026-10-06.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-e2-p-t-u-2026-10-06.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-e2-r-constant-both-2026-10-06.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-e2-r-constant-u-2026-10-06.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-e2-r-t-both-2026-10-06.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-e2-r-t-u-2026-10-06.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-incidence-2026-10-06-certificate.json` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/localcoh-incidence-2026-10-06.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/localcoh-incidence-bases.txt` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-incidence-parity-dual-2026-10-06.json` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/localcoh-incidence-parity-dual-2026-10-06.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-incidence-parity-dual-2026-10-06.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/localcoh-incidence-parity-dual-2026-10-06.txt` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-incidence-tensor.m2` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/localcoh-incidence-tensor.txt` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-parity-incidence-2026-10-06.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-parity-incidence-u-2026-10-06.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-parity-incidence-v-2026-10-06.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-symbol-directions.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-symbol-export.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-symbol-numerators.txt` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-symbol-parity-coordinates.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-symbol-parity.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-symbol-paritycheck.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-symbol-seed-products.txt` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-symbol-seed.json` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-symbol-seedcheck.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-symbol-top.json` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/localcoh-symbol-top.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/normal_quartic_simple_elliptic_2026-10-06.json` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/normal_rational_carrier_compression_2026-10-06.json` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/octic_order_three_slice_kernels.py` | added | octic roots | frontier-assessment | Unadjudicated |
+| `research/computations/quartic_automorphisms_bitangents_2026_10_24.json` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/computations/README.md` | modified | navigation / miscellaneous | delta-geometry, local-cohomology-generator, quartic-bitangents, special-lines, z4-integral-obstruction | Unadjudicated |
+| `research/computations/requirements-quartic-geometry-2026-10-24.txt` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/computations/requirements-z4-2026-10-20.txt` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/computations/translate_incidence_checks_2026_11_05.m2` | added | torus / VGIT | torus-attracting-strata | Unadjudicated |
+| `research/computations/validation_2026-10-05_resumed.json` | added | navigation / miscellaneous | history-2026-10-06 | Unadjudicated |
+| `research/computations/validation_2026-10-06_checkpoint.json` | added | navigation / miscellaneous | history-2026-10-06 | Unadjudicated |
+| `research/computations/verify_delta_conormal_annihilator_2026_10_24.m2` | added | navigation / miscellaneous | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/computations/verify_delta_rees_equation_module_2026_10_24.m2` | added | navigation / miscellaneous | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/computations/verify_dx1_a_half_boundary.py` | added | local cohomology / primitive | local-cohomology-generator, residual-verifier-fix | Unadjudicated |
+| `research/computations/verify_dx1_p044_residual.py` | added | local cohomology / primitive | local-cohomology-generator, residual-verifier-fix | Unadjudicated |
+| `research/computations/verify_fixed_quartic_mate_degrees.py` | added | quartic geometry | history-2026-10-06 | Unadjudicated |
+| `research/computations/verify_localcoh_constant_direction_apolar.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_localcoh_direction_contact_survivor.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/computations/verify_localcoh_direction_image.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_localcoh_generic_length_model.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_localcoh_pure_direction_audit.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_mf6_defect12.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_mf6_type3.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_normal_quartic_simple_elliptic.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_normal_rational_carrier_compression.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_primitive_quadruple_universal.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_primitive_quartic_factor_audit.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_primitive_triple_parity.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_quartic_automorphisms_bitangents_2026_10_24.py` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/computations/verify_sextic_triple_toric_vgit.py` | added | torus / VGIT | gemini-audit-worktree, gemini-toric-integration | Unadjudicated |
+| `research/computations/verify_special_lines_planes_2026_10_24.py` | added | quartic geometry | quartic-bitangents, special-lines | Unadjudicated |
+| `research/computations/verify_split22_chart_audit.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_split22_finite_reduction.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_split4_nonramified.py` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/computations/verify_toric_conductor_and_endpoint_defects.py` | added | torus / VGIT | gemini-toric-integration | Unadjudicated |
+| `research/computations/verify_toric_jet_deficits_and_unequal_vgit.py` | added | torus / VGIT | gemini-audit-worktree, gemini-toric-integration | Unadjudicated |
+| `research/computations/verify_torus_homogeneous_descent.m2` | added | torus / VGIT | torus-homogeneous-descent | Unadjudicated |
+| `research/computations/verify_vgit_surface_pairs.py` | added | torus / VGIT | gemini-audit-worktree, gemini-toric-integration, torus-homogeneous-descent, vgit-surface-pairs | Unadjudicated |
+| `research/computations/verify_z4_global_quartics_2026_10_20.m2` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/computations/verify_z4_local_structure_2026_10_20.m2` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/computations/verify_z4_quartic_obstruction_2026_10_20.py` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/figures/quartic-geometry-2026-10-24/projection-center.png` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/figures/quartic-geometry-2026-10-24/projection-center.svg` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/figures/quartic-geometry-2026-10-24/README.md` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/figures/quartic-geometry-2026-10-24/symmetric-square-conics.png` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/figures/quartic-geometry-2026-10-24/symmetric-square-conics.svg` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/FRONTIER.md` | modified | navigation / miscellaneous | delta-geometry, frontier-assessment, gemini-audit-worktree, gemini-toric-integration, quartic-bitangents, special-lines, torus-attracting-strata, torus-homogeneous-descent, vgit-surface-pairs | Unadjudicated |
+| `research/INDEX.md` | modified | navigation / miscellaneous | delta-geometry, gemini-audit-worktree, gemini-toric-integration, quartic-bitangents, special-lines, torus-attracting-strata, torus-homogeneous-descent, vgit-surface-pairs, z4-integral-obstruction | Unadjudicated |
+| `research/LITERATURE_LEDGER.md` | modified | navigation / miscellaneous | gemini-audit-worktree, gemini-toric-integration, history-2026-10-06, leading-ideal-lifting, torus-homogeneous-descent, vgit-surface-pairs | Unadjudicated |
+| `research/MAP.md` | modified | navigation / miscellaneous | gemini-audit-worktree, gemini-toric-integration, torus-homogeneous-descent, vgit-surface-pairs | Unadjudicated |
+| `research/notes/2026-10-05-foundational-frontier-audit.md` | added | navigation / miscellaneous | history-2026-10-06 | Unadjudicated |
+| `research/notes/2026-10-05-localcoh-direction-image.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-05-localcoh-generic-length.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-05-localcoh-pure-direction-audit.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-05-mf6-further-audit.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-05-mf6-pairing-audit.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-05-mumford-normal-bound.md` | added | navigation / miscellaneous | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-05-normal-quartic-carriers.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-05-positive-quartic-carrier-optimality.md` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/notes/2026-10-05-primitive-carrier-theory.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-05-residual-cycle-audit.md` | added | navigation / miscellaneous | history-2026-10-06 | Unadjudicated |
+| `research/notes/2026-10-05-residual-cycle.md` | modified | navigation / miscellaneous | history-2026-10-06 | Unadjudicated |
+| `research/notes/2026-10-05-split4-nonramified.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-05-uniform-multiplicity.md` | modified | local cohomology / primitive | local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-dx1-p044-classification.md` | added | local cohomology / primitive | local-cohomology-generator, residual-verifier-fix | Unadjudicated |
+| `research/notes/2026-10-06-localcoh-constant-direction-apolar.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-localcoh-e2-incidence-charts.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-localcoh-incidence.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-localcoh-mixed-contact-pole.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-localcoh-parity-dual.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-mf6-type3-independent-audit.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-mf6-type4-incidence.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-normal-bound-independent-audit.md` | added | navigation / miscellaneous | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-normal-rational-carrier-compression.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-primitive-quadruple-audit.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-primitive-quadruple-universal.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-primitive-triple-parity.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-split22-finite-reduction.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-06-uniform-order-one-frontier.md` | added | local cohomology / primitive | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/notes/2026-10-20-z4-characteristic-zero-lifting-report.md` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/notes/2026-10-20-z4-ci-deformation-lemma.md` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/notes/2026-10-20-z4-lift-independent-audit.md` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/notes/2026-10-20-z4-local-structure.md` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/notes/2026-10-20-z4-quartic-obstruction.md` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/notes/2026-10-21-intrinsic-ribbon-triple-independent-audit.md` | added | arithmetic Z4 | ribbon-triple-audit | Unadjudicated |
+| `research/notes/2026-10-21-z4-persistent-independent-audit.md` | added | arithmetic Z4 | z4-relative-ext | Unadjudicated |
+| `research/notes/2026-10-24-delta-annihilator-review.md` | added | conormal / Rees | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/notes/2026-10-24-delta-base-change-proposal.md` | added | conormal / Rees | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/notes/2026-10-24-delta-conormal-annihilator-proposal.md` | added | conormal / Rees | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/notes/2026-10-24-delta-embedding-geometry-report.md` | added | conormal / Rees | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/notes/2026-10-24-delta-normal-geometry-proposal.md` | added | conormal / Rees | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/notes/2026-10-24-delta-rees-specialization-proposal.md` | added | conormal / Rees | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/notes/2026-10-24-delta-rees-specialization-review.md` | added | conormal / Rees | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/notes/2026-10-24-osculating-normal-count-review.md` | added | quartic geometry | quartic-bitangents, special-lines | Unadjudicated |
+| `research/notes/2026-10-24-quartic-automorphisms-bitangents-synthesis.md` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/notes/2026-10-24-quartic-invariant-literature-outlook.md` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/notes/2026-10-24-quartic-projection-automorphisms.md` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/notes/2026-10-24-quartic-projection-independent-audit.md` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/notes/2026-10-24-quartic-symmetric-independent-audit.md` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/notes/2026-10-24-quartic-symmetric-square-bitangents.md` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/notes/2026-10-24-special-dual-incidence-derivation.md` | added | navigation / miscellaneous | quartic-bitangents, special-lines | Unadjudicated |
+| `research/notes/2026-10-24-special-lines-geometry-derivation.md` | added | quartic geometry | quartic-bitangents, special-lines | Unadjudicated |
+| `research/notes/2026-10-24-special-lines-planes-geometry-audit.md` | added | quartic geometry | quartic-bitangents, special-lines | Unadjudicated |
+| `research/notes/2026-10-24-special-lines-planes-research-note.md` | added | quartic geometry | quartic-bitangents, special-lines | Unadjudicated |
+| `research/notes/2026-10-24-special-lines-planes-stci-audit.md` | added | quartic geometry | quartic-bitangents, special-lines | Unadjudicated |
+| `research/notes/2026-10-24-special-sections-stci-derivation.md` | added | navigation / miscellaneous | quartic-bitangents, special-lines | Unadjudicated |
+| `research/RESEARCH_DECISION_GUIDE.md` | modified | navigation / miscellaneous | frontier-assessment, gemini-audit-worktree, gemini-toric-integration, torus-homogeneous-descent, vgit-surface-pairs | Unadjudicated |
+| `research/RESEARCH_RECORD.md` | modified | navigation / miscellaneous | local-cohomology-generator | Unadjudicated |
+| `research/RESEARCH_REPORT.md` | modified | navigation / miscellaneous | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/RESEARCH_UPDATE_2026-10-05.md` | modified | navigation / miscellaneous | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/scratch/explore_mf6_type4.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/explore_split22_nonramified.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/explore_split4_lift.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/explore_split4_local.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/explore_split4_nonramified.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/mf6_type4_incidence.json` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/mf6_type4_resultant.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/primitive47universal/classify.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/primitive47universal/equations.json` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/primitive47universal/general_triple_contact.json` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/primitive47universal/general_triple_contact.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/primitive47universal/general_triple_contact.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/primitive47universal/generate.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/primitive47universal/parity_triple_certificate.json` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/primitive47universal/quartic_contact.json` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/primitive47universal/quartic_contact.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/primitive47universal/quartic_contact.py` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/primitive47universal/triple_contact_p_chart.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/scratch/primitive47universal/triple_contact_p_factors.m2` | added | local cohomology / primitive | history-2026-10-06 | Unadjudicated |
+| `research/STATE.md` | modified | navigation / miscellaneous | delta-geometry, frontier-assessment, gemini-audit-worktree, gemini-toric-integration, quartic-bitangents, special-lines, torus-homogeneous-descent, vgit-surface-pairs | Unadjudicated |
+| `research/SUCCESSOR_HANDOFF.md` | modified | navigation / miscellaneous | history-2026-10-06, local-cohomology-generator | Unadjudicated |
+| `research/supplements/FROBENIUS_POWER_LIFTING_PRECISION.md` | modified | navigation / miscellaneous | gemini-toric-integration | Unadjudicated |
+| `research/supplements/LOCAL_LEADING_IDEALS_AND_GLOBAL_NORMAL_LIFTING.md` | added | navigation / miscellaneous | leading-ideal-lifting | Unadjudicated |
+| `research/supplements/SEXTIC_ADE_REDUCTION.md` | modified | navigation / miscellaneous | gemini-audit-worktree, gemini-toric-integration | Unadjudicated |
+| `research/SUSTAINED_RESEARCH_2026-10-05.md` | added | navigation / miscellaneous | history-2026-10-06 | Unadjudicated |
+| `research/synthesis/actual_octic_root_lift_comparison.md` | modified | octic roots | frontier-assessment | Unadjudicated |
+| `research/synthesis/global_equation_jets.md` | modified | navigation / miscellaneous | gemini-audit-worktree, gemini-toric-integration | Unadjudicated |
+| `research/synthesis/projected_thickening_section_defects.md` | modified | navigation / miscellaneous | gemini-audit-worktree, gemini-toric-integration | Unadjudicated |
+| `research/synthesis/residual_cycles_and_chow_incidence.md` | added | torus / VGIT | torus-homogeneous-descent, vgit-surface-pairs | Unadjudicated |
+| `research/synthesis/toric_integration_evaluation_and_ranking.md` | added | torus / VGIT | gemini-toric-integration | Unadjudicated |
+| `research/synthesis/torus_attracting_strata_and_generator_incidence.md` | modified | torus / VGIT | gemini-audit-worktree, gemini-toric-integration, torus-homogeneous-descent, vgit-surface-pairs | Unadjudicated |
+| `research/synthesis/torus_homogeneous_descent.md` | added | torus / VGIT | torus-homogeneous-descent | Unadjudicated |
+| `research/synthesis/torus_residual_arrangements_and_absorption.md` | added | torus / VGIT | torus-homogeneous-descent, vgit-surface-pairs | Unadjudicated |
+| `research/synthesis/translate_incidence_and_attracting_strata.md` | added | torus / VGIT | torus-attracting-strata | Unadjudicated |
+| `research/synthesis/vgit_surface_pairs_and_full_limits.md` | added | torus / VGIT | gemini-audit-worktree, gemini-toric-integration, torus-homogeneous-descent, vgit-surface-pairs | Unadjudicated |
+| `research/validation/2026-10-24-special-lines-planes/checks.json` | added | quartic geometry | quartic-bitangents, special-lines | Unadjudicated |
+| `research/validation/2026-10-24-special-lines-planes/manifest.json` | added | quartic geometry | quartic-bitangents, special-lines | Unadjudicated |
+| `research/validation/2026-10-24-special-lines-planes/README.md` | added | quartic geometry | quartic-bitangents, special-lines | Unadjudicated |
+| `research/validation/delta-embedding-2026-10-24/canonical-records.log` | added | conormal / Rees | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/validation/delta-embedding-2026-10-24/conormal-annihilator-m2.log` | added | conormal / Rees | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/validation/delta-embedding-2026-10-24/integration.log` | added | conormal / Rees | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/validation/delta-embedding-2026-10-24/README.md` | added | conormal / Rees | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/validation/delta-embedding-2026-10-24/rees-equation-module-m2.log` | added | conormal / Rees | delta-geometry, quartic-bitangents, special-lines | Unadjudicated |
+| `research/validation/quartic-geometry-2026-10-24/README.md` | added | quartic geometry | quartic-bitangents | Unadjudicated |
+| `research/validation/z4-lift-2026-10-20/audit.log` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/validation/z4-lift-2026-10-20/global-quartics.log` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/validation/z4-lift-2026-10-20/local-structure.log` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/validation/z4-lift-2026-10-20/obstruction.log` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
+| `research/validation/z4-lift-2026-10-20/records.log` | added | arithmetic Z4 | z4-integral-obstruction | Unadjudicated |
