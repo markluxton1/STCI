@@ -273,3 +273,35 @@ An all-pairs conclusion still needs coverage of the relevant fixed limits and
 power bounds. An unbounded-degree conclusion needs a further argument.
 Keep any exploration and useful data in this directory when work starts;
 catalog independently reusable findings as Results and preserve complete proofs.
+
+
+## Paired opposite-limit incidence (historical refinement)
+
+For the curve-preserving one-parameter torus, fix a bounded supported
+Hilbert locus \(H_N\) with \(I_C^N\subset J\subset I_C\), and let
+\(J_+(J)\), \(J_-(J)\) denote the two **full flat ideal** limits of
+\(J\). For fixed invariant ideals \(J_+,J_-\), consider
+\[
+ A(J_+,J_-)=\{J\in H_N:J_+(J)=J_+,\ J_-(J)=J_-\}.
+\]
+The desired degree-\((a,b)\) locus inside this intersection is
+characterized by the graded minimal-generator module
+\(M(J)=J/S_+J\): it has precisely two generators in degrees
+\(a,b\), with multiplicity two when \(a=b\), and none in other
+degrees. Since the ideal has height two, these generators form a
+regular sequence. Neither limiting ideal is required to be
+two-generated. The two limits must come from **one** moving ideal;
+matching Hilbert polynomials and connected components is necessary
+but not sufficient.
+
+This is a finer *question*, not a finite stratification theorem.
+In particular, the two limits of a moving Hilbert ideal are not the
+two geometric endpoints of an orbit closure of the transverse
+quotient. The latter carries its own endpoint image lattices and
+defect budget; no comparison morphism between these invariants has
+yet been established. A useful pilot is to calculate both full
+limits for one controlled family, compare its entire moving
+transverse quotient and global equation module, then test the
+two-generator incidence on the common opposite-limit locus.
+Residual-support examples are controls, not members of \(H_N\).
+No exclusion or nonemptiness claim follows from this refinement.
