@@ -107,5 +107,38 @@ for tau,a in [(0,a0),(1,a1)]:
     twos=defects[1]-defects[0]
     print(f"tau={tau}: ranks={ranks}, defects={defects}, "
           f"Smith positive exponents=(1^{ones},2^{twos})")
-assert (830-5*10,830-5*4)==(780,810)
+# Compute the initial determinant character from actual monomial weights.
+# The degree-12 image has the direct-sum presentation g*S_6 + a*R_6
+# before parameter-torsion removal.
+weights=(-2,-1,1,2)
+def wt(e):
+    return sum(i*j for i,j in zip(e,weights))
+def homogeneous_weight(poly):
+    values={wt(e) for e in poly}
+    assert len(values)==1,values
+    return values.pop()
+wg=homogeneous_weight(g)
+wq=homogeneous_weight(c)
+assert wg==-5 and wq==0
+source_weight=sum(wt(e) for e in mon(6))
+quotient_weight=sum(wt(e) for e in basis6)
+base_weights={}
+for tau,a in [(0,a0),(1,a1)]:
+    wa=homogeneous_weight(a)
+    base_weights[tau]=(source_weight+len(mon(6))*wg
+                       +quotient_weight+len(basis6)*wa)
+    assert base_weights[tau]==-830
+    print(f"tau={tau}: g*S6 weight={source_weight+len(mon(6))*wg}, "
+          f"a*R6 weight={quotient_weight+len(basis6)*wa}, "
+          f"initial determinant={base_weights[tau]}, "
+          f"parameter shift={wq-wa}")
+
+# Derive final characters from independently computed ranks and weights.
+for tau,a in [(0,a0),(1,a1)]:
+    ranks=tuple(truncated_rank(columns(a),Ccols,k) for k in (1,2,3))
+    defects=tuple(83*k-r for k,r in enumerate(ranks,1))
+    torsion_length=defects[2]
+    final_weight=base_weights[tau]+(wq-homogeneous_weight(a))*torsion_length
+    assert final_weight==(-780 if tau==0 else -810)
+    print(f"tau={tau}: positive degree-12 determinant weight={final_weight}")
 print("All exact rational checks passed.")
