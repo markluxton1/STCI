@@ -158,6 +158,31 @@ identify a nonempty top-cycle graph stratum and determine
 whether its Hilbert CI locus is empty or nonempty, rather
 than classify all abstract VGIT chambers.
 
+### Reconciled fixed-degree decision target
+
+For actual proper sextic pencils, the terminal incidence is precisely
+\[
+\chi^{-1}([Q^9])\subset U_{6,6},
+\]
+where \(Q=\operatorname{Ch}_C\) and \(U_{6,6}\) is the open locus of
+proper pencils in \(\operatorname{Gr}(2,I_C(6))\). It lies in a **single
+affine Chow-resultant chart**, with finite coefficient equations; see the
+[reconciled argument](../../arguments/torus_hilbert_boundary.md#reconciled-chow-filtration-and-finite-sextic-weight-partition).
+Nonemptiness in characteristic zero remains open. This formulation
+is an alternative exact description of the existing terminal
+normal-jet rank condition, not a new existence theorem.
+
+For a bounded attracting-family test, apply the terminal Chow condition,
+the **first-cancellation obstruction in both directions**, and the
+**full two-sextic generator criterion** to the *same moving family*.
+A graph-boundary point with top cycle is not an actual proper pencil,
+and an improper displayed limit cannot be inserted into \(U_{6,6}\).
+Record explicitly whether the test is on the moving proper equation
+coordinate or the full Hilbert ideal. The centered character-zero
+semistability gate removes one-sided proper pencils; the other 34
+ambient VGIT chambers are not a priority unless one is needed to
+separate specific residual or full-limit strata.
+
 ## Local leading ideals are not a global generator certificate
 
 The [GHK reconciliation](../../arguments/normal-geometry/actual_equation_filtration.md#generic-leading-ideals-versus-actual-global-equations)
