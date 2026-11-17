@@ -16,6 +16,23 @@ These global realization tests neither compute the punctual filtered equation-mo
 The actual degree-d normal-jet source is the image of global sections of I(d) in sections of the finite normal neighborhood. Rational coefficients and independently chosen symbols need not arise from the same global homogeneous form. The one-step note develops further fixed-degree source tests, but does not exclude an entire surviving degree-at-least-five family.
 
 
+### Two precise sextic questions
+
+1. Does the multiplicity-free torus character decomposition of the
+   eleven missing quadratic sextic symbols arise from a **natural**
+   connecting morphism or a geometric exact sequence, rather than an
+   abstract representation isomorphism? The rank-11 source-image
+   obstruction is already proved; its canonical geometric comparison
+   is not.
+2. In the ADE primitive-triple lane, which decomposable wedges in the
+   cubic-contact kernel survive higher normal contact and the full
+   properness and sole-support conditions? The \(23/24\) joint-rank
+   split is linear information, not a solution to this incidence
+   question. See the [triple calculation](../../arguments/carriers/sextic_ade_reduction.md#interpretation-of-the-cubic-contact-ranks).
+
+These are bounded interfaces to existing Arguments, not new
+Investigations until a specific test and stopping condition are fixed.
+
 ## Open interfaces
 
 - [Punctual relative defect under sole support](open_normal_geometry.md#punctual-relative-defect-under-sole-support).
