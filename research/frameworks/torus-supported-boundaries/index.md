@@ -31,7 +31,7 @@ generator criteria work in every characteristic, while the invariant-CI
 obstruction has a different characteristic boundary.
 
 The boundary results constrain actual supported intersections but do not
-resolve unrestricted STCI.
+resolve unrestricted STCI. Their strategic bottleneck is **coverage of actual moving pairs**: a restriction on a selected full limit or attracting family is not an obstruction for arbitrary pairs unless a coverage theorem connects them. Additional boundary classifications should identify a new realization, generator, or coverage consequence.
 
 ## Available results
 
