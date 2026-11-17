@@ -235,7 +235,29 @@ def contact_map(degree, data, kernel):
               for tag, i in joint_degrees] for j in range(len(kernel))]
     return (h_rank, theta_rank, rank_columns(joint),
             (min(h_degrees), max(h_degrees)),
-            (min(t_degrees), max(t_degrees)))
+            (min(t_degrees), max(t_degrees)), h_out, theta_out)
+
+
+
+def wedge_contact_rank(h_out, theta_out):
+    """Exact rank of Omega_3: wedge^2 V -> Q(a)[z].
+
+    This is NOT the joint rank of (h, Theta). For each i<j, the
+    column is h_j*Theta_i-h_i*Theta_j. All products are computed in
+    Q(sqrt(-2))[z] with exact arithmetic. The rank concerns the full
+    linear map on wedge^2 V, not its decomposable Pluecker locus.
+    """
+    n = len(h_out)
+    columns = [
+        padd(pmul(h_out[j], theta_out[i]),
+             scale(pmul(h_out[i], theta_out[j]), q(-1)))
+        for i in range(n) for j in range(i + 1, n)
+    ]
+    degrees = sorted({d for col in columns for d in col})
+    vectors = [[col.get(d, ZERO) for d in degrees] for col in columns]
+    rank = rank_columns(vectors)
+    assert len(columns) == n * (n - 1) // 2
+    return rank, len(columns) - rank, degrees
 
 
 def quadric_multiple_span(quartic_kernel, sextic_matrix):
@@ -274,9 +296,12 @@ def report(name):
             product_rank = quadric_multiple_span(quartic_kernel, matrix)
             print(f"  quartic-times-quadric span={product_rank}; "
                   f"additional sextic directions={len(kernel)-product_rank}")
-            h_rank, theta_rank, joint_rank, hrange, trange = contact_map(degree, data, kernel)
+            h_rank, theta_rank, joint_rank, hrange, trange, h_out, theta_out = contact_map(degree, data, kernel)
             print(f"  h: deg={hrange}, rank={h_rank}; Theta: deg={trange}, rank={theta_rank}; "
                   f"joint rank={joint_rank}, joint kernel={len(kernel)-joint_rank}")
+            omega_rank, omega_nullity, omega_degrees = wedge_contact_rank(h_out, theta_out)
+            print(f"  Omega_3: rank={omega_rank}, kernel={omega_nullity}, "
+                  f"output degrees={omega_degrees}")
 
 
 if __name__ == "__main__":
