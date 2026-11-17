@@ -529,9 +529,12 @@ In bases of \(E_D/(Q^r E_{D-r\delta})\), these conditions become
 finitely many polynomial resultant-coefficient equations. If \(B\)
 is the ideal of all resultant coefficients and \(L_r\) the ideal of
 the quotient coefficients on the projective presentation space,
-the closure of the proper-pair incidence is given by
-\(L_r:B^\infty\), with homogeneous sheaf interpretation.
-Using \(V(L_r)\) alone admits spurious improper-boundary components.
+the scheme-theoretic closure of the incidence subscheme on
+\(X\setminus V(B)=U\) is given by \(L_r:B^\infty\), with the
+usual homogeneous sheaf interpretation. Its reduction is the
+set-theoretic closure of the geometric incidence locus; the
+incidence subscheme itself need not be reduced. Using \(V(L_r)\)
+alone admits spurious improper-boundary components.
 
 If \(\delta\mid D\), put \(M=D/\delta\). Choose a linear functional
 \(L:E_D\to k\) with \(L(Q^M)\ne0\). The section
@@ -539,7 +542,10 @@ If \(\delta\mid D\), put \(M=D/\delta\). Choose a linear functional
 \(X=\mathbf P(I_C(a))\times\mathbf P(I_C(b))\) has affine
 nonvanishing locus \(X_s\). Every supported proper pair lies in
 this **single** chart, and its locus is the closed fiber
-\(\chi^{-1}([Q^M])\cap X_s\), hence affine. For equal degrees
+\(\chi^{-1}([Q^M])\cap X_s\), hence affine. This is an exact fixed-degree existence problem entirely
+inside an affine scheme excluding improper pairs; projective equation
+and Hilbert graph closures remain useful for degeneration obstructions,
+not prerequisites for defining this incidence. For equal degrees
 \(R_{A(F,G)}=\det(A)^dR_{F,G}\) gives the analogous assertion
 on \(\operatorname{Gr}(2,I_C(d))\) with Plücker power
 \(\mathcal O(d)\). This does not imply affineness of the supported
@@ -573,8 +579,12 @@ convention that weight \(r\) in \(\mathcal O(q)\) shifts to
 \]
 Strict inequalities give stability. The existing centered Chow
 argument forces \(\ell(W)\le0\le u(W)\) for supported proper
-sextic pencils, strictly in characteristic zero by the eigenform
-obstruction. Thus a full chamber sweep is **not** needed to cover
+sextic pencils, strictly in characteristic zero by the established eigenform
+obstruction R-0042. Consequently supported proper pencils are stable
+for the centered character-zero linearization in characteristic zero;
+stability is necessary, not sufficient for support. This conclusion
+concerns moving proper pencils, not improper limiting equation
+coordinates. Thus a full chamber sweep is **not** needed to cover
 supported pairs. The finite partition can guide targeted residual
 and graph-boundary comparisons, but neither certifies support nor
 classifies full Hilbert limits.
