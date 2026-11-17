@@ -25,13 +25,12 @@ The actual degree-d normal-jet source is the image of global sections of I(d) in
    explicitly how this quadric filtration and its connecting maps relate
    to the target filtration of the order-five Čech differential.
    See [the cohomological proof](../../arguments/equations/global_equation_jets.md#verified-characters-and-the-quadric-flag-cohomology).
-2. For each surviving ADE primitive triple, proper decomposable
-   cubic-contact sextic pencils **exist**. Which of these pencils
-   satisfy higher normal-jet compatibility through order eight,
-   generic transverse length nine, and sole support? The computed
-   \(23/24\) joint ranks and rank-23 exterior-square obstruction
-   describe linear maps, not these remaining geometric conditions.
-   See [the incidence proof](../../arguments/carriers/sextic_ade_reduction.md#geometry-of-the-cubic-contact-incidence).
+2. For each surviving ADE primitive triple, proper cubic-contact
+   sextic pencils exist. On the locus with a first-order member and
+   dependent quadric restrictions, the [fourth-coefficient test](../../arguments/carriers/sextic_ade_reduction.md#sharp-length-five-for-pencils-with-a-quadric-divisible-member)
+   caps the generic length sharply at five. Which pencils with independent
+   quadric restrictions satisfy the higher compatibilities through order
+   eight and reach generic transverse length nine?
 
 These are bounded interfaces to existing Arguments, not new
 Investigations until a specific test and stopping condition are fixed.
@@ -51,3 +50,5 @@ This document supplies the mechanism view; the linked current proof owners conta
 
 The [order-one result](../../results/order_one.md) distinguishes the maximal-rank defect of successive global-section maps from the divisor D_j in a quasiprimitive saturated layer. The local comparison defect of R-0030 concerns the actual filtered equation module versus its initial generators, and is not automatically equal to either invariant. The quadric comparison divisor R and doubled divisor 2R are concrete finite-jet test cases, not a general identification of these three defects. Any proposed equality or implication needs an explicit comparison theorem and hypotheses.
 
+
+The [contact-rigidity synthesis](../residual-construction/quadric_restriction_and_contact_rigidity.md#intrinsic-proof-target) isolates a precise global-section vanishing on each quartic carrier, equivalent to the verified sextic contact kernel. The symbolic power and global lifting requirement are essential; the vanishing currently retains its computational proof.
