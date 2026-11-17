@@ -869,6 +869,7 @@ From the repository root, run:
 
 ```sh
 python3 -B research/arguments/torus-sextic-controls.support/verify.py
+python3 -B research/arguments/torus-sextic-controls.support/verify_positive_smith_Q.py
 python3 -B -m unittest discover -s research/arguments/torus-sextic-controls.support -p 'test_*.py' -v
 M2 --script research/arguments/torus-sextic-controls.support/verify_transverse_limit.m2
 ```
