@@ -116,6 +116,23 @@ determine a supported boundary ideal; conversely, a supported
 boundary with extra generators does not exclude a moving supported
 CI until its attracting family is tested.
 
+## ADE primitive-triple contact as a bounded input
+
+The [surviving primitive-triple calculation](../../arguments/carriers/sextic_ade_reduction.md#interpretation-of-the-cubic-contact-ranks)
+gives a 27-dimensional sextic source on each of three orbits and
+joint \((h,\Theta)\) ranks 23 (principal) and 24 (algebraic).
+These are **necessary linear source conditions**, not a supported
+Hilbert family and not a solution of the present Investigation.
+
+A bounded next test, if an actual family is specified, is to intersect
+the decomposable-wedge cubic-contact condition with its higher-order
+normal-contact equations, then verify properness, the terminal Chow
+condition and both full limits on that **same** family. The proposed
+principal-orbit rank of the full wedge map needs an independently
+checkable nonvanishing witness before it is used as a geometric rank
+certificate. A zero or nonzero incidence result must be stated for the
+declared family; no coverage of all sextic pencils follows automatically.
+
 ## First-cancellation obstruction
 
 For a proposed supported characteristic-zero sextic pair, the
