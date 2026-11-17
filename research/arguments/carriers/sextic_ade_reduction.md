@@ -298,6 +298,65 @@ contains a **proper** pencil satisfying cubic contact. The
 decomposability, higher-contact, properness, and sole-support conditions
 must be addressed separately.
 
+### Proper pencils satisfying the cubic-contact equation
+
+**Proposition (cubic-order properness, not length-nine realization).**
+For each of the three surviving primitive-triple directions, there are
+linearly independent sextics \(F,G\in V\) with
+\[
+\gcd(F,G)=1,\qquad h_F\ne0,\qquad
+\Omega_3(F\wedge G)=0.
+\]
+In particular the decomposable cubic-contact incidence meets the locus
+of proper pencils with nonzero first-normal coefficient. This does **not**
+establish higher contact, generic transverse length nine, or sole support.
+
+**Proof.** Put \(K=\ker(h,\Theta)\). The exact joint-rank calculation gives
+\(\dim K=4\) for the principal orbit and \(3\) for either algebraic
+orbit. Choose \(0\ne G\in K\). For any \(F\in V\),
+\(\Omega_3(F\wedge G)=0\), since \(h_G=\Theta_G=0\).
+
+It remains to choose \(F\) with \(h_F\ne0\) and no common factor with
+\(G\). We show that the full linear system \(V\) has no fixed
+irreducible surface factor. The cubic \(q^3\), where
+\(q=x_0x_3-x_1x_2\), belongs to the ideal of every embedded triple
+supported on \(C\), so \(q^3\in V\). Since \(q\) is irreducible, a
+fixed irreducible factor would have to be \(q\).
+
+For the surviving directions the restriction of \(q\) to the generic
+primitive triple is a nonzero element of order one in its nilpotent
+parameter. Indeed, in the chart used above its linear coefficient is
+\[
+ A+\tfrac z2 B=
+ \begin{cases}
+ 1-4z^2&\text{principal orbit},\\
+ (r+\tfrac12)z&\text{algebraic orbit},
+ \end{cases}
+\]
+which is nonzero over \(k(z)\) in each case (the excluded orbit
+\(r=-1/2\) is precisely the exceptional quadric direction).
+Consequently, if \(qH\in V\) for a quartic \(H\), the constant
+coefficient of \(H\) along \(C\) vanishes: \(H\in H^0(\mathcal I_C(4))\).
+If \(q\) divided every element of \(V\), multiplication by \(q\)
+would embed \(V\) into \(H^0(\mathcal I_C(4))\), but
+\[
+ \dim V=27>h^0(\mathcal I_C(4))=35-17=18,
+\]
+a contradiction.
+
+Thus, for each irreducible factor \(P\) of \(G\), the subspace
+\(\{F\in V:P\mid F\}\) is proper. The subspace \(\ker h\) is also
+proper because \(\operatorname{rank}h=17\). Over an infinite
+characteristic-zero field, a finite union of proper linear subspaces
+cannot cover \(V\). Choose \(F\) outside that union. Then
+\(h_F\ne0\), \(\gcd(F,G)=1\), and the cubic-contact equation holds.
+\(\square\)
+
+The remaining question is whether any such proper cubic-contact pencil
+extends to **all** necessary contact orders through eight and has
+reduced support exactly \(C\). The displayed construction does not
+assert that the pairs with \(G\in K\) meet those stronger conditions.
+
 ## Necessary ADE arithmetic census for a normal quintic with direction degree one
 
 The historical finite enumeration was **necessary-only**, not a geometric existence or exclusion proof. Its inputs are the smooth marked ADE pairs in Jaffe's classification, target quadratic defect `46/5`, total ADE rank at most `44`, and total marked order at most `12` for direction degree one (the auxiliary degree-zero option uses order at most `13`). For `A_n^k` it assigns rank `n`, marked order `k`, defect `k(n+1-k)/(n+1)`, and local index `(n+1)/gcd(n+1,k)`. For marked `D_n` vector/spin and `E_6,E_7` it uses the corresponding Jaffe table. It enumerates multisets with exact total defect `46/5`, pruning by the rank/order budgets and the upper bound `q <= nr*pr/(nr+pr)` on the remaining defect. Every surviving numerical row for direction degree one has **marked order exactly 12 and rank at least 40** (the looser degree-zero enumeration has order at least 12 and rank at least 32). The local-index lcm yields only a necessary mate divisibility `4*index/gcd(index,5)`. These numerical rows are not asserted to be realized by a normal quintic or by a global supported pair.
