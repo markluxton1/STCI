@@ -1045,9 +1045,10 @@ where ranks in the middle columns are ranks of the underlying
 Indeed for source rank 83,
 \(83k-\operatorname{rank}(\mu\bmod v^k)
 =\sum_i\min(k,e_i)\). The rank defects are respectively
-\((9,10,10)\) and \((3,4,4)\). The existing exact state
-certificate supplies total lengths 10 and 4, so these truncated
-ranks also exclude exponents above two. The independently
+\((9,10,10)\) and \((3,4,4)\). Equality of the defects at truncation orders two and three
+shows directly that no exponent exceeds two; hence the total
+torsion lengths are 10 and 4 **without using the old state-weight
+certificate**. The independently
 reproducible degree-12 exact calculation is
 [`verify_positive_smith_Q.py`](torus-sextic-controls.support/verify_positive_smith_Q.py).
 The first obstruction has ranks 8 and 2 and one-dimensional kernel
