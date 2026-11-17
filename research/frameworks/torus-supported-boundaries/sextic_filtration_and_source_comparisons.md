@@ -70,12 +70,16 @@ The quartic root pencil \(z^4-\eta z+\eta-1\) has characteristic-zero discrimina
 
 ### What the new weight information does and does not test
 
-The eleven missing second-order sextic symbols admit the proposed
-multiplicity-free centered character list \(-5,-4,\ldots,5\);
-see [the source-image argument](../../arguments/equations/global_equation_jets.md#torus-character-refinement-of-the-eleven-symbol-deficit).
-This partitions an already known global lifting deficit; it does not
-construct a canonical cohomological comparison or certify a supported
-pair. For the three surviving ADE primitive triples, the
+The eleven missing second-order sextic symbols have verified unshifted
+weights \(7,\ldots,17\) (centered \(-5,\ldots,5\)). Their cokernel is
+canonically \(H^1(\mathbf P^3,I_C^3(6))\), and the unique-quadric flag
+splits its character list into eight weights from
+\(H^1(Q,\mathcal O_Q(3,-3))\) and three from
+\(H^1(Q,\mathcal O_Q(2,-2))\), with the appropriate generator-weight
+shifts; see [the weight-by-weight proof](../../arguments/equations/global_equation_jets.md#verified-characters-and-the-quadric-flag-cohomology).
+This explains the symbol deficit cohomologically but does not yet identify
+the quadric filtration with the target filtration of the order-five Čech
+differential, nor certify a supported pair. For the three surviving ADE primitive triples, the
 [sextic contact argument](../../arguments/carriers/sextic_ade_reduction.md#interpretation-of-the-cubic-contact-ranks)
 separates the joint \((h,\Theta)\) ranks \(23/24\) from the
 decomposable-wedge, higher-contact and sole-support conditions.
