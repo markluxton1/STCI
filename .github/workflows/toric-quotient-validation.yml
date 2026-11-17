@@ -34,5 +34,7 @@ jobs:
           python-version: "3.12"
       - name: Check finite algebras, source ranks and explicit identities
         run: python3 -B research/arguments/torus-sextic-controls.support/verify.py
+      - name: Check exact rational Smith profiles and centered determinant weights
+        run: python3 -B research/arguments/torus-sextic-controls.support/verify_positive_smith_Q.py
       - name: Reject deliberately altered finite data
         run: python3 -B -m unittest discover -s research/arguments/torus-sextic-controls.support -p 'test_*.py' -v

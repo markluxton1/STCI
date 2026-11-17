@@ -279,3 +279,30 @@ generation or cycle support can change without providing supported limits.
 - [Sextic filtration and source comparisons](sextic_filtration_and_source_comparisons.md)
 
 The original [section-address compatibility page](weights_and_limits.md) retains old headings for existing references. The developments distinguish individual equation symbols from the saturated full initial ideal, and generic normal algebra from endpoint extension and global support.
+
+## Relation persistence as a boundary refinement
+
+The [degree-12 rational sextic control](../../arguments/torus_hilbert_boundary.md#degree-12-relation-persistence-for-the-residual-sextic-pencil)
+shows why a common-factor stratum and a coarse Plücker weight
+interval do not determine a full Hilbert state. For a moving
+section on a fixed hypersurface, the parameter-adic Smith
+exponents of multiplication measure successive lifting of
+limiting relations. Their sum is the determinantal contact
+order (valuation of maximal minors). In the two residual
+controls the profiles are \((1^8,2)\) and \((1^2,2)\),
+although the coarse Plücker interval and negative full limit
+agree. Their degree-12 positive determinant weights are
+\(-780\) and \(-810\).
+
+This is a standard filtered-module construction, not a
+classification of graph fibers or a new STCI obstruction.
+The profile belongs to the specified multiplication presentation and
+the uniformizer of the effective orbit trait (here \\(v=t^5\\), rather
+than the original torus coordinate \\(t\\)). It is not intrinsic to a
+Hilbert boundary point and need not be comparable across different
+presentations or fixed hypersurfaces. Use it as an
+intermediate check when a common-factor limit makes direct
+full-ideal computation expensive. It must not be conflated
+with the intrinsic normal filtration along \(C\), nor with
+the transverse endpoint image filtration.
+

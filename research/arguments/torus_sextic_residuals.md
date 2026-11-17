@@ -869,6 +869,23 @@ From the repository root, run:
 
 ```sh
 python3 -B research/arguments/torus-sextic-controls.support/verify.py
+python3 -B research/arguments/torus-sextic-controls.support/verify_positive_smith_Q.py
 python3 -B -m unittest discover -s research/arguments/torus-sextic-controls.support -p 'test_*.py' -v
 M2 --script research/arguments/torus-sextic-controls.support/verify_transverse_limit.m2
 ```
+
+## Relation-persistence refinement of the residual control
+
+The one-parameter sextic family
+\(\langle q^3+x_0^2x_3A+\tau qx_0A,\ x_0^3x_2q\rangle\)
+has the same coarse Plücker weights for \(\tau=0,1\)
+and the same negative full limit, but different positive
+degree-12 determinant characters. The
+[exact DVR multiplication argument](torus_hilbert_boundary.md#degree-12-relation-persistence-for-the-residual-sextic-pencil)
+explains the difference by the positive Smith profiles
+\((1^8,2)\) and \((1^2,2)\), respectively. The six-unit
+difference in torsion length accounts for the 30-unit
+difference in determinant weight. These are residual
+controls (generic multiplicity one along \(C\)), not
+supported STCI candidates.
+

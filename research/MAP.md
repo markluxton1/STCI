@@ -31,6 +31,7 @@ The cohomological interpretation and cubic-contact properness are settled
 at their stated scope; neither proves length nine or sole support.
 Existing torus-boundary investigations continue to require a single
 realizable moving ideal with both full limits.
+The [residual sextic relation-persistence control](arguments/torus_hilbert_boundary.md#degree-12-relation-persistence-for-the-residual-sextic-pencil) gives an exact rational intermediate invariant between a limiting equation pencil and its full Hilbert limit; it does not supply a supported family or compare intrinsic normal and endpoint filtrations.
 
 ## Questions and active work
 
