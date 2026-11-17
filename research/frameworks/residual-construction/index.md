@@ -39,8 +39,11 @@ for octic constructions.
 
 The [normal-jet rank strata](../../arguments/residuals/marked_deformation_and_absorption.md#fixed-degree-multiplicity-strata-of-actual-pairs)
 and the [Chow-divisibility filtration](../../arguments/torus_hilbert_boundary.md#reconciled-chow-filtration-and-finite-sextic-weight-partition)
-describe the **same closed condition on actual proper containing pairs**:
-\(m_C\ge r\). The first uses finite transverse multiplication
+describe the **same closed condition on geometric points of the actual
+proper containing-pair locus**: \(m_C\ge r\). Their natural
+scheme structures need not agree: the normal-jet minors and the
+pullback Chow linear equations are not asserted to generate the
+same ideal or have identical infinitesimal structure. The first uses finite transverse multiplication
 matrices and is adapted to local thickness and attachment questions;
 the second is the pullback of
 \(\mathbf P(Q^rE_{ab-4r})\) under the proper-pair Chow map and is
