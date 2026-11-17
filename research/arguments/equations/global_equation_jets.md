@@ -382,24 +382,102 @@ Thus a leading symbol can be globally compatible through quartic normal
 order and still fail to be the symbol of any global sextic. This is a
 specific higher-gluing obstruction, not merely a count of extra parameters.
 
-### Torus-character refinement of the eleven-symbol deficit
+### Verified characters and the quadric-flag cohomology
 
-For the fixed quartic in characteristic zero, the already established
-second-order sextic symbol map has 33-dimensional target, rank 22,
-and eleven-dimensional cokernel. Under the centered torus action,
-the branch calculation gives the **multiplicity-free character
-decomposition**
+Let \(T\) act on coordinates with weights \((0,1,3,4)\), and use the
+induced (unshifted) linearization on \(\mathcal O_{\mathbf P^3}(6)\).
+The equivariant quadratic-symbol sequence is
+\[
+0\to I^3(6)\to I^2(6)\to\operatorname{Sym}^2E(6)\to0.
+\]
+The established vanishing \(H^1(I^2(6))=0\) therefore identifies,
+**canonically and \(T\)-equivariantly**,
+\[
+\operatorname{coker}(\sigma_{6,2})\simeq H^1(\mathbf P^3,I^3(6)).
+\tag{13}
+\]
+Here \(H^0(I^3(6))=kq^3\) has weight \(12\).
+
+A weight-by-weight check needs no new rank calculation. The three
+quadratic normal monomial families have weights \(6+j,7+j,8+j\)
+for \(0\le j\le10\). The already established actual source
+\(H^0(I^2(6))\) has weight multiplicities
+\((1,1,2,2,2,2,3,2,2,2,2,1,1)\) for weights \(6,\ldots,18\).
+Subtract the one-dimensional kernel in weight \(12\):
+
+| Weight | Target | Source | Kernel | Image | Cokernel |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| 6 | 1 | 1 | 0 | 1 | 0 |
+| 7 | 2 | 1 | 0 | 1 | 1 |
+| 8 | 3 | 2 | 0 | 2 | 1 |
+| 9 | 3 | 2 | 0 | 2 | 1 |
+| 10 | 3 | 2 | 0 | 2 | 1 |
+| 11 | 3 | 2 | 0 | 2 | 1 |
+| 12 | 3 | 3 | 1 | 2 | 1 |
+| 13 | 3 | 2 | 0 | 2 | 1 |
+| 14 | 3 | 2 | 0 | 2 | 1 |
+| 15 | 3 | 2 | 0 | 2 | 1 |
+| 16 | 3 | 2 | 0 | 2 | 1 |
+| 17 | 2 | 1 | 0 | 1 | 1 |
+| 18 | 1 | 1 | 0 | 1 | 0 |
+| **Total** | **33** | **23** | **1** | **22** | **11** |
+
+There is also a geometric explanation. Write
+\(Q=\mathbf P^1_{a,b}\times\mathbf P^1_{c,d}\), with
+\((x_0,x_1,x_2,x_3)=(ac,ad,bc,bd)\). Then
+\(\mathrm{wt}(b)=3,\mathrm{wt}(d)=1\), with \(a,c\) of weight zero.
+The quadric equation \(q=x_0x_3-x_1x_2\) has weight \(4\);
+the divisor \(C\subset Q\) is cut out by
+\(f=bc^3-ad^3\), of bidegree \((1,3)\) and weight \(3\).
+The standard Cartier-divisor/quadric flag for \(I^3(6)\)
+has successive quotients
+\[
+\mathcal O_Q(3,-3)\,[f^3],\quad
+\mathcal O_Q(2,-2)\,[qf^2],\quad
+\mathcal O_Q(1,-1)\,[q^2f],\quad
+\mathcal O_{\mathbf P^3}\,[q^3].
+\tag{14}
+\]
+The brackets indicate the **equivariant generator weight**,
+respectively \(9,10,11,12\); they must not be discarded when
+computing characters. The last two terms have zero \(H^1\),
+and the relevant \(H^0,H^2\) terms vanish, so the filtration
+induces an exact sequence
+\[
+0\to H^1(Q,\mathcal O_Q(3,-3))[9]
+\to H^1(\mathbf P^3,I^3(6))
+\to H^1(Q,\mathcal O_Q(2,-2))[10]\to0.
+\tag{15}
+\]
+By Künneth and the standard equivariant Čech basis
+\(d^{-1}c^{-2},d^{-2}c^{-1}\) for \(H^1(\mathcal O(-3))\)
+(and \(d^{-1}c^{-1}\) for \(H^1(\mathcal O(-2))\)),
+the two pieces have characters
+\[
+\begin{aligned}
+H^1(Q,\mathcal O_Q(3,-3))[9]&:
+  &&7,8,10,11,13,14,16,17,\\
+H^1(Q,\mathcal O_Q(2,-2))[10]&:
+  &&9,12,15.
+\end{aligned}
+\tag{16}
+\]
+Their weights are disjoint. In characteristic zero, torus
+representations are semisimple, so the cokernel is multiplicity-free:
 \[
 \operatorname{coker}(\sigma_{6,2})
-\cong_T \bigoplus_{w=-5}^{5} k_w.
+ \cong_T\bigoplus_{w=7}^{17}k_w
+ \cong_T\left(\bigoplus_{j=-5}^{5}k_j\right)\otimes k_{12}.
+\tag{17}
 \]
-This refines the dimension count, not the source-image theorem or its
-order-five cutoff. An abstract character match with a Künneth
-cohomology representation does **not** produce a canonical geometric
-identification or a comparison of obstruction maps. Constructing such
-a natural comparison, if useful, remains open. The character calculation
-should be checked against the fixed grading conventions before being
-promoted as a separately reviewed theorem.
+The centered \(-5,\ldots,5\) list is therefore a **character
+normalization**, not the unshifted representation. The cohomology
+identification (13) and quadric filtration (15) are canonical for
+the embedded curve and its unique quadric; a splitting of (15)
+need not be canonical. The order-five filtered Čech differential
+detects the same source-image deficit, but an explicit comparison
+of its target filtration with (15) remains a separate question.
+No supported sextic pair or characteristic-zero exclusion follows.
 
 ### The exact minimum sextic cutoff is order five
 
