@@ -68,6 +68,27 @@ The degree-six equation space vanishing on \(C\) has dimension \(59\), so sextic
 
 The quartic root pencil \(z^4-\eta z+\eta-1\) has characteristic-zero discriminant \((\eta-4)^2(-27\eta^2+40\eta-16)\). At \(\eta=1\), a separable root exits the quotient torus at zero; the \(\eta=\infty\) boundary and collisions of marked and residual points are different events. These are calculations for this parameter line, not a general root-space classification. [Root-pencil proof](../../arguments/torus/root_pencil_geometry.md#3-three-ways-the-pencil-leaves-the-open-arrangement).
 
+### What the new weight information does and does not test
+
+The eleven missing second-order sextic symbols have verified unshifted
+weights \(7,\ldots,17\) (centered \(-5,\ldots,5\)). Their cokernel is
+canonically \(H^1(\mathbf P^3,I_C^3(6))\), and the unique-quadric flag
+splits its character list into eight weights from
+\(H^1(Q,\mathcal O_Q(3,-3))\) and three from
+\(H^1(Q,\mathcal O_Q(2,-2))\), with the appropriate generator-weight
+shifts; see [the weight-by-weight proof](../../arguments/equations/global_equation_jets.md#verified-characters-and-the-quadric-flag-cohomology).
+This explains the symbol deficit cohomologically but does not yet identify
+the quadric filtration with the target filtration of the order-five Čech
+differential, nor certify a supported pair. For the three surviving ADE primitive triples, the
+[sextic contact argument](../../arguments/carriers/sextic_ade_reduction.md#geometry-of-the-cubic-contact-incidence)
+constructs proper decomposable cubic-contact pencils using the
+nonzero joint kernel and absence of a fixed surface component.
+The joint \((h,\Theta)\) ranks \(23/24\) and computed rank-23
+exterior-square map do not settle higher contact, generic length nine,
+or sole support.
+These are the useful interfaces between torus weights and actual
+equations. A VGIT chamber enumeration alone does not settle them.
+
 ### Source map and scope
 
 <a id="proofs-of-orbit-multiplicities-and-full-limits"></a>

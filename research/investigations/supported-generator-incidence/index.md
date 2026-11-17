@@ -116,6 +116,41 @@ determine a supported boundary ideal; conversely, a supported
 boundary with extra generators does not exclude a moving supported
 CI until its attracting family is tested.
 
+## ADE primitive-triple contact as a bounded input
+
+The [surviving primitive-triple argument](../../arguments/carriers/sextic_ade_reduction.md#geometry-of-the-cubic-contact-incidence)
+gives a 27-dimensional sextic source on each of three orbits and
+joint \((h,\Theta)\) ranks 23 (principal) and 24 (algebraic).
+It **proves existence of proper decomposable cubic-contact pencils**
+for every surviving triple: choose a nonzero member of the joint kernel
+and a coprime second sextic with nonzero first-normal symbol.
+This is not yet a length-nine supported intersection or a supported
+Hilbert family.
+
+The next bounded test is to impose the higher normal-contact equations
+through order eight on these proper pencils, check generic transverse
+length nine and the terminal Chow condition \([Y]=9[C]\), and, for a
+prescribed torus degeneration, verify both full limits on the **same**
+family. Properness is already established at cubic order; it need not
+be rediscovered. The exact-arithmetic wedge computation reports
+\(\operatorname{rank}\Omega_3=23\) and nullity 328 for both orbit types;
+its implementation has not been independently audited, so do not use
+that rank as an independent geometric incidence certificate.
+A zero or nonzero higher-contact incidence result must be stated for
+the declared family; no coverage of all sextic pencils follows
+automatically.
+
+The eleven-character second-order sextic symbol deficit is now **verified**:
+its canonical obstruction space is \(H^1(\mathbf P^3,I_C^3(6))\), with
+unshifted weights \(7,\ldots,17\), and its unique-quadric filtration
+has \(8+3\) cohomological character contributions. See the
+[weight-by-weight argument](../../arguments/equations/global_equation_jets.md#verified-characters-and-the-quadric-flag-cohomology).
+The remaining comparison question concerns the **maps and filtrations**
+connecting this cohomology to the order-five Čech differential, not the
+existence of a cohomological interpretation. This cohomological calculation does not establish higher contact or
+sole support; proper decomposable cubic contact is settled separately
+by the ADE incidence argument.
+
 ## First-cancellation obstruction
 
 For a proposed supported characteristic-zero sextic pair, the

@@ -16,6 +16,26 @@ These global realization tests neither compute the punctual filtered equation-mo
 The actual degree-d normal-jet source is the image of global sections of I(d) in sections of the finite normal neighborhood. Rational coefficients and independently chosen symbols need not arise from the same global homogeneous form. The one-step note develops further fixed-degree source tests, but does not exclude an entire surviving degree-at-least-five family.
 
 
+### Two precise sextic questions
+
+1. The eleven missing quadratic sextic symbols are already identified
+   canonically and equivariantly with \(H^1(\mathbf P^3,I_C^3(6))\);
+   the unique-quadric filtration explains their \(8+3\) character
+   contributions. The remaining comparison question is to identify
+   explicitly how this quadric filtration and its connecting maps relate
+   to the target filtration of the order-five Čech differential.
+   See [the cohomological proof](../../arguments/equations/global_equation_jets.md#verified-characters-and-the-quadric-flag-cohomology).
+2. For each surviving ADE primitive triple, proper decomposable
+   cubic-contact sextic pencils **exist**. Which of these pencils
+   satisfy higher normal-jet compatibility through order eight,
+   generic transverse length nine, and sole support? The computed
+   \(23/24\) joint ranks and rank-23 exterior-square obstruction
+   describe linear maps, not these remaining geometric conditions.
+   See [the incidence proof](../../arguments/carriers/sextic_ade_reduction.md#geometry-of-the-cubic-contact-incidence).
+
+These are bounded interfaces to existing Arguments, not new
+Investigations until a specific test and stopping condition are fixed.
+
 ## Open interfaces
 
 - [Punctual relative defect under sole support](open_normal_geometry.md#punctual-relative-defect-under-sole-support).
