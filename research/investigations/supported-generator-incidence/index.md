@@ -305,3 +305,58 @@ transverse quotient and global equation module, then test the
 two-generator incidence on the common opposite-limit locus.
 Residual-support examples are controls, not members of \(H_N\).
 No exclusion or nonemptiness claim follows from this refinement.
+
+
+## Translate incidence and the weight-slice reduction
+
+A separate historical formulation studies translates \(C_\beta\) of
+\(C\) under the ambient diagonal torus modulo the stabilizer \(T_C\).
+On the dense torus the quotient has coordinates
+\(U=x_0^2x_2/x_1^3\) and \(V=x_0^3x_3/x_1^4\).
+If \(F=\sum_\lambda F_\lambda\) is the decomposition into
+\(T_C\)-weight components, restriction to
+\(C_\beta=[s^4:\beta_1s^3t:\beta_2st^3:\beta_3t^4]\)
+gives
+\[
+ F|_{C_\beta}=\sum_\lambda
+ \beta_1^\lambda\varphi^F_\lambda(U,V)
+ s^{4\deg F-\lambda}t^\lambda.
+\]
+Hence \(C_\beta\subset V(F)\) exactly when **all** the
+weight-slice coefficients \(\varphi^F_\lambda(U,V)\) vanish.
+For a pair \((F,G)\), the translate locus is the simultaneous
+zero locus of every weight slice of both equations; it lies in
+the translate loci of both extreme-weight pairs. For a proper
+intersection of degrees \((a,b)\), it is finite, with at most
+\(ab/4\) distinct translates, counted without multiplicity.
+
+A proper extreme-weight pair has the same complete-intersection
+cycle as the full torus limit, provided the original cycle is a
+sum of \(T_C\)-invariant translates. An **improper** extreme pair
+requires the full weight-initial ideal and its cancellation
+generators. The clean-cancellation theorem in
+\`../../arguments/torus_hilbert_boundary.md\` applies only with
+its stated coprimality hypotheses. No unconditional splitting
+or terminating Euclidean algorithm is known.
+
+For weight-homogeneous binomials with independent quotient
+characters \(e,e'\in\mathbf Z^2\), the translate incidence on
+the dense torus is the finite diagonalizable kernel of
+\((\chi_e,\chi_{e'})\); its scheme length is
+\(|\det(e,e')|\). It is reduced in characteristics not
+dividing that determinant and can be nonreduced otherwise.
+This explains the distinction between distinct translated
+components in characteristic zero and infinitesimal
+multiplicity in the positive-characteristic binomial controls,
+but **does not** classify boundary components.
+
+The historical translate-incidence note also proposed a
+conditional first-step residual splitting, depending on a
+provisional weight-homogeneous exclusion. Its safe reusable
+content is the already established clean-cancellation case;
+neither the proposed universal generator-choice termination
+nor the dependent global exclusion is promoted here.
+The remaining geometric task is to classify translate
+incidence and the full ideal limits *together*, including
+the endpoint rank jumps, without substituting cycle
+constancy for a two-generator certificate.
