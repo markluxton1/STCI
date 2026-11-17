@@ -501,6 +501,98 @@ flat limits **within this supported family**, not for arbitrary
 points of the top Chow fiber. This is the distinction between
 the supported graph closure and the larger top-cycle fiber.
 
+## Reconciled Chow filtration and finite sextic weight partition
+
+The following fixed-degree statements refine the equation–Hilbert–Chow
+incidence above. They concern **actual proper pairs**, not arbitrary
+points of the Hilbert boundary. They recover the mathematical content
+of the November 1 torus-homogeneous-descent branch without retaining its
+obsolete synthesis files.
+
+Let (C\subset\mathbf P^3) be integral of degree `\delta`,
+(D=ab), (G=\operatorname{Gr}(2,4)), and
+(E_n=H^0(G,\mathcal O_G(n))). Write (Q=\operatorname{Ch}_C\in
+E_\delta). On the open locus (U) of coprime ordered containing
+pairs, the universal-line resultant gives a morphism
+(\chi:U\to\mathbf P(E_D)). For (r\delta\le D), the locus
+of pairs with generic multiplicity at least (r) along (C) is
+exactly
+\[
+ U_{\ge r}=\chi^{-1}\bigl(\mathbf P(Q^rE_{D-r\delta})\bigr).
+\]
+Indeed multiplication by (Q^r) is injective because (G) is
+integral; factorization of the resultant into irreducible Chow
+divisors identifies divisibility by (Q^r) with the generic cycle
+multiplicity. Thus (U_{\ge r}) is closed **relative to (U)**,
+multiplicity is upper semicontinuous there, and residual degree
+(D-\delta m_C) is lower semicontinuous. The exact multiplicity
+strata are locally closed. This does not assert semicontinuity
+across the common-factor boundary.
+
+In bases of (E_D/(Q^rE_{D-r\delta})), these conditions are finitely
+many polynomial resultant-coefficient equations. If (B) denotes
+the ideal of all resultant coefficients and (L_r) the ideal of
+the quotient coefficients on the projective presentation space,
+the closure of the proper-pair incidence is described
+scheme-theoretically by (L_r:B^\infty), with the usual homogeneous
+sheaf interpretation. Using (V(L_r)) without removing the improper
+boundary introduces spurious components.
+
+When (\delta\mid D), put (M=D/\delta). Choose a linear functional
+(L:E_D\to k) with (L(Q^M)\ne0). The section
+(s=L(R_{F,G})\) of the ample bundle
+(\mathcal O(b,a)) on
+(X=\mathbf P(I_C(a))\times\mathbf P(I_C(b)))
+has affine nonvanishing locus (X_s). Every supported proper
+pair lies in this **single** chart, and its locus is the closed
+fiber (\chi^{-1}([Q^M])\cap X_s), hence affine.
+For equal degrees the covariance
+(R_{A(F,G)}=\det(A)^dR_{F,G}) gives the analogous
+statement on (\operatorname{Gr}(2,I_C(d))), with ample
+Plücker power (\mathcal O(d)). This is not an affineness
+claim for the supported Hilbert locus or for an unequal-degree
+quotient lacking a specified polarization.
+
+For the fixed quartic and centered torus weights
+((-2,-1,1,2)), the sextic equation space (V_6=I_C(6))
+has dimension (59). Its nonzero **uncentered** weight-space
+dimensions, in order from weights (3) through (21), are
+\[
+(1,2,2,3,3,4,4,4,4,5,4,4,4,4,3,3,2,2,1).
+\]
+This follows by restricting sextic monomials to
+(C=[s^4:s^3t:st^3:t^4]): the weight-(j) restriction
+has one-dimensional image, so its kernel has dimension
+(n_j-1), where (n_j) is the number of degree-six
+monomials of weight (j). Hence
+(X_6=\operatorname{Gr}(2,V_6)) has dimension (114).
+The weights of nonzero Plücker coordinates range over
+every integer from (-17) to (17) in centered coordinates;
+a repeated summand is allowed only when its weight space
+has dimension at least two. These are 35 *ambient candidate*
+walls and 34 intervening chambers, not 35 proven walls
+for supported intersections. There are at most
+(35\cdot36/2=630) extremal-weight blocks.
+
+For a pencil (W), let (\ell(W)) and (u(W)) be the minimum
+and maximum weights of its nonzero Plücker components.
+With character convention that a weight (r) in
+(\mathcal O(q)) shifts to (qr-k), (\theta=k/q),
+the torus Hilbert–Mumford criterion gives
+\[
+W\text{ is }\theta\text{-semistable}
+\iff\ell(W)\le\theta\le u(W).
+\]
+The strict inequalities give stability. In particular the
+existing centered Chow argument already forces
+(\ell(W)\le0\le u(W)) for a supported proper sextic
+pencil, strictly in characteristic zero using the eigenform
+obstruction. The full chamber sweep is therefore **not**
+a prerequisite for the supported-pair search. The numerical
+partition is useful only for targeted residual or graph
+boundary comparisons; it does not classify supported
+Hilbert limits or their generator incidence.
+
 ## Invariant residual supports and absorption limits
 
 For the intrinsic diagonal torus with distinct weights
