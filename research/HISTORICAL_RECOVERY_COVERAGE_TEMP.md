@@ -390,3 +390,38 @@ The Hilbert–Burch **three-minor construction** and
 degreewise rank-drop formula may still be valid under their
 appropriate codimension hypotheses. This defect does not invalidate
 those narrower statements.
+
+
+## Certificate scope check — last two mathematical sources
+
+Read the historical verifier structures on
+\`recovery/gemini-audit-worktree\`.
+\`verify_sextic_triple_toric_vgit.py\` (26,061 characters)
+contains exact symbolic functions for weight decompositions,
+contact towers, nonproper quintic hull, and torus-fixed pencils.
+Its \`main()\` invokes all of those checks, but the script
+was **not executed in this audit**; neither its complete
+153-weight-pair coverage nor the order-six colength-six
+classification has been independently validated here.
+The historical source is therefore **partially integrated**,
+with the geometric kernel argument preserved and the
+computational classification still open.
+
+\`verify_vgit_surface_pairs.py\` (13,480 characters)
+contains representation, residual-control, and blowup
+examples. Its Hilbert–Burch verification explicitly checks
+two chosen \(e=4,5\) examples only in degrees \(6\) through
+\(13\); that finite check cannot establish the universal
+blowup theorem, its modular intersection identity, or an
+exhaustive secondary-indeterminacy classification.
+The latter has the concrete missing-height-three defect
+recorded above. The historical VGIT source is therefore
+**partially integrated**, with the rank-drop and prime
+dichotomy preserved and the stronger blowup assertion
+unpromoted.
+
+Both historical verifiers are absent from \`main\`;
+their original branch and exact paths are retained in
+this tracker to avoid silently losing the only reported
+reproducibility artifacts. This is not an instruction
+to reintroduce all historical scripts indiscriminately.
