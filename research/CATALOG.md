@@ -81,7 +81,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0070](results/intrinsic_limits_endpoint_fibers.md) | Endpoint fibers and embedded points in the intrinsic torus limits | relative-image: accepted | [scope](results/intrinsic_limits_endpoint_fibers.md#scope) |
 | [STCI-R-0071](results/quartic_ancestor_direction_reduction.md) | Direction reduction for the fixed quartic common-ancestor incidence | finite moments and actual multiplication: accepted | [scope](results/quartic_ancestor_direction_reduction.md#scope) |
 | [STCI-R-0072](results/torus_quotient_movement_bounds.md) | Lower bounds on transverse movement from the actual defining equations | multiplier rank and the splitting of the moving quotient: accepted | [scope](results/torus_quotient_movement_bounds.md#scope) |
-| [STCI-R-0073](results/endpoint_equation_torsion.md) | Endpoint detection of equation torsion and a residual degree bound | endpoint localization and the first equation layer: pending | [scope](results/endpoint_equation_torsion.md#scope) |
+| [STCI-R-0073](results/endpoint_equation_torsion.md) | Endpoint detection of equation torsion and a residual degree bound | endpoint localization and the first equation layer: accepted | [scope](results/endpoint_equation_torsion.md#scope) |
 
 ## Arguments
 
@@ -186,7 +186,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0070: relative-image; joint premises [STCI-R-0051, STCI-R-0052]; proof `research/arguments/torus_hilbert_boundary.md#endpoint-fibers-in-the-two-intrinsic-limits`; review accepted, reconstructed at `#statement`.
 - STCI-R-0071: finite moments and actual multiplication; joint premises [STCI-R-0020]; proof `#proof`; review accepted, reconstructed at `#statement`.
 - STCI-R-0072: multiplier rank and the splitting of the moving quotient; joint premises [STCI-R-0020, STCI-R-0042]; proof `#proof`; review accepted, reconstructed at `#review`.
-- STCI-R-0073: endpoint localization and the first equation layer; joint premises []; proof `#proof`; review pending at `#review-and-scope-of-the-comparison`.
+- STCI-R-0073: endpoint localization and the first equation layer; joint premises []; proof `#proof`; review accepted, reconstructed at `#review-and-scope-of-the-comparison`.
 
 ## Research relationships (grouped)
 
