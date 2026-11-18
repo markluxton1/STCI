@@ -9,7 +9,8 @@ proofs:
     at: "#proof"
     using: []
     review:
-      state: pending
+      state: accepted
+      basis: reconstructed
       at: "#review-and-scope-of-the-comparison"
 ---
 # Endpoint detection of equation torsion and a residual degree bound
@@ -376,11 +377,10 @@ least \(rs\) although it does not contain \(L\). The script checks
 
 ## Review and scope of the comparison
 
-The proof route is pending review of this revision. The repository owner's
-review requested the local torsion and specialization arguments, a check
-of the sextic witnesses, and a qualification of the earlier acceptance.
-The reviewer explicitly left the Macaulay2 replay outside the scope of
-that review. [Owner's mathematical review](https://github.com/markluxton1/STCI/pull/151#pullrequestreview-5959552820).
+The revised written proof received a favorable mathematical and editorial
+re-review, including the local torsion lemma, DVR specialization, and sextic
+local calculations. The reviewer did not independently execute the Macaulay2
+or Smith scripts. [Initial review](https://github.com/markluxton1/STCI/pull/151#pullrequestreview-5959552820) · [Follow-up review](https://github.com/markluxton1/STCI/pull/151#pullrequestreview-5960083577).
 
 The proof derives the endpoint kernels, the line-length identity and
 the residual inequality from the cited classical algebra and cycle
