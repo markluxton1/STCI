@@ -106,6 +106,7 @@ and [global equation realization](../global-equation-realization/index.md).
 
 ## Bridges
 
+- For a proper characteristic-zero pair through the fixed quartic, compute the generic transverse quotient of its component on the quartic in the fixed torus frame. If the linear map from its kernel to its quotient along the base tangent has rank below \(\lceil(4b-7)/7\rceil\), where \(b\) is the larger degree, the projective intersection has a residual curve. This detects residual support without classifying its components. [Generic movement test](../../results/torus_quotient_movement_bounds.md#statement).
 - To iterate absorption, preserve the mark, lift the complete embedded
   ideal through the actual source spaces, and prove that the next proper
   pair transfers further cycle degree. The specified

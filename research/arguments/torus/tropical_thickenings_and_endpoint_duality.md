@@ -449,16 +449,29 @@ Choose \(N\) from the constant indices of the fibers \(B_0=E/(V)\) and \(B_\inft
  D_0=3\binom m2,\qquad D_\infty=D_\infty(B_\infty),\qquad
  N=D_0+D_\infty-m(8k-7).
 \]
-Here \(D_0\) is the index of the powers of \(r^3U\) in the constant algebra. The two fibers and their indices are independent of \(N\). Already \(D_0-m(8k-7)-4(m-1)=m(3k^2/2-8k+3/2)+4>0\). In particular \(N\ge4(m-1)\).
+At zero the powers of \(r^3U\) give \(D_0\). At infinity the filtration by monomials in \(X=\alpha-1,Y=\beta-1\) of weight at most \(n\) is also spanned by \((1+X)^i(1+Y)^j\) for \(w=3i+4j\le n\), by binomial expansion in both directions. On \(B_\infty\) these elements are
+\[
+ (1+U)^{-w}+(2i+3j)V .
+\]
+The first \(m-1\) distinct weights in \(\langle3,4\rangle\) give independent jets modulo \((V,U^{m-1})\): their degree-\(d\) coefficients \(\binom{-w}{d}\) form a Vandermonde matrix after a triangular basis change in characteristic zero. The first repeated weight, \(12=3\cdot4=4\cdot3\), gives coefficients \(8\) and \(9\) of \(V\), adding the sole remaining direction. Thus the index is the sum of those \(m-1\) weights plus twelve. The semigroup omits just \(1,2,5\), so
+\[
+ D_\infty=\frac{(m+1)(m+2)}2+4,\qquad N=2m^2+5-m(8k-7).
+\]
+Already \(D_0-m(8k-7)-4(m-1)=m(3k^2/2-8k+3/2)+4>0\). In particular \(N\ge4(m-1)\).
 
 At zero the family has relation \(V=r^N U^{m-1}\). At infinity the relation is \(U^{m-1}=\tau^N V=z^N V\), since \(z=\tau u/v\) and \((v/u-1)V=0\). Modulo the \(N\)-th power of the appropriate projective parameter, each named algebra therefore agrees with the constant algebra of its fiber. This agreement includes the transverse coordinates \(\alpha-1,\beta-1\) at infinity, since both are Laurent polynomials in the same units. In each chart write \(z_*\) for its parameter and \(X,Y\) for its transverse coordinates. Monomials in \(X,Y\) of total degree less than \(m\) span the upstairs algebra over the local DVR by Nakayama. The projective image algebra contains \(z_*^{4(m-1)}\) times that algebra, by weighting the generators \(z_*^3X,z_*^4Y\). The same holds for the constant family, so reduction modulo \(z_*^N\) computes both cokernels and gives \(\delta_0=D_0,\ \delta_\infty=D_\infty\).
 
-Under parametrization (1), the finite projective image \(Z\) is pure: on the endpoint charts its algebra embeds in the torsion-free upstairs algebra over the projective parameter, and on the torus the map is an isomorphism onto its image. Recovering the entire torus closure gives back \(W\) by flatness. The finite modification formula reads
+Parametrization (1) maps \(W\) finitely onto its projective image \(Z\), since the map is proper and induces an isomorphism on reduced supports. On the endpoint charts the image algebra embeds in the torsion-free upstairs algebra over the projective parameter. On the torus the map is an isomorphism onto its image. Together these facts prove purity, and flatness recovers \(W\) as the entire torus closure. The finite modification formula reads
 \[
  P_Z(n)=4mn+m+N-D_0-D_\infty
        =4mn+\frac{ab(4-a-b)}2 .
 \]
-Despite this polynomial and the unbounded \(e=N\), one positive summand violates (1) of [R-0072](../../results/torus_quotient_movement_bounds.md#statement). This control also admits a direct equation check: \(V^2=0\) supplies the nonzero homogeneous equation \((x_0^3x_3-x_1^4)^2\) of degree eight, below the least equation degree \(2k\) of the target CI. Its role is to distinguish the splitting obstruction from the numerical Hilbert and total movement tests. Independent reconstruction checked the quotient line, the change of parameter at infinity, preservation of the full image indices by truncation, purity, and the polynomial for all \(k\ge6\).
+The saturated ideal is given degree by degree by the kernel of the actual restriction
+\[
+ H\longmapsto H\big(1,r,r^3(1+U),r^4(1+r^NU^{m-1})\big)
+ \quad\text{in }k_0[r^{\pm1},U]/U^m.
+\]
+Indeed the torus open is schematically dense in the pure image. One positive summand violates (1) of [R-0072](../../results/torus_quotient_movement_bounds.md#statement) even with this polynomial and unbounded \(e=N\). The restriction also gives a direct equation check. The relation \(V^2=0\) supplies the nonzero homogeneous equation \((x_0^3x_3-x_1^4)^2\) of degree eight, below the least equation degree \(2k\) of the target CI. The example distinguishes the splitting obstruction from the numerical Hilbert and total movement tests. Independent reconstruction checked the quotient line, the change of parameter at infinity, preservation of the full image indices by truncation, purity, and the polynomial for all \(k\ge6\).
 
 ## Characteristic scope of the finite-modification mechanism
 

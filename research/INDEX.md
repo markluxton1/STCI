@@ -35,6 +35,10 @@ without `--compact` expands the starting sections.
 | `incidence` | [Generator incidence scope](investigations/supported-generator-incidence/index.md#scope), [question](investigations/supported-generator-incidence/index.md#question) and [method](investigations/supported-generator-incidence/index.md#method), [quotient-to-Hilbert scope](investigations/quotient-hilbert-comparison/index.md#scope) and [question](investigations/quotient-hilbert-comparison/index.md#question) | [Closed incidence and both full limits](arguments/torus_hilbert_boundary.md#closed-incidence-and-both-full-limits), [directional loci](frameworks/torus-supported-boundaries/index.md#directional-loci), [proof of the moving-ideal generator test](arguments/torus_hilbert_boundary.md#the-moving-ideal-generator-test), [quotient comparison inputs](investigations/quotient-hilbert-comparison/index.md#inputs) and [findings](investigations/quotient-hilbert-comparison/index.md#findings), [framework connections](MAP.md#questions-and-active-work) |
 | `realization` | [Simultaneous realization](frameworks/formal-normal-geometry/index.md#simultaneous-realization-and-compatibility-problems), [embedded ribbon-to-triple statement](arguments/normal-geometry/formal-normal-intersection.md#the-canonical-embedded-extension) | [Canonical extension proof](arguments/normal-geometry/formal-normal-intersection.md#independent-proof), [one-step boundary and Gorenstein repair](arguments/one_step_boundary_repair.md#one-step-boundary-repair-and-the-final-gorenstein-obstruction), [actual global sources](arguments/equations/global_equation_jets.md#exact-homogeneous-equation-spaces-and-fixed-quadric-restrictions) |
 
+For a proposed moving family in any characteristic-zero bidegree, compare
+its splitting and generic first-order motion with the [bounds imposed by
+two homogeneous equations](results/torus_quotient_movement_bounds.md).
+
 For local equation comparison and specialization use [conormal and actual
 quartic symbols](arguments/quartic_specialization_and_symbols.md), the
 [filtered equation defect](results/local_filtration_comparison_defect.md),

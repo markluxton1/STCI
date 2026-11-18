@@ -7,7 +7,7 @@ statement: "#statement"
 proofs:
   - name: multiplier rank and the splitting of the moving quotient
     at: "#proof"
-    using: [STCI-R-0020, STCI-R-0032, STCI-R-0042]
+    using: [STCI-R-0020, STCI-R-0042]
     review:
       state: accepted
       basis: reconstructed
@@ -66,9 +66,9 @@ Put \(d_{0\infty}=m-\dim_k A/(K_0+K_\infty)\) in the same global frame. The cons
  D_0(B_0)+D_\infty(B_\infty)-t_0-t_\infty-m(2a+2b-7)
  =e\ \ge\ \max\{d_{0\infty},L_1\}+\sum_{j=2}^q L_j.              \tag{3}
 \]
-The two special fibers can coincide even when general fibers differ. Formula (3) uses their actual common quotient. The secant upper bound on common length applies to a general pair of fibers.
+Formula (3) uses the actual common quotient at the two special fibers. The generic rank argument gives no lower bound on their distance because rank can drop under specialization.
 
-## Scope of the obstruction
+## Limitations
 
 An actual proper containing pair whose generic transverse quotient moves in fewer than \(L_1\) first-order directions must have a residual projective curve. A proposed punctual family with too few summands at any level in (1) cannot be the entire modification of a defining pair, regardless of its total degree of movement. The [control with the CI polynomial](../arguments/torus/tropical_thickenings_and_endpoint_duality.md#one-moving-summand-with-the-complete-intersection-polynomial) exhibits this distinction in unbounded degree.
 

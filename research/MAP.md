@@ -26,6 +26,14 @@ open implications relevant to its approach.
 | [Arithmetic supported lifts](frameworks/arithmetic-supported-lifts/index.md) | Positive-characteristic equations, normal specialization and obstruction to prescribed lifts. Endpoint root defects have no proved identification with spectral Picard torsion or carrier Weil classes. |
 | [Local cohomology](frameworks/local-cohomology/index.md) | Simultaneous ancestors in actual homogeneous multiplication spaces. The quartic two-target reduction gives a bounded problem; higher multiplier degrees belong to the full-module question. |
 
+For every characteristic-zero bidegree, an actual sole-support pair forces
+lower bounds on the splitting of its moving transverse quotient and on the
+number of directions that move to first order. These bounds use the smaller
+equation and its weight components. They give a residual test for a proper
+pair and a way to reject proposed moving families even when they have the
+CI Hilbert polynomial and large Plücker degree.
+[Equation and movement bounds](results/torus_quotient_movement_bounds.md).
+
 The current sextic interfaces are (i) higher contact for proper pencils
 through the surviving ADE primitive triples with independent restrictions
 to the containing quadric, and (ii) comparison of the established canonical

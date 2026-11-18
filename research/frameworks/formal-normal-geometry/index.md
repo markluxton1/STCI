@@ -21,6 +21,15 @@ Let \(F,G\) define distinct integral surfaces containing \(C\), and set \(Z=V(F,
 
 ## Simultaneous realization and compatibility problems
 
+For any homogeneous form nonzero on a characteristic-zero CI supported on
+the fixed quartic, its degree gives a lower bound on the generic length of
+its multiplication image. The proof maps the last conormal layer of the
+colon curve into the socle of the original CI. Applied to a differentiated
+defining equation, this tests how many directions of the entire embedded
+quotient move at first order. The bound concerns this intrinsic torus family
+and uses no smooth-root or saturated first-relation hypothesis.
+[Multiplier rank and its application](../../results/torus_quotient_movement_bounds.md#proof).
+
 The problem is simultaneous realization of a generic local ideal, its embeddings in two carriers, and the ambient intersection.
 
 At the generic point of C, choose a finite-colength ideal \(J_\eta\subset K[[X,Y]]\), where \(K=k(C)\), representing a candidate generic thickening \(T_\eta=\operatorname{Spec}(K[[X,Y]]/J_\eta)\). For the actual intersection, \(J_\eta=(F,G)K[[X,Y]]\) when this quotient has finite length. More generally, ask whether a candidate \(J_\eta\) can arise from a coherent ideal sheaf \(\mathcal J\subset\mathcal O_{\mathbf P^3}\) with \(\mathcal J\subset I_C\), whose generic completion is \(J_\eta\). Such a global realization can have extra components or special-point structure; no purity or STCI hypothesis is implicit.

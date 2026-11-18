@@ -7,7 +7,7 @@ scope: "#scope"
 bridges: "#bridges"
 relations:
   - kind: uses
-    from: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056]
+    from: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056, STCI-R-0072]
     to: [STCI-F-0002]
     at: "#available-results"
   - kind: limits
@@ -46,6 +46,14 @@ approach excludes studying the other's degenerations. Contact, polarization,
 and conductor constraints meet in [contact and global descent](contact_and_global_descent.md#the-approaches-and-their-exact-reach).
 
 ## Available results
+
+[R-0072](../../results/torus_quotient_movement_bounds.md) bounds the
+splitting degrees and the generic secant and tangent ranks of the entire
+moving quotient of a characteristic-zero defining pair. Its endpoint
+inequality compares the two kernels in the same transverse coordinates.
+The [one-summand control](../../arguments/torus/tropical_thickenings_and_endpoint_duality.md#one-moving-summand-with-the-complete-intersection-polynomial)
+has the CI Hilbert polynomial in arbitrarily high degree and fails the
+splitting bound.
 
 [R-0051](../../results/constant_embedded_orbit_image.md) constructs the finite
 image and its pure Cohen–Macaulay structure.

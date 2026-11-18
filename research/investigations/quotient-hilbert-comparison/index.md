@@ -12,7 +12,7 @@ relations:
     to: [STCI-I-0002]
     at: "#purpose"
   - kind: uses
-    from: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070]
+    from: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072]
     to: [STCI-I-0002]
     at: "#inputs"
 ---
@@ -47,6 +47,10 @@ missing mathematical bridge between those objects. It does not identify them
 because they share a defect length or resemble one another geometrically.
 
 ## Inputs
+
+For characteristic-zero candidates, [R-0072](../../results/torus_quotient_movement_bounds.md)
+supplies the rank and splitting bounds on the entire moving quotient used
+in the [findings](#findings).
 
 [R-0037](../../results/supported_hilbert_full_limits.md) preserves the whole
 supported Hilbert object; [R-0039](../../results/moving_ideal_generator_criterion.md)
@@ -123,6 +127,16 @@ remains an actual specialization statement or a concrete
 compatibility obstruction for one declared family.
 
 ## Findings
+
+The [actual-equation movement theorem](../../results/torus_quotient_movement_bounds.md)
+gives necessary compatibility bounds on the ranks and splitting degrees of
+the moving quotient. Its [paired inequality](../../results/torus_quotient_movement_bounds.md#consequence-for-opposite-full-limits)
+uses the common embedded quotient of the two endpoint fibers and the
+matched embedded lengths. At a general point the first-order motion also
+has a rank floor determined by the larger equation degree. These conclusions
+need neither an endpoint classification nor a specified type of transverse
+algebra. The missing step for a family passing the bounds is the comparison
+with its full projective equation module and two-generator incidence.
 
 [R-0070](../../results/intrinsic_limits_endpoint_fibers.md) now compares each
 full intrinsic limit with the constant image of the corresponding embedded
