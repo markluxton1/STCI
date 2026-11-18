@@ -7,7 +7,7 @@ scope: "#scope"
 bridges: "#bridges"
 relations:
   - kind: uses
-    from: [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072]
+    from: [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072, STCI-R-0073]
     to: [STCI-F-0001]
     at: "#available-results"
   - kind: limits
@@ -34,6 +34,14 @@ The boundary results constrain actual supported intersections but do not
 resolve unrestricted STCI. Their strategic bottleneck is **coverage of actual moving pairs**: a restriction on a selected full limit or attracting family is not an obstruction for arbitrary pairs unless a coverage theorem connects them. Additional boundary classifications should identify a new realization, generator, or coverage consequence.
 
 ## Available results
+
+[R-0073](../../results/endpoint_equation_torsion.md) gives the kernel of
+restriction to the two completed endpoints for every layer of the raw
+equation torsion, in either torus direction. Unmixedness makes the
+unfiltered restriction injective in each degree. For the first layer,
+the residual intersection of the two extreme forms after division by
+their gcd determines the line multiplicity that a supported limit must
+account for.
 
 For an actual characteristic-zero defining pair, the [paired endpoint
 inequality](../../results/torus_quotient_movement_bounds.md#consequence-for-opposite-full-limits)
@@ -313,3 +321,8 @@ full-ideal computation expensive. It must not be conflated
 with the intrinsic normal filtration along \(C\), nor with
 the transverse endpoint image filtration.
 
+In the positive degeneration of the first pencil, two degree-12 classes
+vanish on their layer at both geometric endpoints of the same family.
+They persist at the generic point of the disjoint coordinate line even
+though parameter saturation removes the family there.
+[Explicit first-layer classes](../../results/endpoint_equation_torsion.md#a-relation-missed-at-both-endpoints).

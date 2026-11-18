@@ -12,7 +12,7 @@ relations:
     to: [STCI-I-0002]
     at: "#purpose"
   - kind: uses
-    from: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072]
+    from: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073]
     to: [STCI-I-0002]
     at: "#inputs"
 ---
@@ -47,6 +47,11 @@ missing mathematical bridge between those objects. It does not identify them
 because they share a defect length or resemble one another geometrically.
 
 ## Inputs
+
+[R-0073](../../results/endpoint_equation_torsion.md) compares the raw
+equation presentation with its two completed endpoint presentations in
+each single degeneration. Its first-layer bound applies to proper pairs
+with residual curves as well as to a hypothetical defining pair.
 
 For characteristic-zero candidates, [R-0072](../../results/torus_quotient_movement_bounds.md)
 supplies the rank and splitting bounds on the entire moving quotient used
@@ -196,30 +201,26 @@ equation-module comparison is still needed.
 
 ## Relation-persistence control and remaining bridge
 
-Use the two proper residual sextic pencils \(W_\tau\), \(\tau=0,1\), over
-\(\mathbf Q\) and the positive degeneration in the
-[degree-12 Smith calculation](../../arguments/torus_hilbert_boundary.md#degree-12-relation-persistence-for-the-residual-sextic-pencil).
-The pencils share their negative full torus limit. Their degree-12 multiplication
-presentations on \(S/(g)\) have different parameter torsion even though the
-two moving intersections both have polynomial \(36n-144\).
+The degree-12 decision for the positive degeneration of the rational
+residual pencils is settled by \(W_0\). Its first layer contains two
+independent classes whose images vanish even at both endpoints together.
+They are the degree-12 part of a graded submodule whose sheaf is \(\mathcal O_{L_{12}}(-11)\) on the line disjoint
+from the marked quartic. The [identities and localization proof](../../results/endpoint_equation_torsion.md#a-relation-missed-at-both-endpoints)
+give the witnesses for the specified map before parameter saturation.
 
-**Bounded decision.** Do the degree-12 torsion classes of these two
-presentations remain detectable, with their filtration by the effective
-parameter \(v\), in the family at \(p_\infty=[0:0:0:1]\)?
-In the notation of the calculation, let
-\(T_\tau=(\operatorname{coker}\mu_\tau)[v^\infty]\).
-Dehomogenize at \(x_3=1\) and complete at \((v,x_0,x_1,x_2)\).
-With \(I_\tau=(g,a_\tau+v q^3)\) in this local ring, the target torsion
-module is \(T_\tau^{\rm loc}=(I_\tau:v^\infty)/I_\tau\).
-Restriction of representatives gives a map \(T_\tau\to T_\tau^{\rm loc}\)
-commuting with \(v\). Test injectivity on the two layers
-\(v^{j-1}T_\tau/v^jT_\tau\to
-v^{j-1}T_\tau^{\rm loc}/v^jT_\tau^{\rm loc}\), \(j=1,2\).
-The known Smith profiles exhaust the **source** in these two layers.
-Stop with a proof of injectivity on both layers for both pencils, or a
-nonzero source class whose restriction dies on its layer. Either outcome
-decides what this endpoint detects about this fixed presentation. The
-completed family is taken before parameter saturation, with all components
-through the endpoint retained. Applying the comparison to a sole-supported
-family would require its own embedded
-quotient, endpoint maps and actual moving equations.
+In every bidegree, both completed endpoints detect unfiltered parameter
+torsion degree by degree. The common kernel on a layer consists exactly
+of the classes killed by powers of \((x_0,x_3)\). The [residual degree
+bound](../../results/endpoint_equation_torsion.md#statement) describes
+the cost of first-layer detection when the stripped extreme forms both
+contain that line. The Smith exponents counted source classes. The explicit witnesses
+exhibit classes that become locally divisible by the parameter.
+
+The broader realization question remains active. For a proposed supported
+family whose stripped extreme forms meet with multiplicity \(e_L>0\) on
+the line, its global first equation layer must supply precisely that
+generic length in the joint kernel. An independent upper bound below
+\(e_L\) on the same presentation would force a residual curve. A family
+passing this comparison still needs its full moving ideal and two
+homogeneous generators. The local comparison alone gives neither an
+upper bound on that kernel for all pairs nor a supported family to test.

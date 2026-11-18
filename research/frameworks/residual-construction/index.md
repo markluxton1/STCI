@@ -79,6 +79,18 @@ strata.
 
 ## Invariant residual chains and absorption
 
+For an actual proper pair in any bidegree, remove the gcd \(H\) of its
+extreme forms in one intrinsic torus direction. Let \(e_L\) be the
+multiplicity of the disjoint line \(L_{12}\) in the intersection of the
+remaining two forms, and let \(\kappa_L\) be the generic length there of
+the first equation layer missed by both endpoints. Then
+\(\deg R\ge e_L-\kappa_L\). If \(H\) is generically a unit on the line,
+the extreme forms alone force residual degree at least \(e_L\). If the
+full limit has sole support, all of \(e_L\) must instead occur in that
+kernel. This distinguishes line-supported relations in a presentation
+from a line actually present in the specialized cycle.
+[Endpoint and residual degree proof](../../results/endpoint_equation_torsion.md#proof).
+
 The [invariant orbit-curve analysis](../../arguments/torus_hilbert_boundary.md#invariant-residual-supports-and-absorption-limits)
 sharpens the attachment problem: every reduced irreducible curve
 invariant under the intrinsic torus and distinct from \(C_0\)
