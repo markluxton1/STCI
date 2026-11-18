@@ -132,8 +132,10 @@ The [actual-equation movement theorem](../../results/torus_quotient_movement_bou
 gives necessary compatibility bounds on the ranks and splitting degrees of
 the moving quotient. Its [paired inequality](../../results/torus_quotient_movement_bounds.md#consequence-for-opposite-full-limits)
 uses the common embedded quotient of the two endpoint fibers and the
-matched embedded lengths. At a general point the first-order motion also
-has a rank floor determined by the larger equation degree. These conclusions
+matched embedded lengths. At a general point \(x\), the larger equation degree \(b\) gives the lower bound \(\lceil(4b-7)/7\rceil\) on the rank of the
+linear map \(K_x\to B_x\) induced by a single base tangent vector. That rank
+can exceed the dimension of the classifying image, which is a curve.
+Specialization to the two endpoint fibers can lower the secant rank. These conclusions
 need neither an endpoint classification nor a specified type of transverse
 algebra. The missing step for a family passing the bounds is the comparison
 with its full projective equation module and two-generator incidence.
@@ -165,37 +167,59 @@ before specialization.
 
 ## Completion and next decisions
 
-A specified constant quotient has an exact prescribed-degree test in R-0053.
-Classifying embedded quotients with prescribed endpoint image algebras is
-a separate problem. For the positive-degree family, recovering two global
-homogeneous generators of its image is a further realization question.
-The [sextic residual configurations](../../arguments/torus_sextic_residuals.md)
-supply quotient calculations on residual curves and a full saturated limit
-as controls outside the sole-support locus.
+For a fully specified embedded moving family, the kernels of homogeneous
+restriction to the schematically dense torus recover the saturated ideal
+of its pure projective image. Over an infinite field, once that ideal
+\(J\) has the whole CI polynomial \(P_{a,b}\), it suffices to check
+\(J_a\ne0\) and that the degree-\(b\) forms have no common irreducible
+factor. The open question is what restrictions two global generators impose
+on a *family* beyond its splitting, generic secant and tangent ranks,
+Hilbert polynomial and endpoint image algebras.
+[Proper-pencil criterion](../../arguments/torus_hilbert_boundary.md#complete-intersection-polynomial-and-a-proper-pencil).
 
-The next comparison must retain the full opposite-endpoint algebra and
-the degree-wise equation module. The surviving high-contact and
-noncurvilinear endpoint fibers still require an actual source test and
-a compatibility proof for their occurrence in one moving family.
-Realizing or excluding all such families requires its own coverage
-argument. The comparison above leaves that constructive incidence open.
+### What the presentation theorems already give
+
+Given a regular sequence \(F,G\) in \(S=k[x_0,x_1,x_2,x_3]\), the ideal
+\(J=(F,G)\) is of linear type. Its symmetric and Rees algebras both have
+the presentation \(S[T_1,T_2]/(GT_1-FT_2)\) with \(T_1,T_2\) mapping to
+\(Ft,Gt\) in the Rees algebra. For a supplied generating sequence in a
+Noetherian ring, the cycle approximation complex has zeroth homology
+\(\operatorname{Sym}_S(J)\). Vanishing of the first homology of the
+homology approximation complex \(\mathcal M\) implies linear type. These
+statements take the generators and their relations as input. They do not
+recover two homogeneous generators of prescribed degrees from the moving
+quotient or its two endpoint images. This is where the projective
+equation-module comparison is still needed.
+[Micali, Chapter I, Theorem 1 and Lemma 2](https://www.numdam.org/item/10.5802/aif.173.pdf#page=10) ·
+[Busé–Jouanolou, §4.1](https://arxiv.org/pdf/math/0210096#page=25) and [Proposition 4.5](https://arxiv.org/pdf/math/0210096#page=28) ·
+[Existing graph-blowup application](../../arguments/equations/global_equations_and_constructions.md#the-complement-morphism-and-its-graph-blowup).
 
 ## Relation-persistence control and remaining bridge
 
-The [exact residual sextic comparison](../../arguments/torus_hilbert_boundary.md#degree-12-relation-persistence-for-the-residual-sextic-pencil)
-supplies a bounded control for equation-module specialization:
-two moving pencils share the coarse Plücker interval and one
-full torus endpoint but have different positive degree-12
-relation-persistence profiles. The DVR elementary divisors
-measure parameter-torsion in the multiplication presentation,
-not the embedded transverse quotient or its endpoint image
-lattice. Thus their differing determinantal contact orders
-do **not** yet give a compatibility obstruction for a
-sole-supported family.
+Use the two proper residual sextic pencils \(W_\tau\), \(\tau=0,1\), over
+\(\mathbf Q\) and the positive degeneration in the
+[degree-12 Smith calculation](../../arguments/torus_hilbert_boundary.md#degree-12-relation-persistence-for-the-residual-sextic-pencil).
+The pencils share their negative full torus limit. Their degree-12 multiplication
+presentations on \(S/(g)\) have different parameter torsion even though the
+two moving intersections both have polynomial \(36n-144\).
 
-A concrete next comparison would construct a map between the
-equation-module degeneration and the endpoint image module
-for **one specified moving family** and test whether it
-respects the two filtrations. No general comparison theorem
-or new sole-support exclusion follows from the control.
-
+**Bounded decision.** Do the degree-12 torsion classes of these two
+presentations remain detectable, with their filtration by the effective
+parameter \(v\), in the family at \(p_\infty=[0:0:0:1]\)?
+In the notation of the calculation, let
+\(T_\tau=(\operatorname{coker}\mu_\tau)[v^\infty]\).
+Dehomogenize at \(x_3=1\) and complete at \((v,x_0,x_1,x_2)\).
+With \(I_\tau=(g,a_\tau+v q^3)\) in this local ring, the target torsion
+module is \(T_\tau^{\rm loc}=(I_\tau:v^\infty)/I_\tau\).
+Restriction of representatives gives a map \(T_\tau\to T_\tau^{\rm loc}\)
+commuting with \(v\). Test injectivity on the two layers
+\(v^{j-1}T_\tau/v^jT_\tau\to
+v^{j-1}T_\tau^{\rm loc}/v^jT_\tau^{\rm loc}\), \(j=1,2\).
+The known Smith profiles exhaust the **source** in these two layers.
+Stop with a proof of injectivity on both layers for both pencils, or a
+nonzero source class whose restriction dies on its layer. Either outcome
+decides what this endpoint detects about this fixed presentation. The
+completed family is taken before parameter saturation, with all components
+through the endpoint retained. Applying the comparison to a sole-supported
+family would require its own embedded
+quotient, endpoint maps and actual moving equations.
