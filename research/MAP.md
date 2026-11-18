@@ -26,6 +26,18 @@ open implications relevant to its approach.
 | [Arithmetic supported lifts](frameworks/arithmetic-supported-lifts/index.md) | Positive-characteristic equations, normal specialization and obstruction to prescribed lifts. Endpoint root defects have no proved identification with spectral Picard torsion or carrier Weil classes. |
 | [Local cohomology](frameworks/local-cohomology/index.md) | Simultaneous ancestors in actual homogeneous multiplication spaces. The quartic two-target reduction gives a bounded problem; higher multiplier degrees belong to the full-module question. |
 
+For every characteristic-zero bidegree, the smaller defining equation and
+its weight components bound the splitting of the moving transverse quotient.
+At a general point, a single base tangent vector induces a map from the fiber
+kernel to the fiber algebra whose rank also has a lower bound. The unresolved
+global question is which such families arise as the entire torus modification
+of a saturated homogeneous ideal with two generators of the prescribed
+degrees. Splitting, generic ranks, the CI Hilbert polynomial, and both endpoint
+image algebras give tests for a candidate. The remaining compatibility concerns
+relations among its actual homogeneous equations throughout the family.
+[Movement bounds](results/torus_quotient_movement_bounds.md) ·
+[Bounded equation-module comparison](investigations/quotient-hilbert-comparison/index.md#completion-and-next-decisions).
+
 The current sextic interfaces are (i) higher contact for proper pencils
 through the surviving ADE primitive triples with independent restrictions
 to the containing quadric, and (ii) comparison of the established canonical

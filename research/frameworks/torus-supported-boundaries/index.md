@@ -7,7 +7,7 @@ scope: "#scope"
 bridges: "#bridges"
 relations:
   - kind: uses
-    from: [STCI-R-0037, STCI-R-0039, STCI-R-0040]
+    from: [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072]
     to: [STCI-F-0001]
     at: "#available-results"
   - kind: limits
@@ -34,6 +34,13 @@ The boundary results constrain actual supported intersections but do not
 resolve unrestricted STCI. Their strategic bottleneck is **coverage of actual moving pairs**: a restriction on a selected full limit or attracting family is not an obstruction for arbitrary pairs unless a coverage theorem connects them. Additional boundary classifications should identify a new realization, generator, or coverage consequence.
 
 ## Available results
+
+For an actual characteristic-zero defining pair, the [paired endpoint
+inequality](../../results/torus_quotient_movement_bounds.md#consequence-for-opposite-full-limits)
+constrains the two full intrinsic limits using both matched embedded
+lengths and the relative positions of the endpoint kernels. Its proof
+uses surviving weight components of the moving equations. Recovering the
+full opposite-endpoint algebras and moving generators remains open.
 
 [R-0037](../../results/supported_hilbert_full_limits.md) supplies both full torus
 limits in the same supported incidence, retaining the Hilbert polynomial and

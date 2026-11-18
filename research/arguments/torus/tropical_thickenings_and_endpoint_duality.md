@@ -181,6 +181,8 @@ The characteristic-seven example therefore has zero Jacobian trace while
 its reduced fourfold cover is tame. Invertible \(m\) instead gives the
 socle-generator mechanism of the [Jacobian chapter](contact_jacobians_and_hamiltonian_actions.md).
 
+For an actual characteristic-zero pair, the [multiplier and splitting theorem](../../results/torus_quotient_movement_bounds.md) strengthens strict movement in every bidegree. It bounds the number of positive summands of \(\mathcal B\), the degrees of those summands, and the generic rank of the infinitesimal motion using the homogeneous generators.
+
 ### Ambient Hilbert-scheme nef classes add no inequality here
 
 For this full finite-flat family, view the same classifying map as
@@ -433,6 +435,43 @@ curve in the omitted hyperplane. Projective CI connectedness forces the
 residual union to meet \(C\), necessarily at the omitted endpoint.
 This quantifies over presentations of these **fixed affine thick schemes**,
 not all affine set-theoretic presentations of reduced \(C\).
+
+## One moving summand with the complete-intersection polynomial
+
+There are pure thickenings in arbitrarily high degree that have the CI Hilbert polynomial and positive Plücker degree but fail the [splitting bound](../../results/torus_quotient_movement_bounds.md). Work in characteristic zero. For an integer \(k\ge6\) put \(a=b=2k\), \(m=k^2\), and let
+\[
+ E=k_0[U,V]/(U^m,UV,V^2)
+\]
+over the ground field \(k_0\). In the constant algebra of length \(m+1\), take the quotient on \(\mathbf P^1_{[s:t]}\) by the line spanned fiberwise by \(s^N V-t^N U^{m-1}\). This is an ideal since the two terms lie in the socle. The quotient of their two-dimensional span is \(\mathcal O(N)\), via \((U^{m-1},V)\mapsto(s^N,t^N)\). The remaining basis vectors \(1,U,\ldots,U^{m-2}\) give \(\mathcal O^{m-1}\). Thus the resulting finite flat family \(W\) has exactly one positive summand for every \(N>0\).
+
+Choose \(N\) from the constant indices of the fibers \(B_0=E/(V)\) and \(B_\infty=E/(U^{m-1})\) in their respective projective frames:
+\[
+ D_0=3\binom m2,\qquad D_\infty=D_\infty(B_\infty),\qquad
+ N=D_0+D_\infty-m(8k-7).
+\]
+At zero the powers of \(r^3U\) give \(D_0\). At infinity the filtration by monomials in \(X=\alpha-1,Y=\beta-1\) of weight at most \(n\) is also spanned by \((1+X)^i(1+Y)^j\) for \(w=3i+4j\le n\), by binomial expansion in both directions. On \(B_\infty\) these elements are
+\[
+ (1+U)^{-w}+(2i+3j)V .
+\]
+The first \(m-1\) distinct weights in \(\langle3,4\rangle\) give independent jets modulo \((V,U^{m-1})\): their degree-\(d\) coefficients \(\binom{-w}{d}\) form a Vandermonde matrix after a triangular basis change in characteristic zero. The first repeated weight, \(12=3\cdot4=4\cdot3\), gives coefficients \(8\) and \(9\) of \(V\), adding the sole remaining direction. Thus the index is the sum of those \(m-1\) weights plus twelve. The semigroup omits just \(1,2,5\), so
+\[
+ D_\infty=\frac{(m+1)(m+2)}2+4,\qquad N=2m^2+5-m(8k-7).
+\]
+Already \(D_0-m(8k-7)-4(m-1)=m(3k^2/2-8k+3/2)+4>0\). In particular \(N\ge4(m-1)\).
+
+At zero the family has relation \(V=r^N U^{m-1}\). At infinity the relation is \(U^{m-1}=\tau^N V=z^N V\), since \(z=\tau u/v\) and \((v/u-1)V=0\). Modulo the \(N\)-th power of the appropriate projective parameter, each named algebra therefore agrees with the constant algebra of its fiber. This agreement includes the transverse coordinates \(\alpha-1,\beta-1\) at infinity, since both are Laurent polynomials in the same units. In each chart write \(z_*\) for its parameter and \(X,Y\) for its transverse coordinates. Monomials in \(X,Y\) of total degree less than \(m\) span the upstairs algebra over the local DVR by Nakayama. The projective image algebra contains \(z_*^{4(m-1)}\) times that algebra, by weighting the generators \(z_*^3X,z_*^4Y\). The same holds for the constant family, so reduction modulo \(z_*^N\) computes both cokernels and gives \(\delta_0=D_0,\ \delta_\infty=D_\infty\).
+
+Parametrization (1) maps \(W\) finitely onto its projective image \(Z\), since the map is proper and induces an isomorphism on reduced supports. On the endpoint charts the image algebra embeds in the torsion-free upstairs algebra over the projective parameter. On the torus the map is an isomorphism onto its image. Together these facts prove purity, and flatness recovers \(W\) as the entire torus closure. The finite modification formula reads
+\[
+ P_Z(n)=4mn+m+N-D_0-D_\infty
+       =4mn+\frac{ab(4-a-b)}2 .
+\]
+The saturated ideal is given degree by degree by the kernel of the actual restriction
+\[
+ H\longmapsto H\big(1,r,r^3(1+U),r^4(1+r^NU^{m-1})\big)
+ \quad\text{in }k_0[r^{\pm1},U]/U^m.
+\]
+Indeed the torus open is schematically dense in the pure image. One positive summand violates (1) of [R-0072](../../results/torus_quotient_movement_bounds.md#statement) even with this polynomial and unbounded \(e=N\). The restriction also gives a direct equation check. The relation \(V^2=0\) supplies the nonzero homogeneous equation \((x_0^3x_3-x_1^4)^2\) of degree eight, below the least equation degree \(2k\) of the target CI. The example passes the Hilbert-polynomial and total-movement tests and fails the splitting test. Sufficiency of the splitting bounds would concern families that pass them, so this example leaves that realization question open. Independent reconstruction checked the quotient line, the change of parameter at infinity, preservation of the full image indices by truncation, purity, and the polynomial for all \(k\ge6\).
 
 ## Characteristic scope of the finite-modification mechanism
 
