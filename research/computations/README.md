@@ -33,6 +33,11 @@ some are bounded exploratory models rather than certificate checkers.
 | Root pencils and collision scales | [Geometric pencil](../arguments/torus/root_pencil_geometry.md), [arithmetic collision](../arguments/arithmetic/arithmetic_root_collision.md); root-pencil, eight-component and root-collision verifiers | Displayed actual families, contact/conductor controls and residue-sensitive valuation calculations; no invariant of every containing pair is asserted. |
 | Embedded quotient descent and full sextic toric limits | [Quotient image proof](../arguments/torus_embedded_quotients.md), [sextic configurations](../arguments/torus_sextic_residuals.md); [Argument-owned verifier](../arguments/torus-sextic-controls.support/verify.py) | Standard-library exact endpoint ranks in the stated characteristics, homogeneous source ranks, polynomial identities and cycle/HP checks. The general image, purity, flatness and full-initial-ideal arguments are proved in the mathematical homes. |
 
+For a supplied proper pair over \(\mathbf Q\), the [Macaulay2 endpoint line test](../arguments/torus-sextic-controls.support/endpoint_line_test.m2)
+computes the first-layer kernel length and the full flat cycle coefficient
+at the generic point of the disjoint coordinate line in either direction.
+That coefficient bounds the moving residual degree. [Proof and usage](../results/endpoint_equation_torsion.md#test-on-supplied-equations).
+
 The focused proof homes identify further companion programs where they supply
 an independent construction, a separate argument, or necessary exact support.
 This table is an entry route, not a proposed all-program execution suite.

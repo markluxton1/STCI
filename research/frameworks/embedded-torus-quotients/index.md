@@ -106,7 +106,12 @@ algebras and moving generator incidence remain open.
 
 Use the relative image map in R-0070 when comparing an embedded quotient
 and an intrinsic limit. Recovering the full special equation module
-requires further data. Any finite prescribed-degree test must retain
+requires further data. Even the two completed endpoint presentations of
+one raw equation family can lose first-layer classes along the disjoint
+coordinate line. The [endpoint kernel formula](../../results/endpoint_equation_torsion.md#statement)
+specifies what that restriction detects. Applying it to a proposed
+transverse quotient first requires actual homogeneous equations for the
+same family. Any finite prescribed-degree test must retain
 the actual source image and establish properness.
 
 ## Coverage boundaries

@@ -36,7 +36,7 @@ degrees. Splitting, generic ranks, the CI Hilbert polynomial, and both endpoint
 image algebras give tests for a candidate. The remaining compatibility concerns
 relations among its actual homogeneous equations throughout the family.
 [Movement bounds](results/torus_quotient_movement_bounds.md) ·
-[Bounded equation-module comparison](investigations/quotient-hilbert-comparison/index.md#completion-and-next-decisions).
+[Moving quotient and equation comparison](investigations/quotient-hilbert-comparison/index.md#completion-and-next-decisions).
 
 The current sextic interfaces are (i) higher contact for proper pencils
 through the surviving ADE primitive triples with independent restrictions
@@ -51,7 +51,13 @@ degree is at least sixteen. See
 and [formal normal questions](frameworks/formal-normal-geometry/filtered_equation_module_and_sextic_obstruction.md#two-precise-sextic-questions).
 Existing torus-boundary investigations continue to require a single
 realizable moving ideal with both full limits.
-The [residual sextic relation-persistence control](arguments/torus_hilbert_boundary.md#degree-12-relation-persistence-for-the-residual-sextic-pencil) gives an exact rational intermediate invariant between a limiting equation pencil and its full Hilbert limit; it does not supply a supported family or compare intrinsic normal and endpoint filtrations.
+For an actual orbit pair in any bidegree, the two endpoints together
+detect raw equation torsion but can miss classes on a parameter layer.
+On the first layer the multiplicity of the disjoint coordinate line in
+the intersection of the stripped extreme forms bounds the moving residual
+degree from below after subtracting the generic length missed there.
+A residual sextic pencil exhibits the loss even when the full limit
+omits the line. [Endpoint and residual degree theorem](results/endpoint_equation_torsion.md).
 
 ## Questions and active work
 

@@ -1089,3 +1089,8 @@ It is not the intrinsic \(I_C\)-adic defect or the endpoint
 image-lattice defect: comparing those requires a compatible
 construction, not a numerical identification.
 
+The [endpoint comparison for the first pencil](../results/endpoint_equation_torsion.md#a-relation-missed-at-both-endpoints)
+exhibits two independent degree-12 first-layer classes missed by both
+completed endpoints. The general result identifies the joint kernel and
+relates its generic length on the disjoint coordinate line to the
+residual degree of an actual proper pair.
