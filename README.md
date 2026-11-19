@@ -1,26 +1,23 @@
-# The fixed rational quartic and two global equations
+# Set-theoretic complete intersections for a rational quartic
 
-For the embedded curve
+Consider the fixed smooth rational quartic
 \[
-C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3,
+C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3.
 \]
-can two homogeneous surfaces have reduced intersection exactly \(C_0\)?
-Over an algebraically closed field of characteristic zero, **this remains open**.
-In [every positive characteristic](research/arguments/arithmetic/positive_characteristic_constructions.md)
-the same fixed curve is an STCI using a quartic carrier.
+Over an algebraically closed field of characteristic zero, **it remains open whether two homogeneous equations cut out exactly \(C\) set-theoretically**. In every positive characteristic, explicit equations do so.
 
-Start with the [research index](research/INDEX.md) for the curve and exact
-proof routes, or the [framework map](research/MAP.md) to compare approaches
-and find [active investigations](research/MAP.md#questions-and-active-work).
-The repository studies proper intersections containing \(C_0\), their
-multiplicities and residual cycles, and the embedded structures realized by
-actual homogeneous equations. The STCI question asks when the residual cycle
-can disappear.
+The project studies actual pairs of surfaces through \(C\), their intersection cycles, embedded structures, and possible residual curves. For a proper pair of degrees \(a,b\),
+\[
+[V(F,G)]=m[C]+R,\qquad ab=4m+\deg R.
+\]
+The central question is whether \(R=0\) can occur in characteristic zero. This numerical reformulation does not itself give an obstruction. Known exclusions force both degrees to be at least five, but do not settle the unrestricted problem.
 
-The [carrier projection results](research/MAP.md#questions-and-active-work)
-explain why toric quintic normalizations exclude every mate degree and
-what the marked elliptic octic construction still needs to produce two
-equations.
+## Read the research
 
-[Results and proofs](research/CATALOG.md), [literature](research/literature/README.md),
-and the [contribution workflow](research/MODEL.md) are shared across approaches.
+- [Mathematical introduction and proof routes](research/INDEX.md)
+- [Approaches and open questions](research/MAP.md)
+- [Results and proof catalog](research/CATALOG.md)
+- [Literature and established theorems](research/literature/README.md)
+- [Contribution and verification workflow](research/MODEL.md)
+
+Results about a particular degree, carrier, degeneration, or construction are recorded with their exact hypotheses in the research documents; they should not be read as general exclusions.
