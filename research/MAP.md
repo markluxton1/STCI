@@ -61,6 +61,16 @@ omits the line. [Endpoint and residual degree theorem](results/endpoint_equation
 
 ## Questions and active work
 
+The [same-radical equation lemma and higher-rank torus control](arguments/torus/equivariant_set_theoretic_descent.md)
+separate unbounded set-theoretic equations from generators of a moving ideal.
+The [general pair-rank and weight formulas](arguments/torus/equation_pair_rank_and_weights.md)
+retain degree and source information across that distinction. The
+[finite-group-scheme orbit model](arguments/arithmetic/frobenius_power_lifting_precision.md#torus-eigenforms-and-the-finite-group-scheme-orbit)
+explains the splitting and coalescence of one explicit arithmetic family.
+These connections sharpen the boundary and realization questions; none
+establishes a moving supported pair in characteristic zero or decides
+unrestricted STCI.
+
 Fixed-carrier normalization has established exclusions for particular
 quintic models and necessary inverse-support conditions for a marked
 elliptic octic family. These are bounded results, not a classification

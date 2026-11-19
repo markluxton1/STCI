@@ -342,6 +342,12 @@ Since \(K\subseteq J_0\) and the latter is the flat weight
 initial ideal of the original complete intersection, equality
 of Hilbert series forces \(K=J_0\).
 
+The membership \(D_0\in U\) is essential in this exact sequence.
+More generally its first term is \(S/(U+(D_0))(-h)\). The
+[local length identity and counterexample](torus/equivariant_set_theoretic_descent.md#the-exact-local-length-identity-and-its-membership-hypothesis)
+give the corrected arbitrary-ideal formulation; a generic local length
+calculation alone still does not establish the full ideal equality above.
+
 For the integral quartic \(C\), if an actual sole-supported
 pair existed, both full torus limits would have radical
 \(I_C\). In the clean case each nonempty summand above would

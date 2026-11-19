@@ -30,3 +30,13 @@ does not repair the original embedding. An embedded AG conjugate union would
 descend automatically. The [supported-linkage constructions](../../arguments/linkage/supported_linkage_operations.md)
 produce actual ACM schemes upstairs, while their specified failures leave other
 sources and chains open.
+
+For an actual equivariant quadratic extension, the
+[character-refined norm](../../arguments/linkage/projected_thickening_section_defects.md#equivariant-quadratic-descent-and-the-conductor-norm)
+places each forced ambient equation in a specified weight space. This is
+the grading of the existing norm mechanism, not an additional scalar
+length bound. An invariant supported CI for the fixed quartic is already
+excluded in characteristic zero; applying the refinement to a boundary
+that has lost CI structure requires its own postulation hypotheses.
+The explicit projected-source Rao classes and the separated CI conductor
+are different quotients, despite their shared torus action.

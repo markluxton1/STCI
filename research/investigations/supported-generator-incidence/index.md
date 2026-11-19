@@ -135,8 +135,12 @@ candidate that reaches length nine has terminal Chow cycle \([Y]=9[C]\).
 For a prescribed torus degeneration, both full limits must come from
 the same family. The exact-arithmetic wedge computation reports
 \(\operatorname{rank}\Omega_3=23\) and nullity 328 for both orbit types;
-its implementation has not been independently audited, so do not use
-that rank as an independent geometric incidence certificate.
+the [complete weight-block reconstruction](../../arguments/carriers/sextic_ade_reduction.md#torus-weight-blocks-of-the-primitive-triple-sources)
+now independently verifies this for the algebraic orbits. The principal
+orbit's total wedge rank retains the earlier implementation-audit
+limitation. Neither scalar rank is a geometric incidence certificate:
+the kernel must still meet the decomposable proper-pair locus and the
+remaining higher-contact conditions.
 A zero or nonzero higher-contact incidence result must be stated for
 the declared family; no coverage of all sextic pencils follows
 automatically.

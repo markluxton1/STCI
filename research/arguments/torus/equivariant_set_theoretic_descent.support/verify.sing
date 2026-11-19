@@ -1,0 +1,93 @@
+// Exact rational controls for ../equivariant_set_theoretic_descent.md.
+// Run: Singular -q research/arguments/torus/equivariant_set_theoretic_descent.support/verify.sing
+// These controls do not prove all-degree or arbitrary-characteristic coverage.
+
+int completedControls=0;
+int failedControls=0;
+
+proc check(int ok, string label)
+{
+  completedControls=completedControls+1;
+  if (ok == 0)
+  {
+    failedControls=failedControls+1;
+    print("FAILED: " + label);
+  }
+  else { print("PASS: " + label); }
+}
+
+proc sameIdeal(ideal I, ideal J)
+{
+  return(size(reduce(I,std(J))) == 0 && size(reduce(J,std(I))) == 0);
+}
+
+ring R=0,(s,t,v,x,y,z),dp;
+ideal star=x*y,x*z,y*z;
+ideal J=x*y,z*(x+y);
+ideal P1=y,z;
+ideal P2=x,z;
+ideal P3=x,y;
+check(sameIdeal(star,intersect(intersect(P1,P2),P3)),
+      "three-line reduced ideal is an intersection of coordinate primes");
+check(size(reduce(J,std(star))) == 0,
+      "ordinary pair is contained in the three-line ideal");
+ideal starPowers=x*y,(x*z)^2,(y*z)^2;
+check(size(reduce(starPowers,std(J))) == 0,
+      "ordinary pair has the three-line radical by explicit powers");
+check(dim(std(J)) == 4,"ordinary pair has height two");
+
+ideal raw=x*y,x*z+t*y*z;
+ideal inverseParameter=s*t-1;
+ideal full=eliminate(raw+inverseParameter,s);
+ideal expected=x*y,x*z+t*y*z,y^2*z;
+check(sameIdeal(full,expected),"full parameter contraction in the star example");
+ideal K=subst(full,t,0);
+ideal expectedK=x*y,x*z,y^2*z;
+check(sameIdeal(K,expectedK),"full special ideal has three displayed monomials");
+ideal Q3=x,y^2;
+check(sameIdeal(K,intersect(intersect(P1,P2),Q3)),
+      "special primary decomposition and generic lengths 1,1,2");
+ideal lambdaPair=x*y,z*(x^2+y*z);
+check(size(reduce(lambdaPair,std(star))) == 0,
+      "one-parameter eigenpair lies in the star ideal");
+ideal lambdaPowers=x*y,(x*z)^3,(y*z)^2;
+check(size(reduce(lambdaPowers,std(lambdaPair))) == 0,
+      "one-parameter eigenpair has the star radical by explicit powers");
+
+ring C=0,(x0,x1,x2,x3),dp;
+poly q=x0*x3-x1*x2;
+poly a=x1^3-x0^2*x2;
+poly b=x1^2*x3-x0*x2^2;
+poly d=x2^3-x1*x3^2;
+check(b^2+a*d-x1*x2*q^2 == 0,
+      "quartic triple polynomial radical certificate");
+
+ring L=0,(r,s),dp;
+ideal U=r,s^2;
+poly H=r;
+poly D=s;
+ideal left=H*U+ideal(D);
+ideal corrected=U+ideal(D);
+ideal endTerm=H,D;
+check(vdim(std(left)) == 2 && vdim(std(corrected)) == 1
+      && vdim(std(endTerm)) == 1 && vdim(std(U)) == 2,
+      "missing-membership lengths are 2=1+1, not 2+1");
+D=s^2;
+left=H*U+ideal(D);
+endTerm=H,D;
+check(vdim(std(left)) == 4 && vdim(std(U)) == 2
+      && vdim(std(endTerm)) == 2,
+      "membership case has lengths 4=2+2");
+
+// Singular can continue after a parser/runtime error; exit status alone is
+// insufficient. Require the complete error-free output and this success marker.
+if (completedControls == 12 && failedControls == 0)
+{
+  print("ALL EQUIVARIANT DESCENT CONTROLS PASSED; no quartic STCI conclusion");
+}
+else
+{
+  print("FAILED EQUIVARIANT DESCENT CONTROLS: completed="
+        +string(completedControls)+", failed="+string(failedControls));
+}
+quit;

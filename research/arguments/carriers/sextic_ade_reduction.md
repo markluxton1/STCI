@@ -370,14 +370,129 @@ This is a check of the **span of cubic-contact obstructions**, not
 a count of geometric pencils. The different ranks of the joint
 normal-jet maps, \(23\) for the principal orbit and \(24\) for the
 algebraic orbit, are distinct invariants. The historical algebraic
-joint-rank value \(26\) is incorrect. The exact-arithmetic output
-was supplied from an execution of the retained script; its
-implementation has not received an independent mathematical audit.
+joint-rank value \(26\) is incorrect. The algebraic orbit's
+rank 23 now also has the independently reviewed complete-weight-block
+implementation and exact replay below. The principal orbit's total
+exterior-square rank remains supplied execution evidence from the retained
+script; that total-rank computation has not received an independent
+implementation audit. The separately checked principal restriction to
+\(\ker h\) below does not discharge that gap.
 
 The geometric incidence argument above settles the existence of
 proper cubic-contact pencils without relying on surjectivity of
 \(\Omega_3\). The next test can be solved uniformly for pencils with
 a quadric-divisible member.
+
+### Torus weight blocks of the primitive-triple sources
+
+Fix characteristic zero and retain the actual substitutions and contact
+sign above. This refinement concerns the same three \(\mathcal O(-6)\)
+triples, not a new family of candidates. For an algebraic orbit put
+\(\alpha=\sqrt{-2}\), \(r=(-1+2\alpha)/6\). Its equations in the
+dense chart are
+\[
+ x_1=z,\quad x_2=z^3+y,\quad
+ x_3=z^4+(r+\tfrac32)zy+m.
+\]
+Give \(z,y,m\) uncentered weights \(1,3,4\). The substitution is
+homogeneous, so purity extends torus invariance of this affine triple
+to its global ideal. Conjugation gives the other algebraic orbit. The
+complete-source weight kernels have the following centered profiles:
+
+| Degree | Weights | Multiplicities |
+| ---: | --- | --- |
+| 4 | \(-4,4\) | \(1,1\) |
+| 5 | \(-6,-5,-3,-2,-1,0,1,2,3,5,6\) | all one |
+| 6 | \(-8,\ldots,8\) | \(1,1,1,1,2,2,2,2,3,2,2,2,2,1,1,1,1\) |
+
+For example, the quartic generators can be written
+\[
+ Q_-=(1-\alpha)x_0^2q-x_1(x_0^2x_2-x_1^3),\qquad
+ Q_+=(1+\alpha)x_3^2q-x_2(x_1x_3^2-x_2^3).
+\]
+Their weights are \(-4,4\). Since
+\((1-\alpha)(r+\tfrac12)=1\), the displayed substitution sends
+\(Q_-\) exactly to \((1-\alpha)m\), with no pure-\(y\) tail.
+For a sextic of centered weight \(w\), homogeneity gives
+\[
+ h_F=c_Fz^{w+8},\qquad \Theta_F=d_Fz^{w+3},               \tag{1}
+\]
+with a negative exponent interpreted as a zero coefficient. The
+10-dimensional \(\ker h\) has profile
+\((1,1,1,1,2,1,1,1,1)\) on weights \(-4,\ldots,4\);
+the joint kernel has one line at each of \(-4,0,4\), including
+\(qQ_-\) and \(qQ_+\) at the two extremes. Exact coefficient
+comparison on the complete source gives
+\[
+ [\Theta_F]_d=\frac{28+16\alpha}{81}[h_F]_{d+5}
+ \quad(7\le d\le11).                                   \tag{2}
+\]
+The three-dimensional joint kernel and (2) concern the actual
+\(\mathbb Q(\sqrt{-2})\) source, not arbitrary independent polynomials
+\(h,\Theta\).
+
+Consequently the algebraic exterior-square source has all 31 weights
+\(-15,\ldots,15\). Its weight-\(W\) cubic-contact block has output
+proportional to \(z^{W+11}\). The exact blocks have rank one for
+\(-11\le W\le11\) and zero otherwise. On the negative extreme
+blocks both contact coefficients vanish; on the positive ones (2)
+makes the determinant zero. Nonvanishing of the 23 middle blocks is
+checked on complete weight bases, rather than inferred from their
+possible exponents. This recovers the existing total rank 23, but
+neither counts decomposable zero-pencils nor replaces the later
+contact conditions.
+
+There is also a geometric meaning to the different restricted contact
+ranks six and seven. Locally use \(I_C=(q',y)\),
+\(I_{T_3}=(q',y^3)\). Then
+\[
+ \frac{I_{T_3}\cap I_C^2}{I_CI_{T_3}}
+ =\frac{((q')^2,q'y,y^3)}{((q')^2,q'y,y^4)}
+ \simeq L^3=\mathcal O_{\mathbf P^1}(-18).
+\]
+Thus \(\Theta|_{\ker h}\) is a global section-valued map into
+\(H^0(\mathcal O_{\mathbf P^1}(6))\); it is not an arbitrary
+degree-11 or degree-18 coefficient map. In the principal orbit its
+image is exactly
+\[
+ \{p\in k[z]_{\le6}:p(1/2)=0\}.                          \tag{3}
+\]
+Here is the source of that hyperplane. Put
+\(\mu=A+zB/2\), \(\nu=(T_0-zS_0/2)\gamma\). Modulo \(q'\),
+\(q=\mu y-\nu y^2\) and \(V=By+S_0\gamma y^2\).
+For \(F\in\ker h\), write its quadratic coefficients in \(q,V\)
+as \(a_2q^2+a_1qV+a_0V^2\), and let \(b_0\) be the coefficient
+of \(V^3\). The quadric restriction from the
+[order-two flag](../torus/equation_pair_rank_and_weights.md#characters-of-all-double-surface-equation-spaces)
+has the form \(P(z^3+V)V^2\), so \(a_0'=3z^2b_0\).
+Vanishing on the triple gives
+\(a_2\mu^2+a_1B\mu+a_0B^2=0\). At a simple root \(z_0\) of
+\(\mu\) with \(B(z_0)\ne0\), differentiate this identity and
+take the cubic coefficient to obtain
+\[
+ -\Theta_F(z_0)=B(z_0)^2
+ \left(\frac{3z_0^2\nu(z_0)}{\mu'(z_0)}+B(z_0)\right)b_0(z_0).
+\]
+For the principal orbit at \(z_0=1/2\),
+\(\mu'=-4,\nu=-32,B=-6\), so the bracket is zero.
+This proves containment in (3); the retained rank six proves equality.
+The algebraic restricted contact map has rank seven, as above.
+
+The standard-library
+[refinement check](../torus/equation_pair_rank_and_weights.support/triple_profiles.py)
+reuses the retained full monomial source and exact
+\(\mathbb Q(\sqrt{-2})\) arithmetic to check the profiles,
+(1)–(3), joint kernels and individual nonzero contact blocks. This
+support is adapted from Gemini's
+`research/computations/verify_sextic_triple_toric_vgit.py` at
+[`a8a73413`](https://github.com/markluxton1/STCI/commit/a8a734139ad9cbf39b3f08c3fe71136ab2732f05).
+Independent reconstruction on 2026-11-19 accepted the homogeneous
+substitution, the quartic identities, the principal hyperplane proof and
+the new implementation with its complete-source/contact-map dependency;
+the exact replay passed. This confirms the algebraic exterior-square
+rank via its individual blocks and the principal restricted contact map,
+not the principal total exterior-square rank. The stronger existing
+length-five conclusion below is unchanged.
 
 ### Sharp length five for pencils with a quadric-divisible member
 

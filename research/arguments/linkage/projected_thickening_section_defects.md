@@ -113,6 +113,69 @@ The characteristic restriction remains \(uv\ne0\) in \(k\).
 The weight observation is an elementary consequence of the displayed
 classes, not a new ACM exclusion.
 
+### Equivariant quadratic descent and the conductor norm
+
+The same weights make the entire quadratic projection equivariant:
+\(r=2bc-ad\) and \(z\) have centered weight zero, so
+\(z^2-r\) is invariant. The involution \(z\mapsto-z\) commutes
+with the torus. These statements hold in every characteristic; in
+characteristic two the involution is the identity and supplies no
+separation of branches.
+
+There is a distinct, conditional refinement in the
+[separated quadratic-cover setting](quadratic_covers_and_conductor_descent.md#6-the-entire-hypothetical-intersection-and-its-separated-branches).
+Here \(\operatorname{char}k\ne2\), \(A=S/J_0\) is the coordinate
+ring of an actual supported complete intersection, and \(A\hookrightarrow B=A+Az\)
+is its full separated primary-branch extension. Assume additionally
+that \(J_0\) is torus invariant. The inverse-image ideal in the
+quadratic cover is then invariant, as is its \(D\)-primary component:
+the curve \(D\) is invariant and a primary component at a minimal
+prime is canonical. Consequently the conductor ideal
+\[
+J_\Delta=\{h\in S:hz\in A\}\quad\text{and}\quad S/J_\Delta
+\]
+are graded both by ordinary degree and by torus character.
+
+For \(h\in(J_\Delta)_d[w]\), choose a representative of
+\(hz\in A_{d+1}[w]\) in the weight-\(w\) space
+\(S_{d+1}[w]\). This is possible since the quotient map respects
+the weight decomposition. Calling it \(P\), the actual ambient norm
+satisfies
+\[
+P^2-rh^2\in(J_0)_{2d+2}[2w].
+\]
+For \(h\ne0\) this is a nonzero polynomial: otherwise \(r\)
+would be a square in \(\operatorname{Frac}S\). The existing
+[norm and conductor-postulation theorem](quadratic_covers_and_conductor_descent.md#81-ambient-quadratic-norms-force-conductor-postulation)
+therefore applies weight by weight, under its stated initial-degree
+and complete-intersection hypotheses. The new grading specifies where
+the same forced equation occurs; it does not add a second scalar
+boundary-length budget. More generally, if an equivariant degree-one
+generator \(z\) has character \(\chi\) and \(z^2=r\), with
+\(r\) a nonsquare polynomial of character \(2\chi\), the same
+proof gives \(P\) character \(w+\chi\) and the norm character
+\(2(w+\chi)\). The norm membership and its weight calculation use
+only the actual graded inclusion and quadratic relation; separation
+and the CI hypotheses are needed for the conductor application.
+
+The explicit power-source Rao classes above and this hypothetical
+CI conductor serve different roles. In the power source they are
+irrelevant torsion in \(B/A\), which proves failure of ACMness.
+For the separated extension of a supported CI,
+\(H^0_{S_+}(B/A)=0\); its nonzero quotient instead has projective
+endpoint support. The common torus grading supplies no equivalence
+between those quotients, and no transfer of a missing-section class
+from one construction to the other.
+
+For this fixed \(C_0\), the invariant supported-CI hypothesis is already
+excluded in characteristic zero by
+[STCI-R-0040](../../results/invariant_supported_ci_exclusion.md#statement).
+Accordingly the weight refinement imposes no new test on the remaining
+characteristic-zero equation pairs, whose ideals are not invariant. Its
+algebraic norm statement can apply to other supports or characteristic,
+or to a graded inclusion outside the CI setting; any use of the scalar
+postulation bound must still establish that theorem's separate hypotheses.
+
 ## The defect is an actual missing ambient section
 
 The source section \(H_{uv}z\) has degree \(e=2u+2v-3\). The two
@@ -314,4 +377,4 @@ For an arbitrary hypothetical supported CI, its primary lift need not have this 
 
 ## Scope
 
-The lower bounds concern three Rao degrees, not the full module. Reduction to the rational normal quartic kills the exhibited higher-degree classes, so the source obstruction does not automatically persist under arbitrary primary lifts. The parameter-sequence generalization retains its degree-product and presentation hypotheses; characteristic-divisible cases, including the indicated Frobenius sources, remain outside the theorem.
+The lower bounds concern three Rao degrees, not the full module. Reduction to the rational normal quartic kills the exhibited higher-degree classes, so the source obstruction does not automatically persist under arbitrary primary lifts. The parameter-sequence generalization retains its degree-product and presentation hypotheses; characteristic-divisible cases, including the indicated Frobenius sources, remain outside the theorem. Independent reconstruction of the equivariant norm refinement checked weight-homogeneous representatives, polynomial nonvanishing, the degree-one generator character shift, and the invariant-CI exclusion that limits its fixed-curve application.

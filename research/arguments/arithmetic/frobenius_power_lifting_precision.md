@@ -7,8 +7,10 @@ lift. This note quantifies what happens to powers divisible by \(p\).
 Finite-level statements impose the **strong** support containment below;
 topological support on an Artin base is insufficient.
 
-**Status, October 31, 2026:** independently reconstructed, reviewed
-results. No unrestricted STCI conclusion is asserted.
+**Lifting results, October 31, 2026:** independently reconstructed and
+reviewed. The torus-orbit and equivariant-defect refinements below were
+independently reconstructed on November 19, 2026. No unrestricted STCI
+conclusion is asserted.
 
 ## Strong lifts and the exact unramified precision shift
 
@@ -389,6 +391,115 @@ realizing it. They connect the arithmetic question to the
 [endpoint and saturation interfaces](../torus/fixed_surface_and_endpoint_algebras.md)
 without identifying distinct defect modules from those interfaces.
 
+## Torus eigenforms and the finite-group-scheme orbit
+
+The prescribed construction also has a characteristic-free symmetry
+interpretation. Distinguish the carrier exponent \(N\) from the mate
+power \(n\), and suppose
+\[
+N=3b+4c>0,\qquad a=N-b-c=2b+3c,\qquad b,c\ge0.
+\]
+Set
+\[
+F_N=x_1^N-x_0^a x_2^b x_3^c,\qquad H_4=x_2^4-x_0x_3^3.
+\]
+For the curve-preserving split torus \(\mathbb T\), with centered
+coordinate weights \((-2,-1,1,2)\), these are eigenforms of weights
+\(-N\) and \(4\). Their uncentered weights for \((0,1,3,4)\)
+are \(N\) and \(12\). Thus \((F_N,H_4^n)\) is invariant for
+every \(n\ge1\); invariance of this special pair does not imply
+invariance of a trait lifting it.
+
+The ambient diagonal torus also contains the subgroup scheme
+\[
+\mu_N^{(1)}=\{\operatorname{diag}(1,\zeta,1,1):\zeta^N=1\}.
+\]
+It fixes both displayed forms, commutes with \(\mathbb T\), and has
+trivial scheme-theoretic intersection with \(\mathbb T\): for a
+curve-torus parameter \(t\), membership would force \(t^3=t^4=1\),
+hence \(t=1\), over every base algebra. Over a field, the orbit morphism
+\(\mu_N^{(1)}\times C\to\mathbf P^3\) has schematic image
+\(V(F_N,H_4)\). Indeed, on the open set where all coordinates are
+nonzero, put \(x_0=1\) and \(t=x_3/x_2\). The equations give
+\[
+x_2=t^3,\quad x_3=t^4,\quad (x_1/t)^N=1.
+\]
+There the orbit map is the isomorphism
+\(\mu_N\times\mathbf G_m\simeq V(F_N,H_4)\) on that open set.
+At \(x_0=0\), the equations leave only \([0:0:0:1]\), since
+\(a>0\); on \(x_0=1\), a zero coordinate leaves only
+\([1:0:0:0]\). Thus there is no other component. The two forms
+are a regular sequence, so their intersection has no embedded
+associated points. The schematic image is a closed subscheme of this intersection
+and agrees with it on that dense open set. Its defining ideal inside
+the intersection vanishes at every associated point, hence is zero.
+This proves the schematic-image assertion, including in inseparable
+characteristic.
+
+Over an algebraically closed field of characteristic \(\ell>0\),
+write \(N=\ell^h M\), with \(\ell\nmid M\); in characteristic
+zero put \(h=0,M=N\). The orbit has exactly \(M\) reduced branches
+\[
+C_\zeta=[s^4:\zeta s^3t:st^3:t^4],\qquad \zeta^M=1,
+\]
+and the exact cycle is
+\[
+[V(F_N,H_4^n)]=n\ell^h\sum_{\zeta^M=1}[C_\zeta]
+\]
+(with \(\ell^h=1\) in characteristic zero). On the displayed
+open set, each root of unity has local length \(\ell^h\);
+replacing \(H_4\) by its \(n\)-th power multiplies the transverse
+intersection length by \(n\). Degree \(4Nn\) confirms that these
+components exhaust the cycle. This is the finite-group-scheme
+interpretation of the [two-binomial component calculation](positive_characteristic_constructions.md#12d-necessity-of-the-frobenius-exponent-and-all-reduced-components),
+after exchanging the cusp carrier and its mate and reversing coordinates.
+It supplies no new all-pairs exclusion. For \(N=p\), the \(p\)
+reduced characteristic-zero translates become one multiplicity-\(p\)
+branch in characteristic \(p\). For general \(N\), only the
+\(p\)-primary part coalesces; the prime-to-\(p\) branches remain distinct.
+These are actual flat integral families: successively reducing by the
+monic relations \(H_4^n\) in \(x_2\) and \(F_N\) in \(x_1\)
+gives a free \(\mathbf Z[x_0,x_3]\)-module with basis
+\(x_1^i x_2^j\), \(0\le i<N,\ 0\le j<4n\). In particular its
+projective scheme is flat over \(\mathbf Z\).
+
+## Equivariant grading of the root-specialization defect
+
+Keep the actual supported trait and root closure of (7), and **add**
+a \(\mathbb T_R\)-action preserving the total carrier and supported
+intersection, preserving the fixed curve, and acting trivially on the
+DVR base. The generic lower root is defined by its generic curve
+ideal, so it is invariant. Schematic closure, specialization and the
+quotient in (7) are then equivariant. For the prescribed \(N=p\)
+family this yields
+\[
+T=T_{p_0}\oplus T_{p_\infty},\qquad
+T_{p_i}=\bigoplus_{w\in\mathbf Z}(T_{p_i})_w,
+\qquad
+\ell(T_{p_0})+\ell(T_{p_\infty})=1+2p^2-p_a(D_K)>0.
+\]
+The endpoint support follows from the smooth-carrier argument before
+(8), not from torus invariance alone. The direct sum over endpoints
+is the canonical decomposition of a finite-length sheaf with disjoint
+support; the weight decomposition follows from the split torus action.
+There is no asserted sign reversal, equality of endpoint lengths or
+relation between their weight multiplicities. Such conclusions would
+need an additional symmetry exchanging endpoints. Without an equivariant
+total trait, (8)–(9) still hold but no torus grading on its defect is
+supplied merely by the invariant special equations. This root defect
+has not been identified with the [separated quadratic conductor](../linkage/quadratic_covers_and_conductor_descent.md#7-the-conductor-and-the-actual-quadratic-boundary)
+or with a torus-limit endpoint quotient.
+
+For the fixed \(C_0\) in the mixed-characteristic problem, this added
+equivariant-trait hypothesis is actually impossible: its generic fiber
+would be a torus-invariant supported complete-intersection ideal in
+characteristic zero, excluded by
+[STCI-R-0040](../../results/invariant_supported_ci_exclusion.md#statement).
+Thus the weight decomposition is a general equivariant specialization
+principle, not an additional condition on the still-possible traits of
+(8). Those traits must break this torus symmetry. A nontrivial torus
+action on the base is outside the stated refinement.
+
 Independent reconstruction checked both directions of the finite-precision
 equivalence, global membership over Artin bases, scalar normalization and
 containment-preserving coefficient lifts, the new lower-multiplicity pair,
@@ -401,3 +512,10 @@ Finite-level heights here refer to strong
 nilpotence, not merely to points of an incidence defined by field-valued
 rank conditions. Every actual supported DVR trait has the requisite strong
 nilpotence, so the resulting trait obstructions do apply.
+
+Independent reconstruction of the torus refinements checked the scheme-theoretic
+intersection of the finite subgroup with the curve torus, the actual orbit
+image using CI purity,
+flatness of the integral powered family, the mixed-characteristic component
+and cycle formulas, and the equivariance and nonexistence qualifications
+for the root defect. No weight symmetry or conductor identification is used.

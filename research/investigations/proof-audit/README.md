@@ -37,6 +37,13 @@ The follow-up [corrected hyperplane argument](../../arguments/curve/normalizatio
 These are scoped proof-route updates, not a retagging of every historical
 group or a claim that all finite computations have been eliminated.
 
+The subsequent [Group 13 weight-block reconstruction](../../arguments/carriers/sextic_ade_reduction.md#torus-weight-blocks-of-the-primitive-triple-sources)
+independently reviews and replays the algebraic-orbit source profiles and
+all cubic-contact blocks, confirming total wedge rank 23. It also identifies
+the principal restricted contact image as the rank-six evaluation hyperplane.
+The principal orbit's full wedge-rank implementation remains unaudited;
+neither rank computes the decomposable higher-contact incidence.
+
 # Canonical Results/Arguments: evidence-bearing linear algebra inventory
 
 ## Version and scope

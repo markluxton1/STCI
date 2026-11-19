@@ -33,6 +33,16 @@ cycles. None alone supplies a proper homogeneous pair with sole support.
 [Projection and liaison](projection_and_liaison.md) studies supported ACM
 sources and section defects.
 
+Two distinct equation questions survive passage to a thickening. The
+[radical-power lemma](../../arguments/torus/equivariant_set_theoretic_descent.md)
+preserves the least number of set-theoretic homogeneous equations inside
+any same-radical ideal, while it gives no bound on their degrees and does
+not generate that ideal. For an unequal-degree search, the
+[actual pair quotient](../../arguments/torus/equation_pair_rank_and_weights.md)
+removes the redundant replacement \(G\mapsto G+HF\). Its bundle dimension
+and weight data describe available equations; properness, higher contact
+and terminal support remain conditions on those equations.
+
 ## Available mathematics and controls
 
 The [full Chow-polytope rigidity theorem](../../arguments/equations/chow_polytope_rigidity.md) classifies effective one-cycles whose full, unshifted column-weight polytope equals a multiple of that of the fixed quartic, in every characteristic: they are sums of diagonal translates of the quartic. This controls cycle support types only. It neither forces those translates to coincide nor constructs a scheme or a pair with the prescribed Sylvester determinant.
