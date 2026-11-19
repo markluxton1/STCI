@@ -1,54 +1,103 @@
-# General coordinate boundary and a single edge collision
+# General coordinate boundary: contacts and toric compactification
 
 ## Scope
 
-Let k be algebraically closed with trivial valuation, and let
-C=[s^4:s^3t:st^3:t^4] be the fixed smooth embedded quartic. Choose four
-independent hyperplanes L_i, giving projective coordinates y_i=L_i(x).
-Their restrictions f_i=L_i(s^4,s^3t,st^3,t^4) are binary quartics.
-Write N=Z^4/Z(1,1,1,1), with e_i the coordinate classes.
-The geometric argument below works in every characteristic under the stated
-simple-root hypotheses. The explicit numerical witness is characteristic zero.
+Let \(k\) be algebraically closed of arbitrary characteristic, trivially
+valued. Fix the smooth quartic \(C=[s^4:s^3t:st^3:t^4]\), and choose four
+independent hyperplanes \(L_i\), giving coordinates \(y_i\) on \(\mathbf P^3\).
+Write \(f_i=L_i|_C\in H^0(\mathbf P^1,\mathcal O(4))\),
+\(U=C\setminus\bigcup_i V(f_i)\), and
+\(N=\mathbf Z^4/\mathbf Z(1,1,1,1)\), with coordinate classes \(e_i\).
+This is a statement about each coordinate-torus embedding, not equations
+realizing \(C\) as a set-theoretic complete intersection.
 
-## Edge loci and the general configuration
+## All contact patterns and their weights
 
-For each of the six unordered pairs i,j, the binary homogeneous resultant
-Res(f_i,f_j) vanishes exactly when C meets the coordinate edge V(y_i,y_j).
-This is an incidence equation on the parameter space of independent ordered
-hyperplanes, not a claim about real chambers or a global fan on that space.
-Off these six loci and the four individual discriminant loci, the divisors
-(f_i=0) are reduced, disjoint, and each has degree four. Thus C intersected
-with the coordinate torus is P^1 minus 16 distinct points.
+At each puncture \(q\), put \(a_q=(\operatorname{ord}_q f_i)_{i=0}^3\).
+Use a local trivialization of \(\mathcal O(4)\). Since the coordinates have
+no common zero, \(\min_i a_{qi}=0\); also \(a_q\ne0\) and
+\(0\le a_{qi}\le4\). Let \(d_q=\gcd_i a_{qi}\). The vector
+\(n_q=[a_q]/d_q\) is primitive in \(N\): subtract a zero coordinate to
+identify \(N\) with \(\mathbf Z^3\), where this is the usual gcd test.
 
-At a puncture choose a nonvanishing coordinate to trivialize O(4). The orders
-of the four sections, modulo a common order, give its valuation vector in N.
-Each of the four points of (f_i=0) contributes e_i. The standard normalization
-formula for a parametrized tropical curve (here the parametrization is an
-embedding, so its generic degree is one) sums the primitive-vector indices.
-Consequently the four rays have weight four. Balancing is 4 sum_i e_i=0.
+The tropical support consists of the rays \(\rho_q=\mathbf R_{\ge0}n_q\),
+with weight
+\[
+ w_\rho=\sum_{q:\rho_q=\rho}d_q.
+\]
+These are normalization valuations; the embedding has generic degree one,
+so no parametrization-degree factor occurs. The boundary-intersection proof
+below also gives these multiplicities, including nonprimitive contacts.
+Balancing follows directly from the degrees of the four divisors:
+\[
+ \sum_\rho w_\rho n_\rho=\sum_q[a_q]=[(4,4,4,4)]=0.
+\]
+This covers all realized simultaneous collisions and tangencies, not an
+assertion that every combinatorial contact assignment can be realized.
 
-## Exactly one shared simple root
+## A proper toric model; flatness versus smoothness
 
-Assume f_i and f_j have exactly one common root q, simple in both; every other
-root is simple, the other two f's do not vanish at q, and there are no other
-pair collisions. There are then 15 punctures. The valuation vectors are:
-three copies of e_i; three of e_j; four of each remaining e; one e_i+e_j.
-All these vectors are primitive in N. The tropical fan therefore has five
-rays, of respective weights 3,3,4,4,1. Their weighted sum is again zero.
-This is a precise bounded statement about the curve at that incidence locus;
-it does not assert a flat family of tropical fans or schemes across it.
+Choose a smooth complete refinement \(\Sigma\) of the fan of \(\mathbf P^3\)
+containing all \(\rho_q\). Insert the finitely many rational rays and then
+smoothly subdivide, retaining them. The proper toric map
+\(X_\Sigma\to\mathbf P^3\) is the identity on the torus \(T\).
+The map from \(U\) lifts uniquely across each discrete valuation ring
+\(\mathcal O_{C,q}\) by properness. The lifts glue to a closed immersion
+\(C\to X_\Sigma\): its graph is a section of the separated morphism
+\(C\times_{\mathbf P^3}X_\Sigma\to C\), followed by the closed base-change
+immersion into \(X_\Sigma\). Its image \(C'\) is the strict transform.
 
-Blow up the torus-invariant edge V(y_i,y_j). Near q, dehomogenize by another
-coordinate and choose a parameter tau on C. Then y_i=tau a(tau),
-y_j=tau b(tau), where a,b are units. In the blowup chart with ratio
-v=y_j/y_i, the strict transform has v=b/a, a unit. The exceptional equation
-y_i has order one on this curve. Hence the strict transform meets the
-exceptional divisor transversely, away from both strict coordinate divisors.
-The ambient fan operation is the star subdivision inserting e_i+e_j in
-cone(e_i,e_j). This does not by itself say the entire ambient blowup is a
-Tevelev tropical compactification: its multiplication map need not hit the
-unused toric orbits. The relevant toric open subset must be specified for
-that stronger terminology.
+At \(q\), the valuation is in the relative interior of \(\rho_q\).
+In its ray chart \(\mathbf A^1\times\mathbf G_m^2\), a character pairing
+to one with \(n_q\) pulls back as \(z=\tau^{d_q}u(\tau)\), with \(u\)
+a unit; the two annihilator characters pull back to units. Thus \(q\)
+lies in that ray's open divisor orbit, not a higher-codimension orbit.
+Consequently \(C'\) lies in the toric open \(X_\Delta\) whose fan has just
+zero and the realized rays. The curve \(C'\) is proper over \(k\), since \(C'\simeq\mathbf P^1\). Omitted higher-codimension orbits are
+harmless precisely because they miss the curve.
+
+The multiplication map \(\mu:T\times C'\to X_\Delta\) is surjective:
+\(U\) meets the torus, and each included ray orbit contains a puncture;
+translations fill each orbit. It is flat. Indeed on a ray chart write the
+curve coordinates as \((z(c),u_1(c),u_2(c))\). Absorb the latter units into
+the acting torus coordinates. Apart from the two torus factors the map is
+\((a,c)\mapsto a z(c)\) from \(\mathbf G_m\times C_\rho\) to \(\mathbf A^1\).
+The regular function \(z\) is nonconstant, since it vanishes at a puncture
+but not on \(U\). The map \(C_\rho\to\mathbf A^1\) is flat: its local
+rings are torsion-free over the PID \(k[z]\). Base change, the automorphism
+\((a,z)\mapsto(a,az)\), and projection prove flatness of the displayed
+map. On the torus multiplication is smooth. Thus \(\mu\) is faithfully flat.
+
+At a divisor orbit, torus tangent directions span its two tangent directions.
+The remaining derivative is that of \(\tau^{d_q}u(\tau)\), nonzero at
+\(q\) exactly when \(d_q=1\). Smooth source and target over the perfect
+field \(k\) therefore give
+\[
+ \mu\text{ is smooth}\quad\Longleftrightarrow\quad d_q=1\text{ for every }q.
+\]
+This is a tropical compactification in Tevelev's definition, and is a schön
+compactification precisely in the primitive-contact case. The assertion is
+about this model; the full complete ambient fan is not the tropical curve.
+Intersection with \(z=0\) at \(q\) has length \(d_q\), giving the weight
+formula by the tropical multiplicity/orbit-intersection formula.
+
+Nonprimitive contacts occur even for a smooth embedded curve. The independent
+sections \((1,1+x,1+x^3,x^4)\) in the affine parameter \(x=t/s\) have order
+vector \((0,0,0,4)\) at zero in every characteristic. Multiplication is not
+smooth there, although the underlying curve remains smooth.
+
+## Edge loci and the simple collision example
+
+Each of the six equations \(\operatorname{Res}(f_i,f_j)=0\) detects exactly
+incidence with the edge \(V(y_i,y_j)\). Off these loci and the individual
+discriminants, there are 16 distinct punctures and four rays of weight four.
+If exactly one pair shares one simple root, with all other roots simple and
+disjoint, there are 15 punctures: weights \(3,3,4,4\) on the four axes,
+and weight one on \(e_i+e_j\). After dehomogenizing by a coordinate nonzero at the collision, locally
+\(y_i=\tau a(\tau)\),
+\(y_j=\tau b(\tau)\), with units \(a,b\). Blowing up the edge inserts
+\(e_i+e_j\); the strict transform meets the exceptional divisor transversely
+at unit ratio \(b/a\), away from both strict coordinate divisors.
 
 ## Exact characteristic-zero witness
 
@@ -72,28 +121,43 @@ the simple edge wall. These integer identities were recomputed with SymPy;
 they demonstrate nonemptiness in characteristic zero, not a uniform witness
 in every characteristic.
 
-## Verification, sources, and limits
+## Finite parameter stratification, not a global fan
 
-An independent mathematical reviewer checked the valuation weights,
-primitivity, balancing, blowup chart, and exact scope. Source inputs:
+The frame space maps to \((\operatorname{Sym}^4\mathbf P^1)^4\) by its
+four root divisors. Pull back the finite root-labeling maps. Exact equality
+partitions of the 16 labeled roots are locally closed (equalities within
+blocks, inequalities between them); their finite permutation-orbit unions
+descend to constructible subsets of frame space. Each block specifies one
+order vector \(a_q\), so the weighted fan is constant on each such part.
+Empty patterns are discarded; no claim that all patterns occur is needed.
+After a finite base change labeling roots in a specialization, blocks can
+coalesce and their vectors add. This does not assert that every coarsening
+occurs or that partition order equals the closure order of realized strata.
 
-- Repository audit: https://github.com/markluxton1/STCI/blob/9b7f30757eab14a5d4815c8682184399a35c7c32/research/cross_conversation_recovery_audit.md
-- The existing special-coordinate model, which is different: https://github.com/markluxton1/STCI/blob/9b7f30757eab14a5d4815c8682184399a35c7c32/research/arguments/torus/tropical_thickenings_and_endpoint_duality.md
-- Tevelev, *Compactifications of subvarieties of tori*, Definition 1.1 and
-  Lemma 2.2 for terminology and the orbit/valuation relation:
-  https://arxiv.org/html/math/0412329v3
-The argument and numerical witness were checked afresh in the recovery audit.
+All possible orders lie in the finite set \(\{0,\ldots,4\}^4\) with a zero
+coordinate. One smooth complete refinement containing all their primitive
+rays provides a common ambient modification for every frame. The ray-only
+open must still use each frame's realized rays: unused rays would destroy
+surjectivity of multiplication. This is not a canonical parameter-space fan.
 
-Tangencies, triple or simultaneous collisions, higher contact weights,
-compatibility of successive blowups, a global parameter-space fan, and exact
-identity with the original historical claim remain unverified. Nothing here
-constructs or obstructs a proper sole-support homogeneous pair for C.
+## Verification and remaining historical scope
 
-### Boundary of the claim
+Independent review reconstructed the lift and closed immersion, properness
+in the ray-only open, local flatness, smoothness criterion and weights.
+The retained rational witness was independently recomputed. The general
+proof does not depend on a finite sample or characteristic-zero arithmetic.
 
-The proof retained here is the normalization-valuation calculation and the
-transverse local edge-blowup calculation. No additional assertion is made
-that a ray-only toric open is a tropical compactification, or that its torus
-multiplication map is smooth, surjective or flat. Such an upgrade would
-require a separate global properness and orbit-by-orbit check. The local
-weights above do not depend on that upgrade.
+- Tevelev, [*Compactifications of subvarieties of tori*](https://arxiv.org/html/math/0412329v3),
+  Definitions 1.1/1.3 and Lemma 2.2, for compactification terminology and
+  the valuation/orbit relation. The required flatness is proved here.
+- Sturmfels–Tevelev, [*Elimination Theory for Tropical Varieties*](https://arxiv.org/abs/0704.3471),
+  Section 3, Definition 3.1/Lemma 3.2, for weights as orbit-intersection lengths.
+
+This closes the precise H07 contact/weight/toric-model questions for all
+realized frames. A historical “global fan over parameter space” remains
+undefined without a parameter lattice, moduli problem, and notion of wall.
+Resultant incidence divisors are not automatically polyhedral chambers.
+The original transcript was not recovered, so exact historical equivalence
+is not claimed. No assertion about unrestricted STCI or the unknown H17
+diagram follows. The [special two-ray compactification](tropical_thickenings_and_endpoint_duality.md)
+is a different coordinate choice, not a contradiction.
