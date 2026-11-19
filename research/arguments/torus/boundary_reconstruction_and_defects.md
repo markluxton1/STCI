@@ -17,6 +17,18 @@ The thickened whole boundary \(mD=V_+(B^m)\) is not merely a list of separate
 face restrictions. Throughout, equality there means equality as embedded
 subschemes, or equality of labeled sections when explicitly specified.
 
+**Data hierarchy.** Labeled equations on a whole thickened boundary determine
+its embedded zero scheme, which restricts to embedded facet schemes; reversing
+these forgetful steps is not automatic. The monomial gluing result below is
+for labeled sections, whereas the fixed-bidegree feasibility criterion is for
+embedded facet schemes. Agreement of the example's ideals modulo \(B^m\)
+also identifies its restricted ordinary Rees presentations, not arbitrary
+filtered/Rees diagrams. All ambient-marked jets determine a pure projective
+curve if it exists, but compatible formal data need not algebraize. Thus
+finite-order reconstruction, ideal descent, uniqueness and algebraization
+are different questions; no conclusion here covers an unspecified enrichment
+or excludes a general characteristic-zero STCI.
+
 ## Reconstruction of bounded-degree complete intersections
 
 **Proposition.** Fix an integer \(m\ge1\). Let \(Y,Y'\) be projective complete-intersection curves with
@@ -34,9 +46,10 @@ associated points, so \(B^m\) is a nonzerodivisor on each curve. A generator
  \longrightarrow\mathcal O_{Y'\cap mD}(d)\longrightarrow0
 \]
 therefore puts \(f|_{Y'}\) in the image of
-\(H^0(\mathcal O_{Y'}(d-4m))\). The Koszul resolution of the CI ideal,
-using the vanishing of intermediate cohomology of line bundles on
-\(\mathbf P^3\), gives \(H^1(\mathcal I_{Y'}(j))=0\) for all \(j\).
+\(H^0(\mathcal O_{Y'}(d-4m))\). The standard Koszul resolution of the CI ideal
+([Stacks, Lemma 15.31.2](https://stacks.math.columbia.edu/tag/062F)),
+using projective-space line-bundle cohomology
+([Stacks, Lemma 30.8.1](https://stacks.math.columbia.edu/tag/01XT)), gives \(H^1(\mathcal I_{Y'}(j))=0\) for all \(j\).
 Consequently \(H^0(\mathcal O_{Y'}(j))=0\) for \(j<0\), and
 \(H^0(\mathcal O_{Y'})=k\). For \(d<4m\), the restriction is zero. For
 \(d=4m\), it is \(cB^m\) for a scalar \(c\). If both curves contain \(C\),
@@ -71,7 +84,8 @@ Their ideals agree modulo \(B^m\), hence so do all embedded intersections
 with \(jD\), \(j\le m\). Yet their dense-torus supports differ.
 [R-0031](../../results/quartic_char2_fourth_equation_kernel.md) gives
 \(\sqrt I=I_C\). On \(G=0\) in the torus, write \(a=x_1\) and
-\(t=x_3/x_2\), so \(x_2=t^3,x_3=t^4\). The other perturbed equation is
+\(t=x_3/x_2\), so \(x_2=t^3,x_3=t^4\), \(B=at^7\) and
+\(q=t^3(t-a)\). Since \(F=(a-t)^4\) in characteristic two, the other perturbed equation is
 \[
  (a-t)\bigl((a-t)^{4n-1}+t^{7m+3}a^m\bigr).
 \]
@@ -81,7 +95,9 @@ extra torus support off \(C\). This is an unbounded-degree failure of
 finite-boundary reconstruction, not a contradiction to the degree bound.
 
 This example also preserves **ordinary Rees algebras after restriction**.
-A two-generator regular-sequence ideal \((f,g)\) is of linear type:
+A two-generator regular-sequence ideal \((f,g)\) is of linear type
+(the standard regular-sequence case in the authors’
+[Macaulay2 ReesAlgebra documentation](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/ReesAlgebra/html/index.html)):
 \[
  \operatorname{Rees}_S(f,g)=S[T_1,T_2]/(gT_1-fT_2).
 \]
@@ -95,12 +111,13 @@ other filtrations, retained global lifts, or all compatible formal jets.
 
 ## Labeled equations: ambiguity and a containment obstruction
 
-For a labeled degree-\(d\) section on \(mD\), the sequence
+For a labeled degree-\(d\) section on \(mD\), the standard Cartier restriction
+sequence ([Stacks, Remark 31.15.11](https://stacks.math.columbia.edu/tag/0C6K))
 \[
 0\to\mathcal O_{\mathbf P^3}(d-4m)\xrightarrow{B^m}
 \mathcal O_{\mathbf P^3}(d)\to\mathcal O_{mD}(d)\to0
 \]
-shows that every section lifts and the ambiguity is \(B^mS_{d-4m}\).
+and the line-bundle cohomology cited above show that every section lifts and the ambiguity is \(B^mS_{d-4m}\).
 Facewise data must first define such a section on the union; agreement of
 supports is insufficient. Among lifts containing \(C\), the ambiguity is
 \(B^m(I_C)_{d-4m}\), because \(I_C\) is prime and \(B\notin I_C\).
@@ -204,7 +221,10 @@ Membership in \(V_d,V_e\) gives inclusion of \(Z_i\) in that section;
 equal finite lengths force equality as embedded schemes. The lower faces
 then agree by the stipulated compatibility. This proves sufficiency.
 
-The criterion is a finite polynomial feasibility problem. Choose bases of
+This is an equivalent formulation of existence, not a new obstruction or
+a tractability theorem. Its conceptual value is that the candidate spaces
+\(V_d,V_e\) encode exactly the facet constraints before the global
+sole-support condition is imposed. It becomes a finite polynomial feasibility problem. Choose bases of
 \(V_d,V_e\), and a finite homogeneous generating set for the ordinary power
 \(I_C^\ell\). For each generator \(p\) of degree \(r\), impose
 \(p=A_pf+B_pg\), with unknown homogeneous coefficient vectors of degrees
