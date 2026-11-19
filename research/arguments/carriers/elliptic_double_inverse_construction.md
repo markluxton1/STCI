@@ -19,8 +19,8 @@ from commit `b271fc5bf20a6920b1540cabd57f095139d8d7a5`. Its execution and
 the independent October 31 existence audit are reused. The retirement replay
 matched the [historical output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/stci_game_existence_2026_10_30.txt). The unrestricted
 characteristic-zero STCI question remains open.
-Independent preservation review accepted this integrated proof, including
-all section rows, full scheme/support tests, rank strata and conditional filters.
+The review status of the extension to every smooth basepoint-free fiber
+is recorded with [R-0076](../../results/elliptic_inverse_support.md#review).
 
 ## 1. The torsion discrepancy supplies actual quadratic sections
 
@@ -303,7 +303,7 @@ No universal degree-six or degree-eight matrix computation is claimed.
 
 Fix any smooth source quadric \(S=S_\mu\) and basepoint-free sections
 in (5). Write \(M=\mathcal O_S(1)\), \(H=M^2\), and let \(f\) be their
-finite map. The target quadric has coordinates
+finite map. The target quadric \(Q\) has coordinates
 \([u_0v_0:u_1v_0:u_0v_1:u_1v_1]\). If the entire image lay on that
 quadric, the pullbacks of its rulings would be nef of square zero with
 sum \((2,2)\). They would have classes \((2,0),(0,2)\), both of
@@ -312,26 +312,54 @@ Thus \(q(U)=U_0U_4-U_1U_3\) cuts a divisor \(Y=E+D\), where
 \(D\sim H\) is cut by \(d=q(U)/Q_0\).
 
 Let \(A,B\) be the pulled-back ruling bundles on \(Y\), in that order.
-Their product is \(H|_Y\). If the map has generic degree \(r\) and
-image degree \(e\), then \(re=H^2=8\). By the projection formula
-\(f_*[Y]\) is the class \((re,re)\) on the target quadric. It follows
-that the ruling degrees are \((8,8)\) on \(Y\) and \((6,2)\) on \(D\).
-If \(D\) contained \(E\), their equal divisor classes would force
-\(D=E\), contradicting the second ruling degree. No component of \(D\)
-can map to \(C_0\). Finiteness would make it surject onto \(C_0\) and
-contribute at least three to that same degree.
+Their product is \(H|_Y\). Let \(X=f(S)\) be the integral image
+hypersurface of degree \(e\), and let \(r=[k(S):k(X)]\), so
+\(re=H^2=8\). The Cartier divisor \(Y\) on \(S\) is the pullback
+of \(X\cap Q\) on \(X\). Pushforward of Cartier divisor cycles gives
+\(f_*[Y]=r[X\cap Q]\) as cycles on \(Q\). The equation of \(X\)
+restricts to a section of \(\mathcal O_Q(e,e)\) cutting out \(X\cap Q\).
+Thus the two ruling degrees on \(Y\) are \((8,8)\).
+[Cartier divisor pushforward, Stacks Project, Lemma 42.26.3](https://stacks.math.columbia.edu/tag/02ST)
+
+Degrees on a curve are the sums of the degrees on its integral
+components weighted by their generic lengths. Subtracting the ruling
+degrees \((2,6)\) on \(E\) gives \((6,2)\) on \(D\). Write
+\([D]=\sum_i m_i[C_i]\) with distinct integral curves \(C_i\) and
+multiplicities \(m_i\ge1\). Finiteness gives integral image curves
+\(T_i=f(C_i)\) and degrees \(\delta_i=[k(C_i):k(T_i)]\ge1\).
+In particular
+\[
+ 2=\deg_D B=\sum_i m_i\delta_i\deg_{T_i}\mathcal O_Q(0,1).
+\]
+Every summand is nonnegative. If \(T_i=C_0\), its summand is
+\(3m_i\delta_i\ge3\), since the second ruling has degree three on
+\(C_0\). This is impossible, and in particular \(E\) is no component
+of \(D\). [Degree on a proper curve, Stacks Project, Lemma 33.44.6](https://stacks.math.columbia.edu/tag/0AYW)
 
 On the target quadric the graph of \(C_0\) has equation
 \(u_0^3v_1-u_1^3v_0=0\). Its pullback to \(Y\) is zero on \(E\).
-The ideal of \(E\) in \(E+D\) is \(\mathcal O_D(-E)\), with injection
-given by multiplication by \(Q_0\). Dividing therefore yields a section
-\(s'\) of \(A^3B\otimes\mathcal O_D(-E)=A^2|_D\). It vanishes
-identically on no component of the Cartier curve \(D\), so its zero
-scheme \(Z\) is Cartier of length twelve. This includes reducible and
-nonreduced \(D\). Off \(E\), its zeros are exactly the inverse of
-\(C_0\), scheme-theoretically. **Full inverse support is equivalent to
-\(|Z|\subset E\).** Only the portion of the length twelve away from
-\(E\) is an extra inverse scheme.
+The ideal of \(E\) in \(E+D\) is \(\mathcal O_D(-E)\), with its
+inclusion into \(\mathcal O_Y\) given by multiplication by \(Q_0\).
+Dividing the pullback by \(Q_0\) therefore gives
+\(s'\in H^0(D,A^2|_D)\), using \(AB=H|_Y\) and \(\mathcal O_S(E)=H\).
+The generic point of each \(C_i\) lies outside \(E\) and maps outside
+\(C_0\), so \(s'\) is nonzero on the residue field there. As an effective
+Cartier divisor on the smooth surface \(S\), \(D\) is a
+Cohen–Macaulay curve whose associated points are precisely these
+generic points, including when \(D\) is nonreduced. Thus \(s'\) is a
+nonzerodivisor and defines an effective Cartier zero scheme \(Z\) on
+\(D\). The sequence
+\[
+ 0\longrightarrow\mathcal O_D\xrightarrow{s'} A^2|_D
+   \longrightarrow A^2|_Z\longrightarrow0
+\]
+gives \(\operatorname{length}(Z)=\deg_D(A^2)=2\cdot6=12\).
+Off \(E\), \(Q_0\) is invertible and \(Y=D\), so \(Z\) there is
+scheme-theoretically the inverse of \(C_0\). **Full inverse support is
+equivalent to \(|Z|\subset E\).** The extra inverse scheme is the
+portion of \(Z\) away from \(E\).
+
+#### Matrix formulation
 
 There is a single matrix test throughout the basepoint-free locus. In
 the homogeneous coordinate ring \(R\) of the source quadric, put
@@ -339,87 +367,78 @@ the homogeneous coordinate ring \(R\) of the source quadric, put
  g_0=(U_0^2U_3-U_1^3)/Q_0,\qquad
  g_\infty=(U_3^3-U_1U_4^2)/Q_0 .
 \]
-These are quartics. Restricted to \(D\), they are \(v_0^2s',v_1^2s'\),
-where the two \(v_i\) denote the pulled-back ruling sections. Full
-inverse support holds exactly when
+The numerators vanish on \(E\), so these quotients are quartics.
+Substituting the Segre coordinates into the two cubics gives
+\(v_0^2(u_0^3v_1-u_1^3v_0)\) and \(v_1^2(u_0^3v_1-u_1^3v_0)\),
+respectively. Dividing on \(Y\) by \(Q_0\) as above shows that
+\(g_0|_D=v_0^2s'\) and \(g_\infty|_D=v_1^2s'\), with the
+\(v_i\) pulled back to \(D\). Full inverse support holds exactly when
 \[
  Q_0^{12}\in dR_{22}+g_0 R_{20}+g_\infty R_{20}\subset R_{24}.
 \tag{9}
 \]
 Indeed \(Q_0^{12}\) vanishes on \(Z\) exactly when \(Q_0\) vanishes
 on its support, since each Artin local ring has length at most twelve.
-The unaugmented column space on the right has dimension \(613\).
-Multiples of \(d\) contribute \(529\). Modulo these, restriction
-identifies the target with \(H^0(D,M^{24})\) of dimension \(96\).
-Restriction in degrees 20 and 24 is onto by the divisor sequence on the
-quadric. The two endpoint columns, with their multipliers, span precisely
-the sections vanishing on \(Z\), of dimension \(96-12=84\).
+Identify \(R_n=H^0(S,M^n)\) by the hypersurface sequence. For
+\(n=20,24\), the divisor sequence for \(D\) gives a surjective
+restriction to \(H^0(D,M^n)\) with kernel \(dR_{n-2}\), since
+\(H^1(S,M^{n-2})=0\) on the product of projective lines. Thus the
+\(d\)-multiples span a subspace of dimension \(23^2=529\) in degree 24,
+and the quotient is \(H^0(D,M^{24})\) of dimension \(25^2-23^2=96\).
 
-For the last assertion, the basepoint-free pencil \(v_0^2,v_1^2\) has
-kernel \(B^{-2}\) as a map from \(\mathcal O_D^2\) to \(B^2\).
-Tensor with \(M^{20}\), and then multiply the image by \(s'\).
-Surjectivity on sections and the dimension count use respectively
+The two cohomology groups needed on \(D\) are
 \[
- H^1(D,M^{20}B^{-2})=0,\qquad H^1(D,M^{24}A^{-2})=0 .
+ H^1(D,M^{20}B^{-2})=0,\qquad H^1(D,M^{24}A^{-2})=0.
 \]
-Adjunction gives \(\omega_D=\mathcal O_D\). The dual bundles have
-strictly negative degree on each integral component, since \(M\) is
-ample and the total degrees of \(B,A\) on \(D\) are two and six.
-To obtain vanishing of sections also on a repeated component, remove
-one reduced component at a time in the divisor sequence. The kernel
-on the removed component is further twisted by minus the remaining
-divisor. Effective divisors on a smooth quadric have nonnegative
-intersection, including self-intersection. These kernel terms still
-have negative degree. This proves (9) and the asserted rank.
+Adjunction on the smooth quadric gives \(\omega_D\simeq\mathcal O_D\).
+By Serre duality it suffices to show that \(M^{-20}B^2\) and
+\(M^{-24}A^2\) have no sections on \(D\). On each integral \(C_i\),
+the ruling degrees are nonnegative, since the bundles are pulled
+back from the two projective lines. Their multiplicity-weighted totals
+give \(0\le\deg_{C_i}B\le2\) and \(0\le\deg_{C_i}A\le6\).
+As \(\deg_{C_i}M\ge1\), the two dual degrees are at most \(-16\)
+and \(-12\), respectively.
 
-Independent review checked the ruling degrees, the Cartier quotient
-and the matrix span, including repeated components. The geometric
-support test (9) and the pure-power descent test (8) concern different
-sections. A fiber passing (9) still requires an actual identity (8).
+For either dual bundle \(L\), take an effective subdivisor \(T\) of
+\(D\) and remove one copy of any integral component \(C_i\), writing
+\(T=C_i+T'\). The divisor sequence on \(S\), tensored on \(T\)
+by \(L|_T\), gives
+\[
+ 0\longrightarrow L|_{C_i}\otimes\mathcal O_{C_i}(-T')
+   \longrightarrow L|_T\longrightarrow L|_{T'}\longrightarrow0 .
+\]
+This follows locally by multiplying by an equation of \(T'\), and
+holds when \(T'\) still contains \(C_i\). Both \(T'\) and \(C_i\)
+have nonnegative bidegrees on \(S\), so \(T'\cdot C_i\ge0\).
+The kernel therefore has negative degree on the integral curve
+\(C_i\). Induction on the sum of the multiplicities of \(T\) gives
+\(H^0(D,L)=0\), proving both vanishings.
+
+On \(D\), the basepoint-free pencil \(v_0^2,v_1^2\) gives a
+surjection \(\mathcal O_D^2\to B^2\) with kernel \(B^{-2}\).
+After tensoring by \(M^{20}\), the first vanishing makes it
+surjective on sections. Multiplication by the regular section \(s'\)
+identifies its image bundle \(M^{20}B^2=M^{24}A^{-2}\) with
+\(\mathcal I_{Z/D}M^{24}\). Since the multipliers in degree 20
+all lift to \(R_{20}\), the \(g_0,g_\infty\) multiples span
+all of \(H^0(D,\mathcal I_{Z/D}M^{24})\) modulo \(dR_{22}\).
+The second vanishing gives surjectivity of the restriction from
+\(H^0(D,M^{24})\) to \(H^0(Z,M^{24})\), so this span has dimension
+\(96-12=84\). The right side of (9) is therefore the full space of
+forms vanishing on \(Z\), of rank \(529+84=613\).
+
+A birational fiber passing the geometric support test (9) requires
+an actual identity (8) to produce a mate.
+[Review status of STCI-R-0076](../../results/elliptic_inverse_support.md#review)
 
 ### The characteristic-zero center line
 
-Fix \(\mu=2\), \(\rho_0=\rho_1=\rho_3=0\), and let \(p=\rho_4\)
-vary over an algebraically closed field of characteristic zero. If a basepoint-free
-fiber has full inverse support, its length-twelve scheme \(Z\) is supported
-on \(E\) and in particular meets \(E\). On \(D\), the sections
-\(g_0,g_\infty\) cut out \(Z\), since the two ruling coordinates have
-no common zero. Consequently a necessary condition on \(p\) is that
-\(d,g_0,g_\infty\) have a common zero on \(E\).
-
-The exact calculation divides the three numerators by \(Q_0\) modulo
-\(Q_1+2Q_0\) and verifies the division identities. It imposes
-\((Q_0,Q_1)\) and the three divided equations on each of the four
-projective charts \(Z_j=1\). The intersection of the four elimination
-ideals is generated by a squarefree degree-six polynomial in \(p\) over
-\(\mathbf Q(i)\). These elimination ideals describe the closures of the
-chart images. Since the resulting polynomial has coefficients in
-\(\mathbf Q(i)\), its six geometric roots exhaust the candidates even
-after extending the algebraically closed base field.
-
-The calculation next imposes this polynomial and the full undivided
-inverse equations (7) on \(Q_0=1\). The elimination ideal is the same.
-Because the image is contained in the six-point set, it is already
-closed over the algebraic closure. Thus each candidate has an inverse
-point away from \(E\). The simultaneous vanishing of the four section
-rows has no solution on that chart at these parameters, by the unit
-ideal test. The rows have no basepoint on \(E\) by the morphism (2), so
-all six candidates are basepoint-free. The other parameters cannot
-satisfy the necessary condition \(Z\cap E\ne\varnothing\) on a
-basepoint-free fiber. Hence no basepoint-free fiber of the line has full
-inverse support, excluding every homogeneous mate for the octics in
-this line by the Cartier-divisor argument of §3.
-
-Independent review checked the chart cover, both elimination images and
-the basepoint test, and replayed the [characteristic-zero elimination script](../../investigations/stci-equation-search/elliptic_center_line.m2)
-from the repository root.
-
-```sh
-M2 --script research/investigations/stci-equation-search/elliptic_center_line.m2
-```
-
-For the separate finite-field candidate computation, see the
-[\(\mathbf F_5\) evidence](../../computations/README.md#elliptic-double-inverse-candidate-search-over-f5).
+On the line \(\mu=2,\ \rho_0=\rho_1=\rho_3=0,\ \rho_4=p\), every
+basepoint-free characteristic-zero fiber fails the full inverse support
+test. For a birational fiber the Cartier-divisor argument of §3
+therefore excludes a homogeneous mate of every positive degree for its
+implicit octic. [Exact elimination and replay in STCI-I-0005](../../investigations/stci-equation-search/index.md#characteristic-zero-center-line)
+· [Separate finite-field test](../../investigations/stci-equation-search/index.md#finite-field-candidate-search).
 
 ## 6. Low-degree filters and the constructive question that remains
 

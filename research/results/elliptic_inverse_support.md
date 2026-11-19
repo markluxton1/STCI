@@ -9,8 +9,7 @@ proofs:
     at: "research/arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber"
     using: []
     review:
-      state: accepted
-      basis: reconstructed
+      state: pending
       at: "#review"
 ---
 # Full inverse support in the marked elliptic double-cover construction
@@ -27,13 +26,19 @@ before testing whether \(f\) is birational onto its image.
 
 ## Statement
 
-The pullback of the unique target quadric through \(C_0\) is \(E+D\).
-The residual divisor \(D\) carries a Cartier zero scheme \(Z\) of length
-twelve. Off \(E\), it agrees scheme-theoretically with \(f^{-1}(C_0)\).
-Thus the full reduced inverse is \(E\) exactly when \(|Z|\subset E\).
-This holds for reducible and nonreduced \(D\) as well. Equivalently,
-adjoining the column \(Q_0^{12}\) in equation (9) preserves rank 613.
-[Geometric proof and matrix](../arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber)
+**Residual scheme.** The pullback of the unique target quadric through
+\(C_0\) is \(E+D\). The divided equation of \(C_0\) defines a Cartier
+zero scheme \(Z\) of length twelve on \(D\), including when \(D\) is
+reducible or nonreduced.
+
+**Full inverse support.** Off \(E\), the scheme \(Z\) agrees with
+\(f^{-1}(C_0)\). Since \(f(E)=C_0\), the full reduced inverse is
+\(E\) exactly when \(|Z|\subset E\). [Geometric proof](../arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber)
+
+**Matrix formulation.** The unaugmented matrix in (9) spans the
+degree-24 forms on the source quadric vanishing on \(Z\) and has rank
+613. Adjoining the column \(Q_0^{12}\) preserves that rank exactly
+when \(|Z|\subset E\). [Column-span proof](../arguments/carriers/elliptic_double_inverse_construction.md#matrix-formulation)
 
 ## Limitations
 
@@ -46,9 +51,7 @@ octic. The completed parameter-line search found no eligible fiber.
 
 ## Review
 
-Independent reconstruction checked the ruling degrees on \(E+D\) and
-on \(D\), the Cartier division by \(E\), the length, and the column
-span in (9), including its cohomology on repeated components. The
-characteristic-zero center line has a separate exact elimination and
-replay. [Geometric review](../arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber) ·
-[Application to the line](../arguments/carriers/elliptic_double_inverse_construction.md#the-characteristic-zero-center-line)
+Review of the revised proof route is pending. The PR review requested
+the componentwise degree estimates, the argument on repeated components
+and the full column span in (9). The investigation records the separate
+parameter-line and finite-field computations. [PR review](https://github.com/markluxton1/STCI/pull/154#pullrequestreview-5977922254) · [Bounded computations](../investigations/stci-equation-search/index.md#findings)

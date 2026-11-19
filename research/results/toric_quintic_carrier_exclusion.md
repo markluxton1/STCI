@@ -9,8 +9,7 @@ proofs:
     at: "research/arguments/carriers/quintic_toric_center_incidence.md#1-geometric-object-and-scope"
     using: [STCI-R-0003]
     review:
-      state: accepted
-      basis: reconstructed
+      state: pending
       at: "#review"
 ---
 # Toric quintic normalizations exclude every mate degree
@@ -45,10 +44,9 @@ arbitrary higher-degree carriers. [Degree-five bounds](../frameworks/carrier-nor
 
 ## Review
 
-The marked-source classification, finite and one-infinity charts, and
-the three previously settled exceptional curves retain their recorded
-reviews. For the last exceptional curve an independent replay checked
-the coefficient equations, all four factors of the projected resultant
-gcd, their specialized fibers and the nonvanishing conditions. Combined
-with the preceding cases, this exhausts the centers that could yield a
-mate. [Last elimination and exact evidence](../arguments/carriers/quintic_toric_center_incidence.md#exact-elimination-on-m0)
+Review of the combined proof route is pending. The PR review requested a
+traceable reduction from a hypothetical mate to the marked source and an
+explicit proof that the specialized fibers exhaust the last center locus.
+The exact replay checks the polynomial identities and specialized gcds in
+that last step. [PR review](https://github.com/markluxton1/STCI/pull/154#pullrequestreview-5977922254) ·
+[Last elimination and exact evidence](../arguments/carriers/quintic_toric_center_incidence.md#exact-elimination-on-m0)
