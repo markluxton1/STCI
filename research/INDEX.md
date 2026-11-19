@@ -13,6 +13,7 @@ exceptional contact, and the residual projective cycle play different
 roles. Sole support is the case \(R=0\).
 
 To develop or compare approaches, start with the [framework map](MAP.md).
+For the consolidated re-entry list, see [open items and proof opportunities](investigations/proof-audit/open-items.md) and the [cross-repository mechanism audit](investigations/proof-audit/cross-repo-audit.md).
 For a durable ranked research queue, see [proof priorities by potential knowledge gain](investigations/proof-audit/knowledge-gain-priorities.md), with explicit first tests and limits on what each outcome would establish.
 For the embedding itself, see the [fixed curve geometry](arguments/curve/fixed_quartic_geometry.md)
 and [special plane and line sections](arguments/curve/special_plane_and_line_sections.md).
