@@ -5,6 +5,8 @@ of any characteristic. It clarifies the prescribed bundle types in the
 [global Chow-resultant criterion](global_equations_and_constructions.md#p-033-the-global-chow-resultant-certificate).
 It gives neither a new supported pair nor an exclusion of all such pairs.
 
+The companion [full Chow-polytope rigidity proof](chow_polytope_rigidity.md) classifies certain effective cycles from their full column-weight polytope in every characteristic. It is a cycle-level constraint, not a construction of any of the bundle maps below.
+
 ## A general Hom identity on the Grassmannian
 
 Let \(G=\operatorname{Gr}(2,V)\), with \(\dim V\ge3\) and tautological
