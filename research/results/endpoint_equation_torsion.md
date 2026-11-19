@@ -341,6 +341,75 @@ one, and (3) gives \(\kappa_L=0\). The two actual pencils thus distinguish
 a line carrying a missed relation from a line carrying residual cycle
 multiplicity while keeping even the extreme equations fixed.
 
+### The complete detection stratification of a two-parameter pilot
+
+The two controls above belong to one actual degree-\((6,6)\) family.
+Over an algebraically closed characteristic-zero field, keep
+\(q=xw-yz\), \(A=x^2z-y^3\), and take
+\[
+ G=x^3zq,\qquad F_{\lambda,\mu}=x^2wA+\lambda q^3+\mu w^2q^2,
+ \qquad (\lambda,\mu)\ne(0,0).
+\tag{P1}
+\]
+Each pair contains the marked quartic and is proper. Indeed no factor
+\(x,z,q\) of \(G\) divides \(F_{\lambda,\mu}\): modulo \(x\)
+the latter is \(y^2z^2(-\lambda yz+\mu w^2)\ne0\); modulo \(z\)
+it is \(x^2w(-y^3+\lambda xw^2+\mu w^3)\ne0\); modulo \(q\)
+it is \(x^2wA\ne0\). The omitted origin is not proper.
+All pairs therefore have the same CI Hilbert polynomial \(36n-144\).
+
+Their positive torus degenerations, after stripping the common parameter
+weights, are
+\[
+ f=x^2wA+\lambda t^5q^3+\mu t^9w^2q^2,\qquad g=x^3zq.
+\tag{P2}
+\]
+Thus all have the same extremes, common factor \(H=x^2\), and
+\(e_L=1\) at the fixed line \(L=V(x,w)\). Nevertheless the exact
+first-layer missed lengths and flat-limit multiplicities are
+\[
+\begin{array}{c|cc}
+ &\kappa_L&\operatorname{mult}_L[Y_0]\\\hline
+ \lambda\ne0&1&0\\
+ \lambda=0,\ \mu\ne0&0&6.
+\end{array}
+\tag{P3}
+\]
+
+For the first row localize the total ring at \((t,x,w)\), so
+\(z,q,A\) are units. The raw ideal contains \(x^3\), and its other
+equation becomes
+\[
+ x^2wA+t^5q^3(\lambda+\mu t^4w^2/q)=0.
+\]
+The parenthesis is a unit. Hence \(t^5\) is a multiple of \(x^2\)
+in the raw quotient, so \(t^{10}=0\). Saturating by \(t\) gives the
+unit ideal at this stalk. The flat special stalk is zero; the exact
+first-layer identity (3) then gives \(\kappa_L=e_L=1\).
+
+For the second row \(\mu\) is a nonzero constant. The same saturation
+argument as for the companion above gives \(xw^2\) and then \(w^3\)
+in the saturated ideal, in addition to the initial \(x^3,x^2w\).
+Thus \((x,w)^3\) is contained in the flat special stalk. Conversely,
+at parameter one the first equation modulo \(x\) is the nonzero unit
+multiple \(\mu y^2z^2w^2\). Since \(x\) is a nonzerodivisor modulo
+that equation, quotienting by \(x^3\) gives length six. The fixed line
+therefore occurs in the moving intersection with multiplicity six;
+effective cycle specialization preserves that summand. The special
+stalk has length at least six and is a quotient of the length-six ring
+\(k(y,z)[[x,w]]/(x,w)^3\), so equality holds. The image of \(H=x^2\)
+has length one there, and (3) gives \(\kappa_L=0\).
+
+This is a complete, bounded comparison on (P1), not a universal
+projective estimate. The joint first-layer kernel exhausts \(e_L\)
+on the dense open \(\lambda\ne0\), despite properness, fixed extremes
+and a fixed CI polynomial. It drops on the divisor \(\lambda=0\),
+where an actual residual line appears. Thus those inputs alone cannot
+force a strict upper bound \(\kappa_L<e_L\), even on this explicit
+family. All its members are residual controls, not candidate supported
+pairs; the unrestricted KG02 question still requires additional actual
+source constraints on a separately specified family.
+
 ## Test on supplied equations
 
 The [Macaulay2 line test](../arguments/torus-sextic-controls.support/endpoint_line_test.m2)

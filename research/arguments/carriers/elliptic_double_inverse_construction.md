@@ -359,6 +359,73 @@ scheme-theoretically the inverse of \(C_0\). **Full inverse support is
 equivalent to \(|Z|\subset E\).** The extra inverse scheme is the
 portion of \(Z\) away from \(E\).
 
+#### The support locus is a nilpotence locus inside a proper norm divisor
+
+Work over an algebraically closed characteristic-zero field and let U be
+the nonempty open subset of the five-parameter space where the source
+quadric is smooth and the four sections are basepoint-free. No birationality
+assumption is needed for the support calculation in this paragraph.
+The original member belongs to U. The relative constructions above produce
+D and its residual zero scheme Z over U, and
+
+    pi:Z -> U is finite flat of degree twelve.
+
+Here is the family justification, rather than an inference from sampled
+ranks. The universal source surface is smooth over U. The section d is a
+nonzerodivisor on every surface fiber, as proved above, so D is a relative
+effective Cartier divisor and is flat over U. The section s' is a
+nonzerodivisor on every D fiber, including reducible and nonreduced fibers.
+The fiberwise Cartier criterion therefore makes Z flat over U. Its fibers
+have length twelve by the preceding degree calculation. It is proper and
+quasi-finite over U, hence finite; finite flatness gives rank twelve.
+The bundles and the section s' are relative: the two ruling bundles are
+pulled back along Y->Q, and division by Q0 uses the same Cartier divisor
+sequence as on each fiber.
+
+Put L=M^2|Z, so Q0 restricts to a section of L. Multiplication by this
+section is a map between rank-twelve vector bundles on U,
+
+    pi_*O_Z --Q0--> pi_*L.
+
+Its determinant is the norm section in
+`det(pi_*L) tensor det(pi_*O_Z)^(-1)`. At a geometric parameter point it
+is nonzero exactly when Q0 is a unit at every point of the finite scheme
+Z, equivalently Z is disjoint from E. The original member has all twelve
+units of length away from E, so this norm section is nonzero there.
+Since U is integral, its zero scheme is a proper effective Cartier divisor
+(or empty). Thus a dense open subset of the **whole five-parameter family**
+has Z disjoint from E and fails full inverse support. Every possible
+full-support fiber lies in this proper norm-divisor locus. This is a
+restriction on the remaining parameter locus, not its exclusion.
+
+The norm detects whether *some* residual inverse point meets E; it does
+not detect whether *all* of them do. Locally on U one can trivialize L
+over the finite scheme Z: choose a generator on the finite Artin fiber,
+lift it, and shrink the base so that it remains a generator. Then Q0 is
+an element q of the rank-twelve finite algebra pi_*O_Z. At geometric
+points the following conditions are equivalent:
+
+- all of Z is supported on E;
+- q is nilpotent;
+- the characteristic polynomial of multiplication by q is t^12.
+
+The last equivalence follows because an Artin algebra element is nilpotent
+exactly when it lies in every maximal ideal; equivalently all eigenvalues
+of its multiplication operator vanish. Cayley--Hamilton then gives
+q^12=0. Consequently, besides the determinant, all the other eleven
+characteristic coefficients must vanish. These are algebraic conditions
+on each such local trivialization, not independent conditions whose
+codimension is asserted to be twelve.
+
+There is also a global formulation without choosing that trivialization:
+Q0^12 is a section of the rank-twelve bundle pi_*(M^24|Z), and its zero
+locus has exactly the geometric full-support fibers. This is the intrinsic
+length-twelve quotient behind the degree-24 matrix test (9). The possible
+nonreduced scheme structures defined by the power section and by the
+characteristic coefficients are not identified here; only their geometric
+zero loci are asserted to coincide. Neither the norm condition nor this
+support test supplies descent of a pure power to an actual ambient equation.
+
 #### Matrix formulation
 
 There is a single matrix test throughout the basepoint-free locus. In

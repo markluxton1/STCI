@@ -61,16 +61,18 @@ replaying the old inventory or re-auditing every archived file.
   reduction. [Depth](../../arguments/residuals/generic_contact_depth.md#4-smooth-quadric-family)
   · [Horizontal paths](../../arguments/residuals/horizontal_blowup_recursions.md)
   · [Actual finite jets](../../arguments/residuals/finite_normal_jets.md).
-- **First test.** On an actual pair with a single common horizontal
+- **Checked uniform sector.** The [moving-relation theorem](../../arguments/equations/global_lifting_interfaces.md#a-uniform-nonvanishing-theorem-in-relation-degree-at-least-two) proves the next-order class is nonzero in characteristic zero for saturated degree-one movement, relation degree at least two, and no independent next relation. The mechanism is incompatibility of shared Laurent corrections, not a sampled rank. The order-one geometric zero locus is classified separately, without a higher-lift or scheme-structure claim. Positive first-relation defect divisors and other normal initial ideals remain outside the theorem.
+- **Next test.** On an actual pair with a single common horizontal
   section through the first two blowups, express the next effective
   resultant defect in the two actual twisted coefficient sources.
   Prove a bound or an exact vanishing criterion that charges the deep
   contact to degree or to an actual boundary component. Use the
   fixed-tangent controls to reject a proposed budget before generalizing.
-  A narrower, already explicit model is the basepoint-free moving
-  first relation of degree one: characterize the zero locus of its
-  next-order obstruction uniformly in the relation order, and only
-  then introduce the divisor twists that record nonsaturation.
+  The basepoint-free moving first relation of degree one now has the
+  uniform nonvanishing theorem just stated in orders at least two.
+  Its next unresolved tests are the divisor twists that record
+  nonsaturation and higher lifting of the order-one zero locus; the quadric control
+  prevents an indiscriminate nonvanishing claim.
   [Moving-relation operator](../../arguments/equations/global_lifting_interfaces.md#8-the-next-order-operator-for-a-moving-relation).
 - **Decision.** A bound stronger than the required tail on this stratum
   is a real exclusion there. If the mechanism needs one section, it
@@ -90,7 +92,8 @@ replaying the old inventory or re-auditing every archived file.
   [R-0073](../../results/endpoint_equation_torsion.md#statement)
   · [Moving comparison](../quotient-hilbert-comparison/index.md#relation-persistence-control-and-remaining-bridge)
   · [Generator incidence](../supported-generator-incidence/index.md).
-- **First test.** Pick one declared proper bidegree family with
+- **Checked finite pilot.** The [two-parameter residual sextic family](../../results/endpoint_equation_torsion.md#the-complete-detection-stratification-of-a-two-parameter-pilot) has fixed extremes, \(e_L=1\), and a fixed CI polynomial, but its missed length is one on the dense parameter open and zero on a parameter divisor where the flat limit contains \(6[L]\). This exactly identifies the detection strata of that family. It shows why those shared data alone cannot provide the needed strict bound; it is not a supported construction or a closure of KG02.
+- **Next test.** Pick one declared proper bidegree family with
   \(e_L>0\). Derive a projective bound on the joint first-layer kernel
   directly from the two degree-labeled equation sources, on the **same**
   family at both ends. Check the \(W_0\) missed-class example first.
@@ -132,16 +135,17 @@ replaying the old inventory or re-auditing every archived file.
   instead uses a positive weighted boundary valuation on an actual
   affine-normalization ring. Neither proves the required hypotheses
   on the special closed complement.
-- **First test.** Choose one reduced residual quadric section outside
+- **Checked extension.** The [fixed-residual lifting lemma](../../arguments/curve/normalization_residual_capacity.md#an-actual-lifting-lemma-for-fixed-reduced-residuals) constructs actual integral carriers with reduced prescribed quadric residuals and verified normal-root/attachment hypotheses. The degree-seven/order-two pilot below is now proved, including its crossing matrix and sharp bound. Negative definiteness remains a separate test, not a consequence of arbitrary reduced residual data.
+- **Next test.** Choose one reduced residual quadric section outside
   that open with two intersecting components and actual branch
   attachments. Compute the strict curves' Cartier status, intersection
   matrix and weighted branch degrees on the **finite normalization**.
-  A concrete pilot is the degree-seven, order-two source, requiring
+  The now-verified [concrete pilot](../../arguments/curve/normalization_residual_capacity.md#the-degree-seven-pilot-including-the-crossing) is the degree-seven, order-two source, with
   residual bidegree \((5,1)\) on the quadric to split as
-  \((1,0)+(4,1)\). First verify actual lifts with one reduced
+  \((1,0)+(4,1)\). The proof verifies actual lifts with one reduced
   irreducible generic normal root, simple attachments, and regular
-  normalization along the strict residuals; these are requirements,
-  not properties inferred from the bidegrees. Then try the ruling
+  normalization along the strict residuals; these were requirements,
+  not properties inferred from the bidegrees. For a new residual pattern, try the ruling
   row-sum test. If it fails, identify whether a different test divisor
   or a verified weighted boundary certificate
   saves the bound. A resolution has extra hyperplane-null curves
@@ -162,7 +166,8 @@ replaying the old inventory or re-auditing every archived file.
   [Support criterion](../../results/elliptic_inverse_support.md)
   · [Family and descent](../../arguments/carriers/elliptic_double_inverse_construction.md#5-fiberwise-support-and-actual-descending-equations)
   · [Tested locus](../stci-equation-search/index.md#findings).
-- **First test.** Use the divisor of the length-twelve Cartier section
+- **Checked restriction.** The [relative length-twelve scheme](../../arguments/carriers/elliptic_double_inverse_construction.md#the-support-locus-is-a-nilpotence-locus-inside-a-proper-norm-divisor) is finite flat on the smooth basepoint-free open. Its norm is nonzero at the original member, so all full-support candidates lie in a proper norm divisor; a dense open of the entire five-parameter family fails support. Full support is the nilpotence locus, not merely vanishing of the norm. The remaining locus and descent are still unresolved.
+- **Next test.** Use the divisor of the length-twelve Cartier section
   and the elliptic cover to characterize the support-in-marked-curve
   locus over the **whole** smooth basepoint-free birational open.
   Retain nonreduced fibers and poles of any chosen coordinates.
@@ -249,7 +254,8 @@ replaying the old inventory or re-auditing every archived file.
   full module.
   [Current finite remainder](../../frameworks/local-cohomology/open_quartic_ancestors.md)
   · [R-0071 proof owner](../../results/quartic_ancestor_direction_reduction.md).
-- **First test.** Find a principal-parts or duality formulation of a
+- **Checked comparison.** The [dual-persistence lemma](../../arguments/local-cohomology/polynomial_duals_and_affine_pencils.md#what-persistence-of-a-two-target-dual-actually-requires) identifies the exact excess-intersection condition for changing actual multiplication sources, and a DVR Tor module for specialized duals that do not lift regularly. Fixed-source re-presentation is separated from enlargement of degrees or ancestors. These standard comparison arguments do not establish the needed all-degree maps or decide the remaining incidence.
+- **Next test.** Find a principal-parts or duality formulation of a
   covector separating the two targets on the remaining line and
   curve, including lower corrections and ambient coprimality. Ask
   explicitly whether it is compatible with the maps between orders
@@ -280,6 +286,10 @@ replaying the old inventory or re-auditing every archived file.
   theorem for reductions would be meaningful. A stronger nonlift
   for just the prescribed source still says nothing about unrelated
   characteristic-zero pairs.
+
+## Outcome of this bounded pass
+
+KG01, KG02, KG04, KG05 and KG09 have the scoped checked advances recorded above. None closes its unrestricted research question. KG03, KG06, KG07, KG08 and KG10 retain their first tests and stopping conditions: this pass adds no verified new result on those items. In particular no absorption-to-zero construction, remaining quintic classification, full sextic decision, uniform quadratic-root exclusion or presentation-independent arithmetic obstruction is claimed. The ranking measures potential knowledge gain, not completion.
 
 ## Where to start, and how to use the queue
 
