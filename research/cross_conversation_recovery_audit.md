@@ -6,7 +6,7 @@ Status: **in progress; provisional inventory, not mathematical authority**. Star
 
 Sources: accessible conversation-history retrieval (August–November 2026), recovered November 5 pasted proof transcripts, and keyword/content inspection of the current GitHub `main` tree. Conversation retrieval is selective, **not an exhaustive list of all chats/projects**. GitHub keyword matches show possible coverage, not proof-level identity. The repo's prior internal 344-file audit is not evidence that all historical chats were covered.
 
-Legend: **M** matching repo content (compare exact hypotheses before closing); **P** potential omission; **V** proof verification required; **X** rejected/false/superseded. Counts are *topic clusters*, not claims or conversations. No Result has been promoted in this audit.
+Legend: **M** matching repo content (compare exact hypotheses before closing); **P** potential omission; **V** proof verification required; **X** rejected/false/superseded. Counts are *topic clusters*, not claims or conversations. H15 has been integrated as R-0074; other recovered statements retain their scoped proof homes.
 
 | ID | Approx. source date | Recovered claim or construction | Repo comparison / source | Disposition / next gate |
 |---|---|---|---|---|
@@ -16,16 +16,16 @@ Legend: **M** matching repo content (compare exact hypotheses before closing); *
 | H04 | Oct 6–9 | Normal quartic carrier exceptional lattices, primitive classes, conductor descent; previous overbroad claims and failed saturation/local-cohomology arguments | `research/arguments/carriers/normal_primitive_carriers_and_bounds.md`; `normal_carrier_divisor_geometry.md` | M/V; no automatic promotion of historical exclusions |
 | H05 | Oct 6–7 | Entirely-thick necessary inequalities (ab\ge4pq), (7ab+28pq\ge16(aq+bp)); tangent symbols alone insufficient | `research/results/entirely_thick.md`; `research/arguments/normal-geometry/thick_equality_socle.md` | M; check exact hypotheses |
 | H06 | Oct 7 | Coordinate-torus compactification: (C^\circ\cong\mathbf G_m), tropical rays \(\pm(1,3,4)\); boundary descent creates residual line | `research/arguments/torus/tropical_thickenings_and_endpoint_duality.md` | M; substantially preserved |
-| H07 | Oct 7 | For a **general coordinate tetrahedron**, 16 distinct boundary punctures and four tropical rays of weight 4; proposed six edge-resultant walls / toric blowup interpretation | No direct `tetrahedron` match; coordinate-torus chapter is a *different* compactification | P/V; check wall/blowup statement, separate elementary four-ray fact |
+| H07 | Oct 7 | For a **general coordinate tetrahedron**, 16 distinct boundary punctures and four tropical rays of weight 4; proposed six edge-resultant walls / toric blowup interpretation | No direct `tetrahedron` match; coordinate-torus chapter is a *different* compactification | Bounded proof integrated: general four rays and one simple collision; broader fan claim open |
 | H08 | Oct 7 | Claimed generic affine two quadrics compactify to projective ((2,2)) CI | Explicitly retracted in historical discussion | X; exclude |
-| H09 | Oct 9 | Rational normal quartic in (\mathbf P^4): six minimal Hankel quadrics; three equations set-theoretically, not scheme-theoretically | No exact repo comparison yet | V; background, likely low priority |
+| H09 | Oct 9 | Rational normal quartic in (\mathbf P^4): six minimal Hankel quadrics; three equations set-theoretically, not scheme-theoretically | No exact repo comparison yet | Verified P4 set-support proof integrated; distinct from fixed P3 curve |
 | H10 | Oct 12 | Quintic normalization divisor identities (5c\sim4H), (5\ell\sim H), (c+\ell\sim H); descent through conductor unresolved | `research/arguments/carriers/quintic_conductor_geometry.md`, `root_descent_and_conductor_defects.md` | M/V; do not promote descent as solved |
 | H11 | Oct 19–25 | Characteristic-2 nonlinear transitions, ribbon/triple lifting and residual valuations | `research/arguments/arithmetic/z4_intrinsic_arithmetic_mechanism.md`; `research/arguments/residuals/valuations_and_residual_contact.md` | M; compare specific claims |
 | H12 | Oct 31 | Conditional sextic lift, (Q^3) freedom, root-node alternatives; Frobenius binomial components | `research/arguments/arithmetic/positive_characteristic_constructions.md`; sextic jet/spectral arguments | M/V; avoid conflating conditional and established claims |
 | H13 | Nov 1 | Hilbert full limits versus proper equation realization and descent | `research/arguments/torus_hilbert_boundary.md`; `research/results/supported_hilbert_full_limits.md` | M; crucial limitation explicitly retained |
 | H14 | Nov 5 | Finite embedded torus quotient, endpoint algebras, actual homogeneous equation criterion | `research/arguments/torus_embedded_quotients.md` | M; substantially preserved |
 | H15 | Nov 5 | **Chow-polytope rigidity**: (P_Z=mP_C\iff Z=\sum a_i[\lambda_iC]), (\sum a_i=m), over algebraically closed field | Recovered original proof from `Pasted text(20261105-173726).txt` and related pasted records. Search for “Chow polytope”, “oblique edges”, “Minkowski additivity” gave no direct repo matches | M; cycle-level theorem reconstructed and reviewed in [the full-weight proof](arguments/equations/chow_polytope_rigidity.md); no scheme or equation-realization claim |
-| H16 | Nov 5 | Chow rigidity identifies a **set**, not scheme structure, with (\operatorname{Sym}^m(T/T_C)); only after full Chow polytope equality, not projected polygon equality | Same recovered transcripts; `research/investigations/supported-generator-incidence/index.md` covers related incidence but not exact theorem | P/V; preserve caveats |
+| H16 | Nov 5 | Chow rigidity identifies a **set**, not scheme structure, with (\operatorname{Sym}^m(T/T_C)); only after full Chow polytope equality, not projected polygon equality | Same recovered transcripts; `research/investigations/supported-generator-incidence/index.md` covers related incidence but not exact theorem | Set-level bijection and exact curve stabilizer verified; scheme-locus claim excluded |
 | H17 | Nov 13 | Characteristic-two tetrahedral face-poset / enriched toric boundary diagram | No exact proof-level comparison yet | V; exploratory until checked |
 
 ## Priority proof gate: H15
@@ -36,11 +36,11 @@ The endpoint-support gate is proved by restricting the component Chow forms to h
 
 The [standard-library determinant replay](arguments/equations/chow_polytope_rigidity.support/verify.py) checks the three integer Sylvester determinants, exact initial coefficients, and unit-coefficient face witnesses. The written support and characteristic arguments received independent reconstruction; the final retained checker was replayed independently. This does not rely on the historical source's assertion of an audit.
 
-No typed Result has been added. The proof is integrated as an ordinary Argument; H16's precise parameter-space/stabilizer formulation remains a separate review item. Neither statement supplies two defining equations or scheme structure.
+R-0074 is the canonical Result. The [H16 follow-up](arguments/equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16) proves the exact curve stabilizer and symmetric-power bijection on geometric points, not a scheme-locus identification or equation realization.
 
 ## Priority recovery gate: H07
 
-For a general choice of four coordinate hyperplanes meeting (C) transversely in disjoint divisors of degree four, (C^\circ=\mathbf P^1\setminus16\) points. Tropical rays corresponding to the four boundary divisors have weights four. Distinguish this from the **special** coordinate torus compactification with only two rays. The proposed six edge-resultant walls and corresponding toric blowups remain conjectural/provisional until exact hypotheses and fan behavior are checked.
+For a general choice of four coordinate hyperplanes meeting (C) transversely in disjoint divisors of degree four, (C^\circ=\mathbf P^1\setminus16\) points. Tropical rays corresponding to the four boundary divisors have weights four. Distinguish this from the **special** coordinate torus compactification with only two rays. The [bounded H07 proof](arguments/torus/general_coordinate_boundary.md) verifies six edge-incidence resultant loci and the single simple collision: weights 3,3,4,4,1 and the corresponding edge blowup. Tangent/simultaneous collisions and a global parameter-space fan remain unverified.
 
 ## Explicit non-goals
 
@@ -51,9 +51,18 @@ For a general choice of four coordinate hyperplanes meeting (C) transversely in 
 
 ## Next audit pass
 
-1. Review H16's precise set-level parameter description and stabilizer separately; H15's cycle theorem and exact full-weight normalization are now integrated.
-2. Check H07 wall-crossing statements; preserve only verified geometry.
+1. H16's set-level description and exact curve stabilizer are checked; scheme structure is not inferred.
+2. H07 simple-edge geometry is checked; retain the broader wall/fan claims as open.
 3. Continue earlier August–October conversation retrieval in large thematic batches, deduplicate by mathematical claim, and close M items after exact content comparison.
 4. Only after verification, place genuinely new mathematics into an existing canonical Result/Argument/Framework/Investigation and retire this temporary ledger when its purpose is complete.
 
-**Coverage accounting:** 17 historical topic clusters inventoried; 1 new typed Result added ([R-0074](results/chow_polytope_rigidity.md)); H15 integrated with a reviewed cycle-level proof; remaining principal potential omissions H07 and H16, several matching-but-unclosed clusters. No exhaustive conversation count is available.
+**Coverage accounting:** 17 historical topic clusters inventoried; 1 new typed Result added ([R-0074](results/chow_polytope_rigidity.md)); H15 integrated with a reviewed cycle-level proof; H07 broader/global claims and H17 remain unverified, alongside several matching-but-unclosed clusters. No exhaustive conversation count is available.
+
+## Integrated follow-up and proof inventory
+
+The [bounded crosswalk](investigations/proof-audit/recovery-crosswalk.md) distinguishes exact owners from unverified historical equivalence. H09 now has a [three-equation set-support proof for the different P4 curve](arguments/curve/rational_normal_quartic_background.md#background-example-the-rational-normal-quartic-in-p4); H17 remains exploratory. The [linear-algebra inventory](investigations/proof-audit/README.md) and [file-level appendix](investigations/proof-audit/executable-evidence.md) are evidence maps, not new theorem classifications. R-0024 now has a geometric joint-rank proof while retaining its source-geometry certificate.
+
+This remains a provisional recovery ledger. Checked bounded statements are
+not claims of exact equivalence with unread historical transcripts; filename
+matches are navigation evidence only. Proof-replacement priorities in the
+inventory do not rank research approaches to unrestricted STCI.

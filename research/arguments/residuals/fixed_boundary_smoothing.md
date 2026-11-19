@@ -1,6 +1,7 @@
 # Independent node smoothing with the marked boundary fixed
 
 This is the full proof home for [R-0024](../../results/ci_quartic_fixed_boundary_smoothing.md), at the exact (1,1) pencil of [R-0023](explicit_quartic_residuals.md). It is a formal and etale-local theorem after splitting the five nodes, not a polynomial coefficient arc or a universal smoothing theorem.
+
 ## 1. The actual point and the two separate boundaries
 
 Use the homogeneous forms \(F,G,Q,A,D_3,H_0,H_1\) from the [smooth residual benchmark](explicit_quartic_residuals.md), but take coefficients 1,1:
@@ -101,13 +102,58 @@ D(h,k)=\det(\sigma_h,\sigma_g)
 \in H^0(\mathcal O_{\mathbf P^1}(18)).         \tag{5}
 \]
 
-Its target is represented by nineteen coefficients in \(u\). The node functional (4) is represented by five coefficients in the basis \(1,r,r^2,r^3,r^4\) of \(\mathcal A\). The combined matrix therefore has 24 rows and 36 columns over \(\mathbf Q\).
+## 4. Joint surjectivity by restriction and interpolation
 
-The [standard-library exact verifier](../../computations/verify_ci_fixed_boundary_node_smoothing_2026_10_25.py) constructs these actual source forms, the carrier functional, and both matrices. It does not replace global sections by arbitrary rational-function-valued symbols.
+Write \(p=C\cap L\), with \(u=r=-1\). We show that \((D,S)\) is onto over \(\mathbf Q\) by using perturbations that come from global quartics throughout.
 
-## 4. The exact ranks and explicit tangent witnesses
+**Fill the boundary directions vanishing at \(p\) without touching the nodes.** The quadric \(Q=x_0x_3-x_1x_2\) contains both \(C\) and \(L\). For any homogeneous quadric \(q\), the quartic \(Qq\) belongs to \(V\) and vanishes on \(L\), so perturbing either equation by it gives zero node class. Its first-normal symbol is \(q|_C\sigma_Q\), where \(\sigma_Q=(1,-u)\). The first-normal rows of (1) give
 
-Exact Gaussian elimination over \(\mathbf Q\) gives
+\[
+\begin{aligned}
+h_0(u)&=1+u^2+u^3+2u^5+u^6+u^8,\\
+h_1(u)&=2+u+3u^2+2u^4+5u^6+3u^7+7u^8,\\
+\sigma_f&=(h_0-1,-u h_0-1),\\
+\sigma_g&=(h_1-3u^8-2u^9,\,4u^9-u h_1+3u^{10}).
+\end{aligned}
+\]
+
+Here \(h_i=H_i|_C\) on \(s=1\): substituting \(x_2=u^3+Y\), \(x_3=u^4+X\) into the homogeneous forms of (1), the non-quadric terms \(F,x_0A,G,x_3D_3\) contribute \((-1,0),(0,-1),(-3u^8,4u^9),(-2u^9,3u^{10})\), respectively. The terms \(QH_i\) contribute \(h_i(1,-u)\). Thus
+
+\[
+\det(\sigma_Q,\sigma_g)=u^9(1+u),\qquad
+\det(\sigma_f,\sigma_Q)=1+u.
+\]
+
+Quadratic restrictions fill \(H^0(\mathcal O_{\mathbf P^1}(8))\): the quadrics \(x_0^2,x_0x_1,x_1^2,x_0x_2,x_0x_3,x_1x_3,x_2^2,x_2x_3,x_3^2\) restrict to the nine monomials \(s^{8-j}t^j\) for \(j=0,\ldots,8\), in that order. Writing \(q_C(s,t)\) for the homogeneous degree-eight restriction of \(q\), homogenize (5) to degree 18 with \(u=t/s\). The two variations \((Qq,0)\) and \((0,Qq)\) then give \((s+t)t^9 q_C\) and \((s+t)s^9 q_C\), respectively. After dividing by \(s+t\), the monomials in the first subspace have \(t\)-exponents 9 through 17, and those in the second have exponents 0 through 8. Together they give the whole degree-17 space, so before division they give exactly the sections of \(\mathcal O(18)\) vanishing at \(p=[1:-1]\). The joint image contains \(H^0(\mathcal O(18)(-p))\times 0\).
+
+**Read the last boundary value from restriction to \(L\).** In line coordinates \([x_0:x_1:x_2:x_3]=[-R:R:-S:S]\), the cubics \(A\), \(B=x_0x_2^2-x_1^2x_3\), and \(D_3\) in \(I_C\) restrict to \(R+S\) times \(R^2,-RS,-S^2\), respectively. Ambient linear forms restrict onto \(H^0(L,\mathcal O_L(1))\), so products with those cubics show that \(V\to H^0(L,\mathcal O_L(4)(-p))\) is onto. In particular, any polynomial of degree at most four divisible by \(r+1\) is an allowable restriction in the chart \(x_3=1\).
+
+For later use, here are global lifts of all the line restrictions used below. The functions in the first row are dehomogenized in \(x_3=1\); the second row consists of homogeneous quartics in \(I_C\).
+
+\[
+\begin{array}{c|ccccc}
+ h|_L & r+1 & r(r+1) & r^2(r+1) & r^3(r+1) & r(r+1)^2\\ \hline
+ h & -x_3D_3 & -x_1D_3 & x_3A & x_1A & x_3(A-B)
+\end{array}
+\]
+
+At \(u=-1\), the displayed rows, with \(h_0(-1)=1\) and \(h_1(-1)=15\), give \(\sigma_f(p)=0\) and \(\sigma_g(p)=14\sigma_Q(p)=(14,14)\). To compare the coordinate charts, write \(h_L(r)=h(-r,r,-1,1)\) and \(\widetilde h(u,X,Y)=h(1,u,u^3+Y,u^4+X)\). The line in the \(x_0=1\) chart is \((u,X,Y)=(-1,-1/r-1,1/r+1)\). By homogeneity,
+
+\[
+\widetilde h(-1,-1/r-1,1/r+1)=(-r)^{-4}h_L(r).
+\]
+
+At \(r=-1\), the factor \((-r)^{-4}\) has value one and \(h_L(-1)=0\), so the right-hand derivative is \(h_L'(-1)\). The left-hand derivative is \(0\cdot\partial_u\widetilde h+\partial_X\widetilde h-\partial_Y\widetilde h=A_h(p)-B_h(p)\) by the chain rule. Evaluating (5) at \(s=1,t=-1\) now gives
+
+\[
+D(h,k)(p)=14(A_h(p)-B_h(p))=14(h|_L)'(-1).
+\]
+
+In particular a \(k\)-only perturbation or an \(h\)-restriction with a double zero at \(p\) does not change this boundary value.
+
+**Interpolate the five node directions with \(D(p)=0\).** Divide the node class by the unit \(F_1(r+1)\) in \(\mathcal A\); indeed \(P(0)=2\), \(P(-1)=-14\), and \(P(-2)=-228\). Taking \(h=0\) and \(k|_L=(r+1)k_3(r)\), where \(\deg k_3\le3\), gives every degree-at-most-three class after this normalization. Taking \(k=0\) and \(h|_L=r(r+1)^2\) gives the normalized class \(G_1/(r+2)\), which is a degree-two polynomial plus \(57/(r+2)\), since \(G_1(-2)=57\). The unique representative of \((r+2)^{-1}\) modulo \(P\) of degree at most four has degree exactly four: otherwise \((r+2)b-1\) for a representative \(b\) of degree at most three would be divisible by \(P\) and have degree at most four, forcing the impossible polynomial identity \((r+2)b=1\). These variations span the five-dimensional node algebra while keeping \(D(p)=0\). Finally take \(h|_L=r+1\) to get \(D(p)\ne0\); variations with \(D(p)=0\) can then correct its node class independently.
+
+The image thus contains the boundary subspace vanishing at \(p\) paired with zero and surjects onto the complementary quotient \(\mathbf Q\oplus\mathcal A\), giving
 
 \[
 \boxed{\operatorname{rank}D=19,\qquad
@@ -121,7 +167,7 @@ The final equality implies
 \operatorname{rank}\bigl(S|_{\ker D}\bigr)=24-19=5.
 \]
 
-The calculation also solves explicitly for five rational source vectors \(v_0,\ldots,v_4\in V^2\) satisfying
+As independent computational evidence, the [standard-library exact verifier](../../computations/verify_ci_fixed_boundary_node_smoothing_2026_10_25.py) reconstructs these ranks in the actual global monomial-difference basis: nineteen boundary coefficients and five node coefficients on the 36-dimensional ordered source. It also produces five explicit rational source vectors \(v_0,\ldots,v_4\in V^2\) satisfying
 
 \[
 D(v_i)=0,\qquad S(v_i)=r^i\pmod P
@@ -130,7 +176,7 @@ D(v_i)=0,\qquad S(v_i)=r^i\pmod P
 
 Their 36 source coefficients are recorded in the [JSON evidence](../../computations/ci_fixed_boundary_node_smoothing_2026_10_25.json), together with the global monomial basis, polynomial (2), matrix pivot columns, and all checked ranks. The script verifies every equality in (7) exactly. These are actual homogeneous first-order perturbations with zero affine boundary derivative.
 
-The nodes need not be individually rational over \(\mathbf Q\). Equation(7) spans their étale algebra over \(\mathbf Q\). After extending to an algebraically closed field and splitting \(P\), evaluation identifies \(\mathcal A\otimes k\) with \(k^5\), so the five geometric node parameters are independent. Selecting only one geometric node may require coefficients in a splitting field; no assertion that all nodes are rational is made.
+The nodes need not be individually rational over \(\mathbf Q\). Equation (7) spans their étale algebra over \(\mathbf Q\). After extending to an algebraically closed field and splitting \(P\), evaluation identifies \(\mathcal A\otimes k\) with \(k^5\), so the five geometric node parameters are independent. Selecting only one geometric node may require coefficients in a splitting field; no assertion that all nodes are rational is made.
 
 ## 5. Passing from ordered equations to the Grassmannian
 
@@ -150,7 +196,7 @@ Their boundary derivatives are scalar multiples of the base determinant; the tra
 
 The projective scaling issue does not remove one of the node parameters or manufacture an extra smoothing direction.
 
-## 6. Formal interpretation, kept separate from the finite matrix result
+## 6. Formal interpretation, kept separate from the tangent calculation
 
 There is a useful standard local consequence after extending scalars to split and mark the five nodes. The parameter space of pencils is smooth, and the surjective boundary differential makes the completed fixed-boundary fiber a smooth formal space of dimension 14.
 
@@ -162,7 +208,7 @@ On the completed fixed-boundary fiber, the five linear forms \(d\tau_i\) are ind
 k[[\tau_1,\ldots,\tau_5,z_1,\ldots,z_9]].     \tag{9}
 \]
 
-In this formal sense the five residual nodes can be smoothed independently while the boundary divisor is held exactly fixed. This uses unobstructedness of the smooth fixed-boundary parameter fiber, not merely the existence of five first-order vectors. This conclusion uses the standard node local form and the formal inverse-function argument in addition to the finite rank computation.
+In this formal sense the five residual nodes can be smoothed independently while the boundary divisor is held exactly fixed. This uses unobstructedness of the smooth fixed-boundary parameter fiber, not merely the existence of five first-order vectors. The standard node local form and the formal inverse-function argument are additional to the tangent surjectivity proof.
 
 The étale node charts also give a local algebraic existence interpretation. After a common étale base change that labels the nodes, the five node parameters are regular functions. The joint map \((\beta,\tau_1,\ldots,\tau_5)\) has surjective differential, so its restriction to the fixed-boundary fiber maps smoothly to \(\mathbf A^5\) near the marked point. A chosen one-parameter pattern \(\tau_i=c_i t\) therefore lifts locally after an étale change of the one-parameter base; a zero \(c_i\) retains that node, and a nonzero \(c_i\) smooths it in the generic fiber. This is an existence statement for local algebraic families, derived from smoothness and the node charts. It does not display their coefficients in the original global quartic chart.
 
@@ -178,7 +224,7 @@ p_a(L\cup E)=0+12+5-1=16.
 
 Its dual graph has two vertices joined by five edges, so four units of arithmetic genus lie in graph cycles. Smoothing all five connecting nodes would combine the components and turn those graph cycles into four additional units of normalization genus, giving the genus 16 smooth residual picture.
 
-The rank calculation shows that these five node directions survive the fixed-boundary constraint. The attachment divisor records where the residual meets \(C\); it does not determine how much genus resides in the residual normalization or in gluing away from \(C\). This is a concrete organizing structure for the notebook: the 14-dimensional boundary fiber has five independent residual-node directions and nine further tangent directions invisible to both diagnostics.
+The joint surjectivity proof shows that these five node directions survive the fixed-boundary constraint. The attachment divisor records where the residual meets \(C\); it does not determine how much genus resides in the residual normalization or in gluing away from \(C\). This is a concrete organizing structure for the notebook: the 14-dimensional boundary fiber has five independent residual-node directions and nine further tangent directions invisible to both diagnostics.
 
 For partial smoothing over a splitting field, the usual graph picture predicts that smoothing at least one connecting node joins the two components, while the other unsmoothed bridges become self-nodes. One should distinguish that formal/local picture from an explicitly computed global algebraic subfamily. The strongest directly reproduced statement remains the exact joint rank and its tangent witnesses.
 
@@ -186,4 +232,4 @@ The next focused experiment is to lift one tangent witness through higher orders
 
 ## Characteristic reach and limitation
 
-The node-family/formal-coordinate mechanism works for split ordinary nodes in any characteristic **provided flatness and independent differentials hold**. The displayed global rational matrices establish these only for the certified characteristic-zero source; they do not give all-prime ranks or nodal reduction. Thus the local smoothing theorem does not obstruct [positive-characteristic quartic-carrier pairs](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier).
+The node-family/formal-coordinate mechanism works for split ordinary nodes in any characteristic **provided flatness and independent differentials hold**. The geometric tangent proof and its matrix verification are for the certified characteristic-zero pencil only; neither gives all-prime ranks or nodal reduction. Thus the local smoothing theorem does not obstruct [positive-characteristic quartic-carrier pairs](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier).

@@ -79,3 +79,10 @@ C^\vee\cap R^\vee=V(K,L^3),
 \]
 not merely the support \(V(K,L)\) and not the ambient ideal cube \((K,L)^3\). The reduced support \(V(K,L)\) consists of the osculating quartic and the two endpoint pencil lines; the triple Cartier structure retains endpoint contact information. This identity alone does not determine the full singular scheme of the dual discriminant: see [R-0027](../../results/quartic_dual_singular_scheme.md).
 
+
+
+## A different curve: the rational normal quartic in P4
+
+The [standalone background example](rational_normal_quartic_background.md)
+records H09's three-equation radical description for a different curve in
+P4. It is not a construction for this fixed P3 quartic.

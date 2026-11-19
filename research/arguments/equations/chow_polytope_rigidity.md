@@ -195,8 +195,8 @@ its output checks algebraic identities, not equation realization.
 
 The statement resolves the cycle-level H15 proof gate. It makes no claim
 of a scheme-theoretic identification of a Chow locus with a symmetric
-power, and leaves the separate H16 formulation/stabilizer review outside
-this note. It does not upgrade the
+power. The set-level H16 formulation and stabilizer are proved below; its
+scheme-locus interpretation remains outside the claim. It does not upgrade the
 [full Hilbert-boundary results](../../frameworks/torus-supported-boundaries/index.md)
 to a two-generator realization theorem.
 
@@ -294,3 +294,61 @@ without boundary residuals.
 This focused audit identifies classical tools already covering the
 coefficient and determinant reformulations. It is not an exhaustive
 literature search or a claim that the remaining structural question is new.
+
+
+## Set-level symmetric-power fiber (H16)
+
+Retain an algebraically closed field k of arbitrary characteristic and an
+integer m >= 1. Define F_m(k) to be the set of effective one-cycles Z with
+P_Z = m P_C in the full, unshifted column-weight normalization above.
+
+This is a corollary of R-0074 together with the split-torus stabilizer
+calculation below, not a new rigidity theorem. It classifies cycles in the
+exact polytope fiber, not surface pairs or equation realizations.
+There is a natural bijection of sets
+
+    Sym^m(T/T_C)(k)  -->  F_m(k),
+    {(u_i,v_i)}     |->  sum_i [C_{u_i,v_i}],
+
+where T_C is the stabilizer of the embedded curve C in the diagonal torus, T/T_C is canonically isomorphic to G_m^2 after choosing the fixed coordinate normalization, and
+
+    C_{u,v} = [s^4:s^3t:u st^3:v t^4],  u,v in k^*.
+
+Repeated parameters mean repeated cycle components, not a choice of a nonreduced subscheme structure. Equivalently the source is the set of unordered multisets of m points of (k^*)^2.
+
+### Stabilizer, including scheme-level check for the curve
+
+Identify the dense coordinate torus of P^3 with T using [1:1:1:1] as identity. Scheme-theoretically
+
+    C intersect T = H = {[1:z:z^3:z^4]}.
+
+Indeed on x_0 = 1 the Laurent equations are x_2 = x_1^3 and x_3 = x_1^4, so this is a closed subgroup isomorphic to G_m, not merely a parametrized image of nontrivial degree.
+
+If a diagonal element lambda stabilizes C, it stabilizes C intersect T = H. Evaluating lambda H = H on the identity gives lambda in H. Conversely H stabilizes C by the change t -> zt. This argument works over every k-algebra, using the identity section, so the scheme-theoretic stabilizer of the embedded curve is precisely the smooth subgroup H. There is no additional finite or infinitesimal factor in T_C. The exponent 1 is important: no root extraction or division by 3 or 4 occurs, even in characteristics 2 or 3.
+
+Explicitly the split quotient is
+
+    q([lambda_0:lambda_1:lambda_2:lambda_3])
+      = (lambda_0^2 lambda_2/lambda_1^3,
+         lambda_0^3 lambda_3/lambda_1^4).
+
+Its section is (u,v) -> [1:1:u:v]. Its kernel is H. In coordinates a=lambda_1/lambda_0, b=lambda_2/lambda_0, c=lambda_3/lambda_0, the isomorphism T = G_m x G_m^2 is (a,b,c) -> (a,b/a^3,c/a^4). Thus this is a split quotient over any base field and does not hide an inseparable isogeny.
+
+### Proof of the cycle bijection
+
+1. Each coset of H produces precisely one translated embedded quartic. Distinct (u,v) produce distinct curves: on their dense torus portions the two regular functions x_0^2 x_2/x_1^3 and x_0^3 x_3/x_1^4 have the constant values u and v. These distinguish the cosets and curves.
+2. H15/R-0074 says every Z in F_m(k) is a sum of m such translates, counting multiplicity. This proves surjectivity.
+3. Effective cycles have unique decompositions into distinct integral curves with positive integral multiplicities. Since (u,v) uniquely identifies a curve, that decomposition uniquely identifies the parameter multiset. This proves injectivity.
+4. Conversely the Chow form of a cycle sum is the product of the component forms, and all translates have P_C, giving m P_C.
+
+For completeness, Sym^m(G_m^2) is the affine finite-group quotient Spec(k[u_i^{+/-1},v_i^{+/-1}]^{S_m}). Over algebraically closed k, its k-points are exactly the S_m-orbits of the tuples. This statement holds when char(k) divides m!: finite-group geometric quotient theory does not require averaging or division by m!. An elementary point-separation proof uses a function taking values 0 and 1 on two disjoint finite orbits and takes its product over the group. Integrality of the invariant-ring inclusion supplies surjectivity. See Jarod Alper, Stacks and Moduli, May 21, 2024 draft, Theorem 4.2.6 (printed p. 167; PDF p. 172).
+
+### Necessary qualifications
+
+- This proves the displayed bijection of sets, not an isomorphism between a scheme-theoretic Chow locus and the symmetric power. Geometric points alone do not determine nilpotents, tangent directions, or inseparability. A scheme assertion requires specifying the intended locus and its structure and checking the induced morphism, not just invoking H15.
+- The stabilizer just proved is that of the curve C. Do not silently substitute the stabilizer of a multiple cycle's Chow point. In characteristic p, infinitesimal translations can fix the Chow point of p[C] without fixing C: over k[epsilon]/(epsilon^2), a translated Chow polynomial has form F + epsilon G, and (F + epsilon G)^p = F^p. For example [1:1:1+epsilon:1] is outside H but fixes that multiple-cycle Chow point. This is a concrete reason not to infer scheme-level orbit or tangent conclusions from the set bijection.
+- The symmetric-power statement is for algebraically closed k (or for geometric points over an algebraic closure). Over a nonclosed field, Sym^m(X)(k) need not equal Sym^m(X(k)). For example over R a conjugate pair of nonreal points in G_m^2 defines a real point of Sym^2 although neither point is real. Use a separately formulated descent/closed-point cycle statement rather than asserting all k-cycles are sums of k-rational translates. Imperfect fields add inseparability issues and are outside the present claim.
+- Use full unshifted Chow-polytope equality. Projected equality or equality up to translation has not been shown to select F_m.
+- This does not prescribe scheme structure on the cycle, endpoint or embedded-point data, a Hilbert polynomial, generators, or realization by two homogeneous equations. It is not an STCI existence or obstruction theorem.
+- R-0050 already contains the normalized family C_{u,v} and its connection to finite Laurent quotients for eigenpairs. H16 adds the exact set-level parameterization of the H15 fiber, using unique decomposition; it is a short corollary, not a new equation-realization framework.
+
