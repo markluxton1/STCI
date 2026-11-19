@@ -6,7 +6,7 @@ scope: "#scope"
 statement: "#statement"
 proofs:
   - name: endpoint support and separating-face degree exhaustion
-    at: "research/arguments/equations/chow_polytope_rigidity.md#scope-and-statement"
+    at: "research/arguments/equations/chow_polytope_rigidity.md#chow-forms-products-and-the-one-parameter-subgroup"
     using: []
     review:
       state: accepted
@@ -44,12 +44,26 @@ supporting evidence, not a substitute for the written proof.
 
 ## Review
 
-Independent reconstruction checked invariance, endpoint support, the reduced
-line exception, characteristic-independent face identities, and degree
-exhaustion. The integration review checked the proper-pair and Laurent
-quotient scope separately. [PR #152 review](https://github.com/markluxton1/STCI/pull/152#pullrequestreview-5976576647)
-supported the mathematics and requested the conceptual integration recorded
-here. This record resolves H15 only, not H16 or unrestricted STCI.
+The route is accepted on the `reconstructed` basis in the repository's
+[review convention](../MODEL.md#evidence-and-review), not by inheritance
+from the historical H15 assertion. Independent mathematical review read the
+written argument from its Chow-form invariance deduction through endpoint
+support, the reduced-line exception, separating-face identities in arbitrary
+characteristic, and width/degree exhaustion. The integer determinant
+identities were separately reproduced by symbolic resultants and the retained
+standard-library checker. The integration review additionally checked the
+proper-pair coefficient criterion and the Laurent quotient and boundary
+qualifications; neither computation nor structural validation certifies those
+geometric implications.
+
+The [initial PR review](https://github.com/markluxton1/STCI/pull/152#pullrequestreview-5976576647)
+supported the cycle theorem and requested integration. The
+[follow-up review of ce269db](https://github.com/markluxton1/STCI/pull/152#pullrequestreview-5976823819)
+found those substantive requests addressed with no mathematical blocker.
+These are reviews of the specified proof route and its scope, not an overall
+authority classification or a certification of unrestricted STCI. H16,
+scheme structure, and projective equation realization remain outside the
+accepted claim.
 
 ## Limitations
 

@@ -188,7 +188,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0071: finite moments and actual multiplication; joint premises [STCI-R-0020]; proof `#proof`; review accepted, reconstructed at `#statement`.
 - STCI-R-0072: multiplier rank and the splitting of the moving quotient; joint premises [STCI-R-0020, STCI-R-0042]; proof `#proof`; review accepted, reconstructed at `#review`.
 - STCI-R-0073: endpoint localization and the first equation layer; joint premises []; proof `#proof`; review accepted, reconstructed at `#review-and-scope-of-the-comparison`.
-- STCI-R-0074: endpoint support and separating-face degree exhaustion; joint premises []; proof `research/arguments/equations/chow_polytope_rigidity.md#scope-and-statement`; review accepted, reconstructed at `#review`.
+- STCI-R-0074: endpoint support and separating-face degree exhaustion; joint premises []; proof `research/arguments/equations/chow_polytope_rigidity.md#chow-forms-products-and-the-one-parameter-subgroup`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
