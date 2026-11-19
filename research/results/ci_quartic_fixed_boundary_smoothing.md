@@ -32,13 +32,13 @@ At the (1,1) pencil in R-0023, the affine boundary, node, and joint tangent maps
 The specified characteristic-zero pencil, after splitting the geometric nodes and etale localization.
 
 ## Proof outline
-Exact rational matrices from global quartic equations yield ranks (19,5,24) and five explicit tangent witnesses. The GL2 quotient removes one scalar boundary direction without affecting node smoothing. Standard flat nodal-family charts and formal inverse-function theory lift these independent tangent classes to formal and etale-local smoothing coordinates.
+Quadratic multiples of the common quadric fill all boundary directions vanishing at the attachment point and do not move the residual nodes. Restriction of global quartics to the residual line and interpolation in the five-node algebra then give the remaining boundary value and every node direction independently. This proves the ranks (19,5,24) without matrix elimination. The GL2 quotient removes one scalar boundary direction without affecting node smoothing. Standard flat nodal-family charts and formal inverse-function theory lift these independent tangent classes to formal and étale-local smoothing coordinates.
 
 ## Dependencies
 R-0023 supplies the residual geometry and five nodes.
 
 ## Evidence and verification
-The independent audit reconstructs the matrices and checks the formal-local interpretation. Saved Python verifier and JSON give reproducible witnesses. The inherited exact verifier was not rerun in this consolidation.
+The geometric tangent-surjectivity proof was independently reconstructed. The exact Python verifier and saved JSON provide a separate check of the ranks and explicit homogeneous tangent witnesses; they are not needed for the surjectivity argument. The certified residual geometry and local node functionals are retained from the original proof.
 
 ## Consequences
 Residual nodes can be smoothed independently with the attachment divisor exactly fixed, locally.
