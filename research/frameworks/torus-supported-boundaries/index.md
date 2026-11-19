@@ -35,6 +35,8 @@ resolve unrestricted STCI. Their strategic bottleneck is **coverage of actual mo
 
 ## Available results
 
+For effective one-cycles in every characteristic, [full Chow-polytope rigidity](../../arguments/equations/chow_polytope_rigidity.md) classifies equality with a multiple of the fixed quartic's full, unshifted column-weight polytope as a sum of diagonal translates. The subgroup fixes the cycle, not necessarily its defining ideal. This cycle statement does not recover Hilbert data, embedded points, moving generators, or a two-equation realization; projected polygons do not suffice.
+
 [R-0073](../../results/endpoint_equation_torsion.md) gives the kernel of
 restriction to the two completed endpoints for every layer of the raw
 equation torsion, in either torus direction. Unmixedness makes the
@@ -326,3 +328,5 @@ vanish on their layer at both geometric endpoints of the same family.
 They persist at the generic point of the disjoint coordinate line even
 though parameter saturation removes the family there.
 [Explicit first-layer classes](../../results/endpoint_equation_torsion.md#a-relation-missed-at-both-endpoints).
+
+The canonical [R-0074](../../results/chow_polytope_rigidity.md) classifies **all** effective cycles in this rigid Chow-polytope fiber; invariance is deduced, not assumed. Its [proper-pair reformulation](../../arguments/equations/chow_polytope_rigidity.md#proper-surface-pairs-and-the-remaining-equation-question) is a classical resultant coefficient condition, not a criterion in the Newton polytopes of the equations alone. The [R-0050 integration](../../arguments/equations/chow_polytope_rigidity.md#eigenpairs-and-transverse-finite-quotients) keeps boundary exclusion and binomial-only subgroup structure explicit.

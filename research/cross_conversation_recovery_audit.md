@@ -24,15 +24,19 @@ Legend: **M** matching repo content (compare exact hypotheses before closing); *
 | H12 | Oct 31 | Conditional sextic lift, (Q^3) freedom, root-node alternatives; Frobenius binomial components | `research/arguments/arithmetic/positive_characteristic_constructions.md`; sextic jet/spectral arguments | M/V; avoid conflating conditional and established claims |
 | H13 | Nov 1 | Hilbert full limits versus proper equation realization and descent | `research/arguments/torus_hilbert_boundary.md`; `research/results/supported_hilbert_full_limits.md` | M; crucial limitation explicitly retained |
 | H14 | Nov 5 | Finite embedded torus quotient, endpoint algebras, actual homogeneous equation criterion | `research/arguments/torus_embedded_quotients.md` | M; substantially preserved |
-| H15 | Nov 5 | **Chow-polytope rigidity**: (P_Z=mP_C\iff Z=\sum a_i[\lambda_iC]), (\sum a_i=m), over algebraically closed field | Recovered original proof from `Pasted text(20261105-173726).txt` and related pasted records. Search for “Chow polytope”, “oblique edges”, “Minkowski additivity” gave no direct repo matches | **P/V**; strongest candidate; verify distinguished vertex, normalization and all coordinate supports |
+| H15 | Nov 5 | **Chow-polytope rigidity**: (P_Z=mP_C\iff Z=\sum a_i[\lambda_iC]), (\sum a_i=m), over algebraically closed field | Recovered original proof from `Pasted text(20261105-173726).txt` and related pasted records. Search for “Chow polytope”, “oblique edges”, “Minkowski additivity” gave no direct repo matches | M; cycle-level theorem reconstructed and reviewed in [the full-weight proof](arguments/equations/chow_polytope_rigidity.md); no scheme or equation-realization claim |
 | H16 | Nov 5 | Chow rigidity identifies a **set**, not scheme structure, with (\operatorname{Sym}^m(T/T_C)); only after full Chow polytope equality, not projected polygon equality | Same recovered transcripts; `research/investigations/supported-generator-incidence/index.md` covers related incidence but not exact theorem | P/V; preserve caveats |
 | H17 | Nov 13 | Characteristic-two tetrahedral face-poset / enriched toric boundary diagram | No exact proof-level comparison yet | V; exploratory until checked |
 
 ## Priority proof gate: H15
 
-Recovered argument: equality of Chow polytopes implies (T_C)-invariance; decompose into closures of monomial orbits; for (w=(0,1,1,0)), a minimizing Chow vertex purportedly forces each component's coordinate support to contain indices 0 and 3; remaining components are line (L_{03}), two monomial plane curves and full-support translates of (C). Oblique edges of (P_C) purportedly force exactly (m) full-support components, exhausting degree (4m). Converse by Chow-form multiplication / Minkowski addition.
+**Resolved at the cycle level in [R-0074](results/chow_polytope_rigidity.md).** The [full Chow-polytope rigidity argument](arguments/equations/chow_polytope_rigidity.md) proves H15 for effective one-cycles over an algebraically closed field of arbitrary characteristic. It fixes the full column-weight normalization in the coefficients of two hyperplanes. Equality is literal, not up to projection or translation.
 
-**Unverified step:** show rigorously that the minimizing face/vertex for *every* lower-support invariant orbit closure has the asserted endpoint property, using consistent Chow weight conventions and including coordinate lines. Then check oblique-edge comparison in the full character lattice, not just a projection. The recovered source says “independently audited”; this is **not** a substitute for a fresh proof. Established background: GKZ secondary polytope for toric Chow forms; ordinary orbit-closure classification and Chow-form multiplicativity. Do not claim the full theorem is proved yet.
+The endpoint-support gate is proved by restricting the component Chow forms to hyperplanes in the span of coordinates 0 and 3: nonvanishing is equivalent to avoiding the opposite coordinate line. Orbit endpoints then force support to contain 0 and 3. The separating face is the minimum-column-0 face; its column-2 width is three for a full-support quartic and zero for each of the two plane quartics and the reduced coordinate line. Minkowski additivity and degree exhaustion finish the proof without a projected-edge inference.
+
+The [standard-library determinant replay](arguments/equations/chow_polytope_rigidity.support/verify.py) checks the three integer Sylvester determinants, exact initial coefficients, and unit-coefficient face witnesses. The written support and characteristic arguments received independent reconstruction; the final retained checker was replayed independently. This does not rely on the historical source's assertion of an audit.
+
+No typed Result has been added. The proof is integrated as an ordinary Argument; H16's precise parameter-space/stabilizer formulation remains a separate review item. Neither statement supplies two defining equations or scheme structure.
 
 ## Priority recovery gate: H07
 
@@ -47,9 +51,9 @@ For a general choice of four coordinate hyperplanes meeting (C) transversely in 
 
 ## Next audit pass
 
-1. Verify H15 distinguished-vertex lemma and projected oblique-edge argument against recovered source and canonical repository; classify **proved / repairable / false**.
+1. Review H16's precise set-level parameter description and stabilizer separately; H15's cycle theorem and exact full-weight normalization are now integrated.
 2. Check H07 wall-crossing statements; preserve only verified geometry.
 3. Continue earlier August–October conversation retrieval in large thematic batches, deduplicate by mathematical claim, and close M items after exact content comparison.
 4. Only after verification, place genuinely new mathematics into an existing canonical Result/Argument/Framework/Investigation and retire this temporary ledger when its purpose is complete.
 
-**Coverage accounting:** 17 historical topic clusters inventoried; 0 new Results certified; 2 principal potential-omission clusters (H07, H15–H16), several matching-but-unclosed clusters. No exhaustive conversation count is available.
+**Coverage accounting:** 17 historical topic clusters inventoried; 1 new typed Result added ([R-0074](results/chow_polytope_rigidity.md)); H15 integrated with a reviewed cycle-level proof; remaining principal potential omissions H07 and H16, several matching-but-unclosed clusters. No exhaustive conversation count is available.
