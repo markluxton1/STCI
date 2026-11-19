@@ -198,20 +198,68 @@ There is also a compact equation presentation of the image `V_(6,2)`:
     P7+2Q8-12R9 = 0,
     P8-2Q9+4R10 = 0.                                      (2)
 
-These eleven independent equations cut out the entire image, not a
-necessary superspace of it. The new calculation checks the 84 ambient
-sextic monomials: the zeroth/first normal jet matrix has rank 61.
-Its kernel therefore has dimension 23, and the independent products
-(1) span it. Vanishing of these jets on the dense affine curve extends
-globally because the successive targets `O_C0(6)` and `E(6)` are vector
-bundles on the integral curve. This establishes the sheaf-square source
-and does not silently substitute an unsaturated homogeneous square.
-Rank 22 and the explicit element `q^3` identify the kernel.
+These equations can be derived from the two rulings of the quadric
+without computing the rank of the ambient jet matrix. For the general
+[quadric flag and actual equation spaces](../equations/global_equation_jets.md#exact-homogeneous-equation-spaces-and-fixed-quadric-restrictions),
+write \(Q_{\rm surf}=\mathbf P^1_{a,b}\times\mathbf P^1_{c,d}\) with
+\((x_0,x_1,x_2,x_3)=(ac,ad,bc,bd)\). Its \((1,3)\) curve equation is
+\(f_Q=bc^3-ad^3\). The restrictions of \(A,B,D\) to \(Q_{\rm surf}\)
+are \(a^2 f_Q,ab f_Q,b^2 f_Q\). Thus
+\(A^2,AB,AD,BD,D^2\) lift the five monomials in the restriction
+space \(f_Q^2 H^0(\mathcal O_{Q_{\rm surf}}(4,0))\).
+The kernel of restricting \(I_C^2(6)\) to the quadric is \(q H^0(I_C(4))\),
+which has dimension 18 by the
+[actual quartic symbol/source proof](../quartic_specialization_and_symbols.md#4-which-symmetric-algebra-sections-come-from-quartics).
+This also proves completeness of the 23-element source (1) with its chosen
+quartic basis. Here and below the sources are sections of ideal sheaf
+powers, not merely homogeneous powers of a polynomial ideal.
 
-The independent verifier reconstructs symbols by a different direct
-binomial expansion, checks first-jet rank 61, and checks rank 22,
-rank 11, and `L*M=0`. The computations are over QQ and base-change to
-every characteristic-zero field.
+For the image test, rewrite the proposed symbol in the frame
+\(\ell=u+zv/2,\ v\) as \(P\ell^2+M\ell v+N v^2\), where
+\[
+ M=Q-zP,\qquad N=R-\tfrac12 zQ+\tfrac14 z^2P.
+\]
+Here \(Q\) in the coefficient expressions means the coefficient of \(uv\),
+not the quadric surface. The restriction of \(N\) to the curve has to come
+from \(H^0(\mathcal O_{Q_{\rm surf}}(4,0))\); this is exactly
+\(N\in\langle 1,z^3,z^6,z^9,z^{12}\rangle\).
+These are the eight equations for the nonmultiples of three in (2).
+
+To test what remains, use the five lifts just specified. In the
+\((\ell,v)\) frame the first normal symbols of \(A,B,D\) are
+\(v,\ z^3v-z^2\ell,\ z^6v-2z^5\ell\), respectively. Thus the lift of
+\(z^{3j}\) above has mixed coefficient \(-j z^{3j-1}\) for \(1\le j\le4\),
+and the lift of \(1\) has mixed coefficient zero.
+Subtract these lifts with coefficients \(N_{3j}=[z^{3j}]N\).
+The remaining normal symbol is divisible by \(\ell\), and after division
+it must come from an actual quartic through \(C\).
+The image of that first-symbol map modulo the quadric direction is
+\[
+ V_{10}=\langle 1,z,z^3,z^4,z^6,z^7,z^9,z^{10}\rangle,
+\]
+the restrictions of \(H^0(\mathcal O_{Q_{\rm surf}}(3,1))\).
+If this condition holds, the remaining quadric-direction component of
+the quartic symbol lifts too, because quadrics restrict onto
+\(H^0(C,\mathcal O_C(2))\). Thus the test is sufficient as well as
+necessary. The coefficient of \(z^{11}\) after subtraction vanishes
+automatically (\(M_{11}=-P_{10}=-4N_{12}\)). The three remaining
+conditions are
+\[
+ M_{3j-1}+jN_{3j}=0\quad (j=1,2,3),
+\]
+which are exactly the other three equations in (2), after scaling.
+This is the quadric restriction test followed by the quartic restriction
+test, rather than eleven unrelated linear constraints. In particular
+the second-symbol kernel is \(kq^3\): if the symbol is zero, the
+restriction to the quadric vanishes (the five restrictions are independent),
+and the remaining quartic first symbol has kernel \(kq^2\).
+
+The symbol JSON and the independent binomial verifier retain the explicit
+basis, minor, row equations and a computational cross-check, including rank
+61 on zeroth/first jets and \(L M=0\) for the saved matrices. They are useful
+for exact calculations with the chosen coordinates; they are no longer
+needed to prove source completeness or the eleven image equations.
+All statements here use the characteristic-zero balanced chart.
 
 ## 3. Eleven bilinear global-symbol equations
 
@@ -708,4 +756,3 @@ The conditional \((2,12)\) incidence has a 23-dimensional sextic source, eleven 
 - [Candidate computation](../../computations/conditional_2_12_cubic_reduction_2026_10_21_candidates.py)
 
 The certificates do not establish a global pair or sole support.
-

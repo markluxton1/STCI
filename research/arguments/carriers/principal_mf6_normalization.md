@@ -969,14 +969,21 @@ and [conductor criterion](../local-cohomology/ancestor_and_conductor_endpoints.m
 together supply the argument. The [independent adversarial audit](quartic_scroll_reduced_conductors.md)
 checks the criterion and the entire-conductor Hilbert/CM calculation.
 
-The complete derivative restriction on all 35 quartic monomials has
-rank 29. Six independent products of the three twisted-cubic quadrics
-span the kernel. The independent [literal-minor source](https://github.com/markluxton1/STCI/blob/088b0c191e470b032fff0ef0cfac1d830607800b/research/computations/audit_scroll_twisted_cubic_equation_space_2026_10_08.py)
-rebuilds derivatives by substitution and computes the stated determinant
-104509440 by Fraction elimination. Root replay passed in the isolated
-continuation snapshot. Thus F=Q(xi1,xi2,xi3) holds for the entire
-equation space, without an slc assumption. If Q factored, F would factor
-into nonzero quadratic factors; hence integral F gives a smooth conic Q.
+The [geometric equation-space proof](quartic_scroll_conductor_structure.md#32-the-smooth-twisted-cubic-quartic-equation-without-slc)
+now establishes F=Q(xi1,xi2,xi3) for the entire source, without an slc
+assumption or a coefficient-rank premise. The blowup Y of the smooth
+cubic is a P1-bundle pi:Y->P2, with pi*O(1)=2H-E. Therefore
+H0(I_Gamma^2(4))=H0(Y,4H-2E)=H0(P2,O(2)), and the six products
+of the ideal quadrics span all singular quartics. The smooth conormal
+sequence identifies vanishing to second order with singularity along Gamma.
+
+The complete derivative restriction on all 35 quartic monomials has rank
+29 as a consequence. The independent [literal-minor source](https://github.com/markluxton1/STCI/blob/088b0c191e470b032fff0ef0cfac1d830607800b/research/computations/audit_scroll_twisted_cubic_equation_space_2026_10_08.py)
+rebuilds derivatives by substitution and computes determinant 104509440
+by Fraction elimination. Its recorded isolated-snapshot replay remains
+historical independent evidence, not a dependency of the geometric proof.
+If Q factored, F would factor into nonzero quadratic factors; hence
+integral F gives a smooth conic Q.
 
 The two syzygies define a rank-two matrix at every point of P2. Their
 incidence variety is therefore a smooth P1 bundle, agreeing with the

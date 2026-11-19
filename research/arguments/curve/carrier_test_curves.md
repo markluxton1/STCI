@@ -33,9 +33,9 @@ X_{\alpha,\beta}=V(q^3+\alpha c_0^2+\beta c_2^2)
 \]
 has **no homogeneous set-theoretic mate of any positive degree** for
 \(C_0\).
-Integrality of every member is an input from the reviewed degree-six
-calculation. The new argument uses actual ruling lines and the degrees of
-the pullback of a hypothetical global equation on the normalization.
+Integrality of every member now has a [geometric proof](../residuals/residual_contact_cycles.md#integrality-without-a-coefficient-rank), independent of the retained degree-six calculation. The all-mate exclusion here already uses actual ruling lines and the degrees of
+the pullback of a hypothetical global equation on the normalization; the
+companion proof adds quantitative all-degree branch-order and residual bounds.
 It makes no assertion about other sextic families or arbitrary carriers.
 
 ## 1. Normalization of the parameters and four actual lines
@@ -566,7 +566,7 @@ The concrete remaining alternatives are repeated normal roots, vertical coeffici
 
 ## Exact polynomial controls
 
-The [mixed-line verifier](https://github.com/markluxton1/STCI/blob/8fbfe77d1e90600b2bb8d7e6a6430e0989ca572d/research/computations/stci_mixed_weight_lines_2026_10_30.m2) and its independent counterpart retain the quadric factorization, line identities and discriminant. Their purpose is to establish the geometric input to (*), rather than supply a surrogate normalization classification. The [extra sextic verifier](https://github.com/markluxton1/STCI/blob/8fbfe77d1e90600b2bb8d7e6a6430e0989ca572d/research/computations/stci_game_obstruction_2026_10_30.m2) retains the nonsquare discriminant and simple attachment check for the carrier outside the small subalgebra. The exact [degree-six branch computation](../residuals/residual_contact_cycles.md#exact-degree-six-branch-contact-on-a-mixed-weight-sextic) remains separate because its branch-order bound and residual floor are stronger quantitative information in that degree.
+The [mixed-line verifier](https://github.com/markluxton1/STCI/blob/8fbfe77d1e90600b2bb8d7e6a6430e0989ca572d/research/computations/stci_mixed_weight_lines_2026_10_30.m2) and its independent counterpart retain the quadric factorization, line identities and discriminant. Their purpose is to establish the geometric input to (*), rather than supply a surrogate normalization classification. The [extra sextic verifier](https://github.com/markluxton1/STCI/blob/8fbfe77d1e90600b2bb8d7e6a6430e0989ca572d/research/computations/stci_game_obstruction_2026_10_30.m2) retains the nonsquare discriminant and simple attachment check for the carrier outside the small subalgebra. The [companion branch-contact proof](../residuals/residual_contact_cycles.md#geometric-proof-four-negative-ruling-lines) now establishes independent integrality, total branch order at most the mate degree, residual degree at least twice that degree, and the original individual degree-six bound geometrically. Its exact degree-six sample/Smith computation remains an independent historical check, not an input to those conclusions.
 
 
 ## Characteristic reach of the test-curve mechanism

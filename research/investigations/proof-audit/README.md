@@ -12,10 +12,27 @@ No claim is made that all archived CAS computations were replayed.
 - [Recovery ledger](../../cross_conversation_recovery_audit.md).
 - Verified bounded geometry: [H07](../../arguments/torus/general_coordinate_boundary.md), [H16](../../arguments/equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16), and [H09](../../arguments/curve/rational_normal_quartic_background.md#background-example-the-rational-normal-quartic-in-p4).
 
-The next editorial proof-dependency replacement target is R-0025's specific
-carrier restriction, not an unrestricted rank theorem. This is not a ranking
-of research paths toward unrestricted STCI, and no R-0025 work is undertaken here. R-0071 requires a separate relative-duality
+At the historical pin, the next editorial proof-dependency replacement target
+was R-0025's specific carrier restriction, not an unrestricted rank theorem. This is not a ranking
+of research paths toward unrestricted STCI, and that replacement is now recorded in the integration delta below. R-0071 requires a separate relative-duality
 argument. Replacement directions below are proposals, not newly proved results.
+
+## Current integration delta
+
+The 44 groups below remain the historical inventory at the stated pin, not
+44 outstanding rank dependencies. Against main `37b2bf7f87dfbdeef4dfa4908a8083113d1123ec`:
+
+- **Group 3:** the [actual sextic symbol proof](../../arguments/spectral/conditional_2_12_surface_and_symbol_geometry.md#2-the-exact-global-k-linear-symbol-map) derives the complete 23-dimensional source and eleven image equations by successive quadric/quartic restrictions. The ambient rank certificate is now a cross-check for this source/image claim.
+- **Group 4:** [filtered equation jets](../../arguments/equations/global_equation_jets.md#the-first-nonlinear-gluing-map-by-torus-weight) prove the first nonlinear surjectivity using seven explicit small torus-weight blocks, and identify the actual symbol defect with the third-differential image. The order-five cutoff calculation is retained; this is not a claim that all coordinate determinants have disappeared.
+- **Group 6 / R-0025 is already replaced:** the [current fixed-sextic proof](../../results/ci_fixed_sextic_jet_rigidity.md) uses boundary valuations, proves sharp all-degree bounds for that carrier, and retains finite certificates as evidence. The historical rank-683 description and proposed replacement below are not its current proof status.
+- **Group 7:** the [mixed-sextic contact proof](../../arguments/residuals/residual_contact_cycles.md) now uses four normalized ruling lines and their self-intersections to prove, in characteristic zero for the specified nonzero-parameter family, total branch order at most the mate degree and residual degree at least twice that degree. Even degrees attain the bound. This includes the original degree-six individual branch-order kernel statement; its finite sample/Smith certificate remains independent evidence, not the proof. No assertion is made for arbitrary sextic carriers.
+- **Group 22 / R-0071:** the [constant-direction proof](../../results/quartic_ancestor_direction_reduction.md#divisor-and-scheme-structure-of-the-constant-direction-degeneracy) identifies the distinguished top as a restriction kernel and explains the length-21 degeneracy scheme. This derives scheme structure from the existing full minor-span certificate; it does not replace the rank-309 or cubic-rank-14 checks or reopen the excluded target test.
+- **Group 27:** the [twisted-cubic source proof](../../arguments/carriers/quartic_scroll_conductor_structure.md) now establishes the complete six-dimensional singular-quartic source via its bundle construction; the derivative-restriction minor is retained as historical evidence. The [principal MF6 consumer](../../arguments/carriers/principal_mf6_normalization.md) points to that proof rather than treating the rank replay as the source theorem.
+- **Group 38 / R-0054:** the [endpoint proof](../../arguments/torus_embedded_quotients.md#embedded-quotients-and-characteristic-dependent-endpoints) now derives the four-jet determinant from the binomial/Vandermonde identity. Weighted image-algebra closure and the separate characteristic-two/three controls remain necessary; this does not classify arbitrary embedded quotients.
+- **Group 32 / R-0027 already has a local replacement:** [the dual-scheme proof](../../arguments/curve/quartic_dual_schemes.md#4-the-two-embedded-endpoint-points) uses Hilbert–Burch and weighted nonmembership for the endpoint socles. Its global primary decomposition and Hilbert-polynomial outputs remain explicitly computed evidence.
+
+These are scoped proof-route updates, not a retagging of every historical
+group or a claim that all finite computations have been eliminated.
 
 # Canonical Results/Arguments: evidence-bearing linear algebra inventory
 
