@@ -182,7 +182,7 @@ coordinate \(z\) over \(k\), and
 \(\overline{u^{-3}S_i}=\gamma_i z\), with
 \(\beta_i\in k\) and \(\gamma_i\in k^*\).
 Then every nonzero \(P\in k[y,w]\) satisfies
-\(\min_i v_i(P)\le0\).
+\(\sum_i v_i(P)\le0\), hence \(\min_i v_i(P)\le0\).
 
 These hypotheses are verified above for the three actual boundary lines.
 The independence needed is of the powers of each residue coordinate
@@ -203,10 +203,33 @@ argument proves
 \[
  v_i(P)\le3m_i-d.
 \]
-Since \(\sum_i m_i\le\deg_W p_d(1,W)\le d\), at least one of
-these upper bounds is nonpositive. This includes \(d=0\), when all
-three valuations are zero, proving the lemma. Applying it to (7) gives
-\(2n\le b\) for the fixed carrier.
+Since \(\sum_i m_i\le\deg_W p_d(1,W)\le d\), summing gives
+\(\sum_i v_i(P)\le0\). This includes \(d=0\), when all three
+valuations are zero. Summing (7) now gives \(2n\le b\).
+
+The same proof explains exactly where strictness enters. Define
+\[
+ \delta=d-\sum_i m_i\ge0,\qquad
+ e_i=3m_i-d-v_i(P)\ge0,\qquad
+ \kappa_i=b+v_i(g)\ge0.
+\]
+The leading homogeneous form \(p_d\) has a degree-\(d\) zero divisor
+on the projective line of directions. The number \(\delta\) counts
+its zeros away from the three marked boundary directions, including
+infinity. The quantity \(e_i\) measures how much a lower-weight term
+reduces the valuation below the surviving leading-form term used above.
+Finally \(\kappa_i\) is the vanishing order of the actual degree-\(b\)
+section in the boundary trivialization \(g=u^{-b}(G/x_2^b)\).
+Since \(v_i(g)=-2n+v_i(P)\), there is an **exact identity**
+\[
+ 3(b-2n)=\sum_i\kappa_i+3\delta+\sum_i e_i.          \tag{7a}
+\]
+Thus the contact bound is not a dimension count: excess contact would
+force a negative sum of actual nonnegative boundary quantities.
+At equality all these quantities vanish. In particular all leading
+zeros lie at the three marked directions and no lower-weight term
+reduces their valuations. The next argument determines the remaining
+rigidity; zero total loss alone is not a classification of all mates.
 
 ### Equality for even degrees
 
@@ -350,6 +373,27 @@ contradicting hypothesis 3. Hence
 \[
  n\le b\max_i(c_i/a_i).
 \]
+A stronger, still conditional, version retains all boundary orders
+rather than selecting a single nonpositive one. Suppose one can prove
+positive real weights \(\lambda_i\) with
+\[
+ \sum_i\lambda_i v_i(P)\le0\quad\text{for every }0\ne P\in A.
+\]
+Then the same pole inequalities give the potentially sharper bound
+\[
+ n\le b\,\frac{\sum_i\lambda_i c_i}{\sum_i\lambda_i a_i}.
+\]
+Indeed their weighted sum is at least
+\(n\sum_i\lambda_i a_i-b\sum_i\lambda_i c_i\) and at most zero.
+The denominator is positive, and the displayed ratio is a weighted
+average of the \(c_i/a_i\), so it is no larger than the earlier maximum.
+For \(F_*\), the boundary polynomial lemma proves this certificate
+with all \(\lambda_i=1\); (7a) records its exact nonnegative losses.
+For another carrier, the weighted inequality is an additional hypothesis
+to establish on its actual regular-function ring, not a consequence of
+merely listing boundary valuations. This identifies a mechanism that
+could transfer even when the three-root polynomial model does not.
+
 To turn this into a residual-degree obstruction one must **separately**
 verify the relation between \(n\) and the component multiplicity along
 the marked curve, as well as proper intersection and the relevant degree

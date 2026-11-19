@@ -377,3 +377,120 @@ system there, and use the corank-one boundary rule or the determinantal
 fallback on its complement. This replaces repeated ancestor-family
 kernel calculations with a reusable theorem, while retaining every
 exceptional stratum.
+
+## What persistence of a two-target dual actually requires
+
+This is a linear-algebraic comparison lemma for actual multiplication
+maps, valid over any field. It distinguishes changing a finite
+presentation of the same local-cohomology calculation from enlarging the
+allowed ancestor or multiplier source. It does not decide the remaining
+R-0071 incidence.
+
+Let \(V,V'\) be finite-dimensional target spaces, let \(W\subset V\)
+and \(W'\subset V'\) be the images of the actual multiplication maps
+under consideration, and let \(j:V\to V'\) satisfy \(j(W)\subset W'\).
+Define the *excess intersection*
+\[
+E_j=j^{-1}(W')/W\subset V/W.
+\]
+There is an exact sequence
+\[
+0\longrightarrow E_j\longrightarrow V/W
+  \xrightarrow{\bar j} V'/W'.                                      \tag{P1}
+\]
+A covector \(\lambda\in V^*\) annihilating \(W\) extends to a
+covector \(\lambda'\in(V')^*\) annihilating \(W'\), with
+\(j^*\lambda'=\lambda\), if and only if its induced functional on
+\(V/W\) annihilates \(E_j\).
+
+Indeed necessity follows by evaluating on \(j^{-1}(W')\). Conversely
+that condition makes the functional well-defined on
+\(\operatorname{im}\bar j\); extend it to \(V'/W'\) by choosing a
+vector-space complement, then pull back to \(V'\). No rank assumption
+and no choice of a splitting compatible with parameters is needed for
+this field-level assertion.
+
+For targets \(u,v\in V\), membership of both in \(W\) is equivalent
+to vanishing of both their classes in \(V/W\). A covector that
+annihilates \(W\) and is nonzero on at least one of \(u,v\) excludes
+the two-target incidence. If such a covector extends as above, it retains
+that nonzero target value at the next stage. All covectors annihilating
+\(W\) extend if and only if \(E_j=0\). Thus an injective map of
+ambient target spaces alone is insufficient: what must be injective is
+the induced map of the multiplication *quotients* in (P1).
+
+### Fixed calculation versus a larger source
+
+For a fixed actual ancestor \(\alpha\) and fixed actual multiplier
+space \(S_d\), compatible injective Ext-stage presentations have
+\[
+W'=j(W),\qquad W=\operatorname{im}(S_d\xrightarrow{F\mapsto F\alpha}V).
+\]
+Here \(E_j=0\), so every field-level dual certificate persists to the
+later presentation. This uses the injectivity of the actual stage maps,
+which must be verified; the audited R-0071 reconstruction supplies its
+specified finite-stage injectivity. The statement is not an assertion
+that every possible Ext-stage map in an arbitrary presentation is
+injective.
+
+By contrast, increasing the allowed multiplier or ancestor source can
+make \(W'\) strictly larger than \(j(W)\). For example take
+\(V=V'=k^2\), \(j=1\), \(W=ke_1\), \(W'=k^2\), and target
+\(u=e_2\). The old separating covector \(e_2^*\) cannot persist.
+This elementary model is a control on the proposed comparison, not an
+STCI example. More importantly, ancestors for different multiplier
+degrees occupy different graded pieces; there is no automatically
+specified map \(j\) between those problems. A degree-uniform argument
+must first construct its actual comparison and then control \(E_j\).
+Re-encoding one fixed tensor at a later stage does not accomplish that.
+
+### The additional obstruction on a parameter curve
+
+Even when the field-level comparison is settled, a family of covectors
+need not extend regularly through a rank-drop point. This defect has a
+precise local description. Let \(R\) be a discrete valuation ring with
+residue field \(k\), and let \(L:R^q\to R^m\) be an actual
+multiplication matrix. Set
+\[
+K=\ker L^{\mathsf t},\qquad Q=\operatorname{coker}L^{\mathsf t}.
+\]
+Then there is a natural exact sequence
+\[
+0\longrightarrow K\otimes_R k
+ \longrightarrow \ker(L_k^{\mathsf t})
+ \longrightarrow \operatorname{Tor}_1^R(Q,k)
+ \longrightarrow0.                                                \tag{P2}
+\]
+To prove it, put \(I=\operatorname{im}L^{\mathsf t}\). As a submodule
+of a finite free module over a DVR, \(I\) is free. Tensor
+\(0\to K\to R^m\to I\to0\), which therefore remains exact, and
+\(0\to I\to R^q\to Q\to0\). Taking the kernel of the resulting
+map \(k^m\to k^q\) gives (P2). Equivalently, Smith normal form shows
+that each nonzero invariant factor divisible by the uniformizer adds
+one specialized covector not obtained from a regular family of left
+syzygies.
+
+Thus flatness of \(Q\) guarantees that every specialized left dual
+lifts locally; torsion measures the failure exactly. This refines the
+existing rank-drop control: the issue is not merely that a chosen
+formula has a denominator. For example, over \(k[t]_{(t)}\),
+\[
+L=\begin{pmatrix}t&0\\0&t\\0&1\end{pmatrix},\qquad
+u=(1,0,1)^{\mathsf t},
+\]
+all polynomial left duals are multiples of \((0,1,-t)\), whose
+values on \(u\) vanish at \(t=0\). At that point the extra dual
+\((1,0,0)\) detects the target. Here
+\(Q\cong R/(t)\), and the final term of (P2) is one-dimensional.
+Every fiber is inconsistent, but no single normalized regular dual
+works across the rank drop. This is the existing finite-source
+counterexample with its missing-dual module identified.
+
+The two separate tests for KG09 are therefore: (P1), compatibility of
+actual multiplication quotients when the source changes; and (P2),
+base change of their dual certificates across parameter strata. Neither
+is established for an all-degree ancestor system merely by proving
+one finite tensor exclusion. On a singular parameter curve, passage to
+its normalization makes the DVR calculation available branchwise but
+requires separate descent to the original curve; on a nonreduced base,
+(P2) must not be invoked without its DVR hypothesis.

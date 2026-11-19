@@ -636,13 +636,225 @@ bundle fits into
 Equation (23) must vanish in `H^1(Q)`. One may express this as a
 uniform binary-polynomial recurrence, with five cohomology
 coefficients and six linear-form unknowns, independently of the
-hypersurface degrees. No proof of the vanishing or nonvanishing of
-that moving-relation class is claimed here; (21)--(22) already charge
-its movement to the exact global budget.
+hypersurface degrees. The theorem below proves nonvanishing in every
+relation degree at least two for the specified saturated degree-one
+movement and next-relation span. The geometric order-one zero locus and positive
+first-relation defect divisors remain separate; (21)--(22) charge
+movement to the exact global budget.
+
+### A uniform nonvanishing theorem in relation degree at least two
+
+**Theorem.** In characteristic zero, let the saturated degree-one moving
+relation be
+\[
+f(z;u,v)=A(u,v)+zB(u,v),\qquad \deg A=\deg B=r\ge2,
+\]
+with \(A,B\) linearly independent, so the coefficient vector is
+basepoint free on the base \(\mathbf P^1\). Then the class of (23)
+in \(H^1(Q)\) is nonzero. In particular this relation cannot lift
+through the next normal order when the allowed generic next relations
+are only \(f\langle u,v\rangle\). Testing modulo that entire saturated
+span allows more corrections than a modified actual next-relation sheaf,
+so nonvanishing also obstructs those smaller correction spaces.
+
+This is a theorem about the specified saturated first relation and its
+next-order operator. It does not cover a positive first-relation defect
+divisor, a second independent relation in degree \(r+1\), or arbitrary
+normal initial ideals. The case \(r=1\) has the geometric zero locus described below.
+
+#### The Laurent gaps retain the shared corrections
+
+The sequence displayed above and \(H^2(\mathbf P^1,\mathcal O(-7)^2)=0\)
+show that the class vanishes exactly when its representative in
+\(H^1(\mathcal O(-6))^{r+2}\) comes from
+\(H^1(\mathcal O(-7))^2\). Use the Laurent gaps
+\(z^{-1},\ldots,z^{-5}\) in the target and
+\(z^{-1},\ldots,z^{-6}\) in the source. There must then exist linear
+binary forms \(L_1,\ldots,L_6\) such that
+\[
+E_k=A L_k+B L_{k+1}\quad(1\le k\le5),                 \tag{24}
+\]
+where expansion of (23) gives
+\[
+\begin{aligned}
+E_1&=-\tfrac38v^2 B_u,\\
+E_2&=-\tfrac38v^2 A_u-3uv B_u-\tfrac94v^2 B_v+\tfrac12v B,\\
+E_3&=-3uv A_u-\tfrac94v^2 A_v-\tfrac52u^2 B_u-uv B_v+u B,\\
+E_4&=-\tfrac52u^2 A_u-uv A_v+3u^2 B_v,\\
+E_5&=3u^2 A_v.
+\end{aligned}                                                     \tag{25}
+\]
+These are the coefficients of \(z^{-k}\). The same \(L_k\) occurs
+in adjacent equations; separate coefficientwise ideal membership is
+weaker than the cohomological vanishing test.
+
+#### A fixed binary factor cannot survive
+
+Suppose \(A,B\) have a common linear factor \(\ell\), with common
+multiplicity \(t\ge1\). Write \(f=\ell^t g\), choosing \(t\) maximal,
+and choose a fixed complementary normal coordinate \(n\). The
+coefficient functional at \(\ell^{t-1}n^{r+2-t}\) annihilates
+\(f\langle u,v\rangle\), so it descends from the obstruction quotient
+to \(\mathcal O(-6)\). Applied to (23), it keeps only the derivative
+of \(\ell^t\); every other term is divisible by \(\ell^t\).
+The resulting class is, up to a nonzero fixed scalar,
+\[
+t\,c(z)h_\ell\in H^1(\mathcal O(-6)),                \tag{26}
+\]
+where \(c(z)=g|_{\ell=0}\) is a nonzero section of \(\mathcal O(1)\)
+after its normal monomial is removed, and \(h_\ell\) is the accepted
+constant-direction quadratic class in \(H^1(\mathcal O(-7))\).
+The base-derivative term is among the terms killed by the functional.
+
+Section 6's fixed-direction apolar result says that no nonzero
+section of degree at most one annihilates \(h_\ell\), for any
+constant direction. Characteristic zero makes \(t\ne0\). Thus (26)
+cannot vanish. Any putative zero of (23) therefore has
+\[
+\gcd(A,B)=1.                                         \tag{27}
+\]
+Geometrically, its \((1,r)\) root is then the smooth integral graph
+\(z=-A/B\) over the normal-direction projective line, rather than a
+pencil with fixed binary factors.
+
+#### The only candidate pencils would be polar pencils
+
+Assume now that (24) holds, (27) is satisfied, and \(r\ge3\). Put
+\[
+I=(A,B)\subset k[u,v],\qquad
+W=vA_v+2uB_v,\quad V=vA_u+2uB_u.
+\]
+Euler's identities and (25) give, modulo \(I\),
+\[
+E_3\equiv\tfrac34vW,\qquad
+E_4\equiv\tfrac32uW,\qquad
+E_2\equiv-\tfrac38vV.                                \tag{28}
+\]
+Because \(A,B\) are coprime, \(k[u,v]/I\) is an Artinian complete
+intersection with socle concentrated in degree \(2r-2\). Equations
+(24) and (28) make the degree-\(r\) class of \(W\) a socle element.
+For \(r\ge3\), \(r<2r-2\), so \(W\in I\).
+The identity
+\[
+uV+vW=r(vA+2uB)
+\]
+then gives \(uV\in I\); (28) gives \(vV\in I\). The same argument
+puts \(V\in I\). Both are constant linear combinations of \(A,B\).
+
+Set \(C=vA+2uB\). Its two partial derivatives
+\(C_u=2B+V\) and \(C_v=A+W\) therefore lie in the span of \(A,B\).
+Write \(C_u=\alpha A+\beta B\), \(C_v=\gamma A+\delta B\).
+Euler's identity for \(C\) gives
+\[
+[\alpha u+(\gamma-r-1)v]A+
+[(\beta-2r-2)u+\delta v]B=0.
+\]
+Coprime forms of degree \(r\ge2\) have no nonzero linear syzygy.
+Consequently
+\[
+C_v=(r+1)A,\qquad C_u=2(r+1)B,
+\qquad A_u=2B_v.                                    \tag{29}
+\]
+Thus the only possible zero would come from the specified polar pencil
+of a squarefree binary form \(C\) of degree \(r+1\). Squarefreeness
+follows from the coprimality of its two partial derivatives.
+This is an intermediate necessary locus, not an existence assertion.
+
+#### Adjacent orders require incompatible corrections
+
+Substituting (29) and Euler's identities into (25) gives
+\[
+E_4=-ruA,\qquad
+E_3=-\tfrac{9r}{4}vA+(1-\tfrac{5r}{2})uB.            \tag{30}
+\]
+Representation by \(A\) and \(B\) with linear coefficients is
+unique, again because there is no linear syzygy. The fourth equation
+of (24) therefore requires \(L_4=-ru\), while the third requires
+\(L_4=(1-5r/2)u\). These requirements would give \(r=2/3\),
+impossible for an integer \(r\ge3\) in characteristic zero.
+This proves the theorem.
+
+#### The two low relation orders
+
+The Artinian socle step above does not apply at \(r=2\), where \(r\)
+equals the socle degree. Here the overlapping corrections themselves
+force the polar identity. Write
+\(A=a u^2+buv+cv^2,\ B=d u^2+euv+fv^2\).
+For coprime \(A,B\), the coefficient map for \(uA,vA,uB,vB\),
+in descending powers of \(u\), is the isomorphism
+\[
+ M=\begin{pmatrix}
+ a&0&d&0\\ b&a&e&d\\ c&b&f&e\\ 0&c&0&f
+ \end{pmatrix},\qquad R=\det M\ne0.
+\]
+Put \(Z_k=\operatorname{adj}(M)\operatorname{coeff}(E_k)\) in the
+same ordering. Let \((U,V)\) be the last two entries of \(Z_2\) minus
+the first two of \(Z_3\), and \((W,X)\) the analogous difference from
+\(Z_3,Z_4\). The shared-correction equations make all four zero.
+Substituting the displayed \(E_2,E_3,E_4\) gives the two coefficient
+identities
+\[
+\begin{aligned}
+ 3R(a-e)&=(2b-4f)U-2aV+aW-2dX,\\
+ 3R(b-4f)&=4cU-8fV+4fW+(2a-4e)X .
+\end{aligned}
+\]
+These can be checked by multiplying out the indicated four-column
+coefficient map; no rank-locus elimination is needed. Thus \(a=e\)
+and \(b=4f\), which is \(A_u=2B_v\). The same overlap contradiction
+as for higher order now excludes \(r=2\).
+
+For \(r=1\), write \(A=a u+bv,\ B=c u+dv\), with
+\(ad-bc\ne0\). The quotient by \(fV\) at normal degree two is the
+line-bundle quotient obtained by evaluating at
+\[
+ u=-(b+dz),\qquad v=a+cz.
+\]
+Both entries are linear in the base, so this is a map to
+\(\mathcal O(-4)\); its kernel is the indicated relation bundle.
+Only Laurent exponents \(-1,-2,-3\) then contribute to cohomology.
+Substitution in (23) shows that, up to nonzero constant factors,
+the three gap coefficients are
+\[
+\begin{aligned}
+ &c(9a^2-16ad-2bc+12d^2),\\
+ &(a-2d)(3a^2-4ad-8bc+12d^2),\\
+ &b(3a^2-16ad-2bc+36d^2).
+\end{aligned}
+\]
+The solutions, up to simultaneous scaling, are exactly
+\[
+\begin{array}{ll}
+ b=c=0, & (a-2d)(3a^2-4ad+12d^2)=0,\quad ad\ne0;\\
+ bc\ne0, & a=2d,\quad bc=8d^2,\quad d\ne0.
+\end{array}
+\]
+Indeed if both \(b,c\) are nonzero, subtracting the two outer
+quadratics gives \(a^2=4d^2\); the middle coefficient excludes
+\(a=-2d\), and \(a=2d\) leaves \(bc=8d^2\).
+If exactly one of \(b,c\) is zero, the other outer quadratic
+is incompatible with either factor of the middle coefficient:
+when \(c=0\) subtraction of the two quadratics would force \(a=2d\);
+when \(b=0\) subtraction of three times the middle quadratic from
+the outer one would force \(a=-6d\), which does not satisfy it.
+The case \(a=2d\) makes either outer quadratic nonzero in these
+one-zero cases. Here \(ad\ne0\) follows from the determinant.
+When both vanish, only the stated middle condition remains.
+This includes the actual quadric's symbol \(u+zv/2\). It classifies
+geometric zeros of **this first next-order operator**, not lifts
+through all higher orders or a scheme structure of the parameter locus.
+
+The obstruction is the incompatibility of a **shared next-order
+correction**, not a dimension count or a sampled rank. At \(r=2\),
+the explicit coefficient identities replace the unavailable socle step.
+At \(r=1\), the geometric zero locus includes the actual quadric's
+first symbol \(u+zv/2\); a zero of this operator alone is not a higher lift.
+Positive-defect first relations and later global equation realization
+also remain outside this theorem.
 
 ## 9. Dependencies and unresolved moving-relation boundary
 
-The equality argument assumes the complete socle budget and constant graded algebra, together with the nonzero P-010 quadratic obstruction in constant directions. The filtered generator-bundle theorem, quadratic transition/factor extraction, and first-relation defect bound are proved separately below. The [exact moving-relation operator](../../computations/generalization_moving_first_relation_operator.py) implements the stated next-order calculation; it does **not** establish a uniform moving-relation exclusion. In particular, two displayed symbols cannot substitute for the full initial ideal when invoking [R-0033](../../results/constant_first_relation_lifting.md).
+The equality argument assumes the complete socle budget and constant graded algebra, together with the nonzero P-010 quadratic obstruction in constant directions. The filtered generator-bundle theorem, quadratic transition/factor extraction, and first-relation defect bound are proved separately below. The [exact moving-relation operator](../../computations/generalization_moving_first_relation_operator.py) implements the stated next-order calculation; the [uniform nonvanishing proof](#a-uniform-nonvanishing-theorem-in-relation-degree-at-least-two) now excludes saturated degree-one movement in relation degrees at least two with no independent next relation. The order-one geometric zeros do not settle higher lifting, and positive-defect cases are not excluded. In particular, two displayed symbols cannot substitute for the full initial ideal when invoking [R-0033](../../results/constant_first_relation_lifting.md).
 
 ---
 
