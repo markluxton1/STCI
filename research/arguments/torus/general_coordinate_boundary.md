@@ -11,7 +11,7 @@ Write \(f_i=L_i|_C\in H^0(\mathbf P^1,\mathcal O(4))\),
 This is a statement about each coordinate-torus embedding, not equations
 realizing \(C\) as a set-theoretic complete intersection.
 
-## All contact patterns and their weights
+## Theorem: realized contact weights and a proper toric model
 
 At each puncture \(q\), put \(a_q=(\operatorname{ord}_q f_i)_{i=0}^3\).
 Use a local trivialization of \(\mathcal O(4)\). Since the coordinates have
@@ -25,17 +25,28 @@ with weight
 \[
  w_\rho=\sum_{q:\rho_q=\rho}d_q.
 \]
-These are normalization valuations; the embedding has generic degree one,
-so no parametrization-degree factor occurs. The boundary-intersection proof
-below also gives these multiplicities, including nonprimitive contacts.
-Balancing follows directly from the degrees of the four divisors:
-\[
- \sum_\rho w_\rho n_\rho=\sum_q[a_q]=[(4,4,4,4)]=0.
-\]
-This covers all realized simultaneous collisions and tangencies, not an
-assertion that every combinatorial contact assignment can be realized.
+These weights are balanced: \(\sum_\rho w_\rho n_\rho=0\).
+There is a smooth toric variety \(X_\Delta\), with fan consisting of zero
+and these realized rays, in which the scheme-theoretic closure \(C'\) of
+\(U\) is isomorphic to \(C\), hence proper. Multiplication
+\(T\times C'\to X_\Delta\) is faithfully flat, and is smooth if and only
+if every \(d_q=1\). The complete ambient refinement used to construct this
+model is distinct from the ray-only fan \(\Delta\).
 
-## A proper toric model; flatness versus smoothness
+This gives a complete formula for **each realized frame**, not a classification
+of which contact assignments the restricted linear system can realize.
+
+## Proof
+
+Normalization valuations give the stated rays; the embedding has generic
+degree one, so there is no parametrization-degree factor. We prove the
+weight formula through boundary intersection lengths below. Balancing follows
+from the four degree-four divisors:
+\[
+ \sum_q[a_q]=[(4,4,4,4)]=0.
+\]
+
+### Closure and properness
 
 Choose a smooth complete refinement \(\Sigma\) of the fan of \(\mathbf P^3\)
 containing all \(\rho_q\). Insert the finitely many rational rays and then
@@ -54,19 +65,42 @@ a unit; the two annihilator characters pull back to units. Thus \(q\)
 lies in that ray's open divisor orbit, not a higher-codimension orbit.
 Consequently \(C'\) lies in the toric open \(X_\Delta\) whose fan has just
 zero and the realized rays. The curve \(C'\) is proper over \(k\), since \(C'\simeq\mathbf P^1\). Omitted higher-codimension orbits are
-harmless precisely because they miss the curve.
+harmless precisely because they miss the curve. Moreover, \(U\) is a dense
+open subset of the integral scheme \(C'\), so it is schematically dense.
+As \(C'\) is closed in \(X_\Delta\), its defining ideal is exactly the
+ideal of the scheme-theoretic closure of \(U\), not merely a set-theoretic
+image. The valuation/orbit correspondence also agrees with
+[Tevelev, Lemma 2.2](https://arxiv.org/html/math/0412329v3).
+
+### Flatness on the affine ray charts
 
 The multiplication map \(\mu:T\times C'\to X_\Delta\) is surjective:
 \(U\) meets the torus, and each included ray orbit contains a puncture;
-translations fill each orbit. It is flat. Indeed on a ray chart write the
-curve coordinates as \((z(c),u_1(c),u_2(c))\). Absorb the latter units into
-the acting torus coordinates. Apart from the two torus factors the map is
-\((a,c)\mapsto a z(c)\) from \(\mathbf G_m\times C_\rho\) to \(\mathbf A^1\).
-The regular function \(z\) is nonconstant, since it vanishes at a puncture
-but not on \(U\). The map \(C_\rho\to\mathbf A^1\) is flat: its local
-rings are torsion-free over the PID \(k[z]\). Base change, the automorphism
-\((a,z)\mapsto(a,az)\), and projection prove flatness of the displayed
-map. On the torus multiplication is smooth. Thus \(\mu\) is faithfully flat.
+translations fill each orbit. Fix the affine ray chart
+\(X_\rho=\operatorname{Spec}k[Z,U_1^{\pm1},U_2^{\pm1}]\).
+Its inverse image \(C_\rho=C'\cap X_\rho\) is closed affine integral
+and open in \(C'\). Write the restrictions as \((z,u_1,u_2)\).
+The element \(z\) is nonzero and nonconstant: it vanishes at a puncture
+on this ray, but nowhere on the dense open \(U\). Hence
+\(k[Z]\to\Gamma(C_\rho,\mathcal O),\ Z\mapsto z\), is injective and
+its target is torsion-free as a \(k[Z]\)-module. Over this PID it is flat;
+thus \(z:C_\rho\to\mathbf A^1\) is flat.
+
+Because the chart is torus invariant, \(\mu^{-1}(X_\rho)=T\times C_\rho\).
+In the acting torus coordinates \((a,b_1,b_2)\), multiplication is
+\((a,c,b_1,b_2)\mapsto(az(c),b_1u_1(c),b_2u_2(c))\).
+Replacing \(b_i\) by \(b_i u_i(c)\) is an invertible change of source
+coordinates. It leaves the product of the identity on \(\mathbf G_m^2\)
+with \(f:\mathbf G_m\times C_\rho\to\mathbf A^1\), \(f(a,c)=az(c)\).
+The map \((a,c)\mapsto(a,z(c))\) is the flat base change of \(z\) by
+\(\mathbf G_m\times\mathbf A^1\to\mathbf A^1\). Compose it with the
+isomorphism \((a,b)\mapsto(a,ab)\), whose inverse is
+\((a,b)\mapsto(a,a^{-1}b)\), then with the flat projection to the second
+factor. This proves flatness of \(f\), and hence of \(\mu\) on this chart.
+On the dense torus multiplication is smooth. These charts cover \(X_\Delta\),
+so \(\mu\) is faithfully flat.
+
+### Smoothness and multiplicities
 
 At a divisor orbit, torus tangent directions span its two tangent directions.
 The remaining derivative is that of \(\tau^{d_q}u(\tau)\), nonzero at
@@ -75,11 +109,16 @@ field \(k\) therefore give
 \[
  \mu\text{ is smooth}\quad\Longleftrightarrow\quad d_q=1\text{ for every }q.
 \]
-This is a tropical compactification in Tevelev's definition, and is a schön
+Properness and faithful flatness now verify the hypotheses of
+[Tevelev's Definition 1.1](https://arxiv.org/html/math/0412329v3): this is a
+tropical compactification. By his Definition 1.3 it is a schön
 compactification precisely in the primitive-contact case. The assertion is
 about this model; the full complete ambient fan is not the tropical curve.
 Intersection with \(z=0\) at \(q\) has length \(d_q\), giving the weight
-formula by the tropical multiplicity/orbit-intersection formula.
+formula by [Sturmfels–Tevelev, Section 3, Definition 3.1/Lemma 3.2](https://arxiv.org/abs/0704.3471).
+Summing these lengths over punctures on the same orbit gives \(w_\rho\).
+
+## Retained witnesses
 
 Nonprimitive contacts occur even for a smooth embedded curve. The independent
 sections \((1,1+x,1+x^3,x^4)\) in the affine parameter \(x=t/s\) have order
@@ -129,7 +168,9 @@ partitions of the 16 labeled roots are locally closed (equalities within
 blocks, inequalities between them); their finite permutation-orbit unions
 descend to constructible subsets of frame space. Each block specifies one
 order vector \(a_q\), so the weighted fan is constant on each such part.
-Empty patterns are discarded; no claim that all patterns occur is needed.
+Empty patterns are discarded. This is not a realizability classification:
+we have not characterized which partitions meet the frame space of the
+restricted system \(\langle s^4,s^3t,st^3,t^4\rangle\).
 After a finite base change labeling roots in a specialization, blocks can
 coalesce and their vectors add. This does not assert that every coarsening
 occurs or that partition order equals the closure order of realized strata.
@@ -140,24 +181,22 @@ rays provides a common ambient modification for every frame. The ray-only
 open must still use each frame's realized rays: unused rays would destroy
 surjectivity of multiplication. This is not a canonical parameter-space fan.
 
-## Verification and remaining historical scope
+## Relevance and remaining scope
 
-Independent review reconstructed the lift and closed immersion, properness
-in the ray-only open, local flatness, smoothness criterion and weights.
-The retained rational witness was independently recomputed. The general
-proof does not depend on a finite sample or characteristic-zero arithmetic.
+For any hypothetical homogeneous pair \((F,G)\) with sole reduced support
+\(C\), this curve geometry applies after any independent coordinate change.
+It describes only \(C\cap T\) and its closure. It does not compute the
+individual tropicalizations of the two surfaces, their common initial ideals,
+or the scheme-theoretic multiplicities of their intersection. Consequently
+it supplies no new obstruction to STCI and no criterion for two-equation
+realization. No additional interface with the unidentified H17 diagram,
+Chow-cycle degenerations, or residual visibility is asserted here.
 
-- Tevelev, [*Compactifications of subvarieties of tori*](https://arxiv.org/html/math/0412329v3),
-  Definitions 1.1/1.3 and Lemma 2.2, for compactification terminology and
-  the valuation/orbit relation. The required flatness is proved here.
-- Sturmfels–Tevelev, [*Elimination Theory for Tropical Varieties*](https://arxiv.org/abs/0704.3471),
-  Section 3, Definition 3.1/Lemma 3.2, for weights as orbit-intersection lengths.
-
-This closes the precise H07 contact/weight/toric-model questions for all
-realized frames. A historical “global fan over parameter space” remains
-undefined without a parameter lattice, moduli problem, and notion of wall.
-Resultant incidence divisors are not automatically polyhedral chambers.
-The original transcript was not recovered, so exact historical equivalence
-is not claimed. No assertion about unrestricted STCI or the unknown H17
-diagram follows. The [special two-ray compactification](tropical_thickenings_and_endpoint_duality.md)
+The contact/weight/toric-model formulas are complete for every realized frame;
+realizability of all root partitions is not classified. Historical recovery is
+also incomplete: a “global fan over parameter space” remains undefined without
+a parameter lattice, moduli problem, and notion of wall. Resultant incidence
+divisors are not automatically polyhedral chambers. The original transcript
+was not recovered, so exact historical equivalence is not claimed. The
+[special two-ray compactification](tropical_thickenings_and_endpoint_duality.md)
 is a different coordinate choice, not a contradiction.
