@@ -224,3 +224,10 @@ generic length in the joint kernel. An independent upper bound below
 passing this comparison still needs its full moving ideal and two
 homogeneous generators. The local comparison alone gives neither an
 upper bound on that kernel for all pairs nor a supported family to test.
+
+
+## Canonical equation sources and delayed hidden layers
+
+The [Chow-matched equation-layer comparison](../../arguments/torus/chow_matched_equation_layers.md) now identifies canonical end-adapted raw ideals and proves an exact shift of all line-supported layers for unequal generator degrees. A same-ideal shear changes the first missed length from eight to zero by moving it to the next layer; it does not remove cancellation. Opposite optimal representatives need not coincide, so compare both filtrations of the same homogeneous equation source, not one supposedly simultaneously optimized pair.
+
+The [global Cech/Kummer comparison](../../arguments/torus/chow_matched_equation_layers.md#the-global-cech-kernel-and-the-scope-of-kummer-comparisons) separates endpoint conductor data from the extension condition on raw equation relations. The [full-limit control](../../arguments/torus/chow_matched_equation_layers.md#opposite-full-limits-can-retain-a-large-embedded-hilbert-correction) retains the CI polynomial by an embedded endpoint correction of length 4608 at either orientation. The live gate is an independent bound or compatibility condition on the **canonical** filtered sources/layers, not a new calculation of first length for an arbitrary generating pair. No such strict bound or unrestricted exclusion is proved here.

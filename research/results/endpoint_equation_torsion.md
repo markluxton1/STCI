@@ -63,6 +63,8 @@ there and cannot distinguish a relation supported on \(L\) inside that
 hypersurface from a component of the full flat limit. These are the two
 quantities measured below.
 
+The [canonical equation-source refinement](../arguments/torus/chow_matched_equation_layers.md#canonical-extreme-equation-sources) distinguishes the first layer of an arbitrary displayed pair from the end-adapted raw ideal. For unequal generator degrees, changing to a nonadapted representative shifts all line-supported layers by the exact weight defect. This does not change the hypotheses or conclusions below, which apply to the specified raw presentation.
+
 ## Statement
 
 **Raw torsion.** For \(t\in T_n\), vanishing of both completed endpoint
