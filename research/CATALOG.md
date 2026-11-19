@@ -82,6 +82,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0071](results/quartic_ancestor_direction_reduction.md) | Direction reduction for the fixed quartic common-ancestor incidence | finite moments and actual multiplication: accepted | [scope](results/quartic_ancestor_direction_reduction.md#scope) |
 | [STCI-R-0072](results/torus_quotient_movement_bounds.md) | Lower bounds on transverse movement from the actual defining equations | multiplier rank and the splitting of the moving quotient: accepted | [scope](results/torus_quotient_movement_bounds.md#scope) |
 | [STCI-R-0073](results/endpoint_equation_torsion.md) | Endpoint detection of equation torsion and a residual degree bound | endpoint localization and the first equation layer: accepted | [scope](results/endpoint_equation_torsion.md#scope) |
+| [STCI-R-0074](results/chow_polytope_rigidity.md) | Full Chow-polytope rigidity for the fixed quartic | endpoint support and separating-face degree exhaustion: accepted | [scope](results/chow_polytope_rigidity.md#scope) |
 
 ## Arguments
 
@@ -187,6 +188,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0071: finite moments and actual multiplication; joint premises [STCI-R-0020]; proof `#proof`; review accepted, reconstructed at `#statement`.
 - STCI-R-0072: multiplier rank and the splitting of the moving quotient; joint premises [STCI-R-0020, STCI-R-0042]; proof `#proof`; review accepted, reconstructed at `#review`.
 - STCI-R-0073: endpoint localization and the first equation layer; joint premises []; proof `#proof`; review accepted, reconstructed at `#review-and-scope-of-the-comparison`.
+- STCI-R-0074: endpoint support and separating-face degree exhaustion; joint premises []; proof `research/arguments/equations/chow_polytope_rigidity.md#scope-and-statement`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
@@ -294,3 +296,4 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0071: no declared backlinks.
 - STCI-R-0072: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072, STCI-R-0073] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056, STCI-R-0072] → [STCI-F-0002] (owner STCI-F-0002).
 - STCI-R-0073: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072, STCI-R-0073] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] → [STCI-I-0002] (owner STCI-I-0002).
+- STCI-R-0074: no declared backlinks.

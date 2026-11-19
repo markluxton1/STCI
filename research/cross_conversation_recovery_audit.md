@@ -30,7 +30,7 @@ Legend: **M** matching repo content (compare exact hypotheses before closing); *
 
 ## Priority proof gate: H15
 
-**Resolved at the cycle level.** The [full Chow-polytope rigidity argument](arguments/equations/chow_polytope_rigidity.md) proves H15 for effective one-cycles over an algebraically closed field of arbitrary characteristic. It fixes the full column-weight normalization in the coefficients of two hyperplanes. Equality is literal, not up to projection or translation.
+**Resolved at the cycle level in [R-0074](results/chow_polytope_rigidity.md).** The [full Chow-polytope rigidity argument](arguments/equations/chow_polytope_rigidity.md) proves H15 for effective one-cycles over an algebraically closed field of arbitrary characteristic. It fixes the full column-weight normalization in the coefficients of two hyperplanes. Equality is literal, not up to projection or translation.
 
 The endpoint-support gate is proved by restricting the component Chow forms to hyperplanes in the span of coordinates 0 and 3: nonvanishing is equivalent to avoiding the opposite coordinate line. Orbit endpoints then force support to contain 0 and 3. The separating face is the minimum-column-0 face; its column-2 width is three for a full-support quartic and zero for each of the two plane quartics and the reduced coordinate line. Minkowski additivity and degree exhaustion finish the proof without a projected-edge inference.
 
@@ -56,4 +56,4 @@ For a general choice of four coordinate hyperplanes meeting (C) transversely in 
 3. Continue earlier August–October conversation retrieval in large thematic batches, deduplicate by mathematical claim, and close M items after exact content comparison.
 4. Only after verification, place genuinely new mathematics into an existing canonical Result/Argument/Framework/Investigation and retire this temporary ledger when its purpose is complete.
 
-**Coverage accounting:** 17 historical topic clusters inventoried; 0 new typed Results added; H15 integrated with a reviewed cycle-level proof; remaining principal potential omissions H07 and H16, several matching-but-unclosed clusters. No exhaustive conversation count is available.
+**Coverage accounting:** 17 historical topic clusters inventoried; 1 new typed Result added ([R-0074](results/chow_polytope_rigidity.md)); H15 integrated with a reviewed cycle-level proof; remaining principal potential omissions H07 and H16, several matching-but-unclosed clusters. No exhaustive conversation count is available.

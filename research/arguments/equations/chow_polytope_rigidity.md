@@ -16,6 +16,10 @@ column weights with nonzero coefficients. In particular
 \(\sum_i w_i=2\deg Z\). The scalar ambiguity of a Chow form does not change
 this polytope.
 
+This classifies **all effective one-cycles**, with no invariance hypothesis.
+Invariance is a conclusion: this is a rigid fiber of the Chow-polytope map.
+The canonical statement is [R-0074](../../results/chow_polytope_rigidity.md).
+
 For every integer \(m\ge1\),
 \[
  P_Z=mP_C
@@ -141,18 +145,29 @@ standard library. Replay from the repository root:
 python3 research/arguments/equations/chow_polytope_rigidity.support/verify.py
 ```
 
-The table also has a direct check: when column 1 is present, at \(z=0\)
-the dehomogenized quartics are \(xF(x),xG(x)\). The simple root at zero
-of the first lifts formally, giving coefficient
-\(\pm\Delta_{01}\operatorname{Res}(F,G)\). This argument lifts only
-that simple root, so it does not assume the other roots are separable.
-For full support the residual cubics have powers \(0,2,3\), giving
-\(\operatorname{Res}(F,G)=\pm(\Delta_{13}^3+\Delta_{12}^2\Delta_{23})\).
-For support \(\{0,1,3\}\) it reduces to \(\pm\Delta_{13}^3\).
-For \(\{0,2,3\}\), the full quartic resultant is
-\(\pm(\Delta_{03}^4-\Delta_{02}^3\Delta_{23})\), which gives its row.
-The checker verifies these polynomial expressions independently of this
-root interpretation.
+For a direct proof of the identities, expand the Sylvester determinant first
+in its constant-coefficient column and then in the remaining adjacent
+column. Its linear coefficient in \(z\) is
+\(\pm\Delta_{01}\operatorname{Res}(F,G)\), where
+\(F=a_1+a_2x^2+a_3x^3\), \(G=b_1+b_2x^2+b_3x^3\).
+On the open set \(\Delta_{23}\ne0\), their common root satisfies
+\(x^2=-\Delta_{13}/\Delta_{23}\),
+\(x^3=\Delta_{12}/\Delta_{23}\); compatibility gives
+\(\Delta_{13}^3+\Delta_{12}^2\Delta_{23}=0\).
+The parametrization \([s^3:st^2:t^3]\) is birational in every
+characteristic. Its irreducible Chow resultant and this equation have the
+same bidegree \((3,3)\), so they agree up to scalar; specialization to
+pure endpoint monomials fixes that scalar up to sign. Setting column 2
+to zero gives the \(\{0,1,3\}\) row. For \(\{0,2,3\}\), the same
+elimination uses \(x^3=-\Delta_{03}/\Delta_{23}\),
+\(x^4=\Delta_{02}/\Delta_{23}\) and gives the full resultant
+\(\pm(\Delta_{03}^4-\Delta_{02}^3\Delta_{23})\).
+Its lowest \(z\)-term gives the remaining row. These polynomial identities
+extend from the indicated dense open sets: the incidence hypersurface
+meets \(\Delta_{23}\ne0\) densely (take a common root \(x=1\)),
+and that condition excludes a root at infinity. Equal bidegrees then
+identify the eliminants with the irreducible Chow resultants. This algebraic derivation is
+the proof; the determinant checker is reproducible supporting evidence.
 
 ## Width and degree exhaustion
 
@@ -189,3 +204,93 @@ Even translation of polytopes cannot be discarded: adding \([L_{03}]\)
 to \(m[C]\) adds the singleton \((1,0,0,1)\) to its polytope. Thus equality
 up to translation would admit an extra line. The full, unshifted equality
 in the statement is essential.
+
+
+## Proper surface pairs and the remaining equation question
+
+Let \(F,G\) be homogeneous of positive degrees \(a,b\), with no common
+surface component, and \(ab=4m\). Their proper complete intersection has
+fundamental cycle \(Z=[V(F,G)]_{\mathrm{cyc}}\) of degree \(ab\). Hence
+\[
+ P_Z=mP_C\quad\Longleftrightarrow\quad
+ Z=\sum_j n_j[\lambda_j C],\qquad \sum_jn_j=m.
+\]
+This is necessary for \(Z=m[C]\), but does not distinguish the marked
+quartic from other translates or force all translates to coincide.
+It does not imply that the equations themselves are eigenforms.
+
+There is already a classical coefficient criterion on the open parameter
+space of proper pairs. Form the incidence resultant
+\[
+ R(F,G;\alpha,\beta)=\operatorname{Res}_x(F,G,L_\alpha,L_\beta),
+\]
+which is their cycle's Chow form, of bidegree \((ab,ab)\) in the two
+hyperplane rows. Expand it as \(\sum c_{uv}(F,G)\alpha^u\beta^v\).
+Then \(P_Z=mP_C\) holds exactly when all coefficients with
+\(u+v\notin mP_C\) vanish and, at each vertex of \(mP_C\), at least one
+coefficient of that weight is nonzero. This gives a finite constructible
+condition in fixed degrees, not a new structural theorem. It incorporates
+coefficient cancellations; the Newton polytopes of \(F,G\) alone are not
+asserted to determine the answer. The existing
+[prescribed Sylvester bundle map](chow_bundle_maps.md) gives the same
+criterion through its determinant; arbitrary unrelated bundle determinants
+do not constitute homogeneous equation realization.
+
+The bounded remaining question is whether this classical criterion admits
+a useful structural characterization directly in arbitrary proper
+\(F,G\), or their prescribed maps, without constructing the whole
+resultant and without assuming eigenforms. Even such a characterization
+would leave the marked-support and actual equation-realization gates.
+No degree-specific search or new general theorem is proposed here.
+
+## Eigenpairs and transverse finite quotients
+
+For eigenpairs under \(H=T_C\), [R-0050](../../results/torus_orbit_curve_degree.md)
+uses \(x=(1,t,t^3u,t^4v)\) to write the restrictions as
+\(t^rf(u,v),t^sg(u,v)\). The finite Laurent quotient
+\(B=k[u^{\pm1},v^{\pm1}]/(f,g)\), possibly zero, gives
+\(V(F,G)\cap T_{\mathrm{dense}}=\operatorname{Spec}B\times\mathbf G_m\).
+Its points \((\epsilon,\zeta)\) give translated quartics
+\([s^4:s^3t:\epsilon st^3:\zeta t^4]\); local lengths give generic
+cycle multiplicities. This sees no components supported on the coordinate
+boundary. Excluding those components is essential before inferring the
+whole projective cycle. With boundary excluded, marked sole support is
+precisely \(\operatorname{Supp}B=\{(1,1)\}\), not reducedness of \(B\).
+
+For two Laurent binomials with independent exponent-difference rows and
+nonzero constants, the quotient is a torsor under the finite diagonalizable
+kernel of the associated torus isogeny. Smith normal form identifies that
+kernel as \(\mu_{d_1}\times\mu_{d_2}\). In characteristic zero its roots
+are distinct and reduced; in characteristic \(p\), the prime-to-\(p\)
+part remains reduced while the \(p\)-primary part can concentrate length
+nonreducedly. This explains a contrast in binomial instances, not in all
+Laurent systems. H15 neither forces subgroup-scheme structure nor ensures
+that a chosen finite quotient is realized by a proper projective pair
+without boundary residuals.
+
+## Foundational references and literature boundary
+
+- Dalbec and Sturmfels, [*Chow Forms*](https://math.berkeley.edu/~bernd/chowforms.pdf),
+  in *Invariant Methods in Discrete and Computational Geometry* (1995),
+  explains cycle encoding and gives the complete-intersection resultant
+  example (printed p. 4). The incidence construction above is classical.
+- Fink, [*Tropical cycles and Chow polytopes*](https://arxiv.org/abs/1001.4784),
+  Definition 4.4 and the preceding weight discussion (arXiv p. 9), defines
+  the Chow weight polytope. Bracket substitution in two hyperplane rows
+  preserves the column weights used here. The foundational source is
+  Kapranov, Sturmfels and Zelevinsky, *Chow polytopes and general resultants*,
+  [Duke Math. J. 67 (1992), 189–218](https://doi.org/10.1215/S0012-7094-92-06707-X).
+- Eisenbud and Schreyer, with an appendix by Weyman,
+  [*Resultants and Chow forms via Exterior Syzygies*](https://arxiv.org/abs/math/0111040),
+  supplies a general Chow-complex determinant construction. It does not
+  remove the prescribed-equations condition in this application.
+- Edidin and Graham, [*Equivariant intersection theory*](https://arxiv.org/abs/alg-geom/9609018),
+  provides the equivariant cycle framework, not an inference that a pair
+  defining an invariant cycle must consist of eigenforms.
+- Eisenbud and Sturmfels, [*Binomial Ideals*](https://arxiv.org/abs/alg-geom/9401001),
+  Section 2, treats Laurent binomial ideals via partial characters; this
+  is the relevant established framework for the special finite quotients.
+
+This focused audit identifies classical tools already covering the
+coefficient and determinant reformulations. It is not an exhaustive
+literature search or a claim that the remaining structural question is new.

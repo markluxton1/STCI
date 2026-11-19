@@ -84,3 +84,7 @@ attachment, or endpoint schemes, and quotient flatness does not on its
 own establish projective-image flatness.
 
 Quotient data alone does not determine boundary or endpoint geometry.
+
+## Chow-polytope connection
+
+[R-0074](chow_polytope_rigidity.md) classifies the full Chow-polytope fiber without assuming invariance. Its [eigenpair discussion](../arguments/equations/chow_polytope_rigidity.md#eigenpairs-and-transverse-finite-quotients) connects this quotient to translated quartics, with explicit boundary and binomial subgroup-scheme caveats.

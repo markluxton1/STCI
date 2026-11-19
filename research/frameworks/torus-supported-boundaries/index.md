@@ -328,3 +328,5 @@ vanish on their layer at both geometric endpoints of the same family.
 They persist at the generic point of the disjoint coordinate line even
 though parameter saturation removes the family there.
 [Explicit first-layer classes](../../results/endpoint_equation_torsion.md#a-relation-missed-at-both-endpoints).
+
+The canonical [R-0074](../../results/chow_polytope_rigidity.md) classifies **all** effective cycles in this rigid Chow-polytope fiber; invariance is deduced, not assumed. Its [proper-pair reformulation](../../arguments/equations/chow_polytope_rigidity.md#proper-surface-pairs-and-the-remaining-equation-question) is a classical resultant coefficient condition, not a criterion in the Newton polytopes of the equations alone. The [R-0050 integration](../../arguments/equations/chow_polytope_rigidity.md#eigenpairs-and-transverse-finite-quotients) keeps boundary exclusion and binomial-only subgroup structure explicit.
