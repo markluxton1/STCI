@@ -35,7 +35,9 @@ has **no homogeneous set-theoretic mate of any positive degree** for
 \(C_0\).
 Integrality of every member now has a [geometric proof](../residuals/residual_contact_cycles.md#integrality-without-a-coefficient-rank), independent of the retained degree-six calculation. The all-mate exclusion here already uses actual ruling lines and the degrees of
 the pullback of a hypothetical global equation on the normalization; the
-companion proof adds quantitative all-degree branch-order and residual bounds.
+companion proof adds quantitative all-degree branch-order and residual bounds,
+sharp for every degree at least two, and [classifies all equality mates](../residuals/residual_contact_cycles.md#equality-mates-and-sharpness-in-every-degree)
+in this characteristic-zero mixed-sextic family.
 It makes no assertion about other sextic families or arbitrary carriers.
 
 ## 1. Normalization of the parameters and four actual lines

@@ -256,7 +256,7 @@ projective residual test remains the full generic length and degree identity.
 
 # Exact degree-six branch contact on a mixed-weight sextic
 
-Over an algebraically closed characteristic-zero field, this is the full actual degree-six mate calculation for \(q^3+\alpha c_0^2+\beta c_2^2\), \(\alpha\beta\ne0\). The geometric proof below establishes integrality, sharp even-degree residual bounds, and the individual degree-six branch kernel. It strengthens the [test-curve theorem](../curve/carrier_test_curves.md) by retaining residual line multiplicities. The independent finite coefficient calculation and its rank-to-kernel argument remain as legacy evidence, not as premises of this proof.
+Over an algebraically closed characteristic-zero field, this is the full actual degree-six mate calculation for \(q^3+\alpha c_0^2+\beta c_2^2\), \(\alpha\beta\ne0\). The geometric proof below establishes integrality, sharp residual bounds in every degree at least two and all equality mates, and the individual degree-six branch kernel. It strengthens the [test-curve theorem](../curve/carrier_test_curves.md) by retaining residual line multiplicities. The independent finite coefficient calculation and its rank-to-kernel argument remain as legacy evidence, not as premises of this proof.
 
 ## Exact family and bounded endpoint
 
@@ -278,7 +278,9 @@ F_{\alpha,\beta}=q^3+\alpha c_0^2+\beta c_2^2.
 For every positive degree \(b\) and every proper homogeneous mate
 \(G_b\) containing \(C\), the generic intersection multiplicity is
 at most \(b\), and the residual cycle degree is at least \(2b\).
-Both bounds are sharp for even \(b\). In particular, for sextic mates
+Both bounds are sharp for every \(b\ge2\); the equality mates are classified
+[below](#equality-mates-and-sharpness-in-every-degree). No degree-one form
+contains the nondegenerate curve \(C\). In particular, for sextic mates
 the sharp bounds are multiplicity six and residual degree twelve.
 Moreover every member is integral, and on either formal branch a global
 sextic has order at least five if and only if it is a scalar multiple of
@@ -471,11 +473,65 @@ satisfies
 \[
 \boxed{m_C\le b,\qquad\deg R=6b-4m_C\ge2b>0.}       \tag{G7}
 \]
-These bounds are sharp for every even \(b\), using \(G_b=q^{b/2}\):
-the quadric has order one on each branch. In fact its cycle is
-\(b[C]+(b/2)\sum_{\zeta^4=1}[L_\zeta]\).
-For odd \(b\), multiplying \(q^{(b-1)/2}\) by a linear form gives
-\(m_C=b-1\); no sharp odd-degree assertion is made.
+### Equality mates and sharpness in every degree
+
+Label the inverse curves \(\Gamma_A,\Gamma_B\) by the vanishing tangent
+factor of \(A=c_2-c_0\), respectively \(B=c_2+c_0\), and write
+\(L_{A,1},L_{A,2}\) and \(L_{B,1},L_{B,2}\) for their attached lines.
+For a proper degree-\(b\) mate with branch orders \(r,s\), equality
+\(r+s=b\) holds exactly for the following forms, modulo the carrier
+and a nonzero scalar:
+\[
+ G_b\equiv
+ \begin{cases}
+ A^{r-s}q^{2s-r},&r\ge s,\\
+ B^{s-r}q^{2r-s},&s\ge r,
+ \end{cases}
+ \pmod{F_h},\qquad r+s=b,\quad r,s\ge b/3.           \tag{G9}
+\]
+More precisely a scalar multiple of the displayed form may be augmented
+by \(F_h K\), where \(K\) is homogeneous of degree \(b-6\) (zero if
+that degree is negative). These are statements about actual polynomial
+mates, not just divisor classes.
+
+To see necessity, equality in the chain preceding (G6) makes both
+endpoints equal to \(2b\). The maximum operations can add nothing, so
+\(3r-b,3s-b\ge0\). Each line coefficient must equal its individual
+lower bound, and no other residual component is possible: the ample
+class \(H\) has positive degree on every effective curve. Consequently
+\[
+ E=(3r-b)(L_{A,1}+L_{A,2})+(3s-b)(L_{B,1}+L_{B,2}).
+\]
+
+On the integral carrier, \(AB=-hq^3\). At the generic point of
+\(\Gamma_A\), \(q\) and \(B\) have order one, hence \(A\) has
+order two; the roles reverse on \(\Gamma_B\). On an attached A-line,
+\(B\) is generically a unit and \(q\) has order one, giving order
+three for \(A\). It is a unit on the B-lines. There are no further
+components, since \(A=0\) implies \(q=0\), whose complete divisor
+is (G2). Thus
+\[
+\operatorname{div}(\nu^*A)=2\Gamma_A+\Gamma_B+
+ 3(L_{A,1}+L_{A,2}),
+\]
+with the reversed formula for \(B\). If \(r\ge s\), the exponent
+\(2s-r=3s-b\) is nonnegative and \(A^{r-s}q^{2s-r}\) has degree
+\(b\) and exactly the same divisor as \(\nu^*G_b\). Their ratio has
+zero divisor on the normal integral projective surface. Normality
+extends the ratio and its inverse across codimension two, so it is a
+global unit and therefore a scalar. Equality on the carrier then gives
+(G9), because its homogeneous ideal is \((F_h)\). The reversed case
+is identical. Conversely the displayed divisor formulas verify every
+mate in (G9); adding a carrier multiple changes neither the restriction
+nor properness.
+
+For even \(b\ge2\), use \(q^{b/2}\). For odd \(b\ge3\), use
+\(Aq^{(b-3)/2}\), whose orders are \(((b+1)/2,(b-1)/2)\).
+Thus \(m_C=b\) and \(\deg R=2b\) are attained in every meaningful
+mate degree. Degree one is absent because \(C\) spans \(\mathbf P^3\).
+The torus normalization (2) transports the classification to every
+\(\alpha\beta\ne0\). The characteristic-zero and fixed-family
+hypotheses remain unchanged.
 
 ### Individual sextic branch orders and the exact kernel
 
