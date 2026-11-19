@@ -1,4 +1,6 @@
-# Proof audit and linear-algebra inventory
+# Proof-explanation workbench
+
+Use the [active front door](open-items.md) for current questions and the [KG queue](knowledge-gain-priorities.md) for strategic ranking. This is a secondary dependency workbench: consult it only for a named current proof and a useful explanatory improvement. Its 44 groups are not 44 open tasks.
 
 This inventory is pinned to main `9b7f30757eab14a5d4815c8682184399a35c7c32`.
 It groups 44 mathematical clusters rather than creating 44 new Results.
@@ -7,13 +9,10 @@ integration delta is that [R-0024's joint rank now has a geometric proof](../../
 Its explicit tangent witnesses and source-geometry certificate remain evidence.
 No claim is made that all archived CAS computations were replayed.
 
-- [Consolidated open-item list](open-items.md): current research decisions, explanatory proof opportunities, and recovery limits in one place.
+- [Consolidated open-item list](open-items.md): the active front door for research decisions and useful proof explanations.
 - [Cross-repository mechanism audit](cross-repo-audit.md): preserved low-degree exclusions and precise cross-framework interfaces.
 - [Ranked knowledge-gain priorities](knowledge-gain-priorities.md): stable KG01–KG10 research questions ranked by relevance to unrestricted characteristic-zero STCI, not matrix size or editorial cleanup.
 - [Executable file-level appendix](executable-evidence.md): 150 current artifacts and 252 pinned historical references, not additional mathematical claims.
-- [Historical recovery crosswalk](recovery-crosswalk.md).
-- [Recovery ledger](../../cross_conversation_recovery_audit.md).
-- Verified bounded geometry: [H07](../../arguments/torus/general_coordinate_boundary.md), [H16](../../arguments/equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16), and [H09](../../arguments/curve/rational_normal_quartic_background.md#background-example-the-rational-normal-quartic-in-p4).
 
 At the historical pin, the next editorial proof-dependency replacement target
 was R-0025's specific carrier restriction, not an unrestricted rank theorem. This is not a ranking
@@ -43,7 +42,7 @@ group or a claim that all finite computations have been eliminated.
 
 ## Version and scope
 
-Repository `markluxton1/STCI`, main `9b7f30757eab14a5d4815c8682184399a35c7c32` (H15 merge). Commit and available text/support files were verified against remote Git blob IDs.
+Repository `markluxton1/STCI`, main `9b7f30757eab14a5d4815c8682184399a35c7c32` (Chow-polytope proof merge). Commit and available text/support files were verified against remote Git blob IDs.
 
 Canonical corpus: 74 typed Results, 86 files in results overall, 210 Argument Markdown files. This report is a **grouped mathematical inventory**, not a list of every mention of rank. Multiple owners of the same calculation are grouped. E = a finite computation is necessary in the currently retained proof route; R = computational replay/cross-check of a written proof; G = an intrinsically linear-algebraic theorem/construction, not an unexplained numerical certificate; M = mixed. None of the listed replacement directions is a new proved replacement unless explicitly marked already present. That statement describes the pinned historical inventory pass: no replays or repository changes occurred in that pass. This integration subsequently changed the proof homes and replayed R-0024; its current route is distinguished in item 5.
 
@@ -149,7 +148,7 @@ Canonical corpus: 74 typed Results, 86 files in results overall, 210 Argument Ma
 
 This pass read full typed statements and central proof sections for the high-impact items above, and inspected the implementations' construction headers/core input setup for R0025, R0071, node smoothing, MF6 infinity and sextic triple audit. It did not execute them. Parent's certificate worker is separately inventorying all support scripts and archived-only references; merge their path coverage with these mathematical rows.
 
-All 210 Argument Markdown and Result files were structurally scanned for rank/matrix/kernel/determinant and proof-support references. **This is not a claim that every one of those 210 proofs was read line by line.** Especially projection carrier compilations contain many inherited local calculations; rows29–31 group them, rather than individually declaring every subclaim independently reviewed. An honest final “full list” should retain a granular appendix of evidence locations from certificate audit and mark these grouped coverage limits. There is no basis to say all rank calculations have geometric replacements. Strongest current replacement opportunities are R0025, smoothing, R0071 determinantal strata, sextic global symbol/differential, and MF6 complete-source classification. Strong already-geometric examples are R0058, spectral determinant/Picard, R0007 dual pairing, Z4 arithmetic class, H15, and the principal ancestor degree argument.
+All 210 Argument Markdown and Result files were structurally scanned for rank/matrix/kernel/determinant and proof-support references. **This is not a claim that every one of those 210 proofs was read line by line.** Especially projection carrier compilations contain many inherited local calculations; rows29–31 group them, rather than individually declaring every subclaim independently reviewed. An honest final “full list” should retain a granular appendix of evidence locations from certificate audit and mark these grouped coverage limits. There is no basis to say all rank calculations have geometric replacements. Strongest current replacement opportunities are R0025, smoothing, R0071 determinantal strata, sextic global symbol/differential, and MF6 complete-source classification. Strong already-geometric examples are R0058, spectral determinant/Picard, R0007 dual pairing, Z4 arithmetic class, Chow-polytope rigidity, and the principal ancestor degree argument.
 
 
 # STCI framework/investigation linear-algebra crosswalk
@@ -202,7 +201,7 @@ Parent coordinating branch deltas; this portion asserts current-main content onl
 
 ### Executable evidence and retained certificates
 
-Scope: pinned to [STCI main at `9b7f3075`](https://github.com/markluxton1/STCI/tree/9b7f30757eab14a5d4815c8682184399a35c7c32), the merge of H15. The recursive tree was not truncated. I compared the snapshot's file bytes to Git blob IDs; all 519 Markdown and candidate executable/text files matched, and separately checked the Singular source. This is a source/proof-dependency inspection, not a claim that every CAS program was replayed. Data exports, alternate implementations and negative controls count as evidence for a claim, not as additional theorems.
+Scope: pinned to [STCI main at `9b7f3075`](https://github.com/markluxton1/STCI/tree/9b7f30757eab14a5d4815c8682184399a35c7c32), the Chow-polytope proof merge. The recursive tree was not truncated. I compared the snapshot's file bytes to Git blob IDs; all 519 Markdown and candidate executable/text files matched, and separately checked the Singular source. This is a source/proof-dependency inspection, not a claim that every CAS program was replayed. Data exports, alternate implementations and negative controls count as evidence for a claim, not as additional theorems.
 
 | Evidence family and home | What the calculation supplies and whether to replace | Intrinsic replacement direction |
 |---|---|---|
@@ -218,9 +217,9 @@ Scope: pinned to [STCI main at `9b7f3075`](https://github.com/markluxton1/STCI/t
 | **Projection, quintic conductor and toric center checks** (`projection_*.m2`, `quintic_*conductor*`, `quintic_*toric*`, `verify_session_genus_two_line_positions*.m2`, `vahlen_*`) | Specific restriction ranks, jet matrices, Cartan transitions, base-locus/discriminant or resultant identities, finite-center and exact-polynomial controls. Some are algebraic identities not linear-algebra dependence; finite samples do not classify all centers or carriers. | Use conductor duality, projection linear systems and incidence degeneracy; disentangle Picard torsion, center incidence and ambient descent before seeking a joint proof. |
 | **Filtrations, Rees, initial ideals, and cancellation** (`verify_ideal_filtration_*`, `verify_delta_*`, `generalization_moving_first_relation_operator.py`, `quartic_fourth_extension_cocycles.py`) | Exact finite examples/identities, explicit lift ranks and Rees/annihilator Gröbner or syzygy controls. Not every CAS calculation in this family is linear algebra; the counterexamples matter as witnesses, and the full Rees comparison remains geometric. | Formulate comparison through functorial filtered Koszul complexes, base change and Tor; recover explicit examples through geometric normal forms only where explanatory. |
 | **Quartic dual singular scheme** (`quartic_dual_singular_scheme.support/verify.m2`) | Explicit Hilbert–Burch minors/syzygies, endpoint socle identities and ideal membership checks for the characteristic-zero singular scheme. Does not independently establish normal splitting or any STCI result. | Use the conormal incidence and degeneracy of the Gauss map to explain swallowtail/cusp and endpoint scheme structure, retaining local scheme/multiplicity tests. |
-| **H15 full Chow polytope** (`chow_polytope_rigidity.support/verify.py`, `tests/test_chow_polytope_rigidity.py`) | Exact integer 8×8 Sylvester expansion validates extremal coefficient units; the merged written proof now derives the decisive width via the Sylvester minors. Checker is evidence, not the principal proof; line is the reduced bracket. | Already the model for a rewrite: recognize a simple invariant (face width), keep exact check as regression evidence, do not broaden to H16 or equation construction. |
+| **Full Chow polytope** (`chow_polytope_rigidity.support/verify.py`, `tests/test_chow_polytope_rigidity.py`) | Exact integer 8×8 Sylvester expansion validates extremal coefficient units; the merged written proof now derives the decisive width via the Sylvester minors. Checker is evidence, not the principal proof; line is the reduced bracket. | Already the model for a rewrite: recognize a simple invariant (face width), keep exact check as regression evidence, do not infer symmetric-power scheme structure or equation construction. |
 
-**Historical/pinned evidence:** Some large certificates are not in the main tree, including H2 monic-ODE coefficient inputs, H3 multiplicity-four/support32 columns, earlier R-0025 builders, type-B boundary/corner and many archived local-cohomology controls. A current link to a pinned artifact documents dependence, not current replayability. In particular, do not count generated metadata/catalog validators, Markdown links, visual assets, or deliberately failing test fixtures as mathematical arguments. The `ideal-filtration`, `toric-quotient`, `verify-quartic-44` workflows do run mathematical evidence; their separate validator/test-structure steps do not. The research-infrastructure workflow's H15 unittest is a real replay, unlike the other infrastructure tests.
+**Historical/pinned evidence:** Some large certificates are not in the main tree, including H2 monic-ODE coefficient inputs, H3 multiplicity-four/support32 columns, earlier R-0025 builders, type-B boundary/corner and many archived local-cohomology controls. A current link to a pinned artifact documents dependence, not current replayability. In particular, do not count generated metadata/catalog validators, Markdown links, visual assets, or deliberately failing test fixtures as mathematical arguments. The `ideal-filtration`, `toric-quotient`, `verify-quartic-44` workflows do run mathematical evidence; their separate validator/test-structure steps do not. The research-infrastructure workflow's Chow-polytope unittest is a real replay, unlike the other infrastructure tests.
 
 **Elimination priorities:** Start with the fixed-boundary (T^1) map and actual quartic-symbol comparison (small structural wins); then the R-0025 fixed-carrier restriction rank (largest mathematical payoff); then the local-cohomology rank strata and the Smith/endpoint strips (look explicitly for one reusable geometric mechanism per family).
 

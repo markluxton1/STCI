@@ -1,13 +1,6 @@
 # Proof priorities by potential knowledge gain
 
-**Status:** Research queue, not a new Result or a record of completed proofs.
-Snapshot: main [`2a464b39`](https://github.com/markluxton1/STCI/tree/2a464b39b75c4e61b8572754aac124d6c85bd0a3) (including #159), plus the mathematical content of
-draft #160 through [`15537b6`](https://github.com/markluxton1/STCI/tree/15537b6b60fd0ef3d8afabd1e559ef2630e14eb5). Recheck the linked owners before starting a row.
-See the [44-group proof-dependency inventory](README.md) for exact
-computations and the [H recovery ledger](../../cross_conversation_recovery_audit.md)
-for historically recovered topics. This is a different list: a short
-coordinate-free proof can rank low here, and a proof that retains a small
-exact calculation can rank high.
+**Status:** The sole strategic ranking of current research questions, not a new Result. Start at the [active front door](open-items.md) for the overall organization; use the canonical proof/framework owners for mathematical status. The [proof-dependency workbench](README.md) supports specific explanatory improvements, not a competing queue. A short coordinate-free proof can rank low here, while a proof retaining a small exact calculation can rank high.
 
 ## Ranking rule and coverage
 
@@ -291,8 +284,8 @@ KG01, KG02, KG04, KG05 and KG09 have the scoped checked advances recorded above.
 - **Keep as evidence or park:** Smith factors and character lattices
   retain scheme or torsion data; keep them. Further cleanup of already
   geometric proofs or of isolated determinants is valuable editorially
-  but is not an unrestricted research priority. H17's marked gluing,
-  reconstruction and nonalgebraization results already delimit the
+  but is not an unrestricted research priority. The [boundary-reconstruction owner](../../arguments/torus/boundary_reconstruction_and_defects.md) gives marked gluing,
+  reconstruction and nonalgebraization results that delimit the
   diagram question; reopen only for precisely specified additional
   retained data and a named realization problem. Primary topological
   tests on the complement are already understood; do not rerun them
