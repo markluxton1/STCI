@@ -127,7 +127,7 @@ not automatically outstanding jobs to delete matrices.
 
 ## Maintenance and selection rule
 
-Update the canonical argument/framework before changing this list. Preserve
+**Single-source update rule.** Update and review the canonical Argument/Result/Framework owner first. Then update its KG status/next gate, this derived index, and any affected audit comparison in the same change, using links and brief scope summaries rather than independent proof statements. If these navigation documents disagree, the current canonical owner controls and stale summaries must be corrected; they do not supply alternative mathematical authority. Preserve
 stable KG and historical group IDs; record a scoped completion beside the
 remaining broader gate rather than silently deleting it or declaring the
 whole lane solved. Keep branch-only claims explicitly separate from merged
