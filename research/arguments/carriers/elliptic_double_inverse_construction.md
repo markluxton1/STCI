@@ -296,6 +296,84 @@ Membership means equal ranks. On original rank \(s\), impose all augmented
 Inverting one convenient maximal minor does not cover the remaining strata.
 No universal degree-six or degree-eight matrix computation is claimed.
 
+### A length-twelve scheme testing every basepoint-free fiber
+
+Fix any smooth source quadric \(S=S_\mu\) and basepoint-free sections
+in (5). Write \(M=\mathcal O_S(1)\), \(H=M^2\), and let \(f\) be their
+finite map. The target quadric has coordinates
+\([u_0v_0:u_1v_0:u_0v_1:u_1v_1]\). If the entire image lay on that
+quadric, the pullbacks of its rulings would be nef of square zero with
+sum \((2,2)\). They would have classes \((2,0),(0,2)\), both of
+degree four on \(E\). The map (2) has ruling degrees two and six.
+Thus \(q(U)=U_0U_4-U_1U_3\) cuts a divisor \(Y=E+D\), where
+\(D\sim H\) is cut by \(d=q(U)/Q_0\).
+
+Let \(A,B\) be the pulled-back ruling bundles on \(Y\), in that order.
+Their product is \(H|_Y\). If the map has generic degree \(r\) and
+image degree \(e\), then \(re=H^2=8\). By the projection formula
+\(f_*[Y]\) is the class \((re,re)\) on the target quadric. It follows
+that the ruling degrees are \((8,8)\) on \(Y\) and \((6,2)\) on \(D\).
+If \(D\) contained \(E\), their equal divisor classes would force
+\(D=E\), contradicting the second ruling degree. No component of \(D\)
+can map to \(C_0\). Finiteness would make it surject onto \(C_0\) and
+contribute at least three to that same degree.
+
+On the target quadric the graph of \(C_0\) has equation
+\(u_0^3v_1-u_1^3v_0=0\). Its pullback to \(Y\) is zero on \(E\).
+The ideal of \(E\) in \(E+D\) is \(\mathcal O_D(-E)\), with injection
+given by multiplication by \(Q_0\). Dividing therefore yields a section
+\(s'\) of \(A^3B\otimes\mathcal O_D(-E)=A^2|_D\). It vanishes
+identically on no component of the Cartier curve \(D\), so its zero
+scheme \(Z\) is Cartier of length twelve. This includes reducible and
+nonreduced \(D\). Off \(E\), its zeros are exactly the inverse of
+\(C_0\), scheme-theoretically. **Full inverse support is equivalent to
+\(|Z|\subset E\).** Only the portion of the length twelve away from
+\(E\) is an extra inverse scheme.
+
+There is a single matrix test throughout the basepoint-free locus. In
+the homogeneous coordinate ring \(R\) of the source quadric, put
+\[
+ g_0=(U_0^2U_3-U_1^3)/Q_0,\qquad
+ g_\infty=(U_3^3-U_1U_4^2)/Q_0 .
+\]
+These are quartics. Restricted to \(D\), they are \(v_0^2s',v_1^2s'\),
+where the two \(v_i\) denote the pulled-back ruling sections. Full
+inverse support holds exactly when
+\[
+ Q_0^{12}\in dR_{22}+g_0 R_{20}+g_\infty R_{20}\subset R_{24}.
+\tag{9}
+\]
+Indeed \(Q_0^{12}\) vanishes on \(Z\) exactly when \(Q_0\) vanishes
+on its support, since each Artin local ring has length at most twelve.
+The unaugmented column space on the right has dimension \(613\).
+Multiples of \(d\) contribute \(529\). Modulo these, restriction
+identifies the target with \(H^0(D,M^{24})\) of dimension \(96\).
+Restriction in degrees 20 and 24 is onto by the divisor sequence on the
+quadric. The two endpoint columns, with their multipliers, span precisely
+the sections vanishing on \(Z\), of dimension \(96-12=84\).
+
+For the last assertion, the basepoint-free pencil \(v_0^2,v_1^2\) has
+kernel \(B^{-2}\) as a map from \(\mathcal O_D^2\) to \(B^2\).
+Tensor with \(M^{20}\), and then multiply the image by \(s'\).
+Surjectivity on sections and the dimension count use respectively
+\[
+ H^1(D,M^{20}B^{-2})=0,\qquad H^1(D,M^{24}A^{-2})=0 .
+\]
+Adjunction gives \(\omega_D=\mathcal O_D\). The dual bundles have
+strictly negative degree on each integral component, since \(M\) is
+ample and the total degrees of \(B,A\) on \(D\) are two and six.
+To obtain vanishing of sections also on a repeated component, remove
+one reduced component at a time in the divisor sequence. The kernel
+on the removed component is further twisted by minus the remaining
+divisor. Effective divisors on a smooth quadric have nonnegative
+intersection, including self-intersection. These kernel terms still
+have negative degree. This proves (9) and the asserted rank.
+
+Independent review checked the ruling degrees, the Cartier quotient
+and the matrix span, including repeated components. The geometric
+support test (9) and the pure-power descent test (8) concern different
+sections. A fiber passing (9) still requires an actual identity (8).
+
 ## 6. Low-degree filters and the constructive question that remains
 
 Suppose a member's actual implicit octic has exact normal order two and

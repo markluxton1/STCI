@@ -46,13 +46,13 @@ normalizations remains open.
 
 Use the
 [five-parameter quadratic sections](../../arguments/carriers/elliptic_double_inverse_construction.md).
-First test full inverse support on each geometric parameter fiber, retaining
-source smoothness, basepoint freedom, finite birationality, boundary fibers
-and all off-curve inverse points. A unit-ideal
-calculation in the total parameter ring is not the fiberwise condition.
-Pure-power descent remains to be tested on surviving strata. The
-fixed member's extra inverse scheme has projective length twelve; it is not
-twelve asserted distinct points, and a higher mate degree cannot repair it.
+On every smooth basepoint-free fiber, a Cartier zero scheme of length twelve
+on the residual divisor tests full inverse support. All of it must lie
+set-theoretically on the marked elliptic curve. Equivalently the augmented
+matrix in the [support criterion](../../arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber)
+must have rank 613. The original member has all twelve units of length
+off the elliptic curve. A prospective octic still needs a birational
+fiber and a pure power descending to an actual homogeneous equation.
 
 ## Compatibility of the normal sextic cyclic cover
 
