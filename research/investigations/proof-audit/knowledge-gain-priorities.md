@@ -187,6 +187,16 @@ replaying the old inventory or re-auditing every archived file.
   [ADE contact gate](../../arguments/carriers/sextic_ade_reduction.md#sharp-length-five-for-pencils-with-a-quadric-divisible-member)
   · [Actual sextic incidence](../supported-generator-incidence/index.md#reconciled-fixed-degree-decision-target)
   · [Normal cover](../../arguments/carriers/sextic_pair_reduction.md).
+  The [intrinsic source and determinant argument](../../arguments/carriers/sextic_triple_intrinsic_contact.md)
+  now explains the complete source dimensions, restricted contact images
+  and first-determinant span in this sector. It gives source dimensions
+  in every degree at least four and full determinant image for
+  \(a,b\ge5\), \(a+b\ge11\), through the three specified triples.
+  The equal-quintic corner has a six-jet interpolation gap in the
+  geometric proof, separate from KG07's sextic higher-contact question.
+  This settles the source/determinant explanation, while decomposable
+  proper pencils satisfying the later contact equations remain the gate.
+  It does not classify all higher-degree pairs through the curve.
 - **First test.** In one named orbit take the full actual sextic
   source with independent quadric restrictions. Express a higher
   normal contact obstruction on the proper-pencil locus that distinguishes
@@ -266,7 +276,7 @@ replaying the old inventory or re-auditing every archived file.
 
 ## Outcome of this bounded pass
 
-KG01, KG02, KG04, KG05 and KG09 have the scoped checked advances recorded above. None closes its unrestricted research question. KG03, KG06, KG07, KG08 and KG10 retain their first tests and stopping conditions: this pass adds no verified new result on those items. In particular no absorption-to-zero construction, remaining quintic classification, full sextic decision, uniform quadratic-root exclusion or presentation-independent arithmetic obstruction is claimed. The ranking measures potential knowledge gain, not completion.
+KG01, KG02, KG04, KG05 and KG09 have the scoped checked advances recorded above. None closes its unrestricted research question. The later KG07 integration establishes the source/determinant explanation recorded in its known state; its higher-contact first test remains open. KG03, KG06, KG08 and KG10 retain their first tests and stopping conditions. In particular no absorption-to-zero construction, remaining quintic classification, full sextic decision, uniform quadratic-root exclusion or presentation-independent arithmetic obstruction is claimed. The ranking measures potential knowledge gain, not completion.
 
 ## Where to start, and how to use the queue
 

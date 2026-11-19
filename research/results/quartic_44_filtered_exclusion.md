@@ -48,6 +48,13 @@ The surface proof uses the same local data to obtain a first-symbol pencil of de
 
 The theorem's scope and prior independent reviews of the filtered-contact and K3 proofs remain unchanged. Independent consolidation review reconstructed and accepted the replacement proof, the conditional rank-four pencil budget, the general contact-module lemma and its characteristic scope, and the preservation of the alternative proofs and controls. The computation scripts are necessary only for the finite-source route, not for the direct surface proof; no inherited calculation was rerun for this consolidation.
 
+Within that finite-source route, the
+[primitive-triple interpolation proof](../arguments/carriers/sextic_triple_intrinsic_contact.md#quartic-interpolation-from-five-sparse-sections)
+now replaces the \(e=1\) full-source dimension ranks. The explicit
+quartic equations and contact identities are retained, as is the
+separate defective \(e=0\) source calculation. This proof replacement
+does not change the exclusion's scope.
+
 ## Consequences and limitations
 
 This is a bounded obstruction to a \((4,4)\) pair, useful for understanding actual-source lifting and global exceptional-rank budgets. It does not replace R-0001's arbitrary-mate-degree quartic-carrier theorem or resolve unrestricted characteristic-zero STCI. The [independently reconstructed fourth-extension proof](../arguments/normal-geometry/intrinsic_fourth_extension.md) now supplies an embedded-neighborhood argument. It classifies the two allowed saturated quadruple types through their contact-extension classes, leaving only 4C on Q; elementary quadric restriction then rules out a proper quartic pair. This alternative uses exact transition calculations but no source-pencil orbit list or global surface bound. The stronger intermediate classification is recorded as a reviewed mathematical result; it has no separate result ID.

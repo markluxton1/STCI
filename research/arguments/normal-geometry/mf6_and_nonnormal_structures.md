@@ -597,9 +597,12 @@ orbit is handled separately, including its order-two quartics.
 ### 4. Complete ambient pencils and their polar bounds
 
 In the principal direction the Bezout pair is `s=4/3,t=1/6`, and
-`gamma=192z+96`. The complete degree-four matrix on all 35 ambient
-monomials has rank 33. Its complete kernel is the pencil
-`F=alpha*F0+beta*F1` displayed explicitly in the independent verifier.
+`gamma=192z+96`. The
+[intrinsic quartic interpolation proof](../carriers/sextic_triple_intrinsic_contact.md#quartic-interpolation-from-five-sparse-sections)
+gives a two-dimensional complete degree-four source. The two independent
+quartics checked in the verifier therefore give its complete pencil
+`F=alpha*F0+beta*F1`. The historical rank-33 ambient matrix is a
+cross-check for completeness, rather than a necessary rank input.
 In the frame `m=B*U-A*V,y=s*U+t*V`, the first and cubic coefficients
 are
 
@@ -632,8 +635,9 @@ It gives
 T' is a unit at zero, so infinity adds exactly three pole units. Every
 nonzero member in the principal orbit consequently has `d3>=6`.
 
-At `r=-1/2`, the complete 35-column matrix has rank 25, and its full
-ten-dimensional kernel is exactly
+At `r=-1/2`, the triple is the Cartier divisor `3C0` on the quadric.
+A containing quartic restricts to a section of `O_Q(1,-5)`, hence
+restricts to zero. Its full ten-dimensional source is therefore exactly
 `q*H0(P3,O(2))`, where `q=x0*x3-x1*x2`. A quartic with this factor
 cannot occur in a defining pair supported on C0. If the mate also has
 the factor q, the pair has a common surface. Otherwise it cuts an
@@ -643,8 +647,9 @@ cannot have sole support C0 of class `(1,3)`: it would have class
 the factor regardless of the quartic's other factor or normal order.
 
 For either root `12r^2+4r+3=0`, the quadratic cocycle is identically
-zero on both charts. Exact rank 33 over Q(sqrt(-2)), together with two
-independent checked kernel vectors, proves that the complete pencil is
+zero on both charts. The same intrinsic interpolation proof gives source
+dimension two. Together with the two independent checked equations, this
+proves that the complete pencil is
 
     R0=x0^3*x3-(r+3/2)*x0^2*x1*x2+(r+1/2)*x1^4,
     R1=x0*x3^3+(r-7/6)*x1*x2*x3^2+(1/6-r)*x2^4.
@@ -768,9 +773,10 @@ The second source passed on 2026-10-07 in this audit. Its imported
 `verify_mf6_defect12` module also prints earlier e=0 results; those
 messages are dependency output and are not separate e=1 audit claims.
 The first source is self-contained and exports a durable JSON beside
-itself. The proof depends on complete exact rank computations for the
-two-dimensional pencils; the normalization obstruction and BF upper
-bound have direct proofs above.
+itself. Complete-source rank computations for the two-dimensional pencils
+are now replaced by the linked intrinsic interpolation proof. The
+explicit pencil, pole and normalization identities remain exact evidence;
+the normalization obstruction and BF upper bound have direct proofs above.
 
 The remaining e=1 quartic types in the MF6 degree-six problem are
 `(d2,d3)=(1,3),(2,2)`. In larger mate degrees, positive D2 likewise

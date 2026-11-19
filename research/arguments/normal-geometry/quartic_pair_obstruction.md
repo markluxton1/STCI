@@ -248,14 +248,18 @@ For each direction, complete quartic containment is an exact finite linear probl
 U=Ay-T\gamma y^2,\qquad V=By+S\gamma y^2.
 \tag{12}
 \]
-Set the coefficients of \(1,y,y^2\) in each ambient quartic to zero. The complete thirty-five-column matrix, rather than an assumed subfamily of quartics, is used.
+Set the coefficients of \(1,y,y^2\) in each ambient quartic to zero.
+The retained thirty-five-column matrix checks this complete condition.
+For the three nonquadric primitive directions, the
+[intrinsic interpolation proof](../carriers/sextic_triple_intrinsic_contact.md#quartic-interpolation-from-five-sparse-sections)
+now establishes the two-dimensional full source without that rank computation.
 
-For the principal direction \(S=4/3,T=1/6,\gamma=192z+96\), that matrix has rank thirty-three. The two explicit homogeneous kernel vectors \(P_0,P_1\) are defined in the retained [primitive-triple verifier](../../computations/audit_mf6_e1_primitive_2026_10_07.py) as `F0,F1`. This is a necessary computational dependency of this proof route. Direct expansion gives, in its convention \(T_H=-\tau_H\),
+For the principal direction \(S=4/3,T=1/6,\gamma=192z+96\), the two explicit homogeneous equations \(P_0,P_1\) are defined in the retained [primitive-triple verifier](../../computations/audit_mf6_e1_primitive_2026_10_07.py) as `F0,F1`. Their independently checked containment and independence, together with the intrinsic dimension, prove completeness. The displayed equations and contact identities remain inputs to this proof route. Direct expansion gives, in its convention \(T_H=-\tau_H\),
 \[
 h_{P_0}T_{P_1}-h_{P_1}T_{P_0}
 =\frac{(2z-1)^3(2z+1)(4z^2+2z+1)}{256}\ne0.
 \]
-For \(r=-1/2\), (12) has rank twenty-five and complete kernel \(qH^0(\mathcal O(2))\), inadmissible by the quadric divisor argument. For either root of \(12r^2+4r+3\), \(\gamma=0\), and the matrix has rank thirty-three over the exact quadratic field. A complete kernel basis is
+For \(r=-1/2\), the triple is \(3C\) on \(Q\); its quartic restriction space \(H^0(Q,\mathcal O_Q(1,-5))\) vanishes. Its complete source is therefore \(qH^0(\mathcal O(2))\), inadmissible by the quadric divisor argument. For either root of \(12r^2+4r+3\), \(\gamma=0\). Intrinsic dimension two and the following independent containing equations give a complete basis:
 \[
 \begin{split}
 R_0&=x_0^3x_3-(r+3/2)x_0^2x_1x_2+(r+1/2)x_1^4,\\
@@ -362,7 +366,11 @@ Properness follows since \(R_0\), primitive and linear in \(x_3\), is irreducibl
 
 The direct-resolution proof uses R-0020, the smooth-quadric geometry, complete-intersection duality, the rank-four Frobenius calculation in §2, Bertini and formal coordinate changes in §3, explicit point blowups, and the verified surface identities in (6). It uses no inherited orbit classification, no all-degree carrier theorem, and no computer calculation. The K3 presentation replaces the last two geometric arguments by the literature on rational double points and K3 resolutions; it has the same local input and the same scope.
 
-The filtered-contact route additionally depends on the exact complete-source matrices and their retained scripts. Its orbit exhaustion and correction uniqueness are proved in §5. The module construction in §6 is a reusable interpretation, not an independent proof of the needed nonvanishing. The quadric quadruple and residual examples explain which tempting numerical or restriction-only strengthenings fail.
+The filtered-contact route retains the exact complete-source calculation
+for the defective \(e=0\) branch and the explicit equations and contact
+identities for both branches. The primitive \(e=1\) source-dimension
+ranks are now replaced by intrinsic interpolation and quadric restriction.
+Its orbit exhaustion and correction uniqueness are proved in §5. The module construction in §6 is a reusable interpretation, not an independent proof of the needed nonvanishing. The quadric quadruple and residual examples explain which tempting numerical or restriction-only strengthenings fail.
 
 The common mechanism is **actual-source compatibility across successive layers**: the first symbols leave a rank-one direction, Gorenstein duality constrains its defects, and the next equations must lift through the marked embedding. The filtered route measures the failure as a nonzero cubic-contact determinant; the surface route converts the same hypothetical fourth-layer compatibility into an excessive exceptional configuration. This is a proved parallel of consequences of a hypothetical pair, not an asserted equality of the two obstruction classes. Neither mechanism has been shown here to cover arbitrary higher degrees.
 

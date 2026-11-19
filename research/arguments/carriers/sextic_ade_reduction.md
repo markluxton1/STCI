@@ -177,8 +177,8 @@ successive contact conditions.
 
 ## Full sextic spaces and the first further contact equation
 
-The [exact source-space computation](https://github.com/markluxton1/STCI/blob/9deae1cc7f4b008fb287d13bdb2776faa1e75bf5/research/computations/audit_sextic_triple_spaces_2026_10_31.py)
-uses all ambient monomials and the accepted triple substitution
+The [intrinsic source proof](sextic_triple_intrinsic_contact.md) uses
+the quadric flag, interpolation and the accepted triple substitution
 \[
  U=Ay-T_0\gamma y^2,\qquad V=By+S_0\gamma y^2,
  \qquad AS_0+BT_0=1.
@@ -190,6 +190,11 @@ Vanishing of every coefficient of \(y^0,y^1,y^2\) is exactly
 containment of the triple. Its purity makes the dense affine calculation
 sufficient for a global section: no nonzero image section can be supported
 only at infinity.
+
+It establishes the source dimensions, first-normal image and joint ranks
+without monomial-source rank calculations. The quartic-multiple span and
+unrestricted \(\Theta\) ranks remain retained computational diagnostics
+from the [original exact source audit](https://github.com/markluxton1/STCI/blob/9deae1cc7f4b008fb287d13bdb2776faa1e75bf5/research/computations/audit_sextic_triple_spaces_2026_10_31.py).
 
 | Exact quantity in characteristic zero | Principal orbit | Either algebraic orbit |
 | --- | ---: | ---: |
@@ -233,8 +238,9 @@ An independent review reconstructed the substitution, global-source
 coverage and contact sign, ran the exact calculation, and added a direct
 rank-and-containment check for all twenty quartic-times-quadric products.
 Run `PYTHONDONTWRITEBYTECODE=1 python3 research/computations/audit_sextic_triple_spaces_2026_10_31.py`.
-This completes the stated linear calculation and first necessary contact
-test; it does not exclude the remaining sextic pairs.
+These record the original linear checks. The source dimensions,
+restricted images and determinant span below now have a separate
+geometric proof; none excludes the remaining sextic pairs.
 
 ### Geometry of the cubic-contact incidence
 
@@ -283,7 +289,8 @@ Inside it lies the linear system
  K=\ker(h,\Theta),
 \]
 whose members have both leading normal-jet coefficients zero.
-The retained exact source calculation gives
+The [intrinsic restricted-image proof](sextic_triple_intrinsic_contact.md#the-restricted-cubic-contact-image)
+gives
 \[
  \dim K=
  \begin{cases}
@@ -293,8 +300,8 @@ The retained exact source calculation gives
 \]
 Equivalently, the first residual contact coefficient on the
 second-order subsystem has ranks six and seven, respectively. These
-are geometric filtration dimensions; their present numerical
-verification is computational.
+are geometric filtration dimensions, now proved by sparse quartic
+interpolation and the quadric restriction flag.
 
 Every pencil containing a nonzero member of \(K\) automatically
 satisfies the cubic-contact equation: for \(G\in K\),
@@ -356,11 +363,11 @@ The subsystem with zero first-normal symbol is also proper because
 surface component, \(h_F\ne0\), and their pencil satisfies
 \(\Omega_3(F\wedge G)=0\). \(\square\)
 
-#### What the exact wedge computation adds
+#### The intrinsic determinant image
 
-The retained [exact sextic audit](../../computations/audit_sextic_triple_spaces_2026_10_31.py)
-computes the full exterior-square map and reports, for both orbit
-types,
+For all three triples, the
+[generator-bundle determinant proof](sextic_triple_intrinsic_contact.md#regularity-and-a-reusable-determinant-span-lemma)
+establishes
 \[
  \operatorname{rank}\Omega_3=23,\qquad
  \dim\ker\Omega_3=328,\qquad
@@ -370,14 +377,109 @@ This is a check of the **span of cubic-contact obstructions**, not
 a count of geometric pencils. The different ranks of the joint
 normal-jet maps, \(23\) for the principal orbit and \(24\) for the
 algebraic orbit, are distinct invariants. The historical algebraic
-joint-rank value \(26\) is incorrect. The exact-arithmetic output
-was supplied from an execution of the retained script; its
-implementation has not received an independent mathematical audit.
+joint-rank value \(26\) is incorrect. The proof uses the actual
+rank-two generator bundle, surjectivity of the first-normal image,
+the restricted contact image and 5-regularity; it requires no
+exterior-square rank calculation. It independently establishes the
+principal rank too, replacing its former supplied-execution limitation.
+
+The same proof gives the
+[mixed-degree determinant image](sextic_triple_intrinsic_contact.md#all-higher-equation-degrees)
+for every \(a,b\ge5\) with \(a+b\ge11\), onto
+\(H^0(\mathcal O_{\mathbf P^1}(4(a+b)-26))\). In equal degree
+\(d\ge6\) the rank is \(8d-25\); the
+[equal-quintic corner](sextic_triple_intrinsic_contact.md#the-equal-quintic-corner)
+remains outside this proof. These remain first contact conditions through a
+specified triple, not the higher-order compatibility of an actual
+supported pair.
 
 The geometric incidence argument above settles the existence of
 proper cubic-contact pencils without relying on surjectivity of
 \(\Omega_3\). The next test can be solved uniformly for pencils with
 a quadric-divisible member.
+
+### Torus weight blocks of the primitive-triple sources
+
+Fix characteristic zero and retain the actual substitutions and contact
+sign above. For an algebraic orbit put \(\alpha=\sqrt{-2}\),
+\(r=(-1+2\alpha)/6\). Its dense-chart substitution is
+\[
+ x_1=z,\quad x_2=z^3+y,\quad
+ x_3=z^4+(r+\tfrac32)zy+m.
+\]
+It is homogeneous with uncentered weights \(1,3,4\) on \(z,y,m\);
+purity extends invariance to the global triple. Conjugation gives the
+other algebraic orbit. The
+[intrinsic source formula and filtration](sextic_triple_intrinsic_contact.md#regularity-and-a-reusable-determinant-span-lemma)
+give the following profiles, without complete-source kernel matrices:
+
+| Degree | Centered weights | Multiplicities |
+| ---: | --- | --- |
+| 4 | \(-4,4\) | \(1,1\) |
+| 5 | \(-6,-5,-3,-2,-1,0,1,2,3,5,6\) | all one |
+| 6 | \(-8,\ldots,8\) | \(1,1,1,1,2,2,2,2,3,2,2,2,2,1,1,1,1\) |
+
+The quartic basis can be written
+\[
+ Q_-=(1-\alpha)x_0^2q-x_1(x_0^2x_2-x_1^3),\qquad
+ Q_+=(1+\alpha)x_3^2q-x_2(x_1x_3^2-x_2^3).
+\]
+Its weights are \(-4,4\). Direct substitution, using
+\((1-\alpha)(r+1/2)=1\), sends \(Q_-\) to
+\((1-\alpha)m\) exactly. For a sextic of weight \(w\),
+homogeneity gives
+\[
+ h_F=c_Fz^{w+8},\qquad \Theta_F=d_Fz^{w+3},
+\]
+with negative exponents interpreted as zero. Since the first-normal
+image is all \(H^0(\mathcal O(16))\), subtracting its character
+from the sextic source gives the ten-dimensional \(\ker h\) profile
+\((1,1,1,1,2,1,1,1,1)\) at weights \(-4,\ldots,4\).
+Its restricted contact image is all \(H^0(\mathcal O(6))\), of
+weights \(-3,\ldots,3\). Subtracting again gives one joint-kernel
+line at each of \(-4,0,4\), including \(qQ_-\) and \(qQ_+\).
+
+The old endpoint coefficient relation also has a small direct proof.
+For the quartic \(Q_+\), substitution gives
+\[
+ h_{Q_+}=(\alpha-1)z^8,\qquad
+ \Theta_{Q_+}=\frac{4(\alpha-5)}{27}z^3.
+\]
+Thus their ratio is \(\lambda z^{-5}\), with
+\(\lambda=(28+16\alpha)/81\). Multiplication by any ambient
+form scales both coefficients by its restriction to \(C\), since
+\(\gamma=0\) and \(Q_+\) has no pure terms of orders one or two.
+For every weight \(4\le w\le8\), the degree-six source is exactly
+the corresponding quadratic-multiple space of \(Q_+\): their
+weight dimensions agree with the displayed profile (at weight four
+both are two-dimensional). Consequently
+\[
+ [\Theta_F]_d=\lambda[h_F]_{d+5}\qquad(7\le d\le11).
+\]
+This proves the relation on the full source through a single quartic
+identity and multiplication, replacing the old columnwise comparison.
+
+The algebraic exterior-square source has weights \(-15,\ldots,15\).
+Its weight-\(W\) determinant has output proportional to
+\(z^{W+11}\). The intrinsic surjectivity onto
+\(H^0(\mathcal O(22))\) therefore gives rank one in every block
+\(-11\le W\le11\), and zero outside. This follows from the
+equivariant determinant map and its proved image, without individually
+checking 23 blocks. In the principal orbit the corresponding
+[restricted image](sextic_triple_intrinsic_contact.md#the-restricted-cubic-contact-image)
+is instead \(\{p\in k[z]_{\le6}:p(1/2)=0\}\), proved by
+quadric restriction and two-point interpolation rather than an inferred
+rank. These are necessary cubic-contact data, not the full
+length-nine condition.
+
+The older [exact refinement check](../torus/equation_pair_rank_and_weights.support/triple_profiles.py)
+and [full source audit](../../computations/audit_sextic_triple_spaces_2026_10_31.py)
+remain reproducibility checks of their recorded finite assertions. The
+source, restricted-image and determinant statements above now have the
+independently reviewed geometric proofs in the linked companion. The
+unrestricted \(\Theta\) ranks and the quartic-times-quadric span in
+the earlier table retain their computational evidence; those diagnostics
+are not inputs to the new proof.
 
 ### Sharp length five for pencils with a quadric-divisible member
 

@@ -60,6 +60,23 @@ requires a separate comparison map and descent conditions.
 
 ## Comparisons with other approaches
 
+The [finite-group-scheme orbit description](../../arguments/arithmetic/frobenius_power_lifting_precision.md#torus-eigenforms-and-the-finite-group-scheme-orbit)
+extends the prescribed prime-exponent example to every represented exponent
+\(N=3b+4c>0\). In characteristic \(p\), its prime-to-\(p\) factor counts
+distinct quartic translates and its \(p\)-part gives their multiplicity.
+This relates the explicit arithmetic construction to invariant residual
+cycles without asserting that arbitrary residual cycles can be absorbed.
+The [root-defect grading](../../arguments/arithmetic/frobenius_power_lifting_precision.md#equivariant-grading-of-the-root-specialization-defect)
+requires an equivariant total trait and the original root theorem's
+hypotheses. For the fixed quartic a supported mixed-characteristic trait
+with trivial torus action on the base cannot have that equivariance:
+its characteristic-zero generic fiber would contradict the invariant-CI
+exclusion. Thus any remaining supported lift must break this symmetry;
+the invariant special equations do not grade its root defect. In a
+setting where the equivariant specialization lemma applies, the endpoint
+modules need not have opposite characters or equal lengths. Comparing
+them with conductor or torus-limit modules requires an actual compatible map.
+
 The [prescribed flat family](../../results/quartic_mu4_degeneration.md) is a
 control for [embedded torus quotient descent](../embedded-torus-quotients/index.md).
 At the two endpoints the full embedded fiber is needed; in characteristic two

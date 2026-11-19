@@ -53,6 +53,17 @@ degree is at least sixteen. See
 and [formal normal questions](frameworks/formal-normal-geometry/filtered_equation_module_and_sextic_obstruction.md#two-precise-sextic-questions).
 Existing torus-boundary investigations continue to require a single
 realizable moving ideal with both full limits.
+For the three fixed characteristic-zero primitive triples, the
+[intrinsic source and determinant proof](arguments/carriers/sextic_triple_intrinsic_contact.md)
+replaces the degree-four through degree-six source ranks, restricted-contact
+ranks and determinant ranks by quadric interpolation and a rank-two bundle
+on the curve.
+It gives the source dimension in every degree at least four and a full
+determinant image for \(a,b\ge5\) with \(a+b\ge11\), including
+the mixed quintic-sextic case. The equal-quintic case retains a specific
+six-jet interpolation gap in the geometric proof.
+The remaining sextic issue is higher contact of actual proper pencils;
+surjectivity of the determinant span does not settle that incidence.
 For an actual orbit pair in any bidegree, the two endpoints together
 detect raw equation torsion but can miss classes on a parameter layer.
 On the first layer the multiplicity of the disjoint coordinate line in
@@ -62,6 +73,16 @@ A residual sextic pencil exhibits the loss even when the full limit
 omits the line. [Endpoint and residual degree theorem](results/endpoint_equation_torsion.md).
 
 ## Questions and active work
+
+The [same-radical equation lemma and higher-rank torus control](arguments/torus/equivariant_set_theoretic_descent.md)
+separate unbounded set-theoretic equations from generators of a moving ideal.
+The [general pair-rank and weight formulas](arguments/torus/equation_pair_rank_and_weights.md)
+retain degree and source information across that distinction. The
+[finite-group-scheme orbit model](arguments/arithmetic/frobenius_power_lifting_precision.md#torus-eigenforms-and-the-finite-group-scheme-orbit)
+explains the splitting and coalescence of one explicit arithmetic family.
+These connections sharpen the boundary and realization questions; none
+establishes a moving supported pair in characteristic zero or decides
+unrestricted STCI.
 
 Fixed-carrier normalization has established exclusions for particular
 quintic models and necessary inverse-support conditions for a marked

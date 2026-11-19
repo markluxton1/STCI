@@ -67,6 +67,20 @@ obstruction to such an invariant CI: characteristic zero excludes it, and in
 characteristic \(p>0\) the degree product must be divisible by \(p\).
 Invariance of the radical alone supplies no eigenform presentation.
 
+The [radical-power lemma and equivariant counterexample](../../arguments/torus/equivariant_set_theoretic_descent.md)
+make this distinction independent of the chosen thickening. Any homogeneous
+ideal with radical \(I_C\) contains a homogeneous set-theoretic defining
+pair if and only if \(I_C\) does; taking powers proves the reverse direction,
+with no degree bound. In characteristic zero its minimum number of
+eigenforms is exactly three. Thus searching for an arbitrary-degree
+set-theoretic pair inside a fixed boundary simply restates the original
+existence question. Prescribed degrees, actual ideal generation, or a
+proved restriction on moving families must supply the additional information.
+The three-line example disproves general eigenform descent for a rank-two
+torus, even from a CI with an ACM full limit; its one-parameter subgroup
+admits an eigenform pair. This does not decide eigenform descent for the
+fixed integral quartic and its rank-one action.
+
 The complete [Hilbert-boundary argument](../../arguments/torus_hilbert_boundary.md)
 explains why the useful object is the whole fixed boundary ideal, with its
 possible additional generators. The equation condition belongs on the moving
@@ -231,6 +245,14 @@ full graph limits. Other VGIT chambers need not be
 enumerated to cover supported pairs.
 
 ### Fixed-degree incidence and VGIT scope
+
+The [equation-pair rank and weight formulas](../../arguments/torus/equation_pair_rank_and_weights.md)
+extend the first degreewise cancellation count to unequal degrees and
+distinguish the flat graded ideal from its projective saturation. They also
+describe the actual quotient by additions of lower-equation multiples for
+unequal pairs. These are source and boundary constraints, rather than an
+existence test for a supported pair. In particular a common-factor rank
+defect does not locate all additional generators of the saturated limit.
 
 The [reconciled Chow filtration and sextic weight partition](../../arguments/torus_hilbert_boundary.md#reconciled-chow-filtration-and-finite-sextic-weight-partition)
 make the proper-pair side of this framework more explicit. For each degree

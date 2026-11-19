@@ -47,6 +47,7 @@ Use the [workbench](README.md) to locate the current dependency and retained
 evidence. A proof-only target is not automatically a live STCI gap.
 
 - [Symbolic-fifth-power vanishing](../../frameworks/residual-construction/quadric_restriction_and_contact_rigidity.md#intrinsic-vanishing-as-a-proof-replacement-target) could explain the already proved dependent-restriction length-five bound; it is not the independent-restriction length-nine question.
+- [Equal-quintic determinant surjectivity](../../arguments/carriers/sextic_triple_intrinsic_contact.md#all-higher-equation-degrees) has a six-jet intrinsic proof gap beyond the established mixed-degree range; this proof question is separate from KG07's higher-contact incidence problem.
 - [Actual multiplication and duality](../../results/quartic_ancestor_direction_reduction.md) could explain retained finite rank inputs; doing so is distinct from solving the remaining finite incidence or establishing all-degree persistence.
 - [MF6 source geometry](../../arguments/normal-geometry/mf6_principal_candidate_loci.md) and [primitive incidence](../../arguments/normal-geometry/e2_primitive_quartic_incidence.md) can clarify jumping equation spaces; the integral quartic-carrier exclusion itself is already settled.
 

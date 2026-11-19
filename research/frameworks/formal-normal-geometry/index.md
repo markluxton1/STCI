@@ -100,6 +100,15 @@ quartic-carrier exclusion is [R-0001](../../results/quartic_carrier_exclusion.md
 
 ## Filtrations and comparisons
 
+The [quadric-flag character formula](../../arguments/torus/equation_pair_rank_and_weights.md#characters-of-all-double-surface-equation-spaces)
+computes every weight of the actual degree-\(d\) equations vanishing to
+second order along \(C\). For \(d\ge5\) this source character is unchanged
+in characteristic two, even though the conormal bundle's splitting changes.
+The proof uses the flag and its induced linearizations, rather than
+transporting the characteristic-zero splitting. This identifies an actual
+source-space comparison across characteristics; it does not identify
+higher-jet maps or transport a characteristic-zero STCI obstruction.
+
 [From symbols to actual equations](from_symbols_to_equations.md) follows the
 first saturated relation, the next quotient relation, and the remaining
 global source condition. [Normal filtration boundaries](normal_filtration_boundaries.md)
