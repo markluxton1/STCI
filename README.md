@@ -15,7 +15,8 @@ The central question is whether \(R=0\) can occur in characteristic zero. This n
 ## Read the research
 
 - [Mathematical introduction and proof routes](research/INDEX.md)
-- [Approaches and open questions](research/MAP.md)
+- [Current open mathematics: start here](research/investigations/proof-audit/open-items.md)
+- [Mathematical approaches and interfaces](research/MAP.md)
 - [Results and proof catalog](research/CATALOG.md)
 - [Literature and established theorems](research/literature/README.md)
 - [Contribution and verification workflow](research/MODEL.md)

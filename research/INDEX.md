@@ -12,9 +12,8 @@ A proper degree-\((a,b)\) pair through \(C_0\) gives the cycle
 exceptional contact, and the residual projective cycle play different
 roles. Sole support is the case \(R=0\).
 
-To develop or compare approaches, start with the [framework map](MAP.md).
-For the consolidated re-entry list, see [open items and proof opportunities](investigations/proof-audit/open-items.md) and the [cross-repository mechanism audit](investigations/proof-audit/cross-repo-audit.md).
-For a durable ranked research queue, see [proof priorities by potential knowledge gain](investigations/proof-audit/knowledge-gain-priorities.md), with explicit first tests and limits on what each outcome would establish.
+For current research decisions and proof opportunities, start at the [active front door](investigations/proof-audit/open-items.md). It routes to the sole strategic KG ranking, framework owners, cross-framework comparisons and the proof-explanation workbench.
+To develop or compare mathematical approaches, use the [framework map](MAP.md).
 For the embedding itself, see the [fixed curve geometry](arguments/curve/fixed_quartic_geometry.md)
 and [special plane and line sections](arguments/curve/special_plane_and_line_sections.md).
 Find exact claims in the [catalog](CATALOG.md) and external sources in the
@@ -48,4 +47,4 @@ quartic symbols](arguments/quartic_specialization_and_symbols.md), the
 [transverse specialization](arguments/transverse_specialization.md), and
 [punctual defect and support](arguments/punctual_comparison_defects.md#statements-and-proofs).
 
-For the recovered boundary-reconstruction question, see [H17: degree bounds, finite-order counterexamples and distinct defects](arguments/torus/boundary_reconstruction_and_defects.md). The scoped positive and negative results do not settle arbitrary enriched diagrams or unrestricted STCI.
+For boundary reconstruction, see [degree bounds, finite-order counterexamples and distinct defects](arguments/torus/boundary_reconstruction_and_defects.md). The scoped positive and negative results do not settle arbitrary enriched diagrams or unrestricted STCI.

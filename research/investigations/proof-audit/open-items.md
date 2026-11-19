@@ -1,136 +1,61 @@
-# Consolidated open items: decisions, explanations, and coverage
+# Open mathematics: start here
 
-This is the **canonical re-entry list**, consolidating the cross-framework
-audit, historical proof inventory, and framework-owned open questions. It
-is pinned to merged main `01f3974b31b9bc4ea39b687f222fc17b9af326ca`, with the
-fixed-residual extension in this change recorded separately below. It is
-not a new collection of Results, a claim of exhaustive historical recovery,
-or an instruction to investigate every remaining case.
+This is the single front door for current research decisions and useful proof
+explanations for the fixed quartic \(C_0=[s^4:s^3t:st^3:t^4]\). Its unrestricted
+characteristic-zero STCI status remains open. This index selects no new case
+investigation and makes no independent mathematical claims.
 
-The [cross-repository audit](cross-repo-audit.md) explains the potential
-bridges. [KG01–KG10](knowledge-gain-priorities.md) retain their stable IDs,
-ranking by potential knowledge gain, and detailed stopping conditions.
-The [44-group inventory](README.md) retains its historical pin and current
-integration delta; the [artifact appendix](executable-evidence.md) counts
-evidence, not open theorems. Canonical proof owners take precedence over
-old audit wording. The unrestricted characteristic-zero STCI question for
-\(C_0=[s^4:s^3t:st^3:t^4]\) remains open.
+- **Choose a strategic question:** [KG01–KG10](knowledge-gain-priorities.md) is the sole ranked queue, with current status, payoff and stopping conditions.
+- **Compare mechanisms:** the [cross-framework audit](cross-repo-audit.md) records possible bridges and their missing hypotheses, including the precise quartic/quintic boundary.
+- **Read or change mathematics:** the [framework map](../../MAP.md), [proof routes](../../INDEX.md#find-a-statement-proof-or-open-question) and canonical Argument/Result/Framework owners control all claims.
+- **Improve a proof explanation:** use the [proof-dependency workbench](README.md) only for a current owner and a specific explanatory payoff, not as 44 outstanding tasks.
 
-## A. Obstruction and contact mechanisms
+## Strategic decisions
 
-| Source | What is already established | Exact remaining decision and first gate |
-| --- | --- | --- |
-| **KG01**, groups 4/17 | [Saturated degree-one moving relations](../../arguments/equations/global_lifting_interfaces.md#a-uniform-nonvanishing-theorem-in-relation-degree-at-least-two) have a uniform next-order nonvanishing proof for relation degree at least two; order-one geometric zeros are classified. | Determine the actual homogeneous constraint on deeper contact: begin with divisor-twisted nonsaturated relations or higher lifting of an order-one zero. A result on a horizontal section needs a separate bridge to multisections, ramification and vertical components. Fixed tangent data alone do not bound contact. |
-| **KG04** | [Normalized residual capacity](../../arguments/curve/normalization_residual_capacity.md) gives all-mate bounds on its verified geometric classes, including arbitrary fixed effective quadric residuals under the proved lifting-open hypotheses. The degree-seven crossing pilot is complete. | First identify an actual carrier outside the established smooth irreducible normal-root and simple quadric-direction-root conditions, or where the verified normalized divisor/intersection identifications fail. Repeated residuals, tangencies, and shared attachments alone no longer lie outside the theorem. Determine its full normalized divisor and attachment data before seeking a new correction or comparing it with the [boundary loss identity](../../results/ci_fixed_sextic_jet_rigidity.md). A balanced component alone is not a new frontier. |
-| **KG07**, groups 13/18 | [Proper cubic-contact sextic pencils](../../arguments/carriers/sextic_ade_reduction.md) exist in the surviving ADE triples; dependent quadric restrictions with a first-order member give sharp length five. | Test length nine on the full actual proper-pencil locus with independent quadric restrictions. Retain all source directions and rank-drop strata. One orbit or the conditional (6,16) problem does not decide all (6,6) pairs, and the ADE hypothesis is not universal coverage. |
-| **KG08**, groups 15–18 | The [second obstruction](../../arguments/spectral/quadratic_root_second_obstruction.md) excludes a specified seed by a sparse dual pairing. | Characterize the entire second zero scheme on the smooth first-compatible locus, then intersect with actual-source compatibility and properness. A surviving root is not an ambient equation, and an octic lift may still have residual degree 32. |
-| **KG09**, groups 21–25 | [R-0071](../../results/quartic_ancestor_direction_reduction.md) gives an exact finite reduction; the constant length-21 scheme has an explanation using retained minor certificates. [Dual persistence](../../arguments/local-cohomology/polynomial_duals_and_affine_pencils.md#what-persistence-of-a-two-target-dual-actually-requires) identifies excess-intersection and base-change defects. | Separate the finite line/degree-twelve incidence remainder from the all-degree question. Construct a separating dual on the actual remaining tensor, then prove its compatibility with changes of order, ancestor and multiplier degree. Fixed-source re-presentation is not enlargement of the source. |
-| **KG10** | [Arithmetic results](../../frameworks/arithmetic-supported-lifts/index.md) give supported positive-characteristic examples and prescribed-source nonlifting/endpoint controls. | Find a presentation-independent defect and prove coverage for reductions of hypothetical varying characteristic-zero pairs. Start with one specified powered source where both proposed comparison objects can be computed. Stronger nonlifting of one presentation is not an unrestricted obstruction. |
+The order, status and detailed next gates live in KG, not in a second ranking here.
 
-## B. Actual equations, torus limits, and constructive support
+| Decision | Strategic owner |
+| --- | --- |
+| What projective constraint controls deep normal contact of actual equations? | [KG01](knowledge-gain-priorities.md#kg01-projective-limits-on-deep-generic-normal-contact) |
+| When do both torus ends and actual generator layers force residual support? | [KG02](knowledge-gain-priorities.md#kg02-actual-equation-layers-and-the-two-torus-ends) |
+| Can marked absorption lift to proper ambient equations and terminate at zero residual? | [KG03](knowledge-gain-priorities.md#kg03-globalizing-a-marked-absorption-step) |
+| What controls exceptional carriers outside the proved fixed-residual lifting opens? | [KG04](knowledge-gain-priorities.md#kg04-residual-capacity-outside-the-ordinary-open) |
+| Can the full elliptic inverse scheme have marked support and admit actual power descent? | [KG05](knowledge-gain-priorities.md#kg05-full-inverse-support-and-descent-for-the-elliptic-family) |
+| What controls the non-toric, non-Gorenstein nonnormal quintic lane? | [KG06](knowledge-gain-priorities.md#kg06-the-nonnormal-quintic-gap) |
+| Can the remaining actual sextic pencils reach length nine? | [KG07](knowledge-gain-priorities.md#kg07-the-genuine-sextic-frontier) |
+| What is the entire second root-obstruction zero locus, intersected with actual sources? | [KG08](knowledge-gain-priorities.md#kg08-the-entire-quadratic-root-obstruction-locus) |
+| Does two-target separation persist under changes of order, ancestor and degree? | [KG09](knowledge-gain-priorities.md#kg09-a-degree-uniform-common-ancestor-obstruction) |
+| What arithmetic obstruction survives changing the equation presentation? | [KG10](knowledge-gain-priorities.md#kg10-arithmetic-tests-that-survive-changing-the-equations) |
 
-| Source | What is already established | Exact remaining decision and first gate |
-| --- | --- | --- |
-| **KG02** | [Endpoint torsion](../../results/endpoint_equation_torsion.md) gives the exact first-layer residual lower bound after subtracting missed generic length. The two-parameter sextic pilot has fixed extremes and CI polynomial but different detection strata. | Bound the joint missed length from the two actual degree-labeled generators of the **same** family at both ends. The [quotient-to-Hilbert comparison](../quotient-hilbert-comparison/index.md) and [generator incidence](../supported-generator-incidence/index.md) are parts of this gate, not independent claims that quotient data recover the ideal. |
-| **KG03** | [Marked absorption](../../arguments/residuals/marked_deformation_and_absorption.md#7-partial-absorption-and-the-missing-passage-to-sole-support) separates deformation, ambient equation lifts and properness. A known family absorbs a quartic but retains a twelvefold residual line. | Lift one specified marked direction to both actual equations, track the complete residual cycle, and determine a monotone operation reaching zero or an actual obstruction class. A nonzero obstruction space, local motion, or partial absorption does not settle termination. |
-| **KG05** | The [elliptic family](../../arguments/carriers/elliptic_double_inverse_construction.md#the-support-locus-is-a-nilpotence-locus-inside-a-proper-norm-divisor) has a finite-flat length-twelve inverse scheme; full support lies inside a proper norm divisor and is a nilpotence condition. | Determine the full support locus, including nonreduced fibers, then actual pure-power descent on its surviving smooth basepoint-free birational fibers. Norm zero means some contact, not full support; full support is not descent. |
-| **KG06** | Toric and Gorenstein-normalization routes are excluded in the stated nonnormal quintic setting. | On the [surviving non-toric, non-Gorenstein nonnormal lane](../../frameworks/carrier-normalization/open_carrier_cases.md#non-toric-non-gorenstein-quintic-normalizations), determine the full inverse/conductor and Cartier indices, then descended sections. Normal quintics are separate. Do not turn this lane into a claim that all quintics are excluded. |
+## Other scoped live questions
 
-**Normal quintics are an additional explicit open case, not part of the
-nonnormal KG06 row.** The [current boundary table](../../arguments/carriers/quintic_octic_surface_constraints.md)
-excludes normal **globally ADE** carriers for a proper sole-supported (5,8)
-pair. Normal quintics with a non-ADE singularity remain outside that theorem,
-even if the singularity is away from C; other mate degrees are not settled
-by its (5,8) statement. The first gate is to specify the actual carrier and
-mate-degree scope and identify the missing local/global constraint, not to
-apply the nonnormal Gorenstein-normalization theorem to a normal hypersurface.
-A result here would change the degree-five boundary; the existing numerical
-layer census alone constructs neither equations nor supported structures.
+These owner-defined questions are not additional unrestricted obstruction claims.
+Their current hypotheses and controls remain at the linked source.
 
-These decisions are grouped by mechanism, not ordered as a new sequence of
-low-degree case studies. The [low-degree audit](cross-repo-audit.md#pilot-degree-four-and-the-partial-degree-five-exclusions)
-records closed cases and the exceptions that prevent a broader inference.
+- **Normal quintics:** the [current boundary table](../../arguments/carriers/quintic_octic_surface_constraints.md) leaves normal non-ADE quintics open, including non-ADE points away from C. The globally ADE exclusion stated there is for (5,8), not all mate degrees; the nonnormal KG06 lane is separate.
+- **Formal-normal comparison:** [successive jets, punctual defects and extended Rees comparison](../../frameworks/formal-normal-geometry/open_normal_geometry.md) ask which comparison maps detect actual equation defects. Entirely-thick contact and marked realization feed KG01/KG03 rather than duplicate them.
+- **Split sextic and cover compatibility:** the [carrier cases](../../frameworks/carrier-normalization/open_carrier_cases.md) retain the specified ramified/nonramified charts and normal-cover polarization questions, distinct from the solved special mixed-sextic family.
+- **Actual root lifts:** the [order-three sextic and conditional (6,16) questions](../../frameworks/spectral-roots/open_root_lifts.md) are specified subtargets of KG08, not KG07's (6,6) problem.
+- **Projection and liaison:** [actual homogeneous realization](../../frameworks/global-equation-realization/projection_and_liaison.md) asks for sources overcoming the missing-section or conductor-postulation gates; ACMness, AG and two-generation are different conditions.
+- **Octic multiplier kernels:** [actual kernels, fixed divisors and joint generation](../../frameworks/residual-construction/octic_multiplier_kernels.md) remain to be determined on the stated first-compatible roots.
+- **Finite common ancestors:** the [quartic tensor incidence remainder](../../frameworks/local-cohomology/open_quartic_ancestors.md) is a bounded question separate from KG09's all-degree persistence.
+- **Structural proper-pair criterion:** the [Chow-resultant owner](../../arguments/equations/chow_polytope_rigidity.md) gives the exact coefficient criterion; a useful further description would characterize its arbitrary-equation locus without eigenform assumptions.
 
-### Named bounded questions retained from framework owners
+## Proof explanations with a distinct purpose
 
-These are scoped subquestions, not additional unrestricted obstruction claims.
+Use the [workbench](README.md) to locate the current dependency and retained
+evidence. A proof-only target is not automatically a live STCI gap.
 
-- [Formal-normal comparison](../../frameworks/formal-normal-geometry/open_normal_geometry.md): compare actual successive-jet discrepancy with the punctual relative defect; determine an isolated defect under sole support and zero generic defect; compare the supported length-five DVR deformation beyond its zero-defect control; and relate normal Koszul pages to extended-Rees torsion duration. The decision is whether a specified comparison has a detectable kernel/cokernel, not a renewed quartic-carrier exclusion. Entirely-thick contact and marked Quot realization route to KG01/KG03.
-- [Split sextic and normal-cover cases](../../frameworks/carrier-normalization/open_carrier_cases.md): the surviving ramified [2,2] line needs normalization/conductor checks at exceptional parameters; nonramified [4] and [2,2] charts need actual higher lifts. Normal-sextic cover/polarization compatibility is separate. These strata are not the already solved special mixed-sextic family.
-- [Root-lift subtargets](../../frameworks/spectral-roots/open_root_lifts.md): the intrinsic order-three sextic map and the zero-defect two-node conditional (6,16) pencil retain their actual-source gates under KG08. Do not identify the latter with KG07's (6,6) problem.
-- [Projection and liaison](../../frameworks/global-equation-realization/projection_and_liaison.md): find an actual homogeneous source avoiding the known missing-section defect, or embedded boundary multiplication attaining the conductor-postulation lower bound. Decide ACMness before AG/two-generation; no incompatible upper bound is known.
-- [Octic multiplier kernels](../../frameworks/residual-construction/octic_multiplier_kernels.md): on the 24 first-compatible roots, determine the actual kernel, fixed divisor and joint generation. Positive dimension alone is not properness or sole support; the known length-eight construction leaves residual degree 32, while sole (8,8) support needs length sixteen.
-- [Chow proper-pair pullback](../../arguments/equations/chow_polytope_rigidity.md): characterize the exact resultant coefficient condition structurally in arbitrary F,G without eigenform assumptions. The tautological coefficient test is already exact; a useful advance would explain its actual-pair locus, not reprove H15 or infer it from Newton polytopes.
+- [Symbolic-fifth-power vanishing](../../frameworks/residual-construction/quadric_restriction_and_contact_rigidity.md#intrinsic-vanishing-as-a-proof-replacement-target) could explain the already proved dependent-restriction length-five bound; it is not the independent-restriction length-nine question.
+- [Actual multiplication and duality](../../results/quartic_ancestor_direction_reduction.md) could explain retained finite rank inputs; doing so is distinct from solving the remaining finite incidence or establishing all-degree persistence.
+- [MF6 source geometry](../../arguments/normal-geometry/mf6_principal_candidate_loci.md) and [primitive incidence](../../arguments/normal-geometry/e2_primitive_quartic_incidence.md) can clarify jumping equation spaces; the integral quartic-carrier exclusion itself is already settled.
 
-## C. Explanatory proof work, not a second list of STCI gaps
+## Update rule
 
-A better explanation is valuable when it removes a hypothesis, transfers a
-mechanism, or identifies what an exact computation measures. These items
-share the research decisions above where appropriate; do not count them twice.
-
-| Historical groups | Explanatory target and owner | Re-entry/stop condition |
-| --- | --- | --- |
-| 4/17 | [Actual-source gluing](../../arguments/equations/global_lifting_interfaces.md), **KG01** | Study divisor twists or actual higher lifts, not the already proved saturated relation or first nonlinear map. The order-five cutoff remains evidence. |
-| 15–18 | [Full root-obstruction locus](../../arguments/spectral/quadratic_root_second_obstruction.md), **KG08** | Explain the whole zero scheme and its actual-source intersection; do not repeat a seed calculation as though it were a uniform theorem. |
-| 21–25 | [Actual multiplication and common ancestors](../../frameworks/local-cohomology/open_quartic_ancestors.md), **KG09** | Seek intrinsic source/target maps and persistent duality. Rank-309 and cubic-rank-14 remain inputs to the explained constant scheme; the finite incidence and all-degree bridges are distinct. |
-| 9/10/12 | [MF6 source modifications](../../arguments/normal-geometry/mf6_principal_candidate_loci.md), [e=2 primitive incidence](../../arguments/normal-geometry/e2_primitive_quartic_incidence.md), [extracted multiplicity-six contact](../../arguments/residuals/extracted_multiplicity_six_quartic_contact.md) | Explain jumping actual-source spaces, annihilator multiplicities and boundary fibers. First check stronger carrier exclusions: an old quartic certificate does not create a new unrestricted STCI gap. Generic rank is diagnostic, not an exclusion. |
-| 13/18 | [Actual higher-contact sextic pencils](../../arguments/carriers/sextic_ade_reduction.md), **KG07** | Retain properness and decomposability. An exterior-square kernel is not a space of pencils; dependent restrictions do not settle independent restrictions. |
-| 29–31 | [Conductor geometry](../../arguments/carriers/quintic_conductor_geometry.md), **KG06** | Explain the surviving descent mechanism while retaining nonreduced conductors, infinity and exceptional loci. Do not reopen the excluded Gorenstein route or old A4 elimination merely to remove its coordinates. |
-
-One additional precise **proof-only** target is [symbolic-fifth-power
-vanishing](../../frameworks/residual-construction/quadric_restriction_and_contact_rigidity.md#intrinsic-vanishing-as-a-proof-replacement-target)
-for the already proved dependent-restriction ADE length-five bound. An
-intrinsic argument could replace its fourth-coefficient rank-17 certificate
-uniformly on the named quartic carriers. This is not KG07's still-open
-independent-restriction length-nine problem. The bounded R-0022 primitive
-contact certificates likewise remain eligible for a clearer explanation,
-not another attempt at the already closed integral quartic exclusion.
-
-Groups 3/5/6/7/27 already have the stated geometric replacements; group 38's
-four-jet determinant has the binomial/Vandermonde explanation. Group 4's
-first nonlinear map and third-differential interpretation are explained.
-Group 22's scheme interpretation **uses** its retained certificate inputs.
-Group 32's endpoint socles have a local explanation without erasing the
-computed global decomposition. R-0024's source-geometry certification and
-the characteristic-two/three and image-algebra controls of group 38 remain.
-
-Groups 1/2/11/16/19/28/33–37/39/41 already contain structural arguments or
-intrinsic maps. The DVR torsion, filtered comparisons and character lattices
-of groups 42–44 can themselves be the mathematical information. They are
-not automatically outstanding jobs to delete matrices.
-
-## D. Recovery and semantics, not unproved theorems by default
-
-- **H07:** all realized frames have checked local contact/weight formulas,
-  toric-model properness and flatness/smoothness criteria, and a finite
-  constructible root-pattern stratification. Classifying realizable
-  partitions or identifying a historically intended “global parameter
-  fan” requires a precise new question; it is not a missing step in those
-  [proved statements](../../arguments/torus/general_coordinate_boundary.md).
-- **H17:** [the owner](../../arguments/torus/boundary_reconstruction_and_defects.md)
-  settles its specified bounded reconstruction, marked gluing, fixed-degree
-  realization, ideal descent and all-jet uniqueness questions, and gives
-  nonalgebraizable compatible formal data. Any additional enriched-diagram
-  question must specify its objects and maps. Actual all-degree realization
-  belongs with KG02/KG03 where the missing condition is the same ambient
-  generator/lift condition; do not reopen disproved universal algebraization.
-- **H09/H15/H16:** the different P4 curve example, full Chow-polytope rigidity,
-  and set-level symmetric-power fiber have their scoped proof owners.
-  Scheme structure or a larger realization theorem is not inferred.
-  H02/H08 are rejected controls, not recovery targets.
-- **H01/03/04/05/06/10/11/12/13/14:** any remaining historical-equivalence
-  task is a provenance comparison, not evidence of absent mathematics.
-  Use the [recovery ledger](../../cross_conversation_recovery_audit.md) and
-  [bounded crosswalk](recovery-crosswalk.md), then the current proof owner.
-  Surviving quintic, root, and actual-generator questions are already
-  represented by KG06, KG08, and KG02 respectively.
-
-## Maintenance and selection rule
-
-**Single-source update rule.** Update and review the canonical Argument/Result/Framework owner first. Then update its KG status/next gate, this derived index, and any affected audit comparison in the same change, using links and brief scope summaries rather than independent proof statements. If these navigation documents disagree, the current canonical owner controls and stale summaries must be corrected; they do not supply alternative mathematical authority. Preserve
-stable KG and historical group IDs; record a scoped completion beside the
-remaining broader gate rather than silently deleting it or declaring the
-whole lane solved. Keep branch-only claims explicitly separate from merged
-main. Choose the next investigation only after reviewing this consolidated
-list, with its exact actual source, expected payoff, strongest control and
-stopping condition. This consolidation starts no new individual case study.
+Review and update the canonical Argument/Result/Framework owner first. Update
+its KG status or next gate when the research decision changes; update this
+index only when a live question, link or purpose changes. The cross-framework
+audit compares mechanisms, and the workbench records proof dependencies.
+Neither is a parallel queue or proof authority. Use links instead of copying
+substantial status/proof accounts across these documents. Choose individual
+investigations by mathematical payoff, not by the existence of a listed item.
