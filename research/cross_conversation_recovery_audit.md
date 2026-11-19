@@ -26,7 +26,7 @@ Legend: **M** matching repo content (compare exact hypotheses before closing); *
 | H14 | Nov 5 | Finite embedded torus quotient, endpoint algebras, actual homogeneous equation criterion | `research/arguments/torus_embedded_quotients.md` | M; substantially preserved |
 | H15 | Nov 5 | **Chow-polytope rigidity**: (P_Z=mP_C\iff Z=\sum a_i[\lambda_iC]), (\sum a_i=m), over algebraically closed field | Recovered original proof from `Pasted text(20261105-173726).txt` and related pasted records. Search for “Chow polytope”, “oblique edges”, “Minkowski additivity” gave no direct repo matches | M; cycle-level theorem reconstructed and reviewed in [the full-weight proof](arguments/equations/chow_polytope_rigidity.md); no scheme or equation-realization claim |
 | H16 | Nov 5 | Chow rigidity identifies a **set**, not scheme structure, with (\operatorname{Sym}^m(T/T_C)); only after full Chow polytope equality, not projected polygon equality | Same recovered transcripts; `research/investigations/supported-generator-incidence/index.md` covers related incidence but not exact theorem | Set-level bijection and exact curve stabilizer verified; scheme-locus claim excluded |
-| H17 | Nov 13 | Characteristic-two tetrahedral face-poset / enriched toric boundary diagram | No exact proof-level comparison yet | V; exploratory until checked |
+| H17 | Nov 13 | Enriched boundary reconstruction of dense-torus intersections: schemes, filtrations and compatibility defects | User supplied the question reconstruction on Nov 19; [scoped proof owner](arguments/torus/boundary_reconstruction_and_defects.md) | Context recovered, not a verbatim transcript. Degree bounds, finite-order counterexamples, labeled gluing and fixed-degree realization criteria proved; unrestricted enrichment remains open |
 
 ## Priority proof gate: H15
 
@@ -56,13 +56,29 @@ For a general choice of four coordinate hyperplanes meeting (C) transversely in 
 3. Continue earlier August–October conversation retrieval in large thematic batches, deduplicate by mathematical claim, and close M items after exact content comparison.
 4. Only after verification, place genuinely new mathematics into an existing canonical Result/Argument/Framework/Investigation and retire this temporary ledger when its purpose is complete.
 
-**Coverage accounting:** 17 historical topic clusters inventoried; 1 new typed Result added ([R-0074](results/chow_polytope_rigidity.md)); H15 integrated with a reviewed cycle-level proof; H07's undefined historical parameter-fan claim and H17 remain unverified, alongside several matching-but-unclosed clusters. No exhaustive conversation count is available.
+**Coverage accounting:** 17 historical topic clusters inventoried; 1 new typed Result added ([R-0074](results/chow_polytope_rigidity.md)); H15 integrated with a reviewed cycle-level proof; H07's undefined historical parameter-fan claim and H17's general enriched reconstruction remain open, alongside several matching-but-unclosed clusters. No exhaustive conversation count is available.
 
 ## Integrated follow-up and proof inventory
 
-The [bounded crosswalk](investigations/proof-audit/recovery-crosswalk.md) distinguishes exact owners from unverified historical equivalence. H09 now has a [three-equation set-support proof for the different P4 curve](arguments/curve/rational_normal_quartic_background.md#background-example-the-rational-normal-quartic-in-p4); H17 remains exploratory. The [linear-algebra inventory](investigations/proof-audit/README.md) and [file-level appendix](investigations/proof-audit/executable-evidence.md) are evidence maps, not new theorem classifications. R-0024 now has a geometric joint-rank proof while retaining its source-geometry certificate.
+The [bounded crosswalk](investigations/proof-audit/recovery-crosswalk.md) distinguishes exact owners from unverified historical equivalence. H09 now has a [three-equation set-support proof for the different P4 curve](arguments/curve/rational_normal_quartic_background.md#background-example-the-rational-normal-quartic-in-p4); H17 now has [precise reconstruction bounds and defects](arguments/torus/boundary_reconstruction_and_defects.md); its general enriched reconstruction problem remains open. The [linear-algebra inventory](investigations/proof-audit/README.md) and [file-level appendix](investigations/proof-audit/executable-evidence.md) are evidence maps, not new theorem classifications. R-0024 now has a geometric joint-rank proof while retaining its source-geometry certificate.
 
 This remains a provisional recovery ledger. Checked bounded statements are
 not claims of exact equivalence with unread historical transcripts; filename
 matches are navigation evidence only. Proof-replacement priorities in the
 inventory do not rank research approaches to unrestricted STCI.
+
+## H17 recovered checkpoint
+
+The user-supplied reconstruction removes the missing-context blocker, without
+claiming a verbatim historical transcript or an already proved universal theorem.
+The [H17 owner](arguments/torus/boundary_reconstruction_and_defects.md) separates
+embedded intersections with the whole thickened boundary from separate face
+images; gives bounded-degree reconstruction (including the equality bound for
+containing C), a C-preserving finite-order counterexample with restricted
+ordinary Rees data, a linear containment obstruction and a radical torus-support
+defect. Properness and sole support are distinct from compatibility and lifts.
+A general enriched-face reconstruction/realization theorem is still open.
+
+The [H17 gluing and realization criteria](arguments/torus/boundary_reconstruction_and_defects.md#exact-gluing-of-labeled-thickened-facet-sections) now close the marked-section and specified fixed-degree embedded-facet formulations. The unlabelled quartic test diagram uniquely fixes its containing pair, with sole support exactly in characteristic two. General unspecified enrichment and all-degree realization remain open.
+
+Further [H17 exact formulations](arguments/torus/boundary_reconstruction_and_defects.md#exact-ideal-valued-descent-for-ambient-marked-quotients) give ambient ideal descent defects and all-jet uniqueness for pure projective curves. A compatible formal double along C supplies a nonalgebraizable all-jet system. These settle the stated uniqueness/nonexistence questions, not unspecified enriched-diagram semantics or all-degree STCI.

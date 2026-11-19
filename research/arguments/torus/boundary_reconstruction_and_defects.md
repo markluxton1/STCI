@@ -1,0 +1,400 @@
+# Boundary reconstruction and its distinct defects (H17)
+
+## Recovered question and scope
+
+On 2026-11-19 the user supplied a reconstruction of the November 13 H17
+question: to what extent can an enriched coordinate-boundary diagram constrain
+or reconstruct the dense-torus scheme intersection, and what measures failure
+of compatibility or global realization? Proposed enrichments included
+scheme intersections, Rees filtrations, multiplication, restriction maps and
+extension data. This is source context, not a verbatim recovered transcript or
+a single already-defined reconstruction functor.
+
+Here are precise bounded answers. Let \(k\) be algebraically closed,
+\(S=k[x_0,x_1,x_2,x_3]\), \(B=x_0x_1x_2x_3\), \(D=V_+(B)\),
+\(T=D_+(B)\), and \(C=[s^4:s^3t:st^3:t^4]\).
+The thickened whole boundary \(mD=V_+(B^m)\) is not merely a list of separate
+face restrictions. Throughout, equality there means equality as embedded
+subschemes, or equality of labeled sections when explicitly specified.
+
+**Data hierarchy.** Labeled equations on a whole thickened boundary determine
+its embedded zero scheme, which restricts to embedded facet schemes; reversing
+these forgetful steps is not automatic. The monomial gluing result below is
+for labeled sections, whereas the fixed-bidegree feasibility criterion is for
+embedded facet schemes. Agreement of the example's ideals modulo \(B^m\)
+also identifies its restricted ordinary Rees presentations, not arbitrary
+filtered/Rees diagrams. All ambient-marked jets determine a pure projective
+curve if it exists, but compatible formal data need not algebraize. Thus
+finite-order reconstruction, ideal descent, uniqueness and algebraization
+are different questions; no conclusion here covers an unspecified enrichment
+or excludes a general characteristic-zero STCI.
+
+## Reconstruction of bounded-degree complete intersections
+
+**Proposition.** Fix an integer \(m\ge1\). Let \(Y,Y'\) be projective complete-intersection curves with
+no component contained in \(D\). Suppose \(Y\cap mD=Y'\cap mD\) as embedded
+schemes. If the generator degrees of both ideals are strictly less than
+\(4m\), then \(Y=Y'\). If both contain the fixed \(C\), the conclusion
+also holds when all generator degrees are at most \(4m\).
+
+**Proof.** Complete intersections are Cohen–Macaulay and have no embedded
+associated points, so \(B^m\) is a nonzerodivisor on each curve. A generator
+\(f\) of \(I_Y\) of degree \(d\) vanishes on \(Y'\cap mD\). The exact sequence
+\[
+0\longrightarrow\mathcal O_{Y'}(d-4m)
+ \xrightarrow{B^m}\mathcal O_{Y'}(d)
+ \longrightarrow\mathcal O_{Y'\cap mD}(d)\longrightarrow0
+\]
+therefore puts \(f|_{Y'}\) in the image of
+\(H^0(\mathcal O_{Y'}(d-4m))\). The standard Koszul resolution of the CI ideal
+([Stacks, Lemma 15.31.2](https://stacks.math.columbia.edu/tag/062F)),
+using projective-space line-bundle cohomology
+([Stacks, Lemma 30.8.1](https://stacks.math.columbia.edu/tag/01XT)), gives \(H^1(\mathcal I_{Y'}(j))=0\) for all \(j\).
+Consequently \(H^0(\mathcal O_{Y'}(j))=0\) for \(j<0\), and
+\(H^0(\mathcal O_{Y'})=k\). For \(d<4m\), the restriction is zero. For
+\(d=4m\), it is \(cB^m\) for a scalar \(c\). If both curves contain \(C\),
+restriction to \(C\) gives \(0=cB^m|_C\), hence \(c=0\), since
+\(B|_C=s^8t^8\ne0\). Thus every generator of \(I_Y\) vanishes on \(Y'\).
+Apply the same argument in reverse to obtain equality. This is an equality
+of saturated ideal sheaves, not merely of reduced supports. \(\square\)
+
+In particular the full embedded intersection with the reduced whole boundary
+already determines a quartic CI pair's scheme when both curves contain \(C\).
+It has not been proved that separate face images, abstract face algebras, or
+an unspecified diagram reconstruct that whole-boundary embedded scheme.
+
+## A characteristic-two counterexample at every fixed finite order
+
+Put
+\[
+ F=x_1^4-x_0^3x_3,\qquad G=x_2^4-x_0x_3^3,\qquad
+ q=x_0x_3-x_1x_2.
+\]
+Assume \(\operatorname{char}k=2\). For any \(m\ge1\), set \(n=m+1\) and compare
+\[
+ I=(F^n,G^n),\qquad I'=(F^n+B^m qx_0^2,G^n).
+\]
+Both generator degrees are \(4n=4m+4\); both curves contain \(C\) (their ideals are contained in \(I_C\)).
+They are regular sequences: \(G\) is an irreducible primitive binomial, and
+neither first generator is divisible by \(G\). For the latter assertion,
+on \(x_0=1,G=0\) substitute \(x_2=t^3,x_3=t^4,x_1=0\); the first generator
+is \(t^{4n}\), not identically zero. Thus these are proper CI curves.
+
+Their ideals agree modulo \(B^m\), hence so do all embedded intersections
+with \(jD\), \(j\le m\). Yet their dense-torus supports differ.
+[R-0031](../../results/quartic_char2_fourth_equation_kernel.md) gives
+\(\sqrt I=I_C\). On \(G=0\) in the torus, write \(a=x_1\) and
+\(t=x_3/x_2\), so \(x_2=t^3,x_3=t^4\), \(B=at^7\) and
+\(q=t^3(t-a)\). Since \(F=(a-t)^4\) in characteristic two, the other perturbed equation is
+\[
+ (a-t)\bigl((a-t)^{4n-1}+t^{7m+3}a^m\bigr).
+\]
+For every \(t\ne0\), the bracket has positive degree and is nonzero at
+\(a=0\) and \(a=t\). It therefore has a root with \(a\ne0,t\), giving
+extra torus support off \(C\). This is an unbounded-degree failure of
+finite-boundary reconstruction, not a contradiction to the degree bound.
+
+This example also preserves **ordinary Rees algebras after restriction**.
+A two-generator regular-sequence ideal \((f,g)\) is of linear type
+(the standard regular-sequence case in the authors’
+[Macaulay2 ReesAlgebra documentation](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/ReesAlgebra/html/index.html)):
+\[
+ \operatorname{Rees}_S(f,g)=S[T_1,T_2]/(gT_1-fT_2).
+\]
+Indeed the regular-sequence syzygy is generated by \((g,-f)\); induction
+on the polynomial degree gives the displayed kernel of the map to \(S[t]\).
+For \(I,I'\), these presentations coincide after tensoring with
+\(S/(B^m)\), with their named generators, grading and multiplication.
+This is an explicit presentation argument, not an assertion that Rees
+formation commutes with arbitrary base change. It does not treat arbitrary
+other filtrations, retained global lifts, or all compatible formal jets.
+
+## Labeled equations: ambiguity and a containment obstruction
+
+For a labeled degree-\(d\) section on \(mD\), the standard Cartier restriction
+sequence ([Stacks, Remark 31.15.11](https://stacks.math.columbia.edu/tag/0C6K))
+\[
+0\to\mathcal O_{\mathbf P^3}(d-4m)\xrightarrow{B^m}
+\mathcal O_{\mathbf P^3}(d)\to\mathcal O_{mD}(d)\to0
+\]
+and the line-bundle cohomology cited above show that every section lifts and the ambiguity is \(B^mS_{d-4m}\).
+Facewise data must first define such a section on the union; agreement of
+supports is insufficient. Among lifts containing \(C\), the ambiguity is
+\(B^m(I_C)_{d-4m}\), because \(I_C\) is prime and \(B\notin I_C\).
+It vanishes for \(d-4m<2\); the first possible ambiguity is the quadric
+multiple at \(d=4m+2\). In particular labeled quartic boundary sections,
+with containment of \(C\), determine their equations uniquely.
+
+Write \(R=S/I_C\), with negative graded pieces zero. Given an actual
+section \(s\in H^0(mD,\mathcal O_{mD}(d))\), choose any homogeneous lift
+\(f\). The class
+\[
+ o_C(s)=[f\bmod I_C]\ \in R_d/B^mR_{d-4m}
+\]
+is independent of that choice. It vanishes exactly when \(s\) admits a
+homogeneous lift containing \(C\); if so, the choices form a torsor for
+\(B^m(I_C)_{d-4m}\). This uses the homogeneous coordinate ring \(R\), not
+all sections of \(\mathcal O_C(d)\), so no projective-normality premise is
+hidden. Apply the test separately to both labeled equations. Properness,
+intersection structure and sole support remain additional conditions.
+
+## A separate dense-torus support defect
+
+Let \(A=\mathcal O(T)\). For any proper containing pair \(J\), define
+\[
+ E_T(J)=I(C\cap T)/\sqrt{JA}.
+\]
+The inclusion \(JA\subset I(C\cap T)\) makes this quotient well-defined.
+It vanishes exactly when the torus intersection has sole reduced support
+\(C\cap T\). Retain \(A/JA\) separately for nilpotent/multiplicity data.
+The homogeneous saturation \(J:B^\infty\) closes the torus scheme; it is
+not irrelevant-ideal saturation, and neither operation alone glues face data.
+
+For the displayed quartics \(F,G\) in any characteristic, use \(x_0=1\)
+and \(z=x_2/x_1^3\). Eliminating \(x_3=x_1^4\) gives
+\[
+ A/(F,G)A\simeq k[x_1^{\pm1},z^{\pm1}]/(z^4-1).
+\]
+The exponent lattice has saturation index four (its rank-two minors have
+gcd four). The transverse diagonalizable group is \(\mu_4\): outside
+characteristic two there are four reduced translated quartics, whereas in
+characteristic two \(z^4-1=(z-1)^4\) has sole support \(C\) and length four.
+After eliminating \(F\), the defect is \((z-1)/(z^4-1)\) in characteristic
+not two and zero in characteristic two. Direct substitution on each
+coordinate hyperplane shows the only boundary support is the two endpoints,
+so no boundary curve is concealed by this torus calculation. Compatibility
+and containing global equations therefore do not imply sole-support realization.
+
+## Exact gluing of labeled thickened-facet sections
+
+Fix \(m\ge1\) and a degree \(d\). Given labeled classes
+\(s_i\in(S/(x_i^m))_d\), there is a class
+\(s\in(S/(B^m))_d\) inducing them if and only if
+\[
+ s_i=s_j\quad\text{in }(S/(x_i^m,x_j^m))_d\quad\text{for every }i,j.
+\]
+When it exists, this class is unique. Indeed use the standard monomial basis
+in each quotient. A monomial surviving in both facets has the same scalar
+by pairwise compatibility. Assign that scalar to every monomial surviving
+at least one facet. This gives a homogeneous lift; the only monomials
+invisible on all facets are divisible by every \(x_i^m\), hence by \(B^m\).
+This proves both existence and the stated kernel, without appealing to an
+unqualified ideal-valued Chinese remainder assertion. Apply the existing
+\(o_C(s)\) and ambiguity formula to decide containment of \(C\) after gluing.
+This result concerns marked sections, not abstract quotient algebras.
+
+## Exact fixed-degree realization of embedded facet schemes
+
+Fix positive degrees \(d,e\). For each coordinate plane \(H_i=V(x_i)\),
+let \(Z_i\subset H_i\) be an embedded zero-dimensional scheme of length
+\(de\), with saturated homogeneous ideal \(K_i\subset S/(x_i)\).
+Assume the specified lower-face schemes are exactly the restrictions of
+these \(Z_i\), and agree wherever two such restrictions describe the same
+face. This is the compatibility datum, not a theorem that arbitrary diagrams
+supply it. Define finite-dimensional spaces
+\[
+ V_j=\{h\in(I_C)_j:\ h\bmod x_i\in(K_i)_j\text{ for all }i\}.
+\]
+An exact sole-support CI realization of this diagram in bidegree \((d,e)\)
+exists if and only if \(4\mid de\) and, writing \(\ell=de/4\),
+\[
+ \exists f\in V_d,\ g\in V_e\quad I_C^\ell\subset(f,g).
+\]
+This is an ordinary homogeneous ideal power and containment, not a symbolic
+power or a saturation surrogate.
+
+For necessity, a sole-support proper pair has generic length \(\ell\) by
+Bézout. The Artinian local ring at \(I_C\) has length \(\ell\), so its
+maximal ideal has \(\ell\)-th power zero: a strictly decreasing chain of
+its nonzero powers has at most that length, by Nakayama. A homogeneous
+complete intersection is unmixed; because its projective support is the
+irreducible curve \(C\), its only associated prime is \(I_C\). There is no
+irrelevant embedded prime. Thus \((f,g)\) is \(I_C\)-primary and contracts
+from its localization at \(I_C\). The generic containment contracts to
+\(I_C^\ell\subset(f,g)\).
+
+Conversely the displayed containment and \(f,g\in I_C\) give
+\(\sqrt{(f,g)}=I_C\). Hence \((f,g)\) has height two and the two forms are
+a regular sequence. The CI has no component in any \(H_i\), since \(C\)
+is not contained there. Its hyperplane section therefore has length \(de\).
+Membership in \(V_d,V_e\) gives inclusion of \(Z_i\) in that section;
+equal finite lengths force equality as embedded schemes. The lower faces
+then agree by the stipulated compatibility. This proves sufficiency.
+
+This is an equivalent formulation of existence, not a new obstruction or
+a tractability theorem. Its conceptual value is that the candidate spaces
+\(V_d,V_e\) encode exactly the facet constraints before the global
+sole-support condition is imposed. It becomes a finite polynomial feasibility problem. Choose bases of
+\(V_d,V_e\), and a finite homogeneous generating set for the ordinary power
+\(I_C^\ell\). For each generator \(p\) of degree \(r\), impose
+\(p=A_pf+B_pg\), with unknown homogeneous coefficient vectors of degrees
+\(r-d,r-e\) (negative degree means zero). Coefficient comparison gives
+finitely many polynomial equations. This formulation is exact, not a claim
+of efficient elimination, automatic existence, or a solution across all
+degrees and all possible enrichments.
+
+## The quartic test diagram: unlabelled facets already suffice
+
+For the test forms \(F,G\) above, their restrictions \(F_i,G_i\) to each
+\(H_i\) are a regular sequence of quartics. The saturated plane CI ideal
+has length 16 and degree-four part \(\langle F_i,G_i\rangle\).
+Suppose a quartic \(H\) restricts into all four such ideals. Write
+\(H|_{H_i}=a_iF_i+b_iG_i\). Here edge \(\{i,j\}\) means \(H_i\cap H_j\): the indices name vanishing
+coordinates, not spanning vertices. On edges \(\{0,3\}\) and \(\{1,2\}\),
+both restricted forms are linearly independent, giving
+\(a_0=a_3,b_0=b_3\) and \(a_1=a_2,b_1=b_2\).
+On edge \(\{0,2\}\) only \(F\) survives, giving \(a_0=a_2\);
+on edge \(\{0,1\}\) only \(G\) survives, giving \(b_0=b_1\).
+Thus all \(a_i=a\) and all \(b_i=b\). The polynomial \(H-aF-bG\)
+vanishes on every coordinate plane, so it is \(cB\). If \(H\) also
+vanishes on \(C\), then \(c=0\), since \(B|_C\ne0\).
+
+It follows that the allowed space \(V_4\) is exactly \(\langle F,G\rangle\).
+Any proper \((4,4)\) pair realizing this embedded facet diagram and
+containing \(C\) must be a basis of that pencil, and defines the same
+intersection. Therefore this test diagram has a global pair in every
+characteristic, but a sole-support realization in bidegree \((4,4)\)
+exactly in characteristic two. In other characteristics the failure concerns
+this specified diagram and bidegree, not every possible pair through \(C\).
+
+## Exact ideal-valued descent for ambient-marked quotients
+
+Let \(A\) be a ring, with finitely many prescribed ambient quotients
+\(A/\mathfrak a_i\) and ideals \(K_i\subset A/\mathfrak a_i\).
+Write \(L_i\subset A\) for their inverse images and \(J=\bigcap_i L_i\).
+There exists an ideal \(I\subset A\) inducing every \(K_i\) exactly if and
+only if
+\[
+ J+\mathfrak a_i=L_i\quad\text{for every }i.
+\]
+Indeed any realization has \(I\subset J\), making these equalities necessary;
+if they hold, \(J\) itself realizes the data. The explicit descent defects
+are \(L_i/(J+\mathfrak a_i)\). Other realizations are exactly the ideals
+\(I\subset J\) still surjecting onto every \(K_i\). This is an exact
+ambient-marked ideal criterion, not a statement that abstract quotient
+algebras determine their kernels. For sheaves apply the finite construction
+locally with the specified ambient maps and check the local equalities;
+no coherence/localization assertion for arbitrary infinite products is used.
+
+Pairwise compatibility is not enough for ideals. In
+\(A=k[x,y,z]_{(x,y,z)}\), on the three coordinate planes take
+\[
+ K_x=(y-z,(y,z)^2),\quad K_y=(z-x,(z,x)^2),\quad
+ K_z=(x-\lambda y,(x,y)^2),\qquad\lambda\ne0,-1.
+\]
+These are length-two tangent vectors at the origin; every pairwise trace
+on an axis is the reduced origin. But if a linear form
+\(\alpha x+\beta y+\gamma z\) lies in all three inverse images, then
+\(\beta+\gamma=\alpha+\gamma=\lambda\alpha+\beta=0\), forcing all three
+coefficients zero. Thus \(J\subset(x,y,z)^2\), so its images cannot contain
+the specified nonzero linear relations. No ideal realizes this compatible
+triple. This contrasts with the standard-monomial section-gluing theorem.
+It does not rule out stronger diagrams retaining additional ambient data.
+
+## All embedded jets determine a pure projective curve
+
+Let \(D_0\subset\mathbf P^3\) be any nonzero effective Cartier divisor
+of degree \(\delta>0\). If pure one-dimensional projective schemes
+\(Y,Y'\) have identical embedded intersections with \(mD_0\) for every
+\(m\ge1\), then \(Y=Y'\), without a degree bound or a condition excluding
+components in \(D_0\).
+
+At a point of \(D_0\), let \(b\) be a local equation. Equality of all jets
+says \(I+(b^m)=I'+(b^m)\). Applying
+[Krull intersection](https://stacks.math.columbia.edu/tag/00IP) to the finite
+modules \(\mathcal O/I\) and \(\mathcal O/I'\) gives \(I=I'\) in that
+local ring. The coherent sheaves \((\mathcal I+\mathcal I')/\mathcal I\)
+and \((\mathcal I+\mathcal I')/\mathcal I'\) therefore have support disjoint
+from \(D_0\). No positive-dimensional projective subvariety is disjoint
+from this positive-degree hypersurface. Their supports are consequently
+finite. They are subsheaves of the pure curve structure sheaves, which have
+no nonzero zero-dimensional subsheaves, so both vanish. This proves equality.
+
+Purity and positivity matter: an isolated point off \(D_0\) is invisible,
+and on a different projective ambient a nonample divisor can miss a whole
+component. The assertion uses all embedded ideals and compatible jets, not
+an associated graded object or unmarked isomorphism classes of face rings.
+
+In particular, all embedded jets along even one coordinate hyperplane
+suffice for this uniqueness theorem. The earlier CI degree argument also
+works for a degree-\(\delta\) divisor, with \(4m\) replaced by \(m\delta\),
+provided it contains no CI component; at equality the common curve must not
+lie in the divisor. Thus sufficiently deep one-facet data have a bounded-degree
+positive result as well.
+
+## Compatible all-order data need not algebraize
+
+Uniqueness does not imply existence. This failure occurs even with support
+on the fixed \(C\), and with a formal complete intersection at each endpoint.
+At \(P_0\), use the completed local coordinates
+\(a=x_1, u=x_2-a^3,v=x_3-a^4\) on \(x_0=1\). Choose
+\[
+ f(a)=\sum_{n\ge2}a^{n!}\in k[[a]],\qquad
+ \widehat J=(u^2,v-f(a)u)\subset k[[a,u,v]].
+\]
+The series is transcendental over \(k(a)\) in every characteristic. To see
+this, let \(f_N=\sum_{2\le n\le N}a^{n!}\). A hypothetical nonzero
+\(P(a,f)=0\) would make \(P(a,f_N)\) have order at least \((N+1)!\),
+but degree at most \(\deg_aP+\deg_yP\,N!\). For large \(N\) this forces
+\(P(a,f_N)=0\). The distinct polynomials \(f_N\) cannot all be roots of
+the fixed nonzero polynomial \(P\) over the field \(k(a)\), a contradiction.
+
+Modulo \(\widehat J\), the boundary equation is
+\(B=a^8+(a^5+a^4f(a))u\), with \(u^2=0\).
+Thus every quotient by \(B^m\) is Artinian supported at \(P_0\), and factors
+through a finite power of the maximal ideal of the algebraic local ring.
+It is therefore an algebraic finite embedded subscheme. At \(P_\infty\)
+choose any fixed constant-slope formal double of \(C\) in analogous
+coordinates. The disjoint union of the two endpoint jets gives global
+embedded schemes \(Z_m\subset mD\), compatible for all \(m\).
+All face restrictions and their maps can be inherited from these schemes.
+In each endpoint double, multiplication by \(B^m\) on the free rank-two
+\(k[[a]]\)-module has determinant \(a^{16m}\) (use the reversed parameter
+at infinity). Each jet has length \(16m\), so even the total length \(32m\)
+is consistent with a degree-eight double of \(C\).
+
+No algebraic projective subscheme can realize this system. If one did, its
+completed ideal at \(P_0\) would equal \(\widehat J\), by equality modulo
+all \(B^m\) and Krull intersection. Take a polynomial numerator of any
+algebraic local equation in that ideal. Its restriction to \(C\) is zero,
+and modulo \(I_C^2\) it has form \(\alpha(a)u+\beta(a)v\), with polynomial
+coefficients. Membership in \(\widehat J\) forces
+\(\alpha+\beta f=0\), hence \(\alpha=\beta=0\). Thus every algebraic
+local equation lies in \(I_C^2\); their completed ideal cannot contain
+\(v-fu\), a nonzero linear normal relation. This contradiction is local,
+so it excludes any algebraic realization, not merely a CI realization.
+
+There is an exact finite-global-generator condition in the other direction. Suppose
+a coherent ambient formal ideal along a degree-\(\delta\) hypersurface is
+generated by finitely many compatible marked global sections of fixed twists
+\(\mathcal O(d_i)\). Each section is a unique homogeneous polynomial:
+\(H^0(mD_0,\mathcal O(d_i))=S_{d_i}\) once \(m\delta>d_i\), by the
+hypersurface sequence and \(H^1(\mathbf P^3,\mathcal O(j))=0\).
+Their polynomial ideal algebraizes the prescribed formal ideal. Conversely,
+any algebraic embedded ideal has finitely many homogeneous generators, whose
+restrictions give such a marked formal generating set. Thus this condition
+is necessary and sufficient, not an assertion that every formal ideal has
+these generators. Purity,
+dimension, containment of \(C\), and proper two-generator realization are
+additional tests, not consequences of this generation hypothesis. Formal
+Nakayama checks generation modulo \(b\widehat J\), not merely the image
+ideal in \(\mathcal O_{D_0}\); confusing these can lose relation data.
+No effectiveness claim for arbitrary infinite input is made.
+
+## Scoped closure and remaining semantics
+
+Marked section gluing, finite ambient ideal descent, fixed-degree CI
+realization, and uniqueness of pure curves from all embedded jets now have
+exact answers. The compatible formal-double system proves that arbitrary
+all-order data can fail algebraic realization even when elementary support,
+length and local complete-intersection checks pass.
+
+“Arbitrary enriched diagrams” without specified objects, arrows, ambient
+markings and retained extension information is still not one mathematical
+reconstruction problem. A full embedded Rees object may retain the original
+ideal tautologically; an associated graded or an unmarked quotient may lose
+information. The negative results apply to the stated data, not to every
+possible enrichment. These are not all-degree STCI existence or obstruction
+results. [H07](general_coordinate_boundary.md) and
+[H16](../equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16)
+retain their separate curve-compactification and cycle-level scopes.

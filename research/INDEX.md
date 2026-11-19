@@ -45,3 +45,5 @@ quartic symbols](arguments/quartic_specialization_and_symbols.md), the
 [normal Koszul cancellation](arguments/normal_koszul_cancellation.md),
 [transverse specialization](arguments/transverse_specialization.md), and
 [punctual defect and support](arguments/punctual_comparison_defects.md#statements-and-proofs).
+
+For the recovered boundary-reconstruction question, see [H17: degree bounds, finite-order counterexamples and distinct defects](arguments/torus/boundary_reconstruction_and_defects.md). The scoped positive and negative results do not settle arbitrary enriched diagrams or unrestricted STCI.
