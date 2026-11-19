@@ -170,11 +170,15 @@ lifting thresholds.
 At fixed degrees there is an exact [finite normal-jet certificate](../../arguments/residuals/finite_normal_jets.md),
 valid even for singular integral curves and with a weighted reducible
 extension. It does not supply a bound on possible witness degrees.
-[R-0025](../../results/ci_fixed_sextic_jet_rigidity.md) is a concrete actual-source
-kernel calculation for one sextic and degree-sixteen mates, giving
-\(m\le22\) and \(\deg R\ge8\). Its proof retains the 23-dimensional
-normal quotient, 969 constant-coefficient source, 286 multiples and good
-specialization rank bridge; no statement about other sextics follows.
+[R-0025](../../results/ci_fixed_sextic_jet_rigidity.md) replaces its finite
+rank dependence by normalization and three boundary valuations for one
+fixed sextic. Every degree-\(b\) proper mate has branch order at most
+\(\lfloor b/2\rfloor\); at degree sixteen this gives sharp bounds
+\(m_C\le16\), \(\deg R\ge32\). In characteristic zero the even-degree
+maximizers define the same ideal as the corresponding quadric power.
+The record keeps the older rank-683 kernel certificate as independent
+evidence and states the precise positive-characteristic limitations.
+No theorem about other sextics follows.
 
 The [full formal criterion](../../arguments/residuals/formal_residual_visibility.md) distinguishes a
 generic normal algebra from the completed embedded ideal and from two

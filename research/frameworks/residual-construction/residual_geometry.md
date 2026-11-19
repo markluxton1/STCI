@@ -14,7 +14,7 @@ introduces the approaches; this page routes directly to their full proofs.
 | [R-0019](../../results/quasiprimitive_residual_cycles.md) | [Saturated quasiprimitive flag proof](../../arguments/residuals/quasiprimitive_residual_cycles.md): triangular multiplication determinant, finite-flat identification, proper auxiliary residual zero-cycle | A scheme equality or a residual-curve theorem for arbitrary nonsaturated flags |
 | [R-0023](../../results/ci_quartic_explicit_residual_geometry.md) | [Explicit quartic residuals](../../arguments/residuals/explicit_quartic_residuals.md): exact homogeneous ideal unions, Jacobian and connectedness certificates | A classification of quartic pairs |
 | [R-0024](../../results/ci_quartic_fixed_boundary_smoothing.md) | [Fixed-boundary smoothing](../../arguments/residuals/fixed_boundary_smoothing.md): actual global tangent maps of ranks 19,5,24 and node-family charts | Removal of residual degree or an explicit polynomial coefficient arc |
-| [R-0025](../../results/ci_fixed_sextic_jet_rigidity.md) | Full proof in its record: one selected sextic, degree-sixteen source, normal quotient and rank/kernel certificate | A theorem on every sextic or every mate degree |
+| [R-0025](../../results/ci_fixed_sextic_jet_rigidity.md) | Full proof in its record: one selected sextic, arbitrary mate degrees, normalization and three boundary valuations; even-degree maximal mates are rigid in characteristic zero | A theorem on arbitrary sextics |
 
 The explicit (2,3) quartic benchmark has a smooth degree-twelve genus-sixteen
 residual meeting \(C\) in eighteen transverse points. At the (1,1) benchmark
@@ -23,13 +23,17 @@ five transverse internal nodes. The five smoothing parameters remain
 independent with the exact marked attachment divisor fixed. Smoothing changes
 residual singularities, not the cycle degree twelve.
 
-The fixed sextic instead yields \(m\le22\) and \(\deg R\ge8\) by limiting
-**all actual degree-sixteen mates** in that one source. Its 23-dimensional
-normal quotient, 969 global coefficients, 286 carrier multiples and good
-finite specializations explain why rank 683 proves the exact kernel. The
-independent normal-division replay succeeded in CI; Macaulay2 was not rerun
-in that workflow. A characteristic-65521 extension from that very certificate
-is separately stated for consolidation review.
+For the fixed sextic, [R-0025](../../results/ci_fixed_sextic_jet_rigidity.md#proof)
+now gives \(n\le\lfloor b/2\rfloor\) for every proper degree-\(b\) mate,
+so at degree sixteen \(m_C\le16\) and \(\deg R\ge32\), sharply.
+Three actual boundary lines of the affine normalization control polynomial
+vanishing; a noncancellation argument replaces the rank-683 dependence.
+In characteristic zero every even-degree maximizer is a carrier multiple
+plus a scalar quadric power, so its full intersection scheme is fixed.
+The bound extends outside characteristics 2 and 37; the record states the
+more restricted positive-characteristic equality scope. The old normal-division
+certificate remains an independent check of its weaker order-twelve kernel,
+not a premise of the sharp theorem. No other sextic is covered.
 
 ## Attachment and actual global constructions
 

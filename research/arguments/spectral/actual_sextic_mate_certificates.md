@@ -37,6 +37,11 @@ than proposed function-field symbols. The seven newly tested inputs are
 \]
 
 The previously certified point \((0,1)\) was deliberately not replayed.
+Its [current R-0025 proof](../../results/ci_fixed_sextic_jet_rigidity.md#proof)
+now gives sharp all-degree bounds by boundary valuations and classifies every
+even-degree maximizer in characteristic zero. At degree sixteen it has the
+same maximal ideal \((F_{0,1},q^8)\). This is a separate geometric theorem,
+not an extra row certified by the seven-input computation below.
 The old certificate and source family are inherited inputs; all ranks in
 the table below are new calculations. The numerical row \((6,16)\) is
 motivated by [R-0014](../../results/movement_two_six_rows.md) under its stated

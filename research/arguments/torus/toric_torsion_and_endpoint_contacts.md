@@ -680,6 +680,13 @@ was found in the current calculation.
 
 ## Scope audit: the selected endpoint-four carrier has a nonsplit generic node
 
+**Retained independent route.** The order-twelve certificate and bounds 22/eight
+below are historically valid but no longer sharp. [R-0025](../../results/ci_fixed_sextic_jet_rigidity.md#proof)
+now proves the all-degree bound by normalization-boundary valuations, giving
+16/32 at degree sixteen and even-degree maximal-ideal rigidity in characteristic
+zero. The local nonsplit-node lemma here remains a shared input; the finite
+rank calculation is not required by the new route.
+
 The local node lemma and the modular-to-characteristic-zero argument
 are distinct from the two exact finite rank certificates. The conclusion
 applies only to the selected fixed carrier.
