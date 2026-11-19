@@ -81,11 +81,10 @@ quintic-octic pairs. See [degree exclusions](degree_exclusions.md),
 [the Gorenstein-normalized quintic proof](../../arguments/carriers/quintic_gorenstein_normalizations.md),
 and [the ADE quintic proof](../../arguments/carriers/quintic_octic_ade_cover_and_triple.md).
 
-The quintic toric \(M=0\) source is a concrete non-Gorenstein normalization
-model with an explicit projection-center incidence problem. Its remaining
-incidence and conductor questions are not resolved by the Gorenstein or ADE
-exclusions; see [the toric source account](../../arguments/carriers/quintic_non_gorenstein_toric_sources.md)
-and [open carrier cases](open_carrier_cases.md).
+The [toric quintic proof](../../arguments/carriers/quintic_toric_center_incidence.md)
+excludes every admissible projection center of the classified marked toric
+source by full inverse support. Non-toric, non-Gorenstein quintic
+normalizations remain among the [open carrier cases](open_carrier_cases.md).
 
 Elliptic normalization and projection constructions likewise retain their
 own polarization and gluing data. An elliptic double-inverse construction

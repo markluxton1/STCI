@@ -33,14 +33,14 @@ length nine exhausts degree 36. The triple reduction uses the general-pencil
 ADE hypothesis. The [singularity and cover comparison](#compatibility-of-the-normal-sextic-cyclic-cover)
 applies to the general normal carrier.
 
-## The remaining toric quintic M locus
+<a id="the-remaining-toric-quintic-m-locus"></a>
 
-Use the [final center proof](../../arguments/carriers/quintic_toric_center_incidence.md),
-retaining `M=0`, `Delta*K0*d*N*U0*V1*V2!=0` and `W | h*W'`, together with
-every projection-admissibility condition. The multiplicity patterns are
-`5+0`, `4+1` and `3+2`; U0, V1 and V2 have already been excluded. Only a support-positive admissible center warrants actual power descent; q squared
-is the degree-(5,8) target, not proof of descent of all powers. A negative
-answer closes this toric source, not every non-Gorenstein normalization.
+## Non-toric, non-Gorenstein quintic normalizations
+
+The [toric center proof](../../arguments/carriers/quintic_toric_center_incidence.md)
+excludes all toric normalizations of quintic carriers for the fixed quartic
+in characteristic zero. The case of non-toric, non-Gorenstein
+normalizations remains open.
 
 ## Full inverse support in the elliptic construction
 

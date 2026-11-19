@@ -19,7 +19,7 @@ The combined degree-five boundary uses two distinct theorems:
 | Normal, globally ADE | Excluded by the cover and symbolic-triple proof here |
 | Normal, with a non-ADE singularity | Open under these results, including when that singularity lies away from C |
 | Nonnormal, Gorenstein normalization | Excluded for every mate degree by the [full conductor theorem](quintic_gorenstein_normalizations.md) |
-| Nonnormal, non-Gorenstein normalization | Open in general; [toric center geometry](quintic_toric_center_incidence.md) gives a bounded actual-source test |
+| Nonnormal, non-Gorenstein normalization | [Toric normalizations excluded](quintic_toric_center_incidence.md). Non-toric normalizations remain open. |
 
 The Gorenstein hypothesis concerns the normalization, not merely the
 hypersurface. An ADE normalization does not turn a nonnormal carrier into

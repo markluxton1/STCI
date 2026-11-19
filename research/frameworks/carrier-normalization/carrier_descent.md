@@ -20,9 +20,11 @@ boundary. The [normalization-index and power-descent account](../../arguments/ca
 retains actual affine and projective supported constructions beyond C0.
 For fixed C0 in characteristic zero, the [Gorenstein-normalized nonnormal
 quintic theorem](../../arguments/carriers/quintic_gorenstein_normalizations.md) excludes all mate degrees;
-[non-Gorenstein toric sources](../../arguments/carriers/quintic_non_gorenstein_toric_sources.md) retain
-actual marked models and an open projection problem. These statements do not
-classify arbitrary higher-degree carriers.
+the [toric quintic theorem](../../arguments/carriers/quintic_toric_center_incidence.md)
+excludes all mate degrees for toric non-Gorenstein normalizations by
+exhibiting extra inverse support for every admissible projection.
+Non-toric, non-Gorenstein quintic normalizations and arbitrary higher-degree
+carriers remain outside these exclusions.
 
 ## 4.1 Passing to the normalization
 

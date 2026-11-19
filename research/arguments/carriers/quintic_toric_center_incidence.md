@@ -1,8 +1,13 @@
-# Toric quintic centers: full inverse support and the remaining incidence
+# Toric quintic centers: full inverse support and exclusion
 
-The argument proves a **partial exclusion** and leaves a final parameter locus unresolved. Fix the embedded rational quartic
-`C0=[u^4:u^3v:uv^3:v^4]` over an algebraically closed field of characteristic
-zero. It does not exclude every toric quintic normalization or settle unrestricted STCI.
+<a id="toric-quintic-centers-full-inverse-support-and-the-remaining-incidence"></a>
+
+Fix the embedded rational quartic
+`C0=[u^4:u^3v:uv^3:v^4]` over an algebraically closed field of
+characteristic zero. Every admissible projection of a marked toric
+quintic normalization has an extra inverse point over C0. Consequently
+no integral quintic with toric normalization can carry a mate for C0.
+The argument leaves the unrestricted STCI question open.
 
 ## 1. Geometric object and scope
 
@@ -116,7 +121,9 @@ The projective marked endpoint was separately checked with fiber coordinates
 on c. The limiting center r=infinity is `[0:0:0:0:1]` on X and is
 inadmissible. These endpoint checks do not replace the finite-t argument.
 
-## 4. Three exceptional curves and the uncompleted locus
+<a id="4-three-exceptional-curves-and-the-uncompleted-locus"></a>
+
+## 4. Exceptional finite loci and complete exclusion
 
 For nonzero W in characteristic zero, the exact elementary criterion is
 
@@ -196,26 +203,54 @@ where alpha,beta are those two roots and gamma is nonzero. Up to their
 exchange there are three multiplicity patterns, 5+0, 4+1 and 3+2.
 Geometrically all five residual-polynomial roots would have to coalesce
 at the two parameters where the nonmarked branch returns to the marked
-point. These are candidate full-support configurations, not demonstrated
-centers or residual components downstairs. This is a useful formulation
-for a later bounded test, not a completed classification of (3).
+point. The following calculation excludes all three multiplicity patterns
+at once.
 
-The unfinished M calculation must be kept separate. A previous scratch
-run formed the remainder of D W' modulo W, found coefficient numerators
-of degree 22 and their scalar gcd with M equal to one, then stopped
-before the multivariate Groebner calculation completed. The process was
-cancelled at the user's earlier closeout request. A gcd of one in two
-variables proves neither an empty common zero locus nor finiteness.
-There is no certified classification of M, no surviving admissible center,
-and no STCI construction from this calculation. The temporary unfinished
-program has no continuing consumer; the exact input W and condition (2)
-preserve the mathematical question.
+### Exact elimination on M=0
+
+Write `W=sum_i w_i t^i` and set `w_-1=w_6=0`. On (3) we have
+`w_5=dN !=0`. If W divides `h W'`, comparing the two highest
+coefficients forces the quotient to be `5dt-10c-d*w_4/w_5`.
+After clearing `w_5`, the coefficient of `t^i` in the difference is
+
+    E_i = w_5*((i-6)*d*w_(i-1) - 2ci*w_i + b*(i+1)*w_(i+1))
+          + (10c*w_5+d*w_4)*w_i.
+
+The coefficients at degrees six and five vanish identically. Thus (3)
+requires `M=E_0=...=E_4=0`. The
+[exact elimination](../../computations/quintic_toric_remaining_centers.py)
+takes the squarefree gcd of the five resultants `Res_n(M,E_i)`.
+Any simultaneous root must project to a root of this gcd, including
+fibers where the degrees in n drop. For each irreducible factor in m,
+specialize first over its number field and then take the common gcd in n.
+This checks every conjugate parameter over the algebraically closed
+characteristic-zero field.
+
+| Factor in m | Degree of specialized gcd | Support in n | Exclusion |
+| --- | ---: | --- | --- |
+| `m+2` | 2 | `n=1` | `Delta=0` |
+| `3m+2` | 0 | Empty | No common root |
+| `m^3+4m^2+4m+8` | 1 | `n=m^2/4` | `Delta=0` |
+| `8m^5+32m^4+42m^3+31m^2+16m+4` | 1 | `n=-m^2/(3m+2)` | `d=0` |
+
+The verifier takes the squarefree part of each specialized gcd and
+removes its common factors with `Delta*K0*d*N*U0*V1*V2`. The
+remaining support is empty in every fiber. An independent replay checked
+the signs, projection and specialized exclusions. This closes the last
+finite-center incidence. Together with the one-infinity boundary in §3,
+it excludes full inverse support for every admissible toric center.
 
 ## 5. Exact computational evidence and scope
 
 The [finite-center program](../../computations/quintic_toric_finite_centers.py), [coefficient input](../../computations/quintic_toric_finite_centers.json), and [one-infinity boundary program](../../computations/quintic_toric_boundary_centers.py) record the exact polynomial calculations. The [three-curve specialization certificate](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/quintic_toric_exception_centers.py) and [independent specialization audit](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/quintic_toric_exception_audit.py) establish the stated exclusions under \(\Delta K_0dN\ne0\). Their exact source versions were previously checked; these files have not been rerun in this consolidation.
 
-The JSON describes an earlier four-curve necessary gate; the later exclusions of \(U_0,V_1,V_2\) in §4 supersede that field. The \(M=0\) locus remains unresolved, as does descent of a power of the upstairs section through the actual projection/conductor algebra. No complete toric-quintic or unrestricted characteristic-zero STCI exclusion follows.
+The JSON preserves the coefficients and the intermediate four-curve
+necessary gate. Section 4 tests all four curves and completes the
+exclusion. The obstruction is an actual extra point in the inverse of C0,
+so it applies to every power of the upstairs section and every mate degree.
+The marked-source classification covers toric normalizations. The
+non-toric, non-Gorenstein case and unrestricted characteristic-zero STCI
+remain open.
 
 ## Related quintic incidence developments
 

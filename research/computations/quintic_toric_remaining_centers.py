@@ -1,4 +1,4 @@
-"""Find candidate fibers of the remaining toric-quintic center incidence."""
+"""Verify the exact exclusion of the remaining toric quintic centers."""
 
 import json
 from pathlib import Path
@@ -6,7 +6,7 @@ from pathlib import Path
 import sympy as sp
 
 
-source = Path(__file__).resolve().parents[2] / "computations/quintic_toric_finite_centers.json"
+source = Path(__file__).with_name("quintic_toric_finite_centers.json")
 data = json.loads(source.read_text())
 m, n = sp.symbols("m n")
 
@@ -32,7 +32,14 @@ for i, weight in enumerate(weights):
 assert coefficients[-1] == 0
 eliminants = [sp.resultant(curve, eq, n) for eq in coefficients[:-1]]
 candidate = sp.Poly(sp.gcd_list(eliminants), m).sqf_part().monic()
-print("Candidate m values:", sp.factor(candidate.as_expr()))
+projection_factors = (
+    m + 2,
+    3 * m + 2,
+    m**3 + 4*m**2 + 4*m + 8,
+    8*m**5 + 32*m**4 + 42*m**3 + 31*m**2 + 16*m + 4,
+)
+assert candidate == sp.Poly(sp.prod(projection_factors), m).monic()
+print("Candidate m values:", sp.factor(candidate.as_expr()), flush=True)
 
 gate = (m**2 - 4*n) * (m**2 + 3*m - n + 3)
 for name in ("d", "N", "U0", "V1", "V2"):
@@ -54,6 +61,14 @@ for factor, _ in candidate.factor_list()[1]:
     for equation in coefficients[:-1]:
         common = common.gcd(specialize(equation))
     support = common.sqf_part()
+    if factor == sp.Poly(m + 2, m, domain=sp.QQ):
+        assert common.degree() == 2 and support.monic() == specialize(n - 1)
+    elif factor.degree() == 1:
+        assert common.degree() == 0
+    elif factor.degree() == 3:
+        assert common.degree() == 1 and support.monic() == specialize(n - m**2 / 4)
+    else:
+        assert common.degree() == 1 and support.monic() == specialize(d).monic()
     admissible = support.exquo(support.gcd(specialize(gate.expand())))
     assert admissible.degree() == 0, (factor, admissible)
     print(f"m-factor {factor.as_expr()}: common degree {common.degree()}, "

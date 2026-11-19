@@ -6,11 +6,10 @@ its marked rational normal quartic and an actual quartic root upstairs.
 They prove the general conic-ruling restriction and exhaust the possible
 polarized toric normalizations and marked curves of a quintic mate.
 One explicit projection is excluded by its entire inverse scheme.
-The [relative-center calculation](quintic_toric_center_incidence.md) excludes
-the full one-infinity boundary, generic finite centers and three exceptional
-curves, leaving one explicit M=0 root-support incidence unresolved.
-These are independently reviewed source claims. Independent preservation and scope review of the added center
-integration passed without a material finding; no fresh CAS replay was made.
+The [relative-center calculation](quintic_toric_center_incidence.md)
+excludes every admissible projection center by full inverse support.
+Thus the conic-ruling and source classification below exclude every
+mate on an integral quintic with toric normalization.
 
 ## 1. Why this source remains relevant
 
@@ -285,23 +284,21 @@ of each offending fiber and is nonzero at its other point, which
 prevents every q^N from descending. This excludes the center (7),
 not all projections of X or all genus-two carriers.
 
-## The remaining relative-center problem
+<a id="the-remaining-relative-center-problem"></a>
 
-The [complete relative-center proof and exact support](quintic_toric_center_incidence.md)
-vary the center while requiring the marked rational normal quartic to map
+## Exclusion of all relative centers
+
+The [relative-center proof](quintic_toric_center_incidence.md) varies
+the center while requiring the marked rational normal quartic to map
 projectively to fixed C0. Sections 4.1–4.2 make this reduction exhaustive
-for toric quintic normalizations of a hypothetical mate. The reviewed source
-calculation excludes the entire one-infinity boundary, generic finite centers,
-and all admissible points of three exceptional curves U0,V1,V2, retaining
-both marked endpoints, parameter poles and degree-drop cases. The earlier
-four-curve gate U0*V1*V2*M=0 is therefore intermediate, not the final frontier.
-The remaining locus is M=0 on Delta*K0*d*N*U0*V1*V2!=0 with the exact
-root-support condition W | h W'. Its three possible root-multiplicity
-patterns are retained in the companion. The interrupted M calculation did
-not certify finiteness or emptiness. No surviving center or descending power
-has been constructed. The explicit five-point inverse calculation in §6
-still proves only its single-projection exclusion, and no reduction of all
-non-Gorenstein normalizations to toric ones is asserted.
+for toric quintic normalizations of a hypothetical mate. The proof
+excludes the entire one-infinity chart, the general finite centers and
+all exceptional finite loci, retaining both marked endpoints, parameter
+poles and degree drops. The [last elimination](quintic_toric_center_incidence.md#exact-elimination-on-m0)
+excludes every parameter on the remaining M locus. Every admissible center
+therefore fails full inverse support, which prevents descent of every
+power of the upstairs section. Non-toric, non-Gorenstein normalizations
+remain open.
 
 ## Exact support, characteristic and review scope
 
@@ -338,8 +335,6 @@ transports the characteristic-zero quintic exclusions to positive
 characteristic.
 
 The construction shows that canonical index five, the fixed marked
-quartic and a global root with divisor5c can coexist on a normalization.
-It identifies full inverse support as the concrete failure of this
-projection. The companion substantially narrows the other centers, while
-leaving the final M incidence and actual power descent as distinct
-realization questions.
+quartic and a global root with divisor 5c can coexist on a normalization.
+Full inverse support fails for every admissible projection of this
+marked source.
