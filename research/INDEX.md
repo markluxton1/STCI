@@ -18,14 +18,6 @@ and [special plane and line sections](arguments/curve/special_plane_and_line_sec
 Find exact claims in the [catalog](CATALOG.md) and external sources in the
 [shared literature](literature/README.md).
 
-At degree five, every integral carrier with toric normalization is
-excluded for all mate degrees. In degree eight, the marked elliptic
-construction has an exact inverse-support test and one excluded
-characteristic-zero parameter line. Its five-parameter existence and
-descent questions remain open. [Quintic theorem](results/toric_quintic_carrier_exclusion.md) ·
-[Elliptic support criterion](results/elliptic_inverse_support.md) ·
-[Tested parameters](investigations/stci-equation-search/index.md#scope)
-
 ## Find a statement, proof, or open question
 
 Use `python3 scripts/research.py show ID` for a known claim, its proof routes
