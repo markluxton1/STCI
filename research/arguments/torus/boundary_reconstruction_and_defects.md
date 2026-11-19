@@ -148,24 +148,116 @@ coordinate hyperplane shows the only boundary support is the two endpoints,
 so no boundary curve is concealed by this torus calculation. Compatibility
 and containing global equations therefore do not imply sole-support realization.
 
-## What remains open
+## Exact gluing of labeled thickened-facet sections
 
-The recovered question's contextual blocker is removed. These propositions
-answer specified embedded whole-boundary, labeled-section and ordinary-Rees
-versions; they do not settle every proposed enrichment of a face poset.
-A general reconstruction/realization problem still needs its objects, arrows,
-ambient markings, filtration level, degree bounds and allowed extension data
-fixed. In particular, one must specify which ambient quotient and gluing/extension
-data recover the full embedded \(Y\cap mD\) from separate face restrictions;
-that reconstruction is not supplied merely by listing the face images. An associated graded object can lose extension information, while a
-full marked embedded Rees algebra with specialization recovering the original
-ideal may retain it tautologically. No blanket “Rees data are insufficient”
-claim is made. At fixed degree, sufficiently deep embedded boundary jets
-recover labeled equations by the displayed kernel formula; no arbitrary
-formal-system algebraization theorem is asserted.
+Fix \(m\ge1\) and a degree \(d\). Given labeled classes
+\(s_i\in(S/(x_i^m))_d\), there is a class
+\(s\in(S/(B^m))_d\) inducing them if and only if
+\[
+ s_i=s_j\quad\text{in }(S/(x_i^m,x_j^m))_d\quad\text{for every }i,j.
+\]
+When it exists, this class is unique. Indeed use the standard monomial basis
+in each quotient. A monomial surviving in both facets has the same scalar
+by pairwise compatibility. Assign that scalar to every monomial surviving
+at least one facet. This gives a homogeneous lift; the only monomials
+invisible on all facets are divisible by every \(x_i^m\), hence by \(B^m\).
+This proves both existence and the stated kernel, without appealing to an
+unqualified ideal-valued Chinese remainder assertion. Apply the existing
+\(o_C(s)\) and ambiguity formula to decide containment of \(C\) after gluing.
+This result concerns marked sections, not abstract quotient algebras.
 
-These are characteristic-dependent tests and reconstruction bounds, not a new
-characteristic-zero STCI obstruction. The curve compactifications of
-[H07](general_coordinate_boundary.md) and the cycle classification of
+## Exact fixed-degree realization of embedded facet schemes
+
+Fix positive degrees \(d,e\). For each coordinate plane \(H_i=V(x_i)\),
+let \(Z_i\subset H_i\) be an embedded zero-dimensional scheme of length
+\(de\), with saturated homogeneous ideal \(K_i\subset S/(x_i)\).
+Assume the specified lower-face schemes are exactly the restrictions of
+these \(Z_i\), and agree wherever two such restrictions describe the same
+face. This is the compatibility datum, not a theorem that arbitrary diagrams
+supply it. Define finite-dimensional spaces
+\[
+ V_j=\{h\in(I_C)_j:\ h\bmod x_i\in(K_i)_j\text{ for all }i\}.
+\]
+An exact sole-support CI realization of this diagram in bidegree \((d,e)\)
+exists if and only if \(4\mid de\) and, writing \(\ell=de/4\),
+\[
+ \exists f\in V_d,\ g\in V_e\quad I_C^\ell\subset(f,g).
+\]
+This is an ordinary homogeneous ideal power and containment, not a symbolic
+power or a saturation surrogate.
+
+For necessity, a sole-support proper pair has generic length \(\ell\) by
+Bézout. The Artinian local ring at \(I_C\) has length \(\ell\), so its
+maximal ideal has \(\ell\)-th power zero: a strictly decreasing chain of
+its nonzero powers has at most that length, by Nakayama. A homogeneous
+complete intersection is unmixed; because its projective support is the
+irreducible curve \(C\), its only associated prime is \(I_C\). There is no
+irrelevant embedded prime. Thus \((f,g)\) is \(I_C\)-primary and contracts
+from its localization at \(I_C\). The generic containment contracts to
+\(I_C^\ell\subset(f,g)\).
+
+Conversely the displayed containment and \(f,g\in I_C\) give
+\(\sqrt{(f,g)}=I_C\). Hence \((f,g)\) has height two and the two forms are
+a regular sequence. The CI has no component in any \(H_i\), since \(C\)
+is not contained there. Its hyperplane section therefore has length \(de\).
+Membership in \(V_d,V_e\) gives inclusion of \(Z_i\) in that section;
+equal finite lengths force equality as embedded schemes. The lower faces
+then agree by the stipulated compatibility. This proves sufficiency.
+
+The criterion is a finite polynomial feasibility problem. Choose bases of
+\(V_d,V_e\), and a finite homogeneous generating set for the ordinary power
+\(I_C^\ell\). For each generator \(p\) of degree \(r\), impose
+\(p=A_pf+B_pg\), with unknown homogeneous coefficient vectors of degrees
+\(r-d,r-e\) (negative degree means zero). Coefficient comparison gives
+finitely many polynomial equations. This formulation is exact, not a claim
+of efficient elimination, automatic existence, or a solution across all
+degrees and all possible enrichments.
+
+## The quartic test diagram: unlabelled facets already suffice
+
+For the test forms \(F,G\) above, their restrictions \(F_i,G_i\) to each
+\(H_i\) are a regular sequence of quartics. The saturated plane CI ideal
+has length 16 and degree-four part \(\langle F_i,G_i\rangle\).
+Suppose a quartic \(H\) restricts into all four such ideals. Write
+\(H|_{H_i}=a_iF_i+b_iG_i\). Here edge \(\{i,j\}\) means \(H_i\cap H_j\): the indices name vanishing
+coordinates, not spanning vertices. On edges \(\{0,3\}\) and \(\{1,2\}\),
+both restricted forms are linearly independent, giving
+\(a_0=a_3,b_0=b_3\) and \(a_1=a_2,b_1=b_2\).
+On edge \(\{0,2\}\) only \(F\) survives, giving \(a_0=a_2\);
+on edge \(\{0,1\}\) only \(G\) survives, giving \(b_0=b_1\).
+Thus all \(a_i=a\) and all \(b_i=b\). The polynomial \(H-aF-bG\)
+vanishes on every coordinate plane, so it is \(cB\). If \(H\) also
+vanishes on \(C\), then \(c=0\), since \(B|_C\ne0\).
+
+It follows that the allowed space \(V_4\) is exactly \(\langle F,G\rangle\).
+Any proper \((4,4)\) pair realizing this embedded facet diagram and
+containing \(C\) must be a basis of that pencil, and defines the same
+intersection. Therefore this test diagram has a global pair in every
+characteristic, but a sole-support realization in bidegree \((4,4)\)
+exactly in characteristic two. In other characteristics the failure concerns
+this specified diagram and bidegree, not every possible pair through \(C\).
+
+## Bounded closure and remaining scope
+
+The recovered question's contextual blocker is removed. Labeled thickened
+facet sections now have an exact gluing criterion; specified finite embedded
+facet schemes have an exact fixed-degree CI realization criterion. The test
+quartic diagram is determined and its sole-support answer is computed.
+These are scoped closures, not a universal theorem for unspecified enriched
+face posets or an all-degree STCI solution.
+
+A general reconstruction problem still needs its objects, arrows, ambient
+markings, filtration level, degree bounds and extension data fixed. Separate
+face images need not recover the full embedded \(Y\cap mD\); the section
+criterion does not assert such ideal-valued descent. An associated graded
+object can lose extension information, while a full marked embedded Rees
+algebra with specialization recovering the original ideal may retain it
+tautologically. No blanket “Rees data are insufficient” claim is made.
+At fixed degree sufficiently deep embedded boundary jets recover labeled
+equations; no arbitrary formal-system algebraization theorem is asserted.
+
+The curve compactifications of [H07](general_coordinate_boundary.md) and
+cycle classification of
 [H16](../equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16)
-retain their different scopes.
+retain their different scopes. None of these claims yields a new unrestricted
+characteristic-zero STCI obstruction.

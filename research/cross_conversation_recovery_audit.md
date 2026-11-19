@@ -26,7 +26,7 @@ Legend: **M** matching repo content (compare exact hypotheses before closing); *
 | H14 | Nov 5 | Finite embedded torus quotient, endpoint algebras, actual homogeneous equation criterion | `research/arguments/torus_embedded_quotients.md` | M; substantially preserved |
 | H15 | Nov 5 | **Chow-polytope rigidity**: (P_Z=mP_C\iff Z=\sum a_i[\lambda_iC]), (\sum a_i=m), over algebraically closed field | Recovered original proof from `Pasted text(20261105-173726).txt` and related pasted records. Search for “Chow polytope”, “oblique edges”, “Minkowski additivity” gave no direct repo matches | M; cycle-level theorem reconstructed and reviewed in [the full-weight proof](arguments/equations/chow_polytope_rigidity.md); no scheme or equation-realization claim |
 | H16 | Nov 5 | Chow rigidity identifies a **set**, not scheme structure, with (\operatorname{Sym}^m(T/T_C)); only after full Chow polytope equality, not projected polygon equality | Same recovered transcripts; `research/investigations/supported-generator-incidence/index.md` covers related incidence but not exact theorem | Set-level bijection and exact curve stabilizer verified; scheme-locus claim excluded |
-| H17 | Nov 13 | Enriched boundary reconstruction of dense-torus intersections: schemes, filtrations and compatibility defects | User supplied the question reconstruction on Nov 19; [scoped proof owner](arguments/torus/boundary_reconstruction_and_defects.md) | Context recovered, not a verbatim transcript. Degree bounds, finite-order counterexamples and explicit defects proved; general enriched reconstruction remains open |
+| H17 | Nov 13 | Enriched boundary reconstruction of dense-torus intersections: schemes, filtrations and compatibility defects | User supplied the question reconstruction on Nov 19; [scoped proof owner](arguments/torus/boundary_reconstruction_and_defects.md) | Context recovered, not a verbatim transcript. Degree bounds, finite-order counterexamples, labeled gluing and fixed-degree realization criteria proved; unrestricted enrichment remains open |
 
 ## Priority proof gate: H15
 
@@ -78,3 +78,5 @@ containing C), a C-preserving finite-order counterexample with restricted
 ordinary Rees data, a linear containment obstruction and a radical torus-support
 defect. Properness and sole support are distinct from compatibility and lifts.
 A general enriched-face reconstruction/realization theorem is still open.
+
+The [H17 gluing and realization criteria](arguments/torus/boundary_reconstruction_and_defects.md#exact-gluing-of-labeled-thickened-facet-sections) now close the marked-section and specified fixed-degree embedded-facet formulations. The unlabelled quartic test diagram uniquely fixes its containing pair, with sole support exactly in characteristic two. General unspecified enrichment and all-degree realization remain open.
