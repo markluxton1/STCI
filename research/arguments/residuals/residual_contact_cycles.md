@@ -479,17 +479,20 @@ Label the inverse curves \(\Gamma_A,\Gamma_B\) by the vanishing tangent
 factor of \(A=c_2-c_0\), respectively \(B=c_2+c_0\), and write
 \(L_{A,1},L_{A,2}\) and \(L_{B,1},L_{B,2}\) for their attached lines.
 For a proper degree-\(b\) mate with branch orders \(r,s\), equality
-\(r+s=b\) holds exactly for the following forms, modulo the carrier
-and a nonzero scalar:
+\(r+s=b\) holds exactly for the following forms, modulo \((F_h)\), up to scaling:
 \[
  G_b\equiv
  \begin{cases}
  A^{r-s}q^{2s-r},&r\ge s,\\
  B^{s-r}q^{2r-s},&s\ge r,
  \end{cases}
- \pmod{F_h},\qquad r+s=b,\quad r,s\ge b/3.           \tag{G9}
+ \pmod{F_h},\qquad r+s=b,\quad b/3\le r,s\le2b/3.           \tag{G9}
 \]
-More precisely a scalar multiple of the displayed form may be augmented
+With \(r+s=b\), these bounds are exactly the nonnegative-exponent
+conditions in the relevant case: for \(r\ge s\), \(r-s\ge0\) and
+\(2s-r=3s-b\ge0\); for \(s\ge r\), \(s-r\ge0\) and
+\(2r-s=3r-b\ge0\). Thus only finitely many integer pairs occur
+in each fixed degree. More precisely a scalar multiple of the displayed form may be augmented
 by \(F_h K\), where \(K\) is homogeneous of degree \(b-6\) (zero if
 that degree is negative). These are statements about actual polynomial
 mates, not just divisor classes.
