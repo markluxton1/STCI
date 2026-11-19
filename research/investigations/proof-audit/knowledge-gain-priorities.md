@@ -135,27 +135,10 @@ replaying the old inventory or re-auditing every archived file.
   instead uses a positive weighted boundary valuation on an actual
   affine-normalization ring. Neither proves the required hypotheses
   on the special closed complement.
-- **Checked extension.** The [fixed-residual lifting lemma](../../arguments/curve/normalization_residual_capacity.md#an-actual-lifting-lemma-for-fixed-reduced-residuals) constructs actual integral carriers with reduced prescribed quadric residuals and verified normal-root/attachment hypotheses. The degree-seven/order-two pilot below is now proved, including its crossing matrix and sharp bound. Negative definiteness remains a separate test, not a consequence of arbitrary reduced residual data.
-- **Completed pilot.** The [degree-seven, order-two example](../../arguments/curve/normalization_residual_capacity.md#the-degree-seven-pilot-including-the-crossing)
-  has residual split \((1,0)+(4,1)\), verified actual lifts, simple
-  attachments and regular normalization along both strict residuals.
-  Its crossing matrix and sharp capacity bound are proved; repeating
-  this example is not the next investigation.
-- **Next gate.** Identify an actual carrier stratum with a balanced
-  or adverse residual intersection block not covered by the proved
-  negativity criterion. Verify the complete strict residual configuration,
-  Cartier status and branch attachments on the **finite normalization**
-  before drawing a conclusion from its matrix. If this correction fails,
-  test a different divisor or a verified weighted boundary certificate.
-  The goal is a new strict capacity bound or a precise failure of its
-  hypotheses, not another example inside the known negative-definite class.
-  A resolution introduces hyperplane-null curves and is not a substitute
-  without checking their contribution.
-- **Decision.** A strict capacity gap for a new geometrically defined
-  carrier stratum rules out every mate degree there. A balanced or
-  nonnegative residual block with verified attachments is a meaningful
-  limit of this test, not evidence that a mate exists. Repeating the
-  argument on more members of an already covered open is low priority.
+- **Checked extension.** The [weighted fixed-residual theorem](../../arguments/curve/normalization_residual_capacity.md#weighted-fixed-quadric-residuals-arbitrary-effective-fixed-divisors) constructs a nonempty actual lifting open for every effective fixed quadric residual of the specified class with no C component, including repeated components, tangencies and shared attachments. It verifies the normalized divisor and local intersections, permits Q-Cartier residuals, and proves the full weighted matrix negative definite by Hodge index on the smooth quadric. Componentwise ruling imbalance is no longer required. Sharp half-contact and even-degree rigidity hold on these opens, not on all lifts of a given residual.
+- **Completed pilot.** The [degree-seven, order-two example](../../arguments/curve/normalization_residual_capacity.md#the-degree-seven-pilot-including-the-crossing) is included; repeating its crossing matrix or finding a balanced component inside the now-covered fixed-residual geometry is not the next investigation.
+- **Next gate.** Identify an actual exceptional lift where the normal-root/simple quadric-direction-root condition, complete normalized inverse divisor, Q-Cartier status, or local graph/intersection identification fails. Determine which failure prevents a capacity argument before testing an alternative divisor or a verified weighted boundary certificate. Repeated residuals, tangencies and shared attachments by themselves are not failures. A resolution introduces hyperplane-null curves and is not a substitute for the finite normalization without checking their contribution.
+- **Decision.** A strict capacity gap on a genuinely new carrier stratum excludes every mate degree there; a precise failure of a sufficient hypothesis identifies the method's boundary, not an existing mate or an automatic obstruction to realization. No exceptional lift classification is claimed by the preservation theorem.
 
 ### KG05. Full inverse support and descent for the elliptic family
 
