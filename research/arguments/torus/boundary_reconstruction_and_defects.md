@@ -237,27 +237,144 @@ characteristic, but a sole-support realization in bidegree \((4,4)\)
 exactly in characteristic two. In other characteristics the failure concerns
 this specified diagram and bidegree, not every possible pair through \(C\).
 
-## Bounded closure and remaining scope
+## Exact ideal-valued descent for ambient-marked quotients
 
-The recovered question's contextual blocker is removed. Labeled thickened
-facet sections now have an exact gluing criterion; specified finite embedded
-facet schemes have an exact fixed-degree CI realization criterion. The test
-quartic diagram is determined and its sole-support answer is computed.
-These are scoped closures, not a universal theorem for unspecified enriched
-face posets or an all-degree STCI solution.
+Let \(A\) be a ring, with finitely many prescribed ambient quotients
+\(A/\mathfrak a_i\) and ideals \(K_i\subset A/\mathfrak a_i\).
+Write \(L_i\subset A\) for their inverse images and \(J=\bigcap_i L_i\).
+There exists an ideal \(I\subset A\) inducing every \(K_i\) exactly if and
+only if
+\[
+ J+\mathfrak a_i=L_i\quad\text{for every }i.
+\]
+Indeed any realization has \(I\subset J\), making these equalities necessary;
+if they hold, \(J\) itself realizes the data. The explicit descent defects
+are \(L_i/(J+\mathfrak a_i)\). Other realizations are exactly the ideals
+\(I\subset J\) still surjecting onto every \(K_i\). This is an exact
+ambient-marked ideal criterion, not a statement that abstract quotient
+algebras determine their kernels. For sheaves apply the finite construction
+locally with the specified ambient maps and check the local equalities;
+no coherence/localization assertion for arbitrary infinite products is used.
 
-A general reconstruction problem still needs its objects, arrows, ambient
-markings, filtration level, degree bounds and extension data fixed. Separate
-face images need not recover the full embedded \(Y\cap mD\); the section
-criterion does not assert such ideal-valued descent. An associated graded
-object can lose extension information, while a full marked embedded Rees
-algebra with specialization recovering the original ideal may retain it
-tautologically. No blanket “Rees data are insufficient” claim is made.
-At fixed degree sufficiently deep embedded boundary jets recover labeled
-equations; no arbitrary formal-system algebraization theorem is asserted.
+Pairwise compatibility is not enough for ideals. In
+\(A=k[x,y,z]_{(x,y,z)}\), on the three coordinate planes take
+\[
+ K_x=(y-z,(y,z)^2),\quad K_y=(z-x,(z,x)^2),\quad
+ K_z=(x-\lambda y,(x,y)^2),\qquad\lambda\ne0,-1.
+\]
+These are length-two tangent vectors at the origin; every pairwise trace
+on an axis is the reduced origin. But if a linear form
+\(\alpha x+\beta y+\gamma z\) lies in all three inverse images, then
+\(\beta+\gamma=\alpha+\gamma=\lambda\alpha+\beta=0\), forcing all three
+coefficients zero. Thus \(J\subset(x,y,z)^2\), so its images cannot contain
+the specified nonzero linear relations. No ideal realizes this compatible
+triple. This contrasts with the standard-monomial section-gluing theorem.
+It does not rule out stronger diagrams retaining additional ambient data.
 
-The curve compactifications of [H07](general_coordinate_boundary.md) and
-cycle classification of
+## All embedded jets determine a pure projective curve
+
+Let \(D_0\subset\mathbf P^3\) be any nonzero effective Cartier divisor
+of degree \(\delta>0\). If pure one-dimensional projective schemes
+\(Y,Y'\) have identical embedded intersections with \(mD_0\) for every
+\(m\ge1\), then \(Y=Y'\), without a degree bound or a condition excluding
+components in \(D_0\).
+
+At a point of \(D_0\), let \(b\) be a local equation. Equality of all jets
+says \(I+(b^m)=I'+(b^m)\). Applying
+[Krull intersection](https://stacks.math.columbia.edu/tag/00IP) to the finite
+modules \(\mathcal O/I\) and \(\mathcal O/I'\) gives \(I=I'\) in that
+local ring. The coherent sheaves \((\mathcal I+\mathcal I')/\mathcal I\)
+and \((\mathcal I+\mathcal I')/\mathcal I'\) therefore have support disjoint
+from \(D_0\). No positive-dimensional projective subvariety is disjoint
+from this positive-degree hypersurface. Their supports are consequently
+finite. They are subsheaves of the pure curve structure sheaves, which have
+no nonzero zero-dimensional subsheaves, so both vanish. This proves equality.
+
+Purity and positivity matter: an isolated point off \(D_0\) is invisible,
+and on a different projective ambient a nonample divisor can miss a whole
+component. The assertion uses all embedded ideals and compatible jets, not
+an associated graded object or unmarked isomorphism classes of face rings.
+
+In particular, all embedded jets along even one coordinate hyperplane
+suffice for this uniqueness theorem. The earlier CI degree argument also
+works for a degree-\(\delta\) divisor, with \(4m\) replaced by \(m\delta\),
+provided it contains no CI component; at equality the common curve must not
+lie in the divisor. Thus sufficiently deep one-facet data have a bounded-degree
+positive result as well.
+
+## Compatible all-order data need not algebraize
+
+Uniqueness does not imply existence. This failure occurs even with support
+on the fixed \(C\), and with a formal complete intersection at each endpoint.
+At \(P_0\), use the completed local coordinates
+\(a=x_1, u=x_2-a^3,v=x_3-a^4\) on \(x_0=1\). Choose
+\[
+ f(a)=\sum_{n\ge2}a^{n!}\in k[[a]],\qquad
+ \widehat J=(u^2,v-f(a)u)\subset k[[a,u,v]].
+\]
+The series is transcendental over \(k(a)\) in every characteristic. To see
+this, let \(f_N=\sum_{2\le n\le N}a^{n!}\). A hypothetical nonzero
+\(P(a,f)=0\) would make \(P(a,f_N)\) have order at least \((N+1)!\),
+but degree at most \(\deg_aP+\deg_yP\,N!\). For large \(N\) this forces
+\(P(a,f_N)=0\). The distinct polynomials \(f_N\) cannot all be roots of
+the fixed nonzero polynomial \(P\) over the field \(k(a)\), a contradiction.
+
+Modulo \(\widehat J\), the boundary equation is
+\(B=a^8+(a^5+a^4f(a))u\), with \(u^2=0\).
+Thus every quotient by \(B^m\) is Artinian supported at \(P_0\), and factors
+through a finite power of the maximal ideal of the algebraic local ring.
+It is therefore an algebraic finite embedded subscheme. At \(P_\infty\)
+choose any fixed constant-slope formal double of \(C\) in analogous
+coordinates. The disjoint union of the two endpoint jets gives global
+embedded schemes \(Z_m\subset mD\), compatible for all \(m\).
+All face restrictions and their maps can be inherited from these schemes.
+In each endpoint double, multiplication by \(B^m\) on the free rank-two
+\(k[[a]]\)-module has determinant \(a^{16m}\) (use the reversed parameter
+at infinity). Each jet has length \(16m\), so even the total length \(32m\)
+is consistent with a degree-eight double of \(C\).
+
+No algebraic projective subscheme can realize this system. If one did, its
+completed ideal at \(P_0\) would equal \(\widehat J\), by equality modulo
+all \(B^m\) and Krull intersection. Take a polynomial numerator of any
+algebraic local equation in that ideal. Its restriction to \(C\) is zero,
+and modulo \(I_C^2\) it has form \(\alpha(a)u+\beta(a)v\), with polynomial
+coefficients. Membership in \(\widehat J\) forces
+\(\alpha+\beta f=0\), hence \(\alpha=\beta=0\). Thus every algebraic
+local equation lies in \(I_C^2\); their completed ideal cannot contain
+\(v-fu\), a nonzero linear normal relation. This contradiction is local,
+so it excludes any algebraic realization, not merely a CI realization.
+
+There is an exact finite-global-generator condition in the other direction. Suppose
+a coherent ambient formal ideal along a degree-\(\delta\) hypersurface is
+generated by finitely many compatible marked global sections of fixed twists
+\(\mathcal O(d_i)\). Each section is a unique homogeneous polynomial:
+\(H^0(mD_0,\mathcal O(d_i))=S_{d_i}\) once \(m\delta>d_i\), by the
+hypersurface sequence and \(H^1(\mathbf P^3,\mathcal O(j))=0\).
+Their polynomial ideal algebraizes the prescribed formal ideal. Conversely,
+any algebraic embedded ideal has finitely many homogeneous generators, whose
+restrictions give such a marked formal generating set. Thus this condition
+is necessary and sufficient, not an assertion that every formal ideal has
+these generators. Purity,
+dimension, containment of \(C\), and proper two-generator realization are
+additional tests, not consequences of this generation hypothesis. Formal
+Nakayama checks generation modulo \(b\widehat J\), not merely the image
+ideal in \(\mathcal O_{D_0}\); confusing these can lose relation data.
+No effectiveness claim for arbitrary infinite input is made.
+
+## Scoped closure and remaining semantics
+
+Marked section gluing, finite ambient ideal descent, fixed-degree CI
+realization, and uniqueness of pure curves from all embedded jets now have
+exact answers. The compatible formal-double system proves that arbitrary
+all-order data can fail algebraic realization even when elementary support,
+length and local complete-intersection checks pass.
+
+“Arbitrary enriched diagrams” without specified objects, arrows, ambient
+markings and retained extension information is still not one mathematical
+reconstruction problem. A full embedded Rees object may retain the original
+ideal tautologically; an associated graded or an unmarked quotient may lose
+information. The negative results apply to the stated data, not to every
+possible enrichment. These are not all-degree STCI existence or obstruction
+results. [H07](general_coordinate_boundary.md) and
 [H16](../equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16)
-retain their different scopes. None of these claims yields a new unrestricted
-characteristic-zero STCI obstruction.
+retain their separate curve-compactification and cycle-level scopes.

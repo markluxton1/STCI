@@ -80,3 +80,5 @@ defect. Properness and sole support are distinct from compatibility and lifts.
 A general enriched-face reconstruction/realization theorem is still open.
 
 The [H17 gluing and realization criteria](arguments/torus/boundary_reconstruction_and_defects.md#exact-gluing-of-labeled-thickened-facet-sections) now close the marked-section and specified fixed-degree embedded-facet formulations. The unlabelled quartic test diagram uniquely fixes its containing pair, with sole support exactly in characteristic two. General unspecified enrichment and all-degree realization remain open.
+
+Further [H17 exact formulations](arguments/torus/boundary_reconstruction_and_defects.md#exact-ideal-valued-descent-for-ambient-marked-quotients) give ambient ideal descent defects and all-jet uniqueness for pure projective curves. A compatible formal double along C supplies a nonalgebraizable all-jet system. These settle the stated uniqueness/nonexistence questions, not unspecified enriched-diagram semantics or all-degree STCI.
