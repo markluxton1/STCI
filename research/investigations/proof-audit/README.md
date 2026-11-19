@@ -47,7 +47,10 @@ exterior-square rank 23 for all three characteristic-zero primitive triples.
 Quadric interpolation, five sparse quartic identities, regularity and a
 rank-two determinant bundle supply the independently reviewed proof. It
 also gives the source dimensions in every degree at least four and full
-determinant images for both equation degrees at least six. The algebraic
+determinant images for \(a,b\ge5\) with \(a+b\ge11\). The mixed
+quintic-sextic seed uses the quintic evaluation bundle. The equal-quintic
+case retains a six-jet interpolation gap in the geometric argument; its
+review-reported rank-15 diagnostic is not used in this proof. The algebraic
 source characters follow from the primitive layers. The retained complete
 matrix and weight-block checks are cross-checks for these claims; the
 principal full wedge implementation has not been audited, but is no longer

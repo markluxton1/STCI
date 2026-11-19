@@ -385,9 +385,11 @@ principal rank too, replacing its former supplied-execution limitation.
 
 The same proof gives the
 [mixed-degree determinant image](sextic_triple_intrinsic_contact.md#all-higher-equation-degrees)
-for every \(a,b\ge6\), onto
-\(H^0(\mathcal O_{\mathbf P^1}(4(a+b)-26))\). In equal degree \(d\) the rank
-is \(8d-25\). These remain first contact conditions through a
+for every \(a,b\ge5\) with \(a+b\ge11\), onto
+\(H^0(\mathcal O_{\mathbf P^1}(4(a+b)-26))\). In equal degree
+\(d\ge6\) the rank is \(8d-25\); the
+[equal-quintic corner](sextic_triple_intrinsic_contact.md#the-equal-quintic-corner)
+remains outside this proof. These remain first contact conditions through a
 specified triple, not the higher-order compatibility of an actual
 supported pair.
 

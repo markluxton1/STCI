@@ -457,7 +457,7 @@ It supplies no new all-pairs exclusion. For \(N=p\), the \(p\)
 reduced characteristic-zero translates become one multiplicity-\(p\)
 branch in characteristic \(p\). For general \(N\), only the
 \(p\)-primary part coalesces; the prime-to-\(p\) branches remain distinct.
-These are actual flat integral families: successively reducing by the
+These are actual flat families over \(\mathbf Z\): successively reducing by the
 monic relations \(H_4^n\) in \(x_2\) and \(F_N\) in \(x_1\)
 gives a free \(\mathbf Z[x_0,x_3]\)-module with basis
 \(x_1^i x_2^j\), \(0\le i<N,\ 0\le j<4n\). In particular its
@@ -466,9 +466,10 @@ projective scheme is flat over \(\mathbf Z\).
 ## Equivariant grading of the root-specialization defect
 
 Keep the actual supported trait and root closure of (7), and **add**
-a \(\mathbb T_R\)-action preserving the total carrier and supported
-intersection, preserving the fixed curve, and acting trivially on the
-DVR base. The generic lower root is defined by its generic curve
+invariance under the standard ambient curve-torus action
+\(\mathbb T_R\), with coordinate weights \((-2,-1,1,2)\),
+preserving the total carrier and supported intersection and acting
+trivially on the DVR base. The generic lower root is defined by its generic curve
 ideal, so it is invariant. Schematic closure, specialization and the
 quotient in (7) are then equivariant. For the prescribed \(N=p\)
 family this yields
@@ -516,6 +517,6 @@ nilpotence, so the resulting trait obstructions do apply.
 Independent reconstruction of the torus refinements checked the scheme-theoretic
 intersection of the finite subgroup with the curve torus, the actual orbit
 image using CI purity,
-flatness of the integral powered family, the mixed-characteristic component
+flatness over \(\mathbf Z\) of the powered family, the mixed-characteristic component
 and cycle formulas, and the equivariance and nonexistence qualifications
 for the root defect. No weight symmetry or conductor identification is used.

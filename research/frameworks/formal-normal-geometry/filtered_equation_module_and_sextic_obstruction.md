@@ -40,7 +40,9 @@ For the three characteristic-zero triples in the second question, the
 identifies the first determinant with the determinant of the rank-two
 bundle \(\mathcal I_T/(\mathcal I_C\mathcal I_T)\). Its image is all
 of \(H^0(\mathcal O_{\mathbf P^1}(4(a+b)-26))\) for every
-\(a,b\ge6\). In degree six the restricted contact image is the
+\(a,b\ge5\) with \(a+b\ge11\). The mixed quintic-sextic case
+uses the quintic evaluation bundle; equal quintics retain a six-jet
+interpolation gap. In degree six the restricted contact image is the
 evaluation hyperplane at one point for the principal triple and the full
 seven-dimensional space for the algebraic triples. This explains the
 different joint ranks geometrically and removes their source-matrix

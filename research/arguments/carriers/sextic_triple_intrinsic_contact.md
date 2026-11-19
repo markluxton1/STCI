@@ -4,12 +4,40 @@ Fix characteristic zero, the embedded quartic
 \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), and one of the three
 primitive triples \(T\) in the
 [ADE reduction](sextic_ade_reduction.md#three-remaining-primitive-triple-orbits).
+Their directions are \((A,B)=(1+z,-2-8z)\) (principal) and
+\((A,B)=(rz,1)\), \(12r^2+4r+3=0\) (the two algebraic triples).
 Write \(I=\mathcal I_C\), \(J=\mathcal I_T\), and \(R\) for the
 ideal of its primitive ribbon. Its successive layers are
 \(L=\mathcal O_C(-6)\), \(L^2=\mathcal O_C(-12)\), with first
 normal relation \(M=\mathcal O_C(-8)\); here the displayed integers
 are degrees on \(C\simeq\mathbf P^1\), while an ambient twist by
 \(d\) adds \(4d\). Set \(V_d=H^0(J(d))\).
+
+**Theorem (the three fixed characteristic-zero triples).** The ideal
+\(J\) is 5-regular, and
+\(\dim V_d=\binom{d+3}{3}-12d+15\) for every \(d\ge4\).
+The sextic first-normal image is \(h(V_6)=H^0(\mathcal O(16))\),
+and its restricted contact image is
+\[
+ \Theta(\ker h)=
+ \begin{cases}
+ H^0(\mathcal O(6)(-p)),\quad p=1/2,&\text{principal},\\
+ H^0(\mathcal O(6)),&\text{either algebraic triple}.
+ \end{cases}
+\]
+For every \(a,b\ge5\) with \(a+b\ge11\), determinants of actual
+equations span the entire first-contact target:
+\[
+ V_a\otimes V_b\twoheadrightarrow
+ H^0\!\left(\mathcal O_{\mathbf P^1}(4(a+b)-26)\right).
+\]
+In equal degree \(d\ge6\), this factors through \(\bigwedge^2V_d\)
+and has rank \(8d-25\); in particular the sextic rank is 23.
+This identifies the complete linear span of the first determinant
+obstructions through these triples. It neither classifies their
+decomposable zero-pencils nor proves the higher contact and proper
+sole support required for an STCI. The sufficient degree threshold
+excludes the equal-quintic corner, which is considered separately below.
 
 This proof replaces source-matrix ranks for the first-normal image,
 restricted cubic-contact image and determinant image. The two unrestricted
@@ -18,8 +46,9 @@ or reproved. The argument does not replace the separate higher-contact
 test or assert an STCI construction or exclusion. Independent
 reconstruction on 2026-11-19 accepted the sheaf maps, sparse quartic
 identities, interpolation, regularity, determinant lemma and higher-degree
-corollary. The five principal identities were also checked directly by
-small exact substitutions, without a monomial-source rank calculation.
+corollary, including the mixed quintic–sextic strengthening. The five
+principal identities were also checked directly by small exact
+substitutions, without a monomial-source rank calculation.
 
 ## Two intrinsic evaluation maps
 
@@ -286,25 +315,98 @@ Therefore, for all three triples,
 
 ## All higher equation degrees
 
-The same mechanism gives a useful unequal-degree strengthening. For
-\(a,b\ge6\), the determinant of actual equations is onto:
+The quintic first-normal image permits a stronger mixed-degree conclusion
+than the sextic seed alone. First \(H^0(R(3))=0\). A basis of
+\(H^0(I(3))\) is \(qx_0,qx_1,qx_2,qx_3,c_0,c_1,c_2\), by the
+quadric restriction flag. Their first ribbon coefficients are
 \[
- V_a\otimes V_b\longrightarrow
- H^0((\det D)(a+b))=H^0(\mathcal O(4(a+b)-26)).                    \tag{13}
+ \mu\{1,z,z^3,z^4\},\qquad B,\quad z^2(zB/2-A),\quad -2z^5A.
 \]
-For equal degrees it factors through \(\bigwedge^2V_a\).
-To prove this, multiply sextics in (12) by ambient forms \(P,Q\)
-of degrees \(a-6,b-6\). Determinants multiply by \((PQ)|_C\),
-because \(D\) is a sheaf on \(C\). Products span
-\(S_{a+b-12}\). If that degree is at least two, restriction onto
-all binary forms of degree \(4(a+b-12)\) is surjective, and binary
-multiplication with \(H^0(\mathcal O(22))\) proves (13). The
-degree-zero case is (12). In the remaining degree-one case, the
-restrictions \(1,z,z^3,z^4\) times all polynomials of degree at
-most 22 span every degree through 26, also proving (13).
+For an algebraic orbit they are nonzero multiples of the seven powers
+\(1,z,\ldots,z^6\). For the principal orbit, \(B=-2-8z\) and
+\(-z^2\chi\) give independent values at \(z=\pm1/2\).
+The identity
+\[
+ -2z^5(1+z)-B/64
+ =\mu\left(z^4/2+z^3/2+z^2/8+z/8+1/32\right)
+\]
+supplies the missing \(\mu z^2\) direction beyond
+\(\mu\{1,z,z^3,z^4\}\). Thus these coefficients span all
+\(H^0(\mathcal O(6))\), proving the assertion without a source rank.
+The flag gives \(H^0(I^2(5))=qH^0(I(3))\), so
+\(H^0(A(5))=qH^0(R(3))=0\). Consequently
+\[
+ U:=h(V_5)\subset H^0(\mathcal O(12))
+ \quad\text{has dimension 11 and is basepoint free}.              \tag{13}
+\]
+Here injectivity follows from (1), the dimension from regularity, and
+basepoint freeness from the actual generators of \(J(5)\) and its
+quotient \(D(5)\twoheadrightarrow M(5)\).
 
-Thus the equal-degree contact rank is \(8a-25\) for every \(a\ge6\).
-The targets measure this first determinant condition for the fixed
-primitive triple; larger degrees do not change it into the full
-higher-multiplicity condition. Neither surjectivity nor the kernel
-dimension constructs a proper sole-supported intersection.
+For completeness, if a basepoint-free subspace
+\(U\subset H^0(\mathcal O(e))\) has codimension \(c\), with
+\(e-c>0\), its evaluation kernel splits as
+\(\bigoplus_{i=1}^{e-c}\mathcal O(-a_i)\).
+It has no sections, so \(a_i\ge1\), and \(\sum a_i=e\) gives
+\(a_i\le c+1\). Twisting the evaluation sequence shows
+\[
+ U\,H^0(\mathcal O(m))=H^0(\mathcal O(e+m))\quad(m\ge c).
+\]
+Apply this to (13), with \(e=12,c=2\). Determinants of a quintic
+and a sextic in \(\ker h\) span \(H^0(\mathcal O(18))\) in an
+algebraic orbit, by (9). In the principal orbit they span
+\(H^0(\mathcal O(18)(-p))\), by (8) and multiplication with
+\(H^0(\mathcal O(5))\). Actual quintics generate \(D(5)_p\);
+choose two independent there and multiply the second by a linear form
+nonzero at \(p\). Their mixed determinant supplies the missing
+evaluation. Thus the mixed quintic–sextic determinant is onto.
+
+Now for all \(a,b\ge5\), \(a+b\ge11\), actual determinants span
+\[
+ V_a\otimes V_b\twoheadrightarrow
+ H^0((\det D)(a+b))=H^0(\mathcal O(4(a+b)-26)).                    \tag{14}
+\]
+By exchanging factors assume \(b\ge6\). Multiply the mixed seed
+by ambient forms of degrees \(a-5,b-6\); their products span
+\(S_{a+b-11}\). If this degree is at least two, its restriction
+onto all binary forms is surjective, and binary multiplication with
+\(H^0(\mathcal O(18))\) proves (14). The degree-zero case is the
+mixed seed. In degree one, already the restrictions \(s^4,t^4\)
+times \(H^0(\mathcal O(18))\) span \(H^0(\mathcal O(22))\).
+In equal degree \(d\ge6\) the map factors through
+\(\bigwedge^2V_d\) and has rank \(8d-25\).
+
+## The equal-quintic corner
+
+The theorem does not claim completeness for \((a,b)=(5,5)\).
+The quartic pencil has a nonzero determinant
+\(\delta\in H^0(\mathcal O(6))\), by the
+[quartic-pencil contact identities](../normal-geometry/quartic_pair_obstruction.md#the-e1-primitive-directions).
+Multiplying its two sections by linear forms shows
+\(\delta H^0(\mathcal O(8))\subset\operatorname{im}\Omega_5\),
+a nine-dimensional subspace of the fifteen-dimensional target.
+Writing \(\Omega_5\) for the quintic determinant, its completeness is
+exactly the remaining surjectivity
+\[
+ \bigwedge^2V_5\longrightarrow
+ H^0\!\left(\mathcal O(14)|_{\operatorname{div}\delta}\right).
+\]
+This target has dimension six; in an algebraic orbit
+\(\delta\) is a nonzero multiple of \(s^3t^3\), so it demands
+simultaneous length-three endpoint jets (through order two). Global generation
+of \(D(5)\) gives fiber values, not this six-dimensional interpolation.
+The degree-six kernel argument also does not descend directly:
+\(h|_{V_5}\) is injective by (13).
+
+The [PR review diagnostic](https://github.com/markluxton1/STCI/pull/161#pullrequestreview-5982829854)
+at reviewed head `5769b18e`, inspecting the retained
+`audit_sextic_triple_spaces_2026_10_31.py` source, reports quintic
+rank 15 and kernel dimension 40 for all three triples. This is
+review-reported computational evidence, not a new independent proof of
+the residue-map surjectivity. No larger source calculation is adopted
+here. The missing mathematical step is the actual six-jet interpolation
+above; none is needed for the proved mixed region (14).
+
+All these targets measure the first determinant condition for the fixed
+primitive triple. Their completeness does not establish the higher
+contact or proper sole support required by an STCI pair.

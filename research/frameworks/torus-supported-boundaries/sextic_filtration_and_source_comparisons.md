@@ -88,7 +88,7 @@ now derives the source dimensions, restricted contact images and full
 determinant span by quadric interpolation and regularity. For the
 algebraic orbits, the primitive layers also recover the torus characters
 without ambient source matrices. The determinant image remains full for
-every pair of degrees at least six; it does not determine the
+\(a,b\ge5\) with \(a+b\ge11\); it does not determine the
 decomposable zero locus or a moving supported ideal.
 The [fourth-coefficient test](../../arguments/carriers/sextic_ade_reduction.md#sharp-length-five-for-pencils-with-a-quadric-divisible-member)
 gives a sharp length-five bound on proper pencils with a first-order member

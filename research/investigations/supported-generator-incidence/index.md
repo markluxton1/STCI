@@ -138,7 +138,7 @@ the same family. The independently reviewed
 establishes \(\operatorname{rank}\Omega_3=23\) and nullity 328 for
 all three triples without the full exterior-square computation. Its
 [unequal-degree consequence](../../arguments/carriers/sextic_triple_intrinsic_contact.md#all-higher-equation-degrees)
-gives a full determinant image for every \(a,b\ge6\), of dimension
+gives a full determinant image for \(a,b\ge5\), \(a+b\ge11\), of dimension
 \(4(a+b)-25\). Neither determinant-span statement is an incidence certificate:
 the kernel must still meet the decomposable proper-pair locus and the
 remaining higher-contact conditions.

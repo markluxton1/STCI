@@ -59,7 +59,9 @@ replaces the degree-four through degree-six source ranks, restricted-contact
 ranks and determinant ranks by quadric interpolation and a rank-two bundle
 on the curve.
 It gives the source dimension in every degree at least four and a full
-determinant image for every pair of equation degrees at least six.
+determinant image for \(a,b\ge5\) with \(a+b\ge11\), including
+the mixed quintic-sextic case. The equal-quintic case retains a specific
+six-jet interpolation gap in the geometric proof.
 The remaining sextic issue is higher contact of actual proper pencils;
 surjectivity of the determinant span does not settle that incidence.
 For an actual orbit pair in any bidegree, the two endpoints together
