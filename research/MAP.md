@@ -51,6 +51,15 @@ degree is at least sixteen. See
 and [formal normal questions](frameworks/formal-normal-geometry/filtered_equation_module_and_sextic_obstruction.md#two-precise-sextic-questions).
 Existing torus-boundary investigations continue to require a single
 realizable moving ideal with both full limits.
+For the three fixed characteristic-zero primitive triples, the
+[intrinsic source and determinant proof](arguments/carriers/sextic_triple_intrinsic_contact.md)
+replaces the degree-four through degree-six source ranks, restricted-contact
+ranks and determinant ranks by quadric interpolation and a rank-two bundle
+on the curve.
+It gives the source dimension in every degree at least four and a full
+determinant image for every pair of equation degrees at least six.
+The remaining sextic issue is higher contact of actual proper pencils;
+surjectivity of the determinant span does not settle that incidence.
 For an actual orbit pair in any bidegree, the two endpoints together
 detect raw equation torsion but can miss classes on a parameter layer.
 On the first layer the multiplicity of the disjoint coordinate line in

@@ -133,12 +133,13 @@ locus with a first-order member. Any length-nine candidate in this
 construction must have independent quadric restrictions. A proper
 candidate that reaches length nine has terminal Chow cycle \([Y]=9[C]\).
 For a prescribed torus degeneration, both full limits must come from
-the same family. The exact-arithmetic wedge computation reports
-\(\operatorname{rank}\Omega_3=23\) and nullity 328 for both orbit types;
-the [complete weight-block reconstruction](../../arguments/carriers/sextic_ade_reduction.md#torus-weight-blocks-of-the-primitive-triple-sources)
-now independently verifies this for the algebraic orbits. The principal
-orbit's total wedge rank retains the earlier implementation-audit
-limitation. Neither scalar rank is a geometric incidence certificate:
+the same family. The independently reviewed
+[bundle determinant proof](../../arguments/carriers/sextic_triple_intrinsic_contact.md#regularity-and-a-reusable-determinant-span-lemma)
+establishes \(\operatorname{rank}\Omega_3=23\) and nullity 328 for
+all three triples without the full exterior-square computation. Its
+[unequal-degree consequence](../../arguments/carriers/sextic_triple_intrinsic_contact.md#all-higher-equation-degrees)
+gives a full determinant image for every \(a,b\ge6\), of dimension
+\(4(a+b)-25\). Neither determinant-span statement is an incidence certificate:
 the kernel must still meet the decomposable proper-pair locus and the
 remaining higher-contact conditions.
 A zero or nonzero higher-contact incidence result must be stated for

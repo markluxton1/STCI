@@ -35,6 +35,17 @@ The actual degree-d normal-jet source is the image of global sections of I(d) in
 These are bounded interfaces to existing Arguments, not new
 Investigations until a specific test and stopping condition are fixed.
 
+For the three characteristic-zero triples in the second question, the
+[intrinsic contact proof](../../arguments/carriers/sextic_triple_intrinsic_contact.md)
+identifies the first determinant with the determinant of the rank-two
+bundle \(\mathcal I_T/(\mathcal I_C\mathcal I_T)\). Its image is all
+of \(H^0(\mathcal O_{\mathbf P^1}(4(a+b)-26))\) for every
+\(a,b\ge6\). In degree six the restricted contact image is the
+evaluation hyperplane at one point for the principal triple and the full
+seven-dimensional space for the algebraic triples. This explains the
+different joint ranks geometrically and removes their source-matrix
+dependency. The higher-contact incidence in question 2 remains open.
+
 ## Open interfaces
 
 - [Punctual relative defect under sole support](open_normal_geometry.md#punctual-relative-defect-under-sole-support).

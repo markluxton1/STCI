@@ -30,7 +30,11 @@ retain their own higher-order lifting and conductor tests.
 Use the [complete triple classification and actual sextic spaces](../../arguments/carriers/sextic_ade_reduction.md#three-remaining-primitive-triple-orbits),
 retaining all 27 dimensions, including the seven directions beyond
 quartic-source multiples. Proper cubic-contact pencils exist for all
-three triples. The [uniform fourth-coefficient
+three triples. Their source dimensions and first determinant images now
+have an [intrinsic proof](../../arguments/carriers/sextic_triple_intrinsic_contact.md),
+including the source dimensions in every degree at least four and full
+determinant images in both equation degrees at least six. These statements
+do not impose the later contact equations. The [uniform fourth-coefficient
 test](../../arguments/carriers/sextic_ade_reduction.md#sharp-length-five-for-pencils-with-a-quadric-divisible-member)
 gives a sharp length bound of five for proper pencils with a first-order
 member and dependent quadric restrictions. Continue the length-nine test

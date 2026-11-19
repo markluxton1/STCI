@@ -37,12 +37,25 @@ The follow-up [corrected hyperplane argument](../../arguments/curve/normalizatio
 These are scoped proof-route updates, not a retagging of every historical
 group or a claim that all finite computations have been eliminated.
 
-The subsequent [Group 13 weight-block reconstruction](../../arguments/carriers/sextic_ade_reduction.md#torus-weight-blocks-of-the-primitive-triple-sources)
-independently reviews and replays the algebraic-orbit source profiles and
-all cubic-contact blocks, confirming total wedge rank 23. It also identifies
-the principal restricted contact image as the rank-six evaluation hyperplane.
-The principal orbit's full wedge-rank implementation remains unaudited;
-neither rank computes the decomposable higher-contact incidence.
+The subsequent **Group 13**
+[intrinsic source and determinant proof](../../arguments/carriers/sextic_triple_intrinsic_contact.md)
+replaces the complete-source ranks in degrees four through six, first-normal
+rank 17, restricted contact ranks six/seven, joint ranks 23/24 and full
+exterior-square rank 23 for all three characteristic-zero primitive triples.
+Quadric interpolation, five sparse quartic identities, regularity and a
+rank-two determinant bundle supply the independently reviewed proof. It
+also gives the source dimensions in every degree at least four and full
+determinant images for both equation degrees at least six. The algebraic
+source characters follow from the primitive layers. The retained complete
+matrix and weight-block checks are cross-checks for these claims; the
+principal full wedge implementation has not been audited, but is no longer
+a proof dependency. The unrestricted affine \(\Theta\)-ranks 18/12,
+quartic-multiple span 20 and seven complementary sextic directions remain
+computed diagnostics. The separate sharp length-five test is unchanged.
+For **Group 8**, the same interpolation proof also replaces the surviving
+primitive-triple quartic source-dimension ranks; explicit pencil identities
+and the subsequent pole and normalization arguments retain their own scope.
+No determinant rank computes the decomposable higher-contact incidence.
 
 # Canonical Results/Arguments: evidence-bearing linear algebra inventory
 

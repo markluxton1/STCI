@@ -264,7 +264,12 @@ PYTHONDONTWRITEBYTECODE=1 python3 research/arguments/torus/equation_pair_rank_an
 The characteristic-zero primitive-triple weight profiles, exact endpoint
 relation and principal hyperplane are retained with their consumer in
 [the sextic ADE chapter](../carriers/sextic_ade_reduction.md#torus-weight-blocks-of-the-primitive-triple-sources).
-They refine a necessary cubic-contact equation, not the full length-nine
+The [intrinsic source and determinant proof](../carriers/sextic_triple_intrinsic_contact.md)
+derives those source characters from the primitive layers and proves full
+determinant image for every pair of equation degrees at least six on each
+of the three fixed characteristic-zero triples. This is a geometric
+unequal-degree input alongside the general pair-rank formula above.
+These statements refine a necessary cubic-contact equation, not the full length-nine
 condition. The present boundary formulas also apply beyond that fixed
 quartic and equal-degree setting, but still do not turn degreewise
 cancellation, a proper lower-degree pencil, or a numerical weight block
