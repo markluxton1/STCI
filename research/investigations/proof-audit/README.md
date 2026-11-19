@@ -10,7 +10,7 @@ No claim is made that all archived CAS computations were replayed.
 - [Executable file-level appendix](executable-evidence.md): 150 current artifacts and 252 pinned historical references, not additional mathematical claims.
 - [Historical recovery crosswalk](recovery-crosswalk.md).
 - [Recovery ledger](../../cross_conversation_recovery_audit.md).
-- Verified bounded geometry: [H07](../../arguments/torus/general_coordinate_boundary.md), [H16](../../arguments/equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16), and [H09](../../arguments/curve/fixed_quartic_geometry.md#a-different-curve-the-rational-normal-quartic-in-p4).
+- Verified bounded geometry: [H07](../../arguments/torus/general_coordinate_boundary.md), [H16](../../arguments/equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16), and [H09](../../arguments/curve/rational_normal_quartic_background.md#background-example-the-rational-normal-quartic-in-p4).
 
 The next editorial proof-dependency replacement target is R-0025's specific
 carrier restriction, not an unrestricted rank theorem. This is not a ranking
