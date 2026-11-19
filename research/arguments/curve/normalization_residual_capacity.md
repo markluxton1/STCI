@@ -5,6 +5,15 @@ on the known negative residual curves. Every other curve still has positive
 degree, so this corrected class measures how much of an actual equation can
 vanish along the inverse of the marked curve. The construction below is an
 elementary nef-divisor argument, not a new general theory of nef cones.
+The classical reference point is Zariski decomposition on a smooth projective
+surface: its negative part has negative-definite intersection matrix and
+is orthogonal to the nef part; see Thomas Bauer,
+[*A simple proof for the existence of Zariski decompositions on surfaces*,
+Theorem, p. 1, conditions (i)–(iii)](https://arxiv.org/pdf/0712.1576#page=1).
+Here we prove only the special elementary correction for the specified
+Cartier curves on a normal surface. We do not invoke a general decomposition
+theorem on that surface or identify this correction as the Zariski
+decomposition of the ample class \(H\).
 
 A **proper containing form** means a homogeneous equation containing the
 marked curve and sharing no surface component with the carrier. Unlike a

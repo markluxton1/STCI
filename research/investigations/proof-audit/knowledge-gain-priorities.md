@@ -136,20 +136,21 @@ replaying the old inventory or re-auditing every archived file.
   affine-normalization ring. Neither proves the required hypotheses
   on the special closed complement.
 - **Checked extension.** The [fixed-residual lifting lemma](../../arguments/curve/normalization_residual_capacity.md#an-actual-lifting-lemma-for-fixed-reduced-residuals) constructs actual integral carriers with reduced prescribed quadric residuals and verified normal-root/attachment hypotheses. The degree-seven/order-two pilot below is now proved, including its crossing matrix and sharp bound. Negative definiteness remains a separate test, not a consequence of arbitrary reduced residual data.
-- **Next test.** Choose one reduced residual quadric section outside
-  that open with two intersecting components and actual branch
-  attachments. Compute the strict curves' Cartier status, intersection
-  matrix and weighted branch degrees on the **finite normalization**.
-  The now-verified [concrete pilot](../../arguments/curve/normalization_residual_capacity.md#the-degree-seven-pilot-including-the-crossing) is the degree-seven, order-two source, with
-  residual bidegree \((5,1)\) on the quadric to split as
-  \((1,0)+(4,1)\). The proof verifies actual lifts with one reduced
-  irreducible generic normal root, simple attachments, and regular
-  normalization along the strict residuals; these were requirements,
-  not properties inferred from the bidegrees. For a new residual pattern, try the ruling
-  row-sum test. If it fails, identify whether a different test divisor
-  or a verified weighted boundary certificate
-  saves the bound. A resolution has extra hyperplane-null curves
-  and is not a substitute without checking them.
+- **Completed pilot.** The [degree-seven, order-two example](../../arguments/curve/normalization_residual_capacity.md#the-degree-seven-pilot-including-the-crossing)
+  has residual split \((1,0)+(4,1)\), verified actual lifts, simple
+  attachments and regular normalization along both strict residuals.
+  Its crossing matrix and sharp capacity bound are proved; repeating
+  this example is not the next investigation.
+- **Next gate.** Identify an actual carrier stratum with a balanced
+  or adverse residual intersection block not covered by the proved
+  negativity criterion. Verify the complete strict residual configuration,
+  Cartier status and branch attachments on the **finite normalization**
+  before drawing a conclusion from its matrix. If this correction fails,
+  test a different divisor or a verified weighted boundary certificate.
+  The goal is a new strict capacity bound or a precise failure of its
+  hypotheses, not another example inside the known negative-definite class.
+  A resolution introduces hyperplane-null curves and is not a substitute
+  without checking their contribution.
 - **Decision.** A strict capacity gap for a new geometrically defined
   carrier stratum rules out every mate degree there. A balanced or
   nonnegative residual block with verified attachments is a meaningful
