@@ -1,5 +1,11 @@
 # Open carrier, projection, and conductor cases
 
+## Boundary-valuation generalization
+
+The [fixed-sextic all-degree theorem](../../results/ci_fixed_sextic_jet_rigidity.md) proves a positive residual-degree bound on one explicit integral sextic by working on an affine chart of its normalization. The open question is **not** to repeat its degree-by-degree jet calculations on more specimens. It is to identify a geometrically defined class of carriers for which the [conditional boundary criterion](../../results/ci_fixed_sextic_jet_rigidity.md#conditional-interface-for-other-carriers) can be checked uniformly: (i) a globally principal marked preimage and actual factorization \(g=Q^nP\), (ii) boundary valuations with controlled degree-dependent poles, and (iii) no nonzero regular \(P\) with strictly positive order at all selected boundaries. The generic intersection multiplicity and residual-degree inequality must then be established separately.
+
+**Decision gate:** first determine whether a proposed carrier class satisfies these hypotheses, or identify a structural counterexample. Only then pursue mate-degree computations. This is a proposed investigation, not an assertion that the split-sextic, ADE, quintic, or elliptic cases satisfy the criterion. Keep conductor descent and full inverse support as independent requirements.
+
 ## Split sextic carriers
 
 Fix \(C_0\) over an algebraically closed field of characteristic zero.
