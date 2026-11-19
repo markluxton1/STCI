@@ -37,5 +37,9 @@ offCurve = ideal(quadric,Q0-1,q,firstCubic,
     U#1^2*U#3-U#0*U#2^2,lastCubic,parameterPolynomial);
 actualImage = eliminate(zvars,offCurve);
 assert(actualImage == hitIdeal);
+-- Basepoints cannot occur on E, where (2) is a morphism. This leaves
+-- only the off-E chart on which to distinguish inverse points from basepoints.
+basepoints = ideal(quadric,Q0-1,parameterPolynomial)+ideal(U);
+assert(1_S % basepoints == 0);
 print ("degree of candidate polynomial", first degree parameterPolynomial);
-print "Each candidate has a geometric point on the off-curve chart.";
+print "All six candidates are basepoint-free and have an extra inverse point.";
