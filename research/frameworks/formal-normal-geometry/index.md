@@ -5,6 +5,11 @@ title: Formal normal geometry of intersections containing the rational quartic
 status: in_use
 scope: "#fixed-setup"
 bridges: "#simultaneous-realization-and-compatibility-problems"
+relations:
+  - kind: uses
+    from: [STCI-R-0077]
+    to: [STCI-F-0003]
+    at: "#exceptional-geometry-and-components-downstairs"
 ---
 # Formal normal geometry of intersections containing the rational quartic
 
@@ -67,6 +72,14 @@ of full initial ideals and actual equations, see
 At the generic point \(\eta_C\), after a choice of formal parameters, study \(I\subset K[[X,Y]]\), \(K=k(C)\simeq k(t)\). Orders \(r=\operatorname{ord}_C F\), \(s=\operatorname{ord}_C G\) and the leading forms provide the first layer, not a complete invariant. When \(C\) is an isolated generic component of the intersection, the length \(\ell_{K[[X,Y]]}(K[[X,Y]]/I)\) measures its generic multiplicity. The identity \(de/4\) for this length requires that C be the only one-dimensional component of the global complete intersection; it must not be imposed in the broader setup.
 
 ## Exceptional geometry and components downstairs
+
+The joint zeros of the two actual leading forms on the first exceptional
+divisor give a projective residual test. On the boundary of zero
+direction degree, sole support forces one constant section. Its normal
+bundle on the blowup has splitting \((2,5)\) at the endpoint directions
+and \((3,4)\) elsewhere in characteristic zero. This turns the embedded
+quadratic transition into a bound on the next two equation orders.
+[Normal directions and the second blowup](../../results/connected_normal_directions.md#statement).
 
 Separate horizontal components over C (dominating C) from vertical components over special points of C. Study their scheme structures and behavior under successive blowups. An exceptional component does **not** by itself prove that Z has another component downstairs: it may encode higher contact, a special fiber, or excess intersection. Conversely, if another global component meets C, its formal trace can influence the exceptional scheme. Establish precise implications rather than equating these phenomena.
 

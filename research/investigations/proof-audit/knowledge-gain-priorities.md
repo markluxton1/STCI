@@ -55,12 +55,21 @@ replaying the old inventory or re-auditing every archived file.
   · [Horizontal paths](../../arguments/residuals/horizontal_blowup_recursions.md)
   · [Actual finite jets](../../arguments/residuals/finite_normal_jets.md).
 - **Checked uniform sector.** The [moving-relation theorem](../../arguments/equations/global_lifting_interfaces.md#a-uniform-nonvanishing-theorem-in-relation-degree-at-least-two) proves the next-order class is nonzero in characteristic zero for saturated degree-one movement, relation degree at least two, and no independent next relation. The mechanism is incompatibility of shared Laurent corrections, not a sampled rank. The order-one geometric zero locus is classified separately, without a higher-lift or scheme-structure claim. Positive first-relation defect divisors and other normal initial ideals remain outside the theorem.
-- **Next test.** On an actual pair with a single common horizontal
-  section through the first two blowups, express the next effective
-  resultant defect in the two actual twisted coefficient sources.
-  Prove a bound or an exact vanishing criterion that charges the deep
-  contact to degree or to an actual boundary component. Use the
-  fixed-tangent controls to reject a proposed budget before generalizing.
+- **Projective constraint found.** For every possible defining degree,
+  the two first symbols must have a connected, pure curve of common
+  directions. On the zero direction-degree boundary the sole section's
+  normal bundle forces more than \(pq/2\) generic contact beyond depth
+  two in characteristic zero. The characteristic-three cubic–quartic
+  pair exhausts its contact by depth two. [Residual and deep-contact theorem](../../results/connected_normal_directions.md#statement).
+- **Next test.** On this boundary the remaining issue is an upper
+  bound from the actual equation sources, or a pair that sustains the
+  required tail. At \((3p,4q)\) it suffices to decide the
+  [marked quintic criterion on \(V_5\)](../../arguments/residuals/blowup_residual_geometry.md#actual-equations-on-the-zero-direction-edge)
+  for one endpoint and one mixed direction, including the conic normal
+  value that detects a contracted residual line. For positive direction
+  degree the second-blowup test needs a nef twist of the actual
+  multisection's normal bundle, or a comparison that retains the other
+  components meeting a chosen center.
   The basepoint-free moving first relation of degree one now has the
   uniform nonvanishing theorem just stated in orders at least two.
   Its next unresolved tests are the divisor twists that record

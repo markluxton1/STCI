@@ -112,6 +112,12 @@ correction, and interpolation calculation. [Historical source compilation](https
 
 ## 9. Actual strict restrictions and the residual-root count
 
+On the exact balanced boundary, connectedness now forces all generic
+contact through a single section. Consequently the ruling and its
+marked mate zero are unique. The count argument below uses only the
+cycle and explains why it selects one zero on each distinct ruling.
+[Proof of uniqueness and the deeper-contact bound](../../results/connected_normal_directions.md#statement).
+
 The [quadric-section divisor calculation](https://github.com/markluxton1/STCI/blob/ffe78df0f9d4378255d1a2cdcf64b2e8a80a4655/research/supplements/OCT7_THICK_CARRIERS_AND_MARKED_GEOMETRY.md#source-2026-10-07-thick-quadric-section-divisormd) uses `H|E=(4,0)` and `E|E=(7,-1)` to obtain `S_Q=(2H-E)|E=(1,1)`. At the (3,4) boundary, each horizontal exceptional component T_j has class `(0,1)`, hence `T_j.S_Q=1`; if `W=sum c_j T_j` as a cycle, its intersection divisor on S_Q is `sum c_j P_j` of degree `2pq`. The first-normal divisor degrees on S_Q are `6p` and `10q`, not the residual quadric degrees `2p` and `q`. The necessary fixed-factor and coordinate identifications must not be skipped.
 
 **The count bridge on the exact boundary is proved.** The blowup restricted to Q is the blowup of its Cartier divisor C, hence the strict transform Qtilde is Q itself and E|Qtilde=C. Consequently the actual strict divisor restrictions are exactly R_F and R_G, including their local equations and multiplicities. For each residual ruling root ℓ of R_F, R_G|ℓ is a nonzero section of O_ℓ(q); otherwise ℓ would be an extra common curve. Choose a zero P. Sole support forces P∈C, so its lift lies in the actual proper strict-transform intersection W and on S_Q. On a=3p,b=4q, W is pure with effective cycle of class(0,2pq); its support consists of constant sections T_j. Each T_j meets S_Q in one point, and distinct ruling fibers are disjoint, so the chosen points give an injection of distinct ruling roots into distinct T_j. This proves the count bound without a canonical bijection. The [complete supported-cycle and root-count proof](rees_and_vertical_controls.md) retains its exact hypotheses and the additional no-vertical refinement.

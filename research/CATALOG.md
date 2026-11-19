@@ -85,6 +85,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0074](results/chow_polytope_rigidity.md) | Full Chow-polytope rigidity for the fixed quartic | endpoint support and separating-face degree exhaustion: accepted | [scope](results/chow_polytope_rigidity.md#scope) |
 | [STCI-R-0075](results/toric_quintic_carrier_exclusion.md) | Toric quintic normalizations exclude every mate degree | marked normalization and full inverse support at every projection center: pending | [scope](results/toric_quintic_carrier_exclusion.md#scope) |
 | [STCI-R-0076](results/elliptic_inverse_support.md) | Full inverse support in the marked elliptic double-cover construction | target rulings and a Cartier zero scheme on the residual divisor: pending | [scope](results/elliptic_inverse_support.md#scope) |
+| [STCI-R-0077](results/connected_normal_directions.md) | Connected normal directions, residual degree and deep contact on the equality boundary | quadric restriction, connectedness and the normal bundle of the surviving section: accepted | [scope](results/connected_normal_directions.md#scope) |
 
 ## Arguments
 
@@ -195,6 +196,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0074: endpoint support and separating-face degree exhaustion; joint premises []; proof `research/arguments/equations/chow_polytope_rigidity.md#chow-forms-products-and-the-one-parameter-subgroup`; review accepted, reconstructed at `#review`.
 - STCI-R-0075: marked normalization and full inverse support at every projection center; joint premises [STCI-R-0003]; proof `research/arguments/carriers/quintic_toric_center_incidence.md#1-geometric-object-and-scope`; review pending at `#review`.
 - STCI-R-0076: target rulings and a Cartier zero scheme on the residual divisor; joint premises []; proof `research/arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber`; review pending at `#review`.
+- STCI-R-0077: quadric restriction, connectedness and the normal bundle of the surviving section; joint premises [STCI-R-0020]; proof `#proof`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
@@ -208,9 +210,10 @@ Untyped source passages do not synthesize proof-route reviews.
 - [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] — uses → [STCI-I-0002]; [explanation owned by STCI-I-0002](investigations/quotient-hilbert-comparison/index.md#inputs).
 - [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056, STCI-R-0072] — uses → [STCI-F-0002]; [explanation owned by STCI-F-0002](frameworks/embedded-torus-quotients/index.md#available-results).
 - [STCI-R-0075, STCI-R-0076] — uses → [STCI-F-0005]; [explanation owned by STCI-F-0005](frameworks/carrier-normalization/index.md#projection-polarization-and-low-degree-scopes).
-- [STCI-R-0075, STCI-R-0076] — uses → [STCI-F-0007]; [explanation owned by STCI-F-0007](frameworks/residual-construction/index.md#interfaces).
-- [STCI-R-0076] — uses → [STCI-F-0006]; [explanation owned by STCI-F-0006](frameworks/global-equation-realization/index.md#bridges).
+- [STCI-R-0075, STCI-R-0076, STCI-R-0077] — uses → [STCI-F-0007]; [explanation owned by STCI-F-0007](frameworks/residual-construction/index.md#interfaces).
 - [STCI-R-0076] — uses → [STCI-I-0005]; [explanation owned by STCI-I-0005](investigations/stci-equation-search/index.md#inputs).
+- [STCI-R-0076, STCI-R-0077] — uses → [STCI-F-0006]; [explanation owned by STCI-F-0006](frameworks/global-equation-realization/index.md#bridges).
+- [STCI-R-0077] — uses → [STCI-F-0003]; [explanation owned by STCI-F-0003](frameworks/formal-normal-geometry/index.md#exceptional-geometry-and-components-downstairs).
 
 ## Object backlinks
 
@@ -225,11 +228,11 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-A-0011: no declared backlinks.
 - STCI-F-0001: limits: [STCI-R-0043, STCI-R-0046] → [STCI-F-0001] (owner STCI-F-0001); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072, STCI-R-0073] → [STCI-F-0001] (owner STCI-F-0001).
 - STCI-F-0002: limits: [STCI-R-0054] → [STCI-F-0002] (owner STCI-F-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056, STCI-R-0072] → [STCI-F-0002] (owner STCI-F-0002).
-- STCI-F-0003: no declared backlinks.
+- STCI-F-0003: uses: [STCI-R-0077] → [STCI-F-0003] (owner STCI-F-0003).
 - STCI-F-0004: no declared backlinks.
 - STCI-F-0005: motivates: [STCI-F-0005, STCI-F-0006] → [STCI-I-0005] (owner STCI-I-0005); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005).
-- STCI-F-0006: motivates: [STCI-F-0005, STCI-F-0006] → [STCI-I-0005] (owner STCI-I-0005); uses: [STCI-R-0076] → [STCI-F-0006] (owner STCI-F-0006).
-- STCI-F-0007: uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0007] (owner STCI-F-0007).
+- STCI-F-0006: motivates: [STCI-F-0005, STCI-F-0006] → [STCI-I-0005] (owner STCI-I-0005); uses: [STCI-R-0076, STCI-R-0077] → [STCI-F-0006] (owner STCI-F-0006).
+- STCI-F-0007: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007).
 - STCI-F-0008: no declared backlinks.
 - STCI-F-0009: no declared backlinks.
 - STCI-I-0001: motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001).
@@ -254,7 +257,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0017: no declared backlinks.
 - STCI-R-0018: no declared backlinks.
 - STCI-R-0019: no declared backlinks.
-- STCI-R-0020: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0058 (residual restriction through the unique quadric); premise of STCI-R-0071 (finite moments and actual multiplication); premise of STCI-R-0072 (multiplier rank and the splitting of the moving quotient); recorded reference from STCI-R-0022 (dependencies group [STCI-R-0020]); recorded reference from STCI-R-0026 (dependencies group [STCI-R-0020]).
+- STCI-R-0020: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0058 (residual restriction through the unique quadric); premise of STCI-R-0071 (finite moments and actual multiplication); premise of STCI-R-0072 (multiplier rank and the splitting of the moving quotient); premise of STCI-R-0077 (quadric restriction, connectedness and the normal bundle of the surviving section); recorded reference from STCI-R-0022 (dependencies group [STCI-R-0020]); recorded reference from STCI-R-0026 (dependencies group [STCI-R-0020]).
 - STCI-R-0021: premise of STCI-R-0057 (filtered elimination and the initial term of a principal ideal); recorded reference from STCI-R-0023 (dependencies group [STCI-R-0021]); recorded reference from STCI-R-0029 (dependencies group [STCI-R-0021]).
 - STCI-R-0022: no declared backlinks.
 - STCI-R-0023: recorded reference from STCI-R-0024 (dependencies group [STCI-R-0023]).
@@ -309,5 +312,6 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0072: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072, STCI-R-0073] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056, STCI-R-0072] → [STCI-F-0002] (owner STCI-F-0002).
 - STCI-R-0073: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072, STCI-R-0073] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] → [STCI-I-0002] (owner STCI-I-0002).
 - STCI-R-0074: no declared backlinks.
-- STCI-R-0075: uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0007] (owner STCI-F-0007).
-- STCI-R-0076: uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0007] (owner STCI-F-0007); uses: [STCI-R-0076] → [STCI-F-0006] (owner STCI-F-0006); uses: [STCI-R-0076] → [STCI-I-0005] (owner STCI-I-0005).
+- STCI-R-0075: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005).
+- STCI-R-0076: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005); uses: [STCI-R-0076, STCI-R-0077] → [STCI-F-0006] (owner STCI-F-0006); uses: [STCI-R-0076] → [STCI-I-0005] (owner STCI-I-0005).
+- STCI-R-0077: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007); uses: [STCI-R-0076, STCI-R-0077] → [STCI-F-0006] (owner STCI-F-0006); uses: [STCI-R-0077] → [STCI-F-0003] (owner STCI-F-0003).

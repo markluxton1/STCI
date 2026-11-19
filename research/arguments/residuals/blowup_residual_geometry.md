@@ -271,6 +271,107 @@ An intersection number with \(E\) or \(Q'\) is not a point count if \(W\)
 has a component in that divisor. Nor does its sign by itself assert a
 residual component downstairs.
 
+### Actual equations on the zero-direction edge
+
+Fix characteristic zero and positive \(p,q\). For degrees \((3p,4q)\)
+and exact normal orders \((p,q)\), the existence problem can be carried
+in both directions across the conic blowup. Two fixed marked rational
+quintics in \(V_5\) suffice for every \(p,q\).
+
+Let \(T\) be a constant section of \(E\to C\), \(\Delta=\phi(T)\), and
+let \(z=\phi(T\cap Q')\). Then \(\Delta\) is a smooth rational quintic
+and meets \(\Gamma\) in the single reduced point \(z\). Indeed
+\(L\cdot T=5\), \(Q'\cdot T=1\), and \(\phi\) is an isomorphism off
+\(Q'\). At the one transverse intersection with \(Q'\), a local
+generator of the exceptional ideal is the pullback of a normal
+parameter of \(\Gamma\) in a blowup chart. Its restriction is a
+uniformizer of \(T\), so the map is immersive there. The proper
+injective map on the smooth curve is thus a closed immersion
+(equivalently its image local ring contains a uniformizer after
+completion). Restricting \(I_\Gamma\mathcal O_B=\mathcal O_B(-Q')\)
+to \(T\) gives the asserted scheme intersection.
+
+Take actual sections \(P\in H^0(V_5,pM)\) and
+\(S\in H^0(V_5,I_\Gamma^q(2qM))\). Require that neither divisor contain
+\(\Sigma\), that \(P\) have order zero and \(S\) have exact order \(q\)
+along \(\Gamma\), and that their intersection be proper. The section
+dictionary (2) then gives a proper pair on \(\mathbf P^3\) of the
+prescribed degrees and exact orders, with neither equation divisible by
+the quadric. The following two conditions are jointly equivalent to
+sole support \(C\) with first common direction \(T\).
+
+1. \(V(P,S)_{\rm red}=\Delta\) on \(V_5\).
+2. The order-\(q\) normal form of \(S\) along \(\Gamma\), evaluated at
+   \(z\), is a nonzero binary form.
+
+In the forward direction connectedness on the first blowup gives
+\(W_{\rm red}=T\). Off \(\Gamma\) the image intersection is
+\(\Delta\setminus\{z\}\). Since \(P\) does not contain \(\Gamma\),
+purity of the proper intersection downstairs gives condition 1. If
+condition 2 failed, the strict divisor of \(S\) would contain the whole
+ruling \(\phi^{-1}(z)\), which also lies in the pullback of \(P\).
+That ruling maps to a line in \(\mathbf P^3\).
+[Uniqueness of the section](../../results/connected_normal_directions.md#the-equality-boundary-on-the-first-blowup).
+
+Conversely, since \(S\) contains \(\Gamma\), condition 1 forces
+\(P|_\Gamma\) to have zero divisor \(2p[z]\). Thus the strict divisor
+of \(P\) meets \(Q'\) only over \(z\). On that one fiber the strict
+divisor of \(S\) cuts the degree-\(q\) form of condition 2. No
+exceptional ruling can be a component of \(W\). Every component off
+\(Q'\) closes up to \(T\), and purity of \(W\) gives \(W_{\rm red}=T\).
+Pushing back to \(\mathbf P^3\) proves sole support. In particular,
+the fiber form must have its entire zero divisor at \(T\cap Q'\).
+Thus the single normal value detects the residual line that contraction
+could hide.
+
+Finally, in the marked balanced coordinates on the chart \(x_0=1\),
+write \(t=x_1\), \(v=x_2-t^3\) and \(u=x_3-t^4-3tv/2\).
+The quartic's torus scales \(u,v\) with weights \(4,3\), so all
+mixed constant directions form one orbit. Coordinate reversal
+conjugates the torus action to its inverse and swaps the two fixed
+directions. Indeed its action on the direction line is constant over
+the base, since every morphism \(\mathbf P^1\to\mathrm{PGL}_2\) is
+constant. These automorphisms lift to the cubic graph and preserve
+the marked conic. One endpoint direction and one mixed direction
+therefore suffice.
+
+The two curves and the first equation source are explicit. In the cubic
+coordinates \((y_0,\ldots,y_6)\) of (4), evaluate the linear normal
+part of each cubic at \((u,v)=(1,0)\) and \((1,2)\), respectively.
+Homogenizing the following rows to degree five gives the maps on the
+whole base.
+\[
+\begin{aligned}
+ \Delta_{\rm end}(t)&=[1:t:t^3:t^4:0:-t^2:-2t^5],\\
+ \Delta_{\rm mix}(t)&=[1+t:t+t^2:t^3+t^4:t^4+t^5:2:t^3-t^2:-2t^5].
+\end{aligned}
+\]
+In each row the coordinates span the polynomials of degree at most
+five. Thus each is a rational normal quintic in a unique hyperplane.
+The respective hyperplane equations are
+\[
+ h_{\rm end}=y_4,\qquad
+ h_{\rm mix}=2y_0-2y_1+2y_2-2y_3-y_4-2y_5-y_6 .
+\]
+On \(\Gamma=[0:0:0:0:i^2:ij:j^2]\) these restrict to \(i^2\) and
+\(-(i+j)^2\), respectively. For either representative the whole space
+of first equations vanishing on \(\Delta\) with trace \(2p[z]\) is
+\[
+      P=\lambda h_\Delta^p+K,\qquad
+      \lambda\in k^\times,\quad
+      K\in H^0(V_5,I_{\Gamma\cup\Delta}(pM)).
+\]
+Indeed, subtracting the matching scalar power kills the restriction
+on both curves. Properness, the exact-order conditions and the two
+requirements on \(S\) still have to be satisfied.
+
+Independent review checked both directions of the criterion, the
+reduced conic intersection, the exceptional fiber condition and the
+two representatives under the marked symmetries. Exact substitution
+in the seven cubics verified both rows, their rank-six spans and the
+two hyperplane traces on the conic. Existence of the required sections
+for either quintic remains open.
+
 ## 5. General residuals acquire a second constructive description
 
 For a general \((a,b)\) pair, \(a,b\ge4\), use the inherited multiplicity-one

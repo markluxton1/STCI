@@ -33,12 +33,13 @@ derives these bounds.
 
 For the fixed \(C_0=[s^4:s^3t:st^3:t^4]\) and \(\operatorname{char}k\ne2\),
 retain the proper-pair, sole-support and balanced-normal-bundle hypotheses.
-If \(a=3p\) and \(b=4q\), the exceptional intersection cycle is a sum of
-constant sections. The divisor cut by \(F_a\) on \(Q\), after subtracting
-\(pC_0\), consists of \(2p\) rulings counted with multiplicity. At most
-\(\min(p,q)\) are distinct, so at least one is repeated. This is a necessary
-restriction on the exact boundary. See the
-[proof of the ruling count](../arguments/normal-geometry/rees_and_vertical_controls.md#the-exact-supported-3p4q-boundary-and-distinct-residual-roots).
+If \(a=3p\) and \(b=4q\), the exceptional intersection cycle is
+\(2pq[T]\) on one constant section \(T\). The divisor cut by \(F_a\)
+on \(Q\), after subtracting \(pC_0\), is a single ruling of
+multiplicity \(2p\). The divided mate cuts that ruling at one point
+with multiplicity \(q\). This sharpens the
+[cycle count](../arguments/normal-geometry/rees_and_vertical_controls.md#the-exact-supported-3p4q-boundary-and-distinct-residual-roots)
+by [connectedness of the strict intersection](connected_normal_directions.md#the-equality-boundary-on-the-first-blowup).
 
 The [higher-order Rees question](../frameworks/formal-normal-geometry/open_normal_geometry.md#higher-order-rees-data-for-entirely-thick-pairs)
 concerns the remaining entirely-thick branch.
