@@ -59,3 +59,7 @@ source link is unavailable, that link alone supplies no justification; inspect
 the complete mathematical home and its scope. A subject entrypoint is not a
 substitute for the actual argument. Identifiers locate statements and confer no
 mathematical rank.
+
+## Full Chow-polytope rigidity
+
+- [STCI-R-0074: full Chow-polytope rigidity for the fixed quartic](chow_polytope_rigidity.md).
