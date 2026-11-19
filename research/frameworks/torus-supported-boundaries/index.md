@@ -33,6 +33,10 @@ obstruction has a different characteristic boundary.
 The boundary results constrain actual supported intersections but do not
 resolve unrestricted STCI. Their strategic bottleneck is **coverage of actual moving pairs**: a restriction on a selected full limit or attracting family is not an obstruction for arbitrary pairs unless a coverage theorem connects them. Additional boundary classifications should identify a new realization, generator, or coverage consequence.
 
+## Two distinct uses of boundary valuations
+
+The [coordinate-contact theorem](../../arguments/torus/general_coordinate_boundary.md) assigns tropical rays and gcd weights to punctures of \(C\) in any realized coordinate-torus embedding and constructs its ray-only tropical compactification. It is a statement about the curve's coordinate contact orders, **not** about the initial ideals of hypothetical defining surfaces. Separately, the [fixed-sextic boundary theorem](../../results/ci_fixed_sextic_jet_rigidity.md) uses divisorial valuations of the **surface normalization** to bound the degree and generic contact of a mate. The former does not imply the latter: identifying a useful map between curve contact rays, surface boundary divisors, and the full equation/Hilbert degeneration data remains an open comparison. Do not treat a shared tropical ray as evidence of a residual component without controlling the actual intersection initial ideal.
+
 ## Available results
 
 For effective one-cycles in every characteristic, [full Chow-polytope rigidity](../../arguments/equations/chow_polytope_rigidity.md) classifies equality with a multiple of the fixed quartic's full, unshifted column-weight polytope as a sum of diagonal translates. The subgroup fixes the cycle, not necessarily its defining ideal. This cycle statement does not recover Hilbert data, embedded points, moving generators, or a two-equation realization; projected polygons do not suffice.
