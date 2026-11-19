@@ -16,7 +16,7 @@ Legend: **M** matching repo content (compare exact hypotheses before closing); *
 | H04 | Oct 6–9 | Normal quartic carrier exceptional lattices, primitive classes, conductor descent; previous overbroad claims and failed saturation/local-cohomology arguments | `research/arguments/carriers/normal_primitive_carriers_and_bounds.md`; `normal_carrier_divisor_geometry.md` | M/V; no automatic promotion of historical exclusions |
 | H05 | Oct 6–7 | Entirely-thick necessary inequalities (ab\ge4pq), (7ab+28pq\ge16(aq+bp)); tangent symbols alone insufficient | `research/results/entirely_thick.md`; `research/arguments/normal-geometry/thick_equality_socle.md` | M; check exact hypotheses |
 | H06 | Oct 7 | Coordinate-torus compactification: (C^\circ\cong\mathbf G_m), tropical rays \(\pm(1,3,4)\); boundary descent creates residual line | `research/arguments/torus/tropical_thickenings_and_endpoint_duality.md` | M; substantially preserved |
-| H07 | Oct 7 | For a **general coordinate tetrahedron**, 16 distinct boundary punctures and four tropical rays of weight 4; proposed six edge-resultant walls / toric blowup interpretation | No direct `tetrahedron` match; coordinate-torus chapter is a *different* compactification | Bounded proof integrated: general four rays and one simple collision; broader fan claim open |
+| H07 | Oct 7 | For a **general coordinate tetrahedron**, 16 distinct boundary punctures and four tropical rays of weight 4; proposed six edge-resultant walls / toric blowup interpretation | No direct `tetrahedron` match; coordinate-torus chapter is a *different* compactification | Complete formulas on realized frames; realizability classification and historical parameter-fan recovery not claimed |
 | H08 | Oct 7 | Claimed generic affine two quadrics compactify to projective ((2,2)) CI | Explicitly retracted in historical discussion | X; exclude |
 | H09 | Oct 9 | Rational normal quartic in (\mathbf P^4): six minimal Hankel quadrics; three equations set-theoretically, not scheme-theoretically | No exact repo comparison yet | Verified P4 set-support proof integrated; distinct from fixed P3 curve |
 | H10 | Oct 12 | Quintic normalization divisor identities (5c\sim4H), (5\ell\sim H), (c+\ell\sim H); descent through conductor unresolved | `research/arguments/carriers/quintic_conductor_geometry.md`, `root_descent_and_conductor_defects.md` | M/V; do not promote descent as solved |
@@ -40,7 +40,7 @@ R-0074 is the canonical Result. The [H16 follow-up](arguments/equations/chow_pol
 
 ## Priority recovery gate: H07
 
-For a general choice of four coordinate hyperplanes meeting (C) transversely in disjoint divisors of degree four, (C^\circ=\mathbf P^1\setminus16\) points. Tropical rays corresponding to the four boundary divisors have weights four. Distinguish this from the **special** coordinate torus compactification with only two rays. The [bounded H07 proof](arguments/torus/general_coordinate_boundary.md) verifies six edge-incidence resultant loci and the single simple collision: weights 3,3,4,4,1 and the corresponding edge blowup. Tangent/simultaneous collisions and a global parameter-space fan remain unverified.
+For a general choice of four coordinate hyperplanes meeting (C) transversely in disjoint divisors of degree four, (C^\circ=\mathbf P^1\setminus16\) points. Tropical rays corresponding to the four boundary divisors have weights four. Distinguish this from the **special** coordinate torus compactification with only two rays. The [H07 proof](arguments/torus/general_coordinate_boundary.md) now covers all realized contact patterns: normalization order vectors determine primitive rays and gcd multiplicities, including simultaneous collisions and tangencies. A proper ray-only toric model has flat multiplication, smooth exactly for primitive contacts. The simple edge example is retained. A finite constructible root-pattern stratification is proved, not a global polyhedral parameter fan. The formulas cover every realized frame, not a classification of realizable partitions. Exact historical equivalence remains unverified.
 
 ## Explicit non-goals
 
@@ -52,11 +52,11 @@ For a general choice of four coordinate hyperplanes meeting (C) transversely in 
 ## Next audit pass
 
 1. H16's set-level description and exact curve stabilizer are checked; scheme structure is not inferred.
-2. H07 simple-edge geometry is checked; retain the broader wall/fan claims as open.
+2. H07 contact/weight/toric-model geometry is checked for all realized frames; require a precise definition/source before claiming a historical global parameter fan.
 3. Continue earlier August–October conversation retrieval in large thematic batches, deduplicate by mathematical claim, and close M items after exact content comparison.
 4. Only after verification, place genuinely new mathematics into an existing canonical Result/Argument/Framework/Investigation and retire this temporary ledger when its purpose is complete.
 
-**Coverage accounting:** 17 historical topic clusters inventoried; 1 new typed Result added ([R-0074](results/chow_polytope_rigidity.md)); H15 integrated with a reviewed cycle-level proof; H07 broader/global claims and H17 remain unverified, alongside several matching-but-unclosed clusters. No exhaustive conversation count is available.
+**Coverage accounting:** 17 historical topic clusters inventoried; 1 new typed Result added ([R-0074](results/chow_polytope_rigidity.md)); H15 integrated with a reviewed cycle-level proof; H07's undefined historical parameter-fan claim and H17 remain unverified, alongside several matching-but-unclosed clusters. No exhaustive conversation count is available.
 
 ## Integrated follow-up and proof inventory
 
