@@ -61,3 +61,8 @@ For a general choice of four coordinate hyperplanes meeting (C) transversely in 
 ## Integrated follow-up and proof inventory
 
 The [bounded crosswalk](investigations/proof-audit/recovery-crosswalk.md) distinguishes exact owners from unverified historical equivalence. H09 now has a [three-equation set-support proof for the different P4 curve](arguments/curve/fixed_quartic_geometry.md#a-different-curve-the-rational-normal-quartic-in-p4); H17 remains exploratory. The [linear-algebra inventory](investigations/proof-audit/README.md) and [file-level appendix](investigations/proof-audit/executable-evidence.md) are evidence maps, not new theorem classifications. R-0024 now has a geometric joint-rank proof while retaining its source-geometry certificate.
+
+This remains a provisional recovery ledger. Checked bounded statements are
+not claims of exact equivalence with unread historical transcripts; filename
+matches are navigation evidence only. Proof-replacement priorities in the
+inventory do not rank research approaches to unrestricted STCI.

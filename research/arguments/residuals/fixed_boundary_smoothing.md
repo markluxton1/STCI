@@ -109,15 +109,41 @@ Write \(p=C\cap L\), with \(u=r=-1\). We show that \((D,S)\) is onto over \(\mat
 **Fill the boundary directions vanishing at \(p\) without touching the nodes.** The quadric \(Q=x_0x_3-x_1x_2\) contains both \(C\) and \(L\). For any homogeneous quadric \(q\), the quartic \(Qq\) belongs to \(V\) and vanishes on \(L\), so perturbing either equation by it gives zero node class. Its first-normal symbol is \(q|_C\sigma_Q\), where \(\sigma_Q=(1,-u)\). The first-normal rows of (1) give
 
 \[
+\begin{aligned}
+h_0(u)&=1+u^2+u^3+2u^5+u^6+u^8,\\
+h_1(u)&=2+u+3u^2+2u^4+5u^6+3u^7+7u^8,\\
+\sigma_f&=(h_0-1,-u h_0-1),\\
+\sigma_g&=(h_1-3u^8-2u^9,\,4u^9-u h_1+3u^{10}).
+\end{aligned}
+\]
+
+Here \(h_i=H_i|_C\) on \(s=1\): substituting \(x_2=u^3+Y\), \(x_3=u^4+X\) into the homogeneous forms of (1), the non-quadric terms \(F,x_0A,G,x_3D_3\) contribute \((-1,0),(0,-1),(-3u^8,4u^9),(-2u^9,3u^{10})\), respectively. The terms \(QH_i\) contribute \(h_i(1,-u)\). Thus
+
+\[
 \det(\sigma_Q,\sigma_g)=u^9(1+u),\qquad
 \det(\sigma_f,\sigma_Q)=1+u.
 \]
 
-Quadratic restrictions fill \(H^0(\mathcal O_{\mathbf P^1}(8))\): ambient quadrics restrict onto \(H^0(Q,\mathcal O_Q(2,2))\), and on the smooth quadric the kernel of restriction to the \((1,3)\)-curve is \(\mathcal O_Q(1,-1)\), with \(H^1=0\). After homogenizing and dividing by \(s+t\), the two boundary subspaces from (5) are \(t^9H^0(\mathcal O(8))\) and \(s^9H^0(\mathcal O(8))\), together spanning \(H^0(\mathcal O(17))\). Thus the joint image contains \(H^0(\mathcal O(18)(-p))\times 0\).
+Quadratic restrictions fill \(H^0(\mathcal O_{\mathbf P^1}(8))\): the quadrics \(x_0^2,x_0x_1,x_1^2,x_0x_2,x_0x_3,x_1x_3,x_2^2,x_2x_3,x_3^2\) restrict to the nine monomials \(s^{8-j}t^j\) for \(j=0,\ldots,8\), in that order. Writing \(q_C(s,t)\) for the homogeneous degree-eight restriction of \(q\), homogenize (5) to degree 18 with \(u=t/s\). The two variations \((Qq,0)\) and \((0,Qq)\) then give \((s+t)t^9 q_C\) and \((s+t)s^9 q_C\), respectively. After dividing by \(s+t\), the monomials in the first subspace have \(t\)-exponents 9 through 17, and those in the second have exponents 0 through 8. Together they give the whole degree-17 space, so before division they give exactly the sections of \(\mathcal O(18)\) vanishing at \(p=[1:-1]\). The joint image contains \(H^0(\mathcal O(18)(-p))\times 0\).
 
 **Read the last boundary value from restriction to \(L\).** In line coordinates \([x_0:x_1:x_2:x_3]=[-R:R:-S:S]\), the cubics \(A\), \(B=x_0x_2^2-x_1^2x_3\), and \(D_3\) in \(I_C\) restrict to \(R+S\) times \(R^2,-RS,-S^2\), respectively. Ambient linear forms restrict onto \(H^0(L,\mathcal O_L(1))\), so products with those cubics show that \(V\to H^0(L,\mathcal O_L(4)(-p))\) is onto. In particular, any polynomial of degree at most four divisible by \(r+1\) is an allowable restriction in the chart \(x_3=1\).
 
-At \(p\), the actual homogeneous pair (1) has \(\sigma_f(p)=0\) and \(\sigma_g(p)=14\sigma_Q(p)=(14,14)\). In the \(x_0=1\) chart the line has \(u=-1\), \(X=-1/r-1\), and \(Y=-X\). At \(r=-1\), \(dX/dr=1\). The two quartic trivializations differ by a unit of value one at \(p\), and \(h(p)=0\), so the derivative of \(h|_L\) is the same in either trivialization. Therefore (5) gives
+For later use, here are global lifts of all the line restrictions used below. The functions in the first row are dehomogenized in \(x_3=1\); the second row consists of homogeneous quartics in \(I_C\).
+
+\[
+\begin{array}{c|ccccc}
+ h|_L & r+1 & r(r+1) & r^2(r+1) & r^3(r+1) & r(r+1)^2\\ \hline
+ h & -x_3D_3 & -x_1D_3 & x_3A & x_1A & x_3(A-B)
+\end{array}
+\]
+
+At \(u=-1\), the displayed rows, with \(h_0(-1)=1\) and \(h_1(-1)=15\), give \(\sigma_f(p)=0\) and \(\sigma_g(p)=14\sigma_Q(p)=(14,14)\). To compare the coordinate charts, write \(h_L(r)=h(-r,r,-1,1)\) and \(\widetilde h(u,X,Y)=h(1,u,u^3+Y,u^4+X)\). The line in the \(x_0=1\) chart is \((u,X,Y)=(-1,-1/r-1,1/r+1)\). By homogeneity,
+
+\[
+\widetilde h(-1,-1/r-1,1/r+1)=(-r)^{-4}h_L(r).
+\]
+
+At \(r=-1\), the factor \((-r)^{-4}\) has value one and \(h_L(-1)=0\), so the right-hand derivative is \(h_L'(-1)\). The left-hand derivative is \(0\cdot\partial_u\widetilde h+\partial_X\widetilde h-\partial_Y\widetilde h=A_h(p)-B_h(p)\) by the chain rule. Evaluating (5) at \(s=1,t=-1\) now gives
 
 \[
 D(h,k)(p)=14(A_h(p)-B_h(p))=14(h|_L)'(-1).

@@ -89,15 +89,11 @@ compatibility of successive blowups, a global parameter-space fan, and exact
 identity with the original historical claim remain unverified. Nothing here
 constructs or obstructs a proper sole-support homogeneous pair for C.
 
-### Additional checked multiplicity reference
+### Boundary of the claim
 
-Sturmfels–Tevelev, *Elimination Theory for Tropical Varieties*, §§2–3,
-Definition 3.1/Lemma 3.2: https://arxiv.org/abs/0704.3471 . For this case take
-the open toric subfan consisting of the origin and the five rays in the
-ambient blowup fan. The strict curve is still proper in this open. Its
-boundary intersections are transverse, and the torus orbit tangent vectors
-together with the curve's transverse tangent span the ambient tangent space.
-Thus the multiplication map is smooth and surjective; ray multiplicities
-are the corresponding orbit-intersection lengths. This supplies a second
-geometric justification of the valuation weights without misidentifying
-the full complete ambient fan with the tropical curve.
+The proof retained here is the normalization-valuation calculation and the
+transverse local edge-blowup calculation. No additional assertion is made
+that a ray-only toric open is a tropical compactification, or that its torus
+multiplication map is smooth, surjective or flat. Such an upgrade would
+require a separate global properness and orbit-by-orbit check. The local
+weights above do not depend on that upgrade.

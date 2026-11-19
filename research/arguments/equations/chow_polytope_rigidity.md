@@ -302,10 +302,9 @@ Retain an algebraically closed field k of arbitrary characteristic and an
 integer m >= 1. Define F_m(k) to be the set of effective one-cycles Z with
 P_Z = m P_C in the full, unshifted column-weight normalization above.
 
-Retain an algebraically closed field k of arbitrary characteristic and an
-integer m >= 1. Define F_m(k) to be the set of effective one-cycles Z with
-P_Z = m P_C in the full, unshifted column-weight normalization above.
-
+This is a corollary of R-0074 together with the split-torus stabilizer
+calculation below, not a new rigidity theorem. It classifies cycles in the
+exact polytope fiber, not surface pairs or equation realizations.
 There is a natural bijection of sets
 
     Sym^m(T/T_C)(k)  -->  F_m(k),
