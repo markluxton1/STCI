@@ -7,6 +7,7 @@ integration delta is that [R-0024's joint rank now has a geometric proof](../../
 Its explicit tangent witnesses and source-geometry certificate remain evidence.
 No claim is made that all archived CAS computations were replayed.
 
+- [Ranked knowledge-gain priorities](knowledge-gain-priorities.md): stable KG01–KG10 research questions ranked by relevance to unrestricted characteristic-zero STCI, not matrix size or editorial cleanup.
 - [Executable file-level appendix](executable-evidence.md): 150 current artifacts and 252 pinned historical references, not additional mathematical claims.
 - [Historical recovery crosswalk](recovery-crosswalk.md).
 - [Recovery ledger](../../cross_conversation_recovery_audit.md).
