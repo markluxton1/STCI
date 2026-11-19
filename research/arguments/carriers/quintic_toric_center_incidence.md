@@ -1,32 +1,65 @@
-# Toric quintic centers: full inverse support and the remaining incidence
+# Toric quintic centers: full inverse support and exclusion
 
-The argument proves a **partial exclusion** and leaves a final parameter locus unresolved. Fix the embedded rational quartic
-`C0=[u^4:u^3v:uv^3:v^4]` over an algebraically closed field of characteristic
-zero. It does not exclude every toric quintic normalization or settle unrestricted STCI.
+<a id="toric-quintic-centers-full-inverse-support-and-the-remaining-incidence"></a>
+
+Fix the embedded rational quartic
+`C0=[u^4:u^3v:uv^3:v^4]` over an algebraically closed field of
+characteristic zero. Every admissible projection of a marked toric
+quintic normalization has an extra inverse point over C0. Consequently
+no integral quintic with toric normalization can carry a mate for C0.
+The argument leaves the unrestricted STCI question open.
 
 ## 1. Geometric object and scope
 
-The [marked-source proof, §§4.1–4.2](quintic_non_gorenstein_toric_sources.md)
-reduces every hypothetical toric quintic normalization, together with its
-marked quartic, to the normal surface in P4
+Assume an integral quintic S has toric normalization and a hypothetical
+sole-supported mate for C0. The [polarized-source classification](quintic_non_gorenstein_toric_sources.md#41-this-is-the-only-remaining-polarized-toric-normalization)
+gives the full reduced inverse of C0 as a single smooth degree-four
+curve. The [marked-curve classification](quintic_non_gorenstein_toric_sources.md#42-the-marked-curve-is-unique-up-to-a-source-automorphism)
+identifies the normalization and that curve, up to polarized isomorphism,
+with the following pair in P4:
 
     X: BD-C^2 = AEC-D^3 = ABE-CD^2 = 0,
     c(t)=(t,t^3(t+1),t^2(t+1),t(t+1),(t+1)^2).
 
-The marked curve includes its projective point at infinity. There is an
-actual section `q in H0(X,4H)` with `div(q)=5c`; every possible mate pulls
-back to a power of q. A projection must be finite and birational and map
-c isomorphically to fixed C0. An extra point of X outside c mapping into
-C0 prevents every such power from descending. This is a full inverse-support
-test, not a count of a residual curve in an ambient intersection. The
-[fixed-carrier criterion](../../results/fixed_carrier_conductor_criterion.md)
-supplies the implication to every mate degree.
+The marked curve includes its projective point at infinity. The
+normalization morphism is projection from a point outside X and maps c
+isomorphically to C0. An extra point of X outside c mapping into C0
+contradicts the full reduced inverse support forced by a mate of any
+degree. Equivalently, every pulled-back mate would be a nonzero scalar
+times a positive power of the [section with divisor `5c`](quintic_non_gorenstein_toric_sources.md#5-the-quartic-root-exists-on-the-normalization),
+which is nonzero at the extra point. This is the necessary support part
+of the [fixed-carrier criterion](../../results/fixed_carrier_conductor_criterion.md).
 
-The possible centers preserving the marked image form the PGL2 orbit of
-the missing-middle-coordinate center of the rational normal quartic.
-A finite distinct pair and a one-infinity pair cover this orbit. Coincident
-pairs lie on c and are inadmissible centers. We test all admissible centers
-in these charts, without replacing exceptional parameters by a generic one.
+Restriction identifies `H0(X,H)` with `H0(P1,O(4))` because the five
+coordinates of c form a basis. In the binary monomial basis the target
+embedding C0 uses the subsystem `span(u^4,u^3v,uv^3,v^4)`. Since any
+isomorphism from c to C0 differs from the displayed parametrization
+by a PGL2 change on P1, the four-dimensional subsystem on c is a
+PGL2 translate of that subsystem. Its annihilator gives the center,
+so the centers form the PGL2 orbit of coefficient extraction at
+`u^2v^2`, restricted to points outside X.
+
+In coordinates, apply the functional `f -> [u^2v^2] f(U,V)` for
+an invertible substitution `(U,V)=(a_0*u+b_0*v,c_0*u+d_0*v)`.
+Scaling either column of this substitution scales the functional by
+the square of that factor, and exchanging the columns preserves it.
+Thus it suffices to use the unordered pairs of distinct points
+`[a_0:c_0],[b_0:d_0]` of P1. For a finite pair choose
+`(U,V)=(u+v,q*u+r*v)`. For one point at infinity choose
+`(U,V)=(u,r*u+v)`. These are the two charts of §§2–3. Coincident
+columns would give a functional proportional to evaluation at the
+common column point, which is a point of c itself and cannot be a
+center.
+
+If `(p0,p1,p2,p3,p4)` are the extracted coefficients for
+`(U^4,U^3V,U^2V^2,UV^3,V^4)`, the coefficients in the marked source
+coordinates are `(p3,p0+p1,p1+p2,p2+p3,p2+2*p3+p4)` by the
+homogeneous parametrization (6) of the marked source. Substituting
+the two chart matrices yields the center formulas below. Each such
+center outside X yields the required image on c. The projection of X
+is finite because its pullback of O(1) is ample. Its image spans P3,
+so the degree product five also forces this projection to be
+birational onto an integral quintic.
 
 ## 2. Finite-pair chart and certified exclusions
 
@@ -116,7 +149,9 @@ The projective marked endpoint was separately checked with fiber coordinates
 on c. The limiting center r=infinity is `[0:0:0:0:1]` on X and is
 inadmissible. These endpoint checks do not replace the finite-t argument.
 
-## 4. Three exceptional curves and the uncompleted locus
+<a id="4-three-exceptional-curves-and-the-uncompleted-locus"></a>
+
+## 4. Exceptional finite loci and complete exclusion
 
 For nonzero W in characteristic zero, the exact elementary criterion is
 
@@ -196,26 +231,74 @@ where alpha,beta are those two roots and gamma is nonzero. Up to their
 exchange there are three multiplicity patterns, 5+0, 4+1 and 3+2.
 Geometrically all five residual-polynomial roots would have to coalesce
 at the two parameters where the nonmarked branch returns to the marked
-point. These are candidate full-support configurations, not demonstrated
-centers or residual components downstairs. This is a useful formulation
-for a later bounded test, not a completed classification of (3).
+point. The following calculation excludes all three multiplicity patterns
+at once.
 
-The unfinished M calculation must be kept separate. A previous scratch
-run formed the remainder of D W' modulo W, found coefficient numerators
-of degree 22 and their scalar gcd with M equal to one, then stopped
-before the multivariate Groebner calculation completed. The process was
-cancelled at the user's earlier closeout request. A gcd of one in two
-variables proves neither an empty common zero locus nor finiteness.
-There is no certified classification of M, no surviving admissible center,
-and no STCI construction from this calculation. The temporary unfinished
-program has no continuing consumer; the exact input W and condition (2)
-preserve the mathematical question.
+### Exact elimination on M=0
+
+Write `W=sum_i w_i t^i` and set `w_-1=w_6=0`. On (3) we have
+`w_5=dN !=0`. If W divides `h W'`, comparing the two highest
+coefficients forces the quotient to be `5dt-10c-d*w_4/w_5`.
+After clearing `w_5`, the coefficient of `t^i` in the difference is
+
+    E_i = w_5*((i-6)*d*w_(i-1) - 2ci*w_i + b*(i+1)*w_(i+1))
+          + (10c*w_5+d*w_4)*w_i.
+
+The coefficients at degrees six and five vanish identically. Thus (3)
+requires `M=E_0=...=E_4=0`. For each i from 0 to 4 compute
+`R_i(m)=Res_n(M,E_i)` over Q[m] using the degrees before specializing m.
+For every pair `(m_*,n_*)` in the ground field satisfying these six
+equations, evaluation at `n_*` annihilates the image of each Sylvester
+map specialized at `m_*`. Evaluation is a nonzero linear functional, so
+all five resultants vanish at `m_*` even if some input degrees drop. The
+[exact elimination](../../computations/quintic_toric_remaining_centers.py)
+gives the monic squarefree part of `gcd(R_0,...,R_4)` as
+`p_1*p_2*p_3*p_4/24`, where
+
+    p_1 = m+2,
+    p_2 = 3m+2,
+    p_3 = m^3+4m^2+4m+8,
+    p_4 = 8m^5+32m^4+42m^3+31m^2+16m+4.
+
+These four irreducible factors give the necessary projection locus.
+For each factor p, let a be the class of m in the number field
+`Q[m]/(p)`. Reduce the coefficients of M and every E_i modulo p, then
+take their monic common gcd as polynomials in n over that field.
+The degrees of `(M,E_0,E_1,E_2,E_3,E_4)` over Q(m) are
+`(3,8,8,9,9,9)`. The table gives the exact specialized degrees and gcds.
+
+| Factor | Specialized degrees in n | Monic common gcd in n | Consequence on (3) |
+| --- | --- | --- | --- |
+| `p_1` | `(3,8,8,9,9,8)` | `(n-1)^2` | At `a=-2, n=1`, the gate factor `Delta=a^2-4n` vanishes. |
+| `p_2` | `(2,7,7,8,8,7)` | `1` | The specialized equations have no common root. |
+| `p_3` | `(3,8,8,9,9,9)` | `n-a^2/4` | The gate factor `Delta=a^2-4n` vanishes. |
+| `p_4` | `(3,8,8,9,9,9)` | `n+a^2/(3a+2)` | The gate factor `d=a^2+(3a+2)n` vanishes. |
+
+In the last row `3a+2` is nonzero because `p_4` is coprime to `p_2`.
+Each embedding of `Q[m]/(p)` into the algebraically closed
+characteristic-zero ground field transports the gcd and its Bézout
+identity, so the same computation covers every conjugate of a.
+The specialized gcds use the actual input degrees, including the drops
+in the first two rows. The quotient calculation in t requires degree
+five only on (3), where `w_5=dN` is nonzero; the finite cases with
+`dN=0` were already treated in §2. The verifier checks that the
+squarefree part of each specialized gcd divides the specialized gate
+`Delta*K0*d*N*U0*V1*V2`. An independent replay checked the signs,
+projection and specialized exclusions. This closes the last finite-center
+incidence. Together with the one-infinity boundary in §3, it excludes
+full inverse support for every admissible toric center.
 
 ## 5. Exact computational evidence and scope
 
 The [finite-center program](../../computations/quintic_toric_finite_centers.py), [coefficient input](../../computations/quintic_toric_finite_centers.json), and [one-infinity boundary program](../../computations/quintic_toric_boundary_centers.py) record the exact polynomial calculations. The [three-curve specialization certificate](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/quintic_toric_exception_centers.py) and [independent specialization audit](https://github.com/markluxton1/STCI/blob/719e47f452b5286a794731637df5c086b068bad5/research/computations/quintic_toric_exception_audit.py) establish the stated exclusions under \(\Delta K_0dN\ne0\). Their exact source versions were previously checked; these files have not been rerun in this consolidation.
 
-The JSON describes an earlier four-curve necessary gate; the later exclusions of \(U_0,V_1,V_2\) in §4 supersede that field. The \(M=0\) locus remains unresolved, as does descent of a power of the upstairs section through the actual projection/conductor algebra. No complete toric-quintic or unrestricted characteristic-zero STCI exclusion follows.
+The JSON preserves the coefficients and the intermediate four-curve
+necessary gate. Section 4 tests all four curves and completes the
+exclusion. The obstruction is an actual extra point in the inverse of C0,
+so it applies to every power of the upstairs section and every mate degree.
+The marked-source classification covers toric normalizations. The
+non-toric, non-Gorenstein case and unrestricted characteristic-zero STCI
+remain open.
 
 ## Related quintic incidence developments
 

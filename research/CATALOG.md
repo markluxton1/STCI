@@ -11,7 +11,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | --- | --- | --- | --- |
 | [STCI-R-0001](results/quartic_carrier_exclusion.md) | Complete exclusion of integral quartic carriers of the fixed rational quartic | evidence: [research/arguments/carriers/quartic_carrier_proof.md](../research/arguments/carriers/quartic_carrier_proof.md); evidence: [research/arguments/carriers/genus_two_ambient_conic_model_proof.md](../research/arguments/carriers/genus_two_ambient_conic_model_proof.md); evidence: [research/arguments/carriers/genus_two_bisection_proof.md](../research/arguments/carriers/genus_two_bisection_proof.md); evidence: [research/arguments/carriers/genus_two_nonendpoint_proof.md](../research/arguments/carriers/genus_two_nonendpoint_proof.md); evidence: [research/arguments/carriers/genus_two_endpoint_proof.md](../research/arguments/carriers/genus_two_endpoint_proof.md); evidence: [research/arguments/carriers/genus_two_endpoint_local_corrections.md](../research/arguments/carriers/genus_two_endpoint_local_corrections.md); independent_audits: [research/arguments/carriers/quartic_carrier_proof.md#9-verification-and-logical-boundaries](../research/arguments/carriers/quartic_carrier_proof.md#9-verification-and-logical-boundaries); no recorded proof route | untyped record |
 | [STCI-R-0002](results/cartier_singleton_lift.md) | Minimal-degree normalization for a Cartier singleton lift | evidence: [research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md](../research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md); independent_audits: [research/arguments/spectral/quadratic_root_and_blowup_incidence.md#quadratic-root-and-blowup-incidence](../research/arguments/spectral/quadratic_root_and_blowup_incidence.md#quadratic-root-and-blowup-incidence); independent_audits: [research/arguments/normal-geometry/thick_equality_socle.md#symbolic-ribbons-valuation-bounds-and-normalization-controls](../research/arguments/normal-geometry/thick_equality_socle.md#symbolic-ribbons-valuation-bounds-and-normalization-controls); no recorded proof route | untyped record |
-| [STCI-R-0003](results/fixed_carrier_conductor_criterion.md) | Fixed-carrier conductor descent criterion | evidence: [research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md](../research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md); evidence: [research/arguments/carriers/conductor_descent_algebra.md](../research/arguments/carriers/conductor_descent_algebra.md); independent_audits: [research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md](../research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md); independent_audits: [research/arguments/carriers/conductor_descent_algebra.md](../research/arguments/carriers/conductor_descent_algebra.md); no recorded proof route | untyped record |
+| [STCI-R-0003](results/fixed_carrier_conductor_criterion.md) | Fixed-carrier conductor descent criterion | evidence: [research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md](../research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md); evidence: [research/arguments/carriers/conductor_descent_algebra.md](../research/arguments/carriers/conductor_descent_algebra.md); independent_audits: [research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md](../research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md); independent_audits: [research/arguments/carriers/conductor_descent_algebra.md](../research/arguments/carriers/conductor_descent_algebra.md); divisorial relation and full conductor descent: accepted | untyped record |
 | [STCI-R-0004](results/projection_phase_reduction.md) | Full-conductor phase and torsion-coset reduction for projection families | evidence: [research/arguments/carriers/projection_torsion_and_rational_phase_bounds.md](../research/arguments/carriers/projection_torsion_and_rational_phase_bounds.md); independent_audits: [research/arguments/carriers/projection_torsion_and_rational_phase_bounds.md](../research/arguments/carriers/projection_torsion_and_rational_phase_bounds.md); no recorded proof route | untyped record |
 | [STCI-R-0005](results/smooth_root_formal_obstruction.md) | Smooth movement-two roots do not lift to all exceptional neighborhoods | evidence: [research/arguments/spectral/finite_root_families_and_smooth_obstructions.md](../research/arguments/spectral/finite_root_families_and_smooth_obstructions.md); evidence: [research/arguments/spectral/finite_root_families_and_smooth_obstructions.md](../research/arguments/spectral/finite_root_families_and_smooth_obstructions.md); independent_audits: [research/arguments/spectral/finite_root_families_and_smooth_obstructions.md](../research/arguments/spectral/finite_root_families_and_smooth_obstructions.md); no recorded proof route | untyped record |
 | [STCI-R-0006](results/actual_ci_smooth_root_bridge.md) | Actual complete-intersection blowup bridge for smooth full roots | evidence: [research/arguments/spectral/uniform_root_towers_and_inseparable_bridges.md](../research/arguments/spectral/uniform_root_towers_and_inseparable_bridges.md); independent_audits: [research/arguments/spectral/uniform_root_towers_and_inseparable_bridges.md](../research/arguments/spectral/uniform_root_towers_and_inseparable_bridges.md); independent_audits: [research/arguments/spectral/uniform_root_towers_and_inseparable_bridges.md](../research/arguments/spectral/uniform_root_towers_and_inseparable_bridges.md); no recorded proof route | untyped record |
@@ -83,6 +83,8 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0072](results/torus_quotient_movement_bounds.md) | Lower bounds on transverse movement from the actual defining equations | multiplier rank and the splitting of the moving quotient: accepted | [scope](results/torus_quotient_movement_bounds.md#scope) |
 | [STCI-R-0073](results/endpoint_equation_torsion.md) | Endpoint detection of equation torsion and a residual degree bound | endpoint localization and the first equation layer: accepted | [scope](results/endpoint_equation_torsion.md#scope) |
 | [STCI-R-0074](results/chow_polytope_rigidity.md) | Full Chow-polytope rigidity for the fixed quartic | endpoint support and separating-face degree exhaustion: accepted | [scope](results/chow_polytope_rigidity.md#scope) |
+| [STCI-R-0075](results/toric_quintic_carrier_exclusion.md) | Toric quintic normalizations exclude every mate degree | marked normalization and full inverse support at every projection center: pending | [scope](results/toric_quintic_carrier_exclusion.md#scope) |
+| [STCI-R-0076](results/elliptic_inverse_support.md) | Full inverse support in the marked elliptic double-cover construction | target rulings and a Cartier zero scheme on the residual divisor: pending | [scope](results/elliptic_inverse_support.md#scope) |
 
 ## Arguments
 
@@ -118,6 +120,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | --- | --- | --- | --- |
 | [STCI-I-0001](investigations/supported-generator-incidence/index.md) | Two-equation incidence on bounded supported attracting families | planned | [scope](investigations/supported-generator-incidence/index.md#scope) |
 | [STCI-I-0002](investigations/quotient-hilbert-comparison/index.md) | Specialization between moving transverse quotients and full Hilbert limits | active | [scope](investigations/quotient-hilbert-comparison/index.md#scope) |
+| [STCI-I-0005](investigations/stci-equation-search/index.md) | Bounded equation search through the elliptic double inverse | complete | [scope](investigations/stci-equation-search/index.md#scope) |
 
 ## Aliases
 
@@ -128,6 +131,7 @@ Untyped source passages do not synthesize proof-route reviews.
 ## Proof routes and backlinks
 
 - STCI-R-0002: recorded references (dependencies) [STCI-R-0001]; no synthesized accepted route.
+- STCI-R-0003: divisorial relation and full conductor descent; joint premises []; proof `research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md#4-an-exact-fixed-carrier-criterion-including-thick-support`; review accepted, inherited at `#current-mathematical-evidence`.
 - STCI-R-0004: recorded references (dependencies) [STCI-R-0002, STCI-R-0003]; no synthesized accepted route.
 - STCI-R-0006: recorded references (dependencies) [STCI-R-0005]; no synthesized accepted route.
 - STCI-R-0007: recorded references (dependencies) [STCI-R-0005, STCI-R-0006]; no synthesized accepted route.
@@ -189,6 +193,8 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0072: multiplier rank and the splitting of the moving quotient; joint premises [STCI-R-0020, STCI-R-0042]; proof `#proof`; review accepted, reconstructed at `#review`.
 - STCI-R-0073: endpoint localization and the first equation layer; joint premises []; proof `#proof`; review accepted, reconstructed at `#review-and-scope-of-the-comparison`.
 - STCI-R-0074: endpoint support and separating-face degree exhaustion; joint premises []; proof `research/arguments/equations/chow_polytope_rigidity.md#chow-forms-products-and-the-one-parameter-subgroup`; review accepted, reconstructed at `#review`.
+- STCI-R-0075: marked normalization and full inverse support at every projection center; joint premises [STCI-R-0003]; proof `research/arguments/carriers/quintic_toric_center_incidence.md#1-geometric-object-and-scope`; review pending at `#review`.
+- STCI-R-0076: target rulings and a Cartier zero scheme on the residual divisor; joint premises []; proof `research/arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber`; review pending at `#review`.
 
 ## Research relationships (grouped)
 
@@ -196,10 +202,15 @@ Untyped source passages do not synthesize proof-route reviews.
 - [STCI-R-0054] — limits → [STCI-F-0002]; [explanation owned by STCI-F-0002](frameworks/embedded-torus-quotients/index.md#embedded-controls).
 - [STCI-F-0001] — motivates → [STCI-I-0001]; [explanation owned by STCI-I-0001](investigations/supported-generator-incidence/index.md#purpose).
 - [STCI-F-0001, STCI-F-0002] — motivates → [STCI-I-0002]; [explanation owned by STCI-I-0002](investigations/quotient-hilbert-comparison/index.md#purpose).
+- [STCI-F-0005, STCI-F-0006] — motivates → [STCI-I-0005]; [explanation owned by STCI-I-0005](investigations/stci-equation-search/index.md#purpose).
 - [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072, STCI-R-0073] — uses → [STCI-F-0001]; [explanation owned by STCI-F-0001](frameworks/torus-supported-boundaries/index.md#available-results).
 - [STCI-R-0037, STCI-R-0039, STCI-R-0046] — uses → [STCI-I-0001]; [explanation owned by STCI-I-0001](investigations/supported-generator-incidence/index.md#inputs).
 - [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] — uses → [STCI-I-0002]; [explanation owned by STCI-I-0002](investigations/quotient-hilbert-comparison/index.md#inputs).
 - [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056, STCI-R-0072] — uses → [STCI-F-0002]; [explanation owned by STCI-F-0002](frameworks/embedded-torus-quotients/index.md#available-results).
+- [STCI-R-0075, STCI-R-0076] — uses → [STCI-F-0005]; [explanation owned by STCI-F-0005](frameworks/carrier-normalization/index.md#projection-polarization-and-low-degree-scopes).
+- [STCI-R-0075, STCI-R-0076] — uses → [STCI-F-0007]; [explanation owned by STCI-F-0007](frameworks/residual-construction/index.md#interfaces).
+- [STCI-R-0076] — uses → [STCI-F-0006]; [explanation owned by STCI-F-0006](frameworks/global-equation-realization/index.md#bridges).
+- [STCI-R-0076] — uses → [STCI-I-0005]; [explanation owned by STCI-I-0005](investigations/stci-equation-search/index.md#inputs).
 
 ## Object backlinks
 
@@ -216,16 +227,17 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-F-0002: limits: [STCI-R-0054] → [STCI-F-0002] (owner STCI-F-0002); motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056, STCI-R-0072] → [STCI-F-0002] (owner STCI-F-0002).
 - STCI-F-0003: no declared backlinks.
 - STCI-F-0004: no declared backlinks.
-- STCI-F-0005: no declared backlinks.
-- STCI-F-0006: no declared backlinks.
-- STCI-F-0007: no declared backlinks.
+- STCI-F-0005: motivates: [STCI-F-0005, STCI-F-0006] → [STCI-I-0005] (owner STCI-I-0005); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005).
+- STCI-F-0006: motivates: [STCI-F-0005, STCI-F-0006] → [STCI-I-0005] (owner STCI-I-0005); uses: [STCI-R-0076] → [STCI-F-0006] (owner STCI-F-0006).
+- STCI-F-0007: uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0007] (owner STCI-F-0007).
 - STCI-F-0008: no declared backlinks.
 - STCI-F-0009: no declared backlinks.
 - STCI-I-0001: motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001).
 - STCI-I-0002: motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] → [STCI-I-0002] (owner STCI-I-0002).
+- STCI-I-0005: motivates: [STCI-F-0005, STCI-F-0006] → [STCI-I-0005] (owner STCI-I-0005); uses: [STCI-R-0076] → [STCI-I-0005] (owner STCI-I-0005).
 - STCI-R-0001: recorded reference from STCI-R-0002 (dependencies group [STCI-R-0001]); recorded reference from STCI-R-0013 (dependencies group [STCI-R-0001, STCI-R-0010]); recorded reference from STCI-R-0014 (dependencies group [STCI-R-0001, STCI-R-0008, STCI-R-0010, STCI-R-0011, STCI-R-0013]); recorded reference from STCI-R-0035 (dependencies group [STCI-R-0034, STCI-R-0001]).
 - STCI-R-0002: recorded reference from STCI-R-0004 (dependencies group [STCI-R-0002, STCI-R-0003]); recorded reference from STCI-R-0017 (dependencies group [STCI-R-0002, STCI-R-0003]).
-- STCI-R-0003: recorded reference from STCI-R-0004 (dependencies group [STCI-R-0002, STCI-R-0003]); recorded reference from STCI-R-0017 (dependencies group [STCI-R-0002, STCI-R-0003]).
+- STCI-R-0003: premise of STCI-R-0075 (marked normalization and full inverse support at every projection center); recorded reference from STCI-R-0004 (dependencies group [STCI-R-0002, STCI-R-0003]); recorded reference from STCI-R-0017 (dependencies group [STCI-R-0002, STCI-R-0003]).
 - STCI-R-0004: no declared backlinks.
 - STCI-R-0005: recorded reference from STCI-R-0006 (dependencies group [STCI-R-0005]); recorded reference from STCI-R-0007 (dependencies group [STCI-R-0005, STCI-R-0006]); recorded reference from STCI-R-0018 (dependencies group [STCI-R-0005]).
 - STCI-R-0006: recorded reference from STCI-R-0007 (dependencies group [STCI-R-0005, STCI-R-0006]).
@@ -297,3 +309,5 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0072: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072, STCI-R-0073] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056, STCI-R-0072] → [STCI-F-0002] (owner STCI-F-0002).
 - STCI-R-0073: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072, STCI-R-0073] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] → [STCI-I-0002] (owner STCI-I-0002).
 - STCI-R-0074: no declared backlinks.
+- STCI-R-0075: uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0007] (owner STCI-F-0007).
+- STCI-R-0076: uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0007] (owner STCI-F-0007); uses: [STCI-R-0076] → [STCI-F-0006] (owner STCI-F-0006); uses: [STCI-R-0076] → [STCI-I-0005] (owner STCI-I-0005).

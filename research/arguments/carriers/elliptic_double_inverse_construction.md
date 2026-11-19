@@ -5,8 +5,11 @@ curve \(C_0=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\). The construction
 below produces a smooth quadric mapping finitely and birationally onto an
 integral octic, with an elliptic curve mapping two-to-one onto \(C_0\).
 Its tested member has an additional isolated inverse scheme of projective
-length twelve, so that particular octic has no mate in any degree. The full
-five-parameter support and descent loci remain uncomputed.
+length twelve, so that particular octic has no mate in any degree.
+The [support test](#a-length-twelve-scheme-testing-every-basepoint-free-fiber)
+extends to every smooth basepoint-free fiber. The [center-line calculation](#the-characteristic-zero-center-line)
+excludes every eligible fiber on one characteristic-zero line. Existence
+of a fiber admitting a defining pair elsewhere in the family remains open.
 
 The global sections, fixed normalization, inverse-scheme length, normal
 geometry and fixed-member rejection have independent source review. These
@@ -16,8 +19,8 @@ from commit `b271fc5bf20a6920b1540cabd57f095139d8d7a5`. Its execution and
 the independent October 31 existence audit are reused. The retirement replay
 matched the [historical output](https://github.com/markluxton1/STCI/blob/267affa79d3ad247f53f98381d9963fdc243df16/research/computations/stci_game_existence_2026_10_30.txt). The unrestricted
 characteristic-zero STCI question remains open.
-Independent preservation review accepted this integrated proof, including
-all section rows, full scheme/support tests, rank strata and conditional filters.
+The review status of the extension to every smooth basepoint-free fiber
+is recorded with [R-0076](../../results/elliptic_inverse_support.md#review).
 
 ## 1. The torsion discrepancy supplies actual quadratic sections
 
@@ -296,6 +299,147 @@ Membership means equal ranks. On original rank \(s\), impose all augmented
 Inverting one convenient maximal minor does not cover the remaining strata.
 No universal degree-six or degree-eight matrix computation is claimed.
 
+### A length-twelve scheme testing every basepoint-free fiber
+
+Fix any smooth source quadric \(S=S_\mu\) and basepoint-free sections
+in (5). Write \(M=\mathcal O_S(1)\), \(H=M^2\), and let \(f\) be their
+finite map. The target quadric \(Q\) has coordinates
+\([u_0v_0:u_1v_0:u_0v_1:u_1v_1]\). If the entire image lay on that
+quadric, the pullbacks of its rulings would be nef of square zero with
+sum \((2,2)\). They would have classes \((2,0),(0,2)\), both of
+degree four on \(E\). The map (2) has ruling degrees two and six.
+Thus \(q(U)=U_0U_4-U_1U_3\) cuts a divisor \(Y=E+D\), where
+\(D\sim H\) is cut by \(d=q(U)/Q_0\).
+
+Let \(A,B\) be the pulled-back ruling bundles on \(Y\), in that order.
+Their product is \(H|_Y\). Let \(X=f(S)\) be the integral image
+hypersurface of degree \(e\), and let \(r=[k(S):k(X)]\), so
+\(re=H^2=8\). The Cartier divisor \(Y\) on \(S\) is the pullback
+of \(X\cap Q\) on \(X\). Pushforward of Cartier divisor cycles gives
+\(f_*[Y]=r[X\cap Q]\) as cycles on \(Q\). The equation of \(X\)
+restricts to a section of \(\mathcal O_Q(e,e)\) cutting out \(X\cap Q\).
+Thus the two ruling degrees on \(Y\) are \((8,8)\).
+[Cartier divisor pushforward, Stacks Project, Lemma 42.26.3](https://stacks.math.columbia.edu/tag/02ST)
+
+Degrees on a curve are the sums of the degrees on its integral
+components weighted by their generic lengths. Subtracting the ruling
+degrees \((2,6)\) on \(E\) gives \((6,2)\) on \(D\). Write
+\([D]=\sum_i m_i[C_i]\) with distinct integral curves \(C_i\) and
+multiplicities \(m_i\ge1\). Finiteness gives integral image curves
+\(T_i=f(C_i)\) and degrees \(\delta_i=[k(C_i):k(T_i)]\ge1\).
+In particular
+\[
+ 2=\deg_D B=\sum_i m_i\delta_i\deg_{T_i}\mathcal O_Q(0,1).
+\]
+Every summand is nonnegative. If \(T_i=C_0\), its summand is
+\(3m_i\delta_i\ge3\), since the second ruling has degree three on
+\(C_0\). This is impossible, and in particular \(E\) is no component
+of \(D\). [Degree on a proper curve, Stacks Project, Lemma 33.44.6](https://stacks.math.columbia.edu/tag/0AYW)
+
+On the target quadric the graph of \(C_0\) has equation
+\(u_0^3v_1-u_1^3v_0=0\). Its pullback to \(Y\) is zero on \(E\).
+The ideal of \(E\) in \(E+D\) is \(\mathcal O_D(-E)\), with its
+inclusion into \(\mathcal O_Y\) given by multiplication by \(Q_0\).
+Dividing the pullback by \(Q_0\) therefore gives
+\(s'\in H^0(D,A^2|_D)\), using \(AB=H|_Y\) and \(\mathcal O_S(E)=H\).
+The generic point of each \(C_i\) lies outside \(E\) and maps outside
+\(C_0\), so \(s'\) is nonzero on the residue field there. As an effective
+Cartier divisor on the smooth surface \(S\), \(D\) is a
+Cohen–Macaulay curve whose associated points are precisely these
+generic points, including when \(D\) is nonreduced. Thus \(s'\) is a
+nonzerodivisor and defines an effective Cartier zero scheme \(Z\) on
+\(D\). The sequence
+\[
+ 0\longrightarrow\mathcal O_D\xrightarrow{s'} A^2|_D
+   \longrightarrow A^2|_Z\longrightarrow0
+\]
+gives \(\operatorname{length}(Z)=\deg_D(A^2)=2\cdot6=12\).
+Off \(E\), \(Q_0\) is invertible and \(Y=D\), so \(Z\) there is
+scheme-theoretically the inverse of \(C_0\). **Full inverse support is
+equivalent to \(|Z|\subset E\).** The extra inverse scheme is the
+portion of \(Z\) away from \(E\).
+
+#### Matrix formulation
+
+There is a single matrix test throughout the basepoint-free locus. In
+the homogeneous coordinate ring \(R\) of the source quadric, put
+\[
+ g_0=(U_0^2U_3-U_1^3)/Q_0,\qquad
+ g_\infty=(U_3^3-U_1U_4^2)/Q_0 .
+\]
+The numerators vanish on \(E\), so these quotients are quartics.
+Substituting the Segre coordinates into the two cubics gives
+\(v_0^2(u_0^3v_1-u_1^3v_0)\) and \(v_1^2(u_0^3v_1-u_1^3v_0)\),
+respectively. Dividing on \(Y\) by \(Q_0\) as above shows that
+\(g_0|_D=v_0^2s'\) and \(g_\infty|_D=v_1^2s'\), with the
+\(v_i\) pulled back to \(D\). Full inverse support holds exactly when
+\[
+ Q_0^{12}\in dR_{22}+g_0 R_{20}+g_\infty R_{20}\subset R_{24}.
+\tag{9}
+\]
+Indeed \(Q_0^{12}\) vanishes on \(Z\) exactly when \(Q_0\) vanishes
+on its support, since each Artin local ring has length at most twelve.
+Identify \(R_n=H^0(S,M^n)\) by the hypersurface sequence. For
+\(n=20,24\), the divisor sequence for \(D\) gives a surjective
+restriction to \(H^0(D,M^n)\) with kernel \(dR_{n-2}\), since
+\(H^1(S,M^{n-2})=0\) on the product of projective lines. Thus the
+\(d\)-multiples span a subspace of dimension \(23^2=529\) in degree 24,
+and the quotient is \(H^0(D,M^{24})\) of dimension \(25^2-23^2=96\).
+
+The two cohomology groups needed on \(D\) are
+\[
+ H^1(D,M^{20}B^{-2})=0,\qquad H^1(D,M^{24}A^{-2})=0.
+\]
+Adjunction on the smooth quadric gives \(\omega_D\simeq\mathcal O_D\).
+By Serre duality it suffices to show that \(M^{-20}B^2\) and
+\(M^{-24}A^2\) have no sections on \(D\). On each integral \(C_i\),
+the ruling degrees are nonnegative, since the bundles are pulled
+back from the two projective lines. Their multiplicity-weighted totals
+give \(0\le\deg_{C_i}B\le2\) and \(0\le\deg_{C_i}A\le6\).
+As \(\deg_{C_i}M\ge1\), the two dual degrees are at most \(-16\)
+and \(-12\), respectively.
+
+For either dual bundle \(L\), take an effective subdivisor \(T\) of
+\(D\) and remove one copy of any integral component \(C_i\), writing
+\(T=C_i+T'\). The divisor sequence on \(S\), tensored on \(T\)
+by \(L|_T\), gives
+\[
+ 0\longrightarrow L|_{C_i}\otimes\mathcal O_{C_i}(-T')
+   \longrightarrow L|_T\longrightarrow L|_{T'}\longrightarrow0 .
+\]
+This follows locally by multiplying by an equation of \(T'\), and
+holds when \(T'\) still contains \(C_i\). Both \(T'\) and \(C_i\)
+have nonnegative bidegrees on \(S\), so \(T'\cdot C_i\ge0\).
+The kernel therefore has negative degree on the integral curve
+\(C_i\). Induction on the sum of the multiplicities of \(T\) gives
+\(H^0(D,L)=0\), proving both vanishings.
+
+On \(D\), the basepoint-free pencil \(v_0^2,v_1^2\) gives a
+surjection \(\mathcal O_D^2\to B^2\) with kernel \(B^{-2}\).
+After tensoring by \(M^{20}\), the first vanishing makes it
+surjective on sections. Multiplication by the regular section \(s'\)
+identifies its image bundle \(M^{20}B^2=M^{24}A^{-2}\) with
+\(\mathcal I_{Z/D}M^{24}\). Since the multipliers in degree 20
+all lift to \(R_{20}\), the \(g_0,g_\infty\) multiples span
+all of \(H^0(D,\mathcal I_{Z/D}M^{24})\) modulo \(dR_{22}\).
+The second vanishing gives surjectivity of the restriction from
+\(H^0(D,M^{24})\) to \(H^0(Z,M^{24})\), so this span has dimension
+\(96-12=84\). The right side of (9) is therefore the full space of
+forms vanishing on \(Z\), of rank \(529+84=613\).
+
+A birational fiber passing the geometric support test (9) requires
+an actual identity (8) to produce a mate.
+[Review status of STCI-R-0076](../../results/elliptic_inverse_support.md#review)
+
+### The characteristic-zero center line
+
+On the line \(\mu=2,\ \rho_0=\rho_1=\rho_3=0,\ \rho_4=p\), every
+basepoint-free characteristic-zero fiber fails the full inverse support
+test. For a birational fiber the Cartier-divisor argument of §3
+therefore excludes a homogeneous mate of every positive degree for its
+implicit octic. [Exact elimination and replay in STCI-I-0005](../../investigations/stci-equation-search/index.md#characteristic-zero-center-line)
+· [Separate finite-field test](../../investigations/stci-equation-search/index.md#finite-field-candidate-search).
+
 ## 6. Low-degree filters and the constructive question that remains
 
 Suppose a member's actual implicit octic has exact normal order two and
@@ -334,8 +478,9 @@ must be computed before either filter is used.
 The first unresolved implication is whether the support-unit locus (7)
 meets the smooth, basepoint-free, birational locus. Only then is a descending
 pure power in (8) a constructive target. An alternative would be a uniform
-obstruction covering this entire five-parameter source. The fixed rejection
-supplies neither answer, and cannot be repaired by increasing \(b\).
+obstruction covering this entire five-parameter source. The center-line
+rejection settles the support test on that line for every \(b\). Existence
+elsewhere in the family remains open.
 
 The involution quotient, described as a degree-four join of two conics in
 \(\mathbf P^5\), suggests another geometric model for studying the source

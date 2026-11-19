@@ -10,6 +10,14 @@ scope:
     - "Full inverse support consists of curves, without isolated points"
 statement: "An STCI mate on a fixed hypersurface exists exactly when the full conductor descent lattice contains a fully positive vector."
 dependencies: []
+proofs:
+  - name: divisorial relation and full conductor descent
+    at: "research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md#4-an-exact-fixed-carrier-criterion-including-thick-support"
+    using: []
+    review:
+      state: accepted
+      basis: inherited
+      at: "#current-mathematical-evidence"
 evidence:
   - "research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md"
   - "research/arguments/carriers/conductor_descent_algebra.md"
@@ -22,7 +30,7 @@ superseded_by: []
 limitations:
   - "Only a fixed-carrier theorem; not a global carrier classification."
   - "Abstract finite reduction is not an effective algorithm for arbitrary surfaces."
-  - "The source does not identify a separate independent-audit artifact; the current full proof has since received identified independent reconstruction."
+  - "The original theorem note records the independent auditors and their remits in section 9."
 ---
 
 # Fixed-carrier conductor descent
@@ -52,14 +60,8 @@ For a singleton branch when X is generically regular along C, set a=H^2, c=H.Gam
 
 ## Evidence
 
-[Original theorem and recorded independent audits](../arguments/carriers/fixed_carrier_descent_and_cartier_models.md).
-
-[October 14 state, Section 2](https://github.com/markluxton1/STCI/blob/0b18029d3372b5cc91f5637965e4217e0967e735/research/AUDITED_STATE_2026-10-14.md).
-
-The complete source proof and its independent mathematical reconstructions survive in the current proof homes; no unrestricted STCI conclusion follows.
+The original theorem appears in §4 of the October 13 proof note. The current proof includes the full-support and purity hypotheses. [Original §4](https://github.com/markluxton1/STCI/blob/8d4ea1ad5af2b26955571bb668ef1cc4a582fa3d/research/notes/2026-10-13-generalization-conductor-theorem.md#4-an-exact-fixed-carrier-criterion-including-thick-support) · [Current proof](../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#4-an-exact-fixed-carrier-criterion-including-thick-support)
 
 ## Current mathematical evidence
 
-The metadata identifies the live proof owners. Their statements retain the original theorem hypotheses and recorded independent reconstructions; consolidation does not imply an unrestricted conclusion. The full proof, unique corrections and necessary mathematical support are retained in those homes.
-
-The original source reports reviewers but does not identify a separate audit artifact. The current fixed-carrier lattice proof and its local algebra were independently reconstructed during consolidation at the full displayed scope; the linked consolidation-review sections provide the current review evidence, without asserting that the previously missing artifact existed.
+Acceptance is inherited from the October 14 record, §2. The original author's §9 names `cartier_lattice_audit` as the independent auditor of generic-to-global sufficiency, the arbitrary-characteristic scope and the finite support-covering argument. It names `split_unit_audit` for the characteristic-zero local unit calculation. The audit account is preserved in the theorem note itself. [Original audit record, §9](https://github.com/markluxton1/STCI/blob/8d4ea1ad5af2b26955571bb668ef1cc4a582fa3d/research/notes/2026-10-13-generalization-conductor-theorem.md#9-audit-record-and-next-mathematical-target) · [Acceptance record, §2](https://github.com/markluxton1/STCI/blob/0b18029d3372b5cc91f5637965e4217e0967e735/research/AUDITED_STATE_2026-10-14.md#2-exact-fixed-carrier-criterion-all-branches-and-all-characteristics)

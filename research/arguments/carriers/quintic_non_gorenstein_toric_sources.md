@@ -6,21 +6,20 @@ its marked rational normal quartic and an actual quartic root upstairs.
 They prove the general conic-ruling restriction and exhaust the possible
 polarized toric normalizations and marked curves of a quintic mate.
 One explicit projection is excluded by its entire inverse scheme.
-The [relative-center calculation](quintic_toric_center_incidence.md) excludes
-the full one-infinity boundary, generic finite centers and three exceptional
-curves, leaving one explicit M=0 root-support incidence unresolved.
-These are independently reviewed source claims. Independent preservation and scope review of the added center
-integration passed without a material finding; no fresh CAS replay was made.
+The [relative-center calculation](quintic_toric_center_incidence.md)
+excludes every admissible projection center by full inverse support.
+Thus the conic-ruling and source classification below exclude every
+mate on an integral quintic with toric normalization.
 
 ## 1. Why this source remains relevant
 
 The [Gorenstein-normalization theorem](quintic_gorenstein_normalizations.md)
 excludes every mate for an integral nonnormal quintic with Gorenstein
-normalization. The accepted [structural audit, §§5–6,9](quintic_conormal_and_factor_geometry.md#1-quintic-conormal-and-delpezzo-audit)
-already excludes sectional genus zero, proves rationality through genus
-three, and forces Gorenstein normalization at genus one. Thus the first
-remaining low-genus cases are two and three; genus one with non-Gorenstein
-normalization is not an additional open case.
+normalization. The structural audit
+[excludes sectional genus zero](quintic_conormal_and_factor_geometry.md#9-the-sectional-genus-zero-exclusion-also-passes),
+[proves rationality through genus three](quintic_conormal_and_factor_geometry.md#5-low-sectional-genus-the-ruled-argument-audited)
+and [forces Gorenstein normalization at genus one](quintic_conormal_and_factor_geometry.md#6-sectional-genus-one-forces-a-single-a4-normalization).
+The first remaining low-genus cases are two and three.
 
 Andreatta–Sommese, [Theorems B–C, p.198, and §0.5](https://journals.msp.org/mscand/article/download/1351/1350/1382),
 classify the polarized normalization of a possibly singular complex
@@ -147,53 +146,119 @@ smooth marked curve, beyond the numerical requirements (1).
 
 ### 4.1. This is the only remaining polarized toric normalization
 
-Suppose a hypothetical integral quintic carrier has normal projective
-toric normalization X. Its ample Cartier hyperplane bundle H is
-torus-linearizable and has a lattice polygon P of normalized area
-`H^2=5`. If B is the boundary lattice count, toric intersections give
-`K_X.H=-B`; adjunction on a general smooth hyperplane gives
+Over an algebraically closed field of characteristic zero, let `S`
+be any integral quintic in P3 containing the fixed
+`C0=[u^4:u^3v:uv^3:v^4]`, and let `nu:X->S` be its finite normalization,
+assumed toric. Suppose a homogeneous form `G` of positive degree `b`
+meets S properly with zero support exactly C0. Set `H=nu*O_S(1)`,
+an ample Cartier bundle with `H^2=5` by birationality.
+
+The surface S is regular at the generic point of C0. Otherwise its
+equation has order at least two there. Restricting to the unique
+smooth containing quadric would give either zero or a divisor of
+class `(5,5)` containing twice the curve of class `(1,3)`. The
+residual class `(3,-1)` is ineffective, and a zero restriction would
+make the quadric a factor of the quintic.
+[Fixed containing quadric](../curve/fixed_quartic_geometry.md#12-three-different-incidence-spaces-and-their-markings)
+
+Thus there is just one branch c above the generic point of C0. Its
+reduced closure maps finitely and birationally to the smooth C0 and
+therefore is isomorphic to C0, with `H.c=4`. The support of the
+effective Cartier divisor of `nu*G` is the whole inverse of C0.
+Finiteness gives no other one-dimensional component and the principal
+ideal theorem excludes isolated zeros. Consequently
+
+    (nu^-1(C0))_red = c,   div(nu*G)=5N c,   b=4N,  N>0.             (*)
+
+where the coefficient and degree follow by intersecting with H.
+These are the normalization hypotheses for the low-genus reductions.
+[Structural normalization audit](quintic_conormal_and_factor_geometry.md#direct-quintic-normalization-and-global-source-constraints)
+
+The toric linearization of H gives a lattice polygon P of normalized
+area `H^2=5`. If B is its boundary lattice count, the sum of its edge
+lattice lengths is B, and the intersection of H with each toric
+boundary curve is the corresponding edge length. Hence `K_X.H=-B`.
+A general pulled-back hyperplane is a smooth integral curve by Bertini
+for the basepoint-free system defining the birational morphism `nu`.
+It avoids the finite singular locus of X. Adjunction on this curve
+gives its genus
 
     pi=(7-B)/2 <= 2.
 
-The inherited genus-zero exclusion and genus-one reduction followed
-by the Gorenstein-normalization exclusion remove pi=0,1. A normal
-quintic image would have pi=6, so it is also impossible here. Thus
-pi=2, B=3, and P is a triangle with three primitive edges.
+If S itself were normal, a general plane section would be a smooth
+plane quintic of genus six, contrary to this bound. The genus-zero
+exclusion applies to the finite birational hyperplane model and the
+smooth degree-four lift in (*). It excludes the two smooth quintic
+scrolls by the nonintegral square `c_num^2=16/5` imposed by (*), and the
+quintic scroll cone by the effective curve classes on its resolution.
+[Genus-zero exclusion](quintic_conormal_and_factor_geometry.md#9-the-sectional-genus-zero-exclusion-also-passes)
+
+At genus one the same actual lift gives rationality of the minimal
+resolution `sigma:M->X`, and the genus-one reduction shows
+`K_M=-sigma*H`. The contraction is crepant with ADE singularities, so
+X is Gorenstein. The Gorenstein-normalization theorem excludes every
+positive mate degree on this integral nonnormal S in characteristic
+zero. Thus `pi=2`, `B=3`, and P is a triangle with three primitive
+edges. [Low-genus rationality](quintic_conormal_and_factor_geometry.md#5-low-sectional-genus-the-ruled-argument-audited) ·
+[Genus-one reduction](quintic_conormal_and_factor_geometry.md#6-sectional-genus-one-forces-a-single-a4-normalization) ·
+[Gorenstein-normalization exclusion](quintic_gorenstein_normalizations.md)
 
 After a lattice change and translation its vertices are
 `(0,0),(1,0),(p,5)`. Shears change p by multiples of five, and the
 other edges are primitive exactly when p is 2,3 or4 modulo five.
-Exchanging the base endpoints sends p to 1-p; choosing another edge
-as base sends p to its inverse modulo five. These operations identify
-all three values. Therefore (X,H) is isomorphic to the polarized
-surface (5). Its ample toric bundle gives the complete P4 embedding,
-with exactly the five lattice points displayed above.
+Exchanging the base endpoints sends p to `1-p`. To use `(p,5)`
+as the base direction, extend it to a determinant-one lattice basis
+by a vector `(i,j)` satisfying `pj-5i=1`. The first coordinate of
+the old base endpoint `(1,0)` in this basis is `j`, which is the
+inverse of p modulo five. Reflection in the second coordinate puts
+the third vertex back at height five. These operations connect all
+three values to `p=2`, the triangle of (5). Therefore (X,H) is
+isomorphic to that polarized surface. Its complete system gives the
+displayed P4 embedding, with one section for each of its five lattice
+points.
 
-This is an exhaustive reduction for toric normalizations of quintic
-mates, using the stated earlier exclusions. It is not a reduction of
-all non-Gorenstein normalizations to toric ones.
+The four pulled-back coordinate sections from P3 are independent,
+since S spans P3, and basepoint-free on X. In this complete P4
+embedding they define projection from a point outside X. The
+projection is `nu` up to target coordinates and carries the lift c
+in (*) isomorphically to C0.
 
 ### 4.2. The marked curve is unique up to a source automorphism
 
-Let c' be any smooth H-degree-four curve on (5) that projects
-isomorphically to fixed C0. It must span P4. Otherwise its span is a
-P3 on which projection is a linear isomorphism. The restriction of
-the rank-three quadric Q is nonzero, since Q contains no P3, and
-has rank at most three. This contradicts the unique smooth
-rank-four quadric containing C0. Thus the five coordinate restrictions
-are a basis of `H0(P1,O(4))`.
+Let c' be the smooth degree-four lift from (*), viewed on (5).
+Since its image C0 spans P3, the linear span of c' has dimension at
+least three. If it were a P3, projection on that P3 would be
+surjective and hence a linear isomorphism. The rank-three quadric Q
+contains no P3, since its equation would then be divisible by a
+linear form and have rank at most two. Its nonzero restriction to
+the span of c' would give a quadric of rank at most three containing
+C0, contrary to the unique rank-four containing quadric. Thus c'
+spans P4. As `c'` is isomorphic to P1 and `H|c'` has degree four,
+the five coordinate restrictions are a basis of `H0(P1,O(4))` with
+no common zero.
 
-Factor `BD=C^2` in the binary-form UFD, absorbing constant units:
+Factor `BD=C^2` in the binary-form UFD. After taking the common gcd
+of B, C and D into f, each irreducible factor of the remaining B
+or D occurs to even order, and those two forms are coprime.
+Absorbing the constant units into p and q gives
 
     B=f p^2, C=f p q, D=f q^2,
     gcd(p,q)=1, deg(p)=deg(q)=r, deg(f)=4-2r.
 
-Independence excludes r=0. Equation R gives `AE p=f^2 q^5`, so
-r=2 is impossible. For r=1, p divides f, hence `f=p h` with h
-linear and `AE=p h^2 q^5`. If h is proportional to q, all five
-coordinates have a common zero at q=0. If h is proportional to p,
-basepoint-freeness forces one of A,E to equal q^4 and the other to
-be proportional to C. Both cases fail.
+The nonzero forms B and D have degree four, so `r<=2`, and
+independence excludes `r=0`. After cancellation R gives
+`AE p=f^2 q^5`. For `r=2` this would force p to divide a power of
+the coprime q, since f is constant. Thus `r=1`, and coprimality
+forces `f=p h` with h linear. Then `AE=p h^2 q^5`. The cases of
+coincident factors are as follows.
+
+- If h is proportional to q, `AE` is a scalar times `p q^7`.
+  Each degree-four factor A and E is divisible by q, as are B, C
+  and D. This gives a common zero at `q=0`.
+- If h is proportional to p, `AE` is a scalar times `p^3 q^5`, and
+  B, C and D all vanish at `p=0`. To avoid a common zero, one of
+  A, E must be a multiple of `q^4`. The other must be proportional
+  to `p^3 q`, which is C up to a scalar. This contradicts independence.
 
 Now p,q,h are distinct. At h=0, A and E cannot both vanish, so the
 entire h^2 factor belongs to one of them. Up to exchanging A,E,
@@ -201,19 +266,26 @@ degree allocation leaves
 
     (A,E)=(q^4,p h^2 q)  or  (p q^3,h^2 q^2).
 
-Writing `h=alpha p+beta q`, the first case makes E a linear
-combination of C,D. Only the second remains. Its coordinate units
-satisfy the multiplicative identities of (5), so an inverse diagonal
-automorphism removes them. After `u'=alpha p, v'=beta q`, rescaling
+These are all degree allocations because the factor without h has
+degree four and the exponent of p in `AE` is one. Writing
+`h=alpha p+beta q`, the first case makes `E=alpha C+beta D` up to
+a scalar. In the second, the two scalar factors in A and E are
+inverse because `AE=p h^2 q^5`, and inverse scaling of A and E
+preserves (5) and removes them. Both alpha and beta are nonzero
+because h is proportional to neither p nor q. After
+`u'=alpha p, v'=beta q`, rescaling
 `(A,B,C,D,E)` by
 
     (alpha beta^3, alpha^3, alpha^2 beta, alpha beta^2, beta^2)
 
-preserves (5) and yields (6). Exchanging A and E alone also preserves
-(5). Hence all such marked curves are in the Aut(X)-orbit of c.
+preserves (5) and yields (6). Exchanging A and E also preserves (5).
+Hence the marked source is unique up to a polarized source automorphism.
 
-Sections 4.1–4.2 make the remaining relative-center problem exhaustive
-for toric quintic normalizations. They do not solve that center problem.
+Under this identification, (*) makes the curve in (6) the entire
+reduced inverse support required by a mate. The center-orbit argument
+identifies all projections of this marked source with image C0 up to
+target coordinates.
+[Projection-center orbit](quintic_toric_center_incidence.md#1-geometric-object-and-scope)
 
 ## 5. The quartic root exists on the normalization
 
@@ -285,23 +357,21 @@ of each offending fiber and is nonzero at its other point, which
 prevents every q^N from descending. This excludes the center (7),
 not all projections of X or all genus-two carriers.
 
-## The remaining relative-center problem
+<a id="the-remaining-relative-center-problem"></a>
 
-The [complete relative-center proof and exact support](quintic_toric_center_incidence.md)
-vary the center while requiring the marked rational normal quartic to map
+## Exclusion of all relative centers
+
+The [relative-center proof](quintic_toric_center_incidence.md) varies
+the center while requiring the marked rational normal quartic to map
 projectively to fixed C0. Sections 4.1–4.2 make this reduction exhaustive
-for toric quintic normalizations of a hypothetical mate. The reviewed source
-calculation excludes the entire one-infinity boundary, generic finite centers,
-and all admissible points of three exceptional curves U0,V1,V2, retaining
-both marked endpoints, parameter poles and degree-drop cases. The earlier
-four-curve gate U0*V1*V2*M=0 is therefore intermediate, not the final frontier.
-The remaining locus is M=0 on Delta*K0*d*N*U0*V1*V2!=0 with the exact
-root-support condition W | h W'. Its three possible root-multiplicity
-patterns are retained in the companion. The interrupted M calculation did
-not certify finiteness or emptiness. No surviving center or descending power
-has been constructed. The explicit five-point inverse calculation in §6
-still proves only its single-projection exclusion, and no reduction of all
-non-Gorenstein normalizations to toric ones is asserted.
+for toric quintic normalizations of a hypothetical mate. The proof
+excludes the entire one-infinity chart, the general finite centers and
+all exceptional finite loci, retaining both marked endpoints, parameter
+poles and degree drops. The [last elimination](quintic_toric_center_incidence.md#exact-elimination-on-m0)
+excludes every parameter on the remaining M locus. Every admissible center
+therefore fails full inverse support, which prevents descent of every
+power of the upstairs section. Non-toric, non-Gorenstein normalizations
+remain open.
 
 ## Exact support, characteristic and review scope
 
@@ -338,8 +408,6 @@ transports the characteristic-zero quintic exclusions to positive
 characteristic.
 
 The construction shows that canonical index five, the fixed marked
-quartic and a global root with divisor5c can coexist on a normalization.
-It identifies full inverse support as the concrete failure of this
-projection. The companion substantially narrows the other centers, while
-leaving the final M incidence and actual power descent as distinct
-realization questions.
+quartic and a global root with divisor 5c can coexist on a normalization.
+Full inverse support fails for every admissible projection of this
+marked source.

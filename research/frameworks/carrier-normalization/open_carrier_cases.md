@@ -33,26 +33,34 @@ length nine exhausts degree 36. The triple reduction uses the general-pencil
 ADE hypothesis. The [singularity and cover comparison](#compatibility-of-the-normal-sextic-cyclic-cover)
 applies to the general normal carrier.
 
-## The remaining toric quintic M locus
+<a id="the-remaining-toric-quintic-m-locus"></a>
 
-Use the [final center proof](../../arguments/carriers/quintic_toric_center_incidence.md),
-retaining `M=0`, `Delta*K0*d*N*U0*V1*V2!=0` and `W | h*W'`, together with
-every projection-admissibility condition. The multiplicity patterns are
-`5+0`, `4+1` and `3+2`; U0, V1 and V2 have already been excluded. Only a support-positive admissible center warrants actual power descent; q squared
-is the degree-(5,8) target, not proof of descent of all powers. A negative
-answer closes this toric source, not every non-Gorenstein normalization.
+## Non-toric, non-Gorenstein quintic normalizations
+
+The [toric center proof](../../arguments/carriers/quintic_toric_center_incidence.md)
+excludes all toric normalizations of quintic carriers for the fixed quartic
+in characteristic zero. The case of non-toric, non-Gorenstein
+normalizations remains open.
 
 ## Full inverse support in the elliptic construction
 
 Use the
 [five-parameter quadratic sections](../../arguments/carriers/elliptic_double_inverse_construction.md).
-First test full inverse support on each geometric parameter fiber, retaining
-source smoothness, basepoint freedom, finite birationality, boundary fibers
-and all off-curve inverse points. A unit-ideal
-calculation in the total parameter ring is not the fiberwise condition.
-Pure-power descent remains to be tested on surviving strata. The
-fixed member's extra inverse scheme has projective length twelve; it is not
-twelve asserted distinct points, and a higher mate degree cannot repair it.
+On every smooth basepoint-free fiber, a Cartier zero scheme of length twelve
+on the residual divisor tests full inverse support. All of it must lie
+set-theoretically on the marked elliptic curve. Equivalently the augmented
+matrix in the [support criterion](../../arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber)
+must have rank 613. The original member has all twelve units of length off
+the elliptic curve.
+
+On the characteristic-zero line with \(\mu=2\) and
+\(\rho_0=\rho_1=\rho_3=0\), meeting the marked elliptic curve restricts
+the length-twelve scheme to six geometric parameter values. Each is
+basepoint-free and has an extra inverse point, which excludes every mate
+degree on this line. The remaining question is whether a smooth
+basepoint-free birational fiber elsewhere in the family passes the support
+test and has a pure power descending to an actual homogeneous equation.
+[Equation-search investigation](../../investigations/stci-equation-search/index.md#findings).
 
 ## Compatibility of the normal sextic cyclic cover
 
