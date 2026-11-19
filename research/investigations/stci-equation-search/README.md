@@ -26,6 +26,14 @@ check its full inverse support, projection admissibility and the descent
 of the actual section. A failed center supplies no conclusion about other
 sources.
 
+The [exact elimination](toric_centers.py) finds four possible factors
+for \(m\). At \(m=-2\) the only common root is \(n=1\), on the
+diagonal. At \(m=-2/3\) there is no common root. The cubic factor
+forces \(4n=m^2\), and the quintic factor forces \(d=0\). Both are
+outside (3). An independent replay checked the coefficient signs, the
+resultant projection and all four specialized fibers. This source has
+no admissible center on which to descend the upstairs equation.
+
 The [elliptic double inverse construction](../../arguments/carriers/elliptic_double_inverse_construction.md#5-fiberwise-support-and-actual-descending-equations)
 gives a separate positive target. There the upstairs section is the quadric
 \(Q_0\), and a homogeneous identity (8) on a basepoint-free birational
