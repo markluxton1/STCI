@@ -61,24 +61,13 @@ omits the line. [Endpoint and residual degree theorem](results/endpoint_equation
 
 ## Questions and active work
 
-For fixed-carrier constructions, the quintic and octic calculations reach
-different decisions about the inverse image of \(C_0\).
-
-- **Integral quintics with toric normalization.** A hypothetical mate
-  forces a specific marked source. Every admissible projection of that
-  source has an extra inverse point outside the marked quartic. This
-  rules out a second equation of every degree on these carriers. Among
-  nonnormal quintics, a construction would have to use a non-toric,
-  non-Gorenstein normalization. The general lower bound of five for
-  each defining degree still applies. [Quintic exclusion](results/toric_quintic_carrier_exclusion.md) · [Remaining carrier cases](frameworks/carrier-normalization/degree_exclusions.md)
-- **Octics from the marked elliptic double cover.** On every smooth
-  basepoint-free source in the five-parameter family, the support test
-  asks whether a length-twelve zero scheme lies entirely on the elliptic
-  curve. One characteristic-zero parameter line fails this test at every
-  eligible fiber. The open construction requires a birational fiber
-  passing the test and a power of the marked section expressible in the
-  four projection coordinates. Such an expression would supply the
-  second equation. [Full-family criterion](results/elliptic_inverse_support.md) · [Completed investigation and open question](investigations/stci-equation-search/index.md#findings)
+Fixed-carrier normalization has established exclusions for particular
+quintic models and necessary inverse-support conditions for a marked
+elliptic octic family. These are bounded results, not a classification
+of all possible carriers or a degree-independent obstruction. See the
+[carrier framework](frameworks/carrier-normalization/index.md),
+[toric quintic exclusion](results/toric_quintic_carrier_exclusion.md),
+and [elliptic inverse-support criterion](results/elliptic_inverse_support.md).
 
 Two bounded objects in [Investigations](investigations/) currently connect the
 torus approaches, at different stages of readiness: [moving quotient and full Hilbert comparison](investigations/quotient-hilbert-comparison/index.md)
