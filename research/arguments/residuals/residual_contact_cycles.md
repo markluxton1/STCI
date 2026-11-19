@@ -256,7 +256,7 @@ projective residual test remains the full generic length and degree identity.
 
 # Exact degree-six branch contact on a mixed-weight sextic
 
-Over an algebraically closed characteristic-zero field, this is the full actual degree-six mate calculation for \(q^3+\alpha c_0^2+\beta c_2^2\), \(\alpha\beta\ne0\). Its independent computation and the mathematical rank-to-kernel argument are retained. The stronger [test-curve theorem](../curve/carrier_test_curves.md) excludes every mate degree on the same source; the calculation here additionally proves integrality, the individual branch-order bound, and a quantitative residual floor for proper sextic pairs. These are useful distinct conclusions.
+Over an algebraically closed characteristic-zero field, this is the full actual degree-six mate calculation for \(q^3+\alpha c_0^2+\beta c_2^2\), \(\alpha\beta\ne0\). The geometric proof below establishes integrality, sharp even-degree residual bounds, and the individual degree-six branch kernel. It strengthens the [test-curve theorem](../curve/carrier_test_curves.md) by retaining residual line multiplicities. The independent finite coefficient calculation and its rank-to-kernel argument remain as legacy evidence, not as premises of this proof.
 
 ## Exact family and bounded endpoint
 
@@ -275,27 +275,22 @@ F_{\alpha,\beta}=q^3+\alpha c_0^2+\beta c_2^2.
 \tag{1}
 \]
 
-The completed incidence problem here keeps all 84 scalar coefficients
-of an arbitrary actual homogeneous sextic G. It asks for a proper pair
-(F,G) with generic transverse intersection length at least nine along C.
-Nine is the necessary sole-support value 6*6/4. The answer is **empty**.
-More precisely:
+For every positive degree \(b\) and every proper homogeneous mate
+\(G_b\) containing \(C\), the generic intersection multiplicity is
+at most \(b\), and the residual cycle degree is at least \(2b\).
+Both bounds are sharp for even \(b\). In particular, for sextic mates
+the sharp bounds are multiplicity six and residual degree twelve.
+Moreover every member is integral, and on either formal branch a global
+sextic has order at least five if and only if it is a scalar multiple of
+the carrier. These conclusions cover every \(\alpha\beta\ne0\),
+not the factored boundary or other sextic families.
 
-1. Every surface (1) is integral.
-2. For every homogeneous sextic G with no common surface factor with F,
-   the generic length along C is at most eight. Thus
-   [V(F,G)]=m_C[C]+R has deg R=36-4m_C at least four whenever G contains C.
-3. On either of the two formal transverse branches of F at generic C,
-   a global sextic has vanishing order at least five **if and only if**
-   it is a scalar multiple of F.
-
-The numerical bound eight is an upper bound; attainment is not asserted.
-This is a complete all-parameter, all-global-sextic calculation, rather
-than a collection of selected carrier samples. The uniform rank statement
-uses the recorded exact parameter-ideal certificate; it has not been
-independently recomputed in this mathematical review. Taken alone this calculation does not exclude
-higher mate degrees, other mixed-weight carriers, or the boundary
-alpha*beta=0, and it does not resolve unrestricted STCI.
+The geometric proof uses the four actual ruling lines and their
+self-intersection on the finite normalization. It was independently
+reconstructed from the displayed local equations, the quadric divisor, and
+nonnegative intersections. The legacy exact parameter-ideal certificate
+is retained below as an independent proof of the original weaker bounds;
+it is not needed for the new all-degree conclusion.
 
 ## Torus normalization retains every nonzero parameter
 
@@ -320,6 +315,197 @@ This is a projective automorphism and scalar rescaling. It preserves
 properness, actual global coefficient spaces and generic contact.
 Every nonzero alpha,beta is covered; no convenient parameter minor is
 inverted. The computation uses the indeterminate `k` for h.
+
+## Geometric proof: four negative ruling lines
+
+The following argument proves integrality first, without the finite
+branch-contact calculation, and then bounds **all** mate degrees. Thus it
+has no circular dependence on the legacy rank certificate.
+
+### Four lines and their actual local attachments
+
+On the smooth quadric use
+\((x_0,x_1,x_2,x_3)=(ac,ad,bc,bd)\), and put
+\(f=bc^3-ad^3\). Then
+\[
+c_0=-a^2f,\quad c_2=b^2f,\quad
+F_h|_Q=(b^4-a^4)f^2.
+\]
+The four pairwise disjoint ruling lines are
+\[
+L_\zeta=V(x_2-\zeta x_0,x_3-\zeta x_1),\qquad\zeta^4=1.
+\]
+Each meets \(C\) in the three distinct points with \(t^3=\zeta\)
+on \(x_0=1\). Set \(x_1=t,x_2=t^3+u,x_3=t(t^3+u)+q\).
+The quadratic transverse term of \(F_h\) is
+\[
+[(t^6-1)u-2t^5q][(t^6+1)u-2t^5q].                 \tag{G1}
+\]
+At all twelve attachments \(t\ne0\). The coefficient of \(q^2\)
+is a unit, and the two slopes in (G1) differ. Relative Weierstrass
+preparation and Hensel factorization give two formal smooth surface
+sheets \(q=u\rho_1(t,u)\) and \(q=u\rho_2(t,u)\), with distinct
+\(\rho_i(t,0)\). They meet exactly along the smooth curve \(u=q=0\).
+This is an ordinary double crossing; its normalization has two regular
+sheets, each with reduced conductor \(u=0\). These formal local
+statements describe the finite normalization because the local rings
+are excellent.
+
+On \(L_\zeta\), the exact identity is \(c_2=-\zeta^2c_0\).
+Its strict transform therefore attaches to the sheet with that generic
+branch label. Its inverse-curve parameter is
+\(u=\zeta-t^3\), which has a simple zero at each attachment.
+Exactly two lines attach to each branch, each with total intersection
+multiplicity three; they do not meet the other inverse branch.
+
+The whole line is regular on the normalization. Off the three
+attachments, on \(x_0=1\), the derivative with respect to \(w=x_2\)
+at fixed \(q\) of
+\(F_h|_{q=0}=(w-t^3)^2(w^4-1)\) is
+\(4\zeta^3(\zeta-t^3)^2\ne0\).
+At the line's remaining point \([0:1:0:\zeta]\),
+\(\partial F_h/\partial x_3=4\zeta^3\ne0\).
+Its strict transform is therefore isomorphic to \(\mathbf P^1\).
+
+### Integrality without a coefficient rank
+
+The quadric does not divide \(F_h\). A nonconstant homogeneous factor
+of degree \(d\) therefore restricts to a nonzero section on \(Q\),
+whose divisor is \(mC\) plus \(l\) of the four ruling lines, counted
+with multiplicity. Comparing bidegrees gives
+\[
+(d,d)=(m+l,3m),\qquad d=3m.
+\]
+Thus a proper factorization would consist of two cubics. They are
+distinct because (G1) has two distinct factors along generic \(C\).
+Each cubic takes one of the two generic sheets. The local attachments
+just proved force it to contain the two lines attached to that sheet:
+away from \(C\) near an attachment, the line lies on that sheet alone.
+Its quadric restriction has divisor \(C\) plus precisely those two
+lines.
+
+Put \(A=c_2-c_0\), \(B=c_2+c_0\). After nonzero scalar rescaling,
+the two proposed cubic factors are consequently
+\(A+qL\) and \(B+qM\), with linear forms \(L,M\).
+Their product must equal \(AB+hq^3\). Reducing after division by
+\(q\) modulo \(q\) gives \(AM+BL=0\) on \(Q\), hence
+\[
+(b^2+a^2)M|_Q+(b^2-a^2)L|_Q=0.
+\]
+The two quadratic factors are coprime. Their bidegree \((2,0)\)
+prevents either from dividing a nonzero section of bidegree \((1,1)\).
+Thus \(L|_Q=M|_Q=0\), and the linear forms themselves vanish.
+Their product would be \(AB\), contradicting \(h\ne0\).
+This proves integrality for every parameter under consideration.
+
+### Self-intersection of the four lines
+
+Let \(\nu:S\to X_h\) be the finite normalization, and let
+\(H=\nu^*\mathcal O_{X_h}(1)\). The two distinct generic factors
+in (G1) are defined over \(k(C)\); they globally label the two inverse
+curves \(\Gamma_+,\Gamma_-\), each of residue degree one over \(C\).
+All four strict lines lie in the regular locus of \(S\).
+
+The complete divisor of the pulled-back quadric is
+\[
+\operatorname{div}(\nu^*q)
+ =\Gamma_++\Gamma_-+\sum_{\zeta^4=1}L_\zeta.           \tag{G2}
+\]
+Indeed \(q\) has order one on each generic nodal branch. Along a
+line away from \(C\), the quadric section is reduced, as shown by
+\(F_h|_Q=(b^4-a^4)f^2\); the carrier is smooth there. These are all
+possible components, since the normalization is finite and the support
+of the quadric intersection has already been listed.
+
+Intersect (G2) with a line attached to \(\Gamma_+\). It meets that
+inverse curve transversely in three points, misses \(\Gamma_-\),
+and is disjoint from the other strict lines. Since its \(H\)-degree
+is one,
+\[
+2=2H\cdot L_\zeta=3+L_\zeta^2,
+\qquad L_\zeta^2=-1.                                \tag{G3}
+\]
+The same computation applies to all four lines. These intersections are computed
+in the regular neighborhood of each line; no global smoothness or
+Cartier property of the inverse curves elsewhere is needed.
+
+### All-degree residual bound
+
+Let \(G_b\) be any degree-\(b\) form, \(b>0\), not divisible by
+\(F_h\). Its pullback has effective divisor
+\[
+\operatorname{div}(\nu^*G_b)=r\Gamma_++s\Gamma_-+E,
+\]
+where \(E\) contains neither inverse curve and \(r,s\ge0\)
+are the finite generic branch orders. Finite normalization gives
+\(H^2=6\), \(H\cdot\Gamma_\pm=4\), and
+\[
+H\cdot E=6b-4(r+s).                                 \tag{G4}
+\]
+For a line attached to \(\Gamma_+\), write \(E=mL+E'\), where
+\(L\) is absent from \(E'\). Intersection with the line, using
+(G3), gives
+\[
+b=3r-m+E'\cdot L,\qquad
+m\ge\max\{0,3r-b\}.                                \tag{G5}
+\]
+The last intersection is nonnegative: the surface is regular along
+\(L\), and the two effective curves share no component. Each of the
+two lines on the other branch similarly has coefficient at least
+\(\max\{0,3s-b\}\). Since every line has \(H\)-degree one,
+\[
+\begin{aligned}
+6b-4(r+s)
+&\ge2\max\{0,3r-b\}+2\max\{0,3s-b\}\\
+&\ge6(r+s)-4b.
+\end{aligned}
+\]
+Therefore
+\[
+\boxed{r+s\le b.}                                   \tag{G6}
+\]
+The generic transverse node has intersection length \(r+s\), by
+its normalization exact sequence; equality of the two orders is not
+assumed. If \(G_b\) contains \(C\), the proper intersection thus
+satisfies
+\[
+\boxed{m_C\le b,\qquad\deg R=6b-4m_C\ge2b>0.}       \tag{G7}
+\]
+These bounds are sharp for every even \(b\), using \(G_b=q^{b/2}\):
+the quadric has order one on each branch. In fact its cycle is
+\(b[C]+(b/2)\sum_{\zeta^4=1}[L_\zeta]\).
+For odd \(b\), multiplying \(q^{(b-1)/2}\) by a linear form gives
+\(m_C=b-1\); no sharp odd-degree assertion is made.
+
+### Individual sextic branch orders and the exact kernel
+
+Keeping just the two lines attached to the first branch in (G5), if
+\(r>b/3\) one obtains
+\[
+10r+4s\le8b.                                        \tag{G8}
+\]
+For \(b=6\), an order \(r\ge5\) contradicts (G8), since
+\(s\ge0\). The same reasoning applies to the other branch.
+Thus each individual branch order of a proper sextic is at most four.
+Any global sextic vanishing to order at least five on either branch
+must instead vanish identically on the integral carrier, hence be a
+scalar multiple of \(F_h\). The converse is immediate.
+
+This proves the exact kernel formerly certified by the finite rank
+calculation, as well as the stronger bound \(m_C\le6\),
+\(\deg R\ge12\) for proper sextic pairs. The example \(G=q^3\)
+attains these total bounds. The argument is characteristic zero and
+specific to this mixed-weight family; it does not classify arbitrary
+sextic carriers or resolve unrestricted STCI.
+
+## Legacy finite branch-contact certificate
+
+The following exact calculation is retained as an independent check of
+the original individual order-four bound and the weaker total bound
+eight. It is no longer a premise of integrality, the exact branch kernel,
+or the geometric all-degree theorem. Its source coverage and both
+exceptional-factor tests remain essential **within this separate
+computational route**; a single sampled rank would not reproduce it.
 
 ## Both split branches, including asymmetric contact
 
@@ -447,6 +633,9 @@ kernel exactly.
 
 ## Integrality and residual consequences
 
+The following deductions describe the independent legacy route, not the
+logical order of the geometric proof above.
+
 Suppose F_h had a proper homogeneous factor H vanishing identically on
 the chosen formal branch. At least one factor would do so, since the
 branch evaluation has integral target k(z)[[q]]. Its degree d is at most
@@ -472,4 +661,4 @@ cycle is counted as a residual curve.
 
 ## Necessary exact computational support
 
-The historical primary verifier and [separately assembled verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/stci_mixed_contact_audit_2026_10_29.m2), with the independent saved output, retain the exact \(\mathbf Q[h]\) matrix and both exceptional rank strata. A sampled rank at one \(h\), or the first finite scheme alone, would not establish the theorem: the second scheme removes the roots of \(P_7\). Their algebraic interpretation is the kernel of actual global sextics restricting to order at least five on one formal branch. No function-field source coefficients are permitted. The recurrence, weight blocks, invariant factors, and integrality deduction are the required exact ingredients.
+The historical primary verifier and [separately assembled verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/stci_mixed_contact_audit_2026_10_29.m2), with the independent saved output, retain the exact \(\mathbf Q[h]\) matrix and both exceptional rank strata. A sampled rank at one \(h\), or the first finite scheme alone, would not establish the theorem: the second scheme removes the roots of \(P_7\). Their algebraic interpretation is the kernel of actual global sextics restricting to order at least five on one formal branch. No function-field source coefficients are permitted. Within this independent legacy route, the recurrence, weight blocks, invariant factors, and rank-to-integrality deduction are the required exact ingredients. They are not premises of the geometric proof or the stronger all-degree residual bound above.

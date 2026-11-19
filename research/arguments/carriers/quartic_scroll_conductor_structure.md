@@ -230,42 +230,9 @@ for a ternary quadratic Q. This is the algebraic equation statement in
 We verify it independently below, so its use does not transfer the
 paper's log-canonical classification assumptions.
 
-Use the 35 degree-four exponent vectors in the order
-
-    (e0,e1,e2,4-e0-e1-e2),
-    e0=0..4, e1=0..4-e0, e2=0..4-e0-e1.
-
-The derivative-restriction matrix M has 40 rows, indexed by (i,j)
-with 0<=i<=3 and 0<=j<=9; j is the s-degree of the restricted
-degree-nine derivative. For a column e and weights w=(3,2,1,0),
-
-    M[(i,j),e]=e_i if j=sum(w_k e_k)-w_i, and zero otherwise.
-
-It records the restrictions of all four partial derivatives to Gamma.
-The [exact companion verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_scroll_conductor_compression.py)
-exhibits a rank-29 minor with determinant 104509440. Using zero-based
-indices, its rows are
-
-    0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,
-    20,21,22,23,24,25,26,27,28,30
-
-and its columns are
-
-    0,1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18,
-    21,22,23,24,28,29,30,31,32,33,34.
-
-The six products xi_i*xi_j, i<=j, are independent and lie in its kernel.
-Thus rank is at most 29 and the displayed nonzero minor proves it is
-exactly 29. They span the entire six-dimensional kernel. Since Euler's
-identity also gives 4F=sum x_i F_i, the kernel is precisely the space
-of quartics singular along Gamma. This is an exact finite-dimensional
-proof, not a generic-rank sample.
-
-If F is integral, Q cannot factor into linear factors: their substitutions
-would give two nonzero quadratic factors, since the three xi_i are
-independent. Therefore Q is a smooth plane conic over k.
-
-### 3.3. A smooth finite normalization of every such integral quartic
+**Geometric proof of the complete equation space.** The construction in
+this paragraph depends only on Gamma and its three ideal quadrics, not on
+a chosen quartic or its equation-space classification.
 
 The two syzygies are
 
@@ -292,6 +259,83 @@ this graph over the dense open P3 minus Gamma is dense in Y. Thus Y is
 the graph closure of the ideal-generated rational map, equivalently
 the blowup, with no omitted incidence component.
 
+Write H=sigma*O_P3(1), let E be the exceptional divisor, and denote
+the P1-bundle projection by pi:Y->P2. The lifted ideal quadrics have
+no common zero after removing E, so their defining linear system gives
+
+    pi*O_P2(1)=O_Y(2H-E).
+
+A quartic containing Gamma is singular along it exactly when its first
+normal class vanishes. Indeed Gamma is a smooth regular embedding, so
+the conormal sequence injects I_Gamma/I_Gamma^2 into Omega_P3|Gamma;
+the differential of a vanishing local equation is that conormal class.
+Thus the full singular-quartic space is H0(P3,I_Gamma^2(4)), where the
+square is the ordinary **ideal-sheaf** square, not a guessed space of
+ambient products. In the derivative-only formulation, Euler's identity
+4F=sum x_i F_i supplies containment; we retain characteristic zero.
+
+For the blowup of a smooth codimension-two center,
+sigma_*O_Y(-2E)=I_Gamma^2. Locally the center has regular parameters
+(u,v); vanishing twice along the exceptional divisor is precisely
+membership in (u,v)^2. Thus this equality does not replace an ordinary
+square by an unexamined symbolic power. Projection formula now gives
+
+    H0(P3,I_Gamma^2(4))
+      = H0(Y,O_Y(4H-2E))
+      = H0(Y,pi*O_P2(2))
+      = H0(P2,O_P2(2)).
+
+The last equality uses pi_*O_Y=O_P2 for the P1 bundle. Pullback identifies
+the six ternary quadratic monomials with the six products xi_i*xi_j,
+i<=j. Consequently these products are independent and span the entire
+singular-quartic source. This proves the asserted equation form without
+a coefficient-rank computation. It does not classify other singular
+loci or extend any mate exclusion beyond the stated carrier hypotheses.
+
+If F is integral, Q cannot factor into linear factors: their substitutions
+would give two nonzero quadratic factors, since the three xi_i are
+independent. Therefore Q is a smooth plane conic over k.
+
+#### Retained independent derivative-rank certificate
+
+The following historical calculation is retained as an independent check
+with its exact source. The geometric proof above does not depend on the
+minor, its prime factors, or a replay of the archived program.
+
+Use the 35 degree-four exponent vectors in the order
+
+    (e0,e1,e2,4-e0-e1-e2),
+    e0=0..4, e1=0..4-e0, e2=0..4-e0-e1.
+
+The derivative-restriction matrix M has 40 rows, indexed by (i,j)
+with 0<=i<=3 and 0<=j<=9; j is the s-degree of the restricted
+degree-nine derivative. For a column e and weights w=(3,2,1,0),
+
+    M[(i,j),e]=e_i if j=sum(w_k e_k)-w_i, and zero otherwise.
+
+It records the restrictions of all four partial derivatives to Gamma.
+The [exact companion verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/verify_session_scroll_conductor_compression.py)
+exhibits a rank-29 minor with determinant 104509440. Using zero-based
+indices, its rows are
+
+    0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,
+    20,21,22,23,24,25,26,27,28,30
+
+and its columns are
+
+    0,1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18,
+    21,22,23,24,28,29,30,31,32,33,34.
+
+The six products xi_i*xi_j, i<=j, are independent and lie in its kernel.
+Thus the displayed nonzero minor independently proves rank exactly 29
+and recovers the same six-dimensional kernel. Since Euler's
+identity also gives 4F=sum x_i F_i, the kernel is precisely the space
+of quartics singular along Gamma. This is an exact independent finite-dimensional proof, not a generic-rank
+sample; it is no longer a premise of the geometric equation-space proof.
+
+### 3.3. A smooth finite normalization of every such integral quartic
+
+Use the blowup and P1-bundle constructed in the equation-space proof above.
 Let S be the inverse image of the smooth conic Q under Y->P2. Then S
 is a smooth P1 bundle over Q=P1. Off Gamma, sigma|S is an isomorphism
 onto X=V(F). Over a point of Gamma, the exceptional fiber maps to a

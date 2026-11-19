@@ -378,18 +378,36 @@ b=u^{-4}-1=-4\epsilon+10\epsilon^2-20\epsilon^3.
 \tag{15}
 \]
 
-The required finite identities are
+The independence of these jets has a structural explanation. For distinct
+integers \(r_0,\ldots,r_3\), the coefficient of \(\epsilon^j\) in
+\((1+\epsilon)^{r_i}\bmod\epsilon^4\) is \(\binom{r_i}{j}\).
+In characteristic zero, or characteristic greater than three, the
+polynomials \(\binom{X}{j}\) have degree \(j\) and leading coefficient
+\(1/j!\). Changing the rows from this polynomial basis to monomials
+therefore gives the binomial/Vandermonde evaluation identity
+\[
+ \det\left(\binom{r_i}{j}\right)_{0\le j,i\le3}
+ =\frac{\prod_{i<l}(r_l-r_i)}{0!1!2!3!}.
+\]
+For \((r_0,r_1,r_2,r_3)=(0,-3,-4,-6)\), this is \(36\).
+Thus the four jets \(1,u^{-3},u^{-4},u^{-6}\) form a basis precisely
+in the characteristics under consideration. Subtracting constants and
+using \(a^2=u^{-6}-2u^{-3}+1\) changes this to the basis
+\(1,a,b,a^2\) by determinant-one column operations. This explains the
+coefficient determinant, rather than relying on an isolated rank check.
 
+For comparison with the retained replay, the explicit identities are
 \[
 b=\tfrac43a+\tfrac29a^2-\tfrac4{81}a^3,\qquad
 \det\begin{pmatrix}-3&-4&0\\6&10&9\\-10&-20&-36\end{pmatrix}=36.
 \tag{16}
 \]
-
-Thus \(1,a,b,a^2\) is a basis. Observation (13) gives exact infinity
-weights \(0,3,4,6\), index thirteen and genus twenty-eight. The identities
-are verified by multiplication modulo \(\epsilon^4\). This is the
-necessary finite calculation, with no claim about arbitrary local algebras.
+The scalar identity is checked by substitution modulo \(\epsilon^4\);
+it is not needed for independence. Observation (13) now proves exact
+infinity weights \(0,3,4,6\), index thirteen and genus twenty-eight.
+The basis alone would not establish that the lattice is the image algebra:
+the weighted product-closure argument in (13) is also essential. These
+claims concern the specified embedded quotient, not arbitrary local algebras.
 
 This endpoint is not Gorenstein. Modulo the regular parameter \(z\), put
 \(x=[z^3a]\), \(y=[z^4b]\). The four classes are \(1,x,y,x^2\).
@@ -410,7 +428,7 @@ Its sole reduced support \(C_0\) does not repair that defect.
 
 Form the same specified quotient separately in each characteristic.
 The zero index stays eighteen. For characteristic zero or \(p>3\),
-the determinant \(36\) gives infinity index thirteen. In characteristic
+the jet-evaluation argument above gives infinity index thirteen. In characteristic
 two (15) becomes \(a=\epsilon,b=0\), so the weights are \(0,3,6,9\)
 and the index eighteen; \(u^4=1\) identifies this with (11). In
 characteristic three,

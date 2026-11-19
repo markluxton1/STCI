@@ -348,6 +348,56 @@ matrix kernel gives all liftable old jets; if \(L\ge0\), the overlaps
 \(0\le k\le L\) supply all new global-section freedoms. This constructs
 the whole space at each stage, including its projection to quadratic symbols.
 
+### The first nonlinear gluing map by torus weight
+
+The pure cubic-to-quartic connecting map can be checked without reducing
+an entire 15-by-16 matrix. Give \(z,u,v\) weights \(1,4,3\). The source
+basis is \(z^k u^i v^j\) with \(i+j=3\), \(0\le k\le3\).
+The quartic target has the standard Čech gap basis
+\(z^k u^i v^j\) with \(i+j=4\), \(-3\le k\le-1\).
+Exactly the weights \(9,\ldots,15\) occur in both. The respective source
+and target multiplicities are
+\[
+(1,2,3,4,3,2,1),\qquad (1,2,3,3,3,2,1).
+\]
+
+Here is the whole calculation for these small blocks. On the second
+chart the matching pure-cubic term is \(w^{3-k}(u')^i(v')^j\).
+Put \(X=u/z^4,\ Y=v/z^3\). The transition in (9) gives
+\(T=z^4(1+X+3Y/2)\), \(w=z^{-1}(1-X-Y/2+O(I^2))\), and
+\[
+\begin{aligned}
+ z^7 u'&=u-\tfrac52z^{-4}u^2-3z^{-3}uv-\tfrac38z^{-2}v^2+O(I^3),\\
+ z^7 v'&=v+3z^{-5}u^2-z^{-4}uv-\tfrac94z^{-3}v^2+O(I^3).
+\end{aligned}
+\]
+Before projecting to the gap, the normal-degree-four part of
+\(T^6 w^{3-k}(u')^i(v')^j\) has just the following four terms (a term
+with a negative monomial exponent and zero coefficient is omitted).
+The connecting map uses the negative of this degree-four part.
+\[
+\begin{array}{c|c}
+ \text{monomial} & \text{coefficient}\\ \hline
+ z^{k-5}u^{i+2}v^{j-1} & 3j\\
+ z^{k-4}u^{i+1}v^j     & 3+k-\frac52 i-j\\
+ z^{k-3}u^iv^{j+1}     & \frac{15+k}{2}-3i-\frac94 j\\
+ z^{k-2}u^{i-1}v^{j+2} & -\frac38 i
+\end{array}
+\]
+This gives the following determinants, with rows and columns ordered
+first by \(i\), then by \(k\), keeping the first three columns at weight 12.
+\[
+\begin{array}{c|rrrrrrr}
+ \text{weight} &9&10&11&12&13&14&15\\\hline
+ \det\text{ or maximal minor}&-3/4&3/8&-21/32&21&21/4&3/2&3/2
+\end{array}
+\]
+Thus all seven maps are onto in characteristic zero. Their only kernel
+is in weight 12 and is the symbol of \(q^3\), a genuine global sextic.
+The argument separates the equivariant geometry and the first nonlinear
+transition from the remaining elementary determinants. It is a small
+coordinate proof, not a coordinate-free theorem for arbitrary embeddings.
+
 ### A genuine third differential detects the eleven missing symbols
 
 The order-four obstruction has rank 15 already on the 16-dimensional
@@ -442,11 +492,11 @@ The brackets indicate the **equivariant generator weight**,
 respectively \(9,10,11,12\); they must not be discarded when
 computing characters. The last two terms have zero \(H^1\),
 and the relevant \(H^0,H^2\) terms vanish, so the filtration
-induces an exact sequence
+induces an exact sequence (the subobject comes from multiplication by \(q\))
 \[
-0\to H^1(Q,\mathcal O_Q(3,-3))[9]
+0\to H^1(Q,\mathcal O_Q(2,-2))[10]
 \to H^1(\mathbf P^3,I^3(6))
-\to H^1(Q,\mathcal O_Q(2,-2))[10]\to0.
+\to H^1(Q,\mathcal O_Q(3,-3))[9]\to0.
 \tag{15}
 \]
 By Künneth and the standard equivariant Čech basis
@@ -473,11 +523,40 @@ representations are semisimple, so the cokernel is multiplicity-free:
 The centered \(-5,\ldots,5\) list is therefore a **character
 normalization**, not the unshifted representation. The cohomology
 identification (13) and quadric filtration (15) are canonical for
-the embedded curve and its unique quadric; a splitting of (15)
-need not be canonical. The order-five filtered Čech differential
-detects the same source-image deficit, but an explicit comparison
-of its target filtration with (15) remains a separate question.
+the embedded curve and its unique quadric. For this specified torus,
+the disjoint weight supports canonically split (15) equivariantly.
+This does not pick an unmarked coordinate splitting of the full
+order-five target. The intrinsic 8-plus-3 criterion for the eleven
+individual coordinate rows is in the
+[actual sextic symbol calculation](../spectral/conditional_2_12_surface_and_symbol_geometry.md#2-the-exact-global-k-linear-symbol-map).
+The natural map from (13) to the order-five image is described below.
 No supported sextic pair or characteristic-zero exclusion follows.
+
+### Natural comparison with the actual symbol defect
+
+The order-five calculation proves \(H^1(I^6(6))=0\) as in the cutoff
+argument below (restriction of sextics is onto, and
+\(H^1(\mathcal O_{\mathbf P^3}(6))=0\)).
+Consequently \(H^1(I^3(6))\) injects into \(H^1((I^3/I^6)(6))\).
+The order-four surjectivity above gives
+\(H^1((I^3/I^5)(6))=0\) and \(H^0((I^3/I^5)(6))=kq^3\).
+The class \(q^3\) lifts through order five, so the exact sequence
+for \(I^3/I^6\) gives the natural isomorphism
+\[
+ H^1(\operatorname{Sym}^5E(6))\ \xrightarrow{\sim}\
+ H^1((I^3/I^6)(6)).
+\]
+By naturality between the actual symbol sequence and its quotient
+by \(I^6(6)\), the order-five connecting map is the actual connecting
+map to \(H^1(I^3(6))\) followed by this injection, expressed in the
+order-five target using the isomorphism. It is the \(d_3\) here:
+the quartic target was exhausted by \(d_1\), the only cubic global
+class survives, and \(H^0(\operatorname{Sym}^4E(6))=0\).
+This identifies the quadric-flag filtration on the actual symbol
+defect with a filtration of the **image** of \(d_3\), not with a
+filtration of the whole 60-dimensional target. It does not replace
+the retained order-five calculation establishing the cutoff or give
+a formula for the position of each image line in the full target.
 
 ### The exact minimum sextic cutoff is order five
 
