@@ -14,7 +14,7 @@ No claim is made that all archived CAS computations were replayed.
 - [Ranked knowledge-gain priorities](knowledge-gain-priorities.md): stable KG01–KG10 research questions ranked by relevance to unrestricted characteristic-zero STCI, not matrix size or editorial cleanup.
 - [Executable file-level appendix](executable-evidence.md): 150 current artifacts and 252 pinned historical references, not additional mathematical claims.
 
-At the historical pin, the next editorial proof-dependency replacement target
+**Archived context, not a current instruction:** at the historical pin, the next editorial proof-dependency replacement target
 was R-0025's specific carrier restriction, not an unrestricted rank theorem. This is not a ranking
 of research paths toward unrestricted STCI, and that replacement is now recorded in the integration delta below. R-0071 requires a separate relative-duality
 argument. Replacement directions below are proposals, not newly proved results.
@@ -39,6 +39,10 @@ These are scoped proof-route updates, not a retagging of every historical
 group or a claim that all finite computations have been eliminated.
 
 # Canonical Results/Arguments: evidence-bearing linear algebra inventory
+
+## Archived snapshot material
+
+The body below records the pinned inventory and branch state at its stated dates. Relative directions, proposed priorities and coordination notes are archived context, **not current instructions or an active queue**. Use the [active front door](open-items.md), [KG ranking](knowledge-gain-priorities.md) and current proof owners for present decisions; the integration delta above supersedes snapshot classifications where stated.
 
 ## Version and scope
 
@@ -221,7 +225,7 @@ Scope: pinned to [STCI main at `9b7f3075`](https://github.com/markluxton1/STCI/t
 
 **Historical/pinned evidence:** Some large certificates are not in the main tree, including H2 monic-ODE coefficient inputs, H3 multiplicity-four/support32 columns, earlier R-0025 builders, type-B boundary/corner and many archived local-cohomology controls. A current link to a pinned artifact documents dependence, not current replayability. In particular, do not count generated metadata/catalog validators, Markdown links, visual assets, or deliberately failing test fixtures as mathematical arguments. The `ideal-filtration`, `toric-quotient`, `verify-quartic-44` workflows do run mathematical evidence; their separate validator/test-structure steps do not. The research-infrastructure workflow's Chow-polytope unittest is a real replay, unlike the other infrastructure tests.
 
-**Elimination priorities:** Start with the fixed-boundary (T^1) map and actual quartic-symbol comparison (small structural wins); then the R-0025 fixed-carrier restriction rank (largest mathematical payoff); then the local-cohomology rank strata and the Smith/endpoint strips (look explicitly for one reusable geometric mechanism per family).
+**Historical elimination priorities (archived, not current):** Start with the fixed-boundary (T^1) map and actual quartic-symbol comparison (small structural wins); then the R-0025 fixed-carrier restriction rank (largest mathematical payoff); then the local-cohomology rank strata and the Smith/endpoint strips (look explicitly for one reusable geometric mechanism per family).
 
 
 ## Unmerged solution-search branch: separate delta
