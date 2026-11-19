@@ -174,3 +174,15 @@ The degree-sixteen bounds are sharp: multiplicity 16 and residual degree 32.
 The retained rank-683 replay is independent weaker evidence, not proof-bearing
 for this route. The Result separates the positive-characteristic bound and
 equality scopes; it does not address other sextics or unrestricted STCI.
+
+### Conditional boundary-valuation interface
+
+For the **single fixed sextic** Fstar, R-0025 proves the sharp all-degree
+bound by global divisibility by its marked Cartier equation and three
+boundary valuations. Its [conditional criterion for other carriers](../../results/ci_fixed_sextic_jet_rigidity.md#conditional-interface-for-other-carriers)
+separates the necessary checks: global divisibility on a normalization
+chart, degree-dependent pole budgets, and no simultaneous positive
+boundary orders for nonzero regular functions. A separate local
+multiplicity comparison and positive residual-degree bound are required.
+These hypotheses are verified for Fstar only; establishing them on other
+carriers is an open route, not a universal sextic or global STCI exclusion.

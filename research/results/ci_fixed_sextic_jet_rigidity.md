@@ -20,7 +20,7 @@ superseded_by: []
 limitations:
   - "Only one selected sextic; no arbitrary-carrier or unrestricted STCI theorem"
   - "Saved certificates were source-inspected; independent normal-division replay passed in GitHub Actions run 40434021004 (2026-10-26). Macaulay2 was not rerun in that workflow."
-  - "The bound extends outside characteristics 2 and 37; positive-characteristic even-degree rigidity is proved here only for p>b, p!=37"
+  - "Primary theorem and metadata are characteristic zero; numbered Corollaries 1 and 2 state the separate positive-characteristic assertions"
 ---
 <a id="fixed-sextic-jet-rigidity"></a>
 
@@ -83,7 +83,7 @@ No classification of odd-degree maximizers is asserted.
 
 ## Proof
 
-### The affine normalization and the marked branch order
+### Normalization lemma and the marked branch order
 
 Adjoin a degree-one coordinate \(W\) with equations
 \[
@@ -123,7 +123,7 @@ exchanged by Galois. The pullback of the marked ideal is the uniformizer
 order, not twice that order, for the restriction \(g\) of an actual
 mate. The nonsplit-node argument in the
 [retained local proof](#local-node-lemma-and-legacy-order-twelve-kernel-proof)
-gives intersection length \(2n\) and exact normal-jet order \(n\).
+gives exact normal-jet order \(n\). If \(G\) contains \(C\), then \(n>0\) and the local intersection length is \(2n\); this is the hypothesis under which we speak of the component multiplicity \(m_C\) and its residual cycle. If it does not contain \(C\), then \(n=0\) and the restriction is a unit at that generic point.
 
 Properness makes \(g\) a nonzero polynomial in \(k[y,w]\). Since
 \(Q\) is prime, write
@@ -171,9 +171,26 @@ this chart. Thus (5) implies
  v_i(P)\ge2n-b\quad\text{for every }i.               \tag{7}
 \]
 
-### A polynomial must have nonpositive order on one boundary line
+### Boundary polynomial lemma
 
-Let \(d=\deg P\), with homogeneous parts \(p_j(y,w)\). Then
+**Lemma.** Let \(k[y,w]\) be a polynomial ring, and let three valuations
+on \(k(y,w)\), trivial on \(k\), have boundary coordinates \(y=u^{-1},w=W/u\).
+Suppose their centers have three distinct nonzero constants \(r_i\),
+\(u\) is a uniformizer, their residue fields contain a transcendental
+coordinate \(z\) over \(k\), and
+\(S_i=W-r_i-\beta_i u^2\) satisfies \(v_i(S_i)=3\) and
+\(\overline{u^{-3}S_i}=\gamma_i z\), with
+\(\beta_i\in k\) and \(\gamma_i\in k^*\).
+Then every nonzero \(P\in k[y,w]\) satisfies
+\(\min_i v_i(P)\le0\).
+
+These hypotheses are verified above for the three actual boundary lines.
+The independence needed is of the powers of each residue coordinate
+\(z\) over \(k\), not independence of coordinates across different
+lines. The proof is the standard initial-form noncancellation principle
+for valuations, applied to the leading homogeneous polynomial.
+
+**Proof.** Let \(d=\deg P\), with homogeneous parts \(p_j(y,w)\). Then
 \[
  u^dP(1/u,W/u)=\sum_{\ell=0}^d u^\ell p_{d-\ell}(1,W).
 \]
@@ -188,7 +205,8 @@ argument proves
 \]
 Since \(\sum_i m_i\le\deg_W p_d(1,W)\le d\), at least one of
 these upper bounds is nonpositive. This includes \(d=0\), when all
-three valuations are zero. Combining with (7) gives \(2n\le b\).
+three valuations are zero, proving the lemma. Applying it to (7) gives
+\(2n\le b\) for the fixed carrier.
 
 ### Equality for even degrees
 
@@ -197,14 +215,32 @@ proved force \(d=3m\), \(m_i=m\) for all three roots, and
 \[
  p_d(1,W)=c f(W)^m,\qquad c\ne0.
 \]
-If \(d>0\), every coefficient \(u^2S_i^j\) with \(j\le m-1\)
-must vanish: its weight \(2+3j\) is smaller than \(d\).
+If \(d>0\), write the polynomial \(u^dP\) in the independent formal
+variables \(u,S_i\) by the **exact identity**
+\(W=r_i+S_i+\beta_i u^2\), which is the definition of \(S_i\).
+This is not a claim that the actual DVR series for \(W\) has only even
+powers: its order-three term is contained in \(S_i\).
+The least weight of a nonzero coefficient is its valuation. At any fixed
+weight the initial residues of distinct monomials are distinct powers
+of \(z\), so no nonzero combination cancels. Since \(v_i(P)\ge0\),
+every coefficient of weight below \(d=3m\) must vanish.
+
+In particular the coefficient of \(u^1\), as a polynomial in \(S_i\),
+is exactly \(p_{d-1}(1,r_i+S_i)\). Its coefficients of \(S_i^j\)
+for \(j\le m-1\) have weights \(1+3j<3m\) and must vanish.
+This would force divisibility of \(p_{d-1}(1,W)\) by \(f(W)^m\);
+its degree is at most \(3m-1\), so it is zero. We do not need this
+stronger conclusion below, but it accounts for the order-one terms.
+
+The coefficients \(u^2S_i^j\) for \(j\le m-1\) likewise vanish.
 The coefficient of \(u^2\), as a polynomial in \(S_i\), is exactly
 \[
  \beta_i p_d'(1,r_i+S_i)+p_{d-2}(1,r_i+S_i).          \tag{8}
 \]
-In particular the \(u p_{d-1}\) term contributes nothing: the
-substitution for \(W\) changes the \(u\)-degree only by even integers.
+The term \(u p_{d-1}\) contributes nothing to this coefficient:
+in the formal substitution there is no order-\(u\) shift of \(W\),
+so its first possible correction has order \(u^3\). This justification
+concerns only coefficient (8), not parity of the actual DVR expansion.
 The coefficients with \(j\le m-2\) in (8) force
 \[
  p_{d-2}(1,W)=f(W)^{m-1}L(W),\qquad \deg L\le1.
@@ -253,15 +289,7 @@ any \(b\), the kernel at cutoff \(\lfloor b/2\rfloor+1\) is
 \(F_*H^0(\mathcal O(b-6))\): a nonmultiple would be proper and
 violate the bound. No coefficient-rank computation is needed.
 
-### Review and literature boundary
-
-The written route was independently reconstructed at both affine charts,
-the integral-closure and residue-degree steps, the noncancellation argument,
-the equality coefficients, and homogeneous divisibility. The formulas in
-(4), (6), the discriminant 148, and the first series coefficients were
-also checked by direct symbolic expansion. These small checks support,
-rather than replace, the valuation proof. The old modular certificate
-below proves a weaker assertion by a distinct route.
+### Standard theory and the fixed-carrier contribution
 
 The normalization step uses the standard
 [integral-closure construction](https://stacks.math.columbia.edu/tag/035E).
@@ -273,7 +301,77 @@ new contribution here is the three-boundary argument and its all-degree
 consequence for this fixed carrier, not a novelty claim about
 normalization or valuations themselves.
 
-## Local node lemma and legacy order-twelve kernel proof
+## Characteristic boundary of the argument
+
+**Corollary 1 (bound).** The geometric bound works over an algebraically closed field of any
+characteristic other than 2 and 37. Characteristic two is excluded by the
+carrier's coefficient 1/4 and the quadratic residue argument. At 37 the
+boundary cubic has a repeated root, so this three-distinct-lines proof
+does not apply; no conclusion for that prime is asserted here.
+
+**Corollary 2 (even-degree rigidity).** Even-degree maximal-contact rigidity uses m nonzero in the field and is
+proved here in characteristic zero or p>b, p!=37. In particular the sharp
+degree-sixteen statement and both kernels in (2) hold at 65521. For smaller
+allowed primes the sharp bound still holds, but this proof does not classify
+all maximizers. No odd-degree equality classification is asserted.
+
+The retained finite certificate independently proves the older degree-sixteen
+order-twelve kernel in characteristic 65521. Its 683 rank and 286 global
+multiples give equality directly there; the separable-node argument gives
+the weaker bounds 22 and eight. The newer geometric result subsumes that
+consequence without using the matrix. These are distinct proof routes,
+not an extrapolation of one finite-field rank to untested primes.
+
+This is compatible with a quartic-carrier STCI in every positive
+characteristic: the present theorem concerns a different, single sextic.
+See [the curve and characteristic account](../arguments/curve/fixed_quartic_geometry.md).
+
+## Conditional interface for other carriers
+
+The following is a **sufficient criterion**, not a theorem that arbitrary
+carriers satisfy its hypotheses. Let \(X\subset\mathbf P^3\) be an
+integral carrier, \(U\) an affine open of its normalization, and
+\(A=\Gamma(U,\mathcal O_U)\). Suppose the marked preimage on \(U\)
+is Cartier with specified equation \(Q\), and suppose:
+
+1. For every proper degree-\(b\) mate under consideration, its restriction
+   in the chosen trivialization is \(g=Q^nP\) with \(0\ne P\in A\).
+   This **global divisibility in \(A\)** must be checked; a generic
+   vanishing order or an unnamed conductor alone is insufficient.
+2. There is a nonempty finite family of boundary valuations \(v_i\) of \(k(X)\) with
+   \(v_i(Q)=-a_i<0\), and a verified degree pole budget
+   \(v_i(g)\ge-bc_i\), where \(c_i\ge0\).
+3. No nonzero element of \(A\) has simultaneously positive order at
+   all these boundaries: \(\min_i v_i(P)\le0\) for every \(P\ne0\).
+
+Then \(v_i(P)\ge na_i-bc_i\). If
+\(n>b\max_i(c_i/a_i)\), all these orders would be positive,
+contradicting hypothesis 3. Hence
+\[
+ n\le b\max_i(c_i/a_i).
+\]
+To turn this into a residual-degree obstruction one must **separately**
+verify the relation between \(n\) and the component multiplicity along
+the marked curve, as well as proper intersection and the relevant degree
+formula. For a curve of degree \(e\) on a degree-\(a\) carrier, if
+\(m_C=\rho n\), this gives
+\(\deg R=ab-e\rho n\ge b(a-e\rho\max_i c_i/a_i)\).
+Strict positivity of this last constant is a sufficient exclusion on
+that carrier; it is not automatic.
+
+For \(F_*\), this note proves all three inputs with \(A=k[y,w]\),
+the marked Cartier equation \(Q\), \(a_i=2,c_i=1\), and proves
+\(\rho=2,e=4,a=6\), yielding \(\deg R\ge2b\). On other carriers,
+none of these inputs is asserted here: in particular the marked preimage
+may not be globally principal, its divisibility may fail, or the available
+boundary valuations may admit simultaneous positive orders. Identifying
+such data is a concrete research interface for the residual-construction
+framework, not a carrier-independent exclusion or a resolution of the
+open global STCI problem.
+
+<a id="local-node-lemma-and-legacy-order-twelve-kernel-proof"></a>
+
+## Appendix: local node lemma and independent legacy proof
 
 The following independent route is retained with its exact source and
 sample qualifications. Its order-twelve kernel and bounds 22 and eight
@@ -300,7 +398,7 @@ For any actual \(G\) meeting the carrier properly, its orders along those
 two conjugate branches are equal, say \(n\). Over the splitting extension,
 formal transverse coordinates \(U,V\) make the node \((UV)\). The residue of
 \(G\) modulo \(UV\) is the sum of a one-variable series of order \(n\)
-in \(U\) and one of order \(n\) in \(V\). Its intersection length is
+in \(U\) and one of order \(n\) in \(V\). When \(G\) contains \(C\), its intersection length is
 \(2n\): equivalently apply the normalization exact sequence of the node,
 whose finite conductor quotient has multiplication kernel and cokernel of
 equal length, and sum the two branch orders. The same expression proves
@@ -389,31 +487,6 @@ use the basis reproduced by the maintained verifier. GitHub Actions
 job `replay-r0025`, reproduced the finite calculation and matrix hash using
 that implementation. The recorded Macaulay2 run supplies a distinct quotient
 construction and was source-inspected during review.
-
-## Characteristic boundary of the argument
-
-The geometric bound works over an algebraically closed field of any
-characteristic other than 2 and 37. Characteristic two is excluded by the
-carrier's coefficient 1/4 and the quadratic residue argument. At 37 the
-boundary cubic has a repeated root, so this three-distinct-lines proof
-does not apply; no conclusion for that prime is asserted here.
-
-Even-degree maximal-contact rigidity uses m nonzero in the field and is
-proved here in characteristic zero or p>b, p!=37. In particular the sharp
-degree-sixteen statement and both kernels in (2) hold at 65521. For smaller
-allowed primes the sharp bound still holds, but this proof does not classify
-all maximizers. No odd-degree equality classification is asserted.
-
-The retained finite certificate independently proves the older degree-sixteen
-order-twelve kernel in characteristic 65521. Its 683 rank and 286 global
-multiples give equality directly there; the separable-node argument gives
-the weaker bounds 22 and eight. The newer geometric result subsumes that
-consequence without using the matrix. These are distinct proof routes,
-not an extrapolation of one finite-field rank to untested primes.
-
-This is compatible with a quartic-carrier STCI in every positive
-characteristic: the present theorem concerns a different, single sextic.
-See [the curve and characteristic account](../arguments/curve/fixed_quartic_geometry.md).
 
 ## Consequences
 No proper positive-degree mate for this selected sextic has sole reduced support C0 in the characteristics covered by the bound.
