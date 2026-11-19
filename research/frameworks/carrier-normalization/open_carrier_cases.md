@@ -50,9 +50,17 @@ On every smooth basepoint-free fiber, a Cartier zero scheme of length twelve
 on the residual divisor tests full inverse support. All of it must lie
 set-theoretically on the marked elliptic curve. Equivalently the augmented
 matrix in the [support criterion](../../arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber)
-must have rank 613. The original member has all twelve units of length
-off the elliptic curve. A prospective octic still needs a birational
-fiber and a pure power descending to an actual homogeneous equation.
+must have rank 613. The original member has all twelve units of length off
+the elliptic curve.
+
+On the characteristic-zero line with \(\mu=2\) and
+\(\rho_0=\rho_1=\rho_3=0\), meeting the marked elliptic curve restricts
+the length-twelve scheme to six geometric parameter values. Each is
+basepoint-free and has an extra inverse point, which excludes every mate
+degree on this line. The remaining question is whether a smooth
+basepoint-free birational fiber elsewhere in the family passes the support
+test and has a pure power descending to an actual homogeneous equation.
+[Equation-search investigation](../../investigations/stci-equation-search/index.md#findings).
 
 ## Compatibility of the normal sextic cyclic cover
 

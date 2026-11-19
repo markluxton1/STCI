@@ -5,6 +5,11 @@ title: Residual cycles, attachment, and construction by deformation
 status: in_use
 scope: "#scope"
 bridges: "#bridges"
+relations:
+  - kind: uses
+    from: [STCI-R-0075, STCI-R-0076]
+    to: [STCI-F-0007]
+    at: "#interfaces"
 ---
 # Residual cycles, attachment, and construction by deformation
 
@@ -34,6 +39,15 @@ proper equations. The realization question also connects to
 [global equation realization](../global-equation-realization/index.md);
 [spectral roots](../spectral-roots/index.md) supplies graded Picard data
 for octic constructions.
+
+For integral quintics with toric normalization, every proper mate
+candidate through \(C_0\) has a positive-degree residual curve. The
+proof detects an extra point above \(C_0\) on the normalization. In
+the elliptic octic construction, the length twelve counts zeros on a
+divisor of the source quadric. An off-curve zero obstructs a mate on a
+birational fiber, while computing \(\deg R\) requires an actual pair of
+surfaces in \(\mathbf P^3\). [Quintic exclusion](../../results/toric_quintic_carrier_exclusion.md) ·
+[Elliptic support theorem](../../results/elliptic_inverse_support.md)
 
 ### Two presentations of fixed-degree multiplicity
 

@@ -9,12 +9,17 @@ obstruction mechanisms. In every characteristic \(p>0\), the same fixed
 curve **is** an STCI using a quartic carrier; see the
 [explicit construction](../../arguments/arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier).
 
-Two reviewed results sharpen degree-five scope. An integral
+Three exclusions sharpen degree-five scope. An integral
 [nonnormal quintic with Gorenstein normalization](../../arguments/carriers/quintic_gorenstein_normalizations.md)
-has no mate in any degree. A proper sole-supported degree-(5,8) pair cannot
+has no mate in any degree. Every integral quintic with
+[toric normalization](../../arguments/carriers/quintic_toric_center_incidence.md)
+is also excluded for every mate degree, since every admissible projection
+of the marked source forced by a mate has an extra inverse point over
+the fixed curve. A proper sole-supported degree-(5,8) pair cannot
 have a [globally ADE quintic](../../arguments/carriers/quintic_octic_surface_constraints.md), even with
-repeated first symbols. Normal quintics with worse singularities and nonnormal
-quintics with non-Gorenstein normalization are not excluded by these theorems.
+repeated first symbols. The remaining cases include nonnormal quintics
+with non-toric, non-Gorenstein normalization and normal quintics with worse
+singularities.
 
 ## 5.1 The precise degree-four theorem and its proof mechanisms
 

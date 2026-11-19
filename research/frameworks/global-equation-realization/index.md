@@ -5,6 +5,11 @@ title: Global equation realization for supported intersections
 status: proposed
 scope: "#scope"
 bridges: "#bridges"
+relations:
+  - kind: uses
+    from: [STCI-R-0076]
+    to: [STCI-F-0006]
+    at: "#bridges"
 ---
 # Global equation realization for supported intersections
 
@@ -39,6 +44,17 @@ The [full Chow-polytope rigidity theorem](../../arguments/equations/chow_polytop
 - [Projected thickenings](../../arguments/linkage/projected_thickening_section_defects.md) distinguish an ACM source upstairs from its image in \(\mathbf P^3\): the displayed power and binary-mixture images fail ACM when the positive degree product is nonzero. This does not exclude other projected sources or arbitrary supported thickenings.
 
 ## Bridges
+
+For the explicit elliptic double-cover family, a candidate consists of
+a smooth basepoint-free fiber mapping birationally onto an octic.
+First, its length-twelve residual zero scheme must be supported on the
+marked elliptic curve. Then, for some \(b>0\), one must express
+\(Q_0^b\) as a degree-\(b\) polynomial in the four projection sections
+in the coordinate ring of that fiber. The polynomial and the implicit
+octic would cut out the fixed quartic set-theoretically. The completed
+characteristic-zero line fails at the support step. [Support theorem](../../results/elliptic_inverse_support.md) ·
+[Descent equation (8)](../../arguments/carriers/elliptic_double_inverse_construction.md#5-fiberwise-support-and-actual-descending-equations) ·
+[Tested line](../../investigations/stci-equation-search/index.md#findings)
 
 The unresolved implication is from compatible local/normalized data to two homogeneous sections whose full intersection is supported exactly on \(C_0\). A viable bridge must identify the actual source spaces, lift every required jet through their quotient maps, handle base points and conductor gluing, and then prove properness and eliminate residual components. Conversely, a universal obstruction must cover all equation degrees; the existing fixed-degree calculations and actual jets do not supply an effective all-degree bound.
 

@@ -29,6 +29,7 @@ some are bounded exploratory models rather than certificate checkers.
 | Finite generic jets at fixed degrees | [Finite-jet theorem and controls](../arguments/residuals/finite_normal_jets.md) | The Nakayama and degree proof applies to singular integral curves and weighted reducible curves in arbitrary characteristic. The archived program supplies examples and source-coefficient controls. |
 | Residual constructions and equation spaces | [Actual global models](../arguments/residuals/residual_global_models.md), [reverse liaison](../arguments/residuals/residual_liaison.md) | The proofs give the sheaf cohomology, attachment maps and stated linkage resolution. |
 | Toric quintic centers | [Full inverse-support proof](../arguments/carriers/quintic_toric_center_incidence.md); [exact remaining-center verifier](quintic_toric_remaining_centers.py) | Projection resultants and all specialized fibers on the last exceptional finite locus. The proof combines this with the marked-source classification and other boundary checks. |
+| Elliptic double inverse | [Characteristic-zero line proof and replay](../arguments/carriers/elliptic_double_inverse_construction.md#the-characteristic-zero-center-line), [finite-field candidate search](#elliptic-double-inverse-candidate-search-over-f5) | Every geometric parameter on the stated characteristic-zero line and, separately, 1,250 rational parameter tuples in the reduction at \(i=2\) over \(\mathbf F_5\). |
 | Projection and elliptic gluing | [Projection proof and evidence](../arguments/carriers/projection_and_elliptic_gluing.md) | Exact incidence, local contact, inverse-image and Picard gates for the stated targets. |
 | Mixed contact and additional sextic ranks | [Mixed-sextic contact](../arguments/residuals/residual_contact_cycles.md#mixed-sextic-contact-exact-family-and-residual-consequences); archived [Macaulay2 contact checker](https://github.com/markluxton1/STCI/blob/0a35730b2f5e046705b8a7570ebc52c2a726da52/research/computations/stci_mixed_contact_2026_10_29.m2) and [sextic jet calculations](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/stci_search_sextic_jets_2026_10_28.py) | Uniform polynomial matrix arguments and named finite sextic-source ranks are distinct. The archived Python program imported the historical R-0025 arithmetic implementation. |
 | Root pencils and collision scales | [Geometric pencil](../arguments/torus/root_pencil_geometry.md), [arithmetic collision](../arguments/arithmetic/arithmetic_root_collision.md); root-pencil, eight-component and root-collision verifiers | Displayed actual families, contact/conductor controls and residue-sensitive valuation calculations; no invariant of every containing pair is asserted. |
@@ -67,6 +68,25 @@ The [saved witness JSON](ci_fixed_boundary_node_smoothing_2026_10_25.json)
 contains the global monomial basis, exact rational perturbations, pivots and
 ranks. The formal/étale-local smoothing interpretation additionally uses the
 node-family argument in its proof home.
+
+### Elliptic double-inverse candidate search over F5
+
+The [finite-field search](../investigations/stci-equation-search/elliptic_centers.m2)
+reduces the [four section rows](../investigations/stci-equation-search/elliptic_rows.m2)
+at \(i=2\) over \(\mathbf F_5\). It tests both smooth rational parameters
+\(\mu=2,3\) and all \(5^4\) lift tuples on each quadric. For each tuple a
+Gröbner basis tests whether the full inverse ideal (7) contains one in the
+specialized ring. Every off-curve geometric projective point has a
+representative on \(Q_0=1\) after rescaling over the algebraic closure.
+On this chart the four inverse equations also vanish at a basepoint.
+All 1,250 ideals were proper, so every tested tuple fails the combined
+basepoint-free and full inverse support requirement. The calculation
+gives no exclusion for characteristic-zero parameters or for nonrational
+parameter tuples in the reduction. [Proof of the support requirement](../arguments/carriers/elliptic_double_inverse_construction.md#5-fiberwise-support-and-actual-descending-equations).
+
+```sh
+M2 --script research/investigations/stci-equation-search/elliptic_centers.m2
+```
 
 ## Historical computation artifacts and current scope
 

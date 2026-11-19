@@ -45,6 +45,14 @@ that supplies only the genus identity leaves the compatibility open.
 
 ## Bounded comparison
 
+The elliptic double-inverse search tested both smooth \(\mathbf F_5\)-rational
+quadric parameters at \(i=2\) and all \(5^4\) lift tuples for each.
+Every inverse ideal on the off-curve chart was proper over the geometric
+fiber, leaving no candidate among these 1,250 tuples. The
+characteristic-zero parameter line was decided by an independent
+elimination over \(\mathbf Q(i)\). Existence elsewhere in the
+characteristic-zero family remains open. [Search scopes and replays](../../investigations/stci-equation-search/index.md#findings)
+
 For a prescribed powered source and target algebra or sheaf, a positive
 compatibility result tests only that source; an obstruction excludes only
 the traits covered by its hypotheses. Changing the carrier or source

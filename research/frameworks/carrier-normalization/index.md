@@ -5,6 +5,11 @@ title: Carrier normalization, projection, and conductor descent
 status: in_use
 scope: "#scope"
 bridges: "#bridges"
+relations:
+  - kind: uses
+    from: [STCI-R-0075, STCI-R-0076]
+    to: [STCI-F-0005]
+    at: "#projection-polarization-and-low-degree-scopes"
 aliases:
   STCI-Q-0001: "#projection-and-conductor-descent-for-the-three-cartier-singleton-models"
 ---
@@ -86,11 +91,14 @@ excludes every admissible projection center of the classified marked toric
 source by full inverse support. Non-toric, non-Gorenstein quintic
 normalizations remain among the [open carrier cases](open_carrier_cases.md).
 
-Elliptic normalization and projection constructions likewise retain their
-own polarization and gluing data. An elliptic double-inverse construction
-can supply actual normalized sections, while the projection and conductor
-conditions decide whether they yield a carrier mate; it is not a generic
-normalization argument. See [elliptic projection and gluing](../../arguments/carriers/projection_and_elliptic_gluing.md).
+The elliptic double-inverse construction supplies actual quadratic sections
+and a finite birational octic example. A length-twelve zero
+scheme tests full support on every smooth basepoint-free fiber of the
+five-parameter construction. The characteristic-zero search excludes one
+entire parameter line at this support test. For the rest of the family, a
+birational fiber with full inverse support and an actual descending power
+are still needed to produce a mate. See the
+[elliptic carrier case](open_carrier_cases.md#full-inverse-support-in-the-elliptic-construction).
 
 ## Distinct sextic directions
 

@@ -63,3 +63,8 @@ mathematical rank.
 ## Full Chow-polytope rigidity
 
 - [STCI-R-0074: full Chow-polytope rigidity for the fixed quartic](chow_polytope_rigidity.md).
+
+## Inverse support on quintic and octic carriers
+
+- [STCI-R-0075 — Integral quintics with toric normalization exclude every mate degree](toric_quintic_carrier_exclusion.md).
+- [STCI-R-0076 — Length-twelve support test for the marked elliptic double cover](elliptic_inverse_support.md).

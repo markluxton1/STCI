@@ -14,9 +14,10 @@ image. An isolated additional inverse point already prevents a mate.
 The [elliptic double-inverse construction](elliptic_double_inverse_construction.md)
 also realizes a different source: its inverse elliptic curve covers \(C_0\)
 twice, and one fixed member is a finite birational normalization of an octic.
-That member has a projective extra inverse scheme of length twelve. Its full
-five-parameter support locus remains open; it is outside the isomorphic-inverse
-classification and the diagonal-source exclusions below.
+That member has a projective extra inverse scheme of length twelve. The
+double-inverse family lies outside the isomorphic-inverse classification
+and the diagonal-source exclusions below. Its current support and descent
+tests are summarized in [section 9](#9-synthesis-what-is-shared-what-is-still-missing).
 
 The degree-eight smooth-quadric model is a necessary model only under the
 Cartier singleton hypotheses of [R-0002](../../results/cartier_singleton_lift.md).
@@ -1251,10 +1252,14 @@ existence problem remain visible.
 There is also an actual higher-degree inverse source, rather than only a
 logical exception to these tests. The [five-parameter elliptic double inverse](elliptic_double_inverse_construction.md)
 has complete global coordinate lifts and a fixed birational octic member.
-Its first unresolved condition is absence of extra inverse support on a
-smooth, basepoint-free birational stratum, followed by pure-power descent.
-Its length-twelve fixed-member failure neither excludes that whole family
-nor transfers the rational-diagonal symmetry argument to it.
+For every smooth basepoint-free fiber, the divided inverse scheme has length
+twelve, and its whole support must lie on the marked elliptic curve.
+On the characteristic-zero line \(\mu=2,\ \rho_0=\rho_1=\rho_3=0\),
+only six parameters allow the scheme to meet that curve. Each has an extra
+inverse point. The remaining task is to find a smooth basepoint-free
+birational fiber elsewhere in the family that passes full inverse support
+and realizes pure-power descent.
+[Equation-search investigation](../../investigations/stci-equation-search/index.md#findings).
 
 ### 9.1 What extends to positive characteristic
 

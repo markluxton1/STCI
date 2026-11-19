@@ -10,6 +10,14 @@ scope:
     - "Full inverse support consists of curves, without isolated points"
 statement: "An STCI mate on a fixed hypersurface exists exactly when the full conductor descent lattice contains a fully positive vector."
 dependencies: []
+proofs:
+  - name: divisorial relation and full conductor descent
+    at: "research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md#4-an-exact-fixed-carrier-criterion-including-thick-support"
+    using: []
+    review:
+      state: accepted
+      basis: inherited
+      at: "#current-mathematical-evidence"
 evidence:
   - "research/arguments/carriers/fixed_carrier_descent_and_cartier_models.md"
   - "research/arguments/carriers/conductor_descent_algebra.md"

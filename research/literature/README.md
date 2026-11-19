@@ -306,6 +306,13 @@ complete intersections,” *Michigan Mathematical Journal* 48 (2000), 271--279.
 
 ## Carrier surfaces, divisor classes, and blowups
 
+For quintic carriers, Andreatta–Sommese's sectional-genus classification
+describes polarized surfaces. The fixed quartic and its projection center
+require additional data. The repository's marked toric classification and
+inverse-image calculation supply those data and exclude every mate on
+an integral quintic with toric normalization. [External hypotheses and their application](../arguments/carriers/quintic_non_gorenstein_toric_sources.md#1-why-this-source-remains-relevant) ·
+[Repository theorem](../results/toric_quintic_carrier_exclusion.md)
+
 ### Normalization conductors and ordinary double surfaces
 
 - Steven Kleiman, Joseph Lipman, and Bernd Ulrich, “The source double-point

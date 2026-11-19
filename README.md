@@ -17,5 +17,10 @@ multiplicities and residual cycles, and the embedded structures realized by
 actual homogeneous equations. The STCI question asks when the residual cycle
 can disappear.
 
+The [carrier projection results](research/MAP.md#questions-and-active-work)
+explain why toric quintic normalizations exclude every mate degree and
+what the marked elliptic octic construction still needs to produce two
+equations.
+
 [Results and proofs](research/CATALOG.md), [literature](research/literature/README.md),
 and the [contribution workflow](research/MODEL.md) are shared across approaches.

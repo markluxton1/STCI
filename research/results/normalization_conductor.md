@@ -14,7 +14,16 @@ O_S(A)\cong O_S(bH)
 \]
 for some \(b>0\). A sufficiently high power of its canonical section descends through the conductor. This removes a separate asymptotic conductor obstruction in this support-contained case; it does not produce the required divisor or linear equivalence.
 
-The criterion is carrier-specific.
+For integral quintics with toric normalization, the center
+classification forces an extra inverse point for every admissible
+projection of the marked source required by a mate. This excludes all
+mate degrees. In the marked elliptic
+double-cover construction the inverse away from the elliptic curve is
+the off-curve part of a length-twelve scheme. If its entire support lies
+on that curve, the remaining question on a birational fiber is descent
+of a pure power in the four projection coordinates.
+[Toric quintics](toric_quintic_carrier_exclusion.md) ·
+[Elliptic double cover](elliptic_inverse_support.md)
 
 ## Proof and characteristic range
 
