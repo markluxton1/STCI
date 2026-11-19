@@ -134,7 +134,13 @@ F_6=(D/2+qL)^2
 
 This identity may help future normalization or conductor calculations. No normality claim is inferred from it.
 
-## One selected carrier: a completed necessary jet exclusion
+<a id="one-selected-carrier-a-completed-necessary-jet-exclusion"></a>
+
+## One selected carrier: geometric sharp bounds and retained jet evidence
+
+[R-0025](../../results/ci_fixed_sextic_jet_rigidity.md#proof) now proves a sharp
+all-degree bound for this carrier by three normalization-boundary valuations.
+The historical order-twelve certificate below remains a separate weaker route.
 
 The current investigation tests only
 
@@ -157,7 +163,7 @@ G_{16}\in(F_*)+(u,v)^{12}
 
 This is only a necessary condition. Its coefficient space is nevertheless finite: all 969 coefficients of a homogeneous degree-sixteen form remain constants. The 286 forms \(F_*H_{10}\) satisfy it and cannot be proper mates.
 
-The [exact fixed-carrier rank proof and replay](../../results/ci_fixed_sextic_jet_rigidity.md#exact-evidence-and-independent-verification) evaluate the actual normal substitution at \(z=1,\ldots,30\) modulo 65521. The stacked \(690\times969\) matrix has rank 683 and annihilates all 286 known multiples. The [good-reduction proof](../../results/ci_fixed_sextic_jet_rigidity.md#proof) uses 55 unit pivots over the sample DVR to lift the rank bound to characteristic zero.
+The [exact fixed-carrier rank proof and replay](../../results/ci_fixed_sextic_jet_rigidity.md#exact-evidence-and-independent-verification) evaluate the actual normal substitution at \(z=1,\ldots,30\) modulo 65521. The stacked \(690\times969\) matrix has rank 683 and annihilates all 286 known multiples. The [good-reduction proof](../../results/ci_fixed_sextic_jet_rigidity.md#local-node-lemma-and-legacy-order-twelve-kernel-proof) uses 55 unit pivots over the sample DVR to lift the rank bound to characteristic zero.
 
 It follows that the characteristic-zero necessary jet kernel has dimension at most \(969-683=286\). The known multiples already have dimension 286, so
 
@@ -170,7 +176,9 @@ It follows that the characteristic-zero necessary jet kernel has dimension at mo
 
 The equality persists under characteristic-zero coefficient-field extension. This first excludes a proper degree-sixteen mate in the scoped full generic initial-\((2,12)\) problem. The following independently audited local argument gives a stronger fixed-carrier conclusion without that initial-ideal assumption.
 
-## Every proper degree-sixteen pair on this carrier has residual degree at least eight
+<a id="every-proper-degree-sixteen-pair-on-this-carrier-has-residual-degree-at-least-eight"></a>
+
+## Every proper degree-sixteen pair on this carrier has residual degree at least thirty-two
 
 The [nonsplit-node scope audit](../torus/toric_torsion_and_endpoint_contacts.md#scope-audit-the-selected-endpoint-four-carrier-has-a-nonsplit-generic-node) independently reconstructs the needed local lemma. The generic quadratic normal term of \(F_*\) is
 
@@ -186,14 +194,22 @@ G\in(F_*)+(u,v)^n.
 
 For clarity, the membership follows by writing the prepared remainder as \(a(v)u+b(v)\). Subtracting its restrictions to the two branches, whose difference has order one in \(v\), gives \(\operatorname{ord}a\ge n-1\); then \(\operatorname{ord}b\ge n\). This uses actual conjugate branches and finite intersection length, not just the two initial normal symbols.
 
-If a proper homogeneous degree-sixteen pair \((F_*,G)\) containing \(C\) had \(n\ge12\), the completed jet-kernel certificate would force the global form \(G\) to be a multiple of \(F_*\), contradicting properness. Thus every such pair has
-
+The [geometric boundary proof](../../results/ci_fixed_sextic_jet_rigidity.md#proof)
+now gives \(n\le8\), without the order-twelve rank certificate. Thus
 \[
-\boxed{m_C=2n\le22,\qquad
-\deg\bigl([V(F_*,G)]-m_C[C]\bigr)=96-8n\ge8.}
+\boxed{m_C=2n\le16,\qquad
+\deg\bigl([V(F_*,G)]-m_C[C]\bigr)=96-8n\ge32.}
 \]
+The bounds are attained by \(G=q^8\); every characteristic-zero maximizer
+is \(G=F_*H_{10}+c q^8\), \(c\ne0\), so its full intersection ideal
+is \((F_*,q^8)\), with cycle \(16[C]+32[V(x_2,x_3)]\).
 
-This fixed-carrier conclusion does not require a prescribed full generic initial CI, a saturated first relation, or the movement-two hypothesis. Those assumptions explain where the carrier came from. The conclusion requires the actual displayed \(F_*\), mate degree sixteen, properness, and characteristic zero. It makes no assertion that the bound is attained. It does not exclude the endpoint-four chart for other \(b_2,\kappa,\rho\), the endpoint-three chart, the orbit-collision chart, other movement rows, or unrestricted STCI presentations.
+More generally the same proof gives \(n\le\lfloor b/2\rfloor\) for
+every mate degree \(b\) on this fixed carrier. It requires neither a
+prescribed initial CI, a saturated first relation, nor movement two.
+It does not exclude other parameters of the endpoint-four chart, the
+endpoint-three or collision charts, other movement rows, or unrestricted
+STCI. The Result states the precise positive-characteristic extension.
 
 ## Exact computational evidence
 

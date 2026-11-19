@@ -18,7 +18,7 @@ missing implications.
 - **[STCI-R-0028 — Ruled projection and normalization models (marked setup)](quartic_ruled_projection_geometry.md)**
 - **[STCI-R-0027 — Dual discriminant singular scheme (saved-certificate qualified)](quartic_dual_singular_scheme.md)**
 - **[STCI-R-0026 — Flag incidence and conormal geometry (marked setup)](quartic_flag_conormal_geometry.md)**
-- **[STCI-R-0025 — Fixed sextic jet rigidity (saved-certificate qualified)](ci_fixed_sextic_jet_rigidity.md)**
+- **[STCI-R-0025 — Fixed sextic sharp bounds and maximal-mate rigidity](ci_fixed_sextic_jet_rigidity.md)**
 - **[STCI-R-0024 — Independent residual-node smoothing at fixed boundary (explicit pencil)](ci_quartic_fixed_boundary_smoothing.md)**
 - **[STCI-R-0023 — Explicit quartic residual geometry (fixed examples)](ci_quartic_explicit_residual_geometry.md)**
 - **[STCI-R-0022 — Shorter filtered-contact (4,4) exclusion (inherited inputs)](quartic_44_filtered_exclusion.md)**

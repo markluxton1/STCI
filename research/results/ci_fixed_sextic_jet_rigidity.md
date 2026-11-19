@@ -1,13 +1,13 @@
 ---
 id: STCI-R-0025
-title: "Fixed sextic jet rigidity and residual-degree obstruction"
+title: "Fixed sextic: sharp mate bounds from boundary valuations"
 kind: theorem
 scope:
   characteristic: "0"
   curve: "fixed C0"
   hypotheses:
-    - "The selected sextic Fstar and proper degree-sixteen mates"
-statement: "For the selected Fstar, the degree-sixteen order-twelve jet kernel is Fstar times degree-ten forms; every proper degree-sixteen mate has generic multiplicity at most 22 and residual cycle degree at least eight."
+    - "The selected sextic Fstar and arbitrary positive-degree proper mates"
+statement: "For the selected Fstar, every proper degree-b mate has branch order at most floor(b/2); in characteristic zero every even-degree maximizer is a carrier multiple plus a nonzero scalar times q^(b/2). At degree sixteen the sharp multiplicity and residual-degree bounds are 16 and 32."
 dependencies: []
 evidence:
   - "research/results/ci_fixed_sextic_jet_rigidity.md"
@@ -18,19 +18,267 @@ legacy_ids: []
 supersedes: []
 superseded_by: []
 limitations:
-  - "Only one selected sextic and degree-sixteen mates"
+  - "Only one selected sextic; no arbitrary-carrier or unrestricted STCI theorem"
   - "Saved certificates were source-inspected; independent normal-division replay passed in GitHub Actions run 40434021004 (2026-10-26). Macaulay2 was not rerun in that workflow."
-  - "Bound not claimed sharp"
+  - "The bound extends outside characteristics 2 and 37; positive-characteristic even-degree rigidity is proved here only for p>b, p!=37"
 ---
-# Fixed sextic jet rigidity
+<a id="fixed-sextic-jet-rigidity"></a>
+
+# Fixed sextic: sharp mate bounds from boundary valuations
 
 ## Statement
-Put q=x0*x3-x1*x2 and D=x2^3-x1*x3^2, and define Fstar=-q^2*x3^2-q*D*x2+D^2/4+q^3. For a degree-sixteen global G, membership of its generic normal jet in (Fstar)+(u,v)^12 forces G=Fstar*H10. For every proper degree-sixteen complete intersection (Fstar,G) containing C0, its generic multiplicity is even and at most 22; its residual fundamental cycle has degree at least eight.
+
+Fix an algebraically closed field of characteristic zero and
+\(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\). Put
+\[
+q=x_0x_3-x_1x_2,\qquad D=x_2^3-x_1x_3^2,\qquad
+F_*=-q^2x_3^2-qDx_2+D^2/4+q^3.
+\]
+For **every** positive integer \(b\) and every degree-\(b\) homogeneous
+form \(G\) meeting this fixed sextic properly, the common order \(n\)
+on its two conjugate branches over the generic point of \(C\) satisfies
+\[
+ n\le\lfloor b/2\rfloor.
+\]
+If \(G\) contains \(C\), its generic intersection multiplicity is
+\(m_C=2n\), and its residual fundamental cycle satisfies
+\[
+ \deg R=6b-8n\ge6b-8\lfloor b/2\rfloor>0.
+\]
+These bounds are sharp: use \(q^{b/2}\) for even \(b\), or
+\(q^{(b-1)/2}x_3\) for odd \(b\). The odd-degree example contains
+\(C\) when \(b\ge3\); no linear form contains this nondegenerate curve.
+
+For even \(b\), every mate attaining \(n=b/2\) has the stronger form
+\[
+ G=F_*H_{b-6}+c q^{b/2},\qquad c\in k^*,
+ \qquad (F_*,G)=(F_*,q^{b/2}),                         \tag{1}
+\]
+where a negative-degree \(H\) means zero. Thus **no mate degree on this
+one carrier** gives sole support \(C\). This does not exclude other
+sextics or solve unrestricted characteristic-zero STCI.
+
+In particular, at degree sixteen the sharp bounds are \(m_C\le16\)
+and \(\deg R\ge32\), and every maximizer defines the same complete
+intersection as \((F_*,q^8)\). If \(\mathcal K_j\) denotes the global
+degree-sixteen kernel modulo \((F_*)+\mathfrak m^j\) at the generic
+point, then
+\[
+ \mathcal K_8=F_*H^0(\mathcal O(10))\oplus kq^8,
+ \qquad \mathcal K_9=F_*H^0(\mathcal O(10)).           \tag{2}
+\]
+The former order-twelve kernel theorem follows as a weaker corollary.
+The retained rank-683 replay remains an independent check of that older
+statement; it is not an input to the geometric proof below.
 
 ## Hypotheses and quantifiers
-Algebraically closed characteristic-zero base field, this particular Fstar, and degree-sixteen mates only.
+
+The primary statement is characteristic zero, one displayed carrier,
+and arbitrary mate degree. Properness is essential. The bound also holds
+in every characteristic other than 2 and 37. The even-degree classification
+(1) is proved here in characteristic zero or characteristic \(p>b\),
+\(p\ne37\); see [the characteristic discussion](#characteristic-boundary-of-the-argument).
+In particular (1) and (2) hold in characteristic 65521 at degree sixteen.
+No classification of odd-degree maximizers is asserted.
 
 ## Proof
+
+### The affine normalization and the marked branch order
+
+Adjoin a degree-one coordinate \(W\) with equations
+\[
+ W^2-2x_2W-x_3^2+q=0,\qquad 2qW=D.                  \tag{3}
+\]
+On \(x_3=1\), put \(y=x_2\), \(w=W\). Eliminating gives exactly
+\[
+ Q=1+2yw-w^2,\qquad q=Q,\qquad
+ x_1=y^3-2Qw,\qquad x_0=Q+x_1y.                    \tag{4}
+\]
+Thus the graph chart is \(\operatorname{Spec}k[y,w]\), finite over
+the carrier chart because the first equation in (3) is monic in \(W\).
+After inverting \(q\), the inverse is \(w=D/(2q)\), so the localized
+carrier ring is \(k[y,w,Q^{-1}]\), a domain. In the affine ambient
+polynomial ring, \(q=x_0-x_1y\) is a prime coordinate and does not
+divide \(F_*\), since \(F_*\bmod q=D^2/4\ne0\). Consequently
+\(F_*\) is irreducible there: any extra factor becoming a unit after
+localization would be a power of \(q\). It is irreducible homogeneously
+as well, since \(x_3\nmid F_*\). The finite birational normal chart
+(4) is therefore the normalization of this affine carrier chart.
+This is the usual integral-closure characterization of normalization,
+not a claim about an uncomputed projective graph at every point.
+
+The marked ideal on \(x_3=1\) is \((q,D)\): indeed
+\(D=y^3-x_1\) and \(x_0-y^4=q-yD\). Its pullback is \((Q)\).
+The prime divisor \(Q=0\) is smooth and has coordinate ring
+\[
+ k[y,w]/(Q)=k[w,w^{-1}],\qquad y=(w^2-1)/(2w).
+\]
+Its residue extension over \(k(C)=k(y)\) is the separable quadratic
+\(w^2-2yw-1\), irreducible because \(y^2+1\) has simple zeros and
+is not a square in \(k(y)\). In local coordinates \((q,D)\), the
+carrier has ordinary quadratic term \(D^2/4-yqD-q^2\).
+After the residue-field extension it has two transverse smooth branches,
+exchanged by Galois. The pullback of the marked ideal is the uniformizer
+\(Q\); therefore \(\operatorname{ord}_Q(g)=n\) is the common branch
+order, not twice that order, for the restriction \(g\) of an actual
+mate. The nonsplit-node argument in the
+[retained local proof](#local-node-lemma-and-legacy-order-twelve-kernel-proof)
+gives intersection length \(2n\) and exact normal-jet order \(n\).
+
+Properness makes \(g\) a nonzero polynomial in \(k[y,w]\). Since
+\(Q\) is prime, write
+\[
+ g=Q^nP(y,w),\qquad P\ne0.                           \tag{5}
+\]
+Here all coefficients of \(P\) are constants in \(k\), not rational
+functions of a parameter on a boundary divisor.
+
+### Three actual boundary valuations
+
+Use the other graph chart \(x_2=1\), writing \(u=x_3\), \(z=x_0\)
+and retaining \(W\). The equations eliminate \(x_1\) to give
+\[
+ f(W)+W^2u^2-u^4+zu^3=0,\qquad
+ f(W)=-2W^3+4W^2-1.                                 \tag{6}
+\]
+Its overlap with (4) is \(y=1/u\), \(w=W/u\).
+The cubic has discriminant \(148\), and its three roots \(r_i\)
+are distinct and nonzero in the stated characteristics. At the generic
+point of each line \(u=0,W=r_i\), the derivative \(f'(r_i)\ne0\).
+The chart is regular there; its DVR has uniformizer \(u\) and residue
+field \(k(z)\). These are valuations \(v_i\) on the same carrier
+function field, not valuations on an unrelated surface model.
+
+Expanding (6) in this DVR yields
+\[
+ W=r_i+\beta_i u^2+\gamma_i zu^3+O(u^4),\qquad
+ \beta_i=-r_i^2/f'(r_i),\quad\gamma_i=-1/f'(r_i).
+\]
+Set \(S_i=W-r_i-\beta_i u^2\), so its initial term is
+\(\gamma_i zu^3\). For a nonzero polynomial in \(u,S_i\) with
+constant coefficients, its valuation is the least weight \(a+3j\)
+of its nonzero monomials \(u^aS_i^j\). Indeed, terms tied at this
+weight have distinct powers \(z^j\) in their initial residues. They
+cannot cancel in \(k(z)\). This explicitly addresses cancellation
+between different homogeneous parts of a global equation.
+
+On the boundary, \(q/x_2^2=-W^2+2W+u^2\) specializes to
+\(r_i(2-r_i)\ne0\), because \(f(0)=f(2)=-1\). Hence
+\(v_i(Q)=-2\). A degree-\(b\) homogeneous form has
+\(g=u^{-b}(G/x_2^b)\), with the parenthesized factor regular on
+this chart. Thus (5) implies
+\[
+ v_i(P)\ge2n-b\quad\text{for every }i.               \tag{7}
+\]
+
+### A polynomial must have nonpositive order on one boundary line
+
+Let \(d=\deg P\), with homogeneous parts \(p_j(y,w)\). Then
+\[
+ u^dP(1/u,W/u)=\sum_{\ell=0}^d u^\ell p_{d-\ell}(1,W).
+\]
+Let \(m_i\) be the multiplicity of \(r_i\) in the nonzero polynomial
+\(p_d(1,W)\). After substituting
+\(W=r_i+\beta_i u^2+S_i\), the coefficient of
+\(u^0S_i^{m_i}\) is nonzero. Lower homogeneous parts carry positive
+powers of \(u\) and cannot alter it. The preceding noncancellation
+argument proves
+\[
+ v_i(P)\le3m_i-d.
+\]
+Since \(\sum_i m_i\le\deg_W p_d(1,W)\le d\), at least one of
+these upper bounds is nonpositive. This includes \(d=0\), when all
+three valuations are zero. Combining with (7) gives \(2n\le b\).
+
+### Equality for even degrees
+
+Suppose \(2n=b\). Then all \(v_i(P)\ge0\). The inequalities just
+proved force \(d=3m\), \(m_i=m\) for all three roots, and
+\[
+ p_d(1,W)=c f(W)^m,\qquad c\ne0.
+\]
+If \(d>0\), every coefficient \(u^2S_i^j\) with \(j\le m-1\)
+must vanish: its weight \(2+3j\) is smaller than \(d\).
+The coefficient of \(u^2\), as a polynomial in \(S_i\), is exactly
+\[
+ \beta_i p_d'(1,r_i+S_i)+p_{d-2}(1,r_i+S_i).          \tag{8}
+\]
+In particular the \(u p_{d-1}\) term contributes nothing: the
+substitution for \(W\) changes the \(u\)-degree only by even integers.
+The coefficients with \(j\le m-2\) in (8) force
+\[
+ p_{d-2}(1,W)=f(W)^{m-1}L(W),\qquad \deg L\le1.
+\]
+For \(m=1\) this divisibility is vacuous, but the same degree bound
+holds. The coefficient with \(j=m-1\), divided by the nonzero
+\(f'(r_i)^{m-1}\), now gives
+\[
+ L(r_i)+mc\beta_i f'(r_i)=0,
+ \quad\text{or}\quad L(r_i)=mc r_i^2.
+\]
+If \(m\ne0\) in \(k\), a polynomial of degree at most one cannot
+agree with this nonzero quadratic at three distinct points. Thus in
+characteristic zero \(d=0\), and \(P\) is a nonzero constant.
+
+For the asserted positive-characteristic refinement, (4) gives
+\(\deg x_0\le4\), \(\deg x_1\le3\), \(\deg y=1\), so
+\(\deg g\le4b\). At \(2n=b\), (5) gives \(d\le3b\), hence
+\(m=d/3\le b\). If \(p>b\), the same contradiction applies.
+No conclusion about equality is drawn from this step when \(p\mid m\).
+
+We have proved \(g=cQ^{b/2}\) on \(x_3=1\). Therefore
+\(G-cq^{b/2}\) vanishes on the integral carrier after inverting
+\(x_3\). Since \(F_*\) is irreducible and not divisible by \(x_3\),
+it divides this difference homogeneously. This proves (1), including
+its degree and its assertion about the full intersection ideal.
+
+### Sharpness, residual cycle, and jet kernels
+
+The pair \((F_*,q^j)\) is proper: \(q\) is irreducible and
+\(F_*\bmod q=D^2/4\ne0\). On the smooth quadric \(q=0\), use
+\([x_0:x_1:x_2:x_3]=[ac:ad:bc:bd]\). Then
+\[
+ D=b^2(bc^3-ad^3),\qquad \operatorname{div}_Q(D)=2L_0+C,
+ \qquad L_0=V(x_2,x_3).
+\]
+Consequently
+\[
+ [V(F_*,q^j)]=2j[C]+4j[L_0].
+\]
+This proves sharpness and gives \(16[C]+32[L_0]\) at degree sixteen.
+An odd-degree extra factor \(x_3\) is a unit at the generic point
+of \(C\), so it leaves the branch order unchanged. The cycle-degree
+formula and the local-node order equivalence give (2). In fact for
+any \(b\), the kernel at cutoff \(\lfloor b/2\rfloor+1\) is
+\(F_*H^0(\mathcal O(b-6))\): a nonmultiple would be proper and
+violate the bound. No coefficient-rank computation is needed.
+
+### Review and literature boundary
+
+The written route was independently reconstructed at both affine charts,
+the integral-closure and residue-degree steps, the noncancellation argument,
+the equality coefficients, and homogeneous divisibility. The formulas in
+(4), (6), the discriminant 148, and the first series coefficients were
+also checked by direct symbolic expansion. These small checks support,
+rather than replace, the valuation proof. The old modular certificate
+below proves a weaker assertion by a distinct route.
+
+The normalization step uses the standard
+[integral-closure construction](https://stacks.math.columbia.edu/tag/035E).
+The nonsplit-node local length calculation is retained below. The
+[adjacent selected-carrier study](../arguments/spectral/actual_sextic_mate_certificates.md)
+already uses the auxiliary coordinate and the mate \(q^8\), but its
+finite table does not include this \((t,\kappa)=(0,1)\) carrier. The
+new contribution here is the three-boundary argument and its all-degree
+consequence for this fixed carrier, not a novelty claim about
+normalization or valuations themselves.
+
+## Local node lemma and legacy order-twelve kernel proof
+
+The following independent route is retained with its exact source and
+sample qualifications. Its order-twelve kernel and bounds 22 and eight
+are valid but weaker than (1)–(2). Its rank computation is no longer a
+premise of the sharp theorem.
 
 Write \(K=k(z)=k(C)\). At the generic point use the actual ambient chart
 \[
@@ -144,31 +392,31 @@ construction and was source-inspected during review.
 
 ## Characteristic boundary of the argument
 
-The statement above is in characteristic zero. The local nonsplit-node
-lemma works in every characteristic different from two, provided its separable
-quadratic and finite-length hypotheses hold. For this carrier, the class
-\(1+z^2\) is nonsquare over \(k(z)\) in every odd characteristic, since
-its two roots are simple. The displayed carrier is undefined as written in
-characteristic two because of its coefficient \(1/4\).
+The geometric bound works over an algebraically closed field of any
+characteristic other than 2 and 37. Characteristic two is excluded by the
+carrier's coefficient 1/4 and the quadratic residue argument. At 37 the
+boundary cubic has a repeated root, so this three-distinct-lines proof
+does not apply; no conclusion for that prime is asserted here.
 
-There is a concrete additional scoped deduction from the retained certificate:
-**the same fixed-carrier degree-sixteen conclusion holds in characteristic
-65521.** The exact matrix was constructed in that characteristic, all thirty
-samples are good, and its rank 683 together with the 286 global carrier
-multiples proves the kernel identity directly there. The separable-node
-argument then gives \(m_C\le22\) and residual degree at least eight, exactly
-as above. Independent consolidation review accepted this extension as a separate scoped deduction; it does not extend the theorem to all odd primes. More
-generally a nonzero rational maximal minor gives the same result away from
-finitely many primes after spreading out, but no complete exceptional-prime
-list is certified here.
+Even-degree maximal-contact rigidity uses m nonzero in the field and is
+proved here in characteristic zero or p>b, p!=37. In particular the sharp
+degree-sixteen statement and both kernels in (2) hold at 65521. For smaller
+allowed primes the sharp bound still holds, but this proof does not classify
+all maximizers. No odd-degree equality classification is asserted.
 
-This is compatible with an STCI using a quartic carrier in every positive
-characteristic: it concerns a different, single fixed sextic and one mate
-degree. The general positive-characteristic construction is owned by
-[the curve and characteristic account](../arguments/curve/fixed_quartic_geometry.md).
+The retained finite certificate independently proves the older degree-sixteen
+order-twelve kernel in characteristic 65521. Its 683 rank and 286 global
+multiples give equality directly there; the separable-node argument gives
+the weaker bounds 22 and eight. The newer geometric result subsumes that
+consequence without using the matrix. These are distinct proof routes,
+not an extrapolation of one finite-field rank to untested primes.
+
+This is compatible with a quartic-carrier STCI in every positive
+characteristic: the present theorem concerns a different, single sextic.
+See [the curve and characteristic account](../arguments/curve/fixed_quartic_geometry.md).
 
 ## Consequences
-No proper degree-sixteen mate for this selected sextic has sole reduced support C0.
+No proper positive-degree mate for this selected sextic has sole reduced support C0 in the characteristics covered by the bound.
 
 ## Limitations
 No general sextic or unrestricted STCI theorem.

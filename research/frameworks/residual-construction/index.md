@@ -163,3 +163,14 @@ and [global equation realization](../global-equation-realization/index.md).
   requires a map retaining the relations used by the deformation.
 
 The [quadric restriction and contact rigidity synthesis](quadric_restriction_and_contact_rigidity.md) distinguishes the degree-independent Picard-class obstruction to sole support from the sharp, computational sextic multiplicity bound. It reformulates the latter as a uniform symbolic-power vanishing on quartic carriers and identifies residual quartic cycles as possible geometric proof inputs, without asserting the vanishing has a calculation-free proof.
+
+## A fixed sextic controlled by its normalization boundary
+
+[R-0025](../../results/ci_fixed_sextic_jet_rigidity.md#proof) now bounds every
+mate degree on one explicit sextic using three boundary valuations. In
+characteristic zero a degree-b mate has branch order at most floor(b/2),
+and every even-degree maximizer defines the same ideal as the quadric power.
+The degree-sixteen bounds are sharp: multiplicity 16 and residual degree 32.
+The retained rank-683 replay is independent weaker evidence, not proof-bearing
+for this route. The Result separates the positive-characteristic bound and
+equality scopes; it does not address other sextics or unrestricted STCI.
