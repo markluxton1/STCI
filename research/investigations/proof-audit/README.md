@@ -31,6 +31,8 @@ The 44 groups below remain the historical inventory at the stated pin, not
 - **Group 38 / R-0054:** the [endpoint proof](../../arguments/torus_embedded_quotients.md#embedded-quotients-and-characteristic-dependent-endpoints) now derives the four-jet determinant from the binomial/Vandermonde identity. Weighted image-algebra closure and the separate characteristic-two/three controls remain necessary; this does not classify arbitrary embedded quotients.
 - **Group 32 / R-0027 already has a local replacement:** [the dual-scheme proof](../../arguments/curve/quartic_dual_schemes.md#4-the-two-embedded-endpoint-points) uses Hilbert–Burch and weighted nonmembership for the endpoint socles. Its global primary decomposition and Hilbert-polynomial outputs remain explicitly computed evidence.
 
+The follow-up [corrected hyperplane argument](../../arguments/curve/normalization_residual_capacity.md) explains how verified negative residual curves give weighted contact bounds. It proves sharp half-contact bounds on the stated characteristic-zero full-source open, and the [split-family application](../../arguments/curve/carrier_test_curves.md#a-sharp-residual-bound-for-the-split-graded-family) gives componentwise rounded bounds in odd characteristic. This does not assume negative definiteness for arbitrary residuals. R-0025 now also records an exact nonnegative boundary-loss identity and a conditional weighted extension; neither replaces the need to establish the actual carrier hypotheses.
+
 These are scoped proof-route updates, not a retagging of every historical
 group or a claim that all finite computations have been eliminated.
 

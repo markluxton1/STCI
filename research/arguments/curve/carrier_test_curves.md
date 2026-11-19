@@ -1,6 +1,6 @@
 # Test curves, normalization attachments, and restrictions on actual carriers
 
-Fix \(C=C_0=[s^4:s^3t:st^3:t^4]\) over an algebraically closed field; the ordinary full-source theorems use characteristic zero, while the weighted-subalgebra theorem below explicitly allows every odd characteristic. Throughout, a mate means an actual homogeneous form of positive degree with sole reduced intersection support \(C\). The arguments compare the divisor of its pullback with restrictions to actual projective curves. A curve on the exceptional divisor alone is not a test curve downstairs.
+Fix \(C=C_0=[s^4:s^3t:st^3:t^4]\) over an algebraically closed field; the ordinary full-source theorems use characteristic zero, while the weighted-subalgebra theorem below explicitly allows every odd characteristic. In the original exclusion arguments, a mate means an actual homogeneous form of positive degree with sole reduced intersection support \(C\). The quantitative extensions explicitly use proper containing equations, which may also have residual support. The arguments compare the divisor of its pullback with restrictions to actual projective curves. A curve on the exceptional divisor alone is not a test curve downstairs.
 
 The weighted-subalgebra and critical-degree arguments have inherited independent review. The all-degree residual-curve extension below has a full proof and exact hypotheses. Its historical source review covered the critical-degree case; the present independent consolidation review also reconstructed the all-degree elimination, actual open-locus construction and slope refinement. These are not unrestricted STCI theorems.
 
@@ -16,6 +16,8 @@ b\deg T_j=\sum_i n_{ji}r_i\quad\text{for every }j.             \tag{*}
 Indeed its pulled-back divisor is \(\sum r_i\Gamma_i\); intersecting with \(H\) gives the first equation. On the normalization of a test curve its section has zeros only at the attaching points. At a regular single-branch attachment a local equation is a unit times the inverse-curve parameter to power \(r_i\), giving the second equation. A nonzero section of \(\mathcal O_{T_j}(b)\) has total zero degree \(b\deg T_j\). The section cannot vanish identically on a test component, since that component would be extra support.
 
 Thus inconsistency even over positive rational \(r_i/b\) obstructs all mate degrees. This separates the reusable mechanism from the quartic example: full support, actual test curves and verified local attachments are the essential hypotheses. It is not a sufficiency criterion when the linear system has a positive solution. Singular normalization points require a different local calculation; generic normal roots alone do not supply \(n_{ji}\).
+
+The [corrected hyperplane mechanism](normalization_residual_capacity.md#a-reusable-negative-curve-correction) extends these degree identities to proper intersections with residual curves: a negative-definite residual configuration determines a nef class whose null curves are exactly that configuration. It yields sharp half-contact bounds on the [ordinary full-source open](normalization_residual_capacity.md#sharp-half-contact-bound-on-the-ordinary-full-source-open), while the split-family application below retains separate branch weights and componentwise rounding.
 
 ## Four lines on the mixed-weight sextic
 
@@ -282,6 +284,182 @@ b=3r_j\quad\hbox{for every }j.
 Combining (3) and (4) yields \(3mb=4mb/3\), a contradiction for
 \(m,b>0\).
 
+## A sharp residual bound for the split graded family
+
+Keep the weighted-subalgebra hypotheses above: the base field is
+algebraically closed of characteristic different from two,
+\[
+F=\sum_{i=0}^{\lfloor m/2\rfloor}q^{3i}B_{m-2i}(c_0,c_2),
+\qquad m\ge1,
+\]
+and \(B_m\) is squarefree with neither coordinate an axis root.
+Write its distinct roots as \(c_2=\lambda_jc_0\),
+\(\lambda_j\ne0\). No integrality or reducedness assumption on
+\(F\) is required. A proper degree-\(b\) equation means a homogeneous
+\(G_b\), \(b>0\), with no common surface factor with \(F\).
+
+### The root hypotheses already control the global components
+
+On \(Q\), using \((x_0,x_1,x_2,x_3)=(ac,ad,bc,bd)\) and
+\(f=bc^3-ad^3\), one has
+\[
+F|_Q=f^m B_m(-a^2,b^2).
+\]
+Its divisor is \(mC\) plus \(2m\) distinct ruling lines, all in
+one ruling. The quadric does not divide \(F\). For any irreducible
+factor of degree \(d\), its nonzero restriction to \(Q\) has divisor
+\(nC\) plus \(\ell\) of these ruling lines. Bidegrees give
+\[
+(d,d)=(n+\ell,3n),\qquad d=3n,
+\]
+so every factor contains \(C\), independently of any putative
+sole-support mate. The generic normal symbol is squarefree, hence no
+factor is repeated.
+
+Let \(X_i\) be the irreducible components. Its initial normal symbol
+is the product of a subset \(J_i\) of the simple linear roots; put
+\(m_i=|J_i|\). The direction \(q=0\) is not a root at the generic
+point of \(C\), so restricting to \(Q\) preserves this normal order.
+Consequently
+\[
+\deg X_i=3m_i,\qquad \sum_i m_i=m.
+\]
+The normalization \(S_i\) has precisely the inverse curves
+\(\Gamma_j\), \(j\in J_i\), each with residue degree one over
+\(C\). The two lines labelled by \(\lambda_j\) belong to that
+same component. Their local attachment to its unique corresponding
+sheet proves this assignment, including when global components meet
+along \(C\).
+
+### The negative lines correct the hyperplane test
+
+Each attached line lies entirely in the regular locus of its normalized
+component. The finite nonzero attachments were checked above by the
+simple root of the equation after \(q=uz\). Away from \(C\), on
+\(x_0=1\), the residual root in \(w\) is simple. The point of the
+line at infinity is also smooth: in the chart \(x_1=1\), on \(q=0\),
+\[
+c_0=1-x_0^3x_3,\qquad c_2=-x_3^2c_0.
+\]
+At \(x_0=0,x_3=\zeta\), the derivative of
+\(c_0^mB_m(1,-x_3^2)\) with respect to \(x_3\) is nonzero,
+because \(\zeta\ne0\), the root is simple, and \(2\ne0\).
+
+Write \(H_i=\nu_i^*\mathcal O_{X_i}(1)\), and let
+\(\mathcal L_i\) be the set of its \(2m_i\) attached strict lines.
+The complete quadric divisor is
+\[
+\operatorname{div}(\nu_i^*q)
+=\sum_{j\in J_i}\Gamma_j+\sum_{L\in\mathcal L_i}L.
+\tag{S1}
+\]
+Every coefficient is one: the generic normal roots are simple, \(q\)
+has order one there, and the residual lines are reduced. Finite
+normalization introduces no divisors over isolated points.
+
+The lines are pairwise disjoint, and a line attached to \(\Gamma_j\)
+meets it with total multiplicity three and no other inverse curve.
+Intersecting (S1) with that line gives
+\[
+2H_i\cdot L=2=3+L^2,\qquad L^2=-1.                 \tag{S2}
+\]
+This remains true in characteristic three. There the attachment is one
+point with intersection length three, rather than three transverse
+points. Its local parameter on the line is
+\(u=\zeta-t^3\), and the simple normal root still gives a regular
+surface sheet. No claim of transverse attachment in that characteristic
+is being made.
+
+Now set
+\[
+P_i=H_i+\sum_{L\in\mathcal L_i}L.
+\tag{S3}
+\]
+Each line is Cartier because it lies in the regular locus. Thus \(P_i\)
+is a Cartier divisor. It has degree zero on each attached line. It has
+strictly positive degree on every other integral curve: \(H_i\) is
+ample, and intersection with a distinct effective line is nonnegative.
+In particular \(P_i\) is nef, with precisely those lines as its
+zero-degree curves. This correction removes the negative contribution
+of the compulsory residual lines rather than ignoring them.
+
+The required intersection numbers are
+\[
+P_i\cdot H_i=3m_i+2m_i=5m_i,
+\qquad P_i\cdot\Gamma_j=4+2\cdot3=10.
+\tag{S4}
+\]
+For a proper \(G_b\), write its divisor on \(S_i\) as
+\[
+\operatorname{div}(\nu_i^*G_b)
+=\sum_{j\in J_i}r_j\Gamma_j+E_i,
+\]
+where \(r_j\ge0\) and \(E_i\) is effective with no inverse-curve
+component. Testing against (S3) gives
+\[
+0\le P_i\cdot E_i=5m_i b-10\sum_{j\in J_i}r_j,
+\qquad
+\sum_{j\in J_i}r_j\le\left\lfloor\frac{m_i b}{2}\right\rfloor.
+\tag{S5}
+\]
+For a containing pair, the generic transverse normalization-length
+formula gives \(m_C=\sum_j r_j\): all branches have residue degree
+one. Since \(F\) is reduced, summing over its components introduces
+no extra multiplicity. Therefore
+\[
+\boxed{m_C\le\sum_i\left\lfloor\frac{m_i b}{2}\right\rfloor,
+\qquad
+\deg R=3mb-4m_C\ge
+3mb-4\sum_i\left\lfloor\frac{m_i b}{2}\right\rfloor\ge mb.}
+\tag{S6}
+\]
+These are residual curve cycles downstairs, not exceptional components
+of a blowup. They exclude every sole-support mate in this family.
+
+For even \(b=2n\ge2\), \(G_b=q^n\) is proper and attains all the
+bounds:
+\[
+[V(F,q^n)]=mn[C]+n\sum_{L}[L].                       \tag{S7}
+\]
+For odd degree, (S5) retains the separate componentwise rounding.
+There is no general assertion here that this rounded bound is sharp.
+No linear form contains the fixed nondegenerate \(C\), so the
+containing-pair statement at \(b=1\) is vacuous.
+
+### What equality says, and what it does not realize
+
+For even \(b\), equality \(\deg R=mb\) holds if and only if each
+component saturates (S5). In that case \(P_i\cdot E_i=0\), so the
+null-locus description forces \(E_i\) to be supported entirely on its
+attached lines. Intersecting the actual section divisor with a line
+attached to \(\Gamma_j\) then gives its coefficient exactly
+\(3r_j-b\). Thus every equality section has
+\[
+\sum_{j\in J_i}r_j=\frac{m_i b}{2},\qquad
+r_j\ge\frac b3,
+\qquad
+E_i=\sum_{j\in J_i}(3r_j-b)(L_{j,1}+L_{j,2}).         \tag{S8}
+\]
+Conversely, an actual proper equation with these divisor profiles
+attains (S6). For a fixed profile, two such sections are proportional
+on each integral component: their ratio on its normal projective
+normalization has zero divisor, hence is a global unit and a scalar.
+
+This is an exact equality criterion for **actual equations**, not an
+existence theorem for every integer profile in (S8). A proposed divisor
+must still be realized by a section that descends to the carrier and
+comes from one homogeneous ambient equation. In the reducible case,
+componentwise scalars also require that compatibility. Even in the
+integral mixed-sextic example, not every equality mate is a quadric
+power: the cubic powers in its separately proved classification can
+have unequal branch orders. The universal even-degree witness is (S7),
+not a claimed classification by that witness alone.
+
+All statements in this section use the specified squarefree non-axis
+root family in odd characteristic. They do not extend the generic
+full-source open to positive characteristic, cover characteristic two,
+or exclude arbitrary carriers outside this graded family.
+
 ## Search consequence and exact limitations
 
 Within this graded subalgebra source, a possible supporting equation
@@ -464,7 +642,7 @@ The finite collection of nonempty open conditions just described has
 nonempty intersection in the irreducible actual parameter space.
 Pulling them back under the linear symbol map gives the claimed
 nonempty dense open subset of \(V_{a,m}\). Every member in that open
-has no mate of any degree.
+has no mate of any degree. The [sharp quantitative refinement](normalization_residual_capacity.md#sharp-half-contact-bound-on-the-ordinary-full-source-open) proves \(m_C\le m\lfloor b/2\rfloor\) for every proper degree-\(b\) containing equation, with equality attained in all degrees at least two. It also classifies even-degree maximizers and the low odd-degree window through actual cubic sources.
 
 This does not prove that a generic pair fails by a new dimension
 heuristic: it identifies an explicit geometric open carrier class and
