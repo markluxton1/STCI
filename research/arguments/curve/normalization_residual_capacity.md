@@ -329,8 +329,7 @@ The literal attachment counts are
 \(\Gamma\cdot T_j=C\cdot T_j\) on \(Q\). Whenever the ruling
 row-sum test above gives negative definiteness, the sharp bound
 (7) and its equality reasoning apply on this new family as well.
-The lifting lemma does not force negative definiteness for arbitrary
-\(T\).
+The row-sum condition is only a sufficient test. The [weighted extension below](#weighted-fixed-quadric-residuals-arbitrary-effective-fixed-divisors) proves negative definiteness on the constructed open for every fixed effective \(T\) of the specified class, without componentwise ruling imbalance; it also verifies the needed Q-Cartier variant for repeated residuals.
 
 ### The degree-seven pilot, including the crossing
 
@@ -368,3 +367,200 @@ are unique modulo the carrier and scaling. In odd degrees three and
 five the actual-source description (8) also applies. This is a
 verified application with intersecting residual curves, not a
 description of all degree-seven carriers.
+
+
+## Weighted fixed quadric residuals: arbitrary effective fixed divisors
+
+This note records the already checked geometric extension of the fixed-residual lifting lemma. It does not analyze the exceptional complement or assert a new unrestricted STCI obstruction. Work over an algebraically closed field of characteristic zero. Let
+
+\[
+ C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3,
+ \qquad Q=V(q)\simeq\mathbf P^1\times\mathbf P^1,
+ \qquad [C]=(1,3).
+\]
+
+Fix \(m\ge1\), \(a\ge3m\), and an effective divisor
+
+\[
+ T=\sum_{i=1}^n d_iT_i\quad\text{on }Q,
+ \qquad d_i\in\mathbf Z_{>0},\qquad
+ [T]=(A,B)=(a-m,a-3m),
+\]
+
+where the \(T_i\) are distinct integral curves and none equals \(C\). Write \([T_i]=(\alpha_i,\beta_i)\). Neither reducedness of \(T\), smoothness of its components, nor transverse or disjoint attachment to \(C\) is assumed.
+
+### Actual carriers with this fixed restriction
+
+There is an actual degree-\(a\) equation \(F_0\in H^0(\mathcal I_C^m(a))\) whose restriction to \(Q\) is \(f_C^m t_T\). This is the existing lifting argument: the three cubic restrictions divided by \(f_C\) span \(H^0(\mathcal O_Q(2,0))\); their \(m\)-fold products and restrictions of ambient degree-\(a-3m\) forms span \(H^0(\mathcal O_Q(a-m,a-3m))\).
+
+Consider the affine space
+
+\[
+ \mathcal A_T=F_0+qH^0(\mathcal I_C^{m-1}(a-2)).        \tag{W1}
+\]
+
+There is a nonempty open in this space with the following properties.
+
+1. The full normal root divisor is smooth and irreducible, and has degree \(m\) over \(C\). At every point of \(T\cap C\), the root in the quadric direction is simple.
+2. The carrier \(X=V(F)\) is integral, and its singularities off \(C\) are isolated. At every singular point of the reduced support of \(T\) off \(C\), the carrier is smooth. This includes every intersection of distinct \(T_i\).
+3. On the finite normalization \(\nu:S\to X\), every strict residual component is \(\mathbf Q\)-Cartier. At all residual attachment points over \(C\), and at all intersections of distinct residual components, the normalization is regular. Its complete pulled-back quadric divisor is
+
+\[
+ \operatorname{div}(\nu^*q)=\Gamma+\sum_i d_iT_i,
+ \qquad [k(\Gamma):k(C)]=m.                           \tag{W2}
+\]
+
+Here and below the same notation \(T_i\) denotes the strict curve on \(S\).
+
+#### Why the stronger local conditions are available
+
+The normal symbols of the correction source in (W1) generate the appropriate \((m-1)\)-symbol line bundle, since \(a-2\ge3(m-1)\). Thus the normal-root system is basepoint free away from the quadric-direction section. Its finitely many base points on that section are the support of \(T\cap C\). At each such point the correction changes the vertical derivative freely, so that derivative can be required to be nonzero. This works even if the fixed restriction has a multiple zero there; a nonzero derivative along the section is unnecessary. Bertini applies away from the base points. Smoothness at the base points follows instead from the chosen vertical derivative. The positive bidegree normal divisor is connected by the existing quadric-cohomology argument, hence smooth irreducible. These open conditions are simultaneous and nonempty.
+
+The correction source has no base points off \(C\). Bertini gives smoothness off \(Q\). On each residual component one can make the derivative normal to \(Q\) nonzero generically. One can also require it to be nonzero at the finitely many singular points of the reduced residual support off \(C\). Each requirement is a nonempty open condition on the actual correction space. On the rest of a component, its zeros are finite unless it is identically zero, which has been excluded. Consequently all remaining singularities off \(C\) are isolated and lie on just one smooth residual component. The zeros of the normal derivative along a repeated component need not be simple: generic nonvanishing already gives finite zero support. No first-jet transversality assertion is needed for this finiteness conclusion.
+
+A repeated surface factor would produce a positive-dimensional singular locus off \(C\). If two distinct surface components existed, they would meet along a projective curve. Isolated singularities off \(C\) force that intersection curve to be \(C\), so both components contain \(C\). Their initial forms would factor the irreducible generic normal root. Both possibilities are impossible; the carrier is integral. An integral hypersurface is Cohen–Macaulay, hence satisfies S2. Its isolated off-\(C\) singularities satisfy R1, so it is normal off \(C\).
+
+At an attachment, use coordinates \((t,v,q)\) with \(C=(v,q)\), \(Q=(q)\), and blow up using \(q=vw\). After dividing the carrier equation by \(v^m\), its derivative with respect to \(w\) at the attached root is a unit. Formal implicit solving gives a regular normalization sheet
+
+\[
+ q=v\,w(t,v).
+\]
+
+Since the divided equation at \(w=0\) is a unit times the local equation \(t_T(t,v)\), the implicit solution satisfies
+
+\[
+ w(t,v)=\text{unit}\cdot t_T(t,v).                   \tag{W3}
+\]
+
+This follows directly by writing the equation as \(g(t,v,0)+wU(t,v,w)=0\), with \(U\) a unit. Thus every residual component through this point belongs to that one sheet, and projection to the \((t,v)\) coordinates identifies its local equations and all intersection lengths with those on \(Q\). This includes multiple components, tangencies, singular residual branches, and shared attachments. The inverse curve on that sheet is \(v=0\). To identify this graph with the finite normalization, take the strict transform in the blowup of \(C\). The leading normal form is nonzero on every exceptional fiber: away from the attachments its value in the quadric direction is nonzero, and at an attachment its vertical derivative is nonzero. The strict transform is therefore proper and quasi-finite over \(X\), hence finite. Its smooth normal-root divisor makes it regular along the exceptional locus, while it is normal off \(C\) by the preceding argument. Thus this finite birational normal strict transform is \(S\), and the local graph above is directly on \(S\).
+
+Off \(C\), at a crossing or singular point of the reduced support, the nonzero normal derivative similarly gives a smooth graph over \(Q\), preserving the residual component ideals. At any remaining off-\(C\) singularity there is only one residual component \(T_i\); normality and the local identity \(\operatorname{div}(q)=d_iT_i\) make \(T_i\) \(\mathbf Q\)-Cartier. Elsewhere the residual curves are Cartier in regular neighborhoods. Hence each is globally \(\mathbf Q\)-Cartier. Finiteness of normalization prevents additional divisorial components over isolated points, giving (W2).
+
+A useful local control is the normal surface singularity
+
+\[
+ qs-t^2=0.
+\]
+
+Its quadric-coordinate section \(q=0\) is twice the prime curve \((q,t)\). That curve is not generally Cartier at the vertex, but \(2T=\operatorname{div}(q)\), so it is \(\mathbf Q\)-Cartier. This explains why demanding regularity along every repeated residual would be unnecessarily strong. It is a local control, not a separately asserted global carrier construction.
+
+### The full intersection matrix is negative definite
+
+By (W3), the literal attachment counts are
+
+\[
+ \Gamma\cdot T_i=C\cdot T_i=3\alpha_i+\beta_i,
+ \qquad H\cdot T_i=\alpha_i+\beta_i,
+ \quad H=\nu^*\mathcal O_X(W1).
+\]
+
+For \(i\ne j\), the local graph identifications give
+
+\[
+ T_i\cdot T_j=\alpha_i\beta_j+\beta_i\alpha_j.        \tag{W4}
+\]
+
+These are actual intersection lengths, not just presumed numerical classes on the normalization. All their common points lie in its regular locus. Intersecting (W2) with \(T_i\) gives the weighted row relation
+
+\[
+ \sum_jd_j(T_i\cdot T_j)=\beta_i-\alpha_i.           \tag{W5}
+\]
+
+Consequently, if \(M=(T_i\cdot T_j)\),
+
+\[
+ M=\alpha\beta^t+\beta\alpha^t
+ -\operatorname{diag}\!\left(
+ \frac{(B+1)\alpha_i+(A-1)\beta_i}{d_i}\right).
+\tag{W6}
+\]
+
+No componentwise condition \(\alpha_i\ge\beta_i\) is required.
+
+#### A Hodge-index proof on the smooth quadric
+
+Put \(L=(A-1,B+1)\) on \(Q\). This is ample: \(A-B=2m\ge2\) and \(B\ge0\). For a nonzero real vector \(x\), set
+
+\[
+ D=\sum_i x_iT_i\quad\text{as a real divisor on }Q,
+ \qquad N_x=\sum_i\frac{x_i^2}{d_i}(L\cdot T_i)>0.
+\]
+
+Formula (W6) says
+
+\[
+ x^tMx=D_Q^2-N_x.
+\]
+
+Hodge index on the smooth quadric and weighted Cauchy–Schwarz give
+
+\[
+ D_Q^2\le\frac{(D\cdot L)^2}{L^2}
+ \le\frac{T\cdot L}{L^2}\,N_x.                     \tag{W7}
+\]
+
+Indeed the weights in the second inequality are \(d_i(L\cdot T_i)>0\). Now
+
+\[
+ L^2-T\cdot L=A-B-2=2m-2.
+\]
+
+For \(m>1\), (W7) is strictly smaller than \(N_x\), proving \(x^tMx<0\). For \(m=1\), equality in Cauchy–Schwarz would force \(x_i/d_i\) to be constant, hence \(D=cT\). Equality in Hodge would then require \(T\) numerically proportional to \(L\), unless \(c=0\). They are not proportional: \(A-B=2\), whereas \(L=(A-1,B+1)\) is balanced in this case. The zero constant would give \(x=0\). Thus equality is impossible for a nonzero vector here too. This proves negative definiteness in every case.
+
+The Hodge theorem is used only on the smooth quadric, not on an unspecified singular surface. Rational self-intersections on the normalization are accommodated by the verified \(\mathbf Q\)-Cartier property.
+
+### Sharp capacity and even-degree rigidity
+
+The existing negative-curve correction works unchanged for effective \(\mathbf Q\)-Cartier curves. Their intersections with distinct integral curves are nonnegative: a positive Cartier multiple has an effective local equation, whose restriction has nonnegative zero divisor. With \(h_i=H\cdot T_i>0\), set
+
+\[
+ c=-M^{-1}h,\qquad P=H+\sum_i c_iT_i.
+\]
+
+The established positive-definite matrix argument gives \(c_i>0\). Thus \(P\) is nef, vanishes precisely on the \(T_i\), and has strictly positive degree on every other integral curve. Equation (W2) implies \(P\cdot\Gamma=2P\cdot H\).
+
+For any proper degree-\(b\) form containing \(C\), its divisor on \(S\) is \(r\Gamma+E\), with \(E\) effective and not containing \(\Gamma\). Therefore
+
+\[
+ 0\le P\cdot E=(b-2r)P\cdot H,
+ \qquad r\le\lfloor b/2\rfloor.
+\]
+
+The inverse prime has residue degree \(m\), so the normalization-length formula gives
+
+\[
+ \boxed{m_C\le m\lfloor b/2\rfloor,
+ \qquad\deg R\ge ab-4m\lfloor b/2\rfloor.}           \tag{W8}
+\]
+
+For every \(b\ge2\), the bounds are attained by \(q^{b/2}\) for even degree and by \(q^{(b-1)/2}\ell\) for odd degree, with \(\ell\) not vanishing identically on \(C\). Properness follows because the integral carrier is not \(Q\). No linear form contains \(C\), so there is no containing degree-one case.
+
+If \(b=2r\) and equality holds, \(E\) is supported on the residual curves. Intersecting with all \(T_i\) determines its coefficients uniquely, because \(M\) is invertible. Comparing with the known divisor of \(q^r\) gives \(E=r\sum_i d_iT_i\). The two sections have the same Weil divisor; their ratio is a global unit on the normal integral projective surface, hence a scalar. Consequently
+
+\[
+ G=cq^r+F H_{b-a},\qquad c\ne0,                     \tag{W9}
+\]
+
+with a negative-degree \(H\) understood as zero. No general odd-degree equality classification beyond the previously stated low-degree window is asserted. The existing low odd-degree actual-source argument can be applied under its separate bound \(r\le m\); negativity alone does not extend that window.
+
+### What this says already in carrier degrees four and five
+
+For \(a=4\) or \(5\), the range \(a\ge3m\), \(m\ge1\), forces \(m=1\). The fixed quadric residual classes are respectively \((3,1)\) and \((4,2)\). Every effective fixed divisor of that class with no component \(C\) is allowed in the lifting construction above, including reduced configurations with opposite-ruling components and nonreduced configurations. A nonempty open of its actual affine lifting space has the verified hypotheses.
+
+On these carriers,
+
+\[
+ \begin{array}{c|c|c}
+ a& b\text{ even}&b\text{ odd}\ge3\\\hline
+ 4&\deg R\ge2b&\deg R\ge2b+2\\
+ 5&\deg R\ge3b&\deg R\ge3b+2
+ \end{array}
+\]
+
+All bounds are sharp in these families, and every even maximizer is the quadric power modulo the carrier. This supplies a geometric residual-capacity statement; in degree four it does not supersede the stronger already-known exclusion of arbitrary quartic carriers. In degree five it concerns the specified nonempty lifting opens, not every quintic carrier.
+
+### Scope and boundary of the extension
+
+The extension removes the componentwise ruling-imbalance criterion and the reduced/disjoint residual restrictions. Total imbalance \(A-B=2m\), together with actual local identifications, controls the full weighted matrix. Repeated residuals may introduce normal singularities; their verified \(\mathbf Q\)-Cartier structure is the correct replacement for regularity along their entire support.
+
+It does **not** infer these hypotheses from a bidegree alone on an arbitrary carrier. Outside the constructed open, the normal root may split or fail to be simple in the quadric direction; the carrier may fail to be normal off \(C\); the strict residuals may not be \(\mathbf Q\)-Cartier; or normalization may change intersections and inverse support. In such cases (W2), (W4), or the capacity weights can fail, and this proof gives no conclusion. Failure of a sufficient condition marks an exceptional lift for this proof; it is not automatically an obstruction to existence, nor evidence of an STCI. No exceptional cases are analyzed here. The characteristic-zero construction and the single inverse prime remain explicit hypotheses; no positive-characteristic or unrestricted STCI conclusion is asserted.

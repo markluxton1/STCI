@@ -8,6 +8,8 @@ The principal investigative interfaces are **actual global realization and forma
 
 Before prioritizing new work, state the exact class of equation pairs covered, the theorem or decision obtainable, its implication for unrestricted STCI, and the strongest existing result that leaves the gap open. A bounded question may remain open without being an active priority.
 
+The [consolidated open-item list](investigations/proof-audit/open-items.md) brings these questions together with the proof inventory; the [cross-repository audit](investigations/proof-audit/cross-repo-audit.md) records precise bridges and low-degree exceptions. These are selection aids, not a commitment to pursue each remaining case.
+
 Choose an approach by the object it studies and the map it would need to
 construct. Use the [index](INDEX.md) for exact proof routes and
 `python3 scripts/research.py frameworks` for entry and bridge addresses and
