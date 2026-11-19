@@ -100,6 +100,12 @@ birational fiber with full inverse support and an actual descending power
 are still needed to produce a mate. See the
 [elliptic carrier case](open_carrier_cases.md#full-inverse-support-in-the-elliptic-construction).
 
+## Boundary valuations as a mate-degree obstruction
+
+The [fixed-sextic rigidity theorem](../../results/ci_fixed_sextic_jet_rigidity.md) provides a different necessary test from divisor-class and conductor descent. On an affine normalization chart, the restriction of a degree-\(b\) mate factors as \(g=Q^nP\), with \(Q\) defining the marked preimage and \(P\) regular. Boundary divisorial valuations constrain the pole budget of \(g\); when no nonzero regular \(P\) can have positive order at every selected boundary, they bound \(n\) linearly in \(b\). A separate generic-local calculation converts that bound into a lower bound for residual degree.
+
+For the **displayed sextic only**, three boundary valuations give \(n\le\lfloor b/2\rfloor\) for every mate degree and hence positive residual degree for every proper mate containing \(C_0\). The [conditional criterion](../../results/ci_fixed_sextic_jet_rigidity.md#conditional-interface-for-other-carriers) is not known for other carriers. Unlike a conductor descent obstruction, it can exclude mates before testing whether a putative upstairs section descends. It does **not** replace the full inverse-support, polarization, or descent tests for a construction. The next generalization question is whether a geometrically defined carrier class admits the required global divisibility, pole budgets, and boundary nonpositivity; see [open cases](open_carrier_cases.md#boundary-valuation-generalization).
+
 ## Distinct sextic directions
 
 The ADE quintic-octic exclusion and split-sextic investigations are separate
