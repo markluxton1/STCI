@@ -141,3 +141,34 @@ ideal. Test one partial diagonal in actual pencils, and compare its
 local finite quotients with both full flat limits while retaining the
 equation source. A cycle or canonical endpoint index alone cannot
 make that comparison.
+
+## Universal translate incidence
+
+Let \(T\) be the diagonal torus, \(H=T_C\), and
+\(B=T/H\cong(\mathbf G_m)^2\), the genuine quotient torus. Its
+universal translated curve has restriction maps
+\(W_d\otimes\mathcal O_B\to\mathcal E_d\), where
+\(W_d=H^0(\mathbf P^3,\mathcal O(d))\) and
+\((\mathcal E_d)_\beta=H^0(C_\beta,\mathcal O_{C_\beta}(d))\).
+These maps have constant rank because the translates are projectively
+equivalent. Their kernels \(\mathcal K_d\) are vector bundles, and
+\[
+ \mathbf P_B(\mathcal K_a)\times_B\mathbf P_B(\mathcal K_b)
+\]
+parametrizes pairs together with a chosen entire translate they contain,
+where the projective bundles are nonempty. Choose a splitting
+\(B\to T\) and its diagonal linear lift. Transporting forms
+trivializes each kernel as
+\(\mathcal K_d\simeq H^0(\mathcal I_C(d))\otimes\mathcal O_B\).
+Thus this incidence is noncanonically
+\(B\times\mathbf P H^0(\mathcal I_C(a))\times
+\mathbf P H^0(\mathcal I_C(b))\), empty if an equation space is zero.
+A scalar change of the lift acts trivially on the projectivization.
+
+This standard, trivial incidence construction packages the
+[actual coefficient restriction kernels](../../arguments/torus/fixed_surface_restriction_lifts.md#translate-coordinates-constrain-actual-coefficients).
+It does not impose properness, exclude coordinate-boundary components,
+or compute transverse multiplicities. The smaller locus of proper pairs
+whose **entire** cycle consists of translates has the Chow-polytope
+criterion of [R-0074](../../results/chow_polytope_rigidity.md); its scheme
+structure and non-invariant repeated-cycle lifts require further work.

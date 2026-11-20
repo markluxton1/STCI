@@ -92,6 +92,21 @@ The canonical [R-0074](../../results/chow_polytope_rigidity.md) classifies **all
 
 The [H16 cycle parameterization](../../arguments/equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16) is set-theoretic and supplies neither homogeneous equations nor scheme structure. The [proof-dependency inventory](../../investigations/proof-audit/README.md) separates essential computations from evidence, and records the geometric R-0024 rank replacement.
 
+The [clean common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
+determines the full special scheme in every degree \(a,b\ge3\), for
+any smooth \((1,3)\) curve and in every characteristic, under coprime
+cofactors and nonzero first cancellation on \(Q\). Regular
+cofactor restrictions give a residual source of dimension
+\(a(a-2)+b(b-2)\). The
+[ordinary-blowup theorem](../../arguments/equations/common_quadric_resultant_blowup.md)
+identifies the coefficient base ideal as the square of the center ideal,
+the whole local exceptional fibre, and higher-order arcs on that open.
+The balanced effective quadric subcycle rules out constant sole support
+and exact Chow-polytope membership throughout the broader special-ideal
+scope, including restriction rank drops. Source and graph classification
+at rank drops, deeper cancellation, common cofactors and closure of varying
+translate arrangements remain open.
+
 [H17](../../arguments/torus/boundary_reconstruction_and_defects.md) gives a linear obstruction and torsor for lifting labeled boundary equations through C, a separate torus-support defect, and bounded-degree embedded CI reconstruction. Compatibility of lifts is not sole-support realization; the finite-order counterexample does not apply to all marked filtrations or fixed-degree full formal data.
 
 The [H17 fixed-degree realization criterion](../../arguments/torus/boundary_reconstruction_and_defects.md#exact-fixed-degree-realization-of-embedded-facet-schemes) reduces a specified compatible embedded facet diagram to finite homogeneous polynomial feasibility using an ordinary power of I_C. It is an exact criterion, not a proof of automatic existence or an efficient all-degree search.
@@ -117,3 +132,14 @@ spaces. Neither a formal contact lift nor a separate choice of
 boundary data supplies that pair. An endpoint and an interior slope
 are distinct tests; a result on either should say which realization
 condition it actually decides.
+
+## Coregularity and actual equation filtrations
+
+The [local-cohomology interface](../local-cohomology/index.md#simultaneous-coregularity-versus-geometric-defects)
+asks whether full actual equation filtrations detect failure of the
+second-element coregularity condition. The pairwise cokernel is
+\(H_I^1(S/(f,g))(\deg f)\) under the stated first-coregularity and
+vanishing hypotheses. A comparison from the full filtered equation module
+to this actual-intersection module remains open; a finite conductor module
+already supported on \(C\) has zero higher local cohomology and cannot
+alone supply that comparison.

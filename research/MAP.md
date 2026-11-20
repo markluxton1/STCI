@@ -153,6 +153,16 @@ Fixed-surface syzygies recover a first annihilator, not the full embedded
 pair. For a sole-support \(C_0\) candidate, a sufficiently low-degree
 carrier-power certificate would force a forbidden fixed-carrier mate in
 characteristic zero.
+For pairs tending to a common smooth quadric, the
+[clean boundary theorem](arguments/equations/common_quadric_chow_boundary.md)
+computes the full special scheme for all degrees \(a,b\ge3\) and
+identifies the resultant base ideal with the square of the center ideal,
+and its graph with the ordinary blowup, on the regular-restriction locus
+in every characteristic. Its balanced quadric subcycle prevents constant
+sole support under the broader coprime-cofactor/nonzero-cancellation
+hypotheses, even at restriction rank drops. Source and graph geometry at
+rank drops, deeper cancellation and closure of varying translate arrangements
+remain separate questions.
 Separately, [simultaneous torus degeneration of the quadratic graph](arguments/linkage/toric_limit_conductor_comparison.md)
 compares original and pure-limit conductor lengths using the difference of
 the two embedded endpoint corrections. Their control by global equations is

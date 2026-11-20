@@ -68,3 +68,34 @@ this fixed two-target question.
 
 For an actual supported CI in the separated quadratic cover, the
 [conductor contains the relative socle](../../arguments/linkage/endpoint_lattice_capacity.md#fixed-local-cohomology-targets-and-what-they-cannot-see). Thus the two fixed socle targets become zero in the conductor quotient; it cannot supply the separating covector directly. A transport must keep the full multiplication image and the actual target values, for example through the degree-and-contact shift, rather than identify the targets with conductor classes. The first five added multiplier directions on the quartic shift still need to be evaluated.
+
+## Simultaneous coregularity versus geometric defects
+
+Put \(S=k[x_0,x_1,x_2,x_3]\), \(I=I_C\), and \(M=H_I^2(S)\).
+For a homogeneous regular pair \(f,g\in I\), Hartshorne–Polini's
+[criterion and higher-vanishing hypotheses](../../arguments/equations/global_equations_and_constructions.md#homogeneous-local-cohomology-and-the-second-equation)
+identify sole support with ordered simultaneous coregularity:
+\[
+ fM=M,\qquad g(0:_M f)=0:_M f.
+\]
+Once \(fM=M\), put \(K_f=0:_M f\). The second condition is exactly
+\(\mathcal D(f,g):=K_f/gK_f=0\). This quotient need not be
+finite-dimensional. Under \(H_I^1(S)=H_I^3(S)=0\), the
+[actual-pair calculation](../../arguments/local-cohomology/actual_pair_coregularity.md)
+identifies it with \(H_I^1(S/(f,g))(\deg f)\): functions on the
+residual complement that fail to extend. Finite modules supported on
+the cone over \(C\) have zero higher \(I\)-local cohomology. Applying
+that functor to a conductor already supported there cannot alone give a
+nonzero detector.
+
+The open comparison is whether the **full actual filtered equation
+module**, its lift obstructions or its relation module maps to this
+actual-CI local cohomology or detects its nonvanishing. Such a
+comparison must retain actual lifts and pairwise multiplication, and
+must distinguish direct-limit local cohomology from inverse-limit formal
+completion. A missing normal symbol alone supplies no such theorem.
+The bounded common-ancestor calculations do not prove nonvanishing for
+all pairs or non-quasi-cyclicity of \(M\); failure for one ordered pair
+does not exclude all coregular pairs. The existing individually-coregular
+counterexample in the linked proof account explains why the pairwise
+condition matters.

@@ -88,6 +88,20 @@ bounds still needed. See the [open-item list](open-items.md) for re-entry decisi
 
 ## Established comparisons and remaining gaps
 
+The [common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
+now identifies the full special scheme for coprime cofactors and nonzero
+first cancellation, including some restriction rank drops. Near the regular
+cofactor locus it identifies the resultant base ideal as the square of the
+center ideal and its graph as the ordinary blowup, in every degree and characteristic.
+Its balanced effective quadric subcycle excludes constant sole support even
+at restriction rank drops under those cofactor/cancellation hypotheses.
+Source and graph classification there, deeper cancellation, common cofactors
+and closure of varying translated arrangements remain open. Separately,
+the [actual-pair coregularity module](../../arguments/local-cohomology/actual_pair_coregularity.md)
+is \(H_I^1(S/(f,g))(\deg f)\) under the stated assumptions. The
+remaining comparison is from actual filtered equations to this module,
+not direct higher local cohomology of an already supported conductor.
+
 These statements retain their actual-source hypotheses. A shared numerical
 budget or related terminology does not supply a missing comparison map.
 

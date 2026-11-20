@@ -139,6 +139,20 @@ numerical class compatibility, and one fixed-carrier exclusion do not
 establish that missing implication. See the [frontier](../../MAP.md#questions-and-active-work) and
 the [scoped conclusions](#52-factors-and-the-degree-bound).
 
+### Open question: higher-degree surface singularity budgets
+
+In characteristic zero, can the actual transverse algebra and saturated
+normal filtration of a sole-support pair force a lower bound on a general
+carrier's exceptional configuration that contradicts a global surface
+bound, uniformly in the two degrees? The quartic-pair rank \(24-r\) and
+K3 contradiction supply no degree-independent conservation formula.
+Higher degrees require control of the canonical class, non-ADE
+singularities and contributions away from \(C\). The quintic–octic
+[surface constraints](../../arguments/carriers/quintic_octic_surface_constraints.md)
+already give a distinct ADE/even-node budget and show why exceptional
+rank alone can be insufficient. A common mechanism remains an open
+question, not an extrapolation of the quartic formula or a ranked task.
+
 ## 5.8 Three mechanisms for the quartic-pair obstruction
 
 The [quartic-pair chapter](../../arguments/normal-geometry/quartic_pair_obstruction.md) owns the full bounded proof of [R-0022](../../results/quartic_44_filtered_exclusion.md), independently of R-0001. It begins with the hypothetical pair, derives its two allowed Gorenstein filtration types, and exposes the different proof mechanisms before the calculations.
