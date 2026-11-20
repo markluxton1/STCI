@@ -214,17 +214,17 @@ capacity estimate nor its conductor value transfers merely because
 the reduced lifts coincide. No semicontinuity, constancy or
 simultaneous favorable endpoint condition is asserted here.
 
-This removes splitting as a coverage restriction for the nonsplit
-onset **when the cover may be chosen for each carrier**. It leaves
-the local realization problem: an exclusion still needs an upper
-bound incompatible with (1) for that same choice. The moment bound
-alone supplies no such contradiction for arbitrary pairs. A sharper
-comparison must control both actual endpoint capacities as the
-pencil varies, or establish a suitable cover-independent bound.
-An abstract generic Artin algebra or a favorable first normal symbol
-does not supply those actual endpoint lattices. In particular this
-deduction does not prove a general sextic exclusion or settle
-characteristic-zero STCI.
+For an integral smaller carrier smooth at both endpoints, the
+[two-endpoint calculation](conductor_on_a_smooth_carrier.md#the-two-fixed-endpoints-leave-at-most-one-common-parameter)
+now determines exactly where (1) can yield a contradiction. A dense
+open of actual carrier equations passes this scalar comparison in
+every allowed cover. From degree six upward, only the parameter
+cancelling both first coefficients can give a deficit; for a quintic
+there are at most two candidates. Compute the higher coefficients
+and test nonsplitting there. A singular endpoint requires its own
+full lattice. A [different cover moving the boundary to one general
+point](moving_quadratic_covers.md#the-homogeneous-jet-test) tests
+the embedded ranks on all hypothetical pairs.
 
 ## Independent review
 

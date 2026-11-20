@@ -7,7 +7,7 @@ scope: "#scope"
 bridges: "#bridges"
 relations:
   - kind: uses
-    from: [STCI-R-0076, STCI-R-0077]
+    from: [STCI-R-0076, STCI-R-0077, STCI-R-0078]
     to: [STCI-F-0006]
     at: "#bridges"
 ---
@@ -54,6 +54,13 @@ The [full Chow-polytope rigidity theorem](../../arguments/equations/chow_polytop
 - [Projected thickenings](../../arguments/linkage/projected_thickening_section_defects.md) distinguish an ACM source upstairs from its image in \(\mathbf P^3\): the displayed power and binary-mixture images fail ACM when the positive degree product is nonzero. This does not exclude other projected sources or arbitrary supported thickenings.
 
 ## Bridges
+
+An osculating quadric puts the entire quadratic conductor at one general
+point. Its principal parts map takes actual degree-\(d\) polynomials
+to a finite transverse jet space and computes their boundary kernel.
+For a proposed pair this kernel must consist of multiples of the
+smaller integral equation when \(2d+2<b\).
+[One-point homogeneous test](../../results/moving_quadratic_conductors.md).
 
 For degrees \((3p,4q)\) and exact normal orders \((p,q)\), connectedness
 reduces the characteristic-zero equation question to either of two

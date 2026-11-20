@@ -43,9 +43,21 @@ The two reduced lifts and branch endpoints persist, and the same
 conormal-moment estimate applies. The conductor and its finer endpoint
 capacities belong to the chosen cover, however; the known favorable
 divisibilities do not persist merely because the reduced lifts do.
-The remaining question is whether the full actual source forces an allowed
-choice with a strict capacity/postulation gap. An abstract local algebra,
-first normal symbol or separately chosen endpoint model does not answer it.
+For the whole degree-\(a\) source smooth at both endpoints, a dense
+open has enough local length for every smooth nonsplit choice.
+For \(a\ge6\), a scalar deficit requires two tangencies and one
+matching slope, leaving at most one candidate parameter. At \(a=5\)
+there are at most two. At a surviving parameter one must compute the
+higher coefficients of that carrier.
+[Two-endpoint decision](../../arguments/linkage/conductor_on_a_smooth_carrier.md#the-two-fixed-endpoints-leave-at-most-one-common-parameter).
+
+There is also a one-point test on every hypothetical integral pair.
+An osculating quadric localizes the whole conductor at a general point,
+where a finite jet matrix on homogeneous forms computes its embedded
+Hilbert function. On a generically regular carrier even the exact
+length at this point passes the nonsplit scalar bound. The candidate
+can instead be tested for an extra low-degree kernel form on the
+local model required by a mate. [Moving conductor theorem](../../results/moving_quadratic_conductors.md).
 
 For the original fixed cover, the
 [carrier framework](../carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)

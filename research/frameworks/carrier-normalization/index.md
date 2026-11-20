@@ -140,8 +140,11 @@ These closures concern a fixed auxiliary cover. The
 [cover-choice theorem](../../arguments/linkage/quadratic_cover_choice.md)
 makes every integral carrier of degree greater than two nonsplit in a
 general cover of the specified pencil. Its global conductor postulation
-then applies, but its endpoint capacities still require the actual local
-equations in that chosen cover. The
+then applies. If the smaller carrier is smooth at both endpoints,
+the [conormal slopes](../../arguments/linkage/conductor_on_a_smooth_carrier.md#the-two-fixed-endpoints-leave-at-most-one-common-parameter)
+isolate at most one candidate for a scalar deficit in degree at least
+six and at most two in degree five. Higher jets at those choices, or
+the full lattice at a singular endpoint, can still affect the outcome. The
 [local/global interface](../global-equation-realization/projection_and_liaison.md#embedded-conductor-and-ambient-equations)
 records this remaining gap. No general sextic exclusion or stronger
 minimum defining degree follows.

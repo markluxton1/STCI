@@ -113,6 +113,15 @@ quartic-carrier exclusion is [R-0001](../../results/quartic_carrier_exclusion.md
 
 ## Filtrations and comparisons
 
+The generic transverse Hilbert function determines the **maximum**
+length of the separated quadratic conductor as the missing linear
+section and its quadric lift vary. Four general simple zeros attain
+it. An osculating quadric concentrates the boundary at one point and
+gives a smaller upper bound there. The lengths allowed by this
+filtration bound already exceed the required scalar minimum; the
+embedded coefficient map retains a further test.
+[Local lattice and global comparison](../../results/moving_quadratic_conductors.md).
+
 The [quadric-flag character formula](../../arguments/torus/equation_pair_rank_and_weights.md#characters-of-all-double-surface-equation-spaces)
 computes every weight of the actual degree-\(d\) equations vanishing to
 second order along \(C\). For \(d\ge5\) this source character is unchanged

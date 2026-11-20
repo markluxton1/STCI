@@ -105,8 +105,13 @@ The quadratic conductor now compares global postulation with both actual
 endpoint capacities on the same object, excluding specified carrier families
 in all mate degrees. [Choosing the auxiliary cover](arguments/linkage/quadratic_cover_choice.md)
 makes the nonsplit onset available for every integral carrier of degree
-greater than two in characteristic zero; controlling its local capacities
-as that choice varies remains open. The fixed-cover two-lift sextic sector
+greater than two in characteristic zero. For a smaller carrier smooth
+at both endpoints, the two conormal slopes leave at most one candidate
+for a scalar deficit in degrees at least six, and at most two in degree
+five. An osculating cover instead puts the full conductor at one
+general point and tests actual homogeneous kernels there.
+[Moving conductor theorem](results/moving_quadratic_conductors.md).
+The fixed-cover two-lift sextic sector
 is excluded without normality. Its surviving one-lift sector is generically
 regular along the lift and has non-Du-Val behavior there. These statements
 do not close the separate split-first-normal-cone frontier or improve the
