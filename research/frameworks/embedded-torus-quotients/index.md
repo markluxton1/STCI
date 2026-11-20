@@ -129,3 +129,15 @@ the moving family, its multiplication, and the contracted endpoint
 subalgebras constrain the image together. Comparing with an
 [arithmetic collision](../arithmetic-supported-lifts/index.md) requires
 checking normal specialization separately from the projective family.
+
+### Reduced cycles and the first nonreduced gap
+
+For [specified reduced Chow cycles](../../arguments/equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle),
+purity forces a reduced scheme and closes the invariance gap in
+testing actual generators. It does not do so on the partial diagonals.
+The invariant quartic collision examples give embedded quotient
+controls; a general repeated cycle may instead lift to a non-invariant
+ideal. Test one partial diagonal in actual pencils, and compare its
+local finite quotients with both full flat limits while retaining the
+equation source. A cycle or canonical endpoint index alone cannot
+make that comparison.

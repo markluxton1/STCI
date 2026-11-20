@@ -73,25 +73,23 @@ Preserve that these exhaust NORMAL plus nonnormal π = 0, 1, 2, not three select
 
 ## Cross-framework interfaces
 
-The following are comparisons, not claims that the proposed maps already
-exist. See the [open-item list](open-items.md) for re-entry decisions.
+The following distinguish established comparisons from the further maps or
+bounds still needed. See the [open-item list](open-items.md) for re-entry decisions.
 
 | Interface | What is already shared | What would make it a genuine bridge |
 | --- | --- | --- |
+| **Toric endpoint structure ↔ quadratic conductor** (KG01) | Endpoint capacities and global postulation constrain the same conductor. The [selected-graph identity](../../arguments/linkage/toric_limit_conductor_comparison.md) now compares its original and pure-limit lengths using both embedded corrections. | Control the difference of those corrections from actual global equations. The older [scalar comparison](../../arguments/linkage/endpoint_lattice_capacity.md#transverse-endpoints-throughout-the-cover-pencil) is ineffective with even one transverse endpoint; its remaining nontransverse test is narrower than the corrected torus question. |
 | **Normalization ↔ deep normal contact** (KG04/KG01) | Both measure contact for actual forms. Normalization bounds the weighted valuation sum for a chosen carrier; the infinitely-near contact formula computes that same generic length via the two equations. [Capacity](../../arguments/curve/normalization_residual_capacity.md) · [Depth budget](../../arguments/residuals/generic_contact_depth.md). | On one exceptional lift, match a specified higher-contact contribution to a term in a divisor capacity bound. A tangent symbol by itself is not the next contact contribution; use the documented fixed-tangent controls. |
 | **Intrinsic boundary loss ↔ normalized divisor capacity** (KG04) | The corrected ample class and the fixed-sextic valuation loss identity both bound contact, but one uses a complete projective divisor and the other pole data in an explicit affine normalization. [Capacity](../../arguments/curve/normalization_residual_capacity.md) · [Fixed-sextic loss identity](../../results/ci_fixed_sextic_jet_rigidity.md). | On one carrier where both tests can be computed, compare their weights and equality defects. Determine which information survives at the boundary when the projective correction cannot be constructed. Agreement on a bound does not imply the defects coincide. |
 | **Local lifting ↔ actual equations** (KG01/KG07/KG08/KG09) | Exact quadric restrictions identify actual sources; moving relations, spectral obstructions, and common-ancestor duality each see additional compatibility. [Actual jets](../../arguments/equations/global_equation_jets.md) · [Moving relations](../../arguments/equations/global_lifting_interfaces.md) · [Sextic ADE](../../arguments/carriers/sextic_ade_reduction.md) · [Root lifts](../../frameworks/spectral-roots/open_root_lifts.md) · [Dual persistence](../../arguments/local-cohomology/polynomial_duals_and_affine_pencils.md). | Construct a comparison on a common, specified actual source which detects the same obstruction class or explains its kernel; matching dimensions and labels are not enough. The gap between actual sextic symbols and the order-five Čech filtration is the natural bounded comparison, not an immediate all-degree claim. |
-| **Opposite torus ends ↔ an actual residual cycle** (KG02) | The first-layer estimate already compares the line seen by the extremes to actual residual degree, with a correction for the generic length missed by both ends. [Endpoint torsion](../../results/endpoint_equation_torsion.md) · [Moving quotient to full ideal](../quotient-hilbert-comparison/index.md). | Bound the missed length using the [canonical filtered equation sources](../../arguments/torus/chow_matched_equation_layers.md) of the *same* family: nonadapted presentations merely delay hidden line layers, and opposite optimal representatives need not coincide. The two-parameter sextic pilot prevents an inference from fixed extremes and Hilbert polynomial alone. The [boundary-reconstruction controls](../../arguments/torus/boundary_reconstruction_and_defects.md) likewise prevent substituting support-only boundary incidence for the embedded/algebraic data. |
+| **Actual Chow arrangements ↔ full torus limits** (KG02) | The [general first moment](../../arguments/torus/chow_arrangement_moments.md) separates the Chow closure of invariant CI cycles, including reduced arrangements, from complete collision in characteristic zero. The [fixed-carrier theorem](../../arguments/torus/fixed_carrier_chow_arrangements.md) gives finer strata and partial collisions. | Understand non-invariant CI lifts over repeated cycles and their deformations; smoothing into distinct translates is not automatic. [Equation layers](../../arguments/torus/chow_matched_equation_layers.md) retain information lost by cycles. A residual bound still needs joint actual sources, which fixed extremes and the CI polynomial do not determine. |
 | **Inverse support and descent ↔ a constructive endpoint** (KG03/KG05/KG06) | Carrier geometry, the elliptic inverse scheme, and the absorption model each distinguish a supported object from an actual descended equation or pair. [Elliptic support](../../results/elliptic_inverse_support.md) · [Conductor cases](../../frameworks/carrier-normalization/open_carrier_cases.md) · [Marked absorption](../../arguments/residuals/marked_deformation_and_absorption.md). | Compare the conductor or graded source conditions on a single surviving model. To use an absorption direction, lift it to both ambient equations and check properness and the entire residual cycle. A supported inverse set or a smaller residual is not a constructed STCI pair. |
 | **Arithmetic ↔ a characteristic-zero obstruction** (KG10) | Known nonlifting and endpoint tests attach to a specified model or family. [Arithmetic framework](../../frameworks/arithmetic-supported-lifts/index.md). | Identify data intrinsic under change of the two ambient equations, then prove a coverage statement for reductions of hypothetical pairs. Do not identify endpoint torsion with conductor classes or spectral Picard torsion without a comparison. |
 
-## What the two implications passes established
+## Established comparisons and remaining gaps
 
-The passes start from actual equations or their canonical owners, test
-a proposed implication, and retain the obstruction or reduced search
-space. The workflow was useful in these cases without a case or
-parameter sweep. The results do not measure repository-wide yield;
-a null result would not by itself invalidate the method.
+These statements retain their actual-source hypotheses. A shared numerical
+budget or related terminology does not supply a missing comparison map.
 
 ### Positive restrictions and transport
 
@@ -140,7 +138,7 @@ not an identification of the two parameter spaces.
   a canonical determinant measures a finite restriction index. Three
   controls fix both indices, the extreme weights and the cycle but
   vary the canonical line layers. The
-  [weighted-source gate](knowledge-gain-priorities.md#kg02-actual-equation-layers-and-the-two-torus-ends)
+  [weighted-source gate](knowledge-gain-priorities.md#kg02-actual-chow-arrangements-collisions-and-full-torus-limits)
   remains a module-level comparison, not a search for another scalar.
 
 ### Family-specific controls

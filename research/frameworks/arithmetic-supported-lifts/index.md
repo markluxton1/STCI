@@ -66,6 +66,17 @@ extends the prescribed prime-exponent example to every represented exponent
 distinct quartic translates and its \(p\)-part gives their multiplicity.
 This relates the explicit arithmetic construction to invariant residual
 cycles without asserting that arbitrary residual cycles can be absorbed.
+The [complete fixed-quartic arrangement locus](../../arguments/torus/fixed_carrier_chow_arrangements.md)
+places this binomial family inside the larger coefficient space
+\(c_1=c_2=c_5=0\). Partial collisions occur in characteristic zero, but
+at least three distinct translates must remain on that fixed carrier.
+Frobenius explains complete collapse in the prescribed family; it does not
+classify all arrangements or all characteristic-zero degenerations.
+The [general arrangement moment](../../arguments/torus/chow_arrangement_moments.md)
+separates the Chow closure of invariant CI arrangements from complete collision
+in characteristic zero. At \(m[C_{u,v}]\), its normalized Chow coefficient
+is \(-4m u/v\); the obstruction vanishes when the characteristic divides
+\(4m\), consistently with Frobenius collapse, without proving realizability.
 The [root-defect grading](../../arguments/arithmetic/frobenius_power_lifting_precision.md#equivariant-grading-of-the-root-specialization-defect)
 requires an equivariant total trait and the original root theorem's
 hypotheses. For the fixed quartic a supported mixed-characteristic trait
@@ -98,3 +109,16 @@ an actual comparison map with its specialization hypotheses.
 The shared [positive-characteristic references](../../literature/README.md#positive-characteristic)
 distinguish the quartic constructions from affine theorems and from
 hypotheses needed for degree transfer.
+
+### A comparison for compatible quadratic-conductor lattices
+
+The [actual endpoint matrix](../../arguments/linkage/endpoint_lattice_capacity.md#arithmetic-control-and-comparison-of-traits) gives a fixed characteristic-three calibration and lower semicontinuity in the direction \(\delta_{\mathrm{special}}\le\delta_{\mathrm{generic}}\). This uses compatible finite free endpoint lattices on a supported trait. It does not identify the conductor with a Frobenius-root endpoint defect or give the opposite inequality needed for an obstruction by specialization.
+
+The [auxiliary-cover choice](../../arguments/linkage/quadratic_cover_choice.md)
+is available in every characteristic different from two: extracting the
+finite Frobenius height of \(r/q\) retains an odd moving-divisor valuation.
+The [unique singular signed cubic and its normalization exclusion](../../arguments/linkage/signed_cubic_normalization_and_cartier_defect.md)
+also extend to odd characteristic. These specific deductions do not
+extend the characteristic-zero Du Val/K3 exclusions or exact cyclic
+determinant capacity. They remain compatible with the known supported
+constructions in every positive characteristic.

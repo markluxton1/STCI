@@ -63,3 +63,8 @@ Even a positive quartic ancestor answer has a residual consequence: the
 [generic-length calculation](../../arguments/local-cohomology/direction_and_apolarity.md#2026-10-05-localcoh-generic-length)
 gives a residual cycle of degree four for any such pair. The characteristic-zero quartic carrier theorem does not answer
 this fixed two-target question.
+
+### Does the conductor quotient retain the two targets?
+
+For an actual supported CI in the separated quadratic cover, the
+[conductor contains the relative socle](../../arguments/linkage/endpoint_lattice_capacity.md#fixed-local-cohomology-targets-and-what-they-cannot-see). Thus the two fixed socle targets become zero in the conductor quotient; it cannot supply the separating covector directly. A transport must keep the full multiplication image and the actual target values, for example through the degree-and-contact shift, rather than identify the targets with conductor classes. The first five added multiplier directions on the quartic shift still need to be evaluated.

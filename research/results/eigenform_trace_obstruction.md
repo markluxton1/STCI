@@ -72,3 +72,10 @@ hypotheses. In characteristic two, the trace calculation gives no parity
 claim for \(m_C\). The sharp large-prime minimum using separate positive
 characteristic constructions is outside this reconstructed proof closure.
 The unrestricted characteristic-zero STCI question remains open.
+
+The [arrangement trace extension](../arguments/torus/chow_arrangement_moments.md)
+replaces sole support by an entire translated cycle for invariant ideals,
+pairs with one eigenform generator, or the displayed actual congruences.
+It gives a weighted moment and a linear Chow equation, separating the
+closure of those cycles from complete coalescence in characteristic zero.
+It does not cover arbitrary thickenings outside these equation classes.

@@ -88,3 +88,25 @@ The [H16 cycle parameterization](../../arguments/equations/chow_polytope_rigidit
 [H17](../../arguments/torus/boundary_reconstruction_and_defects.md) gives a linear obstruction and torsor for lifting labeled boundary equations through C, a separate torus-support defect, and bounded-degree embedded CI reconstruction. Compatibility of lifts is not sole-support realization; the finite-order counterexample does not apply to all marked filtrations or fixed-degree full formal data.
 
 The [H17 fixed-degree realization criterion](../../arguments/torus/boundary_reconstruction_and_defects.md#exact-fixed-degree-realization-of-embedded-facet-schemes) reduces a specified compatible embedded facet diagram to finite homogeneous polynomial feasibility using an ordinary power of I_C. It is an exact criterion, not a proof of automatic existence or an efficient all-degree search.
+
+The [translate and fixed-surface interface](../../arguments/torus/fixed_surface_restriction_lifts.md)
+expresses containment by arbitrary forms as coefficient evaluation at the
+chosen \((u,v)\), with joint transverse lengths retaining multiplicities.
+Restricted syzygies recover the abstract first annihilator of the surface
+equation; its embedded normal extensions remain necessary. On the toric
+quartic, a hypothetical characteristic-zero sole-support \(C_0\) pair of degrees \(a\le b\)
+can contain a power \(A^N\) only with \(4N>b\). No upper bound meeting
+that threshold, or automatic extension of scalar semigroup descent to
+the relation module, is established.
+
+### What the equality-boundary correspondence leaves to realization
+
+The [actual marked section spaces](../../arguments/residuals/blowup_residual_geometry.md#the-marked-correspondence-on-the-whole-equality-boundary)
+on (V_5) give a fixed geometric incidence question in each allowed
+bidegree. An appropriate conic resultant is necessary but does not
+realize a proper pair: the common support off the conic and absence
+of a whole marked fiber must still be tested in the *same* section
+spaces. Neither a formal contact lift nor a separate choice of
+boundary data supplies that pair. An endpoint and an interior slope
+are distinct tests; a result on either should say which realization
+condition it actually decides.

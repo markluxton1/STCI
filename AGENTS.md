@@ -10,9 +10,11 @@ Understand the existing mathematics and strongest applicable literature before i
 
 Seek geometric, intrinsic, and conceptual understanding, using computation and examples wherever they are productive. Reconsider assumptions, formulations, and research directions as understanding develops. Be willing to abandon a planned investigation when a more consequential direction emerges or diminishing returns become apparent.
 
-**When a result emerges, consider its broader significance:** whether it generalizes, admits a stronger formulation, connects previously separate results, or changes the direction of the research. Do not stop at the narrow question that produced it.
+**Every new result requires a review of its generality and significance:** the work done by each hypothesis, the weakest justified conditions, the widest justified applicability to STCI, implications and interpretations, connections to previous work, and the obstacles to strengthening it.
 
-These are principles for mathematical judgment, not a required sequence of activities or reporting checklist.
+Use that understanding to reassess the full body of results, and feed any further deductions back into the review. Follow the [iterative synthesis and stopping rule](research/MODEL.md#extract-implications-and-track-approach-gaps); finish when a full synthesis pass adds no material understanding, not merely when the original claim is verified. Independent proof review still governs new claims.
+
+Choose the next task from the resulting current understanding. A meaningful question or unexplained phenomenon can justify exploration without a known theorem or solution bridge. State the expected understanding, bound the initial probe, and reassess from what is learned. Compare actual next tasks, including a neglected exploratory alternative, rather than inheriting a framework's priority or following momentum.
 
 ## Research context
 
@@ -44,6 +46,8 @@ Independently review consequential mathematical claims before accepting them.
 
 Integrate reviewed mathematics into its appropriate owner. Reassess the significance of new mathematics for the central problem, existing results, and related frameworks. Preserve consequential connections, stronger formulations, and unresolved generalizations for future research.
 
-Avoid redundant documentation and accumulating temporary investigations. Run relevant [checks](research/MODEL.md#commands-and-integration).
+Every PR must leave the research account consistent with the resulting understanding. Apply the [current-state acceptance requirement](research/MODEL.md#claim-propagation-at-integration) during the existing final review, including relevant unchanged summaries and next steps across the repository. Materially superseded claims or research tasks make the PR incomplete.
+
+Keep files small, focused and independently retrievable. Remove superseded development narrative and split growing accounts at mathematical boundaries before they become costly to load or revise; preserve essential proof and evidence. Apply the [file-size and retrieval review](research/MODEL.md#compact-files-and-agent-retrieval), and run relevant [checks](research/MODEL.md#commands-and-integration).
 
 **Progress is measured by advances in mathematical understanding, not by the volume of work produced.**
