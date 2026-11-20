@@ -85,7 +85,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0074](results/chow_polytope_rigidity.md) | Full Chow-polytope rigidity for the fixed quartic | endpoint support and separating-face degree exhaustion: accepted | [scope](results/chow_polytope_rigidity.md#scope) |
 | [STCI-R-0075](results/toric_quintic_carrier_exclusion.md) | Toric quintic normalizations exclude every mate degree | marked normalization and full inverse support at every projection center: pending | [scope](results/toric_quintic_carrier_exclusion.md#scope) |
 | [STCI-R-0076](results/elliptic_inverse_support.md) | Full inverse support in the marked elliptic double-cover construction | target rulings and a Cartier zero scheme on the residual divisor: pending | [scope](results/elliptic_inverse_support.md#scope) |
-| [STCI-R-0077](results/connected_normal_directions.md) | Connected normal directions, residual degree and deep contact on the equality boundary | quadric restriction, connectedness and the normal bundle of the surviving section: accepted | [scope](results/connected_normal_directions.md#scope) |
+| [STCI-R-0077](results/connected_normal_directions.md) | Connected normal directions, residual degree and deep contact on the equality boundary | quadric restriction, connectedness and the normal bundle of the surviving section: pending | [scope](results/connected_normal_directions.md#scope) |
 
 ## Arguments
 
@@ -196,7 +196,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0074: endpoint support and separating-face degree exhaustion; joint premises []; proof `research/arguments/equations/chow_polytope_rigidity.md#chow-forms-products-and-the-one-parameter-subgroup`; review accepted, reconstructed at `#review`.
 - STCI-R-0075: marked normalization and full inverse support at every projection center; joint premises [STCI-R-0003]; proof `research/arguments/carriers/quintic_toric_center_incidence.md#1-geometric-object-and-scope`; review pending at `#review`.
 - STCI-R-0076: target rulings and a Cartier zero scheme on the residual divisor; joint premises []; proof `research/arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber`; review pending at `#review`.
-- STCI-R-0077: quadric restriction, connectedness and the normal bundle of the surviving section; joint premises [STCI-R-0020]; proof `#proof`; review accepted, reconstructed at `#review`.
+- STCI-R-0077: quadric restriction, connectedness and the normal bundle of the surviving section; joint premises [STCI-R-0020]; proof `#proof`; review pending at `#review`.
 
 ## Research relationships (grouped)
 

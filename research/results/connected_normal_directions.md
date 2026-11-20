@@ -9,8 +9,7 @@ proofs:
     at: "#proof"
     using: [STCI-R-0020]
     review:
-      state: accepted
-      basis: reconstructed
+      state: pending
       at: "#review"
 ---
 # Connected normal directions and deep generic contact
@@ -74,8 +73,13 @@ that contain curves.
 
 ## Proof
 
+The argument is organized as a connectedness/attachment lemma, its unique-direction consequence on the equality boundary, a reusable second-blowup lemma, and the characteristic-zero contact corollary. These are necessary conditions. The remaining KG01 gate is an **upper** contact bound imposed by the actual homogeneous equation spaces, or an actual realization meeting the necessary lower bounds, not further isolated examples.
+
 ### Connectedness and residual attachment
 
+**Lemma (connected strict intersection and residual attachments).** Under the scope hypotheses, W is a connected pure Cohen–Macaulay curve. If R is nonzero, its strict cycle satisfies \(t+h\le E\cdot\widetilde R\).
+
+**Proof.**
 The strict quadric \(Q'\sim2H-E\) is the original smooth quadric, since
 \(C\) is Cartier on it. Use ruling coordinates with \(C\sim(1,3)\).
 In every characteristic,
@@ -103,14 +107,17 @@ Cohen–Macaulay curve. Off \(E\) it agrees with the original intersection
 off \(C\), so its components outside \(E\) have cycle the strict
 transform \(\widetilde R\).
 
-At an isolated point of \(U\), a local equation of \(E\) is a
-nonzerodivisor on \(\mathcal O_W\). There the length of \(U\) equals
-the intersection multiplicity of \(E\) with \(\widetilde R\), including
-the generic multiplicities of residual components. If \(R\ne0\),
-each curve-containing connected component of \(U\) must also meet
-\(\widetilde R\). Otherwise that component would be open and closed in
-\(W_{\rm red}\). Such an attachment contributes at least one at a
-point distinct from the isolated points and the other components.
+Write \(\widetilde R=\sum_i n_iR_i\), with each \(R_i\) integral and not contained in E; \(n_i\) is its generic scheme multiplicity in W. At an isolated point x of U, no component of W through x lies in E, since such a component would supply a curve in U through x. Purity and the Cohen–Macaulay property imply that a local equation e of E is a nonzerodivisor on \(\mathcal O_{W,x}\). The associativity formula for the multiplicity of this parameter gives
+\[
+ \operatorname{length}\mathcal O_{U,x}
+ =\sum_i n_i\,i_x(E,R_i).
+\]
+Thus the isolated scheme lengths, including their multiplicities, are counted in the residual-cycle intersection, not merely as distinct points.
+
+Assume R is nonzero. If a curve-containing connected component A of \(U_{\rm red}\) met no \(R_i\), all its curves would be components of \(W_{\rm red}\) lying in E, with no intersection with the remaining components. A would be both open and closed in the connected \(W_{\rm red}\), whereas the nonempty residual components lie outside it. This is impossible. Each of the h components therefore supplies a residual attachment. At each such point the intersection with at least one \(R_i\) has positive local multiplicity, since E is effective Cartier and does not contain \(R_i\). Distinct connected components give distinct attachment points; none is an isolated point of U. Their contributions cannot overlap the isolated-length sum. Summing gives
+\[
+ t+h\le\sum_i n_i(E\cdot R_i)=E\cdot\widetilde R.
+\]
 The cubics through \(C\) generate its twisted ideal, so \(3H-E\) is nef.
 Indeed \(\mathcal I_C(3)\) is an extension of
 \(\mathcal O_Q(2,0)\) by \(\mathcal O_{\mathbf P^3}(1)\). The quotient
@@ -163,66 +170,64 @@ without any assumption on ramification of the trisecant projection.
 
 ### The normal bundle of a constant section
 
-In characteristic zero, the sequence for \(T\subset E\subset B\) is
+Use \(\mathbf P_{\rm lines}(N)\) for lines in a normal bundle, equivalently \(\mathbf P_{\rm quot}(N^\vee)\); its tautological \(\mathcal O(1)\) is dual to the chosen normal line. On \(E=\mathbf P^1_C\times\mathbf P^1_{\rm dir}\), a constant section T has \(N_{T/E}=\mathcal O\), while \(N_{E/B}|_T=\mathcal O_E(E)|_T=\mathcal O(7)\). The normal sequence is therefore
 \[
  0\longrightarrow\mathcal O\longrightarrow N_{T/B}
-   \longrightarrow\mathcal O(7)\longrightarrow0.
+ \longrightarrow\mathcal O(7)\longrightarrow0.
 \]
-Its extension class, up to sign and a nonzero scalar, is the quadratic
-class for the corresponding constant direction. To see this, choose a
-normal relation \(w\) defining the direction and a complementary normal
-coordinate \(l\). In the established two-chart transition,
-\(w'=z^{-7}(w+h\,l^2)\) modulo terms divisible by \(w\) of order two
-and terms of order three. On the blowup chart \(v=w/l\) the section has
-ideal \((v,l)\). Modulo its square, \(l'=z^{-7}l\) and
-\(v'=v+h\,l\). This is the conormal extension, dual to the displayed
-normal sequence. In the marked frame the cocycles are
+Its class must be obtained from the actual quadratic transition, not just the balanced first normal bundle.
+
+Choose a normal relation w for the direction and a complementary coordinate l. The established two-chart coordinate transition, modulo terms divisible by w of order two and terms of order three, is
+\[
+ w'=z^{-7}(w+h l^2).
+\]
+In the blowup chart \(v=w/l\), T has ideal (l,v). Modulo its square,
+\[
+ l'=z^{-7}l,\qquad v'=v+h l.
+\]
+These are **conormal** transition equations: l spans \(N_{E/B}^*|_T=\mathcal O(-7)\), and the quotient generated by v is \(N_{T/E}^*=\mathcal O\). Thus they give
+\(0\to\mathcal O(-7)\to N_{T/B}^*\to\mathcal O\to0\), with Cech class h. Dualizing yields the stated normal extension, with the harmless sign change in its class. In the marked frame the actual cocycles, up to that sign and nonzero scalar, are
 \[
  h_\theta=3\bigl(\theta^3z^{-5}-\tfrac12\theta^2z^{-4}
-                    +\tfrac14\theta z^{-3}-\tfrac18 z^{-2}\bigr),
+ +\tfrac14\theta z^{-3}-\tfrac18z^{-2}\bigr),
  \qquad h_\infty=3z^{-5}.
 \]
 [Two-chart formula](../arguments/equations/global_lifting_interfaces.md#4-applying-accepted-p-010-data-to-c0).
 
-The least degree \(d\) of a nonzero binary form annihilating \(h\) in
-cohomology is two for \(\theta=0,\infty\) and three otherwise.
-For example, at a mixed direction, for \((b_0+b_1z+b_2z^2)h_\theta\)
-the coefficients of \(z^{-1},z^{-2},z^{-4}\) successively force
-\(b_1=2\theta b_2,\ b_0=0,\ b_1=0\). A cubic annihilator exists since
-the target \(H^1(\mathcal O(-4))\) has dimension three. The two endpoint
-monomials give the degree-two assertion directly.
+Let d be the least j for which multiplication by a nonzero section of \(\mathcal O(j)\) kills this class in \(H^1(\mathcal O(j-7))\). Use Laurent representatives with nonzero cohomology exponents \(-1,\ldots,-(6-j)\). At \(\theta=0\), \(h\) is a nonzero multiple of \(z^{-2}\), killed by \(z^2\) at j=2; at infinity it is \(z^{-5}\), killed by the constant degree-two section at j=2. Neither has a degree-zero or degree-one annihilator, as their relevant exponents remain inside the cohomology range. At a mixed direction \(\theta\ne0,\infty\), the coefficients of \(z^{-1},z^{-2},z^{-4}\) in \((b_0+b_1z+b_2z^2)h_\theta\) force successively
+\(b_1=2\theta b_2\), \(b_0=0\), and \(b_1=0\), hence all coefficients vanish. A smaller annihilator would give a degree-two one after multiplication, so none exists. At j=3 a nonzero kernel exists because \(h^0(\mathcal O(3))=4\) and \(h^1(\mathcal O(-4))=3\). Thus d is exactly two at the two endpoint directions and three at every mixed direction.
 [Annihilator calculation](../arguments/local-cohomology/direction_and_apolarity.md#constant-directions-require-a-prescribed-common-scalar-divisor).
 
-Twist the normal sequence by \(\mathcal O(-7+j)\). For \(0\le j<7\),
-sections of the middle term are exactly the degree-\(j\) forms killed
-by \(h\). By splitting on \(\mathbf P^1\), the largest normal summand
-therefore has degree \(7-d\) (a summand of degree greater than seven
-could map to neither outer line). The determinant gives the other
-summand. Hence \(N_{T/B}\simeq\mathcal O(d)\oplus\mathcal O(7-d)\).
-This gives the geometric role of the quadratic class at the next blowup.
+Twisting the normal extension by \(\mathcal O(-7+j)\), for \(0\le j<7\) the middle sections are precisely that multiplication kernel, since \(H^0(\mathcal O(j-7))=0\). Write its splitting on \(\mathbf P^1\) as \(\mathcal O(e)\oplus\mathcal O(7-e)\) with e the larger degree. A summand of degree greater than seven could map to neither outer line, so e is at most seven. The first twist with a section occurs at \(j=7-e\), which is exactly d. Consequently
+\[
+ N_{T/B}=\mathcal O(d)\oplus\mathcal O(7-d).
+\]
+This proves the splitting directly from the quadratic transition and fixes the normal/conormal convention used by the next lemma.
 
 ### Bounding the orders after blowing up the section
 
-More generally, let two proper Cartier divisors \(D_1,D_2\) on a
-smooth projective threefold intersect with sole reduced support a
-smooth curve \(T\), with cycle \(c[T]\). Put \(r,s\) for their exact
-orders along \(T\), and \(A_1,A_2\) for their respective degrees on
-\(T\). If a line bundle \(M\) of degree \(\lambda\) on \(T\) makes
-\(N_{T/B}^{\vee}\otimes M\) nef (here \(B\) denotes the threefold), then
+**Lemma (second blowup along a smooth sole-support curve).** Let B be a smooth projective threefold and let two effective Cartier divisors \(D_1,D_2\) have no common surface and intersect with sole reduced support a smooth curve T, with cycle \(c[T]\). Put r,s for their exact orders along T and \(A_i=\deg(\mathcal O_B(D_i)|_T)\). If a line bundle M of degree \(\lambda\) makes \(N_{T/B}^{\vee}\otimes M\) nef, then
 \[
- A_1s+A_2r\le \lambda c+(\deg N_{T/B}-\lambda)rs.        \tag{2}
+ A_1s+A_2r\le\lambda c+(\deg N_{T/B}-\lambda)rs.\tag{2}
 \]
-Indeed, after blowing up \(T\), the new strict intersection cycle \(Z\)
-lies in \(E_2=\mathbf P_{\rm lines}(N_{T/B})\). Its degree over \(T\)
-is \(c-rs\) by the plane blowup formula at the generic point. Put
-\(\xi=c_1(\mathcal O_{E_2}(1))=-E_2|_{E_2}\). Intersecting the two
-strict divisor classes with \(E_2\) gives
+The orders are generic orders, and the statement permits a zero horizontal degree after blowup.
+
+**Proof.** Blow up T by \(\beta:B_2\to B\), with exceptional divisor \(E_2\), and put \(D_1'=\beta^*D_1-rE_2\), \(D_2'=\beta^*D_2-sE_2\). Neither strict divisor contains \(E_2\). Any common surface outside \(E_2\) would descend to a common surface downstairs. Thus their intersection cycle Z is proper and effective, possibly zero. Off \(E_2\) it maps to the intersection outside T, which is empty by sole support; hence all its components lie in \(E_2\).
+
+Use the convention \(E_2=\mathbf P_{\rm lines}(N_{T/B})=\mathbf P_{\rm quot}(N_{T/B}^{\vee})\) and \(\xi=c_1(\mathcal O_{E_2}(1))=-E_2|_{E_2}\). The blowup intersection identities are
 \[
- \xi\cdot Z=(\deg N_{T/B})rs-A_1s-A_2r .
+ \beta_*E_2^2=-[T],\qquad\deg E_2^3=-\deg N_{T/B}.
 \]
-Here \(\pi_*E_2^2=-[T]\) and \(\deg E_2^3=-\deg N_{T/B}\).
-The nef class \(\xi+\pi_{E_2}^*M\) pairs nonnegatively with the
-entire cycle \(Z\), including any vertical fibers. This proves (2).
+Expansion of the strict divisor product therefore gives
+\[
+ \beta_*Z=(c-rs)[T],\qquad
+ E_2\cdot Z=A_1s+A_2r-rs\deg N_{T/B}.
+\]
+In particular the degree over T is \(c-rs\), including all scheme multiplicities, and vertical fibers have pushforward zero. The tautological class \(\xi+\pi_{E_2}^*M\) is nef under the stated vector-bundle hypothesis. Pairing with the entire effective Z yields
+\[
+ 0\le -A_1s-A_2r+rs\deg N_{T/B}+\lambda(c-rs),
+\]
+which is (2). A vertical fiber has \(\xi\)-degree one and pulled-back M-degree zero, so its positive contribution is retained even if \(c-rs=0\).
 [Exceptional bundle convention](https://stacks.math.columbia.edu/tag/0FUT).
 
 For the constant section, take \(\lambda=7-d\). The restriction
@@ -256,17 +261,22 @@ on \((0,1]\). At \(z_0=k/2-1/4\) it exceeds \(5k\), since
 The quadratic is concave and has values \(13/8\) and \(11/4\) at the
 endpoints of the stated interval. Thus \(c-2rs>pq/2\).
 
-After extending \(k(C)\) to its algebraic closure, all positive depths
-belong to the subtree above the unique first direction. Its total
-contact is \(c\) by Noether's intersection formula. Depth one
-contributes \(rs\), and each later depth contributes at most \(rs\),
-by the tangent multiplicity budgets in that subtree. Removing depths
-one and two proves the asserted strict tail. For a mixed direction take
-\(d=3\). The same increasing-function test, now with
-\(2\sqrt{15(k+1)z}-3z\) at \(z=k/3\), gives
-\(60(k+1)k/3-(4k+3k/3)^2=5k(4-k)>0\). Hence \(3rs<c\), and even
-depths one through three cannot exhaust the subtree.
-[Generic point-basis and per-depth argument](../arguments/residuals/generic_contact_depth.md#1-generic-normal-contact-tree).
+**Contact corollary, with arbitrary branching.** Extend the generic transverse regular local plane to an algebraic closure of \(k(C)\). Noether's intersection formula (equivalently the point-basis/proximity formula) expresses the original intersection multiplicity as the sum of products of strict-transform multiplicities at all common infinitely-near points. Before extension, the same sum includes residue-field degrees. Depth zero contributes pq; all positive depths lie over the unique depth-one direction T, whose total subtree contribution is c. Its root multiplicities are r,s, so depth one contributes rs.
+
+For each of the two germs separately, the multiplicities of its strict transforms at the common immediate successors of any node sum to at most its multiplicity at that node: the successor directions are distinct roots of its tangent cone, their root multiplicities sum to at most the tangent-cone degree, and each successor strict multiplicity is at most its tangent-root multiplicity. Restricting to common successors only decreases the sum. Induction over any branching tree gives, at each fixed positive depth above T,
+\[
+ \sum_P r_P\le r,\qquad \sum_P s_P\le s,
+ \qquad \sum_P r_Ps_P\le
+       \left(\sum_P r_P\right)\left(\sum_P s_P\right)\le rs.
+\]
+This is a per-depth budget, not an assumption that the tree is a chain. Since the proper local intersection has finite length, Noether's sum is finite. Removing depths one and two from its total c leaves at least \(c-2rs>pq/2\) at depths at least three.
+
+For a mixed direction take d=3. The same increasing-function test, with \(2\sqrt{15(k+1)z}-3z\) at \(z=k/3\), gives
+\[
+ 60(k+1)k/3-(4k+3k/3)^2=5k(4-k)>0.
+\]
+Thus \(3rs<c\). Even depths one through three cannot exhaust the subtree under the per-depth budget; some common point has depth at least four.
+[Generic point-basis and Noether formula](../arguments/residuals/generic_contact_depth.md#1-generic-normal-contact-tree).
 
 ## Limitations
 
@@ -295,13 +305,6 @@ The lower tail bounds alone leave that question open. On the edge
 
 ## Review
 
-Independent review reconstructed the quadric vanishing and Koszul
-argument, isolated-point lengths and connected-component attachment,
-the ruling trace, the chart identification of the normal extension,
-the second exceptional intersection with both sign conventions, and
-the two strict tail estimates. Replaying
-[the quadratic transition calculation](../computations/generalization_moving_first_relation_operator.py)
-and evaluating \(D_u+\theta D_v\) at \(u=-\theta v\) reproduced
-\(h_\theta v^2\) identically. Evaluating \(D_v\) at \(v=0\) reproduced
-the missing direction. The characteristic-three comparison was also
-checked by exact expansion on the cited global pair.
+The proof route is **pending review** after the requested geometric clarifications. This revision expands the residual attachment multiplicities, two-chart extension, second-blowup support/signs, branching budgets and marked-section dictionary; it does not claim that responding to the review constitutes acceptance.
+
+The earlier supporting checks reconstructed the numerical identities and replayed [the quadratic transition calculation](../computations/generalization_moving_first_relation_operator.py): substituting the stated normal directions reproduces the cocycles, and direct expansion checks the characteristic-three control. These replays support the formulas, not the outstanding review decision on the complete written proof.
