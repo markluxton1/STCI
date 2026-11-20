@@ -57,9 +57,12 @@ conductor support?
 The [fixed tangent-form examples](../../arguments/normal-geometry/rees_and_vertical_controls.md#5-counterexample-family)
 have unbounded transverse length. The [affine saturation-defect controls](../../arguments/normal-geometry/rees_and_vertical_controls.md#5-an-intrinsic-saturation-defect-unbounded-with-fixed-generic-algebra)
 also allow unbounded special-point defects with a fixed generic filtered
-algebra. The open step is to use the higher-order data, including the
-geometry of successive exceptional surfaces, to obtain an additional
-restriction on projective degrees or support.
+algebra. On the boundary of zero direction degree, the unique section
+and its normal bundle now force more than \(pq/2\) generic contact at
+depths at least three. For positive direction degree, even a single
+smooth multisection requires its actual normal bundle. When components
+meet, their strict transforms also enter the next intersection cycle.
+[Second-blowup bound and its remaining hypotheses](../../results/connected_normal_directions.md#bounding-the-orders-after-blowing-up-the-section).
 
 ## Punctual relative defect under sole support
 

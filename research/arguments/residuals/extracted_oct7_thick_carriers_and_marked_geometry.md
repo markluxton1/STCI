@@ -2,6 +2,12 @@
 
 These eight conditional developments distinguish exact necessary constraints from unproved global coupling or mate-exclusion claims. No individual local model establishes an unrestricted STCI obstruction.
 
+The cycle-only count used below has since been sharpened on its exact
+balanced \((3p,4q)\) boundary. Connectedness forces the restriction
+\(h^p\ell^{2p}\) up to scalar and singles out the point of the mate
+trace. The lifting computations below apply to this pure power as well.
+[Unique ruling and trace](../../results/connected_normal_directions.md#the-equality-boundary-on-the-first-blowup).
+
 ---
 
 ## Normalization, conductor, and almost-Cartier support

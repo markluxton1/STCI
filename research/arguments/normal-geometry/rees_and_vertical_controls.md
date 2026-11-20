@@ -518,6 +518,14 @@ normal bundle; it is not inferred for a different splitting.
 
 ## The exact supported (3p,4q) boundary and distinct residual roots
 
+The counting argument below uses the effective cycle. Connectedness of
+the actual strict intersection strengthens it to a single constant
+section, a single ruling of multiplicity \(2p\), and a mate trace of
+length \(q\) supported at the marked point. In characteristic zero
+the normal bundle of that section also restricts all subsequent
+contact trees.
+[Connectedness and the second blowup](../../results/connected_normal_directions.md#statement).
+
 Assume characteristic different from two, balanced normal bundle of C=C0,
 an actual proper pair with sole support C, degrees a=3p,b=4q and normal
 orders p,q. Its strict-transform intersection W on Bl_C(P3) has

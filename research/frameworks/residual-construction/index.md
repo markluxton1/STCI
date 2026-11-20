@@ -7,7 +7,7 @@ scope: "#scope"
 bridges: "#bridges"
 relations:
   - kind: uses
-    from: [STCI-R-0075, STCI-R-0076]
+    from: [STCI-R-0075, STCI-R-0076, STCI-R-0077]
     to: [STCI-F-0007]
     at: "#interfaces"
 ---
@@ -29,6 +29,12 @@ constructing containing intersections and for proving that a specified
 source always leaves residual degree.
 
 ## Interfaces
+
+For all slopes possible under sole support, an isolated or disconnected
+common zero set of the two leading forms on the exceptional surface
+forces residual degree. Isolated scheme lengths and attachments to
+distinct connected curve components give an explicit lower bound.
+[Residual attachment from the two symbols](../../results/connected_normal_directions.md#connectedness-and-residual-attachment).
 
 [Generic length and common normals](two_surfaces.md#21-generic-length-and-common-normal-directions),
 [residual mechanisms](residual_geometry.md#residual-statements-and-their-distinct-mechanisms),

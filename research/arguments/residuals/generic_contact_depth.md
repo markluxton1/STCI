@@ -158,6 +158,12 @@ For the rational quartic, (4) also shows that at least \(pq/4\) of normalized
 intersection multiplicity lies strictly beyond depth one, because
 \(m\ge(9/4)pq\) while the first two levels contribute at most \(2pq\).
 
+On the equality boundary of zero direction degree, the unique common
+section and its normal bundle force more than \(pq/2\) beyond depth two
+in characteristic zero. A mixed direction also requires depth four.
+This uses the projective geometry of the second blowup.
+[Precise hypotheses and proof](../../results/connected_normal_directions.md#how-much-generic-contact-must-occur-deeper).
+
 ## 5. Sharp local limitation
 
 Arbitrarily deep contact is locally possible. The plane germs

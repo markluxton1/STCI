@@ -52,6 +52,10 @@ For conflicting claims, follow the
 [correction and conflict rules](../MODEL.md#corrections-and-conflicting-claims).
 Topic prose provides reading routes within the scope of the cited statements.
 
+## Generic contact and residual support
+
+- [STCI-R-0077 — Connected normal directions and deep contact on the equality boundary](connected_normal_directions.md).
+
 ## Evidence locations
 
 Follow each record's retained proof and independent review sources. If an older

@@ -7,7 +7,7 @@ scope: "#scope"
 bridges: "#bridges"
 relations:
   - kind: uses
-    from: [STCI-R-0076]
+    from: [STCI-R-0076, STCI-R-0077]
     to: [STCI-F-0006]
     at: "#bridges"
 ---
@@ -54,6 +54,15 @@ The [full Chow-polytope rigidity theorem](../../arguments/equations/chow_polytop
 - [Projected thickenings](../../arguments/linkage/projected_thickening_section_defects.md) distinguish an ACM source upstairs from its image in \(\mathbf P^3\): the displayed power and binary-mixture images fail ACM when the positive degree product is nonzero. This does not exclude other projected sources or arbitrary supported thickenings.
 
 ## Bridges
+
+For degrees \((3p,4q)\) and exact normal orders \((p,q)\), connectedness
+reduces the characteristic-zero equation question to either of two
+marked rational quintics on \(V_5\). A proper pair of divisors of
+classes \(pM,2qM\) must have the prescribed conic orders, meet on the
+chosen quintic alone, and retain a nonzero order-\(q\) symbol at its
+one conic contact. These conditions, with the exact-order hypotheses
+in the proof, also recover a defining pair in \(\mathbf P^3\).
+[Section and conic-fiber criterion](../../arguments/residuals/blowup_residual_geometry.md#actual-equations-on-the-zero-direction-edge).
 
 For the explicit elliptic double-cover family, a candidate consists of
 a smooth basepoint-free fiber mapping birationally onto an octic.

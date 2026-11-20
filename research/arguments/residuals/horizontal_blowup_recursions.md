@@ -165,6 +165,13 @@ claimed.
 
 ## Exact bundle bookkeeping along a chosen horizontal path
 
+For a strict intersection supported on one smooth curve, testing the
+second exceptional cycle against a nef twist of its tautological line
+gives a bound without a coprime-next-forms hypothesis. For \(C_0\)
+the constant sections on the zero direction-degree boundary have
+explicit normal splittings, so this bounds the actual next orders.
+[Nef bound on the second blowup](../../results/connected_normal_directions.md#bounding-the-orders-after-blowing-up-the-section).
+
 Let X_i be a smooth threefold, C_i a smooth section, and N_i=N_(C_i/X_i).
 Choose a line subbundle K_i⊂N_i giving the next exceptional section, and
 write L_i=N_i/K_i. The exceptional normal sequence after blowing up C_i is

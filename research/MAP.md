@@ -8,6 +8,15 @@ The principal investigative interfaces are **actual global realization and forma
 
 Before prioritizing new work, state the exact class of equation pairs covered, the theorem or decision obtainable, its implication for unrestricted STCI, and the strongest existing result that leaves the gap open. A bounded question may remain open without being an active priority.
 
+The common zeros of the two leading forms give a residual test in all
+possible defining degrees. If a sole-support pair has zero degree
+in the normal-direction factor, its strict intersection is supported
+on one section. The normal bundle of that section forces deeper contact in
+characteristic zero. On the edge \((3p,4q)\) two marked rational
+quintics on \(V_5\) give an equivalent equation problem with an explicit
+test for the contracted trisecant. [Connected directions](results/connected_normal_directions.md#statement) ·
+[Actual equation correspondence](arguments/residuals/blowup_residual_geometry.md#actual-equations-on-the-zero-direction-edge).
+
 Use the [active front door](investigations/proof-audit/open-items.md) for the current research organization. The KG queue owns strategic ranking; this map and its linked frameworks own the mathematical approaches. The cross-framework audit is a comparison aid, not another queue.
 
 Choose an approach by the object it studies and the map it would need to
