@@ -95,8 +95,12 @@ cluster is not in itself evidence against the workflow.
   sector, allowing higher \(A_n\) at its marked hits. The transverse
   slice fixes the end incidence, and a K3 smoothing bounds the sum of
   the local ranks without requiring Du Val singularities elsewhere.
-  Repeated or tangent residual hits, hits at the endpoints, and
-  nonnormal signed surfaces still need their actual correction.
+  The [doubled unmarked ruling sector](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#doubled-unmarked-ruling-a-conic-bounds-the-correction)
+  also excludes every mate if the signed surface is normal and has
+  only Du Val singularities along the lifts. The transverse case
+  requires only normality. Residual rulings through marked endpoints
+  and nonnormal or worse singularities in the doubled sector remain
+  outside these exclusions.
   Endpoint-concentrated nonzero norm coefficients likewise
   still require actual contact and capacity tests. For larger nonsplit sources, seek capacity bounds
   without fourth-order divisibility. The weighted criterion assumes

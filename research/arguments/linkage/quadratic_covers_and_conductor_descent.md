@@ -1183,6 +1183,91 @@ incidence, not just the Du Val type. Repeated or tangent
 residual intersections, residual hits at the endpoints, and
 nonnormal signed surfaces are not covered by this argument.
 
+#### Doubled unmarked ruling: a conic bounds the correction
+
+For the two-lift split sextic, the degree-three ruling map of
+\(C\) on \(V(q)\) is \([s^3:t^3]\), so a reduced unmarked
+ruling meets \(C\) at three distinct points in characteristic
+zero. The only possibility not covered by the transverse
+result when the residual divisor avoids the endpoints is
+a doubled unmarked ruling \(2L\). In this case too there is
+no mate in any degree if the signed cubic is normal and
+has at most Du Val singularities along the two lifts.
+No condition on the singularities elsewhere is needed.
+
+Write \(T\subset X\) for the pullback of \(V(q)\). On a ruling
+\(L\) away from the endpoints, Segre coordinates have the form
+\((\alpha u,\alpha v,\beta u,\beta v)\) with \(\alpha\beta\ne0\).
+The branch section restricts to \(\alpha\beta uv\). Thus the
+pullback \(R\) of \(L\) is a smooth conic, and \(T\) is smooth
+along it: at its two branch points the branch equation has
+a simple zero on \(L\), so it cuts the downstairs quadric
+transversely there, and elsewhere the cover is étale.
+The signed cubic cuts \(D+D'+2R\) on \(T\) near \(R\).
+Its derivative along \(R\) is therefore zero in the
+cotangent bundle of \(T\), and its derivative normal to \(T\)
+defines a section of
+\[
+N^*_{T/X}|_R\otimes\mathcal O_R(3)=\mathcal O_R(1).
+\]
+This line bundle has degree two on the conic. The zeros
+are exactly the singular points of the signed cubic along
+\(R\); the section is nonzero by normality. All singularities
+along the lifts must lie among these zeros, since away from
+\(R\) the signed cubic cuts each lift simply on \(T\) at
+unmarked points, and the marked endpoints are smooth by
+the tangent-plane argument above.
+
+At a singular point of a lift use \(w=q\) and choose
+coordinates \(x,y\) on \(w=0\) in which the lift is \(x=0\)
+and the conic is \(y=0\). They meet transversely since
+the ruling is unmarked. The cubic has local equation
+\(xy^2+wA(x,y,w)\) after multiplication by a unit, and the
+conormal section on the conic is represented by \(A(x,0,0)\).
+At a simple zero, \(A_x(0)\ne0\); the Hessian has rank two
+and the tangent of \(R\) is outside its radical. The point
+is therefore of type \(A_{d-1}\), and \(R\) meets an end of the
+exceptional chain. Indeed in a rank-two normal form
+\(uv=\xi^d\) a smooth curve with tangent outside the radical
+has either \(u\) or \(v\) of order one, which gives the end
+intersection in the toric resolution. A smooth marked lift
+through this point meets exactly one exceptional curve,
+transversely: choose a local function restricting to order
+one on it; every exceptional component has order at least
+one in the pullback of that function. In the chain
+discriminant group \(\mathbf Z/d\), incidence at vertex
+\(j\) has class \(j\) up to simultaneous sign (the relations
+are \(2e_j=e_{j-1}+e_{j+1}\) with zero boundary values).
+The Cartier divisor \(w=0\) gives the local relation
+\([D]+2[R]=0\), with \(D\) denoting the lift present there.
+Thus the marked lift meets vertex \(2\) or \(d-2\), and
+its diagonal correction is \(2(d-2)/d<2\).
+
+Let \(A_0,B_0\) denote the correction sums for the two
+lifts. Their endpoints are smooth, so the same separate
+intersection calculation gives
+\(1/(6-A_0)+1/(6-B_0)=3/4\).
+Two simple zeros of the conormal section yield total
+correction strictly below four. For nonnegative sums
+with that budget the left side is at most
+\(1/(6-4)+1/6=2/3\), by convexity. If the section
+instead has a double zero, it can contribute at only one
+marked point, and the required correction there is
+\(30/7\). At that zero \(A_x(0)=0\). If \(A_y(0)\ne0\),
+the tangent of the marked lift itself is outside the
+Hessian radical, so its end correction is below one.
+Otherwise the Hessian rank is at most one. The Du Val
+assumption leaves only types \(D,E\), whose Cartan
+determinants are \(4,3,2,1\); an integral incidence vector
+has correction with denominator dividing that determinant.
+None can give \(30/7\). This proves the exclusion.
+
+A residual ruling through a marked endpoint is different:
+it lies in the branch quadric, so its pullback as a ruling
+divisor is nonreduced and the conic derivative argument does
+not apply. Its shared endpoint geometry remains to be
+compared with the two separate mate intersections.
+
 ### Arithmetic control and comparison of traits
 
 For the actual char-three pair A=x1³−x0²x2, G=x0x3³−x2⁴, both endpoint algebras are O[Y]/Y³. At 0 choose Y=x3−t⁴; r=t⁴−Y. At infinity choose Y=x1−t³; r=t⁴−tY. In either case z=t²+t^(j−2)Y+t^(2j−6)Y² with j=0 or 1 respectively. The multiplication matrix in basis 1,Y,Y² is triangular with these coefficients in its successive lower diagonals. The potential smallest two-minor is zero by equality of the two diagonal/off-diagonal products. The minimum over all minors is −6 or −4, respectively, from the Y² coefficient; hence (δ0,δ∞)=(6,4). This is a calculation for the actual supported char-three pair, not a char-zero lift or its lower-root defect.
