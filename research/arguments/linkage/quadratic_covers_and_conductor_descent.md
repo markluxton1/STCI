@@ -759,6 +759,102 @@ The t³/t³ case contradicts nonsplit postulation in three infinite skew-degree 
 
 Next bounded question: in a declared order-one family, characterize which actual endpoint lattices force any t-divisibility of ε, and whether the same family stays nonsplit. A first-symbol tangent can suggest divisibility modulo J² but does not prove it in A. Use all minors or an independently justified cyclic coordinate model; compare the same endpoint conductor at both ends with the global postulation. A failed divisibility test redirects the route toward exact truncated matrices, not toward strengthening the unrelated Frobenius defect.
 
+### Actual carriers with two divisible endpoint functions
+
+The endpoint divisibility test is not vacuous on actual carrier sources.
+Write R=2x_1x_2−x_0x_3, q=x_0x_3−x_1x_2 and
+K_0=R x_0²−x_1⁴, K_∞=R x_3²−x_2⁴. These both vanish on the marked C.
+For a≥7, m=a−4, set
+    A=x_0^m K_0, B=x_3^m K_∞,
+    D_7=q² x_0 x_1 x_2,
+    D_a=q² x_1² x_2² x_0^(a−8), a≥8.
+Take F=λA+μB+νD_a with λμ nonzero.
+
+At p_0, work on x_0=1 with (t,z,w)=(x_1,x_2,x_3).
+Modulo t, F is −λw plus a term divisible by w^m, while D_a vanishes.
+Thus F is smooth at p_0 and w lies in (t) in its completed local ring:
+the remaining coefficient of w is a unit. Then q=w−tz is in (t),
+so B is in (t^m) and D_a is in (t³) for a=7 or (t⁴) for a≥8.
+Consequently ε_0=(R/x_0²)−t⁴=K_0/x_0⁴ belongs to (t³) or (t⁴),
+respectively. At p_∞ exchange coordinates and use t=x_2/x_3.
+The role of w is x_0/x_3, again in (t); q is again in (t).
+The factor x_0 or x_0^(a−8) in D_a adds no negative order, so the
+same divisibility holds at p_∞. These congruences hold in the actual
+completed carrier before reducing by any mate, hence also in a
+hypothetical full equation lattice.
+
+The family has integral general members in characteristic zero.
+A and B have no common surface factor: K_0 is irreducible, seen on
+x_0=1 as linear monic in w up to sign, with no component at x_0=0;
+K_∞ is its distinct reversed counterpart, and neither shares the
+opposite coordinate hyperplane. The linear system is not composed
+with a pencil. On K_0=0 it traces a dense subset of the line A=0
+in parameter-image coordinates (A:B:D_a). Indeed B/D_a is
+nonconstant there: at (t,z,w)=(1,0,−1), B≠0,D_a=0, and D_a is
+not identically zero on K_0=0. The image also has points with A≠0.
+Thus the image dimension is at least two, and Bertini irreducibility
+with no fixed surface applies. The general member is not in the
+smooth-along-C sector: on x_0=1 substitute z=t³+v,w=t⁴+h.
+The first normal forms of K_0,K_∞ are respectively
+2tv−h and −t⁸(2tv−h), while D_a has normal order at least two.
+Hence F has first form (λ−μ t^(4m+8))(2tv−h) and is singular at the
+nonzero roots of that displayed scalar, though generically regular along C.
+
+For degree seven these actual carriers are nonsplit whenever integral
+and \(\lambda\mu\ne0\). On the smooth branch quadric \(R=0\) with
+\(x_0=1\) one has \(w=2tz\) and
+\[
+ F|_{R=0}=t^3(-\lambda t-8\mu z^7+\nu z^3).
+\]
+The graph of the second factor has a simple generic point on the
+dense torus, giving an odd valuation of \(R/x_0^2\) in the carrier
+function field. This proves nonsplitting without assuming generic
+normalization smoothness away from the endpoints.
+
+The degree-seven endpoint bound improves in the actual pair algebra.
+At the first endpoint set \(v=z-t^3\); the smooth carrier has
+parameters \((t,v)\), and a sole-support mate is a unit times
+\(v^n\) there, since this is a regular local UFD and its divisor
+has just that support. Thus the actual lattice is
+\(k[[t]][v]/(v^n)\). At the other endpoint use reversed coordinates
+and the corresponding normal parameter. From \(w/t\equiv2z\pmod t\)
+one obtains at the first endpoint
+\[
+ (\epsilon_0/t^3)\bmod t=(8\mu z^7-\nu z^3)/\lambda,
+\]
+and at the reversed endpoint \(8\lambda z^7/\mu\): the \(x_0\) factor
+of \(D_7\) contributes one more \(t\) there. Indeed
+\(q/t\equiv z\pmod t\), while the reversed mate term contributes
+\(-8z^7\) times its scalar. In either case \(\epsilon/t^4\) lies in
+\((v)k[[t]][v]/(v^n)+t^{-1}(v^3)k[[t]][v]/(v^n)\).
+In the square-root expansion the coefficient of \(v^j\) therefore
+has valuation at least \(2-\lfloor j/3\rfloor\). Each negative
+power of \(t\) costs at least three powers of \(v\).
+The all-minors comparison now gives
+\[
+ \delta_i\le\max_{0\le\ell\le n}
+ \bigl(\lfloor \ell(n-\ell)/3\rfloor-2\ell\bigr).
+\]
+Here the sum of the shifts in a product in an \(\ell\)-minor is
+bounded by \(\ell(n-\ell)\), and rounding down after summation
+only weakens the bound.
+
+A degree-seven carrier thus cannot have a sole-support mate.
+The mate degree is \(b=4s\) by degree exhaustion, and \(s\ge2\)
+by the low-degree exclusions. For \(s=2,3\) nonsplit
+postulation gives lower bounds \(26,76\) against upper bounds
+\(10,36\). For \(s\ge4\) the lower bound is
+\(28s^2-98s+118\), strictly larger than the upper bound
+\((7s-6)^2/6\) given by the continuous quadratic maximum.
+For \(a\ge8\) both endpoint conductors would vanish by
+\(t^4\)-divisibility, contradicting global postulation after ordering
+the degrees. Thus every integral member of the indicated
+\(\lambda\mu\ne0\) family in degrees \(a\ge7\) is excluded for every
+mate degree. This is a statement about actual carrier sources,
+not about all carriers in those degrees. The next structural test
+is whether other source conditions force enough endpoint
+divisibility, or whether exact matrices can replace that assumption.
+
 ## 9. Why the extracted branch need not be Gorenstein
 
 One exact local control suffices to test that possible shortcut; no
