@@ -87,12 +87,14 @@ The [H16 cycle parameterization](../../arguments/equations/chow_polytope_rigidit
 
 The [clean common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
 determines the full special scheme in every degree \(a,b\ge3\), for
-any smooth \((1,3)\) curve and in every characteristic. Regular
+any smooth \((1,3)\) curve and in every characteristic, under coprime
+cofactors and nonzero first cancellation on \(Q\). Regular
 cofactor restrictions give a residual source of dimension
 \(a(a-2)+b(b-2)\). The
 [ordinary-blowup theorem](../../arguments/equations/common_quadric_resultant_blowup.md)
-identifies the whole local exceptional fibre and covers higher-order arcs
-on that open. Its positive off-quadric residual rules out a constant
+identifies the coefficient base ideal as the square of the center ideal,
+the whole local exceptional fibre, and higher-order arcs on that open.
+Its positive off-quadric residual rules out a constant
 sole-support cycle there. Rank drops, other common factors and closure of
 varying translate arrangements remain outside these conclusions.
 

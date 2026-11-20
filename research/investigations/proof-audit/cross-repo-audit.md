@@ -89,8 +89,10 @@ bounds still needed. See the [open-item list](open-items.md) for re-entry decisi
 ## Established comparisons and remaining gaps
 
 The [common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
-now identifies the full special scheme and ordinary-blowup resultant graph
-near the regular cofactor locus, in every degree and characteristic.
+now identifies the full special scheme for coprime cofactors and nonzero
+first cancellation, including some restriction rank drops. Near the regular
+cofactor locus it identifies the resultant base ideal as the square of the
+center ideal and its graph as the ordinary blowup, in every degree and characteristic.
 Its residual excludes constant sole support on this open; rank drops and
 closure of varying translated arrangements are not decided. Separately,
 the [actual-pair coregularity module](../../arguments/local-cohomology/actual_pair_coregularity.md)

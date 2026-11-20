@@ -145,8 +145,9 @@ characteristic zero.
 For pairs tending to a common smooth quadric, the
 [clean boundary theorem](arguments/equations/common_quadric_chow_boundary.md)
 computes the full special scheme for all degrees \(a,b\ge3\) and
-identifies the local resultant graph with the ordinary blowup on the
-regular-restriction locus, in every characteristic. Its residual cycle
+identifies the resultant base ideal with the square of the center ideal,
+and its graph with the ordinary blowup, on the regular-restriction locus
+in every characteristic. Its residual cycle
 prevents constant sole support there; rank drops and closure of varying
 translate arrangements remain separate questions.
 Separately, [simultaneous torus degeneration of the quadratic graph](arguments/linkage/toric_limit_conductor_comparison.md)

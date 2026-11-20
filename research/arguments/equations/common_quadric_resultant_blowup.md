@@ -9,6 +9,7 @@ algebraically closed field of any characteristic. Put
 \]
 At a point \(z=([QA],[QB])\) where \(A|_Q,B|_Q\) are a regular
 sequence, there is a Zariski neighborhood \(U\subset X\) such that
+the resultant coefficient ideal is \(I_{\rm res}=J_{Z_Q}^2\), and
 the reduced graph closure of the line-resultant map is
 \[
                     \Gamma_U\simeq\operatorname{Bl}_{Z_Q\cap U}U.
@@ -18,7 +19,7 @@ residual source in the linked proof. This describes every generically
 proper arc through this neighborhood, including arcs with higher contact
 with the center. It is not a global blowup classification.
 
-## The initial resultant resolves on the ordinary blowup
+## The quadratic initial resultant
 
 Let \(J\) define the smooth center \(Z_Q\). The Koszul isomorphism
 identifies its normal space at \(z\) with \(V_Z\): a normal pair
@@ -39,12 +40,8 @@ on a dense open and hence polynomially, including repeated cofactors.
 All resultant coefficients lie in \(J^2\). Their quadratic initial
 forms have no projective normal basepoint: nonzero \(k\) gives
 \(Q\nmid K\), and regular restrictions make
-\(\operatorname{Res}(A,B)\ne0\). On the ordinary blowup, factor
-\(\mathcal O(-2E)\) from the pulled-back coefficient ideal. The
-remaining ideal is a unit near the entire fibre over \(z\). Its
-failure locus has closed image under the proper blowup map; removing
-that image shrinks \(U\) so the map is resolved throughout its inverse
-image. This also removes any additional base locus outside the center.
+\(\operatorname{Res}(A,B)\ne0\). The next calculation identifies
+their entire span, rather than only absence of basepoints.
 
 ## The exceptional map is a closed immersion
 
@@ -70,25 +67,34 @@ nonzero Chow forms of \(V(A,B)\) and \(C\). Multiplication is a
 linear injection, so each exceptional fibre still maps by a closed
 immersion.
 
-## Identification with the reduced graph
+## The exact base ideal and graph
 
-The resolution gives a proper map \(B=\operatorname{Bl}_{Z_Q\cap U}U
-\to\Gamma_U\), an isomorphism away from the center. On each
-exceptional fibre it is the immersion just proved. It is therefore
-geometrically injective and quasi-finite. Any tangent kernel lies in
-the tangent space of a fibre of \(B\to U\), and the fibre immersion
-makes that kernel zero. Thus the map is unramified and radicial.
-Properness makes it finite, and a proper unramified radicial morphism
-is a closed immersion. Its image contains the dense graph. Since the
-target graph closure is reduced, this closed immersion is an isomorphism.
+The full Veronese followed by a linear inclusion means that these
+quadratic coefficient forms span
+\(\operatorname{Sym}^2N_z^*=J^2/\mathfrak m_zJ^2\). This holds
+also in characteristic two: in \(k\otimes k\), the mixed coordinate
+\(a_i a_j\) multiplies \(e_i\otimes e_j+e_j\otimes e_i\), which
+remains independent of the diagonal tensors. No division by two occurs.
+Since \(I_{\rm res}\subset J^2\), Nakayama applied to
+\(J^2/I_{\rm res}\) gives \(I_{\rm res}=J^2\) at \(z\), and
+coherence gives this equality after shrinking \(U\).
+
+The closure of the graph of a rational map given by generators of an
+ideal on this integral \(U\) is the Proj of its Rees algebra. Thus it
+is \(\operatorname{Bl}_{I_{\rm res}}U\). The Rees algebra of \(J^2\)
+is the second Veronese of that of \(J\), with the same Proj. Hence
+\(\Gamma_U=\operatorname{Bl}_{J}U\), with exceptional fibre
+\(\mathbf P(N_z)=\mathbf P(V_Z)\) and the map just computed.
+This proves the scheme-theoretic statement and identifies the base
+scheme itself as the double center.
 
 Consequently the first nonzero normal direction of a lifted arc
 determines its exceptional Chow point on this open. Rank-drop points
 of \(A|_Q,B|_Q\), other common factors and gluing across those strata
 remain outside the proof. Characteristic zero is unnecessary: the
 resultant identity is integral, transverse secants exist in every
-characteristic, and the Veronese and scheme arguments require no division.
+characteristic, and the Veronese and Rees arguments require no division.
 
 The independent correctness review reconstructed the initial resultant,
-secant/Veronese immersion, neighborhood argument and scheme-theoretic
+secant/Veronese immersion, exact square-ideal statement and scheme-theoretic
 graph identification after the geometric review proposed the strengthening.

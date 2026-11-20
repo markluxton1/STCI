@@ -130,6 +130,10 @@ ordinary-blowup graph on the regular-restriction locus have an unavoidable
 off-quadric residual. Higher-order arcs there need no separate search.
 The rank-drop boundary and closure of varying translate arrangements remain
 open; exclusion from the exact polytope fibre is not a closure theorem.
+The full special-ideal calculation already extends to coprime cofactors
+with nonzero first cancellation at some rank drops; source and graph
+classification there remain open. On the clean locus the resultant base
+ideal is exactly the square of the common-quadric center ideal.
 
 - **General cycle constraint.** The [trace-moment theorem](../../arguments/torus/chow_arrangement_moments.md)
   forces \(\sum_i n_i u_i/v_i=0\) for pairs with an eigenform generator

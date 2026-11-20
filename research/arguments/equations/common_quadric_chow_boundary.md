@@ -4,14 +4,16 @@ Let \(C\) be any smooth curve of class \((1,3)\) on a smooth quadric
 \(Q\subset\mathbf P^3\), over an algebraically closed field of any
 characteristic. For degrees \(a,b\ge3\), a deformation through \(C\)
 away from the common factor \(Q\) has an explicit **full special
-scheme** on the regular-restriction stratum. Its residual linear system
-also identifies the [local resultant graph](common_quadric_resultant_blowup.md)
-with an ordinary blowup. Neither statement covers rank drops on that center.
+scheme** whenever its cofactors are coprime and the first cancellation
+is nonzero on \(Q\), including some restriction rank drops. On the
+regular-restriction stratum, its residual linear system identifies the
+[local resultant graph](common_quadric_resultant_blowup.md) with an
+ordinary blowup; its coefficient base ideal is exactly the square of
+the center ideal. Source and graph classification at rank drops remain open.
 
 ## The full special scheme
 
-Take forms \(A,B\) of degrees \(a-2,b-2\), whose restrictions
-\(\alpha,\beta\) form a regular sequence on \(Q\). Consider an arc
+Take coprime forms \(A,B\) of degrees \(a-2,b-2\). Consider an arc
 of pairs through \(C\):
 \[
  F_t=QA+tF_1+O(t^2),\qquad G_t=QB+tG_1+O(t^2),\qquad K=BF_1-AG_1,
@@ -19,19 +21,20 @@ of pairs through \(C\):
 and assume \(Q\nmid K\). Then the generic pair is automatically
 proper, and its flat closure has saturated special ideal
 \[
- I_0=(QA,QB,K)=(A,B)\cap(Q,K).
+ I_0=(QA,QB,K).
 \]
 It is ACM of dimension one projectively, has no embedded points, and
 has the complete-intersection \((a,b)\) Hilbert function. No reducedness
 is asserted. Its fundamental cycle is \([V(A,B)]+[V(Q,K)]\);
 higher terms of the arc do not change this special scheme under the
-stated first-order nonvanishing condition.
+stated first-order nonvanishing condition. Components of the two cycle
+terms may overlap, with their multiplicities added.
 
 Here is the [clean-cancellation argument](../torus_hilbert_boundary.md#clean-cancellation-and-residual-descent)
-without its later torus specialization. Regular restrictions imply that
-\(A,B\) are coprime and that \(Q\) is regular on \(S/(A,B)\).
-Since \(K\in(A,B)\) and \(Q\nmid K\), one has
-\(I_0:Q=(A,B)\), giving
+without its later torus specialization. The colon equality
+\(I_0:Q=(A,B)\) needs no regularity of \(Q\) modulo \((A,B)\):
+if \(Qh=Q(Au+Bv)+Kr\), coprimality of \(Q,K\) forces \(r=Qr'\),
+so \(h\in(A,B)\). Thus
 \[
  0\longrightarrow S/(A,B)(-2)\xrightarrow{Q}S/I_0
        \longrightarrow S/(Q,K)\longrightarrow0.
@@ -48,12 +51,19 @@ Each graded quotient is finite free over \(k[[t]]\). The linear growth
 of the special Hilbert function bounds the generic dimension by two;
 two homogeneous equations give the reverse bound. Thus the generic
 pair is proper. Its CI Hilbert function equals that of \(I_0\),
-forcing equality of the special ideals in every degree. Finally
-\(Q\)'s regularity modulo \((A,B)\) proves the displayed intersection
-of ideals. This establishes scheme structure as well as degree exhaustion.
+forcing equality of the special ideals in every degree. The exact
+sequence also gives the additive cycle formula, including overlaps.
+
+If the restrictions \(\alpha=A|_Q,\beta=B|_Q\) form a regular
+sequence, then \(Q\) is regular modulo \((A,B)\), and additionally
+\(I_0=(A,B)\cap(Q,K)\). This intersection identity need not hold
+at a rank drop. For example, \(Q=xz+yw,A=x,B=y\) gives
+\((Q,K)\subset(A,B)\), while the ideal \((Qx,Qy,K)\)
+does not contain \(Q\).
 
 ## The entire residual source
 
+Now assume \(\alpha,\beta\) form a regular sequence on \(Q\).
 Set \(Z=V_Q(\alpha,\beta)\), of length \(2(a-2)(b-2)\), and let
 \(s_C\) define \(C\) on \(Q\). Restriction of the full degree-\(a\)
 source through \(C\) is onto
@@ -111,8 +121,10 @@ open in \(\operatorname{Gr}(2,H^0(\mathcal O(2)))\).
 If \(\alpha,\beta\) acquire a common divisor \(h\), the naive
 specialized image is \(k=h(\beta'f-\alpha'g)\). Limits of sections
 from the regular locus need not lie in that image when rank drops.
-That closure, other common-factor strata and the global resultant graph
-remain open. On the clean locus, however, the
+The full special-ideal theorem still applies whenever \(A,B\) remain
+coprime and \(Q\nmid K\), but gives no automatic off-quadric term
+there. Source and graph classification at rank drops, other common-factor
+strata and the global resultant graph remain open. On the clean locus, the
 [ordinary-blowup theorem](common_quadric_resultant_blowup.md) determines
 the whole exceptional fibre and covers higher-order arcs.
 
