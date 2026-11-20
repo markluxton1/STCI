@@ -26,6 +26,10 @@ The August 21 historical source computes the non-torsion additive conductor defe
 
 The August 22 primitive/quasiprimitive \\((4,5)\\) artifacts (\\(p_1=8,9\\), conditional \\(p_2\\) bounds) were also recovered. They are necessary filters for a degree pair now excluded by R-0001, not an independent higher-degree obstruction. **Do not retain as a new Result** unless a specific generalization beyond quartic carriers is verified.
 
+## Promoted open question
+
+- The higher-degree analogue of the quartic K3 exceptional-rank budget was **not explicitly formulated** as a unified research question. It is now recorded, without claiming a universal conservation identity, in [carrier degree exclusions](../frameworks/carrier-normalization/degree_exclusions.md#open-question-higher-degree-surface-singularity-budgets). This is a substantive question rather than a missing proved result; the quintic–octic ADE/even-node budget is cited as an existing partial comparison.
+
 ## Further duplicates screened out
 
 - **Two-stage normal/endpoint valuations:** [endpoint valuation fans and cancellation](../arguments/torus/endpoint_valuations.md) already distinguishes the generic normal valuation, endpoint valuation on the function field of C, and ambient flag valuations; computes the weighted wall and the lexicographic flag value \\((1,9)\\) in the quartic-binomial model; and explains why residue polynomials are needed beyond tropical weights. Together with [actual equation filtrations](../arguments/normal-geometry/actual_equation_filtration.md), this **closes the earlier apparent gap**. Do not create a second formulation without a stronger precise theorem.
