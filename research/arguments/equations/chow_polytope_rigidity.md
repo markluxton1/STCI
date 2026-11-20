@@ -73,6 +73,14 @@ illustrates how to separate an incidence divisor, its generic fiber,
 and exceptional strata in a concrete family; it is not this Chow
 or Hilbert moduli space.
 
+The [fixed toric carrier classification](../torus/fixed_carrier_chow_arrangements.md)
+gives an explicit actual-pair locus: on the quartic carrier, precisely the
+root polynomials with \(c_1=c_2=c_5=0\) descend. It covers repeated roots
+and every reduced CI arrangement supported on that carrier. Characteristic
+zero forbids one- and two-support arrangements there, while partial collisions
+occur. This separates the geometry of a fixed surface from the moving-carrier
+and non-invariant Hilbert-lift questions below.
+
 ### Realization of a reduced Chow-matched cycle
 
 Work over an algebraically closed field. Write S=k[x0,x1,x2,x3] with weights (0,1,3,4), Ω the dense projective torus, and (t,u,v)=(x1/x0,x2*x0²/x1³,x3*x0³/x1⁴) on Ω. The stabilizing one-parameter torus scales t, and the closures of its cosets are the translates C_(u,v) appearing in R-0074. Fix positive ordinary degrees a,b with ab=4m, and distinct quotient points P_i=(u_i,v_i), i=1,…,m. Let Y be the reduced union of the C_(u_i,v_i).

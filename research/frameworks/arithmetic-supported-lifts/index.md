@@ -66,6 +66,12 @@ extends the prescribed prime-exponent example to every represented exponent
 distinct quartic translates and its \(p\)-part gives their multiplicity.
 This relates the explicit arithmetic construction to invariant residual
 cycles without asserting that arbitrary residual cycles can be absorbed.
+The [complete fixed-quartic arrangement locus](../../arguments/torus/fixed_carrier_chow_arrangements.md)
+places this binomial family inside the larger coefficient space
+\(c_1=c_2=c_5=0\). Partial collisions occur in characteristic zero, but
+at least three distinct translates must remain on that fixed carrier.
+Frobenius explains complete collapse in the prescribed family; it does not
+classify all arrangements or all characteristic-zero degenerations.
 The [root-defect grading](../../arguments/arithmetic/frobenius_power_lifting_precision.md#equivariant-grading-of-the-root-specialization-defect)
 requires an equivariant total trait and the original root theorem's
 hypotheses. For the fixed quartic a supported mixed-characteristic trait

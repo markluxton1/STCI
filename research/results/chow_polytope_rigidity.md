@@ -71,3 +71,8 @@ The full unshifted weight polytope is essential. The theorem classifies
 fundamental cycles, not scheme structures or homogeneous generators.
 Distinct translates remain possible, and Laurent quotients alone do not
 exclude projective boundary components.
+
+The separate [fixed-carrier realization theorem](../arguments/torus/fixed_carrier_chow_arrangements.md)
+classifies actual mates and their collision constraints on the named quartic
+toric surface, with a contrasting quadric exclusion. These are scoped
+realization results, not a classification of all Hilbert lifts of this fiber.

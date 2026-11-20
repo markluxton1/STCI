@@ -7,10 +7,11 @@
 The problem is whether the **fixed** quartic
 \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\) is a set-theoretic complete
 intersection in characteristic zero. A proper pair of degrees \(a,b\)
-has \(ab=4m_C+\deg R\). An argument gains knowledge here if it explains
-why actual homogeneous pairs must leave residual support, produces an
-actual pair with none, or identifies a transferable constraint separating
-these alternatives. The degree identity alone does none of these.
+has \(ab=4m_C+\deg R\). Knowledge includes the geometry of actual pairs,
+their cycle arrangements, parameter spaces and limits, as well as constructions
+and obstructions. Examples, counterexamples and better formulations can reveal
+which questions matter before a bridge to an STCI theorem is known. The degree
+identity alone does not explain this geometry.
 
 The order favors expected mathematical knowledge, transfer between
 approaches, and a concrete realization or coverage bridge. Readiness
@@ -19,28 +20,24 @@ only if the remaining gap is demonstrably small; no lane below is
 known to have such a gap. An exact counterexample may outrank an
 additional positive case when it changes which comparison to attempt.
 
-The mechanism sweep followed the [research map](../../MAP.md), with
-the corresponding gaps left in their canonical frameworks. Its method
-was productive where a shared object was fixed first: the *same*
-quadratic conductor now has both endpoint capacity and global
-postulation tests, and reduced-cycle realization can be separated
-from nonreduced equation incidence. The sweep also rejected proposed
-shortcuts: the conductor quotient loses the two socle targets, and
-moving a residual line is not globalized absorption. These changed
-research decisions independently of the count of new theorems.
-Other clusters still need a coverage map; a null result in such a
-cluster is not in itself evidence against the workflow.
+Compare the actual next investigations, not the historical importance of their
+frameworks. A restricted scalar test does not inherit the coverage of the whole
+deep-contact program. The current first choice is exploratory: actual Chow
+arrangements have an explicit fixed-carrier locus and informative collisions,
+but the effect of moving the carrier and allowing non-invariant thickenings is
+unresolved. This is a reason to investigate, not evidence that the direction
+will solve STCI or is uniquely optimal. Reassess after the initial probe.
 
 ## Ranked research problems
 
 | Rank | Stable ID | Question for a better argument | Payoff if resolved |
 | --- | --- | --- | --- |
-| 1 | KG01 | Can actual deep contact support the same conductor required by global equations? | Compare intrinsic local capacity and global postulation on one object across degrees |
-| 2 | KG02 | Which Chow-cycle strata have actual CI lifts, and what do the two full ends retain? | Independent realization geometry and an actual-generator bridge on repeated cycles |
-| 3 | KG03 | When does a marked absorption direction lift to a proper ambient pair and increase marked length? | A constructive operation or the class obstructing it, not just motion of a residual |
-| 4 | KG04 | Can residual-capacity tests reach carriers outside the known ordinary open? | Transfer capacity mechanisms to new actual carriers |
-| 5 | KG06 | What replaces Cartier descent on the surviving quintic normalizations? | Test the intrinsic Cartier defect and contact geometry on actual carriers |
-| 6 | KG05 | Can the whole elliptic inverse scheme be supported and descend? | An explicit finite-algebra family, with useful stages but no broader coverage yet |
+| 1 | KG02 | What arrangements and collision strata occur for actual pairs, and what changes when the carrier moves? | Geometry of the realization locus, including repeated cycles and non-invariant ideals |
+| 2 | KG05 | Can the whole elliptic inverse scheme be supported and descend? | An explicit finite-algebra family with a precise unresolved support locus |
+| 3 | KG01 | What do full toric limits and their embedded corrections say about the same quadratic conductor? | A local/global comparison retaining the information lost by taking pure limits |
+| 4 | KG03 | When does a marked absorption direction lift to a proper ambient pair and increase marked length? | A constructive operation or the class obstructing it, not just motion of a residual |
+| 5 | KG04 | Can residual-capacity tests reach carriers outside the known ordinary open? | Transfer capacity mechanisms to new actual carriers |
+| 6 | KG06 | What replaces Cartier descent on the surviving quintic normalizations? | Test the intrinsic Cartier defect and contact geometry on actual carriers |
 | 7 | KG08 | What survives the full quadratic-root obstruction and actual-source incidence? | Distinguish spectral obstructions from lack of global lifts |
 | 8 | KG09 | Which changes preserve an actual two-target dual separator? | A source-transfer problem with an exact five-direction first test |
 | 9 | KG10 | What obstruction survives arithmetic specialization of varying pairs? | Transfer across characteristics if actual lattices and coverage can be controlled |
@@ -85,7 +82,7 @@ cluster is not in itself evidence against the workflow.
   covector. Even one such endpoint exceeds the displayed scalar
   postulation lower bound. Varying the cover cannot give a contradiction
   from that comparison on this stratum.
-- **Next test.** Use a declared full equation source where **both**
+- **Restricted scalar test.** Use a declared full equation source where **both**
   endpoints escape that transverse control: aligned smooth or singular
   endpoints, with no transverse pair member at either end. Determine how
   both actual endpoint Newton/Smith capacities vary with
@@ -94,6 +91,16 @@ cluster is not in itself evidence against the workflow.
   defeat this comparison for every allowed choice? Retain the complete
   equation source and both endpoints; first-symbol data alone do not
   determine the lattices.
+- **Next exploratory comparison.** In a simultaneous intrinsic torus limit of
+  the curve and its selected quadratic graph, the [conductor identity](../../arguments/linkage/toric_limit_conductor_comparison.md)
+  is \(\delta_i^{\mathrm{pure}}=\delta_i+\alpha_i-\beta_i\).
+  The full base limit supplies \(\alpha_i\); the graph's embedded correction
+  \(\beta_i\) must also be computed. Determine what actual global equations
+  force on their difference, beginning with a source where both can be
+  calculated. The controls show either sign is possible. This corrected
+  degeneration question is not restricted to the nontransverse scalar stratum;
+  neither a pure limit nor a local control inherits the original global CI
+  postulation theorem automatically.
 - **Decision.** A strict gap on a specified source extends the exclusions
   beyond the constructed endpoint-jet families. A carrier defeating every
   choice identifies missing local information. Neither outcome alone
@@ -115,7 +122,21 @@ The [marked V5 correspondence](../../arguments/residuals/blowup_residual_geometr
 is a separate actual-source and conductor-contact test. These results
 neither supply a capacity bound for every cover nor remove its need.
 
-### KG02. Actual equation layers and the two torus ends
+### KG02. Actual Chow arrangements, collisions and full torus limits
+
+- **Realization geometry.** The [fixed-carrier classification](../../arguments/torus/fixed_carrier_chow_arrangements.md)
+  describes every mate on the named quartic toric carrier by a monic root
+  polynomial with \(c_1=c_2=c_5=0\) and nonzero constant coefficient.
+  In characteristic zero at least three distinct translates remain, but partial
+  collisions with \(C\) occur. Root-of-unity arrangements are a special locus.
+  On the smooth quadric, the divisor classes instead forbid a mate made only
+  of these translates. Fixed-carrier incidence is therefore already informative
+  without a general exclusion. Reduced CI arrangements on the quartic are
+  covered; a repeated cycle supported there need not have that carrier as an
+  actual equation.
+  Uniqueness makes every classified fixed-generator ideal invariant, even
+  with repeated roots. A non-invariant lift supported on this surface must
+  therefore lose the quartic as an actual equation.
 
 - **Known.** Opposite completed ends detect raw parameter torsion; on
   a layer the common kernel is the \((x_0,x_3)\)-power torsion. The
@@ -129,23 +150,35 @@ neither supply a capacity bound for every cover nor remove its need.
   · [Generator incidence](../supported-generator-incidence/index.md).
 - **Checked finite pilot.** The [two-parameter residual sextic family](../../results/endpoint_equation_torsion.md#the-complete-detection-stratification-of-a-two-parameter-pilot) has fixed extremes, \(e_L=1\), and a fixed CI polynomial, but its missed length is one on the dense parameter open and zero on a parameter divisor where the flat limit contains \(6[L]\). This exactly identifies the detection strata of that family. It shows why those shared data alone cannot provide the needed strict bound; it is not a supported construction or a closure of KG02.
 - **Canonical-source refinement.** The [equation-layer theorem](../../arguments/torus/chow_matched_equation_layers.md) makes each end-adapted raw ideal intrinsic and shows that nonadaptation delays all hidden line layers. The explicit first-length change eight to zero is a generator artifact, not erased cancellation. Endpoint Kummer data alone do not determine that raw first length; opposite optimized generators need not be the same representative. The whole filtered degree-labeled sources of the same ideal are the revised comparison target.
-- **Sweep bridge.** [Reduced-cycle realization](../../arguments/equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle)
+- **Moving-carrier comparison.** [Reduced-cycle realization](../../arguments/equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle)
   is an exact eigenform evaluation and fixed-factor test; the invariant
   quartic collision model does not cover non-invariant ideals on partial
   diagonals. Choose a named collision partition and test actual quartic
   pencils, then compare their embedded quotients with both full limits.
   This has independent moduli value even if it gives no STCI obstruction.
-- **Next test.** Pick one declared proper bidegree family with
-  \(e_L>0\). Derive a projective bound on the joint first-layer kernel
-  directly from the two degree-labeled equation sources, on the **same**
-  family at both ends, using canonical end-adapted sources and retaining higher line layers. Check the \(W_0\) missed-class example first.
-- **Decision.** A uniform bound below \(e_L\) forces residual degree on
-  that family; a verified full supported family passing the test is
-  useful for equation recovery. Do not infer either from an unperformed
-  attracting-family plan, a top Chow cycle, or a single limit ideal.
+- **Next investigation.** Start with a named partial-collision stratum in the
+  actual quartic-pair locus. Describe how moving the carrier or changing the
+  non-invariant thickening changes the fixed-carrier constraints. The invariant
+  moving-carrier partitions \((2,2)\) and \((3,1)\) are already known;
+  distinguish retaining the surface equation from retaining only its support.
+  Retain the
+  actual ideals; use their full opposite limits where they illuminate the
+  geometry. Examples, a discriminant description, or a newly identified
+  constraint are useful outcomes without an advance promise of a residual bound.
+- **Remaining equation bridge.** The joint first-layer kernel on a declared
+  proper family with \(e_L>0\) remains a distinct question. A bound below
+  \(e_L\) would force residual degree there; retain canonical end-adapted
+  sources and higher layers. The \(W_0\) control prevents inferring this
+  bound from a cycle, a single limit or the shared CI polynomial.
 
 ### KG03. Globalizing a marked absorption step
 
+- **Chow control.** The [fixed-quartic collision family](../../arguments/torus/fixed_carrier_chow_arrangements.md#an-actual-partial-collision-in-characteristic-zero)
+  is an actual flat family of proper pairs in which marked multiplicity rises
+  from one to two and residual degree falls from twelve to eight. Eight is the
+  sharp residual floor within this fixed-generator \((4,4)\) translated-cycle
+  locus. It provides a realized partial absorption step, not an unrestricted
+  iteration or a sole-supported family for the quadratic-graph comparison.
 - **Known.** Proper actual families can absorb positive residual degree.
   In R-0049 a moving quartic is absorbed, but a twelvefold residual
   line persists. The marked Quot model separates deforming the marked
@@ -349,24 +382,26 @@ neither supply a capacity bound for every cover nor remove its need.
   for just the prescribed source still says nothing about unrelated
   characteristic-zero pairs.
 
-## Use the ranking after the sweep
+## Current choice and reassessment
 
-Pursue KG01 first through the actual same-conductor comparison. Keep
-the [marked V5 equality correspondence](../../arguments/residuals/blowup_residual_geometry.md#the-marked-correspondence-on-the-whole-equality-boundary)
-as a separate transfer and contact test: the conic resultant, absence
-of a whole marked fiber and off-conic support are separate conditions.
-The endpoint carrier bound leads to a specific nonsmooth-conductor
-question, not a generic absence result.
+Pursue KG02's actual arrangement and collision geometry first. The fixed-carrier
+classification exposes a larger locus than the Frobenius examples and gives
+sharp constraints to compare with moving carriers. Its next question concerns
+that geometry, not an obligation to produce a uniform STCI obstruction.
 
-Use KG02 to understand a non-invariant collision next if the conductor
-comparison lacks a useful compatible actual source. KG03 is next for
-a construction mechanism: require a marked direction in both actual
-equation spaces, a proper pair and a change in generic length. Scoped
-normalization and spectral steps remain worth recording where they
-explain an actual family, even without general coverage. Do not treat
-the ranking as a new inventory of proofs to rewrite.
+KG05 is the strongest concrete alternative: its whole-family support locus is
+well defined and unresolved, with a dimension bound and an exact finite-algebra
+test. It is narrower in family coverage but could close or advance an actual
+construction. KG01's original scalar comparison is already ineffective on the
+transverse stratum; its new toric comparison has a precise missing embedded
+correction, whose control by global equations remains to be established.
+These distinctions support a provisional exploration choice, not certainty
+about eventual payoff. Reassess if the collision probe only reproduces the
+known fixed-carrier picture or reveals a more consequential question elsewhere.
 
-Keep IDs stable and revise this order only when the payoff or coverage
-changes. Report the exact class tested and the strongest surviving
-control at the canonical owner. Use focused commits as the pursued
-direction yields a proof, a counterexample or a better-defined gap.
+Keep the [marked V5 correspondence](../../arguments/residuals/blowup_residual_geometry.md#the-marked-correspondence-on-the-whole-equality-boundary)
+as a distinct transfer/contact test, and KG03 as the actual absorption question.
+Neither moving a residual nor changing a cycle alone lifts its two equations.
+Keep IDs stable, preserve scoped findings at their owners, and revise the queue
+when the expected understanding changes. Do not turn the ranking into a list
+of proofs to rewrite.

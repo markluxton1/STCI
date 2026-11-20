@@ -16,8 +16,8 @@ The order, status and detailed next gates live in KG, not in a second ranking he
 
 | Decision | Strategic owner |
 | --- | --- |
-| What projective constraint controls deep normal contact of actual equations? | [KG01](knowledge-gain-priorities.md#kg01-projective-limits-on-deep-generic-normal-contact) |
-| When do both torus ends and actual generator layers force residual support? | [KG02](knowledge-gain-priorities.md#kg02-actual-equation-layers-and-the-two-torus-ends) |
+| What do full toric limits and embedded corrections say about the quadratic conductor? | [KG01](knowledge-gain-priorities.md#kg01-projective-limits-on-deep-generic-normal-contact) |
+| Which actual Chow arrangements and collisions occur as the carrier and thickening vary? | [KG02](knowledge-gain-priorities.md#kg02-actual-chow-arrangements-collisions-and-full-torus-limits) |
 | Can marked absorption lift to proper ambient equations and terminate at zero residual? | [KG03](knowledge-gain-priorities.md#kg03-globalizing-a-marked-absorption-step) |
 | What controls exceptional carriers outside the proved fixed-residual lifting opens? | [KG04](knowledge-gain-priorities.md#kg04-residual-capacity-outside-the-ordinary-open) |
 | Can the full elliptic inverse scheme have marked support and admit actual power descent? | [KG05](knowledge-gain-priorities.md#kg05-full-inverse-support-and-descent-for-the-elliptic-family) |

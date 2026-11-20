@@ -7,7 +7,7 @@
 | [Literature](literature/README.md) | External statements, source references, checked hypotheses and applicability, and outstanding source checks |
 | [Frameworks](MAP.md) | Current mathematical accounts of approaches: ideas, applicable results and literature, coverage, connections, and missing implications |
 | [Investigations](MAP.md#questions-and-active-work) | Bounded activities: the current question, actual inputs, method, supported findings, and remaining work or completion |
-| [Strategic queue](investigations/proof-audit/knowledge-gain-priorities.md) | Which unresolved question to pursue next, why it matters, and what either outcome would change; link the mathematical account |
+| [Strategic queue](investigations/proof-audit/knowledge-gain-priorities.md) | Which question or phenomenon to investigate next, the expected understanding and reassessment point; link the mathematical account |
 
 [Computations](computations/README.md) and figures support this mathematics.
 Keep small evidence with its proof when practical; share reusable code by
@@ -58,9 +58,10 @@ limitation requires additional infrastructure.
 
 ## Contribution workflow
 
-1. **Open bounded work.** Specify the curve, characteristic, question,
-   hypotheses, actual mathematical sources, stopping condition, and what
-   either outcome changes. Use a dedicated branch and
+1. **Open bounded work.** Specify the curve, characteristic, question or
+   phenomenon, known inputs and material unknowns, expected understanding,
+   initial probe and reassessment point. A theorem or solution bridge need
+   not be known in advance. Use a dedicated branch and
    `investigations/<activity>/` workspace when persistent exploratory work
    is needed; temporary calculations, notes and provisional claims stay
    there. A small question need not create an Investigation.
@@ -105,21 +106,21 @@ mathematics warrants, independently of the agent hierarchy.
 
 ## Choosing bounded work
 
-The central characteristic-zero objective for the fixed rational quartic is to construct or obstruct **actual proper homogeneous equation pairs** with sole support, equivalently maximal generic multiplicity. This equivalence follows from intersection-cycle degree exhaustion; it is a problem formulation, not a mechanism for bounding multiplicity. Before opening work, check the strongest applicable literature and existing repository proofs, then state explicitly:
+The central characteristic-zero objective for the fixed rational quartic is to construct or obstruct **actual proper homogeneous equation pairs** with sole support, equivalently maximal generic multiplicity. This equivalence follows from intersection-cycle degree exhaustion; it is a problem formulation, not a mechanism for bounding multiplicity. Understanding the relevant geometry can advance this objective before a construction or obstruction is visible. Check the strongest applicable literature and repository proofs, then state:
 
-- **Coverage:** which actual equation pairs, degrees, characteristics, singularity classes, or moving ideals are controlled, and what remains outside the scope;
-- **Decision:** the exact theorem, construction, exclusion, or missing implication that either outcome could establish;
-- **Consequence:** the logical bridge from that decision to unrestricted STCI, if any; and
+- **Question and scope:** the phenomenon or uncertainty, relevant objects and hypotheses, and the scope of any proposed coverage;
+- **Expected understanding:** what examples, counterexamples, a landscape, a comparison or a new formulation could teach;
+- **Relation to STCI:** why that understanding matters, distinguishing established implications from possible connections; and
 - **Novel gap:** why established theory and the repository's existing Results do not already answer the question.
 
-A bounded calculation can be useful without an unrestricted consequence, but label it bounded and do not infer general coverage. Prefer tests that create a new structural constraint or a concrete realization/coverage bridge over accumulating cases within an unchanged obstruction. The full-ideal torus, residual, and formal-normal methods are investigative tools, not presumed solutions; local cohomology and fixed-carrier criteria remain available when they offer a consequential new bridge. Do not launch a new classification solely because a neighboring family is unresolved.
+A known route to a theorem or unrestricted consequence is not an admission condition. A supported account of a moduli space, its strata or what a comparison forgets can change the research direction. Prefer new understanding over accumulating cases within an unchanged obstruction. The full-ideal torus, residual, formal-normal, local-cohomology and fixed-carrier methods are tools, not presumed solutions. An unresolved neighboring family alone does not justify a classification.
 
-State the curve, characteristic, actual source or candidate family, question,
-and what either outcome changes. Constructing an example, closing a covered
-sector, finding a counterexample, or identifying a missing comparison can
-each be worthwhile. Declare the degree, power and regularity bounds needed
-for any coverage claim. For a proposed computation isolate the real
-mathematical input, its special strata, and a stopping outcome.
+Bound the initial commitment rather than predetermining the outcome. At the
+reassessment point, state what was learned, what remains unknown, and whether
+a consequential next question warrants continuation, redirection or stopping.
+The question may evolve; an unresolved main question need not keep the present
+contribution open. Declare degree, power and regularity bounds for coverage
+claims. For computation isolate the mathematical input and its special strata.
 
 Ask whether two tests just express the same numerical budget. A useful next
 test adds actual source, multiplication, embedding, support, or coverage
@@ -201,13 +202,15 @@ materially changes, including negative controls and the precise limits
 of a bridge. Keep the current ranked list as the only queue; postpone
 reranking until the sweep has compared mechanisms across the repository.
 
-At that decision point, favor the direction with the greatest expected
-knowledge gain, transfer to other approaches, or a credible way to
-cross a concrete realization or coverage barrier. Near-term prospects
-of solving STCI should not drive the ranking unless there is a
-specific reason a solution is genuinely close. Then pursue the
-strongest direction, using frequent focused commits as checks resolve,
-rather than leaving the sweep as a reading exercise.
+At that decision point, compare the actual next tasks by expected understanding,
+transfer to other approaches, or a credible way across a realization or coverage
+barrier. A narrow test does not inherit its framework's priority or coverage.
+Explain the choice against the strongest relevant alternative, including a
+neglected exploratory question when one is apparent. Momentum and the existing
+rank are not comparative evidence; preserve uncertainty if the order is not
+supported. Nearness to an STCI solution matters only with a specific reason it
+is close. Pursue the chosen question with focused, reviewed commits, and
+reassess when findings change its promise or scope.
 
 ### Claim propagation at integration
 
@@ -238,6 +241,10 @@ and the next research decision and its rationale in the existing queue.
 
 The existing final reviewer must check this integrated account as well as the
 new proof, including the [synthesis coverage and stopping judgment](#extract-implications-and-track-approach-gaps).
+Proof acceptance, synthesis completion and endorsement of next work are distinct
+judgments. To endorse a proposed or retained priority, review its comparison of
+actual tasks and current coverage. If that comparison was outside review scope,
+report the priority as unassessed rather than validated by the proof review.
 Starting from an affected ordinary entry point, verify that a reader
 can recover what is established, its scope, what remains unresolved and the
 reason for the proposed next work without reconstructing the discovery history.

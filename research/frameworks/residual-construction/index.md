@@ -89,6 +89,14 @@ quotient, its common embedded structure, and the actual pair of equations.
 A local length increase or a smoothing of the residual abstract curve
 need not give this transfer.
 
+The [fixed-toric-quartic collision](../../arguments/torus/fixed_carrier_chow_arrangements.md#an-actual-partial-collision-in-characteristic-zero)
+is another actual flat proper-pair control: marked multiplicity rises from one
+to two while residual degree falls from twelve to eight. The three-support
+constraint makes eight the sharp floor in this fixed-generator \((4,4)\)
+translated-cycle locus. It realizes partial absorption but cannot be iterated
+to sole support within that locus. Its total family is not supported on \(C_0\)
+alone, so the supported quadratic-graph comparison needs a separate bridge.
+
 The [two-blowup calculation](../../arguments/residuals/blowup_residual_geometry.md)
 tracks the full normal ideal and distinguishes horizontal and vertical
 exceptional contributions. For a *fixed* degree and actual proper pair,

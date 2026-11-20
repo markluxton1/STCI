@@ -121,6 +121,18 @@ do not close the separate split-first-normal-cone frontier or improve the
 general degree bound. See the [current carrier scope](frameworks/carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)
 and [local/global interface](frameworks/global-equation-realization/projection_and_liaison.md#embedded-conductor-and-ambient-equations).
 
+Actual [Chow arrangements on a fixed toric carrier](arguments/torus/fixed_carrier_chow_arrangements.md)
+now have an exact coefficient description: the quartic carrier's semigroup
+gaps force \(c_1=c_2=c_5=0\). In characteristic zero at least three distinct
+translates remain, while partial collisions occur; the root-of-unity examples
+form a special locus. The smooth quadric admits no such section, by its ruling
+classes. Moving-carrier and non-invariant collision geometry remains open and
+is the [current exploratory priority](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment).
+Separately, [simultaneous torus degeneration of the quadratic graph](arguments/linkage/toric_limit_conductor_comparison.md)
+compares original and pure-limit conductor lengths using the difference of
+the two embedded endpoint corrections. Their control by global equations is
+the missing comparison; endpoint concentration alone supplies no inequality.
+
 Two bounded objects in [Investigations](investigations/) currently connect the
 torus approaches, at different stages of readiness: [moving quotient and full Hilbert comparison](investigations/quotient-hilbert-comparison/index.md)
 is active, and [generator incidence](investigations/supported-generator-incidence/index.md)

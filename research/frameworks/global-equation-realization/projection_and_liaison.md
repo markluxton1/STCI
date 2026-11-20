@@ -59,6 +59,17 @@ same cover; favorable divisibilities do not follow merely from unchanged
 reduced lifts. This limits the current scalar comparison, not stronger
 postulation information or the existence of supported pairs.
 
+The [simultaneous toric-limit comparison](../../arguments/linkage/toric_limit_conductor_comparison.md)
+opens a different endpoint question. For the full curve and selected quadratic
+graph, \(\delta_i^{\mathrm{pure}}=\delta_i+\alpha_i-\beta_i\), with
+\(\alpha_i,\beta_i\) their embedded special-fiber lengths. This recovers the
+compatible finite-free specialization inequality when \(\alpha_i=0\), but
+general full limits allow either correction sign. Toric concentration can
+retain interior information at the ends; extracting an original-conductor
+bound requires control of the graph correction and the actual global equations.
+The pure special fiber need not be a CI. The scalar transverse limitation above
+does not settle this corrected comparison.
+
 For the original fixed cover, the
 [carrier framework](../carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)
 records the all-mate two-lift sextic exclusion and the remaining one-lift
