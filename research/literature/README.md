@@ -220,6 +220,17 @@ than the lower bound two sufficient for that proof. Theorem 3.1 is local
 near the curve; Theorem 3.2 has a stronger ambient canonical-bundle
 hypothesis and is not being applied to the quadric threefold.
 
+### Cohen–Macaulay purity and symbolic layers
+
+For the [symbolic Cartier-layer argument](../arguments/linkage/signed_cubic_normalization_and_cartier_defect.md#the-cartier-defect-restriction-in-signed-degree-m),
+[Stacks, §10.103, Lemmas 10.103.5 and 10.103.7](https://stacks.math.columbia.edu/tag/00N2)
+supply the standard purity input: quotienting a Cohen–Macaulay local
+ring by a nonzerodivisor preserves Cohen–Macaulayness in one lower
+dimension, and the quotient has no embedded associated primes. With
+the actual mate's sole support, its ideal is therefore primary at the
+marked curve. This replaces normal-surface divisor theory in that
+specific proof; it does not remove normality from unrelated results.
+
 ### Ferrand
 
 Daniel Ferrand, “Conducteur, descente et pincement,” *Bulletin de la Société

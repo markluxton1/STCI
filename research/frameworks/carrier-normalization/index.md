@@ -112,9 +112,12 @@ In characteristic zero, use the fixed smooth cover
 \(X:z^2=r=2x_1x_2-x_0x_3\). Splitting of an integral carrier in this
 cover forces an even degree and a norm expression \(F=P^2-rQ^2\).
 The [split-carrier conductor calculation](../../arguments/linkage/split_carrier_norm_and_conductor.md#split-carrier-the-conductor-is-an-actual-complete-intersection)
-identifies the conductor scheme with \((P,Q,G)\); the conjugate-branch
-intersection is instead \((P,zQ,G)\). The latter includes the extra
-endpoint attachment and is not the conductor scheme.
+identifies the conductor scheme with \((P,Q,G)\) **in the one-lift case
+\(Q|_{C_0}\ne0\)**; the conjugate-branch intersection is then
+\((P,zQ,G)\). The latter includes the extra endpoint attachment and is
+not the conductor scheme. In the two-lift case these equations do not
+present the finite separated-branch conductor; the general attachment
+formula on the branch is \(I_{W\cap W',W}=z\mathfrak c\).
 
 For an integral sextic with \(\deg P=3\), \(\deg Q=2\) and
 \(P|_{C_0}=Q|_{C_0}=0\), the signed cubic contains both reduced lifts.
@@ -130,18 +133,28 @@ The [unique generically singular signed cubic](../../arguments/linkage/signed_cu
 has normalization \(\mathbb F_2\), hyperplane class \(E+4f\), and two
 full inverse sections of class \(E+2f\); their classes exclude every
 mate as well. The surviving one-lift surface is therefore generically
-regular along \(D\) and non-Du-Val somewhere on it. When normal near
-\(D\), the same proof gives the necessary common-derivative-zero length
-\(g\ge5\), and \(g\in\{5,6\}\) if the degree-six derivative is nonzero.
-This intrinsic Cartier-defect restriction does not exclude all surviving
-non-Du-Val cases.
+regular along \(D\) and non-Du-Val somewhere on it. The symbolic-layer
+proof requires an actual proper sole-support mate and Cohen–Macaulayness,
+which the signed hypersurface supplies; it needs no normality along \(D\).
+Every such survivor has common-derivative-zero length
+\(g\in\{5,6,8\}\), with total intrinsic defect respectively
+\(1/3,4/3,10/3\). A nonzero degree-six derivative gives \(g=5\) or
+\(6\); if it vanishes identically, generic regularity forces \(g=8\).
+Some local least-principal-symbolic-power index is divisible by three.
+These are necessary strata, not exclusions of those strata.
 
 These closures concern a fixed auxiliary cover. The
 [cover-choice theorem](../../arguments/linkage/quadratic_cover_choice.md)
 makes every integral carrier of degree greater than two nonsplit in a
-general cover of the specified pencil. Its global conductor postulation
-then applies, but its endpoint capacities still require the actual local
-equations in that chosen cover. The
+general cover of the specified pencil. This theorem and the unique
+singular-cubic normalization exclusion hold in every characteristic
+different from two; the Du Val/K3 exclusions above remain characteristic
+zero. In the characteristic-zero conductor application, both the moment
+and all-minors bounds apply in the chosen cover. At a smooth-transverse
+endpoint the capacity is already fixed at \(n(n-1)\) for all allowed
+covers, where \(n=ab/4\); even one such endpoint defeats the displayed
+scalar postulation comparison. Thus that comparison must focus on sources
+where both endpoints are aligned smooth or singular. The
 [local/global interface](../global-equation-realization/projection_and_liaison.md#embedded-conductor-and-ambient-equations)
 records this remaining gap. No general sextic exclusion or stronger
 minimum defining degree follows.

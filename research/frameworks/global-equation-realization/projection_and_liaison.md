@@ -37,22 +37,37 @@ sources and chains open.
 
 The [auxiliary-cover choice](../../arguments/linkage/quadratic_cover_choice.md)
 removes splitting as a restriction on applying the stronger nonsplit onset
-to an integral carrier: in characteristic zero, each carrier of degree
+to an integral carrier: in characteristic different from two, each carrier of degree
 greater than two is nonsplit for a general cover in \(r+\lambda q\).
-The two reduced lifts and branch endpoints persist, and the same
-conormal-moment estimate applies. The conductor and its finer endpoint
-capacities belong to the chosen cover, however; the known favorable
-divisibilities do not persist merely because the reduced lifts do.
-The remaining question is whether the full actual source forces an allowed
-choice with a strict capacity/postulation gap. An abstract local algebra,
-first normal symbol or separately chosen endpoint model does not answer it.
+In the characteristic-zero application here, the two reduced lifts and
+branch endpoints persist, and both the conormal-moment and uniform
+all-minors bounds apply to the same chosen-cover conductor. The latter
+gives \(\delta_\lambda\le2\max_k(4S_k-2k)\le2n(n-1)\), where
+\(n=ab/4\) and \(S_k\) is the sum of the \(k\) largest annihilator
+levels minus the sum of the \(k\) smallest. Those levels depend on the
+actual generic algebra, not on the cover.
+
+The [transverse-endpoint control](../../arguments/linkage/endpoint_lattice_capacity.md#transverse-endpoints-throughout-the-cover-pencil)
+settles one part of the proposed capacity test. If a pair member is smooth
+at an endpoint and its normal covector is independent of the cover's
+endpoint covector, that endpoint has capacity \(n(n-1)\) for every
+allowed cover. Even one such endpoint exceeds the displayed nonsplit
+scalar lower bound, so this comparison cannot exclude that stratum.
+It must instead examine sources where both endpoints are aligned smooth
+or singular. Their actual equations must control both capacities in the
+same cover; favorable divisibilities do not follow merely from unchanged
+reduced lifts. This limits the current scalar comparison, not stronger
+postulation information or the existence of supported pairs.
 
 For the original fixed cover, the
 [carrier framework](../carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)
 records the all-mate two-lift sextic exclusion and the remaining one-lift
-non-Du-Val sector. The conductor scheme is \((P,Q,G)\), while conjugate
-attachment is \((P,zQ,G)\); the extra endpoint length in attachment must
-not be used as conductor capacity. These fixed-cover closures and the
+non-Du-Val sector. **In the one-lift case \(Q|_C\ne0\)**, the conductor
+scheme is \((P,Q,G)\), while conjugate attachment is \((P,zQ,G)\).
+The two-lift branch instead requires its full primary extraction; the
+general attachment formula is \(I_{W\cap W',W}=z\mathfrak c\).
+The extra endpoint length in attachment must not be used as conductor
+capacity. These fixed-cover closures and the
 general cover-choice statement are distinct inputs to the comparison.
 
 For an actual equivariant quadratic extension, the

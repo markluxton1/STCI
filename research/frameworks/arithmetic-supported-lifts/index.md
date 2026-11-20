@@ -102,3 +102,12 @@ hypotheses needed for degree transfer.
 ### A comparison for compatible quadratic-conductor lattices
 
 The [actual endpoint matrix](../../arguments/linkage/endpoint_lattice_capacity.md#arithmetic-control-and-comparison-of-traits) gives a fixed characteristic-three calibration and lower semicontinuity in the direction \(\delta_{\mathrm{special}}\le\delta_{\mathrm{generic}}\). This uses compatible finite free endpoint lattices on a supported trait. It does not identify the conductor with a Frobenius-root endpoint defect or give the opposite inequality needed for an obstruction by specialization.
+
+The [auxiliary-cover choice](../../arguments/linkage/quadratic_cover_choice.md)
+is available in every characteristic different from two: extracting the
+finite Frobenius height of \(r/q\) retains an odd moving-divisor valuation.
+The [unique singular signed cubic and its normalization exclusion](../../arguments/linkage/signed_cubic_normalization_and_cartier_defect.md)
+also extend to odd characteristic. These specific deductions do not
+extend the characteristic-zero Du Val/K3 exclusions or exact cyclic
+determinant capacity. They remain compatible with the known supported
+constructions in every positive characteristic.

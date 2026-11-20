@@ -18,8 +18,13 @@ additional all-mate exclusions on declared actual carrier families in
 every degree at least five.
 The [cover-choice theorem](quadratic_cover_choice.md) makes the nonsplit
 postulation onset available for every integral carrier of degree greater
-than two after a carrier-dependent choice. Its local capacity must still
-be computed in that same cover.
+than two after a carrier-dependent choice. The cover-choice theorem and
+the unique singular-cubic exclusion hold in every characteristic different
+from two; the Du Val/K3 exclusions above remain characteristic zero.
+For the characteristic-zero scalar capacity comparison, even one
+smooth-transverse endpoint has too much capacity for a contradiction.
+The unresolved target therefore requires aligned smooth or singular
+behavior at both endpoints.
 
 The common mechanism is the full conductor of the separated branch:
 [§§6–8](#6-the-entire-hypothetical-intersection-and-its-separated-branches)
@@ -734,8 +739,10 @@ cone, with no proved equivalence.
   gives the Smith-minor bounds, arithmetic comparison, and all-mate
   exclusions on declared integral sources in degrees at least five.
 - [Fixed-cover norm factorization and conductor](split_carrier_norm_and_conductor.md)
-  identifies the conductor \((P,Q,G)\), distinguishes the conjugate overlap
-  \((P,zQ,G)\), and treats two-lift primary-piece postulation.
+  identifies the conductor \((P,Q,G)\) and conjugate overlap \((P,zQ,G)\)
+  in the one-lift case \(Q|_C\ne0\). It separately treats two-lift
+  primary-piece postulation; those equations do not present the finite
+  conductor of a two-lift separated branch.
 - [Two-lift sextic exclusion](two_lift_sextic_exclusion.md#supported-exclusion-and-proof-map)
   excludes every mate in characteristic zero, without a normality assumption;
   its [residual-ruling lemmas](two_lift_sextic_residual_rulings.md)
@@ -744,17 +751,22 @@ cone, with no proved equivalence.
   excludes every mate when the signed cubic has only smooth or Du Val
   points along the lift, regardless of singularities elsewhere.
 - [Signed cubic normalization and intrinsic Cartier defect](signed_cubic_normalization_and_cartier_defect.md)
-  excludes the generically singular cubic and restricts the surviving
-  normal-near-the-lift sector without an ADE hypothesis.
+  excludes the generically singular cubic in characteristic different
+  from two. The symbolic-layer argument restricts every generically
+  regular one-lift survivor to \(g=5,6,8\), without normality or an ADE
+  hypothesis, using its actual mate and Cohen–Macaulay structure.
 - [Choice of a nonsplit auxiliary cover](quadratic_cover_choice.md)
-  applies the nonsplit onset to each integral carrier, while retaining
-  the chosen cover's actual endpoint lattices.
+  works in every characteristic different from two. Its characteristic-zero
+  application retains the chosen cover's actual endpoint lattices,
+  both uniform capacity bounds, and the exact transverse-endpoint limitation.
 
 The fixed-cover sextic conclusions leave generically regular one-lift
 cases with non-Du-Val behavior along the lift, and nonsplit carriers,
 outside these exclusions. Choosing another cover does not preserve the
 favorable fixed-cover capacities. The question of capacity on arbitrary
-actual carrier sources remains open.
+actual carrier sources remains open. The displayed scalar comparison has
+no exclusion power if even one endpoint is smooth-transverse; its next
+target has aligned smooth or singular behavior at both endpoints.
 
 ## 9. Why the extracted branch need not be Gorenstein
 
@@ -1062,8 +1074,13 @@ repair their image in the fixed projective space.
 The [cover-choice theorem](quadratic_cover_choice.md) extends the
 nonsplit postulation comparison to every integral smaller carrier after
 choosing its auxiliary cover. The conormal-moment bound survives that
-choice, but sharper endpoint divisibilities and Smith capacities need not.
-Controlling both capacities in one allowed cover is therefore the current
+choice, as does the uniform all-minors bound. The
+[transverse-endpoint control](endpoint_lattice_capacity.md) fixes one
+endpoint capacity at \(n(n-1)\), already larger than the displayed
+nonsplit scalar lower bound. That comparison must therefore focus on
+sources where both endpoints escape this control. On aligned smooth or
+singular endpoints, sharper divisibilities and Smith capacities still
+require actual equations in the same cover. This is the current
 local/global gap, not the availability of a nonsplit cover itself.
 
 There is also a concrete constructive target: §10 proves that an actual

@@ -16,12 +16,19 @@ exclude the entire endpoint-smooth part of the simultaneous \(U=4\)
 jet source. These are all-mate exclusions on actual sources, not a bound
 contradicting arbitrary supported pairs.
 
-For every integral characteristic-zero carrier of degree greater than two,
+For every integral carrier of degree greater than two in characteristic
+different from two,
 [a general auxiliary cover](quadratic_cover_choice.md) supplies the
-nonsplit onset and the same conormal-moment bound. The finer endpoint
+nonsplitting condition. In the characteristic-zero conductor application,
+both the moment and uniform all-minors bounds apply to that chosen cover.
+The [transverse endpoint lemma](#transverse-endpoints-throughout-the-cover-pencil)
+already determines the capacity at any endpoint with a transverse smooth
+member, and even one such endpoint prevents a contradiction from the
+displayed scalar postulation lower bound. The finer endpoint
 estimates below concern the actual cover in their hypotheses. They cannot
 be transferred to the general choice merely from its unchanged reduced
-lifts; comparing both actual capacities as the cover varies remains open.
+lifts. The remaining scalar target has both endpoints outside the
+transverse control: aligned smooth endpoints or singular endpoints.
 
 **Proof map.** The [conormal-moment bound](#an-upper-bound-from-the-conormal-moment)
 identifies the conductor object. [Nonsplit onset](#nonsplit-lower-onset-in-the-same-conductor-quotient)
@@ -38,6 +45,10 @@ and fixed local-cohomology targets are separate scoped comparisons.
 reviewed head `4d1b03cdf4671a7b1e987cb641a3509de23e9a5c`. The present
 organization separates those existing arguments; it does not extend their
 source hypotheses or claim a fresh rerun of historical computations.
+The transverse-pencil lemma below integrates the further deduction in
+the follow-up review at head
+\(65994e1f04002861735fc4206290039e0a40b4a2\), retaining
+characteristic zero for its exact cyclic-capacity conclusion.
 
 ## An upper bound from the conormal moment
 
@@ -96,6 +107,99 @@ cuts a unit times \(\epsilon^n\). Thus this actual completed
 intersection is the cyclic control with \(u=0\), not a deduction
 from an abstract generic normal type. Dependent normal linear
 forms do not identify the actual completed lattice.
+
+## Transverse endpoints throughout the cover pencil
+
+Work in characteristic zero with an actual supported complete intersection
+\(Y=V(F_a,G_b)\), and put \(n=ab/4\). At the first endpoint use
+\[
+t=x_1/x_0,\qquad v=x_2/x_0-t^3,\qquad h=x_3/x_0-t^4.
+\]
+For the [auxiliary pencil](quadratic_cover_choice.md#the-cover-choice-theorem)
+direct substitution gives the exact equality
+\[
+\epsilon_\lambda=r_\lambda/x_0^2-t^4
+=(2-\lambda)tv+(\lambda-1)h.                         \tag{4}
+\]
+At infinity put
+\[
+t=x_2/x_3,\qquad v=x_1/x_3-t^3,\qquad h=x_0/x_3-t^4;
+\]
+the same substitution gives
+\(\epsilon_\lambda=r_\lambda/x_3^2-t^4
+=(2-\lambda)tv+(\lambda-1)h\).
+Consequently, at either endpoint its normal covector is
+\((\lambda-1)dh\), the same direction for every allowed
+\(\lambda\ne1,2\).
+
+**Lemma.** If some member of the pair has nonzero \(dv\) coefficient
+in its normal linear form at an endpoint, then
+\[
+\delta_{\lambda,i}=n(n-1)
+\]
+at that endpoint for every \(\lambda\ne1,2\), independently of
+whether the carrier splits in that cover.
+
+**Proof.** Such a member, call it \(F\), is smooth there and its
+normal covector is independent of \(d\epsilon_\lambda\).
+Hence \(t,F,\epsilon_\lambda\) are formal coordinates. On the
+smooth formal surface \(F=0\), the curve \(C\) has equation
+\(\epsilon_\lambda=0\). The actual mate has sole support \(C\),
+so unique factorization makes its local equation a unit times
+\(\epsilon_\lambda^n\); the exponent is the generic multiplicity
+\(n\) of the actual pair. Thus the completed pair algebra is
+\[
+k[[t,\epsilon_\lambda]]/(\epsilon_\lambda^n).
+\]
+The characteristic-zero cyclic-control calculation above, with
+\(u=0\), gives exactly \(n(n-1)\). No positive-characteristic
+determinant equality is used or asserted.
+
+If both endpoints have such a member, then
+\(\delta_\lambda=2n(n-1)\) for every allowed cover. Even one such
+endpoint puts the total conductor strictly above the presently
+used scalar lower bound, as follows.
+
+**Scalar-comparison limitation.** Suppose \(5\le a\le b\),
+\(4\mid ab\), and the integral smaller carrier is nonsplit in
+the chosen cover. Write \(L\) for the lower bound in
+[the chosen-cover comparison](quadratic_cover_choice.md#consequence-for-the-same-conductor-comparison),
+and set \(q_b=\lceil b/2\rceil-1\). The binomial difference satisfies
+\[
+H_*=\sum_{j=0}^{a-1}{q_b+1-j\choose2}
+\le a{q_b+1\choose2},
+\]
+where the summands are zero when the upper entry is less than two.
+Since \(b-2q_b\in\{1,2\}\) and \(q_b(q_b+1)\le b^2/4\),
+\[
+L=2H_*+a+b-3-2q_b
+\le a q_b(q_b+1)+a-1
+\le ab^2/4+a.
+\]
+Moreover
+\[
+n(n-1)-(ab^2/4+a)
+=a\left(\frac{(a-4)b^2}{16}-\frac b4-1\right)>0.       \tag{5}
+\]
+For \(a\ge6\), the parenthesis is at least
+\(b^2/8-b/4-1>0\) for \(b\ge6\). For \(a=5\), divisibility
+forces \(4\mid b\), hence \(b\ge8\), and
+\(b^2/16-b/4-1>0\).
+
+Therefore one transverse endpoint already gives
+\(\delta_\lambda\ge n(n-1)>L\). An upper bound for that same
+actual conductor cannot contradict this scalar lower bound.
+This limits the displayed scalar method; it neither constructs a
+supported pair nor excludes stronger postulation information.
+The next scalar capacity comparison must use sources with **both**
+endpoints outside this transverse control, namely aligned smooth
+endpoints or singular endpoints.
+
+**Independent review.** The integrated lemma and scalar comparison were
+independently reconstructed on 2026-11-20, including both endpoint
+formulas, the actual cyclic-coordinate identification, the binomial
+estimate, and the strict inequality with its divisibility boundary.
+The exact capacity conclusion retains characteristic zero.
 
 ## A first conditional comparison with actual postulation
 

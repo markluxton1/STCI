@@ -58,10 +58,11 @@ cluster is not in itself evidence against the workflow.
   carriers.
 - **Coverage after choosing the cover.** Every integral carrier of degree
   greater than two is nonsplit for a general member of the auxiliary
-  quadratic-cover pencil in characteristic zero. Thus the
+  quadratic-cover pencil in characteristic different from two. Thus the
   [nonsplit postulation onset](../../arguments/linkage/quadratic_cover_choice.md)
-  is available after a carrier-dependent choice. The conormal-moment
-  upper bound also applies in that chosen cover. The actual endpoint
+  is available after a carrier-dependent choice. In this characteristic-zero
+  comparison, both the conormal-moment and uniform all-minors upper bounds
+  apply to that same conductor. The actual endpoint
   divisibilities, Smith capacities and conductor lengths can change with
   the cover; favorable estimates in one member do not transfer to another.
 - **Fixed-cover closures.** For the fixed cover, all two-lift integral
@@ -71,14 +72,24 @@ cluster is not in itself evidence against the workflow.
   [unique generically singular signed cubic](../../arguments/linkage/signed_cubic_normalization_and_cartier_defect.md)
   is also excluded by its full normalization inverse. A surviving
   one-lift signed cubic must be generically regular along the lift and
-  have non-Du-Val behavior somewhere on it. If normal near the lift,
-  it satisfies the intrinsic Cartier-defect restriction in the same
-  proof. These are quadratic-cover conditions, not a classification of
+  have non-Du-Val behavior somewhere on it. Without requiring normality,
+  the actual mate and Cohen–Macaulay structure force the symbolic defect
+  strata \(g\in\{5,6,8\}\), with some least principal symbolic index
+  divisible by three. These are necessary strata for these signed cubics,
+  not exclusions of the strata or a classification of
   all sextics or of split first normal cones. See the
   [carrier framework](../../frameworks/carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector).
-- **Next test.** For a declared full carrier source, initially on an
-  endpoint-regular locus, determine how both actual endpoint Newton/Smith
-  capacities vary with \(r_\lambda=r+\lambda q\). Can an allowed nonsplit
+- **Settled transverse stratum.** The [actual cyclic control](../../arguments/linkage/endpoint_lattice_capacity.md#transverse-endpoints-throughout-the-cover-pencil)
+  gives endpoint capacity \(n(n-1)\), \(n=ab/4\), for every allowed cover
+  if some pair member is smooth and transverse to the cover's endpoint
+  covector. Even one such endpoint exceeds the displayed scalar
+  postulation lower bound. Varying the cover cannot give a contradiction
+  from that comparison on this stratum.
+- **Next test.** Use a declared full equation source where **both**
+  endpoints escape that transverse control: aligned smooth or singular
+  endpoints, with no transverse pair member at either end. Determine how
+  both actual endpoint Newton/Smith capacities vary with
+  \(r_\lambda=r+\lambda q\). Can an allowed nonsplit
   choice force a strict capacity/postulation gap, or can an actual carrier
   defeat this comparison for every allowed choice? Retain the complete
   equation source and both endpoints; first-symbol data alone do not
@@ -88,7 +99,9 @@ cluster is not in itself evidence against the workflow.
   choice identifies missing local information. Neither outcome alone
   gives arbitrary-degree coverage. The two-lift sextic primary-piece
   calculation is an explanatory control in a closed sector, not a search
-  for a surviving mate.
+  for a surviving mate. The transverse limitation concerns the displayed
+  scalar bound; it does not decide stronger postulation information or
+  construct a supported pair.
 
 The related deep-contact mechanisms retain their distinct scopes:
 [connected normal directions](../../results/connected_normal_directions.md#statement)

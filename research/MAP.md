@@ -105,10 +105,18 @@ The quadratic conductor now compares global postulation with both actual
 endpoint capacities on the same object, excluding specified carrier families
 in all mate degrees. [Choosing the auxiliary cover](arguments/linkage/quadratic_cover_choice.md)
 makes the nonsplit onset available for every integral carrier of degree
-greater than two in characteristic zero; controlling its local capacities
-as that choice varies remains open. The fixed-cover two-lift sextic sector
-is excluded without normality. Its surviving one-lift sector is generically
-regular along the lift and has non-Du-Val behavior there. These statements
+greater than two in characteristic different from two. In characteristic
+zero the uniform all-minors bound applies, but even one
+[smooth-transverse endpoint](arguments/linkage/endpoint_lattice_capacity.md#transverse-endpoints-throughout-the-cover-pencil)
+already has capacity exceeding the displayed scalar postulation bound for
+every cover. That comparison's remaining target has aligned smooth or
+singular behavior at both endpoints. The characteristic-zero fixed-cover
+two-lift sextic sector is excluded without normality. Its surviving
+one-lift sector is generically regular along the lift, has non-Du-Val
+behavior there, and satisfies the symbolic defect strata \(g=5,6,8\)
+without a normality assumption. The unique singular-cubic exclusion
+also holds in odd characteristic; the Du Val/K3 exclusions do not extend
+by this argument. These statements
 do not close the separate split-first-normal-cone frontier or improve the
 general degree bound. See the [current carrier scope](frameworks/carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)
 and [local/global interface](frameworks/global-equation-realization/projection_and_liaison.md#embedded-conductor-and-ambient-equations).
