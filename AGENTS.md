@@ -14,6 +14,8 @@ Seek geometric, intrinsic, and conceptual understanding, using computation and e
 
 These are principles for mathematical judgment, not a required sequence of activities or reporting checklist.
 
+Before choosing the next task, [extract implications and track approach gaps](research/MODEL.md#extract-implications-and-track-approach-gaps). Name the next thing the approach needs to understand; do not assign the final theorem as the default task.
+
 ## Research context
 
 Start with the [lane routes](research/INDEX.md#find-a-statement-proof-or-open-question) and [framework map](research/MAP.md).

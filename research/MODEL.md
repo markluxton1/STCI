@@ -122,6 +122,61 @@ information. Revisit a closed family when the source, hypotheses, boundary
 calculation or coverage genuinely changes. Read the Framework's open steps
 and compare related approaches before choosing a bounded Investigation.
 
+### Extract implications and track approach gaps
+
+Periodically sweep the current research map for coverage, then work by
+mathematical mechanism rather than by file or date. Start from the strongest
+proved statements and controls, including older results. For each cluster,
+check all of the following before selecting the next investigation:
+
+- **Implications.** What follows already, alone or in combination? State
+  the deduction, its exact hypotheses, and which existing question or
+  interpretation it changes.
+- **Generalizations.** Which hypotheses does the proof actually use? Can
+  another result supply or weaken one? Identify a control that tests the
+  proposed extension. An unexplored case is not a counterexample.
+- **Cross-framework connections.** Give this the same attention as
+  implications and generalizations. Name the objects and an actual map,
+  shared obstruction, or comparison to prove. Check which structure survives
+  and what is lost. Similar numerical bounds or terminology do not establish
+  a bridge.
+- **Remaining gaps.** For each active Framework or Investigation, state
+  what the approach covers now and what it must understand or overcome
+  to go further. Name the missing claim or comparison, the consequence
+  it would unlock, any reason it might fail, and a bounded next test whose
+  positive or negative outcome would change the research decision. Separate
+  a missing proof inside the present scope from a missing bridge extending
+  that scope. If the right object or test is not yet known, say what we need
+  to understand first rather than inventing a task.
+
+Use this gap statement to guide agents. Give the agent the next question
+and the relevant established boundary, not just the final STCI goal.
+A proof, an exact counterexample, or a sharper account of what prevents
+the method from going farther can each be a successful pass. If a pass
+produces little, distinguish an unproductive choice of material from a
+weak test before changing the process.
+
+Keep current gaps with their canonical Framework or Investigation. Place
+proved deductions with their proof owners and link across frameworks rather
+than duplicating them. Update the existing ranked list only when a decision
+changes. Replace superseded gaps; do not create another queue or require a
+per-result checklist or historical ledger.
+
+For a repository-wide sweep, use the framework map to cover each
+mechanism, then commit reviewed batches as they are ready. Each batch
+updates the canonical approach gap and any existing open question it
+materially changes, including negative controls and the precise limits
+of a bridge. Keep the current ranked list as the only queue; postpone
+reranking until the sweep has compared mechanisms across the repository.
+
+At that decision point, favor the direction with the greatest expected
+knowledge gain, transfer to other approaches, or a credible way to
+cross a concrete realization or coverage barrier. Near-term prospects
+of solving STCI should not drive the ranking unless there is a
+specific reason a solution is genuinely close. Then pursue the
+strongest direction, using frequent focused commits as checks resolve,
+rather than leaving the sweep as a reading exercise.
+
 ### Claim propagation at integration
 
 When a finding changes the research state, give its **exact hypotheses and
