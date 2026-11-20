@@ -17,8 +17,10 @@ bounded work to undertake.
 ## Research roles and delegation
 
 The repository owns durable mathematics; agents are temporary workers, not
-nodes in the mathematical file hierarchy. Responsibilities can be combined
-when a single worker is sufficient, and delegation can recur at any depth:
+nodes in the mathematical file hierarchy. Ordinary responsibilities can be
+combined when a single worker is sufficient; the distinct reviewers required
+for a substantive research PR are specified [below](#six-independent-review-perspectives).
+Delegation can recur at any depth when authorized by the parent:
 
 - **Research coordinator:** maintain the overall mathematical picture, select
   priorities, and synthesize implications between Frameworks.
@@ -74,7 +76,8 @@ limitation requires additional infrastructure.
    statements, hypotheses, proof routes, coverage, and consequential
    interpretations. An agent report is not a verified proof. Independent
    review is required for consequential new or modified mathematical claims;
-   review depth follows mathematical significance. Review every new result for
+   substantive research PRs use the [six perspectives](#six-independent-review-perspectives).
+   Review depth follows mathematical significance. Review every new result for
    generality, implications, connections and gaps, and [iterate the synthesis](#extract-implications-and-track-approach-gaps)
    with the full body of results until another pass adds no material understanding.
 4. **Integrate.** Put reviewed statements, proofs, negative findings,
@@ -258,8 +261,9 @@ In the existing PR description, state the resulting mathematical understanding
 and link the affected owners, or state that mathematical scope and priorities
 are unchanged. The review reports synthesis and integration coverage, the
 stopping judgment, file-retrieval limitations and any material unresolved
-condition. Use those existing surfaces; no additional
-reviewer, per-result checklist, approval registry or historical ledger is required.
+condition. Use those existing surfaces and the assigned reviewers; no separate
+reviewer for each synthesis pass, per-result checklist, approval registry or
+historical ledger is required.
 Structural checks validate records and links; they do not establish semantic
 agreement between a theorem, its summaries and the next research task.
 
@@ -275,6 +279,43 @@ A consequential new or changed proof route needs independent mathematical
 review. Record what was read, checked or reproduced and its limitations on
 that route. Results have no overall authority classification. Separate
 independent arguments stay separately addressable.
+
+### Six independent review perspectives
+
+For a substantive research PR, assign a distinct independent reviewer to each
+perspective below. Reviewers challenge the actual mathematics and its meaning;
+prior acceptance prose and the producer's preferred strategy are not premises.
+
+| Perspective | Required contribution |
+| --- | --- |
+| Correctness | Reconstruct consequential statements and proofs, including quantifiers, jointly required hypotheses, computations and scope. |
+| Journal editorial review | Judge contribution, explanation, notation, proof organization and mathematical economy; identify changes that improve understanding rather than cosmetic preferences. |
+| Seasoned algebraic geometer | Examine the intrinsic geometry, conceptual mechanisms, hidden assumptions and stronger geometric interpretations. |
+| Generalizations, implications and connections | Seek weakest justified conditions, widest applicability, alternative interpretations and deductions using the full body of prior work; distinguish proofs from missing bridges. |
+| Relevant literature | Check the strongest applicable primary sources, precise hypotheses, overlap and novelty limits; do not treat an unsuccessful bounded search as proof of originality. |
+| General research picture | Reassess established coverage, remaining gaps and actual next tasks, including neglected alternatives; identify stale conclusions and unsupported priority claims. |
+
+Choose each reviewer's model and reasoning depth for the depth of judgment
+required, using the strongest supported route when warranted. Mathematical
+understanding is the objective. Cost awareness should reduce irrelevant context,
+duplicated work and unnecessary artifacts; it must not justify shallow review,
+an insufficient route or premature stopping. Explicit user routes remain binding.
+
+The lead adjudicates findings against the proofs and sources, obtains independent
+review of consequential new deductions, and feeds the resulting understanding
+through the [full-suite synthesis](#extract-implications-and-track-approach-gaps).
+Reuse reviewers for coherent follow-up and final integration; do not rerun six
+unchanged reviews merely to count another pass. Cover changed conclusions and
+their dependencies, and preserve material unknowns. Agreement is not the stopping
+criterion, and proof acceptance does not endorse the research ranking.
+
+Report the six perspectives' substantive dispositions and limits in the existing
+PR/review surfaces, without six new reports or a review ledger. The final review
+must verify compact proof ownership and [current-state consistency](#claim-propagation-at-integration),
+including relevant unchanged consumers. Reaching the synthesis stopping condition
+still requires all resulting propagation, consolidation, navigation, catalog and
+verification work. Maintenance-only PRs need the affected checks, not an artificial
+six-perspective mathematical review.
 
 ### Corrections and conflicting claims
 
