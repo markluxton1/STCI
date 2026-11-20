@@ -90,8 +90,13 @@ cluster is not in itself evidence against the workflow.
   norm surface downstairs. For a normal signed cubic, ordinary double
   points alone also cannot supply the required correction of at least
   \(5b\): the shared contributions cancel and the unshared ones give
-  at most \(9b/2\). Higher ADE and nonnormal signed surfaces require
-  the actual incidence and correction, not a smooth-locus argument.
+  at most \(9b/2\). The [transverse unmarked residual sector](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#transverse-residual-sextics-higher-a_n-do-not-suffice)
+  excludes all mates for a normal signed sextic surface in that
+  sector, allowing higher \(A_n\) at its marked hits. The transverse
+  slice fixes the end incidence, and a K3 smoothing bounds the sum of
+  the local ranks without requiring Du Val singularities elsewhere.
+  Repeated or tangent residual hits, hits at the endpoints, and
+  nonnormal signed surfaces still need their actual correction.
   Endpoint-concentrated nonzero norm coefficients likewise
   still require actual contact and capacity tests. For larger nonsplit sources, seek capacity bounds
   without fourth-order divisibility. The weighted criterion assumes

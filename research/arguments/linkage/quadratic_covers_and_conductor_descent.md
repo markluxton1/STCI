@@ -1081,6 +1081,108 @@ Val singularities. For them the incidences of the strict
 transforms and the change in their mutual intersection must
 still be tracked together.
 
+#### Transverse residual sextics: higher \(A_n\) do not suffice
+
+Work in characteristic zero with a two-lift split sextic, so
+\(m=3\) and \(Q\) is a nonzero scalar multiple of the fixed
+containing quadric equation \(q\). Suppose the signed cubic is
+normal, and the residual ruling divisor in \(P|_{V(q)}\) meets \(C\) in six
+distinct unmarked points. Then there is no mate in any degree.
+
+The two marked endpoints are smooth on the signed surface in
+this sector. At either endpoint the image of the differential
+of the quadratic cover is the tangent plane of its branch
+quadric; there that plane is also the tangent plane to
+\(V(q)\). This follows from the linear terms of \(r\) and
+\(q\) in the endpoint affine charts. Since \(P|_{V(q)}\)
+cuts \(C\) simply there, \(dP\) is nonzero on that tangent
+plane. Along the lift \(d(P+zQ)=dP\) at the endpoint,
+with \(dP\) understood as pulled back, so the signed
+surface is smooth there.
+
+Off the endpoints the cover is étale along \(C\); the only
+possible marked singularities lie over the six residual hits,
+with at most one singular lift over any hit by the signed
+derivative comparison above. At a singular hit the fixed
+slice \(q=0\) has two transverse branches, one the marked
+quartic and the other the residual ruling. Choose local
+coordinates so this slice equation is \(uv=0\). The formal
+splitting lemma over \(k[[q]]\) puts the signed equation in
+the form \(xy+f(q)\). After normalizing the equation on the slice,
+the subsequent changes preserve \(q\) and are the identity on the slice. The
+transverse Hessian is invertible, so one first solves for
+the critical point in \(u,v\) over \(k[[q]]\), shifts by
+multiples of \(q\), and removes the remaining higher
+transverse terms by formal changes. In particular the marked
+axis remains one of the two axes on \(q=0\). Normality
+excludes \(f=0\), and the point is an \(A_n\) with
+\(\operatorname{ord}_q f=n+1\). On the toric resolution of
+\(xy=q^{n+1}\) the marked axis meets the end of the exceptional
+chain transversely (it is the strict transform of a boundary
+divisor of the defining cone). The end diagonal of the inverse
+chain matrix is \(n/(n+1)\), as follows by solving the linear
+recurrence on the chain with zero boundary values. This is its
+self-correction in the numerical pullback.
+
+Let \(A,B\) be the sums of these end corrections on \(D,D'\),
+respectively. The two lifts meet only at their smooth marked
+endpoints, hence their strict transforms still meet in length
+four. With \(\lambda+\mu=3b/2\), intersecting the pulled-back
+mate separately with the two strict transforms gives
+\[
+(6-A)\lambda=(6-B)\mu=2b,
+\qquad
+\frac1{6-A}+\frac1{6-B}=\frac34.
+\]
+To bound the rank needed at the marked hits, spread the finite
+equation data to a subfield of \(\mathbf C\) and smooth the
+signed cubic in its full linear system on \(X\). Choose a
+general perturbing section nonzero at all marked singular
+points, so its pencil has smooth general member. Inside
+disjoint analytic Milnor balls around those points, the
+nearby fibers are the Milnor fibers of the \(A_n\) germs:
+locally the pencil is a level set of the signed equation
+divided by the nonvanishing perturbing section. The local
+2-cycles have the negative definite \(A_n\) intersection
+matrices. Their pairings are unchanged in the global fiber,
+and cycles in different balls have zero mutual pairing.
+Thus the direct sum of their rational spans injects into
+the homology of the smooth fiber: a kernel vector would
+pair to zero with the entire local sum, which is nondegenerate.
+The smooth \((2,3)\) complete intersection is a K3 surface
+with intersection signature \((3,19)\). Hence the sum of the
+\(n\) at the marked hits is at most 19. This use of a smoothing
+requires no Du Val assumption away from the two lifts;
+the resolution used to intersect the mate needs to be crepant
+only along the two lifts.
+
+The equality is incompatible with that rank bound. Count only
+singular hits and exchange the lifts so their counts are
+\(i\ge j\) with \(i+j\le6\). If \(i\le4\), each correction
+is strictly below one. The left-hand side is strictly less
+than \(3/4\): the largest candidate bounds are at allocations
+\((4,2)\) and \((3,3)\), where they are \(1/2+1/4\) and
+\(2/3\), respectively. If \(i=5\), then \(j\le1\), and
+Cauchy–Schwarz gives
+\[
+6-A=1+\sum_{s=1}^5\frac1{n_s+1}
+\ \ge\ 1+\frac{25}{19+5}=\frac{49}{24}.
+\]
+The left-hand side is at most \(24/49+1/5<3/4\).
+Finally if \(i=6\) then \(B=0\), forcing
+\(\sum_{s=1}^6 1/d_s=12/7\), where \(d_s=n_s+1\ge2\)
+and \(\sum d_s\le25\). Among the denominators divisible by
+seven the only possibilities are one seven, two sevens,
+or one fourteen (or none). After multiplying by seven,
+reduce in \(\mathbf Z_{(7)}\) modulo seven. The corresponding
+left residues are \(1,2,1/2,0\), none equal to
+\(12\equiv5\). Thus no allocation is possible.
+
+This uses the transverse unmarked slice to fix the exceptional
+incidence, not just the Du Val type. Repeated or tangent
+residual intersections, residual hits at the endpoints, and
+nonnormal signed surfaces are not covered by this argument.
+
 ### Arithmetic control and comparison of traits
 
 For the actual char-three pair A=x1³−x0²x2, G=x0x3³−x2⁴, both endpoint algebras are O[Y]/Y³. At 0 choose Y=x3−t⁴; r=t⁴−Y. At infinity choose Y=x1−t³; r=t⁴−tY. In either case z=t²+t^(j−2)Y+t^(2j−6)Y² with j=0 or 1 respectively. The multiplication matrix in basis 1,Y,Y² is triangular with these coefficients in its successive lower diagonals. The potential smallest two-minor is zero by equality of the two diagonal/off-diagonal products. The minimum over all minors is −6 or −4, respectively, from the Y² coefficient; hence (δ0,δ∞)=(6,4). This is a calculation for the actual supported char-three pair, not a char-zero lift or its lower-root defect.
