@@ -180,6 +180,16 @@ already establishes partial-absorption controls. Further Chow or
 VGIT machinery should strengthen these existing tests rather than
 duplicate them.
 
+For a [prescribed reduced Chow-matched cycle](../../arguments/equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle),
+the degree-labeled eigenform evaluation spaces and their common fixed
+factors decide actual CI realization; degree exhaustion excludes boundary
+residuals after properness. In degree (4,4) the distinct-cycle image has
+an explicit line-and-quartic model. On a repeated cycle the ideal need
+not be stable, and the invariant collision calculation does not decide
+the actual non-invariant incidence on the partial diagonals. Testing
+that incidence requires full quartic pencils, not the cycle or two limits
+alone.
+
 ## Clean-cancellation boundary
 
 The [clean-cancellation theorem](../../arguments/torus_hilbert_boundary.md#clean-cancellation-and-residual-descent)
