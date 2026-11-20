@@ -123,6 +123,11 @@ a null result would not by itself invalidate the method.
   along a specified ray. The first quartic shift has at most five new
   source directions; determining their actual products remains open.
 
+The [Chow-fiber realization viewpoint](../../arguments/equations/chow_polytope_rigidity.md#from-the-cycle-fiber-to-actual-complete-intersections)
+separates cycle collisions, Hilbert lifts and actual proper pairs.
+The elliptic norm is a model of stratifying a fixed incidence family,
+not an identification of the two parameter spaces.
+
 ### Nonreconstruction examples
 
 - [Opposite limits and actual contact](../../arguments/torus/chow_matched_equation_layers.md#opposite-limits-do-not-recover-actual-contact):
