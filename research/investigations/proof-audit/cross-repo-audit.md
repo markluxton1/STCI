@@ -112,6 +112,26 @@ without a sweep of cases or parameters. A null result by itself would
 not invalidate the workflow. Neither pass measures repo-wide yield or replaces the strategic ranking in
 [knowledge-gain priorities](knowledge-gain-priorities.md).
 
+### Further checked bridges and their limits
+
+- [Normal symbols and the cubic contraction](../../results/connected_normal_directions.md#what-the-cubic-contraction-misses-in-the-attachment-count):
+  the joint bound accounts for the residual degree visible on \(V_5\).
+  A sextic pair has wholly contracted residual but a symbol count of
+  only one, separating contraction from exhaustive attachments.
+- [Binary determinant and canonical line layers](../../arguments/torus/chow_matched_equation_layers.md#a-binary-determinant-index-and-what-it-does-not-recover):
+  a fixed-degree index compares two intrinsic restriction lattices.
+  Three controls hold the index at both ends, the extreme weights and
+  the cycle fixed, but change the canonical line layers.
+- [Branch orders and marked absorption](../../arguments/residuals/marked_deformation_and_absorption.md#a-fixed-carrier-pencil-has-finitely-many-branch-order-jumps):
+  generic branch valuations bound the number of jump parameters in an
+  actual fixed-carrier pencil. Separately, the twelvefold residual in
+  R-0049 can move on its fixed carrier despite a sharp degree floor.
+- [Local cohomology and the contact flag](../../arguments/local-cohomology/polynomial_duals_and_affine_pencils.md#a-target-preserving-quadric-shift-of-actual-contact-sources):
+  dividing the ancestor by the quadric preserves target values along a
+  stable source ray. In the quartic comparison only the first shift
+  has a five-dimensional potential excess source, with no claim that
+  this excess vanishes or preserves properness.
+
 ## How to use the audit
 
 1. Use the shared obstruction or realization gate as the unit of comparison,
