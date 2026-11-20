@@ -59,7 +59,8 @@ quotient direction is different.
 Suppose a higher thickening has a finite-flat quasiprimitive saturated
 order flag beginning with this ribbon. Write \(E_2=L^2(D_2)\), where
 \(D_2\) is the effective divisor of its **actual multiplication**
-\(L^2\to E_2\). Restriction to its length-three truncation gives a
+\(L^2\to E_2\). Write \(I=I_{C_0}\) and \(J_2\) for the ribbon
+ideal. Restriction to its length-three truncation gives a
 map from the canonical extension \(\mathcal E\) to \(E_2\):
 \(I J_2+I^3\) maps to the third layer and vanishes there. Hence the
 extension class must map to zero in \(H^1(\mathcal O(-4)(D_2))\).
