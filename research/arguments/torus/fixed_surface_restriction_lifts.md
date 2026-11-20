@@ -1,0 +1,237 @@
+# Translate coordinates and fixed-surface equation lifts
+
+**Review:** the coefficient, syzygy, descent and certificate statements and
+their controls received independent proof review on November 20, 2026.
+
+This interface separates what two restricted equations retain from their
+normal extensions. It applies to arbitrary proper pairs, without assuming
+an invariant ideal or a carrier equation among the generators. The algebra
+below is characteristic free; the final descent comparison states where
+characteristic matters. It supplies a research formulation, not a new STCI
+exclusion.
+
+Work over an algebraically closed field \(k\), with
+\(S=k[x_0,x_1,x_2,x_3]\).
+
+## Translate coordinates constrain actual coefficients
+
+For any homogeneous form \(F\in S_d\), without an eigenform assumption,
+write
+\[
+ F(1,t,ut^3,vt^4)=\sum_w t^w F_w(u,v),\qquad
+ F_w(u,v)=\sum_{\substack{|\alpha|=d\\
+       \alpha_1+3\alpha_2+4\alpha_3=w}}
+       c_\alpha u^{\alpha_2}v^{\alpha_3}.
+\]
+Then \(F\) contains \(C_{u_i,v_i}\) exactly when
+\(F_w(u_i,v_i)=0\) for every \(w\): the powers of \(t\) are independent,
+and the torus is dense in the curve. For a prescribed finite support
+\(\Xi=\{(u_i,v_i)\}\), the permitted degree-\(d\) equations are therefore
+the kernel of an explicit linear evaluation map. Moving the points changes
+this map, its kernel and possibly its rank. This extends the coefficient
+description in the [reduced-cycle realization criterion](../equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle)
+to containment by arbitrary forms; it does not extend that theorem's
+eigenform-generator conclusion to repeated cycles.
+
+For example, \(q=x_0x_3-x_1x_2\),
+\(A=x_2^4-x_0x_3^3\), and \(c=x_1^3-x_0^2x_2\) give respectively
+\[
+ q=t^4(v-u),\qquad A=t^{12}(u^4-v^3),\qquad c=t^3(1-u)
+\]
+on this torus. Thus translates on the quadric have \(u=v\), while
+translates on the named quartic have \(u^4=v^3\). These are literal
+constraints from surface equations.
+
+Repeated entries in \(\Xi\) add no new containment conditions. For a
+proper pair, its multiplicity along \(C_{u_i,v_i}\) is instead
+\[
+ \dim_{k(t)}\frac{k(t)[[\xi,\eta]]}
+ {\bigl(F(1,t,(u_i+\xi)t^3,(v_i+\eta)t^4),
+        G(1,t,(u_i+\xi)t^3,(v_i+\eta)t^4)\bigr)}.
+\]
+This is the completed local intersection length at the generic point of
+that curve. It is a joint condition on the two equations, not an order
+of vanishing imposed separately on each. For distinct translated curves,
+if these actual lengths are \(n_i\)
+and \(ab=4\sum_i n_i\), they exhaust the degree of a proper pair;
+purity then excludes every additional component, including boundary
+components. Evaluating coefficients, determining these local algebras,
+and checking properness retains the connection from parameters to actual
+equations without assuming that the ideal is invariant.
+
+## Restricted equations and their lifts
+
+Put \(A=x_2^4-x_0x_3^3\), \(X=V(A)\), and \(B=S/(A)\).
+Knowing the labeled restrictions \(f=F_a\bmod A\), \(g=G_b\bmod A\)
+determines precisely the affine spaces
+\[
+ F=F_0+A U,\qquad G=G_0+A V,
+ \quad U\in S_{a-4},\quad V\in S_{b-4},
+\]
+where \(S_d=0\) for \(d<0\). This follows from the kernel \((A)\)
+of the graded restriction map. Thus the full restricted equations contain
+more information than their common support, but still leave normal
+corrections. Fixed degrees bound this ambiguity; they do not eliminate it
+in arbitrary degrees. Properness and ambient residual support must be
+tested for the same chosen lifts.
+Full labeled restrictions modulo \(A^r\) recover the forms once
+\(4r>\max(a,b)\), since no nonzero form of either degree is divisible
+by \(A^r\); there is no uniform depth assertion in unbounded degree.
+
+On the [normalization of \(X\)](../arithmetic/positive_characteristic_constructions.md#normalization-and-its-fibers),
+write \(h=s^3t\) and \(\phi=z-h\). If both restrictions are nonzero and
+the ambient pair has sole support \(C=C_0\), then
+\[
+ \nu^*f=\phi^r f_0,\qquad \nu^*g=\phi^s g_0,
+ \qquad r,s\ge1,
+\]
+with \(\phi\nmid f_0g_0\). Their common zero set off \(V(\phi)\)
+is empty. In particular the residual factors cannot share a divisor,
+and all their common projective points must lie on \(V(\phi)\).
+These facts follow from unique factorization and finite surjectivity of
+\(\nu\). They do not force either residual factor to be constant.
+
+## A control on this very quartic
+
+Take
+\[
+ q=x_0x_3-x_1x_2,\qquad c=x_1^3-x_0^2x_2.
+\]
+Their normalized restrictions are
+\[
+ \nu^*q=-s t^3\phi,\qquad
+ \nu^*c=\phi(z^2+zh+h^2).
+\]
+Their common projective zero support is exactly \(V(\phi)\) in every
+characteristic. Indeed a common zero off that divisor would have
+\(s t^3=0\), hence \(h=0\), and then \(z^2=0\), contradicting
+\(\phi\ne0\). Nevertheless the ambient proper pair has cycle
+\[
+ [V(q,c)]=[C]+2[L],\qquad L=V(x_0,x_1).
+\]
+In Segre coordinates \([x_0:x_1:x_2:x_3]=[a u:a v:b u:b v]\),
+\(c|_Q=a^2(av^3-bu^3)\), proving the cycle identity.
+The residual line meets \(X\) only at \(p_\infty\in C\).
+Thus even this fixed quartic can hide an actual residual curve from a
+support-only restriction test. This example does not claim that the full
+restricted scheme is reduced, or that the same restricted data admit an
+STCI lift. The [stronger simultaneous-surface control](fixed_surface_and_endpoint_algebras.md#3-full-fixed-d-restrictions-do-not-determine-generic-thickness)
+already gives pairs with identical full restrictions and different generic
+thicknesses on the quadric and both endpoint planes.
+
+## Relations recover the first annihilator
+
+Let \(I=(F,G)\) be any proper homogeneous pair, and \(E=S/I\).
+Write \(\operatorname{Syz}_B(f,g)\) for pairs \((u,v)\) with
+\(uf+vg=0\). As ungraded modules there is a natural isomorphism, for
+these actual lifts,
+\[
+ \frac{\operatorname{Syz}_B(f,g)}{B(g,-f)}
+ \ \simeq\ \operatorname{Ann}_E(A)
+ =\frac{I:A}{I}. \tag{1}
+\]
+With the usual degree-labeled Koszul modules, the right side is shifted
+by \(-4\). The restriction pair therefore determines the abstract module
+on the right. Its embedding in \(E\), and multiplication through further
+normal layers, require the lifts.
+
+**Proof.** Lift a relation to \(U,V\in S\). There is a unique \(H\in S\)
+with \(UF+VG=AH\); send the relation to \(H\bmod I\).
+Changing the lifts of \(U,V\) adds an element of \(I\) to \(H\).
+Every element of \(I:A\) occurs. If \(H=PF+QG\), then
+\((U-AP)F+(V-AQ)G=0\). Since \(F,G\) form a regular sequence,
+this relation is a multiple of \((G,-F)\). Reduction modulo \(A\)
+identifies the kernel in (1). Conversely those Koszul relations map to
+zero. This proves (1), including when a restriction is zero.
+The standard [regular-sequence Koszul exactness](https://stacks.math.columbia.edu/tag/062F)
+is the general algebraic input; no novelty is claimed for that input.
+
+For nonzero normalized restrictions with sole common support \(V(\phi)\),
+their gcd is \(\phi^\ell\), up to scalar. Put \(T=k[s,t,z]\) and
+identify \(B\) with \(k[s^4,st^3,t^4,z]\). Unique factorization gives
+the more explicit description
+\[
+ M=\{w\in T:w\nu^*g/\phi^\ell\in B,
+                 \ w\nu^*f/\phi^\ell\in B\},\qquad
+ \operatorname{Syz}_B(f,g)/B(g,-f)\simeq M/(\phi^\ell B).
+\]
+Indeed every syzygy upstairs is a multiple of the coprime pair
+\((\nu^*g/\phi^\ell,-\nu^*f/\phi^\ell)\); both entries must descend.
+This is a simultaneous module descent problem, broader than asking that
+one scalar power \(\phi^N\) descend. The relation's quotient by \(A\)
+still uses the actual ambient lifts in (1).
+
+For a supported pair, \(A\in\sqrt I\), so some
+\[
+ A^N=PF+QG \tag{2}
+\]
+already follows. A proper homogeneous CI ideal is saturated, so there
+is no distinction here between projective sole support and the required
+homogeneous radical membership. The least such \(N\) is the nilpotence
+index of multiplication by \(A\) on \(E\). Equivalently the chain
+\(I\subseteq I:A\subseteq I:A^2\subseteq\cdots\) reaches \(S\).
+Equation (1) identifies its first quotient, not the entire chain.
+Conversely, if the restricted pair already has sole common support \(C\)
+on \(X\), nilpotence of \(A\) on \(E\) is equivalent to sole ambient
+support \(C\): it forces all of \(V(F,G)\) into \(X\).
+
+For a homogeneous control, choose any quartic \(D\) coprime to \(A\).
+The proper pairs
+\[
+ I=(D^2,D^2+A^2),\qquad J=(D^2,D^2+A^2+AD)
+\]
+have the same type \((8,8)\), the identical labeled restrictions
+\((\bar D^2,\bar D^2)\), and the same reduced support \(V(A,D)\).
+But the least powers of \(A\) in them are two and three. For \(J\),
+\(A^3=AD^2+(A-D)(A^2+AD)\), while \(A^2\notin J\): in degree eight,
+membership would express \(A^2\) as a scalar combination of
+\(D^2,A^2+AD\), contrary to their independence for coprime \(A,D\).
+This control works in every characteristic; it is not a construction
+supported on \(C_0\).
+
+## Where a characteristic-sensitive obstruction could occur
+
+For a single mate on \(X\), sole support forces its normalized equation
+to be a scalar multiple of \(\phi^N\). Descent to
+\(k[s^4,st^3,t^4,z]\) fails in characteristic zero because the
+coefficient \(-N s^3t\) is missing from the semigroup ring.
+Frobenius can remove that coefficient in positive characteristic.
+The [exact criterion](../arithmetic/positive_characteristic_constructions.md#exact-semigroup-and-characteristic-criteria)
+is \(p^{v_p(N)}\in\langle3,4\rangle\).
+For two unrestricted equations, each may have residual factors; this
+rank-one descent argument does not automatically constrain their full
+relation module and its normal extensions.
+The control above displays the arithmetic directly: in characteristic
+three, \(z^2+zh+h^2=(z-h)^2\), so \(\nu^*c=\phi^3\), and
+\((A,c)\) is the known supported presentation.
+
+Identity (2) also gives a matrix with determinant \(A^N\),
+\(\left(\begin{smallmatrix}F&-Q\\G&P\end{smallmatrix}\right)\).
+Its adjugate gives a matrix factorization. This is the same construction
+already used for the [multiple quadric](../carriers/finite_pullback_and_matrix_obstructions.md#double-quadric-matrices-and-punctual-defects),
+where a control disproves automatic splitting into determinant-\(q\)
+factors. Producing (2) or its matrix alone is an exact reformulation,
+not an obstruction.
+
+There is a concrete degree target: in characteristic zero a hypothetical
+sole-support pair with \(a\le b\) must have \(4N>b\) for every certificate
+(2), taking its coefficients homogeneous. Neither equation can have
+\(A\) as a factor, since the resulting
+subpair on \(X\) would have sole support \(C\), which is excluded.
+If \(4N<b\), homogeneity in (2) forces \(Q=0\), hence \(F\mid A^N\),
+impossible since \(A\) is irreducible and \(A\nmid F\).
+If \(4N=b\), \(Q\) is a nonzero constant and
+\((F,G)=(F,A^N)\), again giving the excluded mate on \(X\).
+Thus a sufficiently low-degree reconstructed power would be decisive;
+no universal upper bound of this strength is proved.
+
+The open target is to determine which restricted pairs, their relation
+modules and homogeneous normal corrections can give a proper CI with
+nilpotent \(A\) and no residual support. A useful characteristic-zero
+theorem would show that every such lift forces a descent or extension
+condition that fails, while identifying precisely why Frobenius avoids it.
+Neither the ordinary restriction nor the first annihilator currently
+supplies that theorem. This connects fixed-carrier semigroup descent to
+the [actual-source lifting problem](../equations/global_lifting_interfaces.md#a-fixed-symbol-lifting-lemma)
+without identifying their obstruction spaces or asserting universal
+coverage for a chosen finite-degree source.

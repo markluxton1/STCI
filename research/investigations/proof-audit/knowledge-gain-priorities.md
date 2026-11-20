@@ -165,10 +165,17 @@ neither supply a capacity bound for every cover nor remove its need.
   diagonals. Choose a named collision partition and test actual quartic
   pencils, then compare their embedded quotients with both full limits.
   This has independent moduli value even if it gives no STCI obstruction.
-- **Next investigation.** Describe actual CI lifts over a named repeated-cycle
-  stratum, beginning with the quartic-pair locus. Determine what non-invariant
-  embedded structures exist, their Chow moment, and which deformations remain
-  in the translated-cycle locus. The invariant moving-carrier partitions
+- **Next investigation.** Connect a named repeated-cycle stratum to actual
+  equations through the [translate-coordinate evaluation maps](../../arguments/torus/fixed_surface_restriction_lifts.md).
+  Determine the coefficient kernels, joint transverse lengths, and permissible
+  normal lifts; on the fixed quartic, retain the simultaneous descent of
+  restricted syzygies and their actual normal extensions. For a sole-support
+  \(C_0\) candidate, a carrier power of degree at most the larger defining
+  degree would force the excluded
+  fixed-carrier presentation in characteristic zero, but mere existence of
+  some power is automatic and ordinary restrictions do not bound its order.
+  A bounded source should reveal which of these compatibility conditions
+  constrains non-invariant lifts or their deformations. The invariant partitions
   \((2,2)\) and \((3,1)\) are already known. Distinguish the boundary of
   their moment-constrained locus from components supported entirely over
   repeated cycles, and retaining a carrier equation from retaining only its
@@ -397,8 +404,11 @@ Pursue KG02's actual arrangement and collision geometry first. The general
 trace moment now separates invariant CI cycles, including all reduced
 arrangements, from full coalescence even in their Chow closure. The fixed-carrier
 classification supplies more detailed strata and realized partial absorption.
-The next question concerns non-invariant lifts over repeated cycles and their
-deformations; no smoothing into the reduced arrangement locus is presumed.
+The next question ties the translate coordinates to non-invariant defining
+equations over repeated cycles, their transverse algebras and normal lifts;
+no smoothing into the reduced arrangement locus is presumed. Fixed-surface
+relations provide a concrete interface to probe, not a claim that the
+surface equation can be recovered from ordinary restrictions alone.
 Understanding this geometry does not require a promised uniform STCI obstruction.
 
 KG05 is the strongest concrete alternative: its whole-family support locus is
@@ -408,8 +418,9 @@ construction. KG01's original scalar comparison is already ineffective on the
 transverse stratum; its new toric comparison has a precise missing embedded
 correction, whose control by global equations remains to be established.
 These distinctions support a provisional exploration choice, not certainty
-about eventual payoff. Reassess if the collision probe only reproduces the
-known fixed-carrier picture or reveals a more consequential question elsewhere.
+about eventual payoff. Reassess if the coefficient and normal-lift probe only
+reproduces containment or the known fixed-carrier picture, or reveals a more
+consequential question elsewhere.
 
 Keep the [marked V5 correspondence](../../arguments/residuals/blowup_residual_geometry.md#the-marked-correspondence-on-the-whole-equality-boundary)
 as a distinct transfer/contact test, and KG03 as the actual absorption question.

@@ -115,6 +115,9 @@ cycle outside these presentation classes need not belong to that closure;
 deciding its existence or deformations
 requires the actual embedded ideals. Thus generic arrangement deformations
 and the whole CI realization problem have different coverage.
+For arbitrary forms, the [translate-coordinate evaluation map](../torus/fixed_surface_restriction_lifts.md#translate-coordinates-constrain-actual-coefficients)
+gives all linear containment constraints; transverse local intersection
+algebras then determine multiplicities, without assuming invariant generators.
 
 ### Realization of a reduced Chow-matched cycle
 

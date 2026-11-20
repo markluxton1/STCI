@@ -135,6 +135,13 @@ Its linear Chow-coefficient equation separates their entire Chow closure
 from \(m[C_{u,v}]\) in characteristic zero. Non-invariant CI lifts over
 repeated cycles need not lie in that closure. Their realization geometry is
 the [current exploratory priority](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment).
+The [coordinate-to-equation interface](arguments/torus/fixed_surface_restriction_lifts.md)
+gives linear coefficient constraints for arbitrary surfaces containing the
+chosen translates, then retains joint transverse lengths and normal lifts.
+Fixed-surface syzygies recover a first annihilator, not the full embedded
+pair. For a sole-support \(C_0\) candidate, a sufficiently low-degree
+carrier-power certificate would force a forbidden fixed-carrier mate in
+characteristic zero.
 Separately, [simultaneous torus degeneration of the quadratic graph](arguments/linkage/toric_limit_conductor_comparison.md)
 compares original and pure-limit conductor lengths using the difference of
 the two embedded endpoint corrections. Their control by global equations is

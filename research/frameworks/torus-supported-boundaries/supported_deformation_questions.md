@@ -46,6 +46,16 @@ Uniqueness makes all the classified fixed-generator ideals invariant,
 including repeated-root arrangements. A non-invariant lift with this support
 cannot retain the carrier as one of its two defining equations.
 
+The [equation-recovery interface](../../arguments/torus/fixed_surface_restriction_lifts.md)
+starts with the translate coordinates themselves: each coefficient of
+\(F(1,t,ut^3,vt^4)\) must vanish at every chosen \((u,v)\).
+This constrains arbitrary surfaces. Repeated intersection multiplicities
+require the joint transverse algebra, not repeated point evaluation.
+Restriction to the fixed quartic gives a simultaneous syzygy-descent module
+and its first annihilator; higher normal extensions determine whether a
+power of the carrier equation enters the ideal. Ordinary restriction alone
+does not determine that power, even for same-degree proper pairs.
+
 The smooth quadric gives a contrasting answer: all its translates have the
 same ruling class \((1,3)\), so their positive sum cannot be a degree-\(N\)
 hypersurface section of class \((N,N)\). Thus the carrier geometry matters.

@@ -75,6 +75,9 @@ This also proves uniqueness. \(\square\)
 This statement requires \(A\) as one actual generator. Merely assuming
 that another, possibly nonreduced CI has its reduced support on \(X\)
 does not put \(A\) in its ideal; that case needs a separate bridge.
+The [restriction and relation interface](fixed_surface_restriction_lifts.md)
+ties translate coordinates to coefficients of arbitrary equations and
+identifies what restricted syzygies recover about their normal extensions.
 
 Every classified ideal, including repeated cycles, is invariant under the
 intrinsic torus of coordinate weights \((0,1,3,4)\): it preserves \(A\)
