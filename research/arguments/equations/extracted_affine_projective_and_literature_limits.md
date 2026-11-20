@@ -171,3 +171,9 @@ not find a correction or a refereed replacement proof.
 
 
 
+
+## Two-chart support test for a proper homogeneous pair
+
+For the fixed rational quartic, put \(U_0=D(x_0)\), \(U_\infty=D(x_3)\), and \(L=V(x_0,x_3)\). The two opens cover \(C\), and \(L\cap C=\varnothing\). Suppose homogeneous \(F,G\) have positive degrees, form a regular sequence in \(k[x_0,x_1,x_2,x_3]\), and their common zero set on **each** \(U_i\) is exactly \(C\cap U_i\). Then \(V(F,G)_{\mathrm{red}}=C\): any additional irreducible component would lie in \(L\), hence would be disjoint from \(C\); but a positive-dimensional projective complete intersection of two hypersurfaces in \(\mathbf P^3\) is connected (the standard connectedness theorem for complete intersections). Since the complete intersection is Cohen–Macaulay and has no isolated zero-dimensional components, such extra support cannot occur.
+
+Equivalently, once both chart restrictions have been checked for a proper pair, the restriction of \(F,G\) to the disjoint line \(L\cong\mathbf P^1\) must have no common projective zero, so its binary resultant is nonzero. This is a **support-detection lemma**, not an affine-to-projective existence theorem: constructing a single homogeneous pair that works on both charts remains the original global compatibility problem. Homogenizing two affine generators independently does not ensure the hypotheses.
