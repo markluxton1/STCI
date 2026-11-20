@@ -125,7 +125,9 @@ embedded coefficient map retains a further test.
 For the fixed osculating conormal quotient, the
 [primitive-triple class](../../arguments/normal-geometry/osculating_ribbon_obstruction.md)
 is \(2[u^{-2}]\ne0\). A finite-flat quasiprimitive flag extending that
-ribbon must acquire a defect; a generically regular osculating carrier
+ribbon needs defect degree at least two; minimal triples form a
+\(\mathbf P^1\), with involution-paired defects and non-Gorenstein
+local rings there. A generically regular osculating carrier
 has first-symbol zeros of total degree \(4a-8\). This connects the
 moving-cover exception to the canonical embedded extension, without
 excluding defect-bearing higher thickenings.

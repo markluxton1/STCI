@@ -18,9 +18,10 @@ proofs:
 A quadratic cover converts a hypothetical two-equation presentation into
 postulation conditions on a finite boundary. Moving its branch section
 concentrates that boundary at one general point, so the conditions become
-an explicit map on actual homogeneous forms. Length alone does not obstruct
-any generically regular smaller carrier; the embedded kernel retains
-information that the scalar comparison loses.
+an explicit map on actual homogeneous forms. For the general one-point
+osculating cover, its length cannot contradict the displayed scalar bound
+on any generically regular smaller carrier; the embedded kernel retains
+information that this comparison loses.
 
 ## Scope
 
@@ -152,15 +153,17 @@ exhibits how to recover an actual equation in the kernel. The outstanding
 question is which restrictions of homogeneous forms on a candidate
 thickening force such a failure. On a generically regular carrier the
 exact length already exceeds the lower bound, including **every integral
-quintic** through the curve. A moving-cover scalar deficit can therefore
-come only from a generically singular carrier. In the cyclic case the
+quintic** through the curve. A scalar deficit in this one-point osculating
+family can therefore come only from a generically singular carrier. In the cyclic case the
 upper bound is sharp on the required nonosculating local model; this is
 not an existence assertion for a supported CI.
 
 The exceptional osculating direction has a separate global constraint:
 its ribbon has [nonzero primitive-triple obstruction](../arguments/normal-geometry/osculating_ribbon_obstruction.md).
-This forces defects for a finite-flat quasiprimitive flag extending that
-ribbon, not failure of every higher thickening. At an endpoint the
+A finite-flat quasiprimitive flag extending it needs second-layer defect
+degree at least two. The minimum is attained by a projective line of
+embedded CM triples, whose defect divisors are osculating involution pairs;
+these triples are non-Gorenstein at the defects. At an endpoint the
 [flat moving graph](../arguments/linkage/moving_quadratic_covers.md#the-flat-graph-at-the-endpoint)
 places its entire generic conductor length in punctual torsion, explaining
 why substituting the limiting square quadric loses the conductor.

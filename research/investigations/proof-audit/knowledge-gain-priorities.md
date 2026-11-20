@@ -102,8 +102,10 @@ will solve STCI or is uniquely optimal. Reassess after the initial probe.
   kernel form in degree \(2d+2<b\) would obstruct the proposed mate.
   Every integral quintic is generically regular, so this closes its
   moving scalar test as well. The exceptional osculating ribbon has a
-  nonzero primitive-triple class; a compatible higher flag needs defects,
-  whose effect on actual source restrictions is still uncomputed.
+  nonzero primitive-triple class; a compatible higher flag needs at least
+  degree-two defect. The minimal CM triples are classified by a projective
+  line with involution-paired defects and are non-Gorenstein at them.
+  Their effect on higher actual source restrictions is still uncomputed.
 - **Next exploratory comparison.** In a simultaneous intrinsic torus limit of
   the curve and its selected quadratic graph, the [conductor identity](../../arguments/linkage/toric_limit_conductor_comparison.md)
   is \(\delta_i^{\mathrm{pure}}=\delta_i+\alpha_i-\beta_i\).

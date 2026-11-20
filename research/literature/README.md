@@ -122,7 +122,7 @@ Only its characteristic-zero Lefschetz assertion is used here.
 
 David Eisenbud and Bernd Ulrich, *The Regularity of the Conductor*,
 [arXiv:1302.5752](https://arxiv.org/pdf/1302.5752), Theorem 3.1,
-pp. 6--7. Their regularity formula concerns a reduced projective scheme
+p. 3; proof pp. 6--7. Their regularity formula concerns a reduced projective scheme
 with Gorenstein coordinate ring and a finite graded Cohen--Macaulay
 intermediate algebra in its normalization. It illustrates the same
 canonical-module mechanism, but does not subsume the possibly nonreduced,
