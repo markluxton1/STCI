@@ -63,3 +63,15 @@ Even a positive quartic ancestor answer has a residual consequence: the
 [generic-length calculation](../../arguments/local-cohomology/direction_and_apolarity.md#2026-10-05-localcoh-generic-length)
 gives a residual cycle of degree four for any such pair. The characteristic-zero quartic carrier theorem does not answer
 this fixed two-target question.
+
+## Simultaneous coregularity versus geometric defects
+
+The November 18 literature comparison highlights the exact pairwise condition already supplied by Hartshorne–Polini's homogeneous coregularity criterion (see [the theorem and hypotheses](../../arguments/equations/global_equations_and_constructions.md)). For a homogeneous regular pair \(f,g\in I\), put \(M=H_I^2(S)\). Under the theorem's higher-local-cohomology vanishing hypotheses, set-theoretic support \(V_+(f,g)=C\) is equivalent to **ordered simultaneous coregularity**:
+\[
+fM=M,\qquad g(0:_M f)=0:_M f.
+\]
+Once the first equality holds, the obstruction to the second is the cokernel
+\[
+(0:_M f)/g(0:_M f).
+\]
+This is an exact algebraic criterion for the specified pair, not a newly established geometric obstruction. The existing bounded common-ancestor calculations constrain specified classes and multiplier degrees; they do **not** establish nonvanishing of this cokernel for every possible \(f,g\), nor non-quasi-cyclicity of \(M\). Similarly, a missing global normal symbol or an associated-graded defect does not by itself imply failure of simultaneous coregularity. A comparison with the **full filtered equation module**, retaining actual lifts and pairwise multiplication, would need its own theorem. This records the interface without treating it as an accomplished reduction.
