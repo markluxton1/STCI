@@ -750,6 +750,43 @@ These identities describe restriction to \(E\), not the full
 off-\(E\) conductor, and do not settle full inverse support or
 higher-degree descent.
 
+#### The horizontal symbol and the actual elliptic pencils
+
+On the birational octic locus put \(G=Z\cap E\) and
+\(d=6-\operatorname{length}(G)\). The horizontal curve \(\Sigma_{\rm sym}\)
+of the primitive quadratic symbol has type \((d,2)\) in the two
+projective lines of base and normal direction. It is the image of the
+map \((\pi,\Theta)\) from \(E\), where \(\Theta\) is the saturated
+direction pencil, and that map is its normalization: its two generic
+directions separate the two deck conjugates. Both curves are finite
+flat double covers of the base line. Their trace-zero lines are
+\(\mathcal O(-d)\) and \(\mathcal O(-2)\), by their genera. The
+inclusion is multiplication by a binary form \(j\) of degree \(d-2\).
+In a local trace frame the inclusion is \(A\oplus jAw\subset A\oplus Aw\),
+so the relative conductor is \(j\mathcal O_E\) and the discriminant is
+multiplied by \(j^2\). Consequently the coincidence-excess divisor
+\(J\) above is \(\operatorname{div}(j)\), and the conductor identity on
+\(E\) is the vertical contribution \(\pi^*V\) plus this relative
+conductor. This compares a particular actual symbol curve, not a
+free choice of a spectral root.
+
+At \(\operatorname{length}(G)=4\), \(d=2\) and \(j\) is a unit, so the
+horizontal symbol curve is itself a smooth \((2,2)\) curve isomorphic
+to \(E\). Let \(A=\pi^*\mathcal O(1)\) and
+\(B=\Theta^*\mathcal O(1)\) denote its two pencils. Dividing the
+actual normal coefficients by their common divisor gives
+\(B=A^3(-G)\). The degree-zero pencil difference in the
+[spectral comparison](../../frameworks/spectral-roots/index.md)
+is therefore \(B\otimes A^{-1}=A^2(-G)\). In particular \(G\) cannot
+be the pullback of a degree-two divisor on the base: that would
+identify the two degree-two line bundles, whose complete pencils
+would then agree up to an automorphism, contradicting the
+\((2,2)\) embedding. No mate hypothesis here forces this difference
+to be torsion. It is not the conditional \((6,16)\) comparison.
+The next bounded test is to determine whether the actual
+length-four stratum is nonempty and, there, test full inverse
+support and only then descent.
+
 #### Descent and the remaining degrees
 
 Write the upstairs conductor as \(\mathcal O_S(-B_{\rm cond})\).
@@ -812,6 +849,31 @@ of the residual curves, not the ambient surface conductor or, if
 binary discriminant of the residual equation divided by the degree-four
 trace discriminant of \(D\) gives \(h^2\) up to scalar; neither
 discriminant is assumed squarefree.
+
+The residual-curve conductor can also be compared with the ambient
+one when \(R_Q\) is reduced. Write \(B'=B_{\rm cond}-E\). Then
+\[
+ B'|_D=2Z+B_{D/R_Q},
+\]
+where \(B_{D/R_Q}\) is the Cartier divisor of the finite birational
+curve conductor. In local target coordinates \((t,v,q)\), with
+\(Q=(q)\), write \(F|_Q=g^2r_Q\) for the implicit equation.
+A rational residue generator on \(X\) is
+\(\eta_X=dt\wedge dq/F_v\). Pull back using \(f^*q=ed\), divide
+by the equation \(d\) of \(D\) in the adjunction residue, and
+restrict to \(D\). The resulting expression is
+\(e/(f^*g)^2\) times the pullback of \(dt/(r_Q)_v\) on \(R_Q\).
+This is computed rationally on each generic component, choosing a
+nonzero partial there; the curves are Cartier and the resulting
+identities are of rational sections of dualizing line bundles.
+Multiplying by the ambient conductor generator gives the regular
+dualizing generator on \(D\) by finite duality and adjunction.
+Comparing it with the pullback generator for \(R_Q\) identifies
+the curve conductor by finite duality. The divisor of the comparison
+coefficient is \(B_{\rm cond}|_D+E|_D-2(E|_D+Z)=B'|_D-2Z\),
+because \(f^*g|_D=es'\). In the finite double-cover scope this
+recovers the length relation \(32=2\cdot12+8\). It is not an
+absorption operation and does not produce any descent survivor.
 
 Near the finite conductor fibers use a target frame of
 \(\mathcal O_X(1)\), pulled back to \(D\), to express the section
