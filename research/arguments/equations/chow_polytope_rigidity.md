@@ -60,10 +60,12 @@ There are three different objects to compare:
    stay in this proper CI locus.
 
 The characteristic-zero binomial constructions below show that actual
-members can realize several translates. For each type one can ask which
-components of the realization locus occur, what their general cycles
-and multiplicity partitions are, which collision strata they meet,
-and how their Hilbert boundaries compare with cycle limits. This is a
+members can realize several translates. It is not asserted that every
+Chow multiset admits an actual CI lift. For each type, the question is
+to determine the image of actual proper pairs in the cycle fiber:
+what the general cycle and multiplicity partition of each component
+are, which collision strata the image meets, and how the Hilbert
+boundaries compare with cycle limits. This is a
 moduli question independently of whether the marked cycle \(m[C]\)
 has a proper CI lift. The
 [fixed-family elliptic meeting divisor](../carriers/elliptic_double_inverse_construction.md#the-meeting-norm-divisor-and-its-normalization)

@@ -867,10 +867,11 @@ does the finite conductor algebra give the next descent check.
 
 #### The meeting norm divisor and its normalization
 
-Work on the characteristic-zero smooth, basepoint-free parameter open
-\(U\) above. Write \(N\) for the divisor defined by the norm of \(e=Q_0\)
-on the relative length-twelve scheme \(Z\), and \(G=Z\cap E\) for the
-relative intersection. Then \(N\) is reduced and integral and
+Let \(U\) be the characteristic-zero parameter open where the source
+quadric is smooth and the four sections are basepoint-free. Over this
+open, let \(N\subset U\) be the divisor defined by the norm of \(e=Q_0\)
+on the relative length-twelve scheme \(Z\), and \(G=Z\cap E\) the
+relative intersection. On \(U\), \(N\) is reduced and integral and
 \(G\to N\) is its normalization. In particular \(N\) is birational to
 \(E\times\mathbf A^3\).
 
@@ -993,7 +994,7 @@ properness, so the geometric generic fiber is empty. On the affine chart \(Z_0=1
 the point \((x,y,Z_3)=(11,0,9)\) has \(e=5\) and target tuple
 \((U_0,U_1,U_3,U_4)=(1,3,1,3)\) modulo 13. The three equations
 \[
- Q_1+2Q_0,qquad U_0U_4-U_1U_3,qquad U_0^2U_3-U_1^3
+ Q_1+2Q_0,\qquad U_0U_4-U_1U_3,\qquad U_0^2U_3-U_1^3
 \]
 vanish there and their Jacobian determinant in \((x,y,Z_3)\) is
 12 modulo 13. The square Jacobian gives an étale neighborhood
