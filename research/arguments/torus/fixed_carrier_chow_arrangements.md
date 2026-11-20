@@ -193,6 +193,13 @@ the ideal. Classifying those thickenings is a different realization problem.
 Put \(Q=V(x_0x_3-x_1x_2)\). In the quotient coordinates of the
 [Chow account](../equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle),
 the translates lying on \(Q\) have \(u=v\).
+The quartic \(X\) has \(u^4=v^3\), so their dense tori intersect
+scheme-theoretically in \(u=v=1\), exactly \(C_0\cap\Omega\), in every
+characteristic: \((u-v,u^4-v^3)=(u-1,v-1)\) in the Laurent ring.
+This does not describe the whole projective intersection. In Segre coordinates
+\([x_0:x_1:x_2:x_3]=[AU:AV:BU:BV]\), the quartic restricts to
+\(B^3U(BU^3-AV^3)\), giving cycle
+\([C_0]+3[V(x_2,x_3)]+[V(x_0,x_2)]\).
 They all have the same ruling class \((1,3)\), up to swapping the rulings:
 the diagonal maps \(\operatorname{diag}(1,1,u,u)\) preserve each ruling.
 By the [canonical quadric argument](../equations/global_equations_and_constructions.md#p-004-why-the-quadric-cannot-be-one-of-two-equations),
