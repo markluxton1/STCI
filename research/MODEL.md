@@ -169,16 +169,24 @@ carry forward unaffected conclusions, but reopen them when a new insight changes
 their interpretation. Full-suite coverage does not require loading every proof
 at once or reproving every theorem on each pass.
 
-Continue while another pass yields material mathematical understanding. Stop
-after a full synthesis pass finds no material change to justified generality,
-implications, connections, remaining gaps or research decisions, and identified
-consequences have been integrated consistently. This is a stable assessment of
-the available evidence, not proof that no further insight exists. Do not use a
+Continue while another pass yields material mathematical understanding. Stop the
+synthesis loop after a full pass finds no material change to justified generality,
+implications, connections, remaining gaps or research decisions. This is a stable
+assessment of the available evidence, not proof that no further insight exists. Do not use a
 fixed round count, cosmetic rewriting or reviewer agreement as the stopping
 test. If progress needs unavailable evidence or genuinely new research, preserve
 the precise gap and consequence for use; do not claim it resolved or stable by
 repetition. Report the scope and reason for stopping in the existing review,
 without a pass-by-pass ledger.
+
+Meeting that stopping condition does not complete the PR or waive repository
+maintenance. Finish all resulting integration, propagation, consolidation,
+navigation/catalog updates and required verification before declaring completion.
+The final repository must consistently reflect the resulting understanding;
+do not defer these updates as low-value cleanup or leave known stale accounts
+for a later PR. Lack of further mathematical insight does not excuse unfinished
+maintenance. Apply the [current-state acceptance requirement](#claim-propagation-at-integration)
+to the actual updated files.
 
 Keep current gaps with their canonical Framework or Investigation. Place
 proved deductions with their proof owners and link across frameworks rather
