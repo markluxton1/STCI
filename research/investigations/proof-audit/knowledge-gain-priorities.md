@@ -84,7 +84,15 @@ cluster is not in itself evidence against the workflow.
   low-degree postulation as the nonsplit case; it does not bound
   endpoint capacity. As a first finite test, study the quadrics through
   the short actual primary piece of a split sextic, not just its
-  reduction. Endpoint-concentrated nonzero norm coefficients likewise
+  reduction. The [signed-surface intersection comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#two-lift-split-carriers-intersection-on-the-signed-surface)
+  excludes all mates for a two-lift split carrier when the signed
+  surface upstairs is smooth along the lifts, despite the singular
+  norm surface downstairs. For a normal signed cubic, ordinary double
+  points alone also cannot supply the required correction of at least
+  \(5b\): the shared contributions cancel and the unshared ones give
+  at most \(9b/2\). Higher ADE and nonnormal signed surfaces require
+  the actual incidence and correction, not a smooth-locus argument.
+  Endpoint-concentrated nonzero norm coefficients likewise
   still require actual contact and capacity tests. For larger nonsplit sources, seek capacity bounds
   without fourth-order divisibility. The weighted criterion assumes
   smooth solvability in the specified endpoint normal coordinate; a

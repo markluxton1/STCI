@@ -923,6 +923,164 @@ an actual degree-\((2,3)\) pair on \(X\) supported only on \(D\).
 This is a postulation and contact test, not a capacity bound
 or an all-mate exclusion for two-lift carriers.
 
+### Two-lift split carriers: intersection on the signed surface
+
+The two-lift case also has a global exclusion that does not require
+estimating the endpoint conductor. Let \(S_+=V_X(P+zQ)\) be one
+integral signed surface of degree \(m\) on the covering quadric,
+with \(P|_C=Q|_C=0\). If either signed surface is smooth along
+\(D\cup D'\), there is **no mate in any degree**. This is smoothness
+of the surface upstairs; the original norm carrier downstairs
+is singular along \(C\) in this two-lift case.
+
+Indeed, a hypothetical mate of degree \(b\) would cut on
+\(S_+\) an effective Cartier divisor with cycle
+\(\lambda D+\mu D'\), with \(\lambda,\mu>0\). Its intersection
+with the hyperplane class gives
+\(4(\lambda+\mu)=2mb\). Along the two curves adjunction
+on \(S_+\) gives \(K_{S_+}=(m-3)H\) and
+\[
+D^2=(D')^2=10-4m.
+\]
+The scheme intersection of the two lifts has length two at each
+marked point and is empty elsewhere: on the pullback of \(C\)
+the local equation is \(z^2=t^4\), and the two ideals
+\((z-t^2)\) and \((z+t^2)\) sum to \((z,t^2)\).
+Their common scheme does not change when computed inside a
+surface containing both curves. Since the curves are Cartier
+on the smooth neighborhood of their support, \(D\cdot D'=4\).
+Intersecting the mate with \(D+D'\) would therefore give
+\[
+8b=(\lambda+\mu)(14-4m),\qquad
+8-\tfrac m2(14-4m)=2m^2-7m+8>0,
+\]
+a contradiction. The same argument applies to the other signed
+surface by conjugation. Singularities away from the two curves
+play no role.
+
+There are actual integral split carriers in this locus in every
+even degree \(2m\ge6\), in characteristic zero. The flat
+pullback of \(C\) is the reduced union \(D\cup D'\): its algebra
+is free over \(C\) locally and generically reduced, so any
+nilpotent would be torsion and hence zero. The quartic ideal is
+generated in degrees two and three. Thus the system of degree-\(m\)
+sections vanishing on the union generates the union's ideal
+sheaf for \(m\ge3\), by pulling back those generators and padding
+degrees with forms that are nonzero at the point. At a smooth
+point of the union, the condition that the section be singular
+there imposes two independent linear conditions. As the point
+varies in a curve, their incidence cannot dominate the parameter
+space. At either of the two marked points the union has a
+two-dimensional tangent space in the smooth threefold: locally
+the union is cut by a transverse coordinate and \(z^2-t^4\).
+So singularity imposes one nontrivial linear condition at each
+of these fixed points, also avoidable. Off the union the system
+has no base points, and its image has dimension three: multiplying
+the fixed containing quadric of \(C\) by all degree-\((m-2)\)
+forms downstairs gives a subsystem with three-dimensional image.
+Bertini gives an integral general surface. The conditions
+\(P\ne0\) and \(Q\ne0\) define a nonempty open since both
+\(I_C(m)\) and \(I_C(m-1)\) are nonzero. The signed surfaces
+are then distinct, with the same integral image; their norm
+is an integral carrier, since over its generic point the cover
+is étale and the two factors have multiplicity one.
+
+#### Required correction at Du Val points
+
+For a normal signed surface with at worst Du Val singularities
+along the two lifts, the same argument quantifies the exact
+correction a mate would need. On a resolution crepant near the
+lifts, let \(\widetilde D,\widetilde D'\) be their strict
+transforms. Each is isomorphic to the corresponding smooth
+quartic: the restricted map is proper, birational and has
+finite fibers, hence is an isomorphism over a normal curve.
+Their self-intersections are still \(10-4m\) by crepancy.
+Put \(k=\widetilde D\cdot\widetilde D'\). At a point of the
+second strict transform the pullback of the ideal of \(D\)
+is contained in the ideal of \(\widetilde D\); restricting
+to \(\widetilde D'\cong D'\) therefore gives \(k\le4\).
+Write the total pullback of the actual mate divisor as
+\(\lambda\widetilde D+\mu\widetilde D'+E_G\).
+Intersecting with \(\widetilde D+\widetilde D'\) gives the
+required budget
+\[
+E_G\cdot(\widetilde D+\widetilde D')
+=8b-(\lambda+\mu)(10-4m+k)
+\ \ge\ b(2m^2-7m+8).
+\]
+For a signed cubic this is at least \(5b\).
+More precisely, at each resolved point let \(A_p\) be the
+negative of the exceptional intersection matrix and let
+\(x_p,y_p\) be the actual intersection vectors of the two
+strict transforms with the exceptional curves. The contribution
+is
+\[
+(x_p+y_p)^\mathsf{T}A_p^{-1}(\lambda x_p+\mu y_p);
+\]
+this follows by intersecting the total pullback with the
+exceptional curves, on which it has degree zero. It is the
+[numerical pullback mechanism](../carriers/numerical_surface_pullback.md)
+on the actual signed surface, with the local incidence of both
+lifts retained. The next test is which incidence vectors and
+correction budgets the signed cubic equations really allow.
+The ADE type alone does not determine these vectors, and this
+calculation does not yet supply an incompatible upper bound.
+
+#### Nodal signed cubics: the correction is insufficient
+
+In degree six downstairs (\(m=3\)), suppose the signed cubic
+is normal and all its singularities along \(D\cup D'\)
+are ordinary double points. Then there is no mate in any degree.
+This follows by evaluating the correction on the actual nodal
+incidence, not by assuming the two curves avoid the singularities.
+
+At a node the resolution is the blowup and each smooth curve
+through it meets its unique exceptional \((-2)\)-curve with
+multiplicity one: the maximal ideal has order one on the
+smooth curve. If both lifts pass through that node, it is a
+marked endpoint. Their local intersection on the resolution
+has length one, rather than two downstairs. Indeed around
+such an endpoint take smooth ambient coordinates \(t,z,w\),
+with the lifts \(w=0,\ z=\pm t^2\). In the blowup chart
+containing both strict transforms the coordinates are
+\(t,z/t,w/t\), and the common ideal of their strict transforms
+is \((t,z/t,w/t)\). The strict transform of the surface
+contains both, so it has the same common scheme. If there
+are \(s\) shared nodes, this gives \(k=4-s\). The matrix
+correction from each shared node is \(\lambda+\mu\) and
+exactly offsets the loss of one mutual intersection.
+Let \(u,v\) count nodes belonging only to \(D\) or only to
+\(D'\), respectively. The correction equation reduces to
+\[
+\frac{u\lambda+v\mu}{2}=5b .
+\]
+
+To count unshared nodes, use the unique containing quadric
+\(q=0\) of \(C\) downstairs. In a two-lift sextic norm the
+coefficient \(Q\) is a nonzero scalar multiple of \(q\).
+The restriction of \(P\) to the smooth quadric is nonzero
+(otherwise \(F\) would have the factor \(q^2\)). It cuts
+\(C\) plus a residual divisor of ruling class \((2,0)\),
+up to exchange of the rulings, since \(C\) has class
+\((1,3)\) up to the same exchange. This residual divisor
+meets \(C\) in length six. Off the two marked points the
+cover is étale over \(C\), and the pulled-back containing
+quadric is smooth there. Away from the residual intersection
+the signed cubic is smooth along the marked lift, because its
+restriction to the pulled-back quadric cuts the lift simply.
+At a residual point the two first derivatives on the two
+sheets differ, after transport to the base, by a nonzero
+multiple of \(2z\,dq\). Thus at most one lift over each such
+point can be singular on a given signed cubic. It follows
+that \(u+v\le6\), even for coincident residual rulings.
+Consequently the left-hand side of the correction equation
+is at most \(3(\lambda+\mu)=9b/2<5b\), a contradiction.
+
+The cancellation at shared nodes does not classify other Du
+Val singularities. For them the incidences of the strict
+transforms and the change in their mutual intersection must
+still be tracked together.
+
 ### Arithmetic control and comparison of traits
 
 For the actual char-three pair A=x1³−x0²x2, G=x0x3³−x2⁴, both endpoint algebras are O[Y]/Y³. At 0 choose Y=x3−t⁴; r=t⁴−Y. At infinity choose Y=x1−t³; r=t⁴−tY. In either case z=t²+t^(j−2)Y+t^(2j−6)Y² with j=0 or 1 respectively. The multiplication matrix in basis 1,Y,Y² is triangular with these coefficients in its successive lower diagonals. The potential smallest two-minor is zero by equality of the two diagonal/off-diagonal products. The minimum over all minors is −6 or −4, respectively, from the Y² coefficient; hence (δ0,δ∞)=(6,4). This is a calculation for the actual supported char-three pair, not a char-zero lift or its lower-root defect.
