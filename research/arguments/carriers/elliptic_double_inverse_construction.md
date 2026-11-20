@@ -823,6 +823,93 @@ Thus the general \(R_Q\) is reduced by the cycle identity. Keep the
 full inverse support test first; only for a survivor in this scope
 does the finite conductor algebra give the next descent check.
 
+#### The meeting norm divisor and its normalization
+
+Work on the characteristic-zero smooth, basepoint-free parameter open
+\(U\) above. Write \(N\) for the divisor defined by the norm of \(e=Q_0\)
+on the relative length-twelve scheme \(Z\), and \(G=Z\cap E\) for the
+relative intersection. Then \(N\) is reduced and integral and
+\(G\to N\) is its normalization. In particular \(N\) is birational to
+\(E\times\mathbf A^3\).
+
+For a point \(p\in E\) over parameter \(t\in C_0\), consider the two
+pulled-back normal derivatives after division by \(e\). Their affine
+dependence on the four lifts \(\rho\) comes from \(U_j=V_j+\rho_j e\).
+In a normal frame on a finite chart the linear part is, up to a unit,
+the quotient \(k^4/T_t\) with
+\[
+ v(t)=(1,t,t^3,t^4),\qquad T_t=\langle v(t),v'(t)\rangle .
+\]
+Indeed the direction of a projective ratio is unchanged by adding
+the projective radial direction, and passing to the normal derivative
+also quotients by the tangent direction of \(C_0\). At infinity the
+two-plane is spanned by the last two coordinate vectors in this
+ordering. The two divided inverse generators define \(G\); their
+linear parts have rank two. Thus before deleting basepoints the
+scheme is an affine plane bundle over \(E\) times the smooth
+\(\mu\)-line. For fixed \(\mu\), a basepoint is necessarily away
+from \(E\) and gives \(\rho=-(V_j/e)_j\). The closure of the image of
+this map on \(S_\mu\setminus E\) is irreducible of dimension at most
+two and has affine span \(k^4\). An affine linear equation for the
+image would, after clearing \(e\) and restricting to \(E\), give a
+linear dependence among the four independent sections \(V_j|_E\).
+The closure therefore cannot contain an affine two-plane, so every
+plane of lifts has basepoint-free members. Consequently \(G\) over
+\(U\) is smooth integral of dimension four. It is finite over \(U\)
+as a closed subscheme of \(Z\), and its image is the support of \(N\).
+
+To check generic degree, consider distinct points \(p,p'\in E\).
+If their projected parameters \(t,u\) are distinct and finite,
+the determinant of their two cone tangent frames is, up to sign,
+\((t-u)^4(t^2+4tu+u^2)\). The planes are distinct: in the first-two
+coordinate projection they are graphs with slope entries \(3t^2\)
+and \(4t^3\), which together distinguish \(t\). When one parameter
+is infinity the finite plane is transverse to the last-two coordinate
+plane. For a general distinct pair the two affine planes of lifts meet
+in at most a point. The exceptional distinct-parameter pairs have
+dimension one and plane intersection dimension at most one. Including
+\(\mu\), either stratum gives dimension at most three. When
+\(p\ne p'\) project to the same parameter they are deck conjugates
+and the two planes are parallel. Their equality of offsets in
+\(k^4/T_t\) is a proper condition on the integral two-dimensional
+base of off-diagonal conjugates and smooth \(\mu\). Otherwise the
+two normal vectors would always be proportional, contradicting the
+nonzero generic determinant at the original member \(\mu=2,\rho=0\).
+This pair stratum likewise has dimension at most three, including
+the two free plane coordinates. Thus the generic geometric fiber of
+\(G\to N\) has a single point. Separability in characteristic zero
+makes the generic field degree one.
+
+At the generic DVR of the prime image, the norm vanishing order
+is the length of the cokernel of multiplication by \(e\). This
+cokernel is the finite pushforward of the twisting line bundle
+restricted to \(G\). Since \(G\) is reduced, it factors through the
+reduced image, so the cokernel at the generic DVR is killed by its
+uniformizer. The generic field degree one gives DVR length one. The norm cuts an effective Cartier divisor
+on the smooth parameter open, with no embedded components, so \(N\)
+is reduced. The finite birational map from the normal \(G\) is its
+normalization. An affine plane bundle over the smooth product base is
+generically trivial, yielding the claimed birational type.
+
+A geometric point of \(N\) is normal exactly when its \(G\)-fiber has
+length one. Indeed in length one the unit spans the finite fiber
+algebra, and Nakayama makes the local map onto the normalization
+surjective; it is already injective. Conversely local normality makes
+the normalization an isomorphism. This detects nonnormality even when
+a fiber is a single nonreduced point. For full inverse support the
+nilpotent operator \(e\) on the length-twelve inverse scheme has
+\(\operatorname{length}(G)\) Jordan blocks. In degree \(b\) their lengths
+are at most \(b-1\) by the inverse-ideal test. Hence a mate requires
+\[
+ \operatorname{length}(G)\ge \left\lceil\frac{12}{b-1}\right\rceil .
+\]
+In particular degree six requires length at least three, and degrees
+seven through twelve require the nonnormal locus of \(N\).
+At normal points of \(N\), a full-support fiber could only admit
+mates of degree at least thirteen. This restriction does not exclude
+full support at such a normal point; keep the support test before
+the descent test.
+
 #### Matrix formulation
 
 There is a single matrix test throughout the basepoint-free locus. In

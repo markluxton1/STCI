@@ -107,6 +107,9 @@ a null result would not by itself invalidate the method.
   For a support survivor in the integral residual-curve scope, the
   [length-eight residual conductor test](../../arguments/carriers/elliptic_double_inverse_construction.md#a-finite-descent-test-on-the-residual-quadric-curve)
   gives a finite necessary descent check before any ambient search.
+  The [normalization of the meeting norm divisor](../../arguments/carriers/elliptic_double_inverse_construction.md#the-meeting-norm-divisor-and-its-normalization)
+  parametrizes the support search and locates degrees six through
+  twelve on its nonnormal locus, without settling full support.
   See the [normalization gates](../../frameworks/carrier-normalization/open_carrier_cases.md).
 - [Normal symbols and the cubic contraction](../../results/connected_normal_directions.md#what-the-cubic-contraction-misses-in-the-attachment-count):
   the joint bound charges the residual degree visible on \(V_5\).
