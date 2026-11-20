@@ -405,6 +405,75 @@ the original one. The [all-mate low-degree exclusions](../../frameworks/carrier-
 force both irreducible degrees to be at least five; at the endpoint
 this requires \(r,s\ge2\).
 
+### A conductor requirement on the endpoint carriers
+
+Consider only the endpoint correspondence in which the actual pair
+on \(V_5\) has sole support \(\Delta\), not the interior equality
+case in which \(\Gamma\) remains in the image intersection.
+Take an integral component \(U\in|mM|\) of either member, regular at
+the generic point of \(\Delta\), with normalization smooth along its
+inverse curve \(c\). The pullback of the proper mate is an ample
+Cartier divisor supported precisely over \(\Delta\). Generic
+regularity and finiteness give one inverse curve \(c\cong\Delta\)
+and no other points in its full inverse (a Cartier divisor on the
+normal surface has pure support). If the mate has degree \(n\)
+on \(V_5\), its pullback has divisor \(mn c\) by intersection
+with \(M\), since \(M^3=5\) and \(M\cdot\Delta=5\). Intersecting
+with \(c\) gives \(c^2=5/m\). Smoothness along \(c\) makes this
+an integer, so \(m=1\) or \(5\).
+
+For \(m=1\), if the component has order \(j\) along \(\Gamma\),
+its strict transform has class
+\[
+ mL-jQ'=(3m-2j)H-(m-j)E .
+\]
+It gives an original carrier of positive degree at most three
+(the component is not \(\Sigma\)), contradicting the
+[all-mate low-degree exclusions](../../frameworks/carrier-normalization/degree_exclusions.md).
+For \(m=5\) the full Cartier conductor divisor \(B_{\rm cond}\)
+on the normalization near \(c\) has
+\[
+ B_{\rm cond}\cdot c = 5m-8+5/m=18 .
+\]
+Indeed finite duality identifies its negative with the relative
+canonical line bundle near the smooth inverse curve;
+\(\omega_U=(m-2)M|_U\), and adjunction on \(c\cong\mathbf P^1\)
+gives \(K\cdot c=-2-c^2\) on the normalization.
+
+The transverse differential along the inverse curve is a nonzero map
+\(\mathcal O_c(c)\to N_{\Delta/V_5}\). Across the transverse blowup
+point \(z\), the normal bundle on \(V_5\) is an elementary positive
+modification of \(N_{T/B}\) of length one: in local coordinates with
+\(\Gamma=(x,y)\), \(\Delta=(t,y)\), use the blowup chart \(y=xv\).
+On the normal directions the map is diagonal with entries \(1,x\),
+so the cokernel has length one. The largest line degree of
+\(N_{\Delta/V_5}\) is at most \(8-d\) from the splitting
+\(\mathcal O(d)\oplus\mathcal O(7-d)\) on \(T\), where \(d=2\) for
+endpoint directions and \(d=3\) for mixed directions.
+Thus the common-zero orders \(h_p\) of the transverse differential
+sum to at most \(8-d-c^2\), namely five or four respectively.
+
+At smooth points of the full downstairs conductor, its inverse is
+finite flat of rank two there. Indeed local duality over the
+Gorenstein hypersurface identifies the finite quotient of the
+normalization by the original ring with the dualizing module of
+the downstairs conductor; over its smooth parameter ring this
+has rank one. The conductor sequence then gives rank two for the
+upstairs conductor algebra. The existing
+[smooth-conductor contact estimate](../carriers/square_descent_and_singular_gluing.md#smooth-conductor-contact-is-bounded-by-the-actual-normal-differential)
+applies: the actual mate descends, pulls back to a power of a
+local equation of \(c\) up to a unit, and conductor contact
+\(b_p\) is at most \(2h_p\) on these points. Hence the points over
+the nonsmooth downstairs conductor must supply
+\[
+ \sum_{p\text{ over nonsmooth conductor}}(b_p-2h_p)
+ \ \ge\ 8\text{ (endpoint direction), or }10\text{ (mixed direction)} .
+\]
+This is a requirement on a hypothetical endpoint carrier.
+It is not an exclusion if the necessary nonsmooth contacts occur,
+and does not apply to a carrier generically singular along the
+marked curve or a normalization singular along its inverse.
+
 ## 5. General residuals acquire a second constructive description
 
 For a general \((a,b)\) pair, \(a,b\ge4\), use the inherited multiplicity-one

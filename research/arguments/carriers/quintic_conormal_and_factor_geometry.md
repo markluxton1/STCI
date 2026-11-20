@@ -90,6 +90,21 @@ the primary [Stacks effective-Cartier duality section](https://stacks.math.colum
 and [Gorenstein criterion](https://stacks.math.columbia.edu/tag/0DW9).
 The ribbon and generic conormal deductions above are written out directly.
 
+### The conormal defect of a marked Cartier multiple
+
+Let f:S→X⊂P³ be the finite normalization of an integral degree-a hypersurface. Assume the full reduced inverse of the marked smooth quartic C is a single smooth irreducible curve c, and let H=f^*O_X(1). Suppose c has an actual effective Cartier multiple rc∼bH, as follows from any proper sole-support mate. Write d=H·c, so r d=b a. On S define J_i=O_S(−ic), the coherent divisorial ideal of functions of order at least i along c, for i≥0, and E_i=J_i/J_(i+1). The ideal of c kills each E_i. Its map to the order-i quotient at the generic DVR is injective by the valuation definition, so E_i is torsion-free rank one on the smooth c, hence is an invertible sheaf. In particular L=E_1 is intrinsic and does not depend on any choice of Cartier multiple. The products L^⊗i→E_i are generically nonzero and define effective defect divisors D_i via E_i≅L^i(D_i). These statements require neither Gorenstein normalization nor a Frobenius pairing.
+
+Since J_r is invertible, J_(r+1)=J_r J_1 and E_r≅O_c(−rc). Hence
+  deg L ≤ −b d/r = −d²/a,
+  deg D_r = −b d − r deg L.
+More generally E_(i+r)=E_i⊗O_c(−rc).
+
+At a point p of c let ρ_p be the local Cartier index of c (it divides r). Write h for a local generator of J_(ρ_p) and u for a local lift to J_1 of a basis of L. The local coefficient of D_(ρ_p) is δ_p=ord_p((u^ρ_p/h)|c). The restriction is regular and generically nonzero. It has order zero exactly when c is Cartier at p: if the ratio is a unit then u^ρ_p generates J_(ρ_p) around p, so div(u)=c; the Cartier case is immediate. For a global multiple r the same coefficient of D_r is (r/ρ_p)δ_p (take h^(r/ρ_p) as equation). Thus ∑δ_p/ρ_p=−c²−deg L, with c²=d²/a the rational Cartier square from the actual relation. The sum vanishes precisely for Cartier c.
+
+For a quintic containing C, generic regularity along C follows because double vanishing would force a factor of the unique containing quadric (the divided restriction of a quintic with two copies of C has noneffective class). Under a mate the single inverse c maps isomorphically to C and 5k c∼4kH, with H²=5 and H·c=4. Thus deg L ≤−16/5, hence ≤−4. The actual conormal map N_C^*≅O(−7)^2→L is generically nonzero because f is iso at the generic point of C and c is then a Cartier curve in smooth X. Its image is L(−G), with G a common-zero divisor. After division the two coefficients form a basepoint-free pencil (including its possible constant map) of degree j=7+deg L−deg G. Hence
+  j+deg G=7+deg L≤3.
+This excludes every mate degree on any actual candidate normalization where j+deg G≥4. It does not assert any such model exists or rule out all non-Gorenstein quintics. If deg L=−4 the non-Cartier defect sum is 4/5, allowing at most four actual index-five points (each costs at least 1/5); no bound on the possible local indices was used.
+
 ## 3. Multiplicity ten without global primitivity or a regular ratio
 
 The separately delegated [multiplicity-ten filtration audit](../residuals/quasiprimitive_residual_cycles.md#uniform-quasiprimitive-restrictions-with-a-quartic-carrier)

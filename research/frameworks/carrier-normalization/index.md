@@ -178,3 +178,7 @@ These are distinct proof mechanisms, not interchangeable exclusions. The [origin
 - [Cartier indices, normal socles, and sextic applications](cartier_indices_and_sextic_applications.md)
 
 Projection admissibility, full inverse support, and conductor-unit descent are separate tests. The [original normalization section addresses](normalization_conductor_projection.md) remain navigable.
+
+### Contact tests on actual marked normalizations
+
+The [Cartier-index comparison](../../arguments/carriers/quintic_conormal_and_factor_geometry.md#the-conormal-defect-of-a-marked-cartier-multiple) bounds the degree of the conormal direction plus its rank-drop divisor, without assuming a smooth normalization along the marked curve. The residual gap is to compute those quantities on surviving actual carriers, rather than infer them from the polarization. On the [endpoint V5 correspondence](../../arguments/residuals/blowup_residual_geometry.md#a-conductor-requirement-on-the-endpoint-carriers), a generically regular integral component with smooth inverse normalization needs specified excess from nonsmooth conductor contacts. That requirement does not decide those contacts or cover interior equality slopes with a common conic.
