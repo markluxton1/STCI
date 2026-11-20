@@ -1772,6 +1772,143 @@ degree-six norm case. Endpoint-concentrated one-lift
 norms, higher degree, and nonsplit carriers are not
 excluded by this classification.
 
+### One-lift sextics: the conormal zero budget
+
+Consider instead an integral one-lift split sextic in
+characteristic zero. Orient the signed cubic \(S\subset X\)
+so it contains \(D\), not \(D'\). The one-lift conductor
+formula implies that for any actual mate the nonzero
+restriction \(Q|_C\) is a binary monomial of degree eight.
+Assume first that \(S\) is generically smooth along \(D\).
+The normal derivative of the signed equation then has a
+zero divisor on \(D\), supported at the actual singular
+points along it. We describe the degree and multiplicity
+budget of those zeros before applying numerical pullback.
+
+In the first chart take \(t=x_1/x_0\),
+\(u=z/x_0-t^2\), \(v=x_2/x_0-t^3\). The cover equation
+gives \(x_3/x_0=t^4+2tv-2t^2u-u^2\). At the other
+endpoint take \(T=x_2/x_3\), \(U=z/x_3-T^2\),
+\(V=x_1/x_3-T^3\). Modulo the square of the ideal of \(D\),
+\[
+U=-t^{-4}u,\qquad V=t^{-6}v-4t^{-5}u,
+\qquad V-4TU=t^{-6}v .
+\]
+Thus the conormal splits into degrees \(-4,-6\), with
+the indicated generators. Twisting by the cubic degree
+adds twelve on \(D\), giving derivative components of
+degrees eight and six. If the degree-six component is
+nonzero, the common zero divisor has length at most six,
+including multiplicities.
+
+If that component vanishes identically, the degree-eight
+component has a constrained source. Write
+\(Q|_C=s^{8-i}t^i\), up to nonzero scalar, with
+\(0\le i\le8\), in binary coordinates. The signed restriction
+fixes \(P|_C=-s^{10-i}t^{i+2}\) with the same scalar.
+Choose monomial lifts for an initial signed cubic of
+weight \(i+2\) under the torus preserving \(D\); the
+weights of \(x_0,x_1,x_2,x_3,z\) are \(0,1,3,4,2\).
+All variations at fixed restrictions are \(q\) times
+the four downstairs coordinates, \(zq\), and the
+three cubics
+\[
+x_0^2x_2-x_1^3,qquad x_0x_2^2-x_1^2x_3,qquad
+x_1x_3^2-x_2^3 .
+\]
+Indeed the seven downstairs variations have distinct weights,
+and restriction of cubic forms
+downstairs achieves all thirteen binary weights, so
+they span its kernel. Degree-two restriction downstairs
+has only the kernel spanned by \(q\).
+The coefficient of \(v\) for these variations is
+\(t,t^2,t^4,t^5\) from the four \(q\) multiples,
+\(t^3\) from \(zq\), and \(1,0,t^6\) from the
+three cubics. This follows from \(q=tv-2t^2u\) to first
+order; the middle cubic has \(u\)-coefficient \(2t^4\).
+Thus one can cancel the degree-six component in its
+initial weight, and the remaining freedom is only
+the middle cubic. The degree-eight component is
+of the form \(\alpha t^i+\beta t^4\) on this chart,
+homogenized to degree eight. If nonzero, it has
+at most five distinct zeros on the parameter line:
+when \(i=0,8\) there are at most four torus roots
+and one endpoint, and otherwise at most three torus
+roots and two endpoints. A monomial has at most two
+distinct zeros. This proves the bound of six distinct
+singular points in all generically smooth cases,
+without assuming that the zeros are simple.
+
+If the singularities along \(D\) are Du Val, intersecting
+a hypothetical mate with its inverse curve on the
+normalization gives a precise correction demand.
+The mate has cycle \(\lambda D\), with
+\(\lambda=3b/2\) by hyperplane degree. Adjunction on a
+resolution crepant along \(D\) gives
+\(\widetilde D^2=-2\), by the canonical form of the
+\((2,3)\) complete intersection. Thus numerical pullback
+would need
+\[
+\sum_{p\in D\cap\operatorname{Sing}S}\operatorname{corr}_p
+=2+\frac{4b}{\lambda}=\frac{14}{3}.
+\]
+The calculation is local along \(D\), so no normality
+assumption is needed elsewhere. In particular if every
+hit is \(A_1\) or \(A_2\), its correction is at most
+\(2/3\); six such points give at most four. This rules
+out every mate degree in the mild sector, even when
+the degree-six component vanishes.
+
+A stronger comparison uses the length rather than the
+number of derivative zeros. Suppose all singular points
+on \(D\) are \(A_n\) and the degree-six component is nonzero.
+At a hit of type \(A_n\) write its local equation
+as \(xy=z^{n+1}\). The strict smooth lift meets just one
+exceptional component once, as above. If this is vertex
+\(j\), let \(r=\min(j,n+1-j)\). Along that component
+the orders of \(x,y,z\) are \(j,n+1-j,1\), respectively,
+from the toric resolution. Their restrictions to the
+lift have at least those orders. The Jacobian ideal
+\((x,y,z^n)\) thus vanishes along the lift to order at
+least \(r\); this is a lower bound on the common conormal
+zero order because differentiation along the lift itself
+is zero. Its inverse Cartan correction is
+\(r-r^2/(n+1)\). Consequently \(M=\sum r\le6\), and if
+there are \(k\) hits then \(k\le M\). The K3 smoothing
+bound on the marked \(A_n\) configurations gives
+\(\sum n\le19\) without an assumption away from the lift.
+Cauchy–Schwarz now bounds the total correction by
+\[
+M-\sum\frac{r^2}{n+1}\le
+M-\frac{M^2}{19+k}\le\frac{114}{25}<\frac{14}{3};
+\]
+the second bound uses \(k\le M\le6\).
+This rules out all \(A_n\) singularity sizes on this
+conormal stratum, including multiple derivative zeros.
+
+If the common derivative zeros are reduced, one can
+apply the same estimate without assuming the local
+types or a nonzero degree-six component. At a simple
+zero the Hessian pairs the tangent of \(D\) with a
+nonzero normal direction. A singularity with such
+rank is a node or has the fixed rank-two splitting
+\(xy+f(w)\); if \(f=0\) the lift cannot lie in the
+singular curve, since it is generically smooth on
+the original surface. The other formal sheet then
+violates inverse support on the actual mate,
+including at a marked endpoint: the one-lift signed
+complete intersection has sole curve support \(D\).
+Thus it must be \(A_n\), with the lift outside the
+Hessian radical and meeting an end. The at most six
+simple hits have \(M=k\le6\) and obey the same bound.
+
+The unresolved one-lift sectors include the multiple
+zeros of the degree-eight binomial when the degree-six
+component is identically zero, non-\(A_n\) corrections
+at multiple zeros, and a signed cubic singular
+generically along \(D\). This is separate from the
+two-lift sextic exclusion.
+
 ### Arithmetic control and comparison of traits
 
 For the actual char-three pair A=x1³−x0²x2, G=x0x3³−x2⁴, both endpoint algebras are O[Y]/Y³. At 0 choose Y=x3−t⁴; r=t⁴−Y. At infinity choose Y=x1−t³; r=t⁴−tY. In either case z=t²+t^(j−2)Y+t^(2j−6)Y² with j=0 or 1 respectively. The multiplication matrix in basis 1,Y,Y² is triangular with these coefficients in its successive lower diagonals. The potential smallest two-minor is zero by equality of the two diagonal/off-diagonal products. The minimum over all minors is −6 or −4, respectively, from the Y² coefficient; hence (δ0,δ∞)=(6,4). This is a calculation for the actual supported char-three pair, not a char-zero lift or its lower-root defect.

@@ -110,8 +110,13 @@ cluster is not in itself evidence against the workflow.
   now closes the two-lift split sextic sector in characteristic zero:
   no mate exists in any degree, with no normality assumption on the
   signed cubic. Higher-degree two-lift cases are separate.
-  Endpoint-concentrated nonzero norm coefficients are a separate
-  one-lift case. For larger nonsplit sources, seek capacity bounds
+  In the [one-lift sextic case](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#one-lift-sextics-the-conormal-zero-budget),
+  the conductor forces a monomial norm coefficient and gives a
+  conormal zero budget of six. It excludes the \(A_1/A_2\) sector,
+  and the \(A_n\) sector with nonzero degree-six derivative or
+  reduced common zeros. Higher non-\(A_n\) cases, multiple common
+  zeros in the remaining binomial cases, and generic singularity
+  still require separate tests. For larger nonsplit sources, seek capacity bounds
   without fourth-order divisibility. The weighted criterion assumes
   smooth solvability in the specified endpoint normal coordinate; a
   first symbol alone neither supplies that hypothesis nor computes
