@@ -86,10 +86,11 @@ replaying the old inventory or re-auditing every archived file.
   · [Moving comparison](../quotient-hilbert-comparison/index.md#relation-persistence-control-and-remaining-bridge)
   · [Generator incidence](../supported-generator-incidence/index.md).
 - **Checked finite pilot.** The [two-parameter residual sextic family](../../results/endpoint_equation_torsion.md#the-complete-detection-stratification-of-a-two-parameter-pilot) has fixed extremes, \(e_L=1\), and a fixed CI polynomial, but its missed length is one on the dense parameter open and zero on a parameter divisor where the flat limit contains \(6[L]\). This exactly identifies the detection strata of that family. It shows why those shared data alone cannot provide the needed strict bound; it is not a supported construction or a closure of KG02.
+- **Canonical-source refinement.** The [equation-layer theorem](../../arguments/torus/chow_matched_equation_layers.md) makes each end-adapted raw ideal intrinsic and shows that nonadaptation delays all hidden line layers. The explicit first-length change eight to zero is a generator artifact, not erased cancellation. Endpoint Kummer data alone do not determine that raw first length; opposite optimized generators need not be the same representative. The whole filtered degree-labeled sources of the same ideal are the revised comparison target.
 - **Next test.** Pick one declared proper bidegree family with
   \(e_L>0\). Derive a projective bound on the joint first-layer kernel
   directly from the two degree-labeled equation sources, on the **same**
-  family at both ends. Check the \(W_0\) missed-class example first.
+  family at both ends, using canonical end-adapted sources and retaining higher line layers. Check the \(W_0\) missed-class example first.
 - **Decision.** A uniform bound below \(e_L\) forces residual degree on
   that family; a verified full supported family passing the test is
   useful for equation recovery. Do not infer either from an unperformed
