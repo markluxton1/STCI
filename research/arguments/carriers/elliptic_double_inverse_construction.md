@@ -741,6 +741,88 @@ points of \(X\). Only then does the \(S_2\) extension property of the
 integral hypersurface imply global target regularity. Full support
 of \(Z\) and higher-degree coordinate-subalgebra descent remain open.
 
+#### A finite descent test on the residual quadric curve
+
+Continue with birational octics, and suppose the source residual curve
+\(D\) is integral and \(R_Q\) is reduced. The cycle identity proves
+that \(D\to R_Q\) is finite birational. Let \(T\) be the second ruling
+line of the target quadric. The two maps to \(T\) are finite flat of
+degree two: they have degree two from the ruling calculation, are
+nonconstant on the integral curves, and their direct images are
+torsion-free over the smooth line. The arithmetic genera are one
+for the source \((2,2)\) curve and five for the target \((2,6)\) curve,
+by adjunction. Thus the trace splittings of the two algebras over
+\(T\) are \(\mathcal O_T\oplus\mathcal O_T(-2)\) for \(D\) and
+\(\mathcal O_T\oplus\mathcal O_T(-6)\) for \(R_Q\), by their Euler
+characteristics. Trace agrees on the common generic algebra, so the
+inclusion on the trace-zero summands is multiplication by a nonzero
+binary quartic \(h\).
+
+Locally on \(T\) this is the inclusion \(A\oplus hAw\subset A\oplus Aw\),
+with \(w^2\in A\) for a trace-zero generator \(w\).
+Both \(a+bw\) and \(w(a+bw)\) belong to the smaller algebra precisely
+when \(h\) divides \(a,b\). The conductor on \(D\) is therefore
+\(h\mathcal O_D\), cutting out a scheme of length eight. The target
+double-cover discriminant is the source discriminant times \(h^2\),
+as is seen by replacing \(w\) with \(hw\). This is the conductor
+of the residual curves, not the ambient surface conductor or, if
+\(D\) is singular, the conductor of a normalization. Concretely the
+binary discriminant of the residual equation divided by the degree-four
+trace discriminant of \(D\) gives \(h^2\) up to scalar; neither
+discriminant is assumed squarefree.
+
+Near the finite conductor fibers use a target frame of
+\(\mathcal O_X(1)\), pulled back to \(D\), to express the section
+\(e=Q_0\). By the algebra inclusion, \(e^b|_D\) descends to \(R_Q\)
+if and only if its trace-zero part vanishes modulo \(h\). This is
+necessary for a degree-\(b\) mate by (8). On a conductor fiber disjoint
+from \(E\), \(e\) is a unit and the condition becomes
+\[
+ (e/\tau e)^b=1\quad\text{in }\mathcal O_D/(h),
+\]
+where \(\tau\) is the involution of the source double cover.
+The ratio is independent of the target frame on the conductor,
+because target functions have invariant image modulo \(h\).
+In characteristic zero a nontrivial principal unit has infinite
+order, as follows by taking the first nonzero term in the nilpotent
+filtration of its positive powers. Thus the residue ratios being
+roots of unity is not sufficient: the full ratio must be torsion
+in the finite algebra.
+
+If one point over a conductor fiber is on \(E\) and another is not,
+they map to the same target point (the trace-zero coordinate there
+is zero), and that target point lies on \(C_0\). The off-\(E\)
+point therefore already rules out full inverse support. For a
+full-support candidate every remaining conductor fiber is either
+disjoint from \(E\) or supported entirely on \(E\). In the latter
+case \(e\) acts nilpotently on its Artin algebra and \(e^b=0\)
+there for \(b\ge8\). Consequently eventual residual-curve descent
+in this scope is equivalent to all off-\(E\) ratios having finite
+order; any sufficiently large common multiple of their orders
+passes the residual test. This does not establish ambient descent.
+
+The scope occurs generically in the actual family, without asserting
+that a full-support survivor lies in it. On the basepoint-free locus,
+the derivatives of \(d\) in the four lifting parameters are
+\((U_4,-U_3,-U_1,U_0)\) by (5), so the total divisor is smooth.
+By generic smoothness and properness the general \(D\) is smooth,
+and its ample class makes it connected. The original coefficients
+(4) with \(\mu=2\) and zero lifts give an exact control for generic
+degree one onto the residual target. Reduce at \(i\mapsto5\)
+over \(\mathbf F_{13}\) on \(Z_0=1\). In the second-ruling fiber
+\(B=9\), the two points \((Z_1,Z_2,Z_3)=(6,7,12),(12,12,5)\)
+are off \(E\), with target tuples \((12,10,4,12),(8,10,7,12)\);
+their first-ruling values are respectively 3 and 11. The determinants
+of the derivatives in \((Z_1,Z_2,Z_3)\) of
+\((Q_1+2Q_0,U_3-9U_0,U_4-9U_1)\) are 7 and 12.
+Thus these distinct first-ruling values persist on a pair of points
+étale-locally to characteristic zero and to general parameters.
+A degree-two image map on the integral \(D\) would instead have
+image second-ruling degree one, so could not give those two values.
+Thus the general \(R_Q\) is reduced by the cycle identity. Keep the
+full inverse support test first; only for a survivor in this scope
+does the finite conductor algebra give the next descent check.
+
 #### Matrix formulation
 
 There is a single matrix test throughout the basepoint-free locus. In

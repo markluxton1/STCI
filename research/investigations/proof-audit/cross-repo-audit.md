@@ -104,6 +104,9 @@ a null result would not by itself invalidate the method.
   The [vertical-divisor identities](../../arguments/carriers/elliptic_double_inverse_construction.md#the-vertical-divisor-counts-the-residual-inverse-scheme)
   count the whole inverse scheme with multiplicity and relate it to
   the residual conductor on the marked double cover.
+  For a support survivor in the integral residual-curve scope, the
+  [length-eight residual conductor test](../../arguments/carriers/elliptic_double_inverse_construction.md#a-finite-descent-test-on-the-residual-quadric-curve)
+  gives a finite necessary descent check before any ambient search.
   See the [normalization gates](../../frameworks/carrier-normalization/open_carrier_cases.md).
 - [Normal symbols and the cubic contraction](../../results/connected_normal_directions.md#what-the-cubic-contraction-misses-in-the-attachment-count):
   the joint bound charges the residual degree visible on \(V_5\).
