@@ -38,9 +38,9 @@ Prefer explanations that reveal why a result holds and how broadly it applies.
 
 Follow the [research workflow](research/MODEL.md#research-roles-and-delegation) and [contribution workflow](research/MODEL.md#contribution-workflow).
 
-Delegate bounded technical tasks with clear scope and stopping conditions. Use the lightest model and reasoning effort sufficient for the task. Retire child agents when their retained context is no longer useful.
+Delegate bounded technical tasks with clear scope and stopping conditions. Choose model capability and reasoning depth for the mathematical demands; cost awareness must not reduce the depth needed for a consequential review. Retire child agents when their retained context is no longer useful.
 
-Independently review consequential mathematical claims before accepting them.
+Independently review consequential mathematical claims before accepting them. For substantive research PRs, obtain the [six independent review perspectives](research/MODEL.md#six-independent-review-perspectives), then integrate their findings through the full synthesis and current-state review.
 
 ## Integration
 
