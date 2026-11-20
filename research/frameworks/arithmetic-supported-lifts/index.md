@@ -98,3 +98,7 @@ an actual comparison map with its specialization hypotheses.
 The shared [positive-characteristic references](../../literature/README.md#positive-characteristic)
 distinguish the quartic constructions from affine theorems and from
 hypotheses needed for degree transfer.
+
+### A comparison for compatible quadratic-conductor lattices
+
+The [actual endpoint matrix](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#arithmetic-control-and-comparison-of-traits) gives a fixed characteristic-three calibration and lower semicontinuity in the direction \(\delta_{\mathrm{special}}\le\delta_{\mathrm{generic}}\). This uses compatible finite free endpoint lattices on a supported trait. It does not identify the conductor with a Frobenius-root endpoint defect or give the opposite inequality needed for an obstruction by specialization.
