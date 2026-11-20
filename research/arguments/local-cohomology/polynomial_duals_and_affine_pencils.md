@@ -423,14 +423,18 @@ the induced map of the multiplication *quotients* in (P1).
 
 Let \(S=k[x_0,x_1,x_2,x_3]\), \(I=I_C\), \(M=H_I^2(S)\), and let
 \(q\) cut the smooth containing quadric \(Q\).
-Put \(V(d,r)=H^0(\mathcal I_C^r(d))\). Multiplication by \(q\) on
-\(M\) is surjective, with its degree shift: for \(A=S/(q)\),
-\(\operatorname{Spec}A\setminus V(IA)\) is the punctured line bundle
-over \(Q\setminus C\). The bundle map is affine (the direct sum of
-all positive and negative powers yields its relative spectrum),
-and its base is affine because \(C\) is ample on \(Q\).
-Therefore \(H_I^2(A)=H^1(\operatorname{Spec}A\setminus V(IA),\mathcal O)=0\),
-and the hypersurface sequence gives the surjection. For a homogeneous
+Put \(V(d,r)=H^0(\mathcal I_C^r(d))\). For \(A=S/(q)\), the open
+\(U=\operatorname{Spec}A\setminus V(IA)\) avoids the cone vertex and is
+the \(\mathbf G_m\)-torsor of nonzero vectors of the tautological line
+bundle over \(Q\setminus C\). Its projection is affine: the torsor is
+the relative spectrum of the algebra of all integral powers of the
+line bundle. The base is affine since \(C\) is an effective ample
+Cartier divisor of type \((1,3)\) on \(Q\). Hence \(U\) is affine.
+The localization long exact sequence on affine \(\operatorname{Spec}A\)
+identifies \(H_I^2(A)\) with \(H^1(U,\mathcal O_U)=0\). Applying graded
+local cohomology to \(0\to S(-2)\xrightarrow{q} S\to A\to0\)
+therefore gives a graded surjection \(M(-2)\xrightarrow{q}M\).
+For a homogeneous
 ancestor \(\alpha\), choose \(q\alpha'=\alpha\) with \(\alpha'\)
 two degrees lower. Then \((qH)\alpha'=H\alpha\) for every actual
 old multiplier \(H\), preserving both target values in their original

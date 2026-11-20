@@ -297,9 +297,12 @@ empty because the leader \(V^6\) is a unit at the generic line.
 
 These are different actual ideals, not another presentation change.
 Even both scalar indices together with the exact cycle and the
-extremal weights do not recover the canonical line layers. The
-restriction submodules and transverse coefficient data are not held
-fixed, and no equality of nonreduced Kummer defects is asserted.
+extremal weights do not recover the canonical line layers. A stronger comparison must retain the inclusions
+\(U_{\rm gen}\subset U_{\rm full}\subset W\), or at least their
+elementary divisors rather than only their summed lengths. These
+lattices and transverse coefficient data are not held fixed in the
+controls. No sufficiency of those elementary divisors for embedded
+geometry, or equality of nonreduced Kummer defects, is asserted.
 
 ## The global Cech kernel and the scope of Kummer comparisons
 
@@ -475,43 +478,54 @@ and they do not lie on the equality boundary of
 
 ### Filter actual equations before specializing
 
-Let \(K_d^r=H^0(\mathcal I_C^r(d))\) and give it the induced weight
-filtration. For an actual equation source \(J_d\),
+Let \(S_{d,w}\) be the weight-\(w\) piece of the full degree-\(d\)
+ambient source. For each sign take the decreasing filtration
+\(F_\pm^m S_d=\bigoplus_{\pm w\ge m}S_{d,w}\), with the induced filtration
+on every subspace. In \(\operatorname{gr}_\pm S_d\) the induced maps give
 \[
- \operatorname{gr}_{\pm}(J_d\cap K_d^r)
- \subseteq \operatorname{gr}_{\pm}(J_d)\cap K_d^r .
+ \operatorname{gr}_\pm(J_d\cap K_d^r)
+ \subseteq \operatorname{gr}_\pm J_d\cap\operatorname{gr}_\pm K_d^r,
+ \qquad K_d^r=H^0(\mathcal I_C^r(d)).
 \]
-Here the torus preserves \(C\) and hence \(K_d^r\). The inclusion can
-be strict: take \(J_4=W\) and \(r=2\) above. So even a contact equation
-visible in both extreme pencils need not lift to a contact equation
-in the actual pencil. The relevant source for a proposed comparison is
-the filtered *intersection*, not the separate associated-graded tests.
+The torus preserves \(C\), so \(K_d^r\) is weight graded and
+\(\operatorname{gr}_\pm K_d^r\) identifies with the same subspace in the
+signed weight grading. The inclusion can be strict: take \(J_4=W\)
+and \(r=2\) above. A contact equation visible in both extreme pencils
+need not lift to one in the actual pencil. This motivates retaining the
+joint filtration of the actual source, for example by its bifiltered
+Rees module; the example neither refutes nor proves such a comparison.
 
 The same issue constrains generator changes on the first blowup
 \(\pi\) of \(C\) with exceptional divisor \(E\). Fix a smooth marked
-section \(T\subset E\). Say a degree-\(d\) equation meets thresholds
-\((q,s)\) if it has order at least \(q\) on \(C\) and its pullback
-divided by a local equation of \(qE\) has order at least \(s\)
-along \(T\). This defines a linear subspace of actual equations, and
-torus transport carries it to the corresponding subspace for the
-translated section. If \(F\) has exact orders \((p,r)\) in this sense
-and \(G\) already meets \((q,s)\), then \(G+FH\) meets \((q,s)\)
-if and only if
+section \(T\subset E\). An equation meets thresholds \((q,s)\) if it
+has order at least \(q\) on \(C\) and its pullback divided by a local
+equation of \(qE\) has order at least \(s\) along \(T\). Order along
+\(T\) here means the order for the maximal ideal of the regular local
+ring at its generic point, independent of trivializations. The
+threshold space is linear and covariant under torus transport of
+\(T\).
+
+Let \(F\) have exact first order \(p\) and exact divided order \(r\)
+along \(T\), and suppose \(G\) meets \((q,s)\). For a nonzero multiplier
+\(H\), put \(a=\operatorname{ord}_C H\). At the generic point of \(T\)
+choose regular parameters \((e,z)\) with \(E=(e)\); after trivializing
+the line bundles write \(\pi^*F=e^p f\), \(\pi^*H=e^a h\).
+The domain property of the associated graded at the generic point of
+\(C\) gives \(\operatorname{ord}_C(FH)=p+a\). If \(p+a\ge q\), then
+the \(qE\)-divided product is \(e^{p+a-q}fh\), of order
+\((p+a-q)+r+\operatorname{ord}_T h\). Here the associated graded for
+\((e,z)\) is a polynomial domain and \(e\) has order one. In particular
+\(\operatorname{ord}_T(\pi^*H)=a+\operatorname{ord}_T h\), not merely
+the order of the first-normal divided pullback. By linearity,
+\(G+FH\) meets the thresholds if and only if \(FH\) does, namely
 \[
- p+\operatorname{ord}_C H\ge q,\qquad
- r+\operatorname{ord}_T(\pi^*H)+p-q\ge s .
+ p+a\ge q,\qquad r+\operatorname{ord}_T(\pi^*H)+p-q\ge s.
 \]
-Indeed both conditions are linear in the equation, and when the first
-holds the divided product is the product of the \(pE\)-divided
-pullback of \(F\) and \(\pi^*H\), times the \((p-q)\)th power of a
-local equation of \(E\), interpreted by cancellation if \(p<q\).
-Orders add because the associated graded rings at the generic points
-of the smooth centers are domains and \(E\) has order one along
-\(T\). These are lower thresholds: cancellation may increase exact
-orders. Thus endpoint adaptation and contact cannot be optimized
-independently by allowing all homogeneous multipliers. This gives
-a comparison criterion, not a contact bound for the sole-support
-case or an assertion about arbitrary degenerations of marked sections.
+The zero multiplier qualifies trivially. These are lower thresholds;
+cancellation can increase exact orders. Thus free optimization over
+all homogeneous multipliers need not preserve contact. No contact bound
+for sole support or assertion about arbitrary limits of marked
+sections is made here.
 
 ## Remaining equation-source comparison
 
