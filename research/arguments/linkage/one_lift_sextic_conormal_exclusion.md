@@ -25,8 +25,12 @@ forces a non-Du-Val point and finishes the theorem.
 The [separate normalization proof](signed_cubic_normalization_and_cartier_defect.md)
 excludes the unique generically singular signed cubic. The surviving
 one-lift sector is generically regular along the lift and non-Du-Val
-somewhere on it; if normal near the lift, it also satisfies the intrinsic
-Cartier-defect restriction in that proof.
+somewhere on it. Its actual mate and Cohen–Macaulay structure force the
+intrinsic Cartier-defect restriction even at nonnormal hits:
+\(g\in\{5,6,8\}\), with total defects \(1/3,4/3,10/3\), respectively.
+These are necessary conditions, not exclusions of the three strata.
+The separate singular-cubic exclusion holds in every characteristic
+different from two; the Du Val/K3 theorem in this file remains characteristic zero.
 It is independent of the [two-lift theorem](two_lift_sextic_exclusion.md),
 and “split” throughout means splitting in the fixed quadratic cover,
 not splitting of the first normal cone.
@@ -333,5 +337,7 @@ characteristic zero. No assumption on singularities
 away from \(D\) is required. Together with the
 [generically singular exclusion](signed_cubic_normalization_and_cartier_defect.md),
 this leaves a one-lift surface generically regular along \(D\), with
-non-Du-Val behavior somewhere on it. In the normal-near-\(D\) sector,
-the intrinsic defect condition is necessary, not a further exclusion.
+non-Du-Val behavior somewhere on it. The symbolic-layer proof applies
+without normality and confines every survivor to \(g=5,6,8\), with
+some least principal symbolic index divisible by three. These intrinsic
+defect conditions are necessary, not further exclusions.

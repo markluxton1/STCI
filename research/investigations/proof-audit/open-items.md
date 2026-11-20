@@ -16,8 +16,8 @@ The order, status and detailed next gates live in KG, not in a second ranking he
 
 | Decision | Strategic owner |
 | --- | --- |
-| What projective constraint controls deep normal contact of actual equations? | [KG01](knowledge-gain-priorities.md#kg01-projective-limits-on-deep-generic-normal-contact) |
-| When do both torus ends and actual generator layers force residual support? | [KG02](knowledge-gain-priorities.md#kg02-actual-equation-layers-and-the-two-torus-ends) |
+| What do full toric limits and embedded corrections say about the quadratic conductor? | [KG01](knowledge-gain-priorities.md#kg01-projective-limits-on-deep-generic-normal-contact) |
+| Which actual Chow arrangements and collisions occur as the carrier and thickening vary? | [KG02](knowledge-gain-priorities.md#kg02-actual-chow-arrangements-collisions-and-full-torus-limits) |
 | Can marked absorption lift to proper ambient equations and terminate at zero residual? | [KG03](knowledge-gain-priorities.md#kg03-globalizing-a-marked-absorption-step) |
 | What controls exceptional carriers outside the proved fixed-residual lifting opens? | [KG04](knowledge-gain-priorities.md#kg04-residual-capacity-outside-the-ordinary-open) |
 | Can the full elliptic inverse scheme have marked support and admit actual power descent? | [KG05](knowledge-gain-priorities.md#kg05-full-inverse-support-and-descent-for-the-elliptic-family) |
@@ -39,7 +39,7 @@ Their current hypotheses and controls remain at the linked source.
 - **Projection and liaison:** [actual homogeneous realization](../../frameworks/global-equation-realization/projection_and_liaison.md) asks for sources overcoming the missing-section or conductor-postulation gates; ACMness, AG and two-generation are different conditions.
 - **Octic multiplier kernels:** [actual kernels, fixed divisors and joint generation](../../frameworks/residual-construction/octic_multiplier_kernels.md) remain to be determined on the stated first-compatible roots.
 - **Finite common ancestors:** the [quartic tensor incidence remainder](../../frameworks/local-cohomology/open_quartic_ancestors.md) is a bounded question separate from KG09's all-degree persistence.
-- **Structural proper-pair criterion:** the [Chow-resultant owner](../../arguments/equations/chow_polytope_rigidity.md) gives the exact coefficient criterion; a useful further description would characterize its arbitrary-equation locus without eigenform assumptions.
+- **Chow realization and collisions:** the [first-moment separator](../../arguments/torus/chow_arrangement_moments.md) excludes complete coalescence in the closure of invariant CI arrangements, including the reduced locus. The [proper-pair criterion](../../arguments/equations/chow_polytope_rigidity.md) still needs geometric analysis on non-invariant repeated-cycle lifts outside that closure.
 
 ## Proof explanations with a distinct purpose
 

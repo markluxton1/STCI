@@ -31,7 +31,10 @@ generator criteria work in every characteristic, while the invariant-CI
 obstruction has a different characteristic boundary.
 
 The boundary results constrain actual supported intersections but do not
-resolve unrestricted STCI. Their strategic bottleneck is **coverage of actual moving pairs**: a restriction on a selected full limit or attracting family is not an obstruction for arbitrary pairs unless a coverage theorem connects them. Additional boundary classifications should identify a new realization, generator, or coverage consequence.
+resolve unrestricted STCI. An obstruction for arbitrary pairs needs coverage
+of actual moving pairs. Boundary geometry and realization loci are also worth
+understanding before such an obstruction is known; examples and collision
+strata can reveal the next useful question.
 
 ## Two distinct uses of boundary valuations
 
@@ -40,6 +43,20 @@ The [coordinate-contact theorem](../../arguments/torus/general_coordinate_bounda
 ## Available results
 
 For effective one-cycles in every characteristic, [full Chow-polytope rigidity](../../arguments/equations/chow_polytope_rigidity.md) classifies equality with a multiple of the fixed quartic's full, unshifted column-weight polytope as a sum of diagonal translates. The subgroup fixes the cycle, not necessarily its defining ideal. This cycle statement does not recover Hilbert data, embedded points, moving generators, or a two-equation realization; projected polygons do not suffice.
+
+The [first-moment theorem](../../arguments/torus/chow_arrangement_moments.md)
+adds a linear Chow equation for invariant proper CI arrangements, including
+every reduced CI arrangement. In characteristic zero their full Chow closure
+avoids every complete collision \(m[C_{u,v}]\). Non-invariant repeated-cycle
+CI lifts need not belong to that closure; their realization remains open.
+
+The [fixed-carrier arrangement and simultaneous conductor comparisons](supported_deformation_questions.md)
+add actual incidence geometry and an exact endpoint correction. The quartic
+carrier permits partial collisions but requires at least three distinct
+translates in characteristic zero; the smooth quadric permits no such section.
+For full toric limits, the quadratic conductor changes by the difference of
+the base and selected graph's embedded endpoint lengths. Moving-carrier
+thickenings and control of that difference by global equations remain open.
 
 [R-0073](../../results/endpoint_equation_torsion.md) gives the kernel of
 restriction to the two completed endpoints for every layer of the raw

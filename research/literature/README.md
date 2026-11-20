@@ -103,6 +103,20 @@ A modern survey (D'Cruz, Theorem 2.7) states that arithmetically Cohen--Macaulay
   ACM, so this broad positive theorem stops exactly before the smallest open
   smooth case.
 
+## Artinian Jordan type and the quadratic conductor
+
+Anthony Iarrobino, Pedro Macias Marques and Chris McDaniel,
+*Artinian algebras and Jordan type*, [arXiv:1802.07383](https://arxiv.org/pdf/1802.07383),
+Theorem 2.5, Proposition 2.10 and Lemma 2.15.
+
+The November 20, 2026 proof review checked the Jordan-type bound by the
+conjugate Hilbert function, the equality for a strong Lefschetz element,
+and the characteristic-zero height-two graded Artinian Lefschetz result.
+The [moving-conductor proof](../arguments/linkage/moving_quadratic_covers.md#four-general-points-and-the-maximum-length)
+uses these on the graded transverse algebra, then separately verifies that
+actual quadric lifts reach the required directions. The source alone does
+not establish global realization, conductor lengths or an STCI obstruction.
+
 ## Affine lci theorems and the projective gap
 
 ### Forster's affine-space theorem
@@ -219,6 +233,17 @@ The table gives value three at the admissible \(E_7\) vertex, stronger
 than the lower bound two sufficient for that proof. Theorem 3.1 is local
 near the curve; Theorem 3.2 has a stronger ambient canonical-bundle
 hypothesis and is not being applied to the quadric threefold.
+
+### Cohen–Macaulay purity and symbolic layers
+
+For the [symbolic Cartier-layer argument](../arguments/linkage/signed_cubic_normalization_and_cartier_defect.md#the-cartier-defect-restriction-in-signed-degree-m),
+[Stacks, §10.103, Lemmas 10.103.5 and 10.103.7](https://stacks.math.columbia.edu/tag/00N2)
+supply the standard purity input: quotienting a Cohen–Macaulay local
+ring by a nonzerodivisor preserves Cohen–Macaulayness in one lower
+dimension, and the quotient has no embedded associated primes. With
+the actual mate's sole support, its ideal is therefore primary at the
+marked curve. This replaces normal-surface divisor theory in that
+specific proof; it does not remove normality from unrelated results.
 
 ### Ferrand
 

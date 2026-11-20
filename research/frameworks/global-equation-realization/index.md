@@ -96,6 +96,16 @@ The [H16 cycle parameterization](../../arguments/equations/chow_polytope_rigidit
 
 The [H17 fixed-degree realization criterion](../../arguments/torus/boundary_reconstruction_and_defects.md#exact-fixed-degree-realization-of-embedded-facet-schemes) reduces a specified compatible embedded facet diagram to finite homogeneous polynomial feasibility using an ordinary power of I_C. It is an exact criterion, not a proof of automatic existence or an efficient all-degree search.
 
+The [translate and fixed-surface interface](../../arguments/torus/fixed_surface_restriction_lifts.md)
+expresses containment by arbitrary forms as coefficient evaluation at the
+chosen \((u,v)\), with joint transverse lengths retaining multiplicities.
+Restricted syzygies recover the abstract first annihilator of the surface
+equation; its embedded normal extensions remain necessary. On the toric
+quartic, a hypothetical characteristic-zero sole-support \(C_0\) pair of degrees \(a\le b\)
+can contain a power \(A^N\) only with \(4N>b\). No upper bound meeting
+that threshold, or automatic extension of scalar semigroup descent to
+the relation module, is established.
+
 ### What the equality-boundary correspondence leaves to realization
 
 The [actual marked section spaces](../../arguments/residuals/blowup_residual_geometry.md#the-marked-correspondence-on-the-whole-equality-boundary)

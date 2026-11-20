@@ -1,6 +1,7 @@
 # Signed cubic normalization and intrinsic Cartier defect
 
-Work over an algebraically closed field \(k\) of characteristic zero. Fix
+Work over an algebraically closed field \(k\) of characteristic different
+from two, unless a consequence explicitly requires characteristic zero. Fix
 
 \[
 X=V(z^2-2x_1x_2+x_0x_3)\subset\mathbf P^4,
@@ -25,17 +26,20 @@ can cut that surface properly with sole reduced support \(D\)**. In the
 fixed quadratic-cover one-lift sextic setting this removes the
 generic-singularity alternative, in every mate degree.
 
-For an integral signed degree-\(m\) surface normal near \(D\) and generically
-regular along it, a proper sole-support mate forces the common conormal-zero
-length to satisfy
+For an integral signed degree-\(m\) surface generically regular along
+\(D\), an actual proper sole-support mate forces the common conormal-zero
+length to satisfy, without normality,
 
 \[
 g\ge 4m-10+\lceil8/m\rceil.
 \]
 
-For \(m=3\), this says \(g\ge5\), with exact intrinsic Cartier defect
-\(g-14/3\). This is a necessary condition without an ADE or crepancy
-hypothesis, not an exclusion of the remaining non-Du-Val sector.
+For \(m=3\), the complete necessary list is \(g\in\{5,6,8\}\), with exact
+intrinsic defect \(g-14/3\in\{1/3,4/3,10/3\}\). Some local principal
+symbolic index is divisible by three. These are necessary conditions
+without an ADE or crepancy hypothesis; in characteristic zero they restrict,
+but do not exclude, all generically regular one-lift survivors, including
+nonnormal hits.
 
 ## The unique sheaf-square cubic
 
@@ -64,12 +68,21 @@ Negative exponents in this display have zero coefficient whenever needed.
 Different weights give independent coefficient equations. The ranks of
 the three-row blocks with columns
 \((1,\epsilon-2e_3,e_2+2e_3)\) are as follows; the formula specifies every
-column, so the table is also a small exact rank certificate.
+column. For an exact integral certificate, order each block's columns by
+descending lexicographic \((e_0,e_1,e_2,e_3,\epsilon)\), and number rows
+\((1,u,v)\). The final row gives one maximal minor in that order.
 
 | Weight \(w\) | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Number of columns | 1 | 1 | 2 | 3 | 3 | 3 | 4 | 3 | 3 | 3 | 2 | 1 | 1 |
-| Rank over \(\mathbf Q\) | 1 | 1 | 2 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 2 | 1 | 1 |
+| Rank | 1 | 1 | 2 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 2 | 1 | 1 |
+| Certified maximal minor | 1 | 1 | \(-1\) | \(-1\) | \(-1\) | \(-1\) | 1 | \(-1\) | 1 | \(-1\) | \(-1\) | 1 | 1 |
+
+For one-column blocks take row 1; for two-column blocks take rows 1,2.
+For three-column blocks take all rows and columns. At weight six take all
+rows and columns 1,2,4. These minors are units over \(\mathbf Z\), hence
+over \(\mathbf Z[1/2]\) and every residue field of odd characteristic.
+The ranks and the rank-29 total therefore require no sampled-prime test.
 
 At weight six, order the monomials as
 \((x_1^2x_3,x_0x_2^2,zx_1x_2,zx_0x_3)\). Their columns are
@@ -101,6 +114,9 @@ p(s,t)=(s^4,s^3t,s^2t^2,st^3,t^4),\qquad
 d(s,t)=\frac{p(s,\kappa t)-p(s,t)}{st}
        =(0,(\kappa-1)s^2,-2st,-(\kappa+1)t^2,0).
 \]
+
+Characteristic different from two ensures \(\kappa\ne\pm1\) and
+\(2\kappa\ne0\), the only characteristic restrictions in this construction.
 
 The columns \(p,d\) are independent at every base point: away from the
 endpoints \(p\) has nonzero first and last coordinates while \(d\) has both
@@ -180,127 +196,183 @@ This proves the all-mate exclusion on \(S\).
 ## The Cartier-defect restriction in signed degree \(m\)
 
 Let \(S_m\subset X\) be an integral degree-\(m\) hypersurface section
-containing \(D\), normal on a neighborhood of \(D\) and regular at its
-generic point. Suppose a nonzero degree-\(b\) section cuts \(S_m\) properly
-with sole reduced support \(D\). Its Cartier divisor is
-\(\lambda D\sim bH\); intersecting with \(H\) gives
+containing \(D\), regular at its generic point. Suppose an actual nonzero
+degree-\(b\) section cuts \(S_m\) properly with sole reduced support \(D\).
+Let \(\lambda\) be its generic order along \(D\). The intersection cycle
+has degree \(2mb\), so
 
 \[
-4\lambda=2mb,\qquad \lambda=mb/2,\qquad D^2=4b/\lambda=8/m.
+4\lambda=2mb,\qquad \lambda=mb/2.
 \]
 
-Only normality near \(D\) is needed for these rational Cartier intersections
-and the divisorial ideals below. A separate global normality hypothesis is
-unnecessary. The signed-surface [conormal transition](one_lift_sextic_conormal_exclusion.md#one-lift-sextics-the-conormal-zero-budget)
-gives \(N^*_{D/X}=\mathcal O_D(-4)\oplus\mathcal O_D(-6)\), with degrees
-on \(D\simeq\mathbf P^1\). Thus the defining equation induces
+The surface is Cohen–Macaulay as a hypersurface section of smooth \(X\).
+At a closed point \(p\in D\), put \(R=\mathcal O_{S_m,p}\), \(P=I_{D,p}\), and
+
+\[
+J_i=R\cap P^iR_P\quad(i\ge0).
+\]
+
+The local ring \(R_P\) is a DVR, and \(R/P\) is the regular local ring
+of the smooth curve \(D\). These coherent symbolic ideals glue near \(D\).
+Each \(E_i=J_i/J_{i+1}\) is killed by \(P\), has rank one over \(R/P\),
+and is torsion-free: multiplication by an element outside \(P\) does not
+change its DVR order. Hence the \(E_i\) are line bundles on \(D\).
+In particular \(L=E_1\) is the torsion-free conormal quotient, since
+\(P^2\subset J_2\) and equality holds after localization at \(P\).
+
+Let \(f\in R\) be a local mate equation. Since \(R\) is a domain,
+\(f\) is a nonzerodivisor. The quotient \(R/(f)\) is Cohen–Macaulay of
+dimension one and has sole minimal prime \(P\), hence no embedded primes.
+Thus \((f)\) is \(P\)-primary. These purity inputs are
+[Stacks, Lemmas 10.103.5 and 10.103.7](https://stacks.math.columbia.edu/tag/00N2).
+Contraction from the DVR gives
+
+\[
+(f)=J_\lambda,\qquad J_{\lambda+i}=fJ_i\quad(i\ge0).
+\]
+
+For the second equality, an element of \(J_{\lambda+i}\subset(f)\)
+is \(fa\) with \(a\in R\), and its DVR order forces \(a\in J_i\).
+The local equations glue as the image of \(\mathcal O_{S_m}(-bH)\), so
+
+\[
+E_\lambda=J_\lambda/J_{\lambda+1}
+\simeq\mathcal O_D(-bH).
+\]
+
+The signed-surface [conormal transition](one_lift_sextic_conormal_exclusion.md#one-lift-sextics-the-conormal-zero-budget),
+whose displayed coordinate identities hold in every characteristic other
+than two, gives
+\(N^*_{D/X}=\mathcal O_D(-4)\oplus\mathcal O_D(-6)\), with degrees on
+\(D\simeq\mathbf P^1\). The defining equation induces a generically nonzero
+map
 
 \[
 \mathcal O_D(-4m)\longrightarrow
 \mathcal O_D(-4)\oplus\mathcal O_D(-6).
 \]
 
-It is generically nonzero by generic regularity. Let \(g\) be the length
-of its common-zero divisor, with multiplicities, and saturate its image.
-The resulting torsion-free rank-one quotient is a line bundle \(L\), of
-degree
+Let \(g\) be the length of its common-zero divisor, with multiplicities.
+Saturating the image gives torsion-free quotient \(L\), and therefore
+\(\deg L=4m-10-g\). Multiplication induces generically nonzero maps
+\(L^{\otimes i}\to E_i\). At \(i=\lambda\), the effective zero divisor
+has degree \(-4b-\lambda\deg L\ge0\). Consequently
 
 \[
-\deg L=(-4-6)-(-4m+g)=4m-10-g.
-\]
-
-Intrinsically, put \(J_i=\mathcal O_{S_m}(-iD)\) on the normal neighborhood.
-The quotient \(J_1/J_2\) is exactly \(L\): it is the torsion-free quotient
-of \(I_{D/S_m}/I_{D/S_m}^2\), since ordinary and divisorial second powers
-agree at the generic DVR. The [divisorial-conormal lemma](../carriers/quintic_conormal_and_factor_geometry.md#the-conormal-defect-of-a-marked-cartier-multiple)
-applies directly, independently of its original quintic ambient geometry.
-For clarity, multiplication gives generically nonzero maps
-\(L^{\otimes i}\to J_i/J_{i+1}\) of line bundles on \(D\), and
-
-\[
-J_\lambda/J_{\lambda+1}
- \simeq\mathcal O_D(-\lambda D)
- \simeq\mathcal O_D(-bH).
-\]
-
-The effective zero divisor of the multiplication map at \(i=\lambda\)
-therefore has degree \(-4b-\lambda\deg L\ge0\). Consequently
-
-\[
-\deg L\le-D^2=-8/m,
+\deg L\le-\frac{4b}{\lambda}=-\frac8m,
 \qquad
 \boxed{g\ge4m-10+\lceil8/m\rceil}.
 \]
 
-More precisely, at each \(p\in D\) let \(\rho_p\) be the local Cartier
-index of \(D\), dividing \(\lambda\), and let \(h\) generate
-\(J_{\rho_p}\). Lift a local basis of \(L\) to \(u\in J_1\), and define
-\(\delta_p\) to be the vanishing order on \(D\) of \(u^{\rho_p}/h\).
-This is a nonnegative integer, independent of these choices. Its normalized
-value contributes to the exact identity
+This extends the [divisorial-conormal argument](../carriers/quintic_conormal_and_factor_geometry.md#the-conormal-defect-of-a-marked-cartier-multiple)
+to the possibly nonnormal surface using symbolic layers and the actual mate.
+When the surface is normal near \(D\), \(4b/\lambda=D^2\); that divisor
+interpretation is unnecessary for the inequality.
+
+For the exact local defect, let \(\rho_p\) be the least positive index for
+which \(J_{\rho_p}\) is principal; it exists because \(J_\lambda=(f)\).
+If \(J_r=(h)\), the same contraction argument gives
+\(J_{r+i}=hJ_i\). Write \(\lambda=q\rho_p+r\), with
+\(0\le r<\rho_p\). Then \(J_\lambda=h^qJ_r\) is principal, forcing
+\(J_r\) principal by cancellation in the domain. Minimality gives \(r=0\),
+so \(\rho_p\mid\lambda\).
+
+Lift a local basis of \(L\) to \(u\in J_1=P\), let \(h\) generate
+\(J_{\rho_p}\), and define
 
 \[
-\sum_{p\in D}\frac{\delta_p}{\rho_p}
-=-D^2-\deg L
-=g-4m+10-\frac8m.
+\delta_p=\operatorname{ord}_p\bigl((u^{\rho_p}/h)|_D\bigr)\ge0.
 \]
 
-Indeed at the global multiple \(\lambda\), the local multiplication zero
-has order \((\lambda/\rho_p)\delta_p\). A contribution is zero exactly
-when \(D\) is Cartier at \(p\): a unit ratio makes \(u^{\rho_p}\) generate
-\(J_{\rho_p}\), hence \(\operatorname{div}(u)=D\) locally. No resolution,
-Gorenstein condition or ADE classification is used.
+The ratio belongs to \(R\) and is generically nonzero on \(D\). A change
+of lift adds an element of \(J_2\), so changes \(u^{\rho_p}\) by an element
+of \(J_{\rho_p+1}=hP\). Changes of bases multiply its restriction by a
+unit. Thus \(\delta_p\) is well-defined. It is zero exactly when \(D\)
+is Cartier at \(p\). Indeed a unit ratio gives
+\(J_{\rho_p}=(u^{\rho_p})\), hence \(\sqrt{(u)}=P\).
+Cohen–Macaulay purity for \(R/(u)\) makes \((u)\) \(P\)-primary;
+its generic order is one, so contraction gives \((u)=P\).
+Conversely if \(P\) is principal its symbolic powers are ordinary powers,
+\(\rho_p=1\), and \(\delta_p=0\).
 
-For a signed cubic, \(\deg L=2-g\), so
+The zero order of \(L^{\otimes\lambda}\to E_\lambda\) at \(p\) is
+\((\lambda/\rho_p)\delta_p\). Summing gives the exact identity
 
 \[
-g\ge5,\qquad
-\sum_p\delta_p/\rho_p=g-14/3.
+\boxed{\sum_{p\in D}\frac{\delta_p}{\rho_p}
+=-\frac{4b}{\lambda}-\deg L
+=g-4m+10-\frac8m}.
 \]
 
-If its degree-six derivative component is nonzero, then \(g\le6\), hence
-\(g\in\{5,6\}\); the respective total intrinsic defects are \(1/3\)
-and \(4/3\). In particular \(D\) must be non-Cartier somewhere in this
-normal sector.
+For a signed cubic, \(\deg L=2-g\), so \(g\ge5\) and the defect is
+\(g-14/3\). Its derivative components have degrees eight and six and are
+not both zero. A nonzero degree-six component gives \(g\le6\); if that
+component vanishes identically, the nonzero degree-eight component gives
+\(g=8\). Thus the complete necessary list is
+
+\[
+\boxed{g\in\{5,6,8\}},\qquad
+\boxed{\sum_p\delta_p/\rho_p\in\{1/3,4/3,10/3\}}.
+\]
+
+In every case some \(\rho_p\) is divisible by three: otherwise a common
+denominator of the finitely many nonzero summands would be prime to three.
+In particular \(D\) is non-Cartier somewhere. These are necessary strata,
+not assertions that any of them is realized by a sole-support mate.
 
 ## Hypotheses, implications and remaining scope
 
 The cubic uniqueness and normalization use this fixed smooth quadric and
-its rational normal quartic, with characteristic zero ensuring the displayed
-ranks and separable chord parameters. The normalization argument excludes
+its rational normal quartic in every characteristic other than two. The
+integral maximal minors prove the jet ranks uniformly, and the explicit
+rational inverse proves birationality without a separability assumption.
+The normalization argument excludes
 all sections of positive degree with sole support \(D\), stronger than
 requiring a downstairs mate. In the [one-lift split setting](split_carrier_norm_and_conductor.md#split-carrier-the-conductor-is-an-actual-complete-intersection),
 an actual downstairs mate induces exactly such a section, so this closes the
 generically singular signed-cubic alternative there. Combined with the
-[smooth/Du Val closure](one_lift_sextic_conormal_exclusion.md#the-same-length-budget-controls-all-du-val-types),
-the surviving fixed-cover one-lift sextic sector is generically regular along
-\(D\) and has non-Du-Val behavior somewhere on \(D\).
+[smooth/Du Val closure](one_lift_sextic_conormal_exclusion.md#the-same-length-budget-controls-all-du-val-types)
+**in characteristic zero**, the surviving fixed-cover one-lift sextic sector
+is generically regular along \(D\) and has non-Du-Val behavior somewhere on
+\(D\). No positive-characteristic extension of the Du Val/K3 exclusion is
+asserted.
 
-The Cartier-defect restriction adds intrinsic information in the part of
-that sector normal near \(D\). Normality supplies divisorial orders and
-local Cartier indices; generic regularity supplies the nonzero conormal map;
-the actual mate supplies the Cartier multiple and its rational square.
-The numerical lemma itself uses none of the special endpoint monomial
-conditions of a one-lift norm. Its generality is every signed degree-\(m\)
-surface with the stated embedding and Cartier multiple.
+The intrinsic defect restriction applies in every characteristic other than
+two to every generically regular signed degree-\(m\) surface with an actual
+proper sole-support mate. Its local algebra needs only an integral
+Cohen–Macaulay surface, smooth \(D\), a DVR at its generic point, and that
+mate; no normality or characteristic restriction enters the symbolic-layer
+proof. The fixed conormal splitting and polarization supply the displayed
+numbers. Generic regularity supplies the nonzero conormal map and DVR;
+Cohen–Macaulay purity identifies the mate ideal with its symbolic order;
+actual sole support supplies that primary ideal and the global mate layer.
+No special endpoint monomial condition of a one-lift norm enters this
+numerical argument.
 
 The intrinsic defect sum is distinct from the exceptional-curve correction
-\(14/3\) in a crepant cubic resolution: the latter includes the strict
-transform square, whereas the former measures the failure of powers of the
-divisorial conormal line to generate the Cartier layer. Their shared
+\(14/3\) in a characteristic-zero crepant cubic resolution: the latter
+includes the strict transform square, whereas the former measures the
+failure of powers of the symbolic conormal line to generate the mate layer.
+Their shared
 conormal-zero source explains the comparison, but does not identify the two
-invariants. The restriction alone bounds neither all non-Du-Val local
-models nor their possible intrinsic defects. Nonnormal points along \(D\)
-remain outside this second argument. Neither conclusion gives a general
+invariants. The restriction fixes a short list of total intrinsic defects;
+it does not classify the local models or their individual symbolic indices,
+or prove that a listed stratum admits a mate. Nonnormal closed points on
+\(D\) are included provided the surface is regular at the generic point
+of \(D\); generic singularity is handled separately only for this fixed cubic.
+Neither conclusion gives a general
 sextic exclusion, closes generic singularity for arbitrary covers or higher
 signed degrees, or decides unrestricted STCI.
 
 ## Independent review
 
-The integrated proof was independently reconstructed on 2026-11-20,
-including all thirty rational jet columns and their rank-29 matrix,
-the finite birational ruled-surface map, its full endpoint inverse,
-and the divisorial-power saturation and Cartier-layer multiplication.
-The review confirms the stated fixed-cover and normal-near-\(D\) scopes;
-it does not extend the result to other covers or exclude the remaining
-non-Du-Val models.
+The integrated proof was independently reconstructed on 2026-11-20:
+all thirty jet columns and the thirteen unit maximal minors, the finite
+birational ruled-surface map and its full endpoint inverse, and the
+Cohen–Macaulay symbolic-layer argument without normality. The review
+checks principal-power periodicity, the least principal index, lift
+independence of the defect, zero defect exactly at Cartier points, and
+the complete cubic defect list. The fixed-cover cubic conclusions hold
+in characteristic different from two; the separate Du Val/K3 closure
+remains characteristic zero. No remaining non-Du-Val stratum or arbitrary
+cover is excluded by this proof.

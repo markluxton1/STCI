@@ -7,9 +7,10 @@ statement: "#statement"
 proofs:
   - name: separated covers, transverse lattices and the osculating quadric
     at: "#proof"
-    using: [STCI-R-0001]
+    using: []
     review:
-      state: pending
+      state: accepted
+      basis: reconstructed
       at: "#review"
 ---
 # Quadratic conductor postulation at one moving point
@@ -21,15 +22,17 @@ complete intersection with sole support \(C_0=[s^4:s^3t:st^3:t^4]\)
 over an algebraically closed field of characteristic zero.
 Write \(5\le a\le b\), \(n=ab/4\), and \(H\) for the Hilbert function
 of the maximal-ideal filtration of its generic transverse Artin
-algebra. The degree lower bound uses the
-[quartic-carrier exclusion](quartic_carrier_exclusion.md).
+algebra. The proof below takes \(a\ge5\) as a hypothesis. Applying
+that degree range to unrestricted existence uses the separately reviewed
+[quartic-carrier exclusion](quartic_carrier_exclusion.md), which is not
+reproved here.
 Put \(\Lambda_j=\#\{i:H_i\ge j\}\), \(L=\Lambda_1\), and
 \[
  S_\Lambda=\sum_j\binom{\Lambda_j}{2},\qquad
  M_\Lambda=\sum_j\lfloor\Lambda_j/2\rfloor,\qquad
  D_H=\min_{c\in\mathbb R}\sum_i H_i|i-c|.
 \]
-For the assertions about the homogeneous kernel assume \(F\) integral.
+For the homogeneous-kernel and scalar-postulation assertions assume \(F\) integral.
 This covers the unrestricted existence question: every pair of opposite
 irreducible factors of a hypothetical presentation cuts a nonempty
 curve supported on \(C_0\), hence is itself a presentation. Its
@@ -93,7 +96,8 @@ restriction to the reduced curve.
 The [smooth-carrier calculation](../arguments/linkage/conductor_on_a_smooth_carrier.md)
 gives the exact cyclic length and applies it to both cover families.
 
-For the scalar comparison, put \(q=\lceil b/2\rceil-1\) and
+For the scalar comparison use the integral carrier \(F\) in assertion 3.
+Put \(q=\lceil b/2\rceil-1\) and
 \(H_*=\binom{q+2}{3}-\binom{q-a+2}{3}\), with truncated binomials.
 This is the rank in degree \(q-1\) from the low-degree kernel. The
 [canonical injection](../arguments/linkage/quadratic_covers_and_conductor_descent.md#8-attachment-and-a-global-lower-bound-on-boundary-length)
@@ -140,11 +144,39 @@ exhibits how to recover an actual equation in the kernel. The outstanding
 question is which restrictions of homogeneous forms on a candidate
 thickening force such a failure, or which additional coefficients
 force its actual conductor length below the required lower bound.
-Existence of an unrestricted characteristic-zero pair remains open.
+
+## Limitations
+
+Neither the scalar estimates nor the ribbon control exclude an arbitrary
+pair. The homogeneous-kernel test requires the actual embedded thickening,
+and the fixed-endpoint slope calculation assumes the smaller carrier is
+smooth at both endpoints. Singular endpoints retain their full lattice
+problem. Existence of an unrestricted characteristic-zero pair remains open;
+the global conclusions here are not asserted in positive characteristic.
 
 ## Review
 
-The local algebra, the geometry of the moving covers and the scalar
-comparison were independently reconstructed during the investigation.
-The companion calculation checks the quadric and a homogeneous kernel
-over the moving parameter. Integration review is pending.
+On November 20, 2026, separate independent reviews reconstructed the
+local lattice bound and equality criterion, the singularity estimate,
+the exact cyclic lengths and endpoint codimensions, the scalar
+postulation comparison, the separated-cover construction, the general
+four-root locus, the osculating cone's nonsplitting, and the homogeneous
+kernel map. They checked the stated freeness, characteristic-zero,
+integrality and actual-CI hypotheses and found no material proof defect.
+The height-two Lefschetz input was checked against the
+[primary source](../literature/README.md#artinian-jordan-type-and-the-quadratic-conductor).
+
+The companion calculation was replayed with SymPy 1.14.0 and verified
+the osculating cone, conductor length three and unique moving plane on
+the ribbon control. This is exact support for that control, not a
+calculation of a hypothetical supported CI.
+
+Final integration review checked the Result, its three proof owners, the
+affected framework summaries, MAP and KG01 against current main, including
+the distinct odd-characteristic cover-choice scope and embedded toric graph
+corrections. The full framework comparison found no additional supported
+strengthening or stale implication after the smooth-source scalar question
+was closed. Further progress needs actual embedded inputs or the remaining
+exceptional/singular lattice evidence. The existing priority order remains
+a provisional comparison of tasks, not a consequence of proof acceptance.
+The focused proof files and replay route passed the retrieval review.

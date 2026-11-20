@@ -113,7 +113,7 @@ quartic-carrier exclusion is [R-0001](../../results/quartic_carrier_exclusion.md
 
 ## Filtrations and comparisons
 
-The generic transverse Hilbert function determines the **maximum**
+In characteristic zero, the generic transverse Hilbert function determines the **maximum**
 length of the separated quadratic conductor as the missing linear
 section and its quadric lift vary. Four general simple zeros attain
 it. An osculating quadric concentrates the boundary at one point and

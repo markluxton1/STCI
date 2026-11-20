@@ -105,18 +105,52 @@ The quadratic conductor now compares global postulation with both actual
 endpoint capacities on the same object, excluding specified carrier families
 in all mate degrees. [Choosing the auxiliary cover](arguments/linkage/quadratic_cover_choice.md)
 makes the nonsplit onset available for every integral carrier of degree
-greater than two in characteristic zero. For a smaller carrier smooth
-at both endpoints, the two conormal slopes leave at most one candidate
-for a scalar deficit in degrees at least six, and at most two in degree
-five. An osculating cover instead puts the full conductor at one
-general point and tests actual homogeneous kernels there.
-[Moving conductor theorem](results/moving_quadratic_conductors.md).
-The fixed-cover two-lift sextic sector
-is excluded without normality. Its surviving one-lift sector is generically
-regular along the lift and has non-Du-Val behavior there. These statements
+greater than two in characteristic different from two. In characteristic
+zero the uniform all-minors bound applies, but even one
+[smooth-transverse endpoint](arguments/linkage/endpoint_lattice_capacity.md#transverse-endpoints-throughout-the-cover-pencil)
+already has capacity exceeding the displayed scalar postulation bound for
+every cover. For a smaller carrier smooth at both endpoints, the two
+conormal slopes leave at most one candidate for a scalar deficit in
+degrees at least six, and at most two in degree five. Singular endpoints
+still require their full lattices. An osculating cover instead puts the
+full conductor at one general point and tests actual homogeneous kernels
+there. [Moving conductor theorem](results/moving_quadratic_conductors.md).
+The characteristic-zero fixed-cover
+two-lift sextic sector is excluded without normality. Its surviving
+one-lift sector is generically regular along the lift, has non-Du-Val
+behavior there, and satisfies the symbolic defect strata \(g=5,6,8\)
+without a normality assumption. The unique singular-cubic exclusion
+also holds in odd characteristic; the Du Val/K3 exclusions do not extend
+by this argument. These statements
 do not close the separate split-first-normal-cone frontier or improve the
 general degree bound. See the [current carrier scope](frameworks/carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)
 and [local/global interface](frameworks/global-equation-realization/projection_and_liaison.md#embedded-conductor-and-ambient-equations).
+
+Actual [pairs retaining the toric quartic as a defining equation](arguments/torus/fixed_carrier_chow_arrangements.md)
+have an exact coefficient description: the carrier's semigroup
+gaps force \(c_1=c_2=c_5=0\). In characteristic zero at least three distinct
+translates remain, while partial collisions occur; the root-of-unity examples
+form a special locus. This does not classify arbitrary CI thickenings whose
+support merely lies on that surface. The smooth quadric admits no such section,
+by its ruling
+classes. More generally, the [Chow trace moment](arguments/torus/chow_arrangement_moments.md)
+vanishes for pairs with an eigenform generator or specified polynomial
+congruences, including every invariant CI and reduced CI arrangement.
+Its linear Chow-coefficient equation separates their entire Chow closure
+from \(m[C_{u,v}]\) in characteristic zero. Non-invariant CI lifts over
+repeated cycles need not lie in that closure. Their realization geometry is
+the [current exploratory priority](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment).
+The [coordinate-to-equation interface](arguments/torus/fixed_surface_restriction_lifts.md)
+gives linear coefficient constraints for arbitrary surfaces containing the
+chosen translates, then retains joint transverse lengths and normal lifts.
+Fixed-surface syzygies recover a first annihilator, not the full embedded
+pair. For a sole-support \(C_0\) candidate, a sufficiently low-degree
+carrier-power certificate would force a forbidden fixed-carrier mate in
+characteristic zero.
+Separately, [simultaneous torus degeneration of the quadratic graph](arguments/linkage/toric_limit_conductor_comparison.md)
+compares original and pure-limit conductor lengths using the difference of
+the two embedded endpoint corrections. Their control by global equations is
+the missing comparison; endpoint concentration alone supplies no inequality.
 
 Two bounded objects in [Investigations](investigations/) currently connect the
 torus approaches, at different stages of readiness: [moving quotient and full Hilbert comparison](investigations/quotient-hilbert-comparison/index.md)

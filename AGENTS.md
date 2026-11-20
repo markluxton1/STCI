@@ -14,7 +14,7 @@ Seek geometric, intrinsic, and conceptual understanding, using computation and e
 
 Use that understanding to reassess the full body of results, and feed any further deductions back into the review. Follow the [iterative synthesis and stopping rule](research/MODEL.md#extract-implications-and-track-approach-gaps); finish when a full synthesis pass adds no material understanding, not merely when the original claim is verified. Independent proof review still governs new claims.
 
-Choose the next task from the resulting current understanding. Name the next thing the approach needs to understand; do not assign the final theorem as the default task.
+Choose the next task from the resulting current understanding. A meaningful question or unexplained phenomenon can justify exploration without a known theorem or solution bridge. State the expected understanding, bound the initial probe, and reassess from what is learned. Compare actual next tasks, including a neglected exploratory alternative, rather than inheriting a framework's priority or following momentum.
 
 ## Research context
 

@@ -2,7 +2,8 @@
 
 ## The cover-choice theorem
 
-Work over an algebraically closed field \(k\) of characteristic zero. Put
+Work over an algebraically closed field \(k\) of characteristic different
+from two. Put
 
 \[
 C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3,\qquad
@@ -14,8 +15,10 @@ r_\lambda=r+\lambda q
 X_\lambda=V(z^2-r_\lambda)\subset\mathbf P^4.
 \]
 
-**Theorem.** For every integral surface \(V(F)\subset\mathbf P^3\)
-of degree greater than two, there is a finite set
+**Theorem.** Let \(V=V(F)\subset\mathbf P^3\) be integral, with
+\(q|_V\ne0\) and \(r/q\in k(V)\) nonconstant. In particular these
+hypotheses hold for every integral surface of degree greater than two.
+There is a finite set
 
 \[
 E_F\subset k,\qquad \{1,2\}\subset E_F,
@@ -46,53 +49,52 @@ simultaneously for all integral carriers.
 
 ### Proof by a reduced pencil fiber
 
-Let \(V=V(F)\). Neither \(q\) nor any nonzero quadratic can vanish
-identically on \(V\), since \(F\) is irreducible of degree greater
-than two. In particular \(f=r/q\in k(V)\) is defined and nonconstant:
-if \(f=c\in k\), then \(F\) divides the nonzero quadratic \(r-cq\).
+First, if \(\deg F>2\), neither \(q\) nor any nonzero quadratic
+can vanish identically on \(V\). If \(r/q=c\in k\), then \(F\)
+would divide the nonzero quadratic \(r-cq\). This proves the
+sufficient degree criterion.
+
+Under the intrinsic hypotheses put \(f=r/q\in k(V)\), nonconstant.
+In characteristic zero put \(h=f\) and \(P=1\).
+In characteristic \(p>2\), write
+\[
+f=h^{p^e},\qquad P=p^e,
+\]
+with \(e\ge0\) maximal. This height is finite: a nonconstant rational
+function on the projective normalization has a nonzero divisorial
+valuation, and \(p^e\) must divide that fixed nonzero integer. Indeed
+a rational function with zero divisor on a normal projective variety
+is an invertible global regular function and hence constant. Since
+\(k\) is perfect, the kernel of the differential on \(k(V)\) is
+\(k(V)^p\); maximality therefore gives \(dh\ne0\). The same
+nonvanishing holds for \(h=f\) in characteristic zero.
 
 Choose a linear form \(\ell\) not vanishing identically on \(V\).
-On the normalization of \(V\), take the nonempty smooth open subset
+On the normalization take a nonempty smooth open subset \(U\) where
+\(h\) is regular, \(dh\ne0\), and \(q/\ell^2\) is a unit. The
+morphism \(h:U\to\mathbf A^1\) is smooth of relative dimension one,
+so its image is nonempty and open. Thus outside finitely many
+\(c\in k\), the fiber \(h^{-1}(c)\subset U\) is nonempty and
+smooth. Choose an irreducible component and take its closure \(E\)
+on the normal surface. Its generic point lies in \(U\), so
 
 \[
-U\subset\{q\ne0,\ \ell\ne0\}.
-\]
-
-There \(f:U\to\mathbf A^1\) is a dominant morphism. We check that
-a general fiber is nonempty and reduced without making assumptions
-on the singularities of the carrier or on the pencil's base locus.
-The critical locus is the zero locus of \(df\) on the smooth surface
-\(U\). Since \(f\) is nonconstant in characteristic zero, \(df\ne0\)
-at the generic point. Every positive-dimensional irreducible
-component \(Z\) of the critical locus is mapped to a point: the
-restriction of \(df\) to \(k(Z)\) is zero, and in characteristic zero
-the kernel of \(d:k(Z)\to\Omega_{k(Z)/k}\) is \(k\). Its
-zero-dimensional components also have point images. There are only
-finitely many such components, hence only finitely many critical
-values. Finally, the constructible dense image of \(U\) contains a
-nonempty open subset of \(\mathbf A^1\).
-
-It follows that outside finitely many \(c\in k\), the fiber
-\(f^{-1}(c)\subset U\) is nonempty and smooth of dimension one:
-at each point its equation \(f-c\) has nonzero differential. Choose
-an irreducible component and take its closure \(E\) on the normal
-surface. Its generic point lies in \(U\), so its divisorial valuation
-satisfies
-
-\[
-\operatorname{ord}_E(f-c)=1,\qquad
+\operatorname{ord}_E(h-c)=1,\qquad
 \operatorname{ord}_E(q/\ell^2)=0.
 \]
 
-For \(c=-\lambda\) this gives
+For \(\lambda=-c^P\) we have \(f+\lambda=(h-c)^P\), giving
 
 \[
 \operatorname{ord}_E(r_\lambda/\ell^2)
-=\operatorname{ord}_E\bigl((q/\ell^2)(f+\lambda)\bigr)=1.
+=\operatorname{ord}_E\bigl((q/\ell^2)(f+\lambda)\bigr)=P.
 \]
 
-A square has even valuation at every prime divisor, proving
-nonsquareness. This argument uses a moving pencil component away
+A square has even valuation at every prime divisor, whereas \(P\)
+is odd. The map \(c\mapsto-c^P\) is a bijection on \(k\), so the
+excluded parameter set is finite. This proves nonsquareness without
+claiming that a general fiber of \(f\) is reduced in positive
+characteristic. The argument uses a moving pencil component away
 from its base locus; fixed or exceptional divisors contribute no
 obstruction to finding that component.
 
@@ -103,6 +105,7 @@ values are unchanged. This proves the theorem.
 
 ## Consequence for the same conductor comparison
 
+For the remainder of this account assume characteristic zero.
 Suppose an actual proper homogeneous complete intersection
 
 \[
@@ -181,12 +184,37 @@ annihilator filtration therefore give
 \quad}                                                     \tag{2}
 \]
 
-Equations (1) and (2) constrain the **same chosen-cover conductor**.
-Consequently every actual pair under these hypotheses must satisfy
-the cover-independent necessary numerical inequality obtained by
-placing their right-hand sides in increasing order. Nonsplitting
-in the originally selected cover is not an additional restriction
-on this use of the moment comparison.
+The existing [all-minors estimate](endpoint_lattice_capacity.md#all-minors-capacity-and-a-cyclic-control)
+also applies with \(u=0\). Give level \(j\) to
+\(h_j\) basis vectors, equivalently to the basis vectors of
+\(\operatorname{ann}(J^{j+1})/\operatorname{ann}(J^j)\), and list the
+levels \(i_1\le\cdots\le i_n\). These multiplicities depend on the
+generic algebra of \(Y\), not on \(\lambda\). Let \(S_k\) be the sum
+of the \(k\) largest levels minus the sum of the \(k\) smallest,
+with \(S_0=0\). At both endpoints \(\epsilon_{\lambda,i}\in JA_i\),
+so
+\[
+\boxed{\quad
+\delta_\lambda\le2\max_{0\le k\le n}(4S_k-2k)
+\le2n(n-1).
+\quad}                                                     \tag{3}
+\]
+For the last inequality use \(S_k\le k(n-k)\) and
+\(\max_k(4k(n-k)-2k)=n(n-1)\), attained at
+\(k=\lfloor n/2\rfloor\).
+
+Equations (1), (2) and (3) constrain the **same chosen-cover
+conductor**. Thus the lower bound in (1) must be at most the minimum
+of the two upper bounds. Nonsplitting in the originally selected
+cover is not an additional restriction on these comparisons.
+
+The [transverse endpoint lemma](endpoint_lattice_capacity.md#transverse-endpoints-throughout-the-cover-pencil)
+computes \(\epsilon_\lambda\) on both charts and proves a sharper
+limitation: if even one endpoint has a pair member with a nonzero
+\(dv\) normal coefficient, its conductor length is \(n(n-1)\) for
+every allowed \(\lambda\), already strictly larger than the scalar
+lower bound (1). Varying the cover cannot produce a contradiction
+from that scalar comparison in this stratum.
 
 ## Scope and remaining capacity gap
 
@@ -194,9 +222,10 @@ The theorem needs no normality or endpoint regularity of the
 carrier and does not assume a mate exists. Its degree hypothesis
 ensures only that the restricted pencil is nonconstant; the proof
 also works for any integral carrier on which \(r/q\) is
-nonconstant. Characteristic zero supplies the reduced general
-fiber. The conductor application separately requires an actual
-supported complete intersection and the hypotheses of the cited
+nonconstant. In odd characteristic a reduced fiber of its maximal
+Frobenius root supplies an odd moving valuation instead. The
+conductor application above separately assumes characteristic zero,
+an actual supported complete intersection and the hypotheses of the cited
 conductor theorems; choosing a cover does not construct such a pair.
 
 Only the endpoint *values on the reduced curve* persist. In the
@@ -214,9 +243,13 @@ capacity estimate nor its conductor value transfers merely because
 the reduced lifts coincide. No semicontinuity, constancy or
 simultaneous favorable endpoint condition is asserted here.
 
-For an integral smaller carrier smooth at both endpoints, the
+This removes splitting as a coverage restriction for the nonsplit onset
+**when the cover may be chosen for each carrier**. In the characteristic-zero
+conductor application, the moment and all-minors bounds supply no
+contradiction for arbitrary pairs. For an integral smaller carrier smooth
+at both endpoints, the
 [two-endpoint calculation](conductor_on_a_smooth_carrier.md#the-two-fixed-endpoints-leave-at-most-one-common-parameter)
-now determines exactly where (1) can yield a contradiction. A dense
+now restricts where (1) can yield a contradiction. A dense
 open of actual carrier equations passes this scalar comparison in
 every allowed cover. From degree six upward, only the parameter
 cancelling both first coefficients can give a deficit; for a quintic
@@ -224,14 +257,18 @@ there are at most two candidates. Compute the higher coefficients
 and test nonsplitting there. A singular endpoint requires its own
 full lattice. A [different cover moving the boundary to one general
 point](moving_quadratic_covers.md#the-homogeneous-jet-test) tests
-the embedded ranks on all hypothetical pairs.
+the embedded ranks on all hypothetical pairs. Neither comparison proves
+a general sextic exclusion or settles characteristic-zero STCI.
 
 ## Independent review
 
-The integrated proof was independently reconstructed on 2026-11-20:
-finite critical values and the odd moving-divisor valuation, the
-carrier-dependent exceptional set, the postulation indexing and
-complementary Hilbert-function bound, and the conormal-moment comparison
-in the same chosen cover. The review retains the integral smaller-carrier
-hypothesis in the application and establishes no transfer of the finer
-endpoint estimates between covers.
+The integrated proof was independently reconstructed on 2026-11-20,
+including finite Frobenius height, the nonvanishing-differential open and
+odd moving valuation, the carrier-dependent exceptional set, and both
+uniform capacity bounds on the same chosen-cover conductor. The
+transverse-stratum deduction and its strict scalar inequality were also
+independently checked in the linked endpoint proof. The cover choice
+holds in characteristic different from two; the application retains
+characteristic zero and the integral smaller-carrier hypothesis. No
+transfer of finer endpoint estimates or positive-characteristic cyclic
+determinant equality is asserted.
