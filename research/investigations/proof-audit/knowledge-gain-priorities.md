@@ -98,8 +98,11 @@ cluster is not in itself evidence against the workflow.
   The [doubled unmarked ruling sector](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#doubled-unmarked-ruling-a-conic-bounds-the-correction)
   also excludes every mate for a normal signed cubic. Thus both
   unmarked residual patterns are excluded under normality, with no
-  Du Val assumption along the lifts. Residual rulings through marked
-  endpoints and nonnormal signed cubics remain outside these exclusions.
+  Du Val assumption along the lifts. The [shared endpoint comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#distinct-residual-rulings-through-marked-points)
+  excludes all distinct residual ruling arrangements, using the
+  shared node, \(D_5\), and weight-six blowup calculations. A doubled
+  marked ruling on a normal signed cubic, and nonnormal signed
+  cubics in general, remain outside these exclusions.
   Endpoint-concentrated nonzero norm coefficients likewise
   still require actual contact and capacity tests. For larger nonsplit sources, seek capacity bounds
   without fourth-order divisibility. The weighted criterion assumes

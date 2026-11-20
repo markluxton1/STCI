@@ -1310,11 +1310,151 @@ intersections, using this effective correction on the
 singular side and zero on the other, would require
 \(30/7\), again impossible.
 
-A residual ruling through a marked endpoint is different:
-it lies in the branch quadric, so its pullback as a ruling
-divisor is nonreduced and the conic derivative argument does
-not apply. Its shared endpoint geometry remains to be
-compared with the two separate mate intersections.
+A residual ruling through a marked endpoint lies in the branch
+quadric; the conic derivative argument does not apply. The
+[distinct marked rulings](#distinct-residual-rulings-through-marked-points)
+instead use the shared endpoint geometry.
+
+#### Distinct residual rulings through marked points
+
+For a two-lift split sextic with normal signed cubic in
+characteristic zero, suppose the residual ruling divisor
+has two distinct fibers. At a marked point belonging to
+one such fiber, use coordinates
+\(t=x_1/x_0,\ v=x_2/x_0,\ q=x_3/x_0-tv=tv-z^2\) on the
+first chart, and reversed coordinates at the other point.
+The signed cubic has equation
+\[
+v(v-t^3)a(v)+(tv-z^2)\bigl(L(t,v,tv-z^2)+cz\bigr),
+\qquad a(0)c\ne0.
+\]
+Indeed its restriction to the downstairs quadric consists
+of \(C\) and the two residual rulings, with just a simple
+residual fiber \(v=0\) at this point. The two lifts are
+\(v=t^3,\ z=\pm t^2\). If \(L(0)\ne0\), the quadratic
+part has rank three, giving the shared node treated above.
+
+If \(L(0)=0\) but \(\ell=L_t(0)\ne0\), the following local
+resolution gives both the type and the actual incidences.
+In the first blowup chart put \(V=v/t,\ Z=z/t\). The
+strict equation is
+\[
+ V(V-t^2)a(tV)+t(V-Z^2)
+    \bigl(\ell+cZ+L_v(0)V+O(t)\bigr).
+\]
+The reduced exceptional line is \(t=V=0\); its singular
+points are \(Z=0\) and \(Z=-\ell/c\), from the derivative
+\(-Z^2(\ell+cZ)\). There is no singularity at infinity,
+where in the \(z\)-chart the remaining derivative is
+\(-c\). The simple root is a node, by its nonzero
+\(t,Z\) pairing and squared \(V\) term. At zero the
+Hessian in \((V,t)\) is nondegenerate. Splitting over
+\(k[[Z]]\) gives critical coordinates starting
+\(V=Z^2,t=-2a(0)Z^2/\ell\) and critical value starting
+\(a(0)Z^4\), so the point is \(A_3\). The old exceptional
+line has both split coordinates of order at least two;
+their product has order four, so their orders are exactly
+\((2,2)\) and the line meets the middle exceptional curve.
+The two marked lifts \((V,t,Z)=(t^2,t,\pm t)\) point to the
+same nonkernel isotropic axis. Their order-one split
+coordinate divided by \(Z\) has opposite nonzero values,
+so they meet the same end of the chain at distinct points.
+The first blowup is crepant by multiplicity two, and the
+resulting graph is \(D_5\): the old line joins the middle
+of the \(A_3\) chain to the additional node exceptional.
+The two lifts meet the same short tip. The inverse Cartan
+diagonal at that tip is \(5/4\).
+
+In the numerical intersection matrix of the two original
+lifts, relative to a smooth marked endpoint, a shared node
+adds \(1/2\) to each self-intersection and subtracts
+\(1/2\) from their mutual intersection. The shared
+\(D_5\) just computed adds \(5/4\) to each self-intersection
+and subtracts \(3/4\) from the mutual intersection: their
+strict transforms no longer meet over the point, and the
+common tip contributes \(5/4\) to their numerical product.
+
+The remaining simple endpoint case, \(L(0)=L_t(0)=0\),
+has a different resolution but a controlled numerical
+correction. Blow up with weights \((1,2,3)\) on \((t,z,v)\).
+The weight-six initial equation, in the weight-one chart
+\(z=t^2Z,\ v=t^3V\), is
+\[
+a(0)V(V-1)+(\gamma+cZ)(V-Z^2)=0.
+\]
+Here \(\gamma\) is the coefficient of \(t^2\) in \(L(t,0,0)\).
+The exceptional curve \(E\) is integral: the quadratic in
+\(V\) has discriminant a cubic in \(Z\) with nonzero
+cubic coefficient, not a square, and the homogeneous form
+has no component in \(t=0\). The partial strict surface is
+normal locally over the point: the weighted chart covers
+are hypersurfaces, smooth at the generic point of
+their reduced exceptional curve, and possible singularities
+there are isolated; taking finite chart quotients preserves
+normality. The tautological restriction is
+\(\mathcal O_E(E)=\mathcal O_E(-1)\) in the rational divisor
+sense. The degree of \(\mathcal O_E(1)\) is one: the
+weight-one coordinate vanishes at the single point
+\(a(0)v^2=cz^3\) of \(\mathbf P(2,3)\), where both
+coordinates are nonzero, the stabilizer is trivial,
+and the intersection is transverse. Thus \(E^2=-1\).
+
+Both lifts meet \(E\) transversely at distinct smooth
+points \((V,Z)=(1,\pm1)\): the \(V,Z\) derivatives are \(a(0)+\gamma\pm c\)
+and \(\mp2(\gamma\pm c)\), which cannot both vanish,
+and \(t\) is a parameter
+on either lift. Resolve any other points without modifying
+these neighborhoods. The discrepancy on the component
+met by the lifts is \(-1\), since the ambient volume
+form in this chart acquires \(t^5\) and the defining
+equation contributes \(t^6\) in the residue. Adjunction
+therefore adds one to each strict self-intersection.
+The numerical pullback over this endpoint adds \(E\) to
+either strict lift on the partial surface, since each
+meets \(E\) once and \(E^2=-1\); further resolution
+does not change the numerical pairing. Thus the
+numerical corrections from the initial endpoint,
+relative to a smooth endpoint, are **\(+2\) on both
+self-intersections and \(-1\) on the mutual intersection**:
+the strict transforms do not meet, and the contracted
+curve contributes one to their numerical product.
+
+These three local cases suffice for all distinct residual
+rulings. If both rulings are marked, the sum of one
+numerical self-intersection and the mutual intersection
+is at most four: its smooth baseline is two and each
+marked contribution adds at most one to that row sum.
+The mate would require \(8b\le4(3b/2)\), a contradiction.
+If one ruling is marked and one is unmarked, the three
+unmarked transverse hits contribute extra self-corrections
+\(A,B\ge0\) with \(A+B<3\). Denote by \(u\) the common
+numerical self-intersection before those extra corrections
+and by \(v_0\) the numerical mutual intersection; the
+separate intersections with the mate give
+\[
+(v_0-u-A)\lambda=(v_0-u-B)\mu=(3v_0/2-4)b.
+\]
+For a shared node, \((u,v_0)=(-3/2,7/2)\), and this
+requires \(1/(5-A)+1/(5-B)=6/5\), whereas the left side
+is below \(1/2+1/5\). For the shared \(D_5\),
+\((u,v_0)=(-3/4,13/4)\), so the required value of
+\(1/(4-A)+1/(4-B)\) is \(12/7\), but the left side is
+below \(1+1/4\). Both bounds use convexity and the
+total budget three.
+
+In the weight-six case \((u,v_0)=(0,3)\), the reciprocal
+sum \(1/(3-A)+1/(3-B)\) would have to be three.
+If at most two unmarked singular hits belong to either
+lift, the largest allocation is \((2,1)\) and the sum
+is below \(1+1/2\). Otherwise all three lie on one
+lift and the other has no correction. Writing
+\(d_i=n_i+1\) for the three end incidences, the equality
+requires \(\sum 1/d_i=3/8\). The K3 smoothing bound
+on the three isolated unmarked \(A_{n_i}\) points
+alone gives \(\sum d_i\le22\), irrespective of the
+marked singularity. Hence \(\sum 1/d_i\ge9/22>3/8\),
+again impossible. This leaves a doubled marked ruling
+outside the result, not a degenerate simple endpoint.
 
 ### Arithmetic control and comparison of traits
 
