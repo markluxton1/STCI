@@ -33,6 +33,122 @@ This is a statement about effective curve cycles, not schemes, Hilbert
 polynomials, embedded points, or two homogeneous defining equations.
 In particular it does not solve or obstruct unrestricted STCI for \(C_0\).
 
+## From the cycle fiber to actual complete intersections
+
+For a fixed type \(a\le b\) with \(4\mid ab\), set \(m=ab/4\).
+There are three different objects to compare:
+
+1. **Cycle points.** By R-0074 the geometric points of the
+   polytope fiber are unordered \(m\)-multisets in the two-dimensional
+   torus orbit \(T/\operatorname{Stab}(C)\) of the fixed quartic.
+   Multiplicity partitions record collisions of translates, not
+   whether the curves meet: the translates already share the marked
+   endpoints. The cycle \(m[C]\) is one marked point of the deepest
+   diagonal. This is a description of geometric points, not an
+   identification of scheme structures or of their compactifications.
+2. **Hilbert lifts.** Above a cycle, retain the embedded schemes with
+   the complete-intersection polynomial
+   \(ab\,n+ab(4-a-b)/2\), and track their cycles under flat limits.
+   Specifying a cycle gives neither its scheme structure nor the
+   existence of a flat lift from a given component.
+3. **Actual CI realization.** For \(a=b\), take two-dimensional
+   subspaces of \(S_a\) with coprime generators. For \(a<b\), take
+   a line \([F]\) in \(S_a\) and a line
+   \([G\bmod F S_{b-a}]\) in the quotient, again with coprime
+   representatives. These equation parameters map to embedded ideals,
+   then to their fundamental cycles. A flat Hilbert limit need not
+   stay in this proper CI locus.
+
+For a reduced union \(Y=\bigcup_i C_{u_i,v_i}\), asking whether \(Y\)
+is an STCI means asking for \(\sqrt{(F,G)}=I_Y\); the resulting fundamental
+cycle may have any positive multiplicities \(\sum_i n_i[C_{u_i,v_i}]\).
+A **reduced fundamental cycle** requires every \(n_i=1\), so CI purity
+also makes the intersection scheme reduced. Classifying this latter case
+does not classify all STCI supports. Likewise, cycle invariance does not
+imply ideal invariance, and support on \(V(A)\) gives \(A\in\sqrt{(F,G)}\),
+not necessarily \(A\in(F,G)\) or permission to use \(A\) as a generator.
+
+The characteristic-zero binomial constructions below show that actual
+members can realize several translates. It is not asserted that every
+Chow multiset admits an actual CI lift. For each type, the question is
+to determine the image of actual proper pairs in the cycle fiber:
+what the general cycle and multiplicity partition of each component
+are, which collision strata the image meets, and how the Hilbert
+boundaries compare with cycle limits. This is a
+moduli question independently of whether the marked cycle \(m[C]\)
+has a proper CI lift. The
+[fixed-family elliptic meeting divisor](../carriers/elliptic_double_inverse_construction.md#the-meeting-norm-divisor-and-its-normalization)
+illustrates how to separate an incidence divisor, its generic fiber,
+and exceptional strata in a concrete family; it is not this Chow
+or Hilbert moduli space.
+
+For boundary limits, let \(\overline O\) be the reduced projective Chow
+closure of the single-translate orbit \(O=\{[C_{u,v}]\}\).
+Multiplication of Chow forms gives a proper morphism
+\(\operatorname{Sym}^m(\overline O)\to
+\operatorname{Chow}_{1,4m}(\mathbf P^3)\), whose image is exactly the
+closure of all translated arrangements: the source is projective and
+\(O^m\) is dense in \(\overline O^m\). Thus every geometric limit is a
+sum of \(m\) degree-four single-orbit limit cycles, allowing collisions
+and boundary breakup. This gives neither unique boundary decomposition,
+a scheme isomorphism, nor a flat CI lift. Boundary cycles can leave the
+fixed-polytope fiber.
+
+The [fixed toric carrier classification](../torus/fixed_carrier_chow_arrangements.md)
+gives an explicit actual-pair locus retaining the quartic equation as one
+generator: precisely the root polynomials with \(c_1=c_2=c_5=0\) descend.
+It covers repeated roots
+and every CI with reduced fundamental cycle supported on that carrier.
+Characteristic zero forbids one- and two-support arrangements with that fixed
+generator, while partial collisions occur. This separates the fixed-equation
+problem from the moving-carrier
+and non-invariant Hilbert-lift questions below.
+
+For general arrangements, the [trace-moment theorem](../torus/chow_arrangement_moments.md)
+gives \(\sum_i n_i u_i/v_i=0\) in characteristic different from two for
+proper pairs with an eigenform generator or the stated actual polynomial
+congruences. This includes invariant CI ideals and every reduced CI arrangement.
+It is detected by a linear equation in Chow-form coefficients. In
+characteristic zero, the full Chow closure of this realization locus avoids
+every deepest collision \(m[C_{u,v}]\). A non-invariant CI over a repeated
+cycle outside these presentation classes need not belong to that closure;
+deciding its existence or deformations
+requires the actual embedded ideals. Thus generic arrangement deformations
+and the whole CI realization problem have different coverage.
+For arbitrary forms, the [translate-coordinate evaluation map](../torus/fixed_surface_restriction_lifts.md#translate-coordinates-constrain-actual-coefficients)
+gives all linear containment constraints; transverse local intersection
+algebras then determine multiplicities, without assuming invariant generators.
+
+### Realization of a reduced Chow-matched cycle
+
+Work over an algebraically closed field. Write S=k[x0,x1,x2,x3] with weights (0,1,3,4), Ω the dense projective torus, and (t,u,v)=(x1/x0,x2*x0²/x1³,x3*x0³/x1⁴) on Ω. The stabilizing one-parameter torus scales t, and the closures of its cosets are the translates C_(u,v) appearing in R-0074. Fix positive ordinary degrees a,b with ab=4m, and distinct quotient points P_i=(u_i,v_i), i=1,…,m. Let Y be the reduced union of the C_(u_i,v_i).
+
+For the two assignments (w_F,w_G)=(a,3b),(3a,b), set U=(S_a)_(w_F)∩I_Y and V=(S_b)_(w_G)∩I_Y. Each is the kernel of a linear evaluation matrix: a monomial x0^d0 x1^d1 x2^d2 x3^d3 of the designated weight restricts on Ω to t^w u^(d2) v^(d3) on x0=1; evaluating the coefficient at all P_i is exactly vanishing on Y.
+
+**Criterion.** The cycle Σ[C_(u_i,v_i)] is realized by a proper degree-(a,b) pair iff one assignment has nonzero U,V and no irreducible common factor of all polynomials in both spaces (equivalently gcd of their combined bases is 1).
+
+A proper CI that realizes the cycle is pure and generically reduced on each component, hence reduced (no nonzero subsheaf of its structure sheaf is supported away from the associated generic points). It is therefore Y, with stable saturated ideal. The equivariant minimal-generator lifting lemma ([R-0038](../../results/torus_eigenvector_generator_lifting.md)) gives actual eigenform generators of the same ordinary degrees, not leading forms. The middle coordinate vertices are outside Y. Only an eigenform of weight a (resp. b) can be nonzero at the x1 vertex in degree a (resp. b), since only a pure power survives there, and analogously weight 3a (resp. 3b) is required at the x2 vertex. One generator cannot cover both; the assignments follow. Conversely let there be no common fixed factor. Choose a nonzero F∈U avoiding the finitely many factors of gcd(V) (none divides U); then choose G∈V avoiding every factor of F (none divides V). These choices avoid finite unions of proper linear subspaces. Their pair is proper. The prescribed m degree-four curves exhaust Bézout degree ab, leaving no boundary residual and forcing all generic lengths to be one. Necessarily 4|a or 4|b, because otherwise both assigned weights are nonzero mod4 and both forms vanish on x1=x2=0.
+
+### Which degree pairs realize some reduced cycle (characteristic zero)
+
+Up to swapping the degrees precisely a=4r with r≥1 and b∉{1,2,5} occur. The divisibility condition follows from x1=x2=0 as above. After reversing the coordinates if necessary the generator assignments are weight a for F_a, weight 3b for G_b (reversal changes w to 4·ordinary_degree−w). For b=1,2,5 any such G is divisible by x2: to avoid x2 a monomial x0^(b−i−j)x1^i x3^j requires i=3b−4j and ceil(2b/3)≤j≤floor(3b/4), an empty interval precisely in those three positive degrees. A whole coordinate plane in one generator forces a curve of intersection on the boundary, impossible. For b=3,4,6,…,11 the interval contains an integer by inspection and for b≥12 its unrounded width is b/12≥1. Choose such j and put i=3b−4j. Then
+ F=x1^(4r)−x0^(3r)x3^r,
+ G=x2^b−x0^(b−i−j)x1^i x3^j.
+The Laurent quotient is v^r=1, u^b=v^j; in characteristic zero it gives exactly rb distinct translates (also works when char(k) does not divide rb). Boundary check: x0=0 forces x1=0 and then x2=0 since the second monomial cannot be pure x3 (j<b); x3=0 forces x1=x2=0 since j>0; x1=0 forces x0 or x3 zero; and when x2=0 with the other coordinates nonzero the second monomial cannot vanish. This realizes every permitted degree pair without assigning any repeated cycle. In positive characteristic the necessity still holds; no classification asserted when char(k) divides rb.
+
+### Quartics, including invariant collision lifts
+
+For (4,4), the eigenbasis must have weights 4 and 12. The only possible forms are:
+ F=a₀x1⁴+b₀x0²x1x2+c₀x0³x3,
+ G=d₀x2⁴+f₀x1x2x3²+e₀x0x3³.
+Here a₀,d₀ ≠0 exclude the middle vertices; c₀,e₀ ≠0 exclude a boundary curve on x1=0 or x2=0 (otherwise the corresponding equation contains the whole plane; its intersection with the positive-degree second equation is never finite). Conversely these four nonzero coefficients leave only the two allowed endpoints on the union of coordinate hyperplanes: x0=0 first forces x1=0 and then G forces x2=0; x3=0 first forces x2=0 and then F forces x1=0; x1=0 and x2=0 each force x0=0 or x3=0, which were just checked. On Ω, elimination gives v=α+βu with α≠0 and monic polynomial
+ P(u)=u⁴+B u(α+βu)²+C(α+βu)³, with C≠0.
+None of its roots has u=0 (constant Cα³≠0) or v=0 (would imply u⁴=0). Thus the torus intersection is finite over the quotient and the equations give a proper projective pair. Its cycle multiplicities are the polynomial root multiplicities because the torus scheme is G_m × Spec k[u]/(P) after eliminating v. Conversely these are all invariant CI lifts with cycle of translates, and in particular all lifts on the distinct four-translate stratum.
+
+For four prescribed distinct points, the line v=α+βu is determined by any two; it must contain all four, and their monic root polynomial minus u⁴ must belong to the displayed two-dimensional span. That is an explicit realization criterion. The span basis is independent (constant term of its second element is nonzero, and its first element has nonzero u coefficient). The lifts are unique there, and unique among invariant lifts even at any realized collision with at least two distinct points. The locus on the distinct stratum has dimension four (α,C nonzero, β,B arbitrary, squarefreeness open and nonempty) inside the eight-dimensional multiset space. Its dimension follows also from unique recovery of parameters from the cycle, so this does not assert the parametrization is a scheme isomorphism. For nonemptiness in any characteristic set β=0 and choose B,C avoiding repeated roots of u⁴+Bα²u+Cα³ (in characteristic two, B≠0 suffices).
+
+In characteristic zero all multiplicity partitions other than (4) occur among invariant lifts. For β≠0 rescale quotient coordinates to α=β=1. Requiring a double root r fixes B=−r³(r+4)/(r+1)², C=r⁴(r+3)/(r+1)³, with r≠0,−1,−3. The residual monic quadratic's discriminant is −4r²(r²+4r+2)/(r+1)^6 and its value at r is r²(r²+4r+6)/(r+1)^2. Hence r=1 gives (2,1,1), r=−2±√2 gives (2,2), and r=−2±√(−2) gives (3,1). At a triple root P'''(r)=24r/(r+1)^3≠0 (substitute r²+4r+6=0). If β=0, P''=12u² forbids a triple root. Thus only (4) fails invariantly, and the older characteristic-zero quartic-carrier exclusion independently rules out non-invariant (4) as well. Non-invariant lifts of partial diagonals have not been classified. A repeated cycle does not make the ideal stable; these strata require testing actual quartic pencils, componentwise generic lengths, and absence of residual support. The [equation–Hilbert–Chow comparison](#from-the-cycle-fiber-to-actual-complete-intersections) remains relevant there.
+
 ## Chow forms, products, and the one-parameter subgroup
 
 The elementary Chow facts used here are that the form determines its

@@ -64,14 +64,33 @@ Even a positive quartic ancestor answer has a residual consequence: the
 gives a residual cycle of degree four for any such pair. The characteristic-zero quartic carrier theorem does not answer
 this fixed two-target question.
 
+### Does the conductor quotient retain the two targets?
+
+For an actual supported CI in the separated quadratic cover, the
+[conductor contains the relative socle](../../arguments/linkage/endpoint_lattice_capacity.md#fixed-local-cohomology-targets-and-what-they-cannot-see). Thus the two fixed socle targets become zero in the conductor quotient; it cannot supply the separating covector directly. A transport must keep the full multiplication image and the actual target values, for example through the degree-and-contact shift, rather than identify the targets with conductor classes. The first five added multiplier directions on the quartic shift still need to be evaluated.
+
 ## Simultaneous coregularity versus geometric defects
 
-The November 18 literature comparison highlights the exact pairwise condition already supplied by Hartshorne–Polini's homogeneous coregularity criterion (see [the theorem and hypotheses](../../arguments/equations/global_equations_and_constructions.md)). For a homogeneous regular pair \(f,g\in I\), put \(M=H_I^2(S)\). Under the theorem's higher-local-cohomology vanishing hypotheses, set-theoretic support \(V_+(f,g)=C\) is equivalent to **ordered simultaneous coregularity**:
+Put \(S=k[x_0,x_1,x_2,x_3]\), \(I=I_C\), and \(M=H_I^2(S)\).
+For a homogeneous regular pair \(f,g\in I\), Hartshorne–Polini's
+[criterion and higher-vanishing hypotheses](../../arguments/equations/global_equations_and_constructions.md#homogeneous-local-cohomology-and-the-second-equation)
+identify sole support with ordered simultaneous coregularity:
 \[
-fM=M,\qquad g(0:_M f)=0:_M f.
+ fM=M,\qquad g(0:_M f)=0:_M f.
 \]
-Once the first equality holds, the obstruction to the second is the cokernel
-\[
-(0:_M f)/g(0:_M f).
-\]
-This is an exact algebraic criterion for the specified pair, not a newly established geometric obstruction. The existing bounded common-ancestor calculations constrain specified classes and multiplier degrees; they do **not** establish nonvanishing of this cokernel for every possible \(f,g\), nor non-quasi-cyclicity of \(M\). Similarly, a missing global normal symbol or an associated-graded defect does not by itself imply failure of simultaneous coregularity. A comparison with the **full filtered equation module**, retaining actual lifts and pairwise multiplication, would need its own theorem. This records the interface without treating it as an accomplished reduction.
+Once \(fM=M\), put \(K_f=0:_M f\). The second condition is exactly
+\(\mathcal D(f,g):=K_f/gK_f=0\). This quotient need not be
+finite-dimensional. It is the established pairwise algebraic criterion,
+not a new geometric obstruction or an identified conormal defect.
+
+The open comparison is whether the **full actual filtered equation
+module**, its lift obstructions or its relation module admits a map or a
+necessary implication detecting \(\mathcal D(f,g)\ne0\). Such a
+comparison must retain actual lifts and pairwise multiplication, and
+must distinguish direct-limit local cohomology from inverse-limit formal
+completion. A missing normal symbol alone supplies no such theorem.
+The bounded common-ancestor calculations do not prove nonvanishing for
+all pairs or non-quasi-cyclicity of \(M\); failure for one ordered pair
+does not exclude all coregular pairs. The existing individually-coregular
+counterexample in the linked proof account explains why the pairwise
+condition matters.

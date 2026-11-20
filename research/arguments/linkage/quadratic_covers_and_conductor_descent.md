@@ -2,6 +2,42 @@
 
 **Scope.** Fix the smooth rational quartic \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\), over an algebraically closed field. Characteristic zero is the default; every positive-characteristic statement below identifies its extra hypotheses. Characteristic-zero STCI remains open.
 
+**Principal conclusions and proof map.** An integral characteristic-zero
+sextic \(F=P^2-rQ^2\) with \(\deg P=3\), \(\deg Q=2\) and
+\(P|_C=Q|_C=0\) has no mate in any degree, with no normality assumption
+on its signed surface; see the [two-lift theorem](two_lift_sextic_exclusion.md#supported-exclusion-and-proof-map).
+When \(Q|_C\ne0\), the [one-lift theorem](one_lift_sextic_conormal_exclusion.md)
+gives the same exclusion if the signed cubic is smooth or Du Val along
+its lifted quartic. The [unique generically singular signed cubic](signed_cubic_normalization_and_cartier_defect.md)
+is also excluded by its finite normalization. The remaining one-lift
+case is generically regular along the lift and non-Du-Val somewhere on it.
+These statements concern splitting in the fixed
+quadratic cover, and do not identify splitting of a first normal cone.
+The [endpoint-capacity account](endpoint_lattice_capacity.md) supplies
+additional all-mate exclusions on declared actual carrier families in
+every degree at least five.
+The [cover-choice theorem](quadratic_cover_choice.md) makes the nonsplit
+postulation onset available for every integral carrier of degree greater
+than two after a carrier-dependent choice. The cover-choice theorem and
+the unique singular-cubic exclusion hold in every characteristic different
+from two; the Du Val/K3 exclusions above remain characteristic zero.
+For the characteristic-zero scalar capacity comparison, even one
+smooth-transverse endpoint has too much capacity for a contradiction.
+The unresolved target therefore requires aligned smooth or singular
+behavior at both endpoints.
+
+The common mechanism is the full conductor of the separated branch:
+[§§6–8](#6-the-entire-hypothetical-intersection-and-its-separated-branches)
+construct it and its canonical lower bound; [§8.1](#81-ambient-quadratic-norms-force-conductor-postulation)
+uses ambient norms to force postulation; the [fixed-cover norm account](split_carrier_norm_and_conductor.md)
+identifies splitting and the exact conductor scheme. The linked proof
+owners in [§8.2](#82-endpoint-capacity-and-fixed-cover-carrier-exclusions)
+compare this with endpoint capacity or polarized intersection. The
+[general degree-\(d\) theorem](#11-a-common-graded-mechanism-one-extra-homogeneous-module-generator)
+and [section-completion account](#13-canonical-conductor-section-completion-and-embedded-action)
+retain their broader hypotheses. The source-specific projection tests
+in §§1–5 remain distinct from arbitrary extracted branches.
+
 This chapter asks which multiple structures and intersections with this
 support can arise from actual homogeneous equations, and what projection
 and conductor constructions produce. The explicit power sources give
@@ -689,6 +725,49 @@ its embedding, without requiring a quadratic relation. For the fixed
 quartic application with \(\alpha\ge5\), (7c) gives the stronger scalar
 bound, but it does not replace those more general statements.
 
+<a id="82-endpoint-lattice-capacity-of-the-same-conductor"></a>
+
+## 8.2. Endpoint capacity and fixed-cover carrier exclusions
+
+The same full conductor carries local endpoint capacity and global
+postulation constraints. The proof owners below retain their exact actual
+source hypotheses; no incompatibility is established for arbitrary pairs.
+Here fixed quadratic-cover splitting is distinct from a split first normal
+cone, with no proved equivalence.
+
+- [Endpoint lattice capacity and actual carrier families](endpoint_lattice_capacity.md)
+  gives the Smith-minor bounds, arithmetic comparison, and all-mate
+  exclusions on declared integral sources in degrees at least five.
+- [Fixed-cover norm factorization and conductor](split_carrier_norm_and_conductor.md)
+  identifies the conductor \((P,Q,G)\) and conjugate overlap \((P,zQ,G)\)
+  in the one-lift case \(Q|_C\ne0\). It separately treats two-lift
+  primary-piece postulation; those equations do not present the finite
+  conductor of a two-lift separated branch.
+- [Two-lift sextic exclusion](two_lift_sextic_exclusion.md#supported-exclusion-and-proof-map)
+  excludes every mate in characteristic zero, without a normality assumption;
+  its [residual-ruling lemmas](two_lift_sextic_residual_rulings.md)
+  retain the repeated and marked-fiber calculations.
+- [One-lift sextic conormal exclusion](one_lift_sextic_conormal_exclusion.md)
+  excludes every mate when the signed cubic has only smooth or Du Val
+  points along the lift, regardless of singularities elsewhere.
+- [Signed cubic normalization and intrinsic Cartier defect](signed_cubic_normalization_and_cartier_defect.md)
+  excludes the generically singular cubic in characteristic different
+  from two. The symbolic-layer argument restricts every generically
+  regular one-lift survivor to \(g=5,6,8\), without normality or an ADE
+  hypothesis, using its actual mate and Cohen–Macaulay structure.
+- [Choice of a nonsplit auxiliary cover](quadratic_cover_choice.md)
+  works in every characteristic different from two. Its characteristic-zero
+  application retains the chosen cover's actual endpoint lattices,
+  both uniform capacity bounds, and the exact transverse-endpoint limitation.
+
+The fixed-cover sextic conclusions leave generically regular one-lift
+cases with non-Du-Val behavior along the lift, and nonsplit carriers,
+outside these exclusions. Choosing another cover does not preserve the
+favorable fixed-cover capacities. The question of capacity on arbitrary
+actual carrier sources remains open. The displayed scalar comparison has
+no exclusion power if even one endpoint is smooth-transverse; its next
+target has aligned smooth or singular behavior at both endpoints.
+
 ## 9. Why the extracted branch need not be Gorenstein
 
 One exact local control suffices to test that possible shortcut; no
@@ -986,10 +1065,23 @@ length is a count of distinct points or a residual curve downstairs.
 These necessary conditions can test a proposed realization. In the fixed
 characteristic-zero application, (7c) strengthens the lower boundary
 requirement, while §12 retains an independent embedding argument in its
-broader setting. No incompatible upper bound on the same full conductor
-scheme is available. The canonical endomorphism ring completes sections
+broader setting. The [endpoint-family bounds](endpoint_lattice_capacity.md)
+contradict postulation on their declared actual sources. No incompatible
+upper bound covering arbitrary supported pairs is known. The canonical endomorphism ring completes sections
 of an existing W; it does not construct the missing homogeneous maps or
 repair their image in the fixed projective space.
+
+The [cover-choice theorem](quadratic_cover_choice.md) extends the
+nonsplit postulation comparison to every integral smaller carrier after
+choosing its auxiliary cover. The conormal-moment bound survives that
+choice, as does the uniform all-minors bound. The
+[transverse-endpoint control](endpoint_lattice_capacity.md) fixes one
+endpoint capacity at \(n(n-1)\), already larger than the displayed
+nonsplit scalar lower bound. That comparison must therefore focus on
+sources where both endpoints escape this control. On aligned smooth or
+singular endpoints, sharper divisibilities and Smith capacities still
+require actual equations in the same cover. This is the current
+local/global gap, not the availability of a nonsplit cover itself.
 
 There is also a concrete constructive target: §10 proves that an actual
 embedded AG conjugate union with the prescribed support descends to a
@@ -1002,6 +1094,21 @@ results here describe what such a realization must retain, without
 presuming either existence or nonexistence of a supported pair.
 
 ## Independent review and scope
+
+The endpoint-capacity and fixed-cover carrier proofs now have focused
+owners linked in §8.2. They retain the scope of the [consolidated review
+of PR #167](https://github.com/markluxton1/STCI/pull/167#issuecomment-7043663699),
+reviewed head `4d1b03cdf4671a7b1e987cb641a3509de23e9a5c`, including the
+conductor/attachment correction and fixed-cover meaning of splitting.
+The reorganization preserves the actual-source proofs and archived exact
+certificate; it does not broaden their mathematical hypotheses.
+
+The new [signed-cubic and Cartier-defect proofs](signed_cubic_normalization_and_cartier_defect.md#independent-review)
+and [cover-choice proof](quadratic_cover_choice.md#independent-review)
+have separate independent reconstruction of their exact integrated claims.
+Their broader implications are recorded in the carrier and global-equation
+frameworks and the existing strategic queue; no arbitrary-pair exclusion
+or stronger minimum defining degree is inferred.
 
 The degree-\(d\) theorem uses finite birationality, module generation, Cohen–Macaulay and support hypotheses, including the nonreduced setting, exact shifts and Hilbert inequalities. It does not give an incompatible upper boundary bound, an arithmetically Gorenstein conjugate union, or an unrestricted STCI conclusion.
 

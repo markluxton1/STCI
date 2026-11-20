@@ -141,7 +141,17 @@ the [scoped conclusions](#52-factors-and-the-degree-bound).
 
 ### Open question: higher-degree surface singularity budgets
 
-For a hypothetical proper complete intersection of degrees \(a,b\) with sole reduced support \(C\), can the actual generic transverse algebra, its saturated normal filtration, and the first-symbol pencil impose a **lower bound on the exceptional configuration** of a general carrier that contradicts a global surface bound (Noether/Hodge, Picard rank, or a suitable replacement), uniformly in \(a,b\)? The quartic-pair calculation gives exceptional rank \(24-r\) and a K3 contradiction, but **no degree-independent conservation formula is asserted**. In higher degrees the canonical class, possible non-ADE singularities, and contributions away from \(C\) must be controlled before any comparison. The quintic–octic [surface constraints](../../arguments/carriers/quintic_octic_surface_constraints.md) already develop a distinct ADE/even-node budget and show why exceptional rank alone need not contradict the available bound. This question is about finding a common *mechanism*, not extrapolating the quartic number \(24-r\).
+In characteristic zero, can the actual transverse algebra and saturated
+normal filtration of a sole-support pair force a lower bound on a general
+carrier's exceptional configuration that contradicts a global surface
+bound, uniformly in the two degrees? The quartic-pair rank \(24-r\) and
+K3 contradiction supply no degree-independent conservation formula.
+Higher degrees require control of the canonical class, non-ADE
+singularities and contributions away from \(C\). The quintic–octic
+[surface constraints](../../arguments/carriers/quintic_octic_surface_constraints.md)
+already give a distinct ADE/even-node budget and show why exceptional
+rank alone can be insufficient. A common mechanism remains an open
+question, not an extrapolation of the quartic formula or a ranked task.
 
 ## 5.8 Three mechanisms for the quartic-pair obstruction
 

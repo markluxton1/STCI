@@ -1,0 +1,343 @@
+# Endpoint lattice capacity and actual carrier families
+
+**Setting.** Use the fixed quadratic cover and separated branch of the
+[conductor account](quadratic_covers_and_conductor_descent.md#6-the-entire-hypothetical-intersection-and-its-separated-branches)
+for the rational quartic \(C=[s^4:s^3t:st^3:t^4]\). The local capacity
+estimates apply in characteristic different from two as specified below;
+the constructed all-mate exclusions use characteristic zero.
+
+**Supported conclusions.** The Smith-minor defect of an actual endpoint
+lattice is the same conductor length constrained by
+[ambient norm postulation](quadratic_covers_and_conductor_descent.md#81-ambient-quadratic-norms-force-conductor-postulation).
+The all-minors and weighted-jet bounds below therefore give contradictions
+on the declared integral carrier families in every degree \(a\ge5\),
+with the coefficient restrictions stated in their proofs. They also
+exclude the entire endpoint-smooth part of the simultaneous \(U=4\)
+jet source. These are all-mate exclusions on actual sources, not a bound
+contradicting arbitrary supported pairs.
+
+For every integral carrier of degree greater than two in characteristic
+different from two,
+[a general auxiliary cover](quadratic_cover_choice.md) supplies the
+nonsplitting condition. In the characteristic-zero conductor application,
+both the moment and uniform all-minors bounds apply to that chosen cover.
+The [transverse endpoint lemma](#transverse-endpoints-throughout-the-cover-pencil)
+already determines the capacity at any endpoint with a transverse smooth
+member, and even one such endpoint prevents a contradiction from the
+displayed scalar postulation lower bound. The finer endpoint
+estimates below concern the actual cover in their hypotheses. They cannot
+be transferred to the general choice merely from its unchanged reduced
+lifts. The remaining scalar target has both endpoints outside the
+transverse control: aligned smooth endpoints or singular endpoints.
+
+**Proof map.** The [conormal-moment bound](#an-upper-bound-from-the-conormal-moment)
+identifies the conductor object. [Nonsplit onset](#nonsplit-lower-onset-in-the-same-conductor-quotient)
+provides its global comparison. [All minors](#all-minors-capacity-and-a-cyclic-control)
+and the [weighted test](#a-weighted-endpoint-test-on-the-actual-carrier)
+give usable upper bounds. The [degree-at-least-seven family](#actual-carriers-with-two-divisible-endpoint-functions),
+[degrees five and six](#degrees-five-and-six-in-the-same-constructed-family),
+and [simultaneous jet source](#how-large-is-the-simultaneous-endpoint-source)
+state the actual hypotheses producing contradictions. Arithmetic traits
+and fixed local-cohomology targets are separate scoped comparisons.
+
+**Review provenance.** The relocated proofs retain the scopes assessed in the
+[consolidated review of PR #167](https://github.com/markluxton1/STCI/pull/167#issuecomment-7043663699),
+reviewed head `4d1b03cdf4671a7b1e987cb641a3509de23e9a5c`. The present
+organization separates those existing arguments; it does not extend their
+source hypotheses or claim a fresh rerun of historical computations.
+The transverse-pencil lemma below integrates the further deduction in
+the follow-up review at head
+\(65994e1f04002861735fc4206290039e0a40b4a2\), retaining
+characteristic zero for its exact cyclic-capacity conclusion.
+
+## An upper bound from the conormal moment
+
+Use the separated quadratic cover of the fixed rational quartic with z²=r=2x_1x_2−x_0x_3 in characteristic different from two. Assume an actual proper CI Y=V(F_a,G_b) with sole reduced support C. At either marked endpoint choose t=x_1/x_0 or x_2/x_3 on its standard affine chart. The completed algebra A is finite free over O=k[[t]]: reduction modulo its nilpotent ideal J=I_C O_Y is O, so finiteness follows by the finite nilpotent filtration and t is regular by the local CI Cohen–Macaulay property. On the first and last charts r restricted to C is t⁴; hence ε=r−t⁴∈J. In A_K=A⊗_O k((t)), the order-two cover splits and the root chosen by the marked branch is, up to sign,
+    z=t² Σ_{l≥0} binom(1/2,l) (ε/t⁴)^l,
+a finite sum. In odd positive characteristic interpret the coefficients by lifting dyadic rationals or the unique finite square-root recursion. The full branch lattice is B=A+Az inside the same generic algebra, by the actual homogeneous separated-branch theorem. Therefore the length of B/A is minus the minimum valuation of all minors of multiplication by z in any O-basis of A, including the size-zero minor 1. Equivalently it is the sum of negative Smith pole orders. This computes the same δ_i used by the global conductor theorem, not a normalized carrier or Frobenius specialization boundary.
+
+For j≥0 let K_j=ann_A(J^j). Each K_j is saturated as an O-submodule: t^s u∈K_j implies t^s J^j u=0 and t is regular. Thus one can choose an O-basis compatible with the nested K_j. If s∈K_j then the summands with l≥j vanish on s; multiplying zs by t^max(0,4j−6) therefore puts it in A. The length of B/A is no larger than the sum of these column pole bounds, since the quotient is generated by the corresponding cyclic O-modules. Generic Artin CI duality identifies ann(J^j) with the orthogonal of J^j for the perfect multiplication pairing. Thus rank(K_j/K_(j−1))=h_(j−1), where h_i is the generic rank of J^i/J^(i+1). Writing n=ab/4 and M=Σ i h_i, the two endpoints give
+    δ≤2 Σ_{i≥0} h_i max(0,4i−2)=8M−4(n−1).
+This is an all-pair upper bound on the exact same conductor as [ambient norm postulation](quadratic_covers_and_conductor_descent.md#81-ambient-quadratic-norms-force-conductor-postulation), not a claim the upper bound conflicts with its lower bound. Sharper actual local bound: if ε∈t^u J at an endpoint, replace 4 by max(0,4−u) in the general exponent max(0,(4−u)(j−1)−2); do not infer this divisibility from abstract generic contact type.
+
+The same calculation gives (0:_A J)⊂c because its elements satisfy zs=t²s. Off the marked points c=A; the known saturated homogeneous conductor quotient globalizes the inclusion.
+
+## Fixed local-cohomology targets, and what they cannot see
+
+For a hypothetical supported CI the Cech fraction h↦h/(FG) identifies A(a+b) with (0:_{H_I²(S)}(F,G)) (standard regular-sequence fraction representation, or the Koszul transition maps). Because the two fixed KG09 targets are killed by I, they correspond to the graded relative socle (0:_A I); the calculation above shows that both die in A/c. This is an actual object-level bridge and a limitation: full-conductor postulation constrains realization, but the conductor quotient cannot itself carry the two target values needed for a separating covector. Positive-contact multiplication also kills the targets, so any degree-persistence map must preserve them by changing the ancestor (bounded q-division comparison available separately), not by multiplying outputs. A next finite test is to compare the five added generators in the quartic q-shift with one concrete lifted multiplication image; the whole q-ray eventually has a common factor and cannot prove ambient coprimality.
+
+## Nonsplit lower onset in the same conductor quotient
+
+Order a≤b, and assume the smaller carrier F_a is integral and r is nonsquare in its function field. A boundary form h of degree d gives a homogeneous P of degree d+1 with P²−r h²∈(F_a,G_b) by the actual degree-one generator z of the branch algebra. For 2d+2<b this lies in (F_a) alone. If F_a does not divide h, the identity on the carrier makes r=(P/h)², a contradiction. Thus (J_Δ)_d=(F_a)_d in that degree range, with no assertion that the boundary ideal is zero in degrees ≥a. Put q_b=ceil(b/2)−1 and H*=binom(q_b+2,3)−binom(q_b−a+2,3), taking out-of-range binomials as zero. Combining this exact Hilbert onset with the existing canonical complementary inequality and no internal h-vector zeros gives
+    δ≥2H*+(a+b−4)−2q_b+1.
+A genuine new bound only if the onset improves; no contradiction follows automatically. Contrapositively, a low-degree boundary form independent of F forces splitting of the smaller carrier in the fixed cover. An odd valuation of r on the smaller carrier's normalization provides a direct nonsplit test; an arbitrary carrier need not satisfy it.
+
+## Arithmetic control and comparison of traits
+
+For the actual char-three pair A=x1³−x0²x2, G=x0x3³−x2⁴, both endpoint algebras are O[Y]/Y³. At 0 choose Y=x3−t⁴; r=t⁴−Y. At infinity choose Y=x1−t³; r=t⁴−tY. In either case z=t²+t^(j−2)Y+t^(2j−6)Y² with j=0 or 1 respectively. The multiplication matrix in basis 1,Y,Y² is triangular with these coefficients in its successive lower diagonals. The potential smallest two-minor is zero by equality of the two diagonal/off-diagonal products. The minimum over all minors is −6 or −4, respectively, from the Y² coefficient; hence (δ0,δ∞)=(6,4). This is a calculation for the actual supported char-three pair, not a char-zero lift or its lower-root defect.
+
+If an actual supported mixed-characteristic trait has compatible finite free endpoint lattices over R[[t]], with R its coefficient DVR, 2 invertible and ε uniformly nilpotent, the same finite expansion produces a matrix over R[[t]][1/t]. Reducing modulo the parameter can only increase t-valuations of its minors, so δ_special≤δ_generic. This statement needs the compatible actual lattice hypothesis, not merely specialization of the reduced support or an abstract Artin algebra. It does not require the conductor to commute with base change. It supplies a lower bound in characteristic zero, not the upper bound needed for a contradiction, and does not identify the different endpoint kernel of the prescribed Frobenius-root specialization.
+
+The compatible-lattice hypothesis is automatic for a flat actual projective complete-intersection trait over a complete DVR at odd residue characteristic if both geometric fibers have sole support the fixed relative C. The whole relative ideal of C is then uniformly nilpotent on the trait, by the support equality and Noetherianity. The completed local algebra is finite over R[[t]] by its finite nilpotent filtration. The coefficient uniformizer is regular by flatness, and t is regular modulo that uniformizer by the special-fiber Cohen–Macaulay CI and its sole smooth reduced support. This gives a finite free module over the regular ring R[[t]]. Its two relevant completed fiber lattices are obtained over k[[t]] and Frac(R)[[t]], respectively. This does not apply without further checks to the lower-root closures with embedded endpoint defects.
+
+The comparison uses the conormal moment of the actual generic CI
+algebra, as in [the full socle budget](../../results/full_conormal_socle_budget.md),
+but the Smith valuations need the actual endpoint lattices. The actual-family calculations below compute both endpoint capacities
+and compare them with the onset for the *same* conductor. Neither the generic algebra nor the arithmetic reduction
+alone determines the valuations; this comparison supplies no
+incompatible bound for all defining pairs.
+
+## All-minors capacity and a cyclic control
+
+Keep the completed endpoint lattice A over O=k[[t]] and the branch root z as above. At a chosen endpoint suppose ε=r−t^4 belongs to t^u J, u≥0 (the case u=0 always holds). Because A/J=O, divisibility by t^u in A is enough: J is O-saturated. Choose a basis adapted to K_j=ann_A J^j, and give basis vectors in K_(j+1) outside K_j level j. List the levels i_1≤…≤i_n. Put S_k=Σ of the k largest levels minus Σ of the k smallest and S_0=0. Since ε^l/t^(ul) belongs to J^l, it takes level b vectors into the span of levels ≤b−l. Multiplication by z thus has matrix entry from level b to level a of valuation at least 2−(4−u)(b−a) if a≤b and u≤4, and zero if a>b. Every term of a k-minor has the same sum of row levels and column levels. Therefore, for 0≤u≤4,
+  δ_i ≤ max_{0≤k≤n} ((4−u) S_k−2k).
+For u≥4 the root is integral, giving δ_i=0. The same bound with levels from ann_A(η^j) holds for the specific η=ε/t^u; use its actual ranks, not a generic conormal Hilbert vector without comparison. Summing smaller-level terms removes much of the loss in the column-only bound. As S_k≤k(n−k) (nonzero levels from J have no internal gaps), a level-independent upper bound is max_k ((4−u)k(n−k)−2k). No condition on cancellation of minors is assumed.
+
+For the explicit cyclic control A=O[η]/η^n, ε=t^uη, the latter bound is exact in characteristic zero. In the basis 1,η,…,η^{n−1}, take the bottom-left k×k minor. Its valuation is 2k−(4−u)k(n−k) and its coefficient is
+   D_k(m)=det[ binom(1/2,m+i−j) ]_(0≤i,j<k), m=n−k.
+Over Q(α), D_k(m) for binom(α,·) equals ∏_(i=0)^(k−1) [(α+i) falling m] i!/(m+i)!, nonzero at α=1/2. For verification the bare determinant satisfies Desnanot–Jacobi
+D_k(m)D_(k−2)(m)=D_(k−1)(m)^2−D_(k−1)(m−1)D_(k−1)(m+1).
+The product has D_0(m)=1, D_1(m)=binom(α,m), D_k(0)=1, and its cross-neighbor ratio at k−1 is m(α−m)/[(m+k−1)(α+k−1−m)]; subtract from 1 to get the proposed ratio on the left. This proves the formula by induction. In particular δ_i=n(n−1) for u=0. In an actual lattice, the cyclic model applies when η generates A/tA: Nakayama lifts the n powers as a basis, and η^n=0 by generic nilpotence and t-regularity. Otherwise no cyclic assumption is licensed. The char-three control above shows cancellation can invalidate particular extremal minors in residue characteristic without contradicting the upper bound.
+
+There is a direct actual endpoint control. If a member of the
+pair is smooth there and its normal linear form is independent of
+that of \(\epsilon\), then \(t,F,\epsilon\) are formal coordinates.
+On the smooth local surface \(F=0\), sole support means the mate
+cuts a unit times \(\epsilon^n\). Thus this actual completed
+intersection is the cyclic control with \(u=0\), not a deduction
+from an abstract generic normal type. Dependent normal linear
+forms do not identify the actual completed lattice.
+
+## Transverse endpoints throughout the cover pencil
+
+Work in characteristic zero with an actual supported complete intersection
+\(Y=V(F_a,G_b)\), and put \(n=ab/4\). At the first endpoint use
+\[
+t=x_1/x_0,\qquad v=x_2/x_0-t^3,\qquad h=x_3/x_0-t^4.
+\]
+For the [auxiliary pencil](quadratic_cover_choice.md#the-cover-choice-theorem)
+direct substitution gives the exact equality
+\[
+\epsilon_\lambda=r_\lambda/x_0^2-t^4
+=(2-\lambda)tv+(\lambda-1)h.                         \tag{4}
+\]
+At infinity put
+\[
+t=x_2/x_3,\qquad v=x_1/x_3-t^3,\qquad h=x_0/x_3-t^4;
+\]
+the same substitution gives
+\(\epsilon_\lambda=r_\lambda/x_3^2-t^4
+=(2-\lambda)tv+(\lambda-1)h\).
+Consequently, at either endpoint its normal covector is
+\((\lambda-1)dh\), the same direction for every allowed
+\(\lambda\ne1,2\).
+
+**Lemma.** If some member of the pair has nonzero \(dv\) coefficient
+in its normal linear form at an endpoint, then
+\[
+\delta_{\lambda,i}=n(n-1)
+\]
+at that endpoint for every \(\lambda\ne1,2\), independently of
+whether the carrier splits in that cover.
+
+**Proof.** Such a member, call it \(F\), is smooth there and its
+normal covector is independent of \(d\epsilon_\lambda\).
+Hence \(t,F,\epsilon_\lambda\) are formal coordinates. On the
+smooth formal surface \(F=0\), the curve \(C\) has equation
+\(\epsilon_\lambda=0\). The actual mate has sole support \(C\),
+so unique factorization makes its local equation a unit times
+\(\epsilon_\lambda^n\); the exponent is the generic multiplicity
+\(n\) of the actual pair. Thus the completed pair algebra is
+\[
+k[[t,\epsilon_\lambda]]/(\epsilon_\lambda^n).
+\]
+The characteristic-zero cyclic-control calculation above, with
+\(u=0\), gives exactly \(n(n-1)\). No positive-characteristic
+determinant equality is used or asserted.
+
+If both endpoints have such a member, then
+\(\delta_\lambda=2n(n-1)\) for every allowed cover. Even one such
+endpoint puts the total conductor strictly above the presently
+used scalar lower bound, as follows.
+
+**Scalar-comparison limitation.** Suppose \(5\le a\le b\),
+\(4\mid ab\), and the integral smaller carrier is nonsplit in
+the chosen cover. Write \(L\) for the lower bound in
+[the chosen-cover comparison](quadratic_cover_choice.md#consequence-for-the-same-conductor-comparison),
+and set \(q_b=\lceil b/2\rceil-1\). The binomial difference satisfies
+\[
+H_*=\sum_{j=0}^{a-1}{q_b+1-j\choose2}
+\le a{q_b+1\choose2},
+\]
+where the summands are zero when the upper entry is less than two.
+Since \(b-2q_b\in\{1,2\}\) and \(q_b(q_b+1)\le b^2/4\),
+\[
+L=2H_*+a+b-3-2q_b
+\le a q_b(q_b+1)+a-1
+\le ab^2/4+a.
+\]
+Moreover
+\[
+n(n-1)-(ab^2/4+a)
+=a\left(\frac{(a-4)b^2}{16}-\frac b4-1\right)>0.       \tag{5}
+\]
+For \(a\ge6\), the parenthesis is at least
+\(b^2/8-b/4-1>0\) for \(b\ge6\). For \(a=5\), divisibility
+forces \(4\mid b\), hence \(b\ge8\), and
+\(b^2/16-b/4-1>0\).
+
+Therefore one transverse endpoint already gives
+\(\delta_\lambda\ge n(n-1)>L\). An upper bound for that same
+actual conductor cannot contradict this scalar lower bound.
+This limits the displayed scalar method; it neither constructs a
+supported pair nor excludes stronger postulation information.
+The next scalar capacity comparison must use sources with **both**
+endpoints outside this transverse control, namely aligned smooth
+endpoints or singular endpoints.
+
+**Independent review.** The integrated lemma and scalar comparison were
+independently reconstructed on 2026-11-20, including both endpoint
+formulas, the actual cyclic-coordinate identification, the binomial
+estimate, and the strict inequality with its divisibility boundary.
+The exact capacity conclusion retains characteristic zero.
+
+## A first conditional comparison with actual postulation
+
+Assume the smaller integral characteristic-zero carrier is nonsplit in the fixed quadratic cover. If ε belongs to t³A at BOTH endpoints, then δ≤2 floor((n−2)^2/4) for n≥2 from the uniform level bound. If ε belongs to t⁴A at both endpoints, δ=0, already contrary to the original global lower bound even without nonsplitting. These are endpoint divisibilities of the actual quadratic function, not consequences of generic normal order.
+
+The t³/t³ case contradicts nonsplit postulation in three infinite skew-degree sectors: a=5,b≥16; a=6,b≥36; a=7,b≥92, always with 4|ab. Indeed b=2s, q_b=s−1, so the nonsplit lower bound is 2[binom(s+1,3)−binom(s+1−a,3)]+a−1. Subtract the weaker upper (as/2−2)^2/2. The differences for a=5,6,7 are respectively (15s²−160s+336)/8, (3s²−60s+146)/2, (7s²−336s+928)/8. Each is positive and increasing from s=8,18,46 respectively. No assertion that either divisibility condition holds for every actual pair, or even that any characteristic-zero candidate in these specified degrees passes the antecedent.
+
+Scope of this conditional lemma: it does not establish either endpoint divisibility or nonsplitting on an arbitrary carrier. The actual families below supply both hypotheses on declared sources. A first-symbol tangent can suggest divisibility modulo J² but does not prove it in A. Use all minors or an independently justified cyclic coordinate model; compare the same endpoint conductor at both ends with the global postulation. A failed divisibility test redirects the route toward exact truncated matrices, not toward strengthening the unrelated Frobenius defect.
+
+## Actual carriers with two divisible endpoint functions
+
+The endpoint divisibility test is not vacuous on actual carrier sources.
+Write R=2x_1x_2−x_0x_3, q=x_0x_3−x_1x_2 and
+K_0=R x_0²−x_1⁴, K_∞=R x_3²−x_2⁴. These both vanish on the marked C.
+For a≥7, m=a−4, set
+    A=x_0^m K_0, B=x_3^m K_∞,
+    D_7=q² x_0 x_1 x_2,
+    D_a=q² x_1² x_2² x_0^(a−8), a≥8.
+Take F=λA+μB+νD_a with λμ nonzero.
+
+At p_0, work on x_0=1 with (t,z,w)=(x_1,x_2,x_3).
+Modulo t, F is −λw plus a term divisible by w^m, while D_a vanishes.
+Thus F is smooth at p_0 and w lies in (t) in its completed local ring:
+the remaining coefficient of w is a unit. Then q=w−tz is in (t),
+so B is in (t^m) and D_a is in (t³) for a=7 or (t⁴) for a≥8.
+Consequently ε_0=(R/x_0²)−t⁴=K_0/x_0⁴ belongs to (t³) or (t⁴),
+respectively. At p_∞ exchange coordinates and use t=x_2/x_3.
+The role of w is x_0/x_3, again in (t); q is again in (t).
+The factor x_0 or x_0^(a−8) in D_a adds no negative order, so the
+same divisibility holds at p_∞. These congruences hold in the actual
+completed carrier before reducing by any mate, hence also in a
+hypothetical full equation lattice.
+
+The family has integral general members in characteristic zero.
+A and B have no common surface factor: K_0 is irreducible, seen on
+x_0=1 as linear monic in w up to sign, with no component at x_0=0;
+K_∞ is its distinct reversed counterpart, and neither shares the
+opposite coordinate hyperplane. The linear system is not composed
+with a pencil. On K_0=0 it traces a dense subset of the line A=0
+in parameter-image coordinates (A:B:D_a). Indeed B/D_a is
+nonconstant there: at (t,z,w)=(1,0,−1), B≠0,D_a=0, and D_a is
+not identically zero on K_0=0. The image also has points with A≠0.
+Thus the image dimension is at least two, and Bertini irreducibility
+with no fixed surface applies. The general member is not in the
+smooth-along-C sector: on x_0=1 substitute z=t³+v,w=t⁴+h.
+The first normal forms of K_0,K_∞ are respectively
+2tv−h and −t⁸(2tv−h), while D_a has normal order at least two.
+Hence F has first form (λ−μ t^(4m+8))(2tv−h) and is singular at the
+nonzero roots of that displayed scalar, though generically regular along C.
+
+For degree seven these actual carriers are nonsplit whenever integral
+and \(\lambda\mu\ne0\). On the smooth branch quadric \(R=0\) with
+\(x_0=1\) one has \(w=2tz\) and
+\[
+ F|_{R=0}=t^3(-\lambda t-8\mu z^7+\nu z^3).
+\]
+The graph of the second factor has a simple generic point on the
+dense torus, giving an odd valuation of \(R/x_0^2\) in the carrier
+function field. This proves nonsplitting without assuming generic
+normalization smoothness away from the endpoints.
+
+The degree-seven endpoint bound improves in the actual pair algebra.
+At the first endpoint set \(v=z-t^3\); the smooth carrier has
+parameters \((t,v)\), and a sole-support mate is a unit times
+\(v^n\) there, since this is a regular local UFD and its divisor
+has just that support. Thus the actual lattice is
+\(k[[t]][v]/(v^n)\). At the other endpoint use reversed coordinates
+and the corresponding normal parameter. From \(w/t\equiv2z\pmod t\)
+one obtains at the first endpoint
+\[
+ (\epsilon_0/t^3)\bmod t=(8\mu z^7-\nu z^3)/\lambda,
+\]
+and at the reversed endpoint \(8\lambda z^7/\mu\): the \(x_0\) factor
+of \(D_7\) contributes one more \(t\) there. Indeed
+\(q/t\equiv z\pmod t\), while the reversed mate term contributes
+\(-8z^7\) times its scalar. In either case \(\epsilon/t^4\) lies in
+\((v)k[[t]][v]/(v^n)+t^{-1}(v^3)k[[t]][v]/(v^n)\).
+In the square-root expansion the coefficient of \(v^j\) therefore
+has valuation at least \(2-\lfloor j/3\rfloor\). Each negative
+power of \(t\) costs at least three powers of \(v\).
+The all-minors comparison now gives
+\[
+ \delta_i\le\max_{0\le\ell\le n}
+ \bigl(\lfloor \ell(n-\ell)/3\rfloor-2\ell\bigr).
+\]
+Here the sum of the shifts in a product in an \(\ell\)-minor is
+bounded by \(\ell(n-\ell)\), and rounding down after summation
+only weakens the bound.
+
+A degree-seven carrier thus cannot have a sole-support mate.
+The mate degree is \(b=4s\) by degree exhaustion, and \(s\ge2\)
+by the low-degree exclusions. For \(s=2,3\) nonsplit
+postulation gives lower bounds \(26,76\) against upper bounds
+\(10,36\). For \(s\ge4\) the lower bound is
+\(28s^2-98s+118\), strictly larger than the upper bound
+\((7s-6)^2/6\) given by the continuous quadratic maximum.
+For \(a\ge8\) both endpoint conductors would vanish by
+\(t^4\)-divisibility, contradicting global postulation after ordering
+the degrees. Thus every integral member of the indicated
+\(\lambda\mu\ne0\) family in degrees \(a\ge7\) is excluded for every
+mate degree. This is a statement about actual carrier sources,
+not about all carriers in those degrees. The next structural test
+is whether other source conditions force enough endpoint
+divisibility, or whether exact matrices can replace that assumption.
+
+## A weighted endpoint test on the actual carrier
+
+Work at either standard endpoint, on its affine chart, reverse coordinates at infinity. Let (t,z,w) be chart coordinates with C=(z−t³,w−t⁴) and `e=2tz−t⁴−w`. For an actual carrier F containing C, suppose ∂_w F is a unit at the endpoint. Set v=z−t³ and solve w=w_F(t,v) formally. In the completed carrier, any actual sole-supported mate has equation unit·v^n, n=ab/4, by factorization in the regular power-series ring with support v=0; hence the pair lattice is O[v]/v^n. The value
+    F(t,v+t³,2t(v+t³)−t⁴)
+equals e|_F times a unit, by subtracting the identically zero F(t,v+t³,w_F) and using the nonzero derivative. Thus the weighted jet condition i+γj≥4 for all t^i v^j occurring in e|_F (γ fixed nonnegative rational) is directly a linear vanishing test on F after this substitution. Unit multiplication preserves the filtration. If γ>0 the prohibited jet region is finite; at γ=0 the substitution itself is still polynomial and tests t^4 divisibility.
+
+Under this condition coefficient j of e/t^4 has t-valuation at least −γj; coefficient zero is absent because e vanishes on C. The finite square-root expansion preserves these bounds by convolution, with +2 from the prefactor t². Therefore every k-minor in the cyclic basis has valuation at least 2k−floor(γ k(n−k)), giving δ_i≤max_k(floor(γ k(n−k))−2k). This is an actual coefficient condition, not a consequence of first normal order. For a smaller integral nonsplit carrier, γ_0+γ_∞<16/a is sufficient to exclude all sufficiently large mate degrees: for fixed a the nonsplit lower bound is (a/4)b²+O_a(b), while the upper bound is at most (γ_0+γ_∞)a²b²/64. The exact finite inequalities remain preferable for individual degrees.
+
+## Degrees five and six in the same constructed family
+
+Use the same A=x_0^(a−4)K_0 and B=x_3^(a−4)K_∞, with D_5=q²x_0 and D_6=q²x_1x_2. Take F=λA+μB+νD_a with λμ nonzero. The completed endpoint has w=tW and q=t(W−z); F modulo t is a unit times w. Set e=t^m E, m=a−4 (the divisibility follows as before), so W=2z−t³−t^(m−1)E.
+
+For a=5, divide the equation by t. On x_0=1 modulo t³,
+  (λ+μz⁴)E = 2μ z⁵−νt(z−E)².
+Thus the coefficients of E at t-orders 0,1,2 vanish to z-orders at least 5,2,3: solve successively, using that z−E_0 has order one. At infinity exchange λ,μ and replace the final term by −νt² W(W−z)²; there E_1=0, E_0 has order ≥5, and E_2 order ≥3. Replacing z by v+t³ doesn't change these low t-orders. The t-integral remainder of e/t⁴ lies in (v) because e vanishes on C. Thus the weighted test applies with γ_0=1, γ_∞=3/5.
+
+For a=6, the same calculation at either endpoint (swap λ,μ) gives modulo t²
+  λE=μ W² z⁴−ν t z(W−z)², W≡2z−tE.
+So E_0=4μz⁶/λ and E_1=−16μ² z^11/λ²−νz³/λ. Hence the pole part of e/t⁴ is in t^−2(v⁶)+t^−1(v³); both slopes are 1/3. The remaining integral part lies in (v).
+
+The actual carriers are integral on a nonempty open by the same Bertini argument. For a=6 the ratio B/D on K_0=0 has a pole at t=1,z=0,w=−1, and D is not identically zero there. For a=5, that ratio is −1 there and is zero at t=1 and a root of z²+2z−1 (w=−z², q=z−1 nonzero). Thus the linear system in each degree has image dimension two and no fixed surface. The first normal form is still (λ−μt^(4m+8))(2tv−h), so general members have singular points on C, although endpoints are smooth.
+
+Nonsplitting holds for integral members in the following open. On the smooth branch quadric R=0, set w=2tz. In degree five restriction is t(−λt³+ν t z²−2μ z⁵). The cubic has nonzero constant over k(z), with discriminant not identically zero (z^10 coefficient nonzero since λμ≠0). In degree six restriction is −t²(λt²−νt z³+4μz⁶); require ν²≠16λμ, giving two distinct nonzero torus roots after division by z³. Each has a simple torus component of the branch divisor on the actual integral F, hence r is nonsquare on F.
+
+All mate degrees fail. For a=5 write b=4s with s≥2 (lower excluded). At s=2,3 the lower lengths are 24,74 versus upper at most 22,62 by slopes 1,3/5. For s≥4 even the weaker bound using slope 1 at both gives (5s−2)²/2, less than the lower 20s²−50s+44 (difference (15/2)s²−40s+42 positive and increasing). For a=6 write b=2s, s≥3; s=3,4,5,6 lower lengths are 13,25,45,75 versus upper at most 0,6,12,24. For s≥7 the lower 6s²−36s+75 exceeds (3s−6)²/6 (difference (9/2)s²−30s+69 positive and increasing). These are exclusions on actual carrier families, not assertions covering all quintics or sextics.
+
+## How large is the simultaneous endpoint source?
+
+For this dimension count assume the characteristic is different from two.
+For integer U≥2 let L_(a,U)⊂H⁰(I_C(a)) be the linear source whose two substituted polynomials on the quadratic-coordinate graphs are divisible by t^U. Consider its open locus where the solved normal partial is nonzero at both endpoints. This open is nonempty if and only if a≥U+4. On the first chart, give (t,v) weights (1,3). Substitution w=2tv+t⁴,z=v+t³ preserves the homogeneous torus weights. The weight-four piece of any F in this source is
+`Ax_0^(a−4)x_1⁴+Bx_0^(a−2)x_1x_2+Cx_0^(a−1)x_3`;
+omit unavailable monomials if a<4. Along C, A+B+C=0; in its substituted polynomial the coefficient of tv is B+2C, which must be zero since U≥2. The solved normal partial at p_0 is C≠0. Thus a≥4 and the piece is C times x_0^(a−4) K_0 up to sign. In the reverse graph chart its value has t-adic order exactly a−4: the factor w^(a−4) contributes that order with leading coefficient (2v)^(a−4), and K_0 in that chart has leading term −v⁴. Other weights cannot cancel because reversed torus weights are 4a minus the original ones. Thus a−4≥U. Conversely take A+B from the actual carrier family, with both coefficients nonzero; on each branch graph the marked term vanishes and the opposite one has order ≥a−4, and the solved partials are nonzero.
+
+The source has exact codimension 2Ua inside H⁰(I_C(a)) when a≥2U+2. To count, first work in the full degree-a polynomial space. A monomial x_0^i x_1^j x_2^k x_3^l has first substituted leading term 2^l t^(j+l)v^(k+l) and higher t-orders. Its lowest order in the reverse chart is i+k, and these two orders sum to a. Monomials contributing to the first U jets at the two ends are therefore disjoint sets. In either chart every leading pair (d,r) with 0≤d<U, 0≤r≤a occurs: choose l=min(d,r), k=r−l, j=d−l, and i=a−d−k. Choosing one column for each (d,r) gives an invertible triangular coefficient matrix ordered by the initial t-degree, since higher-order terms still have v-degree ≤a. The rank of simultaneous jets on all forms is thus 2U(a+1). To restrict to forms through C, the curve evaluation rows are single torus-weight evaluation rows. The rows at weights 0,…,U−1 and 4a−U+1,…,4a are already given by the v=0 coefficients of the two jet maps. Every weight from U through 4a−U has a monomial missing from both jet maps: choose d between U and a−U and r between 0 and a with weight d+3r, and use the same exponents above. Such choices exist throughout the interval because d ranges over at least three consecutive integers. Those middle curve rows are independent modulo the two jet maps, as they have distinct weights and independent coefficients on missing columns. Therefore the lost rank on I_C(a) is exactly 2U; this proves the claim.
+
+In characteristic zero the all-mate exclusion from U=4 concerns the whole endpoint-smooth part of this actual linear source, not only the constructed A,B,D pencil. For a≥10 the codimension is 8a. For every a≥8 the constructed integral examples ensure that this source has a nonempty open of integral members regular at the endpoints. A high-dimensional source with this restriction is not coverage of arbitrary carriers; the live gap is which geometric hypotheses force these endpoint jets, or a capacity inequality that does not require them.

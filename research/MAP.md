@@ -49,7 +49,7 @@ relations among its actual homogeneous equations throughout the family.
 [Movement bounds](results/torus_quotient_movement_bounds.md) ·
 [Moving quotient and equation comparison](investigations/quotient-hilbert-comparison/index.md#completion-and-next-decisions).
 
-The current sextic interfaces are (i) higher contact for proper pencils
+For primitive-triple sextic pencils, the current interfaces are (i) higher contact
 through the surviving ADE primitive triples with independent restrictions
 to the containing quadric, and (ii) comparison of the established canonical
 cohomological obstruction and unique-quadric filtration for the eleven
@@ -71,7 +71,7 @@ It gives the source dimension in every degree at least four and a full
 determinant image for \(a,b\ge5\) with \(a+b\ge11\), including
 the mixed quintic-sextic case. The equal-quintic case retains a specific
 six-jet interpolation gap in the geometric proof.
-The remaining sextic issue is higher contact of actual proper pencils;
+The remaining issue in this framework is higher contact of actual proper pencils;
 surjectivity of the determinant span does not settle that incidence.
 For an actual orbit pair in any bidegree, the two endpoints together
 detect raw equation torsion but can miss classes on a parameter layer.
@@ -100,6 +100,52 @@ of all possible carriers or a degree-independent obstruction. See the
 [carrier framework](frameworks/carrier-normalization/index.md),
 [toric quintic exclusion](results/toric_quintic_carrier_exclusion.md),
 and [elliptic inverse-support criterion](results/elliptic_inverse_support.md).
+
+The quadratic conductor now compares global postulation with both actual
+endpoint capacities on the same object, excluding specified carrier families
+in all mate degrees. [Choosing the auxiliary cover](arguments/linkage/quadratic_cover_choice.md)
+makes the nonsplit onset available for every integral carrier of degree
+greater than two in characteristic different from two. In characteristic
+zero the uniform all-minors bound applies, but even one
+[smooth-transverse endpoint](arguments/linkage/endpoint_lattice_capacity.md#transverse-endpoints-throughout-the-cover-pencil)
+already has capacity exceeding the displayed scalar postulation bound for
+every cover. That comparison's remaining target has aligned smooth or
+singular behavior at both endpoints. The characteristic-zero fixed-cover
+two-lift sextic sector is excluded without normality. Its surviving
+one-lift sector is generically regular along the lift, has non-Du-Val
+behavior there, and satisfies the symbolic defect strata \(g=5,6,8\)
+without a normality assumption. The unique singular-cubic exclusion
+also holds in odd characteristic; the Du Val/K3 exclusions do not extend
+by this argument. These statements
+do not close the separate split-first-normal-cone frontier or improve the
+general degree bound. See the [current carrier scope](frameworks/carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)
+and [local/global interface](frameworks/global-equation-realization/projection_and_liaison.md#embedded-conductor-and-ambient-equations).
+
+Actual [pairs retaining the toric quartic as a defining equation](arguments/torus/fixed_carrier_chow_arrangements.md)
+have an exact coefficient description: the carrier's semigroup
+gaps force \(c_1=c_2=c_5=0\). In characteristic zero at least three distinct
+translates remain, while partial collisions occur; the root-of-unity examples
+form a special locus. This does not classify arbitrary CI thickenings whose
+support merely lies on that surface. The smooth quadric admits no such section,
+by its ruling
+classes. More generally, the [Chow trace moment](arguments/torus/chow_arrangement_moments.md)
+vanishes for pairs with an eigenform generator or specified polynomial
+congruences, including every invariant CI and reduced CI arrangement.
+Its linear Chow-coefficient equation separates their entire Chow closure
+from \(m[C_{u,v}]\) in characteristic zero. Non-invariant CI lifts over
+repeated cycles need not lie in that closure. Their realization geometry is
+the [current exploratory priority](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment).
+The [coordinate-to-equation interface](arguments/torus/fixed_surface_restriction_lifts.md)
+gives linear coefficient constraints for arbitrary surfaces containing the
+chosen translates, then retains joint transverse lengths and normal lifts.
+Fixed-surface syzygies recover a first annihilator, not the full embedded
+pair. For a sole-support \(C_0\) candidate, a sufficiently low-degree
+carrier-power certificate would force a forbidden fixed-carrier mate in
+characteristic zero.
+Separately, [simultaneous torus degeneration of the quadratic graph](arguments/linkage/toric_limit_conductor_comparison.md)
+compares original and pure-limit conductor lengths using the difference of
+the two embedded endpoint corrections. Their control by global equations is
+the missing comparison; endpoint concentration alone supplies no inequality.
 
 Two bounded objects in [Investigations](investigations/) currently connect the
 torus approaches, at different stages of readiness: [moving quotient and full Hilbert comparison](investigations/quotient-hilbert-comparison/index.md)

@@ -192,6 +192,8 @@ associated to the quartic. It is not a containing surface in the original
 
 ## 4. Residual curves and the two different ways a curve can disappear
 
+The [symbol attachment refinement and sextic slack control](../../results/connected_normal_directions.md#what-the-cubic-contraction-misses-in-the-attachment-count) compare the contracted residual cycle with the demand visible in its normal symbols.
+
 Let \(F_a,G_b\) be an actual proper pair with exact generic normal orders
 \(r,s\) along \(C\), and write
 
@@ -334,6 +336,143 @@ two representatives under the marked symmetries; the associated R-0077 review re
 in the seven cubics verified both rows, their rank-six spans and the
 two hyperplane traces on the conic. Existence of the required sections
 for either quintic remains open.
+
+### The marked correspondence on the whole equality boundary
+
+Work in characteristic zero. For an actual proper pair of degrees
+\((a,b)\) and exact orders \((r,s)\) along \(C\), put
+\[
+ K=16(as+br)-7ab-28rs .
+\]
+Under sole support and \(K=0\), the slack identity and connectedness
+give a single constant section \(T\) as the reduced strict
+intersection on the graph. Write \(\Delta=\phi(T)\) and
+\(z=\Delta\cap\Gamma\) as in the endpoint correspondence. In the
+same marked frame the actual source spaces on \(V_5\) are
+\[
+ H^0(\mathcal I_\Gamma^{a-3r}((a-2r)M)),\qquad
+ H^0(\mathcal I_\Gamma^{b-3s}((b-2s)M)).
+\]
+The exponents are nonnegative by quadric restriction: neither
+original equation can have the quadric as a factor. Impose exact
+orders along \(\Gamma\), properness, and no \(\Sigma\) component.
+Then sole support on this marked section is equivalent to these
+conditions on the actual sections:
+
+- Off \(\Gamma\) their common reduced support is
+  \(\Delta\setminus\{z\}\).
+- On the exceptional ruling over any \(\gamma\ne z\), their conic
+  normal forms have no common root; over \(z\) the two forms do not
+  both vanish identically.
+
+Indeed the actual-section dictionary and the same exceptional
+component checks as at the endpoint identify the strict divisors.
+Their common scheme off the exceptional divisor is the punctured
+section. The ruling test leaves at most finitely many points on the
+marked fiber and none on the other fibers. Purity of the strict
+complete intersection excludes isolated components; the strict support
+is \(T\). Conversely a strict intersection supported on \(T\) has those
+fiber properties. If both conic orders are positive the image divisors
+also contain \(\Gamma\); thus the image intersection is not being
+asserted to have sole support \(\Delta\).
+
+Writing \(m=a-3r\), \(n=b-3s\), the two normal forms on the ruled
+quadric have bidegrees \((a-r,m),(b-s,n)\).
+The resultant on the ruling parameter line is a section of degree
+\[
+ (a-r)n+(b-s)m=ab/4-rs
+\]
+by bihomogeneity and \(K=0\). Its divisor must be
+\((ab/4-rs)[z]\), because it vanishes exactly at parameters where
+the forms share a root. If one fiber degree is zero this means
+the corresponding scalar section raised to the other fiber degree.
+Both degrees cannot be zero on \(K=0\). The resultant does not exclude
+a whole contracted ruling at the marked point; the separate nonzero
+test there is essential. This extends the endpoint
+\((3r,4s)\) correspondence to interior slopes without asserting
+existence there.
+
+It is enough to analyze irreducible equations on this boundary.
+Every cross-pair of irreducible factors of a proper sole-support
+pair is proper and has sole support by degree and containment.
+Its \(K\) is nonpositive. The total \(K\) is the sum of these
+values with factor multiplicities by bilinearity, so equality
+forces equality for every cross-pair. For positive orders the
+slope equation is \((7a/r-16)(7b/s-16)=60\), making all slopes on
+one side equal and the opposite slope fixed. All cross-pairs
+give the same section, because their strict intersections lie in
+the original one. The [all-mate low-degree exclusions](../../frameworks/carrier-normalization/degree_exclusions.md#52-factors-and-the-degree-bound)
+force both irreducible degrees to be at least five; at the endpoint
+this requires \(r,s\ge2\).
+
+### A conductor requirement on the endpoint carriers
+
+Consider only the endpoint correspondence in which the actual pair
+on \(V_5\) has sole support \(\Delta\), not the interior equality
+case in which \(\Gamma\) remains in the image intersection.
+Take an integral component \(U\in|mM|\) of either member, regular at
+the generic point of \(\Delta\), with normalization smooth along its
+inverse curve \(c\). The pullback of the proper mate is an ample
+Cartier divisor supported precisely over \(\Delta\). Generic
+regularity and finiteness give one inverse curve \(c\cong\Delta\)
+and no other points in its full inverse (a Cartier divisor on the
+normal surface has pure support). If the mate has degree \(n\)
+on \(V_5\), its pullback has divisor \(mn c\) by intersection
+with \(M\), since \(M^3=5\) and \(M\cdot\Delta=5\). Intersecting
+with \(c\) gives \(c^2=5/m\). Smoothness along \(c\) makes this
+an integer, so \(m=1\) or \(5\).
+
+For \(m=1\), if the component has order \(j\) along \(\Gamma\),
+its strict transform has class
+\[
+ mL-jQ'=(3m-2j)H-(m-j)E .
+\]
+It gives an original carrier of positive degree at most three
+(the component is not \(\Sigma\)), contradicting the
+[all-mate low-degree exclusions](../../frameworks/carrier-normalization/degree_exclusions.md).
+For \(m=5\) the full Cartier conductor divisor \(B_{\rm cond}\)
+on the normalization near \(c\) has
+\[
+ B_{\rm cond}\cdot c = 5m-8+5/m=18 .
+\]
+Indeed finite duality identifies its negative with the relative
+canonical line bundle near the smooth inverse curve;
+\(\omega_U=(m-2)M|_U\), and adjunction on \(c\cong\mathbf P^1\)
+gives \(K\cdot c=-2-c^2\) on the normalization.
+
+The transverse differential along the inverse curve is a nonzero map
+\(\mathcal O_c(c)\to N_{\Delta/V_5}\). Across the transverse blowup
+point \(z\), the normal bundle on \(V_5\) is an elementary positive
+modification of \(N_{T/B}\) of length one: in local coordinates with
+\(\Gamma=(x,y)\), \(\Delta=(t,y)\), use the blowup chart \(y=xv\).
+On the normal directions the map is diagonal with entries \(1,x\),
+so the cokernel has length one. The largest line degree of
+\(N_{\Delta/V_5}\) is at most \(8-d\) from the splitting
+\(\mathcal O(d)\oplus\mathcal O(7-d)\) on \(T\), where \(d=2\) for
+endpoint directions and \(d=3\) for mixed directions.
+Thus the common-zero orders \(h_p\) of the transverse differential
+sum to at most \(8-d-c^2\), namely five or four respectively.
+
+At smooth points of the full downstairs conductor, its inverse is
+finite flat of rank two there. Indeed local duality over the
+Gorenstein hypersurface identifies the finite quotient of the
+normalization by the original ring with the dualizing module of
+the downstairs conductor; over its smooth parameter ring this
+has rank one. The conductor sequence then gives rank two for the
+upstairs conductor algebra. The existing
+[smooth-conductor contact estimate](../carriers/square_descent_and_singular_gluing.md#smooth-conductor-contact-is-bounded-by-the-actual-normal-differential)
+applies: the actual mate descends, pulls back to a power of a
+local equation of \(c\) up to a unit, and conductor contact
+\(b_p\) is at most \(2h_p\) on these points. Hence the points over
+the nonsmooth downstairs conductor must supply
+\[
+ \sum_{p\text{ over nonsmooth conductor}}(b_p-2h_p)
+ \ \ge\ 8\text{ (endpoint direction), or }10\text{ (mixed direction)} .
+\]
+This is a requirement on a hypothetical endpoint carrier.
+It is not an exclusion if the necessary nonsmooth contacts occur,
+and does not apply to a carrier generically singular along the
+marked curve or a normalization singular along its inverse.
 
 ## 5. General residuals acquire a second constructive description
 

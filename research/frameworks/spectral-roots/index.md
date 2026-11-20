@@ -33,3 +33,7 @@ source conditions. [Global equation realization](../global-equation-realization/
 [formal normal geometry](../formal-normal-geometry/index.md), and
 [carrier normalization](../carrier-normalization/index.md) impose distinct
 conditions on sections, local compatibility, and descent.
+
+### The actual elliptic conormal pencil as a spectral input
+
+On the [birational elliptic family](../../arguments/carriers/elliptic_double_inverse_construction.md#the-horizontal-symbol-and-the-actual-elliptic-pencils), the trace defect of the horizontal symbol curve is the same divisor as the direction-coincidence excess. At maximum marked conormal defect the horizontal root is a smooth (2,2) curve, and its Picard difference is determined by the actual divided normal coefficients. The missing first step is whether this stratum occurs in the lifting family. Torsion is not inferred from the Picard comparison, and the separate quadratic-root obstruction and actual-source gaps remain.

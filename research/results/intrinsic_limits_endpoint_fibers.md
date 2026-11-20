@@ -57,3 +57,8 @@ actual algebra at the opposite endpoint and the degree-wise generator
 incidence still require the full ideal. The comparison uses the action
 preserving \(C\). A transverse one-parameter subgroup moves \(C\) and
 requires a different limiting support.
+
+For the quadratic conductor, the [simultaneous selected-graph comparison](../arguments/linkage/toric_limit_conductor_comparison.md)
+uses these embedded lengths together with the graph's own embedded correction.
+The finite-modification indices in this result are not themselves quadratic
+conductor lengths; the additional comparison is required.
