@@ -1191,9 +1191,8 @@ ruling meets \(C\) at three distinct points in characteristic
 zero. The only possibility not covered by the transverse
 result when the residual divisor avoids the endpoints is
 a doubled unmarked ruling \(2L\). In this case too there is
-no mate in any degree if the signed cubic is normal and
-has at most Du Val singularities along the two lifts.
-No condition on the singularities elsewhere is needed.
+no mate in any degree if the signed cubic is normal.
+No Du Val hypothesis is needed, including along the lifts.
 
 Write \(T\subset X\) for the pullback of \(V(q)\). On a ruling
 \(L\) away from the endpoints, Segre coordinates have the form
@@ -1256,11 +1255,60 @@ marked point, and the required correction there is
 \(30/7\). At that zero \(A_x(0)=0\). If \(A_y(0)\ne0\),
 the tangent of the marked lift itself is outside the
 Hessian radical, so its end correction is below one.
-Otherwise the Hessian rank is at most one. The Du Val
-assumption leaves only types \(D,E\), whose Cartan
-determinants are \(4,3,2,1\); an integral incidence vector
-has correction with denominator dividing that determinant.
-None can give \(30/7\). This proves the exclusion.
+The double-zero case can in fact be closed without the local
+Du Val assumption. If \(A_x(0)=A_y(0)=0\) but \(A_w(0)\ne0\),
+the singularity is necessarily \(D_5\). Indeed the conormal
+section has a zero of order exactly two, so the coefficient
+of \(x^2\) in \(A(x,0,0)\) is nonzero. With weights
+\((2,3,4)\) on \((x,y,w)\), the initial equation is
+\(a w^2+c x^2w+xy^2\), with \(ac\ne0\). Completing the
+square gives \(w'^2+xy^2+c'x^4\), \(c'\ne0\). This weighted
+initial form determines the formal type: its Jacobian
+quotient has basis \(1,x,x^2,x^3,y\), all of weight at
+most six, so terms of weight above eight can be removed
+successively by coordinate changes of strictly increasing
+weight. The \(D_5\) Cartan determinant is four; the required
+fraction \(30/7\) is impossible.
+
+If \(A_x(0)=A_y(0)=A_w(0)=0\), the surface has
+multiplicity three. In the blowup chart along the marked
+lift, write \(x=yX_1,w=yW_1\). The strict equation is
+\[
+X_1+W_1\,A(yX_1,y,yW_1)/y^2=0.
+\]
+It is smooth where the strict lift hits the exceptional
+divisor and there \(W_1=0\) cuts out the strict lift,
+transversely to the exceptional divisor \(y=0\). The
+strict conic lies in a different tangent direction. A
+resolution elsewhere on this blowup need not modify this
+neighborhood. The discrepancy at the exceptional component
+met by the lift is \(-1\): the ambient volume form gains
+\(y^2\) in the blowup, while its defining equation loses
+\(y^3\), giving the factor \(y^{-1}\) in the residue.
+Since the signed cubic has trivial canonical class and
+this is the only possible singular point of either lift,
+adjunction gives self-intersection \(-1\) for the strict
+lift through the point rather than \(-2\).
+
+There is also an upper bound on its numerical-pullback
+correction. Locally \(\operatorname{div}(w)=D+2R\).
+On a resolution of the normal surface the numerical
+pullbacks of these two effective curves have nonnegative
+exceptional coefficients: their coefficient vectors solve
+the negative definite intersection systems with
+nonnegative incidence vectors, and the inverse of the
+negative exceptional matrix is nonnegative. The
+exceptional part of the actual pullback of \(w\) is their
+weighted sum. It meets the strict marked lift with
+multiplicity exactly one, since \(w=yW_1\) in the chart
+and the strict conic is disjoint there. Thus the marked
+curve's own numerical correction is at most one. Together
+with the change in adjunction, this gives an effective
+self-correction of at most two relative to the smooth
+self-intersection \(-2\). The same two separate mate
+intersections, using this effective correction on the
+singular side and zero on the other, would require
+\(30/7\), again impossible.
 
 A residual ruling through a marked endpoint is different:
 it lies in the branch quadric, so its pullback as a ruling

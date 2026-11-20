@@ -96,11 +96,10 @@ cluster is not in itself evidence against the workflow.
   slice fixes the end incidence, and a K3 smoothing bounds the sum of
   the local ranks without requiring Du Val singularities elsewhere.
   The [doubled unmarked ruling sector](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#doubled-unmarked-ruling-a-conic-bounds-the-correction)
-  also excludes every mate if the signed surface is normal and has
-  only Du Val singularities along the lifts. The transverse case
-  requires only normality. Residual rulings through marked endpoints
-  and nonnormal or worse singularities in the doubled sector remain
-  outside these exclusions.
+  also excludes every mate for a normal signed cubic. Thus both
+  unmarked residual patterns are excluded under normality, with no
+  Du Val assumption along the lifts. Residual rulings through marked
+  endpoints and nonnormal signed cubics remain outside these exclusions.
   Endpoint-concentrated nonzero norm coefficients likewise
   still require actual contact and capacity tests. For larger nonsplit sources, seek capacity bounds
   without fourth-order divisibility. The weighted criterion assumes
