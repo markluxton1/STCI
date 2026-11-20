@@ -28,6 +28,68 @@ Hilbert limits can organize possible boundaries, but they need not
 remain complete intersections. Weight decompositions can refine
 deformation calculations without replacing the global equation test.
 
+### A fixed-carrier pencil has finitely many branch-order jumps
+
+Fix an integral hypersurface containing \(C\), with normalization
+\(\nu:S\to X\), and a same-degree pencil whose two restrictions to \(X\)
+are independent. Each member is a proper mate of \(X\). At the generic
+point of each inverse branch \(\Gamma_i\) over \(C\) there is a DVR.
+After trivializing the common line bundle, the generic order on the
+pencil is the smaller of the two orders there. The initial coefficient
+at that order of \(sG_0+tG_1\) is linear in \([s:t]\), with values in the
+branch residue field. It vanishes at at most one point of \(\mathbf P^1(k)\):
+when both coefficients are nonzero, cancellation requires their ratio
+to lie in \(k\). Thus there are at most as many jump parameters as
+inverse branches. Jumps may coincide and their sizes need not be one.
+
+If \(r_i\) is the order of the chosen member on \(\Gamma_i\) and
+\(f_i=[k(\Gamma_i):k(C)]\), its generic intersection multiplicity along
+\(C\) is \(\sum_i f_i r_i\). Indeed, on the one-dimensional local ring
+of \(X\) at the generic point of \(C\), the finite normalization has a
+finite-length cokernel. Multiplication by the mate on this cokernel
+has kernel and cokernel of equal length, so the length on \(X\) equals
+the length computed in the normalization. The cycle-degree identity
+therefore converts an order jump to a drop of four times its weighted
+size in residual degree. It does not identify the moving residual
+components or guarantee complete absorption.
+
+For the characteristic-zero
+[mixed sextic](residual_contact_cycles.md#equality-mates-and-sharpness-in-every-degree),
+the pencil of cubic mates spanned by \(A=c_2-c_0\) and \(B=c_2+c_0\)
+has two degree-one inverse branches. Their orders are \((1,1)\) at
+every mixed member, and \((2,1)\), \((1,2)\) at the two pure members
+by the divisor formulas there. Thus the branch count is attained:
+the residual degree falls from ten to six at precisely those two
+parameters, and never to zero.
+
+### The twelvefold residual moves on the thick quadric
+
+The fixed line in [R-0049](../../results/sextic_residual_absorption.md)
+is fixed in its original pencil, not rigid on the carrier \(q^3\).
+Use its Segre coordinates \((ac,ad,bc,bd)\) and \(D=bc^3-ad^3\).
+The cubics \(A_0=x_0^2x_2-x_1^3\),
+\(M_0=x_0x_2^2-x_1^2x_3\), \(B_0=x_2^3-x_1x_3^2\) restrict to
+\(a^2D,abD,b^2D\). Thus
+\(A_z=A_0-2zM_0+z^2B_0\) restricts to \((a-zb)^2D\).
+The actual family \((q^3,A_z^2)\) passes through the R-0049 endpoint
+at zero. It is proper and flat by the fiberwise regular sequence,
+since its second form never vanishes identically on \(Q\).
+Its cycle is \(6[C]+12[L_z]\), where \(L_z=(a-zb=0)\) on \(Q\):
+take the Cartier divisor of \(A_z^2|_Q\) and multiply by three.
+Every fiber contains the marked double curve on \(Q\), with ideal
+\((q)+\mathcal I_C^2\). In characteristic zero the contact of
+\(L_z\) with \(C\) changes from a triple point to three simple points
+by the equation \(c^3=z\) on \(b=d=1\); the weighted valuative
+contact still has degree 36. No flatness of the extracted full
+primary component or claim about its attachment lengths follows.
+
+More absorption is impossible on the same thick carrier in degree six.
+Any proper sextic mate has nonzero restriction of type \((6,6)\)
+on \(Q\), so its multiplicity along the \((1,3)\) curve is at most two.
+After multiplying that cycle by three, at least twelve residual units
+of degree remain. Moving the support and changing the contact
+distribution therefore do not get past this fixed-carrier floor.
+
 ### Fixed-degree multiplicity strata of actual pairs
 
 Over an algebraically closed field, let \(U_{a,b}\) be the open set of

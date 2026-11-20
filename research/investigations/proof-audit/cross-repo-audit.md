@@ -85,6 +85,73 @@ exist. See the [open-item list](open-items.md) for re-entry decisions.
 | **Inverse support and descent ↔ a constructive endpoint** (KG03/KG05/KG06) | Carrier geometry, the elliptic inverse scheme, and the absorption model each distinguish a supported object from an actual descended equation or pair. [Elliptic support](../../results/elliptic_inverse_support.md) · [Conductor cases](../../frameworks/carrier-normalization/open_carrier_cases.md) · [Marked absorption](../../arguments/residuals/marked_deformation_and_absorption.md). | Compare the conductor or graded source conditions on a single surviving model. To use an absorption direction, lift it to both ambient equations and check properness and the entire residual cycle. A supported inverse set or a smaller residual is not a constructed STCI pair. |
 | **Arithmetic ↔ a characteristic-zero obstruction** (KG10) | Known nonlifting and endpoint tests attach to a specified model or family. [Arithmetic framework](../../frameworks/arithmetic-supported-lifts/index.md). | Identify data intrinsic under change of the two ambient equations, then prove a coverage statement for reductions of hypothetical pairs. Do not identify endpoint torsion with conductor classes or spectral Picard torsion without a comparison. |
 
+## What the two implications passes established
+
+The passes start from actual equations or their canonical owners, test
+a proposed implication, and retain the obstruction or reduced search
+space. The workflow was useful in these cases without a case or
+parameter sweep. The results do not measure repository-wide yield;
+a null result would not by itself invalidate the method.
+
+### Positive restrictions and transport
+
+- [Elliptic inverse and descent](../../arguments/carriers/elliptic_double_inverse_construction.md#an-intersection-bound-and-the-missing-descent-step):
+  the conormal pencil bounds the marked intersection by six, improving
+  to four for birational octics. The generic split branches there are
+  transverse, excluding conductor coefficient five, and no mate of
+  degree at most five exists. Full inverse support and higher-degree
+  descent at the remaining divisorial conductor images are open.
+  The [vertical-divisor identities](../../arguments/carriers/elliptic_double_inverse_construction.md#the-vertical-divisor-counts-the-residual-inverse-scheme)
+  count the whole inverse scheme with multiplicity and relate it to
+  the residual conductor on the marked double cover.
+  For a support survivor in the integral residual-curve scope, the
+  [length-eight residual conductor test](../../arguments/carriers/elliptic_double_inverse_construction.md#a-finite-descent-test-on-the-residual-quadric-curve)
+  gives a finite necessary descent check before any ambient search.
+  The [normalization of the meeting norm divisor](../../arguments/carriers/elliptic_double_inverse_construction.md#the-meeting-norm-divisor-and-its-normalization)
+  parametrizes the support search and locates degrees six through
+  twelve on its singular locus. An actual meeting fiber fails full
+  support, so the closed full-support locus has dimension at most three;
+  whether it is empty remains open.
+  See the [normalization gates](../../frameworks/carrier-normalization/open_carrier_cases.md).
+- [Normal symbols and the cubic contraction](../../results/connected_normal_directions.md#what-the-cubic-contraction-misses-in-the-attachment-count):
+  the joint bound charges the residual degree visible on \(V_5\).
+  A wholly contracted sextic residual has symbol count only one, so
+  contraction is not exhaustive attachment. See the
+  [actual-contact gate](knowledge-gain-priorities.md#kg01-projective-limits-on-deep-generic-normal-contact).
+- [Local cohomology and the contact flag](../../arguments/local-cohomology/polynomial_duals_and_affine_pencils.md#a-target-preserving-quadric-shift-of-actual-contact-sources):
+  quadric division transports target values and stabilizes the image
+  along a specified ray. The first quartic shift has at most five new
+  source directions; determining their actual products remains open.
+
+The [Chow-fiber realization viewpoint](../../arguments/equations/chow_polytope_rigidity.md#from-the-cycle-fiber-to-actual-complete-intersections)
+separates cycle collisions, Hilbert lifts and actual proper pairs.
+The elliptic norm is a model of stratifying a fixed incidence family,
+not an identification of the two parameter spaces.
+
+### Nonreconstruction examples
+
+- [Opposite limits and actual contact](../../arguments/torus/chow_matched_equation_layers.md#opposite-limits-do-not-recover-actual-contact):
+  two proper pencils have the same full opposite initials and no raw
+  parameter torsion, but different actual contact. Neither is
+  Chow-matched or sole-supported. A comparison should retain the joint
+  actual-source filtration; the marked-shear criterion describes which
+  changes of equations preserve its lower contact thresholds.
+- [Binary determinant and canonical layers](../../arguments/torus/chow_matched_equation_layers.md#a-binary-determinant-index-and-what-it-does-not-recover):
+  a canonical determinant measures a finite restriction index. Three
+  controls fix both indices, the extreme weights and the cycle but
+  vary the canonical line layers. The
+  [weighted-source gate](knowledge-gain-priorities.md#kg02-actual-equation-layers-and-the-two-torus-ends)
+  remains a module-level comparison, not a search for another scalar.
+
+### Family-specific controls
+
+- [Branch jumps and marked absorption](../../arguments/residuals/marked_deformation_and_absorption.md#a-fixed-carrier-pencil-has-finitely-many-branch-order-jumps):
+  each inverse branch contributes at most one jump parameter in a
+  fixed-carrier pencil, and the mixed sextic realizes both jumps.
+  Separately, the twelvefold residual moves on the thick quadric
+  without passing its fixed-carrier degree floor. Neither constructs
+  a sole-support pair.
+
 ## How to use the audit
 
 1. Use the shared obstruction or realization gate as the unit of comparison,

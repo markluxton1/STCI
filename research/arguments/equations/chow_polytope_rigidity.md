@@ -33,6 +33,46 @@ This is a statement about effective curve cycles, not schemes, Hilbert
 polynomials, embedded points, or two homogeneous defining equations.
 In particular it does not solve or obstruct unrestricted STCI for \(C_0\).
 
+## From the cycle fiber to actual complete intersections
+
+For a fixed type \(a\le b\) with \(4\mid ab\), set \(m=ab/4\).
+There are three different objects to compare:
+
+1. **Cycle points.** By R-0074 the geometric points of the
+   polytope fiber are unordered \(m\)-multisets in the two-dimensional
+   torus orbit \(T/\operatorname{Stab}(C)\) of the fixed quartic.
+   Multiplicity partitions record collisions of translates, not
+   whether the curves meet: the translates already share the marked
+   endpoints. The cycle \(m[C]\) is one marked point of the deepest
+   diagonal. This is a description of geometric points, not an
+   identification of scheme structures or of their compactifications.
+2. **Hilbert lifts.** Above a cycle, retain the embedded schemes with
+   the complete-intersection polynomial
+   \(ab\,n+ab(4-a-b)/2\), and track their cycles under flat limits.
+   Specifying a cycle gives neither its scheme structure nor the
+   existence of a flat lift from a given component.
+3. **Actual CI realization.** For \(a=b\), take two-dimensional
+   subspaces of \(S_a\) with coprime generators. For \(a<b\), take
+   a line \([F]\) in \(S_a\) and a line
+   \([G\bmod F S_{b-a}]\) in the quotient, again with coprime
+   representatives. These equation parameters map to embedded ideals,
+   then to their fundamental cycles. A flat Hilbert limit need not
+   stay in this proper CI locus.
+
+The characteristic-zero binomial constructions below show that actual
+members can realize several translates. It is not asserted that every
+Chow multiset admits an actual CI lift. For each type, the question is
+to determine the image of actual proper pairs in the cycle fiber:
+what the general cycle and multiplicity partition of each component
+are, which collision strata the image meets, and how the Hilbert
+boundaries compare with cycle limits. This is a
+moduli question independently of whether the marked cycle \(m[C]\)
+has a proper CI lift. The
+[fixed-family elliptic meeting divisor](../carriers/elliptic_double_inverse_construction.md#the-meeting-norm-divisor-and-its-normalization)
+illustrates how to separate an incidence divisor, its generic fiber,
+and exceptional strata in a concrete family; it is not this Chow
+or Hilbert moduli space.
+
 ## Chow forms, products, and the one-parameter subgroup
 
 The elementary Chow facts used here are that the form determines its

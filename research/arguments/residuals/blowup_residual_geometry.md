@@ -192,6 +192,8 @@ associated to the quartic. It is not a containing surface in the original
 
 ## 4. Residual curves and the two different ways a curve can disappear
 
+The [symbol attachment refinement and sextic slack control](../../results/connected_normal_directions.md#what-the-cubic-contraction-misses-in-the-attachment-count) compare the contracted residual cycle with the demand visible in its normal symbols.
+
 Let \(F_a,G_b\) be an actual proper pair with exact generic normal orders
 \(r,s\) along \(C\), and write
 

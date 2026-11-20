@@ -147,6 +147,46 @@ section. The pair generates \((F,Q^{a/2})\) and has \(m=a/2\) and
 \(\delta=a(a-2)>0\).
 [Actual cubic generation](../arguments/curve/carrier_test_curves.md#3-a-nonempty-dense-open-subset-of-every-full-actual-source-is-excluded).
 
+### What the cubic contraction misses in the attachment count
+
+Retain \(R\ne0\) and write \(L=3H-E\). The attachment inequality gives
+\[
+ t+h+L\cdot\widetilde R\le3\delta.
+\]
+In characteristic zero \(L=\phi^*M\) for the
+[cubic contraction to \(V_5\)](../arguments/residuals/blowup_residual_geometry.md#4-residual-curves-and-the-two-different-ways-a-curve-can-disappear).
+Thus \(L\cdot\widetilde R=M\cdot\phi_*\widetilde R\) is the degree
+of the residual cycle seen on \(V_5\), with mapping multiplicities
+included and contracted components contributing zero. Equality in the
+displayed bound means only \(t+h=E\cdot\widetilde R\).
+Equality in the original bound \(t+h=3\delta\) also forces
+\(L\cdot\widetilde R=0\), so in this model every residual component
+is a contracted trisecant ruling. A second refinement separates the
+degree \(\delta_Q\) of the residual components on the original quadric:
+\[
+ t+h\le2\delta+\delta_Q .
+\]
+Indeed \(E=2H-Q'\) gives \(E\cdot\widetilde R_{\rm off}\le
+2(\delta-\delta_Q)\), since no component of that cycle lies in \(Q'\),
+and nefness of \(L\) gives \(E\cdot\widetilde R_Q\le3\delta_Q\).
+
+Contraction need not make the attachment count exhaustive. Choose
+\(F\in H^0(B,6H-2E)\) restricting on \(Q'\) to a product of four
+distinct \((1,0)\) rulings. The restriction is surjective by the
+vanishing for \(4H-E\) above, and the target is \(\mathcal O_Q(4,0)\).
+The chosen restriction is not identically zero on \(C\); as an ambient
+sextic \(F\) has exact normal order two and is not divisible by the quadric
+equation \(Q\). Take \(G=F+Q^3\). The proper ideal is \((F,Q^3)\) and its
+cycle is \(6[C]+3\sum_{i=1}^4[L_i]\), by the divided restriction to
+\(Q\). Thus \(\delta=12\), all four residual rulings contract, and
+\(E\cdot\widetilde R=36\). But \(F,G\) have identical order-two
+symbols. Their common zero scheme in \(E\) is one nonzero Cartier
+divisor of type \((10,2)\), with no isolated points and connected support:
+\(H^1(E,\mathcal O_E(-10,-2))=0\) by Künneth, so its global functions
+are the constants. Hence \(t+h=1\), and 35 units of residual contact
+are not counted by the symbol attachment demand. This is a proper pair
+with residual, not a sole-support example.
+
 ### The equality boundary on the first blowup
 
 Under sole support, every component of \(W\) lies in \(E\). In the

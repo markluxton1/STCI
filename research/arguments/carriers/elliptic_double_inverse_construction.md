@@ -8,8 +8,10 @@ Its tested member has an additional isolated inverse scheme of projective
 length twelve, so that particular octic has no mate in any degree.
 The [support test](#a-length-twelve-scheme-testing-every-basepoint-free-fiber)
 extends to every smooth basepoint-free fiber. The [center-line calculation](#the-characteristic-zero-center-line)
-excludes every eligible fiber on one characteristic-zero line. Existence
-of a fiber admitting a defining pair elsewhere in the family remains open.
+excludes every eligible fiber on one characteristic-zero line. The
+[generic node calculation](#the-generic-double-branch-has-conductor-coefficient-one)
+excludes mates of degree at most five for every birational octic in the
+family. Full inverse support and higher-degree descent elsewhere remain open.
 
 The global sections, fixed normalization, inverse-scheme length, normal
 geometry and fixed-member rejection have independent source review. These
@@ -232,8 +234,9 @@ The morphism of the entire extra inverse scheme to the target curve
 therefore factors through \(h=0\), and this factorization descends through
 the free \(\mu_2\)-cover. This is scheme-theoretic containment of its
 target image in the vertical divisor. Equal numerical degrees twelve
-do not prove equality of those image schemes, reducedness or multiplicity
-one. Nor does this example prove that every vertical exceptional divisor
+alone do not prove equality of those image schemes, reducedness or
+multiplicity one; the [cycle identity and squarefree check](#the-vertical-divisor-counts-the-residual-inverse-scheme)
+below supply those conclusions for this fixed member. Nor does this example prove that every vertical exceptional divisor
 creates residual or isolated support downstairs.
 
 ## 5. Fiberwise support and actual descending equations
@@ -426,6 +429,600 @@ characteristic coefficients are not identified here; only their geometric
 zero loci are asserted to coincide. Neither the norm condition nor this
 support test supplies descent of a pure power to an actual ambient equation.
 
+#### An intersection bound and the missing descent step
+
+Write \(e=Q_0\) locally in a bundle trivialization. The pullback ideal
+of \(C_0\) is exactly
+\[
+ \mathcal I_{C_0}\mathcal O_S=\mathcal I_E\mathcal I_Z .
+\]
+To check this on local rings, let \(q\) cut the target quadric and
+choose a lift \(\widetilde g\) of the graph equation \(g\) of
+\(C_0\subset Q\), in local frames at the target point. The ideal
+of \(C_0\) there is \((q,\widetilde g)\) since its quotient by \(q\)
+is the graph ideal on the smooth quadric. Explicitly, on \(W_0\ne0\) in target coordinates
+\((W_0,W_1,W_3,W_4)\), take \(t=W_1/W_0\),
+\(\widetilde g=W_3/W_0-t^3\) and \(q=W_4/W_0-tW_3/W_0\).
+On \(W_4\ne0\) reverse the coordinate ordering and use the same
+formulas; these two charts cover \(C_0\) and its inverse. On the first
+chart the source expressions are
+\[
+ e=Q_0/U_0,\quad
+ d=(U_0U_4-U_1U_3)/(Q_0U_0),\quad
+ \widetilde s'=(U_0^2U_3-U_1^3)/(Q_0U_0^2).
+\]
+In a source frame
+\(f^*q=ed\). Since \(f(E)\subset C_0\), the pullback
+\(f^*\widetilde g=e\widetilde s'\) is divisible by \(e\); on \(D\)
+the quotient \(\widetilde s'|_D\) is the divided graph section
+\(s'\). Hence the inverse ideal is \((ed,e\widetilde s')\) and the
+ideal of \(Z\) in the source is \((d,\widetilde s')\). Changing the
+lift of \(g\) adds a multiple of \(d\) to \(\widetilde s'\), and
+changing trivializations only changes the generators by units.
+These local calculations apply at every inverse point, including
+ramification and special fibers; away from \(E\) use that \(e\)
+is a unit, and away from the inverse both sides are unit ideals.
+
+The inclusion \(Z\subset D\) gives a scheme-theoretic bound
+\[
+ \operatorname{length}(Z\cap E)\le
+ \operatorname{length}(D\cap E)=H^2=8 ,
+\]
+because \(E\) is not a component of \(D\). Consequently multiplication
+by \(e\) from \(H^0(\mathcal O_Z)\) to \(H^0(H|_Z)\) has rank at least
+four: its cokernel has length \(\operatorname{length}(Z\cap E)\).
+A full-support fiber therefore has nontrivial nilpotent thickening on
+\(Z\) and cannot have \(Z\) reduced. The norm can vanish without
+full support, and even in the full-support locus multiplication by \(e\)
+cannot be zero.
+
+In a full-support fiber let \(n\) be the least positive integer such
+that \(Q_0^n|_Z=0\). If an actual degree-\(b\) mate exists, its pullback
+is a nonzero scalar multiple of \(Q_0^b\) by (8). It belongs to the
+pullback ideal above; cancellation of the nonzerodivisor \(e\) then
+gives \(Q_0^{b-1}|_Z=0\), hence \(b\ge n+1\) (in particular \(b\ge3\)).
+Conversely that inequality on a full-support fiber puts \(Q_0^b\) in
+the upstairs ideal; it does not put it in the coordinate subalgebra
+in (8). Thus the residual inverse scheme supplies a necessary degree
+bound, not an automatic descending equation.
+
+The balanced conormal bundle strengthens the length bound. Put
+\(L_\pi=(f|_E)^*\mathcal O_{C_0,\mathbf P^1}(1)\), where the degree one
+is on the parametrizing \(\mathbf P^1\). Thus \(\deg L_\pi=2\) and
+\(\mathcal O_E(E)=H|_E=L_\pi^4\).
+The [balanced conormal bundle](../../results/quartic_conormal_characteristic_jump.md)
+and the inverse ideal identity give the map
+\[
+ (L_\pi^{-7})^{\oplus 2}\longrightarrow
+ \mathcal I_E/\mathcal I_E^2=L_\pi^{-4}
+\]
+with image \(\mathcal I_{Z\cap E/E}L_\pi^{-4}\): locally it is obtained
+by dividing each inverse generator by \(e\) and restricting to \(E\).
+It therefore has entries two sections of \(L_\pi^3\), not both zero
+because \(D\) does not contain \(E\). Their common zero divisor has
+length at most six. This gives the sharper
+\(\operatorname{length}(Z\cap E)\le6\) and
+\(\operatorname{rank}(e:H^0(\mathcal O_Z)\to H^0(H|_Z))\ge6\).
+It does not decide whether all of \(Z\) is supported on \(E\).
+
+#### The generic double branch has conductor coefficient one
+
+Assume the image is an octic, so \(f:S\to X\) is the normalization.
+At the generic point of \(C_0\), the only inverse curve is \(E\), by
+the ruling-degree argument above. We show that after splitting its
+degree-two residue extension, the two transverse branches are smooth
+and have distinct tangent lines.
+
+The conceptual consequence is that the saturated conormal pencil
+on \(E\) is nonconstant: its values
+at the two generic deck conjugates are distinct. After removing its
+common zeros its degree is \(6-\operatorname{length}(Z\cap E)\); a
+nonconstant map from an elliptic curve to a line has degree at least
+two. On this birational locus, therefore,
+\(\operatorname{length}(Z\cap E)\le4\) and multiplication by \(e\)
+on \(Z\) has rank at least eight. In a full-support fiber, trivializing
+the line bundle on the Artin scheme makes that multiplication a
+nilpotent endomorphism of dimension twelve with at most four Jordan
+blocks. Its nilpotence index is at least three, so a mate must have
+degree at least four.
+
+##### Exact direction calculation
+
+On \(Z_0=1\), put \(Z_1=x,Z_2=y,Z_3=x^2+e\). Then
+\(y^2=x^3-x+(x-\mu)e\) on \(S\); thus the normal derivative at
+fixed \(x\) is given by \(2y\,\partial_e y=x-\mu\).
+On \(E\) write \(t=(y+1-i)/(x-i)\). Substituting
+\(y=t(x-i)-1+i\) into \(y^2-x^3+x\) and dividing by \(x-i\)
+gives
+\[
+ K=-x^2+(t^2-i)x-it^2-2t+2it+2.
+\]
+The roots correspond to the two deck conjugates. On the target chart
+\(U_0\ne0\), use the normal coordinates
+\(U_3/U_0-(U_1/U_0)^3\), \(U_4/U_0-(U_1/U_0)^4\).
+In the affine source chart put
+\[
+ D_j=2y(\partial_{Z_3}V_j+\rho_j)+(x-\mu)\partial_y V_j,
+\]
+evaluated at \(Z_3=x^2,\ y=t(x-i)-1+i\). Up to a common nonzero
+scale, the two normal derivatives are
+\[
+ N_3=D_3-3t^2D_1+2t^3D_0,\qquad
+ N_4=D_4-4t^3D_1+3t^4D_0.
+\]
+Indeed differentiation of the coordinate ratios uses
+\(U_j/U_0=t^j\) on \(E\); a tangential correction to keep the target
+base parameter fixed makes no difference to these normal derivatives.
+Reduce \(N_j\) modulo \(K\) to \(a_j+b_j x\). The normal-vector
+determinant at the two roots is \((x_{\rm deck}-x)W(t)\) where
+\(W=a_3b_4-a_4b_3\).
+
+Here is an exact coefficient check using the rows (4). Differentiating,
+substituting and taking polynomial remainders as just prescribed
+gives \((\mu-i)\mid W\). For \(\mu\ne i\), the coefficients of
+\(t^7,t^6,t^5,t^4\) of \(W/(\mu-i)\), after dividing each by a
+nonzero scalar, are
+\[
+\begin{aligned}
+ &\rho_0+(-1+i)\rho_1/2-1,\\
+ &-i\mu/2+\rho_0+1/2,\\
+ &4i\mu+\rho_0+(-1+i)\rho_1+3(1+i)\rho_3/2-9,\\
+ &7i\mu/2+\rho_0+(1-i)\rho_1/4+(1+i)\rho_3+\rho_4/2-5 .
+\end{aligned}
+\]
+They solve successively in \(\rho_0,\rho_1,\rho_3,\rho_4\):
+\[
+ (\rho_0,\rho_1,\rho_3,\rho_4)=
+ (i\mu/2-1/2,\;(-1+i)\mu/2-3(1+i)/2,\;
+ -7(1+i)\mu/6+13(1-i)/6,\;-23i\mu/6+23/6).
+\]
+With these substitutions the remaining coefficients of \(W/(\mu-i)\),
+in descending order, are \((\mu+i)\) times
+\((-16/3,32(1+i)/3,-16i,16(-1+i)/3)\).
+Thus the vanishing locus is \(\mu=i\) with arbitrary lifts, or
+\(\mu=-i\) with \(\rho=(0,-1-i,1-i,0)\).
+These identities can be replayed in any exact polynomial ring over
+\(\mathbf Q(i)\): form \(K,D_j,N_j\) by the displayed substitutions,
+take \(x\)-remainders using the leading coefficient \(-1\) of \(K\),
+and compare the coefficients of \(W\) in \(t\).
+
+Both loci are deck-invariant maps, not birational octics. Substitution
+of the displayed matrix \(\mathsf M\) into (4) gives
+\[
+\begin{aligned}
+ V_0\circ\mathsf M&=8V_0,& V_4\circ\mathsf M&=8V_4,\\
+ V_1\circ\mathsf M-8V_1&=8[-(1+i)Q_0+(-1+i)Q_1],\\
+ V_3\circ\mathsf M-8V_3&=8[(1-i)Q_0-(1+i)Q_1].
+\end{aligned}
+\]
+Using \(Q_0\circ\mathsf M=8iQ_1\) and \(Q_1=-\mu Q_0\), all
+four \(U_j\circ\mathsf M=8U_j\) on the two stated loci.
+The deck involution acts nontrivially on \(E\), hence on the
+surface function field, so an invariant map cannot be birational.
+
+On a birational member \(W\ne0\). The two split normal derivative
+vectors are nonzero and independent. In the generic completed
+transverse plane each branch is smooth because a normal coordinate
+with nonzero derivative gives a uniformizer. The distinct tangent
+lines make their union an ordinary node. Its normalization conductor
+is the maximal ideal on each branch, as seen in
+\(k'[[u,v]]/(uv)\subset k'[[u]]\times k'[[v]]\) after the residue
+field extension. Finite normalization and the conductor calculation
+here are compatible with the separable residue splitting and
+completion (the conductor is given by the finite-module annihilator).
+Thus the conductor coefficient on \(E\) is exactly one.
+
+#### The vertical divisor counts the residual inverse scheme
+
+Retain the birational octic hypotheses. Write \(G=Z\cap E\) and
+\(\pi=f|_E\). Let \(V\) be the vertical coefficient divisor of the
+actual quadratic normal symbol of the octic: on the target curve
+it is the common-zero divisor of its three coefficients in a balanced
+frame. The following identities relate this divisor and the residual
+conductor to the embedded inverse scheme:
+\[
+ V=\pi_*[G]+f_*[Z],\qquad
+ (B_{\rm cond}-E)|_E=\pi^*V+\Delta-R.
+\]
+Here \(\Delta\) is the coincidence divisor of the saturated direction
+map on \(E\) and its deck translate, and \(R\) is the ramification
+divisor of \(\pi\).
+
+**The inverse-scheme identity.** On the target quadric write
+\(X|_Q=2C_0+R_Q\). The coefficient two follows from the two distinct
+generic normal directions and from the nonzero evaluation of each
+on the normal direction in \(Q\); the latter holds because \(D\)
+does not contain \(E\). Birational pushforward of the Cartier
+quadric section gives \(f_*[D]=[R_Q]\). The map on \(D\) also
+factors through the residual Cartier scheme \(R_Q\): locally the
+restriction of the octic equation is \(g^2 r_Q\), where \(g\) is
+the graph equation of \(C_0\) on \(Q\). On \(D\) its pullback is
+\((e s')^2 f_D^*r_Q=0\). The Cartier curve \(D\) on a smooth surface is Cohen–Macaulay
+at every point. Its associated primes are its component generic
+points; \(e\) is in none of them since \(E\) is no component of
+\(D\), and \(s'\) is in none by the residual ruling-degree bound.
+Thus multiplication by \((es')^2\) is injective even in the local
+rings at exceptional or ramified points, proving the factorization.
+For the projection formula, the graph divisor \(g=0\) is Cartier
+on \(Q\) and meets every component of \(R_Q\) properly; its
+pullback cuts \(es'=0\) on \(D\). The local exact sequence
+\[
+ 0\to\mathcal O_D/(e)\xrightarrow{\;s'\;}
+ \mathcal O_D/(es')\to\mathcal O_D/(s')\to0
+\]
+gives the sum of \([D\cap E]\) and \([Z]\) with their local
+scheme lengths, and finite pushforward gives the divisor on \(C_0\)
+\[
+ C_0\cdot R_Q=\pi_*[D\cap E]+f_*[Z].
+\]
+
+Alternatively restrict the actual quadratic normal symbol to the
+normal direction of \(C_0\) in \(Q\). Its value there cuts exactly
+\(C_0\cdot R_Q\): the octic restriction is \(g^2r_Q\), so its
+divided leading value on \(Q\) is \(r_Q|_{C_0}\).
+After removing \(V\), the binary normal form is primitive, and its
+two linear factors over the degree-two extension are conjugate.
+The restriction of the pulled-back conormal coordinate \(q\),
+after removing the common zero divisor \(G\), has zero divisor
+\([D\cap E]-[G]\), since \(f^*q=ed\). Evaluation of the primitive
+quadratic on the quadric direction is the norm of this primitive
+linear evaluation, up to units, so its divisor is the pushforward of
+\([D\cap E]-[G]\). To see the unit statement locally, over each DVR
+on \(E\) both linear factors have a unit coefficient, and their
+product is primitive. The pulled-back primitive quadratic is also
+primitive, hence differs from their product by a unit. At a ramified
+point the factor and conjugate evaluations have the same order; the
+order of their product and the pullback of the target order both
+include a factor of two. Dividing by the ramification index gives
+the cycle pushforward with residue degree one, not twice that term. The resulting
+divisor on \(C_0\) is therefore
+\[
+ C_0\cdot R_Q=V+\pi_*\bigl([D\cap E]-[G]\bigr),
+\]
+and subtraction proves the first identity.
+
+In particular \(\deg V=12+\operatorname{length}(G)\).
+The morphism \(Z\to C_0\) factors scheme-theoretically through \(V\):
+at each point of its fiber over \(y\), the maximal ideal of the
+Artin local ring is nilpotent to exponent at most its length, which
+is at most \(\operatorname{ord}_y V\). This is not equality of the
+scheme-theoretic image with \(V\). A simple point of \(V\) forces
+an inverse point off \(E\), because each inverse point on \(E\)
+would contribute both through \(G\) and through \(Z\).
+Under full support, \(|V|=f(|G|)\) has at most four geometric points,
+all of multiplicity at least two. If an actual degree-\(b\) mate
+exists, multiplication by a local trivialization of \(e\) on the
+part of \(Z\) over \(y\) is nilpotent with exponent at most \(b-1\)
+and has cokernel of length \(\operatorname{ord}_y\pi_*[G]\).
+Counting its Jordan blocks gives
+\(\operatorname{ord}_y V\le b\,\operatorname{ord}_y\pi_*[G]\).
+For the fixed member in §4, \(\deg V=12\) gives \(G=0\) and
+\(V=f_*[Z]\) as divisors. Its archived monic coefficient gcd \(h(t)\)
+is squarefree: reduce at \(i\mapsto3\) over \(\mathbf F_5\) (all
+its denominators are units there), giving
+\[
+ t^{12}-2t^{11}+2t^{10}-t^9+2t^8-2t^7-2t^5
+       +2t^4+2t^3-2t^2-t-2,
+\]
+whose gcd with its derivative is one. There is no vertical zero
+at infinity by the other chart (§4). Thus each fiber of \(Z\to V\)
+has length one at its unique point, and this finite map is an
+isomorphism for the fixed member. This is not a scheme equality
+for arbitrary lifts.
+
+**The conductor identity.** Use the ambient
+[Jacobian–conductor identity](conductor_jacobian_local_residue_proof.md#3-relation-to-the-jacobian-conductor-formula)
+in local coordinates tangent and normal to \(C_0\).
+Along \(E\) the pullbacks of the normal coordinates are divisible by
+its local equation \(e\). The common zero divisor of the
+two-column differential minors on \(E\) is \(G+R\): the tangential
+column is the derivative of \(\pi\), and the normal column in the
+two normal coordinates has common zeros exactly \(G\).
+In contrast, divide the pullbacks of the implicit partial derivatives
+by \(e\) before restricting to \(E\). The tangent partial then gives
+zero, and the normal partials give the gradient of the quadratic
+symbol evaluated at the actual normal column. Its common divisor
+is \(\pi^*V+G+\Delta\): removing \(V\) and \(G\) leaves the
+gradient of a product of two primitive linear forms evaluated on
+the kernel of one of them. The result is a primitive covector
+times the determinant of their two directions, cutting \(\Delta\),
+also where they coincide. Since the conductor contains \(E\) with
+coefficient one, canceling \(e\) in the Jacobian–conductor identity
+and comparing these divisors proves the second identity.
+
+Off ramification the coincidence divisor is invariant under the
+deck map and descends. At a ramification point choose a local
+parameter with deck action \(u\mapsto-u\) and a direction coordinate
+regular at the common value. The difference of the two direction
+values is odd in \(u\) and not identically zero because the
+directions differ generically. Its first nonzero term has order
+\(2m+1\) for some \(m\ge0\), at this arbitrary ramification point.
+Thus subtracting the simple ramification contribution gives order
+\(2m\), the pullback of a coefficient \(m\) on \(C_0\). Combined
+with deck-invariant orders at the unramified pairs this proves
+\(\Delta-R=\pi^*J\) for an effective divisor \(J\) on \(C_0\). The discriminant of the quadratic symbol has
+divisor \(2(V+J)\) plus the branch divisor: after pullback it is
+the square of the determinant of the primitive factors times the
+square of the vertical coefficient. In particular
+\(\deg(B_{\rm cond}-E)|_E=32\), also obtained from
+\(B_{\rm cond}\sim5H\) and \(E\sim H\).
+These identities describe restriction to \(E\), not the full
+off-\(E\) conductor, and do not settle full inverse support or
+higher-degree descent.
+
+#### Descent and the remaining degrees
+
+Write the upstairs conductor as \(\mathcal O_S(-B_{\rm cond})\).
+[Finite duality](conductor_jacobian_local_residue_proof.md#2-direct-residue-and-finite-duality-proof)
+gives \(\mathcal O_S(-B_{\rm cond})=\omega_S\otimes f^*\omega_X^{-1}\);
+adjunction on the smooth quadric and the octic yields
+\(B_{\rm cond}\sim5H\). In the hypothetical coefficient-five case
+this would force \(B_{\rm cond}=5E\) by ampleness, so \(Q_0^5\) would
+descend and give an actual quintic via the hypersurface restriction
+sequence. The inverse ideal would then also force full support and
+\(Q_0^4|_Z=0\). But the generic node calculation excludes the premise
+throughout this birational lifting family.
+
+In fact no mate of degree at most five exists in this family. The
+inverse bound already requires \(b\ge4\). If a degree \(4\le b\le5\)
+mate descended, its pullback would be a scalar times \(Q_0^b\).
+Its linear normal form along \(C_0\) would vanish on the tangent
+lines of both split branches, since its pullback has order \(b\)
+on each. Distinct lines force that linear form to be zero. By the
+[low-degree normal-order bound](../normal-geometry/formal-normal-intersection.md#low-degree-surfaces-singular-along-the-whole-quartic)
+(P-011), a form of degree at most five of order at least two along
+\(C_0\) is divisible by \(q\) (or is zero). But \(X\cap Q\)
+has type \((8,8)\) on \(Q\), not a multiple of \((1,3)\), so it
+already has residual support. This contradicts sole support.
+
+For higher degrees the conductor automatically gives target membership
+over the generic point of \(C_0\), but not necessarily over other
+divisorial conductor images. An upstairs-regular section must first be
+checked for membership in \(\mathcal O_X(b)\) at all codimension-one
+points of \(X\). Only then does the \(S_2\) extension property of the
+integral hypersurface imply global target regularity. Full support
+of \(Z\) and higher-degree coordinate-subalgebra descent remain open.
+
+#### A finite descent test on the residual quadric curve
+
+Continue with birational octics, and suppose the source residual curve
+\(D\) is integral and \(R_Q\) is reduced. The cycle identity proves
+that \(D\to R_Q\) is finite birational. Let \(T\) be the second ruling
+line of the target quadric. The two maps to \(T\) are finite flat of
+degree two: they have degree two from the ruling calculation, are
+nonconstant on the integral curves, and their direct images are
+torsion-free over the smooth line. The arithmetic genera are one
+for the source \((2,2)\) curve and five for the target \((2,6)\) curve,
+by adjunction. Thus the trace splittings of the two algebras over
+\(T\) are \(\mathcal O_T\oplus\mathcal O_T(-2)\) for \(D\) and
+\(\mathcal O_T\oplus\mathcal O_T(-6)\) for \(R_Q\), by their Euler
+characteristics. Trace agrees on the common generic algebra, so the
+inclusion on the trace-zero summands is multiplication by a nonzero
+binary quartic \(h\).
+
+Locally on \(T\) this is the inclusion \(A\oplus hAw\subset A\oplus Aw\),
+with \(w^2\in A\) for a trace-zero generator \(w\).
+Both \(a+bw\) and \(w(a+bw)\) belong to the smaller algebra precisely
+when \(h\) divides \(a,b\). The conductor on \(D\) is therefore
+\(h\mathcal O_D\), cutting out a scheme of length eight. The target
+double-cover discriminant is the source discriminant times \(h^2\),
+as is seen by replacing \(w\) with \(hw\). This is the conductor
+of the residual curves, not the ambient surface conductor or, if
+\(D\) is singular, the conductor of a normalization. Concretely the
+binary discriminant of the residual equation divided by the degree-four
+trace discriminant of \(D\) gives \(h^2\) up to scalar; neither
+discriminant is assumed squarefree.
+
+Near the finite conductor fibers use a target frame of
+\(\mathcal O_X(1)\), pulled back to \(D\), to express the section
+\(e=Q_0\). By the algebra inclusion, \(e^b|_D\) descends to \(R_Q\)
+if and only if its trace-zero part vanishes modulo \(h\). This is
+necessary for a degree-\(b\) mate by (8). On a conductor fiber disjoint
+from \(E\), \(e\) is a unit and the condition becomes
+\[
+ (e/\tau e)^b=1\quad\text{in }\mathcal O_D/(h),
+\]
+where \(\tau\) is the involution of the source double cover.
+The ratio is independent of the target frame on the conductor,
+because target functions have invariant image modulo \(h\).
+In characteristic zero a nontrivial principal unit has infinite
+order, as follows by taking the first nonzero term in the nilpotent
+filtration of its positive powers. Thus the residue ratios being
+roots of unity is not sufficient: the full ratio must be torsion
+in the finite algebra.
+
+If one point over a conductor fiber is on \(E\) and another is not,
+they map to the same target point (the trace-zero coordinate there
+is zero), and that target point lies on \(C_0\). The off-\(E\)
+point therefore already rules out full inverse support. For a
+full-support candidate every remaining conductor fiber is either
+disjoint from \(E\) or supported entirely on \(E\). In the latter
+case \(e\) acts nilpotently on its Artin algebra and \(e^b=0\)
+there for \(b\ge8\). Consequently eventual residual-curve descent
+in this scope is equivalent to all off-\(E\) ratios having finite
+order; any sufficiently large common multiple of their orders
+passes the residual test. This does not establish ambient descent.
+
+The scope occurs generically in the actual family, without asserting
+that a full-support survivor lies in it. On the basepoint-free locus,
+the derivatives of \(d\) in the four lifting parameters are
+\((U_4,-U_3,-U_1,U_0)\) by (5), so the total divisor is smooth.
+By generic smoothness and properness the general \(D\) is smooth,
+and its ample class makes it connected. The original coefficients
+(4) with \(\mu=2\) and zero lifts give an exact control for generic
+degree one onto the residual target. Reduce at \(i\mapsto5\)
+over \(\mathbf F_{13}\) on \(Z_0=1\). In the second-ruling fiber
+\(B=9\), the two points \((Z_1,Z_2,Z_3)=(6,7,12),(12,12,5)\)
+are off \(E\), with target tuples \((12,10,4,12),(8,10,7,12)\);
+their first-ruling values are respectively 3 and 11. The determinants
+of the derivatives in \((Z_1,Z_2,Z_3)\) of
+\((Q_1+2Q_0,U_3-9U_0,U_4-9U_1)\) are 7 and 12.
+Thus these distinct first-ruling values persist on a pair of points
+étale-locally to characteristic zero and to general parameters.
+A degree-two image map on the integral \(D\) would instead have
+image second-ruling degree one, so could not give those two values.
+Thus the general \(R_Q\) is reduced by the cycle identity. Keep the
+full inverse support test first; only for a survivor in this scope
+does the finite conductor algebra give the next descent check.
+
+#### The meeting norm divisor and its normalization
+
+Let \(U\) be the characteristic-zero parameter open where the source
+quadric is smooth and the four sections are basepoint-free. Over this
+open, let \(N\subset U\) be the divisor defined by the norm of \(e=Q_0\)
+on the relative length-twelve scheme \(Z\), and \(G=Z\cap E\) the
+relative intersection. On \(U\), \(N\) is reduced and integral and
+\(G\to N\) is its normalization. In particular \(N\) is birational to
+\(E\times\mathbf A^3\).
+
+For a point \(p\in E\) over parameter \(t\in C_0\), consider the two
+pulled-back normal derivatives after division by \(e\). Their affine
+dependence on the four lifts \(\rho\) comes from \(U_j=V_j+\rho_j e\).
+In a normal frame on a finite chart the linear part is, up to a unit,
+the quotient \(k^4/T_t\) with
+\[
+ v(t)=(1,t,t^3,t^4),\qquad T_t=\langle v(t),v'(t)\rangle .
+\]
+Indeed the direction of a projective ratio is unchanged by adding
+the projective radial direction, and passing to the normal derivative
+also quotients by the tangent direction of \(C_0\). At infinity the
+two-plane is spanned by the last two coordinate vectors in this
+ordering. The two divided inverse generators define \(G\); this description
+holds also at ramification, since taking a projective normal derivative
+uses the tangent line of the smooth target curve, not a local inverse
+to \(\pi\). Their linear parts have rank two. Thus before deleting basepoints the
+scheme is an affine plane bundle over \(E\) times the smooth
+\(\mu\)-line. For fixed \(\mu\), a basepoint is necessarily away
+from \(E\) and gives \(\rho=-(V_j/e)_j\). The closure of the image of
+this map on \(S_\mu\setminus E\) is irreducible of dimension at most
+two and has affine span \(k^4\). An affine linear equation for the
+image would, after clearing \(e\) and restricting to \(E\), give a
+linear dependence among the four independent sections \(V_j|_E\).
+The closure therefore cannot contain an affine two-plane, so every
+plane of lifts has basepoint-free members. Consequently \(G\) over
+\(U\) is smooth integral of dimension four. It is finite over \(U\)
+as a closed subscheme of \(Z\), and its image is the support of \(N\).
+
+To check generic degree, consider distinct points \(p,p'\in E\).
+If their projected parameters \(t,u\) are distinct and finite,
+the determinant of their two cone tangent frames is, up to sign,
+\((t-u)^4(t^2+4tu+u^2)\). The planes are distinct: in the first-two
+coordinate projection they are graphs with slope entries \(3t^2\)
+and \(4t^3\), which together distinguish \(t\). When one parameter
+is infinity the finite plane is transverse to the last-two coordinate
+plane. For a general distinct pair the two affine planes of lifts meet
+in at most a point. The exceptional distinct-parameter pairs have
+dimension one and plane intersection dimension at most one. Including
+\(\mu\), either stratum gives dimension at most three. When
+\(p\ne p'\) project to the same parameter they are deck conjugates
+and the two planes are parallel. If the offsets agree in \(k^4/T_t\), the normal vectors for all
+lifts are proportional there: after trivializing their nonzero linear
+scales both are the same translation of the quotient map. For each fixed \(\mu\ne i\) the determinant at zero lift is a
+nonzero rational function of \(t\). In particular \(\mu=-i\) requires
+nonzero lifts in the zero-determinant table and is not an exception
+at zero lift. Basepoint freeness away from \(E\) is not needed to
+take these derivatives near \(E\). Thus equal offsets occur over
+at most finitely many \(t\) for each such \(\mu\), including any in
+the infinity chart. For \(\mu=i\), the deck transformation scales
+\(Q_0\) and each \(U_j\) by eight on the source, so both the local
+equation \(e=Q_0/U_0\) and all target ratios are invariant. Their
+divided coefficients therefore agree at conjugate points. This
+whole fixed-\(\mu\) stratum has one dimension before adding the
+two free lift coordinates. In either case the equality locus has
+dimension at most three after adding those coordinates. Thus the generic geometric fiber of
+\(G\to N\) has a single point. Separability in characteristic zero
+makes the generic field degree one.
+
+At the generic DVR of the prime image, the norm vanishing order
+is the length of the cokernel of multiplication by \(e\). This
+cokernel is the finite pushforward of the twisting line bundle
+restricted to \(G\). Since \(G\) is reduced, it factors through the
+reduced image, so the cokernel at the generic DVR is killed by its
+uniformizer. The generic field degree one gives DVR length one. The norm cuts an effective Cartier divisor
+on the smooth parameter open, with no embedded components, so \(N\)
+is reduced. The open of the smooth affine-plane bundle obtained by removing
+basepoints is smooth, hence normal; the finite map is birational
+because the function fields agree. Since both source and target
+are integral, this identifies it with the normalization over the
+whole asserted open, not just over its generic points. An affine plane bundle over the smooth product base is
+generically trivial, yielding the claimed birational type.
+
+A geometric point of \(N\) is normal exactly when its \(G\)-fiber has
+length one. Indeed in length one the unit spans the finite fiber
+algebra, and Nakayama makes the local map onto the normalization
+surjective; it is already injective. Conversely local normality makes
+the normalization an isomorphism. This detects nonnormality even when
+a fiber is a single nonreduced point. Normality here is equivalent
+to smoothness, since the normalization is smooth and is an
+isomorphism precisely on the normal locus. For full inverse support the
+nilpotent operator \(e\) on the length-twelve inverse scheme has
+\(\operatorname{length}(G)\) Jordan blocks. In degree \(b\) their lengths
+are at most \(b-1\) by the inverse-ideal test. Hence a mate requires
+\[
+ \operatorname{length}(G)\ge \left\lceil\frac{12}{b-1}\right\rceil .
+\]
+In particular degree six requires length at least three, and degrees
+seven through twelve require the nonnormal locus of \(N\).
+At normal points of \(N\), a full-support fiber could only admit
+mates of degree at least thirteen. This restriction does not exclude
+full support at such a normal point; keep the support test before
+the descent test.
+
+##### A meeting fiber that fails full support
+
+Take \(\mu=2\) and
+\(\rho=(0,0,-2+2i,-4-2i)\). At \(p=-T\) on the marked elliptic
+curve, the source coordinates are \(x=i,y=-1+i\) on \(Z_0=1\);
+the removable value of the pencil parameter is \(t=1+i\).
+In the displayed direction formulas, substitute \(x=i,t=1+i\)
+after taking the remainders of \(N_3,N_4\) modulo \(K\).
+Both divided normal derivatives vanish. Equivalently one can
+differentiate the ratios at \(p\), using their regular values there.
+Thus the parameter belongs to \(N\) once the following basepoint
+check is made.
+
+Here are exact arithmetic checks for this actual member, with its
+characteristic-zero parameters fixed over \(\mathbf Q(i)\). Work
+over the DVR \(\mathbf Z[i]_{(13,i-5)}\), with residue field
+\(\mathbf F_{13}\) and \(i\mapsto5\). For the five polynomials
+\(Q_1+2Q_0,U_0,U_1,U_3,U_4\) of (3)–(5), set one projective
+coordinate \(Z_j\) to one in turn; the reduced Gröbner basis in the
+other three variables is \((1)\) on each of the four charts.
+The basepoint incidence is projective over this DVR; a nonempty
+geometric generic fiber would specialize to its closed fiber by
+properness, so the geometric generic fiber is empty. On the affine chart \(Z_0=1\),
+the point \((x,y,Z_3)=(11,0,9)\) has \(e=5\) and target tuple
+\((U_0,U_1,U_3,U_4)=(1,3,1,3)\) modulo 13. The three equations
+\[
+ Q_1+2Q_0,\qquad U_0U_4-U_1U_3,\qquad U_0^2U_3-U_1^3
+\]
+vanish there and their Jacobian determinant in \((x,y,Z_3)\) is
+12 modulo 13. The square Jacobian gives an étale neighborhood
+of the special-fiber point over the DVR, so it lifts over the
+henselization with the original coefficients unchanged. Both \(e\)
+and \(U_0\) remain units (their residues are nonzero). The generic
+point of this lifted section is therefore an actual characteristic-zero
+inverse point off \(E\).
+
+This member is birational onto an octic. The map is finite and
+its degree times the image degree is eight. A plane image is
+impossible since \(C_0\) spans the target, and a quadric image
+was already excluded by the ruling degrees. If the map had
+degree two onto a quartic, pushing forward the source quadric
+section \(E+D\) would give coefficient two on \(C_0\), so the
+image quadric section would have coefficient one there. The image
+would then be generically smooth along \(C_0\), and both divided
+normal derivative vectors would lie in the same line in the
+target normal plane. But \(\mu=2\ne\pm i\) has nonzero deck
+determinant for every choice of lifts by the direction calculation.
+This excludes degree two.
+
+The closed full-support locus, cut out set-theoretically by the
+power section above, is therefore proper inside the integral
+four-dimensional \(N\). It has dimension at most three, also
+after restricting to birational octics. This is a search restriction
+for every degree, not a proof that this smaller locus is empty.
+
 #### Matrix formulation
 
 There is a single matrix test throughout the basepoint-free locus. In
@@ -509,20 +1106,12 @@ implicit octic. [Exact elimination and replay in STCI-I-0005](../../investigatio
 
 ## 6. Low-degree filters and the constructive question that remains
 
-Suppose a member's actual implicit octic has exact normal order two and
-irreducible quadratic initial form over \(k(C_0)\). A quintic of normal
-order one has a coprime linear initial form and generic local intersection
-length two, whereas sole support requires \(8\cdot5/4=10\). A quintic
-of order at least two has a forced factor of the unique containing quadric
-\(q\), by the [global sheaf-power calculation](../equations/global_equation_jets.md#exact-homogeneous-equation-spaces-and-fixed-quadric-restrictions)
-since \(5<3\cdot2\). The octic's restriction to \(q\) has class
-\((8,8)\), which cannot be a multiple of \(C_0\) of class \((1,3)\).
-Thus the \(q\)-factor retains residual support. This excludes degree five
-only on that verified first-form locus. The fixed member satisfies it,
-but already fails the stronger full-support test.
+The [generic node and descent argument](#descent-and-the-remaining-degrees)
+excludes all mates of degree at most five on the birational octic locus.
 
-A related equal-degree control needs an additional hypothesis: suppose the
-irreducible quadratic symbol of an octic is saturated. For a degree-eight
+An equal-degree control needs an additional hypothesis not established
+on the family: suppose the irreducible quadratic symbol of an octic is
+saturated. For a degree-eight
 mate, normal order one gives coprime initial forms and length two, less
 than the required \(8\cdot8/4=16\). Normal order at least three forces
 a factor \(q\), since \(8<3\cdot3\), and retains the residual intersection
@@ -539,8 +1128,18 @@ The forced-quadric argument again gives a residual curve. Thus all three
 normal-order cases exclude degree-eight sole support in this saturated scope.
 The fixed construction has a degree-twelve vertical divisor, so this
 scalar-subtraction argument does not discard it or its defective family.
-On degenerate-leading parameter strata the actual order and factorization
-must be computed before either filter is used.
+In fact this saturation hypothesis fails on the birational family.
+The generic node gives a quadratic symbol of class \((18,2)\).
+Its horizontal divisor is the image of \(E\) under the pair of maps
+to \(C_0\) and to the balanced direction line: these give the two
+distinct generic roots, each simple. The map onto that divisor is
+birational because the directions separate the two generic deck
+conjugates. The image therefore has bidegree \((d,2)\), with
+\(d=6-\operatorname{length}(Z\cap E)\) the degree of the saturated
+direction pencil. The vertical divisor of the quadratic symbol has
+degree \(18-d\ge12\). This explains why the equal-degree filter
+cannot settle the birational lifting family; degree-eight descent
+is not decided here.
 
 The first unresolved implication is whether the support-unit locus (7)
 meets the smooth, basepoint-free, birational locus. Only then is a descending
