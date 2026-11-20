@@ -234,8 +234,9 @@ The morphism of the entire extra inverse scheme to the target curve
 therefore factors through \(h=0\), and this factorization descends through
 the free \(\mu_2\)-cover. This is scheme-theoretic containment of its
 target image in the vertical divisor. Equal numerical degrees twelve
-do not prove equality of those image schemes, reducedness or multiplicity
-one. Nor does this example prove that every vertical exceptional divisor
+alone do not prove equality of those image schemes, reducedness or
+multiplicity one; the [cycle identity and squarefree check](#the-vertical-divisor-counts-the-residual-inverse-scheme)
+below supply those conclusions for this fixed member. Nor does this example prove that every vertical exceptional divisor
 creates residual or isolated support downstairs.
 
 ## 5. Fiberwise support and actual descending equations
@@ -587,6 +588,125 @@ the line bundle on the Artin scheme makes that multiplication a
 nilpotent endomorphism of dimension twelve with at most four Jordan
 blocks. Its nilpotence index is at least three, so a mate must have
 degree at least four.
+
+#### The vertical divisor counts the residual inverse scheme
+
+Retain the birational octic hypotheses. Write \(G=Z\cap E\) and
+\(\pi=f|_E\). Let \(V\) be the vertical coefficient divisor of the
+actual quadratic normal symbol of the octic: on the target curve
+it is the common-zero divisor of its three coefficients in a balanced
+frame. The following identities relate this divisor and the residual
+conductor to the embedded inverse scheme:
+\[
+ V=\pi_*[G]+f_*[Z],\qquad
+ (B_{\rm cond}-E)|_E=\pi^*V+\Delta-R.
+\]
+Here \(\Delta\) is the coincidence divisor of the saturated direction
+map on \(E\) and its deck translate, and \(R\) is the ramification
+divisor of \(\pi\).
+
+**The inverse-scheme identity.** On the target quadric write
+\(X|_Q=2C_0+R_Q\). The coefficient two follows from the two distinct
+generic normal directions and from the nonzero evaluation of each
+on the normal direction in \(Q\); the latter holds because \(D\)
+does not contain \(E\). Birational pushforward of the Cartier
+quadric section gives \(f_*[D]=[R_Q]\). The map on \(D\) also
+factors through the residual Cartier scheme \(R_Q\): locally the
+restriction of the octic equation is \(g^2 r_Q\), where \(g\) is
+the graph equation of \(C_0\) on \(Q\). On \(D\) its pullback is
+\((e s')^2 f_D^*r_Q=0\). Both \(e\) and \(s'\) are regular on the
+Cohen–Macaulay curve \(D\), by the generic component checks above,
+so cancellation gives the stated factorization. Applying the cycle
+projection formula to \(g=0\), whose pullback cuts \(e s'=0\) on
+\(D\), gives the divisor on \(C_0\)
+\[
+ C_0\cdot R_Q=\pi_*[D\cap E]+f_*[Z].
+\]
+
+Alternatively restrict the actual quadratic normal symbol to the
+normal direction of \(C_0\) in \(Q\). Its value there cuts exactly
+\(C_0\cdot R_Q\): the octic restriction is \(g^2r_Q\), so its
+divided leading value on \(Q\) is \(r_Q|_{C_0}\).
+After removing \(V\), the binary normal form is primitive, and its
+two linear factors over the degree-two extension are conjugate.
+The restriction of the pulled-back conormal coordinate \(q\),
+after removing the common zero divisor \(G\), has zero divisor
+\([D\cap E]-[G]\), since \(f^*q=ed\). Evaluation of the primitive
+quadratic on the quadric direction is the norm of this primitive
+linear evaluation, up to units, so its divisor is the pushforward of
+\([D\cap E]-[G]\). To see the unit statement locally, over each DVR
+on \(E\) both linear factors have a unit coefficient, and their
+product is primitive. The pulled-back primitive quadratic is also
+primitive, hence differs from their product by a unit. The resulting
+divisor on \(C_0\) is therefore
+\[
+ C_0\cdot R_Q=V+\pi_*\bigl([D\cap E]-[G]\bigr),
+\]
+and subtraction proves the first identity.
+
+In particular \(\deg V=12+\operatorname{length}(G)\).
+The morphism \(Z\to C_0\) factors scheme-theoretically through \(V\):
+at each point of its fiber over \(y\), the maximal ideal of the
+Artin local ring is nilpotent to exponent at most its length, which
+is at most \(\operatorname{ord}_y V\). This is not equality of the
+scheme-theoretic image with \(V\). A simple point of \(V\) forces
+an inverse point off \(E\), because each inverse point on \(E\)
+would contribute both through \(G\) and through \(Z\).
+Under full support, \(|V|=f(|G|)\) has at most four geometric points,
+all of multiplicity at least two. If an actual degree-\(b\) mate
+exists, multiplication by a local trivialization of \(e\) on the
+part of \(Z\) over \(y\) is nilpotent with exponent at most \(b-1\)
+and has cokernel of length \(\operatorname{ord}_y\pi_*[G]\).
+Counting its Jordan blocks gives
+\(\operatorname{ord}_y V\le b\,\operatorname{ord}_y\pi_*[G]\).
+For the fixed member in §4, \(\deg V=12\) gives \(G=0\) and
+\(V=f_*[Z]\) as divisors. Its archived monic coefficient gcd \(h(t)\)
+is squarefree: reduce at \(i\mapsto3\) over \(\mathbf F_5\) (all
+its denominators are units there), giving
+\[
+ t^{12}-2t^{11}+2t^{10}-t^9+2t^8-2t^7-2t^5
+       +2t^4+2t^3-2t^2-t-2,
+\]
+whose gcd with its derivative is one. There is no vertical zero
+at infinity by the other chart (§4). Thus each fiber of \(Z\to V\)
+has length one at its unique point, and this finite map is an
+isomorphism for the fixed member. This is not a scheme equality
+for arbitrary lifts.
+
+**The conductor identity.** Use the ambient
+[Jacobian–conductor identity](conductor_jacobian_local_residue_proof.md#3-relation-to-the-jacobian-conductor-formula)
+in local coordinates tangent and normal to \(C_0\).
+Along \(E\) the pullbacks of the normal coordinates are divisible by
+its local equation \(e\). The common zero divisor of the
+two-column differential minors on \(E\) is \(G+R\): the tangential
+column is the derivative of \(\pi\), and the normal column in the
+two normal coordinates has common zeros exactly \(G\).
+In contrast, divide the pullbacks of the implicit partial derivatives
+by \(e\) before restricting to \(E\). The tangent partial then gives
+zero, and the normal partials give the gradient of the quadratic
+symbol evaluated at the actual normal column. Its common divisor
+is \(\pi^*V+G+\Delta\): removing \(V\) and \(G\) leaves the
+gradient of a product of two primitive linear forms evaluated on
+the kernel of one of them. The result is a primitive covector
+times the determinant of their two directions, cutting \(\Delta\),
+also where they coincide. Since the conductor contains \(E\) with
+coefficient one, canceling \(e\) in the Jacobian–conductor identity
+and comparing these divisors proves the second identity.
+
+Off ramification the coincidence divisor is invariant under the
+deck map and descends. At a ramification point choose a local
+parameter with deck action \(u\mapsto-u\) and a direction coordinate
+regular at the common value. The difference of the two direction
+values is odd in \(u\), so \(\Delta-R=\pi^*J\) for an effective divisor
+\(J\) on \(C_0\). The discriminant of the quadratic symbol has
+divisor \(2(V+J)\) plus the branch divisor: after pullback it is
+the square of the determinant of the primitive factors times the
+square of the vertical coefficient. In particular
+\(\deg(B_{\rm cond}-E)|_E=32\), also obtained from
+\(B_{\rm cond}\sim5H\) and \(E\sim H\).
+These identities describe restriction to \(E\), not the full
+off-\(E\) conductor, and do not settle full inverse support or
+higher-degree descent.
 
 #### Descent and the remaining degrees
 

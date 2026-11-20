@@ -101,6 +101,9 @@ a null result would not by itself invalidate the method.
   transverse, excluding conductor coefficient five, and no mate of
   degree at most five exists. Full inverse support and higher-degree
   descent at the remaining divisorial conductor images are open.
+  The [vertical-divisor identities](../../arguments/carriers/elliptic_double_inverse_construction.md#the-vertical-divisor-counts-the-residual-inverse-scheme)
+  count the whole inverse scheme with multiplicity and relate it to
+  the residual conductor on the marked double cover.
   See the [normalization gates](../../frameworks/carrier-normalization/open_carrier_cases.md).
 - [Normal symbols and the cubic contraction](../../results/connected_normal_directions.md#what-the-cubic-contraction-misses-in-the-attachment-count):
   the joint bound charges the residual degree visible on \(V_5\).
