@@ -157,3 +157,13 @@ The first saturated normal relation, subsequent quotient relations, actual homog
 - [Filtration calculations and exact computational sources](filtration_computational_sources.md)
 
 These developments distinguish successive neighborhoods, the full filtered equation module, fixed ancestor and endpoint restrictions, and actual global realization. [Original section addresses](normal_filtration_boundaries.md) remain available.
+
+### Actual source coverage on the equality boundary
+
+The [marked correspondence](../../arguments/residuals/blowup_residual_geometry.md#the-marked-correspondence-on-the-whole-equality-boundary)
+now covers both endpoint and interior slopes on the equality boundary
+and reduces the test to irreducible factors. The conic resultant tests
+common normal roots but not the absence of a contracted marked ruling
+or the off-conic intersection. The next missing input is a bound on
+what the actual source sections can realize there, or a realizing pair.
+This does not cover positive direction degree.

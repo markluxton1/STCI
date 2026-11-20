@@ -337,6 +337,74 @@ in the seven cubics verified both rows, their rank-six spans and the
 two hyperplane traces on the conic. Existence of the required sections
 for either quintic remains open.
 
+### The marked correspondence on the whole equality boundary
+
+Work in characteristic zero. For an actual proper pair of degrees
+\((a,b)\) and exact orders \((r,s)\) along \(C\), put
+\[
+ K=16(as+br)-7ab-28rs .
+\]
+Under sole support and \(K=0\), the slack identity and connectedness
+give a single constant section \(T\) as the reduced strict
+intersection on the graph. Write \(\Delta=\phi(T)\) and
+\(z=\Delta\cap\Gamma\) as in the endpoint correspondence. In the
+same marked frame the actual source spaces on \(V_5\) are
+\[
+ H^0(\mathcal I_\Gamma^{a-3r}((a-2r)M)),\qquad
+ H^0(\mathcal I_\Gamma^{b-3s}((b-2s)M)).
+\]
+The exponents are nonnegative by quadric restriction: neither
+original equation can have the quadric as a factor. Impose exact
+orders along \(\Gamma\), properness, and no \(\Sigma\) component.
+Then sole support on this marked section is equivalent to these
+conditions on the actual sections:
+
+- Off \(\Gamma\) their common reduced support is
+  \(\Delta\setminus\{z\}\).
+- On the exceptional ruling over any \(\gamma\ne z\), their conic
+  normal forms have no common root; over \(z\) the two forms do not
+  both vanish identically.
+
+Indeed the actual-section dictionary and the same exceptional
+component checks as at the endpoint identify the strict divisors.
+Their common scheme off the exceptional divisor is the punctured
+section. The ruling test leaves at most finitely many points on the
+marked fiber and none on the other fibers. Purity of the strict
+complete intersection excludes isolated components; the strict support
+is \(T\). Conversely a strict intersection supported on \(T\) has those
+fiber properties. If both conic orders are positive the image divisors
+also contain \(\Gamma\); thus the image intersection is not being
+asserted to have sole support \(\Delta\).
+
+Writing \(m=a-3r\), \(n=b-3s\), the two normal forms on the ruled
+quadric have bidegrees \((a-r,m),(b-s,n)\).
+The resultant on the ruling parameter line is a section of degree
+\[
+ (a-r)n+(b-s)m=ab/4-rs
+\]
+by bihomogeneity and \(K=0\). Its divisor must be
+\((ab/4-rs)[z]\), because it vanishes exactly at parameters where
+the forms share a root. If one fiber degree is zero this means
+the corresponding scalar section raised to the other fiber degree.
+Both degrees cannot be zero on \(K=0\). The resultant does not exclude
+a whole contracted ruling at the marked point; the separate nonzero
+test there is essential. This extends the endpoint
+\((3r,4s)\) correspondence to interior slopes without asserting
+existence there.
+
+It is enough to analyze irreducible equations on this boundary.
+Every cross-pair of irreducible factors of a proper sole-support
+pair is proper and has sole support by degree and containment.
+Its \(K\) is nonpositive. The total \(K\) is the sum of these
+values with factor multiplicities by bilinearity, so equality
+forces equality for every cross-pair. For positive orders the
+slope equation is \((7a/r-16)(7b/s-16)=60\), making all slopes on
+one side equal and the opposite slope fixed. All cross-pairs
+give the same section, because their strict intersections lie in
+the original one. The [all-mate low-degree exclusions](../../frameworks/carrier-normalization/degree_exclusions.md#52-factors-and-the-degree-bound)
+force both irreducible degrees to be at least five; at the endpoint
+this requires \(r,s\ge2\).
+
 ## 5. General residuals acquire a second constructive description
 
 For a general \((a,b)\) pair, \(a,b\ge4\), use the inherited multiplicity-one
