@@ -730,6 +730,35 @@ conductor. Neither the generic algebra nor the arithmetic reduction
 alone determines the valuations; this comparison supplies no
 incompatible bound for all defining pairs.
 
+### All-minors capacity and a cyclic control
+
+Keep the completed endpoint lattice A over O=k[[t]] and the branch root z as above. At a chosen endpoint suppose ε=r−t^4 belongs to t^u J, u≥0 (the case u=0 always holds). Because A/J=O, divisibility by t^u in A is enough: J is O-saturated. Choose a basis adapted to K_j=ann_A J^j, and give basis vectors in K_(j+1) outside K_j level j. List the levels i_1≤…≤i_n. Put S_k=Σ of the k largest levels minus Σ of the k smallest and S_0=0. Since ε^l/t^(ul) belongs to J^l, it takes level b vectors into the span of levels ≤b−l. Multiplication by z thus has matrix entry from level b to level a of valuation at least 2−(4−u)(b−a) if a≤b and u≤4, and zero if a>b. Every term of a k-minor has the same sum of row levels and column levels. Therefore, for 0≤u≤4,
+  δ_i ≤ max_{0≤k≤n} ((4−u) S_k−2k).
+For u≥4 the root is integral, giving δ_i=0. The same bound with levels from ann_A(η^j) holds for the specific η=ε/t^u; use its actual ranks, not a generic conormal Hilbert vector without comparison. Summing smaller-level terms removes much of the loss in the column-only bound. As S_k≤k(n−k) (nonzero levels from J have no internal gaps), a level-independent upper bound is max_k ((4−u)k(n−k)−2k). No condition on cancellation of minors is assumed.
+
+For the explicit cyclic control A=O[η]/η^n, ε=t^uη, the latter bound is exact in characteristic zero. In the basis 1,η,…,η^{n−1}, take the bottom-left k×k minor. Its valuation is 2k−(4−u)k(n−k) and its coefficient is
+   D_k(m)=det[ binom(1/2,m+i−j) ]_(0≤i,j<k), m=n−k.
+Over Q(α), D_k(m) for binom(α,·) equals ∏_(i=0)^(k−1) [(α+i) falling m] i!/(m+i)!, nonzero at α=1/2. For verification the bare determinant satisfies Desnanot–Jacobi
+D_k(m)D_(k−2)(m)=D_(k−1)(m)^2−D_(k−1)(m−1)D_(k−1)(m+1).
+The product has D_0(m)=1, D_1(m)=binom(α,m), D_k(0)=1, and its cross-neighbor ratio at k−1 is m(α−m)/[(m+k−1)(α+k−1−m)]; subtract from 1 to get the proposed ratio on the left. This proves the formula by induction. In particular δ_i=n(n−1) for u=0. In an actual lattice, the cyclic model applies when η generates A/tA: Nakayama lifts the n powers as a basis, and η^n=0 by generic nilpotence and t-regularity. Otherwise no cyclic assumption is licensed. The char-three control above shows cancellation can invalidate particular extremal minors in residue characteristic without contradicting the upper bound.
+
+There is a direct actual endpoint control. If a member of the
+pair is smooth there and its normal linear form is independent of
+that of \(\epsilon\), then \(t,F,\epsilon\) are formal coordinates.
+On the smooth local surface \(F=0\), sole support means the mate
+cuts a unit times \(\epsilon^n\). Thus this actual completed
+intersection is the cyclic control with \(u=0\), not a deduction
+from an abstract generic normal type. Dependent normal linear
+forms do not identify the actual completed lattice.
+
+### A first conditional comparison with actual postulation
+
+Assume the smaller integral characteristic-zero carrier is nonsplit in the fixed quadratic cover. If ε belongs to t³A at BOTH endpoints, then δ≤2 floor((n−2)^2/4) for n≥2 from the uniform level bound. If ε belongs to t⁴A at both endpoints, δ=0, already contrary to the original global lower bound even without nonsplitting. These are endpoint divisibilities of the actual quadratic function, not consequences of generic normal order.
+
+The t³/t³ case contradicts nonsplit postulation in three infinite skew-degree sectors: a=5,b≥16; a=6,b≥36; a=7,b≥92, always with 4|ab. Indeed b=2s, q_b=s−1, so the nonsplit lower bound is 2[binom(s+1,3)−binom(s+1−a,3)]+a−1. Subtract the weaker upper (as/2−2)^2/2. The differences for a=5,6,7 are respectively (15s²−160s+336)/8, (3s²−60s+146)/2, (7s²−336s+928)/8. Each is positive and increasing from s=8,18,46 respectively. No assertion that either divisibility condition holds for every actual pair, or even that any characteristic-zero candidate in these specified degrees passes the antecedent.
+
+Next bounded question: in a declared order-one family, characterize which actual endpoint lattices force any t-divisibility of ε, and whether the same family stays nonsplit. A first-symbol tangent can suggest divisibility modulo J² but does not prove it in A. Use all minors or an independently justified cyclic coordinate model; compare the same endpoint conductor at both ends with the global postulation. A failed divisibility test redirects the route toward exact truncated matrices, not toward strengthening the unrelated Frobenius defect.
+
 ## 9. Why the extracted branch need not be Gorenstein
 
 One exact local control suffices to test that possible shortcut; no
