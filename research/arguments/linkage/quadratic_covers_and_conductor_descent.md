@@ -1550,6 +1550,138 @@ excluded in all mate degrees. This is not an exclusion of
 nonnormal signed cubics, of endpoint-concentrated one-lift
 norms, or of higher-degree two-lift carriers.
 
+#### Removing normality: inverse support and the actual normalization
+
+In the preceding sextic argument the normality assumption
+can be removed for both distinct residual rulings and
+for a doubled unmarked ruling. The substitute is the
+presence of an **actual** mate: every relevant local
+branch must carry the inverse support of that equation.
+
+Specifically, at an unmarked point the local support of
+the mate on the signed surface is the one lifted quartic
+there. A power of its ideal is contained in the principal
+mate ideal, and the mate ideal is contained in the curve
+ideal. These inclusions persist after completion and
+restriction to any formal branch. If a formal plane
+branch meets the lifted quartic only at the point, the
+restriction of the mate has maximal radical on that
+plane, impossible for one equation in a two-dimensional
+regular local ring. In the transverse fixed-slice
+normal form \(xy+f(w)\), the case \(f=0\) has just such
+an extra plane, since the marked curve is one of the
+axes at \(w=0\). Thus all unmarked transverse singularities
+of a hypothetical mate are isolated \(A_n\), without
+assuming global normality. In the two-distinct-unmarked
+case this already forces global normality: an integral
+hypersurface that is not normal has a singular curve,
+which must meet the ample divisor \(T\). In this case
+\(S\cap T\) consists of two lifts and two residual conics
+each with multiplicity one; its sole possible singular
+points on \(T\) are the transverse hits, since the
+endpoints are smooth. No singular curve can meet those
+isolated singularities.
+
+More generally we can perform the intersection comparison
+on the **normalization** of the integral signed cubic,
+which is smooth along each lift generically. The pullback
+of a hypothetical mate is an effective Cartier divisor.
+Above each generic lift there is a unique strict inverse
+curve, which maps isomorphically to the smooth original
+lift by finite birationality. No extra isolated inverse
+point can occur in the support: the pullback of a nonzero
+single equation on the normal integral surface has
+support of pure codimension one. Thus its cycle is the
+same combination \(\lambda D+\mu D'\) on these inverse
+curves. The hyperplane degree and \(\lambda+\mu=3b/2\)
+are unchanged. On any smooth model of this normalization,
+the numerical pullback computes their intersections.
+For adjunction one may pull back the original rational
+canonical generator, which exists globally because
+the signed cubic is a \((2,3)\) complete intersection.
+The needed discrepancies are determined in the actual
+charts along the strict inverse curves, not by
+normality elsewhere.
+
+In particular the simple marked-endpoint node and
+\(D_5\) calculations remain unchanged. In the weight-six
+case of the simple marked endpoint, normalize the
+weighted strict surface before resolving. Its integral
+exceptional curve \(E\) is generically smooth in the
+strict surface, and is Cartier there near its entire
+support (the weight-one chart and the free chart at
+weighted infinity). Its finite pullback still has
+one exceptional prime with multiplicity one, and
+preserves \(E^2=-1\) by the projection formula. The
+normalization is an isomorphism at the two smooth
+marked points on \(E\), so both incidence vectors are
+unchanged. The normalized exceptional curve contracts
+to one point on the original normalization because
+it is connected and that normalization is finite.
+The same numerical self and mutual corrections follow.
+The K3 smoothing rank estimate for any unmarked hits
+also remains valid, since those isolated Milnor balls
+only use the original signed equation and a smoothing
+in the full linear system. Thus every distinct residual
+ruling configuration is excluded without normality.
+
+For the doubled unmarked ruling, first the conormal
+derivative on the lifted conic \(R\) must be nonzero
+under a hypothetical mate. Otherwise the signed cubic
+is singular along \(R\), and its quadratic normal part
+is a binary form on \(N_{R/X}=\mathcal O_R(1)^2\)
+valued in \(\mathcal O_R(3)\); the conic is the section
+of \(X\) by the two hyperplanes defining its plane.
+Each entry of the form is therefore a section of
+\(\mathcal O_R(1)\), of degree two, and its determinant
+has degree four. At any of the six distinct marked
+hits a nonzero determinant gives a formal product
+of two planes along \(R\), by splitting the two
+nondegenerate normal directions over the parameter
+of \(R\). The lift is transverse to \(R\), so belongs
+to only one of the two sheets. The other sheet is
+forbidden by inverse support. The determinant thus
+vanishes at all six hits and is identically zero.
+At each hit the coefficient obtained by restricting
+the normal form to the direction normal to \(R\) in
+\(T\) has a simple zero, by the local \(xy^2\) slice.
+A rank-one binary form over the local DVR with
+any unit coefficient and determinant zero is a unit
+times a square (complete a square after choosing a
+unit diagonal entry). Its value on that direction
+cannot have odd order. Therefore all entries vanish
+at all six hits, impossible for their degree unless
+the form is zero, contradicting the nonzero generic
+slice coefficient. This proves the derivative
+section is nonzero and still has just two zeros
+counted with multiplicity.
+
+At a rank-two hit of the doubled conic, the (A_n)
+calculation applies again: the only alternative is a
+formal product, and the lifted quartic cannot be in
+the intersection of its two sheets, because it is
+generically smooth on the signed surface (in the
+slice coordinates the derivative in the \(x\) direction
+restricts to \(y^2\) on the lift). Thus one sheet would
+again be forbidden. The rank-one \(D_5\) case is already
+isolated. In the rank-zero case the ordinary blowup
+chart used above is smooth at the point of the strict
+marked lift even without normality of the original.
+Normalize the blowup and resolve elsewhere, retaining
+this chart. It factors through the original
+normalization. Along the lift the local pole of the
+original canonical form is exactly the factor
+\(y^{-1}\) computed in the smooth chart; elsewhere on
+that lift the original surface is smooth. The
+Cartier divisor \(q=0\) has the same generic
+multiplicities on the original normalization, since
+the derivative section is generically nonzero on
+\(R\). Its exceptional part still meets the marked
+strict lift with multiplicity one. The effective
+self-correction is therefore still at most two,
+rather than \(30/7\). This finishes the doubled
+unmarked ruling with no normality assumption.
+
 ### Arithmetic control and comparison of traits
 
 For the actual char-three pair A=x1³−x0²x2, G=x0x3³−x2⁴, both endpoint algebras are O[Y]/Y³. At 0 choose Y=x3−t⁴; r=t⁴−Y. At infinity choose Y=x1−t³; r=t⁴−tY. In either case z=t²+t^(j−2)Y+t^(2j−6)Y² with j=0 or 1 respectively. The multiplication matrix in basis 1,Y,Y² is triangular with these coefficients in its successive lower diagonals. The potential smallest two-minor is zero by equality of the two diagonal/off-diagonal products. The minimum over all minors is −6 or −4, respectively, from the Y² coefficient; hence (δ0,δ∞)=(6,4). This is a calculation for the actual supported char-three pair, not a char-zero lift or its lower-root defect.

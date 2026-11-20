@@ -103,8 +103,11 @@ cluster is not in itself evidence against the workflow.
   shared node, \(D_5\), and weight-six blowup calculations. The
   [doubled marked ruling](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#doubled-marked-ruling-closure-for-normal-signed-cubics)
   closes the last residual configuration: every two-lift split sextic
-  with a normal signed cubic is excluded in all mate degrees. Nonnormal
-  signed cubics and higher-degree two-lift cases remain open here.
+  with a normal signed cubic is excluded in all mate degrees.
+  The [normalization comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#removing-normality-inverse-support-and-the-actual-normalization)
+  also excludes all distinct and all doubled-unmarked residual patterns
+  without normality. Only the nonnormal doubled-marked case remains in
+  this sextic sector; higher-degree two-lift cases are separate.
   Endpoint-concentrated nonzero norm coefficients are a separate
   one-lift case. For larger nonsplit sources, seek capacity bounds
   without fourth-order divisibility. The weighted criterion assumes
