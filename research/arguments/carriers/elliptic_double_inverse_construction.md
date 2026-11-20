@@ -436,12 +436,32 @@ of \(C_0\) is exactly
 \[
  \mathcal I_{C_0}\mathcal O_S=\mathcal I_E\mathcal I_Z .
 \]
-Indeed, near the inverse of \(C_0\) its ideal in the target is generated
-by the quadric and a local lift of its graph equation on that quadric.
-After pullback the first is \(ed\); the second is divisible by \(e\)
-and its quotient modulo \(d\) is the section \(s'\) defining \(Z\).
-Thus the two pullbacks generate \(e(d,\widetilde s')\). This holds on
-all relevant local charts, and off the inverse both sides are unit ideals.
+To check this on local rings, let \(q\) cut the target quadric and
+choose a lift \(\widetilde g\) of the graph equation \(g\) of
+\(C_0\subset Q\), in local frames at the target point. The ideal
+of \(C_0\) there is \((q,\widetilde g)\) since its quotient by \(q\)
+is the graph ideal on the smooth quadric. Explicitly, on \(W_0\ne0\) in target coordinates
+\((W_0,W_1,W_3,W_4)\), take \(t=W_1/W_0\),
+\(\widetilde g=W_3/W_0-t^3\) and \(q=W_4/W_0-tW_3/W_0\).
+On \(W_4\ne0\) reverse the coordinate ordering and use the same
+formulas; these two charts cover \(C_0\) and its inverse. On the first
+chart the source expressions are
+\[
+ e=Q_0/U_0,\quad
+ d=(U_0U_4-U_1U_3)/(Q_0U_0),\quad
+ \widetilde s'=(U_0^2U_3-U_1^3)/(Q_0U_0^2).
+\]
+In a source frame
+\(f^*q=ed\). Since \(f(E)\subset C_0\), the pullback
+\(f^*\widetilde g=e\widetilde s'\) is divisible by \(e\); on \(D\)
+the quotient \(\widetilde s'|_D\) is the divided graph section
+\(s'\). Hence the inverse ideal is \((ed,e\widetilde s')\) and the
+ideal of \(Z\) in the source is \((d,\widetilde s')\). Changing the
+lift of \(g\) adds a multiple of \(d\) to \(\widetilde s'\), and
+changing trivializations only changes the generators by units.
+These local calculations apply at every inverse point, including
+ramification and special fibers; away from \(E\) use that \(e\)
+is a unit, and away from the inverse both sides are unit ideals.
 
 The inclusion \(Z\subset D\) gives a scheme-theoretic bound
 \[
@@ -492,6 +512,21 @@ At the generic point of \(C_0\), the only inverse curve is \(E\), by
 the ruling-degree argument above. We show that after splitting its
 degree-two residue extension, the two transverse branches are smooth
 and have distinct tangent lines.
+
+The conceptual consequence is that the saturated conormal pencil
+on \(E\) is nonconstant: its values
+at the two generic deck conjugates are distinct. After removing its
+common zeros its degree is \(6-\operatorname{length}(Z\cap E)\); a
+nonconstant map from an elliptic curve to a line has degree at least
+two. On this birational locus, therefore,
+\(\operatorname{length}(Z\cap E)\le4\) and multiplication by \(e\)
+on \(Z\) has rank at least eight. In a full-support fiber, trivializing
+the line bundle on the Artin scheme makes that multiplication a
+nilpotent endomorphism of dimension twelve with at most four Jordan
+blocks. Its nilpotence index is at least three, so a mate must have
+degree at least four.
+
+##### Exact direction calculation
 
 On \(Z_0=1\), put \(Z_1=x,Z_2=y,Z_3=x^2+e\). Then
 \(y^2=x^3-x+(x-\mu)e\) on \(S\); thus the normal derivative at
@@ -577,18 +612,6 @@ here are compatible with the separable residue splitting and
 completion (the conductor is given by the finite-module annihilator).
 Thus the conductor coefficient on \(E\) is exactly one.
 
-The saturated conormal pencil on \(E\) is now nonconstant: its values
-at the two generic deck conjugates are distinct. After removing its
-common zeros its degree is \(6-\operatorname{length}(Z\cap E)\); a
-nonconstant map from an elliptic curve to a line has degree at least
-two. On this birational locus, therefore,
-\(\operatorname{length}(Z\cap E)\le4\) and multiplication by \(e\)
-on \(Z\) has rank at least eight. In a full-support fiber, trivializing
-the line bundle on the Artin scheme makes that multiplication a
-nilpotent endomorphism of dimension twelve with at most four Jordan
-blocks. Its nilpotence index is at least three, so a mate must have
-degree at least four.
-
 #### The vertical divisor counts the residual inverse scheme
 
 Retain the birational octic hypotheses. Write \(G=Z\cap E\) and
@@ -614,11 +637,21 @@ quadric section gives \(f_*[D]=[R_Q]\). The map on \(D\) also
 factors through the residual Cartier scheme \(R_Q\): locally the
 restriction of the octic equation is \(g^2 r_Q\), where \(g\) is
 the graph equation of \(C_0\) on \(Q\). On \(D\) its pullback is
-\((e s')^2 f_D^*r_Q=0\). Both \(e\) and \(s'\) are regular on the
-Cohen–Macaulay curve \(D\), by the generic component checks above,
-so cancellation gives the stated factorization. Applying the cycle
-projection formula to \(g=0\), whose pullback cuts \(e s'=0\) on
-\(D\), gives the divisor on \(C_0\)
+\((e s')^2 f_D^*r_Q=0\). The Cartier curve \(D\) on a smooth surface is Cohen–Macaulay
+at every point. Its associated primes are its component generic
+points; \(e\) is in none of them since \(E\) is no component of
+\(D\), and \(s'\) is in none by the residual ruling-degree bound.
+Thus multiplication by \((es')^2\) is injective even in the local
+rings at exceptional or ramified points, proving the factorization.
+For the projection formula, the graph divisor \(g=0\) is Cartier
+on \(Q\) and meets every component of \(R_Q\) properly; its
+pullback cuts \(es'=0\) on \(D\). The local exact sequence
+\[
+ 0\to\mathcal O_D/(e)\xrightarrow{\;s'\;}
+ \mathcal O_D/(es')\to\mathcal O_D/(s')\to0
+\]
+gives the sum of \([D\cap E]\) and \([Z]\) with their local
+scheme lengths, and finite pushforward gives the divisor on \(C_0\)
 \[
  C_0\cdot R_Q=\pi_*[D\cap E]+f_*[Z].
 \]
@@ -637,7 +670,11 @@ linear evaluation, up to units, so its divisor is the pushforward of
 \([D\cap E]-[G]\). To see the unit statement locally, over each DVR
 on \(E\) both linear factors have a unit coefficient, and their
 product is primitive. The pulled-back primitive quadratic is also
-primitive, hence differs from their product by a unit. The resulting
+primitive, hence differs from their product by a unit. At a ramified
+point the factor and conjugate evaluations have the same order; the
+order of their product and the pullback of the target order both
+include a factor of two. Dividing by the ramification index gives
+the cycle pushforward with residue degree one, not twice that term. The resulting
 divisor on \(C_0\) is therefore
 \[
  C_0\cdot R_Q=V+\pi_*\bigl([D\cap E]-[G]\bigr),
@@ -697,8 +734,13 @@ Off ramification the coincidence divisor is invariant under the
 deck map and descends. At a ramification point choose a local
 parameter with deck action \(u\mapsto-u\) and a direction coordinate
 regular at the common value. The difference of the two direction
-values is odd in \(u\), so \(\Delta-R=\pi^*J\) for an effective divisor
-\(J\) on \(C_0\). The discriminant of the quadratic symbol has
+values is odd in \(u\) and not identically zero because the
+directions differ generically. Its first nonzero term has order
+\(2m+1\) for some \(m\ge0\), at this arbitrary ramification point.
+Thus subtracting the simple ramification contribution gives order
+\(2m\), the pullback of a coefficient \(m\) on \(C_0\). Combined
+with deck-invariant orders at the unramified pairs this proves
+\(\Delta-R=\pi^*J\) for an effective divisor \(J\) on \(C_0\). The discriminant of the quadratic symbol has
 divisor \(2(V+J)\) plus the branch divisor: after pullback it is
 the square of the determinant of the primitive factors times the
 square of the vertical coefficient. In particular
@@ -844,8 +886,10 @@ Indeed the direction of a projective ratio is unchanged by adding
 the projective radial direction, and passing to the normal derivative
 also quotients by the tangent direction of \(C_0\). At infinity the
 two-plane is spanned by the last two coordinate vectors in this
-ordering. The two divided inverse generators define \(G\); their
-linear parts have rank two. Thus before deleting basepoints the
+ordering. The two divided inverse generators define \(G\); this description
+holds also at ramification, since taking a projective normal derivative
+uses the tangent line of the smooth target curve, not a local inverse
+to \(\pi\). Their linear parts have rank two. Thus before deleting basepoints the
 scheme is an affine plane bundle over \(E\) times the smooth
 \(\mu\)-line. For fixed \(\mu\), a basepoint is necessarily away
 from \(E\) and gives \(\rho=-(V_j/e)_j\). The closure of the image of
@@ -870,13 +914,21 @@ in at most a point. The exceptional distinct-parameter pairs have
 dimension one and plane intersection dimension at most one. Including
 \(\mu\), either stratum gives dimension at most three. When
 \(p\ne p'\) project to the same parameter they are deck conjugates
-and the two planes are parallel. Their equality of offsets in
-\(k^4/T_t\) is a proper condition on the integral two-dimensional
-base of off-diagonal conjugates and smooth \(\mu\). Otherwise the
-two normal vectors would always be proportional, contradicting the
-nonzero generic determinant at the original member \(\mu=2,\rho=0\).
-This pair stratum likewise has dimension at most three, including
-the two free plane coordinates. Thus the generic geometric fiber of
+and the two planes are parallel. If the offsets agree in \(k^4/T_t\), the normal vectors for all
+lifts are proportional there: after trivializing their nonzero linear
+scales both are the same translation of the quotient map. For each fixed \(\mu\ne i\) the determinant at zero lift is a
+nonzero rational function of \(t\). In particular \(\mu=-i\) requires
+nonzero lifts in the zero-determinant table and is not an exception
+at zero lift. Basepoint freeness away from \(E\) is not needed to
+take these derivatives near \(E\). Thus equal offsets occur over
+at most finitely many \(t\) for each such \(\mu\), including any in
+the infinity chart. For \(\mu=i\), the deck transformation scales
+\(Q_0\) and each \(U_j\) by eight on the source, so both the local
+equation \(e=Q_0/U_0\) and all target ratios are invariant. Their
+divided coefficients therefore agree at conjugate points. This
+whole fixed-\(\mu\) stratum has one dimension before adding the
+two free lift coordinates. In either case the equality locus has
+dimension at most three after adding those coordinates. Thus the generic geometric fiber of
 \(G\to N\) has a single point. Separability in characteristic zero
 makes the generic field degree one.
 
@@ -887,8 +939,11 @@ restricted to \(G\). Since \(G\) is reduced, it factors through the
 reduced image, so the cokernel at the generic DVR is killed by its
 uniformizer. The generic field degree one gives DVR length one. The norm cuts an effective Cartier divisor
 on the smooth parameter open, with no embedded components, so \(N\)
-is reduced. The finite birational map from the normal \(G\) is its
-normalization. An affine plane bundle over the smooth product base is
+is reduced. The open of the smooth affine-plane bundle obtained by removing
+basepoints is smooth, hence normal; the finite map is birational
+because the function fields agree. Since both source and target
+are integral, this identifies it with the normalization over the
+whole asserted open, not just over its generic points. An affine plane bundle over the smooth product base is
 generically trivial, yielding the claimed birational type.
 
 A geometric point of \(N\) is normal exactly when its \(G\)-fiber has
@@ -925,22 +980,28 @@ differentiate the ratios at \(p\), using their regular values there.
 Thus the parameter belongs to \(N\) once the following basepoint
 check is made.
 
-Here are exact arithmetic checks for this actual member. Reduce
-at \(i\mapsto5\) over \(\mathbf F_{13}\). For the five polynomials
+Here are exact arithmetic checks for this actual member, with its
+characteristic-zero parameters fixed over \(\mathbf Q(i)\). Work
+over the DVR \(\mathbf Z[i]_{(13,i-5)}\), with residue field
+\(\mathbf F_{13}\) and \(i\mapsto5\). For the five polynomials
 \(Q_1+2Q_0,U_0,U_1,U_3,U_4\) of (3)–(5), set one projective
 coordinate \(Z_j\) to one in turn; the reduced Gröbner basis in the
 other three variables is \((1)\) on each of the four charts.
-Properness of the projective basepoint scheme then excludes a
-basepoint in characteristic zero. On the affine chart \(Z_0=1\),
+The basepoint incidence is projective over this DVR; a nonempty
+geometric generic fiber would specialize to its closed fiber by
+properness, so the geometric generic fiber is empty. On the affine chart \(Z_0=1\),
 the point \((x,y,Z_3)=(11,0,9)\) has \(e=5\) and target tuple
 \((U_0,U_1,U_3,U_4)=(1,3,1,3)\) modulo 13. The three equations
 \[
  Q_1+2Q_0,qquad U_0U_4-U_1U_3,qquad U_0^2U_3-U_1^3
 \]
 vanish there and their Jacobian determinant in \((x,y,Z_3)\) is
-12 modulo 13. The simple point lifts over the henselization at
-this prime. Both \(e\) and \(U_0\) remain units, so it is an
-actual inverse point off \(E\) in characteristic zero.
+12 modulo 13. The square Jacobian gives an étale neighborhood
+of the special-fiber point over the DVR, so it lifts over the
+henselization with the original coefficients unchanged. Both \(e\)
+and \(U_0\) remain units (their residues are nonzero). The generic
+point of this lifted section is therefore an actual characteristic-zero
+inverse point off \(E\).
 
 This member is birational onto an octic. The map is finite and
 its degree times the image degree is eight. A plane image is
