@@ -88,3 +88,15 @@ The [H16 cycle parameterization](../../arguments/equations/chow_polytope_rigidit
 [H17](../../arguments/torus/boundary_reconstruction_and_defects.md) gives a linear obstruction and torsor for lifting labeled boundary equations through C, a separate torus-support defect, and bounded-degree embedded CI reconstruction. Compatibility of lifts is not sole-support realization; the finite-order counterexample does not apply to all marked filtrations or fixed-degree full formal data.
 
 The [H17 fixed-degree realization criterion](../../arguments/torus/boundary_reconstruction_and_defects.md#exact-fixed-degree-realization-of-embedded-facet-schemes) reduces a specified compatible embedded facet diagram to finite homogeneous polynomial feasibility using an ordinary power of I_C. It is an exact criterion, not a proof of automatic existence or an efficient all-degree search.
+
+## Open interface: simultaneous coregularity versus actual equation filtrations
+
+Hartshorne–Polini, *Quasi-cyclic modules and coregular sequences*, Theorem 3.1 (with its regular-sequence and higher-local-cohomology-vanishing hypotheses), supplies the established exact global criterion. Put \(S=k[x_0,x_1,x_2,x_3]\), \(I=I_C\), and \(M=H_I^2(S)\). For homogeneous \(f,g\in I\) with \(fM=M\), write
+\[
+ K_f=0:_M f,\qquad \mathcal D(f,g)=K_f/gK_f.
+\]
+Then \(\mathcal D(f,g)=0\) is precisely the **second-element** coregularity condition for this ordered pair. This quotient is not claimed to be finite-dimensional, or to agree with any existing conormal or filtered defect.
+
+**Unresolved comparison question:** Can a functorial map or a rigorous necessary implication relate \(\mathcal D(f,g)\) to the full actual homogeneous equation filtration, its lift obstructions, or the filtered relation module, in a way that yields an independently testable obstruction? The normal symbols and generic transverse complete-intersection algebra alone lose global multiplication information. A prescribed sextic missing-symbol class is not an obstruction to *all* possible pairs without such a comparison. Equally, failure for one ordered pair does not show that no coregular pair exists. The distinction between the direct-limit local-cohomology module and inverse-limit formal completion must be retained.
+
+The [literature record](../../literature/README.md) and [global homogeneous criterion](../../arguments/equations/global_equations_and_constructions.md#homogeneous-local-cohomology-and-the-second-equation) already establish the theorem and fixed-curve counterexample for two individually coregular equations. The question here is only the **missing geometric bridge** to the actual-source and conormal machinery; it is not a new STCI characterization.
