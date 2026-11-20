@@ -18,7 +18,13 @@
 | Early cubic contact ranks | Do the old cubic rank-14 calculation, special reducible \(Lq\) rank drops, or characteristic-three behavior establish any independent geometric statement not subsumed by the current cubic carrier exclusion? | Retain only a verified, reusable geometric mechanism or example; otherwise discard. |
 | Fixed-quadric residual degeneration | Is there a *specific*, correct flat-family construction of a \((2,4)\) CI with limit \(C\cup Z\), \(Z\sim(3,1)\), which adds useful information to the current residual-absorption framework? | Compare exact equations and flatness with canonical residual framework. Retain only if new and consequential. |
 | Old primitive-conormal/pole stratification | Does any verified calculation survive the arbitrary-mate quartic-carrier theorem as a useful general method for higher-degree carriers? | Identify an explicit independent lemma and applicable higher-degree hypotheses; otherwise discard. |
-| Quintic conductor descent | Is there an older construction or obstruction not already captured by the expanded normalization, conductor, full-inverse-support, and descent arguments? | Exact theorem/proof comparison, not keyword comparison; retain only a genuinely new gate. |
+| Quintic conductor descent | Is there an older quintic-specific construction beyond the expanded normalization, conductor, full-inverse-support and descent arguments? | No new result yet identified; compare only an explicit candidate. |
+
+## Resolved comparison: cuspidal cubic conductor mechanism
+
+The August 21 historical source computes the non-torsion additive conductor defect \\(-3z^{-2}\\) for the cuspidal cubic cone \\(y^3-x^2z=0\\), despite proportionality on normalization. This **is already preserved** in [projection pairings and conductor failures](../frameworks/carrier-normalization/projection_pairings_and_conductor_failures.md), which also distinguishes the ruled-cubic failure on the normalization. **Discard the historical duplicate.** This is a cubic mechanism, not evidence of an unresolved quintic descent case.
+
+The August 22 primitive/quasiprimitive \\((4,5)\\) artifacts (\\(p_1=8,9\\), conditional \\(p_2\\) bounds) were also recovered. They are necessary filters for a degree pair now excluded by R-0001, not an independent higher-degree obstruction. **Do not retain as a new Result** unless a specific generalization beyond quartic carriers is verified.
 
 ## Already covered — do not re-audit without new evidence
 
@@ -31,4 +37,4 @@
 
 ## Audit outcome to date
 
-**No verified missing theorem or construction yet.** The items above are questions for targeted comparison, not proposed research projects. Do not generate a historical summary for a closed item. Once all items are resolved, integrate any retained mathematics into its canonical home and **delete this temporary file**.
+**No verified missing theorem or construction yet.** One historical conductor example and the old (4,5) filters have been screened out as already preserved or superseded. The items above are questions for targeted comparison, not proposed research projects. Do not generate a historical summary for a closed item. Once all items are resolved, integrate any retained mathematics into its canonical home and **delete this temporary file**.
