@@ -19,8 +19,12 @@ conductor boundary and put \(q=\lceil a/2\rceil-1\). The [ambient-norm conductor
 \[
 \delta\ge a+b-3+2\left[\binom{q+2}{3}-q\right].
 \]
-No incompatible upper bound is known. Its constructive question is which actual
-embedded boundary schemes and multiplication maps realize this postulation.
+The [endpoint lattice bounds](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#82-endpoint-capacity-and-fixed-cover-carrier-exclusions)
+give upper bounds on this same \(\delta\), including an incompatible bound
+on specified nonempty actual carrier families in every degree at least five.
+No incompatible bound covering arbitrary supported pairs is known. The
+constructive question is which actual embedded boundary schemes and
+multiplication maps realize the required postulation.
 The norm strengthens the use of the existing canonical sequence; its Rao
 dimensions are not a second independent budget. The broader degree-d theorem
 and the distinct [extremal line argument](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#12-embedded-curve-exclusion-of-the-minimal-boundary)
@@ -30,6 +34,26 @@ does not repair the original embedding. An embedded AG conjugate union would
 descend automatically. The [supported-linkage constructions](../../arguments/linkage/supported_linkage_operations.md)
 produce actual ACM schemes upstairs, while their specified failures leave other
 sources and chains open.
+
+The [auxiliary-cover choice](../../arguments/linkage/quadratic_cover_choice.md)
+removes splitting as a restriction on applying the stronger nonsplit onset
+to an integral carrier: in characteristic zero, each carrier of degree
+greater than two is nonsplit for a general cover in \(r+\lambda q\).
+The two reduced lifts and branch endpoints persist, and the same
+conormal-moment estimate applies. The conductor and its finer endpoint
+capacities belong to the chosen cover, however; the known favorable
+divisibilities do not persist merely because the reduced lifts do.
+The remaining question is whether the full actual source forces an allowed
+choice with a strict capacity/postulation gap. An abstract local algebra,
+first normal symbol or separately chosen endpoint model does not answer it.
+
+For the original fixed cover, the
+[carrier framework](../carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)
+records the all-mate two-lift sextic exclusion and the remaining one-lift
+non-Du-Val sector. The conductor scheme is \((P,Q,G)\), while conjugate
+attachment is \((P,zQ,G)\); the extra endpoint length in attachment must
+not be used as conductor capacity. These fixed-cover closures and the
+general cover-choice statement are distinct inputs to the comparison.
 
 For an actual equivariant quadratic extension, the
 [character-refined norm](../../arguments/linkage/projected_thickening_section_defects.md#equivariant-quadratic-descent-and-the-conductor-norm)

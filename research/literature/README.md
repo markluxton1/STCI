@@ -195,6 +195,31 @@ Exterior Syzygies,” arXiv:math/0111040 (2001).
 
 ## Conductor descent and codimension-two Gorenstein criteria
 
+### Grothendieck--Lefschetz for the covering quadric
+
+SGA 2, [Exposé XII, Corollary 3.7](https://arxiv.org/pdf/math/0511279),
+gives \(\operatorname{Pic}(X)=\mathbf Z[\mathcal O_X(1)]\) for a projective
+complete intersection of dimension at least three. It applies to the smooth
+quadric threefold used in the
+[split norm factorization](../arguments/linkage/split_carrier_norm_and_conductor.md#split-carrier-the-conductor-is-an-actual-complete-intersection).
+This is the Picard-group input for the even-degree factorization; a paper
+on normal surfaces does not supply that citation.
+
+### Morrison's local conormal comparison
+
+D. R. Morrison, [The Birational Geometry of Surfaces with Rational Double Points](https://web.math.ucsb.edu/~drm/papers/birgeoRDP.pdf),
+*Math. Ann.* 271 (1985), 415--438, Theorem 3.1 (p. 424) and Table 2.2
+(p. 421). The theorem compares the conormal sheaf of a smooth Weil curve
+with that of its strict transform at rational double points. In a smooth
+threefold, the local presentation \(k[[t]]^2/k[[t]](a,b)\) identifies its
+torsion length with \(\min(\operatorname{ord}a,\operatorname{ord}b)\), the
+common derivative-zero order in the
+[one-lift sextic proof](../arguments/linkage/one_lift_sextic_conormal_exclusion.md#the-same-length-budget-controls-all-du-val-types).
+The table gives value three at the admissible \(E_7\) vertex, stronger
+than the lower bound two sufficient for that proof. Theorem 3.1 is local
+near the curve; Theorem 3.2 has a stronger ambient canonical-bundle
+hypothesis and is not being applied to the quadric threefold.
+
 ### Ferrand
 
 Daniel Ferrand, “Conducteur, descente et pincement,” *Bulletin de la Société

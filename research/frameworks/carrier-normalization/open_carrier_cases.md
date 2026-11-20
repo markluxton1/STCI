@@ -6,9 +6,12 @@ The [fixed-sextic all-degree theorem](../../results/ci_fixed_sextic_jet_rigidity
 
 **Decision gate:** first determine whether a proposed carrier class satisfies these hypotheses, or identify a structural counterexample. Only then pursue mate-degree computations. This is a proposed investigation, not an assertion that the split-sextic, ADE, quintic, or elliptic cases satisfy the criterion. Keep conductor descent and full inverse support as independent requirements.
 
-## Split sextic carriers
+## Sextic carriers with split first normal cone
 
 Fix \(C_0\) over an algebraically closed field of characteristic zero.
+Here splitting means splitting of the first normal cone; no equivalence
+with splitting in the [fixed quadratic cover](index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)
+is established. That cover's exclusions do not retire this question.
 Consider an integral sextic of exact normal order two whose first exceptional
 divisor is the reduced sum of two distinct integral, content-free sections
 with no vertical component. A hypothetical sole-support mate must pass the

@@ -49,7 +49,7 @@ relations among its actual homogeneous equations throughout the family.
 [Movement bounds](results/torus_quotient_movement_bounds.md) ·
 [Moving quotient and equation comparison](investigations/quotient-hilbert-comparison/index.md#completion-and-next-decisions).
 
-The current sextic interfaces are (i) higher contact for proper pencils
+For primitive-triple sextic pencils, the current interfaces are (i) higher contact
 through the surviving ADE primitive triples with independent restrictions
 to the containing quadric, and (ii) comparison of the established canonical
 cohomological obstruction and unique-quadric filtration for the eleven
@@ -71,7 +71,7 @@ It gives the source dimension in every degree at least four and a full
 determinant image for \(a,b\ge5\) with \(a+b\ge11\), including
 the mixed quintic-sextic case. The equal-quintic case retains a specific
 six-jet interpolation gap in the geometric proof.
-The remaining sextic issue is higher contact of actual proper pencils;
+The remaining issue in this framework is higher contact of actual proper pencils;
 surjectivity of the determinant span does not settle that incidence.
 For an actual orbit pair in any bidegree, the two endpoints together
 detect raw equation torsion but can miss classes on a parameter layer.
@@ -100,6 +100,18 @@ of all possible carriers or a degree-independent obstruction. See the
 [carrier framework](frameworks/carrier-normalization/index.md),
 [toric quintic exclusion](results/toric_quintic_carrier_exclusion.md),
 and [elliptic inverse-support criterion](results/elliptic_inverse_support.md).
+
+The quadratic conductor now compares global postulation with both actual
+endpoint capacities on the same object, excluding specified carrier families
+in all mate degrees. [Choosing the auxiliary cover](arguments/linkage/quadratic_cover_choice.md)
+makes the nonsplit onset available for every integral carrier of degree
+greater than two in characteristic zero; controlling its local capacities
+as that choice varies remains open. The fixed-cover two-lift sextic sector
+is excluded without normality. Its surviving one-lift sector is generically
+regular along the lift and has non-Du-Val behavior there. These statements
+do not close the separate split-first-normal-cone frontier or improve the
+general degree bound. See the [current carrier scope](frameworks/carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)
+and [local/global interface](frameworks/global-equation-realization/projection_and_liaison.md#embedded-conductor-and-ambient-equations).
 
 Two bounded objects in [Investigations](investigations/) currently connect the
 torus approaches, at different stages of readiness: [moving quotient and full Hilbert comparison](investigations/quotient-hilbert-comparison/index.md)

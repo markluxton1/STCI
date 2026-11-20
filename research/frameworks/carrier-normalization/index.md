@@ -106,14 +106,56 @@ The [fixed-sextic rigidity theorem](../../results/ci_fixed_sextic_jet_rigidity.m
 
 For the **displayed sextic only**, three boundary valuations give \(n\le\lfloor b/2\rfloor\) for every mate degree and hence positive residual degree for every proper mate containing \(C_0\). The [conditional criterion](../../results/ci_fixed_sextic_jet_rigidity.md#conditional-interface-for-other-carriers) is not known for other carriers. Unlike a conductor descent obstruction, it can exclude mates before testing whether a putative upstairs section descends. It does **not** replace the full inverse-support, polarization, or descent tests for a construction. The next generalization question is whether a geometrically defined carrier class admits the required global divisibility, pole budgets, and boundary nonpositivity; see [open cases](open_carrier_cases.md#boundary-valuation-generalization).
 
+## Quadratic-cover exclusions and the remaining one-lift sector
+
+In characteristic zero, use the fixed smooth cover
+\(X:z^2=r=2x_1x_2-x_0x_3\). Splitting of an integral carrier in this
+cover forces an even degree and a norm expression \(F=P^2-rQ^2\).
+The [split-carrier conductor calculation](../../arguments/linkage/split_carrier_norm_and_conductor.md#split-carrier-the-conductor-is-an-actual-complete-intersection)
+identifies the conductor scheme with \((P,Q,G)\); the conjugate-branch
+intersection is instead \((P,zQ,G)\). The latter includes the extra
+endpoint attachment and is not the conductor scheme.
+
+For an integral sextic with \(\deg P=3\), \(\deg Q=2\) and
+\(P|_{C_0}=Q|_{C_0}=0\), the signed cubic contains both reduced lifts.
+The [two-lift exclusion](../../arguments/linkage/two_lift_sextic_residual_rulings.md#normalizing-the-doubled-marked-ruling)
+rules out every mate degree, without normality of the signed surface.
+The proof uses its polarized intersection geometry and exhausts the two
+residual ruling fibers, including their doubled and nonnormal cases.
+
+If the signed cubic contains just one lift \(D\), the
+[conormal budget](../../arguments/linkage/one_lift_sextic_conormal_exclusion.md#one-lift-sextics-the-conormal-zero-budget)
+excludes every mate when it is smooth or Du Val along \(D\).
+The [unique generically singular signed cubic](../../arguments/linkage/signed_cubic_normalization_and_cartier_defect.md)
+has normalization \(\mathbb F_2\), hyperplane class \(E+4f\), and two
+full inverse sections of class \(E+2f\); their classes exclude every
+mate as well. The surviving one-lift surface is therefore generically
+regular along \(D\) and non-Du-Val somewhere on it. When normal near
+\(D\), the same proof gives the necessary common-derivative-zero length
+\(g\ge5\), and \(g\in\{5,6\}\) if the degree-six derivative is nonzero.
+This intrinsic Cartier-defect restriction does not exclude all surviving
+non-Du-Val cases.
+
+These closures concern a fixed auxiliary cover. The
+[cover-choice theorem](../../arguments/linkage/quadratic_cover_choice.md)
+makes every integral carrier of degree greater than two nonsplit in a
+general cover of the specified pencil. Its global conductor postulation
+then applies, but its endpoint capacities still require the actual local
+equations in that chosen cover. The
+[local/global interface](../global-equation-realization/projection_and_liaison.md#embedded-conductor-and-ambient-equations)
+records this remaining gap. No general sextic exclusion or stronger
+minimum defining degree follows.
+
 ## Distinct sextic directions
 
-The ADE quintic-octic exclusion and split-sextic investigations are separate
-problems. For split sextic carriers, the fixed ramified specimen is excluded,
-while a different one-parameter line remains for normalization and conductor
-analysis. Neither conclusion follows from the ADE theorem. Keep the explicit
-[split-sextic question](open_carrier_cases.md#split-sextic-carriers) and its
-remaining cases distinct from quintic carrier classification.
+The older sextic investigation concerns a **split first normal cone**:
+two distinct first-normal sections, rather than splitting in the auxiliary
+quadratic cover. Its fixed ramified specimen is excluded, while a different
+one-parameter line remains for normalization and conductor analysis.
+No equivalence with quadratic-cover splitting has been proved, so the
+new two-lift exclusion does not close this frontier. Keep the explicit
+[first-normal-cone question](open_carrier_cases.md#sextic-carriers-with-split-first-normal-cone)
+and the ADE quintic-octic problem separate.
 
 ## Connections to other frameworks
 
@@ -137,7 +179,7 @@ descent still have to be checked.
 - For the three Cartier singleton models, determine whether any admissible
   projection survives both full inverse-support and actual conductor-unit
   descent. The exact open question is preserved below as STCI-Q-0001.
-- Keep the toric quintic, elliptic, ADE, and split-sextic interfaces separate
+- Keep the toric quintic, elliptic, ADE, first-normal-cone and quadratic-cover interfaces separate
   unless a proved map identifies their normalization and conductor data.
 
 ## Projection and conductor descent for the three Cartier singleton models

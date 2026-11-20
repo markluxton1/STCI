@@ -48,102 +48,59 @@ cluster is not in itself evidence against the workflow.
 
 ### KG01. Projective limits on deep generic normal contact
 
-- **Known.** Noether's formula and the quadric slope imply that any
-  defining pair needs common points beyond depth one; at least \(pq/4\)
-  of the generic contact is beyond that depth, where \(p,q\) are its
-  starting normal orders. Exact line-bundle recurrences are available along
-  a specified horizontal section path. Fixed tangent forms can have
-  unbounded local contact, and tangent data do not determine the next
-  multiplicity. The normal-jet cutoff is fixed-degree, not an all-degree
-  reduction. [Depth](../../arguments/residuals/generic_contact_depth.md#4-smooth-quadric-family)
-  · [Horizontal paths](../../arguments/residuals/horizontal_blowup_recursions.md)
-  · [Actual finite jets](../../arguments/residuals/finite_normal_jets.md).
-- **Checked uniform sector.** The [moving-relation theorem](../../arguments/equations/global_lifting_interfaces.md#a-uniform-nonvanishing-theorem-in-relation-degree-at-least-two) proves the next-order class is nonzero in characteristic zero for saturated degree-one movement, relation degree at least two, and no independent next relation. The mechanism is incompatibility of shared Laurent corrections, not a sampled rank. The order-one geometric zero locus is classified separately, without a higher-lift or scheme-structure claim. Positive first-relation defect divisors and other normal initial ideals remain outside the theorem.
-- **Projective constraint found.** For every possible defining degree,
-  the two first symbols must have a connected, pure curve of common
-  directions. On the zero direction-degree boundary the sole section's
-  normal bundle forces more than \(pq/2\) generic contact beyond depth
-  two in characteristic zero. The characteristic-three cubic–quartic
-  pair exhausts its contact by depth two. [Residual and deep-contact theorem](../../results/connected_normal_directions.md#statement).
-- **Pursuit checkpoint.** The [same quadratic conductor](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#82-endpoint-lattice-capacity-of-the-same-conductor)
-  has a global postulation lower bound and both actual endpoint-lattice
-  capacities. The [weighted jet test](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#a-weighted-endpoint-test-on-the-actual-carrier)
-  excludes all mate degrees on specific integral carrier families in
-  degrees five and higher. The [linear source count](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#how-large-is-the-simultaneous-endpoint-source)
-  shows that the simultaneous fourth-order condition is not limited to
-  a pencil. These bounds do not cover arbitrary carriers.
-  The [split-carrier comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#split-carrier-the-overlap-is-an-actual-complete-intersection)
-  makes odd-degree integral carriers automatically nonsplit. In the
-  split case with nonzero restriction of the norm coefficient to the
-  curve, the actual two-branch overlap is a complete intersection and
-  computes the entire conductor. In particular no integral split
-  carrier smooth at both endpoints has a mate in any degree.
-  The [two-lift split comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#two-lift-split-carriers-actual-primary-pieces-control-postulation)
-  identifies the exact low-norm equation source on the thinner actual
-  primary piece. In the nearly balanced sector it recovers the same
-  low-degree postulation as the nonsplit case; it does not bound
-  endpoint capacity. As a first finite test, study the quadrics through
-  the short actual primary piece of a split sextic, not just its
-  reduction. The [signed-surface intersection comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#two-lift-split-carriers-intersection-on-the-signed-surface)
-  excludes all mates for a two-lift split carrier when the signed
-  surface upstairs is smooth along the lifts, despite the singular
-  norm surface downstairs. For a normal signed cubic, ordinary double
-  points alone also cannot supply the required correction of at least
-  \(5b\): the shared contributions cancel and the unshared ones give
-  at most \(9b/2\). The [transverse unmarked residual sector](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#transverse-residual-sextics-higher-a_n-do-not-suffice)
-  excludes all mates for a normal signed sextic surface in that
-  sector, allowing higher \(A_n\) at its marked hits. The transverse
-  slice fixes the end incidence, and a K3 smoothing bounds the sum of
-  the local ranks without requiring Du Val singularities elsewhere.
-  The [doubled unmarked ruling sector](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#doubled-unmarked-ruling-a-conic-bounds-the-correction)
-  also excludes every mate for a normal signed cubic. Thus both
-  unmarked residual patterns are excluded under normality, with no
-  Du Val assumption along the lifts. The [shared endpoint comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#distinct-residual-rulings-through-marked-points)
-  excludes all distinct residual ruling arrangements, using the
-  shared node, \(D_5\), and weight-six blowup calculations. The
-  [doubled marked ruling](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#doubled-marked-ruling-closure-for-normal-signed-cubics)
-  closes the last residual configuration: every two-lift split sextic
-  with a normal signed cubic is excluded in all mate degrees.
-  The [normalization comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#removing-normality-inverse-support-and-the-actual-normalization)
-  also excludes all distinct and all doubled-unmarked residual patterns
-  without normality. The [normalized doubled-marked case](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#normalizing-the-doubled-marked-ruling)
-  now closes the two-lift split sextic sector in characteristic zero:
-  no mate exists in any degree, with no normality assumption on the
-  signed cubic. Higher-degree two-lift cases are separate.
-  In the [one-lift sextic case](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#one-lift-sextics-the-conormal-zero-budget),
-  the conductor forces a monomial norm coefficient and gives a
-  conormal zero budget of six. It excludes the \(A_1/A_2\) sector,
-  and the \(A_n\) sector with nonzero degree-six derivative or
-  reduced common zeros. The [Du Val comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#the-same-length-budget-controls-all-du-val-types)
-  extends the nonzero degree-six derivative exclusion to every Du Val
-  type. The [vanishing derivative case](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#the-identically-vanishing-degree-six-derivative-forces-a-non-du-val-hit)
-  also excludes all mate degrees if the signed cubic is smooth or
-  Du Val along the marked lift. Non-Du-Val hits or generic
-  singularity along that lift still require separate arguments. For larger nonsplit sources, seek capacity bounds
-  without fourth-order divisibility. The weighted criterion assumes
-  smooth solvability in the specified endpoint normal coordinate; a
-  first symbol alone neither supplies that hypothesis nor computes
-  the lattice.
-- **Next test.** On this boundary the remaining issue is an upper
-  bound from the actual equation sources, or a pair that sustains the
-  required tail. At \((3p,4q)\) it suffices to decide the
-  [marked quintic criterion on \(V_5\)](../../arguments/residuals/blowup_residual_geometry.md#actual-equations-on-the-zero-direction-edge)
-  for one endpoint and one mixed direction, including the conic normal
-  value that detects a contracted residual line. For positive direction
-  degree the second-blowup test needs a nef twist of the actual
-  multisection's normal bundle, or a comparison that retains the other
-  components meeting a chosen center.
-  The basepoint-free moving first relation of degree one now has the
-  uniform nonvanishing theorem just stated in orders at least two.
-  Its next unresolved tests are the divisor twists that record
-  nonsaturation and higher lifting of the order-one zero locus; the quadric control
-  prevents an indiscriminate nonvanishing claim.
-  [Moving-relation operator](../../arguments/equations/global_lifting_interfaces.md#8-the-next-order-operator-for-a-moving-relation).
-- **Decision.** A bound stronger than the required tail on this stratum
-  is a real exclusion there. If the mechanism needs one section, it
-  must be extended separately to multisections, branching, ramification
-  and vertical components before it covers arbitrary pairs. Counting
-  depths or rewriting \(ab=4m_C\) is not progress on this bridge.
+- **Current comparison.** The [same quadratic conductor](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#82-endpoint-capacity-and-fixed-cover-carrier-exclusions)
+  has a global postulation lower bound and two actual endpoint-lattice
+  capacities. This compares local and global constraints on one object.
+  The [weighted endpoint test](../../arguments/linkage/endpoint_lattice_capacity.md#a-weighted-endpoint-test-on-the-actual-carrier)
+  excludes all mate degrees on specified nonempty integral carrier families
+  in degrees five and higher; the simultaneous source has more than a
+  pencil's worth of parameters. These exclusions do not cover arbitrary
+  carriers.
+- **Coverage after choosing the cover.** Every integral carrier of degree
+  greater than two is nonsplit for a general member of the auxiliary
+  quadratic-cover pencil in characteristic zero. Thus the
+  [nonsplit postulation onset](../../arguments/linkage/quadratic_cover_choice.md)
+  is available after a carrier-dependent choice. The conormal-moment
+  upper bound also applies in that chosen cover. The actual endpoint
+  divisibilities, Smith capacities and conductor lengths can change with
+  the cover; favorable estimates in one member do not transfer to another.
+- **Fixed-cover closures.** For the fixed cover, all two-lift integral
+  split sextics are excluded in every mate degree, without normality of
+  the signed cubic. The one-lift sector is excluded when that surface
+  is smooth or Du Val along the lift, and the
+  [unique generically singular signed cubic](../../arguments/linkage/signed_cubic_normalization_and_cartier_defect.md)
+  is also excluded by its full normalization inverse. A surviving
+  one-lift signed cubic must be generically regular along the lift and
+  have non-Du-Val behavior somewhere on it. If normal near the lift,
+  it satisfies the intrinsic Cartier-defect restriction in the same
+  proof. These are quadratic-cover conditions, not a classification of
+  all sextics or of split first normal cones. See the
+  [carrier framework](../../frameworks/carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector).
+- **Next test.** For a declared full carrier source, initially on an
+  endpoint-regular locus, determine how both actual endpoint Newton/Smith
+  capacities vary with \(r_\lambda=r+\lambda q\). Can an allowed nonsplit
+  choice force a strict capacity/postulation gap, or can an actual carrier
+  defeat this comparison for every allowed choice? Retain the complete
+  equation source and both endpoints; first-symbol data alone do not
+  determine the lattices.
+- **Decision.** A strict gap on a specified source extends the exclusions
+  beyond the constructed endpoint-jet families. A carrier defeating every
+  choice identifies missing local information. Neither outcome alone
+  gives arbitrary-degree coverage. The two-lift sextic primary-piece
+  calculation is an explanatory control in a closed sector, not a search
+  for a surviving mate.
+
+The related deep-contact mechanisms retain their distinct scopes:
+[connected normal directions](../../results/connected_normal_directions.md#statement)
+force contact beyond depth one (and beyond depth two on the zero
+direction-degree boundary); the
+[moving-relation theorem](../../arguments/equations/global_lifting_interfaces.md#a-uniform-nonvanishing-theorem-in-relation-degree-at-least-two)
+controls saturated degree-one movement with relation degree at least two
+and no independent next relation. Nonsaturation and higher order-one
+lifts remain with their [formal-normal owner](../../frameworks/formal-normal-geometry/index.md).
+The [marked V5 correspondence](../../arguments/residuals/blowup_residual_geometry.md#actual-equations-on-the-zero-direction-edge)
+is a separate actual-source and conductor-contact test. These results
+neither supply a capacity bound for every cover nor remove its need.
 
 ### KG02. Actual equation layers and the two torus ends
 
@@ -339,6 +296,10 @@ cluster is not in itself evidence against the workflow.
   [Current finite remainder](../../frameworks/local-cohomology/open_quartic_ancestors.md)
   · [R-0071 proof owner](../../results/quartic_ancestor_direction_reduction.md).
 - **Checked comparison.** The [dual-persistence lemma](../../arguments/local-cohomology/polynomial_duals_and_affine_pencils.md#what-persistence-of-a-two-target-dual-actually-requires) identifies the exact excess-intersection condition for changing actual multiplication sources, and a DVR Tor module for specialized duals that do not lift regularly. Fixed-source re-presentation is separated from enlargement of degrees or ancestors. These standard comparison arguments do not establish the needed all-degree maps or decide the remaining incidence.
+- **Conductor limitation.** The [separated-cover conductor quotient](../../arguments/linkage/endpoint_lattice_capacity.md#fixed-local-cohomology-targets-and-what-they-cannot-see)
+  kills the two fixed socle targets. Transfer must preserve the actual
+  multiplication image and values; the first quadric shift still has
+  five source directions to evaluate.
 - **Next test.** Find a principal-parts or duality formulation of a
   covector separating the two targets on the remaining line and
   curve, including lower corrections and ambient coprimality. Ask
@@ -359,12 +320,8 @@ cluster is not in itself evidence against the workflow.
   of arbitrary hypothetical characteristic-zero pairs.
   [Arithmetic lifting interfaces](../../frameworks/arithmetic-supported-lifts/index.md)
   · [Bounded-degree transfer](../../arguments/arithmetic/effective_characteristic_transfer.md).
-- **Sweep limitation.** The [separated-cover conductor quotient](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#fixed-local-cohomology-targets-and-what-they-cannot-see)
-  kills the two fixed socle targets. Transfer must preserve the actual
-  multiplication image and values; the first quadric shift still has
-  five source directions to evaluate.
 - **Sweep restriction.** Compatible actual endpoint lattices give
-  a [specialization lower bound on generic conductor length](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#arithmetic-control-and-comparison-of-traits),
+  a [specialization lower bound on generic conductor length](../../arguments/linkage/endpoint_lattice_capacity.md#arithmetic-control-and-comparison-of-traits),
   not the generic upper bound needed for a contradiction. This is not
   the lower-root endpoint defect.
 - **First test.** For a specified powered source, construct the
