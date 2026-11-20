@@ -855,6 +855,32 @@ not about all carriers in those degrees. The next structural test
 is whether other source conditions force enough endpoint
 divisibility, or whether exact matrices can replace that assumption.
 
+### A weighted endpoint test on the actual carrier
+
+Work at either standard endpoint, on its affine chart, reverse coordinates at infinity. Let (t,z,w) be chart coordinates with C=(z−t³,w−t⁴) and `e=2tz−t⁴−w`. For an actual carrier F containing C, suppose ∂_w F is a unit at the endpoint. Set v=z−t³ and solve w=w_F(t,v) formally. In the completed carrier, any actual sole-supported mate has equation unit·v^n, n=ab/4, by factorization in the regular power-series ring with support v=0; hence the pair lattice is O[v]/v^n. The value
+    F(t,v+t³,2t(v+t³)−t⁴)
+equals e|_F times a unit, by subtracting the identically zero F(t,v+t³,w_F) and using the nonzero derivative. Thus the weighted jet condition i+γj≥4 for all t^i v^j occurring in e|_F (γ fixed nonnegative rational) is directly a linear vanishing test on F after this substitution. Unit multiplication preserves the filtration. If γ>0 the prohibited jet region is finite; at γ=0 the substitution itself is still polynomial and tests t^4 divisibility.
+
+Under this condition coefficient j of e/t^4 has t-valuation at least −γj; coefficient zero is absent because e vanishes on C. The finite square-root expansion preserves these bounds by convolution, with +2 from the prefactor t². Therefore every k-minor in the cyclic basis has valuation at least 2k−floor(γ k(n−k)), giving δ_i≤max_k(floor(γ k(n−k))−2k). This is an actual coefficient condition, not a consequence of first normal order. For a smaller integral nonsplit carrier, γ_0+γ_∞<16/a is sufficient to exclude all sufficiently large mate degrees: for fixed a the nonsplit lower bound is (a/4)b²+O_a(b), while the upper bound is at most (γ_0+γ_∞)a²b²/64. The exact finite inequalities remain preferable for individual degrees.
+
+### Degrees five and six in the same constructed family
+
+Use the same A=x_0^(a−4)K_0 and B=x_3^(a−4)K_∞, with D_5=q²x_0 and D_6=q²x_1x_2. Take F=λA+μB+νD_a with λμ nonzero. The completed endpoint has w=tW and q=t(W−z); F modulo t is a unit times w. Set e=t^m E, m=a−4 (the divisibility follows as before), so W=2z−t³−t^(m−1)E.
+
+For a=5, divide the equation by t. On x_0=1 modulo t³,
+  (λ+μz⁴)E = 2μ z⁵−νt(z−E)².
+Thus the coefficients of E at t-orders 0,1,2 vanish to z-orders at least 5,2,3: solve successively, using that z−E_0 has order one. At infinity exchange λ,μ and replace the final term by −νt² W(W−z)²; there E_1=0, E_0 has order ≥5, and E_2 order ≥3. Replacing z by v+t³ doesn't change these low t-orders. The t-integral remainder of e/t⁴ lies in (v) because e vanishes on C. Thus the weighted test applies with γ_0=1, γ_∞=3/5.
+
+For a=6, the same calculation at either endpoint (swap λ,μ) gives modulo t²
+  λE=μ W² z⁴−ν t z(W−z)², W≡2z−tE.
+So E_0=4μz⁶/λ and E_1=−16μ² z^11/λ²−νz³/λ. Hence the pole part of e/t⁴ is in t^−2(v⁶)+t^−1(v³); both slopes are 1/3. The remaining integral part lies in (v).
+
+The actual carriers are integral on a nonempty open by the same Bertini argument. For a=6 the ratio B/D on K_0=0 has a pole at t=1,z=0,w=−1, and D is not identically zero there. For a=5, that ratio is −1 there and is zero at t=1 and a root of z²+2z−1 (w=−z², q=z−1 nonzero). Thus the linear system in each degree has image dimension two and no fixed surface. The first normal form is still (λ−μt^(4m+8))(2tv−h), so general members have singular points on C, although endpoints are smooth.
+
+Nonsplitting holds for integral members in the following open. On the smooth branch quadric R=0, set w=2tz. In degree five restriction is t(−λt³+ν t z²−2μ z⁵). The cubic has nonzero constant over k(z), with discriminant not identically zero (z^10 coefficient nonzero since λμ≠0). In degree six restriction is −t²(λt²−νt z³+4μz⁶); require ν²≠16λμ, giving two distinct nonzero torus roots after division by z³. Each has a simple torus component of the branch divisor on the actual integral F, hence r is nonsquare on F.
+
+All mate degrees fail. For a=5 write b=4s with s≥2 (lower excluded). At s=2,3 the lower lengths are 24,74 versus upper at most 22,62 by slopes 1,3/5. For s≥4 even the weaker bound using slope 1 at both gives (5s−2)²/2, less than the lower 20s²−50s+44 (difference (15/2)s²−40s+42 positive and increasing). For a=6 write b=2s, s≥3; s=3,4,5,6 lower lengths are 13,25,45,75 versus upper at most 0,6,12,24. For s≥7 the lower 6s²−36s+75 exceeds (3s−6)²/6 (difference (9/2)s²−30s+69 positive and increasing). These are exclusions on actual carrier families, not assertions covering all quintics or sextics.
+
 ## 9. Why the extracted branch need not be Gorenstein
 
 One exact local control suffices to test that possible shortcut; no
