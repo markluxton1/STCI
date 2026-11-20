@@ -72,11 +72,19 @@ cluster is not in itself evidence against the workflow.
   degrees five and higher. The [linear source count](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#how-large-is-the-simultaneous-endpoint-source)
   shows that the simultaneous fourth-order condition is not limited to
   a pencil. These bounds do not cover arbitrary carriers.
-  Next determine which larger actual sources force endpoint capacity
-  without fourth-order divisibility, and separate the nonsplit and split
-  carrier cases. The weighted criterion assumes a carrier smoothly
-  solvable in the designated endpoint normal coordinate; a first-symbol
-  test alone neither supplies that hypothesis nor computes the lattice.
+  The [split-carrier comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#split-carrier-the-overlap-is-an-actual-complete-intersection)
+  makes odd-degree integral carriers automatically nonsplit. In the
+  split case with nonzero restriction of the norm coefficient to the
+  curve, the actual two-branch overlap is a complete intersection and
+  computes the entire conductor. In particular no integral split
+  carrier smooth at both endpoints has a mate in any degree.
+  The two-lift split case or the endpoint-concentrated norm coefficient
+  still needs actual contact and capacity tests, not just norm
+  factorization. For larger nonsplit sources, seek capacity bounds
+  without fourth-order divisibility. The weighted criterion assumes
+  smooth solvability in the specified endpoint normal coordinate; a
+  first symbol alone neither supplies that hypothesis nor computes
+  the lattice.
 - **Next test.** On this boundary the remaining issue is an upper
   bound from the actual equation sources, or a pair that sustains the
   required tail. At \((3p,4q)\) it suffices to decide the
