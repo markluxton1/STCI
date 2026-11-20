@@ -65,3 +65,7 @@ The August 22 primitive/quasiprimitive \\((4,5)\\) artifacts (\\(p_1=8,9\\), con
 ## Audit outcome to date
 
 **No verified missing theorem or construction yet.** One historical conductor example and the old (4,5) filters have been screened out as already preserved or superseded. The items above are questions for targeted comparison, not proposed research projects. Do not generate a historical summary for a closed item. Once all items are resolved, integrate any retained mathematics into its canonical home and **delete this temporary file**.
+
+## November 18 coregularity comparison recovered
+
+A literature handoff distinguishes Hartshorne–Polini's exact homogeneous coregularity criterion from the project's finite conormal and actual-equation filtration tests. The theorem and individually-coregular counterexample were already represented in [literature](../literature/README.md) and [global equations](../arguments/equations/global_equations_and_constructions.md), but the proposed **bridge question** was not formulated precisely. It is now recorded in [global equation realization](../frameworks/global-equation-realization/index.md#open-interface-simultaneous-coregularity-versus-actual-equation-filtrations): for \(fM=M\), can the geometric filtration detect \(K_f/gK_f\ne0\)? This is an open comparison, not a proved theorem, and cannot be inferred from missing sextic symbols alone.
