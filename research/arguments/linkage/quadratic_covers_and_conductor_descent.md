@@ -1909,6 +1909,67 @@ at multiple zeros, and a signed cubic singular
 generically along \(D\). This is separate from the
 two-lift sextic exclusion.
 
+#### The same length budget controls all Du Val types
+
+For a one-lift sextic with nonzero degree-six derivative
+component, the \(A_n\) length argument also covers
+\(D\) and \(E\) singularities along \(D\). For any such
+hit with Dynkin rank \(n\), let \(g\) be the common order
+of vanishing of the two conormal components there.
+There is a positive integer \(r\le g\) for which the
+local self-correction is at most
+\[
+r-\frac{r^2}{n+1}.
+\]
+The \(A_n\) case is the preceding chain computation.
+For the other types, a smooth marked curve meets just
+one exceptional component with fundamental-cycle
+coefficient one: the intersection with that cycle
+is the multiplicity of the downstairs curve. Use
+[the resolution and admissible vertices of Brevik and Nollet, §§4.1.2–4.1.4](https://arxiv.org/pdf/1110.1867).
+The relevant inverse Cartan diagonal is one at the
+long tip of \(D_n\), \(n/4\) at either short tip,
+\(4/3\) at either admissible \(E_6\) tip, and \(3/2\)
+at the admissible \(E_7\) tip. There is no admissible
+\(E_8\) vertex.
+
+For \(D_4\) all tips have correction one. At \(D_4\),
+at the long tip of any \(D_n\), and at \(E_6,E_7\),
+one may take \(r=2\). Indeed a smooth arc on the
+rank-one equation has its squared variable vanishing
+to order at least two, and the other derivatives
+have order at least two. The displayed corrections
+are then below or equal to \(2-4/(n+1)\).
+
+For a short tip of \(D_n\) with \(n\ge5\), use
+\(x^2+y^2z+z^{n-1}=0\). A smooth arc has \(x\) of
+order at least two and cannot have both \(y,z\) of
+order one, by the cubic term. If \(y\) has order
+one it goes to the long-tip node in the first
+\(y\)-chart \(X^2+yZ+y^{n-3}Z^{n-1}=0\), with
+\(x=yX,z=yZ\). Thus at a short tip \(z\) has order
+one. The other two terms have opposite parity
+of their orders, so neither can have order below
+\(n-1\) and cancel the other. It follows that
+\(\operatorname{ord}x\ge\lfloor n/2\rfloor\),
+\(\operatorname{ord}(yz)\ge\lfloor n/2\rfloor\), and
+the remaining derivative \(y^2+(n-1)z^{n-2}\)
+vanishes to at least that order too. We can take
+\(r=\lfloor n/2\rfloor\), for which
+\(n/4\le r-r^2/(n+1)\).
+
+Thus \(\sum r\le6\) by the degree-six derivative,
+and the marked Du Val Milnor lattices, of total
+rank at most 19 by the same embedded K3 smoothing,
+give exactly the previous Cauchy bound \(114/25\).
+It is below the required \(14/3\). This excludes
+every mate when the degree-six derivative is nonzero
+and the signed cubic is at worst Du Val along its
+marked quartic, regardless of singularities elsewhere.
+For identically zero degree-six component and
+multiple derivative zeros, the length estimate is
+different and this bound does not assert an exclusion.
+
 ### Arithmetic control and comparison of traits
 
 For the actual char-three pair A=x1³−x0²x2, G=x0x3³−x2⁴, both endpoint algebras are O[Y]/Y³. At 0 choose Y=x3−t⁴; r=t⁴−Y. At infinity choose Y=x1−t³; r=t⁴−tY. In either case z=t²+t^(j−2)Y+t^(2j−6)Y² with j=0 or 1 respectively. The multiplication matrix in basis 1,Y,Y² is triangular with these coefficients in its successive lower diagonals. The potential smallest two-minor is zero by equality of the two diagonal/off-diagonal products. The minimum over all minors is −6 or −4, respectively, from the Y² coefficient; hence (δ0,δ∞)=(6,4). This is a calculation for the actual supported char-three pair, not a char-zero lift or its lower-root defect.

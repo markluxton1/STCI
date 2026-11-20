@@ -114,9 +114,11 @@ cluster is not in itself evidence against the workflow.
   the conductor forces a monomial norm coefficient and gives a
   conormal zero budget of six. It excludes the \(A_1/A_2\) sector,
   and the \(A_n\) sector with nonzero degree-six derivative or
-  reduced common zeros. Higher non-\(A_n\) cases, multiple common
-  zeros in the remaining binomial cases, and generic singularity
-  still require separate tests. For larger nonsplit sources, seek capacity bounds
+  reduced common zeros. The [Du Val comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#the-same-length-budget-controls-all-du-val-types)
+  extends the nonzero degree-six derivative exclusion to every Du Val
+  type. When that derivative is identically zero, multiple common
+  zeros still require separate tests; non-Du-Val and generically
+  singular signed surfaces also remain. For larger nonsplit sources, seek capacity bounds
   without fourth-order divisibility. The weighted criterion assumes
   smooth solvability in the specified endpoint normal coordinate; a
   first symbol alone neither supplies that hypothesis nor computes
