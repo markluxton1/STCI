@@ -1453,8 +1453,102 @@ requires \(\sum 1/d_i=3/8\). The K3 smoothing bound
 on the three isolated unmarked \(A_{n_i}\) points
 alone gives \(\sum d_i\le22\), irrespective of the
 marked singularity. Hence \(\sum 1/d_i\ge9/22>3/8\),
-again impossible. This leaves a doubled marked ruling
-outside the result, not a degenerate simple endpoint.
+again impossible. A [doubled marked ruling](#doubled-marked-ruling-closure-for-normal-signed-cubics)
+requires the separate argument below, not a degenerate simple endpoint.
+
+#### Doubled marked ruling: closure for normal signed cubics
+
+The remaining residual divisor is a doubled marked ruling.
+In this case too, an integral two-lift split sextic with
+normal signed cubic in characteristic zero has no mate
+in any degree.
+
+For the marked ruling in the first affine chart, write the
+downstairs quadric in Segre form
+\[
+(x_0,x_1,x_2,x_3)=(A u,A v_0,B u,B v_0).
+\]
+The quartic is \(B u^3-A v_0^3=0\), and the ruling in
+question is \(B=0\). The cubic
+\(x_2^3-x_1x_3^2=B^2(Bu^3-Av_0^3)\) restricts to the exact
+divisor \(C+2L\) on the quadric. Thus the actual \(P\)
+in the norm representation is a nonzero multiple of this
+cubic plus \(q\) times a linear form. In cover coordinates
+\(t=x_1/x_0,\ v=x_2/x_0,\ q=tv-z^2\), the signed cubic
+has equation
+\[
+a v^2(v-t^3)+(tv-z^2)\bigl(L(t,v,tv-z^2)+cz\bigr),
+\qquad ac\ne0,
+\]
+and along the reduced inverse image of the marked ruling,
+\(L(t,0,0)=L_0+\ell t\). Indeed
+\(v^3-t(x_3/x_0)^2=v^2(v-t^3)-tq(2tv+q)\);
+the added \(q\)-coefficient vanishes on that line.
+
+If \(L_0=\ell=0\), all first derivatives of the signed
+equation vanish along \(v=z=0\), a curve, contradicting
+normality of the surface. If \(L_0\ne0\), the marked point
+is a shared node, since the quadratic is
+\(L_0(tv-z^2)\). It adds zero to each numerical row sum
+(self plus mutual intersection), as above. It remains to
+treat \(L_0=0,\ell\ne0\).
+
+At this point the surface has multiplicity three. In the
+ordinary blowup chart \(v=tV,\ z=tZ\), its strict equation is
+\[
+aV^2(V-t^2)+(V-Z^2)
+       \bigl(\ell+L_v(0)V+cZ+O(t)\bigr).
+\]
+The surface is smooth at the common marked point of the
+strict lifts, by the \(V\)-derivative \(\ell\). The two
+strict lifts are \(V=t^2, Z=\pm t\); in the local surface
+coordinates \(t,Z\) they meet with length one, and each
+meets the same exceptional component \(t=0\) transversely
+once. Resolve elsewhere without modifying this
+neighborhood. The discrepancy at the component met
+by the lifts is \(-1\), since the ambient volume in the
+ordinary threefold blowup gains \(t^2\) and the equation
+contributes \(t^3\) in the residue. Adjunction therefore
+adds one to each strict self-intersection, while the
+strict mutual intersection loses one at this endpoint.
+
+Let \(e\) be their common exceptional incidence vector
+on a resolution over this point. If \(M\) is the negative
+of the exceptional intersection matrix, all three
+numerical corrections (two self and one mutual) at
+this point are \(s=e^{\mathsf T}M^{-1}e\). To bound
+\(s\), use the actual Cartier divisor \(q=0\) on the
+signed surface, which has \(D,D'\) each with
+multiplicity one and an effective residual divisor.
+In fact the reduced inverse ruling occurs with
+multiplicity four: off the endpoint, \(q=0\) gives
+\(v=z^2/t\), and the factor \(v^2\) has order four.
+The exceptional part of the pullback of \(q\) is the
+sum of the numerical exceptional parts for these
+effective curves. All their exceptional coefficients
+are nonnegative by inverse-matrix positivity. In
+the blowup chart \(q=t^2(V-Z^2)\), and \(V-Z^2\) does
+not vanish identically on the local exceptional component:
+setting \(V=Z^2\) at \(t=0\) leaves \(aZ^6\) in the strict
+equation. Thus the exceptional part of the pullback
+meets either strict lift with multiplicity exactly two
+there. The two marked curves alone contribute \(2s\)
+to that intersection, so \(s\le1\).
+
+The other endpoint is smooth and there are no unmarked
+residual hits. Each numerical row sum is therefore
+at most its smooth value two plus
+\((1+s)+(-1+s)\le2\), hence at most four. Intersecting
+the mate with the sum of the two lifts would give
+\(8b\le4(3b/2)\), a contradiction. This also covers the
+shared node case, whose correction is smaller. The other
+marked ruling is the reversed chart.
+
+Combining the two distinct and two doubled patterns, every
+integral two-lift split sextic with normal signed cubic is
+excluded in all mate degrees. This is not an exclusion of
+nonnormal signed cubics, of endpoint-concentrated one-lift
+norms, or of higher-degree two-lift carriers.
 
 ### Arithmetic control and comparison of traits
 
