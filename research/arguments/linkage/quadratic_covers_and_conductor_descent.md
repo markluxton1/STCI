@@ -1966,9 +1966,89 @@ It is below the required \(14/3\). This excludes
 every mate when the degree-six derivative is nonzero
 and the signed cubic is at worst Du Val along its
 marked quartic, regardless of singularities elsewhere.
-For identically zero degree-six component and
-multiple derivative zeros, the length estimate is
-different and this bound does not assert an exclusion.
+The [identically vanishing degree-six component](#the-identically-vanishing-degree-six-derivative-forces-a-non-du-val-hit)
+requires the separate argument below.
+
+#### The identically vanishing degree-six derivative forces a non-Du-Val hit
+
+The exceptional derivative stratum can also be eliminated
+when the signed cubic is at worst Du Val along \(D\).
+Write
+\[
+U_0=x_0z-x_1^2,qquad M=x_0x_2^2-x_1^2x_3
+\]
+in the covering coordinate ring. After scaling the equation,
+the signed cubic with vanishing degree-six component is
+one of the following, plus \(kM\):
+\[
+\begin{array}{c|ccccc}
+i&0&1&2&3&4\\ \hline
+H_i&x_0U_0&x_1U_0&-zU_0&x_2U_0&x_3U_0 .
+\end{array}
+\]
+Indeed each displayed form has first normal part only
+in \(u\) on the first chart, and its coefficient of \(z\)
+in the covering-ring decomposition restricts to the
+prescribed weight-\(i\) monomial on \(C\). In the third
+entry, use \(-zU_0=x_1^2z-x_0r\). The one-dimensional
+kernel for fixed restrictions proved above gives
+precisely the remaining \(kM\). Reversing the original
+coordinates exchanges \(i\) and \(8-i\), preserves the
+degree-six vanishing (by the diagonal conormal transition),
+and so reduces to the displayed half.
+
+For \(i<4\), use the last affine chart and write \(t,U,V\)
+for its coordinates along and normal to \(D\). There
+\(M=-V^2-2t^4U-t^2U^2\) exactly, and the quadratic
+part of \(U_0\) is \(-V^2\). The quadratic part of
+\(H_i+kM\) is therefore \(-kV^2\), and its cubic part
+for \(i=0,1,2,3\) respectively is
+\[
+0,quad -V^3,quad UV^2,quad -tV^2.
+\]
+If \(k=0\) the equation has multiplicity at least
+three, so this singular point is not Du Val.
+If \(k\ne0\), formally split the nondegenerate
+square in \(V\). The remaining plane germ has
+zero cubic part: the critical shift starts at
+order two, and the cubic part on \(V=0\) vanishes.
+This is incompatible with the rank-one Du Val
+forms \(D,E\), whose plane cubic part is nonzero.
+
+For \(i=4\), the first chart gives the exact equation
+\[
+k v^2+2tuv+(k-2)t^2u^2-u^3+(1+2k)t^4u .
+\]
+For \(k=0\) the first endpoint has multiplicity at
+least three; for \(k=-1\) the last endpoint does,
+as follows from the last-chart quadratic of both
+\(M\) and \(U_0\). Otherwise complete the square
+in \(v\) by setting \(v'=v+tu/k\). The equation is
+weighted homogeneous of degree six for weights
+\((1,2,3)\) on \((t,u,v')\). Its exceptional curve
+on the corresponding weighted blowup is integral:
+in the weight-one chart the quadratic in \(v'/t^3\)
+has discriminant cubic in \(u/t^2\) with nonzero
+cubic coefficient, so is irreducible, and there
+is no component wholly in \(t=0\) on the weighted
+projective plane. At a general point of this
+exceptional curve the strict surface is smooth.
+The canonical residue has a simple pole there:
+the ambient volume gains \(t^5\) and the equation
+contributes \(t^6\). The resulting discrepancy
+\(-1\) is incompatible with a Du Val point,
+which is canonical. Thus the identically vanishing
+degree-six derivative cannot occur with only smooth
+or Du Val points along \(D\).
+
+Together the nonzero-component correction bound and
+this endpoint test exclude **every one-lift split
+sextic whose signed cubic has only smooth or Du
+Val points along \(D\)**, in every mate degree in
+characteristic zero. No assumption on singularities
+away from \(D\) is required. The remaining one-lift
+case must have a non-Du-Val point along the lift or
+be singular along it generically.
 
 ### Arithmetic control and comparison of traits
 

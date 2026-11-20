@@ -116,9 +116,10 @@ cluster is not in itself evidence against the workflow.
   and the \(A_n\) sector with nonzero degree-six derivative or
   reduced common zeros. The [Du Val comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#the-same-length-budget-controls-all-du-val-types)
   extends the nonzero degree-six derivative exclusion to every Du Val
-  type. When that derivative is identically zero, multiple common
-  zeros still require separate tests; non-Du-Val and generically
-  singular signed surfaces also remain. For larger nonsplit sources, seek capacity bounds
+  type. The [vanishing derivative case](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#the-identically-vanishing-degree-six-derivative-forces-a-non-du-val-hit)
+  also excludes all mate degrees if the signed cubic is smooth or
+  Du Val along the marked lift. Non-Du-Val hits or generic
+  singularity along that lift still require separate arguments. For larger nonsplit sources, seek capacity bounds
   without fourth-order divisibility. The weighted criterion assumes
   smooth solvability in the specified endpoint normal coordinate; a
   first symbol alone neither supplies that hypothesis nor computes
