@@ -192,3 +192,14 @@ boundary orders for nonzero regular functions. A separate local
 multiplicity comparison and positive residual-degree bound are required.
 These hypotheses are verified for Fstar only; establishing them on other
 carriers is an open route, not a universal sextic or global STCI exclusion.
+
+### What a moving residual still does not supply
+
+The [marked thick-quadric family](../../arguments/residuals/marked_deformation_and_absorption.md#the-twelvefold-residual-moves-on-the-thick-quadric)
+moves the twelvefold line and changes where its contact lies, while
+its degree cannot drop farther on that carrier. This is not the inverse
+support/descent problem on a normalization. The next useful absorption
+test needs a direction in both actual global equation spaces that
+preserves properness and raises the generic marked length; track the
+entire residual cycle, not just its moved line or attachment divisor.
+No such degree-decreasing step is known on this control.
