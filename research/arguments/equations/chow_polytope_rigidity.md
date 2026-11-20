@@ -59,6 +59,15 @@ There are three different objects to compare:
    then to their fundamental cycles. A flat Hilbert limit need not
    stay in this proper CI locus.
 
+For a reduced union \(Y=\bigcup_i C_{u_i,v_i}\), asking whether \(Y\)
+is an STCI means asking for \(\sqrt{(F,G)}=I_Y\); the resulting fundamental
+cycle may have any positive multiplicities \(\sum_i n_i[C_{u_i,v_i}]\).
+A **reduced fundamental cycle** requires every \(n_i=1\), so CI purity
+also makes the intersection scheme reduced. Classifying this latter case
+does not classify all STCI supports. Likewise, cycle invariance does not
+imply ideal invariance, and support on \(V(A)\) gives \(A\in\sqrt{(F,G)}\),
+not necessarily \(A\in(F,G)\) or permission to use \(A\) as a generator.
+
 The characteristic-zero binomial constructions below show that actual
 members can realize several translates. It is not asserted that every
 Chow multiset admits an actual CI lift. For each type, the question is
@@ -86,11 +95,13 @@ a scheme isomorphism, nor a flat CI lift. Boundary cycles can leave the
 fixed-polytope fiber.
 
 The [fixed toric carrier classification](../torus/fixed_carrier_chow_arrangements.md)
-gives an explicit actual-pair locus: on the quartic carrier, precisely the
-root polynomials with \(c_1=c_2=c_5=0\) descend. It covers repeated roots
-and every reduced CI arrangement supported on that carrier. Characteristic
-zero forbids one- and two-support arrangements there, while partial collisions
-occur. This separates the geometry of a fixed surface from the moving-carrier
+gives an explicit actual-pair locus retaining the quartic equation as one
+generator: precisely the root polynomials with \(c_1=c_2=c_5=0\) descend.
+It covers repeated roots
+and every CI with reduced fundamental cycle supported on that carrier.
+Characteristic zero forbids one- and two-support arrangements with that fixed
+generator, while partial collisions occur. This separates the fixed-equation
+problem from the moving-carrier
 and non-invariant Hilbert-lift questions below.
 
 For general arrangements, the [trace-moment theorem](../torus/chow_arrangement_moments.md)

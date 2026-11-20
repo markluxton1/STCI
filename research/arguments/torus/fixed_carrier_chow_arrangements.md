@@ -159,7 +159,7 @@ proper-CI family. Throughout the fixed-\(A\), \((4,4)\) translated-arrangement
 locus containing \(C_0\), at least three distinct supports force marked
 multiplicity at most two and residual degree at least eight, attained here.
 
-## When reduced cycle support supplies the quartic equation
+## When a reduced fundamental cycle supplies the quartic equation
 
 Suppose an arbitrary proper homogeneous pair has reduced fundamental
 cycle consisting of distinct \(C_{a_i}\), all on this fixed \(X\).
@@ -200,7 +200,7 @@ This does not describe the whole projective intersection. In Segre coordinates
 \([x_0:x_1:x_2:x_3]=[AU:AV:BU:BV]\), the quartic restricts to
 \(B^3U(BU^3-AV^3)\), giving cycle
 \([C_0]+3[V(x_2,x_3)]+[V(x_0,x_2)]\).
-They all have the same ruling class \((1,3)\), up to swapping the rulings:
+The translated quartics on \(Q\) all have ruling class \((1,3)\), up to swapping:
 the diagonal maps \(\operatorname{diag}(1,1,u,u)\) preserve each ruling.
 By the [canonical quadric argument](../equations/global_equations_and_constructions.md#p-004-why-the-quadric-cannot-be-one-of-two-equations),
 a degree-\(N\) mate cuts class \((N,N)\). It cannot have divisor cycle

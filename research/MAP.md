@@ -121,11 +121,13 @@ do not close the separate split-first-normal-cone frontier or improve the
 general degree bound. See the [current carrier scope](frameworks/carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)
 and [local/global interface](frameworks/global-equation-realization/projection_and_liaison.md#embedded-conductor-and-ambient-equations).
 
-Actual [Chow arrangements on a fixed toric carrier](arguments/torus/fixed_carrier_chow_arrangements.md)
-now have an exact coefficient description: the quartic carrier's semigroup
+Actual [pairs retaining the toric quartic as a defining equation](arguments/torus/fixed_carrier_chow_arrangements.md)
+have an exact coefficient description: the carrier's semigroup
 gaps force \(c_1=c_2=c_5=0\). In characteristic zero at least three distinct
 translates remain, while partial collisions occur; the root-of-unity examples
-form a special locus. The smooth quadric admits no such section, by its ruling
+form a special locus. This does not classify arbitrary CI thickenings whose
+support merely lies on that surface. The smooth quadric admits no such section,
+by its ruling
 classes. More generally, the [Chow trace moment](arguments/torus/chow_arrangement_moments.md)
 vanishes for pairs with an eigenform generator or specified polynomial
 congruences, including every invariant CI and reduced CI arrangement.

@@ -209,7 +209,8 @@ Partial collisions and cycle limits on the coordinate boundary remain possible.
 
 The moment also relates the two fixed-carrier examples. On the smooth
 quadric family \(u=v\), every summand \(u/v\) equals one, excluding
-characteristic-zero realizations. On the fixed quartic family
+characteristic-zero realizations in the theorem's covered equation classes.
+On the fixed quartic family
 \(C_a=[s^4:a s^3t:st^3:t^4]\), one has \(u/v=a\), so (1) is the first
 of the [fixed-carrier moments](fixed_carrier_chow_arrangements.md#parameter-space-and-characteristic-dependence).
 The second and fifth moments there come from additional descent gaps.
