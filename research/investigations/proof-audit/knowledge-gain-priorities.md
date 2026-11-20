@@ -65,15 +65,18 @@ cluster is not in itself evidence against the workflow.
   normal bundle forces more than \(pq/2\) generic contact beyond depth
   two in characteristic zero. The characteristic-three cubic–quartic
   pair exhausts its contact by depth two. [Residual and deep-contact theorem](../../results/connected_normal_directions.md#statement).
-- **Sweep bridge.** The [same quadratic conductor](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#82-endpoint-lattice-capacity-of-the-same-conductor)
-  has a global postulation lower bound and actual endpoint-lattice upper
-  bounds using the conormal moment. Use this as the first pursuit:
-  compute both lattices on a named actual source, including controls,
-  and compare their capacity with the lower bound on that same
-  conductor. Do not read generic normal type as determining the
-  endpoint lattices. A strict incompatible pair of bounds would
-  decide precisely that source class; failure of a divisibility or
-  nonsplitting test redirects to the actual matrices.
+- **Pursuit checkpoint.** The [same quadratic conductor](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#82-endpoint-lattice-capacity-of-the-same-conductor)
+  has a global postulation lower bound and both actual endpoint-lattice
+  capacities. The [weighted jet test](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#a-weighted-endpoint-test-on-the-actual-carrier)
+  excludes all mate degrees on specific integral carrier families in
+  degrees five and higher. The [linear source count](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#how-large-is-the-simultaneous-endpoint-source)
+  shows that the simultaneous fourth-order condition is not limited to
+  a pencil. These bounds do not cover arbitrary carriers.
+  Next determine which larger actual sources force endpoint capacity
+  without fourth-order divisibility, and separate the nonsplit and split
+  carrier cases. The weighted criterion assumes a carrier smoothly
+  solvable in the designated endpoint normal coordinate; a first-symbol
+  test alone neither supplies that hypothesis nor computes the lattice.
 - **Next test.** On this boundary the remaining issue is an upper
   bound from the actual equation sources, or a pair that sustains the
   required tail. At \((3p,4q)\) it suffices to decide the
