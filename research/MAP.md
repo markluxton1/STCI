@@ -147,9 +147,11 @@ For pairs tending to a common smooth quadric, the
 computes the full special scheme for all degrees \(a,b\ge3\) and
 identifies the resultant base ideal with the square of the center ideal,
 and its graph with the ordinary blowup, on the regular-restriction locus
-in every characteristic. Its residual cycle
-prevents constant sole support there; rank drops and closure of varying
-translate arrangements remain separate questions.
+in every characteristic. Its balanced quadric subcycle prevents constant
+sole support under the broader coprime-cofactor/nonzero-cancellation
+hypotheses, even at restriction rank drops. Source and graph geometry at
+rank drops, deeper cancellation and closure of varying translate arrangements
+remain separate questions.
 Separately, [simultaneous torus degeneration of the quadratic graph](arguments/linkage/toric_limit_conductor_comparison.md)
 compares original and pure-limit conductor lengths using the difference of
 the two embedded endpoint corrections. Their control by global equations is

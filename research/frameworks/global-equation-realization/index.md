@@ -94,9 +94,11 @@ cofactor restrictions give a residual source of dimension
 [ordinary-blowup theorem](../../arguments/equations/common_quadric_resultant_blowup.md)
 identifies the coefficient base ideal as the square of the center ideal,
 the whole local exceptional fibre, and higher-order arcs on that open.
-Its positive off-quadric residual rules out a constant
-sole-support cycle there. Rank drops, other common factors and closure of
-varying translate arrangements remain outside these conclusions.
+The balanced effective quadric subcycle rules out constant sole support
+and exact Chow-polytope membership throughout the broader special-ideal
+scope, including restriction rank drops. Source and graph classification
+at rank drops, deeper cancellation, common cofactors and closure of varying
+translate arrangements remain open.
 
 [H17](../../arguments/torus/boundary_reconstruction_and_defects.md) gives a linear obstruction and torsor for lifting labeled boundary equations through C, a separate torus-support defect, and bounded-degree embedded CI reconstruction. Compatibility of lifts is not sole-support realization; the finite-order counterexample does not apply to all marked filtrations or fixed-degree full formal data.
 

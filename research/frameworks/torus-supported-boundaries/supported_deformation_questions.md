@@ -33,11 +33,14 @@ fiber, so its compactification must retain the full projective limiting cycle.
 
 The [clean common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
 now supplies a full scheme and ordinary-blowup chart of that boundary in
-every degree. Its positive off-quadric residual excludes a constant
-sole-support cycle on the regular-restriction open. The same cycle is
+every degree. Its balanced effective quadric subcycle excludes a constant
+sole-support cycle whenever the cofactors are coprime and the first
+cancellation is nonzero on the quadric, including restriction rank drops.
+The same cycle is
 outside the exact Chow-polytope fibre, but this does not exclude its
 appearance in the closure of varying translated arrangements. Rank-drop
-strata retain the unresolved closure question.
+source and graph geometry remains open; a restriction rank drop alone
+does not evade the constant-cycle exclusion under those hypotheses.
 
 ## Actual arrangements on a fixed toric surface
 

@@ -93,8 +93,10 @@ now identifies the full special scheme for coprime cofactors and nonzero
 first cancellation, including some restriction rank drops. Near the regular
 cofactor locus it identifies the resultant base ideal as the square of the
 center ideal and its graph as the ordinary blowup, in every degree and characteristic.
-Its residual excludes constant sole support on this open; rank drops and
-closure of varying translated arrangements are not decided. Separately,
+Its balanced effective quadric subcycle excludes constant sole support even
+at restriction rank drops under those cofactor/cancellation hypotheses.
+Source and graph classification there, deeper cancellation, common cofactors
+and closure of varying translated arrangements remain open. Separately,
 the [actual-pair coregularity module](../../arguments/local-cohomology/actual_pair_coregularity.md)
 is \(H_I^1(S/(f,g))(\deg f)\) under the stated assumptions. The
 remaining comparison is from actual filtered equations to this module,

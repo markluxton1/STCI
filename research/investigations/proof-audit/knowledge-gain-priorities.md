@@ -125,9 +125,11 @@ neither supply a capacity bound for every cover nor remove its need.
 ### KG02. Actual Chow arrangements, collisions and full torus limits
 
 The [clean common-quadric theorem](../../arguments/equations/common_quadric_chow_boundary.md)
-settles one boundary chart in every degree: its full special scheme and
-ordinary-blowup graph on the regular-restriction locus have an unavoidable
-off-quadric residual. Higher-order arcs there need no separate search.
+settles one boundary chart in every degree: its full special scheme has
+a balanced effective quadric subcycle forbidding constant sole support
+under coprime cofactors and nonzero first cancellation, including restriction
+rank drops. Its ordinary-blowup graph on the regular-restriction locus
+also covers higher-order arcs there.
 The rank-drop boundary and closure of varying translate arrangements remain
 open; exclusion from the exact polytope fibre is not a closure theorem.
 The full special-ideal calculation already extends to coprime cofactors
@@ -425,7 +427,10 @@ surface equation can be recovered from ordinary restrictions alone.
 Understanding this geometry does not require a promised uniform STCI obstruction.
 
 The new common-quadric chart removes its clean higher-order boundary problem
-from this probe; only rank drops or other boundary strata offer new work there.
+from this probe. Restriction rank drops alone do not evade its constant-cycle
+exclusion with coprime cofactors and nonzero first cancellation; deeper
+cancellation or common cofactors are distinct remaining cases. Rank-drop
+source and graph geometry still has independent moduli value.
 A neglected comparison is the [actual-pair coregularity module](../../arguments/local-cohomology/actual_pair_coregularity.md)
 on the explicit quadric/cuspidal-cubic pair with residual double line. It
 could clarify how residual geometry detects the second-equation failure,

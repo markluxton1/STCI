@@ -94,18 +94,29 @@ The cycle is
  [V(A,B)]+[C]+[D_k],\qquad
  \deg V(A,B)=(a-2)(b-2),\quad D_k\sim(a+b-3,a+b-5).
 \]
-Its degree is \((a-2)(b-2)+4+2(a+b-4)=ab\). The positive
-off-quadric term excludes this clean boundary from a family whose
-generic cycle is the constant \(m[C]\). This is an all-degree
-restriction on one degeneration stratum, not an STCI exclusion.
+Its degree is \((a-2)(b-2)+4+2(a+b-4)=ab\). On this clean locus
+\(V(A,B)\) has no component on \(Q\), and contributes positive
+off-quadric degree. The next exclusion does not require that stronger fact.
+
+## Cycle exclusions even at cofactor-restriction rank drops
+
+Under just the full special-ideal hypotheses, \([V(Q,K)]\) is an
+effective subcycle of the special cycle, of positive balanced class
+\((a+b-2,a+b-2)\) on \(Q\). It cannot be supported only on
+\(C\): a multiple of \(C\) has class \((r,3r)\). Therefore no
+such arc has constant generic cycle \(m[C]\). Overlapping components
+of \(V(A,B)\) only add multiplicities and cannot remove this subcycle.
+This is an all-degree restriction on the stated cancellation locus, not
+an STCI exclusion.
 
 For the fixed monomial quartic, the cycle is also outside the **exact**
-[Chow-polytope fibre](chow_polytope_rigidity.md): its whole component on
-\(Q\) has balanced class \((a+b-2,a+b-2)\), whereas each diagonal
+[Chow-polytope fibre](chow_polytope_rigidity.md): its effective subcycle
+\([V(Q,K)]\) has balanced class \((a+b-2,a+b-2)\), whereas each diagonal
 translate lying on \(Q\) has class \((1,3)\). A diagonal automorphism
 preserves \(Q\) and its rulings whenever it takes that curve into
 \(Q\), by uniqueness of the containing quadric. The class mismatch
-excludes a sum of such translates. This does not exclude the closure of
+excludes a sum of such translates, even when the two cycle terms overlap.
+This does not exclude the closure of
 varying translate arrangements, whose components can reach coordinate
 boundaries and leave that exact fibre.
 
@@ -123,13 +134,15 @@ specialized image is \(k=h(\beta'f-\alpha'g)\). Limits of sections
 from the regular locus need not lie in that image when rank drops.
 The full special-ideal theorem still applies whenever \(A,B\) remain
 coprime and \(Q\nmid K\), but gives no automatic off-quadric term
-there. Source and graph classification at rank drops, other common-factor
-strata and the global resultant graph remain open. On the clean locus, the
+there. Its two cycle exclusions nevertheless still apply. Source and
+graph classification at rank drops, deeper cancellation \(Q\mid K\),
+common cofactors and the global resultant graph remain open. On the clean locus, the
 [ordinary-blowup theorem](common_quadric_resultant_blowup.md) determines
 the whole exceptional fibre and covers higher-order arcs.
 
 Independent correctness, geometric and generality reviews reconstructed
-the all-degree scheme argument and Koszul isomorphism on November 20,
+the all-degree scheme argument, weaker cofactor hypotheses, extended cycle
+exclusions and Koszul isomorphism on November 20,
 2026. The first-order excess-intersection literature provides context;
 the [source comparison](../../literature/README.md#common-factor-degenerations-and-excess-intersection)
 keeps its hypotheses distinct from this direct algebraic proof.
