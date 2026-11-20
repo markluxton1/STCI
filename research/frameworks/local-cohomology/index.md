@@ -80,12 +80,17 @@ identify sole support with ordered simultaneous coregularity:
 \]
 Once \(fM=M\), put \(K_f=0:_M f\). The second condition is exactly
 \(\mathcal D(f,g):=K_f/gK_f=0\). This quotient need not be
-finite-dimensional. It is the established pairwise algebraic criterion,
-not a new geometric obstruction or an identified conormal defect.
+finite-dimensional. Under \(H_I^1(S)=H_I^3(S)=0\), the
+[actual-pair calculation](../../arguments/local-cohomology/actual_pair_coregularity.md)
+identifies it with \(H_I^1(S/(f,g))(\deg f)\): functions on the
+residual complement that fail to extend. Finite modules supported on
+the cone over \(C\) have zero higher \(I\)-local cohomology. Applying
+that functor to a conductor already supported there cannot alone give a
+nonzero detector.
 
 The open comparison is whether the **full actual filtered equation
-module**, its lift obstructions or its relation module admits a map or a
-necessary implication detecting \(\mathcal D(f,g)\ne0\). Such a
+module**, its lift obstructions or its relation module maps to this
+actual-CI local cohomology or detects its nonvanishing. Such a
 comparison must retain actual lifts and pairwise multiplication, and
 must distinguish direct-limit local cohomology from inverse-limit formal
 completion. A missing normal symbol alone supplies no such theorem.

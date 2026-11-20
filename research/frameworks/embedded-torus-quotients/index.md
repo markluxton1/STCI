@@ -156,10 +156,16 @@ equivalent. Their kernels \(\mathcal K_d\) are vector bundles, and
  \mathbf P_B(\mathcal K_a)\times_B\mathbf P_B(\mathcal K_b)
 \]
 parametrizes pairs together with a chosen entire translate they contain,
-where the projective bundles are nonempty. A splitting of the torus
-character sequence gives the universal family.
+where the projective bundles are nonempty. Choose a splitting
+\(B\to T\) and its diagonal linear lift. Transporting forms
+trivializes each kernel as
+\(\mathcal K_d\simeq H^0(\mathcal I_C(d))\otimes\mathcal O_B\).
+Thus this incidence is noncanonically
+\(B\times\mathbf P H^0(\mathcal I_C(a))\times
+\mathbf P H^0(\mathcal I_C(b))\), empty if an equation space is zero.
+A scalar change of the lift acts trivially on the projectivization.
 
-This standard incidence construction packages the
+This standard, trivial incidence construction packages the
 [actual coefficient restriction kernels](../../arguments/torus/fixed_surface_restriction_lifts.md#translate-coordinates-constrain-actual-coefficients).
 It does not impose properness, exclude coordinate-boundary components,
 or compute transverse multiplicities. The smaller locus of proper pairs

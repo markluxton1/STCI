@@ -124,6 +124,13 @@ neither supply a capacity bound for every cover nor remove its need.
 
 ### KG02. Actual Chow arrangements, collisions and full torus limits
 
+The [clean common-quadric theorem](../../arguments/equations/common_quadric_chow_boundary.md)
+settles one boundary chart in every degree: its full special scheme and
+ordinary-blowup graph on the regular-restriction locus have an unavoidable
+off-quadric residual. Higher-order arcs there need no separate search.
+The rank-drop boundary and closure of varying translate arrangements remain
+open; exclusion from the exact polytope fibre is not a closure theorem.
+
 - **General cycle constraint.** The [trace-moment theorem](../../arguments/torus/chow_arrangement_moments.md)
   forces \(\sum_i n_i u_i/v_i=0\) for pairs with an eigenform generator
   or the specified actual congruences, including invariant CI ideals and
@@ -167,6 +174,8 @@ neither supply a capacity bound for every cover nor remove its need.
   This has independent moduli value even if it gives no STCI obstruction.
 - **Next investigation.** Connect a named repeated-cycle stratum to actual
   equations through the [translate-coordinate evaluation maps](../../arguments/torus/fixed_surface_restriction_lifts.md).
+  Single-translate containment alone is a trivial projective-bundle incidence
+  after torus transport; it is not the unresolved realization question.
   Determine the coefficient kernels, joint transverse lengths, and permissible
   normal lifts; on the fixed quartic, retain the simultaneous descent of
   restricted syzygies and their actual normal extensions. For a sole-support
@@ -410,6 +419,15 @@ no smoothing into the reduced arrangement locus is presumed. Fixed-surface
 relations provide a concrete interface to probe, not a claim that the
 surface equation can be recovered from ordinary restrictions alone.
 Understanding this geometry does not require a promised uniform STCI obstruction.
+
+The new common-quadric chart removes its clean higher-order boundary problem
+from this probe; only rank drops or other boundary strata offer new work there.
+A neglected comparison is the [actual-pair coregularity module](../../arguments/local-cohomology/actual_pair_coregularity.md)
+on the explicit quadric/cuspidal-cubic pair with residual double line. It
+could clarify how residual geometry detects the second-equation failure,
+but no map to filtered lifting defects is yet supplied. That bounded task
+is a concrete alternative if the repeated-cycle probe reproduces only
+containment. No result here proves KG02 superior to it or to KG05.
 
 KG05 is the strongest concrete alternative: its whole-family support locus is
 well defined and unresolved, with a dimension bound and an exact finite-algebra

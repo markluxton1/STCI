@@ -243,7 +243,10 @@ the stronger monomial-ideal intersections, the Chow restriction, the
 coefficient-factor claims, and the explicit one-pencil survivor and reversed
 failure.  Passing one pencil is only necessary; this is a family exclusion, while the independent [multiple-structure proof](../residuals/quasiprimitive_multiplicity_five.md) closes the degree pair in characteristic zero. It does not prove unrestricted STCI nonexistence.
 
-For quartic pencils tending to a common quadric factor, the
-[first-order Chow boundary](common_quadric_chow_boundary.md) has a separate
-cycle and Koszul calculation. It does not identify the full exceptional
-fibre of the resultant graph.
+For degree-\((a,b)\) pairs through a smooth \((1,3)\) curve, the
+[clean common-quadric boundary](common_quadric_chow_boundary.md) determines
+the full saturated special ideal and its residual source whenever the
+cofactor restrictions are a regular sequence. The
+[local resultant graph](common_quadric_resultant_blowup.md) is the ordinary
+blowup of that center on this open, including higher-order arcs.
+Rank-drop strata and a global graph classification remain open.

@@ -57,6 +57,7 @@ sequences,” arXiv:1907.05472.
   connected curve in projective three-space is an STCI still open.
 - Exact criterion (Theorem 3.1): for an **A-regular sequence** f_1,...,f_r in I, equality of radicals is equivalent to coregularity on H_I^r(A) and H_I^i(A)=0 for i>r. The standard graded convention requires homogeneous elements. For a connected space curve the relevant test concerns a homogeneous pair on H_I^2(S), not ordinary higher vanishing alone.
 - Proposition 5.2 and Example 5.3(c) explicitly treat the fixed quartic: the smooth quadric and cuspidal cubic are individually coregular, but their pair retains a double line. Corollary 4.6 supplies graded quasi-cyclicity as a necessary condition. The [global equation account](../arguments/equations/global_equations_and_constructions.md#homogeneous-local-cohomology-and-the-second-equation) records the exact use.
+- The proof of Theorem 3.1 uses the successive local-cohomology exact sequences. The [actual-pair interpretation](../arguments/local-cohomology/actual_pair_coregularity.md) retains their grading to identify the second cokernel with \(H_I^1(S/(f,g))(\deg f)\), under its explicit first-coregularity and vanishing hypotheses; this is not a new STCI criterion.
 
 ### Hassanzadeh, 2024--2025
 
@@ -192,6 +193,21 @@ Exterior Syzygies,” arXiv:math/0111040 (2001).
 - Scope qualification: this is a classical cycle-level reformulation and
   computational certificate. It neither constructs a defining pair nor proves
   that one exists for any unresolved curve.
+
+### Common-factor degenerations and excess intersection
+
+Robert Lazarsfeld, *Excess intersection of divisors*, Compositio
+Mathematica 43 (1981), 281--296,
+[Lemma 1.1, p. 287](https://www.math.stonybrook.edu/robert.lazarsfeld/Reprints/Lazarsfeld.Excess.Intersection.Divisors.pdf),
+describes first-order limiting cycles for a dense open of tangent
+directions; exceptional directions can depend on higher terms. Its setup
+uses a smooth projective \(n\)-fold, \(n\) divisors and basepoint-free
+systems. It provides excess-intersection context, not a verbatim theorem
+for constrained positive-dimensional intersections through this curve.
+The [common-quadric proof](../arguments/equations/common_quadric_chow_boundary.md)
+instead uses an explicit colon sequence and Koszul calculation, and the
+[local blowup proof](../arguments/equations/common_quadric_resultant_blowup.md)
+controls all normal directions on its regular-restriction open.
 
 ## Conductor descent and codimension-two Gorenstein criteria
 

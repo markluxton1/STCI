@@ -31,6 +31,14 @@ components and deformations, and the boundary of the moment-constrained
 realization locus. A parameter escaping the torus can leave the fixed-polytope
 fiber, so its compactification must retain the full projective limiting cycle.
 
+The [clean common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
+now supplies a full scheme and ordinary-blowup chart of that boundary in
+every degree. Its positive off-quadric residual excludes a constant
+sole-support cycle on the regular-restriction open. The same cycle is
+outside the exact Chow-polytope fibre, but this does not exclude its
+appearance in the closure of varying translated arrangements. Rank-drop
+strata retain the unresolved closure question.
+
 ## Actual arrangements on a fixed toric surface
 
 The [fixed-carrier arrangement theorem](../../arguments/torus/fixed_carrier_chow_arrangements.md)
