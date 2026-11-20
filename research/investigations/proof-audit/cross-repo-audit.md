@@ -87,50 +87,54 @@ exist. See the [open-item list](open-items.md) for re-entry decisions.
 
 ## What the two implications passes established
 
-The [weighted-source pass](../../arguments/torus/chow_matched_equation_layers.md#opposite-limits-do-not-recover-actual-contact)
-lands on a barrier: two proper pencils have identical full opposite
-initial ideals and vanishing raw layers but different actual contact.
-A joint filtration of actual equations is therefore needed for any
-comparison of this kind; the example does not decide the sole-support
-case. The shear criterion specifies which changes of generators preserve
-lower contact thresholds.
+The passes start from actual equations or their canonical owners, test
+a proposed implication, and retain the obstruction or reduced search
+space. The workflow was useful in these cases without a case or
+parameter sweep. The results do not measure repository-wide yield;
+a null result would not by itself invalidate the method.
 
-The [elliptic inverse pass](../../arguments/carriers/elliptic_double_inverse_construction.md#an-intersection-bound-and-the-missing-descent-step)
-lands on a positive constraint: the inverse ideal factors through the
-length-twelve scheme, the intersection with its marked divisor has
-length at most eight, and the resulting nilpotence index bounds the
-degree of any descending mate. This can reject reduced fibers and
-some candidate degrees without a coordinate-subalgebra calculation;
-it does not settle support or descent throughout the family.
+### Positive restrictions and transport
 
-For the workflow, both passes improved the next decision by testing
-a tempting inference against an actual equation source before asking
-for broader generality. Their mathematical payoffs differ: the first
-rules out a reconstruction shortcut on its test class; the second
-gives a degree filter within a specified family. Both passes traced canonical owners and checked exact implications,
-without a sweep of cases or parameters. A null result by itself would
-not invalidate the workflow. Neither pass measures repo-wide yield or replaces the strategic ranking in
-[knowledge-gain priorities](knowledge-gain-priorities.md).
-
-### Further checked bridges and their limits
-
+- [Elliptic inverse and descent](../../arguments/carriers/elliptic_double_inverse_construction.md#an-intersection-bound-and-the-missing-descent-step):
+  the conormal pencil bounds the marked intersection by six, improving
+  to four for birational octics. The generic split branches there are
+  transverse, excluding conductor coefficient five, and no mate of
+  degree at most five exists. Full inverse support and higher-degree
+  descent at the remaining divisorial conductor images are open.
+  See the [normalization gates](../../frameworks/carrier-normalization/open_carrier_cases.md).
 - [Normal symbols and the cubic contraction](../../results/connected_normal_directions.md#what-the-cubic-contraction-misses-in-the-attachment-count):
-  the joint bound accounts for the residual degree visible on \(V_5\).
-  A sextic pair has wholly contracted residual but a symbol count of
-  only one, separating contraction from exhaustive attachments.
-- [Binary determinant and canonical line layers](../../arguments/torus/chow_matched_equation_layers.md#a-binary-determinant-index-and-what-it-does-not-recover):
-  a fixed-degree index compares two intrinsic restriction lattices.
-  Three controls hold the index at both ends, the extreme weights and
-  the cycle fixed, but change the canonical line layers.
-- [Branch orders and marked absorption](../../arguments/residuals/marked_deformation_and_absorption.md#a-fixed-carrier-pencil-has-finitely-many-branch-order-jumps):
-  generic branch valuations bound the number of jump parameters in an
-  actual fixed-carrier pencil. Separately, the twelvefold residual in
-  R-0049 can move on its fixed carrier despite a sharp degree floor.
+  the joint bound charges the residual degree visible on \(V_5\).
+  A wholly contracted sextic residual has symbol count only one, so
+  contraction is not exhaustive attachment. See the
+  [actual-contact gate](knowledge-gain-priorities.md#kg01-projective-limits-on-deep-generic-normal-contact).
 - [Local cohomology and the contact flag](../../arguments/local-cohomology/polynomial_duals_and_affine_pencils.md#a-target-preserving-quadric-shift-of-actual-contact-sources):
-  dividing the ancestor by the quadric preserves target values along a
-  stable source ray. In the quartic comparison only the first shift
-  has a five-dimensional potential excess source, with no claim that
-  this excess vanishes or preserves properness.
+  quadric division transports target values and stabilizes the image
+  along a specified ray. The first quartic shift has at most five new
+  source directions; determining their actual products remains open.
+
+### Nonreconstruction examples
+
+- [Opposite limits and actual contact](../../arguments/torus/chow_matched_equation_layers.md#opposite-limits-do-not-recover-actual-contact):
+  two proper pencils have the same full opposite initials and no raw
+  parameter torsion, but different actual contact. Neither is
+  Chow-matched or sole-supported. A comparison should retain the joint
+  actual-source filtration; the marked-shear criterion describes which
+  changes of equations preserve its lower contact thresholds.
+- [Binary determinant and canonical layers](../../arguments/torus/chow_matched_equation_layers.md#a-binary-determinant-index-and-what-it-does-not-recover):
+  a canonical determinant measures a finite restriction index. Three
+  controls fix both indices, the extreme weights and the cycle but
+  vary the canonical line layers. The
+  [weighted-source gate](knowledge-gain-priorities.md#kg02-actual-equation-layers-and-the-two-torus-ends)
+  remains a module-level comparison, not a search for another scalar.
+
+### Family-specific controls
+
+- [Branch jumps and marked absorption](../../arguments/residuals/marked_deformation_and_absorption.md#a-fixed-carrier-pencil-has-finitely-many-branch-order-jumps):
+  each inverse branch contributes at most one jump parameter in a
+  fixed-carrier pencil, and the mixed sextic realizes both jumps.
+  Separately, the twelvefold residual moves on the thick quadric
+  without passing its fixed-carrier degree floor. Neither constructs
+  a sole-support pair.
 
 ## How to use the audit
 
