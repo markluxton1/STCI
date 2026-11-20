@@ -426,6 +426,71 @@ characteristic coefficients are not identified here; only their geometric
 zero loci are asserted to coincide. Neither the norm condition nor this
 support test supplies descent of a pure power to an actual ambient equation.
 
+#### An intersection bound and the missing descent step
+
+Write \(e=Q_0\) locally in a bundle trivialization. The pullback ideal
+of \(C_0\) is exactly
+\[
+ \mathcal I_{C_0}\mathcal O_S=\mathcal I_E\mathcal I_Z .
+\]
+Indeed, near the inverse of \(C_0\) its ideal in the target is generated
+by the quadric and a local lift of its graph equation on that quadric.
+After pullback the first is \(ed\); the second is divisible by \(e\)
+and its quotient modulo \(d\) is the section \(s'\) defining \(Z\).
+Thus the two pullbacks generate \(e(d,\widetilde s')\). This holds on
+all relevant local charts, and off the inverse both sides are unit ideals.
+
+The inclusion \(Z\subset D\) gives a scheme-theoretic bound
+\[
+ \operatorname{length}(Z\cap E)\le
+ \operatorname{length}(D\cap E)=H^2=8 ,
+\]
+because \(E\) is not a component of \(D\). Consequently multiplication
+by \(e\) from \(H^0(\mathcal O_Z)\) to \(H^0(H|_Z)\) has rank at least
+four: its cokernel has length \(\operatorname{length}(Z\cap E)\).
+A full-support fiber therefore has nontrivial nilpotent thickening on
+\(Z\) and cannot have \(Z\) reduced. The norm can vanish without
+full support, and even in the full-support locus multiplication by \(e\)
+cannot be zero.
+
+In a full-support fiber let \(n\) be the least positive integer such
+that \(Q_0^n|_Z=0\). If an actual degree-\(b\) mate exists, its pullback
+is a nonzero scalar multiple of \(Q_0^b\) by (8). It belongs to the
+pullback ideal above; cancellation of the nonzerodivisor \(e\) then
+gives \(Q_0^{b-1}|_Z=0\), hence \(b\ge n+1\) (in particular \(b\ge3\)).
+Conversely that inequality on a full-support fiber puts \(Q_0^b\) in
+the upstairs ideal; it does not put it in the coordinate subalgebra
+in (8). Thus the residual inverse scheme supplies a necessary degree
+bound, not an automatic descending equation.
+
+#### Where conductor descent can still fail
+
+Now assume the image is an octic, so the finite birational map
+\(f:S\to X\) is the normalization. Write the conductor on \(S\) as
+\(\mathcal O_S(-B_{\rm cond})\). By
+[finite duality for the conductor](conductor_jacobian_local_residue_proof.md#2-direct-residue-and-finite-duality-proof),
+\(\mathcal O_S(-B_{\rm cond})=\omega_S\otimes f^*\omega_X^{-1}\).
+Adjunction gives \(\omega_S=H^{-1}\) and
+\(\omega_X=\mathcal O_X(4)\), hence \(B_{\rm cond}\sim5H\).
+The coefficient \(c\) of \(E\) is positive because \(E\to C_0\) has
+degree two and the normalization is not an isomorphism at the generic
+point of \(C_0\). Since \(E\sim H\) and \(H\) is ample, \(c\le5\).
+The residual ruling degree bound above rules out any other curve over
+\(C_0\). Thus \(Q_0^b\) lies in the conductor over the generic point of
+\(C_0\) once \(b\ge c\).
+
+If \(c=5\), ampleness forces \(B_{\rm cond}=5E\).
+Then \(Q_0^5\) is in the conductor everywhere and descends to
+\(H^0(X,\mathcal O_X(5))\). This section is cut by an actual quintic
+since \(H^1(\mathbf P^3,\mathcal O(-3))=0\) in the octic restriction
+sequence. It gives a proper sole-support pair by (8). In particular
+a support-negative fiber must have \(c\le4\); no fiber with \(c=5\)
+is asserted. More generally, for \(b\ge5\) the remaining descent tests
+are only at other divisorial conductor images: off the conductor there
+is nothing to test, and an invertible sheaf on the integral \(S_2\)
+hypersurface \(X\) extends a section once it is regular in codimension
+one. Descent is still distinct from the upstairs nilpotence bound.
+
 #### Matrix formulation
 
 There is a single matrix test throughout the basepoint-free locus. In

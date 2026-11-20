@@ -354,6 +354,79 @@ The Chow cycle and Hilbert polynomial are both preserved, with substantial
 endpoint embedded structure making up the difference. Replacing F by F-G
 changes the raw leading picture, not these full limits.
 
+## Opposite limits do not recover actual contact
+
+Over an algebraically closed field of characteristic zero put
+\(q=x_0x_3-x_1x_2\), \(A=x_0(x_1^3-x_0^2x_2)\), and
+\(B=x_3(x_2^3-x_1x_3^2)\). Their weights are respectively \(4,3,13\).
+The quartic pencils
+\[
+ W=\langle q^2+B,q^2+A\rangle,\qquad
+ W'=\langle q^2,A+B\rangle
+\]
+have the same low and high associated-graded generator spaces
+\(\langle q^2,A\rangle\) and \(\langle q^2,B\rangle\). In each direction
+the two adapted extreme equations are coprime: the irreducible \(q\)
+divides neither \(A\) nor \(B\). For both pencils the normalized equations
+therefore cut a parameter-flat complete intersection at each end: the
+parameter followed by the two equations is a regular sequence, so the
+parameter remains regular after quotienting by them. In particular the
+pencils are proper, the full initial ideals are \((q^2,A)\) and
+\((q^2,B)\), and all raw parameter torsion layers vanish at both ends.
+
+Nevertheless their generic intersection multiplicities along \(C\)
+are different. On \(x_0=1\) write \(t=x_1\), \(X=x_2-t^3\) and
+\(Y=x_3-t^4\). The first symbols of \(A,B,q\) are
+\(-X,3t^{10}X-2t^9Y,Y-tX\). For \(W\) the two symbols are independent
+over \(k(t)\), so the generic local intersection has length one and
+no nonzero pencil member has order at least two. For \(W'\) the first
+symbol of \(A+B\) modulo that of \(q\) is \((t^{10}-1)X\); thus
+\(q,A+B\) are regular parameters generically and \((q^2,A+B)\) has
+length two there. Its pencil does contain a second-order equation.
+These residual controls are neither Chow-matched nor sole-supported,
+and they do not lie on the equality boundary of
+[R-0077](../../results/connected_normal_directions.md).
+
+### Filter actual equations before specializing
+
+Let \(K_d^r=H^0(\mathcal I_C^r(d))\) and give it the induced weight
+filtration. For an actual equation source \(J_d\),
+\[
+ \operatorname{gr}_{\pm}(J_d\cap K_d^r)
+ \subseteq \operatorname{gr}_{\pm}(J_d)\cap K_d^r .
+\]
+Here the torus preserves \(C\) and hence \(K_d^r\). The inclusion can
+be strict: take \(J_4=W\) and \(r=2\) above. So even a contact equation
+visible in both extreme pencils need not lift to a contact equation
+in the actual pencil. The relevant source for a proposed comparison is
+the filtered *intersection*, not the separate associated-graded tests.
+
+The same issue constrains generator changes on the first blowup
+\(\pi\) of \(C\) with exceptional divisor \(E\). Fix a smooth marked
+section \(T\subset E\). Say a degree-\(d\) equation meets thresholds
+\((q,s)\) if it has order at least \(q\) on \(C\) and its pullback
+divided by a local equation of \(qE\) has order at least \(s\)
+along \(T\). This defines a linear subspace of actual equations, and
+torus transport carries it to the corresponding subspace for the
+translated section. If \(F\) has exact orders \((p,r)\) in this sense
+and \(G\) already meets \((q,s)\), then \(G+FH\) meets \((q,s)\)
+if and only if
+\[
+ p+\operatorname{ord}_C H\ge q,\qquad
+ r+\operatorname{ord}_T(\pi^*H)+p-q\ge s .
+\]
+Indeed both conditions are linear in the equation, and when the first
+holds the divided product is the product of the \(pE\)-divided
+pullback of \(F\) and \(\pi^*H\), times the \((p-q)\)th power of a
+local equation of \(E\), interpreted by cancellation if \(p<q\).
+Orders add because the associated graded rings at the generic points
+of the smooth centers are domains and \(E\) has order one along
+\(T\). These are lower thresholds: cancellation may increase exact
+orders. Thus endpoint adaptation and contact cannot be optimized
+independently by allowing all homogeneous multipliers. This gives
+a comparison criterion, not a contact bound for the sole-support
+case or an assertion about arbitrary degenerations of marked sections.
+
 ## Remaining equation-source comparison
 
 For a specified degree pair, retain the weight-filtered spaces J_a and J_b,

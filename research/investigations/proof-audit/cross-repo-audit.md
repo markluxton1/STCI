@@ -85,6 +85,33 @@ exist. See the [open-item list](open-items.md) for re-entry decisions.
 | **Inverse support and descent ↔ a constructive endpoint** (KG03/KG05/KG06) | Carrier geometry, the elliptic inverse scheme, and the absorption model each distinguish a supported object from an actual descended equation or pair. [Elliptic support](../../results/elliptic_inverse_support.md) · [Conductor cases](../../frameworks/carrier-normalization/open_carrier_cases.md) · [Marked absorption](../../arguments/residuals/marked_deformation_and_absorption.md). | Compare the conductor or graded source conditions on a single surviving model. To use an absorption direction, lift it to both ambient equations and check properness and the entire residual cycle. A supported inverse set or a smaller residual is not a constructed STCI pair. |
 | **Arithmetic ↔ a characteristic-zero obstruction** (KG10) | Known nonlifting and endpoint tests attach to a specified model or family. [Arithmetic framework](../../frameworks/arithmetic-supported-lifts/index.md). | Identify data intrinsic under change of the two ambient equations, then prove a coverage statement for reductions of hypothetical pairs. Do not identify endpoint torsion with conductor classes or spectral Picard torsion without a comparison. |
 
+## What the two implications passes established
+
+The [weighted-source pass](../../arguments/torus/chow_matched_equation_layers.md#opposite-limits-do-not-recover-actual-contact)
+lands on a barrier: two proper pencils have identical full opposite
+initial ideals and vanishing raw layers but different actual contact.
+A joint filtration of actual equations is therefore needed for any
+comparison of this kind; the example does not decide the sole-support
+case. The shear criterion specifies which changes of generators preserve
+lower contact thresholds.
+
+The [elliptic inverse pass](../../arguments/carriers/elliptic_double_inverse_construction.md#an-intersection-bound-and-the-missing-descent-step)
+lands on a positive constraint: the inverse ideal factors through the
+length-twelve scheme, the intersection with its marked divisor has
+length at most eight, and the resulting nilpotence index bounds the
+degree of any descending mate. This can reject reduced fibers and
+some candidate degrees without a coordinate-subalgebra calculation;
+it does not settle support or descent throughout the family.
+
+For the workflow, both passes improved the next decision by testing
+a tempting inference against an actual equation source before asking
+for broader generality. Their mathematical payoffs differ: the first
+rules out a reconstruction shortcut on its test class; the second
+gives a degree filter within a specified family. Both passes traced canonical owners and checked exact implications,
+without a sweep of cases or parameters. A null result by itself would
+not invalidate the workflow. Neither pass measures repo-wide yield or replaces the strategic ranking in
+[knowledge-gain priorities](knowledge-gain-priorities.md).
+
 ## How to use the audit
 
 1. Use the shared obstruction or realization gate as the unit of comparison,
