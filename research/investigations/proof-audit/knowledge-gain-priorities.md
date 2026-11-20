@@ -130,12 +130,10 @@ a balanced effective quadric subcycle forbidding constant sole support
 under coprime cofactors and nonzero first cancellation, including restriction
 rank drops. Its ordinary-blowup graph on the regular-restriction locus
 also covers higher-order arcs there.
-The rank-drop boundary and closure of varying translate arrangements remain
-open; exclusion from the exact polytope fibre is not a closure theorem.
-The full special-ideal calculation already extends to coprime cofactors
-with nonzero first cancellation at some rank drops; source and graph
-classification there remain open. On the clean locus the resultant base
-ideal is exactly the square of the common-quadric center ideal.
+Source and graph classification at rank drops, and closure of varying
+translate arrangements, remain open; exact-fibre exclusion is not a closure
+theorem. On the clean locus the resultant base ideal is the square of the
+center ideal.
 
 - **General cycle constraint.** The [trace-moment theorem](../../arguments/torus/chow_arrangement_moments.md)
   forces \(\sum_i n_i u_i/v_i=0\) for pairs with an eigenform generator
