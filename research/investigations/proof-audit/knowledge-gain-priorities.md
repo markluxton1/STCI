@@ -78,9 +78,14 @@ cluster is not in itself evidence against the workflow.
   curve, the actual two-branch overlap is a complete intersection and
   computes the entire conductor. In particular no integral split
   carrier smooth at both endpoints has a mate in any degree.
-  The two-lift split case or the endpoint-concentrated norm coefficient
-  still needs actual contact and capacity tests, not just norm
-  factorization. For larger nonsplit sources, seek capacity bounds
+  The [two-lift split comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#two-lift-split-carriers-actual-primary-pieces-control-postulation)
+  identifies the exact low-norm equation source on the thinner actual
+  primary piece. In the nearly balanced sector it recovers the same
+  low-degree postulation as the nonsplit case; it does not bound
+  endpoint capacity. As a first finite test, study the quadrics through
+  the short actual primary piece of a split sextic, not just its
+  reduction. Endpoint-concentrated nonzero norm coefficients likewise
+  still require actual contact and capacity tests. For larger nonsplit sources, seek capacity bounds
   without fourth-order divisibility. The weighted criterion assumes
   smooth solvability in the specified endpoint normal coordinate; a
   first symbol alone neither supplies that hypothesis nor computes
