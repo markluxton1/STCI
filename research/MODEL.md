@@ -5,8 +5,9 @@
 | [Results](results/INDEX.md) | Reusable statements, constructions, exclusions, counterexamples and reductions, with exact scope and proof routes |
 | [Arguments](arguments/) | Complete proofs and coherent developments; Results can point to a section and retain distinct proof routes |
 | [Literature](literature/README.md) | External statements, source references, checked hypotheses and applicability, and outstanding source checks |
-| [Frameworks](MAP.md) | Evolving mathematical accounts of approaches: ideas, applicable results and literature, links to other approaches, missing implications, and active work |
-| [Investigations](MAP.md#questions-and-active-work) | Active or planned bounded activities: the question, actual inputs, method, findings, and a clear stopping point |
+| [Frameworks](MAP.md) | Current mathematical accounts of approaches: ideas, applicable results and literature, coverage, connections, and missing implications |
+| [Investigations](MAP.md#questions-and-active-work) | Bounded activities: the current question, actual inputs, method, supported findings, and remaining work or completion |
+| [Strategic queue](investigations/proof-audit/knowledge-gain-priorities.md) | Which unresolved question to pursue next, why it matters, and what either outcome would change; link the mathematical account |
 
 [Computations](computations/README.md) and figures support this mathematics.
 Keep small evidence with its proof when practical; share reusable code by
@@ -72,25 +73,29 @@ limitation requires additional infrastructure.
    statements, hypotheses, proof routes, coverage, and consequential
    interpretations. An agent report is not a verified proof. Independent
    review is required for consequential new or modified mathematical claims;
-   review depth follows mathematical significance.
+   review depth follows mathematical significance. Review every new result for
+   generality, implications, connections and gaps, and [iterate the synthesis](#extract-implications-and-track-approach-gaps)
+   with the full body of results until another pass adds no material understanding.
 4. **Integrate.** Put reviewed statements, proofs, negative findings,
    counterexamples, necessary evidence, and unresolved implications in
    their durable Results, Arguments, Frameworks, literature or computational
    owners. Reuse stable identifiers and proof addresses; link the authoritative
    argument instead of duplicating it. Do not retain the investigation report
    as a second permanent mathematical account.
-5. **Propagate.** Check direct consumers, references and dependencies,
-   including the originating Framework. Also scan the global map and other
-   Framework indexes for plausible *conceptual* connections not already
-   declared. Read detailed documents only for concrete connections; mark
-   consequences as established, conditional or speculative. Update affected
-   interpretations and the map where justified, without a blanket audit of
-   every Framework for minor changes.
-6. **Finish.** Review the integrated diff and consequential cross-Framework
-   claims, run relevant structural and mathematical checks, then merge the
-   durable work. Retire temporary branch-local notes with no independent
-   mathematical value. Git history can preserve the research process.
-   An Investigation may end with its main question unresolved.
+5. **Propagate.** Reconcile the resulting understanding across proof owners,
+   Frameworks, questions, navigation and priorities, including conceptual
+   connections beyond declared dependencies. Mark consequences as established,
+   conditional or speculative. If integration exposes a further implication or
+   changes an assumption, return to synthesis and the required proof review.
+   Maintenance-only changes need no artificial mathematical synthesis.
+6. **Finish.** Review the integrated mathematical state, including relevant
+   unchanged consumers, under the [current-state acceptance requirement](#claim-propagation-at-integration).
+   Resolve material inconsistencies before declaring the PR ready. Run relevant
+   structural and mathematical checks and [review file size and retrieval](#compact-files-and-agent-retrieval),
+   then merge the durable work. Retire temporary branch-local notes with no
+   independent mathematical value.
+   Git history preserves the research process. An Investigation may end with
+   its main question unresolved.
 
 One investigation PR may contain investigation, integration and final review.
 Do not require scoring, promotion queues, review certificates, or administrative
@@ -124,37 +129,56 @@ and compare related approaches before choosing a bounded Investigation.
 
 ### Extract implications and track approach gaps
 
-Periodically sweep the current research map for coverage, then work by
-mathematical mechanism rather than by file or date. Start from the strongest
-proved statements and controls, including older results. For each cluster,
-check all of the following before selecting the next investigation:
+For every new or materially changed result, review the following as part of
+mathematical acceptance, not only when choosing a new investigation:
 
-- **Implications.** What follows already, alone or in combination? State
-  the deduction, its exact hypotheses, and which existing question or
-  interpretation it changes.
-- **Generalizations.** Which hypotheses does the proof actually use? Can
-  another result supply or weaken one? Identify a control that tests the
-  proposed extension. An unexplored case is not a counterexample.
-- **Cross-framework connections.** Give this the same attention as
-  implications and generalizations. Name the objects and an actual map,
-  shared obstruction, or comparison to prove. Check which structure survives
-  and what is lost. Similar numerical bounds or terminology do not establish
-  a bridge.
-- **Remaining gaps.** For each active Framework or Investigation, state
-  what the approach covers now and what it must understand or overcome
-  to go further. Name the missing claim or comparison, the consequence
-  it would unlock, any reason it might fail, and a bounded next test whose
-  positive or negative outcome would change the research decision. Separate
-  a missing proof inside the present scope from a missing bridge extending
-  that scope. If the right object or test is not yet known, say what we need
-  to understand first rather than inventing a task.
+- **Generality and hypotheses.** Explain what each hypothesis does and where
+  it enters. Seek the weakest sufficient conditions the argument supports and
+  the widest justified applicability to our problem. Test whether existing
+  results remove a restriction or give a stronger conclusion. Distinguish a
+  necessary hypothesis, a limitation of this proof, and an untested extension;
+  do not claim minimality without evidence. State what prevents a stronger
+  result and what would need to change to obtain it.
+- **Implications and interpretation.** Determine what follows alone and in
+  combination with existing results, what the result explains, and what other
+  formulations reveal about the problem. Give exact deductions and hypotheses,
+  including consequences that close or redirect an existing question.
+- **Connections with previous work.** Reconsider the full body of results,
+  including older work and approaches outside the originating Framework.
+  Identify actual maps, common mechanisms, obstructions or comparisons. Explain
+  what structure survives and what is lost; similar terminology or numerical
+  bounds alone do not establish a connection.
+- **Remaining gaps.** State the revised coverage and what still prevents
+  further progress: a missing proof, source or realization condition, comparison,
+  or bridge beyond the covered class. Identify what resolving it would change
+  and a bounded informative test when one is known. Preserve genuine unknowns
+  rather than inventing a next task or requiring a solution of unrestricted STCI.
 
-Use this gap statement to guide agents. Give the agent the next question
-and the relevant established boundary, not just the final STCI goal.
-A proof, an exact counterexample, or a sharper account of what prevents
-the method from going farther can each be a successful pass. If a pass
-produces little, distinguish an unproductive choice of material from a
-weak test before changing the process.
+This is an iterative synthesis. Begin with the new result and existing accepted
+mathematics. Use the changed understanding to reassess that whole body of work;
+feed further implications, stronger formulations, connections and revised gaps
+back into the next pass. Independently review consequential new or modified
+claims before treating them as established inputs. A correctness check of the
+original result or a single pass through its direct dependencies is insufficient.
+
+Cover the full suite conceptually using the map, catalog and Framework accounts;
+follow authoritative statements and proofs wherever a comparison depends on
+their exact scope. These aids locate mathematics and are not proof authority.
+Use bounded workers for coherent clusters when useful. Reuse valid review and
+carry forward unaffected conclusions, but reopen them when a new insight changes
+their interpretation. Full-suite coverage does not require loading every proof
+at once or reproving every theorem on each pass.
+
+Continue while another pass yields material mathematical understanding. Stop
+after a full synthesis pass finds no material change to justified generality,
+implications, connections, remaining gaps or research decisions, and identified
+consequences have been integrated consistently. This is a stable assessment of
+the available evidence, not proof that no further insight exists. Do not use a
+fixed round count, cosmetic rewriting or reviewer agreement as the stopping
+test. If progress needs unavailable evidence or genuinely new research, preserve
+the precise gap and consequence for use; do not claim it resolved or stable by
+repetition. Report the scope and reason for stopping in the existing review,
+without a pass-by-pass ledger.
 
 Keep current gaps with their canonical Framework or Investigation. Place
 proved deductions with their proof owners and link across frameworks rather
@@ -179,6 +203,11 @@ rather than leaving the sweep as a reading exercise.
 
 ### Claim propagation at integration
 
+Every PR must leave its affected research account describing the current
+mathematical state. The task lead owns this reconciliation in the same PR;
+it is part of completion, including for deductions established during review.
+Maintenance-only changes need no unrelated mathematical edits.
+
 When a finding changes the research state, give its **exact hypotheses and
 characteristic**, the **owning proof or reproducible calculation**, its
 **verification status** (proved, independently checked computation, or
@@ -187,9 +216,37 @@ Identify the existing Result or Argument rather than creating a duplicate
 account. When carrying it into Frameworks, Investigations or navigation,
 retain its scope: a linear rank is not a nonempty incidence locus, a
 weight-module match is not a canonical geometric isomorphism, and a
-necessary boundary condition is not a sole-support realization. Check
-nearby consumers and remove superseded open questions. This is a
-lightweight review convention, not a new record or certificate.
+necessary boundary condition is not a sole-support realization.
+
+Trace the affected claims through their proof owners, Frameworks, active
+Investigations, navigation and strategic queue. Use claim identifiers,
+terminology, links and the actual mathematical implications to find consumers;
+declared dependencies and changed lines alone do not establish coverage.
+Rewrite superseded conclusions, limitations and next steps in place. Retain
+useful intermediate lemmas, counterexamples, distinct proof routes and essential
+evidence, with their precise scope; retire the obsolete tasks and chronological
+checkpoints around them. Keep the current mechanism and gap in the Framework,
+and the next research decision and its rationale in the existing queue.
+
+The existing final reviewer must check this integrated account as well as the
+new proof, including the [synthesis coverage and stopping judgment](#extract-implications-and-track-approach-gaps).
+Starting from an affected ordinary entry point, verify that a reader
+can recover what is established, its scope, what remains unresolved and the
+reason for the proposed next work without reconstructing the discovery history.
+Read relevant unchanged summaries, conclusions and open questions against the
+final claims. A materially false scope summary, superseded active task or missing
+propagation that misdirects subsequent research blocks completion even when the
+new proof and structural checks pass. Recheck affected conclusions after review
+revisions; a review of an earlier state does not cover changed implications.
+
+In the existing PR description, state the resulting mathematical understanding
+and link the affected owners, or state that mathematical scope and priorities
+are unchanged. The review reports synthesis and integration coverage, the
+stopping judgment, file-retrieval limitations and any material unresolved
+condition. Use those existing surfaces; no additional
+reviewer, per-result checklist, approval registry or historical ledger is required.
+Structural checks validate records and links; they do not establish semantic
+agreement between a theorem, its summaries and the next research task.
 
 ## Evidence and review
 
@@ -226,6 +283,29 @@ covering the same claim. Cite removed evidence by full Git commit and path.
 Preserve useful counterexamples and genuinely different arguments.
 
 ## Files and fields
+
+### Compact files and agent retrieval
+
+Minimize the context needed to understand and safely revise a mathematical
+contribution. Each file should have a coherent mathematical purpose that can be
+read and reviewed comfortably. Before expanding a large account, remove repeated
+summaries and superseded development narrative; split independent mechanisms,
+proofs or source computations into focused owners with a short overview and exact
+links. Put bulky executable support in linked support files. A section-address
+tool does not excuse an account that keeps accumulating unrelated developments.
+
+Preserve all necessary hypotheses, dependencies, proof steps, distinct arguments
+and reproducible evidence. Avoid fragments that force an agent to reconstruct one
+argument from many tiny files. Line counts and growth are warning signals, not
+substitutes for mathematical judgment or arbitrary acceptance thresholds.
+
+The final review must examine new or substantially expanded files for this cost.
+Walk through locating a principal claim, reading its necessary proof and sources,
+and making a bounded revision: unrelated material should not dominate the load.
+If avoidable size, duplication or fragmentation materially impedes that task,
+refactor before completion and verify the moved proof addresses and consumers.
+Apply the same standard to guidance and Frameworks; keep one owning account and
+short pointers elsewhere.
 
 [Templates](../scripts/templates/) give the supported typed fields. Use
 `STCI-R-####`, `STCI-A-####`, `STCI-F-####` and `STCI-I-####` for
