@@ -129,3 +129,21 @@ the moving family, its multiplication, and the contracted endpoint
 subalgebras constrain the image together. Comparing with an
 [arithmetic collision](../arithmetic-supported-lifts/index.md) requires
 checking normal specialization separately from the projective family.
+
+## Universal translate incidence (recovered geometric interface)
+
+Let \(T\subset\operatorname{PGL}_4\) be the diagonal torus, \(H=T_C\), and \(B=T/H\cong(\mathbf G_m)^2\). The dense coordinate torus \(T_X\subset\mathbf P^3\) is an \(H\)-torsor over \(B\), in fact split as a torus (choose a splitting of the character-lattice sequence). Its fibers are the dense parts of the translates \(C_\beta\). This uses the genuine quotient torus; the auxiliary normalization \([s^4:us^3t:vst^3:t^4]\) has a residual \(\mu_4\) identification, including a nonreduced group scheme in characteristic two.
+
+For fixed degrees \(a,b\), let \(W_d=H^0(\mathbf P^3,\mathcal O(d))\) and \(S_{a,b}=\mathbf P(W_a)\times\mathbf P(W_b)\). The universal dense-torus incidence
+\[
+\mathscr I_{a,b}=\{([F],[G],x)\in S_{a,b}\times T_X:F(x)=G(x)=0\}
+\]
+projects to \(S_{a,b}\times B\) via the torus quotient. For a proper intersection, a curve component meeting \(T_X\) is *vertical* precisely when it is a full translate \(C_\beta\); otherwise its image is a curve (generically finite over its image). This distinction concerns the **image dimension**, not the dimension of the original intersection fiber. Coordinate-boundary components remain invisible here.
+
+The incidence of *entire translates* is a relative projective-bundle construction. The restriction maps \(W_d\otimes\mathcal O_B\to\mathcal E_d\), where \(\mathcal E_d\) has fiber \(H^0(C_\beta,\mathcal O_{C_\beta}(d))\), have constant rank because the translates are projectively equivalent. Their kernels \(\mathcal K_d\) are vector bundles, and
+\[
+\mathscr V_{a,b}=\mathbf P_B(\mathcal K_a)\times_B\mathbf P_B(\mathcal K_b)
+\]
+parametrizes surface pairs containing at least one entire translate, whenever the projective bundles are nonempty. This follows from the standard relative evaluation/constant-rank construction; it is not a new existence theorem. The harder locus is the subset of **proper pairs whose full intersection cycle** consists of translates, equivalently (by [R-0074](../../results/chow_polytope_rigidity.md)) whose Chow polytope is \(mP_C\), with \(ab=4m\). Its scheme structure, boundary, degenerations, and realizable configurations are not determined by the relative projective bundle alone.
+
+This recovers the November 5 universal-incidence viewpoint as an interface to the existing constant-quotient and moving-quotient theories, without assuming that arbitrary pairs are eigenforms, that torus-fiber lengths equal intersection multiplicities, or that nonproper incidence projections satisfy proper semicontinuity statements.
