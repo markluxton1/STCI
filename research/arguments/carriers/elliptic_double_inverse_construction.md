@@ -896,7 +896,9 @@ length one. Indeed in length one the unit spans the finite fiber
 algebra, and Nakayama makes the local map onto the normalization
 surjective; it is already injective. Conversely local normality makes
 the normalization an isomorphism. This detects nonnormality even when
-a fiber is a single nonreduced point. For full inverse support the
+a fiber is a single nonreduced point. Normality here is equivalent
+to smoothness, since the normalization is smooth and is an
+isomorphism precisely on the normal locus. For full inverse support the
 nilpotent operator \(e\) on the length-twelve inverse scheme has
 \(\operatorname{length}(G)\) Jordan blocks. In degree \(b\) their lengths
 are at most \(b-1\) by the inverse-ideal test. Hence a mate requires
@@ -909,6 +911,55 @@ At normal points of \(N\), a full-support fiber could only admit
 mates of degree at least thirteen. This restriction does not exclude
 full support at such a normal point; keep the support test before
 the descent test.
+
+##### A meeting fiber that fails full support
+
+Take \(\mu=2\) and
+\(\rho=(0,0,-2+2i,-4-2i)\). At \(p=-T\) on the marked elliptic
+curve, the source coordinates are \(x=i,y=-1+i\) on \(Z_0=1\);
+the removable value of the pencil parameter is \(t=1+i\).
+In the displayed direction formulas, substitute \(x=i,t=1+i\)
+after taking the remainders of \(N_3,N_4\) modulo \(K\).
+Both divided normal derivatives vanish. Equivalently one can
+differentiate the ratios at \(p\), using their regular values there.
+Thus the parameter belongs to \(N\) once the following basepoint
+check is made.
+
+Here are exact arithmetic checks for this actual member. Reduce
+at \(i\mapsto5\) over \(\mathbf F_{13}\). For the five polynomials
+\(Q_1+2Q_0,U_0,U_1,U_3,U_4\) of (3)–(5), set one projective
+coordinate \(Z_j\) to one in turn; the reduced Gröbner basis in the
+other three variables is \((1)\) on each of the four charts.
+Properness of the projective basepoint scheme then excludes a
+basepoint in characteristic zero. On the affine chart \(Z_0=1\),
+the point \((x,y,Z_3)=(11,0,9)\) has \(e=5\) and target tuple
+\((U_0,U_1,U_3,U_4)=(1,3,1,3)\) modulo 13. The three equations
+\[
+ Q_1+2Q_0,qquad U_0U_4-U_1U_3,qquad U_0^2U_3-U_1^3
+\]
+vanish there and their Jacobian determinant in \((x,y,Z_3)\) is
+12 modulo 13. The simple point lifts over the henselization at
+this prime. Both \(e\) and \(U_0\) remain units, so it is an
+actual inverse point off \(E\) in characteristic zero.
+
+This member is birational onto an octic. The map is finite and
+its degree times the image degree is eight. A plane image is
+impossible since \(C_0\) spans the target, and a quadric image
+was already excluded by the ruling degrees. If the map had
+degree two onto a quartic, pushing forward the source quadric
+section \(E+D\) would give coefficient two on \(C_0\), so the
+image quadric section would have coefficient one there. The image
+would then be generically smooth along \(C_0\), and both divided
+normal derivative vectors would lie in the same line in the
+target normal plane. But \(\mu=2\ne\pm i\) has nonzero deck
+determinant for every choice of lifts by the direction calculation.
+This excludes degree two.
+
+The closed full-support locus, cut out set-theoretically by the
+power section above, is therefore proper inside the integral
+four-dimensional \(N\). It has dimension at most three, also
+after restricting to birational octics. This is a search restriction
+for every degree, not a proof that this smaller locus is empty.
 
 #### Matrix formulation
 

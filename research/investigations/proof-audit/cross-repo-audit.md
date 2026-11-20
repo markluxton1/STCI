@@ -109,7 +109,9 @@ a null result would not by itself invalidate the method.
   gives a finite necessary descent check before any ambient search.
   The [normalization of the meeting norm divisor](../../arguments/carriers/elliptic_double_inverse_construction.md#the-meeting-norm-divisor-and-its-normalization)
   parametrizes the support search and locates degrees six through
-  twelve on its nonnormal locus, without settling full support.
+  twelve on its singular locus. An actual meeting fiber fails full
+  support, so the closed full-support locus has dimension at most three;
+  whether it is empty remains open.
   See the [normalization gates](../../frameworks/carrier-normalization/open_carrier_cases.md).
 - [Normal symbols and the cubic contraction](../../results/connected_normal_directions.md#what-the-cubic-contraction-misses-in-the-attachment-count):
   the joint bound charges the residual degree visible on \(V_5\).
