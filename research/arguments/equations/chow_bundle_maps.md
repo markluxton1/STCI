@@ -244,3 +244,32 @@ coefficient-factor claims, and the explicit one-pencil survivor and reversed
 failure.  Passing one pencil is only necessary; this is a family exclusion, while the independent [multiple-structure proof](../residuals/quasiprimitive_multiplicity_five.md) closes the degree pair in characteristic zero. It does not prove unrestricted STCI nonexistence.
 
 
+
+## Common-quadric boundary of the quartic-pencil Chow map (recovered first-order calculation)
+
+This is a **first-order, generically proper degeneration statement**, not a description of the whole exceptional fibre of a resultant blowup. It concerns quartic pencils in \(H^0(\mathbf P^3,\mathcal I_C(4))\) and is independent of the preceding Grassmannian Hom identity.
+
+Let \(Q\simeq\mathbf P^1\times\mathbf P^1\) be the unique smooth quadric containing \(C\sim(1,3)\). Fix quadrics \(A,B\) such that \(V(A,B)\) is a proper degree-four curve and their restrictions \(a,b\in H^0(Q,\mathcal O_Q(2,2))\) form a regular sequence. Put \(Z=V_Q(a,b)\), a zero-dimensional scheme of length eight. Consider an arc of quartic pairs
+\[
+ F_t=QA+tF_1+O(t^2),\qquad G_t=QB+tG_1+O(t^2),
+ \qquad F_i,G_i\in H^0(\mathcal I_C(4))\ (i=1).
+\]
+The combination \(BF_t-AG_t=tK+O(t^2)\) has \(K=BF_1-AG_1\) of degree six. If \(Q,K\) have no common surface component and the generic pair is proper, the limiting **fundamental cycle** is
+\[
+ [V(A,B)]+[V(Q,K)],\qquad 4+12=16.
+\]
+This follows by localizing the family off \(Q\) (where the limiting equations are \(A,B\)) and off \(V(A,B)\) (where the leading eliminated equation is \(K\) on \(Q\)), with the total degree fixing the cycle. It does **not** assert a reduced or flat special-fibre scheme.
+
+Write \(s_C\in H^0(Q,\mathcal O_Q(1,3))\) for the equation of \(C\). The restriction of every quartic through \(C\) is \(s_C f\), \(f\in H^0(Q,\mathcal O_Q(3,1))\); the restriction map is onto by the ideal sequence of \(Q\). Consequently
+\[
+ K|_Q=s_C(bf-ag),\qquad
+ k=bf-ag\in H^0(Q,\mathcal I_{Z/Q}(5,3)),
+\]
+and the limiting cycle is \([V(A,B)]+[C]+[D_k]\), where \(D_k\sim(5,3)\) has degree eight. The twisted Koszul resolution
+\[
+ 0\to\mathcal O_Q(1,-1)\to\mathcal O_Q(3,1)^{\oplus2}
+ \xrightarrow{(b,-a)}\mathcal I_{Z/Q}(5,3)\to0
+\]
+and \(H^1(Q,\mathcal O_Q(1,-1))=0\) show that **every** section of \(\mathcal I_{Z/Q}(5,3)\) is obtained this way. Thus the available nonzero first-order residual directions form an open subset of the projective linear system \(\mathbf P H^0(Q,\mathcal I_{Z/Q}(5,3))\simeq\mathbf P^{15}\) (the full projective space parametrizes the sections, not necessarily proper limits).
+
+The historical stronger claim that the entire reduced exceptional fibre of the resultant graph resolution is this \(\mathbf P^{15}\), or that its blowup agrees with the ordinary blowup of the common-quadric locus, **is unproved**: higher-order arcs, base-ideal multiplicities, and boundary directions require separate analysis. This calculation is about quartic–quartic pencils with a common quadric limit, **not** the distinct proposed \((2,4)\) flat degeneration.
