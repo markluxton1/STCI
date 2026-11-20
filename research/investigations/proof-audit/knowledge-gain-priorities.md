@@ -106,8 +106,10 @@ cluster is not in itself evidence against the workflow.
   with a normal signed cubic is excluded in all mate degrees.
   The [normalization comparison](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#removing-normality-inverse-support-and-the-actual-normalization)
   also excludes all distinct and all doubled-unmarked residual patterns
-  without normality. Only the nonnormal doubled-marked case remains in
-  this sextic sector; higher-degree two-lift cases are separate.
+  without normality. The [normalized doubled-marked case](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#normalizing-the-doubled-marked-ruling)
+  now closes the two-lift split sextic sector in characteristic zero:
+  no mate exists in any degree, with no normality assumption on the
+  signed cubic. Higher-degree two-lift cases are separate.
   Endpoint-concentrated nonzero norm coefficients are a separate
   one-lift case. For larger nonsplit sources, seek capacity bounds
   without fourth-order divisibility. The weighted criterion assumes

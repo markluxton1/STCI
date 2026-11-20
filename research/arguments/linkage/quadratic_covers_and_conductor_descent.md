@@ -1682,6 +1682,96 @@ self-correction is therefore still at most two,
 rather than \(30/7\). This finishes the doubled
 unmarked ruling with no normality assumption.
 
+#### Normalizing the doubled marked ruling
+
+The last case without normality is a doubled marked
+residual ruling with \(L_0=\ell=0\) in the actual cubic
+representative above. The two-lift support makes its
+nonnormality tractable: after the ordinary blowup, both
+lifted quartics belong to the same local sheet of the
+normalization, although the other sheet is also present.
+
+Keep the ordinary \(t\)-chart \(v=tV,z=tZ\) of the blowup,
+and write the strict equation as
+\[
+aV^2(V-t^2)+(V-Z^2)B(t,V,Z)=0 .
+\]
+The actual cubic representative gives \(B(t,0,0)=0\)
+identically, with transverse linear part at \(t=0\)
+equal to \(dV+cZ\), \(c\ne0\). In particular the strict
+equation and all its first derivatives vanish all along
+\(V=Z=0\). Its transverse Hessian there is nondegenerate,
+with quadratic part at \(t=0\) equal to \(V(dV+cZ)\).
+Apply the parametric formal splitting lemma over
+\(k[[t]]\), retaining that line as the critical section.
+The critical value is identically zero; the resulting
+equation is a product \(XY\) up to a unit, with
+\[
+X=V+O((t,V,Z)^2),\qquad
+Y=dV+cZ+O((t,V,Z)^2).
+\]
+The two marked arcs \(V=t^2, Z=\pm t\) have
+\(Y=\pm ct+O(t^2)\), nonzero on either arc. Both must
+therefore lie in the sheet \(X=0\). Normalization
+commutes with completion here (the local rings are
+excellent), splitting the two formal sheets into
+smooth planes. In the marked sheet with coordinates
+\(t,Y\), the two lifts meet each other with length
+one, since the slopes of their \(Y\) coordinates
+are opposite and nonzero. Each meets the same
+exceptional curve \(t=0\) transversely once. Normalize
+the blown-up surface and resolve any remaining
+points away from this smooth marked neighborhood;
+this is a smooth model of the original normalization.
+
+The rational canonical generator of the original
+signed cubic pulls back in this sheet, up to a unit, as
+\[
+\frac{dt\wedge dY}{tY}.
+\]
+The factor \(t^{-1}\) is the same blowup residue factor
+\(t^2/t^3\) as before, from the ordinary ambient blowup
+and multiplicity three. The factor \(Y^{-1}\) is the
+residue along the sheet \(X=0\) of the product
+equation \(XY=0\). Both pole divisors meet each
+strict lift once, because \(t\) and \(Y\) have order
+one along those lifts. Elsewhere the original surface
+is smooth along the lifted quartics. Thus the
+canonical intersection with either strict lift is
+\(-2\), and its self-intersection by adjunction is
+zero, an increase of two from the smooth marked
+baseline. The mutual strict intersection has
+decreased by one.
+
+Finally, \(q=t^2(V-Z^2)\). The second factor does not
+vanish identically on the exceptional component
+met by the lifts: at \(t=0,V=Z^2\) the strict equation
+would force \(aZ^6=0\), inconsistent with a curve
+on that chart. Hence the exceptional multiplicity
+of \(q\) along that component is exactly two. The
+actual divisor of \(q\) on the original normalization
+contains both lifted curves with multiplicity one
+and has effective residual support. Their exceptional
+incidence vectors agree, so positivity of the
+numerical pullback bounds their common self and
+mutual correction \(s\) by \(2s\le2\), as in the
+normal triple-point case. The total numerical row
+sum is at most
+\[
+2+(2+s)+(-1+s)\le5 .
+\]
+The other endpoint is smooth, and there are no
+unmarked residual hits. Thus \(8b\le5(3b/2)\),
+a contradiction.
+
+Combining the residual patterns, **no integral
+two-lift split sextic has a mate of any degree in
+characteristic zero**, with no normality assumption
+on its signed surface. The scope is the two-lift
+degree-six norm case. Endpoint-concentrated one-lift
+norms, higher degree, and nonsplit carriers are not
+excluded by this classification.
+
 ### Arithmetic control and comparison of traits
 
 For the actual char-three pair A=x1³−x0²x2, G=x0x3³−x2⁴, both endpoint algebras are O[Y]/Y³. At 0 choose Y=x3−t⁴; r=t⁴−Y. At infinity choose Y=x1−t³; r=t⁴−tY. In either case z=t²+t^(j−2)Y+t^(2j−6)Y² with j=0 or 1 respectively. The multiplication matrix in basis 1,Y,Y² is triangular with these coefficients in its successive lower diagonals. The potential smallest two-minor is zero by equality of the two diagonal/off-diagonal products. The minimum over all minors is −6 or −4, respectively, from the Y² coefficient; hence (δ0,δ∞)=(6,4). This is a calculation for the actual supported char-three pair, not a char-zero lift or its lower-root defect.
