@@ -70,6 +70,9 @@ Hilbert function. On a generically regular carrier even the exact
 length at this point passes the nonsplit scalar bound. The candidate
 can instead be tested for an extra low-degree kernel form on the
 local model required by a mate. [Moving conductor theorem](../../results/moving_quadratic_conductors.md).
+Every integral quintic is in this generically regular class. In the cyclic
+case the general upper estimate is attained on the nonosculating local
+model, so tightening that estimate alone cannot remove the limitation.
 
 The [simultaneous toric-limit comparison](../../arguments/linkage/toric_limit_conductor_comparison.md)
 opens a different endpoint question. For the full curve and selected quadratic
@@ -81,6 +84,10 @@ retain interior information at the ends; extracting an original-conductor
 bound requires control of the graph correction and the actual global equations.
 The pure special fiber need not be a CI. The scalar transverse limitation above
 does not settle this corrected comparison.
+For the [moving osculating cover on a fixed pure source](../../arguments/linkage/moving_quadratic_covers.md#the-flat-graph-at-the-endpoint),
+the correction is exactly \(\beta=\delta_{\rm generic}\), with
+\(\alpha=\delta_{\rm pure}=0\). The special square root is regular
+only after discarding all this embedded torsion.
 
 For the original fixed cover, the
 [carrier framework](../carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)

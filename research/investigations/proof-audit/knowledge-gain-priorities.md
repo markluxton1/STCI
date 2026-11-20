@@ -100,6 +100,10 @@ will solve STCI or is uniquely optimal. Reassess after the initial probe.
   the kernel on actual homogeneous forms, not another comparison of those
   two scalar estimates. On a declared candidate thickening, an independent
   kernel form in degree \(2d+2<b\) would obstruct the proposed mate.
+  Every integral quintic is generically regular, so this closes its
+  moving scalar test as well. The exceptional osculating ribbon has a
+  nonzero primitive-triple class; a compatible higher flag needs defects,
+  whose effect on actual source restrictions is still uncomputed.
 - **Next exploratory comparison.** In a simultaneous intrinsic torus limit of
   the curve and its selected quadratic graph, the [conductor identity](../../arguments/linkage/toric_limit_conductor_comparison.md)
   is \(\delta_i^{\mathrm{pure}}=\delta_i+\alpha_i-\beta_i\).
@@ -110,6 +114,11 @@ will solve STCI or is uniquely optimal. Reassess after the initial probe.
   degeneration question is not restricted to the nontransverse scalar stratum;
   neither a pure limit nor a local control inherits the original global CI
   postulation theorem automatically.
+  The [moving-cover graph at the endpoint](../../arguments/linkage/moving_quadratic_covers.md#the-flat-graph-at-the-endpoint)
+  now gives a global fixed-source control: \(\alpha=0\),
+  \(\beta=\delta_{\rm generic}\), and pure conductor zero. Substitution
+  in the limiting square quadric loses exactly that punctual torsion;
+  this is not a bound for arbitrary toric graph families.
 - **Decision.** A strict gap on an exceptional source, or an extra
   homogeneous kernel form, would extend the exclusions beyond the
   constructed endpoint-jet families. The broad smooth-source scalar
@@ -278,6 +287,11 @@ neither supply a capacity bound for every cover nor remove its need.
 
 ### KG06. The nonnormal quintic gap
 
+The [moving quadratic scalar test](../../arguments/linkage/conductor_on_a_smooth_carrier.md#exact-length-at-the-moving-osculating-point)
+cannot exclude any integral quintic: restriction to the containing quadric
+forces generic regularity, where the exact length exceeds the lower bound.
+This does not close the normalization, fixed-endpoint or embedded-kernel tests.
+
 - **Known.** Toric normalizations are excluded, and the nonnormal
   Gorenstein-normalization route is excluded. The non-toric,
   non-Gorenstein nonnormal case remains open; **normal quintics are a
@@ -427,9 +441,12 @@ Understanding this geometry does not require a promised uniform STCI obstruction
 KG05 is the strongest concrete alternative: its whole-family support locus is
 well defined and unresolved, with a dimension bound and an exact finite-algebra
 test. It is narrower in family coverage but could close or advance an actual
-construction. KG01's original scalar comparison is already ineffective on the
-transverse stratum; its new toric comparison has a precise missing embedded
-correction, whose control by global equations remains to be established.
+construction. KG01's scalar comparison is ineffective on a dense open of
+the full smooth source for every fixed-endpoint cover, and the moving
+osculating scalar test fails on every generically regular smaller carrier.
+Its surviving questions concern embedded homogeneous kernels and the
+toric graph correction. The moving-cover endpoint computes that correction
+exactly in one family; control from arbitrary global equations remains open.
 These distinctions support a provisional exploration choice, not certainty
 about eventual payoff. Reassess if the coefficient and normal-lift probe only
 reproduces containment or the known fixed-carrier picture, or reveals a more

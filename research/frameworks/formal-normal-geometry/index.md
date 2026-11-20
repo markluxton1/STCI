@@ -122,6 +122,14 @@ filtration bound already exceed the required scalar minimum; the
 embedded coefficient map retains a further test.
 [Local lattice and global comparison](../../results/moving_quadratic_conductors.md).
 
+For the fixed osculating conormal quotient, the
+[primitive-triple class](../../arguments/normal-geometry/osculating_ribbon_obstruction.md)
+is \(2[u^{-2}]\ne0\). A finite-flat quasiprimitive flag extending that
+ribbon must acquire a defect; a generically regular osculating carrier
+has first-symbol zeros of total degree \(4a-8\). This connects the
+moving-cover exception to the canonical embedded extension, without
+excluding defect-bearing higher thickenings.
+
 The [quadric-flag character formula](../../arguments/torus/equation_pair_rank_and_weights.md#characters-of-all-double-surface-equation-spaces)
 computes every weight of the actual degree-\(d\) equations vanishing to
 second order along \(C\). For \(d\ge5\) this source character is unchanged

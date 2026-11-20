@@ -107,7 +107,7 @@ A modern survey (D'Cruz, Theorem 2.7) states that arithmetically Cohen--Macaulay
 
 Anthony Iarrobino, Pedro Macias Marques and Chris McDaniel,
 *Artinian algebras and Jordan type*, [arXiv:1802.07383](https://arxiv.org/pdf/1802.07383),
-Theorem 2.5, Proposition 2.10 and Lemma 2.15.
+version 6 (August 31, 2022), Theorem 2.5, Proposition 2.10 and Lemma 2.15.
 
 The November 20, 2026 proof review checked the Jordan-type bound by the
 conjugate Hilbert function, the equality for a strong Lefschetz element,
@@ -116,6 +116,21 @@ The [moving-conductor proof](../arguments/linkage/moving_quadratic_covers.md#fou
 uses these on the graded transverse algebra, then separately verifies that
 actual quadric lifts reach the required directions. The source alone does
 not establish global realization, conductor lengths or an STCI obstruction.
+Only its characteristic-zero Lefschetz assertion is used here.
+
+### Eisenbud--Ulrich conductor regularity
+
+David Eisenbud and Bernd Ulrich, *The Regularity of the Conductor*,
+[arXiv:1302.5752](https://arxiv.org/pdf/1302.5752), Theorem 3.1,
+pp. 6--7. Their regularity formula concerns a reduced projective scheme
+with Gorenstein coordinate ring and a finite graded Cohen--Macaulay
+intermediate algebra in its normalization. It illustrates the same
+canonical-module mechanism, but does not subsume the possibly nonreduced,
+non-ACM separated branch used here. Our
+[conditional ACM refinement](../arguments/linkage/moving_quadratic_covers.md#the-boundary-of-the-actual-intersection)
+comes directly from the existing conductor dual sequence.
+Finite-map duality itself does not require reducedness; compare
+[Stacks, Lemma 47.15.8](https://stacks.math.columbia.edu/tag/0AX0).
 
 ## Affine lci theorems and the projective gap
 

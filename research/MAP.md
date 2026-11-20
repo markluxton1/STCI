@@ -115,6 +115,12 @@ degrees at least six, and at most two in degree five. Singular endpoints
 still require their full lattices. An osculating cover instead puts the
 full conductor at one general point and tests actual homogeneous kernels
 there. [Moving conductor theorem](results/moving_quadratic_conductors.md).
+Its exact length cannot give a scalar deficit on any generically regular
+smaller carrier, including every integral quintic. The osculating direction
+instead has a [primitive-triple obstruction](arguments/normal-geometry/osculating_ribbon_obstruction.md),
+and the [flat graph at the endpoint](arguments/linkage/moving_quadratic_covers.md#the-flat-graph-at-the-endpoint)
+retains the entire generic conductor as punctual torsion. These identify
+information lost by scalar lengths and pure specialization.
 The characteristic-zero fixed-cover
 two-lift sextic sector is excluded without normality. Its surviving
 one-lift sector is generically regular along the lift, has non-Du-Val

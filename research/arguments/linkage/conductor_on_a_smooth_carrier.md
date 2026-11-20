@@ -137,3 +137,26 @@ generically regular smaller carriers for this moving cover. The
 [one-point homogeneous kernel](moving_quadratic_covers.md#the-homogeneous-jet-test)
 continues to depend on the embedding of \(nC_0\) in \(F\). Both lengths
 come from the full local algebra, including every higher normal term.
+
+For the cyclic Hilbert function \(H=(1,\ldots,1)\), put
+\(S=\binom n2\), \(M=\lfloor n/2\rfloor\), and
+\(D=\lfloor n^2/4\rfloor\). The identity \(S+M=2D\) gives
+\(U_H=3S+D-M=4S-D=d(4,1)\), whereas \(d(4,2)=4S-2D\).
+Thus the general upper bound is sharp on the required nonosculating
+regular local model. Concentrating four simple roots saves \(D\), or
+\(2D\) in the osculating case, but neither saving reaches the scalar
+contradiction. No actual supported CI is constructed by this equality.
+
+Every integral quintic through \(C_0\) is generically regular along it.
+Its nonzero restriction to \(Q\) has type \((5,5)\). Normal order at
+least two would make that restriction divisible by \(s_{C_0}^2\), leaving
+type \((3,-1)\), which has no sections. Hence the moving scalar test
+fails for every integral quintic carrier; singularities at the fixed
+endpoints and the homogeneous-kernel test remain separate questions.
+
+The osculating exception has a global
+[ribbon obstruction](../normal-geometry/osculating_ribbon_obstruction.md):
+the fixed direction does not extend to a primitive triple. For a
+generically regular carrier its first symbol vanishes at a divisor of
+degree \(4a-8\). Those zeros and higher-thickening defects cannot be
+discarded when using the generic cyclic calculation.

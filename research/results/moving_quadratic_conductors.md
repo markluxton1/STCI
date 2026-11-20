@@ -15,6 +15,13 @@ proofs:
 ---
 # Quadratic conductor postulation at one moving point
 
+A quadratic cover converts a hypothetical two-equation presentation into
+postulation conditions on a finite boundary. Moving its branch section
+concentrates that boundary at one general point, so the conditions become
+an explicit map on actual homogeneous forms. Length alone does not obstruct
+any generically regular smaller carrier; the embedded kernel retains
+information that the scalar comparison loses.
+
 ## Scope
 
 Let \(Y=V(F_a,G_b)\subset\mathbf P^3\) be an actual proper homogeneous
@@ -47,7 +54,7 @@ degrees and transverse algebra are those of that factor pair.
    maximum at four simple zeros of \(w\). There
    \(\Delta\cap C_0=(L-1)\operatorname{div}(w)\) as a scheme on the
    reduced curve. At an arbitrary marking the maximum is attained
-   exactly when the root-direction operators at all zeros have closed
+   exactly when multiplication by \(R-w^2\) at all zeros has closed
    Jordan partition \(\Lambda\) as specified in the proof.
 2. For general \(p\in C_0\) there is an explicit rank-three quadric
    \(R_p\) singular at \(p\), with zero divisor \(8p\) on \(C_0\).
@@ -81,8 +88,9 @@ degrees and transverse algebra are those of that factor pair.
    For \(a\ge6\) its two conormal slopes must also agree and be nonzero,
    leaving at most **one** eligible pencil parameter. For \(a=5\) at
    most two parameters can work. These necessary loci have codimension
-   at least three and two respectively in the full source smooth at
-   both points. At a candidate parameter the higher normal coefficients
+   at least three and two respectively in the open subset of
+   \(H^0(\mathcal I_{C_0}(a))\) smooth at both points.
+   At a candidate parameter the higher normal coefficients
    and nonsplitting on the same carrier still enter.
 
 ## Proof
@@ -142,8 +150,20 @@ beyond that onset. The [osculating-plane calculation on an embedded
 ribbon](../arguments/linkage/moving_quadratic_covers.md#the-homogeneous-jet-test)
 exhibits how to recover an actual equation in the kernel. The outstanding
 question is which restrictions of homogeneous forms on a candidate
-thickening force such a failure, or which additional coefficients
-force its actual conductor length below the required lower bound.
+thickening force such a failure. On a generically regular carrier the
+exact length already exceeds the lower bound, including **every integral
+quintic** through the curve. A moving-cover scalar deficit can therefore
+come only from a generically singular carrier. In the cyclic case the
+upper bound is sharp on the required nonosculating local model; this is
+not an existence assertion for a supported CI.
+
+The exceptional osculating direction has a separate global constraint:
+its ribbon has [nonzero primitive-triple obstruction](../arguments/normal-geometry/osculating_ribbon_obstruction.md).
+This forces defects for a finite-flat quasiprimitive flag extending that
+ribbon, not failure of every higher thickening. At an endpoint the
+[flat moving graph](../arguments/linkage/moving_quadratic_covers.md#the-flat-graph-at-the-endpoint)
+places its entire generic conductor length in punctual torsion, explaining
+why substituting the limiting square quadric loses the conductor.
 
 ## Limitations
 
@@ -171,12 +191,9 @@ the osculating cone, conductor length three and unique moving plane on
 the ribbon control. This is exact support for that control, not a
 calculation of a hypothetical supported CI.
 
-Final integration review checked the Result, its three proof owners, the
-affected framework summaries, MAP and KG01 against current main, including
-the distinct odd-characteristic cover-choice scope and embedded toric graph
-corrections. The full framework comparison found no additional supported
-strengthening or stale implication after the smooth-source scalar question
-was closed. Further progress needs actual embedded inputs or the remaining
-exceptional/singular lattice evidence. The existing priority order remains
-a provisional comparison of tasks, not a consequence of proof acceptance.
-The focused proof files and replay route passed the retrieval review.
+The six independent mathematical, editorial and research-context reviews
+also identified the sharp cyclic bound, quintic consequence, osculating
+ribbon obstruction and flat graph specialization. Each new deduction
+received separate proof review. Their integration and the final full-suite
+synthesis are recorded with the PR's validation; proof acceptance alone
+does not determine the next research priority.
