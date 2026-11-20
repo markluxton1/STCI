@@ -12,35 +12,39 @@ why actual homogeneous pairs must leave residual support, produces an
 actual pair with none, or identifies a transferable constraint separating
 these alternatives. The degree identity alone does none of these.
 
-The order below favors, in order: a mechanism applicable across degrees
-or carriers; an exact bridge to global equation realization; a decisive
-test of an actual constructive family or a significant degree frontier;
-and then an explanation of a bounded local or computational gate.
-Readiness and cost are kept separate from payoff. The two highest ranks
-are not promises of short proofs. A counterexample to a proposed
-mechanism is useful if it pinpoints the missing hypothesis; failure on
-a sample is not an exclusion of the surrounding family.
+The order favors expected mathematical knowledge, transfer between
+approaches, and a concrete realization or coverage bridge. Readiness
+and cost are separate. Nearness to an STCI solution affects the ranking
+only if the remaining gap is demonstrably small; no lane below is
+known to have such a gap. An exact counterexample may outrank an
+additional positive case when it changes which comparison to attempt.
 
-This pass follows the current [research map](../../MAP.md) across actual
-equations, formal normal geometry, torus limits, residual deformation,
-carrier normalization, spectral roots, local cohomology, and arithmetic.
-It checks current proof owners and documented controls rather than
-replaying the old inventory or re-auditing every archived file.
+The mechanism sweep followed the [research map](../../MAP.md), with
+the corresponding gaps left in their canonical frameworks. Its method
+was productive where a shared object was fixed first: the *same*
+quadratic conductor now has both endpoint capacity and global
+postulation tests, and reduced-cycle realization can be separated
+from nonreduced equation incidence. The sweep also rejected proposed
+shortcuts: the conductor quotient loses the two socle targets, and
+moving a residual line is not globalized absorption. These changed
+research decisions independently of the count of new theorems.
+Other clusters still need a coverage map; a null result in such a
+cluster is not in itself evidence against the workflow.
 
 ## Ranked research problems
 
 | Rank | Stable ID | Question for a better argument | Payoff if resolved |
 | --- | --- | --- | --- |
-| 1 | KG01 | What projective equation constraint limits the required deep normal contact? | Direct degree-independent mechanism |
-| 2 | KG02 | When must an actual moving ideal expose residual support in its equation layers? | All-degree torus/actual-generator bridge |
-| 3 | KG03 | Can a marked absorption step close at **zero** residual degree? | Direct constructive bridge, or a precise obstruction to it |
-| 4 | KG04 | Can residual-capacity tests reach carriers outside the known ordinary open? | Transferable all-mate exclusions on new carrier strata |
-| 5 | KG05 | Can the full elliptic inverse scheme be supported on the marked curve and descend? | A concrete potential construction, in every mate degree |
-| 6 | KG06 | What replaces Cartier descent on the surviving quintic normalizations? | A substantial low-degree gap, not all quintics |
-| 7 | KG07 | Do actual sextic pencils in the remaining ADE loci reach length nine? | A fixed-degree decision and test of higher-contact mechanisms |
-| 8 | KG08 | Can the quadratic-root obstruction be made uniform over its zero scheme? | Excludes or isolates a broad, but conditional, local-root sector |
-| 9 | KG09 | Does a two-target dual obstruction persist under changes of order and degree? | A potential all-degree local-cohomology bridge |
-| 10 | KG10 | What global obstruction survives arithmetic specialization of varying pairs? | Could turn prescribed-family arithmetic into an obstruction to actual varying pairs |
+| 1 | KG01 | Can actual deep contact support the same conductor required by global equations? | Compare intrinsic local capacity and global postulation on one object across degrees |
+| 2 | KG02 | Which Chow-cycle strata have actual CI lifts, and what do the two full ends retain? | Independent realization geometry and an actual-generator bridge on repeated cycles |
+| 3 | KG03 | When does a marked absorption direction lift to a proper ambient pair and increase marked length? | A constructive operation or the class obstructing it, not just motion of a residual |
+| 4 | KG04 | Can residual-capacity tests reach carriers outside the known ordinary open? | Transfer capacity mechanisms to new actual carriers |
+| 5 | KG06 | What replaces Cartier descent on the surviving quintic normalizations? | Test the intrinsic Cartier defect and contact geometry on actual carriers |
+| 6 | KG05 | Can the whole elliptic inverse scheme be supported and descend? | An explicit finite-algebra family, with useful stages but no broader coverage yet |
+| 7 | KG08 | What survives the full quadratic-root obstruction and actual-source incidence? | Distinguish spectral obstructions from lack of global lifts |
+| 8 | KG09 | Which changes preserve an actual two-target dual separator? | A source-transfer problem with an exact five-direction first test |
+| 9 | KG10 | What obstruction survives arithmetic specialization of varying pairs? | Transfer across characteristics if actual lattices and coverage can be controlled |
+| 10 | KG07 | Do the remaining actual ADE sextic pencils reach length nine? | A useful fixed-degree stress test, not the lead mechanism |
 
 ### KG01. Projective limits on deep generic normal contact
 
@@ -61,6 +65,15 @@ replaying the old inventory or re-auditing every archived file.
   normal bundle forces more than \(pq/2\) generic contact beyond depth
   two in characteristic zero. The characteristic-three cubic–quartic
   pair exhausts its contact by depth two. [Residual and deep-contact theorem](../../results/connected_normal_directions.md#statement).
+- **Sweep bridge.** The [same quadratic conductor](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#82-endpoint-lattice-capacity-of-the-same-conductor)
+  has a global postulation lower bound and actual endpoint-lattice upper
+  bounds using the conormal moment. Use this as the first pursuit:
+  compute both lattices on a named actual source, including controls,
+  and compare their capacity with the lower bound on that same
+  conductor. Do not read generic normal type as determining the
+  endpoint lattices. A strict incompatible pair of bounds would
+  decide precisely that source class; failure of a divisibility or
+  nonsplitting test redirects to the actual matrices.
 - **Next test.** On this boundary the remaining issue is an upper
   bound from the actual equation sources, or a pair that sustains the
   required tail. At \((3p,4q)\) it suffices to decide the
@@ -96,6 +109,12 @@ replaying the old inventory or re-auditing every archived file.
   · [Generator incidence](../supported-generator-incidence/index.md).
 - **Checked finite pilot.** The [two-parameter residual sextic family](../../results/endpoint_equation_torsion.md#the-complete-detection-stratification-of-a-two-parameter-pilot) has fixed extremes, \(e_L=1\), and a fixed CI polynomial, but its missed length is one on the dense parameter open and zero on a parameter divisor where the flat limit contains \(6[L]\). This exactly identifies the detection strata of that family. It shows why those shared data alone cannot provide the needed strict bound; it is not a supported construction or a closure of KG02.
 - **Canonical-source refinement.** The [equation-layer theorem](../../arguments/torus/chow_matched_equation_layers.md) makes each end-adapted raw ideal intrinsic and shows that nonadaptation delays all hidden line layers. The explicit first-length change eight to zero is a generator artifact, not erased cancellation. Endpoint Kummer data alone do not determine that raw first length; opposite optimized generators need not be the same representative. The whole filtered degree-labeled sources of the same ideal are the revised comparison target.
+- **Sweep bridge.** [Reduced-cycle realization](../../arguments/equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle)
+  is an exact eigenform evaluation and fixed-factor test; the invariant
+  quartic collision model does not cover non-invariant ideals on partial
+  diagonals. Choose a named collision partition and test actual quartic
+  pencils, then compare their embedded quotients with both full limits.
+  This has independent moduli value even if it gives no STCI obstruction.
 - **Next test.** Pick one declared proper bidegree family with
   \(e_L>0\). Derive a projective bound on the joint first-layer kernel
   directly from the two degree-labeled equation sources, on the **same**
@@ -115,6 +134,10 @@ replaying the old inventory or re-auditing every archived file.
   unavailable; the nonzero obstruction **space** is not an obstruction
   class. [R-0049](../../results/sextic_residual_absorption.md)
   · [Marked equation incidence and limits](../../arguments/residuals/marked_deformation_and_absorption.md#7-partial-absorption-and-the-missing-passage-to-sole-support).
+- **Scope sharpened.** The [moving twelvefold line](../../arguments/residuals/marked_deformation_and_absorption.md#the-twelvefold-residual-moves-on-the-thick-quadric)
+  moves on a fixed carrier but cannot lower the residual degree there.
+  A meaningful next step changes the permitted actual equation pair
+  and checks the whole residual, not inverse support or line motion alone.
 - **First test.** Start with a specified actual proper pair and
   residual component, preferably the twelvefold line control. Compute
   a marked deformation direction that changes the residual component
@@ -154,6 +177,12 @@ replaying the old inventory or re-auditing every archived file.
   · [Family and descent](../../arguments/carriers/elliptic_double_inverse_construction.md#5-fiberwise-support-and-actual-descending-equations)
   · [Tested locus](../stci-equation-search/index.md#findings).
 - **Checked restriction.** The [relative length-twelve scheme](../../arguments/carriers/elliptic_double_inverse_construction.md#the-support-locus-is-a-nilpotence-locus-inside-a-proper-norm-divisor) is finite flat on the smooth basepoint-free open. Its norm is nonzero at the original member, so all full-support candidates lie in a proper norm divisor; a dense open of the entire five-parameter family fails support. Full support is the nilpotence locus, not merely vanishing of the norm. The remaining locus and descent are still unresolved.
+- **Sweep update.** The [normalized meeting divisor](../../arguments/carriers/elliptic_double_inverse_construction.md#the-meeting-norm-divisor-and-its-normalization)
+  and a meeting fiber failing support bound the closed full-support locus
+  by dimension three. The [actual symbol pencil](../../arguments/carriers/elliptic_double_inverse_construction.md#the-horizontal-symbol-and-the-actual-elliptic-pencils)
+  and [residual conductor](../../arguments/carriers/elliptic_double_inverse_construction.md#a-finite-descent-test-on-the-residual-quadric-curve)
+  give finite gates, not survivors. Search for support on the normalized
+  parameter space first.
 - **Next test.** Use the divisor of the length-twelve Cartier section
   and the elliptic cover to characterize the support-in-marked-curve
   locus over the **whole** smooth basepoint-free birational open.
@@ -175,6 +204,10 @@ replaying the old inventory or re-auditing every archived file.
   [Open carrier cases](../../frameworks/carrier-normalization/open_carrier_cases.md#non-toric-non-gorenstein-quintic-normalizations)
   · [Gorenstein route](../../arguments/carriers/quintic_gorenstein_normalizations.md)
   · [Conductor geometry](../../arguments/carriers/quintic_conductor_geometry.md).
+- **Sweep restriction.** The [marked Cartier-index defect](../../arguments/carriers/quintic_conormal_and_factor_geometry.md#the-conormal-defect-of-a-marked-cartier-multiple)
+  bounds the sum of direction degree and differential rank-drop degree
+  by three in the sole-support lane. Compute these on actual remaining
+  carriers; a polarization alone does not determine them.
 - **First test.** On an actual degree-five nonnormal model outside
   those two excluded classes, determine the possible local Cartier
   indices and full marked inverse and conductor schemes. Separate
@@ -229,6 +262,10 @@ replaying the old inventory or re-auditing every archived file.
   [Second obstruction](../../arguments/spectral/quadratic_root_second_obstruction.md)
   · [Actual lift frontiers](../../frameworks/spectral-roots/open_root_lifts.md)
   · [Octic control](../../arguments/spectral/actual_octic_root_lift_comparison.md).
+- **Scope sharpened.** The actual elliptic conormal pencil realizes a
+  precise spectral line-bundle comparison in its separate family;
+  neither torsion nor coverage of the general smooth quadratic-root
+  incidence follows.
 - **First test.** Characterize the zero scheme of the second dual
   pairing on the smooth first-compatibility locus, retaining all
   pairings and rank-drop strata. If it is nonempty, intersect it
@@ -272,6 +309,14 @@ replaying the old inventory or re-auditing every archived file.
   of arbitrary hypothetical characteristic-zero pairs.
   [Arithmetic lifting interfaces](../../frameworks/arithmetic-supported-lifts/index.md)
   · [Bounded-degree transfer](../../arguments/arithmetic/effective_characteristic_transfer.md).
+- **Sweep limitation.** The [separated-cover conductor quotient](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#fixed-local-cohomology-targets-and-what-they-cannot-see)
+  kills the two fixed socle targets. Transfer must preserve the actual
+  multiplication image and values; the first quadric shift still has
+  five source directions to evaluate.
+- **Sweep restriction.** Compatible actual endpoint lattices give
+  a [specialization lower bound on generic conductor length](../../arguments/linkage/quadratic_covers_and_conductor_descent.md#arithmetic-control-and-comparison-of-traits),
+  not the generic upper bound needed for a contradiction. This is not
+  the lower-root endpoint defect.
 - **First test.** For a specified powered source, construct the
   comparison predicted for an actual supported trait between its
   endpoint defect and the full conductor or annihilator. Start with
@@ -284,37 +329,24 @@ replaying the old inventory or re-auditing every archived file.
   for just the prescribed source still says nothing about unrelated
   characteristic-zero pairs.
 
-## Outcome of this bounded pass
+## Use the ranking after the sweep
 
-KG01, KG02, KG04, KG05 and KG09 have the scoped checked advances recorded above. None closes its unrestricted research question. The later KG07 integration establishes the source/determinant explanation recorded in its known state; its higher-contact first test remains open. KG03, KG06, KG08 and KG10 retain their first tests and stopping conditions. In particular no absorption-to-zero construction, remaining quintic classification, full sextic decision, uniform quadratic-root exclusion or presentation-independent arithmetic obstruction is claimed. The ranking measures potential knowledge gain, not completion.
+Pursue KG01 first through the actual same-conductor comparison. Keep
+the [marked V5 equality correspondence](../../arguments/residuals/blowup_residual_geometry.md#the-marked-correspondence-on-the-whole-equality-boundary)
+as a separate transfer and contact test: the conic resultant, absence
+of a whole marked fiber and off-conic support are separate conditions.
+The endpoint carrier bound leads to a specific nonsmooth-conductor
+question, not a generic absence result.
 
-## Where to start, and how to use the queue
+Use KG02 to understand a non-invariant collision next if the conductor
+comparison lacks a useful compatible actual source. KG03 is next for
+a construction mechanism: require a marked direction in both actual
+equation spaces, a proper pair and a change in generic length. Scoped
+normalization and spectral steps remain worth recording where they
+explain an actual family, even without general coverage. Do not treat
+the ranking as a new inventory of proofs to rewrite.
 
-- **Highest payoff:** KG01. Work on a precisely specified horizontal
-  stratum first, not a purported universal contact-depth formula.
-- **Best immediate pilot:** KG04. There is a concrete test for a new
-  carrier: state the actual normalization and complete test-divisor
-  support, compute its branch weights, and either give a strict
-  inequality or name the first hypothesis that fails. This can inform
-  KG01 without presupposing a universal solution.
-- **Best separate construction check:** KG05's support locus before
-  any descent or degree search. This asks whether a known obstruction
-  kills an actual family rather than whether a random coefficient
-  sample happens to work.
-- **Keep as evidence or park:** Smith factors and character lattices
-  retain scheme or torsion data; keep them. Further cleanup of already
-  geometric proofs or of isolated determinants is valuable editorially
-  but is not an unrestricted research priority. The [boundary-reconstruction owner](../../arguments/torus/boundary_reconstruction_and_defects.md) gives marked gluing,
-  reconstruction and nonalgebraization results that delimit the
-  diagram question; reopen only for precisely specified additional
-  retained data and a named realization problem. Primary topological
-  tests on the complement are already understood; do not rerun them
-  without an algebraic section obstruction
-  ([complement comparison](../../arguments/equations/complement_section_obstructions.md)).
-
-Keep IDs stable and revise the ranking when coverage or payoff changes.
-Log the exact class tested and the strongest surviving counterexample.
-Promote to an Investigation only when there is a declared source, a
-test and a stopping condition, and to a Result only after proof and
-review. A useful negative answer and a scope correction belong in the
-queue too; neither needs to be turned into a stronger theorem.
+Keep IDs stable and revise this order only when the payoff or coverage
+changes. Report the exact class tested and the strongest surviving
+control at the canonical owner. Use focused commits as the pursued
+direction yields a proof, a counterexample or a better-defined gap.
