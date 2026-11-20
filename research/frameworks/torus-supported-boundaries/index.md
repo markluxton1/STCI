@@ -44,6 +44,12 @@ The [coordinate-contact theorem](../../arguments/torus/general_coordinate_bounda
 
 For effective one-cycles in every characteristic, [full Chow-polytope rigidity](../../arguments/equations/chow_polytope_rigidity.md) classifies equality with a multiple of the fixed quartic's full, unshifted column-weight polytope as a sum of diagonal translates. The subgroup fixes the cycle, not necessarily its defining ideal. This cycle statement does not recover Hilbert data, embedded points, moving generators, or a two-equation realization; projected polygons do not suffice.
 
+The [first-moment theorem](../../arguments/torus/chow_arrangement_moments.md)
+adds a linear Chow equation for invariant proper CI arrangements, including
+every reduced CI arrangement. In characteristic zero their full Chow closure
+avoids every complete collision \(m[C_{u,v}]\). Non-invariant repeated-cycle
+CI lifts need not belong to that closure; their realization remains open.
+
 The [fixed-carrier arrangement and simultaneous conductor comparisons](supported_deformation_questions.md)
 add actual incidence geometry and an exact endpoint correction. The quartic
 carrier permits partial collisions but requires at least three distinct

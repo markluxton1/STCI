@@ -6,6 +6,31 @@ The [supported-generator incidence investigation](../../investigations/supported
 
 The distinction governing both investigations is **full embedded ideal versus its extreme equation forms, pure hull, or fundamental cycle**. The [three-generator sextic limit](../../results/sextic_three_generator_full_limit.md) is a flat generator control with residual curves, not a sole-supported (6,6) boundary. An invariant supported complete-intersection ideal is excluded in characteristic zero under [R-0040](../../results/invariant_supported_ci_exclusion.md), but a moving general fiber need not be invariant. Neither fact settles the bounded attracting-family incidence problem.
 
+## General arrangements and the CI realization locus
+
+Geometric cycles in the full Chow-polytope fiber are parameterized by
+\(\operatorname{Sym}^m(\mathbf G_m^2)\); a one-dimensional subtorus or
+coset gives a smaller arrangement family. For each degree type \(ab=4m\),
+retain actual CI ideals over these cycles. CI is a property of such a lift,
+not of the cycle alone, and a general distinct-point arrangement is not a CI.
+
+The [trace-moment theorem](../../arguments/torus/chow_arrangement_moments.md)
+forces \(\sum_i n_i u_i/v_i=0\) for pairs with an eigenform generator or
+the specified actual congruences, including invariant CI ideals and every
+reduced CI arrangement, in characteristic different from two.
+A linear equation in Chow coefficients expresses the condition and
+separates the entire Chow closure of this locus from \(m[C_{u,v}]\) in
+characteristic zero. This is stronger than losing CI structure only at the
+final collision. It does not exclude a different, non-invariant CI lift over
+a repeated cycle outside these equation classes and their cycle closure.
+Ambient smoothability does not imply
+smoothability through translated-component cycles.
+
+The next geometry includes those repeated-cycle lifts, their possible
+components and deformations, and the boundary of the moment-constrained
+realization locus. A parameter escaping the torus can leave the fixed-polytope
+fiber, so its compactification must retain the full projective limiting cycle.
+
 ## Actual arrangements on a fixed toric surface
 
 The [fixed-carrier arrangement theorem](../../arguments/torus/fixed_carrier_chow_arrangements.md)

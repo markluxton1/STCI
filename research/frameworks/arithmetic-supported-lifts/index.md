@@ -72,6 +72,11 @@ places this binomial family inside the larger coefficient space
 at least three distinct translates must remain on that fixed carrier.
 Frobenius explains complete collapse in the prescribed family; it does not
 classify all arrangements or all characteristic-zero degenerations.
+The [general arrangement moment](../../arguments/torus/chow_arrangement_moments.md)
+separates the Chow closure of invariant CI arrangements from complete collision
+in characteristic zero. At \(m[C_{u,v}]\), its normalized Chow coefficient
+is \(-4m u/v\); the obstruction vanishes when the characteristic divides
+\(4m\), consistently with Frobenius collapse, without proving realizability.
 The [root-defect grading](../../arguments/arithmetic/frobenius_power_lifting_precision.md#equivariant-grading-of-the-root-specialization-defect)
 requires an equivariant total trait and the original root theorem's
 hypotheses. For the fixed quartic a supported mixed-characteristic trait

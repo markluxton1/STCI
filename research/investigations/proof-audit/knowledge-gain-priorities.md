@@ -124,6 +124,15 @@ neither supply a capacity bound for every cover nor remove its need.
 
 ### KG02. Actual Chow arrangements, collisions and full torus limits
 
+- **General cycle constraint.** The [trace-moment theorem](../../arguments/torus/chow_arrangement_moments.md)
+  forces \(\sum_i n_i u_i/v_i=0\) for pairs with an eigenform generator
+  or the specified actual congruences, including invariant CI ideals and
+  every reduced CI arrangement, in characteristic different from two. Its
+  linear Chow-coefficient equation separates the entire Chow closure of
+  that locus from every \(m[C_{u,v}]\) in characteristic zero. This closes
+  the proposed path from distinct-translate CIs to full coalescence even if
+  the limiting ideal were allowed to cease being a CI. It does not exclude
+  non-invariant CI lifts over repeated cycles outside that closure.
 - **Realization geometry.** The [fixed-carrier classification](../../arguments/torus/fixed_carrier_chow_arrangements.md)
   describes every mate on the named quartic toric carrier by a monic root
   polynomial with \(c_1=c_2=c_5=0\) and nonzero constant coefficient.
@@ -156,15 +165,15 @@ neither supply a capacity bound for every cover nor remove its need.
   diagonals. Choose a named collision partition and test actual quartic
   pencils, then compare their embedded quotients with both full limits.
   This has independent moduli value even if it gives no STCI obstruction.
-- **Next investigation.** Start with a named partial-collision stratum in the
-  actual quartic-pair locus. Describe how moving the carrier or changing the
-  non-invariant thickening changes the fixed-carrier constraints. The invariant
-  moving-carrier partitions \((2,2)\) and \((3,1)\) are already known;
-  distinguish retaining the surface equation from retaining only its support.
-  Retain the
-  actual ideals; use their full opposite limits where they illuminate the
-  geometry. Examples, a discriminant description, or a newly identified
-  constraint are useful outcomes without an advance promise of a residual bound.
+- **Next investigation.** Describe actual CI lifts over a named repeated-cycle
+  stratum, beginning with the quartic-pair locus. Determine what non-invariant
+  embedded structures exist, their Chow moment, and which deformations remain
+  in the translated-cycle locus. The invariant moving-carrier partitions
+  \((2,2)\) and \((3,1)\) are already known. Distinguish the boundary of
+  their moment-constrained locus from components supported entirely over
+  repeated cycles, and retaining a carrier equation from retaining only its
+  support. Examples, a discriminant description or a new constraint are useful
+  outcomes; a known path to an STCI obstruction is not required.
 - **Remaining equation bridge.** The joint first-layer kernel on a declared
   proper family with \(e_L>0\) remains a distinct question. A bound below
   \(e_L\) would force residual degree there; retain canonical end-adapted
@@ -384,10 +393,13 @@ neither supply a capacity bound for every cover nor remove its need.
 
 ## Current choice and reassessment
 
-Pursue KG02's actual arrangement and collision geometry first. The fixed-carrier
-classification exposes a larger locus than the Frobenius examples and gives
-sharp constraints to compare with moving carriers. Its next question concerns
-that geometry, not an obligation to produce a uniform STCI obstruction.
+Pursue KG02's actual arrangement and collision geometry first. The general
+trace moment now separates invariant CI cycles, including all reduced
+arrangements, from full coalescence even in their Chow closure. The fixed-carrier
+classification supplies more detailed strata and realized partial absorption.
+The next question concerns non-invariant lifts over repeated cycles and their
+deformations; no smoothing into the reduced arrangement locus is presumed.
+Understanding this geometry does not require a promised uniform STCI obstruction.
 
 KG05 is the strongest concrete alternative: its whole-family support locus is
 well defined and unresolved, with a dimension bound and an exact finite-algebra

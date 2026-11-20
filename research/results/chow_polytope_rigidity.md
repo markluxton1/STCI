@@ -76,3 +76,7 @@ The separate [fixed-carrier realization theorem](../arguments/torus/fixed_carrie
 classifies actual mates and their collision constraints on the named quartic
 toric surface, with a contrasting quadric exclusion. These are scoped
 realization results, not a classification of all Hilbert lifts of this fiber.
+The [general first moment](../arguments/torus/chow_arrangement_moments.md)
+further separates the Chow closure of invariant CI cycles, including reduced
+arrangements, from the deepest diagonal in characteristic zero. It does not
+classify non-invariant repeated-cycle lifts.

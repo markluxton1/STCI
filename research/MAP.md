@@ -126,8 +126,13 @@ now have an exact coefficient description: the quartic carrier's semigroup
 gaps force \(c_1=c_2=c_5=0\). In characteristic zero at least three distinct
 translates remain, while partial collisions occur; the root-of-unity examples
 form a special locus. The smooth quadric admits no such section, by its ruling
-classes. Moving-carrier and non-invariant collision geometry remains open and
-is the [current exploratory priority](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment).
+classes. More generally, the [Chow trace moment](arguments/torus/chow_arrangement_moments.md)
+vanishes for pairs with an eigenform generator or specified polynomial
+congruences, including every invariant CI and reduced CI arrangement.
+Its linear Chow-coefficient equation separates their entire Chow closure
+from \(m[C_{u,v}]\) in characteristic zero. Non-invariant CI lifts over
+repeated cycles need not lie in that closure. Their realization geometry is
+the [current exploratory priority](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment).
 Separately, [simultaneous torus degeneration of the quadratic graph](arguments/linkage/toric_limit_conductor_comparison.md)
 compares original and pure-limit conductor lengths using the difference of
 the two embedded endpoint corrections. Their control by global equations is

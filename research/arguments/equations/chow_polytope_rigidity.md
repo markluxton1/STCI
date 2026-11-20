@@ -73,6 +73,18 @@ illustrates how to separate an incidence divisor, its generic fiber,
 and exceptional strata in a concrete family; it is not this Chow
 or Hilbert moduli space.
 
+For boundary limits, let \(\overline O\) be the reduced projective Chow
+closure of the single-translate orbit \(O=\{[C_{u,v}]\}\).
+Multiplication of Chow forms gives a proper morphism
+\(\operatorname{Sym}^m(\overline O)\to
+\operatorname{Chow}_{1,4m}(\mathbf P^3)\), whose image is exactly the
+closure of all translated arrangements: the source is projective and
+\(O^m\) is dense in \(\overline O^m\). Thus every geometric limit is a
+sum of \(m\) degree-four single-orbit limit cycles, allowing collisions
+and boundary breakup. This gives neither unique boundary decomposition,
+a scheme isomorphism, nor a flat CI lift. Boundary cycles can leave the
+fixed-polytope fiber.
+
 The [fixed toric carrier classification](../torus/fixed_carrier_chow_arrangements.md)
 gives an explicit actual-pair locus: on the quartic carrier, precisely the
 root polynomials with \(c_1=c_2=c_5=0\) descend. It covers repeated roots
@@ -80,6 +92,18 @@ and every reduced CI arrangement supported on that carrier. Characteristic
 zero forbids one- and two-support arrangements there, while partial collisions
 occur. This separates the geometry of a fixed surface from the moving-carrier
 and non-invariant Hilbert-lift questions below.
+
+For general arrangements, the [trace-moment theorem](../torus/chow_arrangement_moments.md)
+gives \(\sum_i n_i u_i/v_i=0\) in characteristic different from two for
+proper pairs with an eigenform generator or the stated actual polynomial
+congruences. This includes invariant CI ideals and every reduced CI arrangement.
+It is detected by a linear equation in Chow-form coefficients. In
+characteristic zero, the full Chow closure of this realization locus avoids
+every deepest collision \(m[C_{u,v}]\). A non-invariant CI over a repeated
+cycle outside these presentation classes need not belong to that closure;
+deciding its existence or deformations
+requires the actual embedded ideals. Thus generic arrangement deformations
+and the whole CI realization problem have different coverage.
 
 ### Realization of a reduced Chow-matched cycle
 
