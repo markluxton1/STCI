@@ -302,6 +302,11 @@ equation limit.
 
 ## Clean cancellation and residual descent
 
+The algebraic cancellation proof below also applies without a torus
+action. Its [common-quadric application](equations/common_quadric_chow_boundary.md)
+determines the full special scheme in every degree on the regular
+cofactor locus; the associated local resultant graph is an ordinary blowup.
+
 A torus limit of a proper degree-\((a,b)\) pair may acquire a
 common initial factor even though its **full** weight-initial ideal
 is flat. Write the two extreme forms as \(F_0=Hu\), \(G_0=Hv\),

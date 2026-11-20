@@ -54,6 +54,7 @@ Topic prose provides reading routes within the scope of the cited statements.
 
 ## Generic contact and residual support
 
+- [STCI-R-0078 — One-point quadratic conductor and the simultaneous endpoint slope test](moving_quadratic_conductors.md).
 - [STCI-R-0077 — Connected normal directions and deep contact on the equality boundary](connected_normal_directions.md).
 
 ## Evidence locations

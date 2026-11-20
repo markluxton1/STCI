@@ -570,6 +570,14 @@ For the homogeneous prime I of a connected projective curve, set M=H_I^2(S), S=k
 
 Their Proposition 5.2 identifies a first coregular equation h with affineness of V(h) minus C. Example 5.3(c) treats C0 explicitly: q=x0x3−x1x2 and g=x1^3−x0²x2 are separately coregular, but (g,q) retains a double line and is not a coregular pair. Thus first-element success does not supply the second equation. No computation here establishes codepth two or failure of graded quasi-cyclicity for C0. The full local-cohomology methods and their narrower computations retain their separate owning statements.
 
+The [actual-pair interpretation](../local-cohomology/actual_pair_coregularity.md)
+identifies the second coregularity cokernel with
+\(H_I^1(S/(f,g))(\deg f)\) when the first equation is coregular and
+\(H_I^1(S)=H_I^3(S)=0\). It retains the residual complement of the
+actual intersection. Finite modules already supported on the cone over
+\(C\) have zero higher \(I\)-local cohomology, so a supported
+conductor alone does not furnish that detector.
+
 ## Primary constructions and the projective bundle gap
 
 The [affine/projective scope and exact counterchecks](#affineprojective-scope-and-explicit-literature-counterchecks) retain the lci-cone criterion and the distinct tensor, real-sphere, Picard and failed unique-prime controls. These prevent incorrect source transfers; they provide no projective STCI counterexample.

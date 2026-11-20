@@ -146,6 +146,12 @@ example. The local calculation concerns its zero endpoint only.
 
 ## A local CI control with a decreased limiting conductor
 
+There is also a [global moving-cover control](moving_quadratic_covers.md#the-flat-graph-at-the-endpoint)
+on every fixed pure thickening of the quartic: its whole generic conductor
+becomes punctual torsion when the osculating cone specializes to a square.
+It has \(\alpha=0\) and \(\beta=\delta_{\rm generic}\), without any
+CI hypothesis. The local example below gives a separate explicit algebra.
+
 In formal ambient coordinates \((t,v,h)\) of weights \((1,3,4)\),
 the reverse-torus degeneration of \((h-v,v^2)\) is
 \[

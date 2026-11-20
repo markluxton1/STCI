@@ -53,11 +53,26 @@ at an endpoint and its normal covector is independent of the cover's
 endpoint covector, that endpoint has capacity \(n(n-1)\) for every
 allowed cover. Even one such endpoint exceeds the displayed nonsplit
 scalar lower bound, so this comparison cannot exclude that stratum.
-It must instead examine sources where both endpoints are aligned smooth
-or singular. Their actual equations must control both capacities in the
-same cover; favorable divisibilities do not follow merely from unchanged
-reduced lifts. This limits the current scalar comparison, not stronger
-postulation information or the existence of supported pairs.
+For the whole degree-\(a\) source smooth at both endpoints, a dense
+open has enough local length for every smooth nonsplit choice.
+For \(a\ge6\), a scalar deficit requires two tangencies and one
+matching slope, leaving at most one candidate parameter. At \(a=5\)
+there are at most two. At a surviving parameter one must compute the
+higher coefficients of that carrier; singular endpoints require the full
+lattice. [Two-endpoint decision](../../arguments/linkage/conductor_on_a_smooth_carrier.md#the-two-fixed-endpoints-leave-at-most-one-common-parameter).
+This limits the current scalar comparison, not stronger postulation
+information or the existence of supported pairs.
+
+There is also a one-point test on every hypothetical integral pair.
+An osculating quadric localizes the whole conductor at a general point,
+where a finite jet matrix on homogeneous forms computes its embedded
+Hilbert function. On a generically regular carrier even the exact
+length at this point passes the nonsplit scalar bound. The candidate
+can instead be tested for an extra low-degree kernel form on the
+local model required by a mate. [Moving conductor theorem](../../results/moving_quadratic_conductors.md).
+Every integral quintic is in this generically regular class. In the cyclic
+case the general upper estimate is attained on the nonosculating local
+model, so tightening that estimate alone cannot remove the limitation.
 
 The [simultaneous toric-limit comparison](../../arguments/linkage/toric_limit_conductor_comparison.md)
 opens a different endpoint question. For the full curve and selected quadratic
@@ -69,6 +84,10 @@ retain interior information at the ends; extracting an original-conductor
 bound requires control of the graph correction and the actual global equations.
 The pure special fiber need not be a CI. The scalar transverse limitation above
 does not settle this corrected comparison.
+For the [moving osculating cover on a fixed pure source](../../arguments/linkage/moving_quadratic_covers.md#the-flat-graph-at-the-endpoint),
+the correction is exactly \(\beta=\delta_{\rm generic}\), with
+\(\alpha=\delta_{\rm pure}=0\). The special square root is regular
+only after discarding all this embedded torsion.
 
 For the original fixed cover, the
 [carrier framework](../carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)

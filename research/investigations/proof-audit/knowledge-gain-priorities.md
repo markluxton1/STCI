@@ -82,15 +82,37 @@ will solve STCI or is uniquely optimal. Reassess after the initial probe.
   covector. Even one such endpoint exceeds the displayed scalar
   postulation lower bound. Varying the cover cannot give a contradiction
   from that comparison on this stratum.
-- **Restricted scalar test.** Use a declared full equation source where **both**
-  endpoints escape that transverse control: aligned smooth or singular
-  endpoints, with no transverse pair member at either end. Determine how
-  both actual endpoint Newton/Smith capacities vary with
-  \(r_\lambda=r+\lambda q\). Can an allowed nonsplit
-  choice force a strict capacity/postulation gap, or can an actual carrier
-  defeat this comparison for every allowed choice? Retain the complete
-  equation source and both endpoints; first-symbol data alone do not
-  determine the lattices.
+- **Smooth-source scalar decision.** The [full smooth-carrier calculation](../../arguments/linkage/conductor_on_a_smooth_carrier.md)
+  answers the broad cover-variation question: a dense open of the actual
+  smaller-carrier source defeats the scalar comparison for every allowed
+  nonsplit cover and mate degree. A deficit requires tangency to the
+  containing quadric at both endpoints. For degree at least six the two
+  conormal slopes must agree and be nonzero, leaving at most one candidate
+  cover; in degree five there are at most two. The restricted remaining test
+  is the higher coefficients and nonsplitting at these candidates, or the
+  full lattices at singular endpoints. First-symbol data do not decide
+  those remaining cases.
+- **One-point embedded test.** The [moving-conductor theorem](../../results/moving_quadratic_conductors.md)
+  places the entire boundary at one general point. Its Hilbert-function
+  upper estimate exceeds the scalar lower bound for every generic
+  transverse Hilbert function in scope; on a generically regular smaller
+  carrier even the exact length exceeds it. The further test is therefore
+  the kernel on actual homogeneous forms, not another comparison of those
+  two scalar estimates. On a declared candidate thickening, an independent
+  kernel form in degree \(2d+2<b\) would obstruct the proposed mate.
+  Every integral quintic is generically regular, so this closes its
+  moving scalar test as well. The exceptional osculating ribbon has a
+  nonzero primitive-triple class; a compatible higher flag needs at least
+  degree-two defect, and an actual generically regular osculating CI
+  supplies that flag. The complete triple classification gives a projective
+  line at degree two, a determinant condition at degree three, and every
+  defect divisor from degree four onward. Thus higher defect placement
+  alone supplies no further obstruction. These triples are non-Gorenstein
+  at their defects; their higher embedded extensions and actual homogeneous
+  sources remain uncomputed. On a fully Gorenstein-admissible completion,
+  the [top-socle source vanishing](../../arguments/one_step_boundary_repair.md#exact-fixed-surface-criterion-when-the-top-layer-has-no-source-sections)
+  makes the final determinant automatic for \(a,b\ge4\); the remaining
+  source test is nonzero section spaces with no common fixed surface.
 - **Next exploratory comparison.** In a simultaneous intrinsic torus limit of
   the curve and its selected quadratic graph, the [conductor identity](../../arguments/linkage/toric_limit_conductor_comparison.md)
   is \(\delta_i^{\mathrm{pure}}=\delta_i+\alpha_i-\beta_i\).
@@ -101,10 +123,19 @@ will solve STCI or is uniquely optimal. Reassess after the initial probe.
   degeneration question is not restricted to the nontransverse scalar stratum;
   neither a pure limit nor a local control inherits the original global CI
   postulation theorem automatically.
-- **Decision.** A strict gap on a specified source extends the exclusions
-  beyond the constructed endpoint-jet families. A carrier defeating every
-  choice identifies missing local information. Neither outcome alone
-  gives arbitrary-degree coverage. The two-lift sextic primary-piece
+  The [moving-cover graph at the endpoint](../../arguments/linkage/moving_quadratic_covers.md#the-flat-graph-at-the-endpoint)
+  now gives a global fixed-source control: \(\alpha=0\),
+  \(\beta=\delta_{\rm generic}\), and pure conductor zero. Substitution
+  in the limiting square quadric loses exactly that punctual torsion;
+  this is not a bound for arbitrary toric graph families.
+- **Decision.** A strict gap on an exceptional source, or an extra
+  homogeneous kernel form, would extend the exclusions beyond the
+  constructed endpoint-jet families. The broad smooth-source scalar
+  question is settled negatively; repeating it adds no coverage. The
+  corrected torus comparison remains the exploratory task here because it
+  retains embedded information beyond those scalar lengths. The one-point
+  map offers another concrete test once a candidate thickening is supplied;
+  neither supplies a universal obstruction. The two-lift sextic primary-piece
   calculation is an explanatory control in a closed sector, not a search
   for a surviving mate. The transverse limitation concerns the displayed
   scalar bound; it does not decide stronger postulation information or
@@ -123,6 +154,22 @@ is a separate actual-source and conductor-contact test. These results
 neither supply a capacity bound for every cover nor remove its need.
 
 ### KG02. Actual Chow arrangements, collisions and full torus limits
+
+The [clean common-quadric theorem](../../arguments/equations/common_quadric_chow_boundary.md)
+settles one boundary chart in every degree: its full special scheme has
+a balanced effective quadric subcycle forbidding constant sole support
+under coprime cofactors and nonzero first cancellation, including restriction
+rank drops. For nonzero cofactor restrictions with gcd class \((h_1,h_2)\),
+the normal cancellation image is explicit and the kernel has dimension
+\((h_1+2)h_2\). When \(h_2=0\), the ordinary-blowup graph and exact
+squared center ideal include common trisecant ruling factors and all
+higher-contact arcs. These center points lie outside the closure of the
+fixed-degree sole-support locus. At \(h_2>0\) the square-ideal model
+fails; its higher-order replacement, zero restrictions and common ambient
+cofactors remain open. If a cofactor does not contain \(C\), the reduced
+base is still locally the same center, so the missing information is
+infinitesimal. Closure of varying translate arrangements remains a separate
+question; exclusion from the exact Chow-polytope fibre does not settle it.
 
 - **General cycle constraint.** The [trace-moment theorem](../../arguments/torus/chow_arrangement_moments.md)
   forces \(\sum_i n_i u_i/v_i=0\) for pairs with an eigenform generator
@@ -167,6 +214,8 @@ neither supply a capacity bound for every cover nor remove its need.
   This has independent moduli value even if it gives no STCI obstruction.
 - **Next investigation.** Connect a named repeated-cycle stratum to actual
   equations through the [translate-coordinate evaluation maps](../../arguments/torus/fixed_surface_restriction_lifts.md).
+  Single-translate containment alone is a trivial projective-bundle incidence
+  after torus transport; it is not the unresolved realization question.
   Determine the coefficient kernels, joint transverse lengths, and permissible
   normal lifts; on the fixed quartic, retain the simultaneous descent of
   restricted syzygies and their actual normal extensions. For a sole-support
@@ -264,6 +313,11 @@ neither supply a capacity bound for every cover nor remove its need.
   Picard identities, and tested finite samples alone decide neither.
 
 ### KG06. The nonnormal quintic gap
+
+The [moving quadratic scalar test](../../arguments/linkage/conductor_on_a_smooth_carrier.md#exact-length-at-the-moving-osculating-point)
+cannot exclude any integral quintic: restriction to the containing quadric
+forces generic regularity, where the exact length exceeds the lower bound.
+This does not close the normalization, fixed-endpoint or embedded-kernel tests.
 
 - **Known.** Toric normalizations are excluded, and the nonnormal
   Gorenstein-normalization route is excluded. The non-toric,
@@ -400,7 +454,9 @@ neither supply a capacity bound for every cover nor remove its need.
 
 ## Current choice and reassessment
 
-Pursue KG02's actual arrangement and collision geometry first. The general
+Retain KG02's actual arrangement and collision geometry as a provisional
+choice, with a specified repeated-cycle or remaining cancellation stratum
+needed before the next probe. The general
 trace moment now separates invariant CI cycles, including all reduced
 arrangements, from full coalescence even in their Chow closure. The fixed-carrier
 classification supplies more detailed strata and realized partial absorption.
@@ -411,12 +467,33 @@ relations provide a concrete interface to probe, not a claim that the
 surface equation can be recovered from ordinary restrictions alone.
 Understanding this geometry does not require a promised uniform STCI obstruction.
 
+The common-quadric chart removes the entire \(h_2=0\) boundary and its
+higher-order arcs from this probe. Under coprime ambient cofactors and
+nonzero first cancellation the balanced subcycle still excludes constant
+sole support at other rank drops. The actual higher-order graph question
+is now focused on positive-\(h_2\) cancellation, zero restrictions or
+common cofactors. Merely computing the already explicit normal image
+would not add understanding.
+A neglected comparison is the [actual-pair coregularity module](../../arguments/local-cohomology/actual_pair_coregularity.md)
+on the explicit quadric/cuspidal-cubic pair with residual double line. It
+could clarify how residual geometry detects the second-equation failure,
+but no map to filtered lifting defects is yet supplied. That bounded task
+is a concrete alternative if the repeated-cycle probe reproduces only
+containment. A second bounded alternative starts from the classified
+osculating triples and computes a next embedded equation module,
+Gorenstein extension and source fixed surfaces. It would test actual
+embedded schemes beyond the now-settled defect-placement question.
+No result here proves KG02 superior to either task or to KG05.
+
 KG05 is the strongest concrete alternative: its whole-family support locus is
 well defined and unresolved, with a dimension bound and an exact finite-algebra
 test. It is narrower in family coverage but could close or advance an actual
-construction. KG01's original scalar comparison is already ineffective on the
-transverse stratum; its new toric comparison has a precise missing embedded
-correction, whose control by global equations remains to be established.
+construction. KG01's scalar comparison is ineffective on a dense open of
+the full smooth source for every fixed-endpoint cover, and the moving
+osculating scalar test fails on every generically regular smaller carrier.
+Its surviving questions concern embedded homogeneous kernels and the
+toric graph correction. The moving-cover endpoint computes that correction
+exactly in one family; control from arbitrary global equations remains open.
 These distinctions support a provisional exploration choice, not certainty
 about eventual payoff. Reassess if the coefficient and normal-lift probe only
 reproduces containment or the known fixed-carrier picture, or reveals a more

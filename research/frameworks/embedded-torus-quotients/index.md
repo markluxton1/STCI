@@ -141,3 +141,46 @@ ideal. Test one partial diagonal in actual pencils, and compare its
 local finite quotients with both full flat limits while retaining the
 equation source. A cycle or canonical endpoint index alone cannot
 make that comparison.
+
+## Universal translate incidence
+
+Let \(T\) be the diagonal torus, \(H=T_C\), and
+\(B=T/H\cong(\mathbf G_m)^2\), the genuine quotient torus. Its
+universal translated curve has restriction maps
+\(W_d\otimes\mathcal O_B\to\mathcal E_d\), where
+\(W_d=H^0(\mathbf P^3,\mathcal O(d))\) and
+\((\mathcal E_d)_\beta=H^0(C_\beta,\mathcal O_{C_\beta}(d))\).
+These maps have constant rank because the translates are projectively
+equivalent. Their kernels \(\mathcal K_d\) are vector bundles, and
+\[
+ \mathbf P_B(\mathcal K_a)\times_B\mathbf P_B(\mathcal K_b)
+\]
+parametrizes pairs together with a chosen entire translate they contain,
+where the projective bundles are nonempty. Choose a splitting
+\(B\to T\) and its diagonal linear lift. Transporting forms
+trivializes each kernel as
+\(\mathcal K_d\simeq H^0(\mathcal I_C(d))\otimes\mathcal O_B\).
+Thus this incidence is noncanonically
+\(B\times\mathbf P H^0(\mathcal I_C(a))\times
+\mathbf P H^0(\mathcal I_C(b))\), empty if an equation space is zero.
+A scalar change of the lift acts trivially on the projectivization.
+
+This standard, trivial incidence construction packages the
+[actual coefficient restriction kernels](../../arguments/torus/fixed_surface_restriction_lifts.md#translate-coordinates-constrain-actual-coefficients).
+It does not impose properness, exclude coordinate-boundary components,
+or compute transverse multiplicities. The smaller locus of proper pairs
+whose **entire** cycle consists of translates has the Chow-polytope
+criterion of [R-0074](../../results/chow_polytope_rigidity.md); its scheme
+structure and non-invariant repeated-cycle lifts require further work.
+
+For a fixed translate, the [common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
+describes the full special scheme when ambient cofactors are coprime and
+first cancellation is nonzero on its containing quadric. With nonzero
+cofactor restrictions of gcd class \((h_1,h_2)\), its exact normal image
+is known and its kernel has dimension \((h_1+2)h_2\). For \(h_2=0\),
+the resultant ideal is the squared center ideal and the graph is the
+ordinary blowup; these centers are outside the closure of fixed-degree
+sole-support pairs. For \(h_2>0\), the squared-ideal model fails and
+the graph and deeper cancellation remain open. The special-cycle
+exclusion from the exact Chow-polytope fibre does not exclude the closure
+of varying translate arrangements or determine moving transverse quotients.

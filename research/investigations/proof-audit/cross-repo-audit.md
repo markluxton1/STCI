@@ -78,7 +78,7 @@ bounds still needed. See the [open-item list](open-items.md) for re-entry decisi
 
 | Interface | What is already shared | What would make it a genuine bridge |
 | --- | --- | --- |
-| **Toric endpoint structure ↔ quadratic conductor** (KG01) | Endpoint capacities and global postulation constrain the same conductor. The [selected-graph identity](../../arguments/linkage/toric_limit_conductor_comparison.md) now compares its original and pure-limit lengths using both embedded corrections. | Control the difference of those corrections from actual global equations. The older [scalar comparison](../../arguments/linkage/endpoint_lattice_capacity.md#transverse-endpoints-throughout-the-cover-pencil) is ineffective with even one transverse endpoint; its remaining nontransverse test is narrower than the corrected torus question. |
+| **Toric endpoint structure ↔ quadratic conductor** (KG01) | Endpoint capacities and global postulation constrain the same conductor. The [selected-graph identity](../../arguments/linkage/toric_limit_conductor_comparison.md) compares original and pure-limit lengths using both embedded corrections. [R-0078](../../results/moving_quadratic_conductors.md) narrows the smooth-carrier scalar test to exceptional slope parameters and gives a one-point homogeneous-kernel test. | Control the embedded corrections from actual global equations, or detect an extra low-degree form in the one-point kernel. For the fixed-endpoint scalar test only exceptional smooth parameters and singular-endpoint lattices remain; the osculating-cover scalar bound already fails to exclude every generically regular smaller carrier. None of these limitations decides the corrected torus comparison. |
 | **Normalization ↔ deep normal contact** (KG04/KG01) | Both measure contact for actual forms. Normalization bounds the weighted valuation sum for a chosen carrier; the infinitely-near contact formula computes that same generic length via the two equations. [Capacity](../../arguments/curve/normalization_residual_capacity.md) · [Depth budget](../../arguments/residuals/generic_contact_depth.md). | On one exceptional lift, match a specified higher-contact contribution to a term in a divisor capacity bound. A tangent symbol by itself is not the next contact contribution; use the documented fixed-tangent controls. |
 | **Intrinsic boundary loss ↔ normalized divisor capacity** (KG04) | The corrected ample class and the fixed-sextic valuation loss identity both bound contact, but one uses a complete projective divisor and the other pole data in an explicit affine normalization. [Capacity](../../arguments/curve/normalization_residual_capacity.md) · [Fixed-sextic loss identity](../../results/ci_fixed_sextic_jet_rigidity.md). | On one carrier where both tests can be computed, compare their weights and equality defects. Determine which information survives at the boundary when the projective correction cannot be constructed. Agreement on a bound does not imply the defects coincide. |
 | **Local lifting ↔ actual equations** (KG01/KG07/KG08/KG09) | Exact quadric restrictions identify actual sources; moving relations, spectral obstructions, and common-ancestor duality each see additional compatibility. [Actual jets](../../arguments/equations/global_equation_jets.md) · [Moving relations](../../arguments/equations/global_lifting_interfaces.md) · [Sextic ADE](../../arguments/carriers/sextic_ade_reduction.md) · [Root lifts](../../frameworks/spectral-roots/open_root_lifts.md) · [Dual persistence](../../arguments/local-cohomology/polynomial_duals_and_affine_pencils.md). | Construct a comparison on a common, specified actual source which detects the same obstruction class or explains its kernel; matching dimensions and labels are not enough. The gap between actual sextic symbols and the order-five Čech filtration is the natural bounded comparison, not an immediate all-degree claim. |
@@ -87,6 +87,26 @@ bounds still needed. See the [open-item list](open-items.md) for re-entry decisi
 | **Arithmetic ↔ a characteristic-zero obstruction** (KG10) | Known nonlifting and endpoint tests attach to a specified model or family. [Arithmetic framework](../../frameworks/arithmetic-supported-lifts/index.md). | Identify data intrinsic under change of the two ambient equations, then prove a coverage statement for reductions of hypothetical pairs. Do not identify endpoint torsion with conductor classes or spectral Picard torsion without a comparison. |
 
 ## Established comparisons and remaining gaps
+
+The [common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
+now identifies the full special scheme for coprime cofactors and nonzero
+first cancellation in every degree \(a,b\ge3\) and characteristic.
+For nonzero cofactor restrictions with gcd class \((h_1,h_2)\), the
+exact normal image is known and the kernel dimension is \((h_1+2)h_2\).
+When \(h_2=0\), the resultant base ideal is the square of the center
+ideal and its graph is the ordinary blowup. These centers are outside the
+closure of fixed-degree sole-support pairs, including higher-contact arcs.
+When \(h_2>0\), that square-ideal model fails; graph geometry and
+deeper cancellation remain unresolved there, as at zero restrictions,
+common ambient cofactors and other global resultant strata.
+Its balanced effective quadric subcycle excludes constant sole support even
+at restriction rank drops under those cofactor/cancellation hypotheses.
+For the fixed monomial quartic it also excludes the exact Chow-polytope
+fibre, but not the closure of varying translated arrangements. Separately,
+the [actual-pair coregularity module](../../arguments/local-cohomology/actual_pair_coregularity.md)
+is \(H_I^1(S/(f,g))(\deg f)\) under the stated assumptions. The
+remaining comparison is from actual filtered equations to this module,
+not direct higher local cohomology of an already supported conductor.
 
 These statements retain their actual-source hypotheses. A shared numerical
 budget or related terminology does not supply a missing comparison map.

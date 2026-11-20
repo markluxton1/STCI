@@ -113,6 +113,30 @@ quartic-carrier exclusion is [R-0001](../../results/quartic_carrier_exclusion.md
 
 ## Filtrations and comparisons
 
+In characteristic zero, the generic transverse Hilbert function determines the **maximum**
+length of the separated quadratic conductor as the missing linear
+section and its quadric lift vary. Four general simple zeros attain
+it. An osculating quadric concentrates the boundary at one point and
+gives a smaller upper bound there. The lengths allowed by this
+filtration bound already exceed the required scalar minimum; the
+embedded coefficient map retains a further test.
+[Local lattice and global comparison](../../results/moving_quadratic_conductors.md).
+
+For the fixed osculating conormal quotient, the
+[primitive-triple class](../../arguments/normal-geometry/osculating_ribbon_obstruction.md)
+is \(2[u^{-2}]\ne0\). A finite-flat quasiprimitive flag extending that
+ribbon needs defect degree at least two, and an actual generically regular
+osculating CI supplies this flag. All embedded triples containing the
+fixed ribbon are classified: minimum defects form a \(\mathbf P^1\),
+cubic defects satisfy a determinant condition, and every divisor of
+degree at least four occurs. Their non-Gorenstein defect points do not
+exclude a later Gorenstein thickening. The carrier's first symbol has
+degree \(4a-8\) and contains the actual defect divisor. The next gate
+is therefore a higher embedded flag and its actual source fixed surfaces,
+not another unrestricted defect-placement test. The fixed quotient's
+algebra extends to odd characteristic; in characteristic three its plane
+family is no longer singled out by osculation.
+
 The [quadric-flag character formula](../../arguments/torus/equation_pair_rank_and_weights.md#characters-of-all-double-surface-equation-spaces)
 computes every weight of the actual degree-\(d\) equations vanishing to
 second order along \(C\). For \(d\ge5\) this source character is unchanged

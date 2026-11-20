@@ -153,11 +153,21 @@ zero. In the characteristic-zero conductor application, both the moment
 and all-minors bounds apply in the chosen cover. At a smooth-transverse
 endpoint the capacity is already fixed at \(n(n-1)\) for all allowed
 covers, where \(n=ab/4\); even one such endpoint defeats the displayed
-scalar postulation comparison. Thus that comparison must focus on sources
-where both endpoints are aligned smooth or singular. The
+scalar postulation comparison. If the smaller carrier is smooth at both
+endpoints, the [conormal slopes](../../arguments/linkage/conductor_on_a_smooth_carrier.md#the-two-fixed-endpoints-leave-at-most-one-common-parameter)
+isolate at most one candidate for a scalar deficit in degree at least
+six and at most two in degree five. Higher jets at those choices, or
+the full lattice at a singular endpoint, can still affect the outcome. The
 [local/global interface](../global-equation-realization/projection_and_liaison.md#embedded-conductor-and-ambient-equations)
 records this remaining gap. No general sextic exclusion or stronger
 minimum defining degree follows.
+
+For the distinct [one-point osculating cover](../../arguments/linkage/conductor_on_a_smooth_carrier.md#exact-length-at-the-moving-osculating-point),
+the exact scalar comparison fails on every generically regular smaller
+carrier, including every integral quintic. Its surviving test concerns
+the kernel on actual homogeneous forms; this does not close the
+fixed-endpoint candidates, singular lattices or normalization-descent
+questions just described.
 
 ## Distinct sextic directions
 

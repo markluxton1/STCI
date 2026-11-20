@@ -31,6 +31,22 @@ components and deformations, and the boundary of the moment-constrained
 realization locus. A parameter escaping the torus can leave the fixed-polytope
 fiber, so its compactification must retain the full projective limiting cycle.
 
+The [clean common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
+supplies the full special scheme in every degree \(a,b\ge3\) whenever
+ambient cofactors are coprime and first cancellation is nonzero on the
+quadric. Its balanced effective quadric subcycle excludes constant sole
+support, including restriction rank drops. For nonzero restrictions with
+gcd class \((h_1,h_2)\), the exact normal image and kernel dimension
+\((h_1+2)h_2\) are known. When \(h_2=0\), the resultant ideal is
+the squared center ideal and the graph is the ordinary blowup; this also
+excludes these center points from the closure of fixed-degree sole-support
+pairs, regardless of higher contact. When \(h_2>0\), the square-ideal
+model fails, and its graph and deeper cancellation remain unresolved.
+Zero restrictions, common ambient cofactors and other global strata remain
+outside that graph theorem. For the fixed monomial quartic the special
+cycle is outside the exact Chow-polytope fibre; its appearance in the
+closure of varying translated arrangements remains a separate question.
+
 ## Actual arrangements on a fixed toric surface
 
 The [fixed-carrier arrangement theorem](../../arguments/torus/fixed_carrier_chow_arrangements.md)

@@ -6,6 +6,13 @@ This ledger records the scope actually used in the research report. A source is
 not listed as settling more than its hypotheses permit. “No later resolution
 found” is a documented search result, not a proof that no unindexed work exists.
 
+The November 20, 2026 joint review of PRs #168 and #169 freshly checked
+the primary sources cited below for Jordan type, embedded multiple curves,
+conductor duality, common-factor blowups and actual-pair coregularity.
+Murayama's April 2026 open-problem statements were also rechecked; the AMS
+preview was inaccessible on this pass. This was a targeted comparison,
+not an exhaustive new literature survey or a claim of originality.
+
 The [affine/projective scope account](../arguments/equations/global_equations_and_constructions.md#affineprojective-scope-and-explicit-literature-counterchecks) retains the exact lci-cone criterion, tensor-quotient proof failure, real-sphere CI counterexample, fixed-quadric Picard control, SCIP distinction, and failed unique-prime inference. They have distinct field and quantifier scopes; none settles the projective algebraically closed STCI problem.
 
 ## Current status and general bounds
@@ -57,6 +64,7 @@ sequences,” arXiv:1907.05472.
   connected curve in projective three-space is an STCI still open.
 - Exact criterion (Theorem 3.1): for an **A-regular sequence** f_1,...,f_r in I, equality of radicals is equivalent to coregularity on H_I^r(A) and H_I^i(A)=0 for i>r. The standard graded convention requires homogeneous elements. For a connected space curve the relevant test concerns a homogeneous pair on H_I^2(S), not ordinary higher vanishing alone.
 - Proposition 5.2 and Example 5.3(c) explicitly treat the fixed quartic: the smooth quadric and cuspidal cubic are individually coregular, but their pair retains a double line. Corollary 4.6 supplies graded quasi-cyclicity as a necessary condition. The [global equation account](../arguments/equations/global_equations_and_constructions.md#homogeneous-local-cohomology-and-the-second-equation) records the exact use.
+- The proof of Theorem 3.1 uses the successive local-cohomology exact sequences. The [actual-pair interpretation](../arguments/local-cohomology/actual_pair_coregularity.md) retains their grading to identify the second cokernel with \(H_I^1(S/(f,g))(\deg f)\), under its explicit first-coregularity and vanishing hypotheses; this is not a new STCI criterion.
 
 ### Hassanzadeh, 2024--2025
 
@@ -102,6 +110,37 @@ A modern survey (D'Cruz, Theorem 2.7) states that arithmetically Cohen--Macaulay
 - Relevance: smooth rational quartics are not linearly normal and hence not
   ACM, so this broad positive theorem stops exactly before the smallest open
   smooth case.
+
+## Artinian Jordan type and the quadratic conductor
+
+Anthony Iarrobino, Pedro Macias Marques and Chris McDaniel,
+*Artinian algebras and Jordan type*, [arXiv:1802.07383](https://arxiv.org/pdf/1802.07383),
+version 6 (August 31, 2022), Theorem 2.5, Proposition 2.10 and Lemma 2.15.
+
+The November 20, 2026 proof review checked the Jordan-type bound by the
+conjugate Hilbert function, the equality for a strong Lefschetz element,
+and the characteristic-zero height-two graded Artinian Lefschetz result.
+The [moving-conductor proof](../arguments/linkage/moving_quadratic_covers.md#four-general-points-and-the-maximum-length)
+uses these on the graded transverse algebra, then separately verifies that
+actual quadric lifts reach the required directions. The source alone does
+not establish global realization, conductor lengths or an STCI obstruction.
+Only its characteristic-zero Lefschetz assertion is used here.
+A direct earlier proof of that graded assertion is Harima--Migliore--Nagel--Watanabe,
+[Proposition 4.4, p. 22](https://arxiv.org/pdf/math/0208201).
+
+### Eisenbud--Ulrich conductor regularity
+
+David Eisenbud and Bernd Ulrich, *The Regularity of the Conductor*,
+[arXiv:1302.5752](https://arxiv.org/pdf/1302.5752), Theorem 3.1,
+p. 3; proof pp. 6--7. Their regularity formula concerns a reduced projective scheme
+with Gorenstein coordinate ring and a finite graded Cohen--Macaulay
+intermediate algebra in its normalization. It illustrates the same
+canonical-module mechanism, but does not subsume the possibly nonreduced,
+non-ACM separated branch used here. Our
+[conditional ACM refinement](../arguments/linkage/moving_quadratic_covers.md#the-boundary-of-the-actual-intersection)
+comes directly from the existing conductor dual sequence.
+Finite-map duality itself does not require reducedness; compare
+[Stacks, Lemma 47.15.8](https://stacks.math.columbia.edu/tag/0AX0).
 
 ## Affine lci theorems and the projective gap
 
@@ -192,6 +231,34 @@ Exterior Syzygies,” arXiv:math/0111040 (2001).
 - Scope qualification: this is a classical cycle-level reformulation and
   computational certificate. It neither constructs a defining pair nor proves
   that one exists for any unresolved curve.
+
+### Common-factor degenerations and excess intersection
+
+Robert Lazarsfeld, *Excess intersection of divisors*, Compositio
+Mathematica 43 (1981), 281--296,
+[Lemma 1.1, p. 287](https://www.math.stonybrook.edu/robert.lazarsfeld/Reprints/Lazarsfeld.Excess.Intersection.Divisors.pdf),
+describes first-order limiting cycles for a dense open of tangent
+directions; exceptional directions can depend on higher terms. Its setup
+uses a smooth projective \(n\)-fold, \(n\) divisors and basepoint-free
+systems. It provides excess-intersection context, not a verbatim theorem
+for constrained positive-dimensional intersections through this curve.
+The [common-quadric proof](../arguments/equations/common_quadric_chow_boundary.md)
+instead uses an explicit colon sequence and Koszul calculation, and the
+[local blowup proof](../arguments/equations/common_quadric_resultant_blowup.md)
+controls all normal directions on its injective-cancellation open,
+including the stated common-ruling factors.
+
+Olivier Benoist, *The resultant divisor is negative* (2026),
+[Theorem 3.1 and §3.2](https://arxiv.org/pdf/2601.11474), gives a
+global tower of gcd-stratum blowups for **binary** forms of degrees
+\(1\le d<e\). Proposition 3.3(ii), equation (3.4), identifies its
+normal cancellation map \((F,G)\mapsto BG-CF\); Theorem 4.11 identifies
+the tower with the corresponding multigraded Hilbert scheme. This paper
+supersedes arXiv:1212.4862. Its §1.6 leaves higher-dimensional analogues
+as questions. The binary theorem is a close classical comparison, but
+does not give the constrained \(\mathbf P^3\) coefficient ideal
+\(J^2\) across all lines. That assertion and its ruling-dependent
+failure retain the direct residual-source and secant proof above.
 
 ## Conductor descent and codimension-two Gorenstein criteria
 
@@ -291,6 +358,34 @@ AMS, 1986.
   preceding extension construction and restores the stated length-four
   fibers.  P-038 records and checks the corrected local algebra rather than
   silently quoting the typo.
+
+### Embedded multiple curves and the osculating quotient
+
+The November 20, 2026 primary-source review checked Bănică--Forster's
+[author reprint](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf),
+Proposition 2.4 and following remark (reprint pp. 6--8), for fixed-ambient
+primitive extensions via splitting the restricted conormal extension.
+Proposition 3.7 and §3.8 (pp. 11--12) give quasiprimitive extensions as
+epimorphisms compatible with the prescribed multiplication section and
+their open parameter locus. Section 3.9 (pp. 12--13) gives the triple
+normal form \((t^d x-y^2,xy,x^2)\); the separate length-four typo
+noted above is not used for this triple calculation.
+
+These mechanisms are classical. The
+[fixed-quotient computation](../arguments/normal-geometry/osculating_ribbon_obstruction.md)
+supplies the particular class \(2[u^{-2}]\), splitting
+\(\mathcal E=\mathcal O(-10)^2\), and complete defect-divisor
+classification. It is not presented as a new general extension theorem.
+The original treatment is mainly complex analytic (§0.1); the needed
+ideal/module construction is reconstructed algebraically here before its
+odd-characteristic extension is used.
+
+Jean-Marc Drézet, *Paramétrisation des courbes multiples primitives*,
+[Proposition 5.1.1(4), printed p. 32](https://webusers.imj-prg.fr/~jean-marc.drezet/papers/param.pdf),
+proves that every **abstract** primitive multiple curve extends to the
+next multiplicity. This does not preserve a chosen embedding in
+\(\mathbf P^3\) or its fixed conormal quotient, and therefore does
+not contradict the embedded osculating obstruction.
 
 ### Boratyński and Manolache
 

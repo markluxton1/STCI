@@ -7,7 +7,7 @@ scope: "#scope"
 bridges: "#bridges"
 relations:
   - kind: uses
-    from: [STCI-R-0076, STCI-R-0077]
+    from: [STCI-R-0076, STCI-R-0077, STCI-R-0078]
     to: [STCI-F-0006]
     at: "#bridges"
 ---
@@ -55,6 +55,13 @@ The [full Chow-polytope rigidity theorem](../../arguments/equations/chow_polytop
 
 ## Bridges
 
+An osculating quadric puts the entire quadratic conductor at one general
+point. Its principal parts map takes actual degree-\(d\) polynomials
+to a finite transverse jet space and computes their boundary kernel.
+For a proposed pair this kernel must consist of multiples of the
+smaller integral equation when \(2d+2<b\).
+[One-point homogeneous test](../../results/moving_quadratic_conductors.md).
+
 For degrees \((3p,4q)\) and exact normal orders \((p,q)\), connectedness
 reduces the characteristic-zero equation question to either of two
 marked rational quintics on \(V_5\). A proper pair of divisors of
@@ -85,6 +92,36 @@ The canonical [R-0074](../../results/chow_polytope_rigidity.md) classifies **all
 
 The [H16 cycle parameterization](../../arguments/equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16) is set-theoretic and supplies neither homogeneous equations nor scheme structure. The [proof-dependency inventory](../../investigations/proof-audit/README.md) separates essential computations from evidence, and records the geometric R-0024 rank replacement.
 
+The [clean common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
+determines the full special scheme in every degree \(a,b\ge3\), for
+any smooth \((1,3)\) curve and in every characteristic, under coprime
+cofactors and nonzero first cancellation on \(Q\). Regular
+cofactor restrictions give a residual source of dimension
+\(a(a-2)+b(b-2)\). More generally, write nonzero restrictions as
+\(\alpha=h\alpha'\), \(\beta=h\beta'\), with the common divisor
+\(h\) of class \((h_1,h_2)\), and put \(Z'=V_Q(\alpha',\beta')\).
+The [normal cancellation calculation](../../arguments/equations/common_quadric_chow_boundary.md#normal-cancellation-at-restriction-rank-drops)
+gives kernel dimension \((h_1+2)h_2\) and exact image
+\[
+ h\,H^0\!\left(Q,\mathcal I_{Z'/Q}
+            (a+b-3-h_1,a+b-5-h_2)\right).
+\]
+For \(h_2=0\), including regular restrictions and common trisecant
+ruling factors, the
+[ordinary-blowup theorem](../../arguments/equations/common_quadric_resultant_blowup.md)
+identifies the coefficient base ideal as the square of the center ideal,
+and the whole local graph as the ordinary blowup. These center points are
+outside the closure of fixed-degree sole-support pairs, even for arcs with
+higher contact with the center. If \(h_2>0\), the coefficient ideal
+is not that square; its graph and deeper cancellation remain unresolved.
+Zero restrictions, common ambient cofactors and other global resultant
+strata also remain outside this graph classification.
+The balanced effective quadric subcycle rules out constant sole support
+throughout the broader special-ideal scope, including restriction rank
+drops. For the fixed monomial quartic it also rules out exact
+Chow-polytope membership. This does not decide the closure of varying
+translate arrangements.
+
 [H17](../../arguments/torus/boundary_reconstruction_and_defects.md) gives a linear obstruction and torsor for lifting labeled boundary equations through C, a separate torus-support defect, and bounded-degree embedded CI reconstruction. Compatibility of lifts is not sole-support realization; the finite-order counterexample does not apply to all marked filtrations or fixed-degree full formal data.
 
 The [H17 fixed-degree realization criterion](../../arguments/torus/boundary_reconstruction_and_defects.md#exact-fixed-degree-realization-of-embedded-facet-schemes) reduces a specified compatible embedded facet diagram to finite homogeneous polynomial feasibility using an ordinary power of I_C. It is an exact criterion, not a proof of automatic existence or an efficient all-degree search.
@@ -110,3 +147,14 @@ spaces. Neither a formal contact lift nor a separate choice of
 boundary data supplies that pair. An endpoint and an interior slope
 are distinct tests; a result on either should say which realization
 condition it actually decides.
+
+## Coregularity and actual equation filtrations
+
+The [local-cohomology interface](../local-cohomology/index.md#simultaneous-coregularity-versus-geometric-defects)
+asks whether full actual equation filtrations detect failure of the
+second-element coregularity condition. The pairwise cokernel is
+\(H_I^1(S/(f,g))(\deg f)\) under the stated first-coregularity and
+vanishing hypotheses. A comparison from the full filtered equation module
+to this actual-intersection module remains open; a finite conductor module
+already supported on \(C\) has zero higher local cohomology and cannot
+alone supply that comparison.

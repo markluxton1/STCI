@@ -27,8 +27,10 @@ member, and even one such endpoint prevents a contradiction from the
 displayed scalar postulation lower bound. The finer endpoint
 estimates below concern the actual cover in their hypotheses. They cannot
 be transferred to the general choice merely from its unchanged reduced
-lifts. The remaining scalar target has both endpoints outside the
-transverse control: aligned smooth endpoints or singular endpoints.
+lifts. On carriers smooth at both ends the
+[exact cyclic length and simultaneous slope condition](conductor_on_a_smooth_carrier.md)
+isolate the exceptional parameters where higher jets can change the
+scalar decision. The singular-endpoint comparison remains open.
 
 **Proof map.** The [conormal-moment bound](#an-upper-bound-from-the-conormal-moment)
 identifies the conductor object. [Nonsplit onset](#nonsplit-lower-onset-in-the-same-conductor-quotient)

@@ -109,8 +109,24 @@ greater than two in characteristic different from two. In characteristic
 zero the uniform all-minors bound applies, but even one
 [smooth-transverse endpoint](arguments/linkage/endpoint_lattice_capacity.md#transverse-endpoints-throughout-the-cover-pencil)
 already has capacity exceeding the displayed scalar postulation bound for
-every cover. That comparison's remaining target has aligned smooth or
-singular behavior at both endpoints. The characteristic-zero fixed-cover
+every cover. For a smaller carrier smooth at both endpoints, the two
+conormal slopes leave at most one candidate for a scalar deficit in
+degrees at least six, and at most two in degree five. Singular endpoints
+still require their full lattices. An osculating cover instead puts the
+full conductor at one general point and tests actual homogeneous kernels
+there. [Moving conductor theorem](results/moving_quadratic_conductors.md).
+Its exact length cannot give a scalar deficit on any generically regular
+smaller carrier, including every integral quintic. The fixed osculating quotient
+has a [primitive-triple obstruction and a classification of all pure CM triple extensions](arguments/normal-geometry/osculating_ribbon_obstruction.md):
+defect degree two gives a projective line, degree three has a determinant
+condition, and every divisor of degree at least four occurs. The algebraic
+classification holds in every odd characteristic, but in characteristic three
+the fixed quotient is not the unique osculating direction; this does not extend
+the characteristic-zero moving-cover theorem. The
+[flat graph at the endpoint](arguments/linkage/moving_quadratic_covers.md#the-flat-graph-at-the-endpoint)
+retains the entire generic conductor as punctual torsion. These identify
+information lost by scalar lengths and pure specialization.
+The characteristic-zero fixed-cover
 two-lift sextic sector is excluded without normality. Its surviving
 one-lift sector is generically regular along the lift, has non-Du-Val
 behavior there, and satisfies the symbolic defect strata \(g=5,6,8\)
@@ -142,6 +158,22 @@ Fixed-surface syzygies recover a first annihilator, not the full embedded
 pair. For a sole-support \(C_0\) candidate, a sufficiently low-degree
 carrier-power certificate would force a forbidden fixed-carrier mate in
 characteristic zero.
+For pairs tending to a common smooth quadric, the
+[clean boundary theorem](arguments/equations/common_quadric_chow_boundary.md)
+computes the full special scheme for all degrees \(a,b\ge3\), under
+coprime ambient cofactors and nonzero first cancellation on the quadric,
+in every characteristic. For nonzero cofactor restrictions with common
+divisor of class \((h_1,h_2)\), the normal source has kernel dimension
+\((h_1+2)h_2\) and a known exact image. When \(h_2=0\), the
+resultant base ideal is the square of the center ideal and its graph is
+the ordinary blowup; these center points are outside the closure of the
+fixed-degree sole-support locus, including higher-contact arcs. When
+\(h_2>0\), that square-ideal model fails and the graph and deeper
+cancellation remain unresolved, as do zero restrictions, common ambient
+cofactors and other global strata. The balanced quadric subcycle excludes
+constant sole support throughout the special-scheme theorem's scope; for
+the fixed monomial quartic it also excludes the exact Chow-polytope fibre.
+Closure of varying translate arrangements remains a separate question.
 Separately, [simultaneous torus degeneration of the quadratic graph](arguments/linkage/toric_limit_conductor_comparison.md)
 compares original and pure-limit conductor lengths using the difference of
 the two embedded endpoint corrections. Their control by global equations is
