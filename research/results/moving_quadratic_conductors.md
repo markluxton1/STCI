@@ -46,6 +46,12 @@ irreducible factors of a hypothetical presentation cuts a nonempty
 curve supported on \(C_0\), hence is itself a presentation. Its
 degrees and transverse algebra are those of that factor pair.
 
+For a chosen full separated branch write \(A_Y=S/(F,G)\),
+\(B_Y=A_Y+A_Yz\), and
+\(\mathfrak c=\{h\in A_Y:zh\in A_Y\}\). The conductor boundary
+\(\Delta\) has saturated coordinate ring \(A_Y/\mathfrak c\).
+It retains the full thickening, not just where the reduced lifts meet.
+
 ## Statement
 
 1. Adjoin a square root of any ambient quadric restricting to \(w^2\)
@@ -163,10 +169,19 @@ its ribbon has [nonzero primitive-triple obstruction](../arguments/normal-geomet
 A finite-flat quasiprimitive flag extending it needs second-layer defect
 degree at least two. The minimum is attained by a projective line of
 embedded CM triples, whose defect divisors are osculating involution pairs;
-these triples are non-Gorenstein at the defects. At an endpoint the
+the full classification gives a determinant condition in degree three
+and realizes **every** divisor of degree at least four. All positive-defect
+triples are non-Gorenstein at their defects, without excluding later
+Gorenstein completions. An actual generically regular osculating CI
+supplies the saturated flag and has \(2\le\deg D_2\le4a-8\);
+a carrier alone does not supply that CI. At an endpoint the
 [flat moving graph](../arguments/linkage/moving_quadratic_covers.md#the-flat-graph-at-the-endpoint)
 places its entire generic conductor length in punctual torsion, explaining
 why substituting the limiting square quadric loses the conductor.
+In fact its torsion is the entire specialized family conductor quotient
+as a module, with multiplication specified by \(e^2=-2De\) for
+\(e=z-D\). No comparison to parameter-layer
+equation torsion follows without a map retaining the same source.
 
 ## Limitations
 
@@ -176,6 +191,10 @@ and the fixed-endpoint slope calculation assumes the smaller carrier is
 smooth at both endpoints. Singular endpoints retain their full lattice
 problem. Existence of an unrestricted characteristic-zero pair remains open;
 the global conclusions here are not asserted in positive characteristic.
+The local lattice inequality has a separately proved
+\((e,s)\)-version in odd characteristic. The fixed ribbon quotient's
+classification also holds there, with a distinct osculating interpretation
+in characteristic three; neither extension broadens the global CI theorem.
 
 ## Review
 
@@ -200,3 +219,12 @@ ribbon obstruction and flat graph specialization. Each new deduction
 received separate proof review. Their integration and the final full-suite
 synthesis are recorded with the PR's validation; proof acceptance alone
 does not determine the next research priority.
+
+The joint review of PRs #168 and #169 independently reconstructed these
+proofs afresh and accepted the general \((e,s)\) local inequality, all
+triple defect degrees, odd-characteristic qualification, actual-CI flag
+and full endpoint torsion module. Its full-suite synthesis also traced the
+common-quadric normal kernel and actual-pair coregularity without
+identifying those distinct defects. The final integrated review covers
+the proof owners, affected frameworks and unchanged one-step source
+criterion; the strategic choice remains provisional.

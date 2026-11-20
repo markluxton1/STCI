@@ -257,6 +257,16 @@ map to that quotient is the identity on \(A_0\), and its kernel
 \[
              \ell T_B=\dim_k(Q_B/\pi Q_B)=\delta_{\rm generic}.
 \]
+This retains the full conductor quotient, not just its length. Locally
+put \(e=z-D\). Then \(T_B=A_0e\) and \(e^2=-2De\). The
+family conductor sequence \(0\to\mathfrak c\to A\to Q_B\to0\),
+with its degree-one twist suppressed, base-changes exactly because
+\(Q_B\) is \(R\)-free. Hence
+\(\operatorname{Ann}_{A_0}(e)=\mathfrak c_0\) and
+\(T_B\simeq(A_0/\mathfrak c_0)(-1)\) in graded notation.
+Here \(\mathfrak c_0\) is the specialized **family** conductor;
+the conductor of the pure identity extension \(A_0=A_0\) is the
+unit ideal. These are different specializations.
 In the [simultaneous-graph correction identity](toric_limit_conductor_comparison.md#simultaneous-graph-and-the-exact-correction)
 \(\delta_{\rm pure}=\delta_{\rm generic}+\alpha-\beta\), this
 family therefore has \(\alpha=\delta_{\rm pure}=0\) and

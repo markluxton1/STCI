@@ -21,6 +21,23 @@ This is the two-step long-exact-sequence mechanism behind
 [Hartshorne--Polini, Theorem 3.1](https://arxiv.org/pdf/1907.05472),
 specialized with its grading retained.
 
+The first-coregularity hypothesis has a precise role. Without assuming
+\(fM=M\), put \(C_f=M/fM\). The same first sequence gives
+\(H_I^2(S/f)=C_f\), so the second gives the canonical exact sequence
+\[
+ 0\longrightarrow(K_f/gK_f)(-a)
+ \longrightarrow H_I^1(S/(f,g))
+ \longrightarrow(0:_{C_f}g)(-b)\longrightarrow0.                \tag{1}
+\]
+The last annihilator vanishes exactly when \(C_f=0\): this quotient
+of local cohomology is \(I\)-power torsion, so \(g\in I\) acts
+locally nilpotently. Any nonzero element killed by a smallest positive
+power of \(g\) supplies a nonzero element of \(0:_{C_f}g\).
+Thus (1) separates the two failures without weakening first-element
+coregularity. The two shifts have different origins. It retains the regular-pair
+and \(H_I^1(S)=H_I^3(S)=0\) hypotheses; it adds no identification
+with a conductor or normal-symbol module.
+
 Writing \(E=S/(f,g)\) and \(U=\operatorname{Spec}E\setminus V(I)\),
 the localization sequence
 \[
@@ -47,5 +64,6 @@ is a possible bounded source for computing the module above. No such
 calculation, comparison to the full filtered equation module, or
 nonvanishing theorem for all pairs is asserted here.
 
-Independent correctness review checked the two exact sequences, grading
-shift and support restriction on November 20, 2026.
+Independent correctness review checked the two exact sequences, the
+general form (1), grading shifts and support restriction on November 20,
+2026.

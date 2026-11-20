@@ -103,9 +103,16 @@ will solve STCI or is uniquely optimal. Reassess after the initial probe.
   Every integral quintic is generically regular, so this closes its
   moving scalar test as well. The exceptional osculating ribbon has a
   nonzero primitive-triple class; a compatible higher flag needs at least
-  degree-two defect. The minimal CM triples are classified by a projective
-  line with involution-paired defects and are non-Gorenstein at them.
-  Their effect on higher actual source restrictions is still uncomputed.
+  degree-two defect, and an actual generically regular osculating CI
+  supplies that flag. The complete triple classification gives a projective
+  line at degree two, a determinant condition at degree three, and every
+  defect divisor from degree four onward. Thus higher defect placement
+  alone supplies no further obstruction. These triples are non-Gorenstein
+  at their defects; their higher embedded extensions and actual homogeneous
+  sources remain uncomputed. On a fully Gorenstein-admissible completion,
+  the [top-socle source vanishing](../../arguments/one_step_boundary_repair.md#exact-fixed-surface-criterion-when-the-top-layer-has-no-source-sections)
+  makes the final determinant automatic for \(a,b\ge4\); the remaining
+  source test is nonzero section spaces with no common fixed surface.
 - **Next exploratory comparison.** In a simultaneous intrinsic torus limit of
   the curve and its selected quadratic graph, the [conductor identity](../../arguments/linkage/toric_limit_conductor_comparison.md)
   is \(\delta_i^{\mathrm{pure}}=\delta_i+\alpha_i-\beta_i\).
@@ -152,12 +159,17 @@ The [clean common-quadric theorem](../../arguments/equations/common_quadric_chow
 settles one boundary chart in every degree: its full special scheme has
 a balanced effective quadric subcycle forbidding constant sole support
 under coprime cofactors and nonzero first cancellation, including restriction
-rank drops. Its ordinary-blowup graph on the regular-restriction locus
-also covers higher-order arcs there.
-Source and graph classification at rank drops, and closure of varying
-translate arrangements, remain open; exact-fibre exclusion is not a closure
-theorem. On the clean locus the resultant base ideal is the square of the
-center ideal.
+rank drops. For nonzero cofactor restrictions with gcd class \((h_1,h_2)\),
+the normal cancellation image is explicit and the kernel has dimension
+\((h_1+2)h_2\). When \(h_2=0\), the ordinary-blowup graph and exact
+squared center ideal include common trisecant ruling factors and all
+higher-contact arcs. These center points lie outside the closure of the
+fixed-degree sole-support locus. At \(h_2>0\) the square-ideal model
+fails; its higher-order replacement, zero restrictions and common ambient
+cofactors remain open. If a cofactor does not contain \(C\), the reduced
+base is still locally the same center, so the missing information is
+infinitesimal. Closure of varying translate arrangements remains a separate
+question; exclusion from the exact Chow-polytope fibre does not settle it.
 
 - **General cycle constraint.** The [trace-moment theorem](../../arguments/torus/chow_arrangement_moments.md)
   forces \(\sum_i n_i u_i/v_i=0\) for pairs with an eigenform generator
@@ -442,7 +454,9 @@ This does not close the normalization, fixed-endpoint or embedded-kernel tests.
 
 ## Current choice and reassessment
 
-Pursue KG02's actual arrangement and collision geometry first. The general
+Retain KG02's actual arrangement and collision geometry as a provisional
+choice, with a specified repeated-cycle or remaining cancellation stratum
+needed before the next probe. The general
 trace moment now separates invariant CI cycles, including all reduced
 arrangements, from full coalescence even in their Chow closure. The fixed-carrier
 classification supplies more detailed strata and realized partial absorption.
@@ -453,17 +467,23 @@ relations provide a concrete interface to probe, not a claim that the
 surface equation can be recovered from ordinary restrictions alone.
 Understanding this geometry does not require a promised uniform STCI obstruction.
 
-The new common-quadric chart removes its clean higher-order boundary problem
-from this probe. Restriction rank drops alone do not evade its constant-cycle
-exclusion with coprime cofactors and nonzero first cancellation; deeper
-cancellation or common cofactors are distinct remaining cases. Rank-drop
-source and graph geometry still has independent moduli value.
+The common-quadric chart removes the entire \(h_2=0\) boundary and its
+higher-order arcs from this probe. Under coprime ambient cofactors and
+nonzero first cancellation the balanced subcycle still excludes constant
+sole support at other rank drops. The actual higher-order graph question
+is now focused on positive-\(h_2\) cancellation, zero restrictions or
+common cofactors. Merely computing the already explicit normal image
+would not add understanding.
 A neglected comparison is the [actual-pair coregularity module](../../arguments/local-cohomology/actual_pair_coregularity.md)
 on the explicit quadric/cuspidal-cubic pair with residual double line. It
 could clarify how residual geometry detects the second-equation failure,
 but no map to filtered lifting defects is yet supplied. That bounded task
 is a concrete alternative if the repeated-cycle probe reproduces only
-containment. No result here proves KG02 superior to it or to KG05.
+containment. A second bounded alternative starts from the classified
+osculating triples and computes a next embedded equation module,
+Gorenstein extension and source fixed surfaces. It would test actual
+embedded schemes beyond the now-settled defect-placement question.
+No result here proves KG02 superior to either task or to KG05.
 
 KG05 is the strongest concrete alternative: its whole-family support locus is
 well defined and unresolved, with a dimension bound and an exact finite-algebra

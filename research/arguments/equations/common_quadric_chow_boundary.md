@@ -6,10 +6,12 @@ characteristic. For degrees \(a,b\ge3\), a deformation through \(C\)
 away from the common factor \(Q\) has an explicit **full special
 scheme** whenever its cofactors are coprime and the first cancellation
 is nonzero on \(Q\), including some restriction rank drops. On the
-regular-restriction stratum, its residual linear system identifies the
+regular-restriction stratum, and also across common trisecant ruling
+factors of the restrictions, its residual linear system identifies the
 [local resultant graph](common_quadric_resultant_blowup.md) with an
 ordinary blowup; its coefficient base ideal is exactly the square of
-the center ideal. Source and graph classification at rank drops remain open.
+the center ideal. A common restriction divisor having positive degree in
+the other ruling instead produces a nonzero normal cancellation kernel.
 
 ## The full special scheme
 
@@ -120,6 +122,45 @@ This does not exclude the closure of
 varying translate arrangements, whose components can reach coordinate
 boundaries and leave that exact fibre.
 
+## Normal cancellation at restriction rank drops
+
+Keep ambient \(A,B\) coprime, and suppose their restrictions
+\(\alpha,\beta\) are both nonzero. Write their greatest common
+divisor as \(h\) of class \((h_1,h_2)\), with
+\(\alpha=h\alpha'\), \(\beta=h\beta'\), and put
+\(Z'=V_Q(\alpha',\beta')\). The residual restrictions have no
+common curve; \(Z'\) is zero-dimensional or empty. The kernel sheaf
+of normal cancellation \((f,g)\mapsto\beta f-\alpha g\) is
+\[
+                  \mathcal O_Q(1+h_1,h_2-1),
+       \qquad(f,g)=(\alpha'c,\beta'c).
+\]
+Its \(H^1\) vanishes for all effective \(h\), and its \(H^0\)
+has dimension \((h_1+2)h_2\). The twisted Koszul sequence therefore
+identifies the actual image with
+\[
+ h\cdot H^0\!\left(Q,\mathcal I_{Z'/Q}
+              (a+b-3-h_1,a+b-5-h_2)\right).                    \tag{1}
+\]
+This describes the source even when it is not injective. Its kernel is
+zero **exactly when \(h_2=0\)**. In that case (1) still has dimension
+\(a(a-2)+b(b-2)\), and the secant/Veronese proof gives the ordinary
+blowup and exact squared center ideal. Ambient coprimality suffices for
+the nonzero fixed Chow factor of \(V(A,B)\); it need not avoid \(Q\).
+The common divisor then consists of trisecant ruling fibres, since
+\((h_1,0)\cdot(1,3)=3h_1\).
+
+For \(h_2>0\), the resultant's quadratic initial forms vanish on a
+nonzero normal subspace. They cannot span all normal quadratics, so
+\(I_{\rm res}\ne J_{Z_Q}^2\) at that point. This proves failure
+of the squared-center ideal description; the graph remains unclassified.
+Different ideals can have the same blowup, so their inequality alone
+does not decide that graph.
+For example, with \(a=b=3\), two planes meeting in a ruling of
+class \((1,0)\) have an injective six-dimensional normal source;
+for the opposite ruling \((0,1)\), the kernel has dimension two
+and the image dimension four. Thus the ruling direction matters.
+
 ## Relative boundary and remaining rank drops
 
 On the regular-restriction locus of ordered \(([A],[B])\), the schemes
@@ -129,20 +170,21 @@ displayed rank. Its projectivization maps to Chow by
 this descends to the familiar rank-sixteen bundle over the corresponding
 open in \(\operatorname{Gr}(2,H^0(\mathcal O(2)))\).
 
-If \(\alpha,\beta\) acquire a common divisor \(h\), the naive
-specialized image is \(k=h(\beta'f-\alpha'g)\). Limits of sections
-from the regular locus need not lie in that image when rank drops.
-The full special-ideal theorem still applies whenever \(A,B\) remain
-coprime and \(Q\nmid K\), but gives no automatic off-quadric term
-there. Its two cycle exclusions nevertheless still apply. Source and
-graph classification at rank drops, deeper cancellation \(Q\mid K\),
-common cofactors and the global resultant graph remain open. On the clean locus, the
-[ordinary-blowup theorem](common_quadric_resultant_blowup.md) determines
-the whole exceptional fibre and covers higher-order arcs.
+Formula (1) describes the normal image at nonzero restriction rank
+drops. When \(h_2>0\), limits from the regular locus need not lie in
+that smaller image. The full special-ideal theorem still applies whenever
+\(A,B\) remain coprime and \(Q\nmid K\), and both cycle exclusions
+still apply, without an automatic off-quadric component.
+The [ordinary-blowup theorem](common_quadric_resultant_blowup.md)
+determines the whole exceptional fibre when \(h_2=0\), including all
+higher-contact arcs, and excludes these center points from the closure
+of the fixed-degree sole-support locus. The unresolved graph and deeper
+cancellation problem is at \(h_2>0\), identically zero restrictions,
+common ambient cofactors, and other global resultant strata.
 
 Independent correctness, geometric and generality reviews reconstructed
 the all-degree scheme argument, weaker cofactor hypotheses, extended cycle
-exclusions and Koszul isomorphism on November 20,
-2026. The first-order excess-intersection literature provides context;
+exclusions, Koszul image and exact ruling-dependent cancellation kernel
+on November 20, 2026. The first-order excess-intersection literature provides context;
 the [source comparison](../../literature/README.md#common-factor-degenerations-and-excess-intersection)
 keeps its hypotheses distinct from this direct algebraic proof.

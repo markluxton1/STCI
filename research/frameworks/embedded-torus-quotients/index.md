@@ -172,3 +172,15 @@ or compute transverse multiplicities. The smaller locus of proper pairs
 whose **entire** cycle consists of translates has the Chow-polytope
 criterion of [R-0074](../../results/chow_polytope_rigidity.md); its scheme
 structure and non-invariant repeated-cycle lifts require further work.
+
+For a fixed translate, the [common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
+describes the full special scheme when ambient cofactors are coprime and
+first cancellation is nonzero on its containing quadric. With nonzero
+cofactor restrictions of gcd class \((h_1,h_2)\), its exact normal image
+is known and its kernel has dimension \((h_1+2)h_2\). For \(h_2=0\),
+the resultant ideal is the squared center ideal and the graph is the
+ordinary blowup; these centers are outside the closure of fixed-degree
+sole-support pairs. For \(h_2>0\), the squared-ideal model fails and
+the graph and deeper cancellation remain open. The special-cycle
+exclusion from the exact Chow-polytope fibre does not exclude the closure
+of varying translate arrangements or determine moving transverse quotients.

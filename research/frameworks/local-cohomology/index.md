@@ -88,6 +88,13 @@ the cone over \(C\) have zero higher \(I\)-local cohomology. Applying
 that functor to a conductor already supported there cannot alone give a
 nonzero detector.
 
+Without first-element coregularity, the same calculation gives an exact
+sequence with \(\mathcal D(f,g)(-\deg f)\) as submodule of
+\(H_I^1(S/(f,g))\) and quotient
+\((0:_{M/fM}g)(-\deg g)\). It isolates the contribution removed
+by the first-coregularity hypothesis without identifying either term
+with a finite conductor module.
+
 The open comparison is whether the **full actual filtered equation
 module**, its lift obstructions or its relation module maps to this
 actual-CI local cohomology or detects its nonvanishing. Such a

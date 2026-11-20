@@ -90,13 +90,19 @@ bounds still needed. See the [open-item list](open-items.md) for re-entry decisi
 
 The [common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
 now identifies the full special scheme for coprime cofactors and nonzero
-first cancellation, including some restriction rank drops. Near the regular
-cofactor locus it identifies the resultant base ideal as the square of the
-center ideal and its graph as the ordinary blowup, in every degree and characteristic.
+first cancellation in every degree \(a,b\ge3\) and characteristic.
+For nonzero cofactor restrictions with gcd class \((h_1,h_2)\), the
+exact normal image is known and the kernel dimension is \((h_1+2)h_2\).
+When \(h_2=0\), the resultant base ideal is the square of the center
+ideal and its graph is the ordinary blowup. These centers are outside the
+closure of fixed-degree sole-support pairs, including higher-contact arcs.
+When \(h_2>0\), that square-ideal model fails; graph geometry and
+deeper cancellation remain unresolved there, as at zero restrictions,
+common ambient cofactors and other global resultant strata.
 Its balanced effective quadric subcycle excludes constant sole support even
 at restriction rank drops under those cofactor/cancellation hypotheses.
-Source and graph classification there, deeper cancellation, common cofactors
-and closure of varying translated arrangements remain open. Separately,
+For the fixed monomial quartic it also excludes the exact Chow-polytope
+fibre, but not the closure of varying translated arrangements. Separately,
 the [actual-pair coregularity module](../../arguments/local-cohomology/actual_pair_coregularity.md)
 is \(H_I^1(S/(f,g))(\deg f)\) under the stated assumptions. The
 remaining comparison is from actual filtered equations to this module,

@@ -73,8 +73,9 @@ then has valuation strictly greater than \(-eS(\mu)\).
 
 ## Extra vanishing at a quadratic singularity
 
-Assume all the \(J^i/J^{i+1}\) are \(O\)-free, of ranks \(H_i\).
-Suppose \(e=4\) and \(v\in uJ+J^2\). For a unimodal \(H\), let
+Assume all the \(J^i/J^{i+1}\) are \(O\)-free, of ranks \(H_i\),
+and \(v\in u^sJ+J^2\), where \(s\ge0\) is an integer and
+\(2s\le e=\operatorname{ord}(w)\). For a unimodal \(H\), let
 \(\Lambda=H^\vee\), whose \(j\)-th part is \(\#\{i:H_i\ge j\}\), and put
 \[
  D_H=\min_{c\in\mathbb R}\sum_i H_i|i-c|,\qquad
@@ -82,21 +83,26 @@ Suppose \(e=4\) and \(v\in uJ+J^2\). For a unimodal \(H\), let
 \]
 Then
 \[
-           \delta\le 3S(\Lambda)+D_H-M(\Lambda)
-                  \le 4S(\Lambda)-M(\Lambda).                     \tag{1}
+ \delta\le(e-s)S(\Lambda)+sD_H-sM(\Lambda)
+                  \le eS(\Lambda)-sM(\Lambda).                    \tag{1}
 \]
-This estimate retains the extra zero of the first normal coefficient.
+This retains the vanishing of the first normal coefficient. The moving
+osculating quadric uses \((e,s)=(4,1)\), giving
+\(3S(\Lambda)+D_H-M(\Lambda)\). The inequality needs only the
+odd-characteristic local algebra hypotheses above, not the global CI
+or characteristic-zero Lefschetz input.
 
 Choose a basis splitting the \(J\)-adic filtration. Each entry of \(N\)
 raises filtration degree at least one, and a step of exactly one degree
-has coefficient divisible by \(u\). In an \(r\)-minor of \(Z(W)\) a
+has coefficient divisible by \(u^s\). In an \(r\)-minor of \(Z(W)\) a
 term of degree \(r-2j\) in \(W\) follows \(j\) matrix steps. Write \(d\)
 for the sum of the row degrees less the sum of the column degrees.
 At least \(2j-d\) of the steps have degree one. Also \(d\le D_H\):
 cancel indices selected as both rows and columns, and subtract the
 same \(c\) from all degrees in the two equal-size remaining sets.
 The term at \(W=w\) thus has valuation at least
-\(-3(2j-r)+r-D_H\).
+\(-(e-s)(2j-r)+sr-sD_H\). A negative lower bound for the number
+of one-degree steps merely weakens this estimate.
 
 In a generic Jordan block of length \(l\), an \(h\)-minor has Laurent
 pole order at most \(h(2l-2h-1)\). Each nonzero entry in row \(i\),
@@ -111,17 +117,37 @@ the \(W\)-independent change of basis therefore gives
 \]
 for every *nonzero coefficient* of an \(r\)-minor. Cancellations
 cannot lower the preceding coefficient-valuation estimate. Expanding
-full-size minors along their identity columns now gives
-\(\delta\le3S(\mu)+D_H-M(\mu)\).
+full-size minors along their identity columns and using
+\[
+ \min_{0\le r\le\operatorname{rank}A}
+       \bigl((e-s)|r-M(\mu)|+sr\bigr)=sM(\mu)
+\]
+now gives \(\delta\le(e-s)S(\mu)+sD_H-sM(\mu)\).
+Here \(e\ge2s\) is exactly what makes the minimum occur at
+\(r=M(\mu)\); equality \(e=2s\) is allowed.
 
 Indeed \(\mu\preceq\Lambda\): \(N^j J^i\subset J^{i+j}\) gives kernel
 dimension at least \(\sum_{h=i}^{i+j-1}H_h\) on the generic fiber.
 By unimodality the largest such sum is the sum of the \(j\) largest
 values of \(H\), the kernel dimension for \(\Lambda\). A unit transfer
 increasing dominance increases \(S\) by at least one and changes \(M\)
-by at most one. Finally, the superlevel sets of \(H\) are intervals
+by at most one, so \((e-s)S-sM\) does not decrease when \(e\ge2s\).
+Finally, the superlevel sets of \(H\) are intervals
 containing a common mode. The sum of distances to that mode on an
 interval of length \(l\) is at most \(\binom l2\). This proves (1).
 The local hypotheses permit arbitrary higher coefficients. For instance
 \(A=O[v_0]/v_0^2,\ v=uv_0,\ w=u^4\) has \(z=u^4+v_0/(2u^3)\)
-and attains (1) with length three.
+and attains (1) with length three. For cyclic \(H=(1,\ldots,1)\)
+of length \(n\), \(D_H=\lfloor n^2/4\rfloor\) and
+\(S(\Lambda)+M(\Lambda)=2D_H\), so (1) equals
+\[
+ (2e-s)\lfloor n^2/4\rfloor-e\lfloor n/2\rfloor.
+\]
+The characteristic-zero [cyclic calculation](conductor_on_a_smooth_carrier.md#a-cyclic-length-independent-of-higher-normal-coefficients)
+proves equality when the first normal coefficient has exact order
+\(s<e\). The inequality does not use that determinant nonvanishing.
+No bound with \(2s>e\) is asserted by this optimization.
+
+Independent review reconstructed the general \((e,s)\) coefficient
+estimate, the endpoint \(e=2s\), dominance comparison and cyclic
+specialization on November 20, 2026.

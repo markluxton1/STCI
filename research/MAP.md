@@ -116,9 +116,14 @@ still require their full lattices. An osculating cover instead puts the
 full conductor at one general point and tests actual homogeneous kernels
 there. [Moving conductor theorem](results/moving_quadratic_conductors.md).
 Its exact length cannot give a scalar deficit on any generically regular
-smaller carrier, including every integral quintic. The osculating direction
-instead has a [primitive-triple obstruction and sharp degree-two repairs](arguments/normal-geometry/osculating_ribbon_obstruction.md),
-and the [flat graph at the endpoint](arguments/linkage/moving_quadratic_covers.md#the-flat-graph-at-the-endpoint)
+smaller carrier, including every integral quintic. The fixed osculating quotient
+has a [primitive-triple obstruction and a classification of all pure CM triple extensions](arguments/normal-geometry/osculating_ribbon_obstruction.md):
+defect degree two gives a projective line, degree three has a determinant
+condition, and every divisor of degree at least four occurs. The algebraic
+classification holds in every odd characteristic, but in characteristic three
+the fixed quotient is not the unique osculating direction; this does not extend
+the characteristic-zero moving-cover theorem. The
+[flat graph at the endpoint](arguments/linkage/moving_quadratic_covers.md#the-flat-graph-at-the-endpoint)
 retains the entire generic conductor as punctual torsion. These identify
 information lost by scalar lengths and pure specialization.
 The characteristic-zero fixed-cover
@@ -155,14 +160,20 @@ carrier-power certificate would force a forbidden fixed-carrier mate in
 characteristic zero.
 For pairs tending to a common smooth quadric, the
 [clean boundary theorem](arguments/equations/common_quadric_chow_boundary.md)
-computes the full special scheme for all degrees \(a,b\ge3\) and
-identifies the resultant base ideal with the square of the center ideal,
-and its graph with the ordinary blowup, on the regular-restriction locus
-in every characteristic. Its balanced quadric subcycle prevents constant
-sole support under the broader coprime-cofactor/nonzero-cancellation
-hypotheses, even at restriction rank drops. Source and graph geometry at
-rank drops, deeper cancellation and closure of varying translate arrangements
-remain separate questions.
+computes the full special scheme for all degrees \(a,b\ge3\), under
+coprime ambient cofactors and nonzero first cancellation on the quadric,
+in every characteristic. For nonzero cofactor restrictions with common
+divisor of class \((h_1,h_2)\), the normal source has kernel dimension
+\((h_1+2)h_2\) and a known exact image. When \(h_2=0\), the
+resultant base ideal is the square of the center ideal and its graph is
+the ordinary blowup; these center points are outside the closure of the
+fixed-degree sole-support locus, including higher-contact arcs. When
+\(h_2>0\), that square-ideal model fails and the graph and deeper
+cancellation remain unresolved, as do zero restrictions, common ambient
+cofactors and other global strata. The balanced quadric subcycle excludes
+constant sole support throughout the special-scheme theorem's scope; for
+the fixed monomial quartic it also excludes the exact Chow-polytope fibre.
+Closure of varying translate arrangements remains a separate question.
 Separately, [simultaneous torus degeneration of the quadratic graph](arguments/linkage/toric_limit_conductor_comparison.md)
 compares original and pure-limit conductor lengths using the difference of
 the two embedded endpoint corrections. Their control by global equations is

@@ -162,6 +162,13 @@ the full lattice at a singular endpoint, can still affect the outcome. The
 records this remaining gap. No general sextic exclusion or stronger
 minimum defining degree follows.
 
+For the distinct [one-point osculating cover](../../arguments/linkage/conductor_on_a_smooth_carrier.md#exact-length-at-the-moving-osculating-point),
+the exact scalar comparison fails on every generically regular smaller
+carrier, including every integral quintic. Its surviving test concerns
+the kernel on actual homogeneous forms; this does not close the
+fixed-endpoint candidates, singular lattices or normalization-descent
+questions just described.
+
 ## Distinct sextic directions
 
 The older sextic investigation concerns a **split first normal cone**:

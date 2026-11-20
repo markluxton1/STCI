@@ -97,15 +97,30 @@ determines the full special scheme in every degree \(a,b\ge3\), for
 any smooth \((1,3)\) curve and in every characteristic, under coprime
 cofactors and nonzero first cancellation on \(Q\). Regular
 cofactor restrictions give a residual source of dimension
-\(a(a-2)+b(b-2)\). The
+\(a(a-2)+b(b-2)\). More generally, write nonzero restrictions as
+\(\alpha=h\alpha'\), \(\beta=h\beta'\), with the common divisor
+\(h\) of class \((h_1,h_2)\), and put \(Z'=V_Q(\alpha',\beta')\).
+The [normal cancellation calculation](../../arguments/equations/common_quadric_chow_boundary.md#normal-cancellation-at-restriction-rank-drops)
+gives kernel dimension \((h_1+2)h_2\) and exact image
+\[
+ h\,H^0\!\left(Q,\mathcal I_{Z'/Q}
+            (a+b-3-h_1,a+b-5-h_2)\right).
+\]
+For \(h_2=0\), including regular restrictions and common trisecant
+ruling factors, the
 [ordinary-blowup theorem](../../arguments/equations/common_quadric_resultant_blowup.md)
 identifies the coefficient base ideal as the square of the center ideal,
-the whole local exceptional fibre, and higher-order arcs on that open.
+and the whole local graph as the ordinary blowup. These center points are
+outside the closure of fixed-degree sole-support pairs, even for arcs with
+higher contact with the center. If \(h_2>0\), the coefficient ideal
+is not that square; its graph and deeper cancellation remain unresolved.
+Zero restrictions, common ambient cofactors and other global resultant
+strata also remain outside this graph classification.
 The balanced effective quadric subcycle rules out constant sole support
-and exact Chow-polytope membership throughout the broader special-ideal
-scope, including restriction rank drops. Source and graph classification
-at rank drops, deeper cancellation, common cofactors and closure of varying
-translate arrangements remain open.
+throughout the broader special-ideal scope, including restriction rank
+drops. For the fixed monomial quartic it also rules out exact
+Chow-polytope membership. This does not decide the closure of varying
+translate arrangements.
 
 [H17](../../arguments/torus/boundary_reconstruction_and_defects.md) gives a linear obstruction and torsor for lifting labeled boundary equations through C, a separate torus-support defect, and bounded-degree embedded CI reconstruction. Compatibility of lifts is not sole-support realization; the finite-order counterexample does not apply to all marked filtrations or fixed-degree full formal data.
 

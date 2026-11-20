@@ -125,12 +125,17 @@ embedded coefficient map retains a further test.
 For the fixed osculating conormal quotient, the
 [primitive-triple class](../../arguments/normal-geometry/osculating_ribbon_obstruction.md)
 is \(2[u^{-2}]\ne0\). A finite-flat quasiprimitive flag extending that
-ribbon needs defect degree at least two; minimal triples form a
-\(\mathbf P^1\), with involution-paired defects and non-Gorenstein
-local rings there. A generically regular osculating carrier
-has first-symbol zeros of total degree \(4a-8\). This connects the
-moving-cover exception to the canonical embedded extension, without
-excluding defect-bearing higher thickenings.
+ribbon needs defect degree at least two, and an actual generically regular
+osculating CI supplies this flag. All embedded triples containing the
+fixed ribbon are classified: minimum defects form a \(\mathbf P^1\),
+cubic defects satisfy a determinant condition, and every divisor of
+degree at least four occurs. Their non-Gorenstein defect points do not
+exclude a later Gorenstein thickening. The carrier's first symbol has
+degree \(4a-8\) and contains the actual defect divisor. The next gate
+is therefore a higher embedded flag and its actual source fixed surfaces,
+not another unrestricted defect-placement test. The fixed quotient's
+algebra extends to odd characteristic; in characteristic three its plane
+family is no longer singled out by osculation.
 
 The [quadric-flag character formula](../../arguments/torus/equation_pair_rank_and_weights.md#characters-of-all-double-surface-equation-spaces)
 computes every weight of the actual degree-\(d\) equations vanishing to
