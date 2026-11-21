@@ -31,16 +31,32 @@ Every other pencil has cycle \(2[C_{u,v}]+2[C_{u,-v}]\).
 Over each such cycle the pencils are exactly the explicit
 [one-parameter orbit](../arguments/torus/quartic_chow_pencils.md#classification).
 The exceptional cycles lie outside the Chow closure of invariant
-\((4,4)\) realizations. Both full opposite limits of the exceptional
-orbit preserve the cycle, with embedded length two at opposite endpoints.
+\((4,4)\) realizations. The non-invariant pencils form a vertical
+\(H\)-orbit in the Hilbert fiber over each fixed exceptional Chow point.
+Both full opposite limits preserve the cycle, with embedded length two
+at opposite endpoints. The normalized exceptional support is
+characterized by coincident cubic jets at both endpoints.
+On the carrier \(G_1=0\) in characteristic zero, the resolved
+ten-nodal K3 surface contains an explicit even eight; its half
+maps to a nontrivial class \(C_++C_--2H\) of order two
+in the carrier's Weil divisor class group.
 Every pair in scope satisfies \(\sum n_i u_i/v_i=0\). In characteristic
-two only the invariant case occurs.
+two only the **multi-support** invariant case occurs; the
+specialized exceptional formulas instead give a non-invariant
+single-support \((4,4)\) STCI presentation.
 
 ## Limitations
 
 The separate [quartic-pair exclusion](quartic_44_filtered_exclusion.md)
 rules out single support in characteristic zero, completing the
-classification in that characteristic. A further
+classification in that characteristic. The [Hilbert--Burch first-normal formulation](../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+gives an intrinsic degeneracy locus for doubled support, but
+has not yet replaced the coefficient-based uniqueness proof.
+The [even-eight divisor calculation](../arguments/torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+explains doubled divisors on one carrier, not uniqueness of
+the family. The [characteristic-two specialization](../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
+has sole support and lies outside the characteristic-zero claim.
+A further
 [fixed-carrier deduction](../arguments/torus/quartic_chow_pencils.md#all-mate-degrees-on-a-retained-exceptional-carrier)
 uses the [quartic-carrier exclusion](quartic_carrier_exclusion.md) to
 classify all translated mates on a retained exceptional carrier in
@@ -49,7 +65,7 @@ and its possible single-support pencils remain open.
 
 ## Review
 
-Independent reconstruction checked the endpoint evaluation kernels,
+The original classification review was accepted for the stated scope; the later geometric and characteristic-two deductions are recorded with their own arguments and have not been promoted to a new completeness certificate. Independent reconstruction checked the endpoint evaluation kernels,
 smooth graph argument, and two-branch transverse determinant through
 first normal order. The invariant moment was rederived by change of
 root coordinate. A separate proof review checked the specialization of
