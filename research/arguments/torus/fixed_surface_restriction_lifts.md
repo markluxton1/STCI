@@ -257,7 +257,12 @@ hypersurface restriction sequence. The lifted pair is proper and pure
 with exactly the prescribed cycle. If \(v=0\), the ratio has degree
 zero and both it and its inverse extend, so it is constant.
 This argument permits nonnormality away from the supported generic
-points.
+points. The extension across codimension two is the standard
+\(S_2\) generalized-divisor/reflexive-sheaf mechanism; see Hartshorne,
+[*Generalized Divisors and Biliaison*](https://arxiv.org/abs/math/0301162).
+The project-specific content is that actual mate equations supply the
+seed rational sections and the hypersurface restriction sequence lifts
+the resulting regular section back to an ambient homogeneous form.
 
 In particular, define \(M_T\subset\mathbf Z_{\ge0}^r\)
 to be the multiplicity vectors of **actual
