@@ -159,8 +159,14 @@ length two at opposite ends. On the exceptional carrier, the
 gives genuine two-torsion in the class group of a ten-nodal quartic K3
 model, while a
 [Hilbert--Burch normal-map degeneracy](arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
-describes doubled support. Neither has yet replaced the coefficient
-uniqueness proof. In characteristic two the exceptional formula
+describes doubled support. The
+[canonical-module and residual-genus proof](arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+now completes the **intrinsic quartic classification**:
+the \((3,1)\) residual contradicts the balanced
+normal bundle, and self-linkage plus the Hilbert--Burch
+canonical module forces the proper \(\lambda\)-orbit.
+The even-eight class remains a complementary
+fixed-carrier explanation, not the uniqueness proof. In characteristic two the exceptional formula
 [collapses to a non-invariant quartic STCI](arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision).
 In arbitrary degrees the [one-carrier trace tests](arguments/torus/chow_trace_cone_jets.md)
 extend the moment to new presentations and exclude cone jets at disjoint
