@@ -65,16 +65,15 @@ describes a doubled-support degeneracy locus inside
 the nilpotent layer of any proper doubled pair is
 canonically \(\omega_Y(-4)\); Serre duality controls the
 degree-three and degree-four maps.
-This Ferrand/Peskine--Szpiro description is now
-the basis of a **geometric classification**:
-residual genus and the balanced normal bundle exclude
-asymmetric \((3,1)\) multiplicities; the
+On the exceptional two-support locus this gives
+**geometric uniqueness of proper quartic pencils**:
+residual genus and the balanced normal bundle
+exclude asymmetric multiplicities; the
 [canonical-module rigidity proof](../../arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
-then forces the entire exceptional \(\lambda\)-orbit,
-using the Hilbert--Burch canonical presentation and
-restriction to the residual coordinate line. The
-previous coefficient and third-normal elimination
-are no longer proof dependencies. The [Hilbert-over-Chow orbit](../../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
+forces the entire \(\lambda\)-orbit, using the
+Hilbert--Burch canonical presentation and restriction
+to the residual line. Support reduction to that
+locus still uses the distinguished torus coordinates. The [Hilbert-over-Chow orbit](../../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
 has opposite full embedded limits and specializes in characteristic
 two to a non-invariant single-support quartic pair. The exact
 Hilbert state-polytope comparison has not been carried out.
