@@ -326,8 +326,8 @@ it would be singular along both. The degree-six forms vanishing to
 order at least two along both are precisely the span of \(A^2,AB,B^2\)
 with the cubics \(A,B\) from the
 [exceptional quartic pencil](quartic_chow_pencils.md#classification).
-Here is a geometric proof of that description, replacing the
-weighted-monomial rank computation. Put \(Y=C_+\cup C_-\) and
+The description follows from the first-normal map and the
+Hilbert--Burch presentation of the reduced union. Put \(Y=C_+\cup C_-\) and
 \(L=V(x_1,x_2)\). Its
 [Hilbert--Burch resolution](quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
 gives
@@ -381,8 +381,8 @@ and the generic independence of \(A,B\) imply
         =\operatorname{Sym}^2(kA\oplus kB)
         =\langle A^2,AB,B^2\rangle .\ } \tag{B}
 \]
-This is a first-normal and restriction-to-\(L\)
-argument; no monomial ranks or computer algebra enter.
+The first-normal equations and restriction to \(L\)
+therefore determine the entire sextic space.
 Every nonzero member of (B) factors as a quadratic in
 the two cubics \(A,B\) over an algebraically closed field,
 and hence cannot define an integral sextic. This establishes the regularity required by the ratio argument.
@@ -458,9 +458,15 @@ on a smooth surface along their support. Thus a viable
 two-support sextic must be singular somewhere on these curves
 (while remaining generically regular as proved above).
 
-There is a stronger **conditional exclusion of nodal carriers**.
-Suppose \(T\) is normal and its singularities are all ordinary
-double points (\(A_1\)). The difference
+### Nodal sextic obstruction
+
+**Proposition (nodal-carrier exclusion).** There is no
+\(\sigma\)-preserved integral sextic with only ordinary
+nodes supporting a proper \((6,6)\) intersection of
+unequal multiplicities on \(C_+\) and \(C_-\).
+
+To prove the proposition, suppose \(T\) is normal and
+its singularities are all ordinary double points (\(A_1\)). The difference
 \(\Delta=n_+-n_-\in\{3,5,7,-3,-5,-7\}\)
 is odd, and
 \[
