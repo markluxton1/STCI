@@ -221,20 +221,48 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   detects support count and normalization colength from the actual endpoint
   algebra. Its value on a given pair provides a test for sole support,
   with no global inequality yet ruling out that value in higher degrees.
-- **Construction target.** A proper \((6,6)\) pair on \(C_{1,\pm1}\)
-  with a carrier preserved by \(x_3\mapsto -x_3\) would give an STCI,
-  by the [fixed-carrier multiplicity comparison](../../arguments/torus/fixed_surface_restriction_lifts.md#a-two-translate-sextic-construction-criterion).
-  The two-support multiplicities total nine, so the involution supplies
-  a second mate with differing multiplicity ratio. Integrality and
-  regularity at the two generic points follow from the translated
-  support, degree six and the symmetry. A first probe can focus on the
-  partition \((5,4)\), which would give a mate of degree six by the
-  multiplicity subtraction. Test the two required orders on an actual
-  sextic preserved by that involution using a common transverse
-  restriction and homogeneous lift. If neither a proper lift nor an
-  obstruction to the joint orders emerges beyond containment, compare
-  another carrier with the elliptic construction target before extending
-  the degree search.
+- **Geometric explanation in degree four.** The
+  [exceptional quartic proof](../../arguments/torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+  identifies its support by coincident cubic jets at **both** endpoints
+  and exhibits a ten-nodal quartic K3 resolution with an exact
+  eight-exceptional-curve divisibility relation. This gives the
+  nontrivial two-torsion Weil class responsible for doubled divisors
+  on a fixed carrier. The
+  [Hilbert--Burch normal-map locus](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+  is an intrinsic candidate to replace the coefficient elimination,
+  but uniqueness of its non-invariant proper component has **not** been
+  deduced from the torsion class. The same
+  [quartic family](../../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
+  supplies an \(H\)-orbit of Hilbert points over one Chow point, two
+  embedded endpoint limits, and a distinct non-invariant \((4,4)\)
+  single-support specialization in characteristic two.
+  The state-polytope comparison has not been explicitly computed.
+- **Corrected two-translate sextic criterion.** A proper \((6,6)\)
+  pair supported on \(C_{1,\pm1}\), with an integral carrier invariant
+  under \(x_3\mapsto-x_3\), would yield an STCI if the two
+  multiplicities differ. They total nine, but the
+  [involution--Bézout inequality](../../arguments/torus/fixed_surface_restriction_lifts.md#involution--bezout-bound-and-the-remaining-sextic-locus)
+  \(4|n_+-n_-|\ge6\) **excludes \((5,4)\)**. Only
+  \((6,3),(7,2),(8,1)\) and reversals remain with both components.
+  The same argument together with the local
+  \(\mathbf Z/2\) divisor class **excludes every such pair
+  on a carrier with only ordinary nodes**. The surviving search
+  must use more complicated singularities on the quartics.
+- **Narrower singular-carrier geometry.** For a normal Du Val sextic,
+  the [local class-group and global correction tests](../../arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
+  require off-endpoint odd-order classes (if those singularities occur):
+  \(A_{3m-1}\) or \(E_6\) for difference three,
+  \(A_{5m-1}\) for difference five, and
+  \(A_{7m-1}\) for difference seven. At the endpoints it is
+  the **difference of the two branch classes** that must have the
+  required order. The rational divisor classes are
+  \([C_\pm]=\tfrac23H\), imposing
+  \(-Z_+^2=-Z_-^2=38/3\) on the crepant resolution.
+  These conditions are necessary, not a construction or a general
+  exclusion. A useful next comparison is the simultaneous local
+  anti-invariant classes, available odd-torsion singularities and
+  the two exceptional-lattice budgets, before testing additional
+  homogeneous coefficient families.
 - **Remaining equation bridge.** The joint first-layer kernel on a declared
   proper family with \(e_L>0\) remains a distinct question. A bound below
   \(e_L\) would force residual degree there; retain canonical end-adapted
@@ -459,15 +487,20 @@ This does not close the normalization, fixed-endpoint or embedded-kernel tests.
 
 ## Current choice and reassessment
 
-Retain KG02 provisionally for the specified two-support \((5,4)\) sextic
-cycle above. The quartic classification supplies a proper repeated-cycle
-control and proves that powers on its retained carrier cannot change the
-multiplicity ratio. The involution on the sextic carrier would convert
-any proper lift at the specified partition into actual sole-support
-equations. The probe can test global realization in that class without
-assuming a deformation from reduced arrangements. On the obstruction
-side, the trace and different calculations leave a distinct question
-about general non-invariant equation sources.
+Retain KG02 provisionally, but **withdraw the \((5,4)\) sextic probe**:
+the involution--Bézout inequality excludes it outright, and the
+remaining \((6,3),(7,2),(8,1)\) two-support partitions are excluded
+on nodal sextic carriers. The current object is the geometry of
+the nonnodal carrier and its anti-invariant local divisor classes
+together with the global \(-Z_\pm^2=38/3\) budgets, not another
+unrestricted coefficient sweep. In parallel, the explicit even-eight
+quartic and its Hilbert--Burch first-normal degeneracy locus offer
+a concrete chance to replace a lengthy low-degree classification
+by geometry and to explain the vertical Hilbert-over-Chow fiber.
+Neither route has a demonstrated general-degree coverage theorem.
+On the obstruction side, the trace and different calculations
+leave a separate question about arbitrary non-invariant equation
+sources.
 
 The common-quadric chart removes the entire \(h_2=0\) boundary and its
 higher-order arcs from this probe. Under coprime ambient cofactors and
