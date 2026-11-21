@@ -57,7 +57,7 @@ identifies \(I_Y/I_Z\simeq\omega_Y(-4)\), with the
 degree-three source map an isomorphism and the
 degree-four kernel the defining pencil. A general Ferrand doubling need not have
 two quartic generators. **For this fixed union**, however,
-[linkage and canonical-module rigidity](../../arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+[linkage and canonical-module rigidity](../../arguments/torus/quartic_chow_pencils.md#proof-route)
 combine the actual equation space with the canonical
 module relations and a residual-line restriction
 to prove that all proper quartic pencils are the
