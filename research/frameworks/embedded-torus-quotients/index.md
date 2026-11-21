@@ -195,7 +195,10 @@ or compute transverse multiplicities. The smaller locus of proper pairs
 whose **entire** cycle consists of translates has the Chow-polytope
 criterion of [R-0074](../../results/chow_polytope_rigidity.md).
 [R-0079](../../results/quartic_chow_pencil_classification.md) gives its
-geometric pencils in \((4,4)\). Its incidence scheme structure and
+geometric pencils in \((4,4)\) **in characteristic zero**.
+The characteristic-two single-support example is a separate
+construction, not a positive-characteristic classification.
+Its incidence scheme structure and
 higher-degree repeated-cycle lifts require further work.
 
 For a fixed translate, the [common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
