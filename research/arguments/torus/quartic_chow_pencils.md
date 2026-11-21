@@ -32,7 +32,8 @@ outside the Chow closure of the invariant quartic realizations. The actual
 pencils form a single \(H\)-orbit over each such cycle, with embedded
 length two at opposite endpoints of the two flat limits.
 On any retained member of (1), the translated mates in arbitrary
-degrees are precisely the powers modulo that carrier described below.
+degrees are precisely the powers modulo that carrier described in the
+[fixed-carrier geometry](quartic_exceptional_carrier_geometry.md#all-mate-degrees-on-a-retained-exceptional-carrier).
 
 ## Contact at a smooth endpoint
 
@@ -176,8 +177,8 @@ This identifies the classical geometric degeneracy
 locus. The [canonical-module rigidity proof below](#two-translates-with-coinciding-cubic-jets)
 shows that **its proper-pair points are exactly (1)**,
 using linkage and the residual coordinate line. The
-even-eight divisor class below explains a doubled divisor
-on a fixed carrier, but alone does not prove uniqueness.
+[even-eight divisor class](quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+explains a doubled divisor on a fixed carrier, but alone does not prove uniqueness.
 
 ## Self-linkage and the canonical conormal quotient
 
@@ -534,311 +535,17 @@ The present linkage/normal-bundle argument does **not**
 establish a full quartic-pencil classification in
 positive characteristic, including odd primes.
 
-## Two-sided contact and the nodal even-eight carrier
+## Related exceptional-family developments
 
-Two distinct translates have the same cubic graph coefficient at
-\(p_0\) exactly when their \(u\)-parameters agree. Reversal sends
-\(u\) to \(u'=v^2/u^3\), so matching cubic coefficients at **both**
-endpoints gives \(u_1=u_2\) and \(v_1^2=v_2^2\).
-In characteristic different from two, distinctness is equivalent
-to \(v_2=-v_1\). Thus the exceptional support is exactly the
-two-support configuration with coincident endpoint cubic jets in
-both directions. The [endpoint different](chow_endpoint_different.md)
-measures the resulting normalization-colength jump from \(3\)
-to \(4\), and different-saturation length from \(12\) to \(14\).
+The classification proof above is the canonical proof owner. Two separable
+consequences now have focused owners:
 
-The carrier \(T=V(G_1)\) in characteristic zero has a classical
-K3-surface description. Put
-\[
- P=x_1x_2+x_0^2,\qquad Q=x_1x_2+x_3^2,\qquad
- R=x_1^2+x_2^2.
-\]
-Direct expansion gives \(G_1=R^2-PQ\). Its singular locus consists
-of the eight reduced solutions of \(P=Q=R=0\) and the two
-marked endpoints \(p_0,p_\infty\). At each of the first eight
-the three quadrics are local parameters and the equation is
-\(R^2-PQ\); at the endpoints the tangent quadratic is,
-up to sign, \(x_1x_2+x_3^2\) or \(x_1x_2+x_0^2\) in the
-corresponding affine chart. All ten singularities are ordinary
-nodes, and the minimal resolution \(\pi:X\to T\) is a K3 surface.
+- [fixed-carrier geometry](quartic_exceptional_carrier_geometry.md), including
+  simultaneous endpoint contact, the ten-nodal K3/even-eight identity, and the
+  classification of translated mates on a retained exceptional carrier;
+- [Hilbert-over-Chow limits](quartic_hilbert_chow_limits.md), including Chow
+  nonclosure, both saturated flat limits, the vertical Hilbert fiber, and the
+  characteristic-two single-support collision.
 
-Let \(h=\pi^*H\), let \(\Gamma_\pm\) denote the strict transforms of
-\(C_\pm\), write \(E_0,E_\infty\) for the endpoint exceptional curves
-and \(E_1,\dots,E_8\) for the others. Since
-\(F_1|_T=2C_++2C_-\), its Cartier pullback is \(4h\).
-The order of \(F_1\) at each of the eight interior nodes is one:
-indeed
-\(F_1=2x_1x_2R-x_2^2P-x_1^2Q\) and \(x_1x_2\ne0\) there.
-At \(p_0,p_\infty\) its quadratic initial form is respectively
-\(-x_2^2\) and \(-x_1^2\); the order on each exceptional curve
-is two. The total-transform equality gives
-\[
- 4h\sim 2\Gamma_++2\Gamma_-+2E_0+2E_\infty
-                 +\sum_{i=1}^8 E_i,
- \qquad
- \boxed{\ \sum_{i=1}^8E_i\sim
- 2(2h-\Gamma_+-\Gamma_--E_0-E_\infty).\ } \tag{E8}
-\]
-Thus the *interior eight* are an even eight on the resolved K3;
-the endpoint exceptional curves contribute integral corrections.
-The image of the half-eight under
-\(\operatorname{Pic}(X)\to\operatorname{Cl}(T)\) is
-\(2H-C_+-C_-\). Equivalently,
-\[
- 2(C_++C_--2H)=0\quad\text{in }\operatorname{Cl}(T).
-\]
-This is nonzero two-torsion: if \(C_++C_-\sim2H\),
-a section of \(\mathcal O_T(2)\) would cut out both curves;
-it lifts to an ambient quadric, contrary to their distinct unique
-containing quadrics. This is precisely the even-eight class, not
-an additional unrelated torsion phenomenon.
-The direct identity (E8) is the proof; for the established framework
-see [Barth, *Even Sets of Eight Rational Curves on a K3-surface*](https://doi.org/10.1007/978-3-642-56202-0_1)
-and [Casnati--Catanese, *Even sets of nodes are bundle symmetric*](https://arxiv.org/abs/alg-geom/9602024).
-The symmetric determinant here has **quadratic** entries, and
-is not thereby a linear quartic symmetroid.
-
-This explains doubled divisors on an exceptional
-**fixed carrier**; by itself it does not classify the
-moving \(\lambda\)-orbit. The orbit's uniqueness is now
-proved separately by [liaison and canonical-module rigidity](#two-translates-with-coinciding-cubic-jets).
-The two geometric mechanisms are complementary.
-
-## Chow closure and full opposite limits
-
-The first moment vanishes on (1) by cancellation of the two opposite
-ratios. On the invariant family, write \(v=\alpha+\beta u\) and the second
-equation as \(u^4+\gamma u v^2+\eta v^3=0\). The root coordinate
-\(\rho=u/v\) gives
-\(\alpha\rho^4+(\gamma\rho+\eta)(1-\beta\rho)=0\).
-The roots and their multiplicities correspond, since \(1-\beta\rho\)
-is nonzero at each root. The missing cubic term gives the first moment
-by Viète's formula, including in characteristic two. In that characteristic
-the first moment also vanishes at a single support since its multiplicity
-is four.
-
-The exceptional cycles lie outside the Chow closure of invariant quartic
-realizations. Specialize any proposed family along a trait and extend
-the two generator lines by projectivity. The projective closure of the
-single-translate orbit gives a proper labeling space via its four-fold
-product. After finite base change the four labels specialize, and each
-degree-four label in the target sum is one of the two prescribed quartics
-by positivity and degree. Thus the labeled traits stay in the open
-orbit, and polynomial incidence forces both limiting quartics to
-contain both translates. For the normalized supports, the limiting
-weight-four and weight-twelve lines are necessarily \(k x_1 A\) and
-\(k x_2 B\). These forms are coprime, so their intersection is the flat
-CI limit. Its cycle contains the line \(x_1=x_2=0\), a contradiction.
-
-The \(H\) action on the exceptional fiber sends \(\lambda\) to
-\(h^{-4}\lambda\) when acting on equations by weight substitution.
-At \(\lambda=0\), the pencil itself tends to \(\langle x_1B,x_2B\rangle\).
-Put \(D_0=x_0^2 D-x_1^2x_2 A\). The **saturated flat limit ideal** is
-\[
-J_0=(x_1 B,\ x_2 B,\ x_0^2 B,\ A^2,\ D_0). \tag{4}
-\]
-Indeed use \(G'=\lambda G_\lambda\) and the cancellation
-\(x_2F_\lambda-x_1G'=-\lambda(x_0^2B+\lambda x_1^2 A)\).
-Writing \(K_0=x_0^2B+\lambda x_1^2 A\), the next cancellations are
-\(x_0^2F_\lambda-x_1 K_0=-\lambda A^2\) and
-\(x_0^2G'-x_2 K_0=\lambda(D_0+\lambda x_0^2x_1 A)\).
-All five generators of (4) therefore specialize from the parameter
-saturation.
-
-The identification of the entire special ideal and its Hilbert
-function can be proved by **Hilbert--Burch and an exact sequence**,
-without a Gröbner order or monomial count. Put
-\[
- I'=(B,A^2,D_0),\qquad T=(x_1,x_2,x_0^2),\qquad
- H_5=2x_0^2x_1^2x_2-x_1^5.
-\]
-The two relations
-\[
- x_0^4B-x_2A^2-x_1D_0=0,\qquad
- H_5B-x_3^2A^2-x_2^2D_0=0
-\]
-are the columns of the Hilbert--Burch matrix
-\[
- \Phi=
- \begin{pmatrix}
- x_0^4&H_5\\
- -x_2&-x_3^2\\
- -x_1&-x_2^2
- \end{pmatrix}. \tag{FL1}
-\]
-Its signed maximal minors are precisely \(B,A^2,D_0\).
-Since \(A\) and \(B\) are coprime, \(I'\) has height two.
-Hilbert--Burch gives
-\[
- 0\longrightarrow S(-7)\oplus S(-8)
- \xrightarrow{\Phi}S(-3)\oplus S(-6)^2
- \longrightarrow I'\longrightarrow0. \tag{FL2}
-\]
-In particular, \(S/I'\) is arithmetically Cohen--Macaulay,
-and its Hilbert series is
-\[
- H_{S/I'}(q)=
- \frac{1-q^3-2q^6+q^7+q^8}{(1-q)^4}. \tag{FL3}
-\]
-Geometrically, this is the **pure doubled divisor** supported on
-\(C_+\cup C_-\) inside the cubic carrier \(B=0\):
-away from the endpoints, the relation
-\(x_1D_0+x_2A^2=x_0^4B\) makes \(I'=(B,A^2)\);
-the two curves are regular and \((A,B)\) give transverse parameters.
-Their multiplicities are two, accounting for all sixteen degrees
-of the Cohen--Macaulay determinantal curve. The Hilbert polynomial
-of this pure quotient is \(16n-34\).
-
-The five-generator ideal (4) is \(J_0=(A^2,D_0)+BT\).
-The Hilbert--Burch relations in (FL2) identify
-\[
- (A^2,D_0):B=(x_0^4,H_5)\subset T,\qquad
- J_0:B=T.
-\]
-Consequently multiplication by \(B\) gives a short exact
-sequence of graded modules
-\[
- 0\longrightarrow (S/T)(-3)
- \xrightarrow{\ \cdot B\ } S/J_0
- \longrightarrow S/I'\longrightarrow0. \tag{FL4}
-\]
-Here \(S/T\simeq k[x_0,x_3]/(x_0^2)\) is the structure
-module of a length-two scheme at \(p_\infty\).
-Thus (FL4) geometrically exhibits the embedded
-endpoint correction and gives
-\[
- \begin{aligned}
- H_{S/J_0}(q)
- &=\frac{1-q^3-2q^6+q^7+q^8}{(1-q)^4}
-   +\frac{q^3(1+q)}{1-q}\\
- &=\frac{(1-q^4)^2}{(1-q)^4},
- \end{aligned} \tag{FL5}
-\]
-the Hilbert series of a \((4,4)\) complete intersection.
-The first and last terms of (FL4) are Cohen--Macaulay of
-dimensions one and two, respectively. The depth lemma
-gives \(\operatorname{depth}(S/J_0)\ge1\); hence \(J_0\)
-is already saturated.
-
-The generators in (4) come from the parameter-saturated
-family, so \(J_0\) is contained in its special ideal.
-The generic fiber is a proper \((4,4)\) complete intersection,
-and each degree of the parameter-saturated family is a
-torsion-free finite module over the parameter DVR, hence free.
-Its special fiber therefore has the same Hilbert function as
-the generic fiber. Equation (FL5) forces equality of the
-special ideal with \(J_0\). This proves the **full scheme**
-limit, not only its cycle or pure hull.
-
-Reversal sends
-\(\lambda\) to \(\lambda^{-1}\), giving the other full limit and embedded
-length two at \(p_0\). The cycles agree throughout this family.
-For a separate invariant of the original pairs, see the
-[endpoint different](chow_endpoint_different.md#colength-and-finite-detection).
-
-## Hilbert over Chow, and the characteristic-two collision
-
-For a fixed exceptional cycle, the ideals \((F_\lambda,G_\lambda)\)
-give a nonconstant \(H\simeq\mathbf G_m\)-orbit in the Hilbert
-fiber over a **single Chow point**. The two saturated opposite limits
-are fixed Hilbert points above that same cycle. The original pairs
-are proper complete intersections; their limiting ideals have extra
-generators and embedded endpoint length two, despite having the
-unchanged fundamental cycle. Thus the Chow polytope (indeed the
-entire Chow point) cannot recover the vertical Hilbert orbit.
-The appropriate classical comparison is the Hilbert-state-polytope
-and Gröbner-degeneration theory of
-[Bayer--Morrison, *Standard bases and geometric invariant theory I*](https://doi.org/10.1016/S0747-7171(88)80043-9).
-No explicit projected state polytope or general conservation law
-equating different jumps to embedded length is asserted.
-
-There is also a **single-support** phenomenon in characteristic two,
-which must not be confused with the multi-support classification.
-Specialize (1) at \(\lambda=1\) and reduce modulo two:
-\(F=x_2A+x_1B,\ G=D+x_1A+x_2B\).
-Direct expansion gives
-\[
- A^2=(x_0^2+x_1x_2)F+x_1^2G,\qquad
- B^2=(x_1x_2+x_3^2)F+x_2^2G
- \quad(\operatorname{char}k=2).
-\]
-The reduced support of \(V(A,B)\) is \(C_0\) together with
-\(L=V(x_1,x_2)\). On \(L\), \(G=x_0^2x_3^2\),
-so the only points of \(L\) retained by the pair are
-\(p_0,p_\infty\in C_0\). Thus \(\sqrt{(F,G)}=I_{C_0}\).
-The pair is proper since a common surface factor of \(F,G\)
-would divide both \(A^2,B^2\), whereas \(A,B\) are coprime.
-Its ideal is non-invariant, as the distinct intrinsic weights of
-both generators show. This is a characteristic-two
-\((4,4)\) STCI presentation with a \((2,2)\) generic-characteristic
-support splitting; it is different from the familiar four-distinct-
-translate binomial splitting \((1,1,1,1)\).
-This explicit characteristic-two construction makes
-**no claim** to classify all multi-support quartic pencils
-in that characteristic. The full uniqueness theorem
-above is stated and proved in characteristic zero.
-
-## All mate degrees on a retained exceptional carrier
-
-In characteristic zero, fix any nonzero member \(T\) of an exceptional
-pencil (1), and choose an independent member \(T'\) from that pencil.
-The proper pairs \((T,Q_b)\) whose whole cycles are made of translates
-are exactly
-\[
-b=4j,\qquad Q_b|_{V(T)}=c\,(T'|_{V(T)})^j,\qquad
-j\ge1,\quad c\ne0.
-\tag{5}
-\]
-Their cycles are \(2j[C_{1,1}]+2j[C_{1,-1}]\).
-In degree four this recovers the original pencil from any one of its
-nonzero members and the condition on the mate's cycle.
-
-In fact the disjoint weight sets in (1) show that the only translates
-lying on \(T\) are \(C_{1,\pm1}\). Either a nonzero \(F_\lambda\) part
-or the \(G_\lambda\) part forces both \(A=B=0\) on any contained
-translate. Also \(T\) is integral. A plane factor is impossible by
-properness with \(T'\) and the translated support. A reducible quartic
-without a plane factor would have a quadric factor. Such a factor
-contains one of the translates from its positive-degree intersection
-with \(T'\), and is therefore that translate's unique smooth quadric.
-An effective sum of its translated curves, all of the same ruling
-class \((1,3)\), cannot be the hypersurface section by \(T'\).
-
-The surface \(V(T)\) is regular at the two generic points.
-The first-normal rows computed above are proportional on
-each component, with quotient
-\[
- \frac{\operatorname{in}_1(G_\lambda)}
-      {\operatorname{in}_1(F_\lambda)}
- =\frac{\lambda^{-1}x_2+x_0^2/x_1}{x_1}
- =t^{-2}+\lambda^{-1}t^2
- \quad\text{on }C_\pm\cap\{x_0=1\}.
-\]
-This rational function is nonconstant in characteristic zero.
-Hence no nonzero constant linear combination of
-\(F_\lambda,G_\lambda\) can lose its first normal symbol
-identically along either component. Every retained carrier
-is therefore regular at both generic points.
-It is also \(S_2\), being a hypersurface.
-
-Write the cycle of \(Q_b\) on this surface as \(n_+[C_{1,1}]+
-n_-[C_{1,-1}]\), allowing zero, so \(b=n_++n_-\). If \(n_+>n_-\),
-the rational section \(Q_b^2/(T')^{n_-}\) of degree \(2(n_+-n_-)\)
-is regular in codimension one. This follows from the orders on the
-two regular branches and from \(T'\) being a unit off their support
-in every other codimension-one local ring, in a local trivialization.
-The \(S_2\) property extends the section. It lifts to an ambient form
-by \(H^1(\mathbf P^3,\mathcal O(d-4))=0\) in its degree \(d\).
-Its cycle on \(V(T)\) is supported on the plus translate alone,
-contradicting the
-[quartic-carrier exclusion](../../results/quartic_carrier_exclusion.md).
-The opposite inequality is excluded by exchanging the signs.
-
-If the common multiplicity is odd, \(2j+1\), divide \(Q_b\) by
-\((T')^j\) and extend by the same argument. The resulting degree-two
-section lifts to a quadric through both translates, impossible since
-their unique quadrics are distinct. For common multiplicity \(2j\)
-the ratio \(Q_b/(T')^j\) is an everywhere invertible regular function
-by the same codimension-one argument applied to the ratio and its
-inverse. It is constant by projectivity and integrality. Conversely
-each restriction in (5) is nonzero and has the asserted cycle.
+These developments use the classified family but are not steps in the
+liaison/canonical-module uniqueness proof.
