@@ -306,6 +306,85 @@ proper pencils are (1). In particular, the even-eight
 divisor class below does not classify all points of this
 Grassmannian locus.
 
+## Self-linkage and the canonical conormal quotient
+
+There is a further established geometric structure behind the
+normal-rank condition. Let \(Y=C_+\cup C_-\) in characteristic
+different from two. Its Hilbert--Burch resolution above gives
+\[
+ \deg Y=8,\qquad P_Y(n)=8n-6,\qquad p_a(Y)=7.
+\]
+Moreover **\(Y\) is locally a complete intersection**, even
+at its two marked singularities. At \(p_0\), eliminate \(x_2\)
+using \(A\) in the affine chart \(x_0=1\): the ideal becomes
+\((x_2-x_1^3,\ x_3^2-x_1^8)\).
+At \(p_\infty\), similarly eliminate \(x_1\) using \(B\)
+on \(x_3=1\): the ideal becomes
+\((x_1-x_2^3,\ x_0^2-x_2^8)\).
+Thus the endpoints are two planar \(A_7\) singularities,
+each consisting of two smooth branches with intersection
+multiplicity four. The dualizing sheaf \(\omega_Y\)
+is therefore invertible, and on either component
+\[
+ \omega_Y|_{C_\pm}
+ =\omega_{C_\pm}(4p_0+4p_\infty)
+ \simeq\mathcal O_{\mathbf P^1}(6).
+\]
+
+Now let \(Z=V(F,G)\) be a **proper** \((4,4)\) complete
+intersection with cycle \(2[C_+]+2[C_-]\).
+The ideal \(I_Z\) lies inside \(I_Y\), and at each generic
+component point its local ring is a length-two quotient of
+a two-dimensional regular local ring. The residual scheme
+\(Y'=(I_Z:I_Y)\) is Cohen--Macaulay by the
+Peskine--Szpiro complete-intersection linkage theorem
+because \(Y\) is arithmetically Cohen--Macaulay.
+At each generic point, a length-two local complete
+intersection has residual length one, so
+\(Y'\) has the same reduced support and generically
+the same reduced structure as \(Y\).
+It has degree \(16-8=8\), with no embedded components.
+Hence \(Y'=Y\) scheme-theoretically:
+\[
+ \boxed{\ I_Z:I_Y=I_Y,\qquad I_Y^2\subset I_Z.\ }
+\]
+The standard linkage duality identifies the nilpotent
+ideal of this self-linkage,
+\[
+ \boxed{\
+ I_Y/I_Z\simeq\omega_Y(4-4-4)=\omega_Y(-4).\ } \tag{SL}
+\]
+Consequently every such pencil determines a **surjection**
+\[
+ I_Y/I_Y^2\twoheadrightarrow\omega_Y(-4).
+\]
+This is the canonical Ferrand self-doubling description,
+rather than merely a pair of dependent normal jets
+on the separate smooth components. It includes
+the endpoint gluing encoded by \(\omega_Y\).
+See [Bănică--Forster, *Multiplicity Structures on Space Curves*,
+§1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf)
+and [Franco--Kleiman--Lascu, *Gherardelli linkage and complete
+intersections*](https://arxiv.org/abs/math/0003075).
+For a numerical check, the line bundle
+\(\omega_Y(-4)\) has degree
+\(2p_a(Y)-2-4\deg Y=12-32=-20\), so
+\(P_{\omega_Y(-4)}(n)=8n-26\).
+Together with \(P_Y(n)=8n-6\) this recovers
+the CI polynomial \(P_Z(n)=16n-32\).
+
+**Scope.** The canonical quotient is a *necessary intrinsic
+structure*, not yet a replacement classification of actual
+quartic pencils: a Ferrand doubling alone does not ensure
+that its global homogeneous ideal has two generators
+of degree four. To remove the remaining coefficient
+elimination, one must classify the compatible conormal
+quotients **and** the two-generator lifts in
+\(\operatorname{Gr}(2,9)\), including the two \(A_7\)
+endpoints. The current classification proves this by its
+explicit endpoint and normal-contact calculation; no
+fully geometric uniqueness proof is asserted here.
+
 ## Two-sided contact and the nodal even-eight carrier
 
 Two distinct translates have the same cubic graph coefficient at
