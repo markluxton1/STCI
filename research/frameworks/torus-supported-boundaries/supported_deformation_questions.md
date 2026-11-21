@@ -30,7 +30,7 @@ Ambient smoothability does not imply smoothability through
 translated-component cycles.
 
 The exceptional family now has a geometric description at several
-distinct levels. [Simultaneous endpoint cubic contact](../../arguments/torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+distinct levels. [Simultaneous endpoint cubic contact](../../arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
 forces the opposite-sign translates; on the carrier \(G_1\)
 the minimal K3 resolution has a ten-node configuration and an
 explicit **even eight** whose half maps to a nontrivial order-two
@@ -47,7 +47,7 @@ The classified non-invariant \(H\)-orbit moves **inside one Hilbert
 fiber over a fixed Chow point** and acquires embedded corrections at
 its opposite ends. It does not prove a general relation between
 state polytopes and the relative endpoint different.
-The [characteristic-two collapse](../../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
+The [characteristic-two collapse](../../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
 is a non-invariant single-support quartic CI, outside the
 multi-support classification in that characteristic.
 
