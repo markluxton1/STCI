@@ -69,7 +69,7 @@ On the exceptional two-support locus this gives
 **geometric uniqueness of proper quartic pencils**:
 residual genus and the balanced normal bundle
 exclude asymmetric multiplicities; the
-[canonical-module rigidity proof](../../arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+[canonical-module rigidity proof](../../arguments/torus/quartic_chow_pencils.md#proof-route)
 forces the entire \(\lambda\)-orbit, using the
 Hilbert--Burch canonical presentation and restriction
 to the residual line. Support reduction to that
