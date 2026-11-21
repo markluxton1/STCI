@@ -17,7 +17,8 @@ proofs:
 
 ## Scope
 
-Over an algebraically closed field, take a proper
+For the **classification**, let \(k\) be an algebraically
+closed field of **characteristic zero**. Take a proper
 \((4,4)\) CI with full Chow polytope \(4P_{C_0}\), where
 \(C_0=[s^4:s^3t:st^3:t^4]\), and at least two distinct components.
 Write \(H\) for the torus of weights \((0,1,3,4)\), and
@@ -40,16 +41,29 @@ On the carrier \(G_1=0\) in characteristic zero, the resolved
 ten-nodal K3 surface contains an explicit even eight; its half
 maps to a nontrivial class \(C_++C_--2H\) of order two
 in the carrier's Weil divisor class group.
-Every pair in scope satisfies \(\sum n_i u_i/v_i=0\). In characteristic
-two only the **multi-support** invariant case occurs; the
-specialized exceptional formulas instead give a non-invariant
-single-support \((4,4)\) STCI presentation.
+Every pair in this **characteristic-zero** scope satisfies
+\(\sum n_i u_i/v_i=0\).
+
+**Separate characteristic-two construction (not part of the
+classification).** Reduction of the normalized exceptional
+formulas at \(\lambda=1\) gives a non-invariant
+single-support \((4,4)\) STCI presentation of \(C_0\).
+This is proved directly by polynomial identities and a
+boundary support check; it does **not** establish a complete
+multi-support classification in characteristic two.
 
 ## Limitations
 
 The separate [quartic-pair exclusion](quartic_44_filtered_exclusion.md)
-rules out single support in characteristic zero, completing the
-classification in that characteristic. The [Hilbert--Burch first-normal formulation](../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+rules out single support in characteristic zero, completing
+the classification **only in characteristic zero**.
+The revised liaison proof uses the characteristic-zero
+balanced normal splitting
+\(N_{C/\mathbf P^3}\simeq\mathcal O(7)^{\oplus2}\);
+it does not prove the full uniqueness statement in
+odd positive characteristic. The invariant line-and-quartic
+model has its own separately stated characteristic scope.
+No positive-characteristic classification is asserted here. The [Hilbert--Burch first-normal formulation](../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
 gives an intrinsic degeneracy locus for doubled support.
 Every proper \((4,4)\) member of that locus
 [self-links the locally complete-intersection union](../arguments/torus/quartic_chow_pencils.md#self-linkage-and-the-canonical-conormal-quotient):
@@ -100,10 +114,20 @@ weight/parity monomial enumeration, while a second
 Hilbert--Burch resolution and exact sequence replace the
 full-flat-limit Gröbner calculation. The sextic conormal
 rank table is replaced at its canonical argument owner.
-The new uniqueness proof has been checked for
-degree/genus arithmetic, the canonical module grading,
-syzygy signs, and the final Koszul argument, but **has
-not yet received an independent mathematical review**.
+A subsequent **independent mathematical review of
+the updated geometric proof (PR #171, head \`f323856\`)**
+reconstructed the residual genus/Ferrand obstruction,
+the canonical-module relations, the residual-line
+restriction and its signs, and the full flat-limit
+and sextic syzygy arguments. It found no substantive gap
+in the **characteristic-zero quartic uniqueness proof**,
+but correctly identified the previously overstated
+characteristic scope and the separate degree-independent
+involution--Bézout regularity hypothesis; both
+statements have now been restricted at their owners.
+This is a scoped independent correctness reconstruction,
+not a claim that all six independent review perspectives
+have been completed.
 The earlier separate reviews of the characteristic-two
 specialization, opposite full limits, and retained-carrier
 theorem preserve their stated scopes. No unrestricted
