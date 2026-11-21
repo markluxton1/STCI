@@ -160,7 +160,13 @@ compactification](arguments/torus/quartic_hilbert_chow_limits.md#two-compactific
 with two distinct embedded endpoint limits. Its **Grassmannian**
 orbit closure in the Plücker embedding is explicitly a smooth
 twisted cubic; its two boundary points are instead improper pencils
-with a common cubic factor. On the exceptional carrier, the
+with a common cubic factor. By
+[Chen--Nollet detachment](arguments/torus/quartic_hilbert_chow_limits.md#detaching-the-embedded-endpoint),
+each saturated endpoint also lies in the closure of the
+six-dimensional family obtained by adjoining two isolated points
+to the pure doubled curve. Thus the proper-CI orbit is only a
+one-dimensional slice of a substantially larger fixed-one-cycle
+Hilbert locus. On the exceptional carrier, the
 [even-eight identity](arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
 gives genuine two-torsion in the class group of a ten-nodal
 quartic K3 model. Its [Nikulin double cover](arguments/torus/quartic_exceptional_carrier_geometry.md#the-nikulin-double-cover-and-a-square-root-of-the-mate)
