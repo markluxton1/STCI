@@ -14,7 +14,7 @@ F_\lambda=\lambda x_2A+x_1B,\qquad
 G_\lambda=D+\lambda x_1A+\lambda^{-1}x_2B. \tag{1}
 \]
 The classification and uniqueness of this family remain in the canonical
-[liaison/canonical-module proof](quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets).
+[liaison/canonical-module proof](quartic_chow_pencils.md#proof-route).
 
 ## Two-sided contact and the nodal even-eight carrier
 
@@ -83,7 +83,7 @@ is not thereby a linear quartic symmetroid.
 This explains doubled divisors on an exceptional
 **fixed carrier**; by itself it does not classify the
 moving \(\lambda\)-orbit. The orbit's uniqueness is now
-proved separately by [liaison and canonical-module rigidity](quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets).
+proved separately by [liaison and canonical-module rigidity](quartic_chow_pencils.md#proof-route).
 The two geometric mechanisms are complementary.
 
 ## All mate degrees on a retained exceptional carrier
