@@ -29,6 +29,33 @@ extends the equation to some non-invariant presentations in all degrees.
 Ambient smoothability does not imply smoothability through
 translated-component cycles.
 
+The exceptional family now has a geometric description at several
+distinct levels. [Simultaneous endpoint cubic contact](../../arguments/torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+forces the opposite-sign translates; on the carrier \(G_1\)
+the minimal K3 resolution has a ten-node configuration and an
+explicit **even eight** whose half maps to a nontrivial order-two
+Weil divisor class. A
+[Hilbert--Burch normal-map locus](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+records generic doubled support without assuming invariant equations.
+The classified non-invariant \(H\)-orbit moves **inside one Hilbert
+fiber over a fixed Chow point** and acquires embedded corrections at
+its opposite ends. It does not prove a general relation between
+state polytopes and the relative endpoint different.
+The [characteristic-two collapse](../../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
+is a non-invariant single-support quartic CI, outside the
+multi-support classification in that characteristic.
+
+The [fixed-carrier symmetry lattice](../../arguments/torus/fixed_surface_restriction_lifts.md#symmetry-and-the-multiplicity-lattice)
+turns certain nonnegative integer combinations of actual
+mate cycles into new actual mates. The proposed two-translate
+sextic test has a sharp correction: \((5,4)\) is impossible by the
+[involution--Bézout bound](../../arguments/torus/fixed_surface_restriction_lifts.md#involution--bezout-bound-and-the-remaining-sextic-locus);
+the remaining unequal partitions are impossible on a nodal sextic.
+For a normal Du Val sextic, the surviving
+[ADE local classes and global correction budget](../../arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
+must be satisfied simultaneously. Those tests do not
+exclude arbitrary higher-singularity carriers or solve STCI.
+
 The next geometry concerns higher-degree repeated-cycle lifts and the
 boundary of their moment-constrained loci. A parameter escaping the
 torus can leave the fixed-polytope fiber, so its compactification must
