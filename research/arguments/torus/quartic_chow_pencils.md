@@ -187,6 +187,110 @@ The multi-support classification works in every characteristic, with
 only the invariant case in characteristic two. The single-support
 exclusion invoked here uses characteristic zero.
 
+## Hilbert--Burch and first-normal interpretation
+
+For the normalized exceptional support \(Y=C_+\cup C_-\),
+\(C_\pm=C_{1,\pm1}\), the saturated reduced ideal is
+\[
+ I_Y=(A,B,D),\qquad
+ 0\longrightarrow S(-5)^2
+ \xrightarrow{\left(\begin{smallmatrix}
+ x_2^2&x_3^2\\ x_0^2&x_1^2\\ x_1&x_2
+ \end{smallmatrix}\right)}
+ S(-3)^2\oplus S(-4)\longrightarrow I_Y\longrightarrow0.
+\]
+The signed maximal minors are \(D,B,-A\); this is the
+Hilbert--Burch resolution, up to ordering and signs of generators.
+In particular \(\dim I_Y(4)=9\) and
+\(I_Y(4)=AS_1+BS_1+kD\), explaining the initial equation space
+used in the classification without a monomial enumeration.
+
+Inside \(\operatorname{Gr}(2,I_Y(4))=\operatorname{Gr}(2,9)\),
+a pencil \(W\) has generic intersection multiplicity at least two
+on each \(C_\epsilon\) precisely when its first-normal-symbol map
+\[
+ W\otimes\mathcal O_{C_\epsilon}\longrightarrow
+ N^\vee_{C_\epsilon/\mathbf P^3}(4)
+\]
+has generic rank at most one, i.e. its determinant vanishes identically.
+For a **proper** quartic pencil this condition on both components,
+together with degree \(4\cdot4=2\cdot4+2\cdot4\), forces the
+cycle \(2[C_+]+2[C_-]\). It is a geometric description of a
+degeneracy locus, **not yet** a replacement proof that its only
+non-invariant proper pencils are (1). In particular, the even-eight
+divisor class below does not classify all points of this
+Grassmannian locus.
+
+## Two-sided contact and the nodal even-eight carrier
+
+Two distinct translates have the same cubic graph coefficient at
+\(p_0\) exactly when their \(u\)-parameters agree. Reversal sends
+\(u\) to \(u'=v^2/u^3\), so matching cubic coefficients at **both**
+endpoints gives \(u_1=u_2\) and \(v_1^2=v_2^2\).
+In characteristic different from two, distinctness is equivalent
+to \(v_2=-v_1\). Thus the exceptional support is exactly the
+two-support configuration with coincident endpoint cubic jets in
+both directions. The [endpoint different](chow_endpoint_different.md)
+measures the resulting normalization-colength jump from \(3\)
+to \(4\), and different-saturation length from \(12\) to \(14\).
+
+The carrier \(T=V(G_1)\) in characteristic zero has a classical
+K3-surface description. Put
+\[
+ P=x_1x_2+x_0^2,\qquad Q=x_1x_2+x_3^2,\qquad
+ R=x_1^2+x_2^2.
+\]
+Direct expansion gives \(G_1=R^2-PQ\). Its singular locus consists
+of the eight reduced solutions of \(P=Q=R=0\) and the two
+marked endpoints \(p_0,p_\infty\). At each of the first eight
+the three quadrics are local parameters and the equation is
+\(R^2-PQ\); at the endpoints the tangent quadratic is,
+up to sign, \(x_1x_2+x_3^2\) or \(x_1x_2+x_0^2\) in the
+corresponding affine chart. All ten singularities are ordinary
+nodes, and the minimal resolution \(\pi:X\to T\) is a K3 surface.
+
+Let \(h=\pi^*H\), let \(\Gamma_\pm\) denote the strict transforms of
+\(C_\pm\), write \(E_0,E_\infty\) for the endpoint exceptional curves
+and \(E_1,\dots,E_8\) for the others. Since
+\(F_1|_T=2C_++2C_-\), its Cartier pullback is \(4h\).
+The order of \(F_1\) at each of the eight interior nodes is one:
+indeed
+\(F_1=2x_1x_2R-x_2^2P-x_1^2Q\) and \(x_1x_2\ne0\) there.
+At \(p_0,p_\infty\) its quadratic initial form is respectively
+\(-x_2^2\) and \(-x_1^2\); the order on each exceptional curve
+is two. The total-transform equality gives
+\[
+ 4h\sim 2\Gamma_++2\Gamma_-+2E_0+2E_\infty
+                 +\sum_{i=1}^8 E_i,
+ \qquad
+ \boxed{\ \sum_{i=1}^8E_i\sim
+ 2(2h-\Gamma_+-\Gamma_--E_0-E_\infty).\ } \tag{5}
+\]
+Thus the *interior eight* are an even eight on the resolved K3;
+the endpoint exceptional curves contribute integral corrections.
+The image of the half-eight under
+\(\operatorname{Pic}(X)\to\operatorname{Cl}(T)\) is
+\(2H-C_+-C_-\). Equivalently,
+\[
+ 2(C_++C_--2H)=0\quad\text{in }\operatorname{Cl}(T).
+\]
+This is nonzero two-torsion: if \(C_++C_-\sim2H\),
+a section of \(\mathcal O_T(2)\) would cut out both curves;
+it lifts to an ambient quadric, contrary to their distinct unique
+containing quadrics. This is precisely the even-eight class, not
+an additional unrelated torsion phenomenon.
+The direct identity (5) is the proof; for the established framework
+see [Barth, *Even Sets of Eight Rational Curves on a K3-surface*](https://doi.org/10.1007/978-3-642-56202-0_1)
+and [Casnati--Catanese, *Even sets of nodes are bundle symmetric*](https://arxiv.org/abs/alg-geom/9602024).
+The symmetric determinant here has **quadratic** entries, and
+is not thereby a linear quartic symmetroid.
+
+This explains doubled divisors on an exceptional **fixed carrier**,
+not why the carriers themselves vary in the unique
+\(\lambda\)-orbit. The latter uniqueness is established by the
+quartic-pencil classification above; a geometric replacement
+via the Hilbert--Burch first-normal degeneracy locus remains open.
+
 ## Chow closure and full opposite limits
 
 The first moment vanishes on (1) by cancellation of the two opposite
@@ -265,6 +369,46 @@ has Hilbert polynomial \(16n-34\). Reversal sends
 length two at \(p_0\). The cycles agree throughout this family.
 For a separate invariant of the original pairs, see the
 [endpoint different](chow_endpoint_different.md#colength-and-finite-detection).
+
+## Hilbert over Chow, and the characteristic-two collision
+
+For a fixed exceptional cycle, the ideals \((F_\lambda,G_\lambda)\)
+give a nonconstant \(H\simeq\mathbf G_m\)-orbit in the Hilbert
+fiber over a **single Chow point**. The two saturated opposite limits
+are fixed Hilbert points above that same cycle. The original pairs
+are proper complete intersections; their limiting ideals have extra
+generators and embedded endpoint length two, despite having the
+unchanged fundamental cycle. Thus the Chow polytope (indeed the
+entire Chow point) cannot recover the vertical Hilbert orbit.
+The appropriate classical comparison is the Hilbert-state-polytope
+and Gröbner-degeneration theory of
+[Bayer--Morrison, *Standard bases and geometric invariant theory I*](https://doi.org/10.1016/S0747-7171(88)80043-9).
+No explicit projected state polytope or general conservation law
+equating different jumps to embedded length is asserted.
+
+There is also a **single-support** phenomenon in characteristic two,
+which must not be confused with the multi-support classification.
+Specialize (1) at \(\lambda=1\) and reduce modulo two:
+\(F=x_2A+x_1B,\ G=D+x_1A+x_2B\).
+Direct expansion gives
+\[
+ A^2=(x_0^2+x_1x_2)F+x_1^2G,\qquad
+ B^2=(x_1x_2+x_3^2)F+x_2^2G
+ \quad(\operatorname{char}k=2).
+\]
+The reduced support of \(V(A,B)\) is \(C_0\) together with
+\(L=V(x_1,x_2)\). On \(L\), \(G=x_0^2x_3^2\),
+so the only points of \(L\) retained by the pair are
+\(p_0,p_\infty\in C_0\). Thus \(\sqrt{(F,G)}=I_{C_0}\).
+The pair is proper since a common surface factor of \(F,G\)
+would divide both \(A^2,B^2\), whereas \(A,B\) are coprime.
+Its ideal is non-invariant, as the distinct intrinsic weights of
+both generators show. This is a characteristic-two
+\((4,4)\) STCI presentation with a \((2,2)\) generic-characteristic
+support splitting; it is different from the familiar four-distinct-
+translate binomial splitting \((1,1,1,1)\). It does not contradict
+the statement above that only invariant **multi-support**
+pencils occur in characteristic two.
 
 ## All mate degrees on a retained exceptional carrier
 
