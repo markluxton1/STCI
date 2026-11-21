@@ -390,9 +390,12 @@ and hence cannot define an integral sextic. This establishes the regularity requ
 ### Involution--Bezout bound and the remaining sextic locus
 
 The symmetry provides a useful degree-independent necessary
-inequality. Suppose \(T=V(F_a)\) is integral and
-\(\sigma\)-preserved, and \((T,G_b)\) is proper with full cycle
-\(n_+C_++n_-C_-\), \(n_+\ne n_-\). An irreducible
+inequality **under generic regularity**. Work in characteristic
+different from two. Suppose \(T=V(F_a)\) is integral,
+\(\sigma\)-preserved, **and regular at the generic points of
+both \(C_+\) and \(C_-\)**; assume that \((T,G_b)\) is proper,
+with full cycle \(n_+C_++n_-C_-\), \(n_+\ne n_-\).
+An irreducible
 \(\sigma\)-eigen equation for \(T\) must be **even** in \(x_3\):
 an anti-invariant polynomial would have \(x_3\) as a factor.
 Set \(q=\min(n_+,n_-)\). Then
@@ -400,15 +403,22 @@ Set \(q=\min(n_+,n_-)\). Then
  G_b-\sigma G_b=x_3H_{b-1}.
 \]
 Since the multiplicities differ, \(H_{b-1}\ne0\).
-At either generic curve point, \(x_3\) is a unit and the
-two sections have unequal valuation, hence \(H_{b-1}\)
-has order **exactly** \(q\) on both curves.
-The carrier degree exceeds \(b-1\) in the sextic case,
-and in general its integrality ensures that \(H_{b-1}\)
-does not contain \(T\) whenever the nonzero difference is
-not divisible by its equation: here this follows because
-unequal valuations mean \(G_b-\sigma G_b\) is nonzero
-on \(T\). Degree exhaustion gives
+At the generic point of each curve, the local ring
+\(\mathcal O_{T,\eta_{C_\pm}}\) is a **DVR by the generic
+regularity hypothesis**. The coordinate \(x_3\) is a unit
+there, and \(G_b|_T\) and \((\sigma G_b)|_T\)
+have valuations \(n_+,n_-\) in opposite order.
+Because these valuations differ, the DVR valuation of
+their difference is exactly \(q\). Hence
+\(H_{b-1}|_T\) has order \(q\) on **both** curves.
+
+Moreover \(H_{b-1}|_T\ne0\): if it vanished, the two
+sections would agree on \(T\), contradicting their
+unequal generic valuations. Since \(T\) is an integral
+hypersurface, it is not a component of \(V(H_{b-1})\).
+The proper divisor intersection has degree \(a(b-1)\),
+and its curve multiplicities are at least \(q\)
+at \(C_+\) and \(C_-\). Bézout therefore gives
 \[
  a(b-1)=\deg(T\cap H_{b-1})\ge8q.
 \]
@@ -421,6 +431,22 @@ two-support partitions (6) removes \((5,4)\), leaving
 \((6,3),(7,2),(8,1)\) and the reversals.
 A one-support pair would already solve STCI and is not
 claimed to be excluded by this inequality.
+
+**Scope of the inequality.** The condition that \(T\) be
+integral does **not** imply that its codimension-one local
+rings are DVRs. If \(T\) is singular at the generic point of
+a supported curve, the local intersection length is not
+a discrete valuation; in particular, the length of the
+difference of two sections need not equal the minimum of
+their lengths. Thus the degree-independent inequality is
+**not proved without generic regularity**. In the
+\((6,6)\) application, however, integrality was established
+above and the Hilbert--Burch/first-normal argument (B)
+shows that an integral \(\sigma\)-invariant sextic **cannot**
+be singular generically along either \(C_+\) or \(C_-\)
+(the involution exchanges the curves). Hence the DVR
+hypothesis is satisfied for the sextic sector, and its
+\((5,4)\) exclusion is unaffected.
 
 The singularities of a surviving carrier cannot be ignored.
 If a \(\sigma\)-preserved sextic were smooth along both curves,
