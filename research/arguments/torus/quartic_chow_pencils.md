@@ -101,131 +101,234 @@ this last case.
 
 ## Two translates with coinciding cubic jets
 
-For \(Y=C_{1,1}\cup C_{1,-1}\), the
-[Hilbert--Burch resolution](#hilbert--burch-and-first-normal-interpretation)
-proves intrinsically that
-\[
- I_Y(4)=A\,H^0(\mathcal O_{\mathbf P^3}(1))
-       \oplus B\,H^0(\mathcal O_{\mathbf P^3}(1))
-       \oplus kD .
-\]
-No monomial-support enumeration is required: the two cubic
-generators have their first syzygies in degree five, and \(D\)
-is the remaining quartic generator. Let \(L=V(x_1,x_2)\).
-Its intersection with \(Y\) consists only of the marked endpoints,
-but \(A|_L=B|_L=0\). A proper quartic pencil cannot lie entirely
-in \(A S_1+B S_1\), since every such pair would vanish on all of
-\(L\). Consequently one may choose a basis of the form
-Write
-\[
-F=A L+B M,\qquad G=D+A N+B P,\qquad L,M,N,P\in S_1.
-\]
-The geometric condition for doubled support is the
-**rank-one first-normal map**, not a coefficient identity.
-At a generic point of either curve, use \(A,B\) as transverse
-normal parameters. The first normal classes of \(F,G\)
-then have rows
-\[
- (L,M),\qquad
- (N+x_2^2/x_1,\ P+x_0^2/x_1).
-\]
-Their determinant, multiplied by \(x_1\), is
-\[
- x_0^2L-x_2^2M+x_1(LP-MN).
-\]
-It must vanish on every component that appears with
-multiplicity at least two. In the chart \(x_0=1\), this is
-exactly the restriction of \(K\) defined below.
-The following local identities retain higher intersection
-multiplicity information that the first-normal determinant
-alone cannot decide.
-
-On \(x_0=1\) the identity \(B=yD-z^2 A\) gives
-\[
-G=(1+yP)D+(N-z^2P)A,\qquad
-(1+yP)F\equiv A K\pmod G,\qquad
-K=L-z^2M+y(LP-MN). \tag{2}
-\]
-On either branch \((y,z,w)=(t,t^3,\epsilon t^4)\), \(\epsilon=\pm1\),
-the factor \(1+yP\) is a generic unit, and \(A,G\) are transverse
-parameters since \(A,D\) are. A repeated branch therefore satisfies
-\(K(t,t^3,\epsilon t^4)=0\). There is at least one repeated branch.
-The coefficients of \(t^0,t^{10}\) show that \(l_0=m_3=0\), where
-subscripts on \(l,m,n,p\) denote coefficients of \(x_0,\ldots,x_3\)
-in \(L,M,N,P\).
-
-In fact \(n_0=0\). If \(n_0\ne0\), \(G\) is smooth at \(p_0\) and on its
-formal graph \(z=y^3+\text{terms of weight at least eight}\), by (2).
-The restriction of \(A\) to \(G\) cuts the two branches simply near
-\(p_0\), since \((A,G)=(A,D)\) there. The restriction of \(K\) to \(G\)
-has the two prime factors \(w-\epsilon y^4\) in the complete local
-ring, with exponents \(n_\epsilon-1\). Hence its weight is eight in
-\(y,w\) of weights \(1,4\).
-Thus the terms of \(K(y,y^3,w)\) below weight eight vanish. Its coefficients
-of \(w,y^6,y,y^2,y^3,y^4\), in that order, force
-\(l_3,m_0,l_1,m_1,l_2,m_2=0\), using \(n_0\ne0\).
-This gives \(F=0\). Reversal exchanges \(A,B\) and preserves the two
-branches, so it also gives \(p_3=0\).
-
-With these zero coefficients, expansion of \(K\) on the repeated branch
+Let \(Y=C_+\cup C_-\), where \(C_\pm=C_{1,\pm1}\), in
+characteristic zero. The [Hilbert--Burch resolution](#hilbert--burch-and-first-normal-interpretation)
 gives
 \[
-\begin{gathered}
-l_1=m_2=0,\quad m_0n_1=0,\quad
-l_2=m_1n_1,\quad m_1=l_2p_2,\quad l_3p_2=0,\\
-\epsilon l_3-m_0n_2+l_2p_0=0,\qquad
--m_0-\epsilon m_1n_3+\epsilon l_3p_1=0,\\
--\epsilon m_0n_3-m_1n_2+l_2p_1+\epsilon l_3p_0=0. \tag{3}
-\end{gathered}
+ I_Y=(A,B,D),\quad I_Y(3)=kA\oplus kB,\quad
+ I_Y(4)=AS_1\oplus BS_1\oplus kD. \tag{HB}
 \]
-There is no triple branch. At fixed \(y=t\), the parameter \(A\) on \(G\)
-has \(z_A=-1\) and
+There is **no common containing quadric** for the two
+curves: their unique quadrics are
+\(x_1x_2\mp x_0x_3=0\), so \(I_Y(2)=0\).
+If a proper quartic pencil \(W\) has cycle supported on
+both components, its multiplicities are positive and sum to
+four by Bézout. The coordinate line
+\(\Lambda=V(x_1,x_2)\) is not a component, while \(A,B\)
+vanish identically on \(\Lambda\). Thus \(W\) cannot be
+contained in \(AS_1+BS_1\). Choose a basis
 \[
-w_A=-\epsilon t+\frac{N-t^6P}{2\epsilon t^4(1+tP)}
+ F=AL+BM,\qquad G=D+AN+BP,\qquad
+ L,M,N,P\in S_1. \tag{*}
 \]
-along the branch. A triple branch would require \(K_z=w_A K_w\) there.
-If \(m_1\ne0\), then \(l_2,n_1,p_2\ne0\), \(l_3=0\), and \(m_0=0\)
-by (3), which also forces \(n_3=0\). Hence \(K_w=0\) and \(K_z\) has
-constant coefficient \(l_2\ne0\). If \(m_1=0\), then \(l_2=0\).
-The remaining equations give \(l_3,m_0,n_2\ne0\) and \(p_2=0\), since
-otherwise \(F=0\). In this case \(K_w\) has constant coefficient \(l_3\)
-and \(K_z\) is divisible by \(t\). The product \((N-t^6P)K_w\) starts
-in degree one or three, because \(n_2\ne0\). Multiplying the derivative
-condition by \(2\epsilon t^4(1+tP)\) gives a contradiction by order in \(t\).
 
-Both branches must therefore be double. Taking (3) for both signs gives
-\(l_3=m_0=n_3=p_0=0\), \(m_1\ne0\), \(n_1\ne0\),
-\(p_1=n_2/n_1\), and \(p_2=1/n_1\). Rescale \(F\) to \(m_1=1\)
-and replace \(G\) by \(G-(n_2/n_1)F\) to obtain (1).
-Conversely the restrictions of (1) to \(x_0=x_3=0\) are
-\(x_1x_2(\lambda x_1^2+x_2^2)\) and
-\(\lambda x_1^4+x_1^2x_2^2+\lambda^{-1}x_2^4\), with no common zero.
-Every projective surface meets that line, so the pair is proper.
-For the converse, the **first-normal determinant** supplies
-the intersection multiplicity without an expansion of \(K\).
-Along either \(C_\epsilon\), the Hilbert--Burch relation
-\(x_1D=x_2^2A+x_0^2B\) expresses the first normal class of \(D\)
-in the transverse frame given by \(A,B\), as
-\((x_2^2/x_1,x_0^2/x_1)\). The classes of \(F_\lambda,G_\lambda\)
-are thus the rows
+### Residual genus excludes the triple branches
+
+Let \(Z=V(F,G)\) and \(Y'=(I_Z:I_Y)\) be the
+complete-intersection residual to \(Y\). The reduced
+union \(Y\) is an arithmetically Cohen--Macaulay
+locally complete-intersection curve of degree eight and
+genus seven, proved below by its Hilbert--Burch
+resolution and planar endpoint equations.
+Peskine--Szpiro linkage gives that \(Y'\) is locally
+Cohen--Macaulay of degree \(16-8=8\). Moreover the
+standard liaison exact sequence
+\[
+ 0\longrightarrow\omega_Y(-4)
+ \longrightarrow\mathcal O_Z
+ \longrightarrow\mathcal O_{Y'}\longrightarrow0
+\]
+gives \(P_{Y'}(n)=8n-6\), and hence \(p_a(Y')=7\):
+indeed \(P_Z(n)=16n-32\) and
+\(P_{\omega_Y(-4)}(n)=8n-26\).
+
+The residual has generic multiplicities
+\((n_+-1,n_--1)\). If \(Z\) had \((3,1)\),
+then \(Y'\) would be a locally Cohen--Macaulay
+**double of the smooth rational quartic** \(C_+\).
+The classical Ferrand description gives an
+invertible conormal quotient
+\[
+ N^\vee_{C_+/\mathbf P^3}\twoheadrightarrow
+ \mathcal L=I_{C_+}/I_{Y'},\qquad
+ 0\to\mathcal L\to\mathcal O_{Y'}
+   \to\mathcal O_{C_+}\to0.
+\]
+The genus \(p_a(Y')=7\) requires
+\(\mathcal L=\mathcal O_{\mathbf P^1}(-8)\), since
+\(p_a(Y')=-\deg\mathcal L-1\). But the
+[established balanced normal bundle](../curve/fixed_quartic_geometry.md)
+is \(N^\vee_{C_+/\mathbf P^3}=\mathcal O(-7)^{\oplus2}\).
+It admits no map to \(\mathcal O(-8)\).
+The reversed argument excludes \((1,3)\).
+Thus the sole possibility is
+\[
+ \boxed{n_+=n_-=2.} \tag{M}
+\]
+This uses standard liaison and Ferrand double-structure
+theory, not third-order derivative calculations.
+See [Bănică--Forster, *Multiplicity Structures on Space
+Curves*, §1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf)
+and [Eisenbud--Van de Ven, *On the normal bundles
+of smooth rational space curves*](https://eisenbud.github.io/papers/pdfs/1981-001.pdf).
+
+### Canonical-module rigidity of the pencil
+
+In the \((2,2)\) case the residual \(Y'\) has
+the same reduced generic cycle and degree as \(Y\);
+being Cohen--Macaulay, it equals \(Y\)
+scheme-theoretically. The
+[self-linkage isomorphism](#self-linkage-and-the-canonical-conormal-quotient)
+therefore supplies the quotient map
+\[
+ q:I_Y\twoheadrightarrow I_Y/I_Z
+        \simeq\omega_Y(-4). \tag{SL}
+\]
+In degree three it induces an isomorphism
+\[
+ H^0(I_Y(3))\xrightarrow{\sim}
+ H^0(\omega_Y(-1)), \tag{S3}
+\]
+since the \((4,4)\) CI has no cubic equation
+and \(H^1(I_Z(3))=0\).
+
+Use **the dual Hilbert--Burch presentation**.
+The graded canonical module
+\(\mathcal K=\operatorname{Ext}^2_S(S/I_Y,S(-4))\)
+has two generators \(e_1,e_2\) of degree \(-1\),
+with relations
+\[
+ x_2^2e_1+x_3^2e_2=0,\qquad
+ x_0^2e_1+x_1^2e_2=0,\qquad
+ x_1e_1+x_2e_2=0. \tag{CM}
+\]
+Their degree-\(-1\) parts form a basis of
+\(H^0(\omega_Y(-1))\). As (S3) is an
+isomorphism, for an invertible constant matrix
+\(\left(\begin{smallmatrix}a&b\\c&d\end{smallmatrix}\right)\)
+we may write
+\[
+ q(A)=ae_1+be_2,\qquad
+ q(B)=ce_1+de_2,\qquad ad-bc\ne0. \tag{U}
+\]
+On the dense open \(x_1\ne0\), the last
+relation in (CM) gives \(e_1=-x_2e_2/x_1\).
+Put
+\[
+ \ell_1=bx_1-ax_2,\qquad
+ \ell_2=dx_1-cx_2.
+\]
+Then \(q(A)=\ell_1e_2/x_1\) and
+\(q(B)=\ell_2e_2/x_1\) on both generic branches.
+From \(q(F)=0\), the quadric
+\(\ell_1L+\ell_2M\) vanishes on \(Y\).
+Since \(I_Y(2)=0\), it is identically zero.
+The independent linear forms \(\ell_1,\ell_2\)
+have only the Koszul linear syzygy; after
+rescaling \(F\),
+\[
+ F=-\ell_2A+\ell_1B. \tag{F}
+\]
+
+Now use the Hilbert--Burch relation
+\(x_1D=x_2^2A+x_0^2B\) and \(q(G)=0\).
+They imply
+\[
+ (x_1N+x_2^2)q(A)
+ +(x_1P+x_0^2)q(B)=0.
+\]
+The canonical module is generically rank one
+on each reduced component. Therefore
+\[
+ E=\ell_1(x_1N+x_2^2)+
+   \ell_2(x_1P+x_0^2)
+\]
+vanishes on \(Y\); it lies in
+\(I_Y(3)=kA+kB\). Restrict to \(x_1=0\),
+where \(A=-x_0^2x_2\) and \(B=x_2^3\):
+this determines the two coefficients and yields
+\(E=cA-aB\). Expanding only this identity,
+and canceling the factor \(x_1\), gives
+\[
+ \ell_1N+\ell_2P
+ =cx_1^2+ax_3^2-bx_2^2-dx_0^2. \tag{Q}
+\]
+The left side lies in \((x_1,x_2)\).
+**Restricting to the residual line**
+\(\Lambda=V(x_1,x_2)\) makes the right
+side \(ax_3^2-dx_0^2\). Thus
+\[
+ \boxed{a=d=0,\qquad bc\ne0.} \tag{R}
+\]
+This is the decisive geometric restriction,
+replacing the long coefficient and derivative test.
+
+Now (F) gives \(F=cx_2A+bx_1B\), and (Q)
+simplifies to
+\[
+ bx_1N-cx_2P=cx_1^2-bx_2^2.
+\]
+The Koszul syzygy of \((x_1,x_2)\)
+shows that, for some \(\tau\in k\),
+\[
+ N=(c/b)x_1+\tau c x_2,\qquad
+ P=(b/c)x_2+\tau b x_1.
+\]
+Replacing \(G\) by \(G-\tau F\) and scaling
+\(F\) by \(b^{-1}\) gives the unique form
+\[
+ \boxed{\;
+ W=\left\langle
+ \lambda x_2A+x_1B,\
+ D+\lambda x_1A+\lambda^{-1}x_2B
+ \right\rangle,\qquad\lambda=c/b\in k^\times .
+ \;} \tag{1}
+\]
+Thus **all** proper quartic pencils with this
+two-component support are the displayed orbit.
+This is a proof by canonical modules, linkage,
+the absence of common quadrics and restriction
+to a line—not a computational elimination.
+
+### Properness and generic cycle
+
+Conversely, on the line \(V(x_0,x_3)\)
+the two displayed quartics restrict to
+\[
+ x_1x_2(\lambda x_1^2+x_2^2),\qquad
+ \lambda x_1^4+x_1^2x_2^2+\lambda^{-1}x_2^4.
+\]
+They have no common projective zero, so the
+two surfaces have no common factor.
+
+On either \(C_\epsilon\), the Hilbert--Burch
+relation \(x_1D=x_2^2A+x_0^2B\)
+expresses the first normal class of \(D\)
+in the transverse frame \((A,B)\).
+The two normal rows of the displayed pencil are
 \[
  (\lambda x_2,x_1),\qquad
- (\lambda x_1+x_2^2/x_1,\ \lambda^{-1}x_2+x_0^2/x_1).
+ (\lambda x_1+x_2^2/x_1,\
+  \lambda^{-1}x_2+x_0^2/x_1).
 \]
 Their determinant is
-\(\lambda(x_0^2x_2/x_1-x_1^2)\), which vanishes
-identically because \(x_0^2x_2=x_1^3\) on each translate.
-So each component has generic intersection multiplicity
-at least two. Properness and Bézout degree sixteen then force
-**exactly two** on each, with no other components. The pencil contains no
-eigenform, since the weights of its two basis elements lie in the
-disjoint sets \(\{6,10\}\) and \(\{4,8,12\}\), with all coefficients
-nonzero in these weight decompositions. It thus has non-invariant ideal.
-The line of \(D\)-coefficient-zero members recovers \(\lambda\).
+\(\lambda(x_0^2x_2/x_1-x_1^2)=0\)
+on each component since \(A=0\). Therefore
+both generic intersection multiplicities
+are at least two, and degree sixteen
+forces exactly \(2[C_+]+2[C_-]\) with
+no additional projective components.
+The two generators have disjoint intrinsic
+weight sets \(\{6,10\}\) and
+\(\{4,8,12\}\), so there is no eigenform
+in the pencil. The member with zero
+\(D\)-coefficient recovers \(\lambda\).
 
-The multi-support classification works in every characteristic, with
-only the invariant case in characteristic two. The single-support
-exclusion invoked here uses characteristic zero.
+This completes the characteristic-zero
+classification of the exceptional support.
+The multi-support characteristic-two
+statement and its single-support
+specialization are treated separately below.
 
 ## Hilbert--Burch and first-normal interpretation
 
