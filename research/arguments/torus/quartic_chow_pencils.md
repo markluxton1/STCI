@@ -376,6 +376,59 @@ Thus the sole possibility is
  \boxed{n_+=n_-=2.} \tag{M}
 \]
 This is the residual-genus obstruction to asymmetric multiplicities.
+
+The same argument has a portable **contact-versus-normal-bundle
+criterion**. Let \(C_1,C_2\subset\mathbf P^3\) be smooth rational
+curves of the same degree \(e\), meeting in a finite scheme of length
+\(\tau\), and assume their reduced union
+\(Y=C_1\cup C_2\) is arithmetically Cohen--Macaulay. Suppose a proper
+complete intersection of type \((a,b)\), with \(ab=4e\), has cycle
+\[
+ 3[C_1]+[C_2].
+\]
+The residual to \(Y\) has degree \(2e=\deg Y\) and is a
+Cohen--Macaulay double structure on \(C_1\). The standard liaison
+genus formula gives
+\[
+ p_a(Y')=p_a(Y)=\tau-1,
+\]
+because the linked curves have equal degree; independently,
+\(p_a(Y)=\tau-1\) follows from
+\(0\to\mathcal O_Y\to\mathcal O_{C_1}\oplus
+\mathcal O_{C_2}\to\mathcal O_{C_1\cap C_2}\to0\).
+If
+\[
+ 0\to\mathcal L\to\mathcal O_{Y'}\to
+ \mathcal O_{C_1}\to0
+\]
+is the Ferrand double, then
+\(p_a(Y')=-\deg\mathcal L-1\), so
+\[
+ \mathcal L\simeq\mathcal O_{\mathbf P^1}(-\tau).
+\]
+Writing
+\[
+ N_{C_1/\mathbf P^3}\simeq
+ \mathcal O(\alpha)\oplus\mathcal O(\beta),
+\]
+Ferrand doubling requires a surjection
+\[
+ \mathcal O(-\alpha)\oplus\mathcal O(-\beta)
+ \twoheadrightarrow\mathcal O(-\tau).
+\]
+Consequently
+\[
+ \boxed{\ \tau>\max(\alpha,\beta)\ }
+\]
+is a sufficient obstruction to the \((3,1)\) partition; the symmetric
+statement excludes \((1,3)\). This criterion is only sufficient:
+when the inequality fails, a conormal quotient does not by itself
+produce a global complete intersection. For the exceptional quartics,
+\(\tau=8\) and \((\alpha,\beta)=(7,7)\), recovering the argument
+above. The local-complete-intersection property of the union is used
+later for self-linkage, but is not needed for this asymmetric residual
+obstruction once the ACM and residual-double hypotheses hold.
+
 See [Bănică--Forster, *Multiplicity Structures on Space
 Curves*, §1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf)
 and [Eisenbud--Van de Ven, *On the normal bundles
