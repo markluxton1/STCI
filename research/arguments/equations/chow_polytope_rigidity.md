@@ -356,8 +356,18 @@ do not constitute homogeneous equation realization.
 
 The [quartic classification](../torus/quartic_chow_pencils.md#classification)
 gives a structural characterization in degree \((4,4)\) from the
-actual equations. An [endpoint different test](../torus/chow_endpoint_different.md#statement)
-recognizes single support after Chow matching in arbitrary degree.
+actual equations. On the exceptional cycle, the
+[Hilbert--Burch first-normal locus](../torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+offers an intrinsic doubled-support condition, and an
+[explicit even-eight divisor identity](../torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+explains the fixed-carrier doubled divisor, not uniqueness of the
+non-invariant orbit. The
+[full Hilbert-over-Chow orbit and characteristic-two collapse](../torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
+illustrate information lost by the Chow map. An
+[endpoint different test](../torus/chow_endpoint_different.md#statement)
+recognizes single support after Chow matching in arbitrary degree;
+its numerical value is governed by classical discriminant/index
+theory and does not recover every embedded Hilbert lift.
 An equation-side criterion for matching outside the quartic pencils,
 and an obstruction to single support for unrestricted pairs, remain open.
 
