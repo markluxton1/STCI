@@ -223,6 +223,44 @@ flat limit. Instead one must retain the
 additional generators and endpoint corrections
 of \(J_0,J_\infty\).
 
+The Grassmannian closure is more precise than its normalization.
+Set
+\[
+ e_1=x_2A,\quad e_2=x_1B,\quad e_3=D,\quad
+ e_4=x_1A,\quad e_5=x_2B.
+\]
+These five quartics are linearly independent by
+\(I_Y(4)=AS_1\oplus BS_1\oplus kD\). In Plücker coordinates,
+\[
+\begin{aligned}
+ F_\lambda\wedge G_\lambda
+ ={}&\lambda^{-1}(e_2\wedge e_5)\\
+ &+(e_1\wedge e_5+e_2\wedge e_3)\\
+ &+\lambda(e_1\wedge e_3+e_2\wedge e_4)\\
+ &+\lambda^2(e_1\wedge e_4). \tag{GC2}
+\end{aligned}
+\]
+The four displayed coefficient vectors are independent: their
+nonzero coordinates lie in disjoint Plücker basis positions.
+After multiplying by \(\lambda\), the orbit is therefore
+\[
+ [1:\lambda:\lambda^2:\lambda^3]
+\]
+inside their projective \(3\)-space. Hence the
+**scheme-theoretic Grassmannian orbit closure is a smooth rational
+normal cubic (a twisted cubic)**, with the two improper endpoint
+pencils in (GC). This is the expected toric orbit geometry in a
+Plücker embedding; the explicit calculation identifies the embedding
+degree in this case.
+
+This conclusion is deliberately restricted to the Grassmannian
+compactification. The Hilbert closure has normalization
+\(\mathbf P^1\) and the saturated endpoint ideals computed above,
+but its scheme-theoretic identification with a smooth \(\mathbf P^1\)
+is not inferred from the torus action or from (GC2) alone; that would
+require a separate base-change argument for the degree-four equation
+bundle.
+
 The [Plücker-linear first-normal degeneracy
 locus](quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
 places the original \(\mathbf G_m\) in a
