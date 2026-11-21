@@ -120,6 +120,26 @@ Write
 \[
 F=A L+B M,\qquad G=D+A N+B P,\qquad L,M,N,P\in S_1.
 \]
+The geometric condition for doubled support is the
+**rank-one first-normal map**, not a coefficient identity.
+At a generic point of either curve, use \(A,B\) as transverse
+normal parameters. The first normal classes of \(F,G\)
+then have rows
+\[
+ (L,M),\qquad
+ (N+x_2^2/x_1,\ P+x_0^2/x_1).
+\]
+Their determinant, multiplied by \(x_1\), is
+\[
+ x_0^2L-x_2^2M+x_1(LP-MN).
+\]
+It must vanish on every component that appears with
+multiplicity at least two. In the chart \(x_0=1\), this is
+exactly the restriction of \(K\) defined below.
+The following local identities retain higher intersection
+multiplicity information that the first-normal determinant
+alone cannot decide.
+
 On \(x_0=1\) the identity \(B=yD-z^2 A\) gives
 \[
 G=(1+yP)D+(N-z^2P)A,\qquad
