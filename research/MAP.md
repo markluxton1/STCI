@@ -155,20 +155,30 @@ orbit over each
 \(2[C_{u,v}]+2[C_{u,-v}]\), outside the invariant \((4,4)\) Chow closure.
 Every **characteristic-zero** \((4,4)\) realization in this
 fiber still satisfies the moment. The exceptional
-orbit gives full flat limits with a fixed cycle and an embedded point of
-length two at opposite ends. On the exceptional carrier, the
+orbit has a [normalized \(\mathbf P^1\) Hilbert
+compactification](arguments/torus/quartic_hilbert_chow_limits.md#two-compactifications-of-the-exceptional-orbit)
+with two distinct embedded endpoint limits. The
+Grassmannian limits are instead improper pencils
+with a common cubic factor. On the exceptional carrier, the
 [even-eight identity](arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
-gives genuine two-torsion in the class group of a ten-nodal quartic K3
-model, while a
+gives genuine two-torsion in the class group of a ten-nodal
+quartic K3 model. Its [Nikulin double cover](arguments/torus/quartic_exceptional_carrier_geometry.md#the-nikulin-double-cover-and-a-square-root-of-the-mate)
+makes the actual quartic mate a square, and its
+[class-group parity](arguments/torus/quartic_exceptional_carrier_geometry.md#parity-of-mates-from-the-even-eight-class)
+forces even equal mate multiplicity on the normal nodal
+carriers. Meanwhile a
 [Hilbert--Burch normal-map degeneracy](arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
 describes doubled support. The
 [canonical-module and residual-genus proof](arguments/torus/quartic_chow_pencils.md#proof-route)
 completes **geometric uniqueness for the exceptional
 proper quartic pencils**, after a support reduction in
 torus coordinates. The \((3,1)\) residual contradicts
-the balanced normal bundle, and self-linkage plus
-the Hilbert--Burch canonical module forces the
-\(\lambda\)-orbit.
+the balanced normal bundle. The
+[direct \((3,3)\) linkage](arguments/torus/quartic_chow_pencils.md#the-residual-line-and-the-canonical-module)
+to the residual line **produces** the canonical module;
+self-linkage and restriction to the same line then force
+the \(\lambda\)-orbit. The first-normal doubled-support
+condition is Plücker-linear in \(\operatorname{Gr}(2,9)\).
 The even-eight class remains a complementary
 fixed-carrier explanation, not the uniqueness proof. In characteristic two the exceptional formula
 [collapses to a non-invariant quartic STCI](arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision).
@@ -189,8 +199,12 @@ integral symmetric sextic by first-normal geometry; all
 remaining unequal two-support sextic partitions are excluded on
 nodal carriers. For normal Du Val sextics the
 [global exceptional-correction budget](arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
-\(-Z_\pm^2=38/3\) must be reconciled with the local anti-invariant
-classes. This is the
+\(-Z_\pm^2=38/3\) must be reconciled with the local
+anti-invariant classes. In particular, for \((7,2)\)
+or \((8,1)\) the [3-primary endpoint condition](arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
+requires an \(A_{3m-1}\) or \(E_6\) singularity at a
+common endpoint, with equal 3-primary classes of
+\(C_+\) and \(C_-\). This is the
 [revised scoped investigation](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment),
 not a completed higher-degree obstruction.
 The [coordinate-to-equation interface](arguments/torus/fixed_surface_restriction_lifts.md)
