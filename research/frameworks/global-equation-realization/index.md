@@ -117,8 +117,10 @@ The canonical [R-0074](../../results/chow_polytope_rigidity.md) classifies **all
 The [H16 cycle parameterization](../../arguments/equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16) is set-theoretic and supplies neither homogeneous equations nor scheme structure. The [proof-dependency inventory](../../investigations/proof-audit/README.md) separates essential computations from evidence, and records the geometric R-0024 rank replacement.
 
 [R-0079](../../results/quartic_chow_pencil_classification.md) gives
-actual defining equations for every geometric pencil in the \((4,4)\)
-Chow-polytope fiber. In every degree the
+actual defining equations for every geometric pencil in the
+\((4,4)\) Chow-polytope fiber **in characteristic zero**.
+The characteristic-two specialization is a separate construction,
+not an extension of this uniqueness theorem. In every degree the
 [trace tower](../../arguments/torus/chow_trace_cone_jets.md#a-sole-support-test-at-an-arbitrary-disjoint-line)
 excludes sole support if just one actual generator has a cone jet
 through degree four along a disjoint line. The coverage question is
