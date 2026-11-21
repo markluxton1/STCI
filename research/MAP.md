@@ -162,7 +162,7 @@ gives genuine two-torsion in the class group of a ten-nodal quartic K3
 model, while a
 [Hilbert--Burch normal-map degeneracy](arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
 describes doubled support. The
-[canonical-module and residual-genus proof](arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+[canonical-module and residual-genus proof](arguments/torus/quartic_chow_pencils.md#proof-route)
 completes **geometric uniqueness for the exceptional
 proper quartic pencils**, after a support reduction in
 torus coordinates. The \((3,1)\) residual contradicts
