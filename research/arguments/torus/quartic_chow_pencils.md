@@ -362,6 +362,37 @@ This is the canonical Ferrand self-doubling description,
 rather than merely a pair of dependent normal jets
 on the separate smooth components. It includes
 the endpoint gluing encoded by \(\omega_Y\).
+
+It also gives two **intrinsic finite-dimensional tests**
+on the actual homogeneous equations. Since \(Y\)
+is Gorenstein of degree eight and genus seven,
+Riemann--Roch and Serre duality give
+\[
+ h^0(\omega_Y(-1))=2,\qquad
+ h^0(\omega_Y)=7.
+\]
+Indeed \(\chi(\omega_Y(-1))=-2\) and
+\(h^1(\omega_Y(-1))=h^0(\mathcal O_Y(1))=4\).
+For the self-linkage quotient, taking sections in degrees
+three and four yields
+\[
+ \begin{aligned}
+ H^0(I_Y(3))&\xrightarrow{\ \sim\ }H^0(\omega_Y(-1)),
+       && \dim=2,\\
+ H^0(I_Y(4))&\twoheadrightarrow H^0(\omega_Y),
+       && \dim(\ker)=2. \tag{SL2}
+ \end{aligned}
+\]
+The first map is an isomorphism because a \((4,4)\)
+CI has no cubic equation; the second is surjective
+because its ideal has vanishing first cohomology,
+and its kernel is precisely the actual quartic
+pencil \(W\). Thus the classification can be phrased
+as classifying the appropriate conormal quotient maps
+for which these section conditions and properness hold.
+The explicit proof below still supplies the global
+uniqueness of such pencils; (SL2) is not by itself
+a classification or a new STCI obstruction.
 See [Bănică--Forster, *Multiplicity Structures on Space Curves*,
 §1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf)
 and [Franco--Kleiman--Lascu, *Gherardelli linkage and complete
