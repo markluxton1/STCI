@@ -150,7 +150,7 @@ points has a **constant Chow point**, but its two full flat limits
 acquire different embedded endpoint corrections. The
 [Hilbert--Burch normal-map model](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
 retains first-normal data invisible to Chow. The
-[geometric classification](../../arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+[geometric classification](../../arguments/torus/quartic_chow_pencils.md#proof-route)
 is now complete: linkage excludes asymmetric multiplicities,
 and the canonical module of the Hilbert--Burch resolution
 with restriction to the residual line forces the
