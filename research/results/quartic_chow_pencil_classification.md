@@ -54,8 +54,14 @@ not classify arbitrary subschemes with the same Chow cycle.
 For each exceptional cycle, the proper-CI ideals
 form a nonconstant \(H\simeq\mathbf G_m\)-orbit
 **inside the Hilbert fiber** over a single Chow point.
-The classification does not describe every Hilbert lift
-over that point. The [two opposite flat limits](../arguments/torus/quartic_hilbert_chow_limits.md#chow-closure-and-full-opposite-limits)
+The normalization of its closure is
+\(\mathbf P^1\), with the two distinct full Hilbert
+limits at \(0,\infty\). The associated
+[Grassmannian pencil limits](../arguments/torus/quartic_hilbert_chow_limits.md#two-compactifications-of-the-exceptional-orbit)
+are instead improper planes of quartics with a
+common cubic factor. The classification does **not**
+describe every Hilbert lift over that point.
+The [two opposite flat limits](../arguments/torus/quartic_hilbert_chow_limits.md#chow-closure-and-full-opposite-limits)
 preserve the fundamental cycle and acquire embedded
 length two at opposite endpoints. Exceptional cycles
 lie outside the Chow closure of invariant
@@ -67,10 +73,17 @@ quartic classification also implies the
 \]
 
 The mechanism for the exceptional uniqueness is
-[liaison/canonical-module proof route](../arguments/torus/quartic_chow_pencils.md#proof-route)
+[liaison/canonical-module rigidity](../arguments/torus/quartic_chow_pencils.md#proof-route)
 of \(Y=C_+\cup C_-\): an lci, arithmetically
 Cohen--Macaulay curve with two planar \(A_7\)
-singularities. This is the geometric proof of the
+singularities. The residual line
+\(L_{\mathrm{res}}\) in the \((3,3)\) intersection
+of the cubics directly produces its canonical module,
+\(\omega_Y(-2)\simeq I_{L_{\mathrm{res}}}/(A,B)\),
+and its restriction condition determines the
+pencil's actual generators. The first-normal
+degeneracy locus is a
+[Plücker-linear section of \(\operatorname{Gr}(2,9)\)](../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation). This is the geometric proof of the
 exceptional fiber, while the initial support reduction
 continues to use the distinguished torus weights
 and endpoint coordinates.
@@ -81,8 +94,12 @@ The [two-sided endpoint contact and ten-nodal K3
 carrier](../arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
 give an explicit even-eight divisor identity and
 nontrivial \(2\)-torsion in the carrier's class group.
-These explain a fixed-carrier doubled divisor,
-**not the uniqueness of the moving pencil**.
+The [Nikulin three-quadric double cover](../arguments/torus/quartic_exceptional_carrier_geometry.md#the-nikulin-double-cover-and-a-square-root-of-the-mate)
+makes the actual quartic mate a square, while the
+[class-group torsion parity condition](../arguments/torus/quartic_exceptional_carrier_geometry.md#parity-of-mates-from-the-even-eight-class)
+forces even equal multiplicities for mates on these
+normal nodal carriers. These explain a fixed-carrier
+doubled divisor, **not uniqueness of the moving pencil**.
 The separate
 [retained-carrier theorem](../arguments/torus/quartic_exceptional_carrier_geometry.md#all-mate-degrees-on-a-retained-exceptional-carrier)
 classifies translated mates of a member in arbitrary
