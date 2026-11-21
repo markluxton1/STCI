@@ -265,7 +265,7 @@ Thus they yield actual sole-support mates for the two curves on the
 same carrier. If an ambient symmetry preserves \(T\) and exchanges the
 two curves, a single mate with unequal multiplicities suffices.
 
-The [retained exceptional quartic](quartic_chow_pencils.md#all-mate-degrees-on-a-retained-exceptional-carrier)
+The [retained exceptional quartic](quartic_exceptional_carrier_geometry.md#all-mate-degrees-on-a-retained-exceptional-carrier)
 exhibits the opposite outcome. Unequal multiplicities would contradict
 the all-mate quartic-carrier exclusion, and the absence of a common
 quadric rules out an odd common multiplicity.
