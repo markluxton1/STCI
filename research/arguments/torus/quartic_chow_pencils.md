@@ -199,8 +199,9 @@ For the normalized exceptional support \(Y=C_+\cup C_-\),
  \end{smallmatrix}\right)}
  S(-3)^2\oplus S(-4)\longrightarrow I_Y\longrightarrow0.
 \]
-The signed maximal minors are \(D,B,-A\); this is the
-Hilbert--Burch resolution, up to ordering and signs of generators.
+The signed maximal minors, in the order of the three summands,
+are \((-A,-B,D)\), and the final surjection has these entries.
+This is the Hilbert--Burch resolution of \((A,B,D)\).
 In particular \(\dim I_Y(4)=9\) and
 \(I_Y(4)=AS_1+BS_1+kD\), explaining the initial equation space
 used in the classification without a monomial enumeration.
