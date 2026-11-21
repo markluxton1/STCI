@@ -5,7 +5,7 @@ title: Quartic pencils with the fixed Chow polytope
 scope: "#scope"
 statement: "#statement"
 proofs:
-  - name: weighted endpoint contact and the transverse determinant
+  - name: endpoint contact, liaison residual genus, and canonical-module rigidity
     at: "research/arguments/torus/quartic_chow_pencils.md#classification"
     using: [STCI-R-0074]
     review:
