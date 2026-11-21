@@ -301,3 +301,90 @@ This explicit characteristic-two construction makes
 **no claim** to classify all multi-support quartic pencils
 in that characteristic. The full uniqueness theorem
 above is stated and proved in characteristic zero.
+
+### A second flat arithmetic collision with a different normal direction
+
+The integral forms \(F_1,G_1\) define a projective
+complete intersection flat over \(\mathbf Z_{(2)}\).
+Indeed their mod-two reductions form a proper
+regular sequence, as shown above, and the
+relative ambient polynomial ring is flat over
+the DVR. The standard regular-sequence flatness
+criterion makes the quotient 2-torsion-free,
+hence flat. Over characteristic zero its
+fundamental cycle is
+\[
+ 2[C_+]+2[C_-],
+\]
+while in characteristic two it is \(4[C_0]\)
+by the sole-support and Bézout degree arguments.
+The two characteristic-zero branches have
+contact four at each endpoint.
+
+This is **different** from
+[R-0021's flat binomial family](../../results/quartic_mu4_degeneration.md)
+\((x_1^4-x_0^3x_3,\ x_2^4-x_0x_3^3)\):
+its characteristic-zero fiber consists of
+**four reduced translates** with pairwise
+endpoint contact three, but its special cycle
+is also \(4[C_0]\).
+
+The two special fibers have distinct
+**embedded generic normal directions**.
+On \(x_0=1\), put
+\[
+ t=x_1,\qquad
+ \xi=x_3-t^4,\qquad \eta=x_2-t^3
+\]
+and work over \(K=k(t)\) in characteristic
+two. The first normal classes of the present
+exceptional pair are
+\[
+ \operatorname{in}_1(F_1)
+   =t^3(1+t^4)\eta,\qquad
+ \operatorname{in}_1(G_1)
+   =t(1+t^8)\eta. \tag{AR1}
+\]
+Both coefficient factors are nonzero in \(K\).
+Thus a generator has linear normal term a unit
+multiple of \(\eta\). Formal elimination
+expresses \(\eta\) as a power series in \(\xi\);
+the residual univariate equation has order
+exactly four, since the proper intersection
+is supported solely on \(C_0\) and has
+generic length \(16/4=4\). The full
+generic normal initial ideal is therefore
+\[
+ \boxed{\operatorname{in}_{(\xi,\eta)}
+       (F_1,G_1)=(\eta,\xi^4).} \tag{AR2}
+\]
+By contrast, [R-0057](../../results/quartic_normal_initial_base_change.md)
+proves that the *binomial* specialization
+has \((\xi,\eta^4)\).
+Both completed generic algebras are
+abstractly \(K[\varepsilon]/(\varepsilon^4)\),
+but their directions in the **fixed conormal
+frame** are opposite. This distinguishes
+the two characteristic-two embedded
+degenerations even though the special
+fundamental cycles coincide.
+
+Neither flat arithmetic family is a
+characteristic-zero STCI with sole support;
+the present generic fiber is doubled on two
+distinct quartics, and R-0021 has four.
+The [prescribed \(\mathbf Z/4\) nonlifting
+result](../../results/prescribed_z4_arithmetic_nonlifting.md)
+concerns a much narrower supported
+primitive-thickening problem, so flatness
+here is not a contradiction. Nor does
+(AR2) by itself establish an
+associated-graded base-change theorem
+analogous to R-0057. The residual line
+\(L_{\mathrm{res}}=V(x_1,x_2)\) meets the
+quartics at their endpoints; it is
+different from the disjoint projection
+line \(L_{12}=V(x_0,x_3)\) in
+[R-0073's endpoint torsion](../../results/endpoint_equation_torsion.md).
+The two line tests cannot be identified
+without a separate comparison map.
