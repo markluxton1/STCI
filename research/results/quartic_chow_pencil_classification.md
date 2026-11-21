@@ -61,7 +61,12 @@ limits at \(0,\infty\). The associated
 is a smooth rational normal cubic in its Plücker \(\mathbf P^3\);
 its two endpoint planes of quartics are improper and have
 a common cubic factor. The classification does **not**
-describe every Hilbert lift over that point.
+describe every Hilbert lift over that point. In fact, the
+[embedded-point detachment theorem at the two toric limits](../arguments/torus/quartic_hilbert_chow_limits.md#detaching-the-embedded-endpoint)
+shows that the fixed one-cycle locus has local dimension
+at least six at \(J_0\) and \(J_\infty\), coming from the
+six-dimensional family of the pure doubled curve together
+with two isolated points.
 The [two opposite flat limits](../arguments/torus/quartic_hilbert_chow_limits.md#chow-closure-and-full-opposite-limits)
 preserve the fundamental cycle and acquire embedded
 length two at opposite endpoints. Exceptional cycles
@@ -173,5 +178,14 @@ not a claim that all six independent review perspectives
 have been completed.
 The earlier separate reviews of the characteristic-two
 specialization, opposite full limits, and retained-carrier
-theorem preserve their stated scopes. No unrestricted
-higher-degree STCI claim follows.
+theorem preserve their stated scopes. The liaison/self-linkage,
+Ferrand doubling, even-eight/Nikulin, Grassmannian torus-orbit,
+and embedded-point detachment mechanisms used here are classical
+inputs. What is specific to this result is their application to
+the fixed rational quartic: the full characteristic-zero
+Chow-polytope pencil classification, the explicit exceptional
+proper-CI orbit and its opposite embedded limits, and the
+associated fixed-carrier formulas. A targeted literature search
+found no prior source proving that entire specific classification,
+but no claim of first publication or exhaustive novelty is made.
+No unrestricted higher-degree STCI claim follows.
