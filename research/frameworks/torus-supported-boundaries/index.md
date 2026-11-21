@@ -55,6 +55,27 @@ moment. A [one-carrier trace argument](../../arguments/torus/chow_trace_cone_jet
 reaches further presentation classes in arbitrary degrees. The general
 higher-degree realization locus remains open.
 
+The [exceptional-pencil interpretation](../../arguments/torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+relates two-sided endpoint cubic contact to an explicit even eight
+on a ten-nodal quartic K3 resolution and nontrivial Weil
+two-torsion. The [first-normal map](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+describes a doubled-support degeneracy locus inside
+\(\operatorname{Gr}(2,9)\), but a conceptual proof of its uniqueness
+remains open. The [Hilbert-over-Chow orbit](../../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
+has opposite full embedded limits and specializes in characteristic
+two to a non-invariant single-support quartic pair. The exact
+Hilbert state-polytope comparison has not been carried out.
+
+For [fixed-carrier mate cycles](../../arguments/torus/fixed_surface_restriction_lifts.md#symmetry-and-the-multiplicity-lattice),
+the group orbit of a multiplicity vector generates a lattice of
+realizable effective vectors on an integral \(S_2\) carrier regular
+at the relevant generic points. The corrected symmetric sextic
+construction **excludes \((5,4)\)** by Bézout, and excludes all
+remaining unequal two-support partitions on ordinary nodal
+carriers. The [Du Val correction budget](../../arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
+is conditional; neither this nor the K3 mechanism is a
+general-degree STCI obstruction.
+
 The [fixed-carrier arrangement and simultaneous conductor comparisons](supported_deformation_questions.md)
 add actual incidence geometry and an exact endpoint correction. The quartic
 carrier permits partial collisions but requires at least three distinct
