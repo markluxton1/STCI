@@ -403,11 +403,12 @@ coordinates. See Bănică--Forster,
 That classical result describes the double structure locally;
 it does not supply the compatibility across the two marked
 endpoints or the global two-generator restriction.
-This is a geometric description of a degeneracy locus,
-**not yet** a replacement proof that its only non-invariant
-proper pencils are (1). In particular, the even-eight
-divisor class below does not classify all points of this
-Grassmannian locus.
+This identifies the classical geometric degeneracy
+locus. The [canonical-module rigidity proof](#two-translates-with-coinciding-cubic-jets)
+now shows that **its proper-pair points are exactly (1)**,
+using linkage and the residual coordinate line. The
+even-eight divisor class below explains a doubled divisor
+on a fixed carrier, but alone does not prove uniqueness.
 
 ## Self-linkage and the canonical conormal quotient
 
@@ -493,9 +494,12 @@ and its kernel is precisely the actual quartic
 pencil \(W\). Thus the classification can be phrased
 as classifying the appropriate conormal quotient maps
 for which these section conditions and properness hold.
-The explicit proof below still supplies the global
-uniqueness of such pencils; (SL2) is not by itself
-a classification or a new STCI obstruction.
+The [geometric uniqueness argument above](#two-translates-with-coinciding-cubic-jets)
+combines this duality with the explicit canonical-module
+presentation furnished by Hilbert--Burch, the absence
+of common quadrics, and restriction to the residual line.
+The abstract section dimensions (SL2) **alone** would
+not classify the quartic pencils or obstruct STCI.
 See [Bănică--Forster, *Multiplicity Structures on Space Curves*,
 §1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf)
 and [Franco--Kleiman--Lascu, *Gherardelli linkage and complete
@@ -507,17 +511,17 @@ For a numerical check, the line bundle
 Together with \(P_Y(n)=8n-6\) this recovers
 the CI polynomial \(P_Z(n)=16n-32\).
 
-**Scope.** The canonical quotient is a *necessary intrinsic
-structure*, not yet a replacement classification of actual
-quartic pencils: a Ferrand doubling alone does not ensure
-that its global homogeneous ideal has two generators
-of degree four. To remove the remaining coefficient
-elimination, one must classify the compatible conormal
-quotients **and** the two-generator lifts in
-\(\operatorname{Gr}(2,9)\), including the two \(A_7\)
-endpoints. The current classification proves this by its
-explicit endpoint and normal-contact calculation; no
-fully geometric uniqueness proof is asserted here.
+**Scope.** A Ferrand doubling alone does not ensure
+that its global homogeneous ideal has two quartic
+generators. The preceding classification now supplies
+the missing bridge **for this particular union**:
+self-linkage makes the cubic generators map to a basis
+of \(H^0(\omega_Y(-1))\); the canonical module relations
+and the residual line then force exactly the displayed
+proper pencils. This is a geometric uniqueness proof
+using established liaison and Hilbert--Burch theory.
+It does not classify arbitrary Ferrand doublings or
+resolve unrestricted higher-degree STCI.
 
 ## Two-sided contact and the nodal even-eight carrier
 
@@ -583,11 +587,11 @@ and [Casnati--Catanese, *Even sets of nodes are bundle symmetric*](https://arxiv
 The symmetric determinant here has **quadratic** entries, and
 is not thereby a linear quartic symmetroid.
 
-This explains doubled divisors on an exceptional **fixed carrier**,
-not why the carriers themselves vary in the unique
-\(\lambda\)-orbit. The latter uniqueness is established by the
-quartic-pencil classification above; a geometric replacement
-via the Hilbert--Burch first-normal degeneracy locus remains open.
+This explains doubled divisors on an exceptional
+**fixed carrier**; by itself it does not classify the
+moving \(\lambda\)-orbit. The orbit's uniqueness is now
+proved separately by [liaison and canonical-module rigidity](#two-translates-with-coinciding-cubic-jets).
+The two geometric mechanisms are complementary.
 
 ## Chow closure and full opposite limits
 
