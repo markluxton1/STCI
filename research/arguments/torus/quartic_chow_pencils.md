@@ -99,6 +99,199 @@ exactly two translates, normalized to \(C_{1,\pm1}\). In characteristic
 two, squaring is injective, so distinct translates cannot occur in
 this last case.
 
+## Hilbert--Burch and first-normal interpretation
+
+For the normalized exceptional support \(Y=C_+\cup C_-\)
+over a field of characteristic different from two,
+\(C_\pm=C_{1,\pm1}\), the saturated reduced ideal is
+\[
+ I_Y=(A,B,D),\qquad
+ 0\longrightarrow S(-5)^2
+ \xrightarrow{\left(\begin{smallmatrix}
+ x_2^2&x_3^2\\ x_0^2&x_1^2\\ x_1&x_2
+ \end{smallmatrix}\right)}
+ S(-3)^2\oplus S(-4)\longrightarrow I_Y\longrightarrow0.
+\]
+The signed maximal minors, in the order of the three summands,
+are \((-A,-B,D)\), and the final surjection has these entries.
+The minors have height two: \(A\) and \(B\) are distinct
+irreducible cubic forms, hence coprime. Hilbert--Burch therefore
+makes the displayed quotient Cohen--Macaulay and its homogeneous
+ideal saturated. Its Hilbert series follows *from the resolution*:
+\[
+ H_{S/(A,B,D)}(q)
+ =\frac{1-2q^3-q^4+2q^5}{(1-q)^4}.
+\]
+The numerator has a double zero at \(q=1\), with second
+derivative \(16\); the corresponding Cohen--Macaulay curve has
+degree eight. The ideal contains both distinct smooth quartics
+\(C_+\) and \(C_-\), whose degrees already total eight.
+The quotient is therefore generically reduced and has no
+additional components. Cohen--Macaulayness implies Serre's
+\(S_1\) condition, hence it is reduced, so this saturated
+ideal is exactly \(I_Y\).
+
+There is also a geometric check of the transverse normal
+parameters used below and in the sextic argument:
+the complete intersection \((A,B)\) has degree nine, contains
+\(Y\) of degree eight, and contains the residual coordinate
+line \(L=V(x_1,x_2)\) of degree one. Since \(A,B\)
+are coprime, these three distinct components exhaust Bézout
+degree, each with multiplicity one. Thus \(A,B\) form
+a regular system of transverse parameters at the generic
+points of \(C_+\) and \(C_-\). No Jacobian-rank table
+is needed for this fact.
+
+In degree four the resolution gives
+\[
+ H^0(I_Y(4))
+ =A\,S_1\oplus B\,S_1\oplus kD,\qquad
+ h^0(I_Y(4))=4+4+1=9.
+\]
+This replaces the weight-and-parity monomial enumeration in
+the classification by the geometry of an arithmetically
+Cohen--Macaulay union and its Hilbert--Burch presentation.
+
+Inside \(\operatorname{Gr}(2,I_Y(4))=\operatorname{Gr}(2,9)\),
+a pencil \(W\) has generic intersection multiplicity at least two
+on each \(C_\epsilon\) precisely when its first-normal-symbol map
+\[
+ W\otimes\mathcal O_{C_\epsilon}\longrightarrow
+ N^\vee_{C_\epsilon/\mathbf P^3}(4)
+\]
+has generic rank at most one, i.e. its determinant vanishes identically.
+For a **proper** quartic pencil this condition on both components,
+together with degree \(4\cdot4=2\cdot4+2\cdot4\), forces the
+cycle \(2[C_+]+2[C_-]\). On the smooth locus of either component away from the two
+intersection endpoints, this is the familiar local
+**Ferrand doubling** condition: in two regular transverse
+parameters a proper pencil with rank-one first normal class
+has local ideal \((u,v^2)\), after changing generators and
+coordinates. See Bănică--Forster,
+[*Multiplicity Structures on Space Curves*, §1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf).
+That classical result describes the double structure locally;
+it does not supply the compatibility across the two marked
+endpoints or the global two-generator restriction.
+This identifies the classical geometric degeneracy
+locus. The [canonical-module rigidity proof below](#two-translates-with-coinciding-cubic-jets)
+shows that **its proper-pair points are exactly (1)**,
+using linkage and the residual coordinate line. The
+even-eight divisor class below explains a doubled divisor
+on a fixed carrier, but alone does not prove uniqueness.
+
+## Self-linkage and the canonical conormal quotient
+
+There is a further established geometric structure behind the
+normal-rank condition. Let \(Y=C_+\cup C_-\) in characteristic
+different from two. Its Hilbert--Burch resolution above gives
+\[
+ \deg Y=8,\qquad P_Y(n)=8n-6,\qquad p_a(Y)=7.
+\]
+Moreover **\(Y\) is locally a complete intersection**, even
+at its two marked singularities. At \(p_0\), eliminate \(x_2\)
+using \(A\) in the affine chart \(x_0=1\): the ideal becomes
+\((x_2-x_1^3,\ x_3^2-x_1^8)\).
+At \(p_\infty\), similarly eliminate \(x_1\) using \(B\)
+on \(x_3=1\): the ideal becomes
+\((x_1-x_2^3,\ x_0^2-x_2^8)\).
+Thus the endpoints are two planar \(A_7\) singularities,
+each consisting of two smooth branches with intersection
+multiplicity four. The dualizing sheaf \(\omega_Y\)
+is therefore invertible, and on either component
+\[
+ \omega_Y|_{C_\pm}
+ =\omega_{C_\pm}(4p_0+4p_\infty)
+ \simeq\mathcal O_{\mathbf P^1}(6).
+\]
+
+Now let \(Z=V(F,G)\) be a **proper** \((4,4)\) complete
+intersection with cycle \(2[C_+]+2[C_-]\).
+The ideal \(I_Z\) lies inside \(I_Y\), and at each generic
+component point its local ring is a length-two quotient of
+a two-dimensional regular local ring. The residual scheme
+\(Y'=(I_Z:I_Y)\) is Cohen--Macaulay by the
+Peskine--Szpiro complete-intersection linkage theorem
+because \(Y\) is arithmetically Cohen--Macaulay.
+At each generic point, a length-two local complete
+intersection has residual length one, so
+\(Y'\) has the same reduced support and generically
+the same reduced structure as \(Y\).
+It has degree \(16-8=8\), with no embedded components.
+Hence \(Y'=Y\) scheme-theoretically:
+\[
+ \boxed{\ I_Z:I_Y=I_Y,\qquad I_Y^2\subset I_Z.\ }
+\]
+The standard linkage duality identifies the nilpotent
+ideal of this self-linkage,
+\[
+ \boxed{\
+ I_Y/I_Z\simeq\omega_Y(4-4-4)=\omega_Y(-4).\ } \tag{SL}
+\]
+Consequently every such pencil determines a **surjection**
+\[
+ I_Y/I_Y^2\twoheadrightarrow\omega_Y(-4).
+\]
+This is the canonical Ferrand self-doubling description,
+rather than merely a pair of dependent normal jets
+on the separate smooth components. It includes
+the endpoint gluing encoded by \(\omega_Y\).
+
+It also gives two **intrinsic finite-dimensional tests**
+on the actual homogeneous equations. Since \(Y\)
+is Gorenstein of degree eight and genus seven,
+Riemann--Roch and Serre duality give
+\[
+ h^0(\omega_Y(-1))=2,\qquad
+ h^0(\omega_Y)=7.
+\]
+Indeed \(\chi(\omega_Y(-1))=-2\) and
+\(h^1(\omega_Y(-1))=h^0(\mathcal O_Y(1))=4\).
+For the self-linkage quotient, taking sections in degrees
+three and four yields
+\[
+ \begin{aligned}
+ H^0(I_Y(3))&\xrightarrow{\ \sim\ }H^0(\omega_Y(-1)),
+       && \dim=2,\\
+ H^0(I_Y(4))&\twoheadrightarrow H^0(\omega_Y),
+       && \dim(\ker)=2. \tag{SL2}
+ \end{aligned}
+\]
+The first map is an isomorphism because a \((4,4)\)
+CI has no cubic equation; the second is surjective
+because its ideal has vanishing first cohomology,
+and its kernel is precisely the actual quartic
+pencil \(W\). Thus the classification can be phrased
+as classifying the appropriate conormal quotient maps
+for which these section conditions and properness hold.
+The [geometric uniqueness argument below](#two-translates-with-coinciding-cubic-jets)
+combines this duality with the explicit canonical-module
+presentation furnished by Hilbert--Burch, the absence
+of common quadrics, and restriction to the residual line.
+The abstract section dimensions (SL2) **alone** would
+not classify the quartic pencils or obstruct STCI.
+See [Bănică--Forster, *Multiplicity Structures on Space Curves*,
+§1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf)
+and [Franco--Kleiman--Lascu, *Gherardelli linkage and complete
+intersections*](https://arxiv.org/abs/math/0003075).
+For a numerical check, the line bundle
+\(\omega_Y(-4)\) has degree
+\(2p_a(Y)-2-4\deg Y=12-32=-20\), so
+\(P_{\omega_Y(-4)}(n)=8n-26\).
+Together with \(P_Y(n)=8n-6\) this recovers
+the CI polynomial \(P_Z(n)=16n-32\).
+
+**Scope.** A Ferrand doubling alone does not ensure
+that its global homogeneous ideal has two quartic
+generators. The classification below now supplies
+the missing bridge **for this particular union**:
+self-linkage makes the cubic generators map to a basis
+of \(H^0(\omega_Y(-1))\); the canonical module relations
+and the residual line then force exactly the displayed
+proper pencils. This is a geometric uniqueness proof
+using established liaison and Hilbert--Burch theory.
+It does not classify arbitrary Ferrand doublings or
+resolve unrestricted higher-degree STCI.
+
 ## Two translates with coinciding cubic jets
 
 Let \(Y=C_+\cup C_-\), where \(C_\pm=C_{1,\pm1}\), in
@@ -128,7 +321,7 @@ Let \(Z=V(F,G)\) and \(Y'=(I_Z:I_Y)\) be the
 complete-intersection residual to \(Y\). The reduced
 union \(Y\) is an arithmetically Cohen--Macaulay
 locally complete-intersection curve of degree eight and
-genus seven, proved below by its Hilbert--Burch
+genus seven, as established above by its Hilbert--Burch
 resolution and planar endpoint equations.
 Peskine--Szpiro linkage gives that \(Y'\) is locally
 Cohen--Macaulay of degree \(16-8=8\). Moreover the
@@ -329,199 +522,6 @@ classification of the exceptional support.
 The multi-support characteristic-two
 statement and its single-support
 specialization are treated separately below.
-
-## Hilbert--Burch and first-normal interpretation
-
-For the normalized exceptional support \(Y=C_+\cup C_-\)
-over a field of characteristic different from two,
-\(C_\pm=C_{1,\pm1}\), the saturated reduced ideal is
-\[
- I_Y=(A,B,D),\qquad
- 0\longrightarrow S(-5)^2
- \xrightarrow{\left(\begin{smallmatrix}
- x_2^2&x_3^2\\ x_0^2&x_1^2\\ x_1&x_2
- \end{smallmatrix}\right)}
- S(-3)^2\oplus S(-4)\longrightarrow I_Y\longrightarrow0.
-\]
-The signed maximal minors, in the order of the three summands,
-are \((-A,-B,D)\), and the final surjection has these entries.
-The minors have height two: \(A\) and \(B\) are distinct
-irreducible cubic forms, hence coprime. Hilbert--Burch therefore
-makes the displayed quotient Cohen--Macaulay and its homogeneous
-ideal saturated. Its Hilbert series follows *from the resolution*:
-\[
- H_{S/(A,B,D)}(q)
- =\frac{1-2q^3-q^4+2q^5}{(1-q)^4}.
-\]
-The numerator has a double zero at \(q=1\), with second
-derivative \(16\); the corresponding Cohen--Macaulay curve has
-degree eight. The ideal contains both distinct smooth quartics
-\(C_+\) and \(C_-\), whose degrees already total eight.
-The quotient is therefore generically reduced and has no
-additional components. Cohen--Macaulayness implies Serre's
-\(S_1\) condition, hence it is reduced, so this saturated
-ideal is exactly \(I_Y\).
-
-There is also a geometric check of the transverse normal
-parameters used below and in the sextic argument:
-the complete intersection \((A,B)\) has degree nine, contains
-\(Y\) of degree eight, and contains the residual coordinate
-line \(L=V(x_1,x_2)\) of degree one. Since \(A,B\)
-are coprime, these three distinct components exhaust Bézout
-degree, each with multiplicity one. Thus \(A,B\) form
-a regular system of transverse parameters at the generic
-points of \(C_+\) and \(C_-\). No Jacobian-rank table
-is needed for this fact.
-
-In degree four the resolution gives
-\[
- H^0(I_Y(4))
- =A\,S_1\oplus B\,S_1\oplus kD,\qquad
- h^0(I_Y(4))=4+4+1=9.
-\]
-This replaces the weight-and-parity monomial enumeration in
-the classification by the geometry of an arithmetically
-Cohen--Macaulay union and its Hilbert--Burch presentation.
-
-Inside \(\operatorname{Gr}(2,I_Y(4))=\operatorname{Gr}(2,9)\),
-a pencil \(W\) has generic intersection multiplicity at least two
-on each \(C_\epsilon\) precisely when its first-normal-symbol map
-\[
- W\otimes\mathcal O_{C_\epsilon}\longrightarrow
- N^\vee_{C_\epsilon/\mathbf P^3}(4)
-\]
-has generic rank at most one, i.e. its determinant vanishes identically.
-For a **proper** quartic pencil this condition on both components,
-together with degree \(4\cdot4=2\cdot4+2\cdot4\), forces the
-cycle \(2[C_+]+2[C_-]\). On the smooth locus of either component away from the two
-intersection endpoints, this is the familiar local
-**Ferrand doubling** condition: in two regular transverse
-parameters a proper pencil with rank-one first normal class
-has local ideal \((u,v^2)\), after changing generators and
-coordinates. See Bănică--Forster,
-[*Multiplicity Structures on Space Curves*, §1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf).
-That classical result describes the double structure locally;
-it does not supply the compatibility across the two marked
-endpoints or the global two-generator restriction.
-This identifies the classical geometric degeneracy
-locus. The [canonical-module rigidity proof](#two-translates-with-coinciding-cubic-jets)
-now shows that **its proper-pair points are exactly (1)**,
-using linkage and the residual coordinate line. The
-even-eight divisor class below explains a doubled divisor
-on a fixed carrier, but alone does not prove uniqueness.
-
-## Self-linkage and the canonical conormal quotient
-
-There is a further established geometric structure behind the
-normal-rank condition. Let \(Y=C_+\cup C_-\) in characteristic
-different from two. Its Hilbert--Burch resolution above gives
-\[
- \deg Y=8,\qquad P_Y(n)=8n-6,\qquad p_a(Y)=7.
-\]
-Moreover **\(Y\) is locally a complete intersection**, even
-at its two marked singularities. At \(p_0\), eliminate \(x_2\)
-using \(A\) in the affine chart \(x_0=1\): the ideal becomes
-\((x_2-x_1^3,\ x_3^2-x_1^8)\).
-At \(p_\infty\), similarly eliminate \(x_1\) using \(B\)
-on \(x_3=1\): the ideal becomes
-\((x_1-x_2^3,\ x_0^2-x_2^8)\).
-Thus the endpoints are two planar \(A_7\) singularities,
-each consisting of two smooth branches with intersection
-multiplicity four. The dualizing sheaf \(\omega_Y\)
-is therefore invertible, and on either component
-\[
- \omega_Y|_{C_\pm}
- =\omega_{C_\pm}(4p_0+4p_\infty)
- \simeq\mathcal O_{\mathbf P^1}(6).
-\]
-
-Now let \(Z=V(F,G)\) be a **proper** \((4,4)\) complete
-intersection with cycle \(2[C_+]+2[C_-]\).
-The ideal \(I_Z\) lies inside \(I_Y\), and at each generic
-component point its local ring is a length-two quotient of
-a two-dimensional regular local ring. The residual scheme
-\(Y'=(I_Z:I_Y)\) is Cohen--Macaulay by the
-Peskine--Szpiro complete-intersection linkage theorem
-because \(Y\) is arithmetically Cohen--Macaulay.
-At each generic point, a length-two local complete
-intersection has residual length one, so
-\(Y'\) has the same reduced support and generically
-the same reduced structure as \(Y\).
-It has degree \(16-8=8\), with no embedded components.
-Hence \(Y'=Y\) scheme-theoretically:
-\[
- \boxed{\ I_Z:I_Y=I_Y,\qquad I_Y^2\subset I_Z.\ }
-\]
-The standard linkage duality identifies the nilpotent
-ideal of this self-linkage,
-\[
- \boxed{\
- I_Y/I_Z\simeq\omega_Y(4-4-4)=\omega_Y(-4).\ } \tag{SL}
-\]
-Consequently every such pencil determines a **surjection**
-\[
- I_Y/I_Y^2\twoheadrightarrow\omega_Y(-4).
-\]
-This is the canonical Ferrand self-doubling description,
-rather than merely a pair of dependent normal jets
-on the separate smooth components. It includes
-the endpoint gluing encoded by \(\omega_Y\).
-
-It also gives two **intrinsic finite-dimensional tests**
-on the actual homogeneous equations. Since \(Y\)
-is Gorenstein of degree eight and genus seven,
-Riemann--Roch and Serre duality give
-\[
- h^0(\omega_Y(-1))=2,\qquad
- h^0(\omega_Y)=7.
-\]
-Indeed \(\chi(\omega_Y(-1))=-2\) and
-\(h^1(\omega_Y(-1))=h^0(\mathcal O_Y(1))=4\).
-For the self-linkage quotient, taking sections in degrees
-three and four yields
-\[
- \begin{aligned}
- H^0(I_Y(3))&\xrightarrow{\ \sim\ }H^0(\omega_Y(-1)),
-       && \dim=2,\\
- H^0(I_Y(4))&\twoheadrightarrow H^0(\omega_Y),
-       && \dim(\ker)=2. \tag{SL2}
- \end{aligned}
-\]
-The first map is an isomorphism because a \((4,4)\)
-CI has no cubic equation; the second is surjective
-because its ideal has vanishing first cohomology,
-and its kernel is precisely the actual quartic
-pencil \(W\). Thus the classification can be phrased
-as classifying the appropriate conormal quotient maps
-for which these section conditions and properness hold.
-The [geometric uniqueness argument above](#two-translates-with-coinciding-cubic-jets)
-combines this duality with the explicit canonical-module
-presentation furnished by Hilbert--Burch, the absence
-of common quadrics, and restriction to the residual line.
-The abstract section dimensions (SL2) **alone** would
-not classify the quartic pencils or obstruct STCI.
-See [Bănică--Forster, *Multiplicity Structures on Space Curves*,
-§1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf)
-and [Franco--Kleiman--Lascu, *Gherardelli linkage and complete
-intersections*](https://arxiv.org/abs/math/0003075).
-For a numerical check, the line bundle
-\(\omega_Y(-4)\) has degree
-\(2p_a(Y)-2-4\deg Y=12-32=-20\), so
-\(P_{\omega_Y(-4)}(n)=8n-26\).
-Together with \(P_Y(n)=8n-6\) this recovers
-the CI polynomial \(P_Z(n)=16n-32\).
-
-**Scope.** A Ferrand doubling alone does not ensure
-that its global homogeneous ideal has two quartic
-generators. The preceding classification now supplies
-the missing bridge **for this particular union**:
-self-linkage makes the cubic generators map to a basis
-of \(H^0(\omega_Y(-1))\); the canonical module relations
-and the residual line then force exactly the displayed
-proper pencils. This is a geometric uniqueness proof
-using established liaison and Hilbert--Burch theory.
-It does not classify arbitrary Ferrand doublings or
-resolve unrestricted higher-degree STCI.
 
 ## Two-sided contact and the nodal even-eight carrier
 
