@@ -154,7 +154,14 @@ finds one exceptional non-invariant orbit over each
 \(2[C_{u,v}]+2[C_{u,-v}]\), outside the invariant \((4,4)\) Chow closure.
 Every \((4,4)\) realization still satisfies the moment. The exceptional
 orbit gives full flat limits with a fixed cycle and an embedded point of
-length two at opposite ends.
+length two at opposite ends. On the exceptional carrier, the
+[even-eight identity](arguments/torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+gives genuine two-torsion in the class group of a ten-nodal quartic K3
+model, while a
+[Hilbert--Burch normal-map degeneracy](arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+describes doubled support. Neither has yet replaced the coefficient
+uniqueness proof. In characteristic two the exceptional formula
+[collapses to a non-invariant quartic STCI](arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision).
 In arbitrary degrees the [one-carrier trace tests](arguments/torus/chow_trace_cone_jets.md)
 extend the moment to new presentations and exclude cone jets at disjoint
 projection lines for sole support. The
@@ -163,10 +170,17 @@ detects the number of distinct supports after Chow matching. The
 unrestricted obstruction would need a bound on these tests from
 higher-degree equations. Separately, a
 [fixed-carrier construction criterion](arguments/torus/fixed_surface_restriction_lifts.md#a-two-translate-sextic-construction-criterion)
-reduces sole support to finding a sextic pair on two exchanged
-translates with one carrier invariant under their exchanging
-involution. This is the
-[current scoped construction target](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment).
+would convert any proper pair on two exchanged translates with
+unequal multiplicities into a sole-support mate. The
+[involution--Bézout inequality](arguments/torus/fixed_surface_restriction_lifts.md#involution--bezout-bound-and-the-remaining-sextic-locus)
+excludes the previously proposed sextic \((5,4)\) partition; all
+remaining unequal two-support sextic partitions are excluded on
+nodal carriers. For normal Du Val sextics the
+[global exceptional-correction budget](arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
+\(-Z_\pm^2=38/3\) must be reconciled with the local anti-invariant
+classes. This is the
+[revised scoped investigation](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment),
+not a completed higher-degree obstruction.
 The [coordinate-to-equation interface](arguments/torus/fixed_surface_restriction_lifts.md)
 gives linear coefficient constraints for arbitrary surfaces containing the
 chosen translates, then retains joint transverse lengths and normal lifts.
