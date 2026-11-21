@@ -241,8 +241,12 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   would require a conormal quotient \(\mathcal O(-8)\)
   of \(\mathcal O(-7)^{\oplus2}\). The
   [canonical-module argument](../../arguments/torus/quartic_chow_pencils.md#canonical-module-rigidity-of-the-pencil)
-  forces the \(\lambda\)-orbit by Hilbert--Burch duality
-  and restriction to the residual line. Thus the
+  forces the \(\lambda\)-orbit: the
+  [direct \((3,3)\) linkage](../../arguments/torus/quartic_chow_pencils.md#the-residual-line-and-the-canonical-module)
+  to that residual line gives
+  \(\omega_Y(-2)\simeq I_{L_{\mathrm{res}}}/(A,B)\),
+  so the line **both presents the canonical module
+  and forces its global generators**. Thus the
   classification of actual quartic generators
   is complete in characteristic zero. The
   geometric proof has received a scoped independent
@@ -251,9 +255,17 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   Neither the abstract Ferrand construction nor the
   even-eight class alone establishes uniqueness. The same
   [quartic family](../../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
-  supplies an \(H\)-orbit of Hilbert points over one Chow point, two
-  embedded endpoint limits, and a distinct non-invariant \((4,4)\)
-  single-support specialization in characteristic two.
+  supplies an \(H\)-orbit of Hilbert points over
+  one Chow point, with a normalized \(\mathbf P^1\)
+  compactification whose two embedded endpoint
+  limits differ from the two improper Grassmannian
+  pencil limits. On the normal nodal carrier the
+  [Nikulin cover](../../arguments/torus/quartic_exceptional_carrier_geometry.md#the-nikulin-double-cover-and-a-square-root-of-the-mate)
+  exhibits the mate as a square and the even-eight
+  class recovers parity of its mate multiplicities.
+  The characteristic-two construction remains
+  a distinct non-invariant single-support
+  \((4,4)\) specialization.
   The state-polytope comparison has not been explicitly computed.
 - **Corrected two-translate sextic criterion.** A proper \((6,6)\)
   pair supported on \(C_{1,\pm1}\), with an integral carrier invariant
@@ -279,9 +291,15 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   the **difference of the two branch classes** that must have the
   required order. The rational divisor classes are
   \([C_\pm]=\tfrac23H\), imposing
-  \(-Z_+^2=-Z_-^2=38/3\) on the crepant resolution.
-  These conditions are necessary, not a construction or a general
-  exclusion. A useful next comparison is the simultaneous local
+  \(-Z_+^2=-Z_-^2=38/3\) on the crepant
+  resolution. For the \((7,2)\) and \((8,1)\)
+  partitions, the [ADE discriminant-form
+  denominator test](../../arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
+  additionally forces a common endpoint of type
+  \(A_{3m-1}\) or \(E_6\), carrying matching
+  nontrivial 3-primary classes of both curves.
+  These conditions are necessary, not a construction
+  or a general exclusion. A useful next comparison is the simultaneous local
   anti-invariant classes, available odd-torsion singularities and
   the two exceptional-lattice budgets, before testing additional
   homogeneous coefficient families.
