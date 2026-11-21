@@ -200,7 +200,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0076: target rulings and a Cartier zero scheme on the residual divisor; joint premises []; proof `research/arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber`; review pending at `#review`.
 - STCI-R-0077: quadric restriction, connectedness and the normal bundle of the surviving section; joint premises [STCI-R-0020]; proof `#proof`; review pending at `#review`.
 - STCI-R-0078: separated covers, transverse lattices and the osculating quadric; joint premises []; proof `#proof`; review accepted, reconstructed at `#review`.
-- STCI-R-0079: endpoint contact, liaison residual genus, and canonical-module rigidity; joint premises [STCI-R-0074]; proof `research/arguments/torus/quartic_chow_pencils.md#classification`; review accepted, reconstructed at `#review`.
+- STCI-R-0079: endpoint contact, liaison residual genus, and canonical-module rigidity; joint premises [STCI-R-0074]; proof `research/arguments/torus/quartic_chow_pencils.md#proof-route`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
