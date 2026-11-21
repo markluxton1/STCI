@@ -24,8 +24,15 @@ An oblique linear direction \(\ell=x+c y\), \(c\ne0\), also gives a
 first-moment constraint except at one explicitly determined coefficient
 of the second equation. If \(F\) depends only on \(r,s,\ell\) modulo
 \((r^4,s^2)\) or \((r^2,s^4)\), it excludes sole support even at that
-coefficient. The final section gives a version for an arbitrary line
-disjoint from \(C_0\).
+coefficient. The [arbitrary-line theorem](#a-sole-support-test-at-an-arbitrary-disjoint-line)
+is the most intrinsic statement: for any \(p\notin C_0\)
+and disjoint line \(L'\) through \(p\), **neither**
+equation of a hypothetical characteristic-zero sole-support
+CI can have a cone jet independent of a complementary fiber
+coordinate modulo \(I(L')^5\). It follows from the
+nondegenerate trace pairing for a birational projection from \(p\).
+The marked-line moments are explicit, computable consequences
+that cover additional repeated-support arrangements.
 
 ## The trace in a tower of monic equations
 
