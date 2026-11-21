@@ -265,11 +265,45 @@ That classical result describes the double structure locally;
 it does not supply the compatibility across the two marked
 endpoints or the global two-generator restriction.
 This identifies the classical geometric degeneracy
-locus. The [complete rigidity route](#proof-route)
-shows that **its proper-pair points are exactly (1)**,
-using linkage and the residual coordinate line. The
-[even-eight divisor class](quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
-explains a doubled divisor on a fixed carrier, but alone does not prove uniqueness.
+locus. Its Grassmannian form is particularly simple.
+Set \(U=H^0(I_Y(4))\), \(\dim U=9\).
+On each component the first-normal symbol induces
+a *linear map on Plücker coordinates*
+\[
+ \Psi_\pm:\bigwedge\nolimits^2U\longrightarrow
+ H^0\!\left(C_\pm,
+       \det(N^\vee_{C_\pm/\mathbf P^3}(4))\right)
+ \simeq H^0(\mathbf P^1,\mathcal O(18)). \tag{PL}
+\]
+The last identification uses the
+characteristic-zero balanced splitting
+\(N^\vee_{C_\pm/\mathbf P^3}
+ \simeq\mathcal O(-7)^{\oplus2}\)
+and \(\mathcal O_{\mathbf P^3}(1)|_{C_\pm}
+ \simeq\mathcal O_{\mathbf P^1}(4)\).
+A pencil with Plücker coordinate \([\wedge^2W]\)
+has doubled generic support on both curves exactly
+when this coordinate belongs to
+\[
+ \mathcal D=
+ \operatorname{Gr}(2,9)\cap
+ \mathbf P(\ker\Psi_+\cap\ker\Psi_-). \tag{PL2}
+\]
+Here **properness is essential** for the
+degree-exhaustion implication.
+The [complete rigidity route](#proof-route)
+shows that the *proper-CI closed points* of
+\(\mathcal D\) are precisely the exceptional
+\(k^\times\)-family (1).
+No claim about the scheme structure or other
+components of the improper linear section is made.
+The [two Grassmannian and Hilbert boundaries](quartic_hilbert_chow_limits.md#two-compactifications-of-the-exceptional-orbit)
+are different: the Grassmannian retains only
+limiting equations, whereas the flat Hilbert
+limits retain the embedded endpoint corrections.
+The [even-eight divisor class](quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+explains a doubled divisor on a fixed carrier,
+not uniqueness of the moving orbit.
 
 ## Two translates with coinciding cubic jets
 
