@@ -139,6 +139,16 @@ dimensions one and two, respectively. The depth lemma
 gives \(\operatorname{depth}(S/J_0)\ge1\); hence \(J_0\)
 is already saturated.
 
+The generators in (4) come from the parameter-saturated
+family, so \(J_0\) is contained in its special ideal.
+The generic fiber is a proper \((4,4)\) complete intersection,
+and each degree of the parameter-saturated family is a
+torsion-free finite module over the parameter DVR, hence free.
+Its special fiber therefore has the same Hilbert function as
+the generic fiber. Equation (FL5) forces equality of the
+special ideal with \(J_0\). This proves the **full scheme**
+limit, not only its cycle or pure hull.
+
 ### Detaching the embedded endpoint
 
 The pure curve \(X=V(I')\) is a codimension-two **local complete
@@ -204,16 +214,6 @@ This identifies a six-dimensional family whose closure passes through
 each computed toric boundary point. It does **not** assert that this
 family is an irreducible component, that it exhausts the Chow fiber,
 or that its general member is a complete intersection.
-
-The generators in (4) come from the parameter-saturated
-family, so \(J_0\) is contained in its special ideal.
-The generic fiber is a proper \((4,4)\) complete intersection,
-and each degree of the parameter-saturated family is a
-torsion-free finite module over the parameter DVR, hence free.
-Its special fiber therefore has the same Hilbert function as
-the generic fiber. Equation (FL5) forces equality of the
-special ideal with \(J_0\). This proves the **full scheme**
-limit, not only its cycle or pure hull.
 
 Reversal sends
 \(\lambda\) to \(\lambda^{-1}\), giving the other full limit and embedded
