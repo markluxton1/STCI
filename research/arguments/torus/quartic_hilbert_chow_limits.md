@@ -57,9 +57,8 @@ Writing \(K_0=x_0^2B+\lambda x_1^2 A\), the next cancellations are
 All five generators of (4) therefore specialize from the parameter
 saturation.
 
-The identification of the entire special ideal and its Hilbert
-function can be proved by **Hilbert--Burch and an exact sequence**,
-without a Gröbner order or monomial count. Put
+The entire special ideal and its Hilbert function follow
+from **Hilbert--Burch and an exact sequence**. Put
 \[
  I'=(B,A^2,D_0),\qquad T=(x_1,x_2,x_0^2),\qquad
  H_5=2x_0^2x_1^2x_2-x_1^5.
