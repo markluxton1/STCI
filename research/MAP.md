@@ -150,9 +150,11 @@ congruences, including every invariant CI and reduced CI arrangement.
 Its linear Chow-coefficient equation separates their entire Chow closure
 from \(m[C_{u,v}]\) in characteristic zero. The
 [full quartic-pencil classification](results/quartic_chow_pencil_classification.md)
-finds one exceptional non-invariant orbit over each
+finds **in characteristic zero** one exceptional non-invariant
+orbit over each
 \(2[C_{u,v}]+2[C_{u,-v}]\), outside the invariant \((4,4)\) Chow closure.
-Every \((4,4)\) realization still satisfies the moment. The exceptional
+Every **characteristic-zero** \((4,4)\) realization in this
+fiber still satisfies the moment. The exceptional
 orbit gives full flat limits with a fixed cycle and an embedded point of
 length two at opposite ends. On the exceptional carrier, the
 [even-eight identity](arguments/torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
@@ -179,7 +181,9 @@ higher-degree equations. Separately, a
 would convert any proper pair on two exchanged translates with
 unequal multiplicities into a sole-support mate. The
 [involution--Bézout inequality](arguments/torus/fixed_surface_restriction_lifts.md#involution--bezout-bound-and-the-remaining-sextic-locus)
-excludes the previously proposed sextic \((5,4)\) partition; all
+excludes the previously proposed sextic \((5,4)\) partition
+**after generic regularity at both curves**, proved for this
+integral symmetric sextic by first-normal geometry; all
 remaining unequal two-support sextic partitions are excluded on
 nodal carriers. For normal Du Val sextics the
 [global exceptional-correction budget](arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
