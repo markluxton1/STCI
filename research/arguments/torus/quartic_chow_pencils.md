@@ -791,12 +791,22 @@ with \(T'\), and is therefore that translate's unique smooth quadric.
 An effective sum of its translated curves, all of the same ruling
 class \((1,3)\), cannot be the hypersurface section by \(T'\).
 
-The surface \(V(T)\) is regular at the two generic points. Indeed along
-either branch the linear parts of \(F_\lambda,G_\lambda\) in the normal
-directions have ratio \(y^2/(1+\lambda^{-1}y^4)\), by (2) with
-\(K=-\lambda A\). The denominator is a generic unit and the ratio
-is nonconstant. Thus no scalar combination loses both linear parts.
-The surface is also \(S_2\) because it is a hypersurface.
+The surface \(V(T)\) is regular at the two generic points.
+The first-normal rows computed above are proportional on
+each component, with quotient
+\[
+ \frac{\operatorname{in}_1(G_\lambda)}
+      {\operatorname{in}_1(F_\lambda)}
+ =\frac{\lambda^{-1}x_2+x_0^2/x_1}{x_1}
+ =t^{-2}+\lambda^{-1}t^2
+ \quad\text{on }C_\pm\cap\{x_0=1\}.
+\]
+This rational function is nonconstant in characteristic zero.
+Hence no nonzero constant linear combination of
+\(F_\lambda,G_\lambda\) can lose its first normal symbol
+identically along either component. Every retained carrier
+is therefore regular at both generic points.
+It is also \(S_2\), being a hypersurface.
 
 Write the cycle of \(Q_b\) on this surface as \(n_+[C_{1,1}]+
 n_-[C_{1,-1}]\), allowing zero, so \(b=n_++n_-\). If \(n_+>n_-\),
