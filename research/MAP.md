@@ -157,7 +157,7 @@ Every **characteristic-zero** \((4,4)\) realization in this
 fiber still satisfies the moment. The exceptional
 orbit gives full flat limits with a fixed cycle and an embedded point of
 length two at opposite ends. On the exceptional carrier, the
-[even-eight identity](arguments/torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+[even-eight identity](arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
 gives genuine two-torsion in the class group of a ten-nodal quartic K3
 model, while a
 [Hilbert--Burch normal-map degeneracy](arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
@@ -169,7 +169,7 @@ normal bundle, and self-linkage plus the Hilbert--Burch
 canonical module forces the proper \(\lambda\)-orbit.
 The even-eight class remains a complementary
 fixed-carrier explanation, not the uniqueness proof. In characteristic two the exceptional formula
-[collapses to a non-invariant quartic STCI](arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision).
+[collapses to a non-invariant quartic STCI](arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision).
 In arbitrary degrees the [one-carrier trace tests](arguments/torus/chow_trace_cone_jets.md)
 extend the moment to new presentations and exclude cone jets at disjoint
 projection lines for sole support. The
