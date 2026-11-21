@@ -157,8 +157,9 @@ Every **characteristic-zero** \((4,4)\) realization in this
 fiber still satisfies the moment. The exceptional
 orbit has a [normalized \(\mathbf P^1\) Hilbert
 compactification](arguments/torus/quartic_hilbert_chow_limits.md#two-compactifications-of-the-exceptional-orbit)
-with two distinct embedded endpoint limits. The
-Grassmannian limits are instead improper pencils
+with two distinct embedded endpoint limits. Its **Grassmannian**
+orbit closure in the Plücker embedding is explicitly a smooth
+twisted cubic; its two boundary points are instead improper pencils
 with a common cubic factor. On the exceptional carrier, the
 [even-eight identity](arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
 gives genuine two-torsion in the class group of a ten-nodal
@@ -191,7 +192,11 @@ unrestricted obstruction would need a bound on these tests from
 higher-degree equations. Separately, a
 [fixed-carrier construction criterion](arguments/torus/fixed_surface_restriction_lifts.md#a-two-translate-sextic-construction-criterion)
 would convert any proper pair on two exchanged translates with
-unequal multiplicities into a sole-support mate. The
+unequal multiplicities into a sole-support mate. The primitive
+orbit-lattice formula gives mate degree
+\(b(m-n)/\gcd(m,n)\); in particular a hypothetical sextic
+partition \((6,3)\) would already produce a degree-six
+sole-support mate and hence an actual \((6,6)\) STCI. The
 [involution--Bézout inequality](arguments/torus/fixed_surface_restriction_lifts.md#involution--bezout-bound-and-the-remaining-sextic-locus)
 excludes the previously proposed sextic \((5,4)\) partition
 **after generic regularity at both curves**, proved for this
