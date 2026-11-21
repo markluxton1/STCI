@@ -47,7 +47,7 @@ For effective one-cycles in every characteristic, [full Chow-polytope rigidity](
 The [first-moment theorem](../../arguments/torus/chow_arrangement_moments.md)
 adds a linear Chow equation for invariant proper CI arrangements, including
 every reduced CI arrangement. In characteristic zero their full Chow closure
-avoids every complete collision \(m[C_{u,v}]\). In bidegree \((4,4)\)
+avoids every complete collision \(m[C_{u,v}]\). In bidegree \((4,4)\) **in characteristic zero**, 
 the [classification](../../results/quartic_chow_pencil_classification.md)
 finds non-invariant lifts outside the invariant Chow closure. These are
 one orbit over each \(2[C_{u,v}]+2[C_{u,-v}]\), and all still satisfy the
@@ -82,8 +82,9 @@ Hilbert state-polytope comparison has not been carried out.
 For [fixed-carrier mate cycles](../../arguments/torus/fixed_surface_restriction_lifts.md#symmetry-and-the-multiplicity-lattice),
 the group orbit of a multiplicity vector generates a lattice of
 realizable effective vectors on an integral \(S_2\) carrier regular
-at the relevant generic points. The corrected symmetric sextic
-construction **excludes \((5,4)\)** by Bézout, and excludes all
+at the relevant generic points. The **generically regular** symmetric sextic
+construction (generic regularity proved for an integral
+symmetric sextic by its first-normal geometry) **excludes \((5,4)\)** by Bézout, and excludes all
 remaining unequal two-support partitions on ordinary nodal
 carriers. The [Du Val correction budget](../../arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
 is conditional; neither this nor the K3 mechanism is a
