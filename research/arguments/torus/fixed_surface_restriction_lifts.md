@@ -338,7 +338,7 @@ after diagonal transport. If both occur, their multiplicities sum to
 nine, so they are unequal. With \(n_+>n_->0\), put
 \(g=\gcd(n_+,n_-)\). The primitive orbit-lattice ratio
 \[
- \frac{G^{,n_+/g}}{(\sigma G)^{,n_-/g}}
+ \frac{G^{n_+/g}}{(\sigma G)^{n_-/g}}
 \]
 extends to a sole-support mate of degree
 \[
