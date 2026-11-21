@@ -187,9 +187,13 @@ In arbitrary degrees the [one-carrier trace tests](arguments/torus/chow_trace_co
 extend the moment to new presentations and exclude cone jets at disjoint
 projection lines for sole support. The
 [relative endpoint different](arguments/torus/chow_endpoint_different.md)
-detects the number of distinct supports after Chow matching. The
-unrestricted obstruction would need a bound on these tests from
-higher-degree equations. Separately, a
+detects the number of distinct supports after Chow matching. For the
+specific monomial endpoint family
+(y=u_i x^{d-1}, w=v_i x^d), the same trace/different argument plus
+weighted interpolation gives a degree-(d) finite detector already at
+depth (N=m+1); this is **not** asserted for arbitrary tame covers.
+The unrestricted obstruction would still need a bound on these tests
+from higher-degree global equations. Separately, a
 [fixed-carrier construction criterion](arguments/torus/fixed_surface_restriction_lifts.md#a-two-translate-sextic-construction-criterion)
 would convert any proper pair on two exchanged translates with
 unequal multiplicities into a sole-support mate. The primitive
