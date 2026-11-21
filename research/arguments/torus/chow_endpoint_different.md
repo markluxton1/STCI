@@ -71,6 +71,42 @@ and then completing at \(x=0\).
 The pencil calculation uses invertibility of \(4\) and all \(n_i\).
 The tangent calculation only uses invertibility of all \(n_i\).
 
+### Classical discriminant and index interpretation
+
+The number \(3r+2\delta\) is a specialization of classical
+discriminant/index theory, not a new identity for arbitrary finite
+algebras. When the normalized branches instead have tame parameter
+\(w=v_i x^d\) with \(d\) invertible and all generic multiplicities
+invertible in \(k\), the discriminant of each normalized branch over
+\(k[[w]]\) has valuation \(d-1\). For a finite reduced order
+\(B\subset\widetilde B\), the lattice-index formula gives
+\[
+ v_w(\operatorname{disc}(B/k[[w]]))
+ =r(d-1)+2\operatorname{length}(\widetilde B/B).
+\]
+The relative complete-intersection Jacobian and trace-duality
+identification is what makes this invariant accessible directly
+from an **actual equation pair** in the quartic problem.
+The proof above treats \(d=4\); the one-dimensional formula
+alone does not establish the quartic's specific finite jet
+threshold \(N=m+1\) for general \(d\).
+This is the classical different/discriminant viewpoint
+underlying [Eisenbud--Ulrich](https://www.math.purdue.edu/~bulrich/papers/Duality-and-Socle-180119.pdf)
+and standard orders in separable extensions of DVRs.
+
+The value \(3r+2\delta\) is determined by the reduced support
+and its endpoint normalization lattice, with multiplicities used
+only through the invertibility hypotheses. It is **not** a
+complete invariant of the nonreduced Hilbert lift. For two
+translated quartics, distinct cubic jets give \(\delta=3\)
+and length \(12\), whereas coincidence at both ends in the
+exceptional pair gives \(\delta=4\) and length \(14\).
+The numerical change by two equals the embedded length in the
+separate *flat torus limits* of the exceptional pencil, but
+nothing here identifies the two quantities or proves a
+conservation law. The former is a different of the original
+finite CI, the latter an embedded correction of its limit.
+
 ## Colength and finite detection
 
 The tangent-coordinate description \(y=u_i x^3,\ w=v_i x^4\)
