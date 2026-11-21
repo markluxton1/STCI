@@ -35,6 +35,19 @@ On any retained member of (1), the translated mates in arbitrary
 degrees are precisely the powers modulo that carrier described in the
 [fixed-carrier geometry](quartic_exceptional_carrier_geometry.md#all-mate-degrees-on-a-retained-exceptional-carrier).
 
+The proof has two distinct parts. **Support reduction** uses the
+distinguished torus weights and the geometry at the two fixed endpoints
+to isolate the opposite-sign pair. **Rigidity of actual equations**
+then comes from the reduced union \(Y=C_+\cup C_-\): it is an
+arithmetically Cohen--Macaulay, locally complete-intersection curve
+with two planar \(A_7\) singularities. Its Hilbert--Burch resolution
+determines both the quartic equation space and a small canonical
+module. Linkage and the balanced conormal bundle exclude asymmetric
+multiplicities; for the doubled pair, the canonical-module relations
+and restriction to the residual line determine the global generators.
+Thus the *exceptional uniqueness proof* is geometric, while the
+initial support reduction retains its special torus coordinates.
+
 ## Contact at a smooth endpoint
 
 The existing [quartic-pair exclusion](../../results/quartic_44_filtered_exclusion.md)
@@ -157,7 +170,7 @@ There is also a geometric check of the transverse normal
 parameters used below and in the sextic argument:
 the complete intersection \((A,B)\) has degree nine, contains
 \(Y\) of degree eight, and contains the residual coordinate
-line \(L=V(x_1,x_2)\) of degree one. Since \(A,B\)
+line \(L_{\mathrm{res}}=V(x_1,x_2)\) of degree one. Since \(A,B\)
 are coprime, these three distinct components exhaust Bézout
 degree, each with multiplicity one. Thus \(A,B\) form
 a regular system of transverse parameters at the generic
@@ -210,9 +223,9 @@ curves: their unique quadrics are
 \(x_1x_2\mp x_0x_3=0\), so \(I_Y(2)=0\).
 If a proper quartic pencil \(W\) has cycle supported on
 both components, its multiplicities are positive and sum to
-four by Bézout. The coordinate line
-\(\Lambda=V(x_1,x_2)\) is not a component, while \(A,B\)
-vanish identically on \(\Lambda\). Thus \(W\) cannot be
+four by Bézout. The residual line
+\(L_{\mathrm{res}}\) is not a component, while \(A,B\)
+vanish identically on \(L_{\mathrm{res}}\). Thus \(W\) cannot be
 contained in \(AS_1+BS_1\). Choose a basis
 \[
  F=AL+BM,\qquad G=D+AN+BP,\qquad
@@ -303,7 +316,7 @@ rather than merely a pair of dependent normal jets
 on the separate smooth components. It includes
 the endpoint gluing encoded by \(\omega_Y\).
 
-It also gives two **intrinsic finite-dimensional tests**
+It gives two finite-dimensional tests
 on the actual homogeneous equations. Since \(Y\)
 is Gorenstein of degree eight and genus seven,
 Riemann--Roch and Serre duality give
@@ -330,12 +343,10 @@ and its kernel is precisely the actual quartic
 pencil \(W\). Thus the classification can be phrased
 as classifying the appropriate conormal quotient maps
 for which these section conditions and properness hold.
-The [geometric uniqueness argument below](#two-translates-with-coinciding-cubic-jets)
-combines this duality with the explicit canonical-module
-presentation furnished by Hilbert--Burch, the absence
-of common quadrics, and restriction to the residual line.
-The abstract section dimensions (SL2) **alone** would
-not classify the quartic pencils or obstruct STCI.
+The canonical-module relations and the absence of a common
+quadric will turn these necessary section conditions into
+a determination of the actual quartic pencil. The dimensions
+alone do not impose global two-generator liftability.
 See [Bănică--Forster, *Multiplicity Structures on Space Curves*,
 §1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf)
 and [Franco--Kleiman--Lascu, *Gherardelli linkage and complete
@@ -349,20 +360,11 @@ for arbitrary Ferrand doublings.
 
 ### Canonical-module rigidity of the pencil
 
-The self-linkage just established supplies the quotient map
-\[
- q:I_Y\twoheadrightarrow I_Y/I_Z
-        \simeq\omega_Y(-4). \tag{SL}
-\]
-In degree three it induces an isomorphism
-\[
- H^0(I_Y(3))\xrightarrow{\sim}
- H^0(\omega_Y(-1)), \tag{S3}
-\]
-since the \((4,4)\) CI has no cubic equation
-and \(H^1(I_Z(3))=0\).
+Write \(q:I_Y\twoheadrightarrow\omega_Y(-4)\)
+for the self-linkage quotient (SL). Its degree-three
+map is the isomorphism in (SL2).
 
-Use **the dual Hilbert--Burch presentation**.
+Dualizing the Hilbert--Burch presentation gives the
 The graded canonical module
 \(\mathcal K=\operatorname{Ext}^2_S(S/I_Y,S(-4))\)
 has two generators \(e_1,e_2\) of degree \(-1\),
@@ -373,8 +375,8 @@ with relations
  x_1e_1+x_2e_2=0. \tag{CM}
 \]
 Their degree-\(-1\) parts form a basis of
-\(H^0(\omega_Y(-1))\). As (S3) is an
-isomorphism, for an invertible constant matrix
+\(H^0(\omega_Y(-1))\). By (SL2), for an
+invertible constant matrix
 \(\left(\begin{smallmatrix}a&b\\c&d\end{smallmatrix}\right)\)
 we may write
 \[
@@ -424,8 +426,7 @@ and canceling the factor \(x_1\), gives
  =cx_1^2+ax_3^2-bx_2^2-dx_0^2. \tag{Q}
 \]
 The left side lies in \((x_1,x_2)\).
-**Restricting to the residual line**
-\(\Lambda=V(x_1,x_2)\) makes the right
+**Restricting to \(L_{\mathrm{res}}\)** makes the right
 side \(ax_3^2-dx_0^2\). Thus
 \[
  \boxed{a=d=0,\qquad bc\ne0.} \tag{R}
@@ -492,7 +493,7 @@ in the pencil. The member with zero
 \(D\)-coefficient recovers \(\lambda\).
 
 This completes the **characteristic-zero**
-classification of the exceptional support.
+classification of the exceptional two-support case.
 The characteristic-two **single-support construction**
 is proved separately in the [Hilbert-over-Chow account](quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision).
 The present linkage/normal-bundle argument does **not**
