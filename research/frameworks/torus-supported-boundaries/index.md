@@ -55,7 +55,7 @@ moment. A [one-carrier trace argument](../../arguments/torus/chow_trace_cone_jet
 reaches further presentation classes in arbitrary degrees. The general
 higher-degree realization locus remains open.
 
-The [exceptional-pencil interpretation](../../arguments/torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+The [exceptional-pencil interpretation](../../arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
 relates two-sided endpoint cubic contact to an explicit even eight
 on a ten-nodal quartic K3 resolution and nontrivial Weil
 two-torsion. The [first-normal map](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
@@ -74,7 +74,7 @@ then forces the entire exceptional \(\lambda\)-orbit,
 using the Hilbert--Burch canonical presentation and
 restriction to the residual coordinate line. The
 previous coefficient and third-normal elimination
-are no longer proof dependencies. The [Hilbert-over-Chow orbit](../../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
+are no longer proof dependencies. The [Hilbert-over-Chow orbit](../../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
 has opposite full embedded limits and specializes in characteristic
 two to a non-invariant single-support quartic pair. The exact
 Hilbert state-polytope comparison has not been carried out.
@@ -242,7 +242,7 @@ the degree-labeled eigenform evaluation spaces and their common fixed
 factors decide actual CI realization; degree exhaustion excludes boundary
 residuals after properness. In degree \((4,4)\) the explicit
 line-and-quartic model and the exceptional orbit exhaust the actual
-pencils. The latter has two [saturated five-generator limits](../../arguments/torus/quartic_chow_pencils.md#chow-closure-and-full-opposite-limits),
+pencils. The latter has two [saturated five-generator limits](../../arguments/torus/quartic_hilbert_chow_limits.md#chow-closure-and-full-opposite-limits),
 each with an embedded length-two point, whereas its cycle is fixed.
 For an original proper Chow-matched pair in any degree, the
 [relative different](../../arguments/torus/chow_endpoint_different.md)
