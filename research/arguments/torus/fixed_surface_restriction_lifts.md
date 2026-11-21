@@ -349,7 +349,7 @@ three displayed products as basis. Each such form factors over \(k\)
 as a binary quadratic in the cubics, contradicting integrality.
 This establishes the regularity required by the ratio argument.
 
-### Involution--Bézout bound and the remaining sextic locus
+### Involution--Bezout bound and the remaining sextic locus
 
 The symmetry provides a useful degree-independent necessary
 inequality. Suppose \(T=V(F_a)\) is integral and
