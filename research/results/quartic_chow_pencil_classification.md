@@ -57,8 +57,20 @@ the nilpotent sheaf is canonically \(\omega_Y(-4)\), and
 the degree-three and degree-four equation maps satisfy
 the stated Serre-duality tests. These are established
 liaison/Ferrand mechanisms, not new classification theorems.
-The geometric conditions have **not yet replaced** the
-coefficient-based uniqueness and triple-branch exclusions.
+The [geometric uniqueness proof](../arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+**does replace** the former coefficient-based uniqueness
+and triple-branch exclusions. Linkage makes the residual
+to \(Y\) an eight-degree Cohen--Macaulay curve of genus seven;
+a hypothetical \((3,1)\) or \((1,3)\) partition would require
+a forbidden \(\mathcal O(-8)\) quotient of the balanced
+conormal \(\mathcal O(-7)^{\oplus2}\).
+For \((2,2)\), self-linkage identifies
+\(I_Y/I_Z\simeq\omega_Y(-4)\).
+Dualizing Hilbert--Burch and restricting the resulting
+quadratic identity to \(V(x_1,x_2)\) forces the unique
+\(\lambda\)-orbit. The canonical-module calculation
+retains actual quartic generators rather than replacing
+them with an abstract doubling.
 The [even-eight divisor calculation](../arguments/torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
 explains doubled divisors on one carrier, not uniqueness of
 the family. The [characteristic-two specialization](../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
@@ -72,11 +84,27 @@ and its possible single-support pencils remain open.
 
 ## Review
 
-The original classification review was accepted for its mathematical scope. The Hilbert--Burch descriptions now replace the original monomial enumeration, the full-limit Gröbner/Hilbert calculation, and the sextic conormal rank table; the self-linkage account uses standard duality. **The core uniqueness of the non-invariant quartic pencil still uses the explicit coefficient and third-order-contact argument**, so a fully intrinsic proof has not been certified. The later geometric and characteristic-two deductions are recorded with their own arguments and have not been promoted to a new completeness certificate. Independent reconstruction checked the endpoint evaluation kernels,
-smooth graph argument, and two-branch transverse determinant through
-first normal order. The invariant moment was rederived by change of
-root coordinate. A separate proof review checked the specialization of
-the labeled supports and actual pencils, the parameter saturations,
-their Hilbert functions and the pure quotients at both ends. The
-retained-carrier proof was separately checked using generic regularity,
-extension across codimension two and the full quartic-carrier exclusion.
+The original coefficient-based classification was accepted for
+its mathematical scope. The replacement
+[linkage/canonical-module argument](../arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+now closes the remaining uniqueness and triple-branch gates
+without coefficient elimination: residual genus excludes
+the asymmetric multiplicities, and the canonical module of
+the Hilbert--Burch union plus the residual-line restriction
+classifies all proper doubled pencils.
+The argument relies on established Peskine--Szpiro linkage,
+Ferrand doubling and the accepted balanced normal splitting
+of the fixed rational quartic.
+The Hilbert--Burch proof also replaces the earlier
+weight/parity monomial enumeration, while a second
+Hilbert--Burch resolution and exact sequence replace the
+full-flat-limit Gröbner calculation. The sextic conormal
+rank table is replaced at its canonical argument owner.
+The new uniqueness proof has been checked for
+degree/genus arithmetic, the canonical module grading,
+syzygy signs, and the final Koszul argument, but **has
+not yet received an independent mathematical review**.
+The earlier separate reviews of the characteristic-two
+specialization, opposite full limits, and retained-carrier
+theorem preserve their stated scopes. No unrestricted
+higher-degree STCI claim follows.
