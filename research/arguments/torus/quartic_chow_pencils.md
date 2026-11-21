@@ -526,11 +526,13 @@ weight sets \(\{6,10\}\) and
 in the pencil. The member with zero
 \(D\)-coefficient recovers \(\lambda\).
 
-This completes the characteristic-zero
+This completes the **characteristic-zero**
 classification of the exceptional support.
-The multi-support characteristic-two
-statement and its single-support
-specialization are treated separately below.
+The characteristic-two **single-support construction**
+below is a separate statement proved by direct identities.
+The present linkage/normal-bundle argument does **not**
+establish a full quartic-pencil classification in
+positive characteristic, including odd primes.
 
 ## Two-sided contact and the nodal even-eight carrier
 
@@ -770,9 +772,11 @@ Its ideal is non-invariant, as the distinct intrinsic weights of
 both generators show. This is a characteristic-two
 \((4,4)\) STCI presentation with a \((2,2)\) generic-characteristic
 support splitting; it is different from the familiar four-distinct-
-translate binomial splitting \((1,1,1,1)\). It does not contradict
-the statement above that only invariant **multi-support**
-pencils occur in characteristic two.
+translate binomial splitting \((1,1,1,1)\).
+This explicit characteristic-two construction makes
+**no claim** to classify all multi-support quartic pencils
+in that characteristic. The full uniqueness theorem
+above is stated and proved in characteristic zero.
 
 ## All mate degrees on a retained exceptional carrier
 
