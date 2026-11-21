@@ -458,6 +458,8 @@ Replacing \(G\) by \(G-\tau F\) and scaling
 This is precisely the family (1). Thus **all** proper quartic pencils with this
 two-component support are the displayed orbit.
 
+## Existence and orbit parameter
+
 ### Properness and generic cycle
 
 Conversely, on the line \(V(x_0,x_3)\)
