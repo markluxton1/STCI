@@ -114,7 +114,8 @@ every deepest collision \(m[C_{u,v}]\). The
 [quartic classification](../../results/quartic_chow_pencil_classification.md)
 gives actual non-invariant lifts of the cycles
 \(2[C_{u,v}]+2[C_{u,-v}]\) outside the invariant \((4,4)\) Chow closure.
-Every quartic pencil in the fiber satisfies the same moment. In higher
+Every **characteristic-zero** quartic pencil in the fiber satisfies
+the same moment. In higher
 degrees, [one-carrier trace tests](../torus/chow_trace_cone_jets.md)
 reach some non-invariant presentations.
 For arbitrary forms, the [translate-coordinate evaluation map](../torus/fixed_surface_restriction_lifts.md#translate-coordinates-constrain-actual-coefficients)
