@@ -138,6 +138,88 @@ lattice inclusion gives \(B^\vee\subset w^{-(r-1)}\widetilde B^\vee\).
 Together these show \(w^{2r-1}B^\vee\subset\Gamma(B)\), so the
 constant term of the jet length has stabilized by that depth.
 
+### Monomial degree-\(d\) finite detector
+
+The finite-depth argument extends to the same **monomial endpoint
+geometry**, not to arbitrary tame covers. Let
+\(R=k[[w]]\), and suppose a finite free relative complete-intersection
+algebra \(E\) has rank \(dm\), with reduced quotient \(B\) whose
+normalization is
+\[
+ \widetilde B=\bigoplus_{i=1}^r k[[x]]
+\]
+and whose distinct branches have parametrizations
+\[
+ y=u_i x^{d-1},\qquad w=v_i x^d,
+ \qquad v_i\ne0.
+\tag{D1}
+\]
+Assume the pairs \((u_i,v_i)\) are distinct, the generic
+multiplicities \(n_i>0\) sum to \(m\), and both \(d\) and all
+\(n_i\) are invertible in \(k\). Let
+\[
+ \delta=\operatorname{length}_k(\widetilde B/B),
+\]
+and let \(\Delta\) denote the relative complete-intersection
+Jacobian for the projection to \(w\).
+
+The established finite-CI different/trace identity used above gives
+\[
+ \operatorname{length}
+ \frac{(E\Delta):w^\infty}{E\Delta}
+ =r(d-1)+2\delta. \tag{D2}
+\]
+For the normalization lattice, choose parameter vectors
+\((u_i^\alpha v_i^\beta)_i\) greedily in increasing weight
+\((d-1)\alpha+d\beta\). Powers of a general linear form in
+\((u,v)\) separate the \(r\) distinct points. Hence the \(j\)-th
+selected vector can be chosen among monomials of ordinary degree at
+most \(j-1\), and therefore at weight at most \(d(j-1)\).
+Exactly as in the quartic calculation,
+\[
+ \boxed{\ \delta\le \frac d2r(r-1).\ } \tag{D3}
+\]
+
+The free rank of \(E/(\Delta)\) over \(R\) is
+\(dm-dr\). If \(r=1\), the normalized tame extension
+\(w=vx^d\) has trace-pairing elementary exponents
+\[
+ 0,\underbrace{1,\ldots,1}_{d-1};
+\]
+in the basis \(1,x,\ldots,x^{d-1}\), the only nonunit pairings
+besides \(\operatorname{Tr}(1)=d\) occur when the exponents sum
+to \(d\), and are unit multiples of \(w\). Thus
+\[
+ \operatorname{length}_k E/(\Delta,w^N)
+ =(dm-d)N+d-1. \tag{D4}
+\]
+For \(r>1\), (D2)--(D3) give the uniform upper bound
+\[
+ \operatorname{length}_k E/(\Delta,w^N)
+ \le (dm-dr)N+r(d-1)+dr(r-1). \tag{D5}
+\]
+The difference between the singleton value in (D4) and the right
+side of (D5) is
+\[
+ (r-1)\bigl(d(N-r-1)+1\bigr),
+\]
+which is positive for \(N\ge r+1\). Since \(m\ge r\), taking
+\(N=m+1\) yields the conditional degree-\(d\) detector
+\[
+ \boxed{ \operatorname{length}_k E/(\Delta,w^{m+1})
+ =(dm-d)(m+1)+d-1
+ \quad\Longleftrightarrow\quad r=1.
+ \ } \tag{D6}
+\]
+
+The classical input here is the same finite-complete-intersection
+Kähler/Noether different and trace duality already cited from
+Eisenbud--Ulrich. The additional uniform threshold (D6) is only the
+weighted-interpolation consequence of the special branch model (D1).
+No claim is made for arbitrary tame finite covers, arbitrary singular
+branches, or a degree-\(d\) realization theorem outside this local
+monomial setup.
+
 For the [exceptional quartic pencils](quartic_chow_pencils.md#classification),
 the two \(u_i\) coincide and the \(v_i\) are opposite, so the greedy
 weights are \(0,4\) at both endpoints. Their different saturation
