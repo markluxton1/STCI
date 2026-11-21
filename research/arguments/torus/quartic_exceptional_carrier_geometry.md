@@ -186,7 +186,15 @@ the cover explains the square on a **fixed**
 carrier; [liaison and canonical-module rigidity](quartic_chow_pencils.md#proof-route)
 classify the moving \(\lambda\)-orbit.
 Neither statement alone determines all
-Hilbert lifts above the Chow point.
+Hilbert lifts above the Chow point. In particular
+this *Nikulin* cover is not the auxiliary
+quadratic cover used for sextic
+[carrier-normalization exclusions](../carriers/normal_carriers_primitive_jets_and_characteristic.md),
+and its two-torsion Weil class is not
+the Picard torsion of the genus-one
+spectral-root framework. No comparison
+map between those different covers or
+torsion mechanisms is asserted.
 
 ## All mate degrees on a retained exceptional carrier
 
