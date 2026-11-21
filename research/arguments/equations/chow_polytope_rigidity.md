@@ -363,10 +363,10 @@ offers an intrinsic doubled-support condition. The
 [linkage/canonical-module argument](../torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
 now proves its complete proper-pair classification, with no
 coefficient or third-order derivative elimination. Separately, an
-[explicit even-eight divisor identity](../torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+[explicit even-eight divisor identity](../torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
 explains the fixed-carrier doubled divisor, not uniqueness of the
 non-invariant orbit. The
-[full Hilbert-over-Chow orbit and characteristic-two collapse](../torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
+[full Hilbert-over-Chow orbit and characteristic-two collapse](../torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
 illustrate information lost by the Chow map. An
 [endpoint different test](../torus/chow_endpoint_different.md#statement)
 recognizes single support after Chow matching in arbitrary degree;
