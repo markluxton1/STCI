@@ -60,8 +60,16 @@ relates two-sided endpoint cubic contact to an explicit even eight
 on a ten-nodal quartic K3 resolution and nontrivial Weil
 two-torsion. The [first-normal map](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
 describes a doubled-support degeneracy locus inside
-\(\operatorname{Gr}(2,9)\), but a conceptual proof of its uniqueness
-remains open. The [Hilbert-over-Chow orbit](../../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
+\(\operatorname{Gr}(2,9)\). By
+[complete-intersection self-linkage](../../arguments/torus/quartic_chow_pencils.md#self-linkage-and-the-canonical-conormal-quotient),
+the nilpotent layer of any proper doubled pair is
+canonically \(\omega_Y(-4)\); Serre duality controls the
+degree-three and degree-four maps.
+This is an established Ferrand/Peskine--Szpiro
+description of **actual double structures**, not yet a
+conceptual proof that only the exceptional \(\lambda\)-orbit
+meets the proper locus. That remaining uniqueness step
+still uses coefficient elimination. The [Hilbert-over-Chow orbit](../../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
 has opposite full embedded limits and specializes in characteristic
 two to a non-invariant single-support quartic pair. The exact
 Hilbert state-polytope comparison has not been carried out.
