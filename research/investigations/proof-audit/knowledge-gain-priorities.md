@@ -214,7 +214,7 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   \(2[C_{u,v}]+2[C_{u,-v}]\) has a non-invariant orbit outside the invariant
   quartic Chow closure, with the same vanishing first moment and opposite
   embedded endpoint corrections of length two. On a
-  [retained exceptional carrier](../../arguments/torus/quartic_chow_pencils.md#all-mate-degrees-on-a-retained-exceptional-carrier)
+  [retained exceptional carrier](../../arguments/torus/quartic_exceptional_carrier_geometry.md#all-mate-degrees-on-a-retained-exceptional-carrier)
   all translated mates are powers modulo that carrier, in degrees divisible
   by four. Changing the mate degree on this carrier preserves the equal
   multiplicities.
@@ -225,7 +225,7 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   algebra. Its value on a given pair provides a test for sole support,
   with no global inequality yet ruling out that value in higher degrees.
 - **Geometric explanation in degree four.** The
-  [exceptional quartic proof](../../arguments/torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+  [exceptional quartic proof](../../arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
   identifies its support by coincident cubic jets at **both** endpoints
   and exhibits a ten-nodal quartic K3 resolution with an exact
   eight-exceptional-curve divisibility relation. This gives the
@@ -245,7 +245,7 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   The new proof merits independent review; its
   abstract Ferrand and even-eight ingredients alone
   would not establish this uniqueness. The same
-  [quartic family](../../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
+  [quartic family](../../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
   supplies an \(H\)-orbit of Hilbert points over one Chow point, two
   embedded endpoint limits, and a distinct non-invariant \((4,4)\)
   single-support specialization in characteristic two.
