@@ -36,7 +36,13 @@ the minimal K3 resolution has a ten-node configuration and an
 explicit **even eight** whose half maps to a nontrivial order-two
 Weil divisor class. A
 [Hilbert--Burch normal-map locus](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
-records generic doubled support without assuming invariant equations.
+records generic doubled support without assuming
+invariant equations. The
+[geometric uniqueness argument](../../arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+now upgrades it to a complete quartic-pencil classification:
+liaison excludes the asymmetric multiplicities, while
+the dual Hilbert--Burch canonical presentation and a
+residual-line restriction yield the \(\lambda\)-orbit.
 The classified non-invariant \(H\)-orbit moves **inside one Hilbert
 fiber over a fixed Chow point** and acquires embedded corrections at
 its opposite ends. It does not prove a general relation between
