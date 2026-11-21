@@ -484,9 +484,9 @@ Replacing \(G\) by \(G-\tau F\) and scaling
  \lambda x_2A+x_1B,\
  D+\lambda x_1A+\lambda^{-1}x_2B
  \right\rangle,\qquad\lambda=c/b\in k^\times .
- \;} \tag{1}
+ \;}
 \]
-Thus **all** proper quartic pencils with this
+This is precisely the family (1). Thus **all** proper quartic pencils with this
 two-component support are the displayed orbit.
 This is a proof by canonical modules, linkage,
 the absence of common quadrics and restriction
