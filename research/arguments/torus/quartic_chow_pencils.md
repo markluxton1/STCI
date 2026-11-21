@@ -340,7 +340,16 @@ The residual has generic multiplicities
 then \(Y'\) would be a locally Cohen--Macaulay
 **double of the smooth rational quartic** \(C_+\).
 The classical Ferrand description gives an
-invertible conormal quotient
+invertible conormal quotient. To see the needed hypotheses
+directly, at the generic point of \(C_+\) a length-two
+local Artin algebra has square-zero maximal ideal.
+Thus \(I_{C_+}^2\subset I_{Y'}\) generically.
+Since \(Y'\) has no embedded points, a subsheaf of
+\(\mathcal O_{Y'}\) supported at finitely many points
+must vanish, so the inclusion holds everywhere.
+The nilpotent ideal \(I_{C_+}/I_{Y'}\) is torsion-free
+of rank one on the smooth curve \(C_+\), hence is
+a line bundle \(\mathcal L\), giving
 \[
  N^\vee_{C_+/\mathbf P^3}\twoheadrightarrow
  \mathcal L=I_{C_+}/I_{Y'},\qquad
