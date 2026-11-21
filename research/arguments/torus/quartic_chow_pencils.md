@@ -101,16 +101,21 @@ this last case.
 
 ## Two translates with coinciding cubic jets
 
-For \(C_{1,\pm1}\) the space of quartics vanishing on both curves is
-\(A S_1+B S_1+kD\), with unique coefficients. Group the quartic monomials
-by weight and parity of the \(x_3\)-exponent. In each group, containment
-means that the coefficients sum to zero, since the two signs are distinct.
-The groups with two monomials give one basis vector at each of weights
-\(3,4,6,7,8,9,10,12,13\); all other groups have a single monomial.
-These basis vectors are the four coordinate multiples of each cubic and
-the weight-eight form \(D\). The line \(x_1=x_2=0\) meets the support
-only at the endpoints. Since \(A,B\) vanish on the full line, the
-\(D\) coefficient occurs in the pencil.
+For \(Y=C_{1,1}\cup C_{1,-1}\), the
+[Hilbert--Burch resolution](#hilbert--burch-and-first-normal-interpretation)
+proves intrinsically that
+\[
+ I_Y(4)=A\,H^0(\mathcal O_{\mathbf P^3}(1))
+       \oplus B\,H^0(\mathcal O_{\mathbf P^3}(1))
+       \oplus kD .
+\]
+No monomial-support enumeration is required: the two cubic
+generators have their first syzygies in degree five, and \(D\)
+is the remaining quartic generator. Let \(L=V(x_1,x_2)\).
+Its intersection with \(Y\) consists only of the marked endpoints,
+but \(A|_L=B|_L=0\). A proper quartic pencil cannot lie entirely
+in \(A S_1+B S_1\), since every such pair would vanish on all of
+\(L\). Consequently one may choose a basis of the form
 Write
 \[
 F=A L+B M,\qquad G=D+A N+B P,\qquad L,M,N,P\in S_1.
@@ -201,10 +206,32 @@ For the normalized exceptional support \(Y=C_+\cup C_-\),
 \]
 The signed maximal minors, in the order of the three summands,
 are \((-A,-B,D)\), and the final surjection has these entries.
-This is the Hilbert--Burch resolution of \((A,B,D)\).
-In particular \(\dim I_Y(4)=9\) and
-\(I_Y(4)=AS_1+BS_1+kD\), explaining the initial equation space
-used in the classification without a monomial enumeration.
+The minors have height two: \(A\) and \(B\) are distinct
+irreducible cubic forms, hence coprime. Hilbert--Burch therefore
+makes the displayed quotient Cohen--Macaulay and its homogeneous
+ideal saturated. Its Hilbert series follows *from the resolution*:
+\[
+ H_{S/(A,B,D)}(q)
+ =\frac{1-2q^3-q^4+2q^5}{(1-q)^4}.
+\]
+The numerator has a double zero at \(q=1\), with second
+derivative \(16\); the corresponding Cohen--Macaulay curve has
+degree eight. The ideal contains both distinct smooth quartics
+\(C_+\) and \(C_-\), whose degrees already total eight.
+The quotient is therefore generically reduced and has no
+additional components. Cohen--Macaulayness implies Serre's
+\(S_1\) condition, hence it is reduced, so this saturated
+ideal is exactly \(I_Y\).
+
+In degree four the resolution gives
+\[
+ H^0(I_Y(4))
+ =A\,S_1\oplus B\,S_1\oplus kD,\qquad
+ h^0(I_Y(4))=4+4+1=9.
+\]
+This replaces the weight-and-parity monomial enumeration in
+the classification by the geometry of an arithmetically
+Cohen--Macaulay union and its Hilbert--Burch presentation.
 
 Inside \(\operatorname{Gr}(2,I_Y(4))=\operatorname{Gr}(2,9)\),
 a pencil \(W\) has generic intersection multiplicity at least two
