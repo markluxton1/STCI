@@ -278,6 +278,11 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   separately for the integral symmetric sextic by the first-normal
   and Hilbert--Burch argument. Only
   \((6,3),(7,2),(8,1)\) and reversals remain with both components.
+  The primitive orbit-lattice construction sharpens their consequences:
+  \((6,3)\) would yield a degree-six sole-support mate (multiplicity
+  nine), while \((7,2)\) and \((8,1)\) yield mate degrees
+  (30) and (42), respectively. Thus the first surviving partition
+  would already give an actual \((6,6)\) STCI.
   The same argument together with the local
   \(\mathbf Z/2\) divisor class **excludes every such pair
   on a carrier with only ordinary nodes**. The surviving search
