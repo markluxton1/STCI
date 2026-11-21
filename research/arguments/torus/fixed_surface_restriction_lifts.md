@@ -326,28 +326,65 @@ it would be singular along both. The degree-six forms vanishing to
 order at least two along both are precisely the span of \(A^2,AB,B^2\)
 with the cubics \(A,B\) from the
 [exceptional quartic pencil](quartic_chow_pencils.md#classification).
-For the calculation, group monomials of ordinary degree six by their
-\((0,1,3,4)\)-weight \(w\) and parity \(p\) of the \(x_3\)-exponent.
-Using \(i,j\) for the \(x_2,x_3\)-exponents, require \(i,j\ge0\),
-\(w-3i-4j\ge0\), \(6-w+2i+3j\ge0\), and \(j\equiv p\bmod 2\).
-On each group the value and two transverse derivatives are the
-coefficient sums against \(1,i,j\). Groups of size at most two have
-full column rank. Here are the larger groups for \(w\le12\), all
-with \(p=0\). Reversal gives \((24-w,p+w\bmod2)\) for the rest.
+Here is a geometric proof of that description, replacing the
+weighted-monomial rank computation. Put \(Y=C_+\cup C_-\) and
+\(L=V(x_1,x_2)\). Its
+[Hilbert--Burch resolution](quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+gives
+\[
+ I_Y=(A,B,D),\quad I_Y(3)=kA\oplus kB,\quad
+ I_Y(4)=AS_1\oplus BS_1\oplus kD.
+\]
+In particular, the image of \(I_Y(4)\) on the disjoint
+coordinate line \(L\) is the **one-dimensional** space
+\(k\,x_0^2x_3^2\), since \(A|_L=B|_L=0\) and
+\(D|_L=-x_0^2x_3^2\). The two degree-five
+Hilbert--Burch syzygies are
+\[
+ x_1D=x_2^2A+x_0^2B,\qquad
+ x_2D=x_3^2A+x_1^2B. \tag{A}
+\]
 
-| \(w\) | \((i,j)\) | Rank |
-| --- | --- | --- |
-| 6 | \((0,0),(1,0),(2,0)\) | 2 |
-| 8 | \((1,0),(2,0),(0,2)\) | 3 |
-| 9 | \((2,0),(3,0),(0,2)\) | 3 |
-| 10 | \((2,0),(3,0),(0,2)\) | 3 |
-| 11 | \((3,0),(0,2),(1,2)\) | 3 |
-| 12 | \((3,0),(4,0),(0,2),(1,2)\) | 3 |
-
-The only kernel weights are six, twelve and eighteen, with the
-three displayed products as basis. Each such form factors over \(k\)
-as a binary quadratic in the cubics, contradicting integrality.
-This establishes the regularity required by the ratio argument.
+Let \(H\in S_6\) vanish to order at least two at the generic
+points of **both** components of \(Y\). Since it vanishes
+on \(Y\), write
+\[
+ H=A U+B V+D W,\qquad U,V\in S_3,\quad W\in S_2.
+\]
+At either generic point, \(A,B\) are regular transverse
+parameters. The vanishing of the first normal class of \(H\),
+combined with (A), forces all four quartics
+\[
+ x_1U+x_2^2W,\quad x_1V+x_0^2W,\quad
+ x_2U+x_3^2W,\quad x_2V+x_1^2W
+\]
+to lie in \(I_Y(4)\): each is the coefficient of a
+regular transverse parameter after multiplication of
+the first normal class by \(x_1\) or \(x_2\).
+Restrict the **second** and **third** of these quartics
+to \(L\). The one-dimensional restriction image gives
+\[
+ x_0^2 W|_L\in k\,x_0^2x_3^2,\qquad
+ x_3^2 W|_L\in k\,x_0^2x_3^2.
+\]
+Therefore \(W|_L\) is at once a multiple of \(x_3^2\)
+and of \(x_0^2\), so \(W|_L=0\).
+Thus \(W\in(x_1,x_2)_2\), and (A) eliminates the \(DW\)
+term, writing \(H=AU'+BV'\) with
+\(U',V'\in S_3\). The vanishing of its first normal class
+and the generic independence of \(A,B\) imply
+\(U',V'\in I_Y(3)=kA+kB\). Consequently
+\[
+ \boxed{\
+ \{H\in S_6:\operatorname{ord}_{C_\pm}H\ge2\}
+        =\operatorname{Sym}^2(kA\oplus kB)
+        =\langle A^2,AB,B^2\rangle .\ } \tag{B}
+\]
+This is a first-normal and restriction-to-\(L\)
+argument; no monomial ranks or computer algebra enter.
+Every nonzero member of (B) factors as a quadratic in
+the two cubics \(A,B\) over an algebraically closed field,
+and hence cannot define an integral sextic. This establishes the regularity required by the ratio argument.
 
 ### Involution--Bezout bound and the remaining sextic locus
 
