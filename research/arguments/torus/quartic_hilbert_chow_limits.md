@@ -171,6 +171,70 @@ and Gröbner-degeneration theory of
 No explicit projected state polytope or general conservation law
 equating different jumps to embedded length is asserted.
 
+### Two compactifications of the exceptional orbit
+
+A one-dimensional torus orbit has a projective
+toric closure whose normalization is \(\mathbf P^1\).
+Applied to the exceptional \(\mathbf G_m\)-orbit
+inside the (projective) Hilbert scheme, this
+identifies the normalization of its closure with
+\[
+ \boxed{\ \mathbf P^1,\quad
+       0\longmapsto[J_0],\quad
+       \infty\longmapsto[J_\infty].\ } \tag{HC}
+\]
+The endpoints are the two distinct saturated
+limits computed above, each with an embedded
+length-two correction at the corresponding
+marked endpoint. This compactifies the
+**classified proper-CI orbit**, not the
+entire Hilbert fiber over the fixed Chow point.
+
+There is a second, different compactification
+inside \(\operatorname{Gr}(2,U)\), where
+\(U=H^0(I_Y(4))\). Using
+\[
+ \begin{aligned}
+ F_\lambda&=x_1B+\lambda x_2A,\\
+ \lambda G_\lambda
+   &=x_2B+\lambda D+\lambda^2x_1A
+ \end{aligned}
+\]
+gives the Grassmannian limit
+\[
+ \lim_{\lambda\to0}
+ \langle F_\lambda,G_\lambda\rangle
+   =\langle x_1B,x_2B\rangle.
+\]
+Likewise, using \(\mu=\lambda^{-1}\),
+\(\mu F_\lambda=x_2A+\mu x_1B\) and
+\(\mu G_\lambda=x_1A+\mu D+\mu^2x_2B\)
+gives
+\[
+ \lim_{\lambda\to\infty}
+ \langle F_\lambda,G_\lambda\rangle
+   =\langle x_2A,x_1A\rangle. \tag{GC}
+\]
+Each limiting two-plane has a common cubic
+factor and is **improper**. Hence
+simply intersecting its two limiting generators
+does **not** give the corresponding Hilbert
+flat limit. Instead one must retain the
+additional generators and endpoint corrections
+of \(J_0,J_\infty\).
+
+The [Plücker-linear first-normal degeneracy
+locus](quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+places the original \(\mathbf G_m\) in a
+linear section of \(\operatorname{Gr}(2,9)\).
+Its proper-CI part is exactly the classified
+orbit. Both normalized closures are rational
+two-ended toric curves, but their boundary
+objects encode different information; no
+scheme-level classification of the improper
+Grassmannian section or entire Hilbert fiber
+is asserted.
+
 There is also a **single-support** phenomenon in characteristic two,
 which must not be confused with the multi-support classification.
 Specialize (1) at \(\lambda=1\) and reduce modulo two:
