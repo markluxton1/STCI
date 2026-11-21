@@ -207,7 +207,10 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
 - **Checked finite pilot.** The [two-parameter residual sextic family](../../results/endpoint_equation_torsion.md#the-complete-detection-stratification-of-a-two-parameter-pilot) has fixed extremes, \(e_L=1\), and a fixed CI polynomial, but its missed length is one on the dense parameter open and zero on a parameter divisor where the flat limit contains \(6[L]\). This exactly identifies the detection strata of that family. It shows why those shared data alone cannot provide the needed strict bound; it is not a supported construction or a closure of KG02.
 - **Canonical-source refinement.** The [equation-layer theorem](../../arguments/torus/chow_matched_equation_layers.md) makes each end-adapted raw ideal intrinsic and shows that nonadaptation delays all hidden line layers. The explicit first-length change eight to zero is a generator artifact, not erased cancellation. Endpoint Kummer data alone do not determine that raw first length; opposite optimized generators need not be the same representative. The whole filtered degree-labeled sources of the same ideal are the revised comparison target.
 - **Moving-carrier comparison.** [R-0079](../../results/quartic_chow_pencil_classification.md)
-  settles all actual \((4,4)\) pencils. Each exceptional
+  settles all actual \((4,4)\) pencils **in characteristic zero**.
+  The explicit characteristic-two sole-support construction is
+  separate; full positive-characteristic quartic uniqueness
+  is not asserted. Each exceptional
   \(2[C_{u,v}]+2[C_{u,-v}]\) has a non-invariant orbit outside the invariant
   quartic Chow closure, with the same vanishing first moment and opposite
   embedded endpoint corrections of length two. On a
@@ -252,7 +255,11 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   under \(x_3\mapsto-x_3\), would yield an STCI if the two
   multiplicities differ. They total nine, but the
   [involution--Bézout inequality](../../arguments/torus/fixed_surface_restriction_lifts.md#involution--bezout-bound-and-the-remaining-sextic-locus)
-  \(4|n_+-n_-|\ge6\) **excludes \((5,4)\)**. Only
+  \(4|n_+-n_-|\ge6\) **excludes \((5,4)\)**.
+  The degree-independent inequality requires that the carrier be
+  **regular at both supported generic points**; this is proved
+  separately for the integral symmetric sextic by the first-normal
+  and Hilbert--Burch argument. Only
   \((6,3),(7,2),(8,1)\) and reversals remain with both components.
   The same argument together with the local
   \(\mathbf Z/2\) divisor class **excludes every such pair
@@ -503,11 +510,20 @@ remaining \((6,3),(7,2),(8,1)\) two-support partitions are excluded
 on nodal sextic carriers. The current object is the geometry of
 the nonnodal carrier and its anti-invariant local divisor classes
 together with the global \(-Z_\pm^2=38/3\) budgets, not another
-unrestricted coefficient sweep. In parallel, the explicit even-eight
-quartic and its Hilbert--Burch first-normal degeneracy locus offer
-a concrete chance to replace a lengthy low-degree classification
-by geometry and to explain the vertical Hilbert-over-Chow fiber.
-Neither route has a demonstrated general-degree coverage theorem.
+unrestricted coefficient sweep. The exceptional quartic
+classification has **already** acquired a complete geometric
+proof: residual genus/Ferrand doubling excludes asymmetric
+multiplicities, and self-linkage plus the Hilbert--Burch
+canonical module and residual-line restriction classify its
+proper pencils. Its next question is no longer proof
+replacement but **transferability**: which other lci/ACM
+supported unions admit comparably small canonical modules
+and two-generator liftability tests, and how do these
+interact with the even-eight carrier and vertical
+Hilbert-over-Chow fiber? The sextic ADE lattice feasibility
+test and the existing KG05 elliptic inverse-support locus
+remain distinct competing investigations. None yet has
+a general-degree coverage theorem.
 On the obstruction side, the trace and different calculations
 leave a separate question about arbitrary non-invariant equation
 sources.
