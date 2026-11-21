@@ -430,8 +430,10 @@ later for self-linkage, but is not needed for this asymmetric residual
 obstruction once the ACM and residual-double hypotheses hold.
 
 See [Bănică--Forster, *Multiplicity Structures on Space
-Curves*, §1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf)
-and [Eisenbud--Van de Ven, *On the normal bundles
+Curves*, §1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf),
+[Franco--Kleiman--Lascu, *Gherardelli linkage and complete
+intersections*](https://arxiv.org/abs/math/0003075), and
+[Eisenbud--Van de Ven, *On the normal bundles
 of smooth rational space curves*](https://eisenbud.github.io/papers/pdfs/1981-001.pdf).
 
 ## Self-linkage and the canonical conormal quotient
