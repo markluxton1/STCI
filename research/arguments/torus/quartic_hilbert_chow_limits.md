@@ -14,7 +14,15 @@ F_\lambda=\lambda x_2A+x_1B,\qquad
 G_\lambda=D+\lambda x_1A+\lambda^{-1}x_2B. \tag{1}
 \]
 The classification and uniqueness of the family remain in the canonical
-[liaison/canonical-module proof](quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets).
+[liaison/canonical-module proof route](quartic_chow_pencils.md#proof-route).
+
+**Scope.** The invariant-family first-moment calculation in the opening
+paragraph below is characteristic-independent and explicitly includes
+characteristic two. The distinct-support exceptional-cycle nonclosure,
+the (H)-orbit, and the two opposite saturated flat limits are used here
+under the **characteristic-zero classification** of the exceptional family.
+The final characteristic-two collision is a separate specialization of the
+displayed formulas and is not a positive-characteristic classification.
 
 ## Chow closure and full opposite limits
 
