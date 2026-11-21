@@ -85,12 +85,12 @@ quadratic identity to \(V(x_1,x_2)\) forces the unique
 \(\lambda\)-orbit. The canonical-module calculation
 retains actual quartic generators rather than replacing
 them with an abstract doubling.
-The [even-eight divisor calculation](../arguments/torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+The [even-eight divisor calculation](../arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
 explains doubled divisors on one carrier, not uniqueness of
-the family. The [characteristic-two specialization](../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
+the family. The [characteristic-two specialization](../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
 has sole support and lies outside the characteristic-zero claim.
 A further
-[fixed-carrier deduction](../arguments/torus/quartic_chow_pencils.md#all-mate-degrees-on-a-retained-exceptional-carrier)
+[fixed-carrier deduction](../arguments/torus/quartic_exceptional_carrier_geometry.md#all-mate-degrees-on-a-retained-exceptional-carrier)
 uses the [quartic-carrier exclusion](quartic_carrier_exclusion.md) to
 classify all translated mates on a retained exceptional carrier in
 characteristic zero. The unrestricted higher-degree realization locus
