@@ -565,6 +565,63 @@ Because \(h^2=6\), \(K_X=2h\),
      =\Gamma_\pm^2-Z_\pm^2,
  \qquad\boxed{\ -Z_+^2=-Z_-^2=\frac{38}{3}.\ } \tag{7}
 \]
+
+**Proposition (3-primary endpoint condition).**
+Under the normal Du Val sextic hypotheses above,
+if \(|\Delta|=5\) or \(7\), corresponding to
+the partitions \((7,2)\) or \((8,1)\)
+and their reversals, then **at least one**
+of the common endpoints \(p_0,p_\infty\)
+has a nontrivial 3-primary class of both
+\(C_+\) and \(C_-\) in its local class group.
+In particular, that endpoint singularity
+must be of type \(A_{3m-1}\) or \(E_6\).
+At **each** endpoint the 3-primary parts of
+\([C_+]\) and \([C_-]\) agree.
+
+For the proof, decompose \(Z_\pm\) over the
+singular points. At an ADE point \(q\), the
+exceptional root lattice \(R_q\) is integral
+and negative definite, and the correction
+\(Z_{\pm,q}\) lies in its dual \(R_q^\vee\).
+If the corresponding local class has order
+\(m_q\) in \(R_q^\vee/R_q\simeq
+\operatorname{Cl}(\mathcal O_{T,q})\), then
+\(m_q Z_{\pm,q}\in R_q\) and
+\[
+ m_q Z_{\pm,q}^2
+  =(m_q Z_{\pm,q})\cdot Z_{\pm,q}
+  \in\mathbf Z.
+\]
+Thus the denominator of the local
+self-intersection divides \(m_q\).
+At a singularity on exactly one of the
+two curves, \(m_q\mid|\Delta|\)
+by the principal relation
+\(\Delta(C_+-C_-)\sim0\).
+For \(|\Delta|=5,7\), all these off-endpoint
+contributions have denominator prime to
+three; singularities on neither curve
+contribute zero. Since (7) has denominator
+three, an endpoint contribution must have
+denominator divisible by three, and its
+local class has nontrivial 3-primary part.
+Only \(A_{3m-1}\) and \(E_6\) have
+3-torsion among Du Val class groups.
+Finally, at either common endpoint
+\(\Delta([C_+]-[C_-])=0\), and multiplication
+by \(\Delta\) is an automorphism of any
+3-primary group because \(3\nmid\Delta\).
+The 3-primary classes therefore agree.
+
+This is a **necessary endpoint restriction**,
+not an exclusion or an existence theorem.
+For \(|\Delta|=3\), off-endpoint
+\(A_{3m-1}\) or \(E_6\) singularities
+can already contribute denominator three,
+so the same endpoint conclusion does not
+follow.
+
 The local inverse ADE intersection matrices determine the
 contributions to these two budgets. They must be checked
 **simultaneously** with the local anti-invariant class at the
