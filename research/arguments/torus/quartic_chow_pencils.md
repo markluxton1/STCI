@@ -132,6 +132,27 @@ additional components. Cohen--Macaulayness implies Serre's
 \(S_1\) condition, hence it is reduced, so this saturated
 ideal is exactly \(I_Y\).
 
+The Hilbert polynomial is \(P_Y(n)=8n-6\), hence
+\(p_a(Y)=7\). The endpoint geometry also makes the
+dualizing sheaf particularly tractable.
+
+Moreover **\(Y\) is locally a complete intersection**, even
+at its two marked singularities. At \(p_0\), eliminate \(x_2\)
+using \(A\) in the affine chart \(x_0=1\): the ideal becomes
+\((x_2-x_1^3,\ x_3^2-x_1^8)\).
+At \(p_\infty\), similarly eliminate \(x_1\) using \(B\)
+on \(x_3=1\): the ideal becomes
+\((x_1-x_2^3,\ x_0^2-x_2^8)\).
+Thus the endpoints are two planar \(A_7\) singularities,
+each consisting of two smooth branches with intersection
+multiplicity four. The dualizing sheaf \(\omega_Y\)
+is therefore invertible, and on either component
+\[
+ \omega_Y|_{C_\pm}
+ =\omega_{C_\pm}(4p_0+4p_\infty)
+ \simeq\mathcal O_{\mathbf P^1}(6).
+\]
+
 There is also a geometric check of the transverse normal
 parameters used below and in the sextic argument:
 the complete intersection \((A,B)\) has degree nine, contains
@@ -140,8 +161,7 @@ line \(L=V(x_1,x_2)\) of degree one. Since \(A,B\)
 are coprime, these three distinct components exhaust Bézout
 degree, each with multiplicity one. Thus \(A,B\) form
 a regular system of transverse parameters at the generic
-points of \(C_+\) and \(C_-\). No Jacobian-rank table
-is needed for this fact.
+points of \(C_+\) and \(C_-\).
 
 In degree four the resolution gives
 \[
@@ -149,10 +169,6 @@ In degree four the resolution gives
  =A\,S_1\oplus B\,S_1\oplus kD,\qquad
  h^0(I_Y(4))=4+4+1=9.
 \]
-This replaces the weight-and-parity monomial enumeration in
-the classification by the geometry of an arithmetically
-Cohen--Macaulay union and its Hilbert--Burch presentation.
-
 Inside \(\operatorname{Gr}(2,I_Y(4))=\operatorname{Gr}(2,9)\),
 a pencil \(W\) has generic intersection multiplicity at least two
 on each \(C_\epsilon\) precisely when its first-normal-symbol map
@@ -180,45 +196,95 @@ using linkage and the residual coordinate line. The
 [even-eight divisor class](quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
 explains a doubled divisor on a fixed carrier, but alone does not prove uniqueness.
 
+## Two translates with coinciding cubic jets
+
+Let \(Y=C_+\cup C_-\), where \(C_\pm=C_{1,\pm1}\), in
+characteristic zero. The [Hilbert--Burch resolution](#hilbert--burch-and-first-normal-interpretation)
+gives
+\[
+ I_Y=(A,B,D),\quad I_Y(3)=kA\oplus kB,\quad
+ I_Y(4)=AS_1\oplus BS_1\oplus kD. \tag{HB}
+\]
+There is **no common containing quadric** for the two
+curves: their unique quadrics are
+\(x_1x_2\mp x_0x_3=0\), so \(I_Y(2)=0\).
+If a proper quartic pencil \(W\) has cycle supported on
+both components, its multiplicities are positive and sum to
+four by Bézout. The coordinate line
+\(\Lambda=V(x_1,x_2)\) is not a component, while \(A,B\)
+vanish identically on \(\Lambda\). Thus \(W\) cannot be
+contained in \(AS_1+BS_1\). Choose a basis
+\[
+ F=AL+BM,\qquad G=D+AN+BP,\qquad
+ L,M,N,P\in S_1. \tag{*}
+\]
+
+### Residual genus excludes the triple branches
+
+Let \(Z=V(F,G)\) and \(Y'=(I_Z:I_Y)\) be the
+complete-intersection residual to \(Y\). Peskine--Szpiro linkage gives that \(Y'\) is locally
+Cohen--Macaulay of degree \(16-8=8\). Moreover the
+standard liaison exact sequence
+\[
+ 0\longrightarrow\omega_Y(-4)
+ \longrightarrow\mathcal O_Z
+ \longrightarrow\mathcal O_{Y'}\longrightarrow0
+\]
+gives \(P_{Y'}(n)=8n-6\), and hence \(p_a(Y')=7\):
+indeed \(P_Z(n)=16n-32\) and
+\(P_{\omega_Y(-4)}(n)=8n-26\).
+
+The residual has generic multiplicities
+\((n_+-1,n_--1)\). If \(Z\) had \((3,1)\),
+then \(Y'\) would be a locally Cohen--Macaulay
+**double of the smooth rational quartic** \(C_+\).
+The classical Ferrand description gives an
+invertible conormal quotient. To see the needed hypotheses
+directly, at the generic point of \(C_+\) a length-two
+local Artin algebra has square-zero maximal ideal.
+Thus \(I_{C_+}^2\subset I_{Y'}\) generically.
+Since \(Y'\) has no embedded points, a subsheaf of
+\(\mathcal O_{Y'}\) supported at finitely many points
+must vanish, so the inclusion holds everywhere.
+The nilpotent ideal \(I_{C_+}/I_{Y'}\) is torsion-free
+of rank one on the smooth curve \(C_+\), hence is
+a line bundle \(\mathcal L\), giving
+\[
+ N^\vee_{C_+/\mathbf P^3}\twoheadrightarrow
+ \mathcal L=I_{C_+}/I_{Y'},\qquad
+ 0\to\mathcal L\to\mathcal O_{Y'}
+   \to\mathcal O_{C_+}\to0.
+\]
+The genus \(p_a(Y')=7\) requires
+\(\mathcal L=\mathcal O_{\mathbf P^1}(-8)\), since
+\(p_a(Y')=-\deg\mathcal L-1\). But the
+[established balanced normal bundle](../curve/fixed_quartic_geometry.md)
+is \(N^\vee_{C_+/\mathbf P^3}=\mathcal O(-7)^{\oplus2}\).
+It admits no map to \(\mathcal O(-8)\).
+The reversed argument excludes \((1,3)\).
+Thus the sole possibility is
+\[
+ \boxed{n_+=n_-=2.} \tag{M}
+\]
+This is the residual-genus obstruction to asymmetric multiplicities.
+See [Bănică--Forster, *Multiplicity Structures on Space
+Curves*, §1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf)
+and [Eisenbud--Van de Ven, *On the normal bundles
+of smooth rational space curves*](https://eisenbud.github.io/papers/pdfs/1981-001.pdf).
+
 ## Self-linkage and the canonical conormal quotient
 
-There is a further established geometric structure behind the
-normal-rank condition. Let \(Y=C_+\cup C_-\) in characteristic
-different from two. Its Hilbert--Burch resolution above gives
-\[
- \deg Y=8,\qquad P_Y(n)=8n-6,\qquad p_a(Y)=7.
-\]
-Moreover **\(Y\) is locally a complete intersection**, even
-at its two marked singularities. At \(p_0\), eliminate \(x_2\)
-using \(A\) in the affine chart \(x_0=1\): the ideal becomes
-\((x_2-x_1^3,\ x_3^2-x_1^8)\).
-At \(p_\infty\), similarly eliminate \(x_1\) using \(B\)
-on \(x_3=1\): the ideal becomes
-\((x_1-x_2^3,\ x_0^2-x_2^8)\).
-Thus the endpoints are two planar \(A_7\) singularities,
-each consisting of two smooth branches with intersection
-multiplicity four. The dualizing sheaf \(\omega_Y\)
-is therefore invertible, and on either component
-\[
- \omega_Y|_{C_\pm}
- =\omega_{C_\pm}(4p_0+4p_\infty)
- \simeq\mathcal O_{\mathbf P^1}(6).
-\]
+The reduced union \(Y=C_+\cup C_-\) is locally a complete
+intersection and arithmetically Cohen--Macaulay, as seen above.
+The residual to \(Y\) in a proper \((4,4)\) complete intersection
+has already been constructed in the residual-genus argument.
+For the symmetric partition, this residual is a self-linkage.
 
-Now let \(Z=V(F,G)\) be a **proper** \((4,4)\) complete
-intersection with cycle \(2[C_+]+2[C_-]\).
-The ideal \(I_Z\) lies inside \(I_Y\), and at each generic
-component point its local ring is a length-two quotient of
-a two-dimensional regular local ring. The residual scheme
-\(Y'=(I_Z:I_Y)\) is Cohen--Macaulay by the
-Peskine--Szpiro complete-intersection linkage theorem
-because \(Y\) is arithmetically Cohen--Macaulay.
-At each generic point, a length-two local complete
-intersection has residual length one, so
-\(Y'\) has the same reduced support and generically
-the same reduced structure as \(Y\).
-It has degree \(16-8=8\), with no embedded components.
-Hence \(Y'=Y\) scheme-theoretically:
+For the \((2,2)\) multiplicity partition proved above, the
+linked residual \(Y'=(I_Z:I_Y)\) is Cohen--Macaulay of
+degree eight and generically reduced along the two
+components. It has no embedded components, so
+\(Y'=Y\) scheme-theoretically:
 \[
  \boxed{\ I_Z:I_Y=I_Y,\qquad I_Y^2\subset I_Z.\ }
 \]
@@ -274,115 +340,16 @@ See [Bănică--Forster, *Multiplicity Structures on Space Curves*,
 §1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf)
 and [Franco--Kleiman--Lascu, *Gherardelli linkage and complete
 intersections*](https://arxiv.org/abs/math/0003075).
-For a numerical check, the line bundle
-\(\omega_Y(-4)\) has degree
-\(2p_a(Y)-2-4\deg Y=12-32=-20\), so
-\(P_{\omega_Y(-4)}(n)=8n-26\).
-Together with \(P_Y(n)=8n-6\) this recovers
-the CI polynomial \(P_Z(n)=16n-32\).
-
-**Scope.** A Ferrand doubling alone does not ensure
-that its global homogeneous ideal has two quartic
-generators. The classification below now supplies
-the missing bridge **for this particular union**:
-self-linkage makes the cubic generators map to a basis
-of \(H^0(\omega_Y(-1))\); the canonical module relations
-and the residual line then force exactly the displayed
-proper pencils. This is a geometric uniqueness proof
-using established liaison and Hilbert--Burch theory.
-It does not classify arbitrary Ferrand doublings or
-resolve unrestricted higher-degree STCI.
-
-## Two translates with coinciding cubic jets
-
-Let \(Y=C_+\cup C_-\), where \(C_\pm=C_{1,\pm1}\), in
-characteristic zero. The [Hilbert--Burch resolution](#hilbert--burch-and-first-normal-interpretation)
-gives
-\[
- I_Y=(A,B,D),\quad I_Y(3)=kA\oplus kB,\quad
- I_Y(4)=AS_1\oplus BS_1\oplus kD. \tag{HB}
-\]
-There is **no common containing quadric** for the two
-curves: their unique quadrics are
-\(x_1x_2\mp x_0x_3=0\), so \(I_Y(2)=0\).
-If a proper quartic pencil \(W\) has cycle supported on
-both components, its multiplicities are positive and sum to
-four by Bézout. The coordinate line
-\(\Lambda=V(x_1,x_2)\) is not a component, while \(A,B\)
-vanish identically on \(\Lambda\). Thus \(W\) cannot be
-contained in \(AS_1+BS_1\). Choose a basis
-\[
- F=AL+BM,\qquad G=D+AN+BP,\qquad
- L,M,N,P\in S_1. \tag{*}
-\]
-
-### Residual genus excludes the triple branches
-
-Let \(Z=V(F,G)\) and \(Y'=(I_Z:I_Y)\) be the
-complete-intersection residual to \(Y\). The reduced
-union \(Y\) is an arithmetically Cohen--Macaulay
-locally complete-intersection curve of degree eight and
-genus seven, as established above by its Hilbert--Burch
-resolution and planar endpoint equations.
-Peskine--Szpiro linkage gives that \(Y'\) is locally
-Cohen--Macaulay of degree \(16-8=8\). Moreover the
-standard liaison exact sequence
-\[
- 0\longrightarrow\omega_Y(-4)
- \longrightarrow\mathcal O_Z
- \longrightarrow\mathcal O_{Y'}\longrightarrow0
-\]
-gives \(P_{Y'}(n)=8n-6\), and hence \(p_a(Y')=7\):
-indeed \(P_Z(n)=16n-32\) and
-\(P_{\omega_Y(-4)}(n)=8n-26\).
-
-The residual has generic multiplicities
-\((n_+-1,n_--1)\). If \(Z\) had \((3,1)\),
-then \(Y'\) would be a locally Cohen--Macaulay
-**double of the smooth rational quartic** \(C_+\).
-The classical Ferrand description gives an
-invertible conormal quotient. To see the needed hypotheses
-directly, at the generic point of \(C_+\) a length-two
-local Artin algebra has square-zero maximal ideal.
-Thus \(I_{C_+}^2\subset I_{Y'}\) generically.
-Since \(Y'\) has no embedded points, a subsheaf of
-\(\mathcal O_{Y'}\) supported at finitely many points
-must vanish, so the inclusion holds everywhere.
-The nilpotent ideal \(I_{C_+}/I_{Y'}\) is torsion-free
-of rank one on the smooth curve \(C_+\), hence is
-a line bundle \(\mathcal L\), giving
-\[
- N^\vee_{C_+/\mathbf P^3}\twoheadrightarrow
- \mathcal L=I_{C_+}/I_{Y'},\qquad
- 0\to\mathcal L\to\mathcal O_{Y'}
-   \to\mathcal O_{C_+}\to0.
-\]
-The genus \(p_a(Y')=7\) requires
-\(\mathcal L=\mathcal O_{\mathbf P^1}(-8)\), since
-\(p_a(Y')=-\deg\mathcal L-1\). But the
-[established balanced normal bundle](../curve/fixed_quartic_geometry.md)
-is \(N^\vee_{C_+/\mathbf P^3}=\mathcal O(-7)^{\oplus2}\).
-It admits no map to \(\mathcal O(-8)\).
-The reversed argument excludes \((1,3)\).
-Thus the sole possibility is
-\[
- \boxed{n_+=n_-=2.} \tag{M}
-\]
-This uses standard liaison and Ferrand double-structure
-theory, not third-order derivative calculations.
-See [Bănică--Forster, *Multiplicity Structures on Space
-Curves*, §1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf)
-and [Eisenbud--Van de Ven, *On the normal bundles
-of smooth rational space curves*](https://eisenbud.github.io/papers/pdfs/1981-001.pdf).
+A conormal quotient does not by itself guarantee two
+global quartic generators. The next step uses the
+canonical-module relations and restriction to the
+residual line to impose precisely that global condition
+for this union. No analogous conclusion is asserted
+for arbitrary Ferrand doublings.
 
 ### Canonical-module rigidity of the pencil
 
-In the \((2,2)\) case the residual \(Y'\) has
-the same reduced generic cycle and degree as \(Y\);
-being Cohen--Macaulay, it equals \(Y\)
-scheme-theoretically. The
-[self-linkage isomorphism](#self-linkage-and-the-canonical-conormal-quotient)
-therefore supplies the quotient map
+The self-linkage just established supplies the quotient map
 \[
  q:I_Y\twoheadrightarrow I_Y/I_Z
         \simeq\omega_Y(-4). \tag{SL}
@@ -463,8 +430,8 @@ side \(ax_3^2-dx_0^2\). Thus
 \[
  \boxed{a=d=0,\qquad bc\ne0.} \tag{R}
 \]
-This is the decisive geometric restriction,
-replacing the long coefficient and derivative test.
+This restriction on the residual line determines the
+canonical-module framing.
 
 Now (F) gives \(F=cx_2A+bx_1B\), and (Q)
 simplifies to
@@ -489,9 +456,6 @@ Replacing \(G\) by \(G-\tau F\) and scaling
 \]
 This is precisely the family (1). Thus **all** proper quartic pencils with this
 two-component support are the displayed orbit.
-This is a proof by canonical modules, linkage,
-the absence of common quadrics and restriction
-to a line—not a computational elimination.
 
 ### Properness and generic cycle
 
@@ -530,7 +494,7 @@ in the pencil. The member with zero
 This completes the **characteristic-zero**
 classification of the exceptional support.
 The characteristic-two **single-support construction**
-below is a separate statement proved by direct identities.
+is proved separately in the [Hilbert-over-Chow account](quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision).
 The present linkage/normal-bundle argument does **not**
 establish a full quartic-pencil classification in
 positive characteristic, including odd primes.
