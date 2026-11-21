@@ -232,7 +232,9 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   nontrivial two-torsion Weil class responsible for doubled divisors
   on a fixed carrier. The
   [Hilbert--Burch normal-map locus](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
-  is now classified geometrically. The
+  is now classified among **proper quartic pencils**
+  by geometric methods after a torus-coordinate
+  support reduction. The
   [residual-linkage argument](../../arguments/torus/quartic_chow_pencils.md#residual-genus-excludes-the-triple-branches)
   eliminates \((3,1)\) and \((1,3)\) because a
   degree-eight genus-seven double of a smooth quartic
