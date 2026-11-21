@@ -55,10 +55,15 @@ keeps actual source data. The
 [canonical self-linkage quotient](../../arguments/torus/quartic_chow_pencils.md#self-linkage-and-the-canonical-conormal-quotient)
 identifies \(I_Y/I_Z\simeq\omega_Y(-4)\), with the
 degree-three source map an isomorphism and the
-degree-four kernel the defining pencil. This does
-not make every Ferrand doubling into two global
-quartic generators or remove the remaining uniqueness
-elimination. A
+degree-four kernel the defining pencil. A general Ferrand doubling need not have
+two quartic generators. **For this fixed union**, however,
+[linkage and canonical-module rigidity](../../arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+combine the actual equation space with the canonical
+module relations and a residual-line restriction
+to prove that all proper quartic pencils are the
+exceptional \(\lambda\)-family. This completes the
+previously unresolved geometric uniqueness step,
+not a general-degree STCI theorem. A
 [fixed-carrier multiplicity lattice](../../arguments/torus/fixed_surface_restriction_lifts.md#symmetry-and-the-multiplicity-lattice)
 can turn existing mates into new mates, but a corrected sextic
 involution bound excludes \((5,4)\) and every remaining unequal
