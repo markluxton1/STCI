@@ -358,7 +358,10 @@ The [quartic classification](../torus/quartic_chow_pencils.md#classification)
 gives a structural characterization in degree \((4,4)\) from the
 actual equations. On the exceptional cycle, the
 [Hilbert--Burch first-normal locus](../torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
-offers an intrinsic doubled-support condition, and an
+offers an intrinsic doubled-support condition. The
+[linkage/canonical-module argument](../torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+now proves its complete proper-pair classification, with no
+coefficient or third-order derivative elimination. Separately, an
 [explicit even-eight divisor identity](../torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
 explains the fixed-carrier doubled divisor, not uniqueness of the
 non-invariant orbit. The
