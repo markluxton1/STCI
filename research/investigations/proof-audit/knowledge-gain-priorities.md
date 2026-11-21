@@ -229,9 +229,14 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   nontrivial two-torsion Weil class responsible for doubled divisors
   on a fixed carrier. The
   [Hilbert--Burch normal-map locus](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
-  is an intrinsic candidate to replace the coefficient elimination,
-  but uniqueness of its non-invariant proper component has **not** been
-  deduced from the torsion class. The same
+  is an intrinsic candidate to replace the coefficient elimination.
+  The [self-linkage theorem](../../arguments/torus/quartic_chow_pencils.md#self-linkage-and-the-canonical-conormal-quotient)
+  now supplies a canonical Ferrand quotient
+  \(I_Y/I_Z\simeq\omega_Y(-4)\) and exact degree-three/four
+  section tests. Uniqueness of the non-invariant proper component
+  has **not** been deduced from these conditions or the torsion class.
+  The original coefficient elimination remains the one essential
+  nongeometric step in this classification proof. The same
   [quartic family](../../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
   supplies an \(H\)-orbit of Hilbert points over one Chow point, two
   embedded endpoint limits, and a distinct non-invariant \((4,4)\)
