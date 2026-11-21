@@ -516,6 +516,7 @@ Normality makes \(T\) regular at the generic points of \(C_\pm\), so the
 generic-regularity hypothesis used in the involution--Bézout argument is
 satisfied. The conclusions below are necessary conditions for this
 normal/Du-Val sextic sector only.
+
 At any singular point \(q\in C_+\setminus C_-\)
 (or vice versa), the local class of the smooth branch
 is nonzero and has order dividing \(|\Delta|\).
