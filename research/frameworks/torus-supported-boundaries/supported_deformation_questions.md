@@ -38,7 +38,7 @@ Weil divisor class. A
 [Hilbert--Burch normal-map locus](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
 records generic doubled support without assuming
 invariant equations. The
-[geometric uniqueness argument](../../arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+[geometric uniqueness argument](../../arguments/torus/quartic_chow_pencils.md#proof-route)
 now upgrades it to a complete quartic-pencil classification:
 liaison excludes the asymmetric multiplicities, while
 the dual Hilbert--Burch canonical presentation and a
