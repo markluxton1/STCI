@@ -501,8 +501,21 @@ singularities.
 
 ### ADE local classes and the global sextic correction budget
 
-Assume instead that \(T\) is a **normal sextic with only Du Val
-singularities** and the preceding unequal pair exists.
+Work over an algebraically closed field of characteristic zero. Let
+\(\sigma:x_3\mapsto-x_3\), let \(C_\pm=C_{1,\pm1}\), and let
+\(T\subset\mathbf P^3\) be a \(\sigma\)-preserved **normal sextic with only
+Du Val singularities**. Suppose \((T,G_6)\) is proper with cycle
+\[
+ n_+[C_+]+n_-[C_-],\qquad n_++n_-=9,\qquad n_+\ne n_-,
+\]
+and put
+\[
+ \Delta=n_+-n_-\in\{\pm3,\pm5,\pm7\}.
+\]
+Normality makes \(T\) regular at the generic points of \(C_\pm\), so the
+generic-regularity hypothesis used in the involution--Bézout argument is
+satisfied. The conclusions below are necessary conditions for this
+normal/Du-Val sextic sector only.
 At any singular point \(q\in C_+\setminus C_-\)
 (or vice versa), the local class of the smooth branch
 is nonzero and has order dividing \(|\Delta|\).
