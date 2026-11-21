@@ -48,6 +48,23 @@ and restriction to the residual line determine the global generators.
 Thus the *exceptional uniqueness proof* is geometric, while the
 initial support reduction retains its special torus coordinates.
 
+## Proof route
+
+For section-based retrieval, the characteristic-zero classification is proved
+by the following complete route:
+
+1. [support reduction at the fixed endpoints](#contact-at-a-smooth-endpoint);
+2. [Hilbert--Burch geometry of the exceptional support](#hilbert--burch-and-first-normal-interpretation);
+3. [residual-genus exclusion of asymmetric multiplicities](#residual-genus-excludes-the-triple-branches);
+4. [self-linkage and the canonical conormal quotient](#self-linkage-and-the-canonical-conormal-quotient);
+5. [canonical-module rigidity of the actual quartic generators](#canonical-module-rigidity-of-the-pencil);
+6. [properness, generic cycle, and existence](#properness-and-generic-cycle).
+
+The first item isolates the only possible non-invariant support. Items 2--5
+classify the actual two-generator realization on that support, and item 6
+checks the converse. No single later subsection should be read as the whole
+classification proof.
+
 ## Contact at a smooth endpoint
 
 The existing [quartic-pair exclusion](../../results/quartic_44_filtered_exclusion.md)
@@ -203,7 +220,7 @@ That classical result describes the double structure locally;
 it does not supply the compatibility across the two marked
 endpoints or the global two-generator restriction.
 This identifies the classical geometric degeneracy
-locus. The [canonical-module rigidity proof below](#two-translates-with-coinciding-cubic-jets)
+locus. The [complete rigidity route](#proof-route)
 shows that **its proper-pair points are exactly (1)**,
 using linkage and the residual coordinate line. The
 [even-eight divisor class](quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
@@ -364,8 +381,7 @@ Write \(q:I_Y\twoheadrightarrow\omega_Y(-4)\)
 for the self-linkage quotient (SL). Its degree-three
 map is the isomorphism in (SL2).
 
-Dualizing the Hilbert--Burch presentation gives the
-The graded canonical module
+Dualizing the Hilbert--Burch presentation gives the graded canonical module
 \(\mathcal K=\operatorname{Ext}^2_S(S/I_Y,S(-4))\)
 has two generators \(e_1,e_2\) of degree \(-1\),
 with relations
