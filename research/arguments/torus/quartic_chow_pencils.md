@@ -303,7 +303,7 @@ is two. The total-transform equality gives
                  +\sum_{i=1}^8 E_i,
  \qquad
  \boxed{\ \sum_{i=1}^8E_i\sim
- 2(2h-\Gamma_+-\Gamma_--E_0-E_\infty).\ } \tag{5}
+ 2(2h-\Gamma_+-\Gamma_--E_0-E_\infty).\ } \tag{E8}
 \]
 Thus the *interior eight* are an even eight on the resolved K3;
 the endpoint exceptional curves contribute integral corrections.
@@ -318,7 +318,7 @@ a section of \(\mathcal O_T(2)\) would cut out both curves;
 it lifts to an ambient quadric, contrary to their distinct unique
 containing quadrics. This is precisely the even-eight class, not
 an additional unrelated torsion phenomenon.
-The direct identity (5) is the proof; for the established framework
+The direct identity (E8) is the proof; for the established framework
 see [Barth, *Even Sets of Eight Rational Curves on a K3-surface*](https://doi.org/10.1007/978-3-642-56202-0_1)
 and [Casnati--Catanese, *Even sets of nodes are bundle symmetric*](https://arxiv.org/abs/alg-geom/9602024).
 The symmetric determinant here has **quadratic** entries, and
@@ -390,7 +390,7 @@ are the columns of the Hilbert--Burch matrix
  x_0^4&H_5\\
  -x_2&-x_3^2\\
  -x_1&-x_2^2
- \end{pmatrix}. \tag{5}
+ \end{pmatrix}. \tag{FL1}
 \]
 Its signed maximal minors are precisely \(B,A^2,D_0\).
 Since \(A\) and \(B\) are coprime, \(I'\) has height two.
@@ -398,13 +398,13 @@ Hilbert--Burch gives
 \[
  0\longrightarrow S(-7)\oplus S(-8)
  \xrightarrow{\Phi}S(-3)\oplus S(-6)^2
- \longrightarrow I'\longrightarrow0. \tag{6}
+ \longrightarrow I'\longrightarrow0. \tag{FL2}
 \]
 In particular, \(S/I'\) is arithmetically Cohen--Macaulay,
 and its Hilbert series is
 \[
  H_{S/I'}(q)=
- \frac{1-q^3-2q^6+q^7+q^8}{(1-q)^4}. \tag{7}
+ \frac{1-q^3-2q^6+q^7+q^8}{(1-q)^4}. \tag{FL3}
 \]
 Geometrically, this is the **pure doubled divisor** supported on
 \(C_+\cup C_-\) inside the cubic carrier \(B=0\):
@@ -416,7 +416,7 @@ of the Cohen--Macaulay determinantal curve. The Hilbert polynomial
 of this pure quotient is \(16n-34\).
 
 The five-generator ideal (4) is \(J_0=(A^2,D_0)+BT\).
-The Hilbert--Burch relations in (6) identify
+The Hilbert--Burch relations in (FL2) identify
 \[
  (A^2,D_0):B=(x_0^4,H_5)\subset T,\qquad
  J_0:B=T.
@@ -426,11 +426,11 @@ sequence of graded modules
 \[
  0\longrightarrow (S/T)(-3)
  \xrightarrow{\ \cdot B\ } S/J_0
- \longrightarrow S/I'\longrightarrow0. \tag{8}
+ \longrightarrow S/I'\longrightarrow0. \tag{FL4}
 \]
 Here \(S/T\simeq k[x_0,x_3]/(x_0^2)\) is the structure
 module of a length-two scheme at \(p_\infty\).
-Thus (8) geometrically exhibits the embedded
+Thus (FL4) geometrically exhibits the embedded
 endpoint correction and gives
 \[
  \begin{aligned}
@@ -438,10 +438,10 @@ endpoint correction and gives
  &=\frac{1-q^3-2q^6+q^7+q^8}{(1-q)^4}
    +\frac{q^3(1+q)}{1-q}\\
  &=\frac{(1-q^4)^2}{(1-q)^4},
- \end{aligned} \tag{9}
+ \end{aligned} \tag{FL5}
 \]
 the Hilbert series of a \((4,4)\) complete intersection.
-The first and last terms of (8) are Cohen--Macaulay of
+The first and last terms of (FL4) are Cohen--Macaulay of
 dimensions one and two, respectively. The depth lemma
 gives \(\operatorname{depth}(S/J_0)\ge1\); hence \(J_0\)
 is already saturated.
@@ -452,7 +452,7 @@ The generic fiber is a proper \((4,4)\) complete intersection,
 and each degree of the parameter-saturated family is a
 torsion-free finite module over the parameter DVR, hence free.
 Its special fiber therefore has the same Hilbert function as
-the generic fiber. Equation (9) forces equality of the
+the generic fiber. Equation (FL5) forces equality of the
 special ideal with \(J_0\). This proves the **full scheme**
 limit, not only its cycle or pure hull.
 
