@@ -163,10 +163,12 @@ model, while a
 [Hilbert--Burch normal-map degeneracy](arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
 describes doubled support. The
 [canonical-module and residual-genus proof](arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
-now completes the **intrinsic quartic classification**:
-the \((3,1)\) residual contradicts the balanced
-normal bundle, and self-linkage plus the Hilbert--Burch
-canonical module forces the proper \(\lambda\)-orbit.
+completes **geometric uniqueness for the exceptional
+proper quartic pencils**, after a support reduction in
+torus coordinates. The \((3,1)\) residual contradicts
+the balanced normal bundle, and self-linkage plus
+the Hilbert--Burch canonical module forces the
+\(\lambda\)-orbit.
 The even-eight class remains a complementary
 fixed-carrier explanation, not the uniqueness proof. In characteristic two the exceptional formula
 [collapses to a non-invariant quartic STCI](arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision).
