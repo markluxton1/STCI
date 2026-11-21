@@ -144,7 +144,7 @@ weights are \(0,4\) at both endpoints. Their different saturation
 length is fourteen. Two-support invariant quartic pencils have
 distinct cubic graph coefficients at both ends and weights \(0,3\),
 giving length twelve. These refer to the **original** proper pairs
-at the two projection fibers. The [embedded length two](quartic_chow_pencils.md#chow-closure-and-full-opposite-limits)
+at the two projection fibers. The [embedded length two](quartic_hilbert_chow_limits.md#chow-closure-and-full-opposite-limits)
 instead belongs to their flat torus limits. Formula (2) tests an
 already given Chow-matched pair. A global equation bound ruling out
 the single-translate value in arbitrary degrees is still open.
