@@ -45,7 +45,19 @@ and terminal support remain conditions on those equations.
 
 ## Available mathematics and controls
 
-The [full Chow-polytope rigidity theorem](../../arguments/equations/chow_polytope_rigidity.md) classifies effective one-cycles whose full, unshifted column-weight polytope equals a multiple of that of the fixed quartic, in every characteristic: they are sums of diagonal translates of the quartic. This controls cycle support types only. It neither forces those translates to coincide nor constructs a scheme or a pair with the prescribed Sylvester determinant.
+The [full Chow-polytope rigidity theorem](../../arguments/equations/chow_polytope_rigidity.md) classifies effective one-cycles whose full, unshifted column-weight polytope equals a multiple of that of the fixed quartic, in every characteristic: they are sums of diagonal translates of the quartic. This controls cycle support types only. It neither forces those translates to coincide nor constructs a scheme or a pair with the prescribed Sylvester determinant. The
+[quartic realization theorem](../../results/quartic_chow_pencil_classification.md)
+adds genuine **non-invariant** equation-pair fibers over fixed Chow
+cycles and full flat limits whose endpoint embedded structure is
+not recorded by Chow. Its
+[Hilbert--Burch first-normal criterion](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+keeps actual source data. A
+[fixed-carrier multiplicity lattice](../../arguments/torus/fixed_surface_restriction_lifts.md#symmetry-and-the-multiplicity-lattice)
+can turn existing mates into new mates, but a corrected sextic
+involution bound excludes \((5,4)\) and every remaining unequal
+two-support partition on ordinary nodal sextic carriers.
+Conditional ADE classes and an exceptional-lattice budget refine
+the geometry; none covers arbitrary higher-degree equations.
 
 - Restriction of an actual orbit presentation to the two completed endpoints preserves the parameter-annihilation order of each homogeneous torsion class. A class can nevertheless become divisible by the parameter there. This explains how endpoint computations can miss global equation relations even with the correct degree and parameter. [Endpoint detection and its first-layer kernel](../../results/endpoint_equation_torsion.md).
 - For a characteristic-zero sole-support pair of degrees \(a\le b\), every nonzero weight component of the smaller equation has surviving powers through \(\lfloor b/a\rfloor\). Their multiplication ranks bound the splitting of the moving quotient. This tests the degrees of actual homogeneous generators even when a proposed image has the prescribed CI polynomial. [Power and splitting bounds](../../results/torus_quotient_movement_bounds.md#proof).
