@@ -51,7 +51,14 @@ adds genuine **non-invariant** equation-pair fibers over fixed Chow
 cycles and full flat limits whose endpoint embedded structure is
 not recorded by Chow. Its
 [Hilbert--Burch first-normal criterion](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
-keeps actual source data. A
+keeps actual source data. The
+[canonical self-linkage quotient](../../arguments/torus/quartic_chow_pencils.md#self-linkage-and-the-canonical-conormal-quotient)
+identifies \(I_Y/I_Z\simeq\omega_Y(-4)\), with the
+degree-three source map an isomorphism and the
+degree-four kernel the defining pencil. This does
+not make every Ferrand doubling into two global
+quartic generators or remove the remaining uniqueness
+elimination. A
 [fixed-carrier multiplicity lattice](../../arguments/torus/fixed_surface_restriction_lifts.md#symmetry-and-the-multiplicity-lattice)
 can turn existing mates into new mates, but a corrected sextic
 involution bound excludes \((5,4)\) and every remaining unequal
