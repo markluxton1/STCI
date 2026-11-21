@@ -251,7 +251,10 @@ inside their projective \(3\)-space. Hence the
 normal cubic (a twisted cubic)**, with the two improper endpoint
 pencils in (GC). This is the expected toric orbit geometry in a
 Plücker embedding; the explicit calculation identifies the embedding
-degree in this case.
+degree in this case. For the classical Grassmannian torus-orbit
+framework see Gelfand--Goresky--MacPherson--Serganova,
+[*Combinatorial Geometries, Convex Polyhedra, and Schubert
+Cells*](https://doi.org/10.1016/0001-8708(87)90059-4).
 
 This conclusion is deliberately restricted to the Grassmannian
 compactification. The Hilbert closure has normalization
