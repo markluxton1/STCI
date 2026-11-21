@@ -107,6 +107,19 @@ nothing here identifies the two quantities or proves a
 conservation law. The former is a different of the original
 finite CI, the latter an embedded correction of its limit.
 
+For the exceptional reduced union \(Y=C_+\cup C_-\),
+the [two planar \(A_7\) endpoint germs](quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+have two branches of contact order four and
+\(\delta_{p_0}=\delta_{p_\infty}=4\).
+The same local contact governs its genus-seven
+linkage and the elementary modification of the
+single-branch conormal, while the *actual CI*
+relative different has length \(3\cdot2+2\cdot4=14\)
+at each endpoint. These invariants arise from
+the same endpoint germ but measure different
+algebraic objects; neither should be equated with
+the conductor of a normalized carrier surface.
+
 ## Colength and finite detection
 
 The tangent-coordinate description \(y=u_i x^3,\ w=v_i x^4\)
