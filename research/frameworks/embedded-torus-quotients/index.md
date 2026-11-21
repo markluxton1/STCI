@@ -144,7 +144,7 @@ colength from the actual finite pencil algebra. Extending the equation
 comparison to higher-degree repeated cycles requires the moving
 generators and their parameter relations.
 
-The [exceptional quartic](../../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
+The [exceptional quartic](../../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
 is an exact control: a nontrivial \(\mathbf G_m\)-orbit of Hilbert
 points has a **constant Chow point**, but its two full flat limits
 acquire different embedded endpoint corrections. The
