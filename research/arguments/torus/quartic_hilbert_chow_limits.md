@@ -139,6 +139,72 @@ dimensions one and two, respectively. The depth lemma
 gives \(\operatorname{depth}(S/J_0)\ge1\); hence \(J_0\)
 is already saturated.
 
+### Detaching the embedded endpoint
+
+The pure curve \(X=V(I')\) is a codimension-two **local complete
+intersection**, including at the two endpoints. On \(D_+(x_0)\),
+the first Hilbert--Burch relation in (FL1) expresses \(B\) in the
+ideal \((A^2,D_0)\), so
+\[
+ I'=(A^2,D_0).
+\]
+On \(D_+(x_3)\), the second relation expresses \(A^2\) in
+\((B,D_0)\), so
+\[
+ I'=(B,D_0).
+\]
+These two charts cover the support \(C_+\cup C_-\). Since \(I'\)
+has pure height two, each displayed pair is a local regular
+sequence.
+
+Moreover (FL4) is the quotient statement
+\[
+ I'/J_0\simeq (S/T)(-3).
+\]
+After sheafification, if
+\[
+ Z=V_+(T)=V_+(x_1,x_2,x_0^2),
+\]
+then \(Z\) is the curvilinear length-two scheme at \(p_\infty\),
+and \(\mathcal O_Z(-3)\simeq\mathcal O_Z\) because \(Z\) is
+zero-dimensional and local. Thus there is an exact sequence
+\[
+ 0\longrightarrow\mathcal I_{J_0}
+ \longrightarrow\mathcal I_X
+ \longrightarrow\mathcal O_Z
+ \longrightarrow0. \tag{FL6}
+\]
+
+This is exactly the hypothesis of Chen--Nollet,
+[*Detaching embedded points*, Proposition 3.1](https://msp.org/ant/2012/6-4/ant-v6-n4-p05-p.pdf):
+for a codimension-two lci \(X\), a quotient by a zero-dimensional
+scheme of embedding dimension at most one can be detached into
+isolated points. Hence \(J_0\) is a flat limit of
+\[
+ X\ \cup\ \{q_1,q_2\},
+\]
+with \(q_1,q_2\) distinct isolated points off \(X\) on the general
+fiber. Reversal gives the same conclusion for \(J_\infty\).
+
+This gives a substantially larger vertical Hilbert family than the
+proper-CI orbit. The open configuration space of two unordered
+distinct points in \(\mathbf P^3\setminus X\) has dimension six,
+and
+\[
+ X\cup\{q_1,q_2\}
+\]
+has Hilbert polynomial
+\[
+ (16n-34)+2=16n-32
+\]
+and fundamental one-cycle \(2[C_+]+2[C_-]\). Therefore the locus of
+subschemes with this fixed one-cycle has local dimension **at least
+six** at \(J_0\); the reversed statement holds at \(J_\infty\).
+This identifies a six-dimensional family whose closure passes through
+each computed toric boundary point. It does **not** assert that this
+family is an irreducible component, that it exhausts the Chow fiber,
+or that its general member is a complete intersection.
+
 The generators in (4) come from the parameter-saturated
 family, so \(J_0\) is contained in its special ideal.
 The generic fiber is a proper \((4,4)\) complete intersection,
@@ -255,6 +321,20 @@ degree in this case. For the classical Grassmannian torus-orbit
 framework see Gelfand--Goresky--MacPherson--Serganova,
 [*Combinatorial Geometries, Convex Polyhedra, and Schubert
 Cells*](https://doi.org/10.1016/0001-8708(87)90059-4).
+
+There is a close classical precedent for this boundary
+phenomenon. Avritzer--Vainsencher,
+[*Compactifying the space of elliptic quartic curves*](https://doi.org/10.1017/CBO9780511662652.005),
+study the rational map from the Grassmannian of \((2,2)\) pencils to
+the Hilbert scheme by taking the base locus. Their map is undefined
+on pencils with a common component, and blowing up the improper-pencil
+locus improves the extension to the Hilbert compactification. Our
+\((4,4)\) twisted cubic meets the same kind of indeterminacy at the
+two common-factor pencils in (GC), while \(J_0,J_\infty\) retain the
+additional saturated data. This is a precedent for studying the local
+graph closure of the pencil-to-Hilbert map; no claim is made that the
+single blowup used in the \((2,2)\) problem resolves the present
+\((4,4)\) map.
 
 This conclusion is deliberately restricted to the Grassmannian
 compactification. The Hilbert closure has normalization
