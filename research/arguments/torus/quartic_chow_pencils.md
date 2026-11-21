@@ -223,6 +223,17 @@ additional components. Cohen--Macaulayness implies Serre's
 \(S_1\) condition, hence it is reduced, so this saturated
 ideal is exactly \(I_Y\).
 
+There is also a geometric check of the transverse normal
+parameters used below and in the sextic argument:
+the complete intersection \((A,B)\) has degree nine, contains
+\(Y\) of degree eight, and contains the residual coordinate
+line \(L=V(x_1,x_2)\) of degree one. Since \(A,B\)
+are coprime, these three distinct components exhaust Bézout
+degree, each with multiplicity one. Thus \(A,B\) form
+a regular system of transverse parameters at the generic
+points of \(C_+\) and \(C_-\). No Jacobian-rank table
+is needed for this fact.
+
 In degree four the resolution gives
 \[
  H^0(I_Y(4))
