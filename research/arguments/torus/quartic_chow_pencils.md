@@ -229,7 +229,8 @@ exclusion invoked here uses characteristic zero.
 
 ## Hilbert--Burch and first-normal interpretation
 
-For the normalized exceptional support \(Y=C_+\cup C_-\),
+For the normalized exceptional support \(Y=C_+\cup C_-\)
+over a field of characteristic different from two,
 \(C_\pm=C_{1,\pm1}\), the saturated reduced ideal is
 \[
  I_Y=(A,B,D),\qquad
@@ -289,9 +290,19 @@ on each \(C_\epsilon\) precisely when its first-normal-symbol map
 has generic rank at most one, i.e. its determinant vanishes identically.
 For a **proper** quartic pencil this condition on both components,
 together with degree \(4\cdot4=2\cdot4+2\cdot4\), forces the
-cycle \(2[C_+]+2[C_-]\). It is a geometric description of a
-degeneracy locus, **not yet** a replacement proof that its only
-non-invariant proper pencils are (1). In particular, the even-eight
+cycle \(2[C_+]+2[C_-]\). On the smooth locus of either component away from the two
+intersection endpoints, this is the familiar local
+**Ferrand doubling** condition: in two regular transverse
+parameters a proper pencil with rank-one first normal class
+has local ideal \((u,v^2)\), after changing generators and
+coordinates. See Bănică--Forster,
+[*Multiplicity Structures on Space Curves*, §1](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf).
+That classical result describes the double structure locally;
+it does not supply the compatibility across the two marked
+endpoints or the global two-generator restriction.
+This is a geometric description of a degeneracy locus,
+**not yet** a replacement proof that its only non-invariant
+proper pencils are (1). In particular, the even-eight
 divisor class below does not classify all points of this
 Grassmannian locus.
 
