@@ -50,8 +50,15 @@ single-support \((4,4)\) STCI presentation.
 The separate [quartic-pair exclusion](quartic_44_filtered_exclusion.md)
 rules out single support in characteristic zero, completing the
 classification in that characteristic. The [Hilbert--Burch first-normal formulation](../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
-gives an intrinsic degeneracy locus for doubled support, but
-has not yet replaced the coefficient-based uniqueness proof.
+gives an intrinsic degeneracy locus for doubled support.
+Every proper \((4,4)\) member of that locus
+[self-links the locally complete-intersection union](../arguments/torus/quartic_chow_pencils.md#self-linkage-and-the-canonical-conormal-quotient):
+the nilpotent sheaf is canonically \(\omega_Y(-4)\), and
+the degree-three and degree-four equation maps satisfy
+the stated Serre-duality tests. These are established
+liaison/Ferrand mechanisms, not new classification theorems.
+The geometric conditions have **not yet replaced** the
+coefficient-based uniqueness and triple-branch exclusions.
 The [even-eight divisor calculation](../arguments/torus/quartic_chow_pencils.md#two-sided-contact-and-the-nodal-even-eight-carrier)
 explains doubled divisors on one carrier, not uniqueness of
 the family. The [characteristic-two specialization](../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
@@ -65,7 +72,7 @@ and its possible single-support pencils remain open.
 
 ## Review
 
-The original classification review was accepted for the stated scope; the later geometric and characteristic-two deductions are recorded with their own arguments and have not been promoted to a new completeness certificate. Independent reconstruction checked the endpoint evaluation kernels,
+The original classification review was accepted for its mathematical scope. The Hilbert--Burch descriptions now replace the original monomial enumeration, the full-limit Gröbner/Hilbert calculation, and the sextic conormal rank table; the self-linkage account uses standard duality. **The core uniqueness of the non-invariant quartic pencil still uses the explicit coefficient and third-order-contact argument**, so a fully intrinsic proof has not been certified. The later geometric and characteristic-two deductions are recorded with their own arguments and have not been promoted to a new completeness certificate. Independent reconstruction checked the endpoint evaluation kernels,
 smooth graph argument, and two-branch transverse determinant through
 first normal order. The invariant moment was rederived by change of
 root coordinate. A separate proof review checked the specialization of
