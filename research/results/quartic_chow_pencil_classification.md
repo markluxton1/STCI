@@ -57,9 +57,10 @@ form a nonconstant \(H\simeq\mathbf G_m\)-orbit
 The normalization of its closure is
 \(\mathbf P^1\), with the two distinct full Hilbert
 limits at \(0,\infty\). The associated
-[Grassmannian pencil limits](../arguments/torus/quartic_hilbert_chow_limits.md#two-compactifications-of-the-exceptional-orbit)
-are instead improper planes of quartics with a
-common cubic factor. The classification does **not**
+[Grassmannian orbit closure](../arguments/torus/quartic_hilbert_chow_limits.md#two-compactifications-of-the-exceptional-orbit)
+is a smooth rational normal cubic in its Plücker \(\mathbf P^3\);
+its two endpoint planes of quartics are improper and have
+a common cubic factor. The classification does **not**
 describe every Hilbert lift over that point.
 The [two opposite flat limits](../arguments/torus/quartic_hilbert_chow_limits.md#chow-closure-and-full-opposite-limits)
 preserve the fundamental cycle and acquire embedded
