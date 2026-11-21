@@ -181,8 +181,23 @@ Conversely the restrictions of (1) to \(x_0=x_3=0\) are
 \(x_1x_2(\lambda x_1^2+x_2^2)\) and
 \(\lambda x_1^4+x_1^2x_2^2+\lambda^{-1}x_2^4\), with no common zero.
 Every projective surface meets that line, so the pair is proper.
-Equation (2) gives \(K=-\lambda A\), proving length two at both
-generic branches and exhausting the degree. The pencil contains no
+For the converse, the **first-normal determinant** supplies
+the intersection multiplicity without an expansion of \(K\).
+Along either \(C_\epsilon\), the Hilbert--Burch relation
+\(x_1D=x_2^2A+x_0^2B\) expresses the first normal class of \(D\)
+in the transverse frame given by \(A,B\), as
+\((x_2^2/x_1,x_0^2/x_1)\). The classes of \(F_\lambda,G_\lambda\)
+are thus the rows
+\[
+ (\lambda x_2,x_1),\qquad
+ (\lambda x_1+x_2^2/x_1,\ \lambda^{-1}x_2+x_0^2/x_1).
+\]
+Their determinant is
+\(\lambda(x_0^2x_2/x_1-x_1^2)\), which vanishes
+identically because \(x_0^2x_2=x_1^3\) on each translate.
+So each component has generic intersection multiplicity
+at least two. Properness and Bézout degree sixteen then force
+**exactly two** on each, with no other components. The pencil contains no
 eigenform, since the weights of its two basis elements lie in the
 disjoint sets \(\{6,10\}\) and \(\{4,8,12\}\), with all coefficients
 nonzero in these weight decompositions. It thus has non-invariant ideal.
