@@ -144,6 +144,21 @@ colength from the actual finite pencil algebra. Extending the equation
 comparison to higher-degree repeated cycles requires the moving
 generators and their parameter relations.
 
+The [exceptional quartic](../../arguments/torus/quartic_chow_pencils.md#hilbert-over-chow-and-the-characteristic-two-collision)
+is an exact control: a nontrivial \(\mathbf G_m\)-orbit of Hilbert
+points has a **constant Chow point**, but its two full flat limits
+acquire different embedded endpoint corrections. The
+[Hilbert--Burch normal-map model](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+retains first-normal data invisible to Chow; its degeneracy
+classification by geometric methods is still open. In
+characteristic two, the same formulas give a non-invariant quartic
+single-support complete intersection, a \((2,2)\) splitting that
+contrasts with the binomial \((1,1,1,1)\) split in characteristic
+zero. The [relative different](../../arguments/torus/chow_endpoint_different.md#classical-discriminant-and-index-interpretation)
+measures the reduced endpoint normalization lattice, not the
+complete Hilbert lift or its limit corrections.
+
+
 ## Universal translate incidence
 
 Let \(T\) be the diagonal torus, \(H=T_C\), and
