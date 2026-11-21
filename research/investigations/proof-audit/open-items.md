@@ -39,7 +39,7 @@ Their current hypotheses and controls remain at the linked source.
 - **Projection and liaison:** [actual homogeneous realization](../../frameworks/global-equation-realization/projection_and_liaison.md) asks for sources overcoming the missing-section or conductor-postulation gates; ACMness, AG and two-generation are different conditions.
 - **Octic multiplier kernels:** [actual kernels, fixed divisors and joint generation](../../frameworks/residual-construction/octic_multiplier_kernels.md) remain to be determined on the stated first-compatible roots.
 - **Finite common ancestors:** the [quartic tensor incidence remainder](../../frameworks/local-cohomology/open_quartic_ancestors.md) is a bounded question separate from KG09's all-degree persistence.
-- **Chow realization and collisions:** the [first-moment separator](../../arguments/torus/chow_arrangement_moments.md) excludes complete coalescence in the closure of invariant CI arrangements, including the reduced locus. The [proper-pair criterion](../../arguments/equations/chow_polytope_rigidity.md) still needs geometric analysis on non-invariant repeated-cycle lifts outside that closure.
+- **Chow realization and collisions:** the [quartic classification](../../results/quartic_chow_pencil_classification.md) settles the \((4,4)\) fiber, including a non-invariant orbit outside the invariant quartic Chow closure. The [two-translate sextic criterion](../../arguments/torus/fixed_surface_restriction_lifts.md#a-two-translate-sextic-construction-criterion) gives a specified construction target with existence open. Higher-degree non-invariant realizations remain open.
 
 ## Proof explanations with a distinct purpose
 

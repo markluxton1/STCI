@@ -92,6 +92,22 @@ The canonical [R-0074](../../results/chow_polytope_rigidity.md) classifies **all
 
 The [H16 cycle parameterization](../../arguments/equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16) is set-theoretic and supplies neither homogeneous equations nor scheme structure. The [proof-dependency inventory](../../investigations/proof-audit/README.md) separates essential computations from evidence, and records the geometric R-0024 rank replacement.
 
+[R-0079](../../results/quartic_chow_pencil_classification.md) gives
+actual defining equations for every geometric pencil in the \((4,4)\)
+Chow-polytope fiber. In every degree the
+[trace tower](../../arguments/torus/chow_trace_cone_jets.md#a-sole-support-test-at-an-arbitrary-disjoint-line)
+excludes sole support if just one actual generator has a cone jet
+through degree four along a disjoint line. The coverage question is
+whether further equation constraints force this or another usable
+trace identity without a cone hypothesis.
+
+On a fixed, generically regular carrier, the
+[multiplicity comparison](../../arguments/torus/fixed_surface_restriction_lifts.md#comparing-multiplicities-on-one-fixed-carrier)
+realizes nonnegative integer combinations of actual supported section
+cycles by clearing their codimension-one denominators. The two-support
+sextic criterion identifies one family in which the carrier symmetry
+would supply the needed sections.
+
 The [clean common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
 determines the full special scheme in every degree \(a,b\ge3\), for
 any smooth \((1,3)\) curve and in every characteristic, under coprime

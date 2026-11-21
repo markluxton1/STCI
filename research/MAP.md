@@ -148,9 +148,25 @@ classes. More generally, the [Chow trace moment](arguments/torus/chow_arrangemen
 vanishes for pairs with an eigenform generator or specified polynomial
 congruences, including every invariant CI and reduced CI arrangement.
 Its linear Chow-coefficient equation separates their entire Chow closure
-from \(m[C_{u,v}]\) in characteristic zero. Non-invariant CI lifts over
-repeated cycles need not lie in that closure. Their realization geometry is
-the [current exploratory priority](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment).
+from \(m[C_{u,v}]\) in characteristic zero. The
+[full quartic-pencil classification](results/quartic_chow_pencil_classification.md)
+finds one exceptional non-invariant orbit over each
+\(2[C_{u,v}]+2[C_{u,-v}]\), outside the invariant \((4,4)\) Chow closure.
+Every \((4,4)\) realization still satisfies the moment. The exceptional
+orbit gives full flat limits with a fixed cycle and an embedded point of
+length two at opposite ends.
+In arbitrary degrees the [one-carrier trace tests](arguments/torus/chow_trace_cone_jets.md)
+extend the moment to new presentations and exclude cone jets at disjoint
+projection lines for sole support. The
+[relative endpoint different](arguments/torus/chow_endpoint_different.md)
+detects the number of distinct supports after Chow matching. The
+unrestricted obstruction would need a bound on these tests from
+higher-degree equations. Separately, a
+[fixed-carrier construction criterion](arguments/torus/fixed_surface_restriction_lifts.md#a-two-translate-sextic-construction-criterion)
+reduces sole support to finding a sextic pair on two exchanged
+translates with one carrier invariant under their exchanging
+involution. This is the
+[current scoped construction target](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment).
 The [coordinate-to-equation interface](arguments/torus/fixed_surface_restriction_lifts.md)
 gives linear coefficient constraints for arbitrary surfaces containing the
 chosen translates, then retains joint transverse lengths and normal lifts.

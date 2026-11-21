@@ -110,11 +110,13 @@ proper pairs with an eigenform generator or the stated actual polynomial
 congruences. This includes invariant CI ideals and every reduced CI arrangement.
 It is detected by a linear equation in Chow-form coefficients. In
 characteristic zero, the full Chow closure of this realization locus avoids
-every deepest collision \(m[C_{u,v}]\). A non-invariant CI over a repeated
-cycle outside these presentation classes need not belong to that closure;
-deciding its existence or deformations
-requires the actual embedded ideals. Thus generic arrangement deformations
-and the whole CI realization problem have different coverage.
+every deepest collision \(m[C_{u,v}]\). The
+[quartic classification](../../results/quartic_chow_pencil_classification.md)
+gives actual non-invariant lifts of the cycles
+\(2[C_{u,v}]+2[C_{u,-v}]\) outside the invariant \((4,4)\) Chow closure.
+Every quartic pencil in the fiber satisfies the same moment. In higher
+degrees, [one-carrier trace tests](../torus/chow_trace_cone_jets.md)
+reach some non-invariant presentations.
 For arbitrary forms, the [translate-coordinate evaluation map](../torus/fixed_surface_restriction_lifts.md#translate-coordinates-constrain-actual-coefficients)
 gives all linear containment constraints; transverse local intersection
 algebras then determine multiplicities, without assuming invariant generators.
@@ -147,7 +149,7 @@ None of its roots has u=0 (constant Cα³≠0) or v=0 (would imply u⁴=0). Thus
 
 For four prescribed distinct points, the line v=α+βu is determined by any two; it must contain all four, and their monic root polynomial minus u⁴ must belong to the displayed two-dimensional span. That is an explicit realization criterion. The span basis is independent (constant term of its second element is nonzero, and its first element has nonzero u coefficient). The lifts are unique there, and unique among invariant lifts even at any realized collision with at least two distinct points. The locus on the distinct stratum has dimension four (α,C nonzero, β,B arbitrary, squarefreeness open and nonempty) inside the eight-dimensional multiset space. Its dimension follows also from unique recovery of parameters from the cycle, so this does not assert the parametrization is a scheme isomorphism. For nonemptiness in any characteristic set β=0 and choose B,C avoiding repeated roots of u⁴+Bα²u+Cα³ (in characteristic two, B≠0 suffices).
 
-In characteristic zero all multiplicity partitions other than (4) occur among invariant lifts. For β≠0 rescale quotient coordinates to α=β=1. Requiring a double root r fixes B=−r³(r+4)/(r+1)², C=r⁴(r+3)/(r+1)³, with r≠0,−1,−3. The residual monic quadratic's discriminant is −4r²(r²+4r+2)/(r+1)^6 and its value at r is r²(r²+4r+6)/(r+1)^2. Hence r=1 gives (2,1,1), r=−2±√2 gives (2,2), and r=−2±√(−2) gives (3,1). At a triple root P'''(r)=24r/(r+1)^3≠0 (substitute r²+4r+6=0). If β=0, P''=12u² forbids a triple root. Thus only (4) fails invariantly, and the older characteristic-zero quartic-carrier exclusion independently rules out non-invariant (4) as well. Non-invariant lifts of partial diagonals have not been classified. A repeated cycle does not make the ideal stable; these strata require testing actual quartic pencils, componentwise generic lengths, and absence of residual support. The [equation–Hilbert–Chow comparison](#from-the-cycle-fiber-to-actual-complete-intersections) remains relevant there.
+In characteristic zero all multiplicity partitions other than (4) occur among invariant lifts. For β≠0 rescale quotient coordinates to α=β=1. Requiring a double root r fixes B=−r³(r+4)/(r+1)², C=r⁴(r+3)/(r+1)³, with r≠0,−1,−3. The residual monic quadratic's discriminant is −4r²(r²+4r+2)/(r+1)^6 and its value at r is r²(r²+4r+6)/(r+1)^2. Hence r=1 gives (2,1,1), r=−2±√2 gives (2,2), and r=−2±√(−2) gives (3,1). At a triple root P'''(r)=24r/(r+1)^3≠0 (substitute r²+4r+6=0). If β=0, P''=12u² forbids a triple root. Thus only (4) fails invariantly, and the older characteristic-zero quartic-carrier exclusion rules out all (4) lifts. The [classification of actual quartic pencils](../torus/quartic_chow_pencils.md#classification) supplies the non-invariant lifts, all on the exceptional two-support cycles with multiplicity two on each.
 
 ## Chow forms, products, and the one-parameter subgroup
 
@@ -352,12 +354,12 @@ asserted to determine the answer. The existing
 criterion through its determinant; arbitrary unrelated bundle determinants
 do not constitute homogeneous equation realization.
 
-The bounded remaining question is whether this classical criterion admits
-a useful structural characterization directly in arbitrary proper
-\(F,G\), or their prescribed maps, without constructing the whole
-resultant and without assuming eigenforms. Even such a characterization
-would leave the marked-support and actual equation-realization gates.
-No degree-specific search or new general theorem is proposed here.
+The [quartic classification](../torus/quartic_chow_pencils.md#classification)
+gives a structural characterization in degree \((4,4)\) from the
+actual equations. An [endpoint different test](../torus/chow_endpoint_different.md#statement)
+recognizes single support after Chow matching in arbitrary degree.
+An equation-side criterion for matching outside the quartic pencils,
+and an obstruction to single support for unrestricted pairs, remain open.
 
 ## Eigenpairs and transverse finite quotients
 

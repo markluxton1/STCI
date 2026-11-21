@@ -21,15 +21,18 @@ reduced CI arrangement, in characteristic different from two.
 A linear equation in Chow coefficients expresses the condition and
 separates the entire Chow closure of this locus from \(m[C_{u,v}]\) in
 characteristic zero. This is stronger than losing CI structure only at the
-final collision. It does not exclude a different, non-invariant CI lift over
-a repeated cycle outside these equation classes and their cycle closure.
-Ambient smoothability does not imply
-smoothability through translated-component cycles.
+final collision. The [quartic-pencil classification](../../results/quartic_chow_pencil_classification.md)
+exhibits a distinct non-invariant realization locus outside the
+invariant \((4,4)\) Chow closure with the same vanishing moment.
+The [one-carrier trace](../../arguments/torus/chow_trace_cone_jets.md)
+extends the equation to some non-invariant presentations in all degrees.
+Ambient smoothability does not imply smoothability through
+translated-component cycles.
 
-The next geometry includes those repeated-cycle lifts, their possible
-components and deformations, and the boundary of the moment-constrained
-realization locus. A parameter escaping the torus can leave the fixed-polytope
-fiber, so its compactification must retain the full projective limiting cycle.
+The next geometry concerns higher-degree repeated-cycle lifts and the
+boundary of their moment-constrained loci. A parameter escaping the
+torus can leave the fixed-polytope fiber, so its compactification must
+retain the full projective limiting cycle.
 
 The [clean common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
 supplies the full special scheme in every degree \(a,b\ge3\) whenever
@@ -75,10 +78,10 @@ does not determine that power, even for same-degree proper pairs.
 The smooth quadric gives a contrasting answer: all its translates have the
 same ruling class \((1,3)\), so their positive sum cannot be a degree-\(N\)
 hypersurface section of class \((N,N)\). Thus the carrier geometry matters.
-The [moving quartic locus](../../arguments/equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle)
-permits collision partitions excluded on the fixed toric quartic. Understanding
-its non-invariant thickenings and discriminant strata is a substantive question
-even without a known route to an STCI obstruction.
+The [moving quartic locus](../../results/quartic_chow_pencil_classification.md)
+permits collision partitions excluded on the fixed toric quartic. Its
+exceptional non-invariant thickenings supply a fixed-cycle comparison
+with both full torus limits.
 
 ## Concentrating interior information at the endpoints
 

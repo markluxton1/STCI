@@ -47,8 +47,13 @@ For effective one-cycles in every characteristic, [full Chow-polytope rigidity](
 The [first-moment theorem](../../arguments/torus/chow_arrangement_moments.md)
 adds a linear Chow equation for invariant proper CI arrangements, including
 every reduced CI arrangement. In characteristic zero their full Chow closure
-avoids every complete collision \(m[C_{u,v}]\). Non-invariant repeated-cycle
-CI lifts need not belong to that closure; their realization remains open.
+avoids every complete collision \(m[C_{u,v}]\). In bidegree \((4,4)\)
+the [classification](../../results/quartic_chow_pencil_classification.md)
+finds non-invariant lifts outside the invariant Chow closure. These are
+one orbit over each \(2[C_{u,v}]+2[C_{u,-v}]\), and all still satisfy the
+moment. A [one-carrier trace argument](../../arguments/torus/chow_trace_cone_jets.md)
+reaches further presentation classes in arbitrary degrees. The general
+higher-degree realization locus remains open.
 
 The [fixed-carrier arrangement and simultaneous conductor comparisons](supported_deformation_questions.md)
 add actual incidence geometry and an exact endpoint correction. The quartic
@@ -200,12 +205,14 @@ duplicate them.
 For a [prescribed reduced Chow-matched cycle](../../arguments/equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle),
 the degree-labeled eigenform evaluation spaces and their common fixed
 factors decide actual CI realization; degree exhaustion excludes boundary
-residuals after properness. In degree (4,4) the distinct-cycle image has
-an explicit line-and-quartic model. On a repeated cycle the ideal need
-not be stable, and the invariant collision calculation does not decide
-the actual non-invariant incidence on the partial diagonals. Testing
-that incidence requires full quartic pencils, not the cycle or two limits
-alone.
+residuals after properness. In degree \((4,4)\) the explicit
+line-and-quartic model and the exceptional orbit exhaust the actual
+pencils. The latter has two [saturated five-generator limits](../../arguments/torus/quartic_chow_pencils.md#chow-closure-and-full-opposite-limits),
+each with an embedded length-two point, whereas its cycle is fixed.
+For an original proper Chow-matched pair in any degree, the
+[relative different](../../arguments/torus/chow_endpoint_different.md)
+detects single support from one finite jet. A global bound on that jet
+from unrestricted equation sources remains open.
 
 ## Clean-cancellation boundary
 

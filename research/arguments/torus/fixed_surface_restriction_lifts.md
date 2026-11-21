@@ -1,14 +1,14 @@
 # Translate coordinates and fixed-surface equation lifts
 
 **Review:** the coefficient, syzygy, descent and certificate statements and
-their controls received independent proof review on November 20, 2026.
+their controls received independent proof review. The fixed-carrier
+multiplicity comparison also received independent reconstruction.
 
 This interface separates what two restricted equations retain from their
 normal extensions. It applies to arbitrary proper pairs, without assuming
-an invariant ideal or a carrier equation among the generators. The algebra
-below is characteristic free; the final descent comparison states where
-characteristic matters. It supplies a research formulation, not a new STCI
-exclusion.
+an invariant ideal or a carrier equation among the generators. The restriction,
+syzygy and multiplicity comparisons are characteristic free. The descent
+and sextic applications state their characteristic assumptions.
 
 Work over an algebraically closed field \(k\), with
 \(S=k[x_0,x_1,x_2,x_3]\).
@@ -235,3 +235,89 @@ supplies that theorem. This connects fixed-carrier semigroup descent to
 the [actual-source lifting problem](../equations/global_lifting_interfaces.md#a-fixed-symbol-lifting-lemma)
 without identifying their obstruction spaces or asserting universal
 coverage for a chosen finite-degree source.
+
+## Comparing multiplicities on one fixed carrier
+
+Let \(T=V(F_a)\) be integral and regular at the generic points of
+distinct curves \(C_i\). Take actual proper mates \(G_j\) of degrees
+\(b_j\) with all intersection cycles supported on the \(C_i\), and let
+their multiplicity vectors be \(v_j=(n_{ij})_i\), allowing zero entries.
+Every nonzero nonnegative vector in the integer span of the \(v_j\)
+is realized by another mate on the same carrier. In fact, for
+\(v=\sum z_jv_j\ge0\), the rational section
+\[
+S_v=\prod_j (G_j|_T)^{z_j}
+\]
+has degree \(\sum_j z_j b_j>0\) by the cycle degree identity. At the
+generic point of \(C_i\), its order is \(v_i\) in a discrete valuation
+ring. At every other codimension-one point each \(G_j\) is a unit upon
+trivializing its line bundle. Thus \(S_v\) is regular in codimension one,
+extends on the \(S_2\) surface, and lifts to an ambient form by the
+hypersurface restriction sequence. The lifted pair is proper and pure
+with exactly the prescribed cycle. If \(v=0\), the ratio has degree
+zero and both it and its inverse extend, so it is constant.
+This argument permits nonnormality away from the supported generic
+points.
+
+With just two curves, two nonproportional multiplicity vectors give
+positive multiples of both coordinate vectors by integer subtraction.
+Thus they yield actual sole-support mates for the two curves on the
+same carrier. If an ambient symmetry preserves \(T\) and exchanges the
+two curves, a single mate with unequal multiplicities suffices.
+
+The [retained exceptional quartic](quartic_chow_pencils.md#all-mate-degrees-on-a-retained-exceptional-carrier)
+exhibits the opposite outcome. Unequal multiplicities would contradict
+the all-mate quartic-carrier exclusion, and the absence of a common
+quadric rules out an odd common multiplicity.
+
+### A two-translate sextic construction criterion
+
+In characteristic zero let \(\sigma\) be \(x_3\mapsto -x_3\), which
+exchanges \(C_{1,\pm1}\). If a proper \((6,6)\) pair with one
+\(\sigma\)-preserved carrier has cycle supported on these two
+translates, then \(C_0\) is an STCI. Any such carrier is integral
+and regular at the generic points that occur, as verified below.
+If only one translate occurs, the pair itself gives the conclusion
+after diagonal transport. If both occur, their multiplicities sum to
+nine, so they are unequal. With \(n_+>n_->0\), the ratio
+\(G^{n_+}/(\sigma G)^{n_-}\) gives a sole-support mate of degree
+\(6(n_+-n_-)\), with cycle \((n_+^2-n_-^2)[C_{1,1}]\).
+Exchanging signs gives a mate on the other curve. In particular the
+partition \((5,4)\) would give a sextic mate. The existence of such a
+pair with both translates remains open.
+
+Every irreducible factor of either sextic has even degree, since its
+intersection with the mate has degree six times that factor degree
+and consists of quartic curves. A reducible sextic or a proper power
+would have a quadratic factor. This would be the unique smooth quadric
+of a translate, and a sum of translated curves on it cannot have
+ruling class \((6,6)\). This proves integrality, also for arbitrary
+translated support in \((6,6)\).
+
+If the \(\sigma\)-preserved carrier were singular along one translate,
+it would be singular along both. The degree-six forms vanishing to
+order at least two along both are precisely the span of \(A^2,AB,B^2\)
+with the cubics \(A,B\) from the
+[exceptional quartic pencil](quartic_chow_pencils.md#classification).
+For the calculation, group monomials of ordinary degree six by their
+\((0,1,3,4)\)-weight \(w\) and parity \(p\) of the \(x_3\)-exponent.
+Using \(i,j\) for the \(x_2,x_3\)-exponents, require \(i,j\ge0\),
+\(w-3i-4j\ge0\), \(6-w+2i+3j\ge0\), and \(j\equiv p\bmod 2\).
+On each group the value and two transverse derivatives are the
+coefficient sums against \(1,i,j\). Groups of size at most two have
+full column rank. Here are the larger groups for \(w\le12\), all
+with \(p=0\). Reversal gives \((24-w,p+w\bmod2)\) for the rest.
+
+| \(w\) | \((i,j)\) | Rank |
+| --- | --- | --- |
+| 6 | \((0,0),(1,0),(2,0)\) | 2 |
+| 8 | \((1,0),(2,0),(0,2)\) | 3 |
+| 9 | \((2,0),(3,0),(0,2)\) | 3 |
+| 10 | \((2,0),(3,0),(0,2)\) | 3 |
+| 11 | \((3,0),(0,2),(1,2)\) | 3 |
+| 12 | \((3,0),(4,0),(0,2),(1,2)\) | 3 |
+
+The only kernel weights are six, twelve and eighteen, with the
+three displayed products as basis. Each such form factors over \(k\)
+as a binary quadratic in the cubics, contradicting integrality.
+This establishes the regularity required by the ratio argument.

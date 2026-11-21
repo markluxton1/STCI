@@ -22,11 +22,11 @@ additional positive case when it changes which comparison to attempt.
 
 Compare the actual next investigations, not the historical importance of their
 frameworks. A restricted scalar test does not inherit the coverage of the whole
-deep-contact program. The current first choice is exploratory: actual Chow
-arrangements have an explicit fixed-carrier locus and informative collisions,
-but the effect of moving the carrier and allowing non-invariant thickenings is
-unresolved. This is a reason to investigate, not evidence that the direction
-will solve STCI or is uniquely optimal. Reassess after the initial probe.
+deep-contact program. The current choice follows the quartic-pencil
+classification to the two-translate sextic criterion below. That
+criterion gives a concrete construction test, with nonemptiness still
+open. Reassess against the elliptic support locus after the initial
+sextic probe.
 
 ## Ranked research problems
 
@@ -206,30 +206,35 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   · [Generator incidence](../supported-generator-incidence/index.md).
 - **Checked finite pilot.** The [two-parameter residual sextic family](../../results/endpoint_equation_torsion.md#the-complete-detection-stratification-of-a-two-parameter-pilot) has fixed extremes, \(e_L=1\), and a fixed CI polynomial, but its missed length is one on the dense parameter open and zero on a parameter divisor where the flat limit contains \(6[L]\). This exactly identifies the detection strata of that family. It shows why those shared data alone cannot provide the needed strict bound; it is not a supported construction or a closure of KG02.
 - **Canonical-source refinement.** The [equation-layer theorem](../../arguments/torus/chow_matched_equation_layers.md) makes each end-adapted raw ideal intrinsic and shows that nonadaptation delays all hidden line layers. The explicit first-length change eight to zero is a generator artifact, not erased cancellation. Endpoint Kummer data alone do not determine that raw first length; opposite optimized generators need not be the same representative. The whole filtered degree-labeled sources of the same ideal are the revised comparison target.
-- **Moving-carrier comparison.** [Reduced-cycle realization](../../arguments/equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle)
-  is an exact eigenform evaluation and fixed-factor test; the invariant
-  quartic collision model does not cover non-invariant ideals on partial
-  diagonals. Choose a named collision partition and test actual quartic
-  pencils, then compare their embedded quotients with both full limits.
-  This has independent moduli value even if it gives no STCI obstruction.
-- **Next investigation.** Connect a named repeated-cycle stratum to actual
-  equations through the [translate-coordinate evaluation maps](../../arguments/torus/fixed_surface_restriction_lifts.md).
-  Single-translate containment alone is a trivial projective-bundle incidence
-  after torus transport; it is not the unresolved realization question.
-  Determine the coefficient kernels, joint transverse lengths, and permissible
-  normal lifts; on the fixed quartic, retain the simultaneous descent of
-  restricted syzygies and their actual normal extensions. For a sole-support
-  \(C_0\) candidate, a carrier power of degree at most the larger defining
-  degree would force the excluded
-  fixed-carrier presentation in characteristic zero, but mere existence of
-  some power is automatic and ordinary restrictions do not bound its order.
-  A bounded source should reveal which of these compatibility conditions
-  constrains non-invariant lifts or their deformations. The invariant partitions
-  \((2,2)\) and \((3,1)\) are already known. Distinguish the boundary of
-  their moment-constrained locus from components supported entirely over
-  repeated cycles, and retaining a carrier equation from retaining only its
-  support. Examples, a discriminant description or a new constraint are useful
-  outcomes; a known path to an STCI obstruction is not required.
+- **Moving-carrier comparison.** [R-0079](../../results/quartic_chow_pencil_classification.md)
+  settles all actual \((4,4)\) pencils. Each exceptional
+  \(2[C_{u,v}]+2[C_{u,-v}]\) has a non-invariant orbit outside the invariant
+  quartic Chow closure, with the same vanishing first moment and opposite
+  embedded endpoint corrections of length two. On a
+  [retained exceptional carrier](../../arguments/torus/quartic_chow_pencils.md#all-mate-degrees-on-a-retained-exceptional-carrier)
+  all translated mates are powers modulo that carrier, in degrees divisible
+  by four. Changing the mate degree on this carrier preserves the equal
+  multiplicities.
+- **Equation-side tests.** The [one-carrier trace tower](../../arguments/torus/chow_trace_cone_jets.md)
+  constrains arbitrary-degree presentations without requiring an invariant
+  ideal. The [relative different](../../arguments/torus/chow_endpoint_different.md)
+  detects support count and normalization colength from the actual endpoint
+  algebra. Its value on a given pair provides a test for sole support,
+  with no global inequality yet ruling out that value in higher degrees.
+- **Construction target.** A proper \((6,6)\) pair on \(C_{1,\pm1}\)
+  with a carrier preserved by \(x_3\mapsto -x_3\) would give an STCI,
+  by the [fixed-carrier multiplicity comparison](../../arguments/torus/fixed_surface_restriction_lifts.md#a-two-translate-sextic-construction-criterion).
+  The two-support multiplicities total nine, so the involution supplies
+  a second mate with differing multiplicity ratio. Integrality and
+  regularity at the two generic points follow from the translated
+  support, degree six and the symmetry. A first probe can focus on the
+  partition \((5,4)\), which would give a mate of degree six by the
+  multiplicity subtraction. Test the two required orders on an actual
+  sextic preserved by that involution using a common transverse
+  restriction and homogeneous lift. If neither a proper lift nor an
+  obstruction to the joint orders emerges beyond containment, compare
+  another carrier with the elliptic construction target before extending
+  the degree search.
 - **Remaining equation bridge.** The joint first-layer kernel on a declared
   proper family with \(e_L>0\) remains a distinct question. A bound below
   \(e_L\) would force residual degree there; retain canonical end-adapted
@@ -454,18 +459,15 @@ This does not close the normalization, fixed-endpoint or embedded-kernel tests.
 
 ## Current choice and reassessment
 
-Retain KG02's actual arrangement and collision geometry as a provisional
-choice, with a specified repeated-cycle or remaining cancellation stratum
-needed before the next probe. The general
-trace moment now separates invariant CI cycles, including all reduced
-arrangements, from full coalescence even in their Chow closure. The fixed-carrier
-classification supplies more detailed strata and realized partial absorption.
-The next question ties the translate coordinates to non-invariant defining
-equations over repeated cycles, their transverse algebras and normal lifts;
-no smoothing into the reduced arrangement locus is presumed. Fixed-surface
-relations provide a concrete interface to probe, not a claim that the
-surface equation can be recovered from ordinary restrictions alone.
-Understanding this geometry does not require a promised uniform STCI obstruction.
+Retain KG02 provisionally for the specified two-support \((5,4)\) sextic
+cycle above. The quartic classification supplies a proper repeated-cycle
+control and proves that powers on its retained carrier cannot change the
+multiplicity ratio. The involution on the sextic carrier would convert
+any proper lift at the specified partition into actual sole-support
+equations. The probe can test global realization in that class without
+assuming a deformation from reduced arrangements. On the obstruction
+side, the trace and different calculations leave a distinct question
+about general non-invariant equation sources.
 
 The common-quadric chart removes the entire \(h_2=0\) boundary and its
 higher-order arcs from this probe. Under coprime ambient cofactors and
@@ -478,7 +480,7 @@ A neglected comparison is the [actual-pair coregularity module](../../arguments/
 on the explicit quadric/cuspidal-cubic pair with residual double line. It
 could clarify how residual geometry detects the second-equation failure,
 but no map to filtered lifting defects is yet supplied. That bounded task
-is a concrete alternative if the repeated-cycle probe reproduces only
+is a concrete alternative if the sextic probe reproduces only
 containment. A second bounded alternative starts from the classified
 osculating triples and computes a next embedded equation module,
 Gorenstein extension and source fixed surfaces. It would test actual
@@ -495,9 +497,10 @@ Its surviving questions concern embedded homogeneous kernels and the
 toric graph correction. The moving-cover endpoint computes that correction
 exactly in one family; control from arbitrary global equations remains open.
 These distinctions support a provisional exploration choice, not certainty
-about eventual payoff. Reassess if the coefficient and normal-lift probe only
-reproduces containment or the known fixed-carrier picture, or reveals a more
-consequential question elsewhere.
+about eventual payoff. The sextic target starts with explicit support
+and no identified carrier, whereas the elliptic target already has a
+finite inverse-support algebra and leaves its whole-family descent open.
+Reassess if the sextic probe supplies no constraint beyond containment.
 
 Keep the [marked V5 correspondence](../../arguments/residuals/blowup_residual_geometry.md#the-marked-correspondence-on-the-whole-equality-boundary)
 as a distinct transfer/contact test, and KG03 as the actual absorption question.

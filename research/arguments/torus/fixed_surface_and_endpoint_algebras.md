@@ -225,6 +225,13 @@ and the two maps given by multiplication by \(x_1,x_2\), retain the
 actual arbitrary defining pair. Replacing them by freely chosen matrices
 would discard the ambient realization problem.
 
+For a whole cycle of translates, the
+[relative endpoint different](chow_endpoint_different.md) uses the
+same finite algebra to recover the reduced support count from finite
+jets. The [trace tower](chow_trace_cone_jets.md) constrains the actual
+equations when one carrier separates as a monic equation over a
+thickening of the projection line.
+
 ## Cover multiplication, trace and geometric realization
 
 For this comparison assume \(Y_{\mathrm{red}}=C_0\) in §4 and write

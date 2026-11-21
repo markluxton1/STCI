@@ -217,9 +217,13 @@ The second and fifth moments there come from additional descent gaps.
 
 In characteristic zero, a hypothetical sole-support CI must fall outside
 all three covered classes and its cycle outside their Chow-image closure.
-The argument does not exclude that remaining possibility or provide a
-smoothing through translated arrangements. Ambient CI smoothability does
-not supply the additional Chow-matched smoothing.
+The [one-carrier trace tests](chow_trace_cone_jets.md) give additional
+presentation conditions for the same moment in arbitrary degrees.
+The [quartic classification](quartic_chow_pencils.md#classification)
+gives a separate proof for every \((4,4)\) pencil. It realizes non-invariant
+pencils outside the invariant quartic Chow closure, even though the
+moment vanishes on both loci. Higher-degree non-invariant lifts
+without the trace hypotheses remain open.
 
 A connected torus cannot nontrivially permute a finite set of components.
 Restricting component parameters to a one-dimensional subtorus or coset

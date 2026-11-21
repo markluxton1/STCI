@@ -67,7 +67,8 @@ mathematical rank.
 
 ## Full Chow-polytope rigidity
 
-- [STCI-R-0074: full Chow-polytope rigidity for the fixed quartic](chow_polytope_rigidity.md).
+- [STCI-R-0074 — Full Chow-polytope rigidity for the fixed quartic](chow_polytope_rigidity.md).
+- [STCI-R-0079 — Quartic pencils with the fixed Chow polytope](quartic_chow_pencil_classification.md).
 
 ## Inverse support on quintic and octic carriers
 

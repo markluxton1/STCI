@@ -98,8 +98,18 @@ to sole support within that locus. Its total family is not supported on \(C_0\)
 alone, so the supported quadratic-graph comparison needs a separate bridge.
 The [general Chow moment](../../arguments/torus/chow_arrangement_moments.md)
 also prevents complete coalescence in the Chow closure of invariant CI
-arrangements in characteristic zero, even with moving carriers. This bounds
-that absorption class; it does not cover non-invariant repeated-cycle lifts.
+arrangements in characteristic zero, even with moving carriers. The
+[non-invariant quartic orbit](../../results/quartic_chow_pencil_classification.md)
+shows that other repeated cycles occur beyond the invariant quartic
+Chow closure while still satisfying the first moment. Its fixed cycle
+supplies a flat-limit control without any increase of marked multiplicity.
+The [comparison of mates on the same carrier](../../arguments/torus/fixed_surface_restriction_lifts.md#comparing-multiplicities-on-one-fixed-carrier)
+gives a different transfer that keeps the ambient carrier fixed.
+Two differing multiplicity ratios on two translates give a sole-support
+mate by extending a rational section. In the
+[sextic test](../../arguments/torus/fixed_surface_restriction_lifts.md#a-two-translate-sextic-construction-criterion),
+one proper pair and the involution would supply both ratios. Existence
+of that pair is open.
 
 The [two-blowup calculation](../../arguments/residuals/blowup_residual_geometry.md)
 tracks the full normal ideal and distinguishes horizontal and vertical

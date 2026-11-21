@@ -87,6 +87,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0076](results/elliptic_inverse_support.md) | Full inverse support in the marked elliptic double-cover construction | target rulings and a Cartier zero scheme on the residual divisor: pending | [scope](results/elliptic_inverse_support.md#scope) |
 | [STCI-R-0077](results/connected_normal_directions.md) | Connected normal directions, residual degree and deep contact on the equality boundary | quadric restriction, connectedness and the normal bundle of the surviving section: pending | [scope](results/connected_normal_directions.md#scope) |
 | [STCI-R-0078](results/moving_quadratic_conductors.md) | Quadratic conductor postulation at one moving point | separated covers, transverse lattices and the osculating quadric: accepted | [scope](results/moving_quadratic_conductors.md#scope) |
+| [STCI-R-0079](results/quartic_chow_pencil_classification.md) | Quartic pencils with the fixed Chow polytope | weighted endpoint contact and the transverse determinant: accepted | [scope](results/quartic_chow_pencil_classification.md#scope) |
 
 ## Arguments
 
@@ -199,6 +200,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0076: target rulings and a Cartier zero scheme on the residual divisor; joint premises []; proof `research/arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber`; review pending at `#review`.
 - STCI-R-0077: quadric restriction, connectedness and the normal bundle of the surviving section; joint premises [STCI-R-0020]; proof `#proof`; review pending at `#review`.
 - STCI-R-0078: separated covers, transverse lattices and the osculating quadric; joint premises []; proof `#proof`; review accepted, reconstructed at `#review`.
+- STCI-R-0079: weighted endpoint contact and the transverse determinant; joint premises [STCI-R-0074]; proof `research/arguments/torus/quartic_chow_pencils.md#classification`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
@@ -313,8 +315,9 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0071: no declared backlinks.
 - STCI-R-0072: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072, STCI-R-0073] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0056, STCI-R-0072] → [STCI-F-0002] (owner STCI-F-0002).
 - STCI-R-0073: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072, STCI-R-0073] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] → [STCI-I-0002] (owner STCI-I-0002).
-- STCI-R-0074: no declared backlinks.
+- STCI-R-0074: premise of STCI-R-0079 (weighted endpoint contact and the transverse determinant).
 - STCI-R-0075: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005).
 - STCI-R-0076: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005); uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078] → [STCI-F-0006] (owner STCI-F-0006); uses: [STCI-R-0076] → [STCI-I-0005] (owner STCI-I-0005).
 - STCI-R-0077: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007); uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078] → [STCI-F-0006] (owner STCI-F-0006); uses: [STCI-R-0077] → [STCI-F-0003] (owner STCI-F-0003).
 - STCI-R-0078: uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078] → [STCI-F-0006] (owner STCI-F-0006).
+- STCI-R-0079: no declared backlinks.

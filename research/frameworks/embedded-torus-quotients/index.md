@@ -134,13 +134,15 @@ checking normal specialization separately from the projective family.
 
 For [specified reduced Chow cycles](../../arguments/equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle),
 purity forces a reduced scheme and closes the invariance gap in
-testing actual generators. It does not do so on the partial diagonals.
-The invariant quartic collision examples give embedded quotient
-controls; a general repeated cycle may instead lift to a non-invariant
-ideal. Test one partial diagonal in actual pencils, and compare its
-local finite quotients with both full flat limits while retaining the
-equation source. A cycle or canonical endpoint index alone cannot
-make that comparison.
+testing actual generators. On the partial diagonals, the
+[exceptional \((4,4)\) orbit](../../arguments/torus/quartic_chow_pencils.md#classification)
+has generic length two on each of two translates and full opposite
+limits gaining embedded length two at opposite endpoints. Its
+[relative different](../../arguments/torus/chow_endpoint_different.md)
+recovers the reduced support count and the endpoint normalization
+colength from the actual finite pencil algebra. Extending the equation
+comparison to higher-degree repeated cycles requires the moving
+generators and their parameter relations.
 
 ## Universal translate incidence
 
@@ -170,8 +172,10 @@ This standard, trivial incidence construction packages the
 It does not impose properness, exclude coordinate-boundary components,
 or compute transverse multiplicities. The smaller locus of proper pairs
 whose **entire** cycle consists of translates has the Chow-polytope
-criterion of [R-0074](../../results/chow_polytope_rigidity.md); its scheme
-structure and non-invariant repeated-cycle lifts require further work.
+criterion of [R-0074](../../results/chow_polytope_rigidity.md).
+[R-0079](../../results/quartic_chow_pencil_classification.md) gives its
+geometric pencils in \((4,4)\). Its incidence scheme structure and
+higher-degree repeated-cycle lifts require further work.
 
 For a fixed translate, the [common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
 describes the full special scheme when ambient cofactors are coprime and
