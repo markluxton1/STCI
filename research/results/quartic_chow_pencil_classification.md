@@ -26,75 +26,100 @@ Write \(H\) for the torus of weights \((0,1,3,4)\), and
 
 ## Statement
 
-The \(H\)-invariant pencils are given by the
-[line-and-quartic model](../arguments/equations/chow_polytope_rigidity.md#quartics-including-invariant-collision-lifts).
-Every other pencil has cycle \(2[C_{u,v}]+2[C_{u,-v}]\).
-Over each such cycle the pencils are exactly the explicit
-[one-parameter orbit](../arguments/torus/quartic_chow_pencils.md#classification).
-The exceptional cycles lie outside the Chow closure of invariant
-\((4,4)\) realizations. The non-invariant pencils form a vertical
-\(H\)-orbit in the Hilbert fiber over each fixed exceptional Chow point.
-Both full opposite limits preserve the cycle, with embedded length two
-at opposite endpoints. The normalized exceptional support is
-characterized by coincident cubic jets at both endpoints.
-On the carrier \(G_1=0\) in characteristic zero, the resolved
-ten-nodal K3 surface contains an explicit even eight; its half
-maps to a nontrivial class \(C_++C_--2H\) of order two
-in the carrier's Weil divisor class group.
-Every pair in this **characteristic-zero** scope satisfies
-\(\sum n_i u_i/v_i=0\).
+### Principal classification (characteristic zero)
 
-**Separate characteristic-two construction (not part of the
-classification).** Reduction of the normalized exceptional
-formulas at \(\lambda=1\) gives a non-invariant
-single-support \((4,4)\) STCI presentation of \(C_0\).
-This is proved directly by polynomial identities and a
-boundary support check; it does **not** establish a complete
-multi-support classification in characteristic two.
+The \(H\)-invariant proper quartic pencils in the stated
+Chow-polytope fiber are precisely the
+[line-and-quartic model](../arguments/equations/chow_polytope_rigidity.md#quartics-including-invariant-collision-lifts).
+Every other proper pencil has cycle
+\[
+ 2[C_{u,v}]+2[C_{u,-v}].
+\]
+After diagonal normalization its actual two-dimensional
+equation space is uniquely of the form
+\[
+ \left\langle
+ \lambda x_2A+x_1B,\
+ D+\lambda x_1A+\lambda^{-1}x_2B
+ \right\rangle,\qquad\lambda\in k^\times,
+\]
+with \(A,B,D\) as in the
+[canonical classification proof](../arguments/torus/quartic_chow_pencils.md#classification).
+This classifies the **proper \((4,4)\) complete-intersection
+pencils** over the full fixed Chow-polytope fiber; it does
+not classify arbitrary subschemes with the same Chow cycle.
+
+### Closely related geometric consequences
+
+For each exceptional cycle, the proper-CI ideals
+form a nonconstant \(H\simeq\mathbf G_m\)-orbit
+**inside the Hilbert fiber** over a single Chow point.
+The classification does not describe every Hilbert lift
+over that point. The [two opposite flat limits](../arguments/torus/quartic_hilbert_chow_limits.md#chow-closure-and-full-opposite-limits)
+preserve the fundamental cycle and acquire embedded
+length two at opposite endpoints. Exceptional cycles
+lie outside the Chow closure of invariant
+\((4,4)\) realizations. The entire characteristic-zero
+quartic classification also implies the
+[first Chow moment](../arguments/torus/chow_arrangement_moments.md)
+\[
+ \sum_i n_i u_i/v_i=0.
+\]
+
+The mechanism for the exceptional uniqueness is
+[liaison and canonical-module rigidity](../arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+of \(Y=C_+\cup C_-\): an lci, arithmetically
+Cohen--Macaulay curve with two planar \(A_7\)
+singularities. This is the geometric proof of the
+exceptional fiber, while the initial support reduction
+continues to use the distinguished torus weights
+and endpoint coordinates.
+
+### Complementary geometry and separate constructions
+
+The [two-sided endpoint contact and ten-nodal K3
+carrier](../arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+give an explicit even-eight divisor identity and
+nontrivial \(2\)-torsion in the carrier's class group.
+These explain a fixed-carrier doubled divisor,
+**not the uniqueness of the moving pencil**.
+The separate
+[retained-carrier theorem](../arguments/torus/quartic_exceptional_carrier_geometry.md#all-mate-degrees-on-a-retained-exceptional-carrier)
+classifies translated mates of a member in arbitrary
+degrees under its own characteristic-zero hypotheses.
+
+Independently, the
+[characteristic-two specialization](../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
+of the normalized family at \(\lambda=1\)
+is a non-invariant single-support \((4,4)\)
+STCI presentation of \(C_0\). It is an explicit
+construction, **not** a positive-characteristic
+classification.
 
 ## Limitations
 
-The separate [quartic-pair exclusion](quartic_44_filtered_exclusion.md)
-rules out single support in characteristic zero, completing
-the classification **only in characteristic zero**.
-The revised liaison proof uses the characteristic-zero
-balanced normal splitting
-\(N_{C/\mathbf P^3}\simeq\mathcal O(7)^{\oplus2}\);
-it does not prove the full uniqueness statement in
-odd positive characteristic. The invariant line-and-quartic
-model has its own separately stated characteristic scope.
-No positive-characteristic classification is asserted here. The [Hilbert--Burch first-normal formulation](../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
-gives an intrinsic degeneracy locus for doubled support.
-Every proper \((4,4)\) member of that locus
-[self-links the locally complete-intersection union](../arguments/torus/quartic_chow_pencils.md#self-linkage-and-the-canonical-conormal-quotient):
-the nilpotent sheaf is canonically \(\omega_Y(-4)\), and
-the degree-three and degree-four equation maps satisfy
-the stated Serre-duality tests. These are established
-liaison/Ferrand mechanisms, not new classification theorems.
-The [geometric uniqueness proof](../arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
-**does replace** the former coefficient-based uniqueness
-and triple-branch exclusions. Linkage makes the residual
-to \(Y\) an eight-degree Cohen--Macaulay curve of genus seven;
-a hypothetical \((3,1)\) or \((1,3)\) partition would require
-a forbidden \(\mathcal O(-8)\) quotient of the balanced
-conormal \(\mathcal O(-7)^{\oplus2}\).
-For \((2,2)\), self-linkage identifies
-\(I_Y/I_Z\simeq\omega_Y(-4)\).
-Dualizing Hilbert--Burch and restricting the resulting
-quadratic identity to \(V(x_1,x_2)\) forces the unique
-\(\lambda\)-orbit. The canonical-module calculation
-retains actual quartic generators rather than replacing
-them with an abstract doubling.
-The [even-eight divisor calculation](../arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
-explains doubled divisors on one carrier, not uniqueness of
-the family. The [characteristic-two specialization](../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
-has sole support and lies outside the characteristic-zero claim.
-A further
-[fixed-carrier deduction](../arguments/torus/quartic_exceptional_carrier_geometry.md#all-mate-degrees-on-a-retained-exceptional-carrier)
-uses the [quartic-carrier exclusion](quartic_carrier_exclusion.md) to
-classify all translated mates on a retained exceptional carrier in
-characteristic zero. The unrestricted higher-degree realization locus
-and its possible single-support pencils remain open.
+The separate
+[quartic-pair exclusion](quartic_44_filtered_exclusion.md)
+rules out sole support in characteristic zero, so
+the principal theorem, together with that exclusion,
+covers all characteristic-zero quartic pencils in
+this Chow-polytope fiber. The exceptional uniqueness
+proof uses the balanced characteristic-zero normal
+splitting \(N_{C/\mathbf P^3}\simeq\mathcal O(7)^{\oplus2}\);
+odd positive characteristics are not covered.
+The invariant model and the characteristic-two
+construction have separately stated scopes.
+
+The theorem concerns **proper quartic complete
+intersections**, not the entire Hilbert fiber,
+all Ferrand doubles, or unrestricted higher-degree
+realizations. It proves neither a general
+higher-degree STCI obstruction nor a classification
+of singular sextic carriers. The endpoint different,
+arbitrary-line trace obstruction and fixed-carrier
+multiplicity lattice are independent theorems with
+their own hypotheses and proof owners, not steps
+needed for quartic-pencil uniqueness.
 
 ## Review
 
