@@ -80,11 +80,113 @@ and [Casnati--Catanese, *Even sets of nodes are bundle symmetric*](https://arxiv
 The symmetric determinant here has **quadratic** entries, and
 is not thereby a linear quartic symmetroid.
 
-This explains doubled divisors on an exceptional
-**fixed carrier**; by itself it does not classify the
-moving \(\lambda\)-orbit. The orbit's uniqueness is now
-proved separately by [liaison and canonical-module rigidity](quartic_chow_pencils.md#proof-route).
-The two geometric mechanisms are complementary.
+### The Nikulin double cover and a square root of the mate
+
+The even eight also has a **concrete double-cover model**,
+a specialization of the established Nikulin construction
+of [van Geemen--Sarti, *Nikulin involutions on K3
+surfaces*, §3.7](https://sarti.pages.math.cnrs.fr/home/Nikulininvolutionsjune06.pdf).
+In \(\mathbf P^5\) with coordinates
+\((x_0,x_1,x_2,x_3,y_0,y_1)\), set
+\[
+ \widetilde T_1:
+ \quad y_0^2=P,\qquad y_0y_1=R,\qquad
+ y_1^2=Q. \tag{N1}
+\]
+The projection onto the \(x\)-coordinates is a finite
+degree-two map \(\rho:\widetilde T_1\to T\):
+the relations imply \(R^2-PQ=0\), and generically
+\(y_0=\pm\sqrt P\), \(y_1=R/y_0\).
+The deck involution sends \((y_0,y_1)\) to
+\((-y_0,-y_1)\). Its fixed points have
+\(y_0=y_1=0\), hence \(P=Q=R=0\):
+these are **exactly the eight interior nodes**,
+with smooth preimages because \(dP,dQ,dR\)
+are independent there. At \(p_0\), \(P=1\);
+at \(p_\infty\), \(Q=1\). The cover is étale
+at each endpoint and has **two \(A_1\)
+preimages of each endpoint node**.
+Thus the model itself is a singular
+three-quadric complete intersection (with four
+endpoint nodes); after resolving these nodes it
+gives the usual K3 Nikulin cover. Its eight
+fixed points correspond to the even eight
+identified in (E8), not to all ten nodes of \(T\).
+
+Crucially, the *actual quartic mate* becomes
+a square:
+\[
+ \begin{aligned}
+ F_1&=2x_1x_2R-x_2^2P-x_1^2Q,\\
+ \boxed{\ \rho^*F_1
+       =-(x_2y_0-x_1y_1)^2.\ }
+ \end{aligned} \tag{N2}
+\]
+The square root is anti-invariant under the deck
+involution. Thus the doubled Cartier divisor
+\(2(C_++C_-)\) on \(T\) pulls back to twice
+the divisor of an actual section on the
+Nikulin cover. This explains the doubled
+fixed-carrier divisor geometrically, without
+classifying the moving pencil.
+
+The description holds on every distinguished
+normal nodal carrier \(T_\lambda=V(G_\lambda)\).
+Choose \(\mu\in k^\times\) with
+\(\mu^2=\lambda\), and set
+\[
+ \begin{aligned}
+ P_\lambda&=x_0^2+\lambda^{-1}x_1x_2,\\
+ Q_\lambda&=x_3^2+\lambda x_1x_2,\\
+ R_\lambda&=\mu x_1^2+\mu^{-1}x_2^2.
+ \end{aligned}
+\]
+Then
+\[
+ G_\lambda=R_\lambda^2-P_\lambda Q_\lambda,
+ \qquad
+ F_\lambda|_{\widetilde T_\lambda}
+       =-(\mu x_2y_0-x_1y_1)^2, \tag{N3}
+\]
+where \(\widetilde T_\lambda\) is cut out
+by \(y_0^2=P_\lambda\),
+\(y_0y_1=R_\lambda\), \(y_1^2=Q_\lambda\).
+These carriers are projectively equivalent
+to \(T_1\), so the same node and cover
+description applies.
+
+### Parity of mates from the even-eight class
+
+On the normal nodal carrier \(T=V(G_1)\)
+put \(D_C=C_++C_-\) and
+\(\alpha=[D_C-2H]\in\operatorname{Cl}(T)\).
+The even-eight calculation (E8), together
+with the absence of a quadric containing both
+curves, proves that \(\alpha\) has order
+**exactly two**. If a homogeneous mate of
+degree \(b\) has full cycle \(n[C_+]+n[C_-]\)
+on \(T\), Bézout gives \(4b=8n\), hence
+\(b=2n\), and its Cartier divisor gives
+\[
+ nD_C\sim bH=2nH,\qquad n\alpha=0.
+\]
+Consequently \(n\) is even, and \(4\mid b\).
+The same conclusion applies to the
+projectively equivalent \(G_\lambda\)
+carriers. It recovers the parity condition
+in the [retained-carrier theorem](#all-mate-degrees-on-a-retained-exceptional-carrier)
+**for these normal nodal carriers**.
+For an arbitrary retained linear combination
+\(aF_\lambda+bG_\lambda\), which need not be
+normal, the original quadric/lifting argument
+remains necessary.
+
+These two geometric mechanisms are complementary:
+the cover explains the square on a **fixed**
+carrier; [liaison and canonical-module rigidity](quartic_chow_pencils.md#proof-route)
+classify the moving \(\lambda\)-orbit.
+Neither statement alone determines all
+Hilbert lifts above the Chow point.
 
 ## All mate degrees on a retained exceptional carrier
 
