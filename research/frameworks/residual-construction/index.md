@@ -110,6 +110,19 @@ mate by extending a rational section. In the
 [sextic test](../../arguments/torus/fixed_surface_restriction_lifts.md#a-two-translate-sextic-construction-criterion),
 one proper pair and the involution would supply both ratios. Existence
 of that pair is open.
+The initial proposed \((5,4)\) sextic multiplicity partition is
+already **excluded** by the involution--Bézout inequality
+\(4|n_+-n_-|\ge6\). Only the positive two-support partitions
+\((6,3),(7,2),(8,1)\) and reversals remain numerically;
+none can occur on a sextic carrier with only ordinary nodes.
+For a normal Du Val sextic, the prescribed curves each have
+rational class \(\tfrac23H\) and their exceptional pullback
+corrections each have negative square \(38/3\).
+These [singular-carrier conditions](../../arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
+do not establish realization or exclusion on arbitrary carriers.
+The [finite-group multiplicity-lattice result](../../arguments/torus/fixed_surface_restriction_lifts.md#symmetry-and-the-multiplicity-lattice)
+explains the algebraic mechanism behind the conditional transfer.
+
 
 The [two-blowup calculation](../../arguments/residuals/blowup_residual_geometry.md)
 tracks the full normal ideal and distinguishes horizontal and vertical
