@@ -6,7 +6,7 @@ scope: "#scope"
 statement: "#statement"
 proofs:
   - name: endpoint contact, liaison residual genus, and canonical-module rigidity
-    at: "research/arguments/torus/quartic_chow_pencils.md#classification"
+    at: "research/arguments/torus/quartic_chow_pencils.md#proof-route"
     using: [STCI-R-0074]
     review:
       state: accepted
@@ -44,7 +44,7 @@ equation space is uniquely of the form
  \right\rangle,\qquad\lambda\in k^\times,
 \]
 with \(A,B,D\) as in the
-[canonical classification proof](../arguments/torus/quartic_chow_pencils.md#classification).
+[complete classification proof route](../arguments/torus/quartic_chow_pencils.md#proof-route).
 This classifies the **proper \((4,4)\) complete-intersection
 pencils** over the full fixed Chow-polytope fiber; it does
 not classify arbitrary subschemes with the same Chow cycle.
@@ -67,7 +67,7 @@ quartic classification also implies the
 \]
 
 The mechanism for the exceptional uniqueness is
-[liaison and canonical-module rigidity](../arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+[liaison/canonical-module proof route](../arguments/torus/quartic_chow_pencils.md#proof-route)
 of \(Y=C_+\cup C_-\): an lci, arithmetically
 Cohen--Macaulay curve with two planar \(A_7\)
 singularities. This is the geometric proof of the
@@ -125,7 +125,7 @@ needed for quartic-pencil uniqueness.
 
 The original coefficient-based classification was accepted for
 its mathematical scope. The replacement
-[linkage/canonical-module argument](../arguments/torus/quartic_chow_pencils.md#two-translates-with-coinciding-cubic-jets)
+[linkage/canonical-module argument](../arguments/torus/quartic_chow_pencils.md#proof-route)
 now closes the remaining uniqueness and triple-branch gates
 without coefficient elimination: residual genus excludes
 the asymmetric multiplicities, and the canonical module of
