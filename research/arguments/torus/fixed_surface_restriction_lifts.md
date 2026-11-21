@@ -335,8 +335,9 @@ gives
  I_Y=(A,B,D),\quad I_Y(3)=kA\oplus kB,\quad
  I_Y(4)=AS_1\oplus BS_1\oplus kD.
 \]
-In particular, the image of \(I_Y(4)\) on the disjoint
-coordinate line \(L\) is the **one-dimensional** space
+In particular, the image of \(I_Y(4)\) on the coordinate
+line \(L\), which meets \(Y\) only at the two endpoints, is
+the **one-dimensional** space
 \(k\,x_0^2x_3^2\), since \(A|_L=B|_L=0\) and
 \(D|_L=-x_0^2x_3^2\). The two degree-five
 Hilbert--Burch syzygies are
