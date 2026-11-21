@@ -243,10 +243,13 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   [canonical-module argument](../../arguments/torus/quartic_chow_pencils.md#canonical-module-rigidity-of-the-pencil)
   forces the \(\lambda\)-orbit by Hilbert--Burch duality
   and restriction to the residual line. Thus the
-  **quartic coefficient elimination has been replaced**.
-  The new proof merits independent review; its
-  abstract Ferrand and even-eight ingredients alone
-  would not establish this uniqueness. The same
+  classification of actual quartic generators
+  is complete in characteristic zero. The
+  geometric proof has received a scoped independent
+  correctness reconstruction; it does not by itself
+  resolve the separate full-perspective review.
+  Neither the abstract Ferrand construction nor the
+  even-eight class alone establishes uniqueness. The same
   [quartic family](../../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
   supplies an \(H\)-orbit of Hilbert points over one Chow point, two
   embedded endpoint limits, and a distinct non-invariant \((4,4)\)
