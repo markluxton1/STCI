@@ -53,6 +53,8 @@ apply to a carrier singular at the generic point of C.
 
 For the **downstairs** almost-Cartier index there is a sharper conclusion: the [exact compression theorem AC3--AC4](fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) gives `R_X=(a/gcd(a,d)) t E`, minimal mate degree `d R_X/a`, and `a | d R_X`. Here `t,E` are the two primitive-ray and section-descent orders, not the index `r` on the normalization. For the quintic--octic with no quartic mate, `R_X=10` regardless of whether `r=5` or `10`. This is not an extra exclusion; it identifies which part of the index is already supplied by descent. On the normalization alone the weaker condition (2) remains appropriate.
 
+The [broader almost-Cartier power--socle theorem](normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem) applies the same normalized defect budget to the image carrier with the actual downstairs indices, even when the normalization and conductor are complicated. It therefore excludes actual local downstairs indices bounded by four, but does not exclude small upstairs indices when a conductor descent order inflates the downstairs index. Independent proof review remains required.
+
 ## The order-two class and the conductor descent order
 
 In (3), let `U=5c-4H` in Cl(X). The actual octic proves `2U=0`.

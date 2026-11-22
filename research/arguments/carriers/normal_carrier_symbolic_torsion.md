@@ -1215,6 +1215,101 @@ The class index r does not bound A_F,P or D_r,P. For example index-four
 D_n singularities may have large higher corrections. Formula (7)
 charges those corrections rather than suppressing them.
 
+### Normality is unnecessary: the actual almost-Cartier power theorem
+
+**Status: extension of the reviewed power--socle and symbolic-triple
+proofs, pending independent mathematical audit.** Let \(S\) be an
+integral hypersurface in a smooth threefold, over an algebraically
+closed field of characteristic zero, and \(C\subset S\) a smooth
+curve such that \(S\) is regular at its generic point. Suppose
+\(rC\) is an effective Cartier divisor locally at \(P\in C\),
+where \(r\) is the order of the **downstairs almost-Cartier class**
+of \(C\) at \(P\). No normality of \(S\) is assumed.
+
+All the local formulas (7)--(11) above continue to hold for any
+actual Cartier multiple \(n=kr\). The only two uses of normality in
+their proof were extension of \(c/h^{k-1}\) and \(z^r/h\), where
+\(h\) defines \(rC\) and \(z\) generates the free first-conormal
+direction. Work first in the algebraic local ring of the integral
+hypersurface, which is \(S_2\). At its height-one prime \(C\) the
+local ring is a DVR, so exactly the same valuation comparisons
+give regularity of these fractions. At every other height-one
+prime, **\(h\) is a unit**, because its actual Cartier divisor
+has support only \(C\). Thus both fractions are regular at every
+height-one prime, hence in the local ring by \(S_2\).
+This is the same Hartogs argument for rational sections used in
+[Hartshorne, *Generalized Divisors and Biliaison*](https://arxiv.org/abs/math/0301162)
+and the [fixed-carrier mate lattice](../torus/fixed_surface_restriction_lifts.md#comparing-multiplicities-on-one-fixed-carrier).
+The local Cartier equation for \(nC\) is a unit times \(h^k\), by
+equality of actual Cartier divisors (or the same argument for the
+ratio in both directions). The algebraic fraction identities can
+now be completed; no assumption that an arbitrary nonnormal
+completion is a normal domain is needed. The generic-order-one
+condition, actual effective Cartier multiples, and purity of
+complete intersections supply the same finite free Artin algebras
+over the smooth curve parameter. The relative Jacobian and
+Frobenius arguments of §§3.2--3.3 therefore apply unchanged.
+For index one, the effective Cartier divisor is the reduced
+smooth curve: it is pure, generically reduced, hence reduced.
+A regular quotient by a principal ideal forces the surface to
+be regular at \(P\), as before.
+
+The symbolic powers needed for the triple argument are now defined
+intrinsically by contraction from the DVR at \(C\):
+\[
+ I_C^{(j)}=\mathcal O_S\cap I_{C,\eta}^{\,j}.
+\]
+They are primary to the curve, so their quotients are pure of
+dimension one. In the index-two case, \(I_C^{(j+2)}=hI_C^{(j)}\)
+by exactly the same \(S_2\) fraction-extension test, because
+\(h\) is a unit at other height-one primes. At index \(r\ge3\),
+the quotient from the actual local Cartier multiple \(W_r\)
+to the symbolic triple still exists; its first relation module
+and Frobenius-lattice comparison are unchanged. If \(W_r\) is
+primitive, the symbolic quotient of length \(j\le r\) is its
+saturated quotient (both ideals agree generically, and the
+monogenic quotient is already pure). This justifies the
+argument without identifying symbolic powers with ordinary
+powers or presupposing normality.
+
+Consequently the complete
+[symbolic-triple certificate](#a-symbolic-triple-defect-certificate-for-unrestricted-normal-carriers),
+including its first-layer apolar condition, parity bounds and
+one-unit improved slope (7) of the later comparison, applies to
+every generically regular carrier of \(C_0\) with finite actual
+downstairs local almost-Cartier indices and a mate, with precisely
+the same formulas. The local arguments are characteristic zero
+here; the flat Lefschetz Picard theorem alone does not extend
+the relative Jacobian identities to wild indices.
+
+**All-degree consequence, not just an extension of the formula.**
+The [almost-Cartier minimum-mate formula AC3](fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices)
+gives \(a\mid4R,\ b_{\min}=4R/a,\ m_{\min}=R\). If every local
+almost-Cartier index is at most four, then \(R\mid12\).
+The accepted quartic theorem excludes \(a\le4\) and
+\(b_{\min}\le4\). Thus \(5\le a<R\), \(a\mid4R\), so the only
+ordered carrier/mate possibilities are \((6,8),(8,6)\), \(R=12\).
+The proof in §§5--6 below then excludes both with no change:
+the octic slack is negative; the sextic slack forces the
+constant-direction primitive symbolic triple, which is
+impossible for the fixed embedding. All of its normality
+uses have just been replaced. Therefore
+
+> No integral characteristic-zero carrier, normal or nonnormal,
+> generically regular along the fixed rational quartic and with
+> all actual local **almost-Cartier** indices at most four, can
+> admit a mate of any degree.
+
+In particular the slope bound
+\(4a^2-(7s+6)a+16s\le0\) for \(s\ge3\), the full intrinsic
+local defect budget, and the low-index exclusion transfer
+to this substantially larger class. They cannot be applied
+to the indices on the normalization alone, nor when the
+carrier is singular at the generic point of \(C\). The
+independently reviewed normal statements below are retained;
+the extension requires separate review, especially the use
+of actual Cartier support and the symbolic primary quotients.
+
 ### 4. A pointwise index bound gives a linear carrier-degree bound
 
 For C0 let F have degree a, let the mate have degree b, and put

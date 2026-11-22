@@ -133,6 +133,42 @@ zero ordinary nilradical. In that case B is defined by the saturated
 carrier symbol above, rather than by J/J^2 of W_1; B=M^(-1), A=E=0,
 and (3) has the same interpretation.
 
+### Intrinsic divisor on a possibly nonnormal generically regular carrier
+
+The [almost-Cartier power theorem](normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem)
+shows that normality in the preceding construction is replaceable
+by \(S_2\), regularity at the generic point of \(C\), and finiteness
+of the **downstairs** local almost-Cartier indices. With
+\(R=\operatorname{lcm}r_P\), the divisor \(RC\) is Cartier by
+the local-to-global APic sequence. Define \(C^2=\deg(\mathcal
+O_S(RC)|_C)/R\). Since \(C\) is smooth and generically regular
+on \(S\), the positivity and purity of \(RC\) imply full
+singleton inverse support on the normalization, mapping
+isomorphically to \(C\); this square equals the numerical
+square of its normalized strict transform.
+
+The global map \(B^R\to M^{-1}\), defined by restricting
+\(I_C^R\subset\mathcal O_S(-RC)\), is valid with the same
+proof: inclusion and division use \(S_2\), the DVR at \(C\)
+and the unit equation of \(RC\) at all other height-one
+points. Its local zero orders are the same
+\((R/r_P)(A_P+D_{r_P,P})\). Thus (3) holds before a mate
+exists in the enlarged scope. By the exact
+[normalized Hodge/ almost-Cartier criterion AC2](fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices),
+on an integral degree-\(a\) hypersurface the local condition
+\[
+ \sum_{P\in C}\frac{A_P+D_{r_P,P}}{r_P}
+ =\ell-e^2/a
+\]
+is **necessary and sufficient** for a mate, after finiteness
+of the actual downstairs indices. The older normal proof
+is the specialization. In particular the all-degree
+low-index and symbolic-triple exclusions apply in the
+broader generically regular characteristic-zero scope.
+The present extension awaits independent review; it is
+not an assertion that arbitrary normalization indices
+or abstract conductor data alone decide descent.
+
 ### 2. A mate adds a numerical ray, not another power problem
 
 Specialize to X=P^3, put e=deg C, g=g(C), and let a=deg S. If a mate

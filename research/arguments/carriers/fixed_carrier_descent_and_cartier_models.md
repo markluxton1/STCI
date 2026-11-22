@@ -446,6 +446,17 @@ Thus the numerical Hodge matrix can separate the linear-class gate on
 arbitrary normalizations into a numerical ray and conductor
 line-bundle gluing, but does not eliminate the remaining section gate.
 
+**Local realization becomes the same defect problem.** In
+characteristic zero the [almost-Cartier power--socle extension](normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem)
+removes the normality hypothesis from the full intrinsic local
+defect budget once the actual downstairs indices are finite.
+Thus AC2 can be tested directly by the first normal line, actual
+local Cartier-multiple socles, and the equality in the intrinsic
+divisor formula. Local indices at most four are incompatible
+with a mate on every generically regular integral carrier of
+the fixed quartic. These are new deductions requiring review,
+not bounds on Cartier indices of normalized inverse curves.
+
 ## 8. Positive characteristic comparison
 
 The local nilpotent distinction changes in characteristic `p>0`.

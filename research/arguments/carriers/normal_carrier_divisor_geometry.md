@@ -157,6 +157,18 @@ O_C(R E_X,C)=B^(-R) tensor O_X(-RC)|C.
 It should be retained in positive genus even when only the scalar Hodge gap
 is being used.
 
+**Further scope (pending independent review).** In characteristic
+zero the [actual almost-Cartier power--socle extension](normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem)
+and [intrinsic divisor comparison](normal_index_socle_and_torsion.md#intrinsic-divisor-on-a-possibly-nonnormal-generically-regular-carrier)
+extend equations (3)--(5), the full local defect and symbolic-triple
+bounds, and the all-index-at-most-four exclusion to possibly
+nonnormal integral carriers regular at the generic point of the
+smooth support. The index in those statements is now the local
+almost-Cartier index **on the image surface**, not its normalization.
+The normalization conductor remains a mechanism for computing
+these indices or proving their infinitude. This changes the scope
+of the defect test, not the crepant ADE hypotheses of the next section.
+
 ## 2.5 The ADE exceptional correction is the normal-layer defect budget
 
 The Hodge-gap formula has a second geometric interpretation,
