@@ -1105,3 +1105,79 @@ exhibits two independent degree-12 first-layer classes missed by both
 completed endpoints. The general result identifies the joint kernel and
 relates its generic length on the disjoint coordinate line to the
 residual degree of an actual proper pair.
+
+
+## Involutivity persists through the full torus boundary
+
+**New consequence, pending independent review.**  Combine the supported
+Hilbert-limit theorem above with the
+[actual contact identity](torus/contact_jacobians_and_hamiltonian_actions.md).
+In characteristic zero, if a sole-supported complete intersection
+\(J=(F,G)\) existed, then **both full intrinsic torus limits** would be
+torus-fixed, sole-supported, involutive schemes with the same Hilbert
+polynomial \(P_{a,b}\).  The special fibers need not remain complete
+intersections and may acquire additional generators.
+
+The point requiring proof is preservation of involutivity by the full
+weight limit.  For the intrinsic weights
+\[
+ w=(0,1,3,4),
+\]
+the Poisson bracket is homogeneous of weight \(-4\):
+\[
+ \{S_p,S_q\}\subset S_{p+q-4}.                         \tag{HB-P1}
+\]
+Let \(I\) be any homogeneous involutive ideal and
+\(\operatorname{in}_w I\) its full weight initial ideal.  If
+\(f^\circ,g^\circ\) are leading weight forms of \(f,g\in I\), then either
+\(\{f^\circ,g^\circ\}=0\), or it is the leading form of
+\(\{f,g\}\in I\).  Hence
+\[
+ \{\operatorname{in}_wI,\operatorname{in}_wI\}
+ \subset\operatorname{in}_wI.                         \tag{HB-P2}
+\]
+This is the elementary ideal version of the standard fact that an
+associated graded of a compatible filtered Poisson algebra is again
+Poisson.
+
+The projective full limit uses the saturated initial ideal.  Saturation
+does not destroy self-involutivity.  Indeed, localization of an involutive
+ideal is involutive: in the bracket of \(a/s^m\) and \(b/s^n\), the only
+term without an explicit factor \(a\) or \(b\) is a unit multiple of
+\(\{a,b\}\).  Contraction from the localization preserves involutivity, and
+\[
+ I^{\rm sat}
+ =\bigcap_i (I S_{x_i})\cap S.
+\]
+Intersections of involutive ideals are involutive.  Therefore
+\[
+ \boxed{\ 
+ \bigl(\operatorname{in}_w I\bigr)^{\rm sat}
+ \text{ is involutive whenever }I\text{ is involutive}.
+ \ }                                                   \tag{HB-P3}
+\]
+The opposite torus limit is identical with \(w\) replaced by \(-w\).
+
+For a hypothetical STCI pair, the contact theorem gives
+\(\{J,J\}\subset J\); the already-proved closed supported incidence gives
+both full saturated limits with unchanged Hilbert polynomial and reduced
+support \(C\).  Hence (HB-P3) supplies the asserted two involutive boundary
+points.
+
+The
+[constant-orbit theorem](torus_embedded_quotients.md#sole-support-constant-orbit-images-are-automatically-involutive-in-characteristic-zero)
+shows that this extra boundary condition is **automatic on the pure
+constant-orbit image**, even when its transverse algebra is not a complete
+intersection.  Consequently contact can distinguish a full sole-supported
+torus boundary only through
+
+1. the finite embedded endpoint correction by which the full Hilbert limit
+   differs from its pure orbit image, or
+2. the global homogeneous presentation of that full ideal.
+
+This prevents a false shortcut: one cannot combine contact with the
+eigenform trace obstruction merely by taking a torus limit, because the
+limit may require more than two generators and its pure thick curve is
+already involutive.  The sharpened boundary problem is to impose
+(HB-P3) on the **embedded endpoint correction module** together with the
+known Hilbert and source constraints.
