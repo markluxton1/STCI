@@ -454,3 +454,21 @@ These two conclusions point in the same direction.  The surviving
 all-degree information is not a fixed local normal form: it is
 degree-scaled source compatibility together with finite global gluing at
 the torus endpoints.
+
+
+**Adversarial CI-polynomial controls.** The
+[diagonal nilpotent orbit family](arguments/torus_embedded_quotients.md#a-diagonal-nilpotent-family-with-complete-intersection-hilbert-polynomials)
+shows that the remaining presentation issue is not cosmetic.  For
+\(B_n=k[\epsilon]/(\epsilon^n)\) with \(u=v=1+\epsilon\), both endpoint
+defects are \(3n(n-1)/2\), so the pure sole-supported orbit image has
+\[
+P(d)=4nd+4n-3n^2.
+\]
+Matching a degree-\((a,b)\) CI polynomial gives
+\((3a-8)(3b-8)=16\), hence only \((4,4)\) and \((3,8)\) up to order.
+The corresponding \(n=4,6\) images are pure CM, intrinsic-torus fixed and,
+by Scheja--Storch plus the constant-orbit theorem, involutive in
+characteristic zero.  They are nevertheless not complete intersections by
+the accepted invariant-supported CI trace theorem.  Therefore support,
+purity, contact, symmetry and the exact CI Hilbert polynomial still do not
+recover the required two homogeneous generators.
