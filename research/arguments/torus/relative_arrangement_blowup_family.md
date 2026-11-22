@@ -583,12 +583,16 @@ gives
 \]
 This is the standard *isolated compound
 \(A_1\)* threefold form \(xy=f(z,t)\)
-with quadratic leading part; the
-special slice \(\lambda=0\) has the
-plane-curve contact exponent \(c\)
-and the corresponding surface
-\(A_{2c-1}\) equation after the
-completion of the square. Do **not**
+with quadratic leading part; the planar branch equation
+\(y'(y'-a'r^c)=0\) has contact
+order \(c\). A **special** hyperplane
+section \(z'=\lambda\) becomes
+\((y'-a'r^c/2)^2-\lambda^2
+ =(a')^2r^{2c}/4\), hence has
+surface singularity of type \(A_{2c-1}\)
+(over characteristic different from two),
+whereas a general transverse section
+of the threefold has type \(A_1\). Do **not**
 call the **threefold** singularity
 \(cA_{2c-1}\): the general hyperplane
 section determines the \(cA_1\) type;
