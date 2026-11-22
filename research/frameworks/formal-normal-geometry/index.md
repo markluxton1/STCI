@@ -71,6 +71,55 @@ of full initial ideals and actual equations, see
 
 At the generic point \(\eta_C\), after a choice of formal parameters, study \(I\subset K[[X,Y]]\), \(K=k(C)\simeq k(t)\). Orders \(r=\operatorname{ord}_C F\), \(s=\operatorname{ord}_C G\) and the leading forms provide the first layer, not a complete invariant. When \(C\) is an isolated generic component of the intersection, the length \(\ell_{K[[X,Y]]}(K[[X,Y]]/I)\) measures its generic multiplicity. The identity \(de/4\) for this length requires that C be the only one-dimensional component of the global complete intersection; it must not be imposed in the broader setup.
 
+### Which mixed-degree pairs truly need an entirely-thick analysis?
+
+The [mixed-degree normal Bertini
+replacement](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
+(starting from **actual** equations,
+and pending independent review)
+shows that any sole-supported
+\((a,b)\), \(a<b\), with at least
+one generator of generic normal
+order **one** admits a normal
+degree-\(b\) carrier **without
+changing the CI ideal**. The
+[quadric order bound](../../arguments/carriers/sextic_pair_reduction.md#why-every-pair-is-generically-curvilinear)
+makes that automatic for **all
+\((5,b)\)**. On this normal
+carrier, the existing Hodge
+equality and exact-index
+criteria already determine
+mate existence and degrees
+at fixed carrier.
+
+The first mixed pair where
+**both** equations can have
+normal order two is \((6,8)\):
+the universal [graph residual
+bound](../../arguments/residuals/blowup_residual_geometry.md#5-integer-strengthening-usefulness-region-and-exact-limitations)
+specializes to \(K=80-10b\)
+for \((6,b)\) with orders
+\((2,2)\). It is positive at
+\(b=6\), giving the established
+\((6,6)\) exclusion of that
+order pattern, but vanishes
+at \(b=8\). This is a
+**failure of the available
+necessary bound**, not a
+construction or a claim that
+the higher-order algebra is
+noncurvilinear everywhere.
+It identifies a precise
+interface where the full
+initial ideal, higher normal
+coefficients and actual
+homogeneous sources cannot
+be replaced by the normal
+Hodge criterion. Neither
+case's special geometry
+has been silently promoted
+to an all-degree result.
+
 ## Exceptional geometry and components downstairs
 
 The joint zeros of the two actual leading forms on the first exceptional
