@@ -790,6 +790,186 @@ two-support partition.**
 This says nothing about higher ADE or non-Du-Val
 singularities.
 
+### Local index lattice and contact capacity of symmetric arrangements
+
+**Status: new deductions, pending independent mathematical audit.** The
+localization of the actual mate lattice gives more than the global
+singleton construction. At a point \(P\) on a generically regular
+integral carrier, each actual mate vector \(v\) yields
+\(\sum_i v_i[C_i]_P=0\) in the local almost-Cartier group. Project the
+lattice of these vectors onto the coordinates of curves through \(P\);
+the homomorphism from the free coordinate lattice to the local
+almost-Cartier group factors through its quotient by the projected
+mate lattice. In particular, at a point on just \(C_i\), its actual
+local class order divides the **gcd of all the available \(i\)-th mate
+multiplicities**. This uses both effective mates, not only their
+difference. The assertion includes nonnormal carriers regular at all
+marked generic points by the [almost-Cartier theorem AC1](../carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices).
+
+For an involution exchanging two curves, with an unequal positive
+mate vector \((p,q)\), put
+\[
+ g=\gcd(p,q),\qquad N=p+q,\quad \Delta=|p-q|,\qquad J=N\Delta/g .
+\]
+The Smith invariants of the orbit lattice are \(g,J\): the gcd of
+its entries is \(g\) and its determinant has absolute value \(N\Delta\).
+Thus every local index of either curve divides \(J\), and at points
+off the common support it divides \(g\). If \(g=1\), the carrier
+is smooth along both smooth curves away from their intersections.
+Indeed an index-one reduced curve Cartier divisor is pure and
+generically reduced, hence reduced, and a regular quotient by one
+equation forces the local surface to be regular.
+
+Now assume characteristic zero, both curves are smooth and projectively
+equivalent of degree \(e\) and genus \(g_C\), and every common point is
+fixed by the involution. Assume \(N\) odd, and that at the common points
+the carrier is smooth or Du Val. No ADE assumption is made elsewhere.
+Write \(L_P=\ell_k(\mathcal O_{\mathbf P^3,P}/(I_{C_+,P}+I_{C_-,P}))\)
+for the actual scheme intersection length and \(L=\sum L_P\).
+
+**Local contact bound.** Write \(A_{\pm,P}\) for the first-normal
+vanishing orders of the carrier along the two smooth curves.
+They are equal at a common fixed point, since the restricted Jacobian
+ideal of a hypersurface is intrinsic and the involution exchanges the
+curves. Denote their common value by \(A_P\). We claim \(A_P\le L_P\).
+
+Every local class order is odd because \(J\) is odd. At a singular
+common point the class of a smooth curve is nonzero, so by the
+standard ADE class groups only \(A_j\) and \(E_6\) are possible.
+For \(A_{M-1}\) use completed coordinates \(xy=z^M\). The first-normal
+order is the minimum of the restrictions of \(x,y,z^{M-1}\).
+If \(A_P=1\) the bound is immediate; if \(A_P\ge2\), then \(z\)
+is a uniformizer on both curves by smoothness and \(\operatorname{ord}x,
+\operatorname{ord}y\ge A_P\) on both. Write each curve as its graph
+over \(z\); both differences in the graph coordinates vanish to order
+at least \(A_P\), giving \(L_P\ge A_P\). For \(E_6\),
+\(x^2+y^3+z^4=0\), a smooth branch must have \(z\) a uniformizer,
+\(y\) of order at least two, and \(x\) of order exactly two
+(compare lowest orders in the equation). The restricted gradient
+has order two, and any two such graph branches have intersection
+length at least two. Smooth carrier points have \(A_P=0\).
+This is a joint-branch use of the standard analytic ADE forms;
+for the single-branch first-symbol and exceptional correction
+formulas see [Ellia, Definitions 6 and 8, Lemmas 9--10](https://arxiv.org/abs/1409.3801).
+
+**All-degree capacity inequality.** The orbit lattice gives an
+actual singleton mate on this same carrier for each curve. Let
+\(a=\deg T\), let \(\ell\) be the degree of the dual of its saturated
+first free conormal line along \(C_+\), and let \(\eta\) bound the
+degrees of line subbundles of its ambient normal bundle. Put
+\(\nu_C=4e+2g_C-2=\deg N_{C/\mathbf P^3}\). By the
+[exact almost-Cartier local budget](../carriers/normal_index_socle_and_torsion.md#intrinsic-divisor-on-a-possibly-nonnormal-generically-regular-carrier)
+(using the reviewed normal theorem if \(T\) is normal),
+\[
+ \deg A=ea-\nu_C+\ell,\qquad
+ \ell-e^2/a=\sum_P\frac{A_P+D_{r_P,P}}{r_P}.
+\]
+Here \(r_P\) is the true downstairs almost-Cartier index,
+\(D_{r_P,P}\ge0\), and \(\ell\le\eta\). Off the common points
+\(r_P\le g\), at common points \(r_P\le J\), and the sum of their
+first-symbol coefficients is at most \(L\). Since \(J\ge g\),
+\[
+ g(\ell-e^2/a)\ge ea-\nu_C+\ell-(1-g/J)L .
+\]
+Consequently every such symmetric arrangement satisfies
+\[
+ \boxed{\quad ea-\nu_C+g e^2/a
+       \ \le\ (g-1)\eta+(1-g/J)L. \quad} \tag{SC}
+\]
+This is a degree-independent, contact-sensitive obstruction,
+not a bound on ADE rank. The local class lattice identifies where
+a low-index budget must be paid; actual shared curve contact limits
+how much first-symbol vanishing can concentrate there.
+It extends to possibly nonnormal generically regular carriers using
+the almost-Cartier power theorem. No conclusion is asserted when a
+common point is not smooth or Du Val, nor without the actual orbit
+mates or the stated oddness and fixed-point conditions.
+
+For \(C_\pm=C_{1,\pm1}\), the common endpoints have contact length
+four each: on either reversed affine chart the cubic graph
+coordinates agree and the quartic graph coordinates differ in
+order four. Thus \(L=8\), \(e=4,\ \nu_C=14,\ \eta=7\), and (SC) gives
+\[
+ 4a-7+16g/a-7g\le (1-g/J)8.                 \tag{SC4}
+\]
+In particular **every coprime unequal positive multiplicity
+partition of odd total on a degree-\(a\ge5\) symmetric carrier
+requires a non-Du-Val singularity at a common endpoint** (a
+nonnormal endpoint also lies outside the ADE regime).
+For \(g=1\) the left side is \(4a-14+16/a>8\).
+The criterion depends on actual multiplicity relations and
+contact, not on the mate degree or a classification of carriers.
+
+### The sextic symmetric arrangement must escape ADE at an endpoint
+
+The entire \((6,6)\) symmetric two-translate problem, not just
+the ordinary nodal sector, is outside the regime where both
+endpoints are smooth or Du Val. This follows from (SC4) together
+with one additional **mixed** Hodge-matrix comparison.
+
+The existing Hilbert--Burch argument proves integrality and generic
+regularity along both curves. Of the three surviving partitions,
+\((7,2),(8,1)\) have \(g=1\), already excluded by (SC4).
+For \((6,3)\) one has \(g=3,J=9\); the orbit ratio gives an actual
+sextic mate cutting \(9C_+\). Suppose both endpoints are smooth or
+Du Val. The refined inequality before substituting \(\ell\le7\)
+gives
+\[
+ 2\ell\ge 10+8-(1-3/9)8=38/3,
+\]
+so \(\ell=7\). Thus \(\deg A=17\) and the exact local budget is
+\(E=13/3\). Let \(U\) denote the sum of first-normal coefficients
+at the common points with index nine. All other indices are at
+most three, and
+\[
+ 13/3\ \ge\ (17-U)/3+U/9,\qquad U\ge6.       \tag{8}
+\]
+Since each endpoint contributes at most four, **both** endpoints
+have actual index nine, and each has an \(A_{M-1}\) singularity
+with \(M\ge9\).
+
+At an index-nine endpoint the involution lifts to the minimal
+resolution of the \(A_{M-1}\) germ and acts on its exceptional chain
+either trivially or by reversal. The latter inverts the local class,
+whereas \(3([C_+]-[C_-])=0\) from the two actual mates. Inversion
+would give \(6[C_+]=0\), impossible for index nine. Hence the
+two curves meet the **same marked component** of the chain,
+and their rational exceptional corrections \(Z_{+,P},Z_{-,P}\)
+are equal. Let \(k=\min(j,M-j)\) for the marked component \(E_j\).
+Ellia Lemmas 9--10 give \(k=A_P\le4\) and
+\[
+ -Z_{+,P}\cdot Z_{-,P}=k(M-k)/M
+                 \ge (5/9) A_P .
+\]
+
+On the normalization of the carrier the full inverse of each
+curve is its singleton degree-one strict transform, by the actual
+singleton mates. Those strict transforms are numerically \(2H/3\),
+so their numerical mutual intersection is \(8/3\). Resolve the
+normalization. The strict transforms of distinct effective curves
+have nonnegative intersection, and their exceptional correction
+vectors have overlap only over the two common endpoints. At these
+points the original carrier is normal by assumption, so the
+preceding ADE calculation is valid there. The numerical intersection
+is therefore at least
+\[
+ \sum_{P=p_0,p_\infty}-Z_{+,P}\cdot Z_{-,P}
+       \ge(5/9)U\ge10/3>8/3,
+\]
+a contradiction.
+
+We conclude, **subject to independent review of the stated extensions**,
+that an actual symmetric sextic two-translate arrangement would have
+a common endpoint that is neither smooth nor Du Val. For a normal
+carrier the proof uses the previously reviewed normal socle theorem
+and the classical ADE marked formulas, so the new nonnormal extension
+is not a premise of that sector's exclusion. Off the common endpoints
+the proof does not require an ADE or even a normal surface.
+In particular this closes all globally ADE symmetric sextic
+carriers, while not excluding arbitrary asymmetric arrangements
+or a symmetric carrier with a genuinely worse endpoint. It is
+not a proof or disproof of STCI itself.
+
 ### ADE local classes and the global sextic correction budget
 
 Work over an algebraically closed field of characteristic zero. Let
@@ -807,6 +987,8 @@ Normality makes \(T\) regular at the generic points of \(C_\pm\), so the
 generic-regularity hypothesis used in the involution--Bézout argument is
 satisfied. The conclusions below are necessary conditions for this
 normal/Du-Val sextic sector only.
+
+The stronger [local lattice and contact argument above](#local-index-lattice-and-contact-capacity-of-symmetric-arrangements) now bounds the off-endpoint index by \(\gcd(n_+,n_-)\), not just the difference, and excludes the full ADE symmetric sextic sector (pending review). The earlier weaker difference calculation and its independent endpoint numerator argument follow for comparison.
 
 At any singular point \(q\in C_+\setminus C_-\)
 (or vice versa), the local class of the smooth branch
