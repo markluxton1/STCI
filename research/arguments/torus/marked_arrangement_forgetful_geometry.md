@@ -65,6 +65,35 @@ For i != j, the difference is
 \]
 a unit on the distinct allowed carrier locus. Subtracting the two equations forces S=R=0. This also proves ideal equality on the carrier-coordinate open, since the differences are units. The converse follows by deleting any mark of a realized arrangement. Consequently the full symmetric family of four forgetful maps determines the locus; in fact any two pullbacks suffice (with the stated admissibility opens). On the normalized B nonzero chart this is especially simple: if a triple of x's has product P and sum S_3, its completion is 1/P and its extendibility equation is S_3+1/P=4. With all four x's present, write p_all=product x_i, s_all=sum x_i. The equation from omitting i is s_all-4+x_i(1/p_all-1)=0. Two different omissions give p_all=1 and s_all=4.
 
+**Geometric proof and two-mark reconstruction.** There is a simpler
+reason for the triple-image criterion that exposes its generalization
+mechanism. The two weight-space embeddings are
+\[
+ T\longrightarrow\mathbf P^2,\quad (u,v)\mapsto[1:u:v],
+ \qquad
+ T\longrightarrow\mathbf P^2,\quad (u,v)\mapsto[1:v^2/u^3:v^3/u^4].
+\]
+The latter is injective on the torus since the character transformation
+has determinant \(-1\). Two distinct arrangement marks therefore
+determine a unique line in each plane, hence the two weight generators
+up to scalar. If two overlapping triples admit proper reduced quartic
+completions, their common two points force *the same* generators.
+Their union is consequently contained in that same degree-16 complete
+intersection, and exhausts its four components. This proves the
+two-triple criterion directly, without the symmetric-polynomial
+calculation. It also explains why the pair projection has two ordered
+completions on its image: the two retained marks determine the entire
+pencil and the unordered complementary pair. On the open coefficient
+locus of proper eigenquartic pairs with four distinct quotient roots,
+the ordered configuration space is the finite étale cover of all
+orderings of the four roots. One candidate framed compactification is
+the closure of its graph over
+\(\mathbf P(S_{4,4})\times\mathbf P(S_{4,12})\cong\mathbf P^2\times\mathbf P^2\),
+in combination with the stable marked carrier and Hilbert spaces.
+The ability of two marks to determine the relevant hyperplanes, rather
+than the specific quartic root formulas, is the potential general-degree
+mechanism.
+
 By contrast, on the normalized x chart forgetting two marks has dense image in the space of admissible ordered pairs: the remaining marks are the two roots of
 \[
  z^2-(4-x_1-x_2)z+1/(x_1x_2)=0.
