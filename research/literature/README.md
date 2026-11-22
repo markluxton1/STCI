@@ -945,3 +945,30 @@ retain the everywhere-potential-good-reduction and simultaneous-conjugacy
 hypotheses of Petsche–Szpiro–Tepper and Silverman. Their final source review
 closed the earlier audit gap; neither comparison provides an unrestricted
 STCI construction or obstruction.
+
+
+### Zero-dimensional Chow norms, traces, and border bases
+
+Carlos D'Andrea and Gabriela Jeronimo, *Rational Formulas for Traces in
+Zero-Dimensional Algebras*, Applicable Algebra in Engineering,
+Communication and Computing **19** (2008), 495--508,
+[arXiv:math/0503721](https://arxiv.org/abs/math/0503721), express traces of
+multiplication in a finite-dimensional algebra through generalized Chow
+forms; for torus complete intersections they give sparse-resultant formulas.
+This is the established input behind the
+[homogeneous transverse Chow/norm comparison](../arguments/torus/chow_arrangement_moments.md#the-homogeneous-transverse-chow-form-as-a-section-norm).
+The project-specific calculation there is the explicit quartic kernel
+\(\Psi_{W,U,V}\), its fixed-plane injectivity on the translated family, and
+its comparison with the already-established global source resultant.
+
+Achim Kehrein and Martin Kreuzer, *Characterizations of Border Bases*,
+J. Pure Appl. Algebra **196** (2005), 251--270,
+[DOI 10.1016/j.jpaa.2004.08.028](https://doi.org/10.1016/j.jpaa.2004.08.028),
+give the standard border-basis characterizations. In particular, the formal
+multiplication matrices commute exactly when the border prebasis defines the
+intended zero-dimensional algebra. Their theory identifies the
+[marked border-product gate MJ1](../arguments/residuals/blowup_residual_geometry.md#finite-index-rigidity-of-higher-marked-jets)
+as a rectangular special case of a classical algebra-consistency criterion.
+The STCI-specific content of MJ2--MJ4 is the consequence of that gate for the
+actual marked graph and homogeneous contact constraints, not the
+border-basis criterion itself.
