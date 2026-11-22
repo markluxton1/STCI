@@ -104,7 +104,7 @@ Expanding the \(8\times8\) Sylvester determinant and collecting powers of \(u,v\
  \mathcal E=\{(0,3),(0,4),(1,3),(2,2),(3,1),(4,1)\}.
  \tag{4a}
 \]
-Every coefficient is a nonzero integer polynomial in \(a_i,b_i\) with content \(1\); thus no exponent disappears identically after reduction to any field characteristic. The convex hull is the quadrilateral with vertices
+Each coefficient is a nonzero integer polynomial with content \(1\): for the two nonvertex exponents \((1,3)\) and \((2,2)\), the corresponding coefficients contain the monomials \(-a_0^3a_1b_2b_3^3\) and \(-a_0^2a_1a_2b_1b_2b_3^2\), respectively, each with coefficient \(-1\). The four vertex coefficients are the nonzero products of Plücker minors displayed in (4b). Thus no exponent disappears identically after reduction to any field characteristic. The convex hull is the quadrilateral with vertices
 \[
  (0,3),\ (0,4),\ (4,1),\ (3,1).
 \]
