@@ -9,6 +9,8 @@ STCI exclusion. The classical cubic-carrier theorem of Craighero–Gattazzo
 benchmarks; neither is used in the moment proof for (3,4) or the
 multiple-support proof for (4,4).
 
+**Coefficient-only realization interface.** The focused [transverse Chow / mixed-moment criterion](transverse_chow_moment_realization.md) records the homogeneous full transverse Chow polynomial, its quadric-spectrum specialization, the characteristic-zero coefficient-to-power-sum dictionary, and the determinantal reformulation of the existing *reduced-cycle* CI criterion. It deliberately avoids fixing a carrier and explicitly separates necessary rank vanishings from properness and the unresolved repeated-cycle case.
+
 ## 1. Primary cycle space, not a moduli space of thickenings
 
 Put \(C_{u,v}=[s^4:s^3t:ust^3:vt^4]\), \(T=(\mathbf G_m)^2\),
