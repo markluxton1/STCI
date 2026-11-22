@@ -363,6 +363,25 @@ algebras and their genuine socle defects.
 Applications to the two presentations of the first graph
 are in [the exceptional-cut and marked-point comparison](../residuals/blowup_residual_geometry.md#socle-defects-on-the-two-presentations-of-the-first-graph).
 
+The [marked line and full finite-modification lattice ML1--ML8](../residuals/blowup_residual_geometry.md#the-marked-line-excludes-primitivity-at-the-mixed-sextic-boundary)
+give an actual realization-sensitive application of CF4. In the transverse
+conic-blowup situation with length \(c=2pq\), primitivity on the graph
+at the marked point forces the image algebra to have an explicit
+\(k[[x]]\)-basis with determinant length \(pq(q-1)\).
+When \(q=2\), the entire completed algebra is
+\(k[[x]][w^2,xw]\subset k[[x]][w]/(w^{4p})\);
+its saturated multiplication defects are exactly
+\(D_j=2\lfloor j/2\rfloor\) at the point. Thus the top divisor
+does not generally determine the whole filtration, but this
+specific geometric modification does. The actual carrier equation
+has a local index dichotomy (two or \(4p\)) in the
+generically regular stratum. More importantly the marked line in
+the actual \(V_5\) source excludes primitivity at the marked point
+for every mixed \((6,4q;2,q)\) pair. The proof uses the
+actual trace and the restriction degree of a line, and does
+not require the smaller carrier normal.
+All these applications await independent review.
+
 ## 6. What the spectral sequence adds, and what it does not
 
 Let \(D_{\mathrm{eq}}=J/IJ=\mathcal O_C(-a)\oplus\mathcal O_C(-b)\)

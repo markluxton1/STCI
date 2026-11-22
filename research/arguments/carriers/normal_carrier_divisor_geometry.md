@@ -809,6 +809,19 @@ to have a worse-than-ADE marked singularity by
 the separate K3 lattice theorem. The higher-degree
 nonprimitive and endpoint strata remain open.
 
+The [marked line theorem ML1--ML6](../residuals/blowup_residual_geometry.md#the-marked-line-excludes-primitivity-at-the-mixed-sextic-boundary)
+strengthens this to nonprimitivity **at the prescribed
+marked point** for every mixed \((6,4q;2,q)\), \(q\ge2\).
+It excludes the globally primitive mixed \((6,8)\) row
+without any marked ADE hypothesis, superseding that
+conditional exclusion in this row. The local full
+filtration and index comparison ML7--ML8 determines
+the two possible local types in the primitive-at-marked-point
+image stratum when \(q=2\), useful in the remaining
+endpoint analysis. This is not an exclusion of all entirely
+thick sextic pairs; the mixed slope-four row and endpoint
+slope-five row are still open.
+
 ## 5. What was removed, and what remains
 
 The new theorem removes **global lifting as a separate hypothesis or
