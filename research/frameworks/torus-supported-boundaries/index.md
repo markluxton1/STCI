@@ -462,11 +462,13 @@ quotient cannot exploit contact.
 
 **CI-polynomial controls do not restore two-generation.**  The diagonal
 constant quotient \(B_n=k[\epsilon]/(\epsilon^n)\), \(u=v=1+\epsilon\),
-has symmetric endpoint defect \(3n(n-1)/2\) and polynomial
-\(4nd+4n-3n^2\).  At \(n=4\) this is the \((4,4)\) CI polynomial; at
-\(n=6\) it is the \((3,8)\) polynomial.  These pure sole-supported images
-are torus-fixed and automatically involutive, but cannot be homogeneous CIs
-in characteristic zero because an invariant supported CI ideal is excluded.
+is exactly the Cartier multiple \(nC\subset Q\).  Its symmetric endpoint
+defect is \(3n(n-1)/2\) and its polynomial is
+\(4nd+4n-3n^2\).  Matching a CI polynomial gives
+\((3a-8)(3b-8)=16\): \(4C\) matches \((4,4)\), while \(6C\) matches
+\((3,8)\), up to order.  These pure sole-supported curves are torus-fixed
+and automatically involutive, but cannot be homogeneous CIs in
+characteristic zero because an invariant supported CI ideal is excluded.
 Thus even an involutive point of the correct CI-polynomial supported Hilbert
 locus need not have the moving two-generator presentation.  Boundary work
 must retain the actual minimal-generator incidence, not only the pure image
