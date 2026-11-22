@@ -24,121 +24,16 @@ though neither subsumes the other.
 
 ## 5.0b The classical primitive/STCI theorem already predicts the defect frontier
 
-Before analyzing any finite normal
-filtration, apply
-[Ellia, *Complete intersections
-primitive structures on space
-curves* (2015), Theorems 12,
-15 and Corollary 16](../../literature/README.md#ellia).
-It proves, for a **primitive
-complete-intersection multiple
-curve**, that a general
-higher-degree containing surface
-has uniform marked
-\(A_n^k\) singularities, and
-that a smooth rational quartic
-can have a primitive STCI
-only for one of the
-**ten** degree pairs
+Begin with [Ellia, Theorems 12, 15 and Corollary 16](../../literature/README.md#ellia). His primitive CI classification leaves precisely ten eligible unordered degree pairs for a smooth rational quartic:
 \[
- (4,7),(6,26),(12,18),(10,28),
- (9,48),(22,50),(20,67),
- (19,84),(18,118),(17,220).
+ (4,7),(6,26),(12,18),(10,28),(9,48),
+ (22,50),(20,67),(19,84),(18,118),(17,220).
 \]
-The accepted **arbitrary-mate
-quartic-carrier exclusion**
-also eliminates \((4,7)\)
-for our fixed embedding;
-this leaves **nine**
-numerically eligible primitive
-pairs from Ellia, not nine
-constructed examples.
+The complete quartic exclusion removes \((4,7)\) for the fixed embedding. Outside the remaining nine pairs, any sole-supported CI has a common singular point of its original generators. These are eligible primitive pairs, not examples, and the unrestricted common-singular-point statement is not established.
 
-Three immediate consequences
-have been obscured by our
-case-by-case presentation:
+The correct all-degree division is by the **actual generic transverse embedding dimension**. The [normal replacement theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) (pending independent audit) treats all \(a\le b\), including pencils: a general degree-\(b\) generator of the same ideal is normal integral exactly when some generator has generic order one. For generic multiplicity \(m>1\) this means the CI is generically curvilinear. The primitive subclass has no defect anywhere; the quasiprimitive subclass has a finite common-singular divisor. With both orders at least two, no normal member is obtainable in this generator system, and the full normal-cone/actual-source geometry is essential.
 
-- **Every hypothetical \((5,b)\)
-  pair is nonprimitive at some
-  special point.** Degree-five
-  equations have generic normal
-  order one, hence the
-  intersection is generically
-  curvilinear. Thus the
-  *entire difficulty* of a
-  quintic carrier lies in its
-  **finite nonprimitive defect
-  locus and its global
-  compatibility**. The
-  mixed-degree Bertini
-  replacement below still
-  makes a normal larger
-  carrier, but does **not**
-  remove these defects.
-- A hypothetical
-  **\((6,6)\)** pair is also
-  nonprimitive somewhere;
-  this agrees with our
-  **proved nonempty**
-  \(T\)-defect divisor
-  in the length-nine
-  filtration. That divisor
-  is not an accidental
-  nuisance, but a
-  **necessary escape**
-  from the classical
-  primitive exclusion.
-- The first potentially
-  entirely-thick pair
-  **\((6,8)\)** is
-  *generically nonprimitive*
-  when both normal orders
-  are two. Ellia does not
-  control that case merely
-  by listing primitive pairs.
-
-**What is genuinely added by
-the mixed-degree replacement.**
-Ellia's stronger conclusion
-holds for curves **primitive
-at every point**. Our
-Bertini lemma only assumes
-one *generic* order-one
-generator and allows finite
-nonprimitive points. It
-therefore extends the
-**normality** conclusion
-to exactly the regime
-where the classical
-primitive uniform-ADE
-argument does not
-automatically apply.
-At smooth points of the
-smaller carrier, its
-moving \(A_{m-1}\)
-singularities are the
-known classical local
-mechanism, not a new
-type of surface singularity.
-
-**Revised organizing
-principle.** Start with the
-classical primitive obstruction.
-Then apply **all-degree
-low-index normal-carrier
-exclusions**. Only then
-investigate the special-point
-nonprimitive structures
-that could evade both:
-actual local Cartier
-indices, multiplication
-defects, inverse-support
-branching, conductor
-gluing and full-ideal
-higher jets. This is
-a sharper interpretation
-of why the low-degree
-casework exists at all.
+Thus all \((5,b)\) and \((6,6)\) candidates are in the finite-defect branch, and \((6,8)\) is the first numerical pair admitting the entirely-thick order pattern under the existing graph bounds. Ellia's uniform marked ADE theorem is stronger in the everywhere-primitive subclass, while the replacement theorem allows arbitrary finite nonprimitive behavior.
 
 ## 5.0a All-degree normal-carrier theorems come **before** the carrier-degree table
 
@@ -389,42 +284,7 @@ exclusions, makes **every integral defining factor have degree at
 least five**. This base case must not be replaced by a theorem
 whose proof invokes it.
 
-**Step 1 — identify the carrier and replace a
-higher-degree generator by a normal one whenever
-the actual equation system permits it.**
-The established quadric restriction bound
-makes **every** quintic equation containing
-\(C\) generically regular along \(C\).
-The [mixed-degree Bertini replacement](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
-(now proved from classical Bertini but
-**awaiting independent mathematical audit**)
-shows more: for any sole-supported
-\((a,b)\) pair with \(a<b\) and **at
-least one** defining equation of
-generic normal order one, the same
-CI ideal admits an **integral normal
-degree-\(b\)** generator
-\(G_b+F_aL_{b-a}\). Consequently
-**every hypothetical \((5,b)\),
-\(b>5\)** has a normal **larger**
-carrier, whether or not its original
-quintic was normal. This does **not**
-make the original quintic normal or
-replace its conductor proof.
-For an \((6,b)\) pair, \(b>6\), the
-same normal replacement is valid
-**only when at least one generator
-has generic order one**; the
-order-two/order-two regime remains.
-For **equal-degree \((6,6)\)**,
-the separately proved
-[general-pencil normality reduction](../../arguments/carriers/sextic_pair_reduction.md#a-normal-pencil-carrier-in-characteristic-zero)
-handles every hypothetical pair,
-after ruling out simultaneous order
-two by the graph bound.
-The two normality mechanisms have
-different hypotheses and neither
-should be extended silently.
+**Step 1 — determine generic transverse embedding dimension.** For every hypothetical pair of degrees \(a\le b\), a [general actual degree-\(b\) replacement](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) is normal integral if and only if some generator has generic order one, preserving the entire CI ideal. This holds with no degree cutoff and requires neither factor integrality nor a non-pencil system. The quadric normal-order bound makes it automatic for \((5,b)\); the graph bound makes it automatic for \((6,6)\). Both order-two in \((6,8)\) remains outside the reduction. It does not make the original smaller carrier normal or eliminate its conductor geometry. In equal degrees both generators may be chosen normal. The unified proof requires independent audit; the original \((6,6)\) proof retains its reviewed status.
 
 **Step 2 — use the complete normal-carrier test
 for every mate degree.** If the chosen degree-\(a\)
@@ -731,111 +591,13 @@ normalization has been classified.
 
 ### Normal carrier replacement **across unequal defining degrees**
 
-This synthesis has a direct consequence beyond
-the fixed-carrier Hodge/index spectrum:
-for a hypothetical proper pair of degrees
-\(a<b\), a general degree-\(b\) linear
-combination
-\[
- K_b=G_b+F_aL_{b-a}
-\]
-is **integral normal**, without changing
-the CI ideal, whenever at least one
-original generator has generic normal
-order one. The proof checks the exact
-base locus \(C\), absence of a fixed
-surface, three-dimensional image of the
-degree-\((b-a)\) Veronese subsystem on
-\(D(F)\), Bertini smoothness away from
-\(C\), and generic regularity along
-\(C\). The argument is written in full
-in the [normal-carrier proof owner](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
-and remains marked **pending independent
-review**, not an accepted general
-nonexistence theorem.
+The [general replacement theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) now includes equal degrees and gives \(K_b=G_b+F_aL_{b-a}\), normal integral with the same CI ideal, precisely for the generic order-one branch. Only base-support Bertini, \(R_1+S_2\) and connectedness are needed. The stronger **moving-root theorem** additionally distinguishes the fixed common-symbol divisor from the moving reduced divisor of the general carrier. In every degree, a nonempty moving divisor forces \(R=m=ab/4\) and minimal mate degree \(a\). For \(a<b\) this is automatic if the smaller first symbol is nonzero. For \(a=b\) it holds when the first symbols are linearly independent over \(k\); a proportional-symbol pencil instead has a unique generically thick member, and its general members are still normal. For \(a<b\) with zero smaller symbol there are no moving symbol zeros.
 
-For **every hypothetical quintic pair**
-\((5,b)\) with \(b>5\), the order-one
-hypothesis is **automatic** by the
-unique quadric. Since \(4\mid b\), write
-\(b=4n\) with \(n\ge2\).
-On the *normal larger-degree carrier*
-the quintic equation is an actual
-degree-five mate, and the
-[exact normal minimal-mate theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#3-exact-exponent-and-minimal-mate-once-the-boundary-is-reached)
-forces
-\[
- \boxed{\quad
- \Delta=nC-H,\quad
- \operatorname{ord}(\Delta)=5,\quad
- \frac{R}{\gcd(R,n)}=5.\quad}       \tag{NQ1}
-\]
-This holds regardless of whether the
-**original quintic was normal or
-nonnormal**. In particular,
-\[
- v_5(R)=v_5(n)+1,\qquad
- v_p(R)\le v_p(n)\quad(p\ne5).
-\]
-The exact index order with the
-accepted pointwise
-[slope bound (U1)](#50a-all-degree-normal-carrier-theorems-come-before-the-carrier-degree-table)
-gives arithmetic restrictions.
-But a second *downward pass* to
-the actual first-symbol linear
-system yields a stronger
-geometric identity:
-when the **smaller generator
-is generically order one**,
-the [moving \(A_{m-1}\) theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#the-global-moving-root-theorem-the-larger-normal-carrier-has-index-m)
-shows that a **general**
-normal larger carrier has
-exact Cartier index
-\[
- \boxed{R=m=ab/4.}                    \tag{NR3}
-\]
-Thus for all hypothetical
-\((5,4n)\) pairs the **general
-normal replacement has \(R=5n\)**.
-
-| Original pair | \(R\) permitted by index + slope alone | \(R\) of the actual general normal replacement |
-| --- | --- | --- |
-| \((5,8)\) | \(10\) | **10** |
-| \((5,12)\) | \(15\) | **15** |
-| \((5,16)\) | \(10\) or \(20\) | **20** |
-| \((5,20)\) | \(25\) | **25** |
-
-This is **not** a new exclusion
-of quintic pairs. In fact
-the exact high index \(m\)
-comes from **moving simple
-\(A_{m-1}\) singularities** that
-arise naturally in the
-normal replacement. Its
-arithmetic necessity may
-therefore impose **no independent
-new obstruction**. What the
-normality reduction genuinely
-offers is a uniform surface
-on which the **fixed
-nonprimitive defects** can
-be studied through Hodge,
-global first-symbol and
-local Cartier comparisons.
-The same construction is
-useful for \((6,b)\) when
-one original equation has
-order one, but the
-**index \(R=m\)** conclusion
-requires the **smaller**
-equation to have order one.
-Entirely-thick mixed pairs
-and equal-degree pencils
-retain separate analysis.
+For \((5,4n)\) the general normal larger carrier always has \(R=5n\) and order-five primitive class \(nC-H\); e.g. \(R=10,15,20,25\) for \(b=8,12,16,20\). This includes originally nonnormal quintics for all mate degrees, but does not classify them or obstruct the resulting high-index configuration. The [intrinsic common-defect identity](../../arguments/carriers/normal_carrier_divisor_geometry.md#the-exact-defect-budget-is-concentrated-at-common-singularities) applies to every generically curvilinear pair regardless of degree or moving-root existence: the actual top-socle divisor and common-symbol divisor have the same support, not generally the same multiplicities. Every primitive-locus singularity of a normal carrier necessarily has index \(m\), even at a multiple symbol root of a special member. These implications and the generalizations are pending independent audit.
 
 ### Going back down: when a forced high index is **not** a new obstruction
 
-The mixed-degree normal replacement is
+The general normal replacement is
 a **real theorem-level reduction**,
 but one must test whether its
 resulting index restrictions
@@ -1089,9 +851,7 @@ characteristic-zero \((6,6)\) sole-support pair has a
 **normal sextic carrier**. Nonnormal sextic members may
 occur in special positions, but their analysis is unnecessary
 for deciding existence of a \((6,6)\) presentation.
-This is a major difference from the mixed \((5,8)\) case:
-a general pencil of equal-degree carriers is unavailable
-there, so nonnormal quintic lanes cannot be skipped.
+For unequal degrees the same replacement normalizes the larger carrier, not necessarily the smaller one. Thus the nonnormal quintic lanes remain distinct fixed-carrier questions.
 
 The graph argument is not uniform in degree: it gives no positive
 residual bound at \((8,8)\) with normal orders \((2,2)\).
@@ -1173,26 +933,9 @@ deleted by the primitive
 theorem or normal
 Hodge equality alone.
 
-For arbitrary \((5,b)\)
-the classical theorem
-similarly forces a
-nonempty common-singular
-divisor, and the mixed
-normal-replacement lemma
-identifies moving
-\(A_{m-1}\) points.
-But no general
-**nonreducedness** theorem
-for every quintic mate
-degree follows from these
-facts alone; the sextic
-rank/triple argument
-has essential special
-numerical input. That
-precise distinction,
-rather than an unqualified
-analogy, should guide
-the proof consolidation.
+The **degree-independent part** of this proof is now extracted as the [uniform reduced-gcd test RG1](../../arguments/carriers/normal_carrier_divisor_geometry.md#reduced-common-first-normal-divisor-a-uniform-marked-ade-and-rank-test) (pending independent audit). For any generically curvilinear actual pair with reduced common-symbol divisor, all singularities of a general larger normal carrier are end-marked \(A_{r-1}\); the indices divide \(m\), equal \(m\) at moving roots and are proper divisors at fixed roots. The saturated layers at fixed roots have coefficients \(\lfloor i/r\rfloor\). Global duality and the full Hodge root-rank bound give a uniform test in all degrees. The sextic proof still needs its special rank/triple contradiction, but its architecture is general.
+
+The arithmetic of this test already gives a new proposed all-degree stratum exclusion: when every prime factor of \(m=ab/4\) is \(1\bmod4\), the reduced-gcd hypothesis makes the top defect divisible by four, contrary to duality on the rational quartic. It therefore forces nonreduced common-symbol divisor in this multiplicity class, e.g. \((5,20)\) and the order-one \((10,10)\) sector. It neither excludes all possible quintic mate degrees with reduced gcd nor settles any whole pair.
 
 ### The first actual pair where both normal-carrier reductions can fail is \((6,8)\)
 
@@ -1200,7 +943,7 @@ The two established geometries now fit together
 more sharply:
 
 - The **normal replacement** (NR1)
-  applies to \(a<b\) whenever at least
+  applies to \(a\le b\) whenever at least
   one equation has generic normal order
   one; it always covers \((5,b)\)
   with \(b>5\).
@@ -1276,87 +1019,12 @@ and entirely-thick strata**,
 rather than solely by carrier
 degree or numerical correction.
 
-### A second uniform threshold: equal-degree pencils below ten
+<a id="a-second-uniform-threshold-equal-degree-pencils-below-ten"></a>
+### Factor integrality is not a cutoff for normality
 
-The [full factor reduction](#52-factors-and-the-degree-bound)
-has a further consequence
-not limited to the \((6,6)\)
-case. In a hypothetical
-\((d,d)\) pair, any
-irreducible factor of
-**any pencil member**
-must itself be a carrier
-with an actual mate.
-Its degree is at least
-five; thus if \(d<10\),
-**every nonzero pencil
-member is integral**.
-When at least one
-generator has generic
-normal order one,
-a general member is
-also smooth off \(C\),
-generically smooth on
-\(C\), and therefore
-**normal** by Bertini
-and \(R_1+S_2\).
-The rigorous
-[all-\(5\le d<10\)
-argument](../../arguments/carriers/normal_carrier_divisor_geometry.md#equal-degree-pencils-below-degree-ten-the-sextic-proof-extends-to-octics)
-is now in the fixed
-normal-carrier proof owner.
+For an actual degree-\(b\) member with a degree-\(a\) mate, every irreducible factor has degree at least five and degree divisible by \(4/\gcd(a,4)\). Thus every such member is integral if \(b<2n_a\), where \(n_a\) is the smallest permissible factor degree (\(5,6,8\) for \(a\equiv0,2,\text{odd}\pmod4\)). In equal degrees Bézout forces \(d\) even; for \(d=10\) it forbids quintic factors, so **all members** are integral for the eligible \(d=6,8,10\). Degree 12 is the first numerical factorization threshold, not a proved reducible example. Minimal-degree-product pairs have all compatible members integral in every degree, by factor descent to a smaller pair if not; this preserves support, not the thick ideal.
 
-Bézout permits only
-\((6,6)\) and \((8,8)\)
-in that range. The
-first has the established
-graph-bound reduction,
-so every hypothetical
-pair has a normal
-sextic carrier and
-its order-three class.
-For a hypothetical
-**\((8,8)\)** with at
-least one generic
-order-one equation,
-the normal octic
-carrier has
-\[
- \boxed{\quad R=16,\qquad
-      \operatorname{ord}(2C-H)=8.\quad}
-\]
-The second statement
-uses exact minimal
-mate degree and
-the already proved
-absence of any
-mate of degree at most
-four. This is a
-**necessary** index
-condition, not
-nonexistence. For
-\((8,8)\) with
-both orders at least
-two, neither this
-normal reduction nor
-the graph bound
-currently closes the
-case.
-
-Degree **ten** is
-the first equal
-degree where two
-integral factors
-of degree five can
-occur in a pencil
-member. It is
-therefore a natural
-**factorization
-threshold** for
-this exact proof,
-not a claim of a
-new degree-ten
-construction.
+Independently, the [normal-replacement theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) gives normality of the *general* member in every degree in the order-one branch. For \((8,8)\) this forces \(R=16\) and exact order eight of \(2C-H\); for \((10,10)\) it forces \(R=25\) and exact order five of \(5C-2H\), using the exact index theorem and minimal-mate divisibility. Neither resolves the entirely-thick sector. The [proof and scope](../../arguments/carriers/normal_carrier_divisor_geometry.md#equal-degree-pencils-below-degree-ten-the-sextic-proof-extends-to-octics) distinguish the two assertions. New generalizations require independent audit.
 
 ### A direct bridge from ADE exceptional corrections to normal-layer defects
 
