@@ -97,6 +97,17 @@ For a **reduced** CI arrangement with \(ab=4m\), the usual complete-intersection
 \]
 (Indeed \(P_{\rm CI}(n)=ab\,n+ab(4-a-b)/2\).) For general STCI support with nonreduced multiplicities, (*) need not hold for the reduced union: the cycle and scheme must instead be computed from the actual pair.
 
+## Hyperosculating-plane support and the graph endpoint sections
+
+The two hyperosculating planes are \(H_0=V(x_3)\) and \(H_\infty=V(x_0)\). Every orbit closure \(C_{u,v}\) meets \(H_0\) only at \(p_0\) and \(H_\infty\) only at \(p_\infty\). Therefore for a proposed proper pair with exact set-theoretic support \(A_Z\), the necessary boundary tests are
+\[
+ \operatorname{Supp}(V(F,G)\cap H_0)=\{p_0\},\qquad
+ \operatorname{Supp}(V(F,G)\cap H_\infty)=\{p_\infty\}. \tag{H}
+\]
+These are tests on **actual projective equations**, not just the Laurent quotient. They are not sufficient: a residual coordinate line \(L_{03}=V(x_1,x_2)\), for example, meets those planes only at the same endpoints and would escape (H). Generic transverse local lengths together with degree exhaustion, or a direct global residual-support argument, remain essential.
+
+The normalized toric quotient graph separates these points into the global sections \(D_h,D_{-h}\simeq S\) (where \(h=(1,3,4)\)); the first/last nonzero weight coefficients of \(F\) restrict to the leading equation sections there. The numerical endpoint defects and the quotient-line conditions are likewise attached to these two opposite marked ends. A proposed geometric *replacement* for repeated special-case boundary checks should compare the full restrictions and their ideals on both sections, **plus** what is left in the complement. It must not reduce either end to a scalar order or assume that (H) detects every residual curve.
+
 ## The \(V_5\) comparison: strong bridge and a sharp obstruction
 
 The established [two-blowup section dictionary](../../arguments/residuals/blowup_residual_geometry.md) provides, for one curve in characteristic zero,
