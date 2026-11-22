@@ -116,4 +116,49 @@ The [fixed quartic carrier theorem](fixed_carrier_chow_arrangements.md) provides
 
 The common direction is to characterize mate linear systems as constraints on finite divisors on moving quotient carriers, including boundary jets or conductor conditions where available, then analyze the images of each forgetful map and their compatibility. For general a,b the kernel maps supply exact incidence conditions, but neither smooth rational carriers nor unique reconstruction after deleting a point are automatic. The existing [trace-moment theorem](chow_arrangement_moments.md) excludes full coalescence in characteristic zero for the reduced CI closure, so the general non-invariant repeated-cycle STCI problem is outside this program's established coverage.
 
-**Next mathematical question:** determine the stable boundary of W_4 and whether its forgetful-image pullbacks introduce spurious components; compare it with the closure in the Hilbert and framed carrier spaces before generalizing to larger degrees. The present note proves open reconstruction and compactified abstract recovery, not boundary-image sufficiency or a new STCI exclusion.
+**Auxiliary quartic question:** determine the stable boundary of W_4 and whether its forgetful-image pullbacks introduce spurious components, if it helps illuminate the intrinsic arrangement compactification. It is not a prerequisite for the general-degree construction. The present note proves open reconstruction and compactified abstract recovery, not boundary-image sufficiency or a new STCI exclusion.
+
+
+
+## 6. The quartic marked-root surface is a known mirror quartic K3 model
+
+This is an **auxiliary model of the realization locus** on \(B\ne0\), not the ambient compactification of arrangements. In the coordinates \(\xi_i=1-Bq_i=A/v_i\), the normalized root equations read
+\[
+ \sum_{i=1}^4\xi_i=4,\qquad \prod_{i=1}^4\xi_i=1.
+\]
+Let \(\mathcal V_4\) be the open locus where \(\xi_i\) are distinct and avoid \(0,1,\infty\). Its projective model is
+\[
+ X:\quad (X_1+X_2+X_3+X_4)^4=256X_1X_2X_3X_4
+ \quad\subset\mathbf P^3.
+\]
+Indeed normalize the nonzero sum to 4, giving the displayed affine equations. The precise open complement excludes the hyperplanes \(\sum X_i=0\), \(X_i=0\), \(4X_i=\sum X_j\) and \(X_i=X_j\).
+
+This is the \(t=1\) quotient member of the Dwork mirror quartic pencil: the quotient of \(\sum Z_i^4=4t\prod Z_i\) by the product-one diagonal fourth-root group modulo scalar has equations \(\sum X_i=4t W\), \(\prod X_i=W^4\). See Heinrich Hartmann, [*Period- and mirror-maps for the quartic K3*](https://arxiv.org/abs/1101.4601), §4.1 and Proposition 4.1. Its six \(A_3\) points are the permutations of \([0:0:1:-1]\), and the additional \(A_1\) is \([1:1:1:1]\). Its minimal resolution is a K3 surface (adjunction, rational double points and \(H^1(\mathcal O_X)=0\)). Over \(\mathbb C\) the 19 exceptional classes and pullback of the hyperplane class are independent, hence its Picard number is 20. These are established K3 facts; the identification with our root equations is the application.
+
+The three carrier-boundary labels and four arrangement labels play different roles. In particular the following maps are more intrinsic to the configuration problem than treating all seven marks symmetrically.
+
+**Forget the boundary marks 0 and 1, retain infinity.** The four affine points are now considered modulo affine transformations. Write their centered homogeneous coordinates \(y_i\) with \(\sum y_i=0\); the distinct open in \(\mathbf P(\sum y_i=0)\cong\mathbf P^2\) is \(M_{0,5}\) with infinity the fifth label. Lift the configuration back by \(\xi_i=1+\ell y_i\), \(\ell\ne0\). The boundary label 1 is canonically the centroid, and the product constraint gives
+\[
+ e_4(y)\ell^2+e_3(y)\ell+e_2(y)=0.
+\]
+For a general configuration this has two admissible roots; the map from \(\mathcal V_4\) is generically degree two. Geometrically this is projection of \(X\) from its node. The discriminant is \(e_3(y)^2-4e_2(y)e_4(y)\). In the linear coordinates
+\[
+ (y_1,y_2,y_3,y_4)
+ =(a+b+c,\ a-b-c,\ -a+b-c,\ -a-b+c)
+\]
+it equals
+\[
+ 8(a^2-b^2-c^2)(b^2-a^2-c^2)(c^2-a^2-b^2).
+\]
+Thus a birational model is a double plane branched on three conics (not necessarily a smooth double plane; resolve its singularities). This uses characteristic zero. The double cover corresponds to possible positions of the forgotten boundary label 0 relative to the centered affine configuration, not to two possible CI pencils for a fixed framed arrangement.
+
+**Forget all three boundary labels.** One cross ratio of the four arrangement points is
+\[
+ \lambda=\frac{(y_1-y_3)(y_2-y_4)}{(y_1-y_4)(y_2-y_3)}
+        =\frac{a^2-c^2}{a^2-b^2}.
+\]
+For general \(\lambda\), the cross-ratio fiber in the plane is the smooth conic \((1-\lambda)a^2+\lambda b^2-c^2=0\). It meets each branch conic in four distinct points, with no common intersection between the three sets for general \(\lambda\): solve the two linear equations in \(a^2,b^2,c^2\), whose resulting ratios are all nonzero away from finitely many \(\lambda\); mutual branch intersections occur only at special values. The normalized projective fiber upstairs is therefore a double cover of a conic ramified at 12 points, hence genus five. This is a rational fibration of the K3 model, not a product with a fixed genus-five curve. Over the open marked configuration space the map is a genuine forgetful morphism; the fiber compactification statement is birational. The quotient by \(S_4\) is rational because the monic root polynomial has coefficients \((e_2,e_3)\) free away from its discriminant and the condition \(P(1)\ne0\).
+
+**Important distinction about collisions.** The nodal point \([1:1:1:1]\) is collision with boundary label 1 in this normalized carrier chart. With \(A,B\) fixed nonzero it means \(q_i=0\), i.e. it leaves the quotient torus \(T\). It is not the deepest diagonal of the original arrangement space at an interior point \(z\in T\). The two framing parameters and their degeneration cannot be omitted when comparing collision strata. The trace-moment separator, not the K3 compactification, excludes \(m[C_z]\) from the reduced CI closure.
+
+The \(\overline M_{0,7}\) graph and its cross-ratio embedding in §4 remain useful for this particular carrier model, but are **secondary**. The primary compactification should be independent of the defining degrees and of the choice of carrier, retain the entire configuration and its subconfigurations, and only then select the CI loci. See the [arrangement-first compactification program](../../investigations/chow-quotient-arrangement-bridge/index.md#the-arrangement-first-compactification-program).
