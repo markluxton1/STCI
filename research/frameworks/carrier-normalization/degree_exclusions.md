@@ -777,35 +777,61 @@ nonnormal**. In particular,
  v_5(R)=v_5(n)+1,\qquad
  v_p(R)\le v_p(n)\quad(p\ne5).
 \]
-Combining the exact index order with
-the accepted pointwise
+The exact index order with the
+accepted pointwise
 [slope bound (U1)](#50a-all-degree-normal-carrier-theorems-come-before-the-carrier-degree-table)
-gives **actual on-curve local-index
-requirements** on the new normal carrier:
+gives arithmetic restrictions.
+But a second *downward pass* to
+the actual first-symbol linear
+system yields a stronger
+geometric identity:
+when the **smaller generator
+is generically order one**,
+the [moving \(A_{m-1}\) theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#the-global-moving-root-theorem-the-larger-normal-carrier-has-index-m)
+shows that a **general**
+normal larger carrier has
+exact Cartier index
+\[
+ \boxed{R=m=ab/4.}                    \tag{NR3}
+\]
+Thus for all hypothetical
+\((5,4n)\) pairs the **general
+normal replacement has \(R=5n\)**.
 
-| Hypothetical \((5,b)\) | Possible index lcm \(R\) | Some local Cartier index on the normal degree-\(b\) carrier is at least |
-| --- | --- | ---: |
-| \((5,8)\) | \(10\) | \(10\) |
-| \((5,12)\) | \(15\) | \(15\) |
-| \((5,16)\) | \(10\) or \(20\) | \(10\) |
-| \((5,20)\) | \(25\) | \(25\) |
+| Original pair | \(R\) permitted by index + slope alone | \(R\) of the actual general normal replacement |
+| --- | --- | --- |
+| \((5,8)\) | \(10\) | **10** |
+| \((5,12)\) | \(15\) | **15** |
+| \((5,16)\) | \(10\) or \(20\) | **20** |
+| \((5,20)\) | \(25\) | **25** |
 
-This is **not** a new exclusion of
-all quintic pairs. It transforms
-arbitrary-degree quintic mate
-questions into exact **high-index
-normal-carrier** tests at the other
-degree and shows why normality of
-the *original* smaller surface is
-not logically essential to applying
-the normal Hodge framework somewhere
-in the pair. The construction is
-also useful for \((6,b)\) when
-one original equation has order
-one, but not for entirely-thick
-mixed pairs or an equal-degree
-pencil without the independent
-normal-pencil lemma.
+This is **not** a new exclusion
+of quintic pairs. In fact
+the exact high index \(m\)
+comes from **moving simple
+\(A_{m-1}\) singularities** that
+arise naturally in the
+normal replacement. Its
+arithmetic necessity may
+therefore impose **no independent
+new obstruction**. What the
+normality reduction genuinely
+offers is a uniform surface
+on which the **fixed
+nonprimitive defects** can
+be studied through Hodge,
+global first-symbol and
+local Cartier comparisons.
+The same construction is
+useful for \((6,b)\) when
+one original equation has
+order one, but the
+**index \(R=m\)** conclusion
+requires the **smaller**
+equation to have order one.
+Entirely-thick mixed pairs
+and equal-degree pencils
+retain separate analysis.
 
 ### Going back down: when a forced high index is **not** a new obstruction
 
