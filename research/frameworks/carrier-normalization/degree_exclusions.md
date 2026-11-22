@@ -22,6 +22,124 @@ one sextic and all of its mates can be far stronger in its
 quantifiers than a proof about every \((6,6)\) pair, even
 though neither subsumes the other.
 
+## 5.0b The classical primitive/STCI theorem already predicts the defect frontier
+
+Before analyzing any finite normal
+filtration, apply
+[Ellia, *Complete intersections
+primitive structures on space
+curves* (2015), Theorems 12,
+15 and Corollary 16](../../literature/README.md#ellia).
+It proves, for a **primitive
+complete-intersection multiple
+curve**, that a general
+higher-degree containing surface
+has uniform marked
+\(A_n^k\) singularities, and
+that a smooth rational quartic
+can have a primitive STCI
+only for one of the
+**ten** degree pairs
+\[
+ (4,7),(6,26),(12,18),(10,28),
+ (9,48),(22,50),(20,67),
+ (19,84),(18,118),(17,220).
+\]
+The accepted **arbitrary-mate
+quartic-carrier exclusion**
+also eliminates \((4,7)\)
+for our fixed embedding;
+this leaves **nine**
+numerically eligible primitive
+pairs from Ellia, not nine
+constructed examples.
+
+Three immediate consequences
+have been obscured by our
+case-by-case presentation:
+
+- **Every hypothetical \((5,b)\)
+  pair is nonprimitive at some
+  special point.** Degree-five
+  equations have generic normal
+  order one, hence the
+  intersection is generically
+  curvilinear. Thus the
+  *entire difficulty* of a
+  quintic carrier lies in its
+  **finite nonprimitive defect
+  locus and its global
+  compatibility**. The
+  mixed-degree Bertini
+  replacement below still
+  makes a normal larger
+  carrier, but does **not**
+  remove these defects.
+- A hypothetical
+  **\((6,6)\)** pair is also
+  nonprimitive somewhere;
+  this agrees with our
+  **proved nonempty**
+  \(T\)-defect divisor
+  in the length-nine
+  filtration. That divisor
+  is not an accidental
+  nuisance, but a
+  **necessary escape**
+  from the classical
+  primitive exclusion.
+- The first potentially
+  entirely-thick pair
+  **\((6,8)\)** is
+  *generically nonprimitive*
+  when both normal orders
+  are two. Ellia does not
+  control that case merely
+  by listing primitive pairs.
+
+**What is genuinely added by
+the mixed-degree replacement.**
+Ellia's stronger conclusion
+holds for curves **primitive
+at every point**. Our
+Bertini lemma only assumes
+one *generic* order-one
+generator and allows finite
+nonprimitive points. It
+therefore extends the
+**normality** conclusion
+to exactly the regime
+where the classical
+primitive uniform-ADE
+argument does not
+automatically apply.
+At smooth points of the
+smaller carrier, its
+moving \(A_{m-1}\)
+singularities are the
+known classical local
+mechanism, not a new
+type of surface singularity.
+
+**Revised organizing
+principle.** Start with the
+classical primitive obstruction.
+Then apply **all-degree
+low-index normal-carrier
+exclusions**. Only then
+investigate the special-point
+nonprimitive structures
+that could evade both:
+actual local Cartier
+indices, multiplication
+defects, inverse-support
+branching, conductor
+gluing and full-ideal
+higher jets. This is
+a sharper interpretation
+of why the low-degree
+casework exists at all.
+
 ## 5.0a All-degree normal-carrier theorems come **before** the carrier-degree table
 
 The strongest current exclusion statements are not organized
