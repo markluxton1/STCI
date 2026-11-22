@@ -37,6 +37,15 @@ open implications relevant to its approach.
 | [Arithmetic supported lifts](frameworks/arithmetic-supported-lifts/index.md) | Positive-characteristic equations, normal specialization and obstruction to prescribed lifts. Endpoint root defects have no proved identification with spectral Picard torsion or carrier Weil classes. |
 | [Local cohomology](frameworks/local-cohomology/index.md) | Simultaneous ancestors in actual homogeneous multiplication spaces. The quartic two-target reduction gives a bounded problem; higher multiplier degrees belong to the full-module question. |
 
+The [cycle-first Chow realization program](arguments/torus/chow_realization_moment_separation.md)
+uses the symmetric power of the orbit quotient as its primary parameter
+space. The universal moment hyperplane misses every interior power locus
+in characteristic zero. Proposed proofs pending independent review extend
+moment vanishing to all (3,4) pairs and to (4,4) multiple-support pairs via
+cycle-preserving regular initial sequences and linkage. The (4,4) small
+diagonal is separately excluded by R-0022; extending the moment proof itself
+to that diagonal and arbitrary degrees remains a coverage question.
+
 For every characteristic-zero bidegree, the smaller defining equation and
 its weight components bound the splitting of the moving transverse quotient.
 At a general point, a single base tangent vector induces a map from the fiber
