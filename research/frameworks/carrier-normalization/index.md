@@ -87,6 +87,40 @@ already covered by a full normalization theorem
 is valuable proof geometry, but not additional
 disjoint carrier coverage.
 
+**New mixed-degree bridge (pending independent mathematical audit).**
+For any actual sole-supported pair of unequal
+degrees \(a<b\), if at least one equation
+has generic normal order one along \(C_0\),
+a general member of the linear system
+\(kG_b+F_aH^0(\mathcal O(b-a))\)
+is **integral normal**, and together
+with \(F_a\) defines the **same CI
+ideal**. This is an application of
+classical Bertini to the entire
+actual-generator system, not to an
+arbitrary abstract thickening. Since
+every quintic equation has generic
+normal order one, **all**
+hypothetical \((5,b)\), \(b>5\),
+pairs have a *normal degree-\(b\)*
+carrier—even if the original
+quintic is nonnormal.
+For \(b=4n\), the exact index theorem
+then forces an order-five primitive
+class \(\Delta=nC_0-H\) with
+\(R/\gcd(R,n)=5\); the all-degree
+slope bound forces the degree-eight,
+twelve, sixteen and twenty
+indices \(R=10,15,\{10,20\},25\),
+respectively. These are **necessary
+high-index targets**, not proof that
+the pairs exist or are excluded.
+See the [full lemma and proof](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
+and [carrier-degree synthesis](degree_exclusions.md#normal-carrier-replacement-across-unequal-defining-degrees).
+Equal-degree pencils and mixed pairs
+with both orders at least two retain
+their separate analysis.
+
 For degree five, [Gorenstein-normalized
 nonnormal quintics](../../arguments/carriers/quintic_gorenstein_normalizations.md)
 and [toric-normalized quintics](../../arguments/carriers/quintic_toric_center_incidence.md)
