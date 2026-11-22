@@ -572,6 +572,27 @@ For the fixed quartic, the [quadric normal-order bound](sextic_pair_reduction.md
 This includes \(5\le a\le9\), and also \((10,10)\), since \(n_{10}=6\). In particular its order-one sector has \(R\mid25\) and \(R/\gcd(R,5)=5\), yielding \(R=25\), minimal mate degree ten and exact order five for \(5C-2H\). The order-one \((6,8)\) and \((6,10)\) sectors likewise give \(R=12,15\): in the second case the alternative \(R=3\) is excluded directly by \(10\mid4R\). None is a nonexistence result. The entirely-thick sectors are not covered. For arbitrary degrees the moving-root condition below supplies another sufficient condition for minimal mate degree \(a\).
 
 <a id="equal-degree-pencils-below-degree-ten-the-sextic-proof-extends-to-octics"></a>
+**Extension to arrangements.** For a proper complete intersection
+with reduced support a finite union of integral curves, the same
+Bertini–Serre proof gives a general normal integral larger carrier
+if and only if the generic transverse embedding dimension is
+at most one on **each** component. There are only finitely many
+generic points, so the required nonvanishing open conditions
+intersect. In characteristic zero this applies to every reduced
+CI arrangement, and to any arrangement all of whose component
+multiplicities are at most three: two equations of local order
+at least two in the regular two-dimensional ambient local ring
+have intersection length at least four (the local intersection
+multiplicity inequality). In particular every proper quartic
+CI with a cycle of distinct translates of total multiplicity
+four and at least two components admits a general normal
+pencil carrier, including the doubled two-support exceptional
+pencils. This does not make the individual components
+Q-Cartier at their intersections. The total Cartier condition
+and [exact Hodge matrix test](../torus/fixed_surface_restriction_lifts.md#normal-carriers-a-complete-geometric-description-of-the-arrangement-monoid)
+are the appropriate fixed-carrier formulation. This extension
+requires independent review.
+
 ### Every-member integrality and arithmetic factor bounds
 
 The separate factor result concerns **every** member of a generator system, not the normality of a general member. It also has a stronger arithmetic formulation. If a proper sole-\(C_0\) pair has degrees \((a,b)\), \(a\le b\), every irreducible factor \(h\) of an actual degree-\(b\) replacement \(K_b\) with \((F_a,K_b)=(F_a,G_b)\) has an actual mate \(F_a\). Hence

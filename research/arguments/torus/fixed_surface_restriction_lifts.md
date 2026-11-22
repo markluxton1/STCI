@@ -313,6 +313,95 @@ exhibits the opposite outcome. Unequal multiplicities would contradict
 the all-mate quartic-carrier exclusion, and the absence of a common
 quadric rules out an odd common multiplicity.
 
+### Normal carriers: a complete geometric description of the arrangement monoid
+
+The seed theorem above does not need normality. On a normal integral
+degree-\(a\) hypersurface \(T\), however, the entire monoid can be
+described **without finding seed mates first**. This is a direct
+application of the classical Hodge index theorem, Mumford's
+intersection theory on normal surfaces (see [Kollár, *Minimal models
+and their singularities*, §11.57](https://web.math.princeton.edu/~kollar/FromMyHomePage/modbook-final.pdf)),
+and the [complete-intersection Picard saturation theorem](../carriers/normal_carrier_divisor_geometry.md#3-exact-exponent-and-minimal-mate-once-the-boundary-is-reached).
+
+Let \(C_1,\ldots,C_s\) be distinct integral curves of degrees \(e_i\)
+on \(T\). In arbitrary characteristic define \(C_i\cdot C_j\) via
+Mumford's numerical pullback to a resolution, even if individual
+curves are not Q-Cartier. Set
+\[
+ Q_{ij}=C_i\cdot C_j-\frac{e_i e_j}{a},\qquad
+ D(n)=\sum_i n_i C_i.
+\]
+Then \(Q\) is a rational negative-semidefinite matrix. Indeed it is
+the Gram matrix of the numerical pullbacks projected perpendicular
+to the positive-square hyperplane class. Hodge index identifies
+\(\ker Q\) with the vectors whose numerical pullback is numerically
+proportional to the pulled-back hyperplane class.
+
+The exact multiplicity monoid is
+\[
+ \boxed{\quad M_T=\{n\in\mathbf Z_{\ge0}^s:\ Qn=0,\
+                D(n)\text{ Cartier on }T\}.\quad} \tag{HM}
+\]
+Necessity follows from the actual divisor of a mate. Conversely, if
+\(n\ne0\) satisfies the two conditions, the numerical class of
+\(D(n)\) is \((\sum_i e_i n_i/a)H\). Clearing the denominator gives
+a numerically trivial Cartier difference, hence a trivial line
+bundle by Cotner–Zavyalov, Theorem 1.1.8. Česnavičius–Scholze,
+Corollary 7.2.3, then gives that \(D(n)\) itself is linearly
+equivalent to an integral hyperplane multiple. Its canonical
+section lifts by the hypersurface restriction sequence. This
+realizes \(n\), including the exact mate degree
+\[
+ b=\frac{\sum_i e_i n_i}{a}.
+\]
+Normality ensures the effective Cartier section has no additional
+components invisible to its divisor. No separate degree integrality
+or global torsion test is needed.
+
+The Cartier condition in (HM) is imposed on the **total** divisor;
+individual curve classes may cancel at common singular points.
+Numerical pullback alone does not imply Q-Cartierness. If every
+\(C_i\) is Q-Cartier, the monoid's rational cone is exactly
+\(\ker Q\cap\mathbf R_{\ge0}^s\): every rational vector in this cone
+has a positive integer multiple realizing a mate. Even without
+individual Q-Cartierness, (HM) remains exact at integral vectors
+whose total divisor is Cartier. Thus the two tests are genuinely
+different: Hodge geometry determines possible multiplicity
+directions and the local class-group conditions determine the
+integral lattice.
+
+For two curves with positive individual Hodge gaps
+\(\Gamma_i=e_i^2/a-C_i^2\), a positive ray in \(\ker Q\) forces
+\(Q_{12}=\sqrt{\Gamma_1\Gamma_2}>0\) and
+\(n_1/n_2=\sqrt{\Gamma_2/\Gamma_1}\).
+In particular unequal multiplicities require unequal gaps.
+If an automorphism exchanges two such curves, the gaps agree and
+the only possible positive ray is diagonal, independently of the
+normal-carrier exclusion theorem. This is the numerical mechanism
+behind the seed-monoid argument, not a sufficient test of
+realizability until Cartierness is checked. The [exceptional nodal
+quartic](quartic_exceptional_carrier_geometry.md#the-hodge-matrix-of-the-exceptional-carrier)
+is an explicit worked example.
+
+The same Gram formalism explains what happens for residual
+absorption on a **fixed normal** carrier. For an actual divisor
+\(mC+D\sim bH\), assume C is Q-Cartier, put
+\(d=\deg D\) and \(\Gamma=e^2/a-C^2\). Then
+\[
+ C\cdot D=ed/a+m\Gamma,\qquad D^2=d^2/a-m^2\Gamma .
+\]
+These follow by projecting the divisor relation perpendicular to
+\(H\). A positive gap must be compensated by residual contact.
+This is an identity, not a new lower bound on residual degree
+without an independent upper bound on contact. It gives a precise
+comparison target for the residual-capacity framework.
+
+**Review status:** the exact monoid characterization and its
+consequences are new deductions from the cited classical inputs;
+independent audit is pending. The original seed theorem on
+generically regular integral, possibly nonnormal carriers is
+preserved above.
+
 ### Symmetry and the multiplicity lattice
 
 The preceding argument has a useful finite-group form. Suppose a

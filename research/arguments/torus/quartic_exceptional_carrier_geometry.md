@@ -196,6 +196,49 @@ spectral-root framework. No comparison
 map between those different covers or
 torsion mechanisms is asserted.
 
+### The Hodge matrix of the exceptional carrier
+
+The [normal-carrier arrangement theorem](fixed_surface_restriction_lifts.md#normal-carriers-a-complete-geometric-description-of-the-arrangement-monoid)
+gives a second, independent calculation of all possible multiplicity
+vectors on the distinguished nodal \(T_\lambda\), without using the
+single-curve quartic exclusion.
+
+It suffices to take \(\lambda=1\). Each \(C_\pm\) passes through both
+endpoint nodes and four interior nodes: on the chart \(x_0=1\), the
+interior nodes on either parametrized curve satisfy \(t^4=-1\);
+the two signs distinguish the two sets of four. These are all ten
+nodes of \(T\). A smooth curve through an ordinary node has
+numerical exceptional correction \(E/2\): on the blowup resolution
+its strict transform meets the exceptional conic once transversely.
+Its strict transform is a smooth rational curve on a K3 surface,
+hence has square \(-2\). Therefore
+\[
+ C_\pm^2=-2+6/2=1.
+\]
+Since \(2(C_++C_-)\sim4H\), the square of \(C_++C_-\) is 16,
+giving \(C_+\cdot C_-=7\). The Hodge matrix is exactly
+\[
+ Q=\begin{pmatrix}-3&3\\3&-3\end{pmatrix}.
+\]
+Thus every possible mate multiplicity vector is diagonal. The
+Cartier congruences require even common multiplicity: at an
+interior node only one curve passes through, with its nontrivial
+order-two local class; at an endpoint both branch classes are
+nontrivial and sum to zero. Consequently (HM) gives
+\(M_T=2\mathbf Z_{\ge0}(1,1)\), with least mate degree four, exactly
+as in the direct even-eight argument. Uniqueness up to scalar
+of the section with each prescribed effective divisor then
+recovers the restrictions in (5).
+
+This identifies the different work done by two geometries:
+the matrix determines the allowable multiplicity ratio and
+the local classes determine its parity; the Nikulin cover
+explains the latter by an actual anti-invariant square root.
+It does not classify moving carriers or all Hilbert lifts.
+For other retained members that may be nonnormal, keep the
+generically regular seed-monoid proof below. This new independent
+route for the nodal members awaits review.
+
 ## All mate degrees on a retained exceptional carrier
 
 In characteristic zero, fix any nonzero member \(T\) of an exceptional
