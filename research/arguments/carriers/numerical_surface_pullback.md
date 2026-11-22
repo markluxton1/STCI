@@ -410,6 +410,134 @@ This calculation only excludes Cartier branches as in P-020;
 the non-Cartier correction, conductor gluing and actual
 equations remain essential in the surviving cases.
 
+### Cartier test divisors and the degree-three-per-order boundary
+
+The two-branch matrix has a useful **integral** interpretation which
+does not require calculating a resolution intersection matrix.
+When there are no vertical first-normal fibers, the Cartier divisor
+on the finite normalization given by the pullback of \(E|_{X'}\)
+has divisor \(\sum_i e_i\Gamma_i\).
+A sole-support mate gives the second actual Cartier relation
+\(\sum_i n_i\Gamma_i\sim bH\).
+Thus for *any* Cartier divisor \(K\) on \(S\), the integers
+\(k_i=\Gamma_i\cdot K\) obey
+\[
+ \sum e_i k_i=D K,\qquad
+ \sum n_i k_i=bH K.                                      \tag{N12}
+\]
+Intersection of a Weil curve with a Cartier divisor is integral;
+no Cartierness of the individual \(\Gamma_i\) is required.
+In the two-branch case, (N4) with \(V=0,\kappa>0\) forces
+\(\mathbf e,\mathbf n\) to be independent.
+Consequently both individual inverse curves are Q-Cartier:
+solve the two actual Cartier relations over \(\mathbf Q\).
+The index bounds from this observation depend on the actual
+relation lattice, not solely on its rational span; one cannot
+divide a mate by a common valuation factor without a separate
+Cartier and conductor argument. At a point lying on only one
+branch, its actual local class order divides \(e_i\), since the
+first Cartier relation holds there. Thus for \(e_i=1\) all
+failure of Cartierness of that branch is on the shared support.
+
+Even before checking local indices, the two-by-two system (N12)
+imposes integral lattice congruences for every available \(K\).
+This is the general mechanism behind the split-sextic
+root-multiplicity argument. It extends to **all** \(a=3p\)
+carriers of the fixed quartic with no vertical first-normal
+fibers, independently of the mate degree and the branch degrees.
+
+Indeed the exact quadric restriction is \(F|_Q=h_C^p R_F\),
+where \(h_C\) cuts the marked \((1,3)\)-curve and the residual
+\(R_F\) has ruling class \((2p,0)\). Its distinct ruling fibers
+carry multiplicities \(\mu_j\) with \(\sum_j\mu_j=2p\).
+The strict quadric cuts \(K_0=2H-D\) on the first strict
+carrier. It has exactly these ruling curves as its support;
+the order of \(F|_Q\) along \(C\) is exactly \(p\) at the
+boundary \(a=3p\), so there is no extra exceptional section
+component. On the normalization the full Cartier pullback
+decomposes into disjoint full Cartier clusters \(K_j\)
+over these fibers. They are Cartier because their supports
+are disjoint and their sum is Cartier. The projection formula
+for the actual strict ruling curves gives
+\[
+ HK_j=\mu_j,\quad DK_j=3\mu_j,\quad
+ K_j^2=K_0K_j=-\mu_j.
+\]
+This counts the complete cluster, including its multiplicities,
+rather than identifying the visible reduced ruling with a
+Cartier divisor.
+
+Write \(k_{ij}=\Gamma_iK_j\). The branches lie over \(C\)
+and the clusters over distinct residual lines, so none share
+components. On the normal surface, \(k_{ij}\) are nonnegative
+integers (restrict the effective Cartier divisor \(K_j\)
+to \(\Gamma_i\)). Equations (N6) and (N12) give the exact
+necessary matrix conditions
+\[
+ \boxed{\begin{aligned}
+ \sum_j k_{ij}&=f_i+h_i,\\
+ \sum_i e_i k_{ij}&=3\mu_j,\\
+ \sum_i n_i k_{ij}&=b\mu_j .
+ \end{aligned}}                                          \tag{N13}
+\]
+The first row follows from \(K_0=2H-D\) and
+\(D\Gamma_i=7f_i-h_i\); it requires no Hodge equality.
+The last row requires the actual sole-support mate.
+For arbitrary branch count this is an integer transportation
+problem on a fixed actual normalization, to be imposed alongside
+the normalized Hodge and conductor conditions. It is not a
+construction of the clusters from arbitrary matrices.
+
+For **exactly two inverse branches**, independence of the two
+rows \(\mathbf e,\mathbf n\) forces the solution of each column
+to be proportional to \(\mu_j\). Sum over \(j\) and use the
+first row to get
+\[
+ \boxed{k_{ij}=\frac{\mu_j(f_i+h_i)}{2p}\quad(i=1,2).}       \tag{N14}
+\]
+In particular every distinct residual ruling root must have
+multiplicity divisible by
+\[
+ L_{\mathrm{rul}}=
+ \operatorname{lcm}_{i=1,2}
+ \frac{2p}{\gcd(2p,f_i+h_i)}.
+\]
+This is an all-mate, all-order obstruction to the entire
+squarefree residual lane whenever \(L_{\mathrm{rul}}>1\).
+The familiar split-sextic rows give \(L_{\mathrm{rul}}=4,2\)
+respectively, and immediately recover the \([4]\) and
+\([4],[2,2]\) partitions of P-030.
+It follows from Cartier intersections and the actual two-row
+relation, not from an ADE classification or an assumed
+individual Cartier branch. The Hodge proof of P-023/P-030
+remains an independent geometric presentation.
+
+There is one further geometric identity in this setting.
+Let \(\Pi\) denote orthogonal projection to the span of \(H,D\)
+on the resolved normalization (this span is nondegenerate
+by (N4) and \(V=0\)). For each cluster the two intersection
+degrees above imply
+\[
+ \Pi(K_j)=\frac{\mu_j}{2p}K_0,\qquad
+ W_j=K_j-\frac{\mu_j}{2p}K_0.
+\]
+Their orthogonal corrections satisfy
+\[
+ W_i W_j=-\delta_{ij}\mu_i+\frac{\mu_i\mu_j}{2p},
+ \qquad \sum_jW_j=0.                                    \tag{N15}
+\]
+This is the negative semidefinite weighted cluster lattice.
+It accounts for the extra Hodge directions needed when
+more than two normalized branches occur. For two inverse
+branches, their numerical classes lie in the \(H,D\) plane
+when a mate exists, and so pair trivially with all \(W_j\).
+For more branches the \(W_j\) need not be orthogonal to their
+classes; (N13), rather than the stronger proportionality (N14),
+is the relevant test. In the presence of vertical fibers
+one must retain \(V\) and the pullbacks of the actual clusters;
+the asserted Cartier intersection system on \(S\) is not
+automatic there.
+
 ### Relation to the generically regular socle theorem
 
 When \(p=1\), there is one inverse branch of degree one and

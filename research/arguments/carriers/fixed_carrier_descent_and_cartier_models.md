@@ -457,6 +457,10 @@ with a mate on every generically regular integral carrier of
 the fixed quartic. These are new deductions requiring review,
 not bounds on Cartier indices of normalized inverse curves.
 
+### A fixed-carrier numerical filter for the entirely-thick branch
+
+The [normalized first-graph dictionary](numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) strengthens the relation-lattice criterion before the conductor computation: the valuation vector of a sole-support mate lies in the kernel of the normalized Hodge matrix, while the actual marked ideal has a known self-intersection deficit split between branch imbalance and exceptional principalization. A content-free first normal divisor with only one horizontal root cannot occur on a mate-bearing carrier of C0. For two inverse branches without vertical fibers, the two actual Cartier relations (marked ideal and mate) determine the rational numerical branch matrix and impose integral intersections with all Cartier test divisors. At degree (3p), the [ruling cluster test](numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) gives explicit root multiplicity divisibility. These are necessary conditions on the normalization lattice and the actual source, not a replacement for the off-support conductor unit map in §4; nor do they use a reduced almost-Cartier class along a generically singular curve. Independent audit is pending.
+
 ## 8. Positive characteristic comparison
 
 The local nilpotent distinction changes in characteristic `p>0`.

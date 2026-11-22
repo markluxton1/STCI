@@ -121,6 +121,8 @@ R_F=\lambda\prod_i \ell_i^{M_i},
 \]
 where the \ell_i cut ruling fibers.
 
+On the no-vertical first-normal locus, the [Cartier cluster test](../carriers/numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) imposes additional, mate-degree-independent divisibility on these ruling multiplicities: for two inverse branches of degrees (f_i) and direction-degrees (h_i), every (M_j) is divisible by (2p/gcd(2p,f_i+h_i)) for each branch. For more branches it gives an integer matrix of actual ruling/branch intersections. This is an extension of the split-sextic root-partition theorem, subject to independent review; it does not cover the vertical-content stratum.
+
 Thus on Q the degree-3p carrier has the exact form
 \[
 F|_Q=h^p\prod_i\ell_i^{M_i}.
