@@ -120,6 +120,76 @@ case's special geometry
 has been silently promoted
 to an all-degree result.
 
+### Classical primitive exclusion and the fixed nonprimitive defect
+
+[Ellia's primitive CI theorem](../../literature/README.md#ellia)
+is a **stronger existing
+starting point** than a
+generic normal-form
+enumeration: a primitive
+STCI on a smooth rational
+quartic must occur among
+ten explicit degree pairs,
+none with degree five or
+equal pair \((6,6)\).
+Therefore every hypothetical
+\((5,b)\) or \((6,6)\)
+sole-support pair has a
+point of \(C\) where
+**both defining surfaces
+are singular**. For a
+quintic generator the
+other equation's generic
+curvilinear intersection
+can still be primitive
+away from finitely many
+such points; the
+nonprimitive locus is
+not an optional special
+case. The unrestricted
+common-singular-point
+statement in all defining
+degrees remains **unproved**.
+
+When the smaller generator
+has generic normal order
+one, write its and its
+mate's proportional
+first-normal symbols as
+\(f(A,B),g(A,B)\), in their
+shared saturated direction.
+The [new global moving-root
+comparison](../../arguments/carriers/normal_carrier_divisor_geometry.md#the-global-moving-root-theorem-the-larger-normal-carrier-has-index-m)
+identifies the fixed
+nonprimitive divisor
+\(B_{\rm np}=\gcd(f,g)\);
+outside that divisor,
+the normal replacement
+creates simple moving
+\(A_{m-1}^1\) points
+whose local index \(m\)
+has **zero primitive
+top multiplication
+defect**. The accepted
+[pointwise socle theorem](../../arguments/carriers/normal_carrier_symbolic_torsion.md#1-carrier-data-and-an-intrinsic-normalized-budget)
+then localizes the entire
+top defect to
+\(B_{\rm np}\). This is
+the missing connection
+among the primitive
+classification, the
+normal replacement,
+and the saturated
+actual CI filtration.
+It does **not** identify
+the actual special-point
+defect structures from
+their support alone:
+their higher jets,
+homogeneous source maps,
+and conormal gluing
+remain necessary.
+
 ## Exceptional geometry and components downstairs
 
 The joint zeros of the two actual leading forms on the first exceptional
