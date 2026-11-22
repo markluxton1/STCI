@@ -382,6 +382,22 @@ actual trace and the restriction degree of a line, and does
 not require the smaller carrier normal.
 All these applications await independent review.
 
+In the opposite [smooth image-carrier marked stratum SM1--SM2](../residuals/blowup_residual_geometry.md#the-opposite-marked-stratum-a-smooth-image-carrier-and-a-forced-graph-defect),
+the exact graph algebra is \(xv=t^{2p},v^q=0\),
+with saturated multiplication defects
+\(D_k=\lfloor k/(2p)\rfloor\), and the image
+algebra is primitive at the marked point.
+Thus the finite modification can either create
+or remove graph defects; the actual orientation
+of the free normal line matters. Smoothness
+at the marked point also gives a genuine
+degree-two image-mate descent to the original
+degree-four mate, excluded in characteristic zero.
+The all-order interpolation version of the
+marked-line theorem excludes marked primitivity
+for mixed \((3p,4q)\) when \(p\le q\), not just
+the degree-two image carrier.
+
 ## 6. What the spectral sequence adds, and what it does not
 
 Let \(D_{\mathrm{eq}}=J/IJ=\mathcal O_C(-a)\oplus\mathcal O_C(-b)\)

@@ -822,6 +822,27 @@ endpoint analysis. This is not an exclusion of all entirely
 thick sextic pairs; the mixed slope-four row and endpoint
 slope-five row are still open.
 
+The [all-order marked-line inequality ML9](../residuals/blowup_residual_geometry.md#all-orders-the-marked-line-comparison-by-interpolation)
+further excludes primitivity at the marked point for
+all mixed \((3p,4q)\) edge pairs with \(2\le p\le q\).
+It uses the actual section restriction and local
+Weierstrass interpolation, not the Hodge or ADE
+numerical test. The complementary
+[smooth marked image-carrier lane SM1--SM2](../residuals/blowup_residual_geometry.md#the-opposite-marked-stratum-a-smooth-image-carrier-and-a-forced-graph-defect)
+has the full graph local algebra \(xv=t^{2p},v^q=0\),
+top defect \(q-1\), and a marked \(A_{2p-1}\) strict
+carrier. A degree-two image mate now compresses to
+an actual degree-four original mate by trace
+cancellation along \(\Gamma\); hence such an image
+mate is impossible. In particular for \(q=2\),
+the actual integral image carrier has minimal image
+mate degree four and local-index lcm \(4p\);
+at \(p=2\) a smooth marked point forces an actual
+index-eight point elsewhere. This is one case in
+which Picard compression is proved to preserve
+the required conic normal-form condition.
+Independent review is pending.
+
 ## 5. What was removed, and what remains
 
 The new theorem removes **global lifting as a separate hypothesis or

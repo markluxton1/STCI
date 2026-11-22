@@ -1494,6 +1494,105 @@ support of the image CI would force its full
 zero divisor to be \(2q[z]\). This contradicts
 \(q+1<2q\). The mixed marked-point theorem follows.
 
+#### All orders: the marked-line comparison by interpolation
+
+The same mechanism has a sharp useful extension
+beyond degree-two carriers. Retain \(p,q\ge2\)
+and the mixed direction. With \(W\) primitive
+at \(z\), use ML3 and the marked line
+\((x,t(x),y(x))\) of ML2, where
+\(t(x)=-6x+O(x^2)\), \(y(x)=-2x^2\).
+Then
+\[
+ \boxed{\operatorname{ord}_x(P|_{\mathfrak l})
+       \ge \min(2p,q+1).}                               \tag{ML9}
+\]
+The convention includes the identically zero
+restriction. In particular **for every \(2\le
+p\le q\)** a hypothetical pair on the
+\((3p,4q)\) edge in a mixed direction must
+be nonprimitive at the marked point.
+
+**Proof.** In \(k[[x,y]]\), restrict the
+actual \(S\) to the formal surface \(t=t(x)\).
+Modulo \(x\) its equation has exact order \(q\)
+in \(y\), because its homogeneous conic normal
+form at \(z\) has all \(q\) roots at \([1:0]\).
+By Weierstrass preparation its equation
+is a unit times a monic polynomial \(Q(y)\)
+of degree \(q\). Divide the corresponding
+restriction of \(P\) by \(Q\) using Weierstrass
+division, writing \(P=AQ+R(y)\), with
+\(A\in k[[x,y]]\), \(R\in k[[x]][y]\),
+\(\deg_y R<q\).
+
+In the extension \(x=\epsilon^q\), put
+\(v=\epsilon u\) in \(f(x,v)=t(x)\).
+After dividing by \(\epsilon^q\), the special
+fiber is \(w(0)u^q+6=0\), with \(q\) distinct
+nonzero roots by characteristic zero.
+All omitted terms vanish in the special fiber:
+\(f(0,v)\) has exact order \(q\), and every
+positive \(x\)-coefficient of \(f\) is divisible
+by \(v\). Hensel's lemma therefore gives \(q\)
+distinct roots \(v_i=\epsilon u_i(\epsilon)\).
+The roots of \(Q(y)\) are exactly
+\(y_i=xv_i\): for \(x\ne0\) they satisfy
+\(S(x,t(x),y_i)=0\), and there are \(q\)
+distinct such roots. These satisfy
+\[
+ \operatorname{ord}_{\epsilon} y_i
+ =\operatorname{ord}_{\epsilon}(y_i-y_j)=q+1
+ \quad(i\ne j).
+\]
+ML3 implies
+\(\operatorname{ord}_{\epsilon}P(x,t(x),y_i)
+ \ge2pq\).
+On the marked line, \(y(x)\) has
+\(\epsilon\)-order \(2q>q+1\).
+Evaluate the Lagrange interpolation formula
+for \(R\) at \(y(x)\). Every Lagrange basis
+polynomial there is a unit over
+\(k[[\epsilon]]\), since its numerator
+and denominator have the same valuation
+\((q-1)(q+1)\).
+Hence \(R(y(x))\) has \(\epsilon\)-order at
+least \(2pq\), i.e. \(x\)-order at least \(2p\).
+The term \(A Q(y(x))\) has \(x\)-order at
+least \(q+1\) since \(Q(y(x))\) is the product
+of the \(q\) differences of
+\(\epsilon\)-order \(q+1\).
+This proves ML9. Notice that this is just
+Weierstrass division and the simple-root
+form of Hensel's lemma, not an assumption of
+generic splitting of the global equation or
+of a convergent analytic normal form.
+
+If \(p\le q\), the lower bound is strictly
+greater than \(p\), so the marked projective
+line is contained in the actual degree-\(p\)
+carrier. The actual degree-\(2q\) mate still
+has vanishing order exactly \(q+1\) on this
+line, contradicting sole support exactly as
+above. If \(p>q\), the bound forces at least
+\(q+1\) contact on the marked line but does
+not force containment. The distinction is
+a genuine degree limitation.
+\(\square\)
+
+This sharpens the primitive graph arithmetic
+above: of its five possible global primitive
+order pairs, the mixed direction is excluded
+for \((2,2),(5,19),(6,8)\); only
+\((10,4),(21,3)\) are still allowed in the
+mixed direction by this test. The endpoint
+directions remain subject to their normal
+splitting and the separate marked-line
+condition. The \((2,2)\) endpoint row was
+already excluded by its normal splitting.
+This all-order source obstruction is pending
+independent review.
+
 #### Endpoint comparison and the precise remaining condition
 
 Reverse the original quartic coordinates, which
@@ -1712,6 +1811,209 @@ argument. This local classification is
 kept for its wider use beyond the forbidden
 mixed case.
 
+
+### The opposite marked stratum: a smooth image carrier and a forced graph defect
+
+There is a complementary exact comparison
+which does not assume primitivity of the
+graph at the marked point. Suppose the
+image carrier \(U=(P=0)\) in the
+\((3p,4q)\) edge is smooth at \(z\).
+As in ML1 the marked ideals are
+\(\Gamma=(x,y),\Delta=(t,y)\).
+The trace \(P_\Gamma=t^{2p}\text{unit}\)
+and \(\Delta\subset U\) force \(P_y(z)\ne0\).
+The formal smooth surface is consequently
+\(y=g(x,t)\) with \(g(x,0)=0\),
+\(g(0,t)=t^{2p}u(t)\), \(u(0)\ne0\).
+Write
+\[
+ g(x,t)=t^{2p}u(t)+xh(x,t),\quad h(x,0)=0.
+\]
+On the graph chart \(y=xv\) make the
+regular coordinate change
+\(v'=(v-h(x,t))/u(t)\). The strict
+carrier and strict mate then give the
+actual completed equations
+\[
+ P':\ xv'=t^{2p},\qquad
+ W:\ (xv'-t^{2p},\ (v')^q).                             \tag{SM1}
+\]
+Indeed on the smooth image carrier the
+mate is a unit times \(t^{2pq}\) at \(z\)
+by sole support. Pull back and divide
+by \(x^q\); the strict mate on \(P'\)
+is a unit times \((v')^q\), since
+\(t^{2pq}=x^q(v')^q\) there. The
+unit remains a unit on the blowup.
+No equality of arbitrary ambient
+representatives before restricting to
+the carrier is asserted.
+
+Thus the smaller strict carrier is the
+marked \(A_{2p-1}\) type, with first
+symbol vanishing once and marked local
+index \(2p\). The index follows either
+from the standard end-marked \(A\)-chain
+or directly from \(v'=0\) on \(P'\).
+The completed graph algebra has basis
+\[
+ (v')^i t^j,\quad 0\le i<q,\quad0\le j<2p,
+\]
+over \(k[[x]]\). In the generic algebra
+\(v'=t^{2p}/x\); the saturated layer
+of order \(k\) therefore has generator
+\(t^k/x^{\lfloor k/(2p)\rfloor}\), and
+the free first generator is \(t\).
+It follows that
+\[
+ \boxed{D_{W,k}(z)=\left\lfloor k/(2p)\right\rfloor,
+ \quad D_{W,\rm top}(z)=q-1,\quad \xi=0.}                \tag{SM2}
+\]
+The whole image algebra is primitive at
+\(z\), since \(U\) is smooth there.
+This agrees with SC4: the modification
+creates a graph defect despite the
+primitive image, the opposite phenomenon
+to ML7. In particular a mixed \((6,8)\)
+pair in this lane has marked graph
+defect exactly one (out of the total
+seven) and the remaining six units of
+defect are away from \(z\).
+
+#### Compression of an actual image mate can preserve conic order in this lane
+
+The conic-order requirement in LC1
+and in the K3 torsion compression is
+not automatic in general. But the
+smooth marked stratum gives a direct
+positive bridge at degree two.
+
+**Claim (all \(p\ge2\)).** If \(U\) is
+integral, smooth at the marked point
+as above, and has an actual image mate
+of degree two, i.e. a section \(H_2\)
+of \(2M\) cutting precisely \(2p\Delta\)
+on \(U\), then there is an actual
+degree-four mate to the original
+degree-\(3p\) carrier in \(\mathbf P^3\).
+Consequently this entire class is
+excluded in characteristic zero by
+the all-mate low-degree exclusion.
+A degree-one image mate is also
+impossible, since its square supplies
+one of degree two.
+
+**Proof.** On the smooth marked surface
+the image mate has local equation
+\(t^{2p}\) times a unit. Thus an ambient
+representative of its section has
+\[
+ H_2=t^{2p}a(x,t,y)+P b(x,t,y),\quad
+ a(z)\ne0 .
+\]
+(The local equation \(t\) on \(U\)
+cuts the smooth quintic.) Restrict
+to the conic: its trace vanishes to
+order at least \(2p\) at \(z\).
+If \(p>2\) the trace is identically
+zero since its degree on \(\Gamma\)
+is four; if \(p=2\) it is proportional
+to \(P|_\Gamma\), so subtract a
+scalar multiple of \(P\) to kill it.
+In either case obtain a degree-two
+section \(H_2'\) containing \(\Gamma\),
+with the same nonzero restriction to
+\(U\). The now identically zero
+trace forces the coefficient of \(P\)
+at \(z\) in the displayed expression
+for \(H_2'\) to be a unit:
+on the conic divide by \(t^{2p}\)
+and use \(a(z)\ne0\) and the nonzero
+leading coefficient of \(P|_\Gamma\).
+Therefore \(H'_{2,y}(z)\ne0\).
+It has exact order one along the
+conic, and its leading conic normal
+form at \(z\) is nonzero.
+
+The strict carrier of \(P\) meets
+the exceptional ruled surface over
+\(\Gamma\) only in the fiber at \(z\),
+because the trace of \(P\) has exactly
+that support. The strict \(H_2'\) meets
+that fiber in a degree-one form
+with the marked root and no whole
+fiber. Off the exceptional divisor
+their intersection has sole support
+the punctured marked quintic, by the
+actual image-mate hypothesis.
+Purity of the strict CI now leaves
+sole support exactly \(T\).
+The degree-two section \(H'_2\) cannot
+contain the anticanonical surface
+\(\Sigma\), since it is smooth at
+\(z\) whereas \(\Sigma\) is singular
+along \(\Gamma\). Being of the same
+class as \(\Sigma\), containment
+would make it a scalar defining
+section of \(\Sigma\).
+Thus it gives an actual degree-four
+form of order one along \(C\) by
+the section dictionary (2), with
+\((3k-2j,k-j)=(4,1)\) for \(k=2,j=1\).
+The proper graph intersection
+pushes to a proper sole-support
+pair with the original degree-\(3p\)
+carrier, which is impossible.
+\(\square\)
+
+For an integral generically regular
+image carrier with the original
+degree-\(2q\) mate, the ample
+Lefschetz Kummer argument LC1
+on \(V_5\), where
+\(\operatorname{Pic}(V_5)=\mathbb Z M\),
+gives exact minimal image mate
+degree \(n=R/p\mid2q\), with \(R\)
+the lcm of actual local almost-Cartier
+indices along \(\Delta\).
+The lift to \(V_5\) uses
+\(H^1(V_5,\mathcal O((n-p)M))=0\)
+when \(n-p\ge-1\) by Kodaira,
+and in fact for every integer \(n-p\)
+by Serre duality and Kodaira
+(\(H^1\) is dual to \(H^2\) of
+\((p-n-2)M\), which vanishes
+when \(n-p\le-1\)).
+The ample-carrier Picard argument
+does not need normality away from
+the marked curve. When the image
+carrier is reducible, this
+fixed-carrier version must instead
+be applied componentwise with the
+actual multiplicities.
+
+By the claim, in the smooth
+marked lane necessarily \(n>2\).
+In particular for \(q=2\) one must
+have \(n=4\) and \(R=4p\).
+For the actual sextic \(p=2\)
+the smaller image carrier is
+integral by the independent
+low-degree factor exclusion;
+thus **if it is smooth at \(z\),
+it has an actual index-eight
+point elsewhere on \(\Delta\)**.
+This condition does not assert
+that an index-eight point has ADE
+type. Nor does it transfer an
+arbitrary compressed mate back
+to the original problem: degree
+two and smoothness at the marked
+point are both used in the trace
+cancellation and nonzero normal
+form. All the deductions in this
+section await independent review.
 
 ### A K3 marked-lattice obstruction to the primitive graph row
 
