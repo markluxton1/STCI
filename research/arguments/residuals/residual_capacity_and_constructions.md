@@ -449,6 +449,26 @@ thick attachment, has the right sign.
 It is not a universal conservation
 law for arbitrary CI degenerations.
 
+The [explicit (4,6) toric triple TS5--TS7](../torus/fixed_carrier_chow_arrangements.md#an-actual-non-lci-curvilinear-triple-the-conormal-torsion-is-visible)
+gives a generically curvilinear but
+non-lci primary of multiplicity three,
+with completed ideal
+\((X^2-\tfrac12x^2Z,XZ,Z^2)\).
+Its exact Hilbert--Burch relations
+yield conormal torsion \(k[[x]]/(x^2)\),
+of length two. The actual attachment
+lengths are \(7+9=16\), with determinant
+part \(5+9=14\), full thick attachment
+length 46, and auxiliary quadric cut
+torsion lengths 9 and 5.
+This verifies on an **actual globally
+homogeneous CI** why non-lci torsion
+must be retained separately from
+the determinant, and why a constant
+punctual cut does not encode residual
+absorption. Do not infer the equality
+\(\tau=D_2\) for arbitrary thick curves.
+
 ## 5. A sharp control: the determinant can be a unit at a real attachment
 
 This is a local explanatory example, not a global homogeneous realization on the fixed quartic. It is used to test exactly the proposed omission of \(\mathcal T_T\), not to launch a case classification.

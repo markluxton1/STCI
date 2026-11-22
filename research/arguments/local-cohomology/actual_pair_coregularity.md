@@ -69,6 +69,24 @@ general form (1), grading shifts and support restriction on November 20,
 2026.
 
 
+A concrete global check is the
+[fixed toric (4,6) triple TS5--TS7](../torus/fixed_carrier_chow_arrangements.md#an-actual-non-lci-curvilinear-triple-the-conormal-torsion-is-visible).
+Its actual proper pair has first
+attachment annihilator lengths seven
+and nine at the two endpoints.
+At the cuspidal endpoint the full
+primary has conormal torsion length
+two and a determinant contribution
+five. These numbers are computed
+from the explicit homogeneous
+equations and local Hilbert--Burch
+matrix; they do not require assuming
+a local-cohomology model to derive
+the attachment lengths. This
+calibrates LC-A1 without claiming
+its general proof is independently
+reviewed.
+
 ## Actual attachment equation modules are the dual annihilator layers
 
 **New application of ordinary local duality, pending independent

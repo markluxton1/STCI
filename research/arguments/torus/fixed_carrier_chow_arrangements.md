@@ -519,6 +519,125 @@ restricted equations on \(Q\);
 it is not an inference from Chow
 cycles alone.
 
+### An actual non-lci curvilinear triple: the conormal torsion is visible
+
+The all-order formulas above admit a particularly useful
+**explicit proper intersection** in characteristic zero.
+Take the realized degree-six root polynomial
+\[
+ P_6(T)=(T-1)^3(T^3+3T^2+6T+2)
+       =T^6-8T^3+9T^2-2,
+\]
+and the actual equations
+\[
+ \begin{aligned}
+ A&=x_2^4-x_0x_3^3,\\
+ G_6&=x_1^6-8x_0^2x_1^3x_2
+             +9x_0^3x_1^2x_3-2x_0^4x_2^2.
+ \end{aligned}                                          \tag{TS5}
+\]
+All three missing semigroup coefficients
+\(c_1,c_2,c_5\) vanish. The residual
+cubic has discriminant \(-216\) and nonzero
+constant term, so the actual fundamental
+cycle is \(3[C_0]\) plus three distinct
+other translated quartics. Its total
+degree is 24; its genuine residual degree
+is 12. This is an example with residual
+support, not a characteristic-zero STCI.
+
+At \(p_0\) let \(x=x_1/x_0,\ w=x_2/x_0,\ h=x_3/x_0\),
+and change regular ambient coordinates to
+\[
+ X=(w-x^3)/3,\qquad
+ Z=(h-x^4)-(4x/3)(w-x^3).
+\]
+On the normalized **triple** set
+\(t=x+\epsilon,\ \epsilon^3=0\). Then
+\[
+ X=x^2\epsilon+x\epsilon^2,\qquad
+ Z=2x^2\epsilon^2.
+\]
+The actual full \(C_0\)-primary image
+has completed ideal
+\[
+ \boxed{\quad
+ J=(X^2-\tfrac12x^2 Z,\ XZ,\ Z^2)
+ \subset k[[x,X,Z]].\quad}                              \tag{TS6}
+\]
+The quotient is \(k[[x]]\)-free on
+\(\{1,X,Z\}\), and its injective map
+to \(k[[x]][\epsilon]/\epsilon^3\)
+has precisely the semigroup lattice
+indices \((0,2,2)\).
+In particular the generic algebra
+is curvilinear of length three, but
+the primary is **not lci at \(p_0\)**.
+
+Let \(f_1=X^2-\tfrac12x^2Z,\ f_2=XZ,\ f_3=Z^2\).
+The two Hilbert--Burch syzygies are
+\[
+ Zf_1-Xf_2+\tfrac12x^2 f_3=0,\qquad
+ Zf_2-Xf_3=0.
+\]
+Reducing these modulo \(I_C=(X,Z)\)
+gives the exact primary conormal module
+\[
+ \boxed{\quad
+ J/I_CJ\simeq k[[x]]^2\oplus k[[x]]/(x^2).
+ \quad}                                                 \tag{TS7}
+\]
+The torsion has length **two**,
+equal here to the first nonprimitive
+multiplication defect \(D_2(p_0)=2\).
+This is an explicit instance in the
+curvilinear generic branch of the
+non-lci torsion correction in the
+[full-primary attachment determinant](../residuals/residual_capacity_and_constructions.md#full-primary-equation-module-and-exact-attachment-divisor).
+
+For the actual pair TS5, the reduced
+marked attachment is
+\[
+ H_0=7[p_0]+9[p_\infty],
+\]
+and its three thick layers at
+\(p_0\) have lengths \((7,5,7)\),
+while those at \(p_\infty\) are
+\((9,9,9)\). The full attachment
+length is therefore \(19+27=46\).
+The torsion correction \(\tau\)
+is \(2[p_0]\) by TS7, so the
+determinant of the *actual two-equation
+map* has divisor
+\[
+ \operatorname{div}\theta
+   =5[p_0]+9[p_\infty].
+\]
+Equivalently, the first actual
+local-cohomology annihilator layers
+of the pair have lengths 7 and 9,
+via [LC-A1](../local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers).
+On the auxiliary quadric, TS4 gives
+\(B_Q=9[p_0]+5[p_\infty]\).
+Thus this *one explicit pair* simultaneously
+tests the source-polynomial classification,
+saturated normal layers, genuine residual
+attachment, conormal non-lci torsion,
+the dual annihilator layer, and the
+signed proper-cut formula.
+
+The equality of the torsion length
+\(\tau(p_0)=D_2(p_0)=2\) is established
+for this explicit triple. It is **not**
+claimed for arbitrary multiplicities
+or carriers: in general the two modules
+come from different constructions and
+need an actual comparison. The
+Hilbert--Burch and local-duality inputs
+are classical; the displayed calculation
+is a calibration of their combined use.
+Independent mathematical review pending.
+
 ## When a reduced fundamental cycle supplies the quartic equation
 
 Suppose an arbitrary proper homogeneous pair has reduced fundamental

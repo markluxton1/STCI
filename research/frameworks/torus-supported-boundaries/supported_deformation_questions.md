@@ -132,6 +132,19 @@ family with different carriers still
 requires its actual equation source and
 primary extraction.
 
+The [explicit (4,6) proper pair TS5--TS7](../../arguments/torus/fixed_carrier_chow_arrangements.md#an-actual-non-lci-curvilinear-triple-the-conormal-torsion-is-visible)
+has a full marked primary triple
+whose generic transverse algebra is
+curvilinear but whose cusp conormal
+module has torsion \(k[[x]]/(x^2)\).
+The pointwise attachment splits into
+two torsion units and five determinant
+units at that endpoint. It is a
+useful actual-source check on
+the filtration and local-cohomology
+comparisons, not another sole-support
+or arithmetic degeneration claim.
+
 ## Concentrating interior information at the endpoints
 
 The full intrinsic torus limit replaces the interior by a constant endpoint
