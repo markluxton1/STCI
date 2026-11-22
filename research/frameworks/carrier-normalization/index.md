@@ -74,22 +74,47 @@ admissibility, inverse-support control, and conductor descent are separate
 stages. The [Cartier singleton models](#projection-and-conductor-descent-for-the-three-cartier-singleton-models)
 are a restricted necessary classification, not existence results.
 
-The degree exclusions retain their hypotheses. The fixed quartic carrier
-exclusion is in characteristic zero and uses its stated integral-carrier
-setup; it does not imply an unrestricted exclusion of all equation degrees.
-The nonnormal quintic theorem in characteristic zero excludes every mate
-degree when the normalization is Gorenstein; normal quintics and
-non-Gorenstein normalizations are outside that theorem. A separate globally
-ADE quintic theorem excludes sole-supported pairs of degree \((5,8)\) when
-the quintic surface has only rational double points; it does not exclude all
-quintic-octic pairs. See [degree exclusions](degree_exclusions.md),
-[the Gorenstein-normalized quintic proof](../../arguments/carriers/quintic_gorenstein_normalizations.md),
-and [the ADE quintic proof](../../arguments/carriers/quintic_octic_ade_cover_and_triple.md).
+**Read the [full carrier-degree × mate-degree coverage
+map](degree_exclusions.md) before using isolated low-degree results.**
+The complete characteristic-zero theorem excludes every
+**integral quartic carrier with every mate degree**;
+it does **not** settle higher carrier degrees. The
+degree-five and degree-six programs contain
+**several entire all-mate exclusion families**,
+not just the pairs \((5,8)\) and \((6,6)\).
+These results overlap; a special-projection certificate
+already covered by a full normalization theorem
+is valuable proof geometry, but not additional
+disjoint carrier coverage.
 
-The [toric quintic proof](../../arguments/carriers/quintic_toric_center_incidence.md)
-excludes every admissible projection center of the classified marked toric
-source by full inverse support. Non-toric, non-Gorenstein quintic
-normalizations remain among the [open carrier cases](open_carrier_cases.md).
+For degree five, [Gorenstein-normalized
+nonnormal quintics](../../arguments/carriers/quintic_gorenstein_normalizations.md)
+and [toric-normalized quintics](../../arguments/carriers/quintic_toric_center_incidence.md)
+are excluded in **every mate degree**.
+The normal [globally ADE quintic theorem](../../arguments/carriers/quintic_octic_ade_cover_and_triple.md)
+excludes the specified \((5,8)\) case,
+not every normal quintic mate.
+The [all-degree normal-carrier index/Hodge criterion](../../arguments/carriers/normal_carrier_divisor_geometry.md)
+gives necessary exact-index spectra for **any**
+mate degree on a normal quintic; it is not
+a classification of all normal quintics.
+Non-Gorenstein, non-toric quintic normalizations
+remain among the [open cases](open_carrier_cases.md).
+
+For degree six, the [two-lift norm theorem](../../arguments/linkage/two_lift_sextic_exclusion.md)
+and eligible [one-lift conormal theorem](../../arguments/linkage/one_lift_sextic_conormal_exclusion.md)
+exclude **all mate degrees in their carrier sectors**;
+the [split-cone conductor and thick-sextic constraints](../../arguments/carriers/split_sextic_conductor_and_contact.md)
+and [fixed-sextic all-mate valuation theorem](../../results/ci_fixed_sextic_jet_rigidity.md)
+cover further sectors. Separately, **every hypothetical
+\((6,6)\) pair** admits the [normal general-pencil
+reduction](../../arguments/carriers/sextic_pair_reduction.md),
+with an index-nine cyclic cover and strong
+ADE/higher-contact restrictions. This does
+not yield a general normal sextic for a
+fixed \((6,b)\) pair with \(b\ne6\).
+The [remaining sextic strata](open_carrier_cases.md)
+are not retired by the pair-specific theorem.
 
 The elliptic double-inverse construction supplies actual quadratic sections
 and a finite birational octic example. A length-twelve zero
