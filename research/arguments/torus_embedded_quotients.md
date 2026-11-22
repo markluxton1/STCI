@@ -574,3 +574,88 @@ The exact endpoint rank sums, determinants and truncated algebra identities
 used in the embedded quotient examples are covered by the shared replay suite
 in [the sextic Argument evidence](torus_sextic_residuals.md#finite-replay-evidence).
 The finite checks apply only to the displayed examples and do not establish geometric proofs or additional characteristic coverage.
+
+
+## Sole-support constant orbit images are automatically involutive in characteristic zero
+
+**New application, pending independent review.**  Retain the constant
+embedded quotient construction above and assume
+\[
+ B=k[u^{\pm1},v^{\pm1}]/J
+\]
+is supported only at \((u,v)=(1,1)\).  In characteristic zero, the pure
+projective image \(Z_B\) is automatically involutive for the quartic
+symplectic bracket.  Thus involutivity places no additional restriction on
+the finite transverse algebra \(B\) or on the pure endpoint lattices (2)--(5).
+
+On the dense orbit, the
+[explicit transverse calculation](torus/contact_jacobians_and_hamiltonian_actions.md#dense-orbit-contact-is-automatic-after-sole-support-collapse)
+gives, up to an invertible factor,
+\[
+ \{f,g\}_{\rm tr}
+ =(u-v)(f_u g_v-f_vg_u).                              \tag{9}
+\]
+Scheja--Storch implies that the \(2\times2\) Jacobian-minor ideal of the
+finite local algebra \(B\) is its socle if \(B\) is a complete intersection
+and is zero if it is not.  Since \(u-v\) belongs to the maximal ideal,
+\[
+ (u-v)\mathfrak D_K(B/k)=0,
+\]
+so \(J\) is involutive for (9).
+
+It remains to check that no new obstruction appears when the orbit is
+closed across an endpoint.  On \(x_0\ne0\), put
+\[
+ r={x_1\over x_0},\qquad
+ U={x_0^2x_2-x_1^3\over x_0^3}=r^3(u-1),\qquad
+ V={x_0^3x_3-x_1^4\over x_0^4}=r^4(v-1).              \tag{10}
+\]
+For degree-zero rational functions the ambient bracket is, up to the
+invertible factor \(x_0^{-2}\), determined by
+\[
+ \boxed{\quad
+ \{r,U\}_0=-\tfrac12,\qquad
+ \{r,V\}_0=-r,\qquad
+ \{U,V\}_0=-U .
+ \quad}                                                \tag{11}
+\]
+Equivalently
+\[
+\begin{aligned}
+ \{f,g\}_0={}&-\tfrac12(f_rg_U-f_Ug_r)
+ -r(f_rg_V-f_Vg_r)\\
+ &-U(f_Ug_V-f_Vg_U).                                  \tag{12}
+\end{aligned}
+\]
+
+Let \(K_0\subset k[r,U,V]\) be the kernel of the first-chart image map
+\[
+ r\longmapsto r,\qquad U\longmapsto r^3(u-1),\qquad
+ V\longmapsto r^4(v-1)
+\]
+into \(B[r]\).  Because \(B[r]\) has no \(r\)-torsion,
+\[
+ K_0=(K_0)_r\cap k[r,U,V].                             \tag{13}
+\]
+After inverting \(r\), the coordinate change recovers \(u,v\), so
+\((K_0)_r\) is just the extension of \(J\).  Formula (12), transformed
+back to \(u,v\), has the transverse term (9); all other terms in the
+bracket of two elements of the extended ideal retain one of the two ideal
+factors.  Hence \((K_0)_r\) is involutive.  Its contraction (13) is
+therefore involutive as well, since the bracket of two polynomial elements
+of \(K_0\) remains polynomial.
+
+The opposite chart follows from the coordinate reversal
+\[
+ (x_0,x_1,x_2,x_3)\longleftrightarrow(x_3,x_2,x_1,x_0),
+\]
+which preserves \(C\) and changes the symplectic form only by sign.
+The two charts cover \(Z_B\), proving involutivity of its ideal sheaf.
+
+This theorem concerns the **pure constant-orbit image**.  A full flat
+Hilbert limit can contain additional finite embedded endpoint structure
+even when its pure image is \(Z_B\).  The theorem says precisely that the
+contact condition cannot distinguish the pure image: any residual
+quartic-specific contact obstruction at a torus-fixed sole-support boundary
+must live in that finite endpoint correction or in the global presentation
+of the full ideal.
