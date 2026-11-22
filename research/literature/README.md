@@ -1015,3 +1015,29 @@ there is exactly one missing class, represented by
 \((x_3-x_0)^{d-2}(x_1^2-x_2^2)\).  The all-degree placement of the Rao
 class in this particular transverse flag is the project-specific
 application; the Rao-module computation itself is classical.
+
+
+### Scheja--Storch: Kähler different versus the Artin socle
+
+For a finite-dimensional local algebra
+\(A=k[[x_1,\ldots,x_n]]/I\) in characteristic zero, the classical
+Scheja--Storch theorem identifies the Kähler different
+\(\mathfrak D_K(A/k)=\operatorname{Fitt}_0\Omega_{A/k}\):
+it is nonzero exactly when \(A\) is a zero-dimensional complete
+intersection, and then it is the socle of \(A\).  Equivalently, for a
+non-complete-intersection Artin algebra the maximal Jacobian-minor ideal
+vanishes in \(A\).  A modern proof/reference is
+[Ulrich et al., *Duality and socle generators for residual intersections*,
+Theorem 7.1 and Appendix](https://www.math.purdue.edu/~bulrich/papers/Duality-and-Socle-180119.pdf);
+the same theorem is summarized in Vasconcelos' survey on Jacobian ideals.
+
+This is the strongest established input in the
+[dense-orbit contact calculation](../arguments/torus/contact_jacobians_and_hamiltonian_actions.md#dense-orbit-contact-is-automatic-after-sole-support-collapse).
+For the quartic's induced transverse Poisson bracket,
+\(\{u,v\}\) is a unit times \(u-v\).  Since \(u-v\) belongs to the maximal
+ideal at the sole-support point \((1,1)\), it kills the Kähler different in
+the CI case and the different is already zero in the non-CI case.
+Accordingly every finite transverse ideal supported at \((1,1)\) is
+automatically involutive.  The project-specific content is the explicit
+transverse bracket and its consequence for where the global contact
+obstruction can live, not the Scheja--Storch theorem.
