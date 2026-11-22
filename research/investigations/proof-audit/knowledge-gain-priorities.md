@@ -516,6 +516,40 @@ This does not close the normalization, fixed-endpoint or embedded-kernel tests.
 
 The [actual-pair attachment comparison](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) closes the local duality part of KG09: constrain the first attachment quotient by the actual homogeneous source, rather than seek a direct higher-local-cohomology map from a module already supported on the curve. The [toric primary calculation](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) gives an all-order calibration for KG02 on the already classified carrier; new work must change the carrier or actual equation incidence. For KG03, reduced attachment and full thick attachment can move in opposite directions. For KG04, [complementary-layer defects](../../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) and [signed interior transfer](../../arguments/residuals/blowup_residual_geometry.md#signed-finite-transfer-throughout-the-interior-equality-boundary) give concrete lower bounds and a canonical ideal target, subject to actual-primary hypotheses. Prioritize new constraints on these shared targets, not additional isolated sextic exclusions. Revisit rankings after independent review.
 
+### Further source-first refinement
+
+The [finite-image border-product gate](../../arguments/residuals/blowup_residual_geometry.md#finite-index-rigidity-of-higher-marked-jets)
+is an exact local complement to
+the determinant and resultant tests:
+on the primitive marked edge its
+correct index comes from the actual
+finite modification, while extra
+products can violate the image-algebra
+condition. For \(q\ge3\) the first
+base jet of its smooth equation has
+only the permitted \(xv\) term modulo
+\(v^q\); endpoint line contact adds
+a second-jet coefficient. This is
+currently conditional on marked
+primitivity and does not affect the
+still-open nonprimitive mixed sextic
+row. It gives a narrow but *mechanism-level*
+test for actual source coverage.
+
+The [R0019 residual-corrected extension](../../arguments/normal-geometry/actual_equation_filtration.md#residual-corrected-r0019-and-the-actual-equation-source)
+is independently calibrated by the
+[explicit \((4,6)\) non-lci triple](../../arguments/torus/fixed_carrier_chow_arrangements.md#an-actual-non-lci-curvilinear-triple-the-conormal-torsion-is-visible).
+The serious remaining general challenge
+is a constraint on the \(Q_1\) attachment
+quotient *from* the actual homogeneous
+source: a positive complement-layer
+defect is already sufficient for
+some actual residual, but no theorem
+forces one in all degree pairs.
+Treat the toric example as a
+hypothesis test, not a basis for
+a universal monotonicity claim.
+
 ## Current choice and reassessment
 
 Retain KG02 provisionally. The \((5,4)\) sextic probe remains excluded, and the [contact/index plus mixed Hodge obstruction](../../arguments/torus/fixed_surface_restriction_lifts.md#the-sextic-symmetric-arrangement-must-escape-ade-at-an-endpoint) closes all three other partitions with both endpoints smooth or Du Val, pending independent audit. The next gate is the actual symmetric sextic locus with a worse endpoint, not another unrestricted coefficient sweep or global ADE enumeration. The all-degree almost-Cartier theorem and the local projection of the orbit lattice have independent value beyond this particular construction test. 

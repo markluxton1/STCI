@@ -136,6 +136,29 @@ not direct higher local cohomology of an already supported conductor.
 These statements retain their actual-source hypotheses. A shared numerical
 budget or related terminology does not supply a missing comparison map.
 
+**New determinant-to-algebra distinction (pending review).**
+The [marked border-product test](../../arguments/residuals/blowup_residual_geometry.md#finite-index-rigidity-of-higher-marked-jets)
+turns the fixed finite quotient length into actual
+multiplication constraints. It rules out
+first base jets \(xv^i\) for \(2\le i<q\)
+in the primitive marked chart, up to
+the allowed \(xv\) correction.
+The [toric canonical index](../../arguments/torus/chow_matched_equation_layers.md#the-same-determinant-versus-structure-gap-in-a-finite-image-algebra)
+is an index of equation modules rather
+than of this finite primary algebra,
+but its same-index/different-layer
+controls show why **neither** determinant
+alone reconstructs an actual ideal.
+The [residual-corrected R0019 formula](../../arguments/normal-geometry/actual_equation_filtration.md#residual-corrected-r0019-and-the-actual-equation-source)
+and the [explicit toric triple](../../arguments/torus/fixed_carrier_chow_arrangements.md#an-actual-non-lci-curvilinear-triple-the-conormal-torsion-is-visible)
+now provide a general theorem and
+actual proper-pair control across
+the residual/formal-normal boundary.
+An equation-to-\(Q_1\) nonvanishing
+theorem is still missing; these
+are tested interfaces, not a
+complete exclusion.
+
 ### Positive restrictions and transport
 
 - [Elliptic inverse and descent](../../arguments/carriers/elliptic_double_inverse_construction.md#an-intersection-bound-and-the-missing-descent-step):

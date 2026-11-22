@@ -17,6 +17,30 @@ quintics on \(V_5\) give an equivalent equation problem with an explicit
 test for the contracted trisecant. [Connected directions](results/connected_normal_directions.md#statement) ·
 [Actual equation correspondence](arguments/residuals/blowup_residual_geometry.md#actual-equations-on-the-zero-direction-edge).
 
+### From candidate lattices to actual algebras and proper cuts
+
+The [marked border-product theorem](arguments/residuals/blowup_residual_geometry.md#finite-index-rigidity-of-higher-marked-jets)
+exposes another exact failure mode of
+determinant-only equation tests:
+a full-rank lattice of the correct
+finite index need not be closed under
+multiplication. On the primitive
+marked \((3p,4q)\) edge the
+first base jet is forced to be
+linear modulo the \(q\)-th normal
+power. The [R0019 extension](arguments/normal-geometry/actual_equation_filtration.md#residual-corrected-r0019-and-the-actual-equation-source)
+shows how the saturated normal-cut
+formula changes with real residual
+curves, subtracting the marked
+attachment. The [actual \((4,6)\) triple](arguments/torus/fixed_carrier_chow_arrangements.md#an-actual-non-lci-curvilinear-triple-the-conormal-torsion-is-visible)
+checks the complete interface,
+including torsion of the primary
+conormal module. These do not
+identify the torus-endpoint Sylvester
+index with the marked finite-image
+index, or automatically convert
+a formal defect into \(Q_1\ne0\).
+
 ### A shared attachment and finite-transfer interface
 
 The [layerwise attachment duality](arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) relates saturated normal defects of an actual curvilinear full primary to its genuine residual attachment. The [annihilator-layer comparison](arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) identifies the actual attachment equation quotient, with its adjunction twist, as the local Matlis dual of a layer of the pairwise local-cohomology defect. These give a common obstruction target rather than a universal nonvanishing theorem. The [signed finite-transfer identity](arguments/residuals/blowup_residual_geometry.md#signed-finite-transfer-throughout-the-interior-equality-boundary) extends the graph calculation across the interior equality boundary, allowing an image residual conic; its [canonical ideal version](arguments/residuals/blowup_residual_geometry.md#local-canonical-ideal-version-and-several-marked-points) retains the actual ideal. The [classified toric primary calculation](arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) shows that full attachment length can rise while residual degree falls. Rank-one layer formulas require generic curvilinearity; the attachment-module comparison does not. Independent review pending.
