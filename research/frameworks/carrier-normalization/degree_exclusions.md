@@ -1098,6 +1098,102 @@ residual bound at \((8,8)\) with normal orders \((2,2)\).
 Thus the all-degree generic-singular-carrier regime cannot be
 discarded merely by extrapolating the sextic reduction.
 
+### The unrestricted \((6,6)\) theorem is stronger than mere nonprimitivity
+
+The [all-pair sextic proof](../../arguments/carriers/sextic_pair_reduction.md#the-common-first-normal-divisor-must-be-nonreduced)
+already proves something **strictly
+stronger** than the Ellia
+primitive exclusion or the
+existence of a nonempty defect
+divisor:
+
+\[
+ \boxed{\text{For every hypothetical
+ characteristic-zero sole-supported
+ \((6,6)\) pair, the common
+ first-normal gcd divisor \(B_1\)
+ is nonreduced.}}
+\]
+This holds with **no ADE or
+normality hypothesis on the
+original generators**.
+
+Its proof is already a model
+of the desired generalization
+mechanism. If \(B_1\) were
+reduced, choose a general
+**normal** sextic pencil
+member. Its moving simple
+first-symbol roots have
+marked \(A_8^1\)
+singularities, while the fixed
+simple roots are
+\(A_2^1\), with distinct
+multiplication defects.
+The exact CI/socle budget
+forces the following *entire*
+singularity profile:
+
+| Saturated \(\ell\) | Fixed \(A_2\) | Moving \(A_8\) | ADE root rank |
+| ---: | ---: | ---: | ---: |
+| 5 | 3 | 12 | 102 |
+| 6 | 7 | 9 | 86 |
+| 7 | 11 | 6 | 70 |
+
+The sextic ADE root-rank
+ceiling \(85\) eliminates
+the first two rows; the
+last has \(D_2=0\) in the
+forbidden constant-direction
+primitive triple, eliminating
+it too. Therefore the
+**remaining** sextic
+problem must have a
+**multiple common-symbol
+zero**, not merely some
+shared singular point.
+
+This is an important
+up-and-down synthesis:
+the **classical**
+primitive-degree theorem
+says a defect is necessary;
+the **actual-pair**
+first-normal geometry
+says it must be nonreduced;
+the **global surface
+rank and local triple**
+arguments eliminate every
+reduced-defect configuration.
+The still-open nonreduced
+case admits genuine
+local finite-flat control
+models; it cannot be
+deleted by the primitive
+theorem or normal
+Hodge equality alone.
+
+For arbitrary \((5,b)\)
+the classical theorem
+similarly forces a
+nonempty common-singular
+divisor, and the mixed
+normal-replacement lemma
+identifies moving
+\(A_{m-1}\) points.
+But no general
+**nonreducedness** theorem
+for every quintic mate
+degree follows from these
+facts alone; the sextic
+rank/triple argument
+has essential special
+numerical input. That
+precise distinction,
+rather than an unqualified
+analogy, should guide
+the proof consolidation.
+
 ### The first actual pair where both normal-carrier reductions can fail is \((6,8)\)
 
 The two established geometries now fit together
