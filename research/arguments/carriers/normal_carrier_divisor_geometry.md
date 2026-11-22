@@ -568,94 +568,25 @@ the normalization/branch geometry.
 
 ## 4.7 Unequal-degree pairs can acquire an actual normal carrier
 
-**Status: new consequence of classical Bertini, with exact proof
-below; mathematical re-review required.**
-This is a separate reduction from the already accepted
-equal-degree \((6,6)\) normal-pencil argument.
-Use [Kleiman, *Bertini and his two fundamental
-theorems*](https://arxiv.org/abs/alg-geom/9704018),
-for the irreducible/general-member and
-smoothness-away-from-base statements.
+**Status:** unified all-degree consequence of classical Bertini and Serre's criterion; independent mathematical review required. Equal degrees are included.
 
-**Mixed-degree normal-replacement lemma.**
-Work over an algebraically closed field of
-characteristic zero. Let \(a<b\) and let
-\(F_a,G_b\) be *any* coprime homogeneous
-forms such that their proper complete
-intersection has **sole reduced support**
-the smooth \(C_0\). Suppose at least one
-of \(F,G\) has **generic normal order
-one** along \(C_0\). Then an actual
-degree-\(b\) generator of the same
-complete-intersection ideal can be
-chosen **integral and normal**:
+**Normal-replacement theorem (NR1).** Over an algebraically closed field of characteristic zero, let \(C\subset\mathbf P^3\) be any smooth integral curve and let homogeneous forms \(F_a,G_b\), \(a\le b\), define a proper intersection with sole reduced support \(C\). Set
 \[
- \boxed{K_b=\lambda G_b+F_a L_{b-a},
- \quad\lambda\ne0,\quad
- V(F_a,K_b)=V(F_a,G_b),\quad
- V(K_b)\text{ normal integral}.}            \tag{NR1}
+ W=kG_b+F_aH^0(\mathbf P^3,\mathcal O(b-a)).
 \]
-
-**Proof.** Put \(d=b-a\ge1\) and
-consider the projective linear system
+Then a general member of \(W\) is normal integral if and only if at least one of \(F,G\) has generic normal order one along \(C\). In this case a general member has the form
 \[
- W=kG_b+F_aH^0(\mathbf P^3,\mathcal O(d))
- \subset H^0(\mathbf P^3,\mathcal O(b)).
+ K_b=\lambda G_b+F_aL_{b-a},\qquad
+ \lambda\ne0,\qquad (F_a,K_b)=(F_a,G_b).
+ \tag{NR1}
 \]
-Its *set-theoretic base locus* is exactly
-\(C_0\): where \(F\ne0\), some degree-\(d\)
-form is nonzero; where \(F=0\), every
-point outside \(C_0\) has \(G\ne0\).
-There is no fixed divisor because a
-common hypersurface factor of all
-members would divide both \(F\) and
-\(G\), violating properness. On the
-dense open \(D(F)\), the rational map
-of \(W\) contains the full degree-\(d\)
-Veronese coordinates from the
-ratios of \(FL_i\); hence its image
-has dimension three, so the system
-is **not composed with a pencil**.
-Classical characteristic-zero
-Bertini irreducibility makes a
-general member integral, while
-Bertini smoothness makes it smooth
-away from \(C_0\). Its generic
-first-normal symbol along \(C_0\)
-is nonzero for general \((\lambda,L)\):
-this follows from the hypothesis
-that \(F\) or \(G\) has normal order
-one (and \(L|_{C_0}\ne0\) generically
-when needed). Thus it is regular
-at the generic point of \(C_0\);
-all its singularities are isolated.
-An integral hypersurface in
-\(\mathbf P^3\) satisfies \(S_2\),
-so Serre's \(R_1+S_2\) criterion
-makes it normal. The open
-\(\lambda\ne0\) gives
-\((F,K)=(F,G)\). No integrality
-of the original \(F\) or \(G\),
-and no normality of the smaller
-carrier, was assumed. \(\square\)
+In equal degrees this is precisely the original pencil; two independent general members are normal and define the same CI ideal.
 
-**Sharp scope.** When \(a=b\),
-\(W\) is only the original pencil
-and the non-pencil Bertini
-irreducibility argument fails;
-the sextic equal-degree proof
-uses its separate factorization
-argument. When **both** generators
-have generic normal order at least
-two, (NR1) does not produce a
-normal carrier: every member of
-\(W\) is then generically singular
-along \(C_0\). The
-[quadric normal-order bound](../carriers/sextic_pair_reduction.md#why-every-pair-is-generically-curvilinear)
-implies **every** hypothetical
-\((5,b)\) pair satisfies (NR1),
-because a degree-five generator
-cannot have normal order two.
+**Proof.** The base support of \(W\) is exactly \(C\): away from \(V(F)\) some degree-\((b-a)\) form is nonzero (also for \(a=b\)), while on \(V(F)\setminus C\), \(G\ne0\). The system has no fixed surface. The characteristic-zero theorem on variable singular points ([Kleiman, *Bertini and his two fundamental theorems*, Theorem 4.1](https://arxiv.org/abs/alg-geom/9704018)) makes a general member smooth away from \(C\). Its first-normal symbol at the generic point of \(C\) is nonzero on a nonempty parameter open if either original first symbol is nonzero: multiplication by a general \(L\) does not kill the \(F\) symbol. Thus the general member is regular at every codimension-one point. A nonzero hypersurface is Cohen–Macaulay, hence \(S_2\); Serre's criterion gives normality without a prior irreducibility hypothesis. Every positive-degree hypersurface of \(\mathbf P^3\) is connected (by the hypersurface exact sequence, \(H^0(\mathcal O_{V(K)})=k\)); a connected normal Noetherian scheme is integral. Finally \(\lambda\ne0\) is a nonempty open condition and gives the ideal equality. Conversely, if both symbols vanish generically, every member is singular at the generic point of \(C\), a codimension-one point, so cannot be normal. \(\square\)
+
+**What does the work.** The precise inputs are the base support, characteristic-zero Bertini smoothness, and generic regularity at its curve component. Neither the dimension of the system's image, a non-pencil Bertini irreducibility hypothesis, the degree-four exclusion, nor any degree bound is needed. The local condition is intrinsic to the CI: its generic transverse Artin algebra has embedding dimension at most one, equivalently at least one generator has order one. For multiplicity \(m>1\) this is generic curvilinearity. When the generic embedding dimension is two, no change within this generator system gives a normal member. This does not rule out other presentations of the same *reduced support* in different degrees. No positive-characteristic extension is asserted.
+
+For the fixed quartic, the [quadric normal-order bound](sextic_pair_reduction.md#why-every-pair-is-generically-curvilinear) implies that every hypothetical \((5,b)\) pair satisfies NR1. The graph bound supplies this hypothesis for every \((6,6)\) pair. In contrast the entirely-thick \((6,8)\) regime remains outside NR1.
 
 **Consequences of the existing exact index theorem.**
 On the new normal degree-\(b\)
@@ -725,111 +656,22 @@ mixed-sextic exclusion is claimed.
 
 ### Equal-degree pencils below degree ten: the sextic proof extends to octics
 
-This is a direct **all-degree
-factor argument** specialized to
-the first possible equal
-degrees, not a new
-surface-classification theorem.
-
-Suppose \(V(F_d,G_d)_{\rm red}=C\)
-and \(5\le d<10\),
-over an algebraically closed
-characteristic-zero field.
-For any nonzero member
-\(H=\lambda F+\mu G\)
-choose an independent member
-\(J\). The ideal \((H,J)\)
-equals the original CI ideal.
-Every irreducible factor \(h\)
-of \(H\) then has a
-proper sole-\(C\)-support
-mate \(J\), so the complete
-degree-\(\le4\) exclusions
-force \(\deg h\ge5\).
-Two factors, or a repeated
-factor, would require
-\(\deg H\ge10\).
-Thus **every member of the
-pencil is integral**.
-
-Classical Bertini gives
-smoothness away from \(C\)
-for a general member,
-since the pencil's base
-support is \(C\). If
-the two first-normal
-symbols are not both
-identically zero,
-a general member also has
-normal order one
-generically along \(C\).
-Serre's \(R_1+S_2\)
-criterion therefore makes
-it **normal**. This
-recovers the existing
-normal-pencil theorem
-for \((6,6)\) after
-the graph bound rules
-out orders \((2,2)\),
-but the **factor and
-Bertini steps themselves
-are valid for all \(5\le
-d\le9\)**.
-
-The Bézout requirement
-\(4\mid d^2\) leaves
-only \((6,6)\) and
-\((8,8)\) in this range
-(after the quartic
-exclusion). Thus for a
-hypothetical \((8,8)\)
-pair with at least one
-normal order-one generator,
-the general member is
-a **normal integral octic**.
-The mate cuts \(16C\sim8H\).
-Its primitive class
+The separate factor result concerns **every** member of a generator system, not the normality of a general member. It also has a stronger arithmetic formulation. If a proper sole-\(C_0\) pair has degrees \((a,b)\), \(a\le b\), every irreducible factor \(h\) of an actual degree-\(b\) replacement \(K_b\) with \((F_a,K_b)=(F_a,G_b)\) has an actual mate \(F_a\). Hence
 \[
- \Delta=2C-H
+ \deg h\ge5,\qquad 4\mid a\deg h.
 \]
-has order \(t\mid8\).
-The exact-index theorem
-says \(b_{\min}=t\);
-the all-degree degree-\(\le4\)
-exclusion implies
-\(b_{\min}\ge5\).
-Hence \(t=8\) and
-\[
- \boxed{\quad R=16,\qquad
- \operatorname{ord}(2C-H)=8
- \quad\text{on the normal octic}.}      \tag{EQ8}
-\]
-This is a **necessary**
-condition only. The
-*entirely order-two*
-\((8,8)\) sector
-does not acquire a normal
-member from this argument:
-the graph residual bound
-is nonpositive there,
-and no final exclusion
-has been proved.
+The first condition uses the complete quartic carrier exclusion; the second uses degree exhaustion. Define \(n_a\) to be the least integer at least five divisible by \(4/\gcd(a,4)\). Thus \(n_a=5,6,8\) when \(a\equiv0,2,\text{odd}\pmod4\), respectively. If \(b<2n_a\), every such \(K_b\) is integral, including absence of repeated factors. For an equal-degree pencil the argument applies to **every nonzero member** by choosing an independent pencil mate.
 
-The transition at degree ten
-is structural: a pencil member
-may first factor as a product
-of two degree-five carriers.
-The no-low-factor theorem
-alone no longer forces
-every equal-degree pencil
-member to be integral.
-It remains possible to
-apply irreducible general
-member Bertini under
-additional hypotheses;
-one must not infer it
-from the factor bound
-alone.
+For \((d,d)\), Bézout requires even \(d\). All possible equal-degree pencils with \(d=6,8,10\) therefore have integral members: at \(d=10\), a quintic factor is forbidden by \(4\nmid50\). The first numerical equal-degree factorization threshold of these two bounds is **12**, not ten. At \(d=12\) degrees \(6+6\), for example, are not excluded by these bounds alone. This is not a construction or assertion of existence. For arbitrary degrees, NR1 gives general-member normality independently of this arithmetic factor threshold.
+
+One can remove the factor threshold by minimizing the degree product of a hypothetical supported pair: any reducible or nonreduced generator of the same degrees supplies a smaller-degree factor with the other generator as mate, contradicting minimality. In particular every member of an equal-degree pencil of a degree-product-minimal pair is integral, without a degree restriction. The new pair obtained by factor descent need not define the original thick scheme; only support is preserved.
+
+For a hypothetical \((8,8)\) order-one pair NR1 gives a normal octic, with \(16C_0\sim8H\). The exact index theorem applied to its primitive class \(2C_0-H\) gives \(t\mid8\) and \(b_{\min}=t\). The quartic exclusion forces \(t\ge5\), hence \(t=8\), and \(R/\gcd(R,2)=8\), \(R\mid16\) give
+\[
+ \boxed{R=16,\qquad \operatorname{ord}(2C_0-H)=8.}
+ \tag{EQ8}
+\]
+This is an index necessity, not nonexistence. Neither NR1 nor the graph bound handles every entirely-thick \((8,8)\) pair. For higher degrees minimal mate degree need not equal the degree of the given mate merely for arithmetic reasons; the moving-root result below gives a separate sufficient condition.
 
 ### A stronger all-\(b\) quintic consequence: forced high indices on the **other** surface
 
