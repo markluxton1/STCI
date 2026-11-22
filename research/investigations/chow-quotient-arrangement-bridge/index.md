@@ -4,6 +4,35 @@
 **Status:** explicit quotient fan, normalized toric graph fan with two endpoint sections, and endpoint-Hilbert calculation completed; complementary (V_5) contraction across the boundary and general two-equation realization not constructed.  
 **Scope:** fixed smooth rational quartic \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\); prioritize geometry and actual equations, not new infrastructure. No STCI claim in characteristic zero.
 
+
+## Primary Chow realization and first-moment separation
+
+For repeated curves the primary space remains the unordered cycle space
+\(\operatorname{Sym}^m T\), with its multiplication-of-Chow-forms map.
+The Hilbert or moving transverse-algebra lift is auxiliary, not a
+replacement for the cycle space. Forgetful maps are not required at
+this stage. The [moment separation argument](../../arguments/torus/chow_realization_moment_separation.md)
+records the unrestricted resultant incidence, the normalized projective
+product locus, and the power locus \(m[C_z]\).
+
+The proposed low-degree proofs awaiting independent review use an
+irreducible extreme component to obtain a proper invariant initial
+complete intersection with unchanged Chow point. They give the entire
+(3,4) cycle locus by two constant-character families cut by
+\(M_1=\sum n_i u_i/v_i=0\), and cover every (4,4) multiple-support
+realization by this degeneration or the exceptional opposite-parameter
+linkage argument. The (4,4) small diagonal is independently excluded
+by R-0022; a direct proof of the moment identity on that diagonal remains
+missing. In all degrees the moment hypersurface is disjoint from the
+interior small diagonal in characteristic zero. Projective boundary
+power cycles can be common limits.
+
+The next mathematical question of this activity is coverage of the
+moment identity for unrestricted proper pairs, not a forced construction
+of marked Hilbert forgetful morphisms. Preserve the distinction between
+the proper-CI cycle image and its projective closure.
+
+
 ## Motivation and the three genuinely different parameter spaces
 
 The [full Chow-polytope rigidity theorem R-0074](../../results/chow_polytope_rigidity.md) says that the cycles with full column-weight polytope \(mP_C\) are exactly effective sums of \(m\) diagonal translates of \(C\). This is a strong **cycle** classification, not a classification of reduced unions, their blow-ups, or equations.
