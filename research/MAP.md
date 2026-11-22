@@ -409,3 +409,48 @@ come from the reduced one-plane restriction space alone.  It must see the
 terminal transverse jet, variation among planes, or another simultaneous
 global condition.  Properness and common residual support still have to be
 checked for pairs.
+
+
+### Moving-depth source constraints and the contact boundary correction
+
+Two of the current all-degree interfaces now have sharp negative boundaries.
+
+First, the
+[terminal hyperplane-jet theorem](arguments/equations/global_equation_jets.md#a-terminal-hyperplane-jet-defect-in-every-degree)
+is independent of the chosen nonzero hyperplane section: for every linear
+\(\ell\) nonzero on \(C\), degree-\(d\) equations through \(C\) realize every
+compatible jet on \(V(\ell^e)\) for \(e\le d-2\), and the first cokernel is
+one-dimensional at \(e=d-1\).  Together with the existing fixed-depth
+center-jet surjectivity for \(d\ge N+2\), this proves a **moving-depth
+principle**: no obstruction depending on a bounded transverse jet can scale
+to arbitrary equation degree.  The first global source information that
+survives uniformly appears at depth proportional to \(d\), represented on
+the symmetric flag by the Rao residue of
+\((x_3-x_0)^{d-2}(x_1^2-x_2^2)\).
+
+Second, the
+[dense-contact and constant-orbit calculations](arguments/torus/contact_jacobians_and_hamiltonian_actions.md#dense-orbit-contact-is-automatic-after-sole-support-collapse)
+show that involutivity is automatic on every finite transverse algebra
+supported at the sole-support point, by Scheja--Storch, and remains
+automatic on its pure constant-orbit projective image.  The
+[full-limit theorem](arguments/torus_hilbert_boundary.md#involutivity-persists-through-the-full-torus-boundary)
+shows that both full intrinsic torus limits of a hypothetical supported CI
+would nevertheless remain involutive.  Therefore contact can distinguish a
+torus boundary only through the finite embedded endpoint correction
+\(T=I_Y/I_L\) or through the global homogeneous presentation.
+
+The remaining contact condition has the finite form
+\[
+ \kappa_L:\bigwedge^2(I_L/I_L^2)\longrightarrow T,\qquad
+ \bar f\wedge\bar g\longmapsto\{f,g\}\bmod I_L.
+\]
+A candidate full boundary is involutive exactly when \(\kappa_L=0\).
+R-0070 determines the two endpoint **lengths** of \(T\) but not this map.
+Thus another scalar length calculation cannot advance the contact route;
+one must recover the actual endpoint correction algebra or its
+weight-graded minimal generators.
+
+These two conclusions point in the same direction.  The surviving
+all-degree information is not a fixed local normal form: it is
+degree-scaled source compatibility together with finite global gluing at
+the torus endpoints.
