@@ -108,18 +108,58 @@ quintic is nonnormal.
 For \(b=4n\), the exact index theorem
 then forces an order-five primitive
 class \(\Delta=nC_0-H\) with
-\(R/\gcd(R,n)=5\); the all-degree
-slope bound forces the degree-eight,
-twelve, sixteen and twenty
-indices \(R=10,15,\{10,20\},25\),
-respectively. These are **necessary
-high-index targets**, not proof that
-the pairs exist or are excluded.
+\(R/\gcd(R,n)=5\). **The actual
+first-symbol movement improves this
+to an exact statement**:
+for the *general normal larger
+generator* the local moving
+\(A_{5n-1}\) points force
+\(\boxed{R=5n}\).
+Thus \(R=10,15,20,25\)
+at larger degrees \(8,12,16,20\),
+respectively. The local moving
+singularities can produce
+these large indices
+**automatically**; this is
+a realization reduction and
+defect-localization tool,
+**not** an exclusion.
 See the [full lemma and proof](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
 and [carrier-degree synthesis](degree_exclusions.md#normal-carrier-replacement-across-unequal-defining-degrees).
 Equal-degree pencils and mixed pairs
 with both orders at least two retain
 their separate analysis.
+
+**Classical primitive starting point.**
+[Ellia (2015), Theorems 12 and 15,
+Corollary 16](../../literature/README.md#ellia)
+already gives stronger uniform
+marked \(A_n^k\) normal
+surface geometry for a
+**primitive** CI and a
+finite list of ten primitive
+rational-quartic degree pairs.
+None has a degree-five
+generator or is \((6,6)\).
+Consequently every
+hypothetical pair of those
+degrees has a
+**common singular point on
+\(C_0\)**; for quintic
+pairs the intersection
+is generically curvilinear
+but nonprimitive at
+finitely many points.
+This does **not** prove the
+unrestricted common-singular
+point assertion. The new
+mixed Bertini lemma allows
+those finitely nonprimitive
+points, whereas Ellia's
+stronger primitive theorem
+requires a smooth containing
+surface locally at
+**every** point.
 
 For degree five, [Gorenstein-normalized
 nonnormal quintics](../../arguments/carriers/quintic_gorenstein_normalizations.md)
