@@ -50,7 +50,7 @@ initial ideal. The [filtration account](../formal-normal-geometry/normal_filtrat
 separates generic cancellation from failure of relations to extend at a
 special point of \(C\).
 
-The [normalized branch dictionary](../../arguments/carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) makes the generic length formula compatible with the actual first graph on a specified integral carrier. If (e_i,f_i,n_i) are the branch ideal valuation, mapping degree and mate valuation, then (p=sum e_if_i), (m=sum n_if_i), and the coefficient of each horizontal first-normal root on the strict intersection is the pushforward of (n_i-qe_i). Special exceptional coefficients record the normalized principalization corrections, not the Rees valuations of the full CI ideal. The exact marked-ideal Hodge gap and [ruling-cluster matrix test](../../arguments/carriers/numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) constrain these same vectors. These new comparisons are pending independent review.
+The [normalized branch dictionary](../../arguments/carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) makes the generic length formula compatible with the actual first graph on a specified integral carrier. If \((e_i,f_i,n_i)\) are the branch ideal valuation, mapping degree and mate valuation, then \(p=\sum_i e_if_i\), \(m=\sum_i n_if_i\), and the coefficient of each horizontal first-normal root on the strict intersection is the pushforward of \(n_i-qe_i\). Special exceptional coefficients record the normalized principalization corrections, not the Rees valuations of the full CI ideal. The exact marked-ideal Hodge gap and [ruling-cluster matrix test](../../arguments/carriers/numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) constrain these same vectors. These new comparisons are pending independent review.
 
 ## 2.2 The common graph and its two contractions
 
@@ -90,6 +90,8 @@ The weaker condition \(\phi(W)\subset\Sigma\) is insufficient:
 \(\phi^{-1}(\Sigma)=E\cup Q'\), and trisecant residual lines in \(Q'\)
 contract to points under \(\phi\). An exceptional curve is not automatically
 an additional component downstairs.
+
+The [ample strict-carrier compression](../../arguments/residuals/blowup_residual_geometry.md#lefschetz-compression-on-ample-strict-carriers) transfers the actual-index method to a smooth sole-support strict intersection on the first blowup. If its multiplicity is \(c\) and the ample strict carrier is generically regular along it, then its index lcm \(R\) satisfies \(c/R\mid\gcd(a,p)\). Under the stated section-lifting inequalities, a nontrivial quotient gives a lower-degree ambient mate. On the \((3p,4q)\) edge with \(p\le q\) those inequalities hold. In particular the entirely-thick \((6,8;2,2)\) case has a generically curvilinear first strict intersection, a normal general strict octic and an actual index-eight point (LC4). This uses R-0077 and the characteristic-zero low-degree exclusion; it neither proves normality of the original octic nor excludes the pair. Review pending.
 
 ## 2.3 Numerical capacity and its precise meaning
 

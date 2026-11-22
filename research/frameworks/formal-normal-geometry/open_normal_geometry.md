@@ -66,6 +66,8 @@ smooth multisection requires its actual normal bundle. When components
 meet, their strict transforms also enter the next intersection cycle.
 [Second-blowup bound and its remaining hypotheses](../../results/connected_normal_directions.md#bounding-the-orders-after-blowing-up-the-section).
 
+The [ample strict-carrier compression](../../arguments/residuals/blowup_residual_geometry.md#lefschetz-compression-on-ample-strict-carriers) transfers the actual-index method to a smooth sole-support strict intersection on the first blowup. If its multiplicity is \(c\) and the ample strict carrier is generically regular along it, then its index lcm \(R\) satisfies \(c/R\mid\gcd(a,p)\). Under the stated section-lifting inequalities, a nontrivial quotient gives a lower-degree ambient mate. On the \((3p,4q)\) edge with \(p\le q\) those inequalities hold. In particular the entirely-thick \((6,8;2,2)\) case has a generically curvilinear first strict intersection, a normal general strict octic and an actual index-eight point (LC4). This uses R-0077 and the characteristic-zero low-degree exclusion; it neither proves normality of the original octic nor excludes the pair. Review pending. The next comparison is therefore the actual local socle and symbolic powers on the section of normal bundle \(\mathcal O(d)\oplus\mathcal O(7-d)\), subject to the global equations on \(B\); the original balanced-normal-bundle obstruction on \(C\) cannot be copied without checking its new hypotheses.
+
 ## Punctual relative defect under sole support
 
 For a smooth integral marked curve \(C\) in a smooth threefold, let
