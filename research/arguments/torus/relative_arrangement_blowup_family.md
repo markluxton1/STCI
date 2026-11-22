@@ -453,7 +453,279 @@ The endpoint defects are necessary filters
 for reduced CIs, but not for arbitrary
 thickenings with the same reduced support.
 
-## 7. The moduli quotient and next geometric contractions
+## 7. Direct fiberwise Rees blow-ups: a completed two-curve model
+
+The direct construction (3) is more tractable than its general
+base-change caution suggests. For **two distinct curves**,
+its local ideal and every Rees chart can be written explicitly.
+This solves the direct-family specialization problem for \(m=2\)
+after a finite, concrete stratification.
+
+At \(p_0\), write \(r=x_1/x_0\), \(y=x_2/x_0\),
+\(z=x_3/x_0\), and subtract the first branch:
+\[
+ Y=y-u_1r^3,\quad Z'=z-v_1r^4,\quad
+ a=u_2-u_1,\quad b=v_2-v_1.
+\]
+The two curve ideals are \((Y,Z')\) and
+\((Y-ar^3,Z'-br^4)\).
+
+**Proposition (local complete-intersection ideal for two branches).**
+If \(a\ne0\), the **scheme-theoretic intersection of
+their ideals** is
+\[
+ \boxed{I_{A_Z,p_0}
+   =\left(Z'-\frac ba rY,\quad Y(Y-ar^3)\right).}\tag{18}
+\]
+If \(a=0\), then \(b\ne0\) (since the points are
+distinct), and
+\[
+ \boxed{I_{A_Z,p_0}
+   =\left(Y,\quad Z'(Z'-br^4)\right).}\tag{19}
+\]
+Thus, after an invertible local coordinate change,
+the ideal at either endpoint has the standard form
+\[
+ \boxed{I=(z',\,y'(y'-a'r^c)),\qquad
+        a'\in k^\times,\quad c\in\{3,4\}.}\tag{20}
+\]
+
+**Proof.** If \(a\ne0\), the first generator of
+(18) vanishes identically on both branches.
+Modulo that generator, the two branch ideals
+are the principal ideals \((Y)\) and
+\((Y-ar^3)\) in \(k[[r,Y]]\).
+Those distinct irreducibles are relatively
+prime in this UFD, so their intersection
+is their product. The same argument with
+\(Y=0\) gives (19). Both resulting
+ideals are regular sequences in the
+regular threefold local ring. \(\square\)
+
+At the opposite endpoint use the regular
+coordinates
+\[
+ (w,y',z')=(x_2/x_3,x_1/x_3,x_0/x_3)
+\]
+and parameters
+\((\alpha_i,\beta_i)=(v_i^2/u_i^3,v_i^3/u_i^4)\).
+Exactly the same proof applies: \(c=3\)
+when \(\alpha_1\ne\alpha_2\), and \(c=4\)
+otherwise.
+
+Consequently the two-curve configuration
+space has a **finite four-case stratification**
+according to whether \(u_1=u_2\) and
+whether \(\alpha_1=\alpha_2\). On each
+nonempty stratum the universal union is
+a *relative regular immersion of codimension two*:
+near both endpoints the generators (18)–(19)
+are relative regular sequences, and elsewhere
+the curves are disjoint smooth sections
+of the orbit-curve family. Its coordinate
+ring is flat over the base stratum (locally
+free of rank two over the formal \(r\)-disk,
+using the monic quadratic second generator).
+
+For a relative regular immersion,
+\[
+ \operatorname{gr}_{\mathcal I}\mathcal O
+  \cong\operatorname{Sym}_{\mathcal O_\mathcal A}
+              (\mathcal I/\mathcal I^2),
+\]
+and each graded term is flat over the
+stratum because \(\mathcal O_\mathcal A\)
+is flat and the conormal bundle is locally free.
+The finite extensions
+\(\mathcal O/\mathcal I^n\) are therefore
+flat for all \(n\). Thus condition (7)
+holds and **the direct Rees blow-up (3)
+commutes with specialization on every
+one of these strata**. In particular we have
+a genuine family with fiber
+\(\operatorname{Bl}_{A_Z}\mathbf P^3\),
+not merely the separated model (9).
+
+### The endpoint Rees chart and its singularity
+
+For a local ideal of the form (20), write
+\(f=z'\) and \(g=y'(y'-a'r^c)\).
+As \(f,g\) form a regular sequence,
+the Rees algebra is their symmetric algebra
+modulo its one Koszul relation.
+The blow-up embeds in
+\(\operatorname{Spec}k[[r,y',z']]
+ \times\mathbf P^1_{[S:T]}\) by
+\[
+   gS=fT.
+\]
+On the chart \(S\ne0\), putting
+\(\lambda=T/S\) gives the **explicit
+threefold hypersurface**
+\[
+ \boxed{y'(y'-a'r^c)=\lambda z'.}\tag{21}
+\]
+The other chart \(T\ne0\) is smooth:
+\(z'=\mu y'(y'-a'r^c)\).
+
+In any characteristic, (21) has one
+isolated singular point at
+\(r=y'=z'=\lambda=0\), over the common
+endpoint. Its exceptional fiber there
+is \(\mathbf P^1\). In characteristic
+different from two, completing the square
+gives
+\[
+ \lambda z'
+  =\left(y'-\frac{a'}2r^c\right)^2
+      -\frac{(a')^2}{4}r^{2c}.
+ \tag{22}
+\]
+This is the standard *isolated compound
+\(A_1\)* threefold form \(xy=f(z,t)\)
+with quadratic leading part; the
+special slice \(\lambda=0\) has the
+plane-curve contact exponent \(c\)
+and the corresponding surface
+\(A_{2c-1}\) equation after the
+completion of the square. Do **not**
+call the **threefold** singularity
+\(cA_{2c-1}\): the general hyperplane
+section determines the \(cA_1\) type;
+\(c\) is additional analytic
+information. See [the standard cDV
+definition](https://msp.org/gt/2013/17-4/gt-v17-n4-p02-p.pdf).
+
+Thus the first nontrivial direct arrangement
+blow-up is a threefold with explicit
+isolated cDV points above \(p_0,p_\infty\).
+The orders \(3\) versus \(4\) are
+precisely the contact stratification
+detected by the endpoint delta formula,
+and now also control the local
+**birational singularities** of the
+direct blow-up. This is concrete
+input for any proposed complementary
+contraction, not a claim of a new
+global Sarkisov link.
+
+## 8. A higher-\(m\) planar locus and a rigidity threshold
+
+There is a useful generalization of the
+local complete-intersection construction
+that connects directly to the dual
+affine-line incidence already established
+for reduced \((4,4)\) arrangements.
+
+Suppose all \(u_i\) are distinct and
+the quotient configuration satisfies
+\(v_i=A+B u_i\) for fixed \(A,B\).
+At \(p_0\), the **entire reduced union**
+has the relative local CI ideal
+\[
+ \boxed{
+ \left(z-Ar^4-Br y,\quad
+       \prod_{i=1}^m(y-u_i r^3)\right),
+ \quad r=x_1/x_0,\ y=x_2/x_0,\ z=x_3/x_0.
+ }\tag{23}
+\]
+The first equation is a smooth local
+carrier surface; modulo it each branch
+is a principal divisor \(y-u_i r^3\).
+The factors are distinct irreducibles
+and hence their intersection is
+their product. The ring defined by
+(23) is free of rank \(m\) over
+the formal \(r\)-disk, with basis
+\(1,y,\ldots,y^{m-1}\).
+Thus the family is normally flat at
+\(p_0\) on the open locus where the
+\(u_i\)'s remain distinct.
+
+If in addition the opposite-endpoint
+coordinates \(\alpha_i\) are distinct
+and satisfy \(\beta_i=C+D\alpha_i\),
+then the identical construction at
+\(p_\infty\) gives
+\[
+ \boxed{
+ \left(z'-Cw^4-Dw y',\quad
+       \prod_{i=1}^m(y'-\alpha_i w^3)\right),
+ \ w=x_2/x_3,\
+ y'=x_1/x_3,\
+ z'=x_0/x_3.
+ }\tag{24}
+\]
+Thus on this **dual-planar locus**
+the reduced arrangement has
+a relative local CI ideal at both
+endpoints, and the direct arrangement
+Rees blow-up genuinely commutes with
+specialization in any locally closed
+family where the displayed conditions
+and distinctness hold.
+
+**Proposition (a degree-four rigidity gate).**
+Assume \(m\ge5\) distinct \(u_i\)'s,
+the first affine-line incidence in
+(23), and the second incidence in
+(24), with all \(\alpha_i\) distinct.
+Then necessarily
+\[
+ \boxed{A=C=0,\qquad D=B\ne0,\qquad
+        v_i=B u_i\quad\forall i.}\tag{25}
+\]
+Hence **every** such \(m\ge5\)
+simultaneously dual-planar
+configuration lies on a common
+smooth quadric
+\(x_0x_3-Bx_1x_2=0\).
+For non-quadric dual-planar families
+with nonzero line intercepts,
+there can be at most four distinct
+translated curves.
+
+**Proof.** The opposite incidence is
+equivalent to
+\[
+ (A+Bu)^3-Du(A+Bu)^2-Cu^4=0
+\tag{26}
+\]
+at every chosen \(u_i\), because
+\(\beta=v^3/u^4\) and
+\(\alpha=v^2/u^3\).
+The left side has degree at most four.
+With at least five distinct roots
+it is identically zero. Its constant
+coefficient is \(A^3\), forcing
+\(A=0\); its degree-four coefficient
+is \(-C\), forcing \(C=0\).
+The remaining coefficient is
+\(B^2(B-D)u^3\).
+Since all \(v_i=Bu_i\) are nonzero,
+\(B\ne0\), so \(D=B\). The converse
+quadric relation is immediate.
+The argument is valid in every
+characteristic. \(\square\)
+
+This extends the geometric **pattern**
+behind the degree-\((4,4)\) line
+criterion, without claiming
+that arbitrary degrees or
+nonreduced STCI structures obey
+line-incidence conditions. It also
+shows exactly where such a
+proposed universal line-based
+framework stops: for \(m\ge5\),
+its only configurations lie on
+a quadric carrier. The correct
+general-degree replacement would
+need higher-complexity curves
+on the quotient surface,
+or more than one weight component
+per defining equation.
+
+## 9. The moduli quotient and next geometric contractions
 
 There is a second torus quotient, **distinct**
 from the intrinsic \(H\)-quotient:
@@ -478,8 +750,10 @@ finite symmetric-group quotient must also
 be taken into account.
 
 **Already constructed:** (3) as a relative
-Rees blow-up; the explicit endpoint-flat
-strata (6); the smooth separated family
+Rees blow-up, including genuine fiberwise
+Rees families on the two-curve contact
+strata and the dual-planar locus;
+the explicit endpoint-flat strata (6); the smooth separated family
 (9) with fiber (10); the exact global
 section dictionary (11); the characteristic-
 independent normal modification (12)–(14);
@@ -487,8 +761,9 @@ the relative equation-pair incidence (16)
 and its reduced CI criterion.
 
 **Concrete unresolved steps:** identify
-normal-flat strata where (3) really has
-fiber \(\operatorname{Bl}_{A_Z}\mathbf P^3\);
+further normal-flat strata where (3) has
+fiber \(\operatorname{Bl}_{A_Z}\mathbf P^3\)
+for general non-planar configurations;
 compute local Rees and exceptional fibers
 at \(p_0,p_\infty\) for \(m=2,3,4\);
 principalize the pulled-back singular
