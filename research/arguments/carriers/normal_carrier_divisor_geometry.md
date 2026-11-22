@@ -841,14 +841,15 @@ Let an actual sole-supported
 proper pair have \(F=0\) **smooth
 along \(C\) near \(P\)** and
 generic intersection multiplicity
-\(m\). On a sufficiently small
-smooth neighborhood of \(P\)
-in \(V(F)\), assume the Cartier
-divisor of \(G|_{V(F)}\) is
-**exactly \(mC\)**, without an
-additional zero-dimensional
-or residual correction at \(P\).
-In completed regular parameters
+\(m\). Because \(V(F,G)\)
+has sole reduced support \(C\),
+the Cartier divisor cut by
+\(G|_{V(F)}\) on the smooth
+surface is **exactly \(mC\)**
+near \(P\): a principal Cartier
+divisor on a regular surface
+has no separate punctual
+component. In completed regular parameters
 \(t,u,v\) with \(F=u,\ C=(u,v)\),
 one can write
 \[
