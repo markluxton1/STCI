@@ -1181,3 +1181,32 @@ limit may require more than two generators and its pure thick curve is
 already involutive.  The sharpened boundary problem is to impose
 (HB-P3) on the **embedded endpoint correction module** together with the
 known Hilbert and source constraints.
+
+There is a finite exact formulation of that last condition.  Write
+\(L\) for a candidate full limit, \(Y=L^{\rm pure}\) for its pure
+constant-orbit quotient, and
+\[
+ I_L\subset I_Y,\qquad T=I_Y/I_L.
+\]
+If \(Y\) is sole-supported then the constant-orbit theorem makes \(I_Y\)
+involutive.  Hence the bracket defines
+\[
+ \kappa_L:\bigwedge\nolimits^2(I_L/I_L^2)
+ \longrightarrow T,\qquad
+ \bar f\wedge\bar g\longmapsto\{f,g\}\bmod I_L.        \tag{HB-P4}
+\]
+This is well defined and \(\mathcal O_L\)-linear: replacing either
+argument by an element of \(I_L^2\) inserts an explicit factor from
+\(I_L\), and the Leibniz correction in multiplying an argument by a
+function likewise vanishes modulo \(I_L\).  Because
+\(\{I_Y,I_Y\}\subset I_Y\), the target really is \(T\).  Moreover
+\[
+ \boxed{\quad L\text{ is involutive}\iff\kappa_L=0.\quad} \tag{HB-P5}
+\]
+For the intrinsic limits of R-0070, \(T\) is supported at the two
+endpoints and its two lengths are already known.  Thus (HB-P4) converts
+the remaining contact condition into a **finite endpoint conormal map**.
+The existing length formulas alone do not determine this map; one needs
+the actual endpoint algebra or the weight-graded minimal generators of
+the full ideal.  This identifies exactly which extra datum R-0070 would
+have to retain for contact to produce a new boundary exclusion.
