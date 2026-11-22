@@ -247,3 +247,34 @@ asks whether full actual equation filtrations detect failure of the
 second-element coregularity condition. The pairwise cokernel is
 \(H_I^1(S/(f,g))(\deg f)\) under the stated first-coregularity and
 vanishing hypotheses. The [actual full-primary attachment quotient comparison](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) gives its local annihilator layers by canonical duality. The open step is to force their nonvanishing from actual homogeneous equations, or identify a specific filtered lifting obstruction with an attachment quotient. A finite conductor module already supported on \(C\) has zero higher local cohomology and cannot alone supply that argument.
+
+
+## Transverse Chow norm as a finite source interface
+
+The [homogeneous transverse Chow/norm comparison](../../arguments/torus/chow_arrangement_moments.md#the-homogeneous-transverse-chow-form-as-a-section-norm)
+compresses the global Chow-resultant condition after Chow-polytope rigidity
+has placed the cycle in the translated-quartic family. The homogeneous
+transverse form \({\cal C}_Z\) determines a norm polynomial
+\({\cal N}_Z\) through an explicit bihomogeneous quartic kernel. For an
+actual pair, the same \({\cal N}_Z\) is the projective resultant of the two
+restricted homogeneous sources and a moving line in \(x_3=x_0\). On this
+translated fiber the fixed-plane section is set-theoretically injective, so
+this compression loses no arrangement-cycle information. Outside that
+fiber, one plane section is not a global support criterion.
+
+Classical border-basis theory supplies the complementary algebra gate:
+formal multiplication data with the expected vector-space basis must satisfy
+the commuting-matrix/border-reduction equations. The marked MJ1 test is a
+specialized instance. This separates three levels that must not be
+identified: transverse roots/Chow coefficients, a genuine finite algebra
+with those roots, and a finite algebra arising from the prescribed
+homogeneous source spaces.
+
+The attachment quotient \(Q_1\) is not the next computable invariant to
+force. For an actual proper pair,
+[LC-A1 and the support criterion](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers)
+give \(Q_1=0\) exactly when the reduced support is the fixed curve.
+Universal nonvanishing of \(Q_1\) is therefore essentially the terminal
+STCI nonexistence statement. The intermediate source problem is to find
+lower-complexity equations on the resultant/norm image, or on its tangent
+and border-algebra strata, that the perfect-power target cannot satisfy.
