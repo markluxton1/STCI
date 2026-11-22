@@ -219,7 +219,7 @@ Let \(K=I_{H/T}\subset\mathcal O_T\). Define an effective divisor
 \[
  (K\cap P_i)/(K\cap P_{i+1})= W_i(-H_i)\ \subset W_i .
 \]
-This is a line subbundle with finite cokernel (the same generic
+This is a line subsheaf with finite cokernel (the same generic
 line). Equivalently its length divisor is the \(i\)-th layer
 of the *induced saturated flag* on \(\mathcal O_H\).
 In particular
@@ -421,6 +421,18 @@ characteristic. It does not apply to a cut containing
 a residual component or to a generic algebra of higher
 embedding dimension without replacing the rank-one
 filtration argument.
+
+For comparison, the [toric repeated-root primary theorem TS1--TS3](../torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier)
+computes every \(D_i,H_i\) in the above rank-one setting
+for actual arrangements in the classified fixed-quartic
+carrier. Its nonprimitive primary of length three has
+\(D_2=2[p_0]\), compatible with \(H_0(p_0)=N+1\).
+For the quartic collision the total full attachment grows
+from 18 to 24 even though the reduced attachment shrinks
+from 18 to 12 and the residual degree from 12 to 8.
+These are pointwise normal and attachment calculations
+for actual pairs, and a control against replacing the
+marked attachment by the full one in capacity bounds.
 
 ## 5. A sharp control: the determinant can be a unit at a real attachment
 

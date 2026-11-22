@@ -162,6 +162,220 @@ proper-CI family. Throughout the fixed-\(A\), \((4,4)\) translated-arrangement
 locus containing \(C_0\), at least three distinct supports force marked
 multiplicity at most two and residual degree at least eight, attained here.
 
+## All-order primary structure and attachment on the classified carrier
+
+**New application, pending independent review.** The arrangement
+semigroup criterion above already solves the fixed-carrier existence
+question. It does not by itself describe the full embedded primary
+structures when a root repeats. The following gives that description
+in characteristic zero, including their attachment to the other
+translated components. This is a testbed joining the formal normal,
+finite-image, residual-attachment and arithmetic frameworks, not
+another exclusion of this already classified carrier.
+
+Fix a realized polynomial of degree \(N\) above and choose a root
+of multiplicity \(m\). By scaling \(x_1\) take the marked root to be
+\(1\), so its support is \(C=C_0\). Let \(T_m\) be the full primary
+component on \(C\) of the actual CI \(Y=V(A,G)\).
+It is independent of the other roots and of \(N\):
+it is the scheme image of the Cartier thickening
+\((z-h)^m=0\) on the normalization. Indeed that scheme is
+pure, avoids the singular vertex of the weighted plane,
+and has generic length \(m\) on \(C\). Its finite image
+is pure (its structure sheaf injects into the finite
+pushforward of a pure curve with the same support), is
+contained scheme-theoretically in \(Y\), and agrees there
+with the generic primary algebra. A pure scheme with this
+single smooth support is determined by its generic ideal
+via saturation, so the image is exactly the full primary
+component. This does not require the image itself lci.
+
+### The numerical semigroup determines every saturated layer
+
+The normalization is smooth along the inverse curve,
+and the Cartier equation there is a section of
+\(\mathcal O_{\mathbf P(1,1,4)}(4)\).
+Its restriction to the reduced inverse curve is
+\(\mathcal O_{\mathbf P^1}(4)\), so the normalized
+primitive thickening has free first conormal
+\(\mathcal O(-4)\).
+At \(p_\infty=[0:0:0:1]\) the carrier \(A=0\)
+is smooth and the normalization is an isomorphism.
+At \(p_0=[1:0:0:0]\), the local inclusion in
+normalization coordinates is
+\[
+ k[[t^3,t^4,z]]\ \longrightarrow\ k[[t,z]].
+\]
+The normalized thickening is \((t-z)^m=0\).
+Use \(x=z\) as the lifted curve parameter and
+\(\epsilon=t-z\). Then the actual completed image
+algebra is
+\[
+ B_m=k[[x]][(x+\epsilon)^s:s\in S]
+   \ \subset\ k[[x]][\epsilon]/(\epsilon^m),
+ \qquad S=\langle3,4\rangle ,
+\]
+where the algebra denotes its complete image.
+
+There is a more general elementary numerical
+semigroup calculation here. For any numerical
+semigroup \(S=\{s_0=0<s_1<s_2<\cdots\}\)
+and the same image algebra, the elements
+\((x+\epsilon)^{s_i}\), \(0\le i<m\), form
+a \(k[[x]]\)-basis. After factoring the column
+weights \(x^{s_i}\) and row weights \(x^{-j}\)
+over \(k((x))\), the coefficient matrix is
+\((\binom{s_i}{j})_{0\le j,i<m}\). Its determinant
+is the Vandermonde determinant of the \(s_i\)
+divided by \(\prod_{j=0}^{m-1}j!\), nonzero in
+characteristic zero because \(\binom{s}{j}\)
+has degree \(j\) and leading coefficient \(1/j!\).
+For any later exponent \(s\in S\), expansion
+in this constant matrix expresses its monomial
+as a linear combination with coefficients
+\(c_i x^{s-s_i}\in k[[x]]\), so these first \(m\)
+columns span the entire image. The completed
+image has the same span since this is a finite
+full lattice in a complete free DVR module.
+
+Eliminating the lower \(\epsilon\)-coefficients
+of column \(i\) using the first \(i\) columns
+(with integral powers \(x^{s_i-s_j}\))
+produces a saturated-flag basis with leading term
+a unit times \(x^{s_i-i}\epsilon^i\). Since the
+initial square minors on the first \(i+1\) rows
+and columns are nonzero by the same determinant,
+these leading terms describe the actual graded
+submodules, not just their product determinant.
+Consequently the finite modification to the
+primitive thickening has layer indices
+\(s_i-i\), total length \(\sum_{i<m}(s_i-i)\),
+and multiplication defects in the image
+\[
+ \boxed{D_i=(i s_1-s_i)[p_0].}                           \tag{TS1}
+\]
+The free first conormal has changed by
+\(-(s_1-1)[p_0]\).
+For a general numerical semigroup this last
+description is local; the global line bundle
+requires its actual normalized ambient model.
+The determinant calculation also works in
+characteristic \(p>s_{m-1}\) for \(m\ge2\);
+in small characteristic the minors must be
+rechecked, not reduced as if their determinants
+were units.
+
+There is established related literature on
+semigroups and higher jet matrices:
+[Yasuda, *Higher Nash blowups*, §3.2,
+Lemma 3.4](https://doi.org/10.1112/S0010437X0700276X),
+and Chávez-Martínez--Duarte--Giles Flores,
+[*A higher-order tangent map and a conjecture
+on the higher Nash blowup of curves*](https://doi.org/10.1007/s00209-020-02579-5).
+Their objects are higher Nash blowups of curves;
+we use the elementary jet interpolation calculation
+on the actual primary image, not a claim that
+this image is a higher Nash blowup. The latter
+would be a different construction.
+
+For our semigroup, \(s_i=0,3,4,6,7,\ldots\),
+with \(s_i=i+3\) for \(i\ge3\). Thus for \(m\ge2\)
+\[
+ \mathcal L_m=\mathcal O(-6),\qquad
+ D_0=D_1=0,\quad D_2=2[p_0],\quad
+ D_i=(2i-3)[p_0]\ (i\ge3),
+                                                               \tag{TS2}
+\]
+where only \(i<m\) is retained. The length
+of the finite normalization-induced modification
+is \(0,2,3m-5\) for \(m=1,m=2,m\ge3\),
+respectively. In particular the repeated-root
+primary structure is a ribbon for \(m=2\)
+and is nonprimitive at \(p_0\) for \(m\ge3\);
+this is about the embedded **primary structure**,
+not the entire proper CI. The purely arithmetic
+all-mate criterion above is unchanged.
+
+### Exact residual-attachment distributions
+
+Write \(R\) for the linked residual without the
+marked component, and \(H_0=C\cap R\).
+All attachment is at the two endpoints because
+the distinct translates are disjoint on the
+dense torus. At the smooth endpoint \(p_\infty\),
+the actual polynomial in the local carrier
+coordinates is a product of
+\((x_1-a_i x_2^3)^{n_i}\);
+hence the residual restriction on \(C\) has
+order \(3(N-m)\) there.
+The [signed top-class identity LA4](../residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component)
+gives
+\[
+ \deg H_0=4N+2-6(m-1)+\deg D_{m-1}
+\]
+for \(m\ge2\). For \(m=1\) the same formula
+holds with the zero exponent term and \(D_0=0\),
+by ordinary reduced-component linkage.
+Together these give the exact two-point divisor
+\[
+ \begin{array}{c|c|c}
+ m & H_0(p_0)&H_0(p_\infty)\\ \hline
+ 1&N+5&3(N-1)\\
+ 2&N+2&3(N-2)\\
+ 3&N+1&3(N-3)\\
+ \ge4&N-m+3&3(N-m)
+ \end{array}                                             \tag{TS3}
+\]
+for actual realized arrangements. These numbers
+are meaningful only for the allowed multiplicities
+of the classified polynomial. The finite residual
+attachment in the full thickening has every layer
+given by LA1 and TS2. For example, at the smooth
+endpoint every layer has length \(3(N-m)\).
+At \(p_0\), for \(m\ge3\) the sum of its
+attachment-layer lengths is \(m(N-m)+10\).
+For \(m=1,2\) that sum is respectively
+\(N+5\), \(2(N+2)\).
+The global full-attachment length for \(m\ge3\)
+is therefore \(4m(N-m)+10\). This also follows
+from the finite-image genus, since for \(m\ge3\)
+the normalized primitive thickening has genus
+\(1-m+2m(m-1)\), and its image genus is
+\(2m^2-4\). The two arguments agree; the genus
+check is not a second independent obstruction.
+
+For the actual \((4,4)\) collision \(c\to-4\)
+described above, TS3 shows that the reduced
+attachment changes from \(9p_0+9p_\infty\)
+to \(6p_0+6p_\infty\), whereas the full
+attachment length changes from \(18\) to \(24\).
+The residual degree drops from twelve to eight.
+The primary double at the collision is primitive
+of conormal degree \(-6\). The two different
+attachment measures thus move in opposite
+directions under an actual absorption; flatness
+of the *full primary extraction* cannot be
+assumed across that multiplicity jump.
+By [the local-cohomology comparison LC-A1](../local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers),
+the two reduced attachment coefficients are
+also the lengths of the first local annihilator
+layers of actual-pair local cohomology, with
+its canonical duality twist.
+
+This is an all-degree calibration of the
+residual/normal/local-cohomology comparison
+on the existing exactly classified carrier.
+It explains why primary normal defects and
+full conductor or attachment lengths should
+not be treated as interchangeable monotone
+quantities in torus or arithmetic collisions.
+It does not generalize the characteristic-zero
+matrix calculation to the Frobenius collision
+in characteristic two: the necessary minors
+there can vanish, compatible with the known
+primitive fourfold image. The arithmetic
+control continues to use its actual equations.
+
 ## When a reduced fundamental cycle supplies the quartic equation
 
 Suppose an arbitrary proper homogeneous pair has reduced fundamental
