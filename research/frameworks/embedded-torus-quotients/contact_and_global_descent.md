@@ -222,3 +222,14 @@ intrinsic endpoint theorem currently supplies the lengths of the two
 pieces of \(T\), not this conormal map.  Thus the next contact calculation
 must retain the actual endpoint algebra or the graded generators of the
 full limit; pure quotient data and endpoint lengths alone cannot decide it.
+
+
+**Exact Hilbert-polynomial controls.**  The
+[diagonal nilpotent family](../../arguments/torus_embedded_quotients.md#a-diagonal-nilpotent-family-with-complete-intersection-hilbert-polynomials)
+provides pure sole-supported, torus-fixed and automatically involutive
+images whose Hilbert polynomial is exactly that of a complete intersection:
+\(n=4\) matches \((4,4)\), and \(n=6\) matches \((3,8)\).
+The invariant-supported CI theorem still forbids a two-generator
+presentation in characteristic zero.  Hence neither endpoint symmetry nor
+contact plus the correct Hilbert polynomial can substitute for the actual
+homogeneous source spaces and proper-pencil condition.
