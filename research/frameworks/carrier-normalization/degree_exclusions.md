@@ -341,10 +341,21 @@ sole-supported \((6,6)\) pair, however, the established
 [blowup/graph residual bound](../../arguments/residuals/blowup_residual_geometry.md#5-integer-strengthening-usefulness-region-and-exact-limitations)
 excludes simultaneous orders \((2,2)\): it forces at least four
 residual degrees. Hence **at least one of the two sextics is
-generically regular along \(C\)**, and its transverse algebra is
-curvilinear of length nine. This explains why the degree-six
-normal-carrier/filtration analysis still applies even though
-order-two individual sextics are possible.
+generically regular along \(C\)**, and the transverse algebra is
+curvilinear of length nine. More strongly, the established
+[general-pencil argument](../../arguments/carriers/sextic_pair_reduction.md#a-normal-pencil-carrier-in-characteristic-zero)
+shows that a general sextic pencil member is **integral,
+smooth away from \(C\), and generically regular on \(C\)**;
+Serre's \(R_1+S_2\) criterion therefore makes it **normal**.
+Replacing the original generators by two such general members
+does not change their CI ideal. Thus any hypothetical
+characteristic-zero \((6,6)\) sole-support pair has a
+**normal sextic carrier**. Nonnormal sextic members may
+occur in special positions, but their analysis is unnecessary
+for deciding existence of a \((6,6)\) presentation.
+This is a major difference from the mixed \((5,8)\) case:
+a general pencil of equal-degree carriers is unavailable
+there, so nonnormal quintic lanes cannot be skipped.
 
 The graph argument is not uniform in degree: it gives no positive
 residual bound at \((8,8)\) with normal orders \((2,2)\).
