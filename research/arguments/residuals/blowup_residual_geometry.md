@@ -2059,6 +2059,16 @@ these products by the actual \(qh\times qh\)
 basis matrix over \(k[[x]]\), rather than only
 check its determinant.
 
+**Classical algebra identification.** This closure test is the rectangular
+instance of the border-basis criterion: a chosen monomial basis together
+with its border reductions defines the intended zero-dimensional algebra
+exactly when the formal multiplication operators commute (equivalently,
+the neighboring border syzygies reduce compatibly). See
+Kehrein--Kreuzer, *Characterizations of Border Bases*, J. Pure Appl.
+Algebra 196 (2005), 251--270. Thus MJ1 itself is not a new general
+border-basis theorem; the STCI-specific content begins with the forced
+marked-jet consequences MJ2--MJ4.
+
 Write \(f(x,v)=f_0(v)+x f_1(v)+O(x^2)\).
 Then (MJ1) implies
 \[
