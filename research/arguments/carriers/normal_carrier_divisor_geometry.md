@@ -794,20 +794,22 @@ than merely requiring some
 
 The exact-index conclusions (NR2)--(NQ2)
 must not be mistaken for a new geometric
-impossibility. At the formal germ of a
-smooth support curve in a smooth
-threefold, take characteristic zero and
+impossibility. Work on the **affine
+threefold** \(\operatorname{Spec}k[t,u,v]\)
+over an algebraically closed
+characteristic-zero field, and put
 \[
  F=u,\qquad
  G=tu+v^m,\qquad
- C=(u,v)\subset\operatorname{Spec}k[[t,u,v]],
- \quad m\ge2.
+ C=V(u,v),\quad m\ge2.
 \]
 The actual complete intersection
 \((F,G)=(u,v^m)\) is curvilinear
 of length \(m\), with **sole
-reduced support \(C\)** in this
-formal neighborhood. For a scalar
+reduced support \(C\)** on this
+affine threefold. Its completed
+local equations at any marked
+point have the same form. For a scalar
 \(\lambda\), make the permitted
 generator replacement
 \[
