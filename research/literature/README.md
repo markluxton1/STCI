@@ -461,6 +461,10 @@ complete intersections,” *Michigan Mathematical Journal* 48 (2000), 271--279.
 
 ## Carrier surfaces, divisor classes, and blowups
 
+### Sharp complete-intersection Picard input (2024)
+
+Česnavičius–Scholze, [*Purity for flat cohomology*](https://annals.math.princeton.edu/2024/199-1/p02), Annals 199 (2024), 51–180, Corollary 7.2.3 ([preprint](https://arxiv.org/abs/1912.10932)), prove that `Pic(X)/Z[O_X(1)]` is torsion-free for a projective complete intersection of dimension at least two over any field. Cotner–Zavyalov, [*Lefschetz theorems in flat cohomology and applications*](https://www.cambridge.org/core/journals/compositio-mathematica/article/lefschetz-theorems-in-flat-cohomology-and-applications/8556201EDB51D7F2F76F5950A800CD64), Theorem 1.1.8, give torsion-free Picard group, nondivisibility of the hyperplane class, and trivial numerically trivial Picard scheme. This includes singular hypersurfaces, in arbitrary characteristic. It strengthens our [fixed-carrier exact-index theorem](../arguments/carriers/normal_carrier_divisor_geometry.md#3-exact-exponent-and-minimal-mate-once-the-boundary-is-reached): under existence of a mate, the least Cartier multiple RC already lies on the integral hyperplane ray, hence the least mate multiplicity is R and the least mate degree is eR/a. The Hodge equality criterion on a normal Q-Cartier carrier also extends independently of characteristic. These statements do not imply torsion-free Weil class groups or arbitrary-characteristic Bertini or local socle formulas. The new application awaits independent review.
+
 For quintic carriers, Andreatta–Sommese's sectional-genus classification
 describes polarized surfaces. The fixed quartic and its projection center
 require additional data. The repository's marked toric classification and

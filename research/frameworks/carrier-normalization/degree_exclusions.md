@@ -593,7 +593,7 @@ normalization has been classified.
 
 The [general replacement theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) now includes equal degrees and gives \(K_b=G_b+F_aL_{b-a}\), normal integral with the same CI ideal, precisely for the generic order-one branch. Only base-support Bertini, \(R_1+S_2\) and connectedness are needed. The stronger **moving-root theorem** additionally distinguishes the fixed common-symbol divisor from the moving reduced divisor of the general carrier. In every degree, a nonempty moving divisor forces \(R=m=ab/4\) and minimal mate degree \(a\). For \(a<b\) this is automatic if the smaller first symbol is nonzero. For \(a=b\) it holds when the first symbols are linearly independent over \(k\); a proportional-symbol pencil instead has a unique generically thick member, and its general members are still normal. For \(a<b\) with zero smaller symbol there are no moving symbol zeros.
 
-For \((5,4n)\) the general normal larger carrier always has \(R=5n\) and order-five primitive class \(nC-H\); e.g. \(R=10,15,20,25\) for \(b=8,12,16,20\). This includes originally nonnormal quintics for all mate degrees, but does not classify them or obstruct the resulting high-index configuration. The [intrinsic common-defect identity](../../arguments/carriers/normal_carrier_divisor_geometry.md#the-exact-defect-budget-is-concentrated-at-common-singularities) applies to every generically curvilinear pair regardless of degree or moving-root existence: the actual top-socle divisor and common-symbol divisor have the same support, not generally the same multiplicities. Every primitive-locus singularity of a normal carrier necessarily has index \(m\), even at a multiple symbol root of a special member. These implications and the generalizations are pending independent audit.
+For \((5,4n)\) every normal larger carrier with a quintic mate has \(R=5n\) by the strengthened Picard saturation theorem, and order-five primitive class \(nC-H\); e.g. \(R=10,15,20,25\) for \(b=8,12,16,20\). This includes originally nonnormal quintics for all mate degrees, but does not classify them or obstruct the resulting high-index configuration. The [intrinsic common-defect identity](../../arguments/carriers/normal_carrier_divisor_geometry.md#the-exact-defect-budget-is-concentrated-at-common-singularities) applies to every generically curvilinear pair regardless of degree or moving-root existence: the actual top-socle divisor and common-symbol divisor have the same support, not generally the same multiplicities. Every primitive-locus singularity of a normal carrier necessarily has index \(m\), even at a multiple symbol root of a special member. These implications and the generalizations are pending independent audit.
 
 ### Going back down: when a forced high index is **not** a new obstruction
 
@@ -785,8 +785,8 @@ the **actual local Cartier indices of \(C\)**. The existing
 [local index and torsion theorem](../../arguments/carriers/normal_carrier_symbolic_torsion.md#3-exact-index-formula-on-every-normal-c0-carrier)
 gives
 \[
- m=ab/4,\qquad R\mid m,\qquad a\mid16R,\qquad
- t=\frac{R}{\gcd(R,\mu)},\qquad b_{\min}=vt. \tag{S5}
+ m=ab/4,\qquad R\mid m,\qquad a\mid4R,\qquad
+ t=\frac{R}{\mu},\qquad b_{\min}=4R/a,\qquad m_{\min}=R. \tag{S5}
 \]
 The all-quartic-carrier theorem implies \(b_{\min}\ge5\).
 This immediately specializes to two strong **conditional**

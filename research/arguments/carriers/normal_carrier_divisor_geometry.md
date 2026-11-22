@@ -1,10 +1,10 @@
 # Divisor equality and local socle criteria on a normal carrier
 
-**Status:** independently reviewed Hodge-equality, index and local-socle theorems. The Hodge equality criterion and exact-order argument were reconstructed during consolidation; the local criterion retains the normal-carrier index/socle theorem, primitive-triple certificate and separately scoped low-index exclusions as inherited premises at their exact hypotheses. This characterizes mate existence on a specified normal carrier; it does not exclude arbitrary normal carriers. The theorem has its explicit characteristic-zero scope, with the existence and exact-order arguments distinguished below. **The newly consolidated all-degree cyclic-cover Euler formula in §3.5 and its quintic/sextic identifications have been checked algebraically against the recorded cases, but are not yet independently reviewed as a new proof package.**
+**Status:** independently reviewed Hodge-equality, index and local-socle theorems. The Hodge equality criterion and exact-order argument were reconstructed during consolidation; the local criterion retains the normal-carrier index/socle theorem, primitive-triple certificate and separately scoped low-index exclusions as inherited premises at their exact hypotheses. This characterizes mate existence on a specified normal carrier; it does not exclude arbitrary normal carriers. The fixed-carrier Hodge and exact-index tests in §§1,3 now use the stronger all-characteristic Picard theorem of Česnavičius–Scholze; this strengthening, as distinct from the previously reviewed characteristic-zero statements, awaits independent review. The local socle and generator-replacement results retain their own characteristic hypotheses. **The newly consolidated all-degree cyclic-cover Euler formula in §3.5 and its quintic/sextic identifications have been checked algebraically against the recorded cases, but are not yet independently reviewed as a new proof package.**
 
 ## 1. A mate is equivalent to Hodge-index equality on a normal hypersurface
 
-Let `k` be algebraically closed of characteristic zero. Let
+Let `k` be algebraically closed, of arbitrary characteristic. Let
 
 ```
 X subset P3_k
@@ -29,7 +29,7 @@ rational self-intersection `C^2` is defined.
 4. `C` is `Q`-Cartier and its numerical class is `(e/a)H` in
    `N^1(X)_Q`.
 
-Thus, for normal hypersurface carriers in characteristic zero, there is no
+Thus, for normal hypersurface carriers in any characteristic, there is no
 additional global torsion or ambient-lifting condition after the
 `Q`-Cartier self-intersection reaches the Hodge-index boundary.
 
@@ -65,48 +65,23 @@ index theorem for the normal projective surface `X` says that the
 intersection form is negative definite on `H^perp subset N^1(X)_R`.
 Equation (1) therefore makes `L` numerically trivial.
 
-It remains to upgrade numerical triviality to linear triviality. The
-hypersurface sequence
+For this upgrade use the strongest available complete-intersection theorem:
+Česnavičius–Scholze, [*Purity for flat cohomology*](https://annals.math.princeton.edu/2024/199-1/p02),
+Corollary 7.2.3, proves that `Pic(X)/Z[H]` is torsion-free for
+every projective complete intersection of dimension at least two over a
+field. Cotner–Zavyalov, [*Lefschetz theorems in flat cohomology and applications*](https://www.cambridge.org/core/journals/compositio-mathematica/article/lefschetz-theorems-in-flat-cohomology-and-applications/8556201EDB51D7F2F76F5950A800CD64),
+Theorem 1.1.8, also establish triviality of the numerically trivial Picard
+scheme. Both statements apply to singular hypersurfaces in arbitrary
+characteristic. Thus L is linearly trivial.
 
-```
-0 -> O_P3(-a) -> O_P3 -> O_X -> 0
-```
-
-and the vanishing of intermediate cohomology of line bundles on `P3` give
-`H^1(X,O_X)=0`. In characteristic zero the identity component `Pic^0(X)`
-is therefore trivial. A numerically trivial line bundle lies in `Pic^tau`,
-whose quotient by `Pic^0` is finite, so `L` is torsion. The accepted
-SGA/Kummer hypersurface input says that `Pic(X)` is torsion-free. Hence
-
-```
-L ~ 0.
-```
-
-Consequently a positive multiple of `Delta` is principal, and for some
-`q'>0`
-
-```
-q' mu C ~ q' v H.                                  (2)
-```
-
-The canonical section of `O_X(q'mu C)`, transported through (2), is a
-section of `O_X(q'v)` with zero divisor exactly `q'mu C`. The restriction
-map
-
-```
-H^0(P3,O(q'v)) -> H^0(X,O_X(q'v))
-```
-
-is surjective because `H^1(P3,O(q'v-a))=0`. A lift is an ambient mate and
-cannot be divisible by the equation of `X`, since its restriction is
-nonzero. This proves (1). The same Hodge argument shows directly that (3)
-and (4) are equivalent.
-
-The existence argument only needs every numerically trivial Cartier line
-bundle on `X` to be torsion: taking one further multiple then gives (2).
-Torsion-freeness of `Pic(X)` is used for the exact-order conclusions below.
-The local Jacobian/socle results have their separate tame-index restriction;
-no unrestricted characteristic-`p` exact-order or Picard transfer is asserted here.
+In particular some positive multiple of Delta is principal. The
+canonical section of the resulting positive Cartier multiple of C,
+transported through its equivalence to dH, lifts to an ambient degree-d
+form using the hypersurface sequence and
+`H^1(P3,O(d-a))=0`. Its restriction is nonzero and has exactly the
+required divisor. This proves (1). Hodge index gives (3) iff (4).
+No local Jacobian formula, rationality, or characteristic-zero Bertini
+is needed here. Those hypotheses are retained wherever used later.
 
 ## 2. The intrinsic local divisor is a necessary-and-sufficient mate test
 
@@ -248,36 +223,36 @@ R=lcm_P r_P,       g=gcd(a,e),
 mu=a/g,            v=e/g.
 ```
 
-The accepted local detection theorem now gives the exact order of the
-primitive Weil class and not merely an upper bound:
+The flat-cohomological Lefschetz theorem in §1 gives the stronger
+integral statement: RC is Cartier, and its class has torsion image in
+Pic(X)/Z[H] by existence of a mate. That quotient is torsion-free, so
 
 ```
-t=R/gcd(R,mu).                                      (8)
+RC ~ (eR/a)H,       a | eR,       mu | R.           (8)
 ```
 
-The mate degrees on this fixed carrier are exactly
+Conversely, any mate multiplicity is a positive multiple of R by
+Cartierness. The ambient restriction map is surjective, so RC itself is
+realized by a mate. In particular the actual invariants are
 
 ```
-b=k t v,       k=1,2,3,... .                        (9)
+t = R/mu,    b_min = v t = eR/a,                   (9)
+n_min = R,   b = k b_min (k positive integer).      (10)
 ```
 
-The minimal generic transverse length is
+The prior formula t=R/gcd(R,mu) agrees, but the saturation theorem
+rules out mu not dividing R. Its divisibility condition
 
 ```
-n_min=mu t=lcm(mu,R).                               (10)
+a divides e R                                     (11)
 ```
 
-In particular
-
-```
-a divides e^2 R.                                    (11)
-```
-
-Equations (8)--(10), together with (5), give a complete numerical
-description on a fixed normal carrier: the intrinsic equality decides
-existence; the actual local indices determine the least mate and every
-higher mate. No independent section-lifting or hidden global torsion factor
-remains.
+strictly strengthens the earlier self-intersection integrality
+a divides e^2 R. This uses no genus restriction and holds in every
+characteristic on a fixed normal hypersurface; no assertion about the
+characteristic of the local power-socle formulas follows. The older
+rational-ample torsion-detection theorem remains valuable for general
+normal surfaces not known to have a saturated hyperplane class.
 
 This is not an effective classification of all normal carriers: computing
 `C^2`, the local indices and the full defects can still be difficult, and
@@ -435,10 +410,11 @@ degree.
    `R=lcm_P r_P`,
 
    ```
-   t=R/gcd(R,mu),
-   b_min=v t,
-   n_min=lcm(mu,R),
-   a | 16R.
+   mu | R,
+   t=R/mu,
+   b_min=4R/a,
+   n_min=R,
+   a | 4R.
    ```
 
    The accepted low-degree theorem also forces `b_min>=5`.
@@ -589,11 +565,11 @@ In equal degrees this is precisely the original pencil; two independent general 
 
 For the fixed quartic, the [quadric normal-order bound](sextic_pair_reduction.md#why-every-pair-is-generically-curvilinear) implies that every hypothetical \((5,b)\) pair satisfies NR1. The graph bound supplies this hypothesis for every \((6,6)\) pair. In contrast the entirely-thick \((6,8)\) regime remains outside NR1.
 
-**Consequences of the existing exact index theorem.** On a normal replacement \(S=V(K_b)\) the degree-\(a\) mate cuts \(mC\), \(m=ab/4\), and \(C^2=16/b\). Write \(g=\gcd(b,4)\), \(\mu=b/g\), \(v=4/g\) and \(R=\operatorname{lcm}_{P\in C_0}\operatorname{ind}_P(C_0\subset S)\). The minimal mate degree is \(vR/\gcd(R,\mu)\), which divides \(a\) and is at least five. Put \(n_b=v\lceil5/v\rceil\). If \(a<2n_b\), or if the original pair has minimal degree product among sole-support pairs, minimal mate degree must equal \(a\). In the former case a proper divisor of \(a\) is at most \(a/2<n_b\); in the latter a smaller actual mate gives a smaller pair. In either case
+**Consequences of the existing exact index theorem.** On a normal replacement \(S=V(K_b)\) the degree-\(a\) mate cuts \(mC\), \(m=ab/4\), and \(C^2=16/b\). Write \(g=\gcd(b,4)\), \(\mu=b/g\), \(v=4/g\) and \(R=\operatorname{lcm}_{P\in C_0}\operatorname{ind}_P(C_0\subset S)\). The minimal mate degree is \(4R/b\), which divides \(a\) and is at least five. Put \(n_b=v\lceil5/v\rceil\). If \(a<2n_b\), or if the original pair has minimal degree product among sole-support pairs, minimal mate degree must equal \(a\). In the former case a proper divisor of \(a\) is at most \(a/2<n_b\); in the latter a smaller actual mate gives a smaller pair. In either case
 \[
- \operatorname{ord}(\mu C-vH)=a/v=R/\gcd(R,\mu),\qquad C^2=16/b. \tag{NR2}
+ \operatorname{ord}(\mu C-vH)=a/v=R/\mu,\qquad R=ab/4,\qquad C^2=16/b. \tag{NR2}
 \]
-This includes \(5\le a\le9\), and also \((10,10)\), since \(n_{10}=6\). In particular its order-one sector has \(R\mid25\) and \(R/\gcd(R,5)=5\), yielding \(R=25\), minimal mate degree ten and exact order five for \(5C-2H\). The order-one \((6,8)\) and \((6,10)\) sectors likewise give \(R=12,15\): in the second case the alternative \(R=3\) is excluded by the established index-at-most-four theorem. None is a nonexistence result. The entirely-thick sectors are not covered. For arbitrary degrees the moving-root condition below supplies another sufficient condition for minimal mate degree \(a\).
+This includes \(5\le a\le9\), and also \((10,10)\), since \(n_{10}=6\). In particular its order-one sector has \(R\mid25\) and \(R/\gcd(R,5)=5\), yielding \(R=25\), minimal mate degree ten and exact order five for \(5C-2H\). The order-one \((6,8)\) and \((6,10)\) sectors likewise give \(R=12,15\): in the second case the alternative \(R=3\) is excluded directly by \(10\mid4R\). None is a nonexistence result. The entirely-thick sectors are not covered. For arbitrary degrees the moving-root condition below supplies another sufficient condition for minimal mate degree \(a\).
 
 <a id="equal-degree-pencils-below-degree-ten-the-sextic-proof-extends-to-octics"></a>
 ### Every-member integrality and arithmetic factor bounds
@@ -617,16 +593,16 @@ This is an index necessity, not nonexistence. Neither NR1 nor the graph bound ha
 
 ### A stronger all-\(b\) quintic consequence: forced high indices on the **other** surface
 
-For every hypothetical \((5,b)\) pair, \(b=4n\), \(n\ge2\), after the quartic exclusion and Bézout. The quadric restriction gives the smaller generator generic order one, so NR1 gives a normal degree-\(b\) carrier even if the original quintic is nonnormal. On it the minimal mate degree is five by the all-mate quartic exclusion. The exact index theorem gives
+For every hypothetical \((5,b)\) pair, \(b=4n\), \(n\ge2\), after the quartic exclusion and Bézout. The quadric restriction gives the smaller generator generic order one, so NR1 gives a normal degree-\(b\) carrier even if the original quintic is nonnormal. On it the minimal mate degree is five by the all-mate quartic exclusion. The strengthened exact index theorem gives
 \[
  \Delta=nC_0-H,\quad \operatorname{ord}\Delta=5,\quad
- R/\gcd(R,n)=5. \tag{NQ1}
+ R=5n. \tag{NQ1}
 \]
-If \(n=5^kn'\) with \(5\nmid n'\), this says
-\[
- v_5(R)=k+1,\qquad v_p(R)\le v_p(n)\ (p\ne5). \tag{NQ2}
-\]
-The slope bound in §4 further limits these arithmetic possibilities. The moving-root theorem below forces \(R=5n\) for the general replacement, recovering \(R=10,15,20,25\) at larger degrees \(8,12,16,20\). Merely knowing that some index is large is not a new obstruction.
+Thus every normal larger carrier with a quintic mate, not merely a
+general replacement, has global Cartier index \(5n\).
+The moving-root theorem still adds the important geometric conclusion
+that this full index is attained at individual moving simple zeros;
+a least common multiple alone need not be attained at one point.
 
 ### A local countermodel: high index can be a **moving pencil singularity**
 
@@ -674,7 +650,7 @@ With \(g_0=\gcd(b,4),\ \mu=b/g_0,\ v=4/g_0\), we have \(m=\mu(a/v)\). By the exa
 
 There are three distinct cases; the normality conclusion of NR1 covers all of them.
 
-* If \(a<b\) and \(f\ne0\), then \(\beta\le4a-14+\ell\), so \(\alpha\ge4(b-a)>0\). In particular, for every hypothetical \((5,4n)\) pair, \(R=5n\). This settles the ambiguity \(R=10\) or \(20\) from index and slope alone for \((5,16)\): the general replacement has \(R=20\).
+* If \(a<b\) and \(f\ne0\), then \(\beta\le4a-14+\ell\), so \(\alpha\ge4(b-a)>0\). In particular, for every hypothetical \((5,4n)\) pair, \(R=5n\). The strengthened fixed-carrier index theorem already forces \(R=5n\); the new information here is attainment by individual moving singularities.
 * If \(a=b\), then \(\alpha>0\) exactly when the two actual first symbols are linearly independent over \(k\): after the gcd, a basepoint-free system of positive degree cannot have dimension one. The zero-moving-degree branch has a unique pencil member with generic order at least two (the kernel of the rank-one scalar-symbol map); the remaining general members are still normal. MV5--MV6 need not hold by this moving-root argument when \(\alpha=0\).
 * If \(a<b\) and \(f=0\), the nonzero \(g\) is fixed up to scalar, so \(\alpha=0\); normal replacement still works but does not produce moving first-symbol zeros.
 

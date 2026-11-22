@@ -205,6 +205,8 @@ not invert this implication without a separate global relation.
 
 ### 4. Cartier-index integrality and new all-degree exclusions
 
+**Stronger literature input (independent review pending).** Česnavičius–Scholze, [*Purity for flat cohomology*, Corollary 7.2.3](https://annals.math.princeton.edu/2024/199-1/p02), prove `Pic(X)/Z[H]` torsion-free for any projective complete intersection of dimension at least two over a field. As `RC0` is Cartier and some multiple is linearly equivalent to a multiple of `H`, it follows that `RC0 ~ (4R/a)H`. Thus `a | 4R`, `mu | R`, `t=R/mu`, `b_min=4R/a`, and `m_min=R`, without a rationality or characteristic restriction on the fixed-carrier Picard argument. See the [strengthened exact theorem](normal_carrier_divisor_geometry.md#3-exact-exponent-and-minimal-mate-once-the-boundary-is-reached). The earlier weaker integrality calculation below is retained as an elementary independent necessary condition; applications of the characteristic-zero quartic exclusion remain characteristic-zero.
+
 The global Cartier index of `C0` is exactly `R`: a Weil divisor on
 a normal surface is Cartier if and only if it is Cartier at every
 point, and its local classes are already zero at the regular points
@@ -223,9 +225,7 @@ bundle restricted to the smooth projective curve. Therefore
 a divides 16R.
 ```
 
-This is separate from the torsion order `t` of `Delta_0`: the global
-Cartier index of the curve is `R`, whereas `t=R/gcd(R,mu)`. Keeping
-those two integers distinct avoids a false divisibility claim.
+This is separate from the torsion order `t` of `Delta_0`. The stronger complete-intersection Picard theorem above shows `mu | R`, so `t=R/mu`; it is not in general equal to the global curve index `R`.
 
 #### Index-dividing-degree exclusion
 
@@ -287,7 +287,7 @@ then under a mate
 ```
 t divides L/gcd(L,mu),
 b_min <= (4/g) L/gcd(L,mu).
-R divides L,  a divides 16R,  hence a divides 16L.
+R divides L,  a divides 4R,  hence a divides 4L.
 ```
 
 Thus a carrier class with bounded local index exponent has both a
@@ -295,8 +295,8 @@ uniform mate-degree bound and a **finite list of possible carrier
 degrees**. Retain only divisor pairs
 
 ```
-R|L,  a|16R,  a>=5,
-(4/g) R/gcd(R,a/g) > 4.
+R|L,  a|4R,  a>=5,
+4R/a > 4.
 ```
 
 Elementary exact divisor arithmetic gives:
@@ -310,12 +310,12 @@ Elementary exact divisor arithmetic gives:
 | 12 | `(6,12,4,8)` and `(8,12,6,6)` |
 
 For `L=12`, the possible `R` are `1,2,3,4,6,12`. The first five
-give no survivor. For `R=12`, the carrier degrees at least five
-dividing 192 are
-`6,8,12,16,24,32,48,64,96,192`; their respective first mate degrees
-are `8,6,4,3,2,3,1,3,1,1`. Only the first two exceed four.
-The corresponding elementary calculation is preserved in
+give no survivor: any carrier degree at least five with first mate
+degree greater than four would require `5<=a<R` and `a|4R`.
+For `R=12`, these restrictions alone give `a=6,8`. The older,
+weaker divisor arithmetic and its independent replay are preserved in
 `research/computations/normal_carrier_index_reduction_2026_10_14.py`.
+The survivor list is unchanged, but far fewer candidates need testing.
 
 Consequently all normal carrier classes with on-curve local indices
 dividing `2`, `3`, `4` or `6` are excluded across all degrees.
@@ -354,41 +354,26 @@ subsections correct.
 
 #### General integral curves, not just the rational quartic
 
-The hypersurface Picard route in section 5 removes the rationality
-hypothesis from the index formulas. Let `C` be **any integral**
-degree-`e` projective curve on a normal degree-`a` hypersurface in
-`P^3` over an algebraically closed characteristic-zero field, and
-suppose it has a mate on that carrier. Put `g=gcd(a,e)` and let
-`R` be the least common multiple of the actual local Cartier indices
-of `C`. All those indices are finite by the mate. Then
+For any integral degree-e curve on a normal degree-a hypersurface
+in P3 over an algebraically closed field, the cited flat-cohomological
+theorem removes both the rationality and characteristic restrictions
+from the fixed-carrier index formula. If a mate exists, then
 
 ```
 Delta_0 = (a/g)[C] - (e/g)[H],
-t = order(Delta_0) = R/gcd(R,a/g),
-b_min = (e/g) R/gcd(R,a/g),
-a divides e^2 R.
+t = R/(a/g),  b_min = eR/a,  m_min=R,
+a divides e R.
 ```
 
-The first two formulas use the torsion-free Picard group and the
-localization kernel; the last uses the integer degree of the actual
-line bundle `O_X(RC)` restricted to the integral curve. Its numerical
-degree is `R C^2=R e^2/a`. Degree of a line bundle remains an integer
-on a possibly singular integral projective curve.
-
-Consequently, if the actual on-curve Cartier indices all divide
-`L`, then
-
-```
-a divides e^2 L.
-```
-
-Thus **a bound on local curve indices gives a finite carrier-degree
-reduction for all integral curves**, in every mate degree. This does
-not impose or prove such an index bound for unrestricted carriers;
-it identifies precisely the new geometric invariant whose control
-would turn the normal branch into a finite carrier problem.
+Here R is the least common multiple of the actual local Cartier
+indices, and g=gcd(a,e). Hence if the actual local indices divide L,
+then a divides e L. This is a finite list of possible carrier degrees,
+not a proof of a uniform index bound. The local socle theorems and
+characteristic-zero low-degree exclusions retain their original scope.
 
 ### 5. Primary literature and the Pic/Cl distinction
+
+The stronger arbitrary-characteristic input is Česnavičius–Scholze, Corollary 7.2.3, as stated above. The following earlier characteristic-zero argument supplies an independent torsion-freeness proof for Pic(X), without the stronger hyperplane saturation statement.
 
 The exact literature input inspected for projective hypersurfaces is
 SGA 2, Expose XII, Corollary 3.5, printed page 120, PDF page 128 in
