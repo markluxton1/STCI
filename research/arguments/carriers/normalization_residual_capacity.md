@@ -585,6 +585,10 @@ Additional conductor relations may constrain those vectors, but have not
 been computed here. No classification of multi-branch realizability is
 asserted.
 
+### Exact link to the graph cycle, beyond nef bounds
+
+The [branch valuation dictionary and gap decomposition](numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) now retain the actual normalized branch coefficients on the blowup of the reduced curve. On a simultaneous resolution/principalization the strict mate divisor is `div(G)-qD`; its horizontal coefficients are the weighted pushforwards of `n_i-qe_i`, not the raw normalization multiplicities. Vertical coefficients impose additional local inequalities even for a sole-support mate. The gap identity decomposes the ambient marked-ideal square deficit into the normalized Hodge matrix and exceptional principalization energy. With no vertical first-normal fibers it excludes every singleton inverse, and for two branches determines the entire necessary numerical matrix from the slopes. This is a stronger fixed-carrier filter in those regimes, not an additional independent scalar residual bound. Independent audit is pending.
+
 ## 5. A directly computable bound from first-normal zeros
 
 There is a useful specialization needing neither normality of \(S\) nor

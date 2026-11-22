@@ -72,6 +72,8 @@ iterate the same fractionality argument.
 
 ### P-020: the split-sextic branch has only two extreme numerical types
 
+**General mechanism (new synthesis, pending independent review).** The [normalized branch matrix from the actual first graph](numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) recovers both surviving P-020 ratios and their mixed numerical intersection for arbitrary two-branch carriers without vertical first-normal fibers. The slope threshold here is (5/3), and the relevant Hodge vector has negative square (20/3). A single horizontal root, even an irreducible quadratic multisection or a repeated section, also requires substantial vertical content; the new all-mate bound is at least seven (at least eight for a repeated section). The split calculation below remains useful for its explicit equation sources and local correction geometry.
+
 Let
 
 \[

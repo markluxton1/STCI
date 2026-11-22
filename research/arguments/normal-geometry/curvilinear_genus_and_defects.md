@@ -171,7 +171,9 @@ canonical inclusion
 
 Its degree is
 
-    (m-1) ell=2g-2-d(a+b-4)-deg D_soc.                 (8)
+    (m-1) ell=d(a+b-4)-2g+2+deg D_soc.                 (8)
+
+Here `deg L=-ell`; equivalently `-(m-1)ell=deg M-deg D_soc` by (7). The positive-sign form is the one used in the compatible socle and genus identities below.
 
 There is also a pointwise constraint stronger than the total genus formula:
 

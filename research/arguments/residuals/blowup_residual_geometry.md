@@ -918,6 +918,10 @@ globally; a list of local contact types alone does not do so.
 
 The actual-cycle pushforward and exceptional-support criterion use regular-local blowup intersection and purity in any characteristic. The \(V_5\) model and finite normalization of \(\Sigma\) retain their **characteristic-zero** scope. The first-blowup inequality \(5\delta\ge K\) and slope refinement use global generation of \(I_C(3)\) and balanced normal bundle, so extend to characteristic \(\ne2\) without the \(V_5\) contraction. In characteristic two \(N_C=\mathcal O(8)\oplus\mathcal O(6)\); the product/slope constants do not carry over. [Positive-characteristic quartic-carrier STCI](../arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier) is compatible with this necessary inequality.
 
+## Relation to actual normalized carrier branches
+
+The [valuation dictionary and Hodge-gap decomposition](../carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) refine the first-graph cycle by choosing one integral carrier and a resolution dominating its finite normalization and the first graph. An actual strict mate pulls back to `div(G)-qD`, with D the principalized marked ideal. Thus each horizontal component coefficient is the pushforward of `n_i-qe_i`; the exceptional coefficients record the full vertical cycle and give further inequalities. The scalar graph equality (3) is recovered by summing these coefficients against direction degree and is not independent of that sum. The additional information is the fixed-carrier Hodge matrix, the decomposition of the marked-ideal square gap, and, for two inverse branches, the resulting necessary matrix. This does **not** identify normalized carrier branches with the Rees valuations of the full CI ideal in the next section. Independent review of the new refinement is pending.
+
 ## The normalized blowup of the full complete intersection
 
 This is a different blowup from the blowup of the reduced quartic
