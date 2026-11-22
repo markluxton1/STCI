@@ -65,40 +65,7 @@ normal defects. A *prescribed*
 pair degree still has to satisfy
 the exact mate-degree semigroup.
 
-**An actual normal carrier can sometimes
-be obtained without assuming the
-original smaller carrier is normal.**
-The [mixed-degree Bertini
-replacement](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
-shows that for a sole-supported
-\((a,b)\), \(a<b\), with at least
-one generic normal order-one
-generator, a general element
-\(G_b+F_aL_{b-a}\) is an
-**integral normal** degree-\(b\)
-surface defining the **same**
-complete-intersection ideal
-with \(F_a\). Thus for every
-hypothetical \((5,b)\), \(b>5\),
-one may apply the entire normal
-Hodge/index theory **on the
-higher-degree carrier** even if
-the quintic was nonnormal. This
-extends normal-carrier reasoning
-to a mixed-degree class not
-covered by the equal-degree
-sextic-pencil argument. It is
-an application of standard
-Bertini whose full proof and
-5-primary exact-index consequences
-are recorded in the linked source;
-the new bridge still needs
-independent mathematical review.
-It gives necessary high-index
-conditions, not an all-quintic
-exclusion. The entirely-thick
-case and equal-degree pencil
-require separate arguments.
+**Normality is a property of the actual generator system.** For a sole-supported pair \((a,b)\), \(a\le b\), the [all-degree Bertini--Serre replacement](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) gives a general normal integral \(K_b=\lambda G_b+F_aL_{b-a}\), \(\lambda\ne0\), defining precisely the same ideal together with \(F_a\) if and only if at least one generator has generic order one. In equal degrees both general generators can be chosen normal. This is an actual homogeneous source statement, not a claim that formal structures lift. On the resulting **fixed** normal carrier the Hodge-index equality is sufficient for a mate; do not impose a second independent global lifting test there. Finding a carrier reaching equality with the required defects is the realization problem. For genuinely thick generic CI algebras, no such degree-compatible normal replacement exists, and the full two-generator source test remains essential. The theorem is degree independent and pending independent audit. 
 
 For **nonnormal** or generic-order-two
 carriers, upstairs divisor data,

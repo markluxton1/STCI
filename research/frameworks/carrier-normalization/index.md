@@ -87,48 +87,10 @@ already covered by a full normalization theorem
 is valuable proof geometry, but not additional
 disjoint carrier coverage.
 
-**New mixed-degree bridge (pending independent mathematical audit).**
-For any actual sole-supported pair of unequal
-degrees \(a<b\), if at least one equation
-has generic normal order one along \(C_0\),
-a general member of the linear system
-\(kG_b+F_aH^0(\mathcal O(b-a))\)
-is **integral normal**, and together
-with \(F_a\) defines the **same CI
-ideal**. This is an application of
-classical Bertini to the entire
-actual-generator system, not to an
-arbitrary abstract thickening. Since
-every quintic equation has generic
-normal order one, **all**
-hypothetical \((5,b)\), \(b>5\),
-pairs have a *normal degree-\(b\)*
-carrier—even if the original
-quintic is nonnormal.
-For \(b=4n\), the exact index theorem
-then forces an order-five primitive
-class \(\Delta=nC_0-H\) with
-\(R/\gcd(R,n)=5\). **The actual
-first-symbol movement improves this
-to an exact statement**:
-for the *general normal larger
-generator* the local moving
-\(A_{5n-1}\) points force
-\(\boxed{R=5n}\).
-Thus \(R=10,15,20,25\)
-at larger degrees \(8,12,16,20\),
-respectively. The local moving
-singularities can produce
-these large indices
-**automatically**; this is
-a realization reduction and
-defect-localization tool,
-**not** an exclusion.
-See the [full lemma and proof](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
-and [carrier-degree synthesis](degree_exclusions.md#normal-carrier-replacement-across-unequal-defining-degrees).
-Equal-degree pencils and mixed pairs
-with both orders at least two retain
-their separate analysis.
+**All-degree normal replacement (pending independent mathematical audit).**
+For any actual sole-supported pair of degrees \(a\le b\), the [normal-replacement theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) gives a general normal integral \(K_b\in kG_b+F_aH^0(\mathcal O(b-a))\) defining the same CI with \(F_a\) exactly when the generic transverse embedding dimension is at most one. Equal degrees are included without a degree restriction. All hypothetical \((5,b)\) pairs satisfy the condition, even with a nonnormal quintic. The moving-root analysis gives \(R=m=ab/4\) and minimal mate degree \(a\) whenever the moving first-symbol divisor is nonempty; this is automatic for \(a<b\) with a nonzero smaller symbol, or for an equal-degree pencil with linearly independent symbols. Thus all general \((5,4n)\) replacements have \(R=5n\). These often automatic indices cannot be used alone to exclude the pair. In equal degrees a rank-one symbol pencil has a unique entirely order-at-least-two member and still has normal general members. Both originally thick is the precise case outside the replacement theorem for the fixed CI.
+
+The [fixed-defect theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#the-exact-defect-budget-is-concentrated-at-common-singularities) identifies the support of the actual top-socle divisor with the common first-symbol divisor, independent of moving-root existence. The [reduced-gcd test RG1](../../arguments/carriers/normal_carrier_divisor_geometry.md#reduced-common-first-normal-divisor-a-uniform-marked-ade-and-rank-test) extracts the universal local ADE and global duality/rank mechanism from the sextic proof, and gives a new congruence exclusion when every prime factor of \(m\) is \(1\bmod4\). Review is required for these extensions. The precise scopes, remaining strata and arithmetic factor thresholds are in the [degree-exclusion synthesis](degree_exclusions.md#normal-carrier-replacement-across-unequal-defining-degrees).
 
 **Classical primitive starting point.**
 [Ellia (2015), Theorems 12 and 15,
@@ -153,7 +115,7 @@ finitely many points.
 This does **not** prove the
 unrestricted common-singular
 point assertion. The new
-mixed Bertini lemma allows
+all-degree Bertini lemma allows
 those finitely nonprimitive
 points, whereas Ellia's
 stronger primitive theorem

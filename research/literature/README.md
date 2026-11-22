@@ -444,44 +444,9 @@ considerably stronger than
 generic Bertini **within the
 primitive setting**.
 
-The [new mixed-degree normal
-replacement lemma](../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
-must therefore be compared with
-Ellia, rather than called a new
-primitive-surface theorem:
-it assumes only **one
-generic normal order-one
-generator**, and can retain
-**finitely many nonprimitive
-special points**. This is the
-actual possible extension beyond
-Ellia's hypotheses. The local
-moving \(A_{m-1}\) marked
-singularities at smooth points
-of the smaller carrier are a
-special case of the geometry
-Ellia exploits, not an
-unprecedented singularity type.
+The [all-degree normal replacement theorem](../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) uses classical characteristic-zero Bertini smoothness ([Kleiman 1997, Theorem 4.1](https://arxiv.org/abs/alg-geom/9704018)), Serre's criterion and hypersurface connectedness. Neither a non-pencil hypothesis nor prior integrality is required. It allows nonprimitive special points and equal or unequal degrees. This is a direct application of classical theory, not a new foundational Bertini result. Ellia's primitive theorem is stronger within its hypotheses. Simple first-symbol roots give the standard marked \(A_{r-1}\) germs of Ellia's Definition 8 and Lemma 10; the [reduced-gcd argument](../arguments/carriers/normal_carrier_divisor_geometry.md#reduced-common-first-normal-divisor-a-uniform-marked-ade-and-rank-test) uses this local geometry outside the everywhere-primitive case, combining it with the actual CI defect budget. The generalization is pending independent review.
 
-Since **no** \((5,b)\) or
-\((6,6)\) occurs in the
-primitive list, every such
-hypothetical characteristic-zero
-sole-supported pair must be
-**nonprimitive somewhere**.
-For a quintic, generic order
-one makes it generically
-curvilinear, so the defect
-is necessarily at *finitely
-many* points. For a
-hypothetical \((6,8)\)
-pair with both normal orders
-two, nonprimitivity is
-already generic; the primitive
-theorem cannot address that
-case. These are necessary
-statements, not complete
-degree-five/six exclusions.
+The complete quartic exclusion removes \((4,7)\) from the ten eligible primitive pairs. Thus **outside the remaining nine pairs**, a hypothetical CI has a common singular point on \(C_0\). In the generically curvilinear branch this means a nonempty finite nonprimitive locus; if both generators have higher generic order then nonprimitivity is already generic. No primitive existence is claimed within the nine pairs, and the unrestricted common-singular assertion remains open.
 
 ### Franco--Kleiman--Lascu
 

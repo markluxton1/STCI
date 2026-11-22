@@ -71,26 +71,10 @@ of full initial ideals and actual equations, see
 
 At the generic point \(\eta_C\), after a choice of formal parameters, study \(I\subset K[[X,Y]]\), \(K=k(C)\simeq k(t)\). Orders \(r=\operatorname{ord}_C F\), \(s=\operatorname{ord}_C G\) and the leading forms provide the first layer, not a complete invariant. When \(C\) is an isolated generic component of the intersection, the length \(\ell_{K[[X,Y]]}(K[[X,Y]]/I)\) measures its generic multiplicity. The identity \(de/4\) for this length requires that C be the only one-dimensional component of the global complete intersection; it must not be imposed in the broader setup.
 
-### Which mixed-degree pairs truly need an entirely-thick analysis?
+<a id="which-mixed-degree-pairs-truly-need-an-entirely-thick-analysis"></a>
+### Which actual pairs truly need an entirely-thick analysis?
 
-The [mixed-degree normal Bertini
-replacement](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
-(starting from **actual** equations,
-and pending independent review)
-shows that any sole-supported
-\((a,b)\), \(a<b\), with at least
-one generator of generic normal
-order **one** admits a normal
-degree-\(b\) carrier **without
-changing the CI ideal**. The
-[quadric order bound](../../arguments/carriers/sextic_pair_reduction.md#why-every-pair-is-generically-curvilinear)
-makes that automatic for **all
-\((5,b)\)**. On this normal
-carrier, the existing Hodge
-equality and exact-index
-criteria already determine
-mate existence and degrees
-at fixed carrier.
+The [all-degree normal-replacement theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) (pending independent audit) characterizes precisely when the larger-degree generator system of a sole-supported CI admits a normal integral member: the generic transverse Artin algebra has embedding dimension at most one. Equivalently at least one first normal symbol is nonzero. Equal degrees are included. This is a property of the actual CI ideal, independent of its degree-compatible generators; two generic order-at-least-two generators cannot be changed into an order-one member of that system. A different thickening on the same reduced support is not excluded by this observation. The quadric bound gives this reduction for every hypothetical \((5,b)\) pair, and the graph bound for \((6,6)\). The Hodge equality and exact-index criterion then decide mate existence on a fixed normal carrier.
 
 The first mixed pair where
 **both** equations can have
@@ -151,36 +135,8 @@ common-singular-point
 statement in all defining
 degrees remains **unproved**.
 
-When the smaller generator
-has generic normal order
-one, write its and its
-mate's proportional
-first-normal symbols as
-\(f(A,B),g(A,B)\), in their
-shared saturated direction.
-The [new global moving-root
-comparison](../../arguments/carriers/normal_carrier_divisor_geometry.md#the-global-moving-root-theorem-the-larger-normal-carrier-has-index-m)
-identifies the fixed
-nonprimitive divisor
-\(B_{\rm np}=\gcd(f,g)\);
-outside that divisor,
-the normal replacement
-creates simple moving
-\(A_{m-1}^1\) points
-whose local index \(m\)
-has **zero primitive
-top multiplication
-defect**. The accepted
-[pointwise socle theorem](../../arguments/carriers/normal_carrier_symbolic_torsion.md#1-carrier-data-and-an-intrinsic-normalized-budget)
-then localizes the entire
-top defect to
-\(B_{\rm np}\). This is
-the missing connection
-among the primitive
-classification, the
-normal replacement,
-and the saturated
-actual CI filtration.
+For every generically curvilinear actual pair, the [unified first-symbol and defect analysis](../../arguments/carriers/normal_carrier_divisor_geometry.md#the-global-moving-root-theorem-the-larger-normal-carrier-has-index-m) decomposes the general larger carrier's first-symbol divisor into the fixed common gcd \(B_{\rm np}\) and disjoint reduced moving zeros. There may be no moving zeros. Each moving zero has local Cartier index \(m\), but zero top defect. Even without any moving zeros, the actual top defect has support exactly \(B_{\rm np}\), by the pointwise Frobenius and monomial-lattice equalities. This connects the normal-carrier index theorem to the full saturated filtration of the same CI. The [uniform reduced-gcd test](../../arguments/carriers/normal_carrier_divisor_geometry.md#reduced-common-first-normal-divisor-a-uniform-marked-ade-and-rank-test) gives actual filtration coefficients \(\lfloor i/r_P\rfloor\) at a simple fixed point; it is not an identification of arbitrary nonreduced defects by their lengths. In particular, the all-degree congruence for \(m\) with prime factors \(1\bmod4\) shows why even very high index strata can require multiple common roots. These extensions require independent audit.
+
 It does **not** identify
 the actual special-point
 defect structures from

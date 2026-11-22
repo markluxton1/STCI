@@ -19,139 +19,15 @@ test for the contracted trisecant. [Connected directions](results/connected_norm
 
 ### What the degree-four-to-six synthesis actually changes
 
-The [degree-exclusion synthesis](frameworks/carrier-normalization/degree_exclusions.md)
-now has a **common logical
-order**, not an aggregation of
-special cases. First use
-the complete degree-four
-all-mate theorem and the
-[all-degree normal-carrier
-low-index exclusions](arguments/carriers/normal_carrier_symbolic_torsion.md#5-closing-the-entire-actual-index-at-most-four-class).
-Then distinguish **primitive,
-quasiprimitive (finite
-nonprimitive defect) and
-entirely thick** actual
-pairs. [Ellia's 2015
-primitive classification](literature/README.md#ellia)
-already excludes primitive
-\((5,b)\) for every \(b\),
-and primitive \((6,6)\);
-a hypothetical such pair
-has a **common singular
-point on \(C\)**.
-The unrestricted
-common-singular claim
-remains open.
+The [carrier exclusion synthesis](frameworks/carrier-normalization/degree_exclusions.md) distinguishes universal mechanisms, actual-pair reductions, all-mate exclusions for particular carriers, and remaining realizations. The all-mate quartic theorem remains an independent base case, not a consequence of index tests which use it.
 
-The new [mixed-degree
-normal replacement](arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
-holds when \(a<b\) and
-at least one generator
-has generic normal order
-one. Every hypothetical
-\((5,b)\), \(b>5\),
-has a normal **larger**
-carrier despite possible
-nonnormality of its quintic.
-When the **smaller**
-generator has order one,
-its first-normal coefficients
-give an exact
-[moving \(A_{m-1}\)
-description](arguments/carriers/normal_carrier_divisor_geometry.md#the-global-moving-root-theorem-the-larger-normal-carrier-has-index-m):
-the normal replacement
-has \(R=m=ab/4\)
-and minimal mate degree
-\(a\). These large
-indices arise **naturally**
-from moving singularities,
-so they are **not a new
-exclusion by themselves**.
-The accepted pointwise
-socle identity localizes
-the actual top
-multiplication defect
-to the **fixed common
-first-normal gcd divisor**.
-For every hypothetical
-\((6,6)\) pair, the
-[existing stronger
-theorem](arguments/carriers/sextic_pair_reduction.md#the-common-first-normal-divisor-must-be-nonreduced)
-forces this gcd divisor
-to be **nonreduced**,
-not just nonempty.
+**An all-degree division of actual pairs.** The [normal-replacement theorem](arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) applies to every \(a\le b\): a general degree-\(b\) generator of the same CI ideal is normal integral exactly when some original generator has generic order one. This is the intrinsic embedding-dimension-one branch. Equal-degree pencils need no degree cutoff, and two independent general members are normal there. No member of this generator system can be normal if both symbols vanish generically. The quadric and graph bounds place all hypothetical \((5,b)\) and \((6,6)\) pairs in the first branch; \((6,8)\) is the first numerical pair where an entirely-thick pattern survives those bounds. For arbitrary presentations in either branch, [Ellia's primitive classification](literature/README.md#ellia), together with the quartic theorem, forces a common singular point outside nine surviving primitive-eligible degree pairs; inside those nine the assertion remains unresolved.
 
-The mechanisms have
-precise boundaries:
-the [graph bound](arguments/residuals/blowup_residual_geometry.md#5-integer-strengthening-usefulness-region-and-exact-limitations)
-excludes two normal
-order-two generators
-in \((6,6)\), but first
-becomes vacuous for
-the mixed \((6,8)\)
-order-two/order-two
-lane. Equal-degree
-pencils of degree
-\(5\le d<10\)
-have integral members
-by the all-degree
-factor bound; if
-an order-one generator
-exists, a general
-member is normal.
-The next equal
-case \((8,8)\)
-therefore forces
-\(R=16\) on a
-normal octic in its
-order-one sector.
-At degree ten,
-a pencil member
-can first factor
-into two degree-five
-carriers, so that
-irreducibility argument
-no longer follows
-from the degree bound.
+**Separate fixed defects from moving singularities.** For a generically curvilinear CI, the [actual first-symbol system](arguments/carriers/normal_carrier_divisor_geometry.md#the-global-moving-root-theorem-the-larger-normal-carrier-has-index-m) has fixed common-symbol divisor \(B_{\rm np}\) and a reduced moving divisor on \(C\). Any nonempty moving divisor forces the index lcm \(R=m=ab/4\) and minimal mate degree \(a\), automatically for \(a<b\) with smaller symbol nonzero, and for equal degrees with linearly independent first symbols. Large indices here are consequences of generator movement, not extra impossibilities. The actual top-socle divisor has exactly the support of \(B_{\rm np}\), even when the moving divisor is empty. This localization does not identify the multiplicities or local algebra. [Uniform reduced-gcd test](arguments/carriers/normal_carrier_divisor_geometry.md#reduced-common-first-normal-divisor-a-uniform-marked-ade-and-rank-test): reduced \(B_{\rm np}\) forces end-marked ADE germs, with fixed indices proper divisors of \(m\) and saturated layers \(\lfloor i/r_P\rfloor\). The exact duality and root-rank budgets give a common mechanism for the [proved nonreduced-gcd sextic theorem](arguments/carriers/sextic_pair_reduction.md#the-common-first-normal-divisor-must-be-nonreduced); they also rule out reduced gcd in the entire multiplicity class with prime factors \(1\bmod4\) (e.g. \(m=25\)). The new all-degree extensions require independent audit.
 
-**The mathematical
-implication:** for
-quasiprimitive pairs,
-the hardest constraint
-is not an arbitrary
-high local Cartier
-index. It is the
-**global realizability
-of the finite fixed
-nonprimitive defect**
-together with actual
-homogeneous forms,
-their normal symbols
-and the full saturated
-CI filtration.
-For entirely-thick
-pairs, even the normal
-replacement may fail
-and the Rees/blowup
-residual and
-full-ideal frameworks
-remain essential.
-On a **fixed normal**
-carrier Hodge equality
-is already sufficient
-for a mate, so an
-additional abstract
-global lifting gate
-must not be invented.
-These conclusions
-identify the interface
-where special degree-five
-and degree-six theorems
-should be retained
-or combined; they
-do **not** supply
-an unrestricted STCI
-exclusion.
+**Distinguish proof thresholds from geometry.** Every-member integrality follows from factor degrees and Bézout in equal degrees \(6,8,10\), but its numerical threshold at degree 12 does not affect general-member normality. At minimal degree product every compatible generator is integral, without a degree bound. Factor descent changes the thick scheme and is not a substitute for ideal-preserving replacement. The resulting normal octic and degree-ten index necessities \(R=16,25\) do not settle the respective pairs.
+
+**Research implication.** The normal Hodge equality characterizes mate existence on any *fixed* normal \(\mathbf Q\)-Cartier carrier, including actual homogeneous lifting. In the order-one branch the remaining problem is the realization of that equality geometry: how fixed defects, moving primitive singularities, higher conormal data and actual homogeneous sources fit together. A fixed nonnormal carrier still requires full inverse support and conductor descent; a normal higher-degree replacement does not answer the original carrier's mate question independently of the hypothesized pair. In the entirely-thick branch the full-ideal/Rees, residual, and actual equation frameworks retain information no degree-\(b\) normal carrier can encode. The two classes are intrinsic to the given thick scheme, not to the reduced support under arbitrary factor descent. These mechanisms do not supply a general nonexistence theorem.
 
 A second
 [cross-framework consequence](arguments/torus/fixed_surface_restriction_lifts.md#reverse-application-single-curve-exclusions-constrain-multi-curve-chow-cycles)
