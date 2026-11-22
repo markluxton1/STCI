@@ -1,0 +1,90 @@
+# Marked CI arrangements, forgetful reconstruction and compactifications
+
+**Status:** exact open-locus calculation for reduced (4,4) arrangements; proposed compactification and general-degree program, not a proof of flat extension or an unrestricted STCI obstruction. Preserve all arrangement labels symmetrically; do not translate any marked component to the fixed quartic. Work over an algebraically closed field of characteristic zero.
+
+## Established input and the visible-contour analogy
+
+The [reduced-cycle realization criterion](../equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle) and [dual-line reformulation](arrangement_endpoint_delta.md) supply the actual eigenquartic generators. Kapranov, [*Chow quotients of Grassmannians I*](https://arxiv.org/abs/alg-geom/9210002), constructs visible contours by intersecting universal torus orbit closures with the sub-Grassmannian of planes containing a fixed vector. Keel–Tevelev, [*Geometry of Chow quotients of Grassmannians*](https://people.math.umass.edu/~tevelev/chow.pdf), §2.11, describes the flat family and Hilbert embedding. Hacking–Keel–Tevelev, [*Compactification of the moduli space of hyperplane arrangements*](https://arxiv.org/abs/math/0501227), supplies the stable-pair interpretation. This is a model for a construction, not a theorem that our incidence spaces are their Chow quotients.
+
+The precise forgetful precedent is Schaffler–Tevelev, [*Compactifications of moduli of points and lines in the projective plane*](https://doi.org/10.1093/imrn/rnab200), Corollary 3.5: for the Grassmannian Chow quotients X(r,n), r>=2 and n>=r+2, the product of forgetful morphisms to X(r,I), |I|=r+2, is finite birational onto its image. For stable rational curves, cross ratios containing one fixed label already give a closed embedding (Aguirre–Felder–Veselov, [*Gaudin subalgebras and stable rational curves*](https://arxiv.org/abs/1004.3253), Theorem A.2, building on Gerritzen–Herrlich–van der Put). These are statements about recovering an object and compatible cross-ratio data; they do not imply that an arbitrary subvariety is cut out by the pullbacks of the images of its forgetful maps.
+
+## 1. General configuration incidence
+
+Let T=(G_m)^2 denote the transverse quotient torus with coordinates (u,v), and C_(u,v)=[s^4:s^3t:u st^3:v t^4]. For ordered distinct points Z in Conf_m(T), let A_Z be their reduced union, m=ab/4. Set S_d=H^0(P^3,O(d)), with weight spaces S_(d,w) for intrinsic coordinate weights (0,1,3,4). Each weight space restricts to a Laurent monomial system on T after removal of the common orbit-coordinate power. Evaluation on Z gives a matrix E_(d,w) and
+K_d(Z)=H^0(I_(A_Z)(d))=direct sum_w ker E_(d,w).
+On fixed-rank strata its row spaces and kernels define maps to Grassmannians equivariant under simultaneous translation of all parameters. Plücker supports may organize their degenerations, but no literal Kapranov visible contour or flat boundary family has been constructed.
+
+For a<b a reduced CI arrangement necessarily has dim K_a=1, dim K_b=dim S_(b-a)+1, and its second generator is the unique line K_b/(F S_(b-a)); for a=b=d its defining pencil is K_d of dimension two. Conversely these dimension conditions plus coprimality give the CI by degree exhaustion. Thus there is a determinantal and open properness description on the distinct-configuration space. All labels remain symmetric under S_m. The reduced locus is special, not the complement of just the big diagonal.
+
+## 2. The full ordered reduced (4,4) model, including constant-v carriers
+
+Use the unique weight-four generator and weight-twelve generator of the pencil (up to scalar), as supplied by the existing eigenform theorem. After normalizing their nonzero coefficients, the dense quotient equations are
+\[
+ v=A+Bu,\quad u^4+euv^2+fv^3=0,
+ \qquad A,f\ne0.
+\]
+Here B,e are arbitrary. A,B specify the carrier line, and e,f specify the mate; the four roots must be distinct. The absence of additional projective support and properness are the existing dual-line criterion. The carrier line is determined by any two arrangements since their u coordinates are distinct.
+
+A useful **uniform** coordinate on the carrier is
+\[
+ q=u/v,\qquad u=Aq/(1-Bq),\qquad v=A/(1-Bq).
+\]
+It does not require B nonzero. The allowed marks satisfy q_i != 0 and 1-Bq_i !=0, and are distinct. The mate equation becomes the monic polynomial
+\[
+ P(q)=q^4+(e q+f)(1-Bq)/A.
+\]
+Writing e_j for the elementary symmetric polynomials in the four q_i, existence of the mate is exactly
+\[
+ \boxed{e_1=0,\qquad R:=e_2-B e_3+B^2 e_4=0.}
+\]
+Indeed comparing coefficients gives e/A=-e_3+B e_4 and f/A=e_4. The latter is nonzero since every q_i is nonzero. Conversely these formulas produce the unique mate. Thus the reduced ordered locus is explicitly the open subset of this two-equation family in coordinates (A,B,q_1,...,q_4), A nonzero, with all q_i, 1-Bq_i, q_i-q_j invertible. This includes B=0, where e_1=e_2=0. Its unreduced root polynomial completion, allowing repeated marks, still gives invariant CI pairs provided nonzero/boundary conditions hold (multiplicity partition retained).
+
+On B nonzero introduce t=Bu/A and x=1/(1+t)=1-Bq=A/v. The three boundary marks in t are 0,-1,infinity; in x they are 1,infinity,0 respectively. The marked smooth carrier is a seven-pointed P^1. The two equations above become
+\[
+ \boxed{\sum_i x_i=4,\qquad \prod_i x_i=1.}
+\]
+Equivalently the monic t-root polynomial satisfies P_t(t) congruent to t^4 modulo (t+1)^2, i.e. P_t(-1)=1, P_t'(-1)=-4. The framed open space is the product (G_m)^2_(A,B) times the two-dimensional marked locus V_4 in M_(0,7), given by these equations on four distinct x_i in P^1 minus {0,1,infinity}. No arrangement mark is singled out. The B=0 chart has only two distinct boundary points; the three-point normalization is not valid there, whereas q and the uniform equations remain valid.
+
+## 3. Forgetful maps and determination by their images
+
+Let a labeled triple of q coordinates have elementary symmetric functions s,p,h (of degrees 1,2,3). The unique possible fourth mark is r=-s, from e_1=0. Substitution into R gives
+\[
+ \boxed{(1+Bs)(p-Bh)=s^2.}
+\]
+The admissible triple locus additionally requires r nonzero, 1-Br nonzero, and r distinct from the retained marks, as well as the original triple open conditions. This is exactly the image of forgetting any one label; the forgetful map is an isomorphism onto it, with regular inverse (A,B,q_i) -> (A,B,q_i,r). In original T coordinates the triple determines its carrier A,B, so no auxiliary framing choice is needed. The targets are **extendible triples of the (4,4) problem**, not (3,4) CI arrangements.
+
+Stronger: on the ambient ordered distinct-point space, a quadruple is realizable if and only if its subtriples obtained by forgetting any TWO different labels are both extendible triples. The two triples overlap in two distinct points, so their unique affine carrier lines coincide. Work in the resulting common (A,B,q) coordinates. Let S=sum q_i and R above be calculated on the actual quadruple. For omitted label i, replacing q_i by q_i-S yields the only candidate completion, so its extendibility implies
+\[
+ R=S L_i,\qquad
+ L_i=\sum_{k\ne i}q_k-B\sum_{k<l;\ k,l\ne i}q_kq_l+
+ B^2\prod_{k\ne i}q_k.
+\]
+For i != j, the difference is
+\[
+ L_i-L_j=(q_j-q_i)\prod_{k\ne i,j}(1-B q_k),
+\]
+a unit on the distinct allowed carrier locus. Subtracting the two equations forces S=R=0. This also proves ideal equality on the carrier-coordinate open, since the differences are units. The converse follows by deleting any mark of a realized arrangement. Consequently the full symmetric family of four forgetful maps determines the locus; in fact any two pullbacks suffice (with the stated admissibility opens). On the normalized B nonzero chart this is especially simple: if a triple of x's has product P and sum S_3, its completion is 1/P and its extendibility equation is S_3+1/P=4. With all four x's present, write p_all=product x_i, s_all=sum x_i. The equation from omitting i is s_all-4+x_i(1/p_all-1)=0. Two different omissions give p_all=1 and s_all=4.
+
+By contrast, on the normalized x chart forgetting two marks has dense image in the space of admissible ordered pairs: the remaining marks are the two roots of
+\[
+ z^2-(4-x_1-x_2)z+1/(x_1x_2)=0.
+\]
+For a general pair these roots are distinct, avoid 0,1 and are distinct from the retained marks, giving two ordered completions. (For example over Q take x_1=2,x_2=3.) Thus pair-image conditions cannot define the original surface as a closed locus on the distinct open; it is the triple compatibility that encodes the two constraints. This is not the same as saying cross ratios of the full configuration cannot recover it.
+
+## 4. Three candidate compactifications and an established compactification result
+
+* Ambient: for a smooth projective toric refinement S of the normalized orbit Chow quotient, Hilb^m(S) is a smooth projective compactification of the unordered distinct configurations with a universal finite flat scheme. After extending the finitely many weightwise monomial maps by toric refinement, the line bundles L_(d,w) give tautological evaluation maps S_(d,w) tensor O -> L_(d,w)^[m]. Their rank loci extend the evaluation conditions but may have extra boundary components. Take the closure of the actual coprime locus, not every component of the rank locus. The nested Hilbert scheme S^[m,m+1] is the blow-up of S^[m] x S along its universal length-m scheme (Ellingsrud–Strømme; see [Addington, §3.1](https://content.algebraicgeometry.nl/2016-2/2016-2-011.pdf)). This supplies an add-one-point correspondence, not a canonical deletion of an individual labeling at a collision.
+* Ordered: [Fulton–MacPherson](https://annals.math.princeton.edu/1994/139-1/p06) S[m] retains labels and expanded fibers, with marking sections and forgetful morphisms. Compare with a universal marked carrier family and with the Hilbert scheme by closing the graph of the simultaneous data. No claim of a canonical morphism between these compactifications or of preserved flat CI fibers.
+* Carrier-adapted: for a designated weight system, take the universal divisor curve D_F in S over its projective space of sections and the relative Hilbert scheme of length-m subschemes on it; impose the mate evaluation, properness and degree exhaustion on the appropriate open. For smooth carriers, ordered markings are sections of the pulled-back universal curve. This is the closest analog of visible contours; a canonical compactification with stable marked families or correct limiting equation spaces is the unresolved task.
+
+For a concrete first compactification of the B nonzero **abstract** quartic marked locus, let W_4 be the scheme-theoretic closure of V_4 in the stable-curve space Mbar_(0,7). It is projective and inherits a stable seven-pointed universal curve with sections, with S_4 symmetry. Write W_(3,i) for the closure of the image of V_4 in Mbar_(0,6) under forgetting root i. Each deletion extends as a morphism W_4 -> W_(3,i).
+
+In fact the product of these four extended maps is a **closed embedding**. By Aguirre–Felder–Veselov Thm A.2, the cross ratios containing any one fixed boundary label already embed Mbar_(0,7). Every such cross ratio uses at most three root labels, and hence factors through at least one of the four deletion maps. The product of deletions therefore embeds the ambient Mbar_(0,7), and restricts to an embedding of W_4 in the product of its forgetful images. This resolves the recovery question for this compactification using existing theory. It does **not** prove that W_4 equals the intersection of inverse images of W_(3,i) in Mbar_(0,7): extra boundary components may appear, and compatibility/closure equations are the next problem. The embedding also does not retain A,B or the embedded quotient torus; an additional framed compactification is required for the full realization locus and its blow-ups. One may take the graph closure of the simultaneous maps into marked-curve, framed carrier, Hilbert and equation spaces, then compare boundary fibers. The B=0 stratum must be included separately or via degeneration of the boundary markings; the normalized x model alone cannot be used as a compactification of the entire ordered realization space.
+
+## 5. Second solved carrier, and general induction target
+
+The [fixed quartic carrier theorem](fixed_carrier_chow_arrangements.md) provides another model: N nonzero roots on P^1 minus {0,infinity}, with e_1=e_2=e_5=0 (omit e_5 for N<5). For N=3,4 or N>=6, forgetting one root r gives r=-e_1(triple/general remaining multiset); the other constraints become e_2=e_1^2 and e_5=e_1 e_4 when applicable. Losev–Manin spaces (two heavy boundary marks and light root marks) offer a natural ordered compactification, retaining the overall scale separately. These are extendible (N-1)-point configurations, not CI arrangements in a lower bidegree. The degree-five obstruction follows from the e_5 equation and forbidden zero root.
+
+The common direction is to characterize mate linear systems as constraints on finite divisors on moving quotient carriers, including boundary jets or conductor conditions where available, then analyze the images of each forgetful map and their compatibility. For general a,b the kernel maps supply exact incidence conditions, but neither smooth rational carriers nor unique reconstruction after deleting a point are automatic. The existing [trace-moment theorem](chow_arrangement_moments.md) excludes full coalescence in characteristic zero for the reduced CI closure, so the general non-invariant repeated-cycle STCI problem is outside this program's established coverage.
+
+**Next mathematical question:** determine the stable boundary of W_4 and whether its forgetful-image pullbacks introduce spurious components; compare it with the closure in the Hilbert and framed carrier spaces before generalizing to larger degrees. The present note proves open reconstruction and compactified abstract recovery, not boundary-image sufficiency or a new STCI exclusion.
