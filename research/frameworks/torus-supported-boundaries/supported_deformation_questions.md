@@ -116,6 +116,8 @@ permits collision partitions excluded on the fixed toric quartic. Its
 exceptional non-invariant thickenings supply a fixed-cycle comparison
 with both full torus limits.
 
+The [all-order primary computation](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) on the classified fixed toric quartic calculates saturated layers from the semigroup. In its actual quartic collision residual degree drops from 12 to 8 and marked attachment from 18 to 12, but full thick attachment rises from 18 to 24. Extracting full primaries before and after absorption is not a flat-primary argument. The binomial-interpolation calculation is characteristic zero; it does not realize other carriers.
+
 ## Concentrating interior information at the endpoints
 
 The full intrinsic torus limit replaces the interior by a constant endpoint

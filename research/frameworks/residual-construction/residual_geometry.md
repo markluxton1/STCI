@@ -155,6 +155,8 @@ mechanism homes state which additional arguments extend and which do not.
 A characteristic-two coalescence or positive-characteristic supported endpoint
 is never used as a characteristic-zero obstruction.
 
+The [proper-cut and layerwise identities](../../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) retain the attachment correction explicitly. A positive complementary-layer failure on an actual curvilinear primary gives a residual-degree lower bound. The [attachment quotient](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) gives the dual annihilator tower without curvilinearity. Neither implies that a missing formal symbol produces such a defect.
+
 ## Exact remaining interfaces
 
 A family-level jet obstruction must control **every actual mate**, including

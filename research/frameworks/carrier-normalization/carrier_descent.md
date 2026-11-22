@@ -145,6 +145,8 @@ The latter implies the pointwise necessary inequality \((n-1)\operatorname{ord}_
 
 The marked cubic and ruled normalizations illustrate why the distinction matters: reduced inverse support, finite normalization, resolution, and scheme-theoretic conductor are different objects. There is no established extension of the singleton divisor identity to multiple inverse branches or non-Cartier inverse curves by summing branchwise formulas.
 
+For the actual finite primary map in a transverse graph chart, the [canonical ideal formula](../../arguments/residuals/blowup_residual_geometry.md#local-canonical-ideal-version-and-several-marked-points) identifies \((K:B)=x^{u+v-1}B\), with \(K\) the image-primary attachment ideal. Without a residual this is the actual curve conductor. The [signed socle class](../../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) corrects for image residual attachment. Neither identifies the curve conductor with that of the ambient surface normalization.
+
 ## 4.7B Full Artinian phases and bounded-power exceptions
 
 For a finite inclusion of characteristic-zero conductor algebras, descent of a power has two distinct parts: the nilpotent logarithm must already descend, while the reduced etale ratio must be torsion. The [finite-Artinian phase treatment](../../arguments/carriers/conductor_descent_algebra.md) makes the test exact. It explains why agreement on the reduced conductor cannot replace full scheme-theoretic gluing.

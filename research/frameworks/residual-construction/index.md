@@ -86,6 +86,8 @@ Hilbert-boundary cycle as a substitute for a flat residual
 construction or two global defining equations. The fixed-degree
 terminal condition is exact but does not show its stratum is nonempty.
 
+The [attachment layer identities](../../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) bound actual attachment from below using complementary normal-layer defects of the full primary. [Local duality](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) identifies the actual attachment equation quotient with dual annihilator layers. The [toric collision](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) shows full attachment can increase during absorption. [Finite graph transfer](../../arguments/residuals/blowup_residual_geometry.md#signed-finite-transfer-throughout-the-interior-equality-boundary) now allows an image residual conic. These exact comparisons do not prove universal positivity.
+
 ## How residual degree can change
 
 The [explicit quartic pairs](../../arguments/residuals/explicit_quartic_residuals.md)

@@ -275,6 +275,8 @@ intrinsic \(I_C\)-adic comparison defect in
 Keep these two filtrations separate when connecting torus
 limits to normal Rees data.
 
+The [classified collision](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) and [attachment duality](../../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) calibrate actual proper pairs. Do not apply linkage to a pure hull of a full limit with embedded points without identifying an actual Gorenstein CI and its full primary. Full attachment is not a monotone proxy for residual degree.
+
 ## Embedded-point control for full limits
 
 The [four-generator line control](../../arguments/torus_hilbert_boundary.md#a-four-generator-full-limit-with-an-embedded-point)

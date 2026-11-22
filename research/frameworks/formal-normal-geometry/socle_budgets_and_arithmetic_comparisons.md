@@ -39,3 +39,6 @@ The [complete endpoint owner](../../arguments/local-cohomology/degree_fifteen_ob
 
 A precise proposed cross-topic bridge is to compare the nonsaturated-first-relation/resultant defect of R0016 with the saturated quasiprimitive residual zero-cycle of R0019 **using the actual global equations and a proper auxiliary intersection**. The two constructions have different hypotheses and targets. A general divisor inequality has not been established. Any comparison must identify correction terms when ordinary normal flatness, generic curvilinearity, saturation or properness fails, rather than equate the two numerical defects or infer an extra curve from a vertical exceptional cycle.
 
+
+
+The [attachment-corrected layer and cutting formulas](../../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) give an actual comparison with residual support: the signed top class subtracts the marked attachment, and positive complementary-layer failure bounds that attachment below. This is not an identification of R-0016 and R-0019 or arbitrary initial-relation defects. The [actual equation quotient](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) is the local duality target for the proper pair. Independent review pending.

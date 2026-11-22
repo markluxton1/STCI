@@ -156,6 +156,8 @@ homogeneous source maps,
 and conormal gluing
 remain necessary.
 
+For actual curvilinear full primaries inside a Gorenstein intersection, [linkage replaces the sole-support socle identity](../../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) with a signed top class and complementary attachment layers. [Finite modification](../../arguments/residuals/blowup_residual_geometry.md#signed-finite-transfer-throughout-the-interior-equality-boundary) extends the graph comparison to a residual center. The [attachment equation quotient](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) has its own exact duality, not yet an identity with arbitrary filtered comparison defects.
+
 ## Exceptional geometry and components downstairs
 
 The joint zeros of the two actual leading forms on the first exceptional

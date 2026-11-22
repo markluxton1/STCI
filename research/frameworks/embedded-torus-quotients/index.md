@@ -121,6 +121,8 @@ or a fixed abstract quotient type requires a coverage argument. The
 [finite controls](../../arguments/torus_sextic_residuals.md#finite-replay-evidence)
 check identities but do not establish image descent or projective realization.
 
+The [finite primary canonical colon identity](../../arguments/residuals/blowup_residual_geometry.md#local-canonical-ideal-version-and-several-marked-points) supplies an actual curve-conductor comparison in transverse charts with identical generic algebras. With an image residual it uses the attachment ideal, not the conductor of the ambient surface. The [semigroup primary computation](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) gives explicit layer indices on the classified carrier.
+
 ## From contact to descent
 
 [Contact and global descent](contact_and_global_descent.md) compares the
