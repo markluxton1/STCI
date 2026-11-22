@@ -245,6 +245,38 @@ cutting-surface formula LA5 retains the high attachment
 layers seen by the annihilator of a cutting equation.
 Independent mathematical review is pending.
 
+### The triple is an exact meeting point of three defect theories
+
+The [classical Bănică--Forster local triple
+normal form and its application TR1--TR4](../residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors)
+show that at multiplicity three the
+second saturated multiplication defect
+\(D_2\) equals the torsion divisor of
+the full-primary equation conormal
+\(I_T/(I_CI_T)\), regardless of whether
+the triple is locally a complete
+intersection. For an actual proper
+two-surface CI with this full primary,
+write \(\eta\) for the determinant
+divisor of its two defining equations
+in the torsion-free conormal quotient.
+Then the three full attachment layers
+are \((D_2+\eta,\eta,D_2+\eta)\)
+and the full attachment length cycle is
+\(2D_2+3\eta\). The signed top
+class simplifies to \(\mathcal
+L^2(-\eta)=\omega_C\otimes
+\omega_Y^{-1}|_C\).
+The source of the local form is BF,
+not a novel classification; the
+identification is with the separate
+actual-equation module and residual
+attachment ledger. Higher
+multiplicity and noncurvilinear
+primaries require the original
+uncompressed LA1--LA6. Independent
+review pending.
+
 ## Cartier cuts and finite modifications of the saturated filtration
 
 **Status: new general application of the saturated filtration,

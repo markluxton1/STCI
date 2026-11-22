@@ -376,6 +376,28 @@ there can vanish, compatible with the known
 primitive fourfold image. The arithmetic
 control continues to use its actual equations.
 
+The classical local quasiprimitive triple
+normal form of Bănică--Forster also makes
+the observed equality in TS7 universal
+within the **generically curvilinear
+triple stratum**: the
+[TR2 conormal-torsion identity](../residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors)
+gives \(\tau=D_2\) for any such full
+primary. Combined with the actual
+equation determinant \(\eta\), the
+[TR3 two-divisor theorem](../residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors)
+gives attachment layers
+\((\tau+\eta,\eta,\tau+\eta)\).
+For TS5--TS7 this is \((7,5,7)\)
+and \((9,9,9)\). The proof explicitly
+uses BF and ordinary Hilbert--Burch,
+not an extrapolation from one
+example. The characteristic-zero
+semigroup basis used earlier has
+a different characteristic scope
+from this formal local triple
+argument.
+
 ### A fixed auxiliary quadric detects the same punctual defect at every collision
 
 The retained \((4,4)\) family and its arbitrary-degree
@@ -626,13 +648,14 @@ attachment, conormal non-lci torsion,
 the dual annihilator layer, and the
 signed proper-cut formula.
 
-The equality of the torsion length
-\(\tau(p_0)=D_2(p_0)=2\) is established
-for this explicit triple. It is **not**
-claimed for arbitrary multiplicities
-or carriers: in general the two modules
-come from different constructions and
-need an actual comparison. The
+The equality \(\tau(p_0)=D_2(p_0)=2\)
+is now identified as an instance of
+the [general triple identity TR2](../residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors):
+it holds for any generically curvilinear
+primary *triple*, but has not been
+established for arbitrary higher
+multiplicity or noncurvilinear
+primaries. The
 Hilbert--Burch and local-duality inputs
 are classical; the displayed calculation
 is a calibration of their combined use.

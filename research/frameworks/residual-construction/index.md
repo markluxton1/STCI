@@ -98,6 +98,26 @@ multiplicity, the punctual cut divisor
 The residual attachment is not recoverable
 from that cut divisor alone.
 
+For a generically curvilinear
+full-primary triple, the
+[classical local normal form plus
+actual-equation comparison TR1--TR4](../../arguments/residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors)
+removes the remaining freedom in
+the layerwise attachment ledger:
+if \(\tau=D_2\) is the intrinsic
+non-lci/normal defect and \(\eta\)
+is the determinant divisor of the
+actual two-equation source, the
+reduced attachment is \(\tau+\eta\),
+the middle layer is \(\eta\) and
+the full thick attachment is
+\(2\tau+3\eta\). The actual
+fixed-toric \((4,6)\) triple tests
+this formula. Higher multiplicities
+retain independent layer defects;
+this is not a degree-uniform
+nonvanishing theorem.
+
 ## How residual degree can change
 
 The [explicit quartic pairs](../../arguments/residuals/explicit_quartic_residuals.md)

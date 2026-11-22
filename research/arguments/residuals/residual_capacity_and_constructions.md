@@ -354,6 +354,154 @@ are a direct application to the actual full-primary
 attachment, not a claim of priority for a new
 duality theorem.
 
+### Triples: the full attachment has only two independent divisors
+
+**Existing geometry first.** The local form of a
+quasiprimitive triple, including its non-lci
+points, is already in Bănică--Forster,
+[*Multiplicity Structures on Space Curves*,
+§3](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf).
+In coordinates \((t,u,v)\) with \(C=(u,v)\),
+a generically curvilinear Cohen--Macaulay
+triple has at a point the local ideal
+\[
+ J_T=(u^2-t^d v,\ uv,\ v^2),\qquad d\ge0,
+                                                        \tag{TR1}
+\]
+after interchanging their two normal variables.
+For \(d=0\), eliminate \(v=u^2\); it is
+the primitive lci triple \((v-u^2,u^3)\).
+For \(d>0\), \(u^2=t^d v\) in the
+local ring, whose saturated second layer
+has a free generator \(v\). Hence
+\(d=\operatorname{ord}_P D_2\).
+All this is the *classical local normal form*,
+not a new triple classification.
+
+**Conormal-torsion identity (TR2).** The actual
+conormal equation module \(J_T/I_CJ_T\)
+has a free rank-two part and a torsion
+summand of length \(d\). For \(d>0\)
+write \(f_1=u^2-t^dv,\ f_2=uv,\ f_3=v^2\).
+Its Hilbert--Burch syzygies can be taken
+\[
+ vf_1-uf_2+t^df_3=0,\qquad vf_2-uf_3=0.
+\]
+Modulo \((u,v)\), the only relation
+is \(t^df_3=0\). Thus
+\[
+ J_T/I_CJ_T\simeq
+ k[[t]]^2\oplus k[[t]]/(t^d).
+\]
+For \(d=0\), \(J_T\) is lci and
+its conormal equation module is free.
+Consequently the *effective divisors on \(C\)*
+agree:
+\[
+ \boxed{\ \operatorname{div}
+ \operatorname{tors}(I_T/I_CI_T)=D_2.\ }                  \tag{TR2}
+\]
+Here the displayed equality is valid for
+every actual generically curvilinear
+CM triple in a smooth threefold, whether
+or not it occurs as the full primary of
+a Gorenstein CI. The proof is formal
+local algebra and works over an arbitrary
+algebraically closed coefficient field;
+no division by two or three occurs.
+The BF normal form and Hilbert--Burch
+theorem are inputs, while TR2 records
+their application to the specific
+torsion module used in (5) above.
+
+**Two-divisor attachment theorem (TR3).**
+Now *add* the hypotheses of the full-primary
+attachment theorem: \(T\) is the full
+marked primary of an actual proper CI
+\(Y=V(F,G)=T\cup R\), and the residual
+\(R\) has no component \(C\).
+Write
+\[
+ \tau=\operatorname{div}
+       \operatorname{tors}(I_T/I_C I_T)=D_2,\qquad
+ \eta=\operatorname{div}\det\bar\rho .
+\]
+Both are effective divisors and are
+intrinsic to the actual pair and its
+full primary. The attachment equation
+module identity (8) gives
+\(H_0=C\cap R=\tau+\eta\). The
+complementary-layer relation LA1
+at \(m=3\) gives
+\(H_1=H_0-D_2,\ H_2=H_0\).
+Hence without any further choices
+\[
+ \boxed{\quad
+ (H_0,H_1,H_2)
+ =(\tau+\eta,\ \eta,\ \tau+\eta),\qquad
+ [\operatorname{length}(T\cap R)]
+ =2\tau+3\eta .\quad}                                   \tag{TR3}
+\]
+The bracket denotes the zero-cycle
+of local lengths along \(C\), not an
+assertion that the full intersection
+is itself a Cartier divisor on \(C\).
+Its marked normal-nilpotent excess is
+\(\epsilon_{\rm normal}=\tau+2\eta\).
+The top signed class LA4 reduces to
+\[
+ \mathcal L^2(-\eta)
+  \simeq\omega_C\otimes\omega_Y^{-1}|_C,                \tag{TR4}
+\]
+since \(D_2-H_0=-\eta\).
+This is an especially transparent
+description: all three attachment
+layers and their canonical class are
+controlled by **two effective divisors**,
+the non-lci defect of the primary and
+the determinant failure of the two
+actual equations. Every independently
+computed layer or genus formula must
+agree with TR3.
+
+The [actual fixed toric \((4,6)\) triple
+TS5--TS7](../torus/fixed_carrier_chow_arrangements.md#an-actual-non-lci-curvilinear-triple-the-conormal-torsion-is-visible)
+has \(\tau=2[p_0]\) and
+\(\eta=5[p_0]+9[p_\infty]\). TR3 predicts
+\((7,5,7)\) at \(p_0\) and
+\((9,9,9)\) at \(p_\infty\), full
+attachment length \(46\), matching
+the two independent computations there.
+The new point is the **cross-framework
+identification** of the BF divisor
+\(D_2\) with the torsion of the actual
+full-primary equation module and its
+consequences for genuine residuals,
+not a rediscovery of BF's normal form
+or a new classification of triples.
+
+**Boundary of scope.** For generic
+multiplicity greater than three
+different multiplication divisors
+and independent relation syzygies
+appear, so neither TR2 nor TR3
+is claimed in that form. For generic
+embedding dimension two, the BF
+rank-one saturated flag is not
+available. In a sole-support CI,
+\(\eta=\tau=0\) and the triple is
+primitive; this does not alone
+exclude its existence. No
+unconditional positive residual
+bound in all degrees follows from
+TR3. The relation to actual local
+cohomology is LC-A1 at the first
+annihilator layer and still requires
+first-element coregularity when
+interpreted as the *second* defect.
+Independent review of the global
+attachment extension is pending.
+
 ### Cutting the residual pair rather than just its primary part
 
 Let \(J_0\) be a smooth auxiliary Cartier divisor

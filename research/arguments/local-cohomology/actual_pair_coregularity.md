@@ -87,6 +87,31 @@ calibrates LC-A1 without claiming
 its general proof is independently
 reviewed.
 
+In the generically curvilinear
+multiplicity-three branch, the
+[Bănică--Forster triple / source
+comparison TR1--TR4](../residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors)
+determines the first attachment
+quotient length divisor as
+\(\tau+\eta\), where \(\tau=D_2\)
+is the intrinsic second saturated
+normal defect and \(\eta\) is the
+actual equation determinant divisor.
+LC-A1 then identifies its canonical
+dual with the first local annihilator
+layer of \(\mathcal H_C^1(\mathcal O_Y)\).
+This is an **actual-pair** comparison:
+it does not identify the full graded
+Hartshorne--Polini module at the
+cone vertex or prove every such
+pair has nonzero \(\tau+\eta\).
+When a sole-supported pair exists
+the two divisors both vanish.
+The local normal form is classical;
+the dual comparison and global
+attachment apply to its full
+primary.
+
 ## Actual attachment equation modules are the dual annihilator layers
 
 **New application of ordinary local duality, pending independent
