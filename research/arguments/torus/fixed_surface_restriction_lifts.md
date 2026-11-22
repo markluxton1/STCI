@@ -402,6 +402,8 @@ independent audit is pending. The original seed theorem on
 generically regular integral, possibly nonnormal carriers is
 preserved above.
 
+**Nonnormal extension with no seed mates.** The [normalized Hodge matrix and downstairs almost-Cartier theorem AC1](../carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) drops normality from the exact monoid characterization whenever the carrier is regular at the marked generic points: replace the intersection matrix by that of the strict transforms on the normalization, and impose actual local almost-Cartier relations downstairs. This is stronger than the seed monoid but retains exactly the local conductor obstruction; it cannot be applied to reduced branches supported generically in the singular locus. Independent review of this extension is pending.
+
 ### Symmetry and the multiplicity lattice
 
 The preceding argument has a useful finite-group form. Suppose a

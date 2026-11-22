@@ -65,7 +65,7 @@ index theorem for the normal projective surface `X` says that the
 intersection form is negative definite on `H^perp subset N^1(X)_R`.
 Equation (1) therefore makes `L` numerically trivial.
 
-For this upgrade use the strongest available complete-intersection theorem:
+For this upgrade use the strongest available complete-intersection theorem (extending the characteristic-zero saturation result of Hartshorne--Polini, Lemma 7.6):
 Česnavičius–Scholze, [*Purity for flat cohomology*](https://annals.math.princeton.edu/2024/199-1/p02),
 Corollary 7.2.3, proves that `Pic(X)/Z[H]` is torsion-free for
 every projective complete intersection of dimension at least two over a
@@ -82,6 +82,8 @@ form using the hypersurface sequence and
 required divisor. This proves (1). Hodge index gives (3) iff (4).
 No local Jacobian formula, rationality, or characteristic-zero Bertini
 is needed here. Those hypotheses are retained wherever used later.
+
+**Broader fixed-carrier scope.** Hartshorne--Polini, Lemma 7.6 ([2015](https://arxiv.org/abs/1301.3222)), already gives hyperplane saturation for possibly nonnormal surfaces in characteristic zero. The 2024 theorem extends it, rather than supplying a new characteristic-zero principle. The [normalized Hodge/ almost-Cartier theorem AC1--AC3](fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) gives this exact mate criterion with normality dropped, provided the support is generically regular on the carrier and its actual downstairs almost-Cartier class has finite order modulo Picard. It also describes the relation to the normalization and conductor descent indices.
 
 ## 2. The intrinsic local divisor is a necessary-and-sufficient mate test
 

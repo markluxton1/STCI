@@ -51,6 +51,8 @@ why a smooth normalization cannot be an adequate source whenever the
 carrier degree fails to divide the square of the curve degree. It does not
 apply to a carrier singular at the generic point of C.
 
+For the **downstairs** almost-Cartier index there is a sharper conclusion: the [exact compression theorem AC3--AC4](fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) gives `R_X=(a/gcd(a,d)) t E`, minimal mate degree `d R_X/a`, and `a | d R_X`. Here `t,E` are the two primitive-ray and section-descent orders, not the index `r` on the normalization. For the quintic--octic with no quartic mate, `R_X=10` regardless of whether `r=5` or `10`. This is not an extra exclusion; it identifies which part of the index is already supplied by descent. On the normalization alone the weaker condition (2) remains appropriate.
+
 ## The order-two class and the conductor descent order
 
 In (3), let `U=5c-4H` in Cl(X). The actual octic proves `2U=0`.
