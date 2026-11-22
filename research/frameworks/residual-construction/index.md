@@ -55,6 +55,10 @@ birational fiber, while computing \(\deg R\) requires an actual pair of
 surfaces in \(\mathbf P^3\). [Quintic exclusion](../../results/toric_quintic_carrier_exclusion.md) ·
 [Elliptic support theorem](../../results/elliptic_inverse_support.md)
 
+### The normalized carrier refines the graph capacity
+
+The [branch valuation and marked-ideal square identity](../../arguments/carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) refines the scalar first-graph slack by resolving a specified integral carrier. The strict mate is the actual divisor `div(G)-qD`; its horizontal and vertical coefficients retain the branchwise and special-point data. For sole support the total exceptional energy must be supplied by excess branches, and the normalized branch matrix governs the allowed positive valuation vector. No-vertical single-root carriers are excluded in every degree; [Cartier ruling clusters](../../arguments/carriers/numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) give explicit all-order residual-root divisibility on the degree-three-per-order locus. These are new fixed-carrier necessary filters, not additive scalar residual bounds or a constructed residual absorption. Review pending.
+
 ### Two presentations of fixed-degree multiplicity
 
 The [normal-jet rank strata](../../arguments/residuals/marked_deformation_and_absorption.md#fixed-degree-multiplicity-strata-of-actual-pairs)

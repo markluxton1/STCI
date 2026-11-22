@@ -50,6 +50,8 @@ initial ideal. The [filtration account](../formal-normal-geometry/normal_filtrat
 separates generic cancellation from failure of relations to extend at a
 special point of \(C\).
 
+The [normalized branch dictionary](../../arguments/carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) makes the generic length formula compatible with the actual first graph on a specified integral carrier. If (e_i,f_i,n_i) are the branch ideal valuation, mapping degree and mate valuation, then (p=sum e_if_i), (m=sum n_if_i), and the coefficient of each horizontal first-normal root on the strict intersection is the pushforward of (n_i-qe_i). Special exceptional coefficients record the normalized principalization corrections, not the Rees valuations of the full CI ideal. The exact marked-ideal Hodge gap and [ruling-cluster matrix test](../../arguments/carriers/numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) constrain these same vectors. These new comparisons are pending independent review.
+
 ## 2.2 The common graph and its two contractions
 
 In characteristic zero, set

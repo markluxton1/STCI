@@ -69,6 +69,10 @@ The [full lattice proof](../../arguments/carriers/fixed_carrier_descent_and_cart
 
 This is an **exact theorem for a specified carrier**, not an effective classification of every possible carrier: its class group, inverse branches, and conductor-unit map still have to be computed.
 
+### Necessary first-graph and cluster tests before descent
+
+For the fixed quartic the [branch valuation and marked-ideal Hodge identity](../../arguments/carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) applies also when the carrier is generically singular along C. The positive relation vector of its mate must lie in the normalized Hodge kernel, whereas the marked ideal's vector participates in the explicit gap split between branch imbalance and vertical principalization. The actual strict mate coefficients are obtained by subtracting the marked-ideal contribution from the branch valuations, with extra inequalities over special points. No-vertical single-root geometry is excluded irrespective of individual Cartierness. The [two-branch Cartier-cluster tests](../../arguments/carriers/numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) supply exact rational matrices and integer ruling partitions for the degree-three-per-order locus. These necessary filters precede the conductor power test; they do not replace it. For generically regular support the [almost-Cartier criterion AC1--AC4](../../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) additionally makes finite actual downstairs index and Hodge equality sufficient. These extensions await independent review.
+
 ## 4.3 The special case of one Cartier inverse curve
 
 Suppose \(W=c\) is a single curve, \(\nu|_c:c\to C\) is an isomorphism, and \(c\) is Cartier on \(S\). These are **additional hypotheses**, not properties of an arbitrary normalization.

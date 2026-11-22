@@ -232,6 +232,10 @@ the kernel on actual homogeneous forms; this does not close the
 fixed-endpoint candidates, singular lattices or normalization-descent
 questions just described.
 
+## First-graph geometry of the normalization branches
+
+The [normalized branch matrix and principalization theorem](../../arguments/carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) supplies a common first test of generically thick carriers: decompose the marked-ideal Hodge gap into branch imbalance and exceptional energy. No-vertical singleton or single-root carriers are excluded in every degree; exactly two no-vertical inverse branches force numerical intersection and normalization-index restrictions. The [ruling cluster divisibility](../../arguments/carriers/numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) extends both split-sextic rows to every degree-three-per-order boundary with two degree-one inverse branches, excluding Cartier low branches and forcing the same two partition patterns scaled by the order. At an arbitrary vertical point, the branchwise excess must supply the actual exceptional correction. These new deductions connect the normalization relation lattice to the reduced-support first graph; they do not identify it with the full-ideal Rees data or eliminate off-support conductor descent. Independent review is pending.
+
 ## Distinct sextic directions
 
 The older sextic investigation concerns a **split first normal cone**:
