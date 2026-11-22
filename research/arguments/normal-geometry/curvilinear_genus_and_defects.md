@@ -216,6 +216,35 @@ D_i+D_(m-1-i)=D_soc; these are inherited in the precise quasiprimitive
 scope used by [R0022](../../results/quartic_44_filtered_exclusion.md), rather
 than a general theorem here.
 
+### Full-primary attachment replaces Gorensteinness in the duality
+
+The [layerwise attachment duality LA1--LA4](../residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component)
+extends the actual complementary-layer calculation to a full
+generically curvilinear primary component \(T\) of a Gorenstein
+CI \(Y\) with residual \(R\). Here the attachment ideal
+\(K=I_{T\cap R/T}\) is the twisted canonical module of \(T\)
+by linkage, even when \(T\) is not Gorenstein. Define
+\(H_i\) as the lengths lost in its induced saturated flag,
+\(H_0=C\cap R\). Then
+\[
+ D_i+D_{m-1-i}=D_{m-1}-H_0+H_i,\qquad
+ H_i=H_{m-1-i}\le H_0.
+\]
+Thus the aggregate pure CI Frobenius identity has the
+precise correction \(2\sum D_i=m(D_{m-1}-H_0)+\sum H_i\).
+The actual signed top class is
+\(\mathcal L^{m-1}(D_{m-1}-H_0)=\omega_C\otimes\omega_Y^{-1}|_C\).
+For a full primary triple \(D_2\le C\cap R\), so a positive
+multiplication defect actually forces residual support.
+This is a new limited mechanism giving that implication;
+it does not turn an arbitrary defect of a formal presentation
+into residual support. The proof uses ordinary canonical
+module linkage and saturated perfect duality, not a
+Gorensteinness assumption on \(T\). The corresponding
+cutting-surface formula LA5 retains the high attachment
+layers seen by the annihilator of a cutting equation.
+Independent mathematical review is pending.
+
 ## Cartier cuts and finite modifications of the saturated filtration
 
 **Status: new general application of the saturated filtration,

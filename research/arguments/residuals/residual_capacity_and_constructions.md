@@ -192,6 +192,236 @@ is imposed. Its reduced Jacobian/Milnor formulas are separate and are not
 applied to T after removing nilpotents. The proof of (9) above independently
 fixes the distinction between full T cap D and marked C cap D.
 
+### Layerwise attachment duality on a non-Gorenstein primary component
+
+**New general synthesis; pending independent review.** Retain the actual
+proper CI \(Y\) in a smooth threefold, its full primary component \(T\)
+on a smooth integral curve \(C\), and its linked residual \(R\) (called
+\(D\) above), with no common reduced component. Put \(H=T\cap R\).
+No normality or primitive hypothesis on \(T\) is made. In this
+subsection assume the generic algebra of \(T\) is curvilinear of
+length \(m\ge2\). The scalar genus/discrepancy identity (9) is
+already classical; the following comparison retains all individual
+layers and is not a new proof of that invariant alone.
+
+Use Bănică--Forster's saturated normal-power flag \(P_i\) on
+\(\mathcal O_T\), with \(P_0=\mathcal O_T,\ P_1=I_C\mathcal O_T,\ P_m=0\).
+Let
+\[
+ W_i=P_i/P_{i+1}=\mathcal L^i(D_i),\quad
+ D_0=D_1=0,\quad D_i\ge0 .
+\]
+These are the actual multiplication divisors of the free first
+conormal line \(\mathcal L\); see the
+[saturated filtration account](../normal-geometry/curvilinear_genus_and_defects.md#4-saturate-first-the-same-boundary-information-appears-as-divisors).
+Let \(K=I_{H/T}\subset\mathcal O_T\). Define an effective divisor
+\(H_i\) on \(C\) by the inclusion
+\[
+ (K\cap P_i)/(K\cap P_{i+1})= W_i(-H_i)\ \subset W_i .
+\]
+This is a line subbundle with finite cokernel (the same generic
+line). Equivalently its length divisor is the \(i\)-th layer
+of the *induced saturated flag* on \(\mathcal O_H\).
+In particular
+\[
+ H_0=C\cap R,\qquad
+ \sum_i H_i=\operatorname{div}_{C}(\mathcal O_H).
+\]
+The latter denotes the cycle of lengths at points of \(C\),
+not an assertion \(\mathcal O_H\) is an \(\mathcal O_C\)-module.
+
+**Layerwise formula.** For every \(0\le i<m\),
+\[
+ \boxed{\quad H_i=H_{m-1-i}
+       =H_0+D_i+D_{m-1-i}-D_{m-1}.\quad}                 \tag{LA1}
+\]
+In particular
+\[
+ 0\le H_i\le H_0,\qquad
+ \operatorname{div}_C(\mathcal O_H)\le m(C\cap R).
+                                                               \tag{LA2}
+\]
+The full attachment length is therefore not an independently
+free parameter if the reduced attachment and normal multiplication
+defects are known. More precisely,
+\[
+ 2\sum_i D_i=m(D_{m-1}-H_0)+\sum_i H_i.                 \tag{LA3}
+\]
+The left side is twice the divisor of the sum of ordinary normal
+layer torsion lengths, by ordinary-to-saturated filtration
+comparison (which does not require \(T\) Gorenstein).
+When \(R\) is empty this reduces to the earlier Gorenstein
+duality and Frobenius formula. When \(T\) itself is Gorenstein,
+ordinary saturated duality gives \(H_i=H_0\) for all \(i\);
+in particular the full attachment has exactly \(m\) times
+the reduced attachment length at every point. This is because
+the attachment ideal is invertible on a Gorenstein primary
+component linked inside a Gorenstein CI, not a statement
+about arbitrary intersections with another curve.
+
+**Proof.** Scheme-theoretic linkage of disjoint full unions of
+primary components identifies the image of \(\operatorname{Ann}_{\mathcal O_Y} I_{T/Y}\)
+in \(\mathcal O_T\) with \(K\). It is injective since \(Y\)
+has no embedded components and the complementary full primary
+components have zero intersection of their defining ideals in
+\(\mathcal O_Y\). Finite duality in the Gorenstein \(Y\) therefore
+gives
+\[
+ K\simeq\omega_T\otimes\omega_Y^{-1}|_T .
+\]
+More generally the validity of this identification is the sole
+linkage hypothesis; the following local argument only needs
+that ideal to be a canonical module. Fix a point, complete,
+and lift a uniformizer \(t\) of \(C\). The resulting primary
+algebra \(A\) is finite free over the DVR \(V=k[[t]]\) by
+purity; \(K\) is likewise finite free, and the preceding
+canonical-module identification gives an \(A\)-linear
+isomorphism \(K\simeq\operatorname{Hom}_V(A,V)\) after
+trivializing the invertible twists. Thus there is a functional
+\(\lambda:K\to V\) with perfect pairing
+\((a,k)\mapsto\lambda(ak)\).
+
+Over the fraction field of \(V\) the algebra is
+\(F[z]/(z^m)\), so the orthogonal of \(P_i\) in \(K\)
+is \(K\cap P_{m-i}\). Indeed the pairing is perfect
+generically and \(\lambda(ak)=0\) for all \(a\in P_i\)
+is equivalent to \(kP_i=0\), since \(P_i\) is an ideal
+and the original pairing is perfect. The flags in \(A\)
+and in \(K\) are saturated as \(V\)-modules, by their
+construction from the generic flag. Consequently restriction
+of the \(V\)-dual sequence proves that the induced pairing
+of \(W_i\) and \(W_{m-1-i}(-H_{m-1-i})\) is perfect over the
+DVR. Write \(d_i,h_i\) for the coefficients at the point.
+A lift \(z\) generating the first free layer gives generators
+of the \(i\)-th saturated layer with leading term
+\(t^{-d_i}z^i\); the corresponding generator for \(K\) has
+leading term \(t^{h_i-d_i}z^i\), up to units. In the top
+layer, \(\lambda(t^{h_{m-1}-d_{m-1}}z^{m-1})\) is a unit.
+Perfectness of each complementary pairing gives
+\[
+ d_i+d_{m-1-i}=d_{m-1}-h_{m-1}+h_{m-1-i}.
+\]
+For \(i=m-1\) this gives \(h_{m-1}=h_0\);
+interchanging \(i\) gives the symmetry in LA1.
+The inequality follows from \(d_i+d_{m-1-i}\le d_{m-1}\)
+by actual multiplication of saturated layers. Summing gives LA3.
+These local computations are invariant under all choices,
+hence are equalities of divisors on \(C\). \(\square\)
+
+The top term gives a global identity independent of any local
+choice: the annihilator of the marked ideal in \(K\)
+is \(\omega_C\otimes\omega_Y^{-1}|_C\) by transitivity
+of finite duality. It is precisely the highest saturated layer
+of \(K\), so
+\[
+ \boxed{\ \mathcal L^{m-1}(D_{m-1}-H_0)
+             \simeq\omega_C\otimes\omega_Y^{-1}|_C.\ }   \tag{LA4}
+\]
+Thus it is the *signed* divisor \(D_{m-1}-H_0\) that
+has the sole-support socle class when residual components
+are present. Treating the original top defect as effective
+in that same class without checking attachment discards
+this correction.
+
+For example, in length three LA1 gives \(H_2=H_0\),
+\(H_1=H_0-D_2\). Thus \(D_2\le H_0\) as divisors,
+and full attachment is exactly \(3H_0-D_2\).
+In particular the first nonprimitive defect of a full primary
+triple necessitates an actual residual attachment there,
+rather than an arbitrary vertical exceptional component.
+This does not exclude a primitive triple: it gives no positive
+lower bound on \(H_0\) when the defect is zero. For higher
+lengths the same bound is on
+\(D_{m-1}-D_i-D_{m-1-i}\), not necessarily on
+\(D_{m-1}\) itself. LA4 uses the actual two defining
+twists and reduces to CI adjunction when \(H_0=0\);
+it does not furnish a degree bound on mates.
+
+**Literature boundary.** The saturated filtration and
+multiplication inequalities are Bănică--Forster, §3.5,
+[*Multiplicity Structures on Space Curves*](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf).
+Manolache's [Gorenstein filtration duality
+(2023)](https://doi.org/10.59277/RRMPA.2023.141.148)
+identifies complementary layers for Gorenstein structures.
+The above uses the *canonical ideal* \(K\) in a possibly
+non-Gorenstein primary structure, supplied by the ordinary
+linkage theorem (also see Manolache, [*Linkage Extensions*](https://arxiv.org/abs/math/0501036)).
+Benguş-Lasnier--Rangachev's discrepancy theorem cited
+above gives the aggregate length/genus relation, not
+the new pointwise comparison in LA1. These standard
+duality statements are inputs; the displayed identities
+are a direct application to the actual full-primary
+attachment, not a claim of priority for a new
+duality theorem.
+
+### Cutting the residual pair rather than just its primary part
+
+Let \(J_0\) be a smooth auxiliary Cartier divisor
+containing \(C\), with no reduced component of \(R\)
+contained in \(J_0\). Assume \(T\) is generically
+curvilinear and the equation of \(J_0\) has generic
+order \(k\), \(1\le k<m\), in its algebra. Write
+\(B_Y,B_T\) for the zero-dimensional torsion
+length cycles of the actual cuts \(Y\cap J_0,T\cap J_0\).
+The unrestricted (CM, not necessarily Gorenstein)
+[Cartier-cut determinant CF1](../normal-geometry/curvilinear_genus_and_defects.md#determinant-of-a-cartier-cut)
+computes \(B_T\) by multiplication in the saturated flag.
+Then the residual pair has the exact local comparison
+\[
+ \boxed{\ B_Y=B_T+[R\cap J_0]-\sum_{i=m-k}^{m-1}H_i
+             =B_T+[R\cap J_0]-\sum_{i=0}^{k-1}H_i.\ }   \tag{LA5}
+\]
+All cycles are on the auxiliary cut, and those on \(C\)
+are embedded into it. The second equality is LA1.
+No Gorensteinness of \(R\) or \(T\) is required.
+
+For the proof use the scheme union sequence
+\(0\to\mathcal O_Y\to\mathcal O_T\oplus\mathcal O_R
+\to\mathcal O_H\to0\), and multiply by the equation
+\(j\) of \(J_0\) locally (trivialize its line bundle).
+On \(R\) it is regular. The snake lemma gives
+\[
+ 0\to \operatorname{Ann}_Yj\to\operatorname{Ann}_Tj
+ \to\operatorname{Ann}_Hj\to\mathcal O_{Y\cap J_0}
+ \to\mathcal O_{T\cap J_0}\oplus\mathcal O_{R\cap J_0}
+ \to\mathcal O_H/j\mathcal O_H\to0.
+\]
+The annihilator on \(T\) is \(P_{m-k}\) by purity and
+the generic algebra. Its image in \(\mathcal O_H\)
+has length cycle \(\sum_{i=m-k}^{m-1}H_i\).
+Moreover the two finite modules \(\operatorname{Ann}_Hj\)
+and \(\mathcal O_H/j\mathcal O_H\) have equal pointwise
+length by rank-nullity. The kernel and cokernel of the
+middle comparison are finite, and the induced map
+of pure one-dimensional quotients is an isomorphism:
+the map \(\mathcal O_{Y\cap J_0}\to\mathcal O_{T\cap J_0}\)
+is surjective, with finite kernel, so every element
+mapping to punctual torsion is itself punctual torsion.
+Taking lengths gives LA5.
+
+For \(k=1\) in particular CF2 and LA1 give
+\[
+ \boxed{\ B_Y-[R\cap J_0]
+  =(m-1)\Theta+D_{m-1}-H_0.\ }                          \tag{LA6}
+\]
+Here \(\Theta\) is the actual first-normal-line tangency
+to the cutting surface. If neither defining equation contains
+\(J_0\), their divisorial gcd on \(J_0\) is precisely \(kC\);
+after division the finite residual cut accounts for \(B_Y\),
+as in CF1. Thus the divided resultant on a suitable ruled
+cutting surface has both a genuine residual-curve contribution
+and a **subtracted** attachment correction.
+It cannot be read as simply the primary socle defect plus
+every intersection of the residual with the cutting surface.
+The global degree version of LA6 follows already from
+adjunction; this pointwise comparison identifies what is
+lost at each attachment, and can be used with actual
+equation restrictions. The proof works in arbitrary
+characteristic. It does not apply to a cut containing
+a residual component or to a generic algebra of higher
+embedding dimension without replacing the rank-one
+filtration argument.
+
 ## 5. A sharp control: the determinant can be a unit at a real attachment
 
 This is a local explanatory example, not a global homogeneous realization on the fixed quartic. It is used to test exactly the proposed omission of \(\mathcal T_T\), not to launch a case classification.
