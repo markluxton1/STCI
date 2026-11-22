@@ -316,7 +316,7 @@ intersection number. The usual resultant/finite intersection
 comparison follows from the divisor of the determinant of
 the Sylvester map, or the standard local intersection
 formula; see Busé–Khalil–Mourrain,
-[*Resultant-based methods for plane curves*, §3.1](https://hal.science/inria-00111538).
+[*Resultant-based methods for plane curves*, §3.1](https://hal.science/inria-00100288).
 The saturated-flag identity is the argument above, not a
 theorem attributed to that source.
 

@@ -1138,6 +1138,99 @@ of a degree-four binary form. In the other rows its
 remaining factor is exactly the top-socle divisor,
 not a freely chosen defect. No row is asserted to occur.
 
+### Primitive graph structures on the full degree-three/four slope edge
+
+For \(a=3p,b=4q\), every hypothetical characteristic-zero
+pair has \(p,q\ge2\) by the low-degree carrier exclusion.
+If its first strict CI is globally primitive, then (SC1)
+gives
+\[
+ \ell=\frac{5p+9q-7}{2pq-1}.
+\]
+This strictly decreases in either positive variable
+on \(p,q\ge2\), so it is positive and at most three,
+with equality three only at \((2,2)\). Integrality
+of \(\ell\) leaves an exact finite list:
+\[
+ \begin{array}{c|l}
+ \ell& (p,q)\\\hline
+ 3&(2,2)\\
+ 2&\text{none}\\
+ 1&(5,19),(6,8),(10,4),(21,3)
+ \end{array}
+\]
+For \(\ell=2\) the equation is
+\((4p-9)(4q-5)=25\); the factors must be positive
+and the first is \(3\bmod4\), whereas all positive
+divisors of 25 are \(1\bmod4\).
+For \(\ell=1\) it becomes
+\((2p-9)(2q-5)=33\); both negative factors could
+give at most five with \(p,q\ge2\), so both are
+positive. The four positive divisor choices give
+the last row. For \(\ell=3\), the normal splitting
+allows only the mixed direction because the endpoint
+splitting has no line subbundle of degree three.
+For \(\ell=1\) both orbit splittings allow the
+required line subbundle degree; this is not an
+embedded primitive-triple construction.
+
+In particular for every hypothetical \((6,4q)\)
+pair on this exact order boundary with \(q>2\),
+the first strict intersection cannot be primitive
+everywhere, whether or not it is generically
+curvilinear. This finite list concerns **global
+primitivity on the graph**, unlike the classical
+Ellia degree list for primitive structures on
+the original curve in \(\mathbf P^3\). The list
+is necessary, not a realization list.
+
+### Recovering generic curvilinearity in all orders on a subset of the edge
+
+The second-blowup inequality of R-0077 has
+another useful order-only consequence on the
+whole zero-direction boundary. Write \(r,s\)
+for the strict orders on \(T\), and \(d=2\)
+or \(3\) as in that theorem. Then
+\(1\le r\le p,\ 1\le s\le q\), and
+\[
+ A s+B'r-drs\le(7-d)c .
+\]
+The left side is strictly increasing in both
+orders on these ranges, since
+\(A\ge5p,\ B'\ge5q\) and \(d\le3\).
+If both strict orders are at least two,
+necessarily
+\[
+ 2(A+B')-4d\le(7-d)c.                                   \tag{SC6}
+\]
+This is one criterion for recovery of generic
+curvilinearity on the first graph, independent
+of the original pair's embedding dimension.
+
+On the edge \((3p,4q)\) with \(p=2\), it fails
+for every mixed direction and for every endpoint
+direction with \(2\le q<6\).
+More sharply the retained R-0077 inequality
+at \(r=p\) gives \((5-d)s\le(5-2d)q\), so
+in the mixed orbit the strict sextic must
+have order one for **every** \(q\ge2\).
+Thus the graph generator movement theorem
+and LC3 produce a normal general degree-\(4q\)
+strict carrier, with actual index \(4q\)
+on its moving singularities, across this whole
+mixed sextic edge. The lower bound on the number
+of simple moving roots is \(9q-10>0\).
+In the endpoint orbit for \(q=2\) the strict
+sextic also has order one; for \(3\le q<6\)
+either strict equation can supply generic
+regularity. In the latter case a zero smaller
+symbol need not furnish moving singularities.
+For \(q\ge6\) the endpoint numerical test
+allows both strict orders at least two.
+These are precise recovery conditions and
+remaining gaps, not all-degree normality of
+the original sextic carrier.
+
 ### Finite transfer at the marked point on the degree boundary
 
 On the endpoint slope boundary \(a=3p,b=4q\) (either
@@ -1336,8 +1429,8 @@ algebraically closed characteristic-zero field the
 finite carrier, curve and local-type data descend to a
 complex model. For classical ADE and K3 lattice inputs,
 see [Shimada, *On normal K3 surfaces*](https://www.math.sci.hiroshima-u.ac.jp/shimada/preprints/normalK3/normalK3.pdf)
-and [Brieskorn, *Singular elements of semi-simple
-algebraic groups*](https://arxiv.org/abs/1001.2227)
+and the classical Brieskorn lattice theorem as recalled in
+[Frenkel--Givental--Milanov, §3.3](https://math.berkeley.edu/~giventh/papers/fgm-ade.pdf)
 (the local simple-singularity/vanishing-lattice theorem
 is the input, not a new classification).
 

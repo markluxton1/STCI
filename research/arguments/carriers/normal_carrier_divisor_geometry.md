@@ -796,6 +796,19 @@ and marked-point defect transfer](../residuals/blowup_residual_geometry.md#socle
 then identify the actual common-defect budget on this
 graph. These extensions await independent review.
 
+The [primitive edge arithmetic and SC6](../residuals/blowup_residual_geometry.md#recovering-generic-curvilinearity-in-all-orders-on-a-subset-of-the-edge)
+extend the mixed strict-sextic consequence to every
+\((6,4q;2,q)\), \(q\ge2\), on the zero-direction
+boundary: the strict sextic has order one and a
+general normal strict larger carrier has at least
+\(9q-10\) moving index-\(4q\) points. For \(q>2\)
+the first strict CI necessarily has nonempty
+nonprimitive locus. At \(q=2\) its primitive mixed
+row forces the smaller image carrier on \(V_5\)
+to have a worse-than-ADE marked singularity by
+the separate K3 lattice theorem. The higher-degree
+nonprimitive and endpoint strata remain open.
+
 ## 5. What was removed, and what remains
 
 The new theorem removes **global lifting as a separate hypothesis or

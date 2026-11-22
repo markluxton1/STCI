@@ -225,6 +225,57 @@ cutoff at fixed degrees; it supersedes the archive's blanket claim that no
 finite cutoff is justified. It supplies no cutoff uniform in unbounded
 degrees and no automatic homogeneous realization of a local path.
 
+## What can actually be iterated beyond the first graph
+
+The [ample strict-carrier compression LC1--LC2](blowup_residual_geometry.md#lefschetz-compression-on-ample-strict-carriers)
+and the [general moving symbol and socle theorem](../carriers/normal_carrier_divisor_geometry.md#first-symbol-movement-and-socle-comparison-on-an-arbitrary-smooth-threefold)
+are not tied to projective-space ambient classes. On any
+smooth projective characteristic-zero threefold in the
+horizontal blowup sequence, suppose the actual strict
+intersection has sole smooth support, is generically
+curvilinear, and an ample integral strict carrier is
+generically regular along that support. If the ambient
+Picard group is free of finite rank, the lcm \(R\) of
+its actual local indices satisfies
+\[
+ (c/R)\mid \operatorname{content}([D_1])
+\]
+where \(c\) is the actual strict length and the content
+is the gcd of the coefficients of the mate divisor
+class in *any* integral basis of the Picard lattice.
+The class of \(RT\) is the restricted quotient of
+that ambient class by \(c/R\). This is the same
+Kummer/Lefschetz theorem checked in LC1, not
+a new hyperplane theorem. Under an effective actual
+section lift it compresses the mate on that model.
+For example, the exact lifting sequence and Serre
+duality reduce lifting to \(H^2(K_Y+D_2-D_1')=0\),
+which follows by Kawamata--Viehweg when
+\(D_2-D_1'\) is nef and big. No statement is made
+that the strict classes retain these positivity
+properties after an additional blowup, or that a
+compressed mate reconstructs the original equations
+with the required exceptional orders.
+
+The \([D_i]\) update in the previous section is
+integral Picard-lattice bookkeeping; the next
+generic normal slope, actual cohomology, and
+global support of the next intersection must
+be supplied separately. The
+[Cartier-cut determinant and finite modification formulas CF1--CF4](../normal-geometry/curvilinear_genus_and_defects.md#cartier-cuts-and-finite-modifications-of-the-saturated-filtration)
+give precise local comparisons in this iteration,
+when the required generic curvilinearity or
+finite same-support modification hypotheses hold.
+In particular the [marked-point transfer on the
+first graph](blowup_residual_geometry.md#socle-defects-on-the-two-presentations-of-the-first-graph)
+accounts for the actual loss of primitivity under
+the other contraction. This illustrates why
+one must not simply transport the previous
+normal-symbol gcd or deformation class from
+one smooth ambient model to another. These
+new recursive interfaces await independent
+review.
+
 ## Review and unresolved scope
 
 A ramified multisection
