@@ -80,7 +80,7 @@ open. Pair-image conditions are generically insufficient. This is an
 explicit pullback characterization, not just recovery of a configuration
 from its markings.
 
-The closure of the abstract three-boundary-mark chart in
+As a secondary model for this special carrier, the closure of the abstract three-boundary-mark chart in
 \(\overline M_{0,7}\) inherits a stable marked universal curve, and the
 product of its four forgetful maps is a closed embedding by the established
 anchored cross-ratio theorem. Whether the compactified locus equals the
@@ -91,6 +91,76 @@ Hilbert-of-points tautological evaluation maps, nested Hilbert schemes,
 Fulton–MacPherson ordered configurations, and relative Hilbert schemes
 of moving quotient carrier curves provide the candidate ambient
 constructions, not an already-proven universal flat CI compactification.
+
+## The arrangement-first compactification program
+
+**Priority:** first compactify the space of all arrangements, independently of the degrees of the two defining surfaces and independently of the choice of a carrier. The complete-intersection locus is a distinguished sublocus of that space. Keep all arrangement labels symmetric; do not fix a translate as \(C_0\). Quotient by simultaneous ambient automorphisms only after constructing the geometry. The marked rational-carrier and K3 models are useful tests of the resulting geometry, not the choice of ambient moduli space.
+
+### A projective configuration compactification with all forgetful maps
+
+Laurent Evain, [*Compactifications des espaces de configuration dans les schémas de Hilbert*](https://www.numdam.org/articles/10.24033/bsmf.2495/), Bull. SMF 133 (2005), 497–539 (also [arXiv:math/0107041](https://arxiv.org/abs/math/0107041)), develops precisely the existing approach of compactifying configurations by products of Hilbert schemes. Use the following elementary subset-union member of that approach.
+
+Let \(S\) be a projective compactification of the quotient torus \(T\) with a morphism to its orbit Chow closure, for example the normalized Chow quotient already calculated above. If a flat family of single orbit-curve schemes is desired, take the graph closure of the map from \(T\) to \(\operatorname{Hilb}_{4d+1}(\mathbf P^3)\) over \(S\), and, if useful, a smooth equivariant projective refinement. Denote this refined surface by \(S'\) and its universal single-curve family by \(\mathscr C\subset\mathbf P^3\times S'\).
+
+For a finite ordered label set \(J\), let
+\[
+ \mathcal X_J=\overline{\left\{
+ \bigl(\{z_i:i\in I\}\bigr)_{\varnothing\ne I\subseteq J}:
+ (z_i)_{i\in J}\in\operatorname{Conf}_J(T)
+ \right\}}
+ \ \subseteq\prod_{\varnothing\ne I\subseteq J}\operatorname{Hilb}^{|I|}(S').
+\]
+Take the reduced closure, and use the same \(S'\) for all finite label sets. The singleton factors recover the ordered positions. The full-set factor remembers the limiting length-\(|J|\) scheme. All subset factors preserve further collision data. Projection onto the factors indexed by subsets of \(K\subseteq J\) extends the forgetful map to a proper surjective morphism \(\mathcal X_J\to\mathcal X_K\): it agrees with deletion on the dense distinct locus and its image is closed. These morphisms compose as expected; relabeling gives the symmetric group action. No arrangement mark is preferred. Over the distinct locus the graph is isomorphic to the original configuration space.
+
+This is an available projective model, not a claim that it is minimal, smooth, or identical to a Fulton–MacPherson compactification. The latter can be compared or added if disjoint markings on expanded surfaces are required. Evain's work is the first reference for more refined enrichments, structural geometry and redundant factors.
+
+### The universal family: distinguish a flat source from its embedded image
+
+Every subset factor supplies a universal finite flat scheme \(\mathscr Z_I\subset S'\times\mathcal X_J\) of degree \(|I|\). For \(I\subseteq K\) there are canonical inclusions \(\mathscr Z_I\subseteq\mathscr Z_K\), since inclusion of finite subschemes is a closed Hilbert-incidence condition. On collision the union of the singleton sections need not equal the full-set scheme: the latter retains infinitesimal directions.
+
+Pull back \(\mathscr C\to S'\) along \(\mathscr Z_I\to S'\):
+\[
+ \mathscr D_I=\mathscr C\times_{S'}\mathscr Z_I
+       \longrightarrow\mathcal X_J,\qquad
+ \mathscr D_I\longrightarrow\mathbf P^3\times\mathcal X_J.
+\]
+The first morphism is flat and projective, by base change and composition of flat morphisms. On the distinct locus the source consists of \(|I|\) separate copies of the individual curves in each fiber; the map to \(\mathbf P^3\) identifies their common endpoints. On collision the source retains the finite transverse scheme and maps to the corresponding thickened or degenerate curve. Both source families and morphisms to \(\mathbf P^3\) are compatible with subset inclusions, relabeling and forgetful maps.
+
+This already constructs a compactification carrying a universal **family of maps from arrangements**, with all forgetful morphisms. It does **not** construct a single flat family of the embedded reduced unions everywhere: their Hilbert polynomials vary even over distinct configurations, as proved above. Nor does taking scheme-theoretic images commute automatically with base change. To obtain actual embedded flat unions, restrict to a common endpoint-rank/Hilbert-polynomial stratum for every subset and close the graph of its maps to the corresponding curve Hilbert schemes. Projection preserves subset forgetfulness into the respective smaller stratum closures. Compare these Hilbert refinements with \(\mathcal X_J\) and with the relative Rees blow-ups; none of these identifications is automatic.
+
+### The equation spaces and the realization loci
+
+Over the part of \(\mathcal X_J\) where the entire finite scheme \(\mathscr Z_J\) lies in \(T\), the explicit parametrization \(\mathscr C|_T\simeq\mathbf P^1\times T\) identifies the pullback of \(\mathcal O_{\mathbf P^3}(d)\) with \(\mathcal O_{\mathbf P^1}(4d)\). Restriction gives the global map
+\[
+ S_d\otimes\mathcal O_{\mathcal X_J}
+ \longrightarrow
+ H^0(\mathbf P^1,\mathcal O(4d))\otimes
+ p_*\mathcal O_{\mathscr Z_J},
+\]
+where \(p:\mathscr Z_J\to\mathcal X_J\) is finite flat. The target has rank \((4d+1)|J|\), and over the distinct locus the fiber kernel is exactly \(K_d(Z)\). At collisions this records the equations that vanish on the family of curves over the length-\(|J|\) transverse scheme; it does not parametrize every possible embedded non-invariant thickening. Across the toric boundary, use tautological evaluation for each monomial weight system on an appropriate refinement, or for sufficiently large degree use the flat single-curve family and relative cohomology and base change. The resulting incidence and Grassmannian maps need not have constant ranks. Take their graph closures or rank strata as required, not an assumed globally locally free kernel.
+
+For \(m=ab/4\), define \(\mathcal R_{a,b}^{\rm red}\) inside the ordered distinct locus by the established weightwise evaluation and coprimality conditions. Take its closure in the configuration model or a Hilbert/Grassmannian refinement. For \((4,4)\) the criterion is the pair of lines in the two weight-space embeddings, with the boundary coefficient opens, not merely one collinearity. The two-triple reconstruction in the marked-arrangement argument is an explicit first example of compatibility under forgetting.
+
+### The deepest diagonal and the precise STCI target
+
+There is a natural projective cycle map
+\[
+ \kappa_J:\mathcal X_J\longrightarrow
+ \operatorname{Sym}^{|J|}(S')\longrightarrow
+ \operatorname{Chow}_{1,4|J|}(\mathbf P^3)
+\]
+given by the Hilbert–Chow map of the full-set factor followed by the sum of the single-orbit Chow cycles. Define the interior full-collision stratum as the preimage of cycles \(|J|[C_z]\), \(z\in T\); all finite transverse schemes supported at \(z\) and additional collision data remain in that preimage. This is a better target than choosing a single labeled translate. The fixed cycle \(m[C_0]\) is one member of this symmetric condition.
+
+**Already proved in characteristic zero:** the [Chow trace-moment theorem](../../arguments/torus/chow_arrangement_moments.md) supplies a regular condition \(\sum u_i/v_i=0\) on every reduced CI configuration and a linear Chow-coordinate separator on its projective Chow closure. Every interior deepest diagonal has moment \(m u/v\ne0\). Consequently the closure of \(\mathcal R_{a,b}^{\rm red}\) in any configuration refinement with this cycle map misses the entire interior full-collision stratum. The same is true of the eigenform-covered repeated-cycle loci in the theorem's stated scope. This is a useful test of the compactification, but does not solve unrestricted STCI: a non-invariant proper CI supported on a repeated cycle might not belong to the closure of the reduced arrangement locus. The subsequent central problem is the existence and coverage of such additional actual equation-incidence strata, not reproving the trace separation of reduced collisions.
+
+The residual transverse torus acts simultaneously on the configuration; it commutes with the label permutations. Keep that action rather than choosing one label as the origin. Later compare quotient by simultaneous translations, coordinate reversal, and the equivalence relation induced by \(\operatorname{PGL}_4\) on the actual embedded cycles and their Hilbert lifts. An arbitrary ambient automorphism need not preserve the fixed-coordinate arrangement slice. Do not conflate abstract marked-carrier moduli with ambient projective equivalence.
+
+### Immediate next work, in order
+
+1. Instantiate the all-subsets Hilbert compactification first over \(T\), compare it with the toric boundary single-curve refinement, and identify the finite transverse collision strata and their forgetful maps.
+2. Study the extension of the two weight-space evaluation maps, their rank strata and properness conditions on this space, starting with \((4,4)\) as a test; examine the general \((a,b)\) partial-configuration reconstruction mechanism rather than imposing a rational carrier.
+3. Compare the resulting source families with the actual embedded Hilbert limits and relative ideal blow-ups, and distinguish the reduced realization closure from additional non-invariant repeated-cycle lifts.
+4. Only then make the residual automorphism quotient. The [mirror quartic K3 and the natural maps to \(M_{0,5}\) and \(M_{0,4}\)](../../arguments/torus/marked_arrangement_forgetful_geometry.md#6-the-quartic-marked-root-surface-is-a-known-mirror-quartic-k3-model) are useful descriptions of the special quartic realization locus after separating framing parameters; they do not dictate the compactification of all arrangements.
 
 ## Constructed families of arrangement blow-ups
 
@@ -273,7 +343,7 @@ is an irreducible weight-four quartic (linear in \(x_3\), with coprime leading a
 
 ## Precise next tests (not claimed complete)
 
-**A. Boundary universal family.** The normalized toric graph fan \(W\) is now explicit (eight rays, twelve cones), including the two endpoint sections. Determine its **scheme-theoretic Chow fiber ideals** over each ray and fixed point, flatness, and any needed smooth toric refinement. Compare the graph with a *flat* Hilbert or log-map refinement rather than equating their moduli meanings. A boundary cycle does not determine a boundary embedded scheme.
+**A. Boundary universal family.** Use the arrangement-first compactification above and its universal source family as the primary comparison. The normalized toric graph fan \(W\) is now explicit (eight rays, twelve cones), including the two endpoint sections. Determine its **scheme-theoretic Chow fiber ideals** over each ray and fixed point, flatness, and any needed smooth toric refinement. Compare the graph with a *flat* Hilbert or log-map refinement rather than equating their moduli meanings. A boundary cycle does not determine a boundary embedded scheme.
 
 **B. Common refinement and contractions.** Principalize \(I_C\) on the now-explicit \(W\), record its interaction with the two global endpoint sections and the two exceptional divisors over coordinate lines, and compute the transforms of \(3H-E\) and the contracted quadric \(2H-E\). Decide whether any meaningful \(V_5\) contraction persists after degeneration. The correct proof goal is a morphism/divisor calculation, not a verbal analogy with Sarkisov links.
 
