@@ -369,6 +369,106 @@ On a normal surface the underlying divisor relation is
 the \(S_2\) extension argument is stronger because it does **not**
 require normality at every other codimension-one point.
 
+### Reverse application: single-curve exclusions constrain multi-curve Chow cycles
+
+The fixed-carrier monoid theorem above is commonly used
+**forwards**, to construct new mate vectors from known ones.
+For the degree-exclusion program it should also be
+used **backwards**: a proved impossibility of a sole-support
+mate constrains every *multi-support* mate on the
+**same carrier**.
+
+Let \(T=V(F_a)\) be an integral hypersurface,
+regular at the generic points of distinct curves
+\(C_1,C_2\). Suppose an all-mate theorem excludes
+the singleton \(C_1\) on \(T\).
+Then the actual supported-mate vectors in
+\(\mathbf Z_{\ge0}^2\) lie on a **single rational ray**.
+Indeed, two nonproportional vectors would generate,
+by integer subtraction and the \(S_2\) extension
+argument, a nonzero positive multiple of \((1,0)\)
+and hence a forbidden actual sole-support mate
+on \(C_1\). This is independent of the
+mate degrees.
+
+**Complete quartic-carrier application.**
+For every integral **quartic** \(T\) containing
+distinct projective translates \(C_i\) of the
+fixed \(C_0\), the unique-quadric restriction
+shows that \(T\) has generic normal order
+one along *each* \(C_i\): order two would
+force \((4,4)-2(1,3)=(2,-2)\) effective
+on that translate's unique quadric.
+Thus the generic-regularity hypothesis
+of the monoid theorem is automatic. The
+accepted [all-degree-mate quartic
+exclusion](../../results/quartic_carrier_exclusion.md)
+applies to every projective translate.
+Consequently:
+
+* For **two translates**, every supported
+  actual mate multiplicity vector is
+  proportional to a single ray; in
+  particular the cycle-realization
+  monoid has rank at most one.
+* If an involution of the quartic carrier
+  exchanges the two translates, all such
+  vectors are **diagonal** \((m,m)\).
+  The retained exceptional \((2,2)\)
+  cycle is an example, not the theorem's
+  only possible numerical configuration.
+* If a prime cyclic group of order \(p\)
+  preserves \(T\) and permutes \(p\)
+  distinct translates transitively,
+  **every** actual supported mate has
+  equal multiplicities \(m\) on all
+  \(p\) components. Otherwise the
+  prime-orbit lattice proved above
+  would supply a forbidden singleton.
+  Degree comparison then forces
+  \[
+    4b=\deg(T)\,b=4pm,
+    \qquad \boxed{b=pm}.                    \tag{OR1}
+  \]
+  This is **conditional on existence of
+  such a symmetric carrier and supported
+  mate**; it does not assert that
+  such arrangements exist.
+
+**All-degree normal-carrier variant.**
+Replace quartic \(T\) by any normal integral
+degree-\(a\) carrier with a supported set
+of projective translates. If one component
+has actual on-curve Cartier indices at
+most four, the
+[all-degree normal-index theorem](../carriers/normal_carrier_symbolic_torsion.md#5-closing-the-entire-actual-index-at-most-four-class)
+excludes its sole-support mate. For two
+components the supported-mate monoid
+again has rank at most one; under a prime
+cyclic symmetry, all translates have
+the same index conditions and every
+mate vector is uniform. This is a
+**new consequence of existing theorems**,
+not a fresh normal-index classification.
+
+This is the direct connection to the
+[Chow-polytope realization work](../../results/quartic_chow_pencil_classification.md):
+the single-orbit STCI exclusion, a
+multi-support lattice theorem, and
+the exceptional \((4,4)\) orbit are
+different views of the same actual
+equation-realization constraint.
+The general multiplicity-lattice theorem
+controls the **fiber of actual equations
+over a fixed carrier**. It does **not**
+classify the carriers or Chow cycles
+themselves, and for a composite
+group a nonconstant orbit vector may
+span a proper rational subrepresentation,
+so the prime-order conclusion
+must not be asserted without its
+irreducibility hypothesis.
+
 ### A two-translate sextic construction criterion
 
 In characteristic zero let \(\sigma\) be \(x_3\mapsto -x_3\), which
