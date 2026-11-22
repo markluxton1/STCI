@@ -424,6 +424,96 @@ smooth contact on \(C\). Singular normalization or singular
 conductor gluing is a **real mathematical escape regime**,
 not an error term one may silently bound by this inequality.
 
+### Multi-branch normalization: one intersection-matrix mechanism
+
+The normal Hodge gap is the **one-branch, normal**
+part of the story. Several broad sextic exclusions
+instead live on a *normalization or signed surface*
+with **two distinct curves** lying above \(C\).
+Their common geometry can be stated without committing
+to a special sextic equation.
+
+Suppose a finite normalized carrier has reduced
+inverse support \(\Gamma_1\cup\cdots\cup\Gamma_s\),
+and **each lifted curve is Cartier** on a smooth
+neighborhood of that union. The pullback of a
+sole-support mate of degree \(b\) must give an
+**actual effective Cartier divisor**
+\[
+ \operatorname{div}(\nu^*G)
+   =\sum_i m_i\Gamma_i,\quad m_i>0,
+ \qquad \sum_i m_i\Gamma_i\sim bH .
+ \tag{MB1}
+\]
+Intersecting with all \(\Gamma_j\) gives
+\[
+ \boxed{\quad
+ M\mathbf m=b\,\mathbf h,\qquad
+ M_{ij}=\Gamma_i\cdot\Gamma_j,\quad
+ h_j=H\cdot\Gamma_j.\quad}                     \tag{MB2}
+\]
+Together with \(H\sum_i m_i\Gamma_i=bH^2\),
+this is a **positive-integral lattice problem**
+for actual branch multiplicities, valid for
+**every mate degree**. In the singular
+\(\mathbf Q\)-Cartier regime, replace (MB2)
+by its numerical pullback on a resolution
+and retain exceptional correction; it is
+not legitimate to assume the individual
+curves Cartier.
+
+This unifies the *mechanism* behind the
+[two-lift norm sextic intersection proof](../../arguments/linkage/two_lift_sextic_exclusion.md#two-lift-split-carriers-intersection-on-the-signed-surface)
+and the [clean split-conductor
+first-normal-cone sextic exclusion](../../arguments/carriers/split_sextic_conductor_and_contact.md#clean-split-conductor-a-branch-exclusion-and-its-stronger-global-model).
+In the former the polarized intersections on
+a signed cubic conflict with all positive
+multiplicities (or require impossible
+Du Val/non-Du-Val corrections), with every
+residual ruling pattern eventually excluded.
+In the latter the full conductor, adjunction
+and clean normal ideal force a matrix whose
+positive-solution condition includes
+\(d^2-10d-35=0\), impossible for its integral
+normal-direction parameter. These are *two
+applications of (MB1)--(MB2)*, **not**
+interchangeable covers: the fixed quadratic
+cover and a split first normal cone are
+different geometric constructions.
+
+When the inverse is instead a **single Cartier**
+curve \(\Gamma\) of mapping degree \(\delta\)
+over \(C\), (MB2) yields the scalar
+\(\Gamma^2=16\delta^2/a\) and its
+integrality test. For a thick sextic
+\(\delta=1,2\) gives \(8/3\) or \(32/3\),
+excluding that singleton Cartier branch
+for *all mate degrees*. The remaining
+nonnormal case requires multiple branches
+or a non-Cartier inverse; neither has been
+settled just by (MB2).
+
+**Connection to quintic normalization.** The
+degree-five Gorenstein-normalization proof
+largely has a single lifted \(c\) and a
+divisor root, but its obstruction lies at the
+*next step*: actual full inverse support
+and **power descent through the entire
+conductor**, not merely an intersection
+matrix. This distinction locates exactly
+where the common normalization framework
+forks into separate terminal lemmas.
+Thus the uniform proof route is
+\[
+ \text{actual inverse support}
+ \ \to\ \text{polarized divisor lattice}
+ \ \to\ \text{local exceptional/contact corrections}
+ \ \to\ \text{actual conductor descent}.
+\]
+Each arrow is a **necessary check**;
+it is not a claim that every possible
+normalization has been classified.
+
 ### The indices turn degree-five and degree-six cases into a single test
 
 For a hypothetical sole-support mate of degree \(b\) on a normal
