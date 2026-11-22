@@ -947,6 +947,273 @@ a geometric pattern to compare
 with the ambient equations,
 not a contradiction.
 
+### The global moving-root theorem: the larger normal carrier has index \(m\)
+
+There is a stronger consequence of the
+local \(A_{m-1}\) calculation
+when it is applied to the
+**actual first-normal linear system
+on the whole curve**. This is
+an application of the established
+normal splitting and Bertini;
+the new comparison with Ellia's
+primitive theorem is noted below.
+**Independent review is required.**
+
+Let \(a<b\), with the **smaller
+generator \(F_a\) having generic
+normal order one**, and
+\(V(F,G)_{\mathrm{red}}=C_0\).
+Put \(m=ab/4\ge2\).
+Along \(C_0\) the two first-normal
+symbols are **generically
+proportional**, since
+the generic CI length exceeds one.
+In the balanced frame
+\(N_{C/\mathbf P^3}^\vee
+=\mathcal O(-7)^2\),
+write their unique common saturated
+direction as a binary vector
+\((A,B)\) with coprime entries,
+both of degree \(7-\ell\).
+The two actual symbols are
+\[
+ \sigma_F=f(A,B),\qquad
+ \sigma_G=g(A,B),
+\]
+with binary forms
+\[
+ \deg f=4a-14+\ell,\qquad
+ \deg g=4b-14+\ell
+       =\deg f+4(b-a).
+ \tag{MV2}
+\]
+The case \(\sigma_G=0\) uses
+\(g=0\) and \(\gcd(f,0)=f\);
+all following assertions remain valid.
+
+For a degree-\((b-a)\)
+ambient form \(L\),
+the first normal symbol
+of \(K=G+LF\) is
+\((g+f\,L|_C)(A,B)\).
+The **fixed first-symbol base divisor**
+\[
+ B_{\mathrm{np}}=\gcd(\operatorname{div}f,
+                              \operatorname{div}g)
+ \tag{MV3}
+\]
+is precisely the **common
+singular scheme on \(C\)**
+of the two original equations
+at the level of first-symbol
+vanishing; its underlying
+support is the **nonprimitive
+locus** of the actual CI.
+Since \(L|_C\) comes from
+the degree-\((b-a)\)
+ambient linear system,
+its variation is basepoint-free
+and separates tangent directions
+on the smooth embedded curve.
+Consequently for general \(L\)
+the remaining scalar zeros
+are **simple**, disjoint
+from \(B_{\mathrm{np}}\),
+and number exactly
+\[
+ \boxed{\quad
+ \alpha=4b-14+\ell-\deg B_{\mathrm{np}}
+          \ \ge\ 4(b-a)>0.\quad}      \tag{MV4}
+\]
+They lie where \(F\) is smooth.
+By the exact local form (MV1),
+each is a marked
+\(A_{m-1}^1\) point on
+the **normal** replacement
+carrier \(K=0\), with
+local Cartier index **exactly \(m\)**.
+The actual divisor
+\(F|_{K=0}=mC\)
+forces *every* local
+Cartier index to divide \(m\).
+Therefore
+\[
+ \boxed{\quad
+ R(K,C)=m=\frac{ab}{4}.
+ \quad}                                       \tag{MV5}
+\]
+This does not require
+the original \(F\) to
+be normal, smooth everywhere,
+or its CI to be primitive;
+it requires generic
+normal order one for
+the **smaller** generator.
+The conclusion does **not**
+follow when only the larger
+\(G\) has order one.
+
+Using the accepted exact
+normal-carrier theorem with
+\(g_0=\gcd(b,4)\),
+\(\mu=b/g_0,\ v=4/g_0\),
+the Bézout condition
+\(4\mid ab\) gives \(v\mid a\)
+and \(m=\mu(a/v)\). Hence
+\[
+ \boxed{\quad
+ t=\frac{R}{\gcd(R,\mu)}
+   =\frac{a}{v},\qquad
+ b_{\min}(K)=vt=a. \quad}               \tag{MV6}
+\]
+Thus the smaller degree \(a\)
+is automatically the
+**minimal** mate degree
+on the normal general
+larger carrier, for
+*every \(a\)* with its
+generic normal order one,
+not only for \(5\le a\le9\).
+In particular, for every
+hypothetical \((5,4n)\)
+pair, \(R=5n\) **exactly**.
+The prior alternative
+\(R=10\) for a
+\((5,16)\) replacement
+cannot occur for a
+*general* normal
+replacement carrier:
+\(R=20\) is forced.
+
+**Why this is explanatory rather than an
+exclusion.** The large required
+index is supplied by the moving
+simple \(A_{m-1}\) points
+themselves; the normal-index
+minimum mate theorem is therefore
+**automatically saturated by
+ordinary generator movement**.
+What cannot be read off these
+moving singularities is whether
+the *fixed* nonprimitive locus
+\(B_{\mathrm{np}}\) can carry
+the additional normal-layer
+and global geometry required
+by a projective sole-support
+pair.
+
+For the same reason
+Ellia's [2015 Theorem 12](../../literature/README.md#ellia)
+already gives a stronger
+uniform \(A_n^k\) conclusion
+for a **primitive** CI; the
+present generic-order-one
+comparison only adds scope
+when the pair is
+**nonprimitive at finitely
+many points**.
+
+### The exact defect budget is concentrated at common singularities
+
+Let \(D_{\mathrm{top}}\) denote
+the *actual saturated top
+multiplication defect* of
+the curvilinear CI:
+\[
+ \deg D_{\mathrm{top}}
+  =(m-1)\ell-4(a+b)+14.
+ \tag{MV7}
+\]
+This is the accepted
+Bănică--Forster/CI
+duality identity, not a
+new local model. For the
+general normal carrier
+\(K\), the pointwise
+[socle/index identity](normal_carrier_symbolic_torsion.md#1-carrier-data-and-an-intrinsic-normalized-budget)
+is
+\[
+ D_{\mathrm{top},P}
+ =\left(\frac m{r_P}-1\right)A_P
+  +\frac m{r_P}D_{r_P,P}.
+\]
+At every moving
+\(A_{m-1}^1\) point,
+\(r_P=m,\ A_P=1\) and
+\(D_{r_P,P}=0\), so its
+top defect is **zero**.
+Therefore
+\[
+ \boxed{\quad
+ \deg D_{\mathrm{top}}
+ =\sum_{P\in B_{\mathrm{np}}}
+    \left[
+      \left(\frac m{r_P}-1\right)A_P
+       +\frac m{r_P}D_{r_P,P}
+    \right].\quad}                     \tag{MV8}
+\]
+For general \(L\), the
+first-normal orders at fixed
+points sum to
+\(\deg B_{\mathrm{np}}\).
+Equivalently the accepted
+normal self-intersection
+formula gives
+\[
+ \boxed{\quad
+ \sum_{P\in B_{\mathrm{np}}}
+       \frac{A_P+D_{r_P,P}}{r_P}
+   =\frac{\deg D_{\mathrm{top}}
+             +\deg B_{\mathrm{np}}}{m}.
+ \quad}                                       \tag{MV9}
+\]
+This identifies precisely
+how the **global top defect**
+must be paid by the
+**finite common-singular
+locus** after the moving
+singularities have exhausted
+their primitive contribution.
+It does not imply that
+an arbitrary effective
+\(B_{\mathrm{np}}\) or
+defect divisor is realizable
+by two homogeneous forms.
+
+**Application of established
+primitive classification.**
+Ellia's Corollary 16
+excludes a primitive
+rational-quartic presentation
+of degree \((5,b)\) for
+**every \(b\)**, and excludes
+\((6,6)\).
+Therefore any hypothetical
+pair in those degrees has
+\(B_{\mathrm{np}}\ne0\):
+**the two original
+surfaces have a common
+singular point on \(C\)**.
+This is a **proved
+degree-specific consequence**
+of classical theory,
+not the unrestricted
+common-singular-point
+assertion, which remains
+unproved for all degrees.
+For degree five the
+smaller generator is
+automatically generically
+order one, so (MV8)--(MV9)
+locate its nonprimitive
+escape at finitely many
+points. The entirely-thick
+\((6,8)\) case has no
+generic order-one
+generator and is not
+covered by (MV2)--(MV9).
+
 **Scope.** The table does not
 exclude the listed singularities.
 Normality of the larger member
