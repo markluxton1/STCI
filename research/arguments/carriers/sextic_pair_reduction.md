@@ -281,51 +281,50 @@ The connected normal cyclic cover \(\pi:Y\to S\) associated with
 These statements concern the normal covering surface itself, not a
 resolution. No rational-singularity or ADE hypothesis is imposed.
 
-To compute the eigensheaves, put \(I_i=\mathcal O_S(-iC_0)\).
-They are rank-one reflexive sheaves, hence maximal Cohen–Macaulay on
-the normal surface. Since \(I_9=\mathcal O_S(-6H_S)\), the quotient
-\(I_i/I_9\) inside \(\mathcal O_Z\) has the generic stalk of the
-\(i\)-th nilradical power and a pure quotient. It is exactly its
-saturation. Moreover \(I_C I_i\subset I_{i+1}\), and
-\(I_i/I_{i+1}\) is pure of rank one on \(C_0\); thus it is the
-previously defined line bundle \(E_i\), including at every defective
-point. This identification incurs no unknown punctual correction.
+**Use the general cyclic-cover Euler identity**, rather than a
+separate sextic computation. The
+[all-degree normal-carrier formula (CE1)--(CE4)](normal_carrier_divisor_geometry.md#35-a-single-cyclic-cover-euler-formula-for-all-normal-carrier-degrees)
+applies with
+\[
+ (a,\mu,v,t_{\mathrm{cover}})=(6,3,2,3),\qquad
+ \Delta=3C_0-2H_S,\qquad 9C_0\sim6H_S.
+\]
+Here \(t_{\mathrm{cover}}=3\) is the torsion order;
+it must not be confused with the divisor degree
+\(t=\deg T=4l-17\) used above. The normalized
+Kummer cover has the **exact** decomposition
+\[
+ \pi_*\mathcal O_Y
+ =\mathcal O_S\oplus\mathcal O_S(\Delta)
+                  \oplus\mathcal O_S(2\Delta).
+\]
+This is the normal cyclic-cover construction of
+[Ambro, §4, Lemmas 4.1--4.2](https://arxiv.org/abs/1310.3951),
+not an unnormalized formal root cover.
 
-The sextic hypersurface formula and the curve layers give, for every
-integer \(n\),
+The key point is that the reflexive divisorial layers
+\(I_i=\mathcal O_S(-iC_0)\) satisfy
+\(I_i/I_{i+1}=E_i\), with **no extra punctual term**:
+the quotient is pure of generic rank one on the smooth
+\(C_0\), hence a line bundle. Using
 \[
  \chi(\mathcal O_S(nH_S))=3n^2-6n+11,\qquad
- \chi(E_i(nH_S))=-il+\deg D_i+4n+1.
+ \chi(E_i(nH_S))=-il+\deg D_i+4n+1,
 \]
-Use \(\Delta\sim4H_S-6C_0\) and
-\(2\Delta\sim2H_S-3C_0\), which follow from \(9C_0\sim6H_S\).
-The divisorial filtrations then yield
+with the exact saturated profile
+\((D_0,\ldots,D_8)=(0,0,A,B,T,2T-B,2T-A,2T,2T)\),
+the general identity gives
 \[
-\begin{aligned}
  \chi(\mathcal O_S(\Delta))
- &=35+\sum_{i=6}^8\chi(E_i(4H_S))
-   =86-21l+6t-a_2=3l-16-a_2,\\
- \chi(\mathcal O_S(2\Delta))
- &=83+\sum_{i=3}^8\chi(E_i(2H_S))
-   =137-33l+9t-a_2=3l-16-a_2.
-\end{aligned}
+ =\chi(\mathcal O_S(2\Delta))=3l-16-a_2,
+ \qquad
+ \chi(\mathcal O_Y)=6l-21-2a_2.
 \]
-
-Choose a Weil representative of \(\Delta\) and a rational function
-whose divisor is three times that representative. Exact order three
-makes its Kummer extension a field of degree three. The normalized
-cover has the exact eigensheaf decomposition
-\[
- \pi_*\mathcal O_Y=
- \mathcal O_S\oplus\mathcal O_S(\Delta)\oplus\mathcal O_S(2\Delta).
-\]
-This is the integral-divisor case of
-[Ambro, §4, Lemmas 4.1–4.2](https://arxiv.org/pdf/1310.3951).
-The normalization is already included in this formula. Equivalently,
-the reflexive cyclic algebra is \(S_2\) and is normal in codimension
-one by the unramified Kummer calculation. Adding the three Euler
-characteristics proves the asserted \(\chi(\mathcal O_Y)\).
-
+This **replaces** the two separate
+degree-six eigensheaf Euler calculations:
+it is the specialization of the same formula
+that applies to normal quintic double covers.
+No ADE hypothesis is needed.
 The cover is étale in codimension one. The resulting equality
 \(\omega_Y=\pi^*\omega_S\) extends across the remaining finite set
 by reflexivity. Since \(\omega_S=\mathcal O_S(2H_S)\), the cover is
@@ -347,8 +346,8 @@ on \(q(Y)\) has been obtained. In particular a smooth-surface or
 rational-singularity inequality must not be applied to \(Y\) without
 establishing its hypotheses.
 
-Independent reconstruction accepted the divisorial-layer identification,
-both Euler computations, exact normalized-cover eigensheaves, canonical
+Independent reconstruction accepted the original divisorial-layer identification,
+both Euler values, exact normalized-cover eigensheaves, canonical
 pullback and irregularity bound. It covered arbitrary normal singularities
 and retained the distinction between \(Y\) and a resolution. This is
 reviewed necessary evidence, not an exclusion of the cover.
