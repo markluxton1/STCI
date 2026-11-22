@@ -58,6 +58,85 @@ The [dual-line criterion](../../arguments/torus/arrangement_endpoint_delta.md#th
 
 This is a particularly promising template for arbitrary degrees: find the allowed projective linear series on the **two global endpoint sections** of the normalized graph, then ask whether they arise from the *same two homogeneous equations*. The point is to uncover a common global realization law, not to extrapolate a low-degree line criterion formally.
 
+## Constructed families of arrangement blow-ups
+
+The actual family proposed in this discussion is now constructed and analyzed in
+[relative arrangement blow-ups and the smooth separated model](../../arguments/torus/relative_arrangement_blowup_family.md).
+This is **not** merely an analogy: there are two explicit relative blow-up schemes, and they are not identified without an additional principalization argument.
+
+On the ordered distinct-configuration space \(B_m=\operatorname{Conf}_m(T)\), let
+\[
+ \mathcal I_m=\bigcap_i \mathcal I_{\mathcal C_i}
+ \subset\mathcal O_{\mathbf P^3\times B_m},\qquad
+ \mathcal X_m^{\rm Rees}
+ =\operatorname{Proj}_{\mathbf P^3\times B_m}
+     \bigoplus_{n\ge0}\mathcal I_m^n.
+\]
+This is the **direct family of blow-ups of the arrangement ideal**. Its fiber is not automatically
+\(\operatorname{Bl}_{I_{A_Z}}\mathbf P^3\): taking intersections of ideals and forming Rees powers
+can both fail to commute with specialization. The exact finite endpoint-evaluation matrices
+give determinantal strata on which the *reduced union* does specialize correctly and is
+Hilbert flat. For the Rees blow-up itself, one still needs normal-flatness/base-change
+control of all powers of \(\mathcal I_m\).
+
+There is also a **fully constructed smooth family of fiberwise blow-ups**.
+Choose a smooth toric resolution \(W'\to\mathbf P^3\) of the normalized quotient graph.
+Over its open quotient surface \(T\), the map is
+\(\mathbf P^1\times T\to T\); the \(m\) lifted orbit curves over a distinct
+configuration are *disjoint fibers*. Blow up their relative disjoint union:
+\[
+ \widehat{\mathcal W}_m
+ =\operatorname{Bl}_{\coprod_i \widetilde{\mathcal C}_i}
+       (W'\times B_m)\longrightarrow B_m.
+\]
+This is **smooth and projective** over \(B_m\), with the correct blow-up on every
+fiber. The exceptional divisors are \(m\) disjoint copies of
+\(\mathbf P^1\times\mathbf P^1\) in each fiber.
+
+**Exact equation dictionary.** If \(H\) is the pullback of a hyperplane
+from \(\mathbf P^3\) and \(\widetilde E_Z=\sum_i\widetilde E_i\), then
+\[
+ \boxed{H^0(\mathbf P^3,I_{A_Z}(d))
+   \cong H^0(\widehat W_Z,dH-\widetilde E_Z)}
+\]
+for every \(d\). The proof is the direct-image identity
+\(\psi_*I_{\coprod_i\widetilde C_i}=I_{A_Z}\) under
+\(W'\xrightarrow{\psi}\mathbf P^3\), followed by the
+regular-center blow-up pushforward. Thus the smooth family loses **no
+containing equations**; however its divisor intersections still require
+testing actual residual and boundary support.
+
+**Normal geometry of the contraction.** The differential on the
+normal bundles along any lifted orbit curve is
+\[
+ \mathcal O_{\mathbf P^1}^{\oplus2}
+ \longrightarrow N_{C_z/\mathbf P^3}.
+\]
+It has local invariant factors \((3,4)\) at *both* endpoints,
+hence determinant divisor \(7p_0+7p_\infty\).
+This is a characteristic-independent calculation in the
+\(u,v\) and opposite-endpoint coordinates, and explains the
+existing normal-frame determinant as the contraction defect
+between the separated blow-up model and the embedded quartic.
+
+Finally the **actual pair-incidence family** is explicit:
+on constant-rank strata the containing-equation kernels
+\(\mathcal K_a,\mathcal K_b\) are vector bundles and
+\(\mathbf P(\mathcal K_a)\times_{B_m}\mathbf P(\mathcal K_b)\)
+parametrizes pairs containing the reduced arrangement. Its
+coprime open is precisely the reduced CI realization locus
+when \(ab=4m\), by the existing degree-exhaustion argument.
+For nonreduced STCI support this equivalence does not hold.
+
+The genuinely unresolved comparison is now sharply located:
+whether the pullback of \(I_{A_Z}\) to \(\widehat W_Z\) is invertible;
+if not, which additional exceptional modifications make it so,
+and which movable divisor classes admit complementary contractions?
+For \(m=1\), the direct family is the trivial family of classical
+\(\operatorname{Bl}_C\mathbf P^3\) and its \(V_5\) link.
+For \(m>1\), the smooth separated family is **not** claimed
+to be a family of \(V_5\) links.
+
 ## Divisors on arrangement blow-ups
 
 For a prescribed reduced arrangement let
