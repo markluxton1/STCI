@@ -69,6 +69,25 @@ The identical argument gives the second sum in (1). Finiteness follows because e
 \(\chi(\mathcal O_{A_Z})=m-\delta_0-\delta_\infty\), and
 \(\deg A_Z=4m\), proving (2). \(\square\)
 
+### Weighted interpolation and Gröbner footprints
+
+There is a finite-dimensional version of (1) that turns the endpoint length into a sum of monomial weights. Let
+\[
+ R_Z=k[U,V]/I(Z)\cong k^m,\qquad
+ F_nR_Z=\operatorname{span}\{\overline{U^aV^b}:3a+4b\le n\}.
+\]
+Then \(\dim F_nR_Z=\dim W_n(Z)\). Choose any monomial order refining the positive weighted degree \(\deg U=3,\deg V=4\). If \(\mathcal B_Z\) is its standard-monomial basis of \(R_Z\), Gröbner division does not increase weighted degree, and thus \(\mathcal B_Z\cap\{\deg\le n\}\) is a basis of \(F_nR_Z\). Summing the missing dimensions over all \(n\) yields the **exact footprint identity**
+\[
+ \boxed{\delta_0(Z)=\sum_{M\in\mathcal B_Z}\deg_{(3,4)}M,\qquad
+ \delta_\infty(Z)=\sum_{M\in\mathcal B_{Z^\vee}}\deg_{(3,4)}M.}\tag{1a}
+\]
+Equivalently these are the sums of the jump degrees of the filtered evaluation rank functions. Proof: a basis element of first available degree \(e\) contributes \(1\) to the deficiency at each \(n=0,\dots,e-1\), hence contributes exactly \(e\) to the sum.
+
+The sums do not depend on the tie-breaking term order (the filtered dimensions are intrinsic), although the individual standard monomials can. Thus the two endpoint defects can be found from two **zero-dimensional weighted Gröbner footprints** of the same finite configuration in opposite torus coordinates. This is an explicit algebraic bridge to Gröbner/tropical methods; it is not a claim that the Chow quotient normal fan is itself a Gröbner fan for \(I(Z)\).
+
+For example, four general points have a weighted interpolation basis
+\(\{1,U,V,U^2\}\) of weights \(0,3,4,6\), giving \(\delta_0=13\). Four distinct points on the affine line \(V=A+BU\) with \(A\ne0\) instead have basis \(\{1,U,U^2,U^3\}\) of weights \(0,3,6,9\), giving \(\delta_0=18\). Their opposite-endpoint footprint must be calculated separately: the direct affine-line condition at one endpoint does not automatically impose one at the other.
+
 ### Immediate consequences
 
 1. For **two** distinct translates, the intersection length at \(p_0\) is \(3\) unless \(u_1=u_2\), when it is \(4\). At \(p_\infty\) it is \(3\) unless \(\alpha_1=\alpha_2\), when it is \(4\). This follows directly by restricting the two defining normal equations to the other smooth branch. It is also the \(m=2\) instance of (1).
