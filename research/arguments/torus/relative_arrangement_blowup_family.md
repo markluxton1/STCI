@@ -310,6 +310,58 @@ the direct image of
 is their ideal sheaf, proving the second
 isomorphism. \(\square\)
 
+**Relative sheaf-level version.** Let
+\(\widehat g:\widehat{\mathcal W}_m
+\to\mathbf P^3\times B_m\) be the
+composite blow-up/graph morphism, and
+let \(\mathcal H\) be the pullback of
+\(\mathcal O_{\mathbf P^3}(1)\).
+The same proof works *before* taking
+individual fibers:
+\[
+ \boxed{
+ \widehat g_*
+ \mathcal O_{\widehat{\mathcal W}_m}
+        (d\mathcal H-\widetilde{\mathcal E})
+ \ \cong\ \mathcal I_m(d)
+ }\tag{11b}
+\]
+as coherent sheaves on
+\(\mathbf P^3\times B_m\).
+Indeed pushforward of the exceptional
+line bundle gives the ideal of the
+disjoint lifted moving curves; then the
+proper birational graph morphism pushes
+that ideal to the kernel of
+\(\mathcal O_{\mathbf P^3\times B_m}
+ \to\bigoplus_i\mathcal O_{\mathcal C_i}\),
+which is precisely \(\mathcal I_m\).
+The projection formula handles the
+hyperplane twist.
+
+Pushing once more to \(B_m\) identifies
+the coherent family of degree-\(d\)
+containing-section modules
+\[
+ p_{B_m*}\mathcal I_m(d)
+ \ \cong\
+ \widehat p_*
+ \mathcal O_{\widehat{\mathcal W}_m}
+        (d\mathcal H-\widetilde{\mathcal E}).
+ \tag{11c}
+\]
+These are *relative* identities,
+not assertions that pushforward
+commutes with **all** nonflat
+specializations. On a constant-rank
+stratum of the explicit evaluation
+map (15), its kernel bundle gives the
+correct fiber spaces \(K_d(Z)\).
+This identifies the original
+containing-equation family with a
+direct image from a **single smooth
+projective blow-up family**.
+
 Thus the equation problem is now literally a family
 of divisor spaces
 \[
