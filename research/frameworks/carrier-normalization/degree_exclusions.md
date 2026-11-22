@@ -271,21 +271,42 @@ exclusions, makes **every integral defining factor have degree at
 least five**. This base case must not be replaced by a theorem
 whose proof invokes it.
 
-**Step 1 — identify carrier degree and normalize the
-quantifier.** For every actual pair with an integral
-degree-five carrier, quadric restriction forces generic
-regularity along \(C\), in **every mate degree**. Its
-normal/nonnormal distinction can then be evaluated through
-the actual singularities or normalization and conductor.
-For an arbitrary degree-six carrier, generic order may
-be one or two; the thick order-two case requires branch
-and transverse-normal analysis and is not covered by the
-normal-carrier criterion automatically. **Only in the
-equal-degree \((6,6)\) problem**, the graph residual bound
-and [general-pencil theorem](../../arguments/carriers/sextic_pair_reduction.md#a-normal-pencil-carrier-in-characteristic-zero)
-guarantee an integral **normal sextic member** among the
-pencil generators. This reduction says nothing about all
-individual sextics with mates of degree \(b\ne6\).
+**Step 1 — identify the carrier and replace a
+higher-degree generator by a normal one whenever
+the actual equation system permits it.**
+The established quadric restriction bound
+makes **every** quintic equation containing
+\(C\) generically regular along \(C\).
+The [mixed-degree Bertini replacement](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
+(now proved from classical Bertini but
+**awaiting independent mathematical audit**)
+shows more: for any sole-supported
+\((a,b)\) pair with \(a<b\) and **at
+least one** defining equation of
+generic normal order one, the same
+CI ideal admits an **integral normal
+degree-\(b\)** generator
+\(G_b+F_aL_{b-a}\). Consequently
+**every hypothetical \((5,b)\),
+\(b>5\)** has a normal **larger**
+carrier, whether or not its original
+quintic was normal. This does **not**
+make the original quintic normal or
+replace its conductor proof.
+For an \((6,b)\) pair, \(b>6\), the
+same normal replacement is valid
+**only when at least one generator
+has generic order one**; the
+order-two/order-two regime remains.
+For **equal-degree \((6,6)\)**,
+the separately proved
+[general-pencil normality reduction](../../arguments/carriers/sextic_pair_reduction.md#a-normal-pencil-carrier-in-characteristic-zero)
+handles every hypothetical pair,
+after ruling out simultaneous order
+two by the graph bound.
+The two normality mechanisms have
+different hypotheses and neither
+should be extended silently.
 
 **Step 2 — use the complete normal-carrier test
 for every mate degree.** If the chosen degree-\(a\)
@@ -589,6 +610,84 @@ Thus the uniform proof route is
 Each arrow is a **necessary check**;
 it is not a claim that every possible
 normalization has been classified.
+
+### Normal carrier replacement **across unequal defining degrees**
+
+This synthesis has a direct consequence beyond
+the fixed-carrier Hodge/index spectrum:
+for a hypothetical proper pair of degrees
+\(a<b\), a general degree-\(b\) linear
+combination
+\[
+ K_b=G_b+F_aL_{b-a}
+\]
+is **integral normal**, without changing
+the CI ideal, whenever at least one
+original generator has generic normal
+order one. The proof checks the exact
+base locus \(C\), absence of a fixed
+surface, three-dimensional image of the
+degree-\((b-a)\) Veronese subsystem on
+\(D(F)\), Bertini smoothness away from
+\(C\), and generic regularity along
+\(C\). The argument is written in full
+in the [normal-carrier proof owner](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
+and remains marked **pending independent
+review**, not an accepted general
+nonexistence theorem.
+
+For **every hypothetical quintic pair**
+\((5,b)\) with \(b>5\), the order-one
+hypothesis is **automatic** by the
+unique quadric. Since \(4\mid b\), write
+\(b=4n\) with \(n\ge2\).
+On the *normal larger-degree carrier*
+the quintic equation is an actual
+degree-five mate, and the
+[exact normal minimal-mate theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#3-exact-exponent-and-minimal-mate-once-the-boundary-is-reached)
+forces
+\[
+ \boxed{\quad
+ \Delta=nC-H,\quad
+ \operatorname{ord}(\Delta)=5,\quad
+ \frac{R}{\gcd(R,n)}=5.\quad}       \tag{NQ1}
+\]
+This holds regardless of whether the
+**original quintic was normal or
+nonnormal**. In particular,
+\[
+ v_5(R)=v_5(n)+1,\qquad
+ v_p(R)\le v_p(n)\quad(p\ne5).
+\]
+Combining the exact index order with
+the accepted pointwise
+[slope bound (U1)](#50a-all-degree-normal-carrier-theorems-come-before-the-carrier-degree-table)
+gives **actual on-curve local-index
+requirements** on the new normal carrier:
+
+| Hypothetical \((5,b)\) | Possible index lcm \(R\) | Some local Cartier index on the normal degree-\(b\) carrier is at least |
+| --- | --- | ---: |
+| \((5,8)\) | \(10\) | \(10\) |
+| \((5,12)\) | \(15\) | \(15\) |
+| \((5,16)\) | \(10\) or \(20\) | \(10\) |
+| \((5,20)\) | \(25\) | \(25\) |
+
+This is **not** a new exclusion of
+all quintic pairs. It transforms
+arbitrary-degree quintic mate
+questions into exact **high-index
+normal-carrier** tests at the other
+degree and shows why normality of
+the *original* smaller surface is
+not logically essential to applying
+the normal Hodge framework somewhere
+in the pair. The construction is
+also useful for \((6,b)\) when
+one original equation has order
+one, but not for entirely-thick
+mixed pairs or an equal-degree
+pencil without the independent
+normal-pencil lemma.
 
 ### From the normalization lattice to the **actual** mate monoid
 
