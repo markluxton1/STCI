@@ -1670,6 +1670,19 @@ Thus all compatible transverse hyperplane jets through normal order
 \(d-3\) lift; the first failure occurs at normal order \(d-2\), and it has
 dimension one.
 
+Nothing in this cohomological statement depends on the special symmetric
+hyperplane.  If \(\ell\) is **any** linear form nonzero on \(C\), put
+\(H_e=V(\ell^e)\).  The same nonzerodivisor argument and the same Rao module
+give
+\[
+ H^0(\mathcal I_C(d))\to
+ H^0(\mathcal I_{C\cap H_e/H_e}(d))
+\]
+surjective for \(e\le d-2\), with one-dimensional cokernel at
+\(e=d-1\).  Thus the terminal order \(d-2\) is intrinsic to the embedded
+quartic; the choice \(L=x_3-x_0\) is used only to exhibit a particularly
+simple generator of the missing class.
+
 The missing class is explicit.  On \(C=[s^4:s^3t:st^3:t^4]\),
 \[
  r|_C=s^6t^2-s^2t^6
@@ -1737,3 +1750,30 @@ restricted **pairs** lift to proper ambient pairs: common factors,
 properness, and simultaneous residual support remain separate conditions.
 It only removes the individual one-plane restriction map as a source of
 higher-degree obstruction.
+
+
+### The moving-depth principle
+
+The terminal Rao defect should be compared with the independently proved
+[fixed-depth center-jet surjectivity](../torus/chow_matched_equation_layers.md#a-fixed-depth-center-jet-limitation).
+For the disjoint center line \(P\), that theorem gives
+\[
+ H^0(\mathcal I_C(d))\longrightarrow(S/P^N)_d
+ \quad\text{surjective whenever}\quad d\ge N+2.        \tag{HJ7}
+\]
+Thus every source obstruction depending only on a **fixed** transverse depth
+eventually disappears as the equation degree grows.  A nontrivial
+all-degree jet obstruction must allow its depth to grow with \(d\).
+
+The hyperplane calculation attains exactly the first possible moving scale:
+its first failure is at thickness
+\[
+ e=d-1,
+\]
+equivalently normal order \(d-2\).  In that sense (HJ4) is a sharp model for
+what an all-degree source obstruction must look like: a bounded first,
+second, or other fixed jet cannot suffice.  This does not assert that the
+single Rao residue itself obstructs an STCI; actual equations through \(C\)
+satisfy it by definition.  Its role is to locate the first global source
+information that survives uniformly in degree and to rule out fixed-depth
+jet counting as a scalable strategy.
