@@ -365,3 +365,23 @@ coefficient, rank, tangent or border-algebra conditions on the homogeneous
 resultant image \({\cal N}_Z\) and test the perfect-power target against
 those conditions. Merely rewriting the target as a norm gives no
 nonexistence theorem.
+
+
+**Constant-row support test.** The
+[five-row trace gate](arguments/torus/chow_arrangement_moments.md#a-five-row-trace-rank-gate-for-one-translate-versus-residual-translates)
+turns the preceding spectral description into a small source matrix.  On a
+proper Chow-matched pair, restrict the trace pairing of the finite symmetric
+plane section to
+\[
+ W_4=\langle x_0^4,x_0^3x_1,x_0^2x_1^2,x_0x_1^3,
+ x_1^4+x_0^3x_2\rangle .
+\]
+After trivialization by \(x_0^4\), the corresponding map
+\(W\to B^\vee\) has rank four for exactly one distinct translated quartic
+and rank five as soon as a second translate occurs.  Hence for a
+Chow-matched pair already containing \(C_0\),
+\(Q_1=0\) is equivalent to this five-row matrix having rank four.  The gate
+is computable from Macaulay/Bezout trace matrices and avoids factoring the
+full resultant.  It is not valid as a global-support criterion before the
+Chow-polytope reduction: an arbitrary residual curve could have the same
+fixed-plane support.
