@@ -1276,6 +1276,88 @@ and entirely-thick strata**,
 rather than solely by carrier
 degree or numerical correction.
 
+### A second uniform threshold: equal-degree pencils below ten
+
+The [full factor reduction](#52-factors-and-the-degree-bound)
+has a further consequence
+not limited to the \((6,6)\)
+case. In a hypothetical
+\((d,d)\) pair, any
+irreducible factor of
+**any pencil member**
+must itself be a carrier
+with an actual mate.
+Its degree is at least
+five; thus if \(d<10\),
+**every nonzero pencil
+member is integral**.
+When at least one
+generator has generic
+normal order one,
+a general member is
+also smooth off \(C\),
+generically smooth on
+\(C\), and therefore
+**normal** by Bertini
+and \(R_1+S_2\).
+The rigorous
+[all-\(5\le d<10\)
+argument](../../arguments/carriers/normal_carrier_divisor_geometry.md#equal-degree-pencils-below-degree-ten-the-sextic-proof-extends-to-octics)
+is now in the fixed
+normal-carrier proof owner.
+
+Bézout permits only
+\((6,6)\) and \((8,8)\)
+in that range. The
+first has the established
+graph-bound reduction,
+so every hypothetical
+pair has a normal
+sextic carrier and
+its order-three class.
+For a hypothetical
+**\((8,8)\)** with at
+least one generic
+order-one equation,
+the normal octic
+carrier has
+\[
+ \boxed{\quad R=16,\qquad
+      \operatorname{ord}(2C-H)=8.\quad}
+\]
+The second statement
+uses exact minimal
+mate degree and
+the already proved
+absence of any
+mate of degree at most
+four. This is a
+**necessary** index
+condition, not
+nonexistence. For
+\((8,8)\) with
+both orders at least
+two, neither this
+normal reduction nor
+the graph bound
+currently closes the
+case.
+
+Degree **ten** is
+the first equal
+degree where two
+integral factors
+of degree five can
+occur in a pencil
+member. It is
+therefore a natural
+**factorization
+threshold** for
+this exact proof,
+not a claim of a
+new degree-ten
+construction.
+
 ### A direct bridge from ADE exceptional corrections to normal-layer defects
 
 The established [normal-carrier symbolic budget](../../arguments/carriers/normal_carrier_symbolic_torsion.md#a-symbolic-triple-defect-certificate-for-unrestricted-normal-carriers)
