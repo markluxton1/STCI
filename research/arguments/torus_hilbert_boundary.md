@@ -1210,3 +1210,96 @@ The existing length formulas alone do not determine this map; one needs
 the actual endpoint algebra or the weight-graded minimal generators of
 the full ideal.  This identifies exactly which extra datum R-0070 would
 have to retain for contact to produce a new boundary exclusion.
+
+
+## Pure-quotient cohomology is a flat-boundary obstruction
+
+**New consequence of standard semicontinuity, pending independent review.**
+The endpoint-length formula of R-0070 records the Euler-characteristic
+difference between a full torus limit and its pure quotient.  There is a
+strictly stronger necessary condition: a zero-dimensional endpoint correction
+can alter \(\chi\) and \(h^0\), but it cannot alter \(H^1\).
+
+Let \(\mathcal X\to\operatorname{Spec}R\) be a flat projective family over a
+DVR whose generic fiber \(X_\eta\) is a degree-\((a,b)\) complete
+intersection.  Let \(L=\mathcal X_0\) be the special fiber.  Suppose \(Y\)
+is a pure quotient of \(L\) with finite kernel
+\[
+ 0\longrightarrow T\longrightarrow\mathcal O_L
+ \longrightarrow\mathcal O_Y\longrightarrow0,
+ \qquad \dim T=0.                                     \tag{HB-C1}
+\]
+Then for every \(d\),
+\[
+ H^1(L,\mathcal O_L(d))
+ \simeq H^1(Y,\mathcal O_Y(d)),                        \tag{HB-C2}
+\]
+because \(H^i(T(d))=0\) for \(i>0\).  On the other hand, the standard
+upper-semicontinuity theorem for cohomology in a proper flat family gives
+\[
+ h^1(L,\mathcal O_L(d))
+ \ge h^1(X_\eta,\mathcal O_{X_\eta}(d)).               \tag{HB-C3}
+\]
+Therefore every pure quotient of a flat CI boundary satisfies
+\[
+ \boxed{\quad
+ h^1(Y,\mathcal O_Y(d))
+ \ge h^1(X_{a,b},\mathcal O_{X_{a,b}}(d))
+ \quad\text{for all }d.
+ \quad}                                                \tag{HB-C4}
+\]
+Here the right side depends only on the CI type.  The same argument gives
+\[
+ h^0(L,\mathcal O_L(d))
+ =h^0(Y,\mathcal O_Y(d))+\operatorname{length}T,
+ \tag{HB-C5}
+\]
+while
+\[
+ P_L=P_Y+\operatorname{length}T.
+\]
+Thus endpoint length can repair the constant term of the Hilbert polynomial
+but cannot repair an \(H^1\)-deficit of the pure quotient.
+
+The only external input in (HB-C3) is the classical semicontinuity theorem;
+see Stacks Project, Lemma 36.32.1 (Tag 0BDN).  No special property of the
+quartic is used in (HB-C1)--(HB-C5).
+
+### Cartier controls are excluded as pure CI boundaries
+
+Apply (HB-C4) to the Cartier multiples \(nC\subset Q\).  From
+\[
+ 0\to\mathcal O_Q(dH-nC)\to\mathcal O_Q(dH)
+ \to\mathcal O_{nC}(d)\to0
+\]
+and \(C=(3,1)\) up to ruling exchange, one obtains
+\[
+ h^1(nC,\mathcal O_{nC}(d))
+ =
+ \begin{cases}
+  (3n-d-1)(n-d-1),&0\le d\le n-2,\\
+  0,&d\ge n-1.
+ \end{cases}                                           \tag{HB-C6}
+\]
+For \(4C\) and the matching \((4,4)\) polynomial,
+\[
+ h^1(4C,\mathcal O_{4C}(4))=0,
+ \qquad
+ h^1(X_{4,4},\mathcal O_{X_{4,4}}(4))=1.               \tag{HB-C7}
+\]
+Hence \(4C\) is not merely non-CI: it cannot be the pure quotient of **any**
+flat \((4,4)\) CI boundary, even after arbitrary finite endpoint correction.
+
+Likewise \(6C\) has the matching \((3,8)\) polynomial, but
+\[
+ h^1(6C,\mathcal O_{6C}(3))=28,
+ \qquad
+ h^1(X_{3,8},\mathcal O_{X_{3,8}}(3))=31.              \tag{HB-C8}
+\]
+So \(6C\) cannot be the pure quotient of a flat \((3,8)\) CI boundary.
+
+This is stronger than comparing Hilbert polynomials or endpoint lengths and
+corrects a tempting but false shortcut: the mere presence of a quadric
+equation in a special saturated ideal does **not** by itself contradict
+flatness, because \(H^1(I_L(d))\) can compensate.  The actual invariant is
+the fiber cohomology in (HB-C4).
