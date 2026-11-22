@@ -221,32 +221,45 @@ hypersurface is Cohen–Macaulay and regular in codimension one, hence normal.
 Two independent members in this open set give the same original thick
 intersection with both carriers normal.
 
-On either normal sextic \(S\), the mate cuts the Cartier divisor
+On either such normal sextic \(S\), the mate cuts the Cartier divisor
 \[
- \operatorname{div}_S(K)=9C_0,\qquad 9C_0\sim6H_S.
+ 9C_0\sim6H_S,\qquad C_0^2=\frac{16}{6}=\frac83.
 \]
-Every actual on-curve local Cartier index therefore divides nine. Its
-possibilities are \(1,3,9\), and at least one is nine: otherwise
-[R-0035](../../results/normal_carrier_bounded_index_exclusion.md) would exclude
-this normal integral carrier with its actual supported mate. That theorem requires no ADE hypothesis; its stated characteristic-zero scope is
-retained here.
-
-There is also a concrete torsion class to retain:
+This is exactly the **Hodge equality** in the
+[all-degree normal-carrier existence theorem](normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface),
+not merely a necessary numerical approximation.
+Let \(R\) be the lcm of the actual on-curve Cartier indices.
+The [exact local-index theorem](normal_carrier_symbolic_torsion.md#3-exact-index-formula-on-every-normal-c0-carrier)
+gives \(R\mid9\), \(6\mid16R\), and
 \[
+ t=\frac{R}{\gcd(R,3)},\qquad b_{\min}=2t.
+\]
+Thus \(3\mid R\). If \(R=3\), then \(t=1\) and an
+actual quadric mate exists, impossible by the unique-quadric
+class calculation. Therefore
+\[
+ \boxed{R=9,\qquad b_{\min}=6,\qquad
  \Delta=3[C_0]-2[H_S]\in\operatorname{Cl}(S)
- \quad\text{has exact order three.}
+ \text{ has exact order }3.}
 \]
-The mate gives \(3\Delta=0\). If \(\Delta=0\), the effective divisor
-\(3C_0\sim2H_S\) would supply a section of \(\mathcal O_S(2)\) with
-sole support \(C_0\). It lifts to an ambient quadric because
-\(H^1(\mathbf P^3,\mathcal O(2-6))=0\), contradicting the no-quadric-mate
-argument. This is a class in the Weil divisor class group, not an assertion
-that \(3C_0\) is Cartier.
+Since each \(r_P\mid9\), at least one singular point
+**on \(C_0\)** has actual local index nine. No
+ADE hypothesis or singularity classification is used.
+The nonzero class \(\Delta\) forces the **connected
+quasi-étale triple cover** studied below. This is the
+sextic specialization of the same index/torsion mechanism
+that forces a double cover for normal \((5,8)\) candidates.
 
-Independent reconstruction accepted this pencil and index reduction,
-including factor support, repeated factors, Bertini's exact use, Serre's
-normality criterion, the nonzero order-three class, and the bounded-index
-theorem's hypotheses. It leaves
+The equal-degree normal-pencil reduction is indispensable:
+the Hodge/index criterion applies to this chosen normal
+sextic member, not to every possible special member
+or to a generic-singular carrier in arbitrary degree.
+Independent reconstruction of the original pencil reduction accepted
+factor support, repeated factors, Bertini's exact use, Serre's
+normality criterion and the nonzero order-three class. The present
+replacement of the **index calculation** is a direct application
+of the independently reviewed all-degree normal-carrier theorem;
+no new sextic classification is inferred. It leaves
 an actual normal sextic with an index-nine point and one of the defect
 profiles above as the remaining characteristic-zero target. It does not
 classify the singularities or exclude that target. In particular, no
