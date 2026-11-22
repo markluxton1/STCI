@@ -278,3 +278,26 @@ Universal nonvanishing of \(Q_1\) is therefore essentially the terminal
 STCI nonexistence statement. The intermediate source problem is to find
 lower-complexity equations on the resultant/norm image, or on its tangent
 and border-algebra strata, that the perfect-power target cannot satisfy.
+
+
+### Five-row radical test on the translated Chow fiber
+
+The [trace-rank refinement](../../arguments/torus/chow_arrangement_moments.md#a-five-row-trace-rank-gate-for-one-translate-versus-residual-translates)
+uses the characteristic-zero equality between the nilradical and the radical
+of the regular trace pairing.  For the finite section algebra \(B\), the
+full trace rank is four times the number of distinct translated components.
+More sharply, the five homogeneous degree-four sections
+\[
+ x_0^4,\ x_0^3x_1,\ x_0^2x_1^2,\ x_0x_1^3,\
+ x_1^4+x_0^3x_2
+\]
+already distinguish one translate from two or more: their restricted trace
+map to \(B^\vee\) has rank four versus five.  Thus the rank-four locus is
+given on each finite source chart by \(5\times5\) minors of a
+\(5\times ab\) trace matrix.
+
+This is the first concrete lower-complexity predecessor to the terminal
+\(Q_1\) condition produced by the transverse-norm synthesis.  On a
+Chow-matched pair containing \(C_0\), it is equivalent to sole support; the
+point is computational form, not a logically stronger criterion.  Before
+the translated-family reduction it is only a fixed-section test.
