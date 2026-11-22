@@ -195,46 +195,71 @@ exclusions, makes **every integral defining factor have degree at
 least five**. This base case must not be replaced by a theorem
 whose proof invokes it.
 
-**Step 1 — classify the type of actual carrier.** A hypothetical
-proper pair has a generically regular degree-five carrier by the
-quadric order bound. For a \((6,6)\) pair, the graph-residual
-bound rules out simultaneous order two; the
-[normal-pencil reduction](../../arguments/carriers/sextic_pair_reduction.md#a-normal-pencil-carrier-in-characteristic-zero)
-produces an **integral normal sextic member** in the same pencil.
-This is a decisive reduction for the equal-degree sextic pair,
-not a theorem about all individual sextic hypersurfaces.
-In mixed degrees, such a normal-pencil replacement is not
-available without further hypotheses.
+**Step 1 — identify carrier degree and normalize the
+quantifier.** For every actual pair with an integral
+degree-five carrier, quadric restriction forces generic
+regularity along \(C\), in **every mate degree**. Its
+normal/nonnormal distinction can then be evaluated through
+the actual singularities or normalization and conductor.
+For an arbitrary degree-six carrier, generic order may
+be one or two; the thick order-two case requires branch
+and transverse-normal analysis and is not covered by the
+normal-carrier criterion automatically. **Only in the
+equal-degree \((6,6)\) problem**, the graph residual bound
+and [general-pencil theorem](../../arguments/carriers/sextic_pair_reduction.md#a-normal-pencil-carrier-in-characteristic-zero)
+guarantee an integral **normal sextic member** among the
+pencil generators. This reduction says nothing about all
+individual sextics with mates of degree \(b\ne6\).
 
-**Step 2 — use the complete normal-carrier test.** If a chosen
+**Step 2 — use the complete normal-carrier test
+for every mate degree.** If the chosen degree-\(a\)
 carrier \(X\) is normal, the already proved
 [Hodge equality theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface)
-says that a mate exists *if and only if* \(C\) is
+says a mate exists *if and only if* \(C\) is
 \(\mathbf Q\)-Cartier and \(\Gamma_X(C)=0\).
 The [intrinsic index/defect formula](../../arguments/carriers/normal_carrier_divisor_geometry.md#2-the-intrinsic-local-divisor-is-a-necessary-and-sufficient-mate-test)
-evaluates the same gap from actual local symbols, indices and
-multiplication. No separate global-lifting gate remains **on this
-normal branch**. Under a mate, the exact Cartier indices force
-\(R=10\) for normal \((5,8)\) and \(R=9\) for normal
-\((6,6)\), hence respectively nontrivial order-two and
-order-three torsion and connected quasi-étale covers.
-These precise implications are derived in §5.7 below.
+evaluates this gap from actual local symbols, indices
+and multiplication, and the exact index theorem determines
+the **minimal mate degree on that fixed carrier**.
+For *any* normal quintic carrier with a mate,
+\(R=5t\), \(b_{\min}=4t\), \(t\ge2\).
+For *any* normal sextic carrier with a mate,
+\(R=3t\), \(b_{\min}=2t\), \(t\ge3\).
+These are **all-mate necessary conditions**;
+the familiar \(R=10\) in \((5,8)\) and \(R=9\)
+in \((6,6)\) are just minimal-degree specializations.
+The normal Hodge equality remains necessary-and-sufficient
+for existence on a *fixed* normal carrier; no extra
+ambient-lifting condition survives once it holds.
 
-**Step 3 — exclude realizations of the equality geometry.**
-The remaining ADE/marked-curve computations are **not
-independent existence criteria**. They determine whether a
-normal carrier with the mandated local index and Hodge equality
-can occur as an actual degree-\(a\) hypersurface:
+**Step 3 — use whole-carrier all-mate exclusions
+before degree-pair casework.** Normality is only
+one possible branch. A nonnormal quintic with Gorenstein
+normalization, a quintic with toric normalization,
+a two-lift fixed-cover sextic, and the eligible
+one-lift/split-cone/fixed-sextic classes are each
+excluded for **every mate degree** by their own
+actual inverse-support, conductor, intersection or
+boundary-valuation mechanism (table in §5.0).
+These results can retire a whole parameter family,
+not merely a \((5,8)\) or \((6,6)\) case.
+
+**Step 4 — among survivors, test realization of
+the required Hodge/index geometry.**
+On normal carriers the ADE/marked-curve computations
+are **not independent mate criteria**. They ask
+whether an actual degree-\(a\) hypersurface can
+realize the required local indices and equality:
 the [quintic ADE cover/primitive-triple proof](../../arguments/carriers/quintic_octic_ade_cover_and_triple.md)
-closes its entire globally ADE \((5,8)\) sector;
-the [sextic ADE rank/primitive-triple reduction](../../arguments/carriers/sextic_ade_reduction.md)
-closes several necessary rows but leaves the
-\(\mathcal O(-6)\) primitive-triple lane. An equality
-of correction budgets does **not** establish that a carrier
-realizes them. It is the *actual integral surface and
-embedded-curve compatibility* that the remaining proofs test.
+excludes its \((5,8)\) sector, while the
+[sextic ADE rank/primitive-triple reduction](../../arguments/carriers/sextic_ade_reduction.md)
+closes several \((6,6)\) rows but leaves
+\(\mathcal O(-6)\). The many special calculations
+now have an identifiable responsibility: rule out
+**realization of compatible global data**, rather
+than recompute basic mate existence.
 
-**Step 4 — handle nonnormal or generically singular carriers
+**Step 5 — handle remaining nonnormal or generically singular carriers
 by their own gates.** For a nonnormal carrier generically
 regular along \(C\), the normalization must have full inverse
 support and a positive Cartier multiple of its lift; the
