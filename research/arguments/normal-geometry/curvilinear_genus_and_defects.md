@@ -372,7 +372,12 @@ uses adjunction to compute the combined finite-quotient
 and thick-attachment contribution on the image quintic
 and conic in \(V_5\). Thus the previous sole-support
 image hypothesis is replaceable by the actual attachment
-correction on its full primary component. The scope
+correction on its full primary component. The local canonical ideal formula FT3 identifies the
+actual colon \((K:B)\) with the strict exceptional
+power times \(B\), rather than just bounding its
+length. This connects the curve-conductor and
+attachment duality frameworks under one actual
+finite-modification hypothesis. The scope
 and new applications await independent review.
 
 ### Finite birational modification of a curvilinear thickening

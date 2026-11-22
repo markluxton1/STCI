@@ -1454,17 +1454,90 @@ the singleton mate-compression conclusion must not
 be substituted for its actual multiplicity relation.
 No new realization on the interior is asserted.
 
-The proof of FT1--FT2 works for any transverse blowup
-of a smooth curve center meeting the reduced marked
-curve at a single transverse point, provided the
-actual strict CI is sole-support there and the image
-CI has only the marked component and the center as
-its reduced components. For multiple such transverse
-points the finite-quotient argument gives the aggregate
-degree identity with the proper sum of relative
-intersection degrees; a pointwise FT1 at each mark
-would need a local comparison of the canonical maps
-rather than just Euler characteristics.
+### Local canonical-ideal version and several marked points
+
+There is a local proof of FT1 which gives more than the
+Euler characteristic argument. In any such transverse
+blowup chart write the center as \((x,y)\), the marked
+curve as \((t,y)\), and \(y=xv_0\). On the graph the
+strict equations are \(P'=x^{-u}P,\ S'=x^{-v}S\),
+where the exponent \(v\) is distinct from the chart
+coordinate \(v_0\). Assume the same actual full-primary
+finite map near the point and set
+\(A=\widehat{\mathcal O}_{Z,z}\), \(B=(f_*\mathcal O_W)_z^\wedge\),
+\(K=I_{Z\cap R/Z,z}^\wedge\), \(e=u+v-1\).
+These are finite free lattices over \(k[[x]]\), except for the
+finite quotients; in particular \(x\) is regular on both
+primary curve algebras. The actual canonical generator
+\(\eta_Y\) of the ambient CI \(Y\) is the determinant
+adjunction frame given by \(dx\wedge dt\wedge dy\) and
+the ordered regular equations \(P,S\).
+Over \(x\ne0\), the analogous graph frame satisfies
+\[
+ \eta_Y=x^{1-u-v}\eta_W .
+\]
+This identity is the determinant of the ambient coordinate
+change \(y=xv_0\) and of the two equation scalings, not
+a trace determinant of a nonreduced field algebra.
+It uses the canonical Koszul adjunction isomorphism on the
+open where the blowup is an isomorphism.
+By finite duality, first for \(Z\subset Y\) and then
+for \(W\to Z\), the canonical modules are identified
+in the common generic algebra, with the frame \(\eta_Y\),
+as
+\[
+ \omega_Z=K\eta_Y,\qquad
+ f_*\omega_W=\operatorname{Hom}_A(B,K)\eta_Y .
+\]
+Evaluation at 1 identifies the latter Hom with
+\(\{a\in K:aB\subset K\}\) because the generic
+algebras agree and the lattices are pure.
+The adjunction frame computation identifies its
+image with \(x^e B\). Thus, up to the harmless
+unit of the chosen coordinate and regular-sequence
+frames, one has the **actual canonical ideal identity**
+and the chain of full lattices
+\[
+ \boxed{(K:B)=x^eB\subset K\subset A\subset B.}           \tag{FT3}
+\]
+These identifications follow from finite duality and
+regular-immersion adjunction (e.g. [Stacks, Duality for
+schemes §19](https://stacks.math.columbia.edu/tag/0AU3));
+they do not assume the image primary Gorenstein.
+In particular, if \(K=A\), FT3 identifies the actual
+conductor ideal of the finite algebras, not merely a
+length.
+
+To compute lengths take the DVR dual of
+\(0\to A\to B\to B/A\to0\).
+The canonical module \(K\) is the DVR dual of \(A\)
+after local trivialization; the dual of \(B\)
+is \((K:B)\). The cokernel has length \(\delta\)
+by \(\operatorname{Ext}^1_{k[[x]]}(B/A,k[[x]])\),
+and \(A/K\) has length \(h\).
+Since \(B\) is free of rank \(c\), the chain FT3
+gives \(ce=\delta+h+\delta\).
+This proves FT1 *pointwise* without a global genus
+calculation. In the generically curvilinear case
+FT2 follows pointwise exactly as above.
+For several transverse intersections of the
+marked curve with a smooth center, the same
+proof works separately in the actual charts
+provided each has this finite primary map and
+the strict intersection has no residual curve
+there. If the normal algebra changes generically,
+or the image of the proper strict intersection
+is not the full pure primary component, these
+comparisons have not been established.
+
+The global Euler characteristic derivation above
+is retained as a short independent consistency
+check. The local ideal description additionally
+gives an exact target for the conductor approach:
+one must identify the actual canonical ideal
+\(K\), not substitute the reduced conductor or
+a numerical surface class. This strengthening
+awaits independent review.
 
 
 ### The marked line excludes primitivity at the mixed sextic boundary
@@ -2269,9 +2342,15 @@ row it has multiplicity one,
 and a general normal strict octic
 replacement has marked index four
 there: its scalar symbol has
-order one and the local
-power--socle formula with top
-defect one forces \(r=4,D_r=0\).
+order one, so it has an end-marked
+A-type singularity by the
+[reduced-symbol local calculation](../carriers/normal_carrier_divisor_geometry.md#reduced-common-first-normal-divisor-a-uniform-marked-ade-and-rank-test).
+For its primitive local index
+\(r\) one therefore has \(D_r=0\).
+The local power--socle formula
+with top defect one and \(A=1\)
+now forces \(8/r-1=1\), hence
+\(r=4\).
 Outside that row the full
 multiplicities of the common
 symbol divisor remain to be

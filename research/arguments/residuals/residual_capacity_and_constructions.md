@@ -597,6 +597,35 @@ For \(s>1\), substituting that length into \(A\le3\delta\) would be
 false. This family therefore gives an actual fixed-quartic control for
 both sharpness and the necessary marked/full distinction.
 
+### A direct capacity bound from saturated duality defects
+
+For a generically curvilinear full primary \(T\), LA1 also
+gives the following estimate from its individual saturated
+multiplication divisors, without computing the entire residual:
+\[
+ A=\deg H_0\ \ge
+ \sum_{P\in C}\ \max_{0\le i<m}
+ (D_{m-1,P}-D_{i,P}-D_{m-1-i,P}).
+\]
+Every term inside the maximum is nonnegative by
+multiplicativity. The capacity estimate (1) (or (2)
+when the quadric is available) therefore gives an
+actual lower bound on residual degree from any
+certified failure of complementary-layer duality.
+For a primary triple the right side is exactly
+\(\deg D_2\). This needs the **full actual primary**
+filtration, not the displayed initial equations or an
+arbitrary formal thickening. For an actual Gorenstein
+primary it is zero and gives no exclusion; the
+adjunction class LA4 and the separate equation-module
+constraint may then still supply attachment.
+The total residue-degree bound retains the original
+congruence \(\deg R\equiv ab\bmod4\).
+This is a sufficient route from a particular intrinsic
+duality defect to positive residual degree, not a proof
+that every characteristic-zero primary has such a defect.
+Independent review of LA1 is pending.
+
 ## 4. How to use the bound without making it circular
 
 The inequalities are useful when geometry supplies an independent lower

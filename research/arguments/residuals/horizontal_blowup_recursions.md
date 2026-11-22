@@ -351,7 +351,13 @@ is obtained from the strict one by adding
 \(((c-1)\xi-(u+v-1))[z]\).
 This is useful on the genuine interior of the marked
 \(V_5\) equality boundary and on other actual transverse
-blowup diagrams. It requires the actual residual center
+blowup diagrams. The local canonical-ideal proof FT3 further identifies
+\((K:B)=x^{u+v-1}B\), where \(K\) is the actual
+attachment ideal inside the image primary and \(B\)
+the strict primary algebra. It computes the length
+identity pointwise at each transverse marked point,
+and identifies the actual conductor when \(K\) is
+the full image algebra. It requires the actual residual center
 and finite primary map, and does not address arbitrary
 vertical components or generic multiplicity changes.
 
