@@ -17,6 +17,161 @@ quintics on \(V_5\) give an equivalent equation problem with an explicit
 test for the contracted trisecant. [Connected directions](results/connected_normal_directions.md#statement) ·
 [Actual equation correspondence](arguments/residuals/blowup_residual_geometry.md#actual-equations-on-the-zero-direction-edge).
 
+### What the degree-four-to-six synthesis actually changes
+
+The [degree-exclusion synthesis](frameworks/carrier-normalization/degree_exclusions.md)
+now has a **common logical
+order**, not an aggregation of
+special cases. First use
+the complete degree-four
+all-mate theorem and the
+[all-degree normal-carrier
+low-index exclusions](arguments/carriers/normal_carrier_symbolic_torsion.md#5-closing-the-entire-actual-index-at-most-four-class).
+Then distinguish **primitive,
+quasiprimitive (finite
+nonprimitive defect) and
+entirely thick** actual
+pairs. [Ellia's 2015
+primitive classification](literature/README.md#ellia)
+already excludes primitive
+\((5,b)\) for every \(b\),
+and primitive \((6,6)\);
+a hypothetical such pair
+has a **common singular
+point on \(C\)**.
+The unrestricted
+common-singular claim
+remains open.
+
+The new [mixed-degree
+normal replacement](arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
+holds when \(a<b\) and
+at least one generator
+has generic normal order
+one. Every hypothetical
+\((5,b)\), \(b>5\),
+has a normal **larger**
+carrier despite possible
+nonnormality of its quintic.
+When the **smaller**
+generator has order one,
+its first-normal coefficients
+give an exact
+[moving \(A_{m-1}\)
+description](arguments/carriers/normal_carrier_divisor_geometry.md#the-global-moving-root-theorem-the-larger-normal-carrier-has-index-m):
+the normal replacement
+has \(R=m=ab/4\)
+and minimal mate degree
+\(a\). These large
+indices arise **naturally**
+from moving singularities,
+so they are **not a new
+exclusion by themselves**.
+The accepted pointwise
+socle identity localizes
+the actual top
+multiplication defect
+to the **fixed common
+first-normal gcd divisor**.
+For every hypothetical
+\((6,6)\) pair, the
+[existing stronger
+theorem](arguments/carriers/sextic_pair_reduction.md#the-common-first-normal-divisor-must-be-nonreduced)
+forces this gcd divisor
+to be **nonreduced**,
+not just nonempty.
+
+The mechanisms have
+precise boundaries:
+the [graph bound](arguments/residuals/blowup_residual_geometry.md#5-integer-strengthening-usefulness-region-and-exact-limitations)
+excludes two normal
+order-two generators
+in \((6,6)\), but first
+becomes vacuous for
+the mixed \((6,8)\)
+order-two/order-two
+lane. Equal-degree
+pencils of degree
+\(5\le d<10\)
+have integral members
+by the all-degree
+factor bound; if
+an order-one generator
+exists, a general
+member is normal.
+The next equal
+case \((8,8)\)
+therefore forces
+\(R=16\) on a
+normal octic in its
+order-one sector.
+At degree ten,
+a pencil member
+can first factor
+into two degree-five
+carriers, so that
+irreducibility argument
+no longer follows
+from the degree bound.
+
+**The mathematical
+implication:** for
+quasiprimitive pairs,
+the hardest constraint
+is not an arbitrary
+high local Cartier
+index. It is the
+**global realizability
+of the finite fixed
+nonprimitive defect**
+together with actual
+homogeneous forms,
+their normal symbols
+and the full saturated
+CI filtration.
+For entirely-thick
+pairs, even the normal
+replacement may fail
+and the Rees/blowup
+residual and
+full-ideal frameworks
+remain essential.
+On a **fixed normal**
+carrier Hodge equality
+is already sufficient
+for a mate, so an
+additional abstract
+global lifting gate
+must not be invented.
+These conclusions
+identify the interface
+where special degree-five
+and degree-six theorems
+should be retained
+or combined; they
+do **not** supply
+an unrestricted STCI
+exclusion.
+
+A second
+[cross-framework consequence](arguments/torus/fixed_surface_restriction_lifts.md#reverse-application-single-curve-exclusions-constrain-multi-curve-chow-cycles)
+goes *from* all-mate
+single-curve exclusions
+*to* Chow realization:
+on an integral quartic
+carrier, actual supported
+mate multiplicity vectors
+for two translates have
+rank at most one; on
+a prime cyclic orbit
+they must all be equal.
+This is a constraint
+on the **actual
+equation-to-cycle map**,
+not an existence
+claim about those
+carriers or arrangements.
+
 Use the [active front door](investigations/proof-audit/open-items.md) for the current research organization. The KG queue owns strategic ranking; this map and its linked frameworks own the mathematical approaches. The cross-framework audit is a comparison aid, not another queue.
 
 Choose an approach by the object it studies and the map it would need to
