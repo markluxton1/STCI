@@ -58,6 +58,40 @@ The [dual-line criterion](../../arguments/torus/arrangement_endpoint_delta.md#th
 
 This is a particularly promising template for arbitrary degrees: find the allowed projective linear series on the **two global endpoint sections** of the normalized graph, then ask whether they arise from the *same two homogeneous equations*. The point is to uncover a common global realization law, not to extrapolate a low-degree line criterion formally.
 
+## Symmetric marked realization, forgetful maps, and compactification
+
+The [marked arrangement and forgetful geometry](../../arguments/torus/marked_arrangement_forgetful_geometry.md)
+develops the configuration-first, Kapranov-inspired direction. No translated
+component is normalized to \(C_0\); all labels remain symmetric. In the full
+reduced \((4,4)\) locus the unique weight-four carrier is \(v=A+Bu\),
+\(A\ne0\). With \(q=u/v\), the root constraints are exactly
+\[
+ e_1(q)=0,\qquad e_2(q)-B e_3(q)+B^2e_4(q)=0,
+\]
+including \(B=0\). On \(B\ne0\) the three intrinsic boundary marks give a
+seven-pointed rational carrier with normalized root coordinates \(x_i=1-Bq_i\),
+satisfying \(\sum x_i=4,\ \prod x_i=1\).
+
+The four forgetful maps to extendible triples are isomorphisms onto their
+open images: the missing \(q\)-mark is minus the sum of the retained three.
+More strongly, any two different triple-image conditions already determine
+the entire reduced quartic realization locus on the distinct-configuration
+open. Pair-image conditions are generically insufficient. This is an
+explicit pullback characterization, not just recovery of a configuration
+from its markings.
+
+The closure of the abstract three-boundary-mark chart in
+\(\overline M_{0,7}\) inherits a stable marked universal curve, and the
+product of its four forgetful maps is a closed embedding by the established
+anchored cross-ratio theorem. Whether the compactified locus equals the
+intersection of the inverse images of the compactified triple loci is
+a separate open boundary question. The full framed torus configuration,
+including the \(B=0\) carrier chart, needs additional compactification data.
+Hilbert-of-points tautological evaluation maps, nested Hilbert schemes,
+Fulton–MacPherson ordered configurations, and relative Hilbert schemes
+of moving quotient carrier curves provide the candidate ambient
+constructions, not an already-proven universal flat CI compactification.
+
 ## Constructed families of arrangement blow-ups
 
 The actual family proposed in this discussion is now constructed and analyzed in
