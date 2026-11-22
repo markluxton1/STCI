@@ -689,6 +689,94 @@ mixed pairs or an equal-degree
 pencil without the independent
 normal-pencil lemma.
 
+### Going back down: when a forced high index is **not** a new obstruction
+
+The mixed-degree normal replacement is
+a **real theorem-level reduction**,
+but one must test whether its
+resulting index restrictions
+actually rule out anything.
+The [local moving-singularity
+calculation](../../arguments/carriers/normal_carrier_divisor_geometry.md#a-local-countermodel-high-index-can-be-a-moving-pencil-singularity)
+supplies an important control:
+on the affine threefold with
+\(C=(u,v)\),
+\[
+ F=u,\quad G=tu+v^m,\quad
+ K_\lambda=G-\lambda F
+             =(t-\lambda)u+v^m,
+\]
+the same sole-supported CI
+\((F,G)=(u,v^m)\) has a family
+of **normal \(A_{m-1}\)
+replacement carriers**,
+each with a moving on-curve
+Cartier index \(m\) point,
+although \(F\) is smooth
+along all of \(C\).
+
+More generally, wherever the
+smaller surface \(F=0\) is
+smooth and \(G|_F=mC\),
+write \(G=u h+v^m w\) with
+\(w\) a unit. A *simple*
+zero of the scalar first-normal
+coefficient \(h+L\) on \(C\)
+makes \(G+LF\) analytically
+\(xy+z^m\) with the marked
+curve of exact index \(m\).
+Thus the required high-index
+singularities of a **normal
+larger generator** can arise
+automatically at moving
+normal-coefficient zeros.
+The general proof and
+precise hypotheses are in
+the linked normal-carrier file.
+
+In a hypothetical \((5,4n)\)
+pair the generic transverse
+length is \(m=5n\), and an
+\(A_{5n-1}\) point has exactly
+the index \(5n\) permitted
+(and sometimes forced) by the
+order-five class \(\Delta=nC-H\).
+So the new index table is
+**not yet an exclusion**.
+In particular it must not be
+used to infer a *common*
+singular point of the original
+pair on \(C\): the moving
+\(A\)-model explicitly shows
+why such an inference fails
+even locally.
+
+**What it changes at the
+research level.** The task
+is to constrain the **global
+family of moving high-index
+marked singularities** using
+the actual homogeneous
+first-symbol ratio and
+higher coefficient maps,
+rather than count their
+possible local indices.
+This is where the fixed
+normal-carrier theorem,
+conormal filtration,
+global equation source maps
+and singularity geometry
+must meet. An ADE root-rank
+capacity alone is too large
+at high degree; an index
+threshold alone is often
+naturally satisfied. The
+missing implication is not
+new local singularity
+classification but a **global
+incompatibility among their
+realization conditions**.
+
 ### From the normalization lattice to the **actual** mate monoid
 
 The multi-branch criterion (MB1)--(MB2) becomes
