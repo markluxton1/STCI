@@ -408,6 +408,67 @@ with the required integral divisor relation exists. The final
 global-cover obstruction cannot be replaced by additional decimal
 precision in the correction budget.
 
+### The quintic double cover and sextic triple cover are one mechanism
+
+The exact local-index formulas (S5) reveal the strongest
+cross-degree connection. A hypothetical normal \((5,8)\) pair
+forces a **nontrivial two-torsion** Weil class
+\[
+ \Delta_5=5[C]-4[H],\qquad 2\Delta_5=0,
+\]
+while an actual normal \((6,6)\) pair forces a
+**nontrivial three-torsion** Weil class
+\[
+ \Delta_6=3[C]-2[H],\qquad 3\Delta_6=0.
+\]
+The "nontrivial" assertions use the exclusion of small-degree
+mates, not just numerical equivalence.
+Both yield connected, quasi-étale cyclic covers of the normal
+carrier, with their nontrivial behavior concentrated at
+the singularities meeting \(C\). This is an instance of the
+[all-degree normal-carrier torsion construction](../../arguments/carriers/normal_carrier_symbolic_torsion.md#2-a-self-contained-rational-ample-local-detection-theorem),
+not two unrelated ad hoc covers.
+
+The [quintic ADE proof](../../arguments/carriers/quintic_octic_ade_cover_and_triple.md#3-the-forced-double-cover-and-its-canonical-map)
+uses the **double cover** together with local ADE data,
+its canonical map, and a global canonical inequality to exclude
+the \((5,8)\) normal ADE sector. The
+[sextic all-pair reduction](../../arguments/carriers/sextic_pair_reduction.md#exact-global-invariants-of-the-order-three-cover)
+already builds the **triple cover** even without an ADE assumption,
+and computes its Euler characteristic from the saturated divisor
+layers. For the surviving ADE sextic lane
+\(\ell=6,D_2=0\), this yields
+\[
+ K_Y^2=72,\qquad \chi(\mathcal O_Y)=15,
+\]
+without an incompatible irregularity or canonical-map bound.
+The cover method is therefore **not absent in degree six**;
+the numerical contradiction available in degree five does
+not presently survive.
+
+Indeed for a normal degree-\(a\) hypersurface with an order-\(t\)
+quasi-étale cyclic cover \(Y\), the canonical pullback identity
+gives the general numerical relation
+\[
+ \boxed{\quad K_Y^2=t\,a\,(a-4)^2.\quad} \tag{S9}
+\]
+Thus the quintic \(t=2\) case has \(K_Y^2=10\), while the
+sextic \(t=3\) case has \(K_Y^2=72\).
+Canonical-surface inequalities can be much less restrictive in
+the latter regime. Before importing the quintic contradiction into
+another degree, one must calculate the actual cover's
+\(\chi,p_g,q\), singularities and canonical map; the bare
+existence of torsion, or an even/three-divisible exceptional
+configuration, is not enough.
+
+This comparison identifies a **specific obstruction gap**:
+the cyclic cover and local-index structure are already present
+in both degrees, but the higher canonical volume leaves room
+for the sextic numerical invariants. New arithmetic or global
+equation restrictions would have to remove that room; repeating
+the same cover construction without an additional inequality
+would not advance the question.
+
 ### The synthesis should change what each narrow case is asked to prove
 
 There are **three distinct levels** of compatibility:
