@@ -1,7 +1,7 @@
 # Chow quotient, arrangement blow-ups, and the \(V_5\) bridge
 
 **Type:** investigation / cross-framework mathematical synthesis.  
-**Status:** explicit quotient fan and endpoint-Hilbert calculation completed; complementary contraction and general two-equation realization not constructed.  
+**Status:** explicit quotient fan, normalized toric graph fan with two endpoint sections, and endpoint-Hilbert calculation completed; complementary (V_5) contraction across the boundary and general two-equation realization not constructed.  
 **Scope:** fixed smooth rational quartic \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\); prioritize geometry and actual equations, not new infrastructure. No STCI claim in characteristic zero.
 
 ## Motivation and the three genuinely different parameter spaces
@@ -32,7 +32,7 @@ Its four fixed cycles are
  4L_{03},\quad L_{01}+3L_{13},\quad
  3L_{02}+L_{23},\quad L_{01}+2L_{12}+L_{23}.
 \]
-The fan itself is toric and needs no speculative construction. The boundary **scheme ideals** of the universal family, and in particular possible embedded structures, are *not* fixed by these four cycle identities.
+The fan itself is toric and needs no speculative construction. The [normalized graph fan](../../arguments/torus/chow_quotient_fan_and_blowup_comparison.md#5-the-normalized-graph-fan-and-its-two-global-endpoint-sections) has **eight rays and twelve maximal cones**, with two disjoint toric divisors mapping isomorphically to the quotient surface and contracting to (p_0,p_\infty). These global endpoint sections carry the least/highest weight-coefficient restrictions of any homogeneous equation. The boundary **scheme ideals** of the universal family, and in particular possible embedded structures, are *not* fixed by these four cycle identities.
 
 Over the open quotient torus, each \(C_{u,v}\) is the image of
 \([s:t]\mapsto[s^4:s^3t:u st^3:v t^4]\). There is a section at \(r=1\) on the dense ambient torus. This section and the graph family over \(T\) are standard; extension across the toric boundary requires checking the chosen graph/refinement. In characteristic zero Chen–Satriano gives a stable-log-map interpretation of the normalized rank-one Chow quotient [arXiv:1201.3406](https://arxiv.org/abs/1201.3406).
@@ -121,9 +121,9 @@ is an irreducible weight-four quartic (linear in \(x_3\), with coprime leading a
 
 ## Precise next tests (not claimed complete)
 
-**A. Boundary universal family.** Starting from the four-cone fan above, determine the normalized toric graph fan \(W\) and the Chow fiber ideals over each ray and fixed point. Compare the graph with a *flat* Hilbert or log-map refinement rather than equating their moduli meanings. A boundary cycle does not determine a boundary embedded scheme.
+**A. Boundary universal family.** The normalized toric graph fan \(W\) is now explicit (eight rays, twelve cones), including the two endpoint sections. Determine its **scheme-theoretic Chow fiber ideals** over each ray and fixed point, flatness, and any needed smooth toric refinement. Compare the graph with a *flat* Hilbert or log-map refinement rather than equating their moduli meanings. A boundary cycle does not determine a boundary embedded scheme.
 
-**B. Common refinement and contractions.** Principalize \(I_C\) on \(W\), record endpoint exceptional and valuation divisors, and compute the transforms of \(3H-E\) and the contracted quadric \(2H-E\). Decide whether any meaningful \(V_5\) contraction persists after degeneration. The correct proof goal is a morphism/divisor calculation, not a verbal analogy with Sarkisov links.
+**B. Common refinement and contractions.** Principalize \(I_C\) on the now-explicit \(W\), record its interaction with the two global endpoint sections and the two exceptional divisors over coordinate lines, and compute the transforms of \(3H-E\) and the contracted quadric \(2H-E\). Decide whether any meaningful \(V_5\) contraction persists after degeneration. The correct proof goal is a morphism/divisor calculation, not a verbal analogy with Sarkisov links.
 
 **C. Configuration strata and equations.** Use the two exact endpoint rank matrices to stratify \(\operatorname{Sym}^mT\) by \(P_{A_Z}\), then restrict the weight-coefficient evaluation matrices of \(K_a(Z),K_b(Z)\). For candidate reduced CI types check (*) first, followed by coprimality and degree exhaustion. For repeated cycles or nonreduced supports, replace reduced-union criteria by the actual generic transverse local algebras and both endpoint images.
 
