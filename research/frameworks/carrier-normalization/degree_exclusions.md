@@ -123,35 +123,103 @@ inseparable trisecants in characteristic three, and the characteristic-zero
 global surface bound. The distinction is mathematical, not a blanket
 warning about reduction modulo primes.
 
-## 5.6 Common mechanisms and the missing higher-degree implication
+## 5.6 Reusable exclusion proof: the actual dependency order
 
-Normalization yields a divisor relation; conductor gluing tests actual
-descent; numerical pullback measures exceptional correction; the normal
-line measures actual ideal vanishing; a ribbon tests whether the required
-global normal map exists. These are linked operations on different
-objects. The [general ruled criterion and ribbon Hom threshold](../../arguments/carriers/quartic_carrier_proof.md)
-extract reusable parts of the quartic proof, while its endpoint cubic
-normal coefficient explains why some case distinctions remain necessary.
+The low-degree exclusions can be read as **one proof by compatible
+carrier geometry**, not three unrelated lists of singularity types.
+This is a proof *organization* using already proved results, not a
+new unrestricted exclusion theorem. In particular, the all-degree
+normal-index bounds **depend on the complete degree-four exclusion**.
+They cannot be used to prove that very exclusion.
 
-The unrestricted problem still needs a construction or obstruction for
-actual homogeneous higher-degree pairs. Formal/local/graded models,
-numerical class compatibility, and one fixed-carrier exclusion do not
-establish that missing implication. See the [frontier](../../MAP.md#questions-and-active-work) and
-the [scoped conclusions](#52-factors-and-the-degree-bound).
+**Step 0 — indispensable low-degree input.** The
+[quartic-carrier theorem](../../arguments/carriers/quartic_carrier_proof.md)
+is the base case: normal quartics require their specific
+exceptional/actual-ideal proof, and nonnormal quartics require
+their sectional-genus, full-conductor and attachment arguments.
+Its conclusion, along with the classical plane/quadric/cubic
+exclusions, makes **every integral defining factor have degree at
+least five**. This base case must not be replaced by a theorem
+whose proof invokes it.
+
+**Step 1 — classify the type of actual carrier.** A hypothetical
+proper pair has a generically regular degree-five carrier by the
+quadric order bound. For a \((6,6)\) pair, the graph-residual
+bound rules out simultaneous order two; the
+[normal-pencil reduction](../../arguments/carriers/sextic_pair_reduction.md#a-normal-pencil-carrier-in-characteristic-zero)
+produces an **integral normal sextic member** in the same pencil.
+This is a decisive reduction for the equal-degree sextic pair,
+not a theorem about all individual sextic hypersurfaces.
+In mixed degrees, such a normal-pencil replacement is not
+available without further hypotheses.
+
+**Step 2 — use the complete normal-carrier test.** If a chosen
+carrier \(X\) is normal, the already proved
+[Hodge equality theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface)
+says that a mate exists *if and only if* \(C\) is
+\(\mathbf Q\)-Cartier and \(\Gamma_X(C)=0\).
+The [intrinsic index/defect formula](../../arguments/carriers/normal_carrier_divisor_geometry.md#2-the-intrinsic-local-divisor-is-a-necessary-and-sufficient-mate-test)
+evaluates the same gap from actual local symbols, indices and
+multiplication. No separate global-lifting gate remains **on this
+normal branch**. Under a mate, the exact Cartier indices force
+\(R=10\) for normal \((5,8)\) and \(R=9\) for normal
+\((6,6)\), hence respectively nontrivial order-two and
+order-three torsion and connected quasi-étale covers.
+These precise implications are derived in §5.7 below.
+
+**Step 3 — exclude realizations of the equality geometry.**
+The remaining ADE/marked-curve computations are **not
+independent existence criteria**. They determine whether a
+normal carrier with the mandated local index and Hodge equality
+can occur as an actual degree-\(a\) hypersurface:
+the [quintic ADE cover/primitive-triple proof](../../arguments/carriers/quintic_octic_ade_cover_and_triple.md)
+closes its entire globally ADE \((5,8)\) sector;
+the [sextic ADE rank/primitive-triple reduction](../../arguments/carriers/sextic_ade_reduction.md)
+closes several necessary rows but leaves the
+\(\mathcal O(-6)\) primitive-triple lane. An equality
+of correction budgets does **not** establish that a carrier
+realizes them. It is the *actual integral surface and
+embedded-curve compatibility* that the remaining proofs test.
+
+**Step 4 — handle nonnormal or generically singular carriers
+by their own gates.** For a nonnormal carrier generically
+regular along \(C\), the normalization must have full inverse
+support and a positive Cartier multiple of its lift; the
+[conductor/differential theorem](../../arguments/carriers/carrier_conductor_differential_comparison.md)
+rules out smooth normalization **together with smooth conductor
+contact** for \(a\ge5\). Singular normalization, singular
+conductor gluing and actual power descent require the
+specialized proofs; for example the
+[quintic Gorenstein-normalization theorem](../../arguments/carriers/quintic_gorenstein_normalizations.md).
+For a carrier *generically singular along \(C\)*,
+the normal-ray test does not apply directly; retain the
+blowup/normal-order, saturated CI filtration and actual
+homogeneous-lift arguments.
+
+**What remains after combining these results.** No general
+normal-carrier theorem proves \(\Gamma_X(C)>0\) for every
+\(a\ge5\), and no unconditional conductor-descent exclusion
+covers arbitrary nonnormal carriers. The normal Hodge-gap
+criterion is a complete fixed-carrier test, not a classification
+of all carriers; the genus/exceptional/root casework remains
+necessary wherever it excludes a candidate with otherwise
+compatible budgets. The diagram is a *dependency ordering*,
+not a claim that the current degree-five or degree-six problem
+is solved.
 
 ### Open question: higher-degree surface singularity budgets
 
-In characteristic zero, can the actual transverse algebra and saturated
-normal filtration of a sole-support pair force a lower bound on a general
-carrier's exceptional configuration that contradicts a global surface
-bound, uniformly in the two degrees? The quartic-pair rank \(24-r\) and
-K3 contradiction supply no degree-independent conservation formula.
-Higher degrees require control of the canonical class, non-ADE
-singularities and contributions away from \(C\). The quintic–octic
-[surface constraints](../../arguments/carriers/quintic_octic_surface_constraints.md)
-already give a distinct ADE/even-node budget and show why exceptional
-rank alone can be insufficient. A common mechanism remains an open
-question, not an extrapolation of the quartic formula or a ranked task.
+Can one bound **actual realizability of the equality configuration**
+uniformly in carrier degree: simultaneously the normal Hodge-gap
+equality, local Cartier indices, first-normal defect divisors and
+global cyclic-cover geometry—or, in the nonnormal branch,
+the full conductor and actual descent? The classical
+root-rank budget grows cubically in degree while the
+required correction grows only linearly. This prevents
+simple extrapolation of quartic surface-rank counting.
+The [quintic even-node case](../../arguments/carriers/quintic_octic_surface_constraints.md#42-the-actual-divisor-relation-forces-an-even-set)
+shows why integral Picard compatibility can remain decisive
+after numerical equality has been reached.
 
 ## 5.7 The common adjunction gap: synthesis across degrees four, five, and six
 
