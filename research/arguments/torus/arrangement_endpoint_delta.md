@@ -117,6 +117,24 @@ In particular the root-of-unity example
 \(G=x_2^4-x_0x_3^3\)
 in characteristic prime to four has four distinct quotient points \((u,1)\) with \(u^4=1\), and both defects equal 18. In characteristic two the quotient is nonreduced, so the reduced-arrangement formula does **not** give the \((4,4)\) CI scheme's Hilbert polynomial.
 
+## Reduced-complete-intersection numerical gate in all bidegrees
+
+If the reduced union \(A_Z\) is itself a proper scheme-theoretic complete intersection of degrees \((a,b)\), then \(ab=4m\), and comparison of (2) with the standard complete-intersection polynomial
+\[
+ P_{\mathrm{CI}}(n)=ab\,n+\frac{ab(4-a-b)}2
+\]
+forces
+\[
+ \boxed{\delta_0(Z)+\delta_\infty(Z)=m\bigl(2(a+b)-7\bigr).}\tag{4}
+\]
+It is **necessary**, not sufficient: the two actual projective equations must still exist and intersect properly. For a merely set-theoretic complete intersection with thick generic fibers, (4) is not a valid constraint on the reduced union.
+
+As a second check, in characteristic different from three consider the known proper \((3,4)\) pair
+\[
+ G=x_1^3-cx_0^2x_2,\qquad A=x_2^4-x_0x_3^3,\quad c\in k^\times.
+\]
+It realizes the three translates \(C_{u,v}\) with \(u=c^{-1}\) and \(v^3=u^4\). At \(p_0\), all three \(u\)-coordinates agree, and the distinct \(v\)'s give rank jumps only at orders \(0,4,8\), so \(\delta_0=12\). At the opposite endpoint the parameters \((\alpha,\beta)=(v^2/u^3,v^3/u^4)\) have constant \(\beta=1\) and three distinct \(\alpha\)'s, so the jumps occur at \(0,3,6\), giving \(\delta_\infty=9\). The sum \(21=3(2(3+4)-7)\) agrees with (4), and the resulting polynomial \(12n-18\) is exactly the \((3,4)\) CI polynomial. This exhibits how the two endpoints can have different defects even for a completely realized eigenform pair.
+
 ## Implications for the proposed quotient/blow-up program
 
 - The numbers \(3,4\) in the endpoint evaluation weights are exactly the intrinsic endpoint exponents occurring in the [normal-frame comparison](../../frameworks/torus-supported-boundaries/torus_actions_and_endpoint_frames.md); the rank formula turns them into Hilbert-polynomial constraints.
