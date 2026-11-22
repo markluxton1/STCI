@@ -198,6 +198,8 @@ The assertion that two STCI defining surfaces share a singular point on C
 is unproved and cannot be used as an obstruction. The fixed integral
 quartic-carrier exclusion is [R-0001](../../results/quartic_carrier_exclusion.md).
 
+The [BF triple and actual-pair attachment TR1--TR4](../../arguments/residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors) specializes the saturated BF filtration to generically curvilinear multiplicity-three primaries and identifies its second defect \(D_2\) with actual conormal torsion, even at non-lci points. On a proper two-surface CI the three attachment layers reduce to \((D_2+\eta,\eta,D_2+\eta)\); no further independent layer data remains in this multiplicity. The source determinant \(\eta\) still requires the **actual** two defining equations. This avoids treating BF's classical local normal form as newly derived or treating the triple simplification as general higher-multiplicity duality.
+
 ## Filtrations and comparisons
 
 In characteristic zero, the generic transverse Hilbert function determines the **maximum**

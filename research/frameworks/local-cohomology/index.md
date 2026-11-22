@@ -69,6 +69,8 @@ this fixed two-target question.
 For an actual supported CI in the separated quadratic cover, the
 [conductor contains the relative socle](../../arguments/linkage/endpoint_lattice_capacity.md#fixed-local-cohomology-targets-and-what-they-cannot-see). Thus the two fixed socle targets become zero in the conductor quotient; it cannot supply the separating covector directly. A transport must keep the full multiplication image and the actual target values, for example through the degree-and-contact shift, rather than identify the targets with conductor classes. The first five added multiplier directions on the quartic shift still need to be evaluated.
 
+For a full primary triple with generic curvilinearity the [BF triple and actual-pair attachment TR1--TR4](../../arguments/residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors) shows its actual first attachment quotient has length divisor \(D_2+\eta\), where \(D_2\) is exactly the conormal-torsion divisor and \(\eta\) the determinant divisor of the two actual equations. LC-A1 identifies the dual of this module with the first local annihilator layer of the actual intersection local cohomology. This is a concrete reconciliation of intrinsic and actual-equation defects, subject to the Hartshorne--Polini first-coregularity condition when interpreting it as a second-element obstruction. It does not prove the first quotient is nonzero in all homogeneous degree pairs.
+
 ## Simultaneous coregularity versus geometric defects
 
 Put \(S=k[x_0,x_1,x_2,x_3]\), \(I=I_C\), and \(M=H_I^2(S)\).

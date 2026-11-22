@@ -324,6 +324,8 @@ Mathématique de France* 131 (2003), no. 4, 553--585.
   intersection.  This makes P-035 a classical equivalence; “arithmetically
   Gorenstein,” not merely locally Gorenstein, is essential.
 
+**Bănică--Forster's classical local triple.** In §3 of [*Multiplicity Structures on Space Curves*](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf), the local quasiprimitive triple has ideal \((t^d x-y^2,xy,x^2)\). This is existing theory. The [BF triple and actual-pair attachment TR1--TR4](../arguments/residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors) uses its Hilbert--Burch syzygies to identify the actual full-primary conormal-torsion divisor with \(D_2\), then combines this with the previously recorded liaison duality and attachment-module determinant to express the whole three-layer attachment filtration through two effective divisors. Do not attribute the local form to this project or extend the two-divisor identity to arbitrary multiplicity. Independent review of the cross-module linkage remains pending.
+
 ## Multiple structures, bundles, and liaison
 
 ### Eisenbud--Van de Ven

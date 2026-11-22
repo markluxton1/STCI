@@ -145,6 +145,8 @@ the filtration and local-cohomology
 comparisons, not another sole-support
 or arithmetic degeneration claim.
 
+The [BF triple and actual-pair attachment TR1--TR4](../../arguments/residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors) upgrades the \((4,6)\) triple calibration to a general statement: at multiplicity three the full-primary non-lci conormal torsion equals the saturated second normal defect, so every proper-pair full attachment layer is determined by that divisor and the actual equation determinant. The earlier semigroup calculation supplies one global family, not the underlying proof. At higher multiplicity the two-invariant collapse has not been proved; toric root collisions still cannot be treated using a universally monotone full-attachment invariant.
+
 ## Concentrating interior information at the endpoints
 
 The full intrinsic torus limit replaces the interior by a constant endpoint
