@@ -675,527 +675,119 @@ This is an index necessity, not nonexistence. Neither NR1 nor the graph bound ha
 
 ### A stronger all-\(b\) quintic consequence: forced high indices on the **other** surface
 
-Apply (NR1)--(NR2) to an arbitrary
-hypothetical proper \((5,b)\) sole-support
-pair. The degree-five equation is
-generically regular by restriction to
-the unique quadric, and Bézout forces
-\(b=4n\) with \(n\ge2\).
-For a **general actual replacement**
-of its degree-\(b\) equation,
+For every hypothetical \((5,b)\) pair, \(b=4n\), \(n\ge2\), after the quartic exclusion and Bézout. The quadric restriction gives the smaller generator generic order one, so NR1 gives a normal degree-\(b\) carrier even if the original quintic is nonnormal. On it the minimal mate degree is five by the all-mate quartic exclusion. The exact index theorem gives
 \[
- K_b=G_b+F_5 L_{b-5},
+ \Delta=nC_0-H,\quad \operatorname{ord}\Delta=5,\quad
+ R/\gcd(R,n)=5. \tag{NQ1}
 \]
-the degree-\(b\) surface is **normal**,
-even if the original quintic is
-nonnormal. On this normal surface
-the degree-five mate is minimal,
-and its primitive class has exact
-order five:
+If \(n=5^kn'\) with \(5\nmid n'\), this says
 \[
- \boxed{\quad
- \Delta=nC_0-H,\quad
- \operatorname{ord}(\Delta)=5,\quad
- \frac{R}{\gcd(R,n)}=5.\quad}             \tag{NQ1}
+ v_5(R)=k+1,\qquad v_p(R)\le v_p(n)\ (p\ne5). \tag{NQ2}
 \]
-Consequently if \(n=5^k n'\)
-with \(5\nmid n'\),
-\[
- \boxed{\quad v_5(R)=k+1,\qquad
-     v_p(R)\le v_p(n)\ (p\ne5).\quad}     \tag{NQ2}
-\]
-In particular **some actual local
-Cartier index along \(C_0\) on
-the replacement degree-\(b\)
-surface is divisible by
-\(5^{v_5(n)+1}\)**.
-
-Combining this exact torsion condition
-with the **all-degree pointwise
-index slope**
-\[
- s_{\max}\ge
- \left\lceil\frac{4b^2-6b}{7b-16}\right\rceil
-\]
-first yields these **arithmetic
-possibilities**. The stronger
-moving-singularity theorem (MV5),
-proved below from the **actual
-source linear system**, then forces
-\(R=m=5b/4\) for the **general
-normal replacement carrier**:
-
-| Original pair | Index lcm from torsion + slope alone | Actual lcm \(R=m\) after general replacement |
-| --- | --- | --- |
-| \((5,8)\) | \(10\) | **10** |
-| \((5,12)\) | \(15\) | **15** |
-| \((5,16)\) | \(10\) or \(20\) | **20** |
-| \((5,20)\) | \(25\) | **25** |
-
-For example, at degree eight the slope
-requires \(s_{\max}\ge6\).
-Equation (NQ1) allows only \(R=5\)
-or \(10\); \(R=5\) would make every
-local index at most five, and is
-impossible. Thus a hypothetical
-\((5,8)\) pair, *without assuming the
-original quintic normal*, forces
-an **actual index-ten point** on
-a normal octic replacement carrier.
-This is more precise
-than merely requiring a
-5-primary local class.
-However, the moving
-\(A_{m-1}\) singularity
-mechanism below shows
-that these high indices
-may be **automatic**, rather
-than an exclusion, on a
-normal general replacement.
+The slope bound in §4 further limits these arithmetic possibilities. The moving-root theorem below forces \(R=5n\) for the general replacement, recovering \(R=10,15,20,25\) at larger degrees \(8,12,16,20\). Merely knowing that some index is large is not a new obstruction.
 
 ### A local countermodel: high index can be a **moving pencil singularity**
 
-The exact-index conclusions (NR2)--(NQ2)
-must not be mistaken for a new geometric
-impossibility. Work on the **affine
-threefold** \(\operatorname{Spec}k[t,u,v]\)
-over an algebraically closed
-characteristic-zero field, and put
+On affine three-space take \(F=u,\ G=tu+v^m,\ C=V(u,v)\), \(m\ge2\). The ideal is exactly \((u,v^m)\); nevertheless \(G-\lambda F=(t-\lambda)u+v^m\) has a moving marked \(A_{m-1}\) singularity of Cartier index \(m\) at \(t=\lambda\). The first generator is smooth everywhere on \(C\). Thus high indices alone do not force a common singular point or a nonprimitive CI. This is a local control, not a projective construction.
+
+More generally, let an actual sole-support pair have \(F\) smooth at a point \(P\) of \(C\) and generic length \(m\). In completed parameters \(t,u,v\), with \(F=u,\ C=(u,v)\), the restricted divisor on the smooth surface is exactly \(mC\), hence
 \[
- F=u,\qquad
- G=tu+v^m,\qquad
- C=V(u,v),\quad m\ge2.
+ G=u\,h+v^m w,\qquad w\text{ a unit}.
 \]
-The actual complete intersection
-\((F,G)=(u,v^m)\) is curvilinear
-of length \(m\), with **sole
-reduced support \(C\)** on this
-affine threefold. Its completed
-local equations at any marked
-point have the same form. For a scalar
-\(\lambda\), make the permitted
-generator replacement
+If \((h+L)|_C\) has a simple zero at \(P\), set \(x=h+L,\ y=u\) and \(z=v w^{1/m}\). These are completed parameters and the actual replacement has marked equation
 \[
- K_\lambda=G-\lambda F
-         =(t-\lambda)u+v^m.
+ K=xy+z^m,\qquad C=(y,z),\qquad \operatorname{ind}_P C=m. \tag{MV1}
 \]
-At the marked point \(t=\lambda\)
-the surface \(K_\lambda=0\)
-has a Du Val \(A_{m-1}\)
-singularity \(xy+z^m=0\),
-and the marked curve
-\((u,v)\) represents the
-standard local Weil class
-of **exact Cartier index \(m\)**.
-This is an elementary instance
-of the accepted
-[local class-group calculation](normal_carrier_symbolic_torsion.md#3-exact-index-formula-on-every-normal-c0-carrier).
-The singular point **moves**
-with \(\lambda\); \(F=u\)
-is smooth at every marked point,
-so the two original surfaces
-do not have a common singular
-point on \(C\).
-
-**This is the general local form at a
-simple moving zero, not just a
-chosen artificial example.**
-Let an actual sole-supported
-proper pair have \(F=0\) **smooth
-along \(C\) near \(P\)** and
-generic intersection multiplicity
-\(m\). Because \(V(F,G)\)
-has sole reduced support \(C\),
-the Cartier divisor cut by
-\(G|_{V(F)}\) on the smooth
-surface is **exactly \(mC\)**
-near \(P\): a principal Cartier
-divisor on a regular surface
-has no separate punctual
-component. In completed regular parameters
-\(t,u,v\) with \(F=u,\ C=(u,v)\),
-one can write
-\[
- G=u\,h(t,u,v)+v^m w(t,u,v),
- \qquad w(0)\ne0.
-\]
-For any actual generator replacement
-\(K=G+LF\), suppose
-\((h+L)|_C\) has a **simple**
-zero at \(P\). Then
-\(x=h+L\) is a completed
-local parameter transverse to
-\((u,v)\), and taking an
-\(m\)-th root of the unit \(w\)
-gives the exact analytic equation
-\[
- \boxed{K=xy+z^m,\quad
- C=(y,z),\quad
- \operatorname{ind}_P C=m.}             \tag{MV1}
-\]
-This is the standard \(A_{m-1}\)
-marked surface germ. The
-hypotheses are essential:
-a multiple zero or failure
-of local Cartier purity may
-give different local structures.
-The derivation depends only
-on the *actual* source pair,
-not on a chosen ADE
-classification or a
-conjectural complete normal
-filtration.
-
-**Interpretation:** in the
-degree-\((5,4n)\) problem,
-\(m=5n\), so a simple moving
-zero can supply the **maximum
-possible local index \(5n\)**
-and fulfill the forced
-order-five torsion condition
-automatically. A proof that
-the larger normal carrier
-must have some index \(5n\)
-would therefore not, on its
-own, constrain the equation
-family. The required research
-bridge is the global
-restriction on the simultaneous
-locations and multiplicities
-of these moving marked \(A\)
-germs and the **actual**
-homogeneous generators.
-
-The model is *formal local*,
-not a global projective
-STCI construction. It proves
-the following interpretative
-limits on (NR1):
-
-- Passing to a normal larger-degree
-  carrier **can create** precisely
-  the large local Cartier index
-  required by its true global
-  mate relation; the index's
-  mere existence is therefore
-  not an additional obstruction.
-- The normal carrier's singular
-  point need **not** be singular
-  for both original generators.
-  Neither the normal-replacement
-  lemma nor its index consequences
-  prove the unestablished
-  common-singular-point conjecture.
-- A genuine global restriction
-  must control **how those moving
-  singularities fit the finite
-  dimensional homogeneous
-  equation system**, including
-  their global distribution,
-  total first-symbol divisor,
-  and exact normal-layer defects.
-
-In particular, for the normal
-replacement of a \((5,4n)\)
-candidate, the forced index
-\(5n\) (when attained in one
-moving \(A_{5n-1}\) point)
-is exactly the generic
-transverse intersection length
-\(m=5n\). This explains
-why the table above may be
-**necessary but not
-discriminating**: it identifies
-a geometric pattern to compare
-with the ambient equations,
-not a contradiction.
+This is the usual end-marked \(A_{m-1}\) germ, not a novel singularity type.
 
 ### The global moving-root theorem: the larger normal carrier has index \(m\)
 
-There is a stronger consequence of the
-local \(A_{m-1}\) calculation
-when it is applied to the
-**actual first-normal linear system
-on the whole curve**. This is
-an application of the established
-normal splitting and Bertini;
-the new comparison with Ellia's
-primitive theorem is noted below.
-**Independent review is required.**
+**Unified first-symbol system (independent review required).** Assume the fixed char-zero quartic, \(a\le b\), \(m=ab/4>1\), with at least one generic order-one generator. The generic first symbols span the same saturated line in the conormal bundle (otherwise the transverse length would be one). Denote the quotient line by \(\mathcal O(-\ell)\), its kernel by \(M=\mathcal O(\ell-14)\), and write the actual symbols using a coprime binary vector \((A,B)\) of degree \(7-\ell\):
+\[
+ \sigma_F=f(A,B),\quad \sigma_G=g(A,B),\qquad
+ \deg f=4a-14+\ell,\quad \deg g=4b-14+\ell. \tag{MV2}
+\]
+A zero symbol means the zero section of the indicated line bundle. Let
+\[
+ B_{\rm np}=\operatorname{div}\gcd(f,g),\quad \beta=\deg B_{\rm np}. \tag{MV3}
+\]
+The gcd is defined also if exactly one symbol is zero. Its support is precisely the nonprimitive locus of the actual CI: at a point, the ideal has a smooth local equation if and only if one of its generators has nonzero first normal there. Its multiplicities are the orders of the common first-symbol ideal, not the top-socle multiplicities.
 
-Let \(a<b\), with the **smaller
-generator \(F_a\) having generic
-normal order one**, and
-\(V(F,G)_{\mathrm{red}}=C_0\).
-Put \(m=ab/4\ge2\).
-Along \(C_0\) the two first-normal
-symbols are **generically
-proportional**, since
-the generic CI length exceeds one.
-In the balanced frame
-\(N_{C/\mathbf P^3}^\vee
-=\mathcal O(-7)^2\),
-write their unique common saturated
-direction as a binary vector
-\((A,B)\) with coprime entries,
-both of degree \(7-\ell\).
-The two actual symbols are
+The first-normal scalar system of \(K=\lambda G+LF\) is
+\(\langle g,f\cdot H^0(\mathcal O_{\mathbf P^3}(b-a))|_C\rangle\).
+Its fixed divisor is exactly \(B_{\rm np}\) because the ambient multiplication system is basepoint-free, including constants for \(a=b\). Removing the gcd leaves a basepoint-free linear system on the smooth curve. In characteristic zero a general divisor is reduced by Bertini on a curve; a general section also avoids every fixed point after division by the gcd. Thus the full divisor \(A_K\) for a general normal replacement is
 \[
- \sigma_F=f(A,B),\qquad
- \sigma_G=g(A,B),
+ A_K=B_{\rm np}+U,\qquad U\text{ reduced, disjoint from }B_{\rm np},
+ \quad \alpha=\deg U=4b-14+\ell-\beta. \tag{MV4}
 \]
-with binary forms
+The statement includes \(\alpha=0\), where \(U=0\). At every point of \(U\), \(F\) is smooth: if \(f(P)=0\) outside \(B_{\rm np}\), then \(g(P)\ne0\) and \(\lambda g(P)+f(P)L(P)\ne0\). Apply MV1 to obtain the marked \(A_{m-1}\) singularity with local index \(m\). Every index divides \(m\), because the actual mate cuts \(mC\). Hence
 \[
- \deg f=4a-14+\ell,\qquad
- \deg g=4b-14+\ell
-       =\deg f+4(b-a).
- \tag{MV2}
+ \alpha>0\quad\Longrightarrow\quad R(K,C)=m. \tag{MV5}
 \]
-The case \(\sigma_G=0\) uses
-\(g=0\) and \(\gcd(f,0)=f\);
-all following assertions remain valid.
+With \(g_0=\gcd(b,4),\ \mu=b/g_0,\ v=4/g_0\), we have \(m=\mu(a/v)\). By the exact index theorem,
+\[
+ \alpha>0\quad\Longrightarrow\quad
+ \operatorname{ord}(\mu C-vH)=a/v,\quad b_{\min}(K)=a. \tag{MV6}
+\]
 
-For a degree-\((b-a)\)
-ambient form \(L\),
-the first normal symbol
-of \(K=G+LF\) is
-\((g+f\,L|_C)(A,B)\).
-The **fixed first-symbol base divisor**
-\[
- B_{\mathrm{np}}=\operatorname{div}\bigl(\gcd(f,g)\bigr)
- \tag{MV3}
-\]
-is precisely the **common
-singular scheme on \(C\)**
-of the two original equations
-at the level of first-symbol
-vanishing; its underlying
-support is the **nonprimitive
-locus** of the actual CI.
-Since \(L|_C\) comes from
-the degree-\((b-a)\)
-ambient linear system,
-its variation is basepoint-free
-and separates tangent directions
-on the smooth embedded curve.
-Consequently for general \(L\)
-the remaining scalar zeros
-are **simple**, disjoint
-from \(B_{\mathrm{np}}\),
-and number exactly
-\[
- \boxed{\quad
- \alpha=4b-14+\ell-\deg B_{\mathrm{np}}
-          \ \ge\ 4(b-a)>0.\quad}      \tag{MV4}
-\]
-They lie where \(F\) is smooth.
-By the exact local form (MV1),
-each is a marked
-\(A_{m-1}^1\) point on
-the **normal** replacement
-carrier \(K=0\), with
-local Cartier index **exactly \(m\)**.
-The actual divisor
-\(F|_{K=0}=mC\)
-forces *every* local
-Cartier index to divide \(m\).
-Therefore
-\[
- \boxed{\quad
- R(K,C)=m=\frac{ab}{4}.
- \quad}                                       \tag{MV5}
-\]
-This does not require
-the original \(F\) to
-be normal, smooth everywhere,
-or its CI to be primitive;
-it requires generic
-normal order one for
-the **smaller** generator.
-The conclusion does **not**
-follow when only the larger
-\(G\) has order one.
+There are three distinct cases; the normality conclusion of NR1 covers all of them.
 
-Using the accepted exact
-normal-carrier theorem with
-\(g_0=\gcd(b,4)\),
-\(\mu=b/g_0,\ v=4/g_0\),
-the Bézout condition
-\(4\mid ab\) gives \(v\mid a\)
-and \(m=\mu(a/v)\). Hence
-\[
- \boxed{\quad
- t=\frac{R}{\gcd(R,\mu)}
-   =\frac{a}{v},\qquad
- b_{\min}(K)=vt=a. \quad}               \tag{MV6}
-\]
-Thus the smaller degree \(a\)
-is automatically the
-**minimal** mate degree
-on the normal general
-larger carrier, for
-*every \(a\)* with its
-generic normal order one,
-not only for \(5\le a\le9\).
-In particular, for every
-hypothetical \((5,4n)\)
-pair, \(R=5n\) **exactly**.
-The prior alternative
-\(R=10\) for a
-\((5,16)\) replacement
-cannot occur for a
-*general* normal
-replacement carrier:
-\(R=20\) is forced.
+* If \(a<b\) and \(f\ne0\), then \(\beta\le4a-14+\ell\), so \(\alpha\ge4(b-a)>0\). In particular, for every hypothetical \((5,4n)\) pair, \(R=5n\). This settles the ambiguity \(R=10\) or \(20\) from index and slope alone for \((5,16)\): the general replacement has \(R=20\).
+* If \(a=b\), then \(\alpha>0\) exactly when the two actual first symbols are linearly independent over \(k\): after the gcd, a basepoint-free system of positive degree cannot have dimension one. The zero-moving-degree branch has a unique pencil member with generic order at least two (the kernel of the rank-one scalar-symbol map); the remaining general members are still normal. MV5--MV6 need not hold by this moving-root argument when \(\alpha=0\).
+* If \(a<b\) and \(f=0\), the nonzero \(g\) is fixed up to scalar, so \(\alpha=0\); normal replacement still works but does not produce moving first-symbol zeros.
 
-**Why this is explanatory rather than an
-exclusion.** The large required
-index is supplied by the moving
-simple \(A_{m-1}\) points
-themselves; the normal-index
-minimum mate theorem is therefore
-**automatically saturated by
-ordinary generator movement**.
-What cannot be read off these
-moving singularities is whether
-the *fixed* nonprimitive locus
-\(B_{\mathrm{np}}\) can carry
-the additional normal-layer
-and global geometry required
-by a projective sole-support
-pair.
-
-For the same reason
-Ellia's [2015 Theorem 12](../../literature/README.md#ellia)
-already gives a stronger
-uniform \(A_n^k\) conclusion
-for a **primitive** CI; the
-present generic-order-one
-comparison only adds scope
-when the pair is
-**nonprimitive at finitely
-many points**.
+The primitive theorem of [Ellia](../../literature/README.md#ellia) gives stronger uniform marked singularity conclusions when the whole CI is primitive. The argument here accounts for the finite nonprimitive locus without assuming it empty. The large index supplied by moving roots is an automatic consequence of actual generator movement, not an independent impossibility.
 
 ### The exact defect budget is concentrated at common singularities
 
-Let \(D_{\mathrm{top}}\) denote
-the *actual saturated top
-multiplication defect* of
-the curvilinear CI:
+This conclusion does **not** need \(a<b\), a nonzero smaller symbol, or any moving roots. Let \(D_{\rm top}\) be the actual saturated top multiplication divisor of the curvilinear CI. The [CI duality and Frobenius identity](../normal-geometry/curvilinear_genus_and_defects.md#5-complete-intersection-duality-fixes-a-top-divisor) give
 \[
- \deg D_{\mathrm{top}}
-  =(m-1)\ell-4(a+b)+14.
- \tag{MV7}
+ \deg D_{\rm top}=(m-1)\ell-4(a+b)+14,\qquad
+ 2\sum_i B_i=mD_{\rm top}. \tag{MV7}
 \]
-This is the accepted
-Bănică--Forster/CI
-duality identity, not a
-new local model. For the
-general normal carrier
-\(K\), the pointwise
-[socle/index identity](normal_carrier_symbolic_torsion.md#1-carrier-data-and-an-intrinsic-normalized-budget)
-is
-\[
- D_{\mathrm{top},P}
- =\left(\frac m{r_P}-1\right)A_P
-  +\frac m{r_P}D_{r_P,P}.
-\]
-At every moving
-\(A_{m-1}^1\) point,
-\(r_P=m,\ A_P=1\) and
-\(D_{r_P,P}=0\), so its
-top defect is **zero**.
-Therefore
-\[
- \boxed{\quad
- \deg D_{\mathrm{top}}
- =\sum_{P\in B_{\mathrm{np}}}
-    \left[
-      \left(\frac m{r_P}-1\right)A_P
-       +\frac m{r_P}D_{r_P,P}
-    \right].\quad}                     \tag{MV8}
-\]
-For general \(L\), the
-first-normal orders at fixed
-points sum to
-\(\deg B_{\mathrm{np}}\).
-Equivalently the accepted
-normal self-intersection
-formula gives
-\[
- \boxed{\quad
- \sum_{P\in B_{\mathrm{np}}}
-       \frac{A_P+D_{r_P,P}}{r_P}
-   =\frac{\deg D_{\mathrm{top}}
-             +\deg B_{\mathrm{np}}}{m}.
- \quad}                                       \tag{MV9}
-\]
-This identifies precisely
-how the **global top defect**
-must be paid by the
-**finite common-singular
-locus** after the moving
-singularities have exhausted
-their primitive contribution.
-It does not imply that
-an arbitrary effective
-\(B_{\mathrm{np}}\) or
-defect divisor is realizable
-by two homogeneous forms.
+Here \(B_i\) are the ordinary-layer torsion divisors, not \(B_{\rm np}\). Wherever \(D_{\rm top}\) vanishes, the local monomial lattice proof shows that the finite free local algebra equals its monogenic subalgebra, hence the CI is primitive there. Conversely a smooth local containing surface gives a primitive multiple divisor with no multiplication defect. Thus the supports of \(D_{\rm top}\) and \(B_{\rm np}\) agree, independently of the carrier choice. Equality of the divisors themselves is not asserted.
 
-**Application of established
-primitive classification.**
-Ellia's Corollary 16
-excludes a primitive
-rational-quartic presentation
-of degree \((5,b)\) for
-**every \(b\)**, and excludes
-\((6,6)\).
-Therefore any hypothetical
-pair in those degrees has
-\(B_{\mathrm{np}}\ne0\):
-**the two original
-surfaces have a common
-singular point on \(C\)**.
-This is a **proved
-degree-specific consequence**
-of classical theory,
-not the unrestricted
-common-singular-point
-assertion, which remains
-unproved for all degrees.
-For degree five the
-smaller generator is
-automatically generically
-order one, so (MV8)--(MV9)
-locate its nonprimitive
-escape at finitely many
-points. The entirely-thick
-\((6,8)\) case has no
-generic order-one
-generator and is not
-covered by (MV2)--(MV9).
+For **any actual normal degree-\(b\) replacement**, the [local power--socle theorem](normal_index_socle_and_torsion.md#local-power-socle-theorem-and-bounded-index-exclusion) gives
+\[
+ D_{{\rm top},P}=(m/r_P-1) A_{K,P}
+                     +(m/r_P)D_{r_P,P}.
+\]
+Both summands are nonnegative integers. At any singular point outside the nonprimitive locus we already have \(D_{{\rm top},P}=0\), so \(A_{K,P}>0\) implies **\(r_P=m,\ D_{r_P,P}=0\)**, even if that particular member has a multiple symbol zero. The general member has only simple zeros outside \(B_{\rm np}\). For it \(A_{K,P}=\operatorname{mult}_P B_{\rm np}\) at fixed points, hence the exact pointwise accounting is
+\[
+ \deg D_{\rm top}=\sum_{P\in B_{\rm np}}
+ \left[(m/r_P-1)A_{K,P}+(m/r_P)D_{r_P,P}\right], \tag{MV8}
+\]
+\[
+ \sum_{P\in B_{\rm np}}\frac{A_{K,P}+D_{r_P,P}}{r_P}
+   =\frac{\deg D_{\rm top}+\beta}{m}. \tag{MV9}
+\]
+This is an identity between *actual* defects and Cartier indices of the same scheme, not an independent bound from moving singularities. It also explains why the cyclic cover and Hodge equality computations share so much of their numerical input.
 
-**Scope.** The table does not
-exclude the listed singularities.
-Normality of the larger member
-comes from Bertini on the
-specific equation system;
-the table says nothing about
-the normality or conductor of
-the original quintic. It converts
-the entire **all-mate quintic**
-problem into a family of precise
-higher-degree normal-index
-necessary conditions, without
-substituting the \((5,8)\)
-ADE quintic theorem for an
-arbitrary mate degree. All these
-consequences use the accepted
-all-degree index and slope
-theorems but the new mixed-degree
-Bertini bridge (NR1) remains
-pending independent review.
+Ellia's finite primitive-degree list excludes an everywhere-primitive rational-quartic CI outside his ten pairs; the complete quartic exclusion removes \((4,7)\) for \(C_0\). Consequently any hypothetical pair outside the remaining nine unordered degree pairs has a common singular point on \(C_0\), including entirely-thick pairs. For the generically curvilinear branch this is precisely \(\deg B_{\rm np}>0\). This does not prove the claim in the nine eligible primitive degree pairs, and the finite list is not a list of constructed CIs.
+
+### Reduced common first-normal divisor: a uniform marked ADE and rank test
+
+**Status: new generalization of the independently reviewed sextic reduced-gcd proof, pending independent review.** Assume the hypotheses of the unified first-symbol system and suppose \(B_{\rm np}\) is reduced (possibly empty). Then the generic normal replacement is smooth off \(C\), and *all* of its singularities on \(C\) are simple first-symbol zeros. At each such point the quadratic form has a nonzero paired curve/normal term and Hessian rank at least two; isolatedness gives an \(A_{r-1}\) singularity, and the marked smooth curve is end-marked by the first-symbol vanishing order one. This is exactly the local marked calculation already used in the [sextic reduced-gcd argument](sextic_pair_reduction.md#the-common-first-normal-divisor-must-be-nonreduced), using [Ellia, Definition 8 and Lemma 10](https://arxiv.org/abs/1409.3801). There is no sextic hypothesis in this local step.
+
+More explicitly, choose completed parameters so the normal surface is \(tu-w^r=0\) and \(C=(u,w)\). The divisor of \(u\) is \(rC\), so the actual mate cutting \(mC\) is a unit times \(u^{m/r}\) on this normal germ. This requires \(r\mid m\); at a fixed point where both original equations are singular \(1<r<m\) (the case \(r=m\) gives a primitive local CI), and at moving points \(r=m\). The completed local CI is
+\[
+ k[[t,u,w]]/(tu-w^r,u^{m/r}).
+\]
+Over \(k[[t]]\), the basis \(u^j w^i\), \(0\le j<m/r,\ 0\le i<r\), and the relation \(w^r=tu\) identify the saturated normal layers. Their multiplication divisors have coefficient \(\lfloor i/r\rfloor\) in order \(i\), \(0\le i<m\); in particular the top coefficient is \(m/r-1\). This is an actual local model, rather than a restriction on the ADE labels alone.
+
+Consequently the entire reduced-gcd stratum obeys the single combinatorial/geometric test
+\[
+ \begin{split}
+ \deg D_{\rm top}&=\sum_{P\in B_{\rm np}}(m/r_P-1),\\
+ \alpha&=4b-14+\ell-\beta,\qquad \beta=\#B_{\rm np},\\
+ \alpha(m-1)+\sum_{P\in B_{\rm np}}(r_P-1)
+    &\le h^{1,1}(\widetilde{V(K_b)})-1
+      = b(b^2-4b+6)-3-2\binom{b-1}{3}.
+ \end{split} \tag{RG1}
+\]
+The inequality follows from the negative-definite exceptional ADE root lattice and the positive-square hyperplane class; the surface invariants are those of the smooth degree-\(b\) hypersurface because its only singularities are rational double points (equivalently use a characteristic-zero complex model for Hodge numbers). Use binomial zero for \(b<4\). This recovers the sextic rank bound 85 and the three rows of its fixed \(A_2\), moving \(A_8\) argument; its last row still requires the curve-specific constant-direction primitive-triple obstruction. It does not prove that every admitted assignment of indices, defects or points occurs globally.
+
+**An all-degree arithmetic consequence requiring no rank bound.** If every prime factor of \(m\) is \(1\bmod4\), then \(m\equiv1\bmod4\), and each contribution \(m/r_P-1\) in RG1 is divisible by four. But MV7 gives \(\deg D_{\rm top}\equiv14\equiv2\bmod4\). This is impossible. Thus in this entire multiplicity class **every generically curvilinear sole-support pair must have a nonreduced common first-normal divisor**. Examples include hypothetical \((5,20)\) and the order-one sector of \((10,10)\), both with \(m=25\). The result excludes the reduced-defect stratum, not those pairs or their entirely-thick sectors. More generally RG1 forces congruence modulo \(\gcd_{p\mid m}(p-1)\) for composite \(m\); it retains the individual local divisors and exact global rank test when the congruence is vacuous.
 
 ## 5. What was removed, and what remains
 
