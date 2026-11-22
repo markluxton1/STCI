@@ -66,17 +66,34 @@ The independent negative-definite exceptional classes and H give
 the rank \(R_C\) contributed by singularities on C is at most 44.
 Singularities away from C can only consume additional rank.
 
-The actual octic cuts the Cartier divisor \(10C\sim8H\) on S.
-The strict transform \(\widetilde C\simeq C\) has square -6 by adjunction.
-Its rational pullback is numerically \(\tfrac45H\). If \(\Delta_p\)
-denotes the positive local correction to its square, then
-
+The actual octic cuts \(10C\sim8H\) on \(S\). **First apply
+the all-degree [normal-carrier extremal-ray and exact-index
+theorems](normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface)**:
+the mate forces the Hodge equality \(C^2=16/5\) and
+local indices with lcm \(R\mid10\). Since \(RC\) is Cartier,
+\(16R/5\) is an integer, so \(5\mid R\).
+If \(R=5\), the exact torsion-order formula would give an
+actual **quartic** mate \(b_{\min}=4\), contrary to R-0001.
+Hence
 \[
-\sum_{p\in C}\Delta_p=\frac{16}{5}-(-6)=\frac{46}{5}.       \tag{1}
+ \boxed{R=10,\quad
+ \operatorname{ord}_{\operatorname{Cl}(S)}(5C-4H)=2.}
 \]
+This forces a connected quadratic class-group cover *before*
+any ADE enumeration. It does not mean a candidate surface exists.
 
-Here \(\Delta_p\) is a resolution intersection number. It is not the
-filtered-equation comparison invariant used elsewhere in the repository.
+Now use the **crepant** ADE resolution: adjunction gives
+\(\widetilde C^2=-6\), and the rational pullback of \(C\)
+is numerically \(\tfrac45H\). If \(\Delta_p\) denotes the
+positive local correction to its square, then
+\[
+ \sum_{p\in C}\Delta_p
+ =\frac{16}{5}-(-6)=\frac{46}{5}.                      \tag{1}
+\]
+This is the degree-five case of the general
+[adjunction correction](../../frameworks/carrier-normalization/degree_exclusions.md#on-a-du-val-carrier-exceptional-correction-measures-this-exact-gap).
+Here \(\Delta_p\) is a resolution intersection number,
+not the filtered-equation comparison invariant.
 
 Let \(s_p\) be the vanishing order of the quintic first normal symbol in
 its saturated direction. From its line-bundle degree,
@@ -92,12 +109,14 @@ Repeated first-symbol zeros are permitted. Define the bookkeeping number
 
 ## 3. The forced double cover and its canonical map
 
-The Weil divisor class \(T=5C-4H\) satisfies \(2T=0\) in \(\operatorname{Cl}(S)\).
-It is nonzero. Otherwise \(5C\sim4H\) would give a section of
-\(\mathcal O_S(4)\) with divisor 5C. It lifts to a quartic in P3 by
-the hypersurface sequence and \(H^1(\mathcal O_{\mathbf P^3}(-1))=0\).
-That quartic and S would have sole support C, contrary to R-0001 and its
-factor reduction. Thus T has exact order two.
+The forced Weil class \(T=5C-4H\) has **exact order two**
+by the general normal-carrier/index reduction just proved.
+The original direct check is instructive: \(2T=0\) follows
+from \(10C\sim8H\), while \(T=0\) would give a quartic
+section supported on \(C\), lifting from \(S\) to \(\mathbf P^3\)
+and contradicting R-0001. The subsequent cover argument uses
+the **actual nonzero order-two class**, not just a numerical
+self-intersection equality.
 
 The reflexive algebra \(\mathcal O_S\oplus\mathcal O_S(T)\), with
 multiplication supplied by \(2T\sim0\), defines a connected normal double
@@ -161,8 +180,10 @@ The canonical-map step cannot be replaced by Noether’s inequality alone. The n
 
 ## 4. Exhaustive ADE bookkeeping
 
-At a point of C the local class of C has order dividing ten, because 10C
-is Cartier. Write \(A_{N-1}^k\) for the smooth-curve pair with
+The general reduction already forces the **global on-curve index lcm
+(R=10)**. Each individual local index still divides ten; the possible
+nontrivial indices are (2,5,10), and together they must have lcm ten.
+Write \(A_{N-1}^k\) for the smooth-curve pair with
 \(1\le k\le N/2\). Its first order, pullback correction and local index are
 
 \[
