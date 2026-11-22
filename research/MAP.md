@@ -385,3 +385,27 @@ is computable from Macaulay/Bezout trace matrices and avoids factoring the
 full resultant.  It is not valid as a global-support criterion before the
 Chow-polytope reduction: an arbitrary residual curve could have the same
 fixed-plane support.
+
+
+**The single Rao class moves to terminal normal order in every degree.**
+The
+[hyperplane-jet theorem HJ1--HJ6](arguments/equations/global_equation_jets.md#a-terminal-hyperplane-jet-defect-in-every-degree)
+uses \(L=x_3-x_0\) and the classical fact that the rational quartic's Rao
+module is \(k\) in degree one only.  If \(\Pi_e=V(L^e)\), then every
+degree-\(d\) section of the ideal of \(C\cap\Pi_e\) lifts to an actual
+degree-\(d\) equation through \(C\) for \(e\le d-2\).  At
+\(e=d-1\) the cokernel is one-dimensional, generated explicitly by
+\[
+ L^{d-2}(x_1^2-x_2^2).
+\]
+Equivalently there is one scalar Rao-residue functional \(\rho_d\) at
+normal order \(d-2\), represented on \(C\) by the missing linear-series
+direction \(s^2t^2\).
+
+This sharply limits the fixed-plane Chow/norm program: in degrees at least
+three, every **individual** plane equation through the four section points
+already has a global lift through \(C\).  Hence a source obstruction cannot
+come from the reduced one-plane restriction space alone.  It must see the
+terminal transverse jet, variation among planes, or another simultaneous
+global condition.  Properness and common residual support still have to be
+checked for pairs.
