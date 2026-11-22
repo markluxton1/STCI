@@ -919,3 +919,32 @@ it only repackages the same resultants. Existing §7 of
 gives an exact low-layer formula for that coefficient, and its
 §8 gives a residual-curve control showing that weaker endpoint
 conditions do not suffice.
+
+
+### 11.2 The degree-six coincidence is actually realized
+
+The fixed-carrier prediction that both opposite mixed coefficients
+vanish for \(m=6\) is witnessed by an explicit \((4,6)\) CI:
+\[
+ F=x_1^4-x_0^3x_3,\qquad
+ G=x_2^6+x_1x_2^3x_3^2+x_1^2x_3^4.
+\]
+The restrictions to \(L_{12}\) are \(x_1^4,x_2^6\), hence the
+pair is proper. On the dense torus \(v=1\), and the mate equation
+is \(u^6+u^3+1=0\). In characteristic zero this is squarefree,
+with all six roots nonzero. Those degree-four components exhaust
+the Bézout degree \(24\), and their spectral polynomial is
+\[
+ H_Z(A,B)=A^6+A^3B^3+B^6.
+\]
+Both \(A^5B\) and \(AB^5\) have zero coefficients. This is the
+specific semigroup-gap phenomenon \(1,5\notin\langle3,4\rangle\);
+it does not generalize to the \((4,4)\) example in §11, where
+\(3\in\langle3,4\rangle\).
+
+The comparison isolates what may still be useful: a fixed-carrier
+*descent* restriction can annihilate both opposite polar
+coefficients in exceptional degrees, but the bare reciprocity of
+opposite Chow charts cannot do so. A general CI theorem would
+need a new descent/gluing statement that applies without an
+actual fixed carrier.
