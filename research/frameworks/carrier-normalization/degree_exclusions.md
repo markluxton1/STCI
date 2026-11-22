@@ -9,17 +9,70 @@ obstruction mechanisms. In every characteristic \(p>0\), the same fixed
 curve **is** an STCI using a quartic carrier; see the
 [explicit construction](../../arguments/arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier).
 
-Three exclusions sharpen degree-five scope. An integral
-[nonnormal quintic with Gorenstein normalization](../../arguments/carriers/quintic_gorenstein_normalizations.md)
-has no mate in any degree. Every integral quintic with
-[toric normalization](../../arguments/carriers/quintic_toric_center_incidence.md)
-is also excluded for every mate degree, since every admissible projection
-of the marked source forced by a mate has an extra inverse point over
-the fixed curve. A proper sole-supported degree-(5,8) pair cannot
-have a [globally ADE quintic](../../arguments/carriers/quintic_octic_surface_constraints.md), even with
-repeated first symbols. The remaining cases include nonnormal quintics
-with non-toric, non-Gorenstein normalization and normal quintics with worse
-singularities.
+The cases below are organized by **carrier degree**, not just
+by the two numerically smallest possible pairs \((5,8)\) and \((6,6)\).
+For each degree, distinguish:
+
+- an **all-mate carrier-class exclusion** (every \(b>0\));
+- a **pair-specific exclusion** (one specified \(b\));
+- a **necessary reduction** that leaves a genuine realization problem.
+
+That distinction is mathematically essential: a proof about
+one sextic and all of its mates can be far stronger in its
+quantifiers than a proof about every \((6,6)\) pair, even
+though neither subsumes the other.
+
+## 5.0 Coverage by carrier degree: complete, all-mate classes, and gaps
+
+**Degree four is completely closed.** R-0001 excludes *every*
+integral quartic \(X\supset C_0\) paired with any form
+of any positive degree, regardless of its normality,
+conductor or singularities. Factor reduction then excludes
+**every** proper sole-support pair having a degree-\(\le4\)
+irreducible factor.
+
+**Degree five has extensive all-mate exclusions, but is not
+completely closed.** Every quintic is generically regular
+along \(C_0\) by restriction to the unique quadric.
+The existing coverage is:
+
+| Quintic carrier class or locus | Proven scope | What closes it / what remains |
+| --- | --- | --- |
+| Integral **nonnormal** quintic with **Gorenstein normalization** | **All mate degrees** | [Full normalization, conductor, reflection and power-descent theorem](../../arguments/carriers/quintic_gorenstein_normalizations.md); the A4 projection/endpoint and conductor cases are constituent geometry, not independent gaps after this theorem |
+| Integral quintic with a **toric normalization** | **All mate degrees** | [Complete marked polarized toric-source and projection-center inverse-support exclusion](../../arguments/carriers/quintic_toric_center_incidence.md) |
+| Specified nonendpoint A4 projection \(h=3\) lane; endpoint families; some \(h=2\) subfamilies | **All mate degrees in each stated lane** | [Homogeneous \(h=3\) theorem](../../arguments/carriers/quintic_h3_support_exclusion.md), [endpoint inverse support](../../arguments/carriers/quintic_endpoint_residual_support_and_excess.md), and [nonendpoint fiber models](../../arguments/carriers/quintic_nonendpoint_support.md); much is already subsumed by the Gorenstein-normalization theorem, and must **not** be counted as disjoint additional coverage |
+| **Normal quintic with globally ADE singularities** and an **octic mate** | **Only \((5,8)\)** | [Quasi-étale double-cover, canonical-map and symbolic-triple exclusion](../../arguments/carriers/quintic_octic_ade_cover_and_triple.md); includes repeated first-symbol zeros; higher mate degrees are **not** excluded by this theorem |
+| **Normal quintic with restricted actual local indices** | **All mate degrees under the index hypotheses** | [Normal Hodge-gap and bounded-index theorems](../../arguments/carriers/normal_carrier_divisor_geometry.md); exclude low-index configurations independently of an ADE classification |
+| Other normal quintics, and nonnormal quintics with **non-Gorenstein, non-toric normalization** | **Open in this coverage** | The [unresolved projection, \(h=2\), and normalization loci](quintic_carriers_and_a4_contact.md) retain their exact hypotheses; no complete degree-five carrier exclusion has been established |
+
+**Degree six has several large all-mate exclusions plus a
+strong all-\((6,6)\)-pair reduction, but is not completely
+closed.** Distinguish a generic-normal-order-one sextic
+from a *thick* order-two sextic, and distinguish splitting
+in the **fixed quadratic cover** from splitting of the
+**first normal cone**:
+
+| Sextic carrier class or locus | Proven scope | What closes it / what remains |
+| --- | --- | --- |
+| **Two-lift** norm sextic \(F=P^2-rQ^2\) with \(P|_C=Q|_C=0\) | **All mate degrees**, including nonnormal signed cubics | [Complete two-lift theorem](../../arguments/linkage/two_lift_sextic_exclusion.md), including all residual ruling patterns |
+| **One-lift** norm sextic, signed cubic smooth or Du Val **along its lift** | **All mate degrees in that sector** | [Conormal/differential and Du Val correction theorem](../../arguments/linkage/one_lift_sextic_conormal_exclusion.md); singular signed cubic excluded separately by [normalization geometry](../../arguments/linkage/signed_cubic_normalization_and_cartier_defect.md); non-Du Val, generically regular signed cubics remain |
+| Integral **thick** sextic with singleton inverse a Cartier curve on its normalization | **All mate degrees under the stated normalization hypotheses** | [Projection/self-intersection integrality obstruction](../../arguments/carriers/split_sextic_conductor_and_contact.md#a-normalization-obstruction-for-an-integral-thick-sextic); splitting into two branches or a non-Cartier inverse remains distinct |
+| **Split first-normal-cone** sextic with clean normalization/conductor and reduced-content-free hypotheses | **All mate degrees under these hypotheses** | [Branch intersection and polarization contradiction](../../arguments/carriers/split_sextic_conductor_and_contact.md#clean-split-conductor-a-branch-exclusion-and-its-stronger-global-model); squarefree residual and several ramified subloci excluded; the remaining non-squarefree/singular-gluing regimes are not covered |
+| **Fixed explicit sextic** \(F_*\) | **All mate degrees** | [Sharp three-boundary valuation theorem](../../results/ci_fixed_sextic_jet_rigidity.md) forces positive residual support for every proper mate; nearby tested sextics have [additional all-degree-sixteen certificates](../../arguments/spectral/actual_sextic_mate_certificates.md), not a whole-family theorem |
+| **Every hypothetical \((6,6)\) pair** | **All pairs with these two degrees** | [Quadric/graph bound, integral normal general-pencil carrier, saturated length-nine profiles, exact index-nine class and cyclic triple cover](../../arguments/carriers/sextic_pair_reduction.md); this is a **reduction**, not a final exclusion |
+| \((6,6)\) with an **ADE general pencil member** | **Only the stated \((6,6)\) ADE sector** | [Root-rank and primitive-triple reduction](../../arguments/carriers/sextic_ade_reduction.md) narrows to \(L=\mathcal O(-6),D_2=0\); further higher-contact compatibility remains open |
+| Other sextic carriers with mates of arbitrary degree | **Open in this coverage** | [Surviving one-lift, ramified split-cone and endpoint loci](open_carrier_cases.md) are not subsumed by \((6,6)\) normal-pencil arguments |
+
+**Two different quantifiers are not a partition.** One
+carrier may satisfy several rows. A hypothetical
+\((6,6)\) pair can be studied through a normal *linear
+combination* of the two sextics, whereas a fixed sextic
+with a mate of degree \(b\ne6\) cannot generally be moved
+in that same pencil. Likewise, an arbitrary-degree normal
+quintic criterion is not an ADE \((5,8)\) theorem.
+The coverage should be read as *nested implications*,
+not an additive count of eliminated cases.
+
 
 ## 5.1 The precise degree-four theorem and its proof mechanisms
 
