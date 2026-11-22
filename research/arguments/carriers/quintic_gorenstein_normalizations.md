@@ -16,7 +16,27 @@ actual geometric mechanisms, not a reduction to reduced support.
 
 ## Source geometry and the actual marked A4 contact
 
-Write nu:X->S for the finite normalization of a hypothetical quintic carrier.
+Write \(\nu:X\to S\) for the finite normalization of a hypothetical
+quintic carrier. The same **degree-independent adjunction
+compatibility** used for normal carriers gives an immediate
+preliminary constraint on the *nonnormal* branch. Under an
+actual sole-supported mate, the full inverse is a single
+curve \(c\cong C_0\) and \(mc\sim bH\) with
+\(H^2=5,\ Hc=4\), hence \(c^2=16/5\) as a rational
+Cartier intersection. If the normalization \(X\) were
+smooth **along all of \(c\)**, the curve would be
+Cartier there and its self-intersection would be an
+integer. This is impossible. Thus a hypothetical
+nonnormal quintic **must have a normalization singularity
+on the lifted curve**. This eliminates the smooth-normalization
+branch before conductor analysis, but does not by itself
+settle singular gluing or power descent; compare the
+[all-degree conductor/differential theorem](carrier_conductor_differential_comparison.md#exact-statement).
+
+The remaining marked singularity is determined below by the
+existing degree-five polarization/classification, not merely
+by integrality. In particular no normal Hodge-gap sufficiency
+theorem is being applied to the nonnormal image \(S\).
 
 The [structural audit, §§4–6](quintic_conormal_and_factor_geometry.md#1-quintic-conormal-and-delpezzo-audit)
 and [relative pair classification](del_pezzo_five_a4.md#1-dp5-a4-intrinsic-pair-classification)
