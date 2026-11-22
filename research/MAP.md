@@ -137,6 +137,19 @@ do not close the separate split-first-normal-cone frontier or improve the
 general degree bound. See the [current carrier scope](frameworks/carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)
 and [local/global interface](frameworks/global-equation-realization/projection_and_liaison.md#embedded-conductor-and-ambient-equations).
 
+The [Chow-quotient / arrangement blow-up bridge](investigations/chow-quotient-arrangement-bridge/index.md)
+works directly from the normalized toric Chow quotient of the weight-\((0,1,3,4)\)
+orbit family to reduced-union Hilbert strata and divisor systems on arrangement
+blow-ups. Its [explicit four-cone quotient fan and Chow boundary cycles](arguments/torus/chow_quotient_fan_and_blowup_comparison.md)
+are established-theory computations. The [exact endpoint rank formula](arguments/torus/arrangement_endpoint_delta.md)
+computes the Hilbert polynomial of every reduced arrangement, identifies the
+necessary endpoint-defect identity for reduced-CI realizations in all bidegrees,
+and explains the distinct endpoint defects of known \((3,4)\) and \((4,4)\)
+eigenpairs. This supplies a scheme-level filter missing from Chow-polytope
+data; the universal flat boundary family, actual general pair realization, and
+complementary contractions remain open. The ordinary \(V_5\) blow-up does
+not resolve the torus quotient.
+
 Actual [pairs retaining the toric quartic as a defining equation](arguments/torus/fixed_carrier_chow_arrangements.md)
 have an exact coefficient description: the carrier's semigroup
 gaps force \(c_1=c_2=c_5=0\). In characteristic zero at least three distinct
