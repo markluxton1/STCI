@@ -948,3 +948,129 @@ coefficients in exceptional degrees, but the bare reciprocity of
 opposite Chow charts cannot do so. A general CI theorem would
 need a new descent/gluing statement that applies without an
 actual fixed carrier.
+
+
+## 12. The integral (4,4) binomial pair: four translates versus a Frobenius thickening
+
+**Previously established scheme theorem:** [R-0021](../../results/quartic_mu4_degeneration.md),
+with proof in [quartic specialization](../quartic_specialization_and_symbols.md#1-what-actually-coalesces),
+gives the flat family over \(\mathbb Z\), reduced four-curve characteristic-zero
+fiber, and sole-support characteristic-two fiber with generic
+\(k(C)[\varepsilon]/(\varepsilon^4)\) transverse algebra. This section
+only translates that accepted result into the quadric-spectrum and
+opposite-coefficient language of §11. No new STCI or lifting claim
+is made.
+
+Fix the homogeneous quartic equations over \(\mathbb Z\)
+\[
+ F=x_1^4-x_0^3x_3,\qquad G=x_2^4-x_0x_3^3.
+\]
+On the dense projective torus use
+\([1:r:ur^3:vr^4]\). There
+\[
+ F=r^4(1-v),\qquad G=r^{12}(u^4-v^3),
+\]
+so the complete intersection is
+\(\mathbb G_{m,r}\times\mu_4\), with \(v=1,\ u^4=1\).
+The quadric-pencil parameter \(\xi=x_1x_2/(x_0x_3)\) is
+\(\xi=u/v=u\).
+
+Set \(A=x_1x_2\), \(B=x_0x_3\). The exact spectral polynomial
+over \(\mathbb Z\) is
+\[
+ \boxed{H(A,B)=A^4-B^4}
+\]
+and its actual ideal membership has the *integral* Koszul expression
+\[
+ \boxed{A^4-B^4=x_2^4F+x_0^3x_3G
+             =x_1^4G+x_0x_3^3F.}
+\]
+This is not merely membership in a radical. Its middle coefficients
+\([A^3B]H=[A^2B^2]H=[AB^3]H=0\) vanish integrally,
+not only after reduction modulo two.
+
+Over an algebraically closed field of characteristic zero,
+\(u^4-1=\prod_{\zeta\in\mu_4}(u-\zeta)\) has four distinct
+roots. Its cycle is
+\[
+ Z_0=[C_1]+[C_{-1}]+[C_i]+[C_{-i}],
+ \qquad H_{Z_0}(A,B)=\prod_{\zeta^4=1}(A-\zeta B)=A^4-B^4.
+\]
+All four curves are generically reduced, each of degree four;
+the full intersection has degree \(16\), so there is no other curve.
+Both extreme mixed coefficients vanish. In characteristic two,
+\(u^4-1=(u-1)^4\) by Frobenius, and hence
+\[
+ Z_2=4[C_1],\qquad
+ H_{Z_2}(A,B)=(A-B)^4=A^4-B^4=A^4+B^4
+ \quad\text{in characteristic }2.
+\]
+On the dense torus the algebra is
+\(k[r^{\pm1},\varepsilon]/(\varepsilon^4)\)
+with \(\varepsilon=u-1\), as in R-0021. This is a fourfold
+generic thickening of one curve, *not* a union of four distinct
+translates. There is no extra projective residual curve:
+the two chart normal forms in R-0021 cover the fiber.
+
+The characteristic polynomial of multiplication by \(\xi=u\) on
+the rank-four transverse algebra has the **same integral
+presentation** over \(\mathbb Z\):
+\[
+ K=\mathbb Z[u]/(u^4-1),\qquad
+ M_\xi=
+ \begin{pmatrix}
+ 0&0&0&1\\1&0&0&0\\0&1&0&0\\0&0&1&0
+ \end{pmatrix}
+ \text{ in the basis }(1,u,u^2,u^3),\qquad
+ \det(T-M_\xi)=T^4-1 .
+\]
+In characteristic zero this operator is semisimple with eigenvalues
+\(\{1,-1,i,-i\}\); in characteristic two it is a single unipotent
+Jordan block, since \((M_\xi-I)^4=0\) but
+\((M_\xi-I)^3\ne0\). Both
+\(\operatorname{Tr}(\xi)\) and
+\(\operatorname{Tr}(\xi^{-1})\) vanish over \(\mathbb Z\);
+the first trace is the coefficient of \(A^3B\), the reciprocal trace
+controls that of \(AB^3\). In characteristic zero this is
+cancellation across four distinct roots; in characteristic two
+the weighted moments are \(4\cdot1=0\), because the scalar \(4\)
+vanishes. The equality of traces across characteristics is not
+evidence for a characteristic-zero sole-support STCI.
+
+The opposite line-chart restrictions of §11.1 specialize to
+\[
+ R^+(z)=H(1,z)=1-z^4,\qquad
+ R^-(z)=z^{12}H(z,1)=z^{12}(z^4-1).
+\]
+Modulo two, these become
+\(R^+(z)=(1-z)^4\) and
+\(R^-(z)=z^{12}(z-1)^4\).
+The reciprocal relation is still automatic and does not prevent
+the four spectral points from coalescing.
+
+Two qualifications clarify the meaning of the comparison:
+
+1. For the **characteristic-zero** fixed quartic carrier of §11,
+   the semigroup gaps force \(e_1=e_2=0\) for \(m=4\),
+   but *do not* force \(e_3=0\). The vanishing of both
+   extreme mixed coefficients in this binomial pair is the
+   extra special equation \(u^4=1\); §11's proper
+   \(q^4+\alpha q+\beta=0\) family exhibits freely varying
+   \([AB^3]H=\alpha\).
+2. The \(\mathbb Z\)-family is flat as a family of complete
+   intersections, while its **generic-fiber support changes**:
+   four translates in characteristic zero collapse to
+   one support in characteristic two. It is *not* a
+   mixed-characteristic lift with sole support \(C\) in
+   characteristic zero. This distinguishes R-0021 from the
+   separate no-flat-sole-support-lift result for the intrinsic
+   characteristic-two triple structure.
+
+**Implication for the unrestricted moment program.** This
+example cannot establish a general vanishing of the reciprocal
+moment, since it has an exceptional binomial symmetry; nor can
+moment vanishing in characteristic two exclude the deepest diagonal
+when its multiplicity is divisible by the characteristic.
+It does show that \(H_Z\) is a natural integral spectral object
+whose same coefficient vector can encode either split eigenvalues
+or a nilpotent thickening after reduction.
