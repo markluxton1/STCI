@@ -90,6 +90,39 @@ Every cycle has degree four. These are statements about fundamental **cycles** a
 
 The normalized Chow quotient contains one two-dimensional open orbit \(T\), four one-dimensional boundary orbits and the four fixed points of (4). Thus (2) gives a finite, explicit boundary poset for degenerating **one** translate; symmetric powers of this compactification retain sums of single-translate Chow limits but do not automatically retain Hilbert lifts.
 
+### Direct verification from the Chow resultant
+
+The fan and the four cycles can be checked independently through the **actual Chow form**, without assuming that a boundary cycle is scheme-theoretically reduced. Let
+\(\Delta_{ij}=a_i b_j-a_j b_i\) be the Plücker minors for the two hyperplanes. The Chow form of \(C_{u,v}\), with the hyperplane rows held fixed, is
+\[
+ R_{u,v}=\operatorname{Res}_r
+ (a_0+a_1r+a_2ur^3+a_3vr^4,\
+  b_0+b_1r+b_2ur^3+b_3vr^4).
+\]
+Expanding the \(8\times8\) Sylvester determinant and collecting powers of \(u,v\) gives precisely the six possible exponent pairs
+\[
+ \mathcal E=\{(0,3),(0,4),(1,3),(2,2),(3,1),(4,1)\}.
+ \tag{4a}
+\]
+Every coefficient is a nonzero integer polynomial in \(a_i,b_i\) with content \(1\); thus no exponent disappears identically after reduction to any field characteristic. The convex hull is the quadrilateral with vertices
+\[
+ (0,3),\ (0,4),\ (4,1),\ (3,1).
+\]
+Its inward normal fan in the valuation lattice of \(U,V\) is **exactly** the four-ray fan (2), providing an independent verification of the fiber-polytope calculation.
+
+The four vertex coefficients (up to a common overall scalar and the sign convention for resultants) factor as
+\[
+\begin{array}{c|c}
+ (i,j)&[u^iv^j]R_{u,v}\\ \hline
+ (0,4)&\Delta_{03}^4\\
+ (0,3)&-\Delta_{01}\Delta_{13}^3\\
+ (4,1)&-\Delta_{02}^3\Delta_{23}\\
+ (3,1)&-\Delta_{01}\Delta_{12}^2\Delta_{23}.
+\end{array}
+\tag{4b}
+\]
+These are literally the Chow forms of the four boundary cycles (4): each \(\Delta_{ij}\) is the Chow form of the coordinate line \(L_{ij}\), and the exponents are their cycle multiplicities. This also shows exactly how the secondary/fiber-polytope fan is **dual to the parameter-exponent Newton polygon** of the Chow orbit map. It should not be confused with the full column-weight Chow polytope of R-0074, which classifies a different fiber of the cycle invariant.
+
 ## 4. Graph of the rational quotient versus the \(V_5\) contraction
 
 The closure of the graph of
