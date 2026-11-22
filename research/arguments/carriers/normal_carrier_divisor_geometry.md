@@ -566,6 +566,163 @@ image or a degree-six carrier singular
 generically on \(C_0\): those require
 the normalization/branch geometry.
 
+## 4.7 Unequal-degree pairs can acquire an actual normal carrier
+
+**Status: new consequence of classical Bertini, with exact proof
+below; mathematical re-review required.**
+This is a separate reduction from the already accepted
+equal-degree \((6,6)\) normal-pencil argument.
+Use [Kleiman, *Bertini and his two fundamental
+theorems*](https://arxiv.org/abs/alg-geom/9704018),
+for the irreducible/general-member and
+smoothness-away-from-base statements.
+
+**Mixed-degree normal-replacement lemma.**
+Work over an algebraically closed field of
+characteristic zero. Let \(a<b\) and let
+\(F_a,G_b\) be *any* coprime homogeneous
+forms such that their proper complete
+intersection has **sole reduced support**
+the smooth \(C_0\). Suppose at least one
+of \(F,G\) has **generic normal order
+one** along \(C_0\). Then an actual
+degree-\(b\) generator of the same
+complete-intersection ideal can be
+chosen **integral and normal**:
+\[
+ \boxed{K_b=\lambda G_b+F_a L_{b-a},
+ \quad\lambda\ne0,\quad
+ V(F_a,K_b)=V(F_a,G_b),\quad
+ V(K_b)\text{ normal integral}.}            \tag{NR1}
+\]
+
+**Proof.** Put \(d=b-a\ge1\) and
+consider the projective linear system
+\[
+ W=kG_b+F_aH^0(\mathbf P^3,\mathcal O(d))
+ \subset H^0(\mathbf P^3,\mathcal O(b)).
+\]
+Its *set-theoretic base locus* is exactly
+\(C_0\): where \(F\ne0\), some degree-\(d\)
+form is nonzero; where \(F=0\), every
+point outside \(C_0\) has \(G\ne0\).
+There is no fixed divisor because a
+common hypersurface factor of all
+members would divide both \(F\) and
+\(G\), violating properness. On the
+dense open \(D(F)\), the rational map
+of \(W\) contains the full degree-\(d\)
+Veronese coordinates from the
+ratios of \(FL_i\); hence its image
+has dimension three, so the system
+is **not composed with a pencil**.
+Classical characteristic-zero
+Bertini irreducibility makes a
+general member integral, while
+Bertini smoothness makes it smooth
+away from \(C_0\). Its generic
+first-normal symbol along \(C_0\)
+is nonzero for general \((\lambda,L)\):
+this follows from the hypothesis
+that \(F\) or \(G\) has normal order
+one (and \(L|_{C_0}\ne0\) generically
+when needed). Thus it is regular
+at the generic point of \(C_0\);
+all its singularities are isolated.
+An integral hypersurface in
+\(\mathbf P^3\) satisfies \(S_2\),
+so Serre's \(R_1+S_2\) criterion
+makes it normal. The open
+\(\lambda\ne0\) gives
+\((F,K)=(F,G)\). No integrality
+of the original \(F\) or \(G\),
+and no normality of the smaller
+carrier, was assumed. \(\square\)
+
+**Sharp scope.** When \(a=b\),
+\(W\) is only the original pencil
+and the non-pencil Bertini
+irreducibility argument fails;
+the sextic equal-degree proof
+uses its separate factorization
+argument. When **both** generators
+have generic normal order at least
+two, (NR1) does not produce a
+normal carrier: every member of
+\(W\) is then generically singular
+along \(C_0\). The
+[quadric normal-order bound](../carriers/sextic_pair_reduction.md#why-every-pair-is-generically-curvilinear)
+implies **every** hypothetical
+\((5,b)\) pair satisfies (NR1),
+because a degree-five generator
+cannot have normal order two.
+
+**Consequences of the existing exact index theorem.**
+On the new normal degree-\(b\)
+carrier \(S=V(K_b)\), its degree-\(a\)
+mate is \(F\). If \(5\le a\le9\),
+the *minimal* mate degree on \(S\)
+must be **exactly \(a\)**:
+by the earlier degree-\(\le4\)
+carrier exclusions every mate has
+degree at least five, and no
+proper positive divisor of
+\(a\in\{5,\ldots,9\}\) is at least five.
+Writing
+\[
+ g=\gcd(b,4),\quad
+ \mu=b/g,\quad v=4/g,\quad
+ R=\operatorname{lcm}_{P\in C_0}
+     \operatorname{ind}_P(C_0\subset S),
+\]
+the all-degree formula §3 now gives
+\[
+ \boxed{\quad
+ \operatorname{ord}(\mu C_0-vH_S)
+  =\frac{a}{v}
+  =\frac{R}{\gcd(R,\mu)},\qquad
+ C_0^2=\frac{16}{b}.
+ \quad}                                            \tag{NR2}
+\]
+Thus **every** hypothetical \((5,b)\)
+pair with \(b>5\) has \(4\mid b\)
+and admits a normal degree-\(b\)
+carrier with a **nontrivial order-five**
+class
+\[
+ \boxed{\Delta=(b/4)C_0-H_S,\quad 5\Delta=0.}
+\]
+This includes *originally nonnormal*
+quintic carriers and every proposed
+mate degree. Its conclusion is a
+**necessary** condition on the
+new degree-\(b\) carrier, not a
+quintic exclusion.
+
+For example, a hypothetical
+\((6,8)\) pair with at least one
+order-one generator has a
+**normal octic** carrier with
+a degree-six mate. Here
+\(\mu=2,v=1,t=6\), so
+\(R/\gcd(R,2)=6\) and **\(R=12\)**.
+For \((6,10)\) under the same
+order-one hypothesis, the normal
+degree-ten carrier satisfies
+\(R/\gcd(R,5)=3\), so
+\(R=3\) or \(15\); the established
+index-at-most-four exclusion
+eliminates \(R=3\), forcing
+**\(R=15\)**. These exact
+index constraints are not
+consequences of the old
+equal-degree sextic normal-pencil
+lemma. The actual-order-one
+hypothesis is **not** known
+for every \((6,8)\) or \((6,10)\)
+candidate; no unconditional
+mixed-sextic exclusion is claimed.
+
 ## 5. What was removed, and what remains
 
 The new theorem removes **global lifting as a separate hypothesis or
