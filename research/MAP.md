@@ -148,9 +148,15 @@ computes the Hilbert polynomial of every reduced arrangement, identifies the
 necessary endpoint-defect identity for reduced-CI realizations in all bidegrees,
 and explains the distinct endpoint defects of known \((3,4)\) and \((4,4)\)
 eigenpairs. This supplies a scheme-level filter missing from Chow-polytope
-data; the universal flat boundary family, actual general pair realization, and
-complementary contractions remain open. The ordinary \(V_5\) blow-up does
-not resolve the torus quotient.
+data. The [relative arrangement blow-up construction](arguments/torus/relative_arrangement_blowup_family.md)
+now gives the direct universal Rees blow-up, finite determinantal strata where
+the reduced unions are Hilbert flat, and a second **smooth** family obtained
+by blowing up disjoint lifted orbit curves on a toric graph resolution. The
+smooth family's divisor spaces recover every containing hypersurface, and
+the normal-bundle map has elementary divisors \((3,4)\) at each endpoint.
+Correct specialization of Rees fibers, the full collision/Chow boundary,
+actual general pair realization and complementary contractions remain open.
+The ordinary \(V_5\) blow-up does not resolve the torus quotient.
 
 Actual [pairs retaining the toric quartic as a defining equation](arguments/torus/fixed_carrier_chow_arrangements.md)
 have an exact coefficient description: the carrier's semigroup
