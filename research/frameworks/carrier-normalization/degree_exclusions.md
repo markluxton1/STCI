@@ -37,6 +37,8 @@ Thus all \((5,b)\) and \((6,6)\) candidates are in the finite-defect branch, and
 
 ## 5.0a All-degree normal-carrier theorems come **before** the carrier-degree table
 
+**Generically regular extension (pending independent audit).** The [exact almost-Cartier test](../../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) and [power–socle extension](../../arguments/carriers/normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem) show that the actual-index-at-most-four exclusion and the slope bound below apply also to integral nonnormal carriers regular at the generic point of \(C_0\). The indices must be the actual downstairs almost-Cartier orders. Moreover, if all these local orders divide the carrier degree \(a\), then \(R_X\mid a\) and the exact minimal mate degree \(4R_X/a\le4\) contradicts the independent low-degree carrier theorem. The statements below retain their accepted normal-carrier proofs; their extensions do not bound the index on a normalization alone, and do not apply to generically thick carriers.
+
 The strongest current exclusion statements are not organized
 by degree four, five or six at all. The
 [accepted all-degree local-index and socle theorem](../../arguments/carriers/normal_carrier_symbolic_torsion.md#4-cartier-index-integrality-and-new-all-degree-exclusions)
@@ -84,9 +86,10 @@ independently of the proposed mate degree:
    The inequality requires the fixed
    quartic's characteristic-zero normal
    splitting and the accepted
-   symbolic-triple/pole input. It says
-   nothing directly about nonnormal
-   or generic-order-two carriers.
+   symbolic-triple/pole input. Its extension to possibly nonnormal
+   generically regular carriers uses the actual downstairs indices
+   and is pending independent audit. Neither version covers
+   generic-order-two carriers.
 
 The [index-divides-\(12\) reduction](../../arguments/carriers/normal_carrier_symbolic_torsion.md#a-bounded-index-carrier-class)
 is an intermediate consequence: it reduces
@@ -1195,12 +1198,16 @@ a higher-volume repetition of low-degree enumeration.
 
 There are **three distinct levels** of compatibility:
 
-1. **Extremal numerical ray.** On normal carriers (S1)--(S3)
-   provide a complete fixed-carrier decision criterion.
-   Local index, normal symbol, and ADE proofs attempt to
-   force \(\Gamma_X(C)>0\) or rule out the equality geometry.
+1. **Extremal numerical ray and actual local index.** On any
+   generically regular integral carrier, the [normalized Hodge/APic
+   criterion](../../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices)
+   gives a complete fixed-carrier decision: finite downstairs index and
+   equality in Hodge index. The normal test (S1)--(S3) is its
+   specialization. The extended local socle formula tests the equality
+   on both normal and nonnormal carriers.
 2. **Actual descent and inverse support.** On nonnormal
-   carriers, a divisor or root upstairs may fail to descend
+   carriers these are necessary to calculate the downstairs Cartier
+   relations from upstairs data. A divisor or root upstairs may fail to descend
    through the *whole conductor*, or the inverse of \(C\)
    may contain extra points. This is where the
    [quintic Gorenstein-normalization proof](../../arguments/carriers/quintic_gorenstein_normalizations.md)

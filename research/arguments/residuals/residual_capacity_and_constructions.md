@@ -657,8 +657,12 @@ when \(d_0a>cef\). Indeed \(d_0H-Z\) is nef,
 \(H\cdot\Gamma^{\rm num}=cf\), and Hodge index makes the displayed
 denominator positive. This separates the reusable lemma from the numbers
 \((c,d_0)=(4,3)\). If the denominator vanishes retain the undivided nef
-inequality. A zero Hodge gap leaves the endpoint open; conductor descent and
-actual equation realization still require proof.
+inequality. A zero Hodge gap alone leaves the endpoint open. In the
+generically regular singleton case, however, the [exact almost-Cartier
+criterion](../carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) closes fixed-carrier existence in some
+degree if the actual downstairs index is finite, with minimum degree
+\(cR_X/a\). The more general upstairs-only or thick setting still needs
+actual section descent.
 
 There are three different mechanisms here: a finite-scheme quotient bounds
 marked attachment by degree; surface positivity bounds the valuation vector
@@ -669,6 +673,43 @@ The prescribed A-type family shows why a large local Cartier index alone
 neither constructs sole support nor supplies the needed global divisor
 relation. In particular its residual cancels the local class and survives
 with explicitly different marked and full attachment lengths.
+
+### Local index forces residual attachment
+
+Let \(X=V(F_a)\) be integral and regular at the generic point of the
+smooth marked curve \(C\), and let \(G_b\) define an actual proper
+intersection of cycle \(m[C]+R\), \(m>0\), with genuine residual
+scheme \(Z\) (the pure residual after removing the full C-primary
+component). Write \(r_P\) for the order of \([C]_P\) in the local
+almost-Cartier group of \(X\), allowing infinite order. Define
+\[
+ S_m=\{P\in C:r_P\nmid m\},
+\]
+where infinite order never divides a positive integer. Off the finite
+on-curve singular set the index is one. If \(P\notin\operatorname{Supp}R\),
+the actual effective Cartier divisor cut by \(G\) has local cycle
+\(mC\); since the generic point is regular and the surface is S2, it
+represents precisely the almost-Cartier class \(m[C]\). Hence \(r_P\mid m\).
+In particular
+\[
+ S_m\subset C\cap\operatorname{Supp}Z,\qquad
+ \#S_m\le\ell(C\cap Z)\le d_0\deg R
+\]
+whenever \(I_C(d_0)\) is globally generated, by the marked-attachment
+capacity above. This connects local divisor-class failure to positive
+residual degree even at Hodge equality. For the fixed quartic use
+\(d_0=3\) and also the congruence \(\deg R=ab-4m\). The assertion does
+not bound residual *multiplicity* at a point or give a converse. If the
+residual divisor itself has regular marked generic points, its local
+almost-Cartier class cancels \(m[C]\); in general only the support
+necessity is asserted. Combine independent lower bounds by their maximum,
+not by addition.
+
+The local argument is a direct application of the almost-Cartier
+divisor criterion of Hartshorne–Polini (Proposition 7.1) and the
+existing marked-attachment inequality, not a new general theorem of
+intersection theory. It uses actual local classes downstairs, not
+normalization indices. Independent review of this bridge is pending.
 
 ## Literature and verification boundary
 

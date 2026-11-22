@@ -114,15 +114,14 @@ The initial proposed \((5,4)\) sextic multiplicity partition is
 already **excluded** by the involution--Bézout inequality
 \(4|n_+-n_-|\ge6\). Only the positive two-support partitions
 \((6,3),(7,2),(8,1)\) and reversals remain numerically;
-none can occur on a sextic carrier with only ordinary nodes.
-For a normal Du Val sextic, the prescribed curves each have
-rational class \(\tfrac23H\) and their exceptional pullback
-corrections each have negative square \(38/3\).
-These [singular-carrier conditions](../../arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
-do not establish realization or exclusion on arbitrary carriers.
+all are excluded if both common endpoints are smooth or Du Val
+by the [orbit-lattice/contact and mixed Hodge theorem](../../arguments/torus/fixed_surface_restriction_lifts.md#the-sextic-symmetric-arrangement-must-escape-ade-at-an-endpoint),
+pending independent audit. The remaining fixed-carrier absorption construction would need at least one worse endpoint, not simply a carrier with higher ADE index.
 The [finite-group multiplicity-lattice result](../../arguments/torus/fixed_surface_restriction_lifts.md#symmetry-and-the-multiplicity-lattice)
 explains the algebraic mechanism behind the conditional transfer.
 
+
+The [local-index attachment test](../../arguments/residuals/residual_capacity_and_constructions.md#local-index-forces-residual-attachment) gives a different necessary residual condition on every generically regular integral carrier: an actual multiplicity \(m\) requires every marked point where \(r_P\nmid m\) (including infinite order) to lie on the residual. The marked degree bound then gives a residual-degree lower bound from the number of such points. It is valid even when the normalized Hodge gap is zero; that gap together with finite downstairs index already decides fixed-carrier existence in some degree. The two residual lower bounds need not be additive.
 
 The [two-blowup calculation](../../arguments/residuals/blowup_residual_geometry.md)
 tracks the full normal ideal and distinguishes horizontal and vertical

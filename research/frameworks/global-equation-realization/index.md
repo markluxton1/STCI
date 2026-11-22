@@ -33,56 +33,19 @@ cycles. None alone supplies a proper homogeneous pair with sole support.
 [Projection and liaison](projection_and_liaison.md) studies supported ACM
 sources and section defects.
 
-**A complete fixed-carrier realization theorem takes
-precedence over the generic lifting discussion.**
-If the carrier \(X\subset\mathbf P^3\) is
-**normal and integral** in characteristic zero,
-the established
-[normal-carrier extremal-ray theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface)
-already proves
-\[
- \text{a sole-support mate exists in some degree}
- \quad\Longleftrightarrow\quad
- C_0\text{ is }\mathbf Q\text{-Cartier and }
- C_0^2=\frac{16}{\deg X}.
-\]
-Hodge index, the numerical-to-linear
-torsion step and the hypersurface
-restriction sequence supply an
-**actual ambient homogeneous mate**.
-The exact local index formula determines
-the minimal mate degree and all multiples.
-Thus **on this normal fixed-carrier branch**
-there is *no independent global
-equation-lifting obstruction after
-the Hodge equality*. The difficult
-remaining question is whether an
-**actual hypersurface containing
-the prescribed embedding** can
-realize that equality, with its
-necessary singularities and local
-normal defects. A *prescribed*
-pair degree still has to satisfy
-the exact mate-degree semigroup.
+**A complete fixed-carrier realization theorem takes precedence over the generic lifting discussion.** For an integral carrier \(X\subset\mathbf P^3\) regular at the generic point of the smooth curve \(C\), the [normalized Hodge/APic criterion](../../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) states that a sole-support mate exists exactly when the actual downstairs almost-Cartier index \(R_X\) is finite and the normalized strict transform has numerical square \(e^2/a\) (\(e=\deg C,a=\deg X\)). This includes nonnormal carriers and arbitrary characteristic. The exact minimum mate degree is \(eR_X/a\); all multiples occur by taking powers. The [normal-carrier extremal-ray theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface) is its specialization. There is no separate homogeneous lifting gate once both conditions hold: the Cartier class is a hyperplane multiple and its section lifts. The new broader deduction awaits independent review. A prescribed pair degree still has to satisfy the exact semigroup.
 
 **Normality is a property of the actual generator system.** For a sole-supported pair \((a,b)\), \(a\le b\), the [all-degree Bertini--Serre replacement](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) gives a general normal integral \(K_b=\lambda G_b+F_aL_{b-a}\), \(\lambda\ne0\), defining precisely the same ideal together with \(F_a\) if and only if at least one generator has generic order one. In equal degrees both general generators can be chosen normal. This is an actual homogeneous source statement, not a claim that formal structures lift. On the resulting **fixed** normal carrier the Hodge-index equality is sufficient for a mate; do not impose a second independent global lifting test there. Finding a carrier reaching equality with the required defects is the realization problem. For genuinely thick generic CI algebras, no such degree-compatible normal replacement exists, and the full two-generator source test remains essential. The theorem is degree independent and pending independent audit. 
 
-For **nonnormal** or generic-order-two
-carriers, upstairs divisor data,
-intersection matrices, or formal
-normal symbols need not descend;
-full inverse support, full conductor
-gluing and actual equations remain
-separate gates. The
-[all-degree actual-index-at-most-four
-exclusion](../../arguments/carriers/normal_carrier_symbolic_torsion.md#5-closing-the-entire-actual-index-at-most-four-class)
-also removes large classes of
-normal carriers *before* any
-fixed-degree jet/source calculation.
-The general "realization gap"
-must not be asserted in a regime
-where existing theory has already
-closed it.
+For **upstairs-only** nonnormal data, finite normalization indices
+and divisor relations do not establish finite downstairs almost-Cartier
+index. Conductor gluing and full inverse support remain essential
+computations of the missing condition. For generically thick carriers
+the full supported-section descent problem remains separate.
+The [extended all-index-at-most-four exclusion](../../arguments/carriers/normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem)
+works before fixed-degree source computations on every generically regular
+integral carrier in characteristic zero, subject to independent audit.
+The relevant index is downstairs, not upstairs.
 
 Two distinct equation questions survive passage to a thickening. The
 [radical-power lemma](../../arguments/torus/equivariant_set_theoretic_descent.md)

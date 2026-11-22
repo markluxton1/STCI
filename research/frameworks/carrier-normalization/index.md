@@ -53,7 +53,7 @@ double locus. A class-group relation alone is not a mate. See the
 [fixed-carrier conductor criterion](../../results/fixed_carrier_conductor_criterion.md)
 and [descent algebra](../../arguments/carriers/conductor_descent_algebra.md).
 
-The normal and nonnormal settings require distinct arguments. For specified
+The [normalized Hodge matrix and local almost-Cartier test](../../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) now unify fixed-carrier existence whenever the marked generic points are regular. Conductor geometry remains essential to computing the downstairs relations from the normalization; the entirely-thick generic case is outside the almost-Cartier test. The [actual local power–socle theorem](../../arguments/carriers/normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem) removes normality from the characteristic-zero local defect bounds and all-index-at-most-four exclusion, pending independent review. For specified
 normal hypersurfaces in characteristic zero, the Hodge criterion is a
 Q-Cartier and self-intersection test; realizing its numerical equality on an
 actual carrier is separate. For nonnormal surfaces, the full conductor and

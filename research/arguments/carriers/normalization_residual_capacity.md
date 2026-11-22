@@ -532,8 +532,7 @@ the normal-carrier bound. If \(S\) is smooth along \(C\),
 Thus the smooth bound is one explicit self-intersection computation inside
 a larger geometric inequality. For a nonnormal singleton inverse, a zero
 Hodge gap only makes this numerical bound vanish. It does not test the full
-conductor or guarantee the required section descends. The exact conductor
-criterion remains [R-0003](../../results/fixed_carrier_conductor_criterion.md).
+conductor or guarantee the required section descends. The exact conductor criterion remains [R-0003](../../results/fixed_carrier_conductor_criterion.md). In the generically regular case, the [normalized Hodge/APic theorem](fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) identifies the missing condition as finiteness of the actual downstairs local almost-Cartier index. Once that holds the zero gap is sufficient for a mate in some degree; it is not sufficient for a specified arbitrary degree.
 
 ## 4. Several inverse curves give a finite collection of linear constraints
 
@@ -679,7 +678,7 @@ formula. Compare the actual inputs rather than imposing one ranking.
 
 ## Interpretation
 
-The numerical residual is effective even without a Q-Cartier hypothesis. A positive Hodge gap bounds genuine residual degree; a zero gap leaves an endpoint open and supplies no conductor descent or actual mate. Several inverse branches require their valuation vector, not a singleton formula. The first-normal gcd bound is useful but may be weaker than an exact numerical square or the graph slope refinement in [the two-blowup account](../residuals/blowup_residual_geometry.md).
+The numerical residual is effective even without a Q-Cartier hypothesis. A positive Hodge gap bounds genuine residual degree. A zero gap alone does not supply descent, but on a generically regular carrier with finite actual downstairs index it decides mate existence by the [normalized Hodge/APic theorem](fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices). For a given pair, the [local-index attachment test](../residuals/residual_capacity_and_constructions.md#local-index-forces-residual-attachment) forces residual support wherever its generic multiplicity fails local index divisibility. Several inverse branches require their valuation vector, not a singleton formula. The first-normal gcd bound is useful but may be weaker than an exact numerical square or the graph slope refinement in [the two-blowup account](../residuals/blowup_residual_geometry.md).
 
 
 ## Characteristic reach and limitation

@@ -774,7 +774,7 @@ Cartier canonical multiple exists.
 On a normal hypersurface, the exact criterion is torsion of the primitive ray class.
 The canonical index filter imposes no new restriction there:
 `K_X=(a-4)H`, so `K_X.c=d(a-4)` is already integral. If a mate exists,
-the curve's Cartier index is at least `a/gcd(a,d^2)` by the Cartier-index condition.
+the curve's Cartier index is a multiple of `a/gcd(a,d)` by the exact Picard saturation formula. The weaker divisibility by `a/gcd(a,d^2)` can still be relevant to indices on a distinct normalization where the hyperplane class need not be saturated.
 This lower bound grows with `a`; it is not an upper degree bound.
 
 For a rational singleton lift on a normal carrier whose singularities

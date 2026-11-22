@@ -287,27 +287,7 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   \(\mathbf Z/2\) divisor class **excludes every such pair
   on a carrier with only ordinary nodes**. The surviving search
   must use more complicated singularities on the quartics.
-- **Narrower singular-carrier geometry.** For a normal Du Val sextic,
-  the [local class-group and global correction tests](../../arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
-  require off-endpoint odd-order classes (if those singularities occur):
-  \(A_{3m-1}\) or \(E_6\) for difference three,
-  \(A_{5m-1}\) for difference five, and
-  \(A_{7m-1}\) for difference seven. At the endpoints it is
-  the **difference of the two branch classes** that must have the
-  required order. The rational divisor classes are
-  \([C_\pm]=\tfrac23H\), imposing
-  \(-Z_+^2=-Z_-^2=38/3\) on the crepant
-  resolution. For the \((7,2)\) and \((8,1)\)
-  partitions, the [ADE discriminant-form
-  denominator test](../../arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
-  additionally forces a common endpoint of type
-  \(A_{3m-1}\) or \(E_6\), carrying matching
-  nontrivial 3-primary classes of both curves.
-  These conditions are necessary, not a construction
-  or a general exclusion. A useful next comparison is the simultaneous local
-  anti-invariant classes, available odd-torsion singularities and
-  the two exceptional-lattice budgets, before testing additional
-  homogeneous coefficient families.
+- **The actual endpoint frontier.** The [orbit-lattice/contact theorem](../../arguments/torus/fixed_surface_restriction_lifts.md#the-sextic-symmetric-arrangement-must-escape-ade-at-an-endpoint) strengthens the earlier nodal and ADE class calculations, pending independent audit. Off the shared endpoints each local almost-Cartier index divides the gcd of the two multiplicities. Thus (7,2) and (8,1) are smooth along both curves away from those endpoints; the contact/defect budget excludes both endpoints being smooth or Du Val. For (6,3) the same budget forces two index-nine A-type endpoints under that assumption, and the mixed exceptional pairing is too large for two numerical classes \(2H/3\). All three partitions therefore require at least one non-Du-Val endpoint. The new bound is not a normality assumption on the carrier away from the endpoints. Audit this extension before probing the actual worse endpoint strata in the symmetric sextic space; another global ADE lattice enumeration no longer addresses the remaining locus.
 - **Remaining equation bridge.** The joint first-layer kernel on a declared
   proper family with \(e_L>0\) remains a distinct question. A bound below
   \(e_L\) would force residual degree there; retain canonical end-adapted
@@ -532,13 +512,8 @@ This does not close the normalization, fixed-endpoint or embedded-kernel tests.
 
 ## Current choice and reassessment
 
-Retain KG02 provisionally, but **withdraw the \((5,4)\) sextic probe**:
-the involution--Bézout inequality excludes it outright, and the
-remaining \((6,3),(7,2),(8,1)\) two-support partitions are excluded
-on nodal sextic carriers. The current object is the geometry of
-the nonnodal carrier and its anti-invariant local divisor classes
-together with the global \(-Z_\pm^2=38/3\) budgets, not another
-unrestricted coefficient sweep. The exceptional quartic
+Retain KG02 provisionally. The \((5,4)\) sextic probe remains excluded, and the [contact/index plus mixed Hodge obstruction](../../arguments/torus/fixed_surface_restriction_lifts.md#the-sextic-symmetric-arrangement-must-escape-ade-at-an-endpoint) closes all three other partitions with both endpoints smooth or Du Val, pending independent audit. The next gate is the actual symmetric sextic locus with a worse endpoint, not another unrestricted coefficient sweep or global ADE enumeration. The all-degree almost-Cartier theorem and the local projection of the orbit lattice have independent value beyond this particular construction test. 
+The exceptional quartic
 classification has **already** acquired a complete geometric
 proof: residual genus/Ferrand doubling excludes asymmetric
 multiplicities, and self-linkage plus the Hilbert--Burch
@@ -548,7 +523,7 @@ replacement but **transferability**: which other lci/ACM
 supported unions admit comparably small canonical modules
 and two-generator liftability tests, and how do these
 interact with the even-eight carrier and vertical
-Hilbert-over-Chow fiber? The sextic ADE lattice feasibility
+Hilbert-over-Chow fiber? The non-Du-Val endpoint realization
 test and the existing KG05 elliptic inverse-support locus
 remain distinct competing investigations. None yet has
 a general-degree coverage theorem.

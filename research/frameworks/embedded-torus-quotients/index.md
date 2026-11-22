@@ -165,6 +165,10 @@ measures the reduced endpoint normalization lattice, not the
 complete Hilbert lift or its limit corrections.
 
 
+### From endpoint contacts to local divisor classes
+
+The [orbit-lattice/contact theorem](../../arguments/torus/fixed_surface_restriction_lifts.md#local-index-lattice-and-contact-capacity-of-symmetric-arrangements) supplies an intersection-theoretic use of the two-branch endpoint length: actual mate relations bound local index orders, and at odd-index smooth or Du Val common endpoints the first-symbol vanishing cannot exceed the contact length (for the stated involution). For the exchanged sextic translates the two contact lengths are four. Together with the mixed Hodge pairing this excludes both endpoints being smooth or Du Val, pending independent review. It does not identify the completed nonreduced endpoint algebra or reconstruct a pair from its cycle.
+
 ## Universal translate incidence
 
 Let \(T\) be the diagonal torus, \(H=T_C\), and

@@ -9,6 +9,10 @@ it should either force a positive contribution to the residual cycle,
 preserve the actual equations in a construction reaching zero, or identify
 an obstruction shared across proof families.
 
+## Actual local classes as a shared interface
+
+The [normalized Hodge/APic criterion](../../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) makes the fixed-carrier tests common to normal and nonnormal generically regular carriers, not to wholly thick ones. The [S2 power–socle argument](../../arguments/carriers/normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem) tests the same equality via actual local defects and extends the low-index exclusions. The [orbit-lattice/contact result](../../arguments/torus/fixed_surface_restriction_lifts.md#the-sextic-symmetric-arrangement-must-escape-ade-at-an-endpoint) uses those defects together with mixed intersection to narrow an arrangement realization locus. The [local residual attachment test](../../arguments/residuals/residual_capacity_and_constructions.md#local-index-forces-residual-attachment) localizes failures of the same Cartier divisibility to genuine residual support. These are precise interfaces, not an unrestricted residual theorem, and the new deductions require independent review.
+
 ## Pilot: degree four and the partial degree-five exclusions
 
 ### Bottom line
