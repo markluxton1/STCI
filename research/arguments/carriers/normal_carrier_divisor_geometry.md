@@ -1,6 +1,6 @@
 # Divisor equality and local socle criteria on a normal carrier
 
-**Status:** independently reviewed theorem. The Hodge equality criterion and exact-order argument were reconstructed during consolidation; the local criterion retains the normal-carrier index/socle theorem, primitive-triple certificate and separately scoped low-index exclusions as inherited premises at their exact hypotheses. This characterizes mate existence on a specified normal carrier; it does not exclude arbitrary normal carriers. The theorem has its explicit characteristic-zero scope, with the existence and exact-order arguments distinguished below.
+**Status:** independently reviewed Hodge-equality, index and local-socle theorems. The Hodge equality criterion and exact-order argument were reconstructed during consolidation; the local criterion retains the normal-carrier index/socle theorem, primitive-triple certificate and separately scoped low-index exclusions as inherited premises at their exact hypotheses. This characterizes mate existence on a specified normal carrier; it does not exclude arbitrary normal carriers. The theorem has its explicit characteristic-zero scope, with the existence and exact-order arguments distinguished below. **The newly consolidated all-degree cyclic-cover Euler formula in §3.5 and its quintic/sextic identifications have been checked algebraically against the recorded cases, but are not yet independently reviewed as a new proof package.**
 
 ## 1. A mate is equivalent to Hodge-index equality on a normal hypersurface
 
