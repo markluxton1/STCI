@@ -680,3 +680,131 @@ reduced Chow-matched CIs. No density theorem for that enlarged
 monoid is proved. Nor does the example refute density in the
 closure of all currently moment-covered realizations (it is itself
 covered). The unrestricted moment question remains open.
+
+
+## 11. The two extreme mixed coefficients of the quadric-spectrum equation
+
+**Exact comparison (characteristic zero; no invariance required for the
+spectral equation).** For a proper CI \(Y=V(F_a,G_b)\) with whole cycle
+\(\sum_i n_i[C_{u_i,v_i}]\), put
+\[
+ A=x_1x_2,\quad B=x_0x_3,\quad q_i=u_i/v_i,\quad
+ m=\sum_i n_i=ab/4,\qquad
+ H_Z(A,B)=\prod_i(A-q_iB)^{n_i}.
+\]
+This polynomial is **an actual member of \((F,G)\)**, not just of its
+radical. At the generic point of each \(C_i\), \(S/(F,G)\) is Artinian
+local of length \(n_i\), so its maximal ideal has \(n_i\)-th power
+zero. In particular \((A-q_iB)^{n_i}=0\) there. The product vanishes
+at every minimal associated prime, and \(S/(F,G)\) is Cohen--Macaulay
+with no embedded associated primes. Therefore \(H_Z\in(F,G)\).
+The standard inputs are complete-intersection Cohen--Macaulayness
+([Stacks, Tag 00S8](https://stacks.math.columbia.edu/tag/00S8)) and
+unmixedness ([Stacks, Tag 00N2](https://stacks.math.columbia.edu/tag/00N2)).
+This already appears as an implication in the quadric-pencil
+discussion; it is recorded here to make its exact scope explicit.
+
+Write \(e_j=e_j(q_1,\ldots,q_m)\), with the roots repeated according
+to multiplicity. Vieta's formulas give
+\[
+ H_Z=A^m-e_1A^{m-1}B+\cdots+
+ (-1)^{m-1}e_{m-1}AB^{m-1}+(-1)^me_mB^m,
+\quad
+ e_1=\sum n_iq_i,\quad
+ e_{m-1}=e_m\sum n_iq_i^{-1},\quad e_m\ne0.
+\]
+Thus the two mixed coefficients encode traces of **inverse** operators:
+\[
+ -[A^{m-1}B]H_Z=\operatorname{Tr}(\xi),\qquad
+ -\frac{[AB^{m-1}]H_Z}{[B^m]H_Z}
+ =\operatorname{Tr}(\xi^{-1}),\qquad \xi=A/B,
+\]
+on a generic length-\(m\) transverse algebra. The reciprocal is
+well-defined on each full-support component. The usual
+trace--norm/characteristic-polynomial identities (e.g.
+[Stacks, Tag 0BIE](https://stacks.math.columbia.edu/tag/0BIE))
+supply this pairing; Gorenstein duality by itself does not equate
+the two traces. Under the quotient torus scaling \(q\mapsto\lambda q\),
+the two traces have weights \(+1\) and \(-1\), respectively.
+Consequently there is no canonical same-weight linear identification
+without additional geometric structure.
+
+**Why the two ends of the quadric pencil are asymmetric.** Its two
+reducible members are
+\[
+ Q_0=V(A)=V(x_1)\cup V(x_2),\qquad
+ Q_\infty=V(B)=V(x_0)\cup V(x_3).
+\]
+On each translated quartic the coordinate hyperplane divisors are
+\[
+\begin{array}{c|c}
+x_0 &4p_\infty\\
+x_3 &4p_0\\
+x_1 &3p_\infty+p_0\\
+x_2 &p_\infty+3p_0 .
+\end{array}
+\]
+Hence the two planes of \(Q_\infty\) have quadruple endpoint contact,
+while those of \(Q_0\) have \(3+1\) contact. No ambient automorphism
+preserving the curve can exchange these two pairs of planes, since
+their intersection divisors on the curve have different multiplicity
+partitions. The apparent algebraic exchange \(A\leftrightarrow B\)
+does not preserve the fixed embedded rational-quartic problem.
+
+**An entire \((4,4)\) CI family with one coefficient free.** Fix
+\[
+ F=x_1^4-x_0^3x_3,\quad
+ G_{\alpha,\beta}
+ =x_2^4+\alpha x_1x_2x_3^2+\beta x_0x_3^3,\quad
+ \beta\ne0.
+\]
+The restrictions to the disjoint line \(L_{12}=V(x_0,x_3)\) are
+\(x_1^4,x_2^4\), so this is a proper CI. On the dense torus,
+using \([1:r:ur^3:vr^4]\), its equations are
+\(v=1\) and \(u^4+\alpha u+\beta=0\).
+The roots are all nonzero; their quartic components exhaust its
+degree \(16\), with the correct root multiplicities. Therefore
+\[
+ H_Z(A,B)=A^4+\alpha AB^3+\beta B^4.
+\]
+In particular \([A^3B]H_Z=0\) for every \(\alpha\), while
+\([AB^3]H_Z=\alpha\) is free. Choosing \((\alpha,\beta)=(-1,1)\)
+gives the squarefree polynomial \(q^4-q+1\), an explicit reduced
+proper CI with a nonzero opposite mixed coefficient.
+For this example \(\sum q_i^{-1}=-\alpha/\beta\).
+This conclusively disproves the proposed general pairing as
+simultaneous vanishing, even within invariant actual CI arrangements.
+
+**Why special degrees can nevertheless have both coefficients zero.**
+Coordinate reversal identifies the fixed carrier \(F\) above with
+the already-classified quartic carrier in
+[fixed-carrier Chow arrangements](fixed_carrier_chow_arrangements.md).
+The normalization semigroup is \(\langle3,4\rangle\), whose positive
+gaps are exactly \(\{1,2,5\}\). The descent theorem says that in
+a fixed-carrier \((4,m)\) arrangement
+\[
+ e_j(q)=0\quad\text{precisely for the obligatory missing indices }
+ j\in\{1,2,5\}\cap[1,m],
+\]
+with no implication that other coefficients must be nonzero.
+The opposite mixed term has \(j=m-1\). Hence **both extreme mixed
+coefficients are forced zero on this carrier for \(m=3\) and \(m=6\)**:
+\(m-1=2,5\), respectively. In degree \((4,4)\), \(m-1=3\)
+is allowed and the explicit family shows it varies. The case \(m=2\)
+has no proper fixed-carrier realization (its nonzero constant
+coefficient would itself occupy a forbidden gap); \(m=5\) is also
+empty. The simultaneous vanishing for \(m=3,6\) is a
+**degree-specific conductor/semigroup phenomenon**, not a symmetry
+of the general quadric pencil.
+
+**Consequence for the universal obstruction.** It is legitimate to
+compare both ends as the trace and reciprocal trace, or as the
+first polar coefficients at the reducible pencil members. It is not
+legitimate to infer the vanishing of the reciprocal trace from \(M_1=0\),
+nor to argue by an involution exchanging the pencil ends.
+A more plausible global argument must explain why the *particular*
+trace \(\operatorname{Tr}(A/B)\), but not its reciprocal, has a
+missing coefficient for all actual Chow-matched CIs. The
+low-fiber-layer trace formula in
+[fixed surfaces and endpoint algebras](fixed_surface_and_endpoint_algebras.md#7-the-first-trace-depends-only-on-two-lower-fiber-degree-layers)
+provides an exact test of this proposed one-sided mechanism.
