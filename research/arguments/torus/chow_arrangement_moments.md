@@ -228,3 +228,164 @@ without the trace hypotheses remain open.
 A connected torus cannot nontrivially permute a finite set of components.
 Restricting component parameters to a one-dimensional subtorus or coset
 of \(T/H\) is a different condition, not assumed here.
+
+
+## The homogeneous transverse Chow form as a section norm
+
+**New synthesis, pending independent review.** The first moment above is
+only the first coefficient of a more canonical object. The algebraic inputs
+are classical: a zero-dimensional Chow form is a norm/determinant of
+multiplication, and border-basis theory characterizes genuine multiplication
+tables. The project-specific point is to write that norm in the homogeneous
+transverse coordinates of the translated-quartic family and compare it with
+the resultant of the actual homogeneous sources.
+
+Use homogeneous transverse coordinates
+\[
+ p=[W:U:V],\qquad C_p=[Ws^4:Ws^3t:Ust^3:Vt^4]
+\]
+on \(WUV\ne0\), so \(C_{[1:u:v]}=C_{u,v}\). For
+\(Z=\sum_i n_i[p_i]\), \(\sum_i n_i=m\), retain
+\[
+ {\cal C}_Z(X,Y,Z_0)=\prod_i(W_iX+U_iY+V_iZ_0)^{n_i}. \tag{CHN1}
+\]
+Its binary specialization is
+\[
+ H_Z(A,B)\doteq{\cal C}_Z(0,-B,A)
+ =\prod_i(V_iA-U_iB)^{n_i}. \tag{CHN2}
+\]
+Thus \(H_Z\) remembers \(U_i/V_i\), while \({\cal C}_Z\) retains the paired
+homogeneous transverse coordinates.
+
+Take the symmetric transverse plane \(\Pi:x_3-x_0=0\), with moving line
+\(M_{\alpha,\beta,\gamma}:\alpha x_0+\beta x_1+\gamma x_2=0\). For one
+translate put
+\[
+\begin{aligned}
+ \Psi_{W,U,V}(\alpha,\beta,\gamma)
+ ={}&WV^3\alpha^4-4WUV^2\alpha^2\beta\gamma-W^2V^2\beta^4\\
+   &+2WU^2V\beta^2\gamma^2-U^4\gamma^4 . \tag{CHN3}
+\end{aligned}
+\]
+This is bihomogeneous of degree four in both triples. On the torus it is,
+up to scalar, the Chow form of \(C_p\cap\Pi\). Indeed
+\[
+ \Psi_{1,u,v}
+ =\operatorname{Res}_t(vt^4-1,\alpha+\beta t+\gamma u t^3),
+\]
+and hence
+\[
+ \prod_{t^4=v^{-1}}(\alpha+\beta t+\gamma u t^3)
+ =\alpha^4-4{u\over v}\alpha^2\beta\gamma-{1\over v}\beta^4
+ +2{u^2\over v^2}\beta^2\gamma^2-{u^4\over v^3}\gamma^4. \tag{CHN4}
+\]
+
+Define the multiplicative transform
+\[
+ {\cal N}_Z(\alpha,\beta,\gamma)
+ :=\prod_i\Psi_{W_i,U_i,V_i}(\alpha,\beta,\gamma)^{n_i}. \tag{CHN5}
+\]
+It is determined by the factorization of \({\cal C}_Z\) and has degree
+\(4m\) in the moving-line coordinates. This is the precise
+Galois-polynomial interface: \({\cal C}_Z\) records the unordered transverse
+roots, while \({\cal N}_Z\) is their norm through the universal quartic
+kernel (CHN3).
+
+For an actual proper degree-\((a,b)\) pair \(Y=V(F,G)\) with translated
+fundamental cycle \(Z\), \(ab=4m\), the projective resultant on \(\Pi\)
+gives
+\[
+ \boxed{\operatorname{Res}_{\Pi}
+ (F|_\Pi,G|_\Pi,\alpha x_0+\beta x_1+\gamma x_2)
+ \doteq{\cal N}_Z(\alpha,\beta,\gamma).} \tag{CHN6}
+\]
+This is a specialization of the global Chow-resultant certificate, not a new
+resultant theorem.
+
+Within the translated-quartic Chow fiber, this one plane loses no
+set-theoretic arrangement information. Every linear factor of the section
+Chow form has normalized shape
+\[
+ \alpha+t\beta+ut^3\gamma,
+\]
+so it recovers \(t\), then \(u\), and then \(v=t^{-4}\). Hence
+\(Z\cap\Pi\), and therefore \({\cal N}_Z\), determines the multiset of
+transverse parameters with multiplicities. This injectivity is asserted only
+on the torus arrangement locus; equality of one plane section for arbitrary
+curves does not imply equality of global Chow cycles.
+
+After Chow-polytope rigidity has already placed a candidate in this family,
+sole support is therefore equivalent to
+\[
+ {\cal N}_Z\doteq\Psi_{1,1,1}^{\,m},\qquad
+ \Psi_{1,1,1}
+ =\alpha^4-4\alpha^2\beta\gamma-\beta^4
+  +2\beta^2\gamma^2-\gamma^4. \tag{CHN7}
+\]
+Without the translated-family hypothesis, (CHN7) is only a section condition.
+
+### Multiplication matrices and all transverse moments
+
+Let \(B_\Pi\) be the finite section algebra of an actual pair in this family.
+All support lies in \(x_0\ne0\). Put
+\(\xi=x_1/x_0,\eta=x_2/x_0\), with multiplication matrices
+\(M_\xi,M_\eta\). Classical norm theory gives
+\[
+ {{\cal N}_Z(1,y,z)\over{\cal N}_Z(1,0,0)}
+ =\det(I+yM_\xi+zM_\eta). \tag{CHN8}
+\]
+Thus the transverse Chow polynomial is literally a joint
+characteristic/norm polynomial.
+
+In characteristic zero,
+\[
+ \log\det(I+yM_\xi+zM_\eta)
+ =\sum_{\ell\ge1}{(-1)^{\ell+1}\over\ell}
+   \operatorname{Tr}(yM_\xi+zM_\eta)^\ell, \tag{CHN9}
+\]
+and for a translated arrangement
+\[
+ \operatorname{Tr}(M_\xi^rM_\eta^s)=
+ \begin{cases}
+  4\displaystyle\sum_i n_i u_i^s v_i^{-(r+3s)/4},
+       &r+3s\equiv0\pmod4,\\
+  0,&r+3s\not\equiv0\pmod4,
+ \end{cases} \tag{CHN10}
+\]
+for \(r,s\ge0\), not both zero. This follows by summing
+\(u_i^s t^{r+3s}\) over \(t^4=v_i^{-1}\).
+
+The existing first moment is exactly
+\[
+ [y]{\cal N}\,[z]{\cal N}-[yz]{\cal N}
+ =\operatorname{Tr}(M_\xi M_\eta)
+ =4\sum_i n_i{u_i\over v_i}. \tag{CHN11}
+\]
+Thus the binary \(H_Z\) is the natural polynomial for the first trace, while
+the full \({\cal C}_Z\) and \({\cal N}_Z\) retain the paired higher moments.
+
+The congruences (2) do **not** make all higher moments vanish. Modulo
+\((x_0^2,x_3^2)\), \((r,s)=(1,1)\) is the only positive mixed trace whose
+possible diagonal coefficient
+\(x_0^{(3r+s)/4}x_3^{(r+3s)/4}\) survives. Higher vanishings require stronger
+source information.
+
+### Literature boundary and the remaining problem
+
+D'Andrea--Jeronimo, *Rational Formulas for Traces in Zero-Dimensional
+Algebras* (AAECC 19 (2008), 495--508, arXiv:math/0503721), supply the
+classical Chow/trace input. Kehrein--Kreuzer, *Characterizations of Border
+Bases* (J. Pure Appl. Algebra 196 (2005), 251--270), supply the classical
+border-basis/commuting-multiplication-matrix criterion.
+
+The project-specific application is (CHN3), fixed-plane injectivity on the
+translated-quartic fiber, and the identification of the old first Chow
+separator with the first coefficient of the full norm transform. Independent
+review is pending.
+
+The realization question is now finite and source-facing: determine which
+\({\cal C}_Z\) have \({\cal N}_Z\) in the resultant image of the prescribed
+homogeneous section spaces. The perfect-power target (CHN7) is still an exact
+form of the original existence problem, not an obstruction by itself.
+Progress must extract lower-complexity coefficient, rank, tangent, or
+border-algebra conditions on that image.
