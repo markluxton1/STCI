@@ -472,3 +472,18 @@ characteristic zero.  They are nevertheless not complete intersections by
 the accepted invariant-supported CI trace theorem.  Therefore support,
 purity, contact, symmetry and the exact CI Hilbert polynomial still do not
 recover the required two homogeneous generators.
+
+
+The source failure is elementary on the Cartier controls:
+\[
+H^0(I_{nC}(d))=Q\cdot H^0(\mathcal O_{\mathbf P^3}(d-2))
+\qquad(d<3n).
+\]
+This follows from
+\(0\to\mathcal O(d-2)\xrightarrow{\cdot Q}I_{nC}(d)
+\to\mathcal O_Q(dH-nC)\to0\) and the ruling class of \(C\).
+For any prospective CI degrees \(a,b\ge2\) with \(ab=4n\), both
+\(a,b<3n\), so every source pair through \(nC\) has the fixed component
+\(Q\).  Thus the exact datum omitted by the support/contact/Hilbert package
+in this control is not subtle: it is the **proper-pair/source-gcd
+condition**.
