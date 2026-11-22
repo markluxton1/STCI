@@ -661,13 +661,15 @@ must live in that finite endpoint correction or in the global presentation
 of the full ideal.
 
 
-## A diagonal nilpotent family with complete-intersection Hilbert polynomials
+## The diagonal quotient recovers the Cartier multiples \(nC\)
 
-**Adversarial control, pending independent review.**  The classical
-Bănică--Forster theory classifies local multiple structures through
-multiplicity four, but does not identify the following global constant-orbit
-image.  The construction itself is an immediate application of R-0051--R-0053;
-no new local classification is claimed.
+**Adversarial control and reinterpretation, pending independent review.**
+This is not a new family of multiple curves.  The diagonal constant quotient
+below is exactly the familiar Cartier multiple \(nC\) on the unique smooth
+quadric \(Q\); for \(n=4\) the repository already uses \(4C\subset Q\) as
+a \((4,4)\)-Hilbert-polynomial control.  The useful new observation is the
+all-\(n\) endpoint calculation and the exact list of CI polynomials that a
+Cartier multiple \(nC\) can share.
 
 Fix characteristic zero and
 \[
@@ -678,10 +680,26 @@ Let \(Z_n\) be the constant embedded orbit image
 \[
  [s^4:s^3t:(1+\epsilon)st^3:(1+\epsilon)t^4].
 \]
-Its reduced support is \(C_0\), and R-0051 makes \(Z_n\) a pure
-Cohen--Macaulay curve with no embedded points.
+Because \(u=v\), the quadric equation
+\[
+ Q=x_0x_3-x_1x_2
+\]
+vanishes identically.  On \(x_0=1\), put
+\(r=x_1\) and \(A=x_2-r^3\).  The map to \(B_n[r]\) sends
+\(A\mapsto r^3\epsilon\).  Since the \(\epsilon^j\) are a
+\(k[r]\)-basis and \(r\) is a nonzerodivisor, the kernel in the quadric
+chart is exactly
+\[
+ (A^n).
+\]
+The opposite chart gives the same statement.  Hence
+\[
+ \boxed{\quad Z_n=nC\ \text{as a Cartier divisor on }Q.\quad} \tag{D0}
+\]
 
-At zero, \(r^4v=r(r^3u)\), so after subtracting scalar terms
+The constant-quotient endpoint description nevertheless gives a useful
+independent check.  At zero, \(r^4v=r(r^3u)\), so after subtracting scalar
+terms
 \[
  A_0
  =k[[r]][r^3\epsilon]
@@ -696,17 +714,12 @@ Hence
  \mathfrak c_0=r^{3(n-1)}B_n[[r]].
  \tag{D2}
 \]
-At infinity, since \(u=v\),
+At infinity,
 \[
- \alpha={v^2\over u^3}=(1+\epsilon)^{-1},
- \qquad
- \beta={v^3\over u^4}=(1+\epsilon)^{-1}.
+ \alpha=\beta=(1+\epsilon)^{-1}.
 \]
-Thus \(z^4\beta=z(z^3\alpha)\).  The nilpotent
-\[
- \epsilon'=(1+\epsilon)^{-1}-1
-\]
-is another generator of the maximal ideal of \(B_n\), so
+Writing \(\epsilon'=(1+\epsilon)^{-1}-1\), another generator of the
+maximal ideal of \(B_n\), gives
 \[
  A_\infty
  =\bigoplus_{j=0}^{n-1} z^{3j}k[[z]]\,(\epsilon')^j,
@@ -714,27 +727,30 @@ is another generator of the maximal ideal of \(B_n\), so
  \delta_\infty={3n(n-1)\over2}.
  \tag{D3}
 \]
-The endpoint defects are therefore exactly symmetric in every length.
+Thus the endpoint defects are exactly symmetric.
 
-Substituting (D2)--(D3) into R-0052 gives
+R-0052 gives
 \[
  \boxed{
- P_{Z_n}(d)=4nd+4n-3n^2,\qquad
- p_a(Z_n)=3n^2-4n+1 .
+ P_{nC}(d)=4nd+4n-3n^2,\qquad
+ p_a(nC)=3n^2-4n+1 .
  }
  \tag{D4}
 \]
-The curve is intrinsic-torus fixed.  By the
-[sole-support constant-orbit involutivity theorem](#sole-support-constant-orbit-images-are-automatically-involutive-in-characteristic-zero),
-\(Z_n\) is also involutive for the quartic symplectic bracket.
-
-Now compare (D4) with the Hilbert polynomial of a degree-\((a,b)\)
-complete intersection:
+This is also immediate from adjunction on \(Q\):
+\(C^2=6\) and \(K_Q\!\cdot C=-8\), so
 \[
- P_{a,b}(d)
- =ab\,d+{ab(4-a-b)\over2}.
+p_a(nC)=1+\frac{n^2C^2+nK_Q\!\cdot C}{2}.
 \]
-Degree equality requires \(ab=4n\).  Equality of the constant terms is then
+The curve \(nC\) is intrinsic-torus fixed and, by the
+[sole-support constant-orbit involutivity theorem](#sole-support-constant-orbit-images-are-automatically-involutive-in-characteristic-zero),
+is involutive for the quartic symplectic bracket.
+
+Compare (D4) with
+\[
+ P_{a,b}(d)=ab\,d+{ab(4-a-b)\over2}.
+\]
+Degree equality requires \(ab=4n\).  Equality of constant terms is then
 equivalent to
 \[
  3n=2a+2b-4,
@@ -749,25 +765,24 @@ For positive integers \(a,b\), the only solutions are
 \]
 with \(n=6,4,6\), respectively.
 
-Consequently \(Z_4\) has the exact \((4,4)\) complete-intersection Hilbert
-polynomial \(16d-32\), while \(Z_6\) has the exact \((3,8)\) polynomial
-\(24d-84\).  In characteristic zero neither is a homogeneous complete
-intersection: their homogeneous ideals are torus invariant with radical
-\(I_C\), so the accepted
+Thus the already familiar \(4C\subset Q\) has the exact \((4,4)\)
+polynomial \(16d-32\), while \(6C\subset Q\) has the exact \((3,8)\)
+polynomial \(24d-84\).  In characteristic zero neither is a homogeneous
+complete intersection of the matching type: their ideals are torus invariant
+with radical \(I_C\), so the accepted
 [invariant-supported CI exclusion](../results/invariant_supported_ci_exclusion.md)
-would contradict any two-generator complete-intersection presentation.
+forbids any two-generator complete-intersection presentation.
 
-These examples are deliberately stronger controls than a Hilbert-polynomial
-mismatch.  They show that even the conjunction
+The point is therefore not a new thickening but a sharp control on the
+current invariant package.  Even
 \[
  \text{sole support}
  +\text{purity/CM}
  +\text{intrinsic-torus invariance}
  +\text{Poisson involutivity}
- +\text{a CI Hilbert polynomial}
+ +\text{the exact CI Hilbert polynomial}
 \]
-does **not** recover a complete-intersection ideal.  What is missing is the
-actual homogeneous two-generator presentation (equivalently, on the
-CI-polynomial Hilbert locus, a proper pencil in the prescribed source
-degrees).  Thus the remaining endpoint/contact program cannot be reduced to
-numerical endpoint defects or involutivity of the pure orbit image.
+does **not** recover the actual homogeneous two-generator presentation.
+The endpoint/contact program must retain minimal-generator incidence or an
+equivalent source condition.
+
