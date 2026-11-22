@@ -2021,6 +2021,159 @@ kept for its wider use beyond the forbidden
 mixed case.
 
 
+### Finite-index rigidity of higher marked jets
+
+**Necessary theorem, characteristic zero, pending independent review.**
+The exact marked finite-lattice basis above has an additional
+consequence for \(q\ge3\). It constrains the coefficient of
+the *actual* local equation \(S'\), before passing to an
+intrinsic graded algebra.
+
+Let \(R=k[[x]],\ B=R[v]/(v^{qh})\), \(q\ge2,h\ge2\),
+and let
+\[
+ y=xv,\quad t=f(x,v),\quad f(x,0)=0,\quad
+ f(0,v)=v^q u(v),\quad u(0)\ne0.
+\]
+Assume the image algebra \(A=R[y,t]\subset B\)
+has finite colength exactly \(qh(q-1)/2\).
+The classes \(y^it^j\) for
+\(0\le i<q,\ 0\le j<h\) have distinct initial
+\(v\)-orders \(i+qj\) after extracting \(x^i\).
+Consequently their \(R\)-span \(M\) has that same
+colength, so \(A=M\). This is the finite-index
+basis proof above, expressed without global geometry.
+In particular the *finitely many border products*
+\[
+ y^q t^j\ (0\le j<h),\qquad
+ y^i t^h\ (0\le i<q)                               \tag{MJ1}
+\]
+must all belong to the displayed \(R\)-span \(M\).
+Conversely these border products being in \(M\)
+make \(M\) closed under multiplication by
+its algebra generators \(y,t\), hence \(A=M\).
+Thus (MJ1) is an exact finite **local equation gate**
+for attaining the maximal permitted finite-modification
+colength. In a calculation one should reduce
+these products by the actual \(qh\times qh\)
+basis matrix over \(k[[x]]\), rather than only
+check its determinant.
+
+Write \(f(x,v)=f_0(v)+x f_1(v)+O(x^2)\).
+Then (MJ1) implies
+\[
+ \boxed{\quad f_1(v)\equiv\lambda v\pmod {v^q},
+      \qquad \lambda\in k.\quad}                       \tag{MJ2}
+\]
+Here \(\operatorname{char}k\nmid h\) is enough for
+this first-jet assertion if the same finite-index
+identity holds in that characteristic.
+
+**Proof.** The element \(t^h=f^h\) lies in
+\(M\). Modulo \(x^2B\) its expansion is
+\(h x f_0^{h-1}f_1\), because
+\(f_0^h=v^{qh}u^h=0\). In an \(R\)-linear
+expression in the basis \(y^it^j\),
+its reduction modulo \(x\) forces all
+coefficients of the \(i=0\) basis elements
+to be divisible by \(x\), since
+\(1,f_0,\ldots,f_0^{h-1}\) are independent
+over \(k\) modulo \(v^{qh}\). Dividing by
+\(x\) and reducing modulo \(x\) gives
+\[
+ h f_0^{h-1}f_1
+ =\sum_{j<h}a_j f_0^j+
+      \sum_{j<h}b_j v f_0^j
+              \pmod {v^{qh}} .
+\]
+Every displayed term has distinct initial
+\(v\)-order \(qj\) or \(qj+1\).
+Since \(f_1(0)=0\), the left side has
+\(v\)-order at least \(q(h-1)+1\).
+Triangular independence forces all
+coefficients to vanish except possibly
+\(b_{h-1}\). Divide by the unit \(u^{h-1}\)
+and the power \(v^{q(h-1)}\), obtaining
+\(h f_1=\lambda'v\bmod v^q\), as required.
+The proof is a DVR lattice computation,
+not a deformation-theoretic existence
+theorem. \(\square\)
+
+For \(q=2\) (MJ2) is automatic after the
+linear \(v\)-term is recognized; the previous
+exact completed normal form ML7 is stronger.
+For \(q=3\) it forbids an \(xv^2\) coefficient
+in \(f\). For example,
+\[
+ f=v^3+xv^2,\qquad B=k[[x]][v]/(v^{12})
+\]
+does **not** have colength twelve
+over its image \(k[[x]][xv,f]\), although
+the canonical twelve basis columns alone
+have colength twelve. Indeed
+\(f^4=4xv^{11}+O(x^2)\) in \(B\), whereas
+all degree-11 monomials in the canonical
+basis require an \(x^2\)-factor.
+The extra product enlarges the subalgebra.
+This is a control against checking the
+resultant determinant while omitting
+multiplication closure.
+
+On the marked \((3p,4q)\) edge where the
+graph is primitive at the marked point,
+put \(h=2p\). The exact finite quotient
+length SC3 forces precisely the colength
+in this theorem. In the actual marked
+chart with \(S':t=f(x,v)\) smooth, the
+change \(t\mapsto t-\lambda y\) preserves
+the marked conic and quintic, and removes
+the linear term in (MJ2) so that
+\[
+ \partial_x f(0,v)\equiv0\pmod {v^q}.                  \tag{MJ3}
+\]
+This is a local *source constraint* on the
+actual image section, not a claim that every
+locally allowed \(f\) lifts to a degree-\(2q\)
+section or yields the required global CI.
+
+There is a further necessary contact condition
+in the **endpoint** chart where the distinguished
+line has \(t=-4x^3,\ v=-2x\). In the original
+fixed coordinates, write
+\(f=f_0+x f_1+x^2 f_2+\cdots\).
+If the order on this line is the required \(q\)
+and \(q\ge3\), (MJ2) forces
+\(\lambda=0\) (otherwise the line contact has
+order two). For \(q\ge4\), the order-three
+coefficient must then cancel, giving
+\[
+ \boxed{\ f_1(v)\equiv0\pmod {v^q},\qquad
+                [v]f_2(v)=2.\ }                        \tag{MJ4}
+\]
+Indeed \(f_0(-2x)=O(x^q)\) and
+\(x^2 f_2(-2x)=-2[v]f_2\,x^3+O(x^4)\);
+the line equation has coefficient \(-4\)
+at \(x^3\). For \(q=3\), the order-three
+coefficient is only required to be nonzero,
+not to vanish. These statements use the
+specific marked coordinates: a simultaneous
+coordinate change of \(t\) and the line
+changes the displayed coefficient, but
+not the intersection order. They do
+not exclude the endpoint rows; they
+give concrete low-jet constraints to impose
+on their actual homogeneous section spaces.
+
+The mechanisms involved here are the
+standard DVR Smith/index comparison and
+finite Weierstrass expansion, already used
+in SC3 and ML7. The nontrivial additional
+step is to use **algebra closure of the full
+finite image**, rather than merely
+a section-space determinant. No all-degree
+novelty claim or local-to-global lift
+claim is made.
+
 ### The opposite marked stratum: a smooth image carrier and a forced graph defect
 
 There is a complementary exact comparison

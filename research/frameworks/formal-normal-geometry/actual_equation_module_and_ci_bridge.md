@@ -21,6 +21,19 @@ A further distinction concerns the **actual equation module**: cancellation can 
 The [order-one](../../results/order_one.md) and [jet geometry](../../results/jet_geometry.md) analyses study how ambient sections lift through successive thickenings and how the restriction maps can fall short. When both normal orders are at least two, the [entirely-thick numerical restrictions](../../results/entirely_thick.md) use the exceptional cycle of a proper sole-support pair with balanced normal bundle. The historical quartic-carrier cases are covered by [STCI-R-0001](../../results/quartic_carrier_exclusion.md).
 
 
+The [finite marked-index equation gate](../../arguments/residuals/blowup_residual_geometry.md#finite-index-rigidity-of-higher-marked-jets)
+makes one formerly scalar boundary condition into an
+actual multiplication-closure test on \(q+h\)
+border products of a local image algebra.
+The first nontrivial jet forbids \(xv^i\),
+\(2\le i<q\), in the smooth marked graph
+model, modulo the permitted linear \(xv\)
+coordinate correction. This is not the same
+as the intrinsic relation-lifting obstruction:
+it presupposes a genuine finite map of the
+actual strict and image CIs, and still needs
+a homogeneous section lift.
+
 ## 3.8 The unresolved interface
 
 The missing theorem would give checkable hypotheses under which an actual pair's common-direction scheme determines a saturated global root relation and a controlled second quotient relation, including special-point defects. The distinctions between generic factors, global saturation, full initial ideals, fiberwise coprimality and embedded lifting remain essential.

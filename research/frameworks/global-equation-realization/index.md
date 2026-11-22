@@ -212,6 +212,20 @@ can contain a power \(A^N\) only with \(4N>b\). No upper bound meeting
 that threshold, or automatic extension of scalar semigroup descent to
 the relation module, is established.
 
+The [marked finite-index multiplication gate MJ1--MJ4](../../arguments/residuals/blowup_residual_geometry.md#finite-index-rigidity-of-higher-marked-jets)
+adds a necessary local test for the primitive-at-marked-point
+edge: the prescribed colength must be attained by an
+**algebra**, not just a rank-\(c\) lattice. Multiplication
+closure reduces to \(q+h\) border products, and for
+\(q\ge3\) forces the first base-direction jet to be
+linear in the normal parameter modulo its \(q\)-th
+power. The endpoint test line yields a specific
+second-base-jet coefficient when \(q\ge4\).
+These are testable in the *actual* \(V_5\)
+section spaces. They do not identify the
+remaining nonprimitive mixed or endpoint
+realization loci.
+
 ### What the equality-boundary correspondence leaves to realization
 
 The [actual marked section spaces](../../arguments/residuals/blowup_residual_geometry.md#the-marked-correspondence-on-the-whole-equality-boundary)
