@@ -94,8 +94,7 @@ normal-symbol syzygy modules. Classical linkage identifies
 \[
  J/L\simeq\omega_R\otimes\omega_Y^{-1}|_R .
 \]
-The quotient by \(I^n\) is exact as a quotient module,
-so \(Q_n\simeq(\omega_R/I^n\omega_R)\otimes\omega_Y^{-1}\).
+Taking the quotient by \(I^n\) of this module isomorphism gives \(Q_n\simeq(\omega_R/I^n\omega_R)\otimes\omega_Y^{-1}\).
 The parent canonical module on \(R\) is essential;
 it cannot be replaced by a finite conductor on \(C\).
 

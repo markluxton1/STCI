@@ -336,6 +336,25 @@ and cannot be used unchanged for a center
 equal to the support or for generically
 different algebras.
 
+The [interior signed finite transfer](blowup_residual_geometry.md#signed-finite-transfer-throughout-the-interior-equality-boundary)
+removes the earlier sole-support image limitation for the
+transverse-center comparison by using the full primary component
+and actual attachment to the residual center. If the strict
+sole-support intersection has length \(c\), the image equations
+subtract center orders \(u,v\), and the marked curve meets the
+center once transversely, the finite quotient length \(\delta\)
+and full image attachment \(h\) satisfy
+\(2\delta+h=c(u+v-1)\) by adjunction and linkage.
+When generic curvilinearity holds, the signed image
+top defect \(D_{Z,\rm top}-H_0\), not its unsigned defect,
+is obtained from the strict one by adding
+\(((c-1)\xi-(u+v-1))[z]\).
+This is useful on the genuine interior of the marked
+\(V_5\) equality boundary and on other actual transverse
+blowup diagrams. It requires the actual residual center
+and finite primary map, and does not address arbitrary
+vertical components or generic multiplicity changes.
+
 ## Review and unresolved scope
 
 A ramified multisection

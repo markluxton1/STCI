@@ -1331,6 +1331,142 @@ actual support, relative canonical correction, and
 degree of the conormal modification; these are not
 automatic at the next blowup.
 
+### Signed finite transfer throughout the interior equality boundary
+
+**New extension of SC3--SC4, pending independent review.**
+The caveat at the end of the preceding section is genuine
+for the entire image CI but can now be resolved by retaining
+its full primary component. Use the marked correspondence
+on the whole zero-direction boundary, with strict intersection
+\(W\) supported on \(T\), image quintic \(\Delta\) and
+marked conic \(\Gamma\). Put
+\[
+ u=a-3p,\quad v=b-3q,\qquad c=ab/4-pq .
+\]
+The actual image CI \(Y\) is defined by divisors of degrees
+\(a-2p,b-2q\) in \(M\), with exact orders \(u,v\) along
+\(\Gamma\). Its cycle is
+\[
+ [Y]=c[\Delta]+uv[\Gamma].
+\]
+Indeed off \(\Gamma\) this follows from the actual strict
+intersection and the graph isomorphism. At the generic point
+of \(\Gamma\) the two initial forms of degrees \(u,v\) have
+no common root by the ruling test; hence their local
+intersection multiplicity is \(uv\) (zero if one has
+order zero). No other curve can occur, and purity prevents
+isolated extra components.
+
+Write \(Z\) for the full primary component of \(Y\) on
+\(\Delta\) and \(R\) for its linked residual on
+\(\Gamma\) (empty if \(uv=0\)). The finite map
+\(f:W\to Y\) has scheme image \(Z\): it is proper
+quasi-finite because its reduced map is an isomorphism
+onto \(\Delta\); its image is pure by injection into
+\(f_*\mathcal O_W\) and agrees with the generic primary
+scheme of \(Y\). Thus \(W\to Z\) is finite, generically
+an isomorphism, and an isomorphism away from \(z\).
+In particular this is a finite map even though the
+whole image CI has another component.
+
+Set
+\[
+ \delta=\operatorname{length}((f_*\mathcal O_W)/\mathcal O_Z)_z,
+ \qquad h=\operatorname{length}(Z\cap R),
+ \qquad H_0=\Delta\cap R
+\]
+where \(H_0\) in the last expression is the *reduced
+marked support's scheme-theoretic attachment divisor*
+on \(\Delta\), not the reduction of the finite intersection.
+All these finite modules are supported at \(z\).
+Actual adjunction on the smooth ambient conic blowup gives
+\[
+ \omega_W=f^*(\omega_Y|_Z)
+                 \otimes\mathcal O_W((1-u-v)Q').
+\]
+On the possibly non-Gorenstein \(Z\), ordinary linkage
+gives
+\[
+ \omega_Z=I_{Z\cap R/Z}\otimes\omega_Y|_Z .
+\]
+Taking Euler characteristics and using Serre duality for
+both CM curves yields
+\[
+ \chi(\omega_Y|_Z)=-\chi(\mathcal O_Z)+h,\qquad
+ \chi(\omega_W)=-\chi(\mathcal O_Z)+h+\delta+
+                                 c(1-u-v).
+\]
+On the other hand \(\chi(\omega_W)=-\chi(\mathcal O_Z)-\delta\).
+Here the twist degree contributes \(c(1-u-v)\) since
+\(Q'\cdot T=1\), by the Hilbert polynomial of a pure curve
+(or the saturated flag when curvilinear). Thus
+\[
+ \boxed{2\delta+h=c(u+v-1).}                             \tag{FT1}
+\]
+This formula does not assume generic curvilinearity.
+It is a comparison of actual finite structure sheaf
+quotient and actual thick attachment lengths. In
+particular \(h\le c(u+v-1)\); one cannot keep the
+edge value of \(\delta\) unchanged when \(R\ne\varnothing\).
+When \(uv=0\), \(h=0\), recovering SC3 on the outer edge.
+
+Now assume the shared generic algebra of \(Z,W\) is
+curvilinear. Retain the first conormal modification
+\(\Xi=\xi[z]\), \(\xi\in\{0,1\}\), of SC4, since
+the same ambient conormal inclusion supplies it.
+Apply the [full-primary duality LA1--LA4](residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component)
+to \(Z\) with actual attachment to \(R\). For \(W\)
+the full Gorenstein identity applies. The general
+finite-lattice comparison CF3 gives
+\[
+ 2\delta=c(c-1)\xi+cD_{W,\rm top}(z)
+     -c(D_{Z,\rm top}(z)-H_0(z))-h .
+\]
+With FT1 this becomes
+\[
+ \boxed{D_{Z,\rm top}-H_0
+ =D_{W,\rm top}+\big((c-1)\xi-(u+v-1)\big)[z].}          \tag{FT2}
+\]
+Away from \(z\) the two structures and their defects agree.
+This is exactly the signed socle transfer: on the interior
+it is incorrect to use \(D_{Z,\rm top}\) in place of
+\(D_{Z,\rm top}-H_0\).
+If the graph is primitive at the mark and \(\xi=0\),
+FT2 forces \(H_0(z)\ge u+v-1\) on the image.
+If it is primitive there and \(\xi=1\), the signed image
+defect at the mark is \(c-u-v\).
+The finite index, the first-line modification and all
+individual layer defects are also coupled by CF3.
+For any actual image generator of nonzero first symbol
+the relation-line argument SM3 continues to apply,
+now subtracting \(u\) or \(v\) respectively, since
+the image and strict generic algebras along the marked
+quintic agree.
+
+This extends the geometric transfer to the genuine
+interior two-component image problem, without assuming
+the image primary is Gorenstein or the residual conic
+primitive. The full attachment module there is also
+the first local cohomology annihilator dual by LC-A1.
+The image has Picard rank one in the surrounding
+threefold but has a *two-component* actual intersection;
+the singleton mate-compression conclusion must not
+be substituted for its actual multiplicity relation.
+No new realization on the interior is asserted.
+
+The proof of FT1--FT2 works for any transverse blowup
+of a smooth curve center meeting the reduced marked
+curve at a single transverse point, provided the
+actual strict CI is sole-support there and the image
+CI has only the marked component and the center as
+its reduced components. For multiple such transverse
+points the finite-quotient argument gives the aggregate
+degree identity with the proper sum of relative
+intersection degrees; a pointwise FT1 at each mark
+would need a local comparison of the canonical maps
+rather than just Euler characteristics.
+
+
 ### The marked line excludes primitivity at the mixed sextic boundary
 
 **New necessary theorem, pending independent review.** On the

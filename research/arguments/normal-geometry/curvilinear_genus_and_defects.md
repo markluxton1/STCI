@@ -349,6 +349,32 @@ formula; see Busé–Khalil–Mourrain,
 The saturated-flag identity is the argument above, not a
 theorem attributed to that source.
 
+### Residual-corrected version of the finite modification formula
+
+The general strict saturated-flag comparison below does not
+require Gorensteinness. If both thickenings in that comparison
+are full primary components of actual Gorenstein CIs, write
+\(H_{\pm,0}\) for their marked attachment divisors and
+\(H_\pm\) for the zero-cycles of their full thick attachment
+lengths (zero for sole support). Then LA3 in the
+[full-primary attachment account](../residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component)
+substitutes into the determinant formula to give
+\[
+ \frac2c B_f=(c-1)\Xi+
+ (D_{+,\rm top}-H_{+,0})-(D_{-,\rm top}-H_{-,0})
+ +\frac{H_+-H_-}{c}.
+\]
+This is a pointwise identity of length divisors. It does not
+identify the two residuals or require the ambient surfaces
+themselves to be finite modifications. The
+[interior equality-boundary application FT1--FT2](../residuals/blowup_residual_geometry.md#signed-finite-transfer-throughout-the-interior-equality-boundary)
+uses adjunction to compute the combined finite-quotient
+and thick-attachment contribution on the image quintic
+and conic in \(V_5\). Thus the previous sole-support
+image hypothesis is replaceable by the actual attachment
+correction on its full primary component. The scope
+and new applications await independent review.
+
 ### Finite birational modification of a curvilinear thickening
 
 Suppose \(f:W_+\to W_-\) is a finite morphism of pure CM
