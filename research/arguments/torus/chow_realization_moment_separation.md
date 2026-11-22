@@ -458,3 +458,101 @@ degree-independent bound on the number of missing line layers
 is not supplied by this argument. The existing non-ACM controls
 and the [homogeneous ACM-thickening question](../../frameworks/global-equation-realization/projection_and_liaison.md)
 must guide that next investigation.
+
+
+## 8. Signed cycle decompositions for non-ACM limits
+
+**Proposed argument, pending independent review.** The adjacent literature is
+Goto--Heinzer--Kim, *The leading ideal of a complete intersection of height
+two, Part II*, J. Algebra 312 (2007), 709--732
+([DOI](https://doi.org/10.1016/j.jalgebra.2007.02.025)), on leading ideals
+and successive gcds for the local maximal-ideal filtration; the filtration
+and grading here are different. The basic-double-link identity of Section 7
+does not require the residual scheme to be ACM for its cycle calculation.
+
+Let \(J=(f_1,\ldots,f_s)\) be any invariant ordinary-homogeneous height-two
+ideal, with weight-homogeneous generators. Put \(g_i=\gcd(f_1,\ldots,f_i)\),
+\(h_i=g_{i-1}/g_i\), \(K_i=f_i/g_i\), and
+\(J_i=(f_1/g_i,\ldots,f_i/g_i)\). Then \(J_1=S,\ J_s=J\),
+\(J_i=h_i J_{i-1}+(K_i)\), and \(\gcd(h_i,K_i)=1\).
+The colon exact sequence yields
+\[
+[Z_i]=[V(h_i,K_i)]+[V(J_{i-1}+(K_i))],
+\]
+where \(Z_i\) means the one-cycle of \(V(J_i)\), including zero when
+there is no curve. A unit factor contributes the zero cycle. There are
+no height-one components of \(J_i\) since its generators have gcd one.
+At each height-two prime the quotient by \(K_i\) can only decrease length.
+Consequently the effective loss
+\(\Delta_i=[Z_{i-1}]-[V(J_{i-1}+(K_i))]\) gives the exact signed
+decomposition
+\[
+[V(J)]=\sum_{i=2}^s[V(h_i,K_i)]-\sum_{i=2}^s\Delta_i.
+\]
+In particular the degree inequality
+\(\deg Z_s\le\sum_i(\deg g_{i-1}-\deg g_i)(\deg f_i-\deg g_i)\)
+is an equality precisely when all loss cycles vanish. It then supplies
+an effective CI decomposition without requiring ACMness. This is a
+cycle statement, not an assertion about removal of embedded points.
+
+The existing trace proof extends to all invariant proper CIs disjoint
+from \(\ell=V(x_0,x_3)\), whether or not all components are full-support
+quartics: the two missing middle vertices force the same weight
+assignments and congruences, and the same rectangular finite-free basis
+gives trace zero. Projection to \([x_0:x_3]\) is finite on every curve
+disjoint from \(\ell\), hence neither endpoint coordinate is identically
+zero on such a curve. Any invariant boundary curve then has \(x_1=0\)
+or \(x_2=0\) and its trace contribution is zero. Extend \(M_1\) by zero
+on these boundary curves. Thus if every nontrivial CI term in the signed
+decomposition misses \(\ell\), then
+\(M_1(Z_s)=-\sum_i M_1(\Delta_i)\). The moment vanishes if all losses
+are in the coordinate boundary, equivalently if the sum of the
+full-support degrees on the positive side equals the full-support
+degree of \(Z_s\). Total-degree equality is unnecessary. Avoidance of
+\(\ell\) by the individual CI terms, and absence of full-support loss,
+are substantive additional hypotheses, not consequences of the final
+limit missing \(\ell\). No unrestricted proof of either is given.
+
+A small control is the invariant cubic pair
+\[
+(x_0^2x_2-x_1^3,\ x_2^3-x_1x_3^2).
+\]
+Its dense quotient is \(u=1,\ v^2=1\); the only boundary curve is
+\(L_{03}\) (check \(x_0=0,x_3=0\) give the endpoints, and either
+middle coordinate zero forces the other zero). The two cubics have
+independent normal differentials at the generic point of \(L_{03}\).
+Thus its cycle is \([C_{1,1}]+[C_{1,-1}]+[L_{03}]\), with
+degree nine and disjoint from \(\ell\). The degree-eight union is the
+residual to \(L_{03}\) under ordinary CI linkage: its generic
+multiplicities are one and the link is unmixed, hence reduced. In
+particular it is ACM. Its moment is zero, but it cannot be an
+effective sum of nonempty translated-arrangement CIs, since each such
+CI has degree at least twelve. This is a counterexample to demanding
+such a decomposition for all invariant ACM pure schemes, not an
+example of a Chow-matched CI full limit. Boundary-compatible signed
+decomposition is the weaker sufficient condition worth testing.
+
+## 9. Uniqueness of the regular additive first-moment candidate
+
+In characteristic zero let \(h\in k[u^{\pm1},q^{\pm1}]\) and define
+\(M_h(\sum n_i[z_i])=\sum n_i h(z_i)\). If \(M_h\) vanishes on just
+the two constructed invariant (3,4) families in Section 4, then
+\(h=cq\) for some \(c\in k\). Indeed for each fixed \(u=\lambda\),
+the depressed-cubic family gives the Laurent polynomial identity
+\[
+h(\lambda,x)+h(\lambda,y)+h(\lambda,-x-y)=0
+\]
+on the dense open where \(xy(x+y)\ne0\). Differentiating once in
+each variable gives \(h_{qq}(\lambda,-x-y)=0\); hence
+\(h(\lambda,q)=A(\lambda)q+B(\lambda)\), and substitution gives
+\(3B(\lambda)=0\). This is the elementary Laurent version of the
+characteristic-zero additive-polynomial calculation (Milne,
+*Algebraic Groups*, §2, 2.21). Repeating on every fiber of \(uq^2\)
+gives \(h(u,q)=q\,B'(uq^2)\). Thus \(h/q\) is both in
+\(k[u^{\pm1}]\) and \(k[(uq^2)^{\pm1}]\), whose intersection is \(k\)
+by distinct Laurent characters. Conversely \(q\) vanishes on both
+families as a summed moment. This identifies the unique candidate
+among degree-independent **regular additive** functions on the
+arrangement monoid. It makes no assertion about nonlinear functions,
+arbitrary nonregular additive maps, or higher-degree Chow equations.
+The unrestricted vanishing on actual CI pairs remains open.
