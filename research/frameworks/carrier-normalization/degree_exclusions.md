@@ -866,6 +866,88 @@ residual bound at \((8,8)\) with normal orders \((2,2)\).
 Thus the all-degree generic-singular-carrier regime cannot be
 discarded merely by extrapolating the sextic reduction.
 
+### The first actual pair where both normal-carrier reductions can fail is \((6,8)\)
+
+The two established geometries now fit together
+more sharply:
+
+- The **normal replacement** (NR1)
+  applies to \(a<b\) whenever at least
+  one equation has generic normal order
+  one; it always covers \((5,b)\)
+  with \(b>5\).
+- The established [graph/Bézout residual
+  inequality](../../arguments/residuals/blowup_residual_geometry.md#5-integer-strengthening-usefulness-region-and-exact-limitations)
+  rules out simultaneous generic
+  normal orders \((2,2)\)
+  for a sole-supported \((6,6)\)
+  pair, forcing a normal general
+  member there.
+
+For \((6,b)\), with both generic
+normal orders two, the **universal**
+graph invariant specializes to
+\[
+ \boxed{K=80-10b.}                              \tag{TR1}
+\]
+Indeed the accepted formula is
+\(K=16(6s+br)-7(6b)-28rs\);
+putting \(r=s=2\) gives
+\(K=80-10b\). At \(b=6\)
+it is \(20>0\), imposing
+positive residual degree and
+excluding sole support. At
+\(b=8\), it is exactly zero,
+giving **no residual
+obstruction**; for larger \(b\)
+it becomes negative. The refined
+bound assuming no residual
+components on the quadric also
+gives no contradiction at the
+sole-support endpoint for
+\(b=8,r=s=2\), without a
+further geometric slope.
+
+Thus \(\boxed{(6,8)}\) is the
+**first numerically admissible**
+pair where a degree-six equation
+can have order two and **both**
+existing normality reductions
+can lose their hypotheses
+simultaneously. This does **not**
+establish that an order-two/order-two
+complete intersection with sole
+support exists. It isolates where
+additional actual filtered-jet
+or blowup-saturation control is
+needed. The earlier normal
+\((6,8)\) **index-twelve**
+reduction applies only if
+at least one equation has
+order one; an entirely-thick
+\((6,8)\) candidate requires
+its own geometry.
+
+**Higher-degree interpretation.**
+The graph inequality is positive
+only in its specified
+\((\alpha=a/r,\beta=b/s)\)
+region; when one or both
+degrees increase while \(r,s\)
+remain small, the bound can
+become vacuous. Consequently
+normal replacement plus graph
+control is not a universal
+mechanism, although it covers
+large concrete portions of the
+low-degree landscape. This is
+why degree-specific results
+should be assessed by **their
+coverage of the order-one
+and entirely-thick strata**,
+rather than solely by carrier
+degree or numerical correction.
+
 ### A direct bridge from ADE exceptional corrections to normal-layer defects
 
 The established [normal-carrier symbolic budget](../../arguments/carriers/normal_carrier_symbolic_torsion.md#a-symbolic-triple-defect-certificate-for-unrestricted-normal-carriers)
