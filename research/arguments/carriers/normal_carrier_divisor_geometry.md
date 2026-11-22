@@ -225,6 +225,133 @@ This is not an effective classification of all normal carriers: computing
 `C^2`, the local indices and the full defects can still be difficult, and
 unbounded indices occur even in elementary local hypersurface models.
 
+## 3.5 A single cyclic-cover Euler formula for all normal carrier degrees
+
+**Scope.** This is a direct combination of the established
+[normalized Kummer eigensheaf construction (Ambro, §4, Lemmas
+4.1–4.2)](https://arxiv.org/abs/1310.3951), the hypersurface
+Hilbert polynomial and the *actual divisorial filtration*
+of a smooth \(C=C_0\) on a normal characteristic-zero
+hypersurface. It is not an additional existence theorem.
+
+Suppose \(X\) is a normal integral degree-\(a\) hypersurface
+and has an actual sole-support mate. Retain
+\[
+ g=\gcd(a,4),\quad \mu=a/g,\quad v=4/g,\quad
+ t=\operatorname{ord}_{\operatorname{Cl}(X)}
+          (\mu C-vH),\quad
+ m=t\mu,\quad b=tv.
+\]
+The minimal mate has divisor \(mC\sim bH\).
+The class \(\Delta=\mu C-vH\) defines a connected
+quasi-étale cyclic cover \(\pi:Y\to X\) of degree
+\(t\), with exact normalized eigensheaf decomposition
+\[
+ \pi_*\mathcal O_Y
+   =\bigoplus_{j=0}^{t-1}\mathcal O_X(j\Delta).
+ \tag{CE1}
+\]
+Here \(\mathcal O_X(D)\) denotes the rank-one reflexive
+divisorial sheaf, not necessarily a line bundle.
+
+Write \(I_i=\mathcal O_X(-iC)\) for \(0\le i\le m\).
+The divisorial quotient \(E_i=I_i/I_{i+1}\) is a
+torsion-free rank-one sheaf on the smooth \(C\), hence a
+line bundle. In the actual normal filtration set
+\[
+ E_i=\mathcal O_C(-i\ell+D_i),\quad
+ D_0=D_1=0,\quad 0\le i<m,
+\]
+where \(\ell\) is the degree of the saturated first
+normal line and \(D_i\) its *actual* effective
+multiplication-defect divisors. With the convention
+\(\mathcal O_{\mathbf P^3}(1)|_C=\mathcal O_{\mathbf P^1}(4)\),
+\[
+ \chi(E_i(nH))=4n+1-i\ell+\deg D_i.
+\]
+The hypersurface restriction sequence gives
+\[
+ \chi(\mathcal O_X(nH))
+ =\chi_0+\frac a2n(n-a+4),\qquad
+ \chi_0=1+\binom{a-1}{3}.                         \tag{CE2}
+\]
+For \(h=1,\ldots,t-1\), the actual Cartier
+relation \(t\Delta\sim0\) identifies the eigensheaf
+\[
+ \mathcal O_X((t-h)\Delta)
+ \simeq\mathcal O_X(hvH-h\mu C).
+\]
+The exact filtration of the coherent quotient
+\(\mathcal O_X/\mathcal O_X(-h\mu C)\) by \(E_i\)
+then yields the **uniform arithmetic identity**
+\[
+ \boxed{\begin{aligned}
+ \chi(\mathcal O_Y)
+ ={}&t\chi_0+
+ \sum_{h=1}^{t-1}\Bigg[
+    \frac a2(hv)(hv-a+4)
+   -h\mu(4hv+1)\\
+ &\qquad+\frac{\ell\,h\mu(h\mu-1)}2
+   -\sum_{i=0}^{h\mu-1}\deg D_i
+ \Bigg].
+ \end{aligned}}                                      \tag{CE3}
+\]
+All divisorial-layer terms refer to the **same actual
+carrier and mate**; an abstract sequence of possible
+\(D_i\) does not create a cover. Because the cover is
+quasi-étale and \(K_X=(a-4)H\), one also has
+\[
+ \boxed{K_Y^2=t\,a(a-4)^2.}                         \tag{CE4}
+\]
+These are characteristic-zero formulas for the normal
+cover itself; passing to a resolution preserves
+\(\chi\) **when the cover has rational singularities**,
+not in general.
+
+**Recovery of both degree-specific calculations.**
+For a normal \((5,8)\) candidate one has
+\((a,\mu,v,t)=(5,5,4,2)\). Writing the first
+line quotient \(\mathcal O(-q)\), formula (CE3) becomes
+\[
+ \boxed{\chi(\mathcal O_Y)
+ =-45+10q-\sum_{i=0}^4\deg D_i,\quad K_Y^2=10.}
+ \tag{CE5}
+\]
+For the **globally ADE** quintic case the cover
+and its resolution have rational singularities.
+The independently established exceptional-cover
+Euler calculation gives
+\(\chi(\mathcal O_Y)=10-w/4\), hence the
+additional exact comparison
+\[
+ \boxed{\sum_{i=0}^4\deg D_i
+         =10q-55+\frac w4.}                       \tag{CE6}
+\]
+This identifies a constraint between **saturated
+multiplication defects** and the ADE cover's
+exceptional contribution \(w\); it does not identify
+either invariant pointwise or replace the global
+canonical-map inequality.
+
+For a normal \((6,6)\) candidate,
+\((a,\mu,v,t)=(6,3,2,3)\), and the existing
+saturated profile
+\[
+ (D_0,\ldots,D_8)
+ =(0,0,A,B,T,2T-B,2T-A,2T,2T),
+ \qquad \deg T=4\ell-17
+\]
+reduces (CE3) immediately to
+\[
+ \boxed{\chi(\mathcal O_Y)
+ =6\ell-21-2\deg A,\quad K_Y^2=72.}              \tag{CE7}
+\]
+Thus the quintic and sextic Euler calculations are
+two evaluations of a **single exact filtration
+identity**. The genus, cover order and available
+canonical inequalities differ; no general
+contradiction follows from (CE3) alone.
+
 ## 4. Strongest current all-degree consequence for the fixed rational quartic
 
 Specialize to
