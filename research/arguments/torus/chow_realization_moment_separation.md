@@ -292,3 +292,169 @@ CI at the limit. The desired generalization is an unrestricted moment
 identity, not an enumeration of normal algebra types or a new numerical
 bound. No independent review or unrestricted all-degree theorem is
 claimed by this draft.
+
+
+## 7. Beyond coprime initials: basic double linkage and ACM full limits
+
+**Proposed statements, pending independent review.** Use the full graded
+initial ideal \(J\), before irrelevant saturation, for one weight end.
+The result is characteristic-free as a decomposition of cycles; moment
+vanishing here is in characteristic zero. The classical inputs are
+Hilbert–Burch (e.g. Hartshorne, *Deformation Theory*, Theorem 8.1)
+and basic double linkage (Migliore–Nagel,
+[*Numerical Macaulification*, Lemma 3.1](https://academicweb.nd.edu/~jmiglior/MN11-NumMac.pdf)).
+The latter applies in the form \(DI+(K)\) for \(K\in I\) and
+\(\gcd(D,K)=1\); the colon exact sequence below verifies the required
+cycle identity directly. Neither classical input asserts that arbitrary
+non-ACM full CI limits have such a decomposition.
+
+### 7.1 One effective cancellation
+
+For an end-adapted pair, let \(F_0=DA,\ G_0=DB\), \(\deg D=e>0\),
+\(\gcd(A,B)=1\). Adaptation ensures \(e<a\).
+The [common-factor rank calculation](equation_pair_rank_and_weights.md#common-factor-rank-drop-in-arbitrary-degrees)
+gives one extra class in degree \(d=a+b-e\) and none below it.
+Choose a weight-homogeneous representative \(K\in J_d\) of that class.
+If \(\gcd(D,K)=1\), let \(J'=(DA,DB,K)\subset J\).
+The colon by \(D\) is \((A,B,K)\); indeed
+\(Dh\in D(A,B)+(K)\) implies the coefficient of \(K\) is divisible by
+\(D\). Thus
+\[
+0\to S/(A,B,K)(-e)\xrightarrow{\cdot D}S/J'
+\to S/(D,K)\to0.
+\]
+The ideal \(J'\) has height two and
+\[
+ab\le\deg S/J'\le (a-e)(b-e)+ed=ab.
+\]
+Here the degrees refer to the projective curve cycles, with a
+lower-dimensional residual term contributing zero. The second
+inequality is degree exhaustion in the CI \((A,B)\).
+Consequently \(K\in(A,B)\), since the latter ideal is unmixed and
+the quotient by \(K\) has lost no generic length. Equality of degree
+and containment give the cycle identity
+\[
+[V(J)]=[V(A,B)]+[V(D,K)].
+\]
+Both summands are invariant proper CIs. As the entire cycle of the
+flat limit is the original Chow-matched cycle, both summands
+separately have only translated-quartic support. Their moments vanish
+by the existing theorem; additivity proves \(M_1=0\) for the original
+pair. This includes the three-generator full initial ideal case:
+if there are exactly three minimal generators, \(K\) is the third,
+and height two forces \(\gcd(D,K)=1\). The two-generator case is
+already Section 3. For (4,4) no nontrivial such splitting exists,
+by the plane/quadric arrangement exclusions.
+
+### 7.2 Arbitrarily many cancellations: the ACM limit theorem
+
+**Theorem candidate.** If either full graded intrinsic torus limit
+of a Chow-matched proper pair of degrees \(a\le b\) is ACM, then
+its cycle has an effective decomposition into invariant proper
+complete-intersection cycles, and \(M_1=0\).
+
+The full graded quotient retains Hilbert series
+\((1-t^a)(1-t^b)/(1-t)^4\).
+In the coprime-initial case the result is Section 3.
+Otherwise the ideal has minimal initial generators of degrees \(a,b\),
+and the first extra generator occurs in degree \(c_1=a+b-e>b\)
+by the rank calculation. List all extra generator degrees
+\(c_1\le\cdots\le c_r\). Since \(S/J\) is ACM of height two, a
+minimal homogeneous Hilbert–Burch resolution and comparison of its
+Hilbert numerator show that the syzygy shifts are precisely
+\(c_1,\ldots,c_r,a+b\), as multisets. The original \(a,b\) shift terms
+cancel from this comparison even when \(a=b\).
+
+Choose the resolution equivariant for both ordinary and intrinsic
+torus gradings (choose homogeneous bases of the minimal generator
+space and then the syzygy space). Its matrix has row degrees
+\(a,b,c_1,\ldots,c_r\), and column degrees \(c_1,\ldots,c_r,a+b\).
+An entry can be nonzero only if its column degree is strictly larger
+than its row degree: equal-degree scalar entries vanish by ordinary
+graded minimality. The maximal minors are all nonzero because they
+are the minimal generators. This forces \(c_r<a+b\): otherwise the
+last row is zero and a minor deleting a first row vanishes.
+It also forces strict inequalities between the \(c_j\).
+Indeed, in the minor deleting the first row, the last \(r\) rows
+must match distinct columns of strictly greater degree. If
+\(c_i=c_{i+1}\), the rows with indices \(i,\ldots,r\) have at most
+\(r-i\) eligible columns, impossible. Put \(c_{r+1}=a+b\).
+
+The resulting matrix has two unrestricted top rows and an
+upper-triangular bottom \(r\times r\) block after its first column.
+The last row contains only its final entry \(D_r\), which is nonzero
+and has degree \(c_{r+1}-c_r\). Delete last row and last column;
+write \(J_{r-1}\) for the maximal-minor ideal of the smaller matrix.
+Laplace expansion gives
+\[
+J=D_rJ_{r-1}+(K_r),\qquad K_r\in J_{r-1},
+\]
+where \(K_r\) is the minor deleting the last row of the original
+matrix. No irreducible factor can divide every generator of
+\(J_{r-1}\), since it would divide every generator of \(J\).
+The ideal \(J_{r-1}\) is proper (all entries of the smaller matrix
+are in the homogeneous maximal ideal); the determinantal height
+bound therefore gives height two. Likewise \(\gcd(D_r,K_r)=1\).
+The basic double link exact sequence now yields
+\[
+[V(J)]=[V(J_{r-1})]+[V(D_r,K_r)].
+\]
+Apply the same argument to the smaller matrix: its last row again
+has only the one last-column entry. Iteration reaches a two-row,
+one-column matrix whose two nonzero entries are coprime by the
+height argument. Hence
+\[
+[V(J)]=[V(A,B)]+\sum_{j=1}^{r}[V(D_j,K_j)].
+\]
+The degrees of the stripped pair are \(a-e,b-e\), since the
+product \(\prod_jD_j\) is exactly the gcd of the first two minors;
+it has degree \(\sum_j(c_{j+1}-c_j)=a+b-c_1=e\).
+For the intermediate steps \(K_j\) denotes the last-row-deleted
+minor of the matrix truncated to its first \(j+2\) rows and \(j+1\)
+columns, with degree \(c_j+c_{j+1}-(a+b)\).
+The weight-equivariant resolution makes all minors and staircase
+entries eigenforms. Every summand is an effective CI cycle and
+therefore has only translated-quartic support by the exact
+Chow-matched cycle condition. Each summand has zero moment, so
+the sum does as well.
+
+Theorem candidate implies a hypothetical characteristic-zero
+sole-supported CI has non-ACM full graded intrinsic limits in
+**both** orientations, improving the three-generator bound.
+If a Chow-matched ACM limit has extras, each nonempty summand has
+both defining degrees at least three by the elementary arrangement
+plane/quadric exclusions. Thus \(a-e\ge3\), all
+\(c_{j+1}-c_j\ge3\), and \(a\ge3(r+1)\). These inequalities
+are consequences of the cycle decomposition, not an independent
+numerical method. They also explain uniformly why a non-CI ACM
+limit of a Chow-matched quartic pair is impossible.
+
+### 7.3 Pure cycles rather than special-fiber ACMness
+
+Passing to the pure hull preserves the fundamental cycle, as do
+all zero-dimensional embedded or saturation corrections. Thus
+even non-ACM limits are covered whenever the pure hull has an
+effective invariant-CI cycle decomposition. In particular the
+[actual (16,16) Chow-matched control](chow_matched_equation_layers.md#opposite-full-limits-can-retain-a-large-embedded-hilbert-correction)
+has non-ACM limits at both ends but invariant CI pure hulls
+\((U,V^{16})\) of type \((4,64)\); their endpoint corrections have
+length 4608. Independently the original pencil of this control
+contains the eigenform \(U^4\), so this is not a new exclusion.
+It shows why neither ACM preservation nor preservation of CI degrees
+under taking pure hulls is the right general hypothesis.
+
+The recursive last-row argument applies to any invariant
+Hilbert–Burch matrix having the requisite successive one-entry
+rows, regardless of the Hilbert series. But an arbitrary ACM pure
+hull need not retain the CI numerator and need not have that
+staircase; no general claim about its moment follows from ACMness alone.
+Likewise the full non-ACM limit has a longer free resolution,
+whose alternating Hilbert numerator does not give the matrix above.
+The next question is whether the non-ACM boundary can always
+be reduced, at the cycle level, to these decomposable pure hulls,
+or whether there are invariant pure-hull cores escaping this
+mechanism. Do not assume such a reduction. In particular a
+degree-independent bound on the number of missing line layers
+is not supplied by this argument. The existing non-ACM controls
+and the [homogeneous ACM-thickening question](../../frameworks/global-equation-realization/projection_and_liaison.md)
+must guide that next investigation.
