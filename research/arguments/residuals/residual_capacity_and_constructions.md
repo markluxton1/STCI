@@ -502,6 +502,81 @@ interpreted as the *second* defect.
 Independent review of the global
 attachment extension is pending.
 
+### A classical fourth-order counterexample to extrapolating TR2
+
+The triple identity \(\tau=D_2\)
+cannot be extended by replacing the
+triple with a quasiprimitive multiple
+structure of arbitrary length.
+Bănică--Forster, [*Multiplicity
+Structures on Space Curves*, original
+1986 publication, §3.9, p. 61](https://sites.lsa.umich.edu/idolga-new/wp-content/uploads/sites/1467/2024/08/coxeter86.pdf),
+already prove that when \(D_2=D_3=d[P]\),
+a quasiprimitive **quadruple** has
+a locally complete-intersection ideal
+\[
+ \boxed{\ I_T=(t^d x-y^2,\ x^2)\ }\qquad(d>0).           \tag{TR5}
+\]
+The quotient is free of rank four
+over \(k[[t]]\), with basis
+\(1,y,x,xy\). Its saturated flag is
+\[
+ P_1=(y,x,xy),\qquad
+ P_2=(x,xy),\qquad P_3=(xy),
+\]
+and its normal multiplication has
+\(y^2=t^dx,\ y^3=t^dxy\).
+Hence \(D_2=D_3=d[P]\) are both
+nonzero. Nevertheless \(I_T\) is
+lci, so \(I_T/(I_CI_T)\) is free
+of rank two and
+\[
+ \boxed{\quad \tau=0\ne D_2=D_3.\quad}                 \tag{TR6}
+\]
+For \(d=1\) this is the smallest
+transparent instance. It is a
+*local quasiprimitive quadruple*,
+not an asserted global pair
+supported on the fixed quartic.
+The result uses exactly the
+already-established BF local
+classification and its hypotheses;
+the elementary basis computation
+is an independent check.
+
+Thus the sharp general finding
+from TR2 is that multiplicity three
+has a special collapse of independent
+defects. At multiplicity four,
+the values \(D_2,D_3\) and local
+conormal syzygies must be retained
+separately; nonzero \(D_2\)
+does **not** force a non-lci
+primary or torsion of its conormal
+equation module. The full
+attachment identities LA1--LA6
+remain applicable under their
+actual-CI hypotheses. No universal
+fourth-order conormal-torsion
+formula is asserted without checking
+both BF cases and the actual
+saturated syzygy module.
+
+**Source fidelity.** The original
+1986 scan has the factor
+\(y(t^dx-y^2)\) in BF's other,
+non-lci quadruple case. One
+modern re-typeset copy of §3.9
+instead prints \(y(t^d-y^2)\),
+which cannot define the stated
+generic length-four structure.
+Any subsequent use of that
+other local model must consult
+the original rather than copy
+the missing-\(x\) transcription.
+This typographical observation
+is not used in TR5--TR6.
+
 ### Cutting the residual pair rather than just its primary part
 
 Let \(J_0\) be a smooth auxiliary Cartier divisor

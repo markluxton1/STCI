@@ -277,6 +277,22 @@ primaries require the original
 uncompressed LA1--LA6. Independent
 review pending.
 
+The [BF quasiprimitive quadruple
+TR5--TR6](../residuals/residual_capacity_and_constructions.md#a-classical-fourth-order-counterexample-to-extrapolating-tr2)
+shows precisely why the triple
+identity \(\tau=D_2\) is special.
+For \(I_T=(t^d x-y^2,x^2)\)
+the saturated defects are
+\(D_2=D_3=d[P]>0\), yet the
+primary is lci and its conormal
+equation module has no torsion.
+The full LA1--LA6 identities
+retain the additional layer
+rather than extrapolating
+a two-divisor triple formula.
+This is a local example, not
+a global STCI or an exclusion.
+
 ## Cartier cuts and finite modifications of the saturated filtration
 
 **Status: new general application of the saturated filtration,

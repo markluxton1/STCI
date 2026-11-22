@@ -19,6 +19,25 @@ The [edge recovery theorem SC6](../../arguments/residuals/blowup_residual_geomet
 
 **Triple compression of independent data.** The [BF triple and actual-pair attachment TR1--TR4](../../arguments/residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors) is a general **proved conditional comparison** rather than a new quasiprimitive classification. Local BF form gives \(\tau=D_2\). Actual equation determinant \(\eta\), linkage duality and the signed socle identity give the entire attachment filtration \((\tau+\eta,\eta,\tau+\eta)\), with \(\mathcal L^2(-\eta)=\omega_C\omega_Y^{-1}|_C\). This adds a concrete new bridge from an intrinsic normal defect to the actual conormal module underlying \(Q_1\). The real missing implication is a global-source obstruction ensuring \(\tau+\eta>0\) for all allowed full primaries, not another equality of numerical aggregate genus formulas. The equality \(\tau=D_2\) is NOT being asserted for all multiplicities.
 
+**Adversarial fourth-order check.** The
+[classical BF quadruple
+TR5--TR6](../../arguments/residuals/residual_capacity_and_constructions.md#a-classical-fourth-order-counterexample-to-extrapolating-tr2)
+is lci but has \(D_2=D_3>0\);
+thus intrinsic normal multiplication
+defect does not coincide with
+conormal-torsion for arbitrary
+multiplicity. The special triple
+collapse has a precise boundary.
+The original 1986 BF source
+also corrects a missing-\(x\)
+transcription in the non-lci
+fourth-order formula of a
+re-typeset copy. Higher-order
+generalization requires full
+BF relation and extension data,
+not a formal substitution
+\(D_2\to D_{\rm top}\).
+
 ## General mechanism review: attachment, duality, and actual equations
 
 This pass compares general constructions rather than certifying every proof in the branch. Independent review remains pending.
