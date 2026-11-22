@@ -556,3 +556,127 @@ among degree-independent **regular additive** functions on the
 arrangement monoid. It makes no assertion about nonlinear functions,
 arbitrary nonregular additive maps, or higher-degree Chow equations.
 The unrestricted vanishing on actual CI pairs remains open.
+
+
+## 10. Density of reduced arrangements fails already for (4,4)
+
+**Proposed proof, pending independent review.** In characteristic zero
+every invariant CI arrangement is in the closure of reduced ones in its
+own bidegree: vary its two weight-homogeneous generators in their weight
+spaces. The pure powers of the middle variables make these systems
+basepoint-free on the dense coordinate torus. General members meet
+smoothly there by Bertini; properness and the absence of boundary curves
+are open and hold at the given pair. This proves density within the
+invariant realization locus, not in the unrestricted Chow-matched
+incidence.
+
+The following exact control shows that allowing arbitrary embedded
+realizations produces an additional cycle component. It uses the
+opposite-parameter exceptional locus identified in Section 5, and the
+cubics of Section 8. Set
+\[
+ A=x_0^2x_2-x_1^3,\quad B=x_2^3-x_1x_3^2,\quad
+ D=x_0^2x_3^2-x_1^2x_2^2,
+\qquad F=x_1A-x_2B+D,\quad G=x_1B-x_2A.
+\]
+Both quartics contain \(C_{1,1}\) and \(C_{1,-1}\).
+In \((1,r,ur^3,vr^4)\) coordinates the three source equations
+are \(r^3(u-1),r^9(u^3-v^2),r^8(v^2-u^2)\).
+At either \((1,\pm1)\) put \(\eta=du,\xi=d(u^3-v^2)\);
+then \(d(v^2-u^2)=\eta-\xi\), so
+\[
+ d_\perp F=r^4(1+r^4)(\eta-r^4\xi),\qquad
+ d_\perp G=-r^6(\eta-r^4\xi).
+\]
+Both generic local lengths are at least two. On \(x_0=0\)
+their restrictions are
+\[
+ -x_1^4-x_2^4+x_1x_2x_3^2-x_1^2x_2^2,\qquad
+ x_1(x_2^3+x_1^2x_2-x_1x_3^2).
+\]
+If \(x_1\ne0\) the second equation substituted into the first
+gives \(-x_1^4=0\). Otherwise the first forces \(x_2=0\).
+The common support in that plane is just \(p_\infty\).
+A common projective surface factor would meet the plane in a curve.
+Hence the pair is proper and degree exhaustion gives exactly
+\[
+ [V(F,G)]=2[C_{1,1}]+2[C_{1,-1}].
+\]
+Diagonal translates realize every cycle with support
+\((u,q)=(\lambda,r),(\lambda,-r)\) and multiplicities \((2,2)\).
+
+### 10.1 Closedness of the invariant quartic cycle locus in the interior
+
+The [invariant quartic classification](../equations/chow_polytope_rigidity.md#quartics-including-invariant-collision-lifts)
+gives \(v_i=\alpha+\beta u_i\), \(\alpha\ne0\), and the weight-twelve
+mate \(u^4+B'uv^2+C'v^3=0\), \(C'\ne0\).
+In \(q=u/v\) this latter equation becomes
+\(\alpha q^4+(B'q+C')(1-\beta q)=0\). Thus its root multiset
+has \(e_1=0,\ e_2-\beta e_3+\beta^2e_4=0\), where \(e_j\)
+are the elementary symmetric functions of the four q's, with repetition.
+Conversely these conditions and the line relation give the invariant
+realization, taking \(C'=\alpha e_4\) and
+\(B'=-\alpha e_3+\beta C'\).
+The slope \(\beta\) is integral since \(e_4\) is invertible.
+On the ordered cover \(T^4\) the incidence
+\[
+ e_1=0,\quad \beta^2-(e_3/e_4)\beta+e_2/e_4=0,\quad
+ v_i-v_j=\beta(u_i-u_j)
+\]
+is finite over \(T^4\); its image is closed (Stacks Project,
+Tag 01WM, finite/integral morphisms are closed). Any point in this
+image has \(\alpha=v_i-\beta u_i\ne0\): otherwise all \(q_i\)
+would equal \(1/\beta\), contradicting \(e_1=0\) in characteristic zero.
+It therefore lifts invariantly by the converse just described.
+The symmetric quotient is finite and closed, so the invariant
+realization locus is closed in \(A_4\); Bertini gives equality with
+the relative closure of the reduced realization locus.
+This relative topology agrees with the interior Chow topology:
+the multiplication map from \(\operatorname{Sym}^4 S\) is finite
+(Section 1), and the inverse image of an interior arrangement cannot
+contain any boundary degree-four summand by positivity of cycles.
+
+The opposite doubled configuration cannot satisfy the finite-slope
+line condition: its \(u_i\)'s agree but its \(v_i\)'s differ.
+Hence it is not in the interior closure of the reduced realization
+locus, even as a Chow cycle. Since no nonempty CI arrangement
+has degree below twelve, degree sixteen cannot be a sum of two
+nonempty CI arrangement cycles, so it also refutes the proposed
+same-total-degree additive reduced density statement.
+
+### 10.2 Entire (4,4) cycle locus and implications
+
+Combine Section 5 with the new realization. Off \(B(u)\cap B(uq^2)\)
+the extreme-component lemma supplies an invariant lift. On that
+intersection Section 5 excludes the unbalanced two-support distribution;
+the balanced one is the explicit construction above up to diagonal
+translation. The small diagonal is excluded independently by R-0022.
+Thus as reduced cycle loci
+\[
+ R_{4,4}=R_{4,4}^{\mathrm{inv}}\ \sqcup\
+ E,\qquad
+ E=\{2[(u,v)]+2[(u,-v)]:(u,v)\in T\}.
+\]
+The first locus is irreducible of dimension four by the invariant
+classification, and closed in \(A_4\) by the slope argument.
+The second is closed in \(A_4\): on \(T^4\) it is the finite union
+of the closed equations for a constant \(u\), two equal \(v\)'s and
+the other two equal to their negatives, and the quotient is finite.
+It is irreducible of dimension two, parametrized by \(u,v^2\).
+Thus there are exactly two irreducible components, and the second
+is entirely nonreduced. This classification uses R-0022 only to
+remove the small diagonal, not to establish the new exceptional
+component or its lack of reduced density. Both components lie in
+\(V(M_1)\).
+
+The original density proposal must consequently allow more than
+sums of reduced full-support CI arrangements. The new component is
+twice the full-support part of the invariant (3,3) cycle in Section 8,
+after deleting \(L_{03}\). That is already compatible with the
+boundary-discarding, zero-moment monoid from Section 8. It gives
+a concrete reason to enlarge the known closure to such cycles,
+rather than assume all repeated CI cycles are smoothable through
+reduced Chow-matched CIs. No density theorem for that enlarged
+monoid is proved. Nor does the example refute density in the
+closure of all currently moment-covered realizations (it is itself
+covered). The unrestricted moment question remains open.
