@@ -473,3 +473,12 @@ Thus even an involutive point of the correct CI-polynomial supported Hilbert
 locus need not have the moving two-generator presentation.  Boundary work
 must retain the actual minimal-generator incidence, not only the pure image
 and its endpoint lengths.
+
+
+In these controls the missing presentation is visible already in the source
+gcd: for the Cartier multiple \(nC\subset Q\), every degree
+\(d<3n\) equation through the scheme is divisible by the unique quadric
+\(Q\).  Since any degrees \(a,b\ge2\) with \(ab=4n\) satisfy
+\(a,b<3n\), no such source pair can be proper.  This is the simplest model
+of why a correct supported Hilbert point need not lie in the CI
+presentation locus.
