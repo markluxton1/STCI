@@ -723,6 +723,114 @@ for every \((6,8)\) or \((6,10)\)
 candidate; no unconditional
 mixed-sextic exclusion is claimed.
 
+### Equal-degree pencils below degree ten: the sextic proof extends to octics
+
+This is a direct **all-degree
+factor argument** specialized to
+the first possible equal
+degrees, not a new
+surface-classification theorem.
+
+Suppose \(V(F_d,G_d)_{\rm red}=C\)
+and \(5\le d<10\),
+over an algebraically closed
+characteristic-zero field.
+For any nonzero member
+\(H=\lambda F+\mu G\)
+choose an independent member
+\(J\). The ideal \((H,J)\)
+equals the original CI ideal.
+Every irreducible factor \(h\)
+of \(H\) then has a
+proper sole-\(C\)-support
+mate \(J\), so the complete
+degree-\(\le4\) exclusions
+force \(\deg h\ge5\).
+Two factors, or a repeated
+factor, would require
+\(\deg H\ge10\).
+Thus **every member of the
+pencil is integral**.
+
+Classical Bertini gives
+smoothness away from \(C\)
+for a general member,
+since the pencil's base
+support is \(C\). If
+the two first-normal
+symbols are not both
+identically zero,
+a general member also has
+normal order one
+generically along \(C\).
+Serre's \(R_1+S_2\)
+criterion therefore makes
+it **normal**. This
+recovers the existing
+normal-pencil theorem
+for \((6,6)\) after
+the graph bound rules
+out orders \((2,2)\),
+but the **factor and
+Bertini steps themselves
+are valid for all \(5\le
+d\le9\)**.
+
+The Bézout requirement
+\(4\mid d^2\) leaves
+only \((6,6)\) and
+\((8,8)\) in this range
+(after the quartic
+exclusion). Thus for a
+hypothetical \((8,8)\)
+pair with at least one
+normal order-one generator,
+the general member is
+a **normal integral octic**.
+The mate cuts \(16C\sim8H\).
+Its primitive class
+\[
+ \Delta=2C-H
+\]
+has order \(t\mid8\).
+The exact-index theorem
+says \(b_{\min}=t\);
+the all-degree degree-\(\le4\)
+exclusion implies
+\(b_{\min}\ge5\).
+Hence \(t=8\) and
+\[
+ \boxed{\quad R=16,\qquad
+ \operatorname{ord}(2C-H)=8
+ \quad\text{on the normal octic}.}      \tag{EQ8}
+\]
+This is a **necessary**
+condition only. The
+*entirely order-two*
+\((8,8)\) sector
+does not acquire a normal
+member from this argument:
+the graph residual bound
+is nonpositive there,
+and no final exclusion
+has been proved.
+
+The transition at degree ten
+is structural: a pencil member
+may first factor as a product
+of two degree-five carriers.
+The no-low-factor theorem
+alone no longer forces
+every equal-degree pencil
+member to be integral.
+It remains possible to
+apply irreducible general
+member Bertini under
+additional hypotheses;
+one must not infer it
+from the factor bound
+alone.
+
 ### A stronger all-\(b\) quintic consequence: forced high indices on the **other** surface
 
 Apply (NR1)--(NR2) to an arbitrary
