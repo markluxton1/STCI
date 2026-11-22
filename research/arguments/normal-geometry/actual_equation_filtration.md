@@ -982,7 +982,7 @@ or first-relation defect becomes an
 attachment. New applications pending
 independent review.
 
-For full-primary **triples** the [BF triple and actual-pair attachment TR1--TR4](../arguments/residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors) strengthens the residual-corrected R0019 account: the saturated normal defect \(D_2\) is exactly the primary conormal-torsion divisor by Bănică--Forster's local normal form and Hilbert--Burch. The actual two-equation determinant supplies the other contribution \(\eta\), and the attachment layers are \((D_2+\eta,\eta,D_2+\eta)\). This is a level of resolution stronger than the generic-length-independent residual-cut identity, but specific to quasiprimitive triples. It does not assert R0016's nonsaturated first-relation defect is \(\tau\) or \(\eta\).
+For full-primary **triples** the [BF triple and actual-pair attachment TR1--TR4](../residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors) strengthens the residual-corrected R0019 account: the saturated normal defect \(D_2\) is exactly the primary conormal-torsion divisor by Bănică--Forster's local normal form and Hilbert--Burch. The actual two-equation determinant supplies the other contribution \(\eta\), and the attachment layers are \((D_2+\eta,\eta,D_2+\eta)\). This is a level of resolution stronger than the generic-length-independent residual-cut identity, but specific to quasiprimitive triples. It does not assert R0016's nonsaturated first-relation defect is \(\tau\) or \(\eta\).
 
 ### 3. Remaining scope boundaries
 
