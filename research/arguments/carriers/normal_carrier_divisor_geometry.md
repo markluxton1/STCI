@@ -803,11 +803,7 @@ boundary: the strict sextic has order one and a
 general normal strict larger carrier has at least
 \(9q-10\) moving index-\(4q\) points. For \(q>2\)
 the first strict CI necessarily has nonempty
-nonprimitive locus. At \(q=2\) its primitive mixed
-row forces the smaller image carrier on \(V_5\)
-to have a worse-than-ADE marked singularity by
-the separate K3 lattice theorem. The higher-degree
-nonprimitive and endpoint strata remain open.
+nonprimitive locus. The stronger marked-line theorem ML9 excludes the primitive mixed \((6,8)\) row even without the ADE premise. The nonprimitive and endpoint strata remain.
 
 The [marked line theorem ML1--ML6](../residuals/blowup_residual_geometry.md#the-marked-line-excludes-primitivity-at-the-mixed-sextic-boundary)
 strengthens this to nonprimitivity **at the prescribed

@@ -1178,7 +1178,7 @@ In particular for every hypothetical \((6,4q)\)
 pair on this exact order boundary with \(q>2\),
 the first strict intersection cannot be primitive
 everywhere, whether or not it is generically
-curvilinear. This finite list concerns **global
+curvilinear. The later marked-line comparison ML9 rules out its mixed direction when \(p\le q\), leaving only \((10,4),(21,3)\) in the mixed orbit. This finite list concerns **global
 primitivity on the graph**, unlike the classical
 Ellia degree list for primitive structures on
 the original curve in \(\mathbf P^3\). The list
@@ -2023,7 +2023,7 @@ its smooth deformation is a K3 surface, rather than the
 large-degree hypersurface occurring in the original
 projective space.
 
-**New conditional exclusion (pending independent review).**
+**Supplementary marked-lattice argument (pending independent review).** The stronger marked-line theorem ML1--ML9 above excludes its primitive mixed premise without the ADE hypothesis. The following independent lattice calculation is retained for its reusable local correction mechanism, not as a still-open worse-singularity alternative in this primitive row.
 Suppose an actual characteristic-zero \((6,8;2,2)\)
 sole-support pair lies in the primitive row of SC1
 (mixed direction, \(\ell=3\)). Then its degree-two image

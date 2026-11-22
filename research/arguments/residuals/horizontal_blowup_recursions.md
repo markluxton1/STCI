@@ -276,6 +276,47 @@ one smooth ambient model to another. These
 new recursive interfaces await independent
 review.
 
+### A local contact versus global degree obstruction beyond this graph
+
+The [marked-line interpolation ML9](blowup_residual_geometry.md#all-orders-the-marked-line-comparison-by-interpolation)
+has the following smooth-threefold formulation. Suppose a smooth
+threefold \(Y\) contains two smooth curves \(\Gamma,\Delta\) meeting
+at \(z\), with formal ideals \(\Gamma=(x,y),\Delta=(t,y)\).
+Let an actual proper pair \(P,S\) have sole support \(\Delta\),
+let \(P|_\Gamma\) have exact order \(d>1\) at \(z\), and let
+\(S\) have center order \(q\ge2\) with leading homogeneous
+binary form at \(z\) having its only root the direction
+\([1:0]\). Assume the strict CI on the blowup is primitive
+at the marked point and has length \(c\) along the strict
+\(\Delta\). Its smooth strict mate is then \(t=f(x,v)\) with
+\(y=xv\), \(f(x,0)=0\), \(f(0,v)\) of exact order \(q\);
+the pullback of \(P\) on that surface is a unit times \(v^c\).
+Restricting to \(x=0\) gives \(c=dq\).
+
+Now suppose a smooth complete test curve \(L_0\subset Y\)
+meets \(\Delta\) only at \(z\). Assume on it \(x\) is a
+uniformizer, \(t\) has order one and \(y\) has order at least
+two at \(z\). The interpolation proof of ML9 applies verbatim:
+\[
+ \operatorname{ord}_z(P|_{L_0})\ge\min(d,q+1),\qquad
+ \operatorname{ord}_z(S|_{L_0})=q+1.
+\]
+If \(P\) has restriction degree less than \(\min(d,q+1)\),
+it contains \(L_0\), so sole support forces the degree of
+\(S|_{L_0}\) to be exactly \(q+1\). Any other degree is a
+contradiction. The test curve must have the specified contact
+with the blowup center and section, and the strict actual pair
+must be primitive at the mark. This is an actual
+restriction-degree criterion, independent of Picard rank,
+carrier normality, or ambient Fano classification.
+On later horizontal blowups a suitable test curve and
+the relevant orders must be established rather than presumed.
+The condition that \(t\) have order one explains why the
+endpoint test line of ML6 does not imply the same exclusion.
+This formulation and the
+[complementary smooth-image local algebra and conic-order compression](blowup_residual_geometry.md#the-opposite-marked-stratum-a-smooth-image-carrier-and-a-forced-graph-defect)
+await independent review.
+
 ## Review and unresolved scope
 
 A ramified multisection
