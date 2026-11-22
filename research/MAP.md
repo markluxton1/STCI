@@ -327,3 +327,41 @@ These are mathematical entry points. Use the [bounded work guide](MODEL.md#choos
 to decide whether a particular question is ready for an Investigation.
 
 A [geometric synthesis of quadric restriction and contact rigidity](frameworks/residual-construction/quadric_restriction_and_contact_rigidity.md) separates the degree-independent Picard-class support obstruction from the computational sharp sextic contact bound. It records the symbolic-power vanishing equivalent to the rank test, the residual quartic cycles, and a bounded uniform proof-replacement question; it does not assert a new exclusion.
+
+
+### Transverse Chow roots, source resultants, and what \(Q_1\) really is
+
+The [homogeneous transverse Chow/norm theorem](arguments/torus/chow_arrangement_moments.md#the-homogeneous-transverse-chow-form-as-a-section-norm)
+makes the transverse-root viewpoint exact. For
+\(Z=\sum n_i[W_i:U_i:V_i]\), the homogeneous transverse Chow form
+\({\cal C}_Z=\prod(W_iX+U_iY+V_iZ_0)^{n_i}\) records the unordered
+translate parameters. The explicit bihomogeneous quartic kernel
+\(\Psi_{W,U,V}(\alpha,\beta,\gamma)\) sends each root to the Chow form of
+its intersection with the symmetric plane \(x_3=x_0\). Their product
+\({\cal N}_Z\) is simultaneously the norm/characteristic polynomial of the
+finite section algebra and the projective resultant of the **actual**
+restricted equations. On the translated-quartic fiber this fixed-plane
+section is set-theoretically injective, so no arrangement-cycle information
+is lost. The older binary \(H_Z={\cal C}_Z(0,-B,A)\) records the ratios
+\(U_i/V_i\); its first Newton trace is exactly the existing Chow moment
+\(\sum n_iU_i/V_i\).
+
+This gives the precise content of the Galois-polynomial analogy:
+transverse Chow coefficients are symmetric functions of the roots,
+multiplication matrices carry the finite algebra, and the source resultant
+is their norm. Classical border-basis commutativity is the algebra
+consistency condition behind the local MJ1 border-product test. The
+Chow/norm polynomial retains joint spectral support but not the complete
+nilpotent/Jordan data, which is why Hilbert and attachment questions remain
+separate.
+
+There is also a stopping-rule correction. The
+[first attachment equation module](arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers)
+satisfies \(Q_1=0\) exactly when an actual proper pair has reduced support
+\(C\). Thus universal nonvanishing of \(Q_1\) would already be the desired
+non-STCI theorem: \(Q_1\) is a **terminal support detector**, not a simpler
+intermediate mechanism. The actionable predecessor is to extract necessary
+coefficient, rank, tangent or border-algebra conditions on the homogeneous
+resultant image \({\cal N}_Z\) and test the perfect-power target against
+those conditions. Merely rewriting the target as a norm gives no
+nonexistence theorem.
