@@ -2015,6 +2015,148 @@ cancellation and nonzero normal
 form. All the deductions in this
 section await independent review.
 
+### First-symbol transfer and the remaining mixed sextic strata
+
+The conormal modification used in SC4
+also transports the actual scalar first
+symbols; it is not limited to the free
+first normal layer. Assume generic
+curvilinearity, and use \(Z,W\) and
+\(\xi=0,1\) as in SC4. Write \(K_Z,K_W\)
+for the saturated generic relation lines,
+i.e. the kernels of the conormal bundle
+surjections onto the two free first
+normal quotients \(L_Z,L_W\). Along
+the curve there are commutative short
+exact sequences
+\[
+ 0\to K_\bullet\to N_\bullet^\vee
+     \to L_\bullet\to0.
+\]
+The ambient conormal map from image
+to graph has determinant vanishing
+once at \(z\); the quotient line
+map has vanishing order \(\xi\).
+Taking determinants in the diagram
+shows that the kernel map has zero
+order \(1-\xi\). This equality
+retains the saturated relation lines,
+not just their generic spans.
+
+Denote by \(A_{P,Z},A_{S,Z}\) the
+actual scalar first-symbol orders at
+\(z\) of the image equations,
+and by \(A_{P',W},A_{S',W}\) those
+of the strict equations. For a
+nonzero first symbol the formula is
+\[
+ \boxed{\begin{aligned}
+ A_{P',W}&=A_{P,Z}+1-\xi,\\
+ A_{S',W}&=A_{S,Z}+1-\xi-q .
+ \end{aligned}}                                         \tag{SM3}
+\]
+In the first equation pullback
+transports the symbol directly;
+in the second the actual pullback
+is \(x^q S'\). Restricting its
+first normal symbol to the curve
+multiplies by \(x^q\), because
+\(S'\) vanishes on the curve.
+Thus the exceptional division
+must be subtracted, not ignored.
+A generically zero first symbol
+stays zero on either side (one
+can use the convention infinite
+order). The symbols and all
+finite orders away from \(z\)
+are unchanged.
+
+The same proof is valid for any
+finite same-support modification
+coming from a blowup of a smooth
+center meeting the support
+transversely in this local chart,
+when each actual equation is
+divided by its prescribed
+exceptional order \(e_i\).
+Its general formula is
+\(A_{i,+}=A_{i,-}+1-\xi-e_i\).
+One must keep the actual generic
+curvilinear support; this is not
+a rule for arbitrary normal
+symbols on different blowup
+components.
+
+In the surviving mixed
+\((6,8;2,2)\) row we necessarily
+have \(\ell_W=4\) and total
+\(D_W=7\), with \(D_W(z)>0\)
+by the marked-line obstruction.
+The smaller first symbol is
+nonzero by SC6, so its global
+degree on \(W\) is \(7\).
+For the image, \(\ell_Z=4+\xi\),
+the total first-symbol order
+of \(P\) is \(6+\xi\), and
+the total image top defect is
+\(6+7\xi\). SC4 and SM3 give
+the following exact subdivision
+at the mark:
+\[
+\begin{array}{c|c|c|c|c}
+ &\xi &D_W(z)&D_Z(z)&A_{P',W}(z)\\\hline
+ U\text{ smooth}&0&1&0&1\\
+ U\text{ singular}&0&2,\ldots,7&D_W(z)-1&A_{P,Z}(z)+1\\
+ U\text{ singular}&1&1,\ldots,7&D_W(z)+6&A_{P,Z}(z)
+\end{array}                                             \tag{SM4}
+\]
+Here finite ranges are necessary
+only. In the first row use SM1--SM2.
+In the other rows \(P\) and \(S\)
+are both singular at \(z\) (the
+latter by its conic order), so
+the image CI is nonprimitive and
+its top defect positive. No
+assertion of the realization
+of a range endpoint is made.
+In every row the graph and image
+defects agree away from the mark.
+The common first-symbol divisor
+at the marked point on the graph
+is exactly
+\[
+ 1-\xi+\min(A_{P,Z},A_{S,Z}-q)
+\]
+using the infinity convention.
+In particular in the smooth image
+row it has multiplicity one,
+and a general normal strict octic
+replacement has marked index four
+there: its scalar symbol has
+order one and the local
+power--socle formula with top
+defect one forces \(r=4,D_r=0\).
+Outside that row the full
+multiplicities of the common
+symbol divisor remain to be
+realized by the actual sections.
+
+Thus the reduced resultant
+condition SC2 now retains a
+specified defect stratum and
+first-symbol orders at \(z\),
+rather than an arbitrary
+degree-seven divisor. The
+smooth image row also retains
+the necessary actual index-eight
+point *away* from \(z\) by the
+conic-order compression above.
+These are distinct requirements
+on two presentations of the same
+CI, not interchangeable local
+indices. Independent review
+is pending.
+
 ### A K3 marked-lattice obstruction to the primitive graph row
 
 The image in \(V_5\) changes the useful singularity budget.

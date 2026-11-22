@@ -317,6 +317,25 @@ This formulation and the
 [complementary smooth-image local algebra and conic-order compression](blowup_residual_geometry.md#the-opposite-marked-stratum-a-smooth-image-carrier-and-a-forced-graph-defect)
 await independent review.
 
+The [first-symbol transfer SM3](blowup_residual_geometry.md#first-symbol-transfer-and-the-remaining-mixed-sextic-strata)
+additionally accounts for the actual first normal
+order after exceptional division:
+\(A_{i,+}=A_{i,-}+1-\xi-e_i\).
+Here the common generic relation line is saturated
+on both embeddings, \(\xi\) measures the free
+quotient map, the ambient conormal determinant
+has length one at the transverse marked point,
+and \(e_i\) is the actual exceptional order
+subtracted from the equation. The identity
+is proved by the short exact sequences of
+conormal bundle, saturated relation line and
+free quotient; it applies alongside CF4's
+full top-socle transfer. It is explicitly
+local to finite transverse marked modifications,
+and cannot be used unchanged for a center
+equal to the support or for generically
+different algebras.
+
 ## Review and unresolved scope
 
 A ramified multisection

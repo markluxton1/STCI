@@ -1041,6 +1041,18 @@ The [pointwise graph resultant and finite modification formulas](../../arguments
 
 The [edge recovery theorem SC6](../../arguments/residuals/blowup_residual_geometry.md#recovering-generic-curvilinearity-in-all-orders-on-a-subset-of-the-edge) shows that on the mixed \((6,4q;2,q)\) edge the strict sextic always has order one, and for \(q\ge2\) a general strict carrier of the other equation is normal with at least \(9q-10\) distinct moving index-\(4q\) points. The first strict CI must be nonprimitive somewhere for \(q>2\). Across the full \((3p,4q)\) edge, global primitivity on the graph has only the five necessary order pairs \((2,2),(5,19),(6,8),(10,4),(21,3)\), by the [primitive edge arithmetic](../../arguments/residuals/blowup_residual_geometry.md#primitive-graph-structures-on-the-full-degree-threefour-slope-edge). This is not the classical primitive list on \(C_0\); it applies to the first strict intersection. The [normal K3 torsion theorem](../../arguments/carriers/normal_carrier_symbolic_torsion.md#a-uniform-torsion-bound-on-normal-k3-carriers) also gives an all-mate-degree bound \(R\le16\) on globally ADE degree-two image carriers in \(V_5\), with a mate there in degree at most eight; conic vanishing for an actual lift to the original problem is separate. The results are pending review.
 
+The [marked subdivision SM3--SM4](../../arguments/residuals/blowup_residual_geometry.md#first-symbol-transfer-and-the-remaining-mixed-sextic-strata)
+refines the two surviving \((6,8)\) graph rows. In the mixed
+slope-four row, the three necessary marked lanes are smooth image
+carrier with graph defect one, singular image carrier with
+\(\xi=0\) and graph defect at least two, and singular image carrier
+with \(\xi=1\) and positive graph defect. The first has actual
+marked index four on a general normal strict octic and requires
+an actual index-eight point away from the mark on the smaller
+image carrier. All of these use the actual first-symbol transfer
+as well as the top-defect transfer. There is no proof of
+nonrealization for these remaining lanes yet.
+
 ### Factor integrality is not a cutoff for normality
 
 For an actual degree-\(b\) member with a degree-\(a\) mate, every irreducible factor has degree at least five and degree divisible by \(4/\gcd(a,4)\). Thus every such member is integral if \(b<2n_a\), where \(n_a\) is the smallest permissible factor degree (\(5,6,8\) for \(a\equiv0,2,\text{odd}\pmod4\)). In equal degrees Bézout forces \(d\) even; for \(d=10\) it forbids quintic factors, so **all members** are integral for the eligible \(d=6,8,10\). Degree 12 is the first numerical factorization threshold, not a proved reducible example. Minimal-degree-product pairs have all compatible members integral in every degree, by factor descent to a smaller pair if not; this preserves support, not the thick ideal.
