@@ -140,8 +140,10 @@ and [local/global interface](frameworks/global-equation-realization/projection_a
 The [Chow-quotient / arrangement blow-up bridge](investigations/chow-quotient-arrangement-bridge/index.md)
 works directly from the normalized toric Chow quotient of the weight-\((0,1,3,4)\)
 orbit family to reduced-union Hilbert strata and divisor systems on arrangement
-blow-ups. Its [explicit four-cone quotient fan and Chow boundary cycles](arguments/torus/chow_quotient_fan_and_blowup_comparison.md)
-are established-theory computations. The [exact endpoint rank formula](arguments/torus/arrangement_endpoint_delta.md)
+blow-ups. Its [explicit quotient and normalized graph fans, four Chow boundary cycles,
+and two global endpoint sections](arguments/torus/chow_quotient_fan_and_blowup_comparison.md)
+are established-theory computations. The [exact endpoint rank formula and
+dual-affine-line criterion for reduced quartic CI arrangements](arguments/torus/arrangement_endpoint_delta.md)
 computes the Hilbert polynomial of every reduced arrangement, identifies the
 necessary endpoint-defect identity for reduced-CI realizations in all bidegrees,
 and explains the distinct endpoint defects of known \((3,4)\) and \((4,4)\)
