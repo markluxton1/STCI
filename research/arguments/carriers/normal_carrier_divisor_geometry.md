@@ -501,6 +501,71 @@ Hodge-index equality boundary and must contain an on-curve singularity of
 index at least five; as carrier degree grows, its maximum actual index must
 grow at least asymptotically like `4a/7`.
 
+## 4.5 Degree five and degree six: **all mate degrees** before specializing
+
+The exact-index theorem (§3) is **not only a tool for
+\((5,8)\) or \((6,6)\)**. It constrains
+every normal integral degree-five or degree-six carrier
+with any sole-support mate, under the same
+characteristic-zero and fixed-\(C_0\) hypotheses.
+
+**Every normal quintic with a mate.**
+Here \((a,e,g,\mu,v)=(5,4,1,5,4)\).
+Since \(C_0^2=16/5\), the actual global
+Cartier index \(R\) satisfies \(5\mid16R\),
+hence \(R=5t\) for some positive integer \(t\).
+The exact theorem gives
+\[
+ \operatorname{ord}(5C_0-4H)=t,\qquad
+ \boxed{b_{\min}=4t,\quad m_{\min}=5t,\quad R=5t.}
+ \tag{Q5}
+\]
+The quartic-carrier theorem rules out \(t=1\):
+otherwise an actual degree-four mate would
+exist on the quintic. Therefore \(t\ge2\)
+and **\(R\ge10\)**. Every mate on this fixed
+quintic has degree a positive multiple of
+\(4t\). The familiar \((5,8)\) case corresponds
+to \(t=2\) and \(R=10\); other allowed
+\(t\) are **not** excluded by the
+\((5,8)\) ADE proof.
+
+**Every normal sextic with a mate.**
+Here \((a,e,g,\mu,v)=(6,4,2,3,2)\).
+The same integrality forces \(3\mid R\);
+write \(R=3t\). Then
+\[
+ \operatorname{ord}(3C_0-2H)=t,\qquad
+ \boxed{b_{\min}=2t,\quad m_{\min}=3t,\quad R=3t.}
+ \tag{S6}
+\]
+If \(t=1\) or \(2\), an actual degree-two
+or degree-four mate exists, contradicting
+the established low-degree exclusions.
+Thus \(t\ge3\), **\(R\ge9\)**, and every
+mate degree is a positive multiple of
+\(2t\). The equal-degree \((6,6)\)
+case forces \(t=3,R=9\) because its
+specific mate has degree six. For
+\((6,b)\) with \(b\ne6\), one cannot assume
+that this same index-nine specialization
+holds; the **all-mate** statement is
+the family (S6).
+
+These are **necessary index and torsion constraints**
+for all mate degrees, not exclusion of
+all normal quintics or sextics. Each
+candidate must also satisfy the **Hodge
+equality** \(C_0^2=16/a\) and the
+actual normal-symbol/socle comparison,
+which is already a sufficient
+fixed-normal-carrier test if verified
+on a real surface. Nor do these equations
+apply to a nonnormal degree-five/six
+image or a degree-six carrier singular
+generically on \(C_0\): those require
+the normalization/branch geometry.
+
 ## 5. What was removed, and what remains
 
 The new theorem removes **global lifting as a separate hypothesis or
