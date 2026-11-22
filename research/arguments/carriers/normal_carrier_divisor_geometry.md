@@ -1012,8 +1012,7 @@ of \(K=G+LF\) is
 \((g+f\,L|_C)(A,B)\).
 The **fixed first-symbol base divisor**
 \[
- B_{\mathrm{np}}=\gcd(\operatorname{div}f,
-                              \operatorname{div}g)
+ B_{\mathrm{np}}=\operatorname{div}\bigl(\gcd(f,g)\bigr)
  \tag{MV3}
 \]
 is precisely the **common
