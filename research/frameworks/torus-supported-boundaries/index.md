@@ -434,3 +434,27 @@ The canonical [R-0074](../../results/chow_polytope_rigidity.md) classifies **all
 The [general-coordinate boundary calculation](../../arguments/torus/general_coordinate_boundary.md) is a different compactification from the marked two-ray torus: it proves normalization-order and gcd-weight formulas for all realized coordinate frames, with a proper ray-only tropical compactification and flat multiplication (smooth exactly for primitive contacts), not a global parameter fan. The [H16 parameterization](../../arguments/equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16) identifies geometric cycle points with a symmetric power, not the Chow fiber scheme; multiple-cycle infinitesimal stabilizers require special care in characteristic p.
 
 [H17 boundary reconstruction](../../arguments/torus/boundary_reconstruction_and_defects.md) distinguishes whole-boundary embedded data from separate face images. It proves bounded-degree CI reconstruction and finite-order nonuniqueness with restricted ordinary Rees data; torus radical support and equation-lifting defects remain distinct.
+
+
+### Poisson restriction on full supported boundaries
+
+A sole-supported CI is involutive by the reviewed contact theorem.  The
+intrinsic torus weight filtration is compatible with the bracket (weight
+shift \(-4\)), so initial ideals remain involutive; localization,
+contraction and projective saturation preserve self-involutivity.  Hence
+[both full torus limits](../../arguments/torus_hilbert_boundary.md#involutivity-persists-through-the-full-torus-boundary)
+of any hypothetical supported CI are torus-fixed involutive points of the
+same supported Hilbert locus, even when they acquire extra generators.
+
+This does **not** reduce the problem to invariant complete intersections.
+For sole transverse support, Scheja--Storch and the explicit quartic
+transverse bracket make every pure constant-orbit image automatically
+involutive.  If \(L\) is a full limit and \(Y=L^{\rm pure}\), the only
+remaining contact datum is the finite endpoint obstruction
+\[
+ \kappa_L:\wedge^2(I_L/I_L^2)\to I_Y/I_L.
+\]
+R-0070 gives the two lengths of the target but not \(\kappa_L\).  A useful
+boundary refinement therefore needs the actual endpoint correction algebra
+or the weight-graded full ideal; another classification of the pure orbit
+quotient cannot exploit contact.
