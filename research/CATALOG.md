@@ -148,7 +148,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0018: recorded references (dependencies) [STCI-R-0005]; no synthesized accepted route.
 - STCI-R-0020: two-chart quadric conormal transition; joint premises []; proof `research/arguments/quartic_specialization_and_symbols.md#conormal-transition-p-009-characteristic-jump-in-the-normal-bundle-of-c_0`; review accepted, reconstructed at `#review`.
 - STCI-R-0021: monic flatness and two-chart scheme decomposition; joint premises []; proof `research/arguments/quartic_specialization_and_symbols.md#1-what-actually-coalesces`; review accepted, reconstructed at `#review`.
-- STCI-R-0022: recorded references (dependencies) [STCI-R-0020]; no synthesized accepted route.
+- STCI-R-0022: recorded references (dependencies) [STCI-R-0001, STCI-R-0020]; no synthesized accepted route.
 - STCI-R-0023: recorded references (dependencies) [STCI-R-0021]; no synthesized accepted route.
 - STCI-R-0024: recorded references (dependencies) [STCI-R-0023]; no synthesized accepted route.
 - STCI-R-0026: recorded references (dependencies) [STCI-R-0020]; no synthesized accepted route.
@@ -242,7 +242,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-I-0001: motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001).
 - STCI-I-0002: motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] → [STCI-I-0002] (owner STCI-I-0002).
 - STCI-I-0005: motivates: [STCI-F-0005, STCI-F-0006] → [STCI-I-0005] (owner STCI-I-0005); uses: [STCI-R-0076] → [STCI-I-0005] (owner STCI-I-0005).
-- STCI-R-0001: recorded reference from STCI-R-0002 (dependencies group [STCI-R-0001]); recorded reference from STCI-R-0013 (dependencies group [STCI-R-0001, STCI-R-0010]); recorded reference from STCI-R-0014 (dependencies group [STCI-R-0001, STCI-R-0008, STCI-R-0010, STCI-R-0011, STCI-R-0013]); recorded reference from STCI-R-0035 (dependencies group [STCI-R-0034, STCI-R-0001]).
+- STCI-R-0001: recorded reference from STCI-R-0002 (dependencies group [STCI-R-0001]); recorded reference from STCI-R-0013 (dependencies group [STCI-R-0001, STCI-R-0010]); recorded reference from STCI-R-0014 (dependencies group [STCI-R-0001, STCI-R-0008, STCI-R-0010, STCI-R-0011, STCI-R-0013]); recorded reference from STCI-R-0022 (dependencies group [STCI-R-0001, STCI-R-0020]); recorded reference from STCI-R-0035 (dependencies group [STCI-R-0034, STCI-R-0001]).
 - STCI-R-0002: recorded reference from STCI-R-0004 (dependencies group [STCI-R-0002, STCI-R-0003]); recorded reference from STCI-R-0017 (dependencies group [STCI-R-0002, STCI-R-0003]).
 - STCI-R-0003: premise of STCI-R-0075 (marked normalization and full inverse support at every projection center); recorded reference from STCI-R-0004 (dependencies group [STCI-R-0002, STCI-R-0003]); recorded reference from STCI-R-0017 (dependencies group [STCI-R-0002, STCI-R-0003]).
 - STCI-R-0004: no declared backlinks.
@@ -261,7 +261,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0017: no declared backlinks.
 - STCI-R-0018: no declared backlinks.
 - STCI-R-0019: no declared backlinks.
-- STCI-R-0020: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0058 (residual restriction through the unique quadric); premise of STCI-R-0071 (finite moments and actual multiplication); premise of STCI-R-0072 (multiplier rank and the splitting of the moving quotient); premise of STCI-R-0077 (quadric restriction, connectedness and the normal bundle of the surviving section); recorded reference from STCI-R-0022 (dependencies group [STCI-R-0020]); recorded reference from STCI-R-0026 (dependencies group [STCI-R-0020]).
+- STCI-R-0020: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0058 (residual restriction through the unique quadric); premise of STCI-R-0071 (finite moments and actual multiplication); premise of STCI-R-0072 (multiplier rank and the splitting of the moving quotient); premise of STCI-R-0077 (quadric restriction, connectedness and the normal bundle of the surviving section); recorded reference from STCI-R-0022 (dependencies group [STCI-R-0001, STCI-R-0020]); recorded reference from STCI-R-0026 (dependencies group [STCI-R-0020]).
 - STCI-R-0021: premise of STCI-R-0057 (filtered elimination and the initial term of a principal ideal); recorded reference from STCI-R-0023 (dependencies group [STCI-R-0021]); recorded reference from STCI-R-0029 (dependencies group [STCI-R-0021]).
 - STCI-R-0022: no declared backlinks.
 - STCI-R-0023: recorded reference from STCI-R-0024 (dependencies group [STCI-R-0023]).
