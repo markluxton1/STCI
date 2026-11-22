@@ -457,7 +457,7 @@ the torus endpoints.
 
 
 **Adversarial CI-polynomial controls.** The
-[diagonal nilpotent orbit family](arguments/torus_embedded_quotients.md#a-diagonal-nilpotent-family-with-complete-intersection-hilbert-polynomials)
+[diagonal quotient/Cartier-multiple control](arguments/torus_embedded_quotients.md#the-diagonal-quotient-recovers-the-cartier-multiples-nc)
 shows that the remaining presentation issue is not cosmetic.  For
 \(B_n=k[\epsilon]/(\epsilon^n)\) with \(u=v=1+\epsilon\), both endpoint
 defects are \(3n(n-1)/2\), so the pure sole-supported orbit image has
