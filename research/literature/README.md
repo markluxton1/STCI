@@ -424,6 +424,65 @@ Philippe Ellia, “Complete intersections primitive structures on space curves,�
   (19,84),(18,118),(17,220).
   \]
 
+**Further exact application of Ellia, not a new theorem.**
+[Theorem 12](https://arxiv.org/abs/1409.3801)
+proves that for a **primitive**
+multiple curve \(X\) cut
+scheme-theoretically by degrees
+\((a,b)\), a general degree-\(b\)
+surface containing \(X\) is
+normal and has *uniform*
+marked \(A_n^k\) singularities
+along the smooth support,
+as well as being smooth
+outside it. [Theorem 15 and
+Corollary 16](https://arxiv.org/abs/1409.3801)
+then give the ten rational-quartic
+primitive candidate pairs in the
+preceding list. This is
+considerably stronger than
+generic Bertini **within the
+primitive setting**.
+
+The [new mixed-degree normal
+replacement lemma](../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
+must therefore be compared with
+Ellia, rather than called a new
+primitive-surface theorem:
+it assumes only **one
+generic normal order-one
+generator**, and can retain
+**finitely many nonprimitive
+special points**. This is the
+actual possible extension beyond
+Ellia's hypotheses. The local
+moving \(A_{m-1}\) marked
+singularities at smooth points
+of the smaller carrier are a
+special case of the geometry
+Ellia exploits, not an
+unprecedented singularity type.
+
+Since **no** \((5,b)\) or
+\((6,6)\) occurs in the
+primitive list, every such
+hypothetical characteristic-zero
+sole-supported pair must be
+**nonprimitive somewhere**.
+For a quintic, generic order
+one makes it generically
+curvilinear, so the defect
+is necessarily at *finitely
+many* points. For a
+hypothetical \((6,8)\)
+pair with both normal orders
+two, nonprimitivity is
+already generic; the primitive
+theorem cannot address that
+case. These are necessary
+statements, not complete
+degree-five/six exclusions.
+
 ### Franco--Kleiman--Lascu
 
 Daniele Franco, Steven Kleiman, and Alexandru Lascu, “Gherardelli linkage and
