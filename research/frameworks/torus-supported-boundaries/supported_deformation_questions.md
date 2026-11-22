@@ -118,6 +118,20 @@ with both full torus limits.
 
 The [all-order primary computation](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) on the classified fixed toric quartic calculates saturated layers from the semigroup. In its actual quartic collision residual degree drops from 12 to 8 and marked attachment from 18 to 12, but full thick attachment rises from 18 to 24. Extracting full primaries before and after absorption is not a flat-primary argument. The binomial-interpolation calculation is characteristic zero; it does not realize other carriers.
 
+The [fixed auxiliary-quadric cut TS4](../../arguments/torus/fixed_carrier_chow_arrangements.md#a-fixed-auxiliary-quadric-detects-the-same-punctual-defect-at-every-collision)
+shows that in the classified arrangements the
+pointwise torsion divisor of \(Y_N\cap Q\)
+is \(3(N-3)p_0+(N-1)p_\infty\), irrespective
+of repeated-root collisions. The direct
+source computation and the signed attachment
+formula agree. This provides a control:
+a stable fixed-cut resultant does not imply
+stable reduced attachment, full attachment,
+or residual degree. A complete moving
+family with different carriers still
+requires its actual equation source and
+primary extraction.
+
 ## Concentrating interior information at the endpoints
 
 The full intrinsic torus limit replaces the interior by a constant endpoint

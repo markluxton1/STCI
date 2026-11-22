@@ -376,6 +376,149 @@ there can vanish, compatible with the known
 primitive fourfold image. The arithmetic
 control continues to use its actual equations.
 
+### A fixed auxiliary quadric detects the same punctual defect at every collision
+
+The retained \((4,4)\) family and its arbitrary-degree
+classified relatives permit an **independent actual-equation check**
+of LA5--LA6. Let
+\[
+ Q=x_0x_3-x_1x_2,\qquad
+ Y_N=V(A,G_N)
+\]
+be any classified degree-\((4,N)\) arrangement
+containing \(C_0\) with marked multiplicity \(m\ge1\).
+The quadric \(Q\) contains \(C_0\), but no
+other translated \(C_a\) with \(a\ne1\).
+The scheme \(Y_N\cap Q\) is one-dimensional
+with reduced curve \(C_0\); let \(B_Q\) be
+its maximal punctual torsion length divisor
+on that reduced curve. Then
+\[
+ \boxed{\quad
+ B_Q=3(N-3)[p_0]+(N-1)[p_\infty].
+ \quad}                                                 \tag{TS4}
+\]
+In particular it is **independent of the marked
+multiplicity** \(m\) and of every other root
+or collision partition, provided the polynomial
+satisfies the fixed-carrier realization criterion.
+
+This can be proved directly, without
+assuming any of the new attachment duality.
+At the smooth endpoint \(p_\infty\) use
+\(z=x_2/x_3,\epsilon=x_1/x_3-z^3\)
+on \(A=0\), with \(x_3=1\). Then
+\(Q=-z\epsilon\) (up to unit), while
+\[
+ G_N|_{A=0}=
+  \epsilon^m\prod_{a\ne1}
+   (\epsilon+(1-a)z^3)^{n_a}
+\]
+up to a unit. Modulo \(z\epsilon\),
+every mixed term containing \(z\) and
+\(\epsilon\) vanishes; the term without
+\(\epsilon\) is zero because \(m\ge1\).
+Thus
+\[
+ \mathcal O_{Y_N\cap Q,p_\infty}
+ \simeq k[[z,\epsilon]]/(z\epsilon,\epsilon^N),
+\]
+whose punctual torsion has length \(N-1\).
+
+At the cuspidal endpoint \(p_0\), put
+\(x_0=1,\ z=x_1,\ w=x_2\), eliminate
+\(x_3=zw\) using \(Q=0\), and put
+\(v=w-z^3\). The actual restricted
+carrier is
+\[
+ A|_Q=w^3v.
+\]
+The actual mate restricts as \(G_N|_Q=vH(z,w)\)
+because it vanishes along \(C_0\).
+Its leading coefficient on the triple
+ruling line \(w=0\) is \(G_N(z,0,0)=z^N\);
+hence
+\[
+ H(z,0)=-z^{N-3}.
+\]
+Multiplication by the nonzerodivisor
+\(v\) gives
+\[
+ 0\to k[[z,w]]/(w^3,H)
+   \xrightarrow{\cdot v}
+ k[[z,w]]/(w^3v,vH)
+   \to k[[z,w]]/(v)\to0.
+\]
+The last term is \(k[[z]]\), while the
+first is finite over \(k[[z]]\).
+Since \(k[[z,w]]/(w^3)\) is free of
+rank three over \(k[[z]]\), multiplication
+by \(H\) has determinant \(H(z,0)^3\),
+so its finite cokernel has length
+\(3(N-3)\). This proves TS4.
+
+To compare with the intrinsic formulas,
+the reduced attachment divisor TS3 has
+the displayed endpoint lengths.
+Multiplication by \(Q\) on the residual
+primary algebra has length
+\(4(N-m)\) at each endpoint:
+over the local curve parameter its
+generic determinant is the product of
+the reduced values \((1-a)t^4\),
+each repeated \(n_a\) times.
+For \(m\ge2\) the free conormal of \(T_m\)
+is \(\mathcal O(-6)\), and the first
+symbol of \(Q\) has the tangency divisor
+\(\Theta=[p_0]+[p_\infty]\);
+at \(p_0\) this follows from the
+normalized expansion \(t^3(t-z)\),
+whose first free symbol has one extra
+\(z\)-factor above the generator
+\(z^2(t-z)\). At \(p_\infty\) it is
+the factor \(z\epsilon\).
+Thus [LA6](../residuals/residual_capacity_and_constructions.md#cutting-the-residual-pair-rather-than-just-its-primary-part)
+gives
+\[
+ \begin{aligned}
+ B_Q&= B_{T_m}+[R\cap Q]-H_0,\\
+ B_{T_m}&=(m-1)([p_0]+[p_\infty])
+                     +D_{m-1}.
+ \end{aligned}
+\]
+Substitution of TS2--TS3 gives
+\(B_Q(p_0)=3N-9,\ B_Q(p_\infty)=N-1\),
+exactly TS4. For \(m=1\) the marked
+primary is reduced and \(B_{T_1}=0\);
+the same formula holds by the ordinary
+union sequence. This is a nontrivial
+**independent consistency check** of the
+signed attachment correction, not a
+second proof of LA1 in general.
+
+For \(N=4\), both the four-component
+generic fiber and the doubled-component
+collision have
+\[
+ B_Q=3[p_0]+3[p_\infty].
+\]
+The residual degree, reduced attachment
+and full attachment all change, while
+this particular finite quotient remains
+constant. Consequently neither its
+total length nor its distribution can
+measure absorption in that family
+without the primary normal and
+attachment information. This is
+another precise warning against
+promoting a fixed toric resultant,
+conductor or punctual torsion
+number into a universal residual
+monotone. The argument uses actual
+restricted equations on \(Q\);
+it is not an inference from Chow
+cycles alone.
+
 ## When a reduced fundamental cycle supplies the quartic equation
 
 Suppose an arbitrary proper homogeneous pair has reduced fundamental

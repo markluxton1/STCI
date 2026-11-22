@@ -434,6 +434,21 @@ These are pointwise normal and attachment calculations
 for actual pairs, and a control against replacing the
 marked attachment by the full one in capacity bounds.
 
+The [actual-quadric cut calculation TS4](../torus/fixed_carrier_chow_arrangements.md#a-fixed-auxiliary-quadric-detects-the-same-punctual-defect-at-every-collision)
+now independently verifies LA6 for the entire
+classified fixed-quartic arrangement family.
+Its punctual cut divisor is
+\(3(N-3)p_0+(N-1)p_\infty\), independent
+of the marked multiplicity \(m\); a
+direct local computation of \(Q|A\) and
+\(G_N|Q\) agrees with the signed-layer
+formula. This is a concrete test that
+the subtraction of \(H_0\), rather than
+addition or replacement by the full
+thick attachment, has the right sign.
+It is not a universal conservation
+law for arbitrary CI degenerations.
+
 ## 5. A sharp control: the determinant can be a unit at a real attachment
 
 This is a local explanatory example, not a global homogeneous realization on the fixed quartic. It is used to test exactly the proposed omission of \(\mathcal T_T\), not to launch a case classification.

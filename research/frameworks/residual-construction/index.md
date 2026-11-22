@@ -88,6 +88,16 @@ terminal condition is exact but does not show its stratum is nonempty.
 
 The [attachment layer identities](../../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) bound actual attachment from below using complementary normal-layer defects of the full primary. [Local duality](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) identifies the actual attachment equation quotient with dual annihilator layers. The [toric collision](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) shows full attachment can increase during absorption. [Finite graph transfer](../../arguments/residuals/blowup_residual_geometry.md#signed-finite-transfer-throughout-the-interior-equality-boundary) now allows an image residual conic. These exact comparisons do not prove universal positivity.
 
+The [independent TS4 quadric-cut calculation](../../arguments/torus/fixed_carrier_chow_arrangements.md#a-fixed-auxiliary-quadric-detects-the-same-punctual-defect-at-every-collision)
+verifies the sign and both endpoint coefficients
+in the new residual-corrected cut formula
+on a whole actual arrangement family.
+Despite a change in generic marked
+multiplicity, the punctual cut divisor
+\(3(N-3)p_0+(N-1)p_\infty\) is fixed.
+The residual attachment is not recoverable
+from that cut divisor alone.
+
 ## How residual degree can change
 
 The [explicit quartic pairs](../../arguments/residuals/explicit_quartic_residuals.md)
