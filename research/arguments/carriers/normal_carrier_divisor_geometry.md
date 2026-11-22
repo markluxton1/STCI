@@ -834,6 +834,74 @@ so the two original surfaces
 do not have a common singular
 point on \(C\).
 
+**This is the general local form at a
+simple moving zero, not just a
+chosen artificial example.**
+Let an actual sole-supported
+proper pair have \(F=0\) **smooth
+along \(C\) near \(P\)** and
+generic intersection multiplicity
+\(m\). On a sufficiently small
+smooth neighborhood of \(P\)
+in \(V(F)\), assume the Cartier
+divisor of \(G|_{V(F)}\) is
+**exactly \(mC\)**, without an
+additional zero-dimensional
+or residual correction at \(P\).
+In completed regular parameters
+\(t,u,v\) with \(F=u,\ C=(u,v)\),
+one can write
+\[
+ G=u\,h(t,u,v)+v^m w(t,u,v),
+ \qquad w(0)\ne0.
+\]
+For any actual generator replacement
+\(K=G+LF\), suppose
+\((h+L)|_C\) has a **simple**
+zero at \(P\). Then
+\(x=h+L\) is a completed
+local parameter transverse to
+\((u,v)\), and taking an
+\(m\)-th root of the unit \(w\)
+gives the exact analytic equation
+\[
+ \boxed{K=xy+z^m,\quad
+ C=(y,z),\quad
+ \operatorname{ind}_P C=m.}             \tag{MV1}
+\]
+This is the standard \(A_{m-1}\)
+marked surface germ. The
+hypotheses are essential:
+a multiple zero or failure
+of local Cartier purity may
+give different local structures.
+The derivation depends only
+on the *actual* source pair,
+not on a chosen ADE
+classification or a
+conjectural complete normal
+filtration.
+
+**Interpretation:** in the
+degree-\((5,4n)\) problem,
+\(m=5n\), so a simple moving
+zero can supply the **maximum
+possible local index \(5n\)**
+and fulfill the forced
+order-five torsion condition
+automatically. A proof that
+the larger normal carrier
+must have some index \(5n\)
+would therefore not, on its
+own, constrain the equation
+family. The required research
+bridge is the global
+restriction on the simultaneous
+locations and multiplicities
+of these moving marked \(A\)
+germs and the **actual**
+homogeneous generators.
+
 The model is *formal local*,
 not a global projective
 STCI construction. It proves
