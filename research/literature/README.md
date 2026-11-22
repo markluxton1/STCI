@@ -993,3 +993,25 @@ Its project-specific contribution is the five homogeneous degree-four test
 sections whose restricted trace map has rank four for exactly one translated
 quartic and rank five for every arrangement containing at least two distinct
 translates.  No general trace-radical theorem is attributed to this project.
+
+
+### The rational quartic Rao module and a hyperplane-jet application
+
+Mengyuan Zhang, *The SpaceCurves package in Macaulay2*, Journal of Software
+for Algebra and Geometry **8** (2018), 31--48, records explicitly that the
+smooth rational quartic in \(\mathbf P^3\) has Hartshorne--Rao module \(k\)
+concentrated in degree \(1\), and that its ideal consists of the unique
+quadric together with three cubic generators.  This is standard liaison
+theory and is not new to the project.
+
+The
+[terminal hyperplane-jet theorem HJ1--HJ6](../arguments/equations/global_equation_jets.md#a-terminal-hyperplane-jet-defect-in-every-degree)
+uses this known one-dimensional Rao module on the symmetric hyperplane
+\(x_3=x_0\).  The reduced section is the plane \((2,2)\) complete
+intersection
+\((x_0^2-x_1x_2,\ x_1^2-x_2^2)\).  All truncated hyperplane jets of a
+degree-\(d\) equation lift through normal order \(d-3\); at order \(d-2\)
+there is exactly one missing class, represented by
+\((x_3-x_0)^{d-2}(x_1^2-x_2^2)\).  The all-degree placement of the Rao
+class in this particular transverse flag is the project-specific
+application; the Rao-module computation itself is classical.
