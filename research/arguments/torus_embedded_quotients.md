@@ -746,6 +746,43 @@ The curve \(nC\) is intrinsic-torus fixed and, by the
 [sole-support constant-orbit involutivity theorem](#sole-support-constant-orbit-images-are-automatically-involutive-in-characteristic-zero),
 is involutive for the quartic symplectic bracket.
 
+The actual homogeneous source spaces make the failure of two-generation
+completely transparent.  The standard restriction sequence on the smooth
+quadric is
+\[
+ 0\to\mathcal O_{\mathbf P^3}(d-2)
+ \xrightarrow{\cdot Q}\mathcal I_{nC}(d)
+ \to\mathcal O_Q(dH-nC)\to0.                          \tag{D4a}
+\]
+Up to exchanging the two rulings, \(H=(1,1)\) and \(C=(3,1)\), so
+\[
+ dH-nC=(d-3n,d-n).
+\]
+A line bundle \(\mathcal O_Q(r,s)\) has a nonzero section exactly when
+\(r,s\ge0\).  Since \(H^1(\mathbf P^3,\mathcal O(d-2))=0\), (D4a) gives
+the sharp source threshold
+\[
+ \boxed{\quad
+ d<3n\Longrightarrow
+ H^0(\mathcal I_{nC}(d))
+ =Q\cdot H^0(\mathcal O_{\mathbf P^3}(d-2)).
+ \quad}                                                \tag{D4b}
+\]
+At \(d=3n\), the quotient acquires
+\(H^0(Q,\mathcal O_Q(0,2n))\), so the threshold is exact.
+
+Thus every surface of degree below \(3n\) containing the Cartier
+thickening \(nC\) has the fixed quadric component \(Q\).  In particular,
+if \(a,b\ge2\) and \(ab=4n\), then
+\[
+ \max(a,b)<3n
+\]
+and any degree-\(a\) and degree-\(b\) equations through \(nC\) share \(Q\).
+So \(nC\) itself can never be a proper degree-\((a,b)\) CI with
+\(ab=4n\).  This is the elementary global-source explanation; the invariant
+trace theorem is an independent stronger exclusion for arbitrary invariant
+supported CI ideals.
+
 Compare (D4) with
 \[
  P_{a,b}(d)=ab\,d+{ab(4-a-b)\over2}.
