@@ -566,7 +566,8 @@ image or a degree-six carrier singular
 generically on \(C_0\): those require
 the normalization/branch geometry.
 
-## 4.7 Unequal-degree pairs can acquire an actual normal carrier
+<a id="47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier"></a>
+## 4.7 All-degree actual normal-carrier replacement
 
 **Status:** unified all-degree consequence of classical Bertini and Serre's criterion; independent mathematical review required. Equal degrees are included.
 
@@ -588,73 +589,14 @@ In equal degrees this is precisely the original pencil; two independent general 
 
 For the fixed quartic, the [quadric normal-order bound](sextic_pair_reduction.md#why-every-pair-is-generically-curvilinear) implies that every hypothetical \((5,b)\) pair satisfies NR1. The graph bound supplies this hypothesis for every \((6,6)\) pair. In contrast the entirely-thick \((6,8)\) regime remains outside NR1.
 
-**Consequences of the existing exact index theorem.**
-On the new normal degree-\(b\)
-carrier \(S=V(K_b)\), its degree-\(a\)
-mate is \(F\). If \(5\le a\le9\),
-the *minimal* mate degree on \(S\)
-must be **exactly \(a\)**:
-by the earlier degree-\(\le4\)
-carrier exclusions every mate has
-degree at least five, and no
-proper positive divisor of
-\(a\in\{5,\ldots,9\}\) is at least five.
-Writing
+**Consequences of the existing exact index theorem.** On a normal replacement \(S=V(K_b)\) the degree-\(a\) mate cuts \(mC\), \(m=ab/4\), and \(C^2=16/b\). Write \(g=\gcd(b,4)\), \(\mu=b/g\), \(v=4/g\) and \(R=\operatorname{lcm}_{P\in C_0}\operatorname{ind}_P(C_0\subset S)\). The minimal mate degree is \(vR/\gcd(R,\mu)\), which divides \(a\) and is at least five. Put \(n_b=v\lceil5/v\rceil\). If \(a<2n_b\), or if the original pair has minimal degree product among sole-support pairs, minimal mate degree must equal \(a\). In the former case a proper divisor of \(a\) is at most \(a/2<n_b\); in the latter a smaller actual mate gives a smaller pair. In either case
 \[
- g=\gcd(b,4),\quad
- \mu=b/g,\quad v=4/g,\quad
- R=\operatorname{lcm}_{P\in C_0}
-     \operatorname{ind}_P(C_0\subset S),
+ \operatorname{ord}(\mu C-vH)=a/v=R/\gcd(R,\mu),\qquad C^2=16/b. \tag{NR2}
 \]
-the all-degree formula §3 now gives
-\[
- \boxed{\quad
- \operatorname{ord}(\mu C_0-vH_S)
-  =\frac{a}{v}
-  =\frac{R}{\gcd(R,\mu)},\qquad
- C_0^2=\frac{16}{b}.
- \quad}                                            \tag{NR2}
-\]
-Thus **every** hypothetical \((5,b)\)
-pair with \(b>5\) has \(4\mid b\)
-and admits a normal degree-\(b\)
-carrier with a **nontrivial order-five**
-class
-\[
- \boxed{\Delta=(b/4)C_0-H_S,\quad 5\Delta=0.}
-\]
-This includes *originally nonnormal*
-quintic carriers and every proposed
-mate degree. Its conclusion is a
-**necessary** condition on the
-new degree-\(b\) carrier, not a
-quintic exclusion.
+This includes \(5\le a\le9\), and also \((10,10)\), since \(n_{10}=6\). In particular its order-one sector has \(R\mid25\) and \(R/\gcd(R,5)=5\), yielding \(R=25\), minimal mate degree ten and exact order five for \(5C-2H\). The order-one \((6,8)\) and \((6,10)\) sectors likewise give \(R=12,15\): in the second case the alternative \(R=3\) is excluded by the established index-at-most-four theorem. None is a nonexistence result. The entirely-thick sectors are not covered. For arbitrary degrees the moving-root condition below supplies another sufficient condition for minimal mate degree \(a\).
 
-For example, a hypothetical
-\((6,8)\) pair with at least one
-order-one generator has a
-**normal octic** carrier with
-a degree-six mate. Here
-\(\mu=2,v=1,t=6\), so
-\(R/\gcd(R,2)=6\) and **\(R=12\)**.
-For \((6,10)\) under the same
-order-one hypothesis, the normal
-degree-ten carrier satisfies
-\(R/\gcd(R,5)=3\), so
-\(R=3\) or \(15\); the established
-index-at-most-four exclusion
-eliminates \(R=3\), forcing
-**\(R=15\)**. These exact
-index constraints are not
-consequences of the old
-equal-degree sextic normal-pencil
-lemma. The actual-order-one
-hypothesis is **not** known
-for every \((6,8)\) or \((6,10)\)
-candidate; no unconditional
-mixed-sextic exclusion is claimed.
-
-### Equal-degree pencils below degree ten: the sextic proof extends to octics
+<a id="equal-degree-pencils-below-degree-ten-the-sextic-proof-extends-to-octics"></a>
+### Every-member integrality and arithmetic factor bounds
 
 The separate factor result concerns **every** member of a generator system, not the normality of a general member. It also has a stronger arithmetic formulation. If a proper sole-\(C_0\) pair has degrees \((a,b)\), \(a\le b\), every irreducible factor \(h\) of an actual degree-\(b\) replacement \(K_b\) with \((F_a,K_b)=(F_a,G_b)\) has an actual mate \(F_a\). Hence
 \[
