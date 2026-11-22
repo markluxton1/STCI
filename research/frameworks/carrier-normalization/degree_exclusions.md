@@ -22,6 +22,82 @@ one sextic and all of its mates can be far stronger in its
 quantifiers than a proof about every \((6,6)\) pair, even
 though neither subsumes the other.
 
+## 5.0a All-degree normal-carrier theorems come **before** the carrier-degree table
+
+The strongest current exclusion statements are not organized
+by degree four, five or six at all. The
+[accepted all-degree local-index and socle theorem](../../arguments/carriers/normal_carrier_symbolic_torsion.md#4-cartier-index-integrality-and-new-all-degree-exclusions)
+proves the following for **every** integral normal
+hypersurface containing \(C_0\) in characteristic zero,
+independently of the proposed mate degree:
+
+1. **Indices dividing carrier degree.** If every actual
+   on-\(C_0\) local Cartier index \(r_P\) divides
+   \(a=\deg X\), no mate exists. This uses the
+   exact minimal-mate theorem, not ADE classification.
+2. **Nodal on-curve singularities.** If every
+   singularity of \(X\) on \(C_0\) is an ordinary
+   double point (or there are no such singularities),
+   no mate exists, **in every degree**. Singularities
+   away from \(C_0\) are unrestricted.
+3. **All actual on-curve indices at most four.**
+   The sharper [pointwise socle/Frobenius theorem](../../arguments/carriers/normal_carrier_symbolic_torsion.md#5-closing-the-entire-actual-index-at-most-four-class)
+   excludes this whole normal-carrier class for
+   **all degrees and all mates**, even when the
+   index lcm \(R\) is as large as twelve.
+   Consequently a hypothetical normal mate-bearing
+   carrier must have **at least one actual
+   local index \(\ge5\)**.
+   Any configuration whose on-\(C_0\)
+   singularities are only \(D_n,E_6,E_7,E_8\),
+   or \(A_1,A_2,A_3\), is already excluded:
+   the relevant local class-group exponents
+   divide four. Off-curve singularities
+   impose no hypotheses here.
+4. **Quantitative growth.** If every actual
+   on-curve index is bounded by a common
+   integer \(s\ge3\), the stronger proven
+   degree inequality is
+   \[
+     4a^2-(7s+6)a+16s\le0. \tag{U1}
+   \]
+   This means
+   \[
+     s\ge\frac{4a^2-6a}{7a-16},
+   \]
+   so the maximum actual on-curve index of
+   any mate-bearing **normal** degree-\(a\)
+   carrier grows at least like \(4a/7\).
+   The inequality requires the fixed
+   quartic's characteristic-zero normal
+   splitting and the accepted
+   symbolic-triple/pole input. It says
+   nothing directly about nonnormal
+   or generic-order-two carriers.
+
+The [index-divides-\(12\) reduction](../../arguments/carriers/normal_carrier_symbolic_torsion.md#a-bounded-index-carrier-class)
+is an intermediate consequence: it reduces
+the entire normal-carrier class of that exponent
+to a minimal unordered degree pair \((6,8)\);
+the stronger pointwise theorem then excludes
+the actual-index-at-most-four class. Do **not**
+mistake the reduction to \((6,8)\) for a
+possible construction.
+
+**Why this changes the low-degree reviews.**
+A normal quintic or sextic with only nodes,
+\(D/E\) singularities, or indices at most
+four is already excluded regardless of
+the *mate's* degree: the \((5,8)\)
+and \((6,6)\) ADE casework should never
+redo those conclusions. It should start
+only when higher-index \(A\)-type
+geometry, simultaneous singularities or
+actual global integral constraints survive.
+This is a genuine **subsumption** of broad
+classes by the general theorem, not
+merely an analogy among specialized proofs.
+
 ## 5.0 Coverage by carrier degree: complete, all-mate classes, and gaps
 
 **Degree four is completely closed.** R-0001 excludes *every*
