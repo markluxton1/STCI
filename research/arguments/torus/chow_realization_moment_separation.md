@@ -993,7 +993,7 @@ Over an algebraically closed field of characteristic zero,
 \(u^4-1=\prod_{\zeta\in\mu_4}(u-\zeta)\) has four distinct
 roots. Its cycle is
 \[
- Z_0=[C_1]+[C_{-1}]+[C_i]+[C_{-i}],
+ Z_0=[C_{1,1}]+[C_{-1,1}]+[C_{i,1}]+[C_{-i,1}],
  \qquad H_{Z_0}(A,B)=\prod_{\zeta^4=1}(A-\zeta B)=A^4-B^4.
 \]
 All four curves are generically reduced, each of degree four;
@@ -1001,7 +1001,7 @@ the full intersection has degree \(16\), so there is no other curve.
 Both extreme mixed coefficients vanish. In characteristic two,
 \(u^4-1=(u-1)^4\) by Frobenius, and hence
 \[
- Z_2=4[C_1],\qquad
+ Z_2=4[C_{1,1}],\qquad
  H_{Z_2}(A,B)=(A-B)^4=A^4-B^4=A^4+B^4
  \quad\text{in characteristic }2.
 \]
