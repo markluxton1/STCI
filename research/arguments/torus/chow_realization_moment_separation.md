@@ -808,3 +808,114 @@ missing coefficient for all actual Chow-matched CIs. The
 low-fiber-layer trace formula in
 [fixed surfaces and endpoint algebras](fixed_surface_and_endpoint_algebras.md#7-the-first-trace-depends-only-on-two-lower-fiber-degree-layers)
 provides an exact test of this proposed one-sided mechanism.
+
+
+### 11.1 Opposite Chow charts pair the coefficients exactly
+
+This is a direct consequence of the classical Chow resultant
+interpretation and homogeneity; it creates **no new CI constraint**.
+It makes precise how the two coefficients are geometrically paired.
+
+Use the two coordinate charts of the **same** family of lines:
+\[
+\begin{array}{ll}
+ \ell^+_{s,t}:&x_0=sx_1,\quad x_3=tx_2,\\
+ \ell^-_{s,t}:&x_1=sx_0,\quad x_2=tx_3.
+\end{array}
+\]
+On the common \(s,t\ne0\) torus, \(\ell^-_{1/s,1/t}=\ell^+_{s,t}\).
+The origin of the plus chart is the disjoint line
+\(L_{12}=V(x_0,x_3)\); the origin of the minus chart is the secant
+\(L_{03}=V(x_1,x_2)\), through both endpoints.
+
+For a *single* \(C_{u,v}\), with homogeneous parameters \(S,T\),
+substitute into the two equations defining each line and take their
+degree-four binary resultant. With the displayed equation order and
+standard Sylvester convention, writing \(z=st\), these are
+\[
+\begin{aligned}
+ R^+_{u,v}(s,t)
+ &=\operatorname{Res}_{S,T}
+   \big(S^3(S-sT),\ T^3(vT-tuS)\big)
+   =v^4(1-qz),\\
+ R^-_{u,v}(s,t)
+ &=\operatorname{Res}_{S,T}
+   \big(S^3(T-sS),\ T^3(uS-tvT)\big)
+   =v^4z^3(z-q),
+ \qquad q=u/v .
+\end{aligned}
+\]
+Both formulas follow by multiplicativity of the resultant for the
+factored forms; no genericity or reducedness is required. They have
+also been checked by the \(8\times8\) Sylvester determinant.
+The \(s^3t^3\) factor in the second formula records the \(3+1\)
+endpoint-contact partitions, not a new divisor of the arrangement.
+
+For an arbitrary effective arrangement
+\(Z=\sum_i n_i[C_{u_i,v_i}]\), multiply the single-curve forms.
+With \(K=\prod_i v_i^{4n_i}\ne0\),
+\[
+ \boxed{R_Z^+(s,t)=K\,H_Z(1,st),\qquad
+        R_Z^-(s,t)=K\,(st)^{3m}H_Z(st,1).}
+\]
+Thus
+\[
+ \boxed{R_Z^-(z)=z^{4m}R_Z^+(1/z)}
+\]
+in the one-variable notation, where the reciprocal has degree
+\(4m\) with \(3m\) leading zero coefficients in the plus chart
+(or a factor \(z^{3m}\) in the minus chart).
+Equivalently,
+\[
+\begin{aligned}
+ R_Z^+(z)/R_Z^+(0)
+   &=1-M_1z+\cdots,\\
+ \frac{R_Z^-(z)/z^{3m}}{[z^{3m}]R_Z^-(z)}
+   &=1-\Big(\sum_i n_iq_i^{-1}\Big)z+\cdots .
+\end{aligned}
+\]
+The second normalization is legitimate because all \(q_i\ne0\).
+
+**Important non-implication.** The reciprocal relation follows
+formally from multihomogeneity of *any* curve's Chow form: if
+\(d=\deg Z\), the two hyperplanes in the minus chart at
+\((1/s,1/t)\) are respectively \(-1/s\) and \(-1/t\) times those in
+the plus chart. Thus for any degree-\(d\) curve
+\[
+ R^-(s,t)=(st)^d R^+(1/s,1/t)
+\]
+on the common torus, irrespective of whether the curve is a CI.
+The support-on-translates hypothesis is what specializes both
+restrictions to a single variable \(st\) and forces the
+\(3m\) endpoint factor. Neither property forces its next coefficient
+to vanish: §11's quartic family has \([AB^3]H\ne0\).
+
+There is also the classical apolar pairing on binary forms
+\(\operatorname{Sym}^m\langle A,B\rangle\), where the basis vectors
+\(A^{m-1}B\) and \(AB^{m-1}\) pair nontrivially. This is the top
+transvectant (see [Borcea--Brändén representation account,
+§3](https://link.springer.com/article/10.1007/s00209-021-02825-4)).
+A bilinear pairing of basis vectors is not an equation equating
+their coefficients in one form \(H_Z\), absent an additional
+self-duality constraint. No such constraint follows from the CI
+condition; the quartic example rules out the suggested equality or
+simultaneous zero statement.
+
+**Geometric source of asymmetry.** Projection from \(L_{12}\), which
+misses every translated quartic, gives the finite-free cover used
+for the global trace of \(x_1x_2\) over \(k[x_0,x_3]\); on the
+arrangement its trace is \(4M_1x_0x_3\). The opposite center
+\(L_{03}\) contains \(p_0,p_\infty\), so it is *not* a basepoint-free
+projection of the curve. This obstructs copying the first trace
+proof verbatim for the reciprocal operator. The \(z^{3m}\) factor
+is the Chow manifestation of the endpoint defect.
+
+A bounded next test is therefore one-sided: study whether the **actual
+resultant image of a complete-intersection pair**, when constrained to
+\(R^+(s,t)=K P(st)\) with \(\deg P=m=ab/4\), necessarily has
+\([st]R^+=0\). The reciprocal chart imposes no independent equation;
+it only repackages the same resultants. Existing §7 of
+[fixed surfaces and endpoint algebras](fixed_surface_and_endpoint_algebras.md#7-the-first-trace-depends-only-on-two-lower-fiber-degree-layers)
+gives an exact low-layer formula for that coefficient, and its
+§8 gives a residual-curve control showing that weaker endpoint
+conditions do not suffice.
