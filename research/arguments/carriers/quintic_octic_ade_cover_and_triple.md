@@ -154,6 +154,31 @@ singular point instead of two. Thus
 Locally trivial points, including every singularity off C, cancel from
 this calculation.
 
+**The same Euler characteristic now has a uniform normal-filtration
+expression.** Apply the
+[all-degree cyclic-cover identity (CE3)--(CE6)](normal_carrier_divisor_geometry.md#35-a-single-cyclic-cover-euler-formula-for-all-normal-carrier-degrees).
+For the saturated quintic layers \(E_i=\mathcal O_C(-iq+D_i)\),
+\(0\le i\le9\), it yields
+\[
+ \chi(\mathcal O_Z)
+ =-45+10q-\sum_{i=0}^4\deg D_i.
+\]
+The cover has only ADE singularities, so
+\(\chi(\mathcal O_Z)=\chi(\mathcal O_W)\).
+Equating with (3) produces the **exact
+cross-framework constraint**
+\[
+ \boxed{\sum_{i=0}^4\deg D_i
+       =10q-55+\tfrac w4.}                        \tag{3a}
+\]
+This translates the singularity-cover contribution
+\(w\) into the *total actual saturated multiplication
+defect* of the first five layers. It supplies an
+independent consistency constraint on every ADE
+bookkeeping row. It does **not** make the local
+cover contribution equal to a local defect or
+replace the canonical-map inequality below.
+
 There is a stronger restriction than Noether's inequality alone:
 
 \[
