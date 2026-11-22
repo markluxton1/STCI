@@ -128,6 +128,28 @@ coprime open is precisely the reduced CI realization locus
 when \(ab=4m\), by the existing degree-exhaustion argument.
 For nonreduced STCI support this equivalence does not hold.
 
+**The direct family is no longer purely formal.** The [completed
+two-curve model](../../arguments/torus/relative_arrangement_blowup_family.md#7-direct-fiberwise-rees-blow-ups-a-completed-two-curve-model)
+shows that each pair of distinct curves has a local complete-intersection
+union at both endpoints. After stratifying by whether \(u_1=u_2\)
+and \(\alpha_1=\alpha_2\), all Rees powers commute with specialization:
+the fiber of the *direct* relative blow-up is genuinely
+\(\operatorname{Bl}_{C_{z_1}\cup C_{z_2}}\mathbf P^3\).
+The local blow-up is an explicit isolated threefold hypersurface
+\[
+  y(y-ar^c)=\lambda z,\qquad c=3\text{ or }4,
+\]
+with the contact exponent determined by the endpoint strata. In
+characteristic zero this is an isolated \(cA_1\) threefold singularity
+with special surface sections of type \(A_{2c-1}\).
+For higher \(m\), the [dual-planar local CI families](../../arguments/torus/relative_arrangement_blowup_family.md#8-a-higher-m-planar-locus-and-a-rigidity-threshold)
+also have fiberwise direct blow-ups. Their two affine-line equations
+impose an unexpected rigidity: for \(m\ge5\), every simultaneously
+dual-planar configuration with distinct projected coordinates lies
+on the same quadric \(V=BU\). Thus an all-degree classification
+of arrangements will necessarily need richer quotient curves beyond
+this simplest two-line geometry.
+
 The genuinely unresolved comparison is now sharply located:
 whether the pullback of \(I_{A_Z}\) to \(\widehat W_Z\) is invertible;
 if not, which additional exceptional modifications make it so,
