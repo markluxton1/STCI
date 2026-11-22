@@ -459,6 +459,10 @@ complete intersections,” *Michigan Mathematical Journal* 48 (2000), 271--279.
   and self-linkage criterion. This is useful for recognizing a multiple
   structure once constructed; it does not construct one on every support.
 
+### Saturated attachment and finite primary images
+
+The Bănică--Forster and Manolache filtration and Gorenstein duality inputs, together with ordinary liaison and the Benguş-Lasnier--Rangachev discrepancy/genus formula, supply the ingredients of the [layerwise attachment comparison](../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component); the local canonical-ideal application retains individual layers rather than only total length. The [actual-pair local-cohomology application](../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) uses Grothendieck local duality after liaison and retains Hartshorne--Polini's first-coregularity hypothesis. Numerical-semigroup binomial interpolation in the [toric primary lattice](../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) is related to Yasuda's higher Nash blowup jet matrices and Chávez-Martínez--Duarte--Giles Flores; no identification with a higher Nash blowup is asserted. Exact references and hypotheses are at the proof owners. These are applications and refinements, not priority claims.
+
 ## Carrier surfaces, divisor classes, and blowups
 
 ### Sharp complete-intersection Picard input (2024)

@@ -212,6 +212,8 @@ In particular the non-lci example there has a **unit** torsion-free
 determinant and nevertheless real attachment of length two. A deformation
 must retain the full equation module; a determinant alone is insufficient.
 
+The [all-order calibration on the classified toric carrier](../torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) gives an actual collision where marked attachment drops and full thick attachment grows. The [signed top class](residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) accounts for changing multiplicity and normal defect; neither full-primary flatness nor monotonicity of its total attachment across the change is implied.
+
 ## 2. Absorption as specialization in a linear system on a carrier
 
 The basic geometric operation is a pencil of Cartier divisors on a
