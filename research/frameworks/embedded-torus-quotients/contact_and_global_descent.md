@@ -225,7 +225,7 @@ full limit; pure quotient data and endpoint lengths alone cannot decide it.
 
 
 **Exact Hilbert-polynomial controls.**  The
-[diagonal nilpotent family](../../arguments/torus_embedded_quotients.md#a-diagonal-nilpotent-family-with-complete-intersection-hilbert-polynomials)
+[diagonal quotient/Cartier-multiple control](../../arguments/torus_embedded_quotients.md#the-diagonal-quotient-recovers-the-cartier-multiples-nc)
 provides pure sole-supported, torus-fixed and automatically involutive
 images whose Hilbert polynomial is exactly that of a complete intersection:
 \(n=4\) matches \((4,4)\), and \(n=6\) matches \((3,8)\).
