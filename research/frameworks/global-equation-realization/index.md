@@ -325,3 +325,27 @@ compressions, but their reduced restriction spaces alone cannot supply an
 all-degree homogeneous-source obstruction.  A next test must couple the
 resultant to transverse plane variation through the terminal Rao order, or
 use a different simultaneous global constraint.
+
+
+### Fixed-depth jets cannot support an all-degree obstruction
+
+The
+[terminal hyperplane-jet theorem](../../arguments/equations/global_equation_jets.md#a-terminal-hyperplane-jet-defect-in-every-degree)
+and the earlier fixed-center theorem give a uniform limitation on jet
+strategies.  For any hyperplane \(\ell=0\) not containing \(C\), restriction
+of degree-\(d\) equations through \(C\) to \(V(\ell^e)\) is surjective for
+\(e\le d-2\) and first fails by one dimension at \(e=d-1\).  Independently,
+any fixed center depth \(N\) is eventually source-surjective once
+\(d\ge N+2\).
+
+Therefore a bounded first-, second-, or other fixed-order source obstruction
+cannot prove an all-degree theorem.  A scalable source condition must move
+to depth comparable with the equation degree, or encode genuinely global
+simultaneous compatibility.  On the symmetric hyperplane the unique
+terminal class is represented by
+\[
+ (x_3-x_0)^{d-2}(x_1^2-x_2^2).
+\]
+The reduced fixed-plane Chow norm and trace-rank tests remain useful support
+compressions, but their individual restriction spaces are already saturated
+in every relevant degree.
