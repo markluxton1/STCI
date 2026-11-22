@@ -723,6 +723,94 @@ for every \((6,8)\) or \((6,10)\)
 candidate; no unconditional
 mixed-sextic exclusion is claimed.
 
+### A stronger all-\(b\) quintic consequence: forced high indices on the **other** surface
+
+Apply (NR1)--(NR2) to an arbitrary
+hypothetical proper \((5,b)\) sole-support
+pair. The degree-five equation is
+generically regular by restriction to
+the unique quadric, and Bézout forces
+\(b=4n\) with \(n\ge2\).
+For a **general actual replacement**
+of its degree-\(b\) equation,
+\[
+ K_b=G_b+F_5 L_{b-5},
+\]
+the degree-\(b\) surface is **normal**,
+even if the original quintic is
+nonnormal. On this normal surface
+the degree-five mate is minimal,
+and its primitive class has exact
+order five:
+\[
+ \boxed{\quad
+ \Delta=nC_0-H,\quad
+ \operatorname{ord}(\Delta)=5,\quad
+ \frac{R}{\gcd(R,n)}=5.\quad}             \tag{NQ1}
+\]
+Consequently if \(n=5^k n'\)
+with \(5\nmid n'\),
+\[
+ \boxed{\quad v_5(R)=k+1,\qquad
+     v_p(R)\le v_p(n)\ (p\ne5).\quad}     \tag{NQ2}
+\]
+In particular **some actual local
+Cartier index along \(C_0\) on
+the replacement degree-\(b\)
+surface is divisible by
+\(5^{v_5(n)+1}\)**.
+
+Combining this exact torsion condition
+with the **all-degree pointwise
+index slope**
+\[
+ s_{\max}\ge
+ \left\lceil\frac{4b^2-6b}{7b-16}\right\rceil
+\]
+gives sharpened necessary targets:
+
+| Original degree pair | Exact possible \(R\) on normal larger carrier, after the slope bound | Forced index at some point of \(C_0\) |
+| --- | --- | --- |
+| \((5,8)\) | \(10\) | \(10\) |
+| \((5,12)\) | \(15\) | \(15\) |
+| \((5,16)\) | \(10\) or \(20\) | at least \(10\) |
+| \((5,20)\) | \(25\) | \(25\) |
+
+For example, at degree eight the slope
+requires \(s_{\max}\ge6\).
+Equation (NQ1) allows only \(R=5\)
+or \(10\); \(R=5\) would make every
+local index at most five, and is
+impossible. Thus a hypothetical
+\((5,8)\) pair, *without assuming the
+original quintic normal*, forces
+an **actual index-ten point** on
+a normal octic replacement carrier.
+This is substantially stronger
+than merely requiring some
+5-primary local class.
+
+**Scope.** The table does not
+exclude the listed singularities.
+Normality of the larger member
+comes from Bertini on the
+specific equation system;
+the table says nothing about
+the normality or conductor of
+the original quintic. It converts
+the entire **all-mate quintic**
+problem into a family of precise
+higher-degree normal-index
+necessary conditions, without
+substituting the \((5,8)\)
+ADE quintic theorem for an
+arbitrary mate degree. All these
+consequences use the accepted
+all-degree index and slope
+theorems but the new mixed-degree
+Bertini bridge (NR1) remains
+pending independent review.
+
 ## 5. What was removed, and what remains
 
 The new theorem removes **global lifting as a separate hypothesis or
