@@ -343,6 +343,10 @@ The lower tail bounds alone leave that question open. On the edge
 \((3p,4q)\) the second contraction gives a
 [two-way test on marked quintics in \(V_5\)](../arguments/residuals/blowup_residual_geometry.md#actual-equations-on-the-zero-direction-edge).
 
+## Further graph interfaces (pending independent review)
+
+The [Cartier-cut and finite modification identities](../arguments/normal-geometry/curvilinear_genus_and_defects.md#cartier-cuts-and-finite-modifications-of-the-saturated-filtration) refine the whole zero-direction boundary in the generically curvilinear stratum: the divided first exceptional resultant is precisely \((c-1)\Theta+D_{\rm top}\). The [edge recovery and primitive arithmetic](../arguments/residuals/blowup_residual_geometry.md#recovering-generic-curvilinearity-in-all-orders-on-a-subset-of-the-edge) give all-order cases of generic curvilinearity on the graph and the five necessary pairs for global primitivity on the \((3p,4q)\) edge. The \((6,8)\) primitive row forces a worse-than-ADE singularity along the marked quintic of the degree-two image carrier on \(V_5\) by the separate [K3 marked-lattice theorem](../arguments/residuals/blowup_residual_geometry.md#a-k3-marked-lattice-obstruction-to-the-primitive-graph-row). These applications rely on the present review-pending equality and second-blowup proofs; they do not assert new unconditional exclusions of all pairs or change the stated characteristic boundary.
+
 ## Review
 
 The proof route is **pending review** after the requested geometric clarifications. This revision expands the residual attachment multiplicities, two-chart extension, second-blowup support/signs, branching budgets and marked-section dictionary; it does not claim that responding to the review constitutes acceptance.

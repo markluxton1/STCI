@@ -43,3 +43,8 @@ by [connectedness of the strict intersection](connected_normal_directions.md#the
 
 The [higher-order Rees question](../frameworks/formal-normal-geometry/open_normal_geometry.md#higher-order-rees-data-for-entirely-thick-pairs)
 concerns the remaining entirely-thick branch.
+
+
+## Curvilinear recovery and primitive graph structures
+
+On the exact \((3p,4q)\) edge, the [first-graph recovery and primitive arithmetic](../arguments/residuals/blowup_residual_geometry.md#recovering-generic-curvilinearity-in-all-orders-on-a-subset-of-the-edge) extends the second-blowup bound: for \(p=2\) and every mixed direction the strict sextic is generically regular along the unique section; endpoint directions have generic curvilinearity when \(2\le q<6\). Across the whole edge the first strict CI can be primitive everywhere only for five necessary order pairs. Its divided exceptional resultant and finite transfer to \(V_5\) are given by [the pointwise defect comparison](../arguments/residuals/blowup_residual_geometry.md#socle-defects-on-the-two-presentations-of-the-first-graph). In the primitive \((6,8)\) row a smaller image carrier with only smooth or ADE marked points is [excluded by the K3 lattice](../arguments/residuals/blowup_residual_geometry.md#a-k3-marked-lattice-obstruction-to-the-primitive-graph-row); the nonprimitive and worse-singularity strata remain open. These new deductions use the R-0077 hypotheses and await independent review.
