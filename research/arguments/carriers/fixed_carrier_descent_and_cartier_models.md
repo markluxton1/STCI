@@ -327,7 +327,7 @@ class-group criterion in [Hartshorne--Polini, Proposition 7.1 and Lemma 7.6,
 already works on nonnormal carriers in characteristic zero. Their Lemma 7.6
 is precisely hyperplane saturation, not merely torsion-freeness of Picard.
 [Česnavičius--Scholze, Corollary 7.2.3](https://annals.math.princeton.edu/2024/199-1/p02)
-and [Cotner--Zavyalov, Theorem 1.1.8](https://doi.org/10.1112/S0010437X24007231)
+and [Cotner--Zavyalov, Theorem 1.1.8](https://www.cambridge.org/core/journals/compositio-mathematica/article/lefschetz-theorems-in-flat-cohomology-and-applications/8556201EDB51D7F2F76F5950A800CD64)
 give the needed Picard saturation and trivial numerically trivial Picard scheme
 in arbitrary characteristic for any projective complete intersection of
 dimension at least two.

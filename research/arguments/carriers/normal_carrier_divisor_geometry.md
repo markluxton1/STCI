@@ -755,12 +755,14 @@ the scalar equality `C^2=e^2/a` (or equivalently equality in (4)) forces:
 
 The remaining boundaries are exact.
 
-1. **Normality.** The Hodge step applies to Cartier multiples on a normal
-   surface, and the accepted local formula uses normality in the colon
-   identity and in regularity of `z^r/h`. A nonnormal carrier requires its
-   normalization, conductor colengths, residual phases and possibly several
-   inverse branches. The accepted singleton Cartier-lift conductor formula
-   is a separate partial replacement, not a consequence of this note.
+1. **Normality versus generic regularity.** The fixed-carrier
+   [AC1–AC3 theorem](fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices)
+   extends the Hodge criterion to generically regular integral carriers
+   using the actual downstairs almost-Cartier index. The
+   [S2 local extension](normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem)
+   likewise extends the local power–socle formula. Both extensions await
+   independent review. Generically thick carriers still require their
+   inverse branches and conductor descent.
 
 2. **Local indices and the missing global bound.** Local smoothness of the
    branch and surface multiplicity alone do not bound `r_P`: the local
@@ -777,18 +779,17 @@ The remaining boundaries are exact.
    An analogous obstruction is not proved for every balanced rational
    curve.
 
-4. **Characteristic.** Existence in Section 1 only needs numerically
-   trivial Cartier line bundles on `X` to be torsion; exact order additionally
-   uses the accepted torsion-free Picard input. The theorem here is stated
-   in characteristic zero. The local power--socle theorem has the separately
-   proved range where every actual index is prime to the characteristic;
-   no unrestricted characteristic-`p` exact-order or Picard transfer is
-   asserted here.
+4. **Characteristic.** The fixed-carrier numerical and Picard steps in
+   Sections 1 and 3 now have an all-characteristic proof (pending
+   independent review). The local power–socle theorem separately requires
+   its stated tame hypotheses; characteristic-zero Bertini and the
+   characteristic-zero low-degree exclusions are not transferred by
+   Picard saturation alone.
 
 5. **Other generic algebras.** If both defining equations have generic
    normal order at least two, neither one is a normal order-one carrier and
    the generic algebra need not be curvilinear. That entirely-thick branch
-   remains governed by the separate conormal/socle and formal-root program.
+   requires the conormal/socle and formal-root program, supplemented by the [normalized branch and first-graph identities](numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup). On a smooth sole-support strict intersection, [Lefschetz compression](../residuals/blowup_residual_geometry.md#lefschetz-compression-on-ample-strict-carriers) applies once a suitable ample strict carrier is generically regular; this is not automatic for arbitrary thick pairs.
 
 The normal branch has therefore been reduced, without a degree-by-degree
 mate search, to a sharply stated geometric question:
