@@ -224,13 +224,12 @@ boundary data supplies that pair. An endpoint and an interior slope
 are distinct tests; a result on either should say which realization
 condition it actually decides.
 
+The [residual-corrected transfer](../../arguments/residuals/blowup_residual_geometry.md#signed-finite-transfer-throughout-the-interior-equality-boundary) identifies the signed top defect on the image quintic even when the actual image intersection includes the conic. Its [local canonical ideal formulation](../../arguments/residuals/blowup_residual_geometry.md#local-canonical-ideal-version-and-several-marked-points) identifies a colon ideal, not merely a genus correction. Neither substitutes for actual common-support realization in the section spaces.
+
 ## Coregularity and actual equation filtrations
 
 The [local-cohomology interface](../local-cohomology/index.md#simultaneous-coregularity-versus-geometric-defects)
 asks whether full actual equation filtrations detect failure of the
 second-element coregularity condition. The pairwise cokernel is
 \(H_I^1(S/(f,g))(\deg f)\) under the stated first-coregularity and
-vanishing hypotheses. A comparison from the full filtered equation module
-to this actual-intersection module remains open; a finite conductor module
-already supported on \(C\) has zero higher local cohomology and cannot
-alone supply that comparison.
+vanishing hypotheses. The [actual full-primary attachment quotient comparison](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) gives its local annihilator layers by canonical duality. The open step is to force their nonvanishing from actual homogeneous equations, or identify a specific filtered lifting obstruction with an attachment quotient. A finite conductor module already supported on \(C\) has zero higher local cohomology and cannot alone supply that argument.

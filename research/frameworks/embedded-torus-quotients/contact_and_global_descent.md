@@ -161,6 +161,8 @@ is unavoidable. No such universal bridge is proved here. The displayed moving
 family and the twisted-cubic/contact/Rees controls explain which weaker
 conditions are insufficient.
 
+There is now a specific positive bridge: [layerwise attachment duality](../../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) bounds each complementary-layer defect by the marked attachment divisor, and a positive such defect forces a genuine residual. This uses the actual full primary inside a Gorenstein CI, not an arbitrary normalization or a defect of an unlifted ideal. The [fixed toric example](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) shows that total thick attachment is not monotone in residual degree. The [canonical ideal transfer](../../arguments/residuals/blowup_residual_geometry.md#local-canonical-ideal-version-and-several-marked-points) identifies the conductor when the image primary has no residual, and the corrected canonical colon otherwise. No universal obstruction follows. Pending independent review.
+
 ## Literature and bounded stopping points
 
 The primary literature is integrated where its hypotheses are checked:
