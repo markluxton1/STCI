@@ -398,6 +398,25 @@ a different characteristic scope
 from this formal local triple
 argument.
 
+The [triple proper-cut identity TR7](../residuals/residual_capacity_and_constructions.md#triple-determinant-recovery-from-an-actual-auxiliary-cut)
+extracts the actual equation
+determinant from the same \(Q\)-cut
+when the marked multiplicity is
+three: \(\eta=2\Theta+
+[R\cap Q]-B_Q\). In TS5--TS7
+this independently gives
+\(5p_0+9p_\infty\).
+At multiplicity four the BF
+locally complete-intersection
+model has nonzero \(D_3\)
+but zero conormal torsion,
+so this cancellation fails.
+This is a limited pointwise
+bridge from actual restrictions
+to the Fitting attachment module,
+not a universal residual
+monotonicity theorem.
+
 ### A fixed auxiliary quadric detects the same punctual defect at every collision
 
 The retained \((4,4)\) family and its arbitrary-degree

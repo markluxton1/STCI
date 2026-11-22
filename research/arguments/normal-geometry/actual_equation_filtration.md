@@ -984,6 +984,26 @@ independent review.
 
 For full-primary **triples** the [BF triple and actual-pair attachment TR1--TR4](../residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors) strengthens the residual-corrected R0019 account: the saturated normal defect \(D_2\) is exactly the primary conormal-torsion divisor by Bănică--Forster's local normal form and Hilbert--Burch. The actual two-equation determinant supplies the other contribution \(\eta\), and the attachment layers are \((D_2+\eta,\eta,D_2+\eta)\). This is a level of resolution stronger than the generic-length-independent residual-cut identity, but specific to quasiprimitive triples. It does not assert R0016's nonsaturated first-relation defect is \(\tau\) or \(\eta\).
 
+In multiplicity three there is an
+extra simplification of R19+: by
+[TR7](../residuals/residual_capacity_and_constructions.md#triple-determinant-recovery-from-an-actual-auxiliary-cut)
+the proper-cut divisor satisfies
+\(B_Y-[R\cap Q]=2\Theta-\eta\).
+The actual primary equation determinant
+\(\eta\) is therefore recovered from
+a proper cut and tangency without
+computing its conormal torsion
+independently; \(\tau=D_2\) then
+recovers reduced attachment.
+In the global toric \((4,6)\)
+triple this gives the verified
+\(5p_0+9p_\infty\).
+For the classical lci quadruple
+with \(D_2=D_3>0\) the term
+\(D_3\) remains in the cut identity.
+The cancellation is genuinely
+triple-specific.
+
 ### 3. Remaining scope boundaries
 
 These checks validate the two logical interfaces but do not independently re-run all Macaulay2/Python calculations or prove that an arbitrary characteristic-zero STCI has the quasiprimitive filtration of R0019. In R0016, the nonsaturated resultant identity is proved by its separately audited duality and local flatness lemmas; R0010 serves as the saturated comparison and R0011 supports only the repeated-root strengthening.

@@ -577,6 +577,79 @@ the missing-\(x\) transcription.
 This typographical observation
 is not used in TR5--TR6.
 
+### Triple determinant recovery from an actual auxiliary cut
+
+Combine TR3 with the signed order-one
+cutting-surface formula LA6. On
+a generically curvilinear full-primary
+**triple** in an actual proper CI,
+for any proper auxiliary smooth
+Cartier surface \(J_0\supset C\)
+whose defining equation has generic
+normal order one, the identity
+simplifies **pointwise**:
+\[
+ \begin{aligned}
+ B_Y-[R\cap J_0]
+   &=2\Theta+D_2-H_0\\
+   &=2\Theta-\eta.
+ \end{aligned}
+\]
+Thus the *actual equation determinant
+divisor* is recovered as
+\[
+ \boxed{\quad
+ \eta=2\Theta+[R\cap J_0]-B_Y.
+ \quad}                                                 \tag{TR7}
+\]
+The left side comes from the
+two defining equations on the full
+primary; the right side uses the
+actual proper auxiliary cut and
+its tangency divisor. The equality
+holds as effective divisor classes
+supported on \(C\) after
+subtracting the residual cut on
+the auxiliary surface. This is a
+direct consequence of the established
+canonical duality formulas and
+BF's triple normal form; it is
+not a new genus or intersection
+theorem.
+
+For TS5--TS7 with \(m=3,N=6\),
+\(\Theta=p_0+p_\infty\),
+\([R\cap Q]=12p_0+12p_\infty\),
+and \(B_Y=9p_0+5p_\infty\).
+TR7 gives
+\[
+ \eta=(2+12-9)p_0+(2+12-5)p_\infty
+       =5p_0+9p_\infty,
+\]
+exactly the independent conormal
+determinant calculation.
+The non-lci torsion is then
+\(\tau=D_2=2p_0\), recovering
+\(H_0=7p_0+9p_\infty\).
+
+For a locally complete-intersection
+quadruple with \(D_2=D_3=d>0\)
+the formula is **not** TR7:
+LA6 reads
+\(B_Y-[R\cap J_0]=3\Theta+D_3-H_0\),
+and since its conormal torsion is
+zero, \(H_0=\eta\); an additional
+\(D_3\) remains. This supplies a
+geometric explanation for the
+multiplicity-three cancellation
+and prevents presenting it as a
+general all-order conservation law.
+The residual cut \([R\cap J_0]\)
+cannot be discarded unless the
+residual is absent, so TR7 is not
+an automatic detector of residual
+degree from \(B_Y\) alone.
+
 ### Cutting the residual pair rather than just its primary part
 
 Let \(J_0\) be a smooth auxiliary Cartier divisor
