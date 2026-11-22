@@ -742,6 +742,60 @@ The inequality follows from the negative-definite exceptional ADE root lattice a
 
 **An all-degree arithmetic consequence requiring no rank bound.** If every prime factor of \(m\) is \(1\bmod4\), then \(m\equiv1\bmod4\), and each contribution \(m/r_P-1\) in RG1 is divisible by four. But MV7 gives \(\deg D_{\rm top}\equiv14\equiv2\bmod4\). This is impossible. Thus in this entire multiplicity class **every generically curvilinear sole-support pair must have a nonreduced common first-normal divisor**. Examples include hypothetical \((5,20)\) and the order-one sector of \((10,10)\), both with \(m=25\). The result excludes the reduced-defect stratum, not those pairs or their entirely-thick sectors. More generally RG1 forces congruence modulo \(\gcd_{p\mid m}(p-1)\) for composite \(m\); it retains the individual local divisors and exact global rank test when the congruence is vacuous.
 
+### First-symbol movement and socle comparison on an arbitrary smooth threefold
+
+The proof of MV2–MV9 is intrinsically about an actual
+generically curvilinear sole-support CI of Cartier divisors
+\(A_1,A_2\) on a smooth projective threefold \(Y\) in
+characteristic zero, with smooth integral reduced support
+\(T\) and length \(c>1\). No projective-space normal
+splitting is needed for that mechanism. Write
+\(\lambda=\deg N_{T/Y}\), \(\deg L=-\ell\) for the
+free first conormal line, and \(d_i=A_i\cdot T\).
+The saturation kernel is a line of degree \(\ell-\lambda\);
+the scalar first-symbol zero divisors have degrees
+\(d_i-\lambda+\ell\) when the symbols are nonzero.
+Their common divisor is the actual nonprimitive support
+with multiplicities as in MV3. Adjunction gives
+\[
+ \deg D_{\rm top}=(c-1)\ell-d_1-d_2+\lambda .
+\]
+If \(A_2-A_1\) is globally generated, the actual replacement
+\(G+\mathcal J F\) has fixed first-symbol divisor equal
+to this gcd; after removing it the scalar system is
+basepoint-free. Characteristic-zero Bertini gives a
+reduced moving divisor disjoint from the fixed part,
+and the same proof as MV5 gives an actual index-\(c\)
+point at every moving root on a normal replacement.
+For nonzero smaller symbol the moving degree is at
+least \(d_2-d_1\). This lower bound does not require
+a surjective global section image into the entire
+first-symbol space. Normality of the replacement uses
+base-support Bertini, generic regularity and \(S_2\);
+integrality follows if the divisor is ample (connected)
+or connectedness is otherwise established. The local
+formula and gcd/socle support identity remain valid on
+any such normal carrier, with the local index theorem
+on a smooth threefold. The degree-specific ADE rank
+and index-divisibility statements for hypersurfaces
+in \(\mathbf P^3\) are not transferred.
+
+In particular, on the graph of the quartic, the
+[ample strict-carrier replacement LC3](../residuals/blowup_residual_geometry.md#lefschetz-compression-on-ample-strict-carriers)
+for \(a=3p,b=4q,p\le q\) has difference globally generated
+and \(d_2-d_1=9q-5p>0\). Whenever the strict
+degree-\(3p\) generator has order one on the surviving
+section, this proves \(R=c=2pq\) by movement alone,
+without needing the minimal-mate argument of LC2.
+For \((6,8;2,2)\) at least eight distinct moving
+index-eight points occur on a general strict octic,
+each away from the common first-symbol divisor.
+The forced index-eight point of LC4 is one part
+of this geometric statement. The [exceptional resultant
+and marked-point defect transfer](../residuals/blowup_residual_geometry.md#socle-defects-on-the-two-presentations-of-the-first-graph)
+then identify the actual common-defect budget on this
+graph. These extensions await independent review.
+
 ## 5. What was removed, and what remains
 
 The new theorem removes **global lifting as a separate hypothesis or

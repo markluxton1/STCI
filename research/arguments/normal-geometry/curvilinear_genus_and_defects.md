@@ -216,6 +216,153 @@ D_i+D_(m-1-i)=D_soc; these are inherited in the precise quasiprimitive
 scope used by [R0022](../../results/quartic_44_filtered_exclusion.md), rather
 than a general theorem here.
 
+## Cartier cuts and finite modifications of the saturated filtration
+
+**Status: new general application of the saturated filtration,
+pending independent mathematical review.** Work on a pure CM
+curve \(W\) in a smooth threefold with smooth reduced support \(T\)
+and generically curvilinear algebra of length \(c\). Write \(P_i\)
+for the saturated normal-power flag of §4, \(L=P_1/P_2\),
+\(W_i=P_i/P_{i+1}=L^i(D_i)\), with \(D_0=D_1=0\).
+Here all \(D_i\) are actual multiplication divisors and
+\(D_{\rm top}=D_{c-1}\). The following first assertion does
+not require that \(W\) is lci.
+
+### Determinant of a Cartier cut
+
+Let \(J\) be an ambient effective Cartier divisor containing
+\(T\). Assume its equation on the generic algebra of \(W\)
+has exact order \(k\), with \(1\le k<c\). Its first nonzero
+saturated symbol is a map
+\[
+ \mathcal O_T(-J)\longrightarrow W_k
+\]
+with effective zero divisor \(\Theta_k\). Define \(B_J\) as
+the divisor of lengths of the maximal zero-dimensional
+subsheaf of \(\mathcal O_{W\cap J}\).
+Then
+\[
+ \boxed{B_J=(c-k)(\Theta_k-D_k)
+       +\sum_{i=c-k}^{c-1}D_i-\sum_{i=0}^{k-1}D_i.}       \tag{CF1}
+\]
+In particular when \(k=1\), writing \(\Theta=\Theta_1\),
+\[
+ \boxed{B_J=(c-1)\Theta+D_{\rm top}.}                     \tag{CF2}
+\]
+
+**Proof.** Locally trivialize the equation \(j\) of \(J\)
+and complete at a point of \(T\). Lift a uniformizer to the
+finite free DVR algebra as in §4. The element \(j\) belongs
+to \(P_k\); its annihilator is \(P_{c-k}\), because this
+holds generically and \(W\) is pure. Thus multiplication
+induces an injection
+\[
+ (\mathcal O_W/P_{c-k})(-J)\xrightarrow{\ j\ } P_k
+\]
+of finite free modules of the same rank over the DVR.
+Its cokernel is exactly the punctual torsion in
+\(\mathcal O_W/(j)\): the remaining quotient
+\(\mathcal O_W/P_k\) is pure. The map is strict for the
+shifted saturated flags, since membership in each \(P_i\)
+is detected at the generic point. The determinant is the
+product of the shifted rank-one graded determinants.
+On the \(i\)-th layer, its zero order is the coefficient
+of \(\Theta_k+D_{i+k}-D_i-D_k\), by comparing the actual
+multiplication of generators of \(L\) with generators of
+each saturated layer. Summing for \(i=0,\dots,c-k-1\)
+gives (CF1) by telescoping. This calculation is a length
+of an actual cokernel, not a zero divisor of a generic
+frame or a length of an ordinary power filtration.
+\(\square\)
+
+If \(W\) is Gorenstein, the duality in §5 and the
+[saturated pairing proof](#2-direct-proof-of-the-saturated-duality-and-effective-defects)
+give \(D_i+D_{c-1-i}=D_{\rm top}\). Thus (CF1) also equals
+\[
+ (c-k)(\Theta_k-D_k)+kD_{\rm top}-2\sum_{i<k}D_i.
+\]
+For \(k=1\), \(\Theta\) is the zero divisor of the
+map from the free normal direction \(L^\vee\subset N_{T/X}\)
+to \(\mathcal O_T(J)\); it measures tangency of that direction
+to the cutting divisor, including orders.
+
+**Residual interpretation on a smooth cutting surface.**
+Suppose now \(W\) is an actual proper CI of two Cartier
+divisors, \(J\) is smooth, and neither divisor contains \(J\).
+The restrictions of the two equations to \(J\) have divisorial
+gcd exactly \(kT\) (at the generic point their local length
+on the surface is \(k\), and sole support excludes other curves).
+Divide both by its canonical equation. Their remaining
+intersection is a finite scheme \(Z\) supported on \(T\).
+Locally the original ideal on \(J\) is
+\(h^k(f',g')\), where \(h\) cuts \(T\).
+Multiplication by \(h^k\) gives
+\[
+ 0\longrightarrow \mathcal O_Z(-kT)
+ \longrightarrow\mathcal O_{W\cap J}
+ \longrightarrow\mathcal O_{kT}\longrightarrow0 .
+\]
+Since \(kT\) is a pure Cartier divisor on the smooth surface,
+\(Z\) accounts for exactly the punctual torsion. Hence CF1
+computes its intersection-length divisor on \(T\). For \(k=1\)
+and at a primitive point of \(W\), the residual intersection
+length is a multiple of \(c-1\), with nonzero value precisely
+at tangency points. When the divided equations are binary
+forms on a ruled surface over \(T\), their relative resultant
+is the pushforward of this finite intersection-length divisor,
+with residue degrees. CF1 is therefore a pointwise resultant
+identity in that setting, not merely the corresponding
+intersection number. The usual resultant/finite intersection
+comparison follows from the divisor of the determinant of
+the Sylvester map, or the standard local intersection
+formula; see Busé–Khalil–Mourrain,
+[*Resultant-based methods for plane curves*, §3.1](https://hal.science/inria-00111538).
+The saturated-flag identity is the argument above, not a
+theorem attributed to that source.
+
+### Finite birational modification of a curvilinear thickening
+
+Suppose \(f:W_+\to W_-\) is a finite morphism of pure CM
+thickenings of the same smooth curve \(T\), inducing the
+identity on \(T\) and an isomorphism of the generic algebras
+of common curvilinear length \(c\). Both schemes may be
+embedded in different smooth threefolds, and are not
+assumed to have a global retraction onto \(T\).
+Purity gives the injection
+\(\mathcal O_{W_-}\to f_*\mathcal O_{W_+}\).
+Let \(B_f\) be its punctual cokernel-length divisor.
+The induced map of free first normal layers
+\(L_-\to L_+\) has zero divisor \(\Xi\).
+Using the two saturated flags, for every \(0\le i<c\)
+the induced line-bundle map has divisor
+\[
+ i\Xi+D_{+,i}-D_{-,i}\ \ge 0.                            \tag{CF3}
+\]
+Indeed membership in the saturated flag is detected by
+the common generic algebra. The first-layer symbols
+of a local generator multiply to the corresponding
+\(i\)-th powers, and comparing these with saturated
+generators proves the asserted divisor. The map is
+strict for the flags by generic detection. Summing
+the cokernel lengths gives
+\[
+ B_f=\binom c2\Xi+\sum_i(D_{+,i}-D_{-,i}).
+\]
+If both thickenings are Gorenstein, their saturated duality
+therefore gives the pointwise identity
+\[
+ \boxed{\frac{2}{c}B_f=(c-1)\Xi+
+                     D_{+,\rm top}-D_{-,\rm top}.}       \tag{CF4}
+\]
+This works with actual finite modifications, not arbitrary
+deformations or two different generic algebras. Neither
+\(B_f\) nor \(\Xi\) is the conductor divisor of a normalized
+surface. This is a new comparison of the finite curve
+algebras and their genuine socle defects.
+
+Applications to the two presentations of the first graph
+are in [the exceptional-cut and marked-point comparison](../residuals/blowup_residual_geometry.md#socle-defects-on-the-two-presentations-of-the-first-graph).
+
 ## 6. What the spectral sequence adds, and what it does not
 
 Let \(D_{\mathrm{eq}}=J/IJ=\mathcal O_C(-a)\oplus\mathcal O_C(-b)\)

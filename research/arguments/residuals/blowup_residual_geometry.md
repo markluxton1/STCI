@@ -1049,6 +1049,195 @@ be studied on the marked section with its actual conormal bundle,
 rather than assumed on the original \(C\).
 
 
+## Socle defects on the two presentations of the first graph
+
+**Status:** new synthesis, pending independent review, using the
+existing R-0077 equality and second-blowup results and the actual
+marked correspondence above. The local filtration comparisons are
+[CF1–CF4](../normal-geometry/curvilinear_genus_and_defects.md#cartier-cuts-and-finite-modifications-of-the-saturated-filtration).
+No existence of the hypothetical pairs is assumed.
+
+### The exceptional-surface residual resultant
+
+Retain sole support on the zero-direction boundary and suppose
+the strict intersection \(W\) has generic embedding dimension
+one, with length \(c>1\) on the constant section \(T\).
+Put \(A=4a-7p,\ B'=4b-7q\) for the two restriction degrees
+on \(T\), and write \(L_1=\mathcal O_T(-\ell)\) for its
+free first conormal layer. Its top-socle defect has degree
+\[
+ D:=\deg D_{\rm top}=(c-1)\ell-(A+B'-7).                  \tag{SC1}
+\]
+This follows from actual CI adjunction on the graph and
+\(\deg N_{T/B}=7\); it does not copy the original quartic
+constant 14. Since \(A\ge5p,\ B'\ge5q\), one has \(\ell>0\).
+The exact sequence
+\(0\to \mathcal O_T\to N_{T/B}\to\mathcal O_T(7)\to0\)
+is the one computed in R-0077. The free normal line
+\(L_1^\vee\) cannot be contained in \(\mathcal O_T\) as it
+has positive degree. Consequently the equation of the
+exceptional surface \(E\) has generic order exactly one
+on \(W\); \(\Theta\), the zero divisor of its free first
+symbol, has degree \(7-\ell\).
+
+Thus the actual divisorial gcd of the two restrictions to
+\(E\) is exactly \(T\), not a thick copy of \(T\).
+Any strict generator of generic normal order one on
+\(T\) has a simple horizontal root \(T\) in its
+restriction to \(E\): its first derivative in the direction
+of \(N_{T/E}\) is generically nonzero, since the generic
+surviving normal line is transverse to \(E\).
+An order-at-least-two strict generator may have a
+repeated root. After dividing by the single common \(T\),
+the two binary forms on \(E\) have bidegrees
+\((A,p-1),(B',q-1)\), and their common finite scheme is
+supported on \(T\). CF2 gives the exact relative resultant
+divisor on the base \(T\cong C\):
+\[
+ \boxed{\operatorname{div}\operatorname{Res}
+        =(c-1)\Theta+D_{\rm top}.}                       \tag{SC2}
+\]
+If one of the remaining binary degrees is zero, the
+resultant has its ordinary scalar-power interpretation.
+The assertion is the pushforward of the finite
+intersection, and does not identify a resultant with the
+whole common-root scheme before division. Its degree is
+\(A(q-1)+B'(p-1)=7(c-1)-(A+B'-7)\), by \(K=0\).
+This is precisely the previous first-graph degree identity,
+now localized pointwise. A primitive point can contribute
+to the divided resultant only by tangency of \(L_1^\vee\)
+to \(E\), and there it contributes \((c-1)\operatorname{mult}
+\Theta\), not merely one.
+
+For example, at \((6,8;2,2)\), the two divided forms
+have bidegrees \((10,1),(18,1)\), so their resultant is
+an actual two-by-two determinant of degree 28. Its
+divisor is \(7\Theta+D_{\rm top}\). From the normal
+splitting in R-0077, the endpoint directions have
+\(N_{T/B}=\mathcal O(2)\oplus\mathcal O(5)\), and the
+mixed directions have \(\mathcal O(3)\oplus\mathcal O(4)\).
+A line subbundle giving a *surjective* conormal quotient
+cannot have degree strictly between the two unequal
+summands: the map to the smaller-degree summand is zero,
+and a nonzero section of a positive-degree line bundle
+into the other has zeros. Combined with SC1 and \(D\ge0\)
+this gives exactly the following necessary rows:
+\[
+\begin{array}{c|c|c|c}
+\text{direction}&\ell&\deg\Theta&\deg D_{\rm top}\\ \hline
+\text{endpoint}&5&2&14\\
+\text{mixed}&3&4&0\\
+\text{mixed}&4&3&7
+\end{array}
+\]
+In particular the mixed \(\ell=3\) row is automatically a
+globally primitive thickening on the first graph, by the
+ordinary-layer Frobenius criterion. In that row the
+degree-28 determinant is a seventh power up to scalar
+of a degree-four binary form. In the other rows its
+remaining factor is exactly the top-socle divisor,
+not a freely chosen defect. No row is asserted to occur.
+
+### Finite transfer at the marked point on the degree boundary
+
+On the endpoint slope boundary \(a=3p,b=4q\) (either
+constant direction orbit), the actual \(V_5\) intersection
+\(Z=(P=0)\cap(S=0)\) has sole support the marked quintic
+\(\Delta\); its length is \(c=2pq\), by intersection degree
+on \(V_5\). On the graph \(W\) has the same length and
+support \(T\), since \(\phi|_T:T\to\Delta\) is an
+isomorphism. Assume the generic algebra is curvilinear
+on either side; the generic algebras agree. The actual
+map \(\phi|_W:W\to Z\) is proper and quasi-finite (its
+reduced map is an isomorphism), hence finite. It is an
+isomorphism off the single marked point \(z\) and injective
+on structure sheaves by purity of \(Z\). This is a finite
+modification of the *nonreduced CI*, not normalization
+of its reduced curve.
+
+Write \(A_Z,A_W\) for the actual curve algebras, and
+\(\delta_z=\operatorname{length}((\phi|_W)_*A_W/A_Z)_z\).
+The ambient canonical divisor of the blowup of the smooth
+conic is \(K_B=\phi^*K_{V_5}+Q'\), and the strict equations
+have classes \(\phi^*(pM)\), \(\phi^*(2qM)-qQ'\).
+Adjunction gives
+\[
+ \omega_W=\phi^*\omega_Z\otimes\mathcal O_W((1-q)Q').
+\]
+Both schemes are projective Gorenstein curves, so
+\(\chi(\omega)=-\chi(\mathcal O)\). For a line bundle on
+a pure multiplicity-\(c\) curve with smooth support,
+twisting changes \(\chi\) by \(c\) times its degree on
+the support; this follows directly from the saturated
+filtration in the curvilinear case. Finite projection
+formula and the punctual cokernel give
+\(\chi(\phi^*\omega_Z)=\chi(\omega_Z)+\delta_z\).
+Since \(Q'\cdot T=1\), it follows that
+\[
+ \boxed{\delta_z=\frac{c(q-1)}2=pq(q-1).}                 \tag{SC3}
+\]
+This does not assume that the strict or image CI is
+primitive at \(z\). The difference in Euler characteristics
+is supported only there.
+
+The conormal map from the image to the graph is an
+elementary modification of length one at that point:
+write locally the smooth center as \((x,y)\), the
+transverse marked curve as \((t,y)\), and \(y=xv\)
+on its blowup chart, as in the marked correspondence.
+At the reduced curve its conormal matrix has elementary
+divisors \(1,x\). The free first layers map by a
+nonzero homomorphism \(L_Z\to L_W\), whose zero
+divisor is \(\xi[z]\), \(\xi\in\{0,1\}\). Indeed the
+image of the entire ambient conormal in \(L_W\) has
+cokernel of length at most one, and it factors through
+the surjection onto the free first layer of \(Z\).
+The value \(\xi=1\) is precisely when the surviving
+normal line on \(W\) at the marked point is the kernel
+of the normal differential of \(\phi\) (the contracted
+ruling direction). This description makes sense at
+nonprimitive points via the saturated line.
+
+By CF4 and SC3 the top defects away from \(z\)
+agree, and at \(z\) they satisfy the exact identity
+\[
+ \boxed{D_{Z,\rm top}(z)
+  =D_{W,\rm top}(z)+(c-1)\xi-(q-1).}                     \tag{SC4}
+\]
+Thus for \(q>1\):
+- if the surviving direction is not contracted, the
+  graph thickening must supply \(D_{W,\rm top}(z)\ge q-1\);
+- if the direction is contracted, the image defect is
+  at least \(c-q\);
+- if the graph thickening is primitive at the marked
+  point, its direction must be contracted and its
+  image has defect exactly \(c-q\).
+
+In particular a globally primitive graph thickening
+does **not** imply a primitive image quintic thickening.
+In the \((6,8;2,2)\) mixed \(\ell=3\) row, it forces
+\(\xi=1\), \(\ell_Z=\ell+1=4\), and all image top
+defect is \(6[z]\), with all other points primitive.
+SC3 computes a length-four finite modification. The
+degree and support of the image defect are thus fixed,
+rather than only subject to a total genus inequality.
+The actual defining equations on \(V_5\) and their
+conic normal forms are still needed for realization.
+
+This transfer does not apply in the interior of the
+zero-direction slope boundary when the image pair also
+contains \(\Gamma\); that pair has another component
+and the finite same-support modification premise fails.
+More generally the CF3–CF4 comparison works on any
+finite generically isomorphic pair of pure curvilinear
+thickenings, and the SC3 proof applies to analogous
+transverse-center blowups where the sole-support image
+and strict CIs have the same generic length and a
+single marked modification point. One must check the
+actual support, relative canonical correction, and
+degree of the conormal modification; these are not
+automatic at the next blowup.
+
 ## Relation to actual normalized carrier branches
 
 The [valuation dictionary and Hodge-gap decomposition](../carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) refine the first-graph cycle by choosing one integral carrier and a resolution dominating its finite normalization and the first graph. An actual strict mate pulls back to `div(G)-qD`, with D the principalized marked ideal. Thus each horizontal component coefficient is the pushforward of `n_i-qe_i`; the exceptional coefficients record the full vertical cycle and give further inequalities. The scalar graph equality (3) is recovered by summing these coefficients against direction degree and is not independent of that sum. The additional information is the fixed-carrier Hodge matrix, the decomposition of the marked-ideal square gap, and, for two inverse branches, the resulting necessary matrix. This does **not** identify normalized carrier branches with the Rees valuations of the full CI ideal in the next section. Independent review of the new refinement is pending.
