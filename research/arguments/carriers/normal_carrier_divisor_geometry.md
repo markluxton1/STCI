@@ -180,6 +180,64 @@ O_C(R E_X,C)=B^(-R) tensor O_X(-RC)|C.
 It should be retained in positive genus even when only the scalar Hodge gap
 is being used.
 
+## 2.5 The ADE exceptional correction is the normal-layer defect budget
+
+The Hodge-gap formula has a second geometric interpretation,
+using the **same actual local data**, whenever \(X\) has only
+Du Val singularities. Let
+\(\pi:\widetilde X\to X\) be its crepant
+minimal resolution and write
+\(\pi^*C=\widetilde C+Z\), with rational
+exceptional correction \(Z\). The strict transform
+is a smooth rational quartic. Adjunction and
+crepancy give
+\[
+ \widetilde C^2=14-4a,\qquad
+ C^2=\widetilde C^2-Z^2.
+\]
+The total zero divisor of the degree-\(a\)
+surface's saturated first normal symbol has degree
+\(\sum_PA_P=4a-14+\ell\); this is the
+normal-bundle degree used in the
+[accepted carrier symbolic budget](normal_carrier_symbolic_torsion.md#a-symbolic-triple-defect-certificate-for-unrestricted-normal-carriers).
+Combine it with the **mate-independent** local
+self-intersection formula of §2 to obtain
+\[
+ \boxed{\quad
+ -Z^2=\sum_{P\in C}\left(
+     \left(1-\frac1{r_P}\right)A_P
+     -\frac{D_{r_P,P}}{r_P}
+     \right).\quad}                                   \tag{ADE1}
+\]
+This numerical identity applies to any normal ADE
+carrier containing the fixed \(C\), even when it
+does **not** possess a mate. It does not identify
+the displayed summands with individual exceptional
+intersection contributions without further
+local analysis.
+
+If a mate exists, Hodge equality forces
+\[
+ \boxed{-Z^2=4a-14+\frac{16}{a}.}                 \tag{ADE2}
+\]
+Thus the familiar quartic, quintic and sextic
+correction targets \(6,46/5,38/3\) are
+specializations of one adjunction identity.
+The first-symbol divisor, actual local
+Cartier indices and ordinary multiplication
+defects are different descriptions of its
+*available* correction; the Hodge equality
+specifies its *required* value.
+
+This translation does **not** replace
+the final global surface-geometry proofs:
+realizability of (ADE2) by an actual
+hypersurface with the requisite torsion class
+is a distinct constraint. The quintic
+\(4A_1+9A_4\) reduced-symbol row, for example,
+meets the correction \(46/5\) but fails the
+forced double-cover canonical-map bound.
+
 ## 3. Exact exponent and minimal mate once the boundary is reached
 
 Assume the equivalent conditions of Section 1. For every point of `C` on
