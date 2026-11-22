@@ -153,6 +153,208 @@ already give a distinct ADE/even-node budget and show why exceptional
 rank alone can be insufficient. A common mechanism remains an open
 question, not an extrapolation of the quartic formula or a ranked task.
 
+## 5.7 The common adjunction gap: synthesis across degrees four, five, and six
+
+**Status and scope.** This section compares proved mechanisms, rather than
+asserting a new all-degree exclusion. It uses the fixed characteristic-zero
+smooth rational quartic \(C=C_0\) of degree four. The
+[normal-carrier extremal-ray criterion](../../arguments/carriers/normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface)
+is already necessary **and sufficient on a fixed normal \(\mathbf Q\)-Cartier carrier**;
+the [conductor/differential criterion](../../arguments/carriers/carrier_conductor_differential_comparison.md)
+has distinct nonnormal, generic-regularity and smoothness hypotheses.
+The [quartic-carrier theorem](../../results/quartic_carrier_exclusion.md)
+excludes *all* integral degree-four carriers with mates, whereas the
+degree-five and degree-six exclusions below are **conditional sectors**,
+not full carrier-degree exclusions.
+
+### The normal-carrier Hodge gap is an existence test, not just a bound
+
+Let \(X\subset\mathbf P^3\) be an integral **normal** degree-\(a\)
+hypersurface containing \(C\), and assume \(C\) is \(\mathbf Q\)-Cartier.
+Write \(H=\mathcal O_X(1)\). Hodge index gives
+\[
+ \Gamma_X(C):=\frac{16}{a}-C^2\ \ge0.
+\]
+The established [normal-carrier theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md)
+proves, in characteristic zero,
+\[
+ \boxed{\quad
+ \Gamma_X(C)=0
+ \quad\Longleftrightarrow\quad
+ \text{\(C\) admits an actual homogeneous sole-support mate on \(X\)}.
+ \quad} \tag{S1}
+\]
+If \(C\) is not \(\mathbf Q\)-Cartier, the equivalence cannot be
+invoked and there is no mate on this normal \(X\).
+Equality makes a multiple of \(C\) linearly equivalent to a multiple
+of \(H\); the associated section lifts to \(\mathbf P^3\) by the
+hypersurface restriction sequence. Thus **on normal carriers**, a
+separate conjectural global equation-lifting obstruction must not
+be added after (S1). Identifying the vanishing locus of the gap as
+\(X\) varies is still the difficult problem.
+
+For the saturated first normal quotient \(B=\mathcal O_C(-\ell)\),
+the actual local Cartier indices \(r_P\), first-symbol vanishing
+orders \(A_P\) and top ordinary multiplication defects \(D_{r_P,P}\),
+the accepted intrinsic comparison makes the same test local:
+\[
+ \boxed{\quad
+ \Gamma_X(C)=
+  \sum_{P\in C}\frac{A_P+D_{r_P,P}}{r_P}
+       -\left(\ell-\frac{16}{a}\right).\quad} \tag{S2}
+\]
+The divisors on the right arise from the **actual carrier geometry**;
+an arbitrary collection of formal local numbers is not automatically
+realizable. This is the common target against which low-degree
+ADE/index/normal-symbol cases should be compared.
+
+### On a Du Val carrier, exceptional correction measures this exact gap
+
+Assume further that \(X\) has only Du Val singularities. On its
+crepant minimal resolution \(\pi:\widetilde X\to X\), write
+\(\pi^*C=\widetilde C+Z\), where \(Z\) is the rational exceptional
+correction. The strict transform is a smooth rational curve,
+\(K_{\widetilde X}=(a-4)\pi^*H\), and adjunction gives
+\[
+ \widetilde C^2=-2-4(a-4)=14-4a,\qquad
+ C^2=\widetilde C^2-Z^2.
+\]
+Consequently
+\[
+ \boxed{\quad
+ \Gamma_X(C)=
+  \left(4a-14+\frac{16}{a}\right)-(-Z^2).
+ \quad} \tag{S3}
+\]
+In particular Hodge index makes \(-Z^2\) **at most**
+\(4a-14+16/a\), and a mate requires **equality**, not merely
+some nonzero exceptional correction. This is a precise interpretation
+of the "required correction" terminology.
+
+| Carrier degree \(a\) | Required value of \(-Z^2\) **if a mate exists** |
+| --- | ---: |
+| \(4\) | \(6\) |
+| \(5\) | \(46/5\) |
+| \(6\) | \(38/3\) |
+
+The last entry is exactly the
+[existing sextic correction](../../arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget).
+The fractions impose prime-local-index requirements in the ADE
+lattice (a denominator \(5\) needs 5-primary local classes,
+a denominator \(3\) needs 3-primary classes), but denominators and
+exceptional rank alone are **not** sufficiency criteria.
+
+### A formal numerical coincidence with nonnormal conductor contact
+
+In the *different* regime where an integral carrier \(S\) is
+generically regular along \(C\), its normalization \(\nu:X\to S\)
+is **smooth along the unique lifted curve** \(c\cong C\), and an
+actual mate exists, the existing
+[conductor/differential comparison](../../arguments/carriers/carrier_conductor_differential_comparison.md#divisor-and-conductor-degrees)
+computes
+\[
+ c^2=\frac{16}{a},\qquad
+ D\cdot c=4a-14+\frac{16}{a}, \tag{S4}
+\]
+where \(D\) is the **full normalization conductor divisor**.
+This is the same numerical adjunction discrepancy as (S3), but
+\(D\cdot c\) and \(-Z^2\) are **not the same invariant**;
+one concerns nonnormal descent and the other resolution of a
+normal Du Val surface.
+
+Moreover, *smoothness along \(c\)* makes \(c\) Cartier and \(c^2\)
+integral, hence \(a\mid16\). Thus **degree-five and degree-six
+nonnormal carriers cannot satisfy this smooth-normalization
+hypothesis under a mate at all**. Their entries in the table
+are not predictions of realizable conductor configurations.
+For the remaining divisible degrees, the smooth-conductor local
+inequality \(D\cdot c\le2\deg H_{\mathrm{diff}}\) and the balanced
+normal splitting yield
+\[
+ (a-3)(a-4)\le0,
+\]
+excluding all \(a\ge5\) when the full conductor also has only
+smooth contact on \(C\). Singular normalization or singular
+conductor gluing is a **real mathematical escape regime**,
+not an error term one may silently bound by this inequality.
+
+### The indices turn degree-five and degree-six cases into a single test
+
+For a hypothetical sole-support mate of degree \(b\) on a normal
+degree-\(a\) carrier, put \(g=\gcd(a,4)\),
+\(\mu=a/g\), \(v=4/g\), and let \(R\) be the lcm of
+the **actual local Cartier indices of \(C\)**. The existing
+[local index and torsion theorem](../../arguments/carriers/normal_carrier_symbolic_torsion.md#3-exact-index-formula-on-every-normal-c0-carrier)
+gives
+\[
+ m=ab/4,\qquad R\mid m,\qquad a\mid16R,\qquad
+ t=\frac{R}{\gcd(R,\mu)},\qquad b_{\min}=vt. \tag{S5}
+\]
+The all-quartic-carrier theorem implies \(b_{\min}\ge5\).
+This immediately specializes to two strong **conditional**
+constraints, without enumerating ADE singularities:
+
+- For a **normal \((5,8)\)** candidate, \(m=10\), so \(R\mid10\)
+  and \(5\mid R\); the small-mate exclusion rules out \(R=5\).
+  Hence \(\boxed{R=10}\). A necessary 5-primary class alone
+  cannot suffice: extra 2-primary index information is required.
+- For a **normal \((6,6)\)** candidate, \(m=9\), so \(R\mid9\)
+  and \(3\mid R\); the small-mate exclusion rules out \(R=3\).
+  Hence \(\boxed{R=9}\). An ADE 3-torsion class of *order three*
+  alone cannot suffice: some on-curve class must have exact order nine.
+
+This distinguishes a **numerical correction budget** from an
+**exact index/divisor realization condition**. In the ADE rows, the
+quintic condition may be distributed across different singular points,
+whereas the sextic condition requires an order-nine local class
+(and therefore an appropriate \(A_n\) singularity). Neither produces
+a hypothetical carrier. The stronger
+[quintic--octic ADE exclusion](../../arguments/carriers/quintic_octic_surface_constraints.md)
+and the
+[conditional ADE sextic reduction](../../arguments/carriers/sextic_ade_reduction.md)
+test additional global and filtered compatibility beyond (S5).
+
+### The synthesis should change what each narrow case is asked to prove
+
+There are **three distinct levels** of compatibility:
+
+1. **Extremal numerical ray.** On normal carriers (S1)--(S3)
+   provide a complete fixed-carrier decision criterion.
+   Local index, normal symbol, and ADE proofs attempt to
+   force \(\Gamma_X(C)>0\) or rule out the equality geometry.
+2. **Actual descent and inverse support.** On nonnormal
+   carriers, a divisor or root upstairs may fail to descend
+   through the *whole conductor*, or the inverse of \(C\)
+   may contain extra points. This is where the
+   [quintic Gorenstein-normalization proof](../../arguments/carriers/quintic_gorenstein_normalizations.md)
+   and [toric inverse-support proof](../../results/toric_quintic_carrier_exclusion.md)
+   act; neither is merely another test of the normal Hodge gap.
+3. **Actual two-equation transverse realization.** When a carrier
+   is generically singular along \(C\), or one studies a
+   proposed thickening directly, abstract filtrations and normal
+   symbols must still be compatible with global homogeneous
+   equations and the complete parameter-saturated ideal.
+   The [quartic-pair intrinsic/filtered/surface proofs](../../arguments/normal-geometry/quartic_pair_obstruction.md)
+   and [all-pair sextic filtration](../../arguments/carriers/sextic_pair_reduction.md)
+   probe this level with different hypotheses. The
+   [exceptional quartic Hilbert boundary](../../arguments/torus/quartic_hilbert_chow_limits.md#detaching-the-embedded-endpoint)
+   is a concrete warning: the correct fundamental cycle and even
+   a CI Hilbert function do not guarantee proper quartic generators.
+
+**Interpretation, not another exclusion theorem.** The many low-degree
+proofs ask how a mate could supply the discrepancy between negative
+adjunction self-intersection and the positive ray \(C^2=16/a\).
+Some special cases fail by index/topology, others by conductor descent,
+others at actual normal/filtered equation realization. Their proofs
+should be compared by *which compatibility condition they destroy*,
+not aggregated into an unsupported all-degree singularity budget.
+The remaining gap is to show that **every** hypothetical higher-degree
+carrier lies in a controlled one of these mechanisms and that the
+appropriate local correction can never saturate its global
+compatibility conditions—or to construct a carrier reaching equality.
+The degree-four carrier theorem achieves exhaustive exclusion in one
+degree; the present quintic and sextic results do not.
+
 ## 5.8 Three mechanisms for the quartic-pair obstruction
 
 The [quartic-pair chapter](../../arguments/normal-geometry/quartic_pair_obstruction.md) owns the full bounded proof of [R-0022](../../results/quartic_44_filtered_exclusion.md), independently of R-0001. It begins with the hypothetical pair, derives its two allowed Gorenstein filtration types, and exposes the different proof mechanisms before the calculations.
