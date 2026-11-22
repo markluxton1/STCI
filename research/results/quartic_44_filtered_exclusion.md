@@ -10,6 +10,7 @@ scope:
     - "Integral or, more generally, coprime quartic defining equations F,G with reduced intersection C0"
 statement: "No two quartic forms F,G satisfy V(F,G)_red=C0. The filtered-contact, surface, and embedded-neighborhood proofs do not invoke the all-degree quartic-carrier exclusion STCI-R-0001."
 dependencies:
+  - "STCI-R-0001"
   - "STCI-R-0020"
 evidence:
   - "research/arguments/normal-geometry/quartic_pair_obstruction.md"
@@ -38,7 +39,26 @@ The curve is \(C_0=[s^4:s^3t:st^3:t^4]\), or a projective equivalent. A proper q
 
 ## Proof and dependencies
 
-The [quartic-pair chapter](../arguments/normal-geometry/quartic_pair_obstruction.md) gives the proofs in full. Its common reduction uses R-0020, the unique smooth quadric, complete-intersection duality and rank-four Gorenstein algebra, yielding \(L=\mathcal O(-7),\deg D=3\) or \(L=\mathcal O(-6),D=0\).
+**Canonical shortest proof: reduce to the all-degree quartic-carrier
+theorem R-0001.** If two quartics \(F,G\) cut out only \(C_0\)
+set-theoretically, their irreducible factors are positive-degree
+carriers with the other equation as a sole-support mate. Every
+irreducible factor must therefore have degree at least five by
+[R-0001 plus the plane/quadric/cubic exclusions](../frameworks/carrier-normalization/degree_exclusions.md#52-factors-and-the-degree-bound),
+impossible for a quartic. This proves the present exclusion for
+**all** coprime quartic pairs without a separate rank-four
+analysis. It is a **corollary** of a strictly stronger theorem,
+not an independent replacement proof of R-0001.
+
+**Independent mechanism proofs (preserved, not required for the
+shortest result).** The [quartic-pair chapter](../arguments/normal-geometry/quartic_pair_obstruction.md)
+establishes the same result **without using R-0001**, and gives
+stronger intermediate statements that remain relevant to
+higher-degree filtrations and global singularity budgets.
+Its common reduction uses R-0020, the unique smooth quadric,
+complete-intersection duality and rank-four Gorenstein
+algebra, yielding \(L=\mathcal O(-7),\deg D=3\)
+or \(L=\mathcal O(-6),D=0\).
 
 The filtered-contact proof enumerates the allowed triples and their complete quartic sources, then proves a nonzero cubic-contact determinant for every nonfactored pencil. Exact source matrices and the retained scripts supply its finite calculation dependencies; orbit exhaustion and uniqueness of the quadratic correction are proved in the chapter.
 
@@ -57,4 +77,4 @@ does not change the exclusion's scope.
 
 ## Consequences and limitations
 
-This is a bounded obstruction to a \((4,4)\) pair, useful for understanding actual-source lifting and global exceptional-rank budgets. It does not replace R-0001's arbitrary-mate-degree quartic-carrier theorem or resolve unrestricted characteristic-zero STCI. The [independently reconstructed fourth-extension proof](../arguments/normal-geometry/intrinsic_fourth_extension.md) now supplies an embedded-neighborhood argument. It classifies the two allowed saturated quadruple types through their contact-extension classes, leaving only 4C on Q; elementary quadric restriction then rules out a proper quartic pair. This alternative uses exact transition calculations but no source-pencil orbit list or global surface bound. The stronger intermediate classification is recorded as a reviewed mathematical result; it has no separate result ID.
+The exclusion itself is subsumed by R-0001; the alternate bounded proofs remain useful because their **mechanisms** (actual-source lifting, intrinsic extensions, and global exceptional-rank budgets) extend beyond this corollary in ways the complete quartic-carrier theorem alone does not describe. They do not resolve unrestricted characteristic-zero STCI. The [independently reconstructed fourth-extension proof](../arguments/normal-geometry/intrinsic_fourth_extension.md) now supplies an embedded-neighborhood argument. It classifies the two allowed saturated quadruple types through their contact-extension classes, leaving only 4C on Q; elementary quadric restriction then rules out a proper quartic pair. This alternative uses exact transition calculations but no source-pencil orbit list or global surface bound. The stronger intermediate classification is recorded as a reviewed mathematical result; it has no separate result ID.
