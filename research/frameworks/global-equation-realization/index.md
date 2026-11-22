@@ -65,6 +65,41 @@ normal defects. A *prescribed*
 pair degree still has to satisfy
 the exact mate-degree semigroup.
 
+**An actual normal carrier can sometimes
+be obtained without assuming the
+original smaller carrier is normal.**
+The [mixed-degree Bertini
+replacement](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
+shows that for a sole-supported
+\((a,b)\), \(a<b\), with at least
+one generic normal order-one
+generator, a general element
+\(G_b+F_aL_{b-a}\) is an
+**integral normal** degree-\(b\)
+surface defining the **same**
+complete-intersection ideal
+with \(F_a\). Thus for every
+hypothetical \((5,b)\), \(b>5\),
+one may apply the entire normal
+Hodge/index theory **on the
+higher-degree carrier** even if
+the quintic was nonnormal. This
+extends normal-carrier reasoning
+to a mixed-degree class not
+covered by the equal-degree
+sextic-pencil argument. It is
+an application of standard
+Bertini whose full proof and
+5-primary exact-index consequences
+are recorded in the linked source;
+the new bridge still needs
+independent mathematical review.
+It gives necessary high-index
+conditions, not an all-quintic
+exclusion. The entirely-thick
+case and equal-degree pencil
+require separate arguments.
+
 For **nonnormal** or generic-order-two
 carriers, upstairs divisor data,
 intersection matrices, or formal
