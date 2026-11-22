@@ -33,6 +33,55 @@ cycles. None alone supplies a proper homogeneous pair with sole support.
 [Projection and liaison](projection_and_liaison.md) studies supported ACM
 sources and section defects.
 
+**A complete fixed-carrier realization theorem takes
+precedence over the generic lifting discussion.**
+If the carrier \(X\subset\mathbf P^3\) is
+**normal and integral** in characteristic zero,
+the established
+[normal-carrier extremal-ray theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface)
+already proves
+\[
+ \text{a sole-support mate exists in some degree}
+ \quad\Longleftrightarrow\quad
+ C_0\text{ is }\mathbf Q\text{-Cartier and }
+ C_0^2=\frac{16}{\deg X}.
+\]
+Hodge index, the numerical-to-linear
+torsion step and the hypersurface
+restriction sequence supply an
+**actual ambient homogeneous mate**.
+The exact local index formula determines
+the minimal mate degree and all multiples.
+Thus **on this normal fixed-carrier branch**
+there is *no independent global
+equation-lifting obstruction after
+the Hodge equality*. The difficult
+remaining question is whether an
+**actual hypersurface containing
+the prescribed embedding** can
+realize that equality, with its
+necessary singularities and local
+normal defects. A *prescribed*
+pair degree still has to satisfy
+the exact mate-degree semigroup.
+
+For **nonnormal** or generic-order-two
+carriers, upstairs divisor data,
+intersection matrices, or formal
+normal symbols need not descend;
+full inverse support, full conductor
+gluing and actual equations remain
+separate gates. The
+[all-degree actual-index-at-most-four
+exclusion](../../arguments/carriers/normal_carrier_symbolic_torsion.md#5-closing-the-entire-actual-index-at-most-four-class)
+also removes large classes of
+normal carriers *before* any
+fixed-degree jet/source calculation.
+The general "realization gap"
+must not be asserted in a regime
+where existing theory has already
+closed it.
+
 Two distinct equation questions survive passage to a thickening. The
 [radical-power lemma](../../arguments/torus/equivariant_set_theoretic_descent.md)
 preserves the least number of set-theoretic homogeneous equations inside
@@ -68,6 +117,26 @@ not a general-degree STCI theorem. A
 can turn existing mates into new mates, but a corrected sextic
 involution bound excludes \((5,4)\) and every remaining unequal
 two-support partition on ordinary nodal sextic carriers.
+Read backwards, the same fixed-carrier
+lattice theorem
+[turns the quartic all-mate exclusion into
+rank-one multiplicity rigidity](../../arguments/torus/fixed_surface_restriction_lifts.md#reverse-application-single-curve-exclusions-constrain-multi-curve-chow-cycles)
+for any two projective translates
+on an integral quartic carrier.
+Prime cyclic orbits of translates
+are forced to have **equal**
+multiplicities in every supported
+mate cycle. The generic normal
+order-one hypothesis needed by
+the rational-product theorem is
+automatic on such an integral
+quartic by restriction to each
+translate's unique quadric.
+This connects individual STCI
+exclusions to Chow **multi-support**
+realization without asserting that
+such a carrier exists.
+
 Conditional ADE classes and an exceptional-lattice budget refine
 the geometry; none covers arbitrary higher-degree equations.
 
