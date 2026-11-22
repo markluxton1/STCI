@@ -314,6 +314,100 @@ and the
 [conditional ADE sextic reduction](../../arguments/carriers/sextic_ade_reduction.md)
 test additional global and filtered compatibility beyond (S5).
 
+### Why degree six is the first new generic-normal-order regime
+
+This change of complexity has a **single geometric cause**. The
+unique smooth quadric \(Q\supset C\) has
+\(C\sim(1,3)\in\operatorname{Pic}(Q)\). For any degree-\(a\)
+hypersurface \(F\) through \(C\) **not divisible by the equation
+of \(Q\)**, let \(r\) be its generic order along \(C\).
+Restriction to \(Q\) has divisor class \((a,a)\) containing
+\(rC\), hence has an effective residual of class
+\((a-r,a-3r)\). Therefore
+\[
+ \boxed{\quad r\le\lfloor a/3\rfloor.\quad} \tag{S6}
+\]
+This is the established quadric-restriction argument used in the
+[sextic all-pair reduction](../../arguments/carriers/sextic_pair_reduction.md#why-every-pair-is-generically-curvilinear);
+it is not a new all-degree theorem. In a hypothetical sole-support
+presentation the quadric cannot divide either equation, since the
+other equation restricted to \(Q\) cannot have sole divisor
+support on the unbalanced class \((1,3)\).
+
+In particular **every integral degree-four or degree-five carrier
+is generically regular along \(C\)**. Degree six is the *first*
+possible carrier degree with generic normal order two. For an actual
+sole-supported \((6,6)\) pair, however, the established
+[blowup/graph residual bound](../../arguments/residuals/blowup_residual_geometry.md#5-integer-strengthening-usefulness-region-and-exact-limitations)
+excludes simultaneous orders \((2,2)\): it forces at least four
+residual degrees. Hence **at least one of the two sextics is
+generically regular along \(C\)**, and its transverse algebra is
+curvilinear of length nine. This explains why the degree-six
+normal-carrier/filtration analysis still applies even though
+order-two individual sextics are possible.
+
+The graph argument is not uniform in degree: it gives no positive
+residual bound at \((8,8)\) with normal orders \((2,2)\).
+Thus the all-degree generic-singular-carrier regime cannot be
+discarded merely by extrapolating the sextic reduction.
+
+### A direct bridge from ADE exceptional corrections to normal-layer defects
+
+The established [normal-carrier symbolic budget](../../arguments/carriers/normal_carrier_symbolic_torsion.md#a-symbolic-triple-defect-certificate-for-unrestricted-normal-carriers)
+includes the *total* first-symbol zero divisor
+\[
+ A:=\sum_P A_P=4a-14+\ell, \tag{S7}
+\]
+and the [mate-independent intrinsic comparison](../../arguments/carriers/normal_carrier_divisor_geometry.md#2-the-intrinsic-local-divisor-is-a-necessary-and-sufficient-mate-test)
+gives
+\[
+ C^2=\ell-\sum_P\frac{A_P+D_{r_P,P}}{r_P}.
+\]
+Combining these **already proved** formulas with the crepant
+resolution identity on a normal Du Val carrier gives
+\[
+ \boxed{\quad
+ -Z^2=
+ \sum_{P\in C}\left(
+   \left(1-\frac1{r_P}\right)A_P
+       -\frac{D_{r_P,P}}{r_P}\right).
+ \quad} \tag{S8}
+\]
+This is a global equality of numerical invariants; the displayed
+individual summands must not be labeled local exceptional corrections
+without verifying their local identification. It explains why two
+seemingly separate proof languages—ADE root-lattice corrections and
+ordinary normal-layer defects—can impose the **same overall budget**.
+The first-symbol zeros provide the gross correction, local Cartier
+indices scale it, and genuine multiplication defects subtract from it.
+Hodge equality demands that the resulting total be exactly
+\(4a-14+16/a\).
+
+**Example already present in the quintic argument.** The numerically
+surviving reduced-symbol ADE configuration
+\(4A_1+9A_4\) has \(A_P=1\) at each marked singularity,
+local indices \(2\) and \(5\), and no primitive-index
+defect in those cases. Formula (S8) gives
+\[
+ 4\left(1-\frac12\right)
+ +9\left(1-\frac15\right)
+ =2+\frac{36}{5}=\frac{46}{5}.
+\]
+Its lcm of local indices is exactly \(R=10\), as (S5)
+already predicted. In other words, that special quintic row
+**simultaneously saturates the adjunction correction and the exact
+index budget**. The reason it nevertheless fails is a *further*
+integral Picard constraint: the four nodes form an even set, and
+the associated double cover violates the global canonical-surface
+inequality. See [the actual even-node proof](../../arguments/carriers/quintic_octic_surface_constraints.md#42-the-actual-divisor-relation-forces-an-even-set).
+
+That is a useful model for distinguishing stages of an exclusion.
+Reaching the Hodge correction numerically explains why a candidate
+survives local counting; it does **not** mean that an actual surface
+with the required integral divisor relation exists. The final
+global-cover obstruction cannot be replaced by additional decimal
+precision in the correction budget.
+
 ### The synthesis should change what each narrow case is asked to prove
 
 There are **three distinct levels** of compatibility:
