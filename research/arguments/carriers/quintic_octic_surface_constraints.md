@@ -284,6 +284,32 @@ The actual integral divisor relation eliminates it as follows.
 
 ### 4.2 The actual divisor relation forces an even set
 
+**Shortest contradiction, now using the general normal-cover
+framework.** The sole rank-surviving reduced-symbol row
+\(4A_1+9A_4\), with \(q=7\), already forces the
+nontrivial index-two class \(\Delta_5=5C-4H\).
+Its connected normalized double cover has local exceptional
+contribution \(w=4\): each of the four \(A_1\) points
+contributes one and the \(A_4\) points, of odd
+local index five, contribute zero. The
+[quintic cover's canonical-map bound](quintic_octic_ade_cover_and_triple.md#3-the-forced-double-cover-and-its-canonical-map)
+requires \(w\ge16\). Thus this numerical row is
+**already excluded**, without needing to derive an
+additional even-set relation. In the
+[all-degree Euler formulation](normal_carrier_divisor_geometry.md#35-a-single-cyclic-cover-euler-formula-for-all-normal-carrier-degrees),
+it would have \(\chi(\mathcal O_Z)=10-w/4=9\)
+and \(K_Z^2=10\), violating that canonical-map
+bound after ADE resolution. This is the primary
+**shorter proof**, conditional on using the independently
+proved full ADE cover theorem.
+
+**Independent integral-Picard explanation (retained).**
+The following even-node construction gives a different
+geometric reason the same row cannot occur. It remains
+useful as a model of a Picard-integrality obstruction,
+but is *no longer necessary for the shortest
+quintic ADE exclusion*.
+
 Let \(\pi:X\to S=V(F_5)\) be the minimal resolution, let H denote the
 pulled-back hyperplane class, and write \(\widetilde C\) for the strict
 transform of C. The actual octic cuts the Cartier divisor \(10C\), so
