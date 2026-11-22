@@ -242,6 +242,49 @@ conductor section descent still matter. In particular this
 dictionary is not a classification of full-ideal Rees valuations
 or of higher infinitely-near jets.
 
+There is a precise local obstruction behind (N3). Set
+\(\ell_i=n_i-qe_i\ge0\) and
+\(R_i=M_i-\widetilde\Gamma_i=\sum_j r_{ij}E_j\)
+(the numerical exceptional correction, distinct from the
+genuine residual cycle \(R\)). Under sole support,
+\[
+ \operatorname{div}_T(G)-qD
+  =\sum_i \ell_i\widetilde\Gamma_i+
+        \sum_i\ell_i R_i-qV.
+\]
+Thus its effective exceptional part necessitates
+\[
+ \boxed{\sum_i\ell_iR_i\ \ge\ qV}
+\]
+coefficientwise. If an exceptional connected component over
+a point of the normalization has nonzero \(V\), at least one
+branch with positive excess \(\ell_i\) must meet that
+component: a branch disjoint from it contributes zero there
+by negative definiteness and orthogonality.
+In particular a vertical fiber of the first-normal carrier
+requires positive horizontal excess through the corresponding
+part of its normalization. Large generic excess on a
+different branch does not suffice.
+
+For the balanced quartic let \(h_j^{\rm exc}=-D\cdot E_j\)
+and \(\epsilon_i=V\cdot\widetilde\Gamma_i\) as below.
+Multiplying the exceptional inequality by the nonnegative
+\(h_j^{\rm exc}\) gives
+\[
+ v_W=\sum_i\ell_i\epsilon_i+qV^2\ge0,
+\]
+where \(v_W\) is the degree of the actual vertical part of
+the strict intersection on \(E\). Indeed
+\(-V^2=\sum_j V_j h_j^{\rm exc}\) and
+\(\epsilon_i=\sum_j r_{ij}h_j^{\rm exc}\) follow from
+orthogonality. Hence
+\(\sum_i\ell_i\epsilon_i\ge q(-V^2)\), with equality exactly
+when the strict intersection has no vertical component.
+In the zero-direction boundary the excess branches must
+map to the constant section and supply this full exceptional
+energy. The local compatibility remains even though the
+scalar first-graph budget there has no slack.
+
 ### Exact decomposition of the first-graph gap
 
 Put \(H=\mathcal O_T(1)\), the pullback from projective space, and
@@ -393,6 +436,30 @@ component may remain. If \(\kappa_{\rm br}=0\), the projected
 vector is numerically zero and all \(w_i=0\); do not divide by
 zero or infer a unique mate ray.
 
+**Necessary Cartier-index growth in the two-branch locus.**
+Assume no vertical first-normal fibers and exactly two inverse
+branches, with an actual mate. Choose the low-slope branch \(i\),
+so \(0<w_i=f_i\rho_*-h_i\le f_i\rho_*\).
+Then (N11) gives
+\[
+ \boxed{\quad
+ \frac{15f_i^2}{\kappa}\le M_i^2<\frac{16f_i^2}{a}.
+ \quad}                                                   \tag{N11a}
+\]
+The lower bound is the cancellation
+\((16/a)\kappa-\rho_*^2=15\). Both branches are Q-Cartier by the
+two independent Cartier relations (N12) below. If \(R_i\) is
+the Cartier index of the low branch *on the normalization*,
+then \(R_i M_i^2\) is a positive integer, by restricting the
+actual Cartier divisor \(R_i\Gamma_i\).
+Consequently \(R_i>a/(16f_i^2)\).
+A degree-one low branch cannot be Cartier for \(a\ge16\)
+under these hypotheses. This differs from the downstairs
+normal-carrier socle slope bound: here the carrier can be
+generically singular along \(C\), and the index is on the
+normalization. It does not cover the vertical locus or
+arbitrary branch counts.
+
 **Recovering the split-sextic calculation.** For \(a=6,p=2\),
 two content-free sections of slopes \(d_1,10-d_1\), and
 \(e_i=f_i=1\), one has \(\rho_*=5/3,\kappa=20/3\).
@@ -512,6 +579,37 @@ relation, not from an ADE classification or an assumed
 individual Cartier branch. The Hodge proof of P-023/P-030
 remains an independent geometric presentation.
 
+**All-order extension of the split-sextic exclusion.**
+Suppose \(a=3p\), there are exactly two inverse branches,
+both of residue degree one, and no vertical first-normal
+fibers. Allow arbitrary positive \(e_1,e_2\) with
+\(e_1+e_2=p\), so tangent components may be repeated.
+The low direction has integer slope \(h=0\) or \(1\),
+since the slopes straddle \(5/3\).
+Thus:
+\[
+\begin{array}{c|c|c|c}
+h&\Gamma_{\rm low}^2&
+\text{necessary ruling partitions}&
+\text{index divisibility}\\ \hline
+0&9/(2p)&[2p]&2p/\gcd(2p,9)\mid R_{\rm low}\\
+1&26/(5p)&[2p]\text{ or }[p,p]&
+                    5p/\gcd(5p,26)\mid R_{\rm low}
+\end{array}
+\]
+The square follows from (N11) with \(\kappa=10p/3\).
+It is never integral in either row. The partition
+restriction follows already from the low row of (N14).
+Index divisibility comes from integrality of
+\((R_{\rm low}\Gamma_{\rm low})\cdot\Gamma_{\rm low}\).
+This excludes a Cartier low branch in every degree \(3p\)
+and every mate degree, not just the \(p=2\) sextic.
+Both degree-one curves map isomorphically to \(C\); their
+local indices away from shared points divide their own
+\(e_i\), by (N12). The table identifies the surviving
+normalization corrections, rather than assuming they
+cannot occur.
+
 There is one further geometric identity in this setting.
 Let \(\Pi\) denote orthogonal projection to the span of \(H,D\)
 on the resolved normalization (this span is nondegenerate
@@ -533,7 +631,23 @@ branches, their numerical classes lie in the \(H,D\) plane
 when a mate exists, and so pair trivially with all \(W_j\).
 For more branches the \(W_j\) need not be orthogonal to their
 classes; (N13), rather than the stronger proportionality (N14),
-is the relevant test. In the presence of vertical fibers
+is the relevant test. Their integer deviations
+\(s_{ij}=k_{ij}-\mu_j(f_i+h_i)/(2p)\) measure a further
+Hodge projection. Since each row sums to zero, the negative
+norm of its projection to the span of \(W_j\) is
+\(\sum_j s_{ij}^2/\mu_j\): apply (N15) to the coefficients
+\(-s_{ij}/\mu_j\). Together with (N10) this gives
+\[
+ Q+\frac{ww^t}{\kappa}+
+       \left(\sum_j\frac{s_{ij}s_{lj}}{\mu_j}\right)_{i,l}
+       \preceq0 .
+\]
+Nonintegrality of the naive proportional intersections
+therefore forces extra negative-square contributions
+from these explicit residual-cluster directions. This is
+a compatibility test against actual branch self-intersections;
+it does not yield an exclusion without further bounds on
+those squares. In the presence of vertical fibers
 one must retain \(V\) and the pullbacks of the actual clusters;
 the asserted Cartier intersection system on \(S\) is not
 automatic there.
