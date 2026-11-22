@@ -136,6 +136,36 @@ In particular the root-of-unity example
 \(G=x_2^4-x_0x_3^3\)
 in characteristic prime to four has four distinct quotient points \((u,1)\) with \(u^4=1\), and both defects equal 18. In characteristic two the quotient is nonreduced, so the reduced-arrangement formula does **not** give the \((4,4)\) CI scheme's Hilbert polynomial.
 
+## The reduced \((4,4)\) locus as two affine-line incidence conditions
+
+This is a geometric **reformulation of the established reduced-cycle eigenform-lifting and quartic realization criterion** in [the full Chow-polytope argument](../equations/chow_polytope_rigidity.md#quartics-including-invariant-collision-lifts), not a claim of a previously unproved classification.
+
+**Two-endpoint line criterion.** Let \(Z\subset T\) be four distinct points over an algebraically closed field, in any characteristic. The reduced union \(A_Z\) is a scheme-theoretic \((4,4)\) complete intersection **if and only if** there exist \(A,C\in k^\times\) and \(B,D\in k\) such that
+\[
+ \boxed{\begin{aligned}
+   v_i&=A+B u_i &&\text{for every }(u_i,v_i)\in Z,\\
+   \beta_i&=C+D\alpha_i &&\text{for every }(\alpha_i,\beta_i)\in Z^\vee.
+ \end{aligned}}\tag{3a}
+\]
+Thus each endpoint has an affine-line interpolation condition, but in **different unimodular torus coordinates**. In particular the two independent-looking endpoint defect equalities \(\delta_0=\delta_\infty=18\) are forced on the realized locus.
+
+**Sufficiency, directly.** Given (3a), take
+\[
+ F=x_0^3x_3-Ax_1^4-Bx_0^2x_1x_2,\qquad
+ G=x_0x_3^3-Cx_2^4-Dx_1x_2x_3^2.
+ \tag{3b}
+\]
+Their dense-quotient restrictions are \(v-A-Bu\) and
+\(v^3-Cu^4-Duv^2=u^4(\beta-C-D\alpha)\). Substituting \(v=A+Bu\) gives
+\[
+ (A+Bu)^3-Du(A+Bu)^2-Cu^4=0.
+\]
+Its degree is four (since \(C\ne0\)), its constant term is \(A^3\ne0\), and no root has \(v=0\); the four distinct prescribed points exhaust its intersection with the quotient torus. On \(x_0=0\), the equations force \(x_1=x_2=0\); on \(x_3=0\) they force \(x_2=x_1=0\). The analogous checks on \(x_1=0\) or \(x_2=0\) leave only \(p_0,p_\infty\). Therefore the projective pair is proper, contains the four distinct quartics of total degree \(16\), and has no residual curve by Bézout. A proper CI is Cohen–Macaulay and generically reduced here, hence reduced; its scheme is \(A_Z\).
+
+**Necessity from the existing theorem.** A proper pair with this **reduced fundamental cycle** is the reduced union, and the equivariant minimal-generator lifting lemma together with the middle-vertex condition supplies generators of weights \(4,12\) (after changing the basis of the quartic pencil). The two weight spaces have exactly the monomial bases displayed in the preceding section. The required nonvanishing coefficients at the two middle coordinate vertices and avoidance of boundary curves give \(A,C\ne0\). Dividing the restrictions by \(u^4\) at the opposite endpoint yields precisely (3a). This invocation of eigenform lifting is essential; simple collinearity would **not** be necessary for arbitrary set-theoretic pairs with nonreduced fundamental cycle.
+
+The four parameters \((A,B,C,D)\in(\mathbf G_m)^2\times\mathbf A^2\) describe the known four-dimensional reduced realization locus inside the eight-dimensional configuration space \(\operatorname{Sym}^4T\), on its squarefree open subset. This is a concrete **two-marked-endpoint incidence model** on the quotient surface. It also explains why the two extremal weight components of global quartic equations, viewed as sections on the two endpoint divisors of the [normalized quotient graph](chow_quotient_fan_and_blowup_comparison.md#5-the-normalized-graph-fan-and-its-two-global-endpoint-sections), impose complementary linear constraints.
+
 ## Reduced-complete-intersection numerical gate in all bidegrees
 
 If the reduced union \(A_Z\) is itself a proper scheme-theoretic complete intersection of degrees \((a,b)\), then \(ab=4m\), and comparison of (2) with the standard complete-intersection polynomial
