@@ -389,3 +389,107 @@ homogeneous section spaces. The perfect-power target (CHN7) is still an exact
 form of the original existence problem, not an obstruction by itself.
 Progress must extract lower-complexity coefficient, rank, tangent, or
 border-algebra conditions on that image.
+
+
+### A five-row trace-rank gate for one translate versus residual translates
+
+The full trace form yields a smaller exact source test on the
+Chow-matched locus.  Work in characteristic zero and retain the translated
+arrangement hypotheses above.  Let
+\[
+ B=B_\Pi,\qquad
+ \vartheta_B:B\longrightarrow B^\vee,\qquad
+ a\longmapsto(b\mapsto\operatorname{Tr}_B(ab)).
+\]
+For a finite commutative characteristic-zero algebra, the radical of the
+trace pairing is its nilradical.  This fact is already used elsewhere in the
+repository; it is also standard in trace-matrix methods for zero-dimensional
+ideals.  Hence
+\[
+ \operatorname{rank}\vartheta_B
+ =\dim_k B_{\mathrm{red}}
+ =4\,\#\{(u_i,v_i)\text{ distinct}\}.                   \tag{CHR1}
+\]
+Distinct translated quartics have disjoint intersections with \(\Pi\):
+a section point has normalized coordinates
+\([1:t:ut^3:1]\), which recover \(t,u\), and then \(v=t^{-4}\).
+
+There is a degree-independent five-row compression of (CHR1).  On the
+support of \(B\), \(x_0\) is invertible.  Put
+\[
+ \xi=x_1/x_0,\qquad \eta=x_2/x_0
+\]
+and let
+\[
+ W=\operatorname{Span}_k
+ \{1,\xi,\xi^2,\xi^3,\xi^4+\eta\}\subset B.             \tag{CHR2}
+\]
+Equivalently, before trivializing by \(x_0^4\), use the homogeneous
+degree-four space
+\[
+ W_4=\operatorname{Span}
+ \{x_0^4,x_0^3x_1,x_0^2x_1^2,x_0x_1^3,
+   x_1^4+x_0^3x_2\}\subset H^0(\Pi,\mathcal O_\Pi(4)).
+\]
+Let \(\vartheta_W:W\to B^\vee\) be the restriction of the trace map.
+
+For a single translate \(C_{u,v}\),
+\[
+ \xi^4=v^{-1},\qquad \eta=u\xi^3
+\]
+on its four reduced section points, so
+\[
+ \xi^4+\eta=v^{-1}+u\xi^3
+\]
+and the image of \(W\) in \(B_{\mathrm{red}}\) has dimension four.
+Conversely, suppose a relation
+\[
+ a_0+a_1\xi+a_2\xi^2+a_3\xi^3+a_4(\xi^4+\eta)=0        \tag{CHR3}
+\]
+holds on an arrangement.  On the four points of \(C_{u_i,v_i}\) it reduces
+modulo \(t^4-v_i^{-1}\) to
+\[
+ a_1=a_2=0,\qquad
+ a_0+a_4v_i^{-1}=0,\qquad
+ a_3+a_4u_i=0.
+\]
+If two parameter pairs are distinct, these equations force all \(a_j=0\).
+Because the trace pairing on \(B_{\mathrm{red}}\) is nondegenerate,
+\[
+ \boxed{
+ \operatorname{rank}\vartheta_W=
+ \begin{cases}
+ 4,&\text{exactly one distinct translate occurs},\\
+ 5,&\text{at least two distinct translates occur}.
+ \end{cases}}                                          \tag{CHR4}
+\]
+
+Thus, for a proper Chow-matched pair that already contains \(C_0\),
+\[
+ Y_{\mathrm{red}}=C_0
+ \quad\Longleftrightarrow\quad
+ \operatorname{rank}\vartheta_W=4.                     \tag{CHR5}
+\]
+Equivalently, on this locus the actual attachment support criterion becomes
+\[
+ Q_1=0\Longleftrightarrow\operatorname{rank}\vartheta_W=4,\qquad
+ Q_1\ne0\Longleftrightarrow\operatorname{rank}\vartheta_W=5. \tag{CHR6}
+\]
+The second equivalence uses the previously established fact that \(Q_1=0\)
+exactly for sole reduced support.
+
+After a basis of \(B\) is chosen on a finite border/Macaulay chart,
+\(\vartheta_W\) is a \(5\times ab\) matrix of ordinary traces.  The
+rank-four locus is therefore cut out by its \(5\times5\) minors.  Standard
+Macaulay/Bezout trace-matrix methods compute these traces directly from the
+restricted source equations; see Janovitz-Freireich--Mourrain--Rónyai--Szántó,
+*On the Computation of Matrices of Traces and Radicals of Ideals*,
+J. Symbolic Computation 47 (2012), 102--122, arXiv:0901.2778.
+
+This is a lower-complexity **source gate**, not a new nonexistence theorem.
+It is exact only after the Chow-polytope reduction to translated quartics.
+For an arbitrary residual curve, a fixed plane could meet the residual on
+the same four points, so rank four on this one section would not imply global
+sole support.  The value of (CHR4) is that it replaces factorization or the
+full perfect-power resultant by a constant five-row rank test on the
+translated realization locus.
