@@ -444,6 +444,76 @@ inverse-image calculation supply those data and exclude every mate on
 an integral quintic with toric normalization. [External hypotheses and their application](../arguments/carriers/quintic_non_gorenstein_toric_sources.md#1-why-this-source-remains-relevant) ·
 [Repository theorem](../results/toric_quintic_carrier_exclusion.md)
 
+### Brevik--Nollet, 2026: Noether--Lefschetz with a thick base curve
+
+John Brevik and Scott Nollet,
+[*Noether–Lefschetz theory and surfaces containing a multiple curve*](https://www.cambridge.org/core/journals/nagoya-mathematical-journal/article/noetherlefschetz-theory-and-surfaces-containing-a-multiple-curve/7C89E45108F00A35D058DFF899040964),
+*Nagoya Mathematical Journal* 261 (2026), e54
+(published online **19 October 2026**),
+Theorem 3.9; compare the earlier
+[*Noether–Lefschetz theorem with base locus*](https://arxiv.org/abs/0806.1243).
+
+**Exact hypotheses and application.**
+The 2026 theorem considers the ordinary
+\(m\)-th infinitesimal neighborhood
+\(C^{(m)}=V(\mathcal I_C^m)\), \(m\ge2\),
+of a smooth connected curve in a regular
+complex projective threefold. If
+\(\mathcal I_C(\lfloor d/m\rfloor-1)\)
+is globally generated and
+\(H^0(\mathcal I_C^{m-1}(K_X+dH))\ne0\),
+then for a **very general** degree-\(d\)
+surface \(Y\) containing \(C^{(m)}\)
+the map \(\operatorname{Pic}X\to\operatorname{Pic}Y\)
+is an isomorphism.
+
+For our **fixed non-linearly-normal**
+rational quartic \(C_0\subset\mathbf P^3\),
+the ideal \(\mathcal I_{C_0}\) is
+**3-regular**, since its quadratic
+restriction is surjective and the higher
+cohomology required by regularity vanishes;
+therefore \(\mathcal I_{C_0}(3)\)
+is globally generated. Its unique
+quadric \(q\) gives
+\(q^{m-1}\in H^0(\mathcal I_C^{m-1}(2m-2))\).
+Thus **Theorem 3.9**, not the paper's
+complete-intersection Corollary 4.1,
+applies whenever
+\[
+ \boxed{d\ge4m, \qquad
+ \operatorname{Pic}(Y)\cong\mathbb Z[O_Y(1)]
+ \quad\text{for very general }
+ Y\supset C_0^{(m)}.}                \tag{NL}
+\]
+The stated \(d\ge4m\) is a sufficient
+bound from the theorem, **not claimed
+optimal**. At \(m=2\) it starts at
+\(d=8\), so the important thick-sextic
+degree-six case is **not** covered.
+
+**Limits for STCI.** These \(Y\)
+are generically singular along \(C_0\)
+and nonnormal. The theorem controls
+\(\operatorname{Pic}Y\), not the
+normalization conductor, the appropriate
+almost-Cartier divisor group or the
+actual homogeneous mate equations.
+In particular \(\operatorname{Pic}Y
+=\mathbb Z H\) does **not**
+exclude a supported Cartier divisor
+cut by a hypothetical mate:
+such a divisor already has class \(bH\).
+A very-general Picard theorem also
+does **not** exclude exceptional
+carriers in the same linear system.
+The comparison clarifies why high-degree
+generic thick carriers and the exceptional
+STCI-realization locus are different
+problems, and why the
+[normalization/conductor framework](../frameworks/carrier-normalization/index.md)
+remains necessary.
+
 ### Normalization conductors and ordinary double surfaces
 
 - Steven Kleiman, Joseph Lipman, and Bernd Ulrich, “The source double-point
