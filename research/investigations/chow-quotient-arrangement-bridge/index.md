@@ -32,7 +32,7 @@ Its four fixed cycles are
  4L_{03},\quad L_{01}+3L_{13},\quad
  3L_{02}+L_{23},\quad L_{01}+2L_{12}+L_{23}.
 \]
-The fan itself is toric and needs no speculative construction. The [normalized graph fan](../../arguments/torus/chow_quotient_fan_and_blowup_comparison.md#5-the-normalized-graph-fan-and-its-two-global-endpoint-sections) has **eight rays and twelve maximal cones**, with two disjoint toric divisors mapping isomorphically to the quotient surface and contracting to (p_0,p_\infty). These global endpoint sections carry the least/highest weight-coefficient restrictions of any homogeneous equation. The boundary **scheme ideals** of the universal family, and in particular possible embedded structures, are *not* fixed by these four cycle identities.
+The fan itself is toric and needs no speculative construction. The Chow orbit resultant has six exponent pairs with Newton quadrilateral vertices ((0,3),(0,4),(4,1),(3,1)); its four vertex coefficients are precisely the Chow forms of the four fixed cycles, giving a direct Newton-duality check. The [normalized graph fan](../../arguments/torus/chow_quotient_fan_and_blowup_comparison.md#5-the-normalized-graph-fan-and-its-two-global-endpoint-sections) has **eight rays and twelve maximal cones**, with two disjoint toric divisors mapping isomorphically to the quotient surface and contracting to (p_0,p_\infty). These global endpoint sections carry the least/highest weight-coefficient restrictions of any homogeneous equation. The boundary **scheme ideals** of the universal family, and in particular possible embedded structures, are *not* fixed by these four cycle identities.
 
 Over the open quotient torus, each \(C_{u,v}\) is the image of
 \([s:t]\mapsto[s^4:s^3t:u st^3:v t^4]\). There is a section at \(r=1\) on the dense ambient torus. This section and the graph family over \(T\) are standard; extension across the toric boundary requires checking the chosen graph/refinement. In characteristic zero Chen–Satriano gives a stable-log-map interpretation of the normalized rank-one Chow quotient [arXiv:1201.3406](https://arxiv.org/abs/1201.3406).
@@ -51,6 +51,12 @@ where the two defects are explicit finite sums of ranks of weighted monomial-eva
 This explains immediately why a universal **flat** Hilbert family over the entire distinct-configuration locus cannot be assumed. Even two distinct curves have endpoint intersection lengths \(3\) or \(4\) depending on their parameters. For four general translates, the reduced union has polynomial \(16d-22\), rather than the \((4,4)\) CI polynomial \(16d-32\). For four distinct translates realized by the standard complementary eigenquartic equations, the endpoint defects are \(18\) and \(18\), giving precisely \(16d-32\).
 
 Thus Chow-admissible configurations are much more plentiful than the possible reduced-CI configurations, *before* asking about explicit equations. This is a genuine interface between Chow rigidity and embedded endpoint geometry.
+
+### A complete two-endpoint incidence model in bidegree \((4,4)\)
+
+The [dual-line criterion](../../arguments/torus/arrangement_endpoint_delta.md#the-reduced-44-locus-as-two-affine-line-incidence-conditions) repackages the repository's already-proved reduced-quartic realization theorem: for four **distinct** orbit parameters, the reduced union is a \((4,4)\) CI exactly when \(Z\) lies on an affine line \(v=A+Bu\) with \(A\ne0\), while the opposite configuration \(Z^\vee\) lies on a second line \(\beta=C+D\alpha\) with \(C\ne0\). The two lines yield actual quartic generators, and Bézout with the boundary check proves sufficiency. This gives a geometric explanation for the four-dimensional realization locus and the endpoint defects \(18+18\); its necessity uses the established eigenform-generator lifting theorem, so it must **not** be extended to arbitrary nonreduced STCI presentations without proof.
+
+This is a particularly promising template for arbitrary degrees: find the allowed projective linear series on the **two global endpoint sections** of the normalized graph, then ask whether they arise from the *same two homogeneous equations*. The point is to uncover a common global realization law, not to extrapolate a low-degree line criterion formally.
 
 ## Divisors on arrangement blow-ups
 
