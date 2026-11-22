@@ -1074,3 +1074,144 @@ when its multiplicity is divisible by the characteristic.
 It does show that \(H_Z\) is a natural integral spectral object
 whose same coefficient vector can encode either split eigenvalues
 or a nilpotent thickening after reduction.
+
+
+## 13. Complete quadric-spectrum projections in degrees (3,4) and (4,4)
+
+**New calculation; pending independent mathematical review.** This is a
+statement about projection to the unordered multiset of *quadric parameters*
+\(q=u/v\), not the full parameter pairs \((u,v)\). It uses the already
+proved invariant quartic-pair classification in
+[Chow-polytope rigidity](../equations/chow_polytope_rigidity.md#quartics-including-invariant-collision-lifts)
+and the established fixed cubic carrier of §4. The classical
+algebraic inputs are Vieta's formulas, root multiplicity via
+squarefree factorization and the resultant/discriminant. No claim
+that the full arrangement realization locus is a depressed-polynomial
+space is intended.
+
+Let \(\mathcal P_m=\{T^m+\sum_{j=2}^m c_jT^{m-j}:c_m\ne0\}\),
+the space of monic degree-\(m\) polynomials with nonzero constant
+term and zero next-to-leading coefficient. The map from an
+arrangement cycle to \(\prod_i(T-q_i)^{n_i}\) forgets the separate
+\(u_i,v_i\) and retains the multiplicity-weighted quadric divisor.
+
+For \(m=3\) in characteristic zero, the fixed cubic carrier of §4
+gives every \(T^3+c_2T+c_3\) with \(c_3\ne0\) as the spectrum of
+an actual invariant proper (3,4) CI. The root partitions in
+characteristic zero are \((1,1,1)\) and \((2,1)\), with (3)
+excluded by \(3q\ne0\). This is a surjection to \(\mathcal P_3\)
+and does not identify the higher-dimensional full arrangement space.
+
+**An exact universal (4,4) construction.** Work over any algebraically
+closed field \(k\). Given
+\[
+ P(T)=T^4+c_2T^2+c_3T+c_4,\qquad c_4\in k^\times,
+\]
+choose any root \(\beta\in k\) of
+\[
+ c_4\beta^2+c_3\beta+c_2=0
+\]
+and set \(\gamma=c_3+c_4\beta\). Define
+\[
+\begin{aligned}
+ F&=x_1^4+\beta x_0^2x_1x_2-x_0^3x_3,\\
+ G&=x_2^4+\gamma x_1x_2x_3^2+c_4x_0x_3^3.
+\end{aligned}
+\]
+These are homogeneous quartic intrinsic-torus eigenforms, of
+weights 4 and 12. For \(A=x_1x_2\) and \(B=x_0x_3\),
+\[
+\begin{aligned}
+ H_P(A,B)
+ &=A^4+B^2(B-\beta A)(\gamma A+c_4B)\\
+ &=A^4+c_2A^2B^2+c_3AB^3+c_4B^4\\
+ &=x_2^4F+x_0^2(B-\beta A)G .
+\end{aligned}
+\]
+The first expansion uses
+\(-\beta\gamma=c_2\) and \(\gamma-\beta c_4=c_3\).
+The final equation is an **actual Koszul membership identity**.
+
+On the dense torus \([1:r:ur^3:vr^4]\), the two equations give
+\(v=1+\beta u\) and \(u^4+\gamma u v^2+c_4v^3=0\).
+With \(q=u/v\), these are equivalent to
+\[
+ v=\frac1{1-\beta q},\qquad
+ u=\frac q{1-\beta q},\qquad P(q)=0 .
+\]
+Every root of \(P\) is nonzero by \(c_4\ne0\), and no root
+satisfies \(1-\beta q=0\), because the displayed expansion then
+gives \(P(q)=q^4\ne0\). Thus every root corresponds to exactly
+one legitimate translated quartic, with local transverse length
+equal to its root multiplicity. The pair misses
+\(L_{12}=V(x_0,x_3)\), since its restrictions are
+\(x_1^4,x_2^4\); hence it is a proper CI. Its four full-support
+quartics counted with multiplicity already have degree 16,
+exhausting Bézout and excluding residual components. Therefore
+\[
+ \pi_q(R_{4,4}^{\rm inv})=\mathcal P_4
+\]
+for **every algebraically closed characteristic**, where
+\(\pi_q\) is the quadric-spectrum projection. In characteristic
+zero, the previously proved full (4,4) moment theorem also gives
+\(\pi_q(R_{4,4})=\mathcal P_4\).
+
+**Multiplicity strata in characteristic zero.** All partitions of
+four except (4) occur. Examples are
+\[
+\begin{array}{c|c}
+(1,1,1,1)&T^4-1\\
+(2,1,1)&(T-1)^2(T^2+2T+3)\\
+(2,2)&(T^2-1)^2\\
+(3,1)&(T-1)^3(T+3).
+\end{array}
+\]
+The excluded (4) would have \(M_1=4q\ne0\).
+The dimensions of the corresponding root loci in
+\(\mathcal P_4\simeq\mathbb A^2\times\mathbb G_m\)
+are respectively \(3,2,1,1\).
+
+**Multiplicity strata in characteristic two.** Here
+\(P'(T)=c_3\). If \(c_3\ne0\), all four roots are distinct.
+If \(c_3=0\), then
+\[
+ P=(T^2+\sqrt{c_2}T+\sqrt{c_4})^2.
+\]
+For \(c_2\ne0\) there are two distinct double roots, while
+\(c_2=0\) gives one quadruple root. Thus precisely
+\((1,1,1,1),(2,2),(4)\) occur among centered quartics,
+all actually realizable by the same invariant CI construction.
+They have strata dimensions \(3,2,1\), respectively.
+Examples are \(T^4+T+1,\ (T^2+T+1)^2,\ (T-1)^4\).
+The characteristic-two discriminant is \(c_3^4\), so the
+nonreduced discriminant divisor has support \(c_3=0\).
+This differs substantially from the characteristic-zero
+collision stratification; the quadruple-root locus occurs because
+\(4q=0\) in characteristic two.
+
+**Why the projection loses geometry.** The exceptional non-invariant
+cycle from §10 has two doubled q-values \(1,-1\), giving
+\(P=(T^2-1)^2\). The universal invariant construction also realizes
+that same spectral polynomial: \(c_2=-2,c_3=0,c_4=1\),
+so choose \(\beta^2=2\) in characteristic zero. Its corresponding
+curve parameters are
+\[
+ (u_q,v_q)=
+ \big(q/(1-\beta q),\,1/(1-\beta q)\big),\quad q=\pm1,
+\]
+and have *different* \(u_q\), whereas the exceptional cycle has
+both \(u=1\). The equal quadric-spectrum polynomials conceal
+genuinely different realization components. Consequently the
+quadric spectrum and its discriminant alone cannot detect all
+CI restrictions, even though they classify the possible
+numbers of distinct q-roots at (3,4) and (4,4).
+
+**Higher degrees are different.** Fixing the quartic carrier of
+[fixed-carrier arrangements](fixed_carrier_chow_arrangements.md)
+imposes gaps \(e_1=e_2=e_5=0\) when the indices occur; varying the
+(4,4) carrier above removes the extra \(e_2\) obstruction via
+the quadratic equation for \(\beta\). No corresponding
+surjectivity theorem is claimed for general \(m\) or general
+bidegree (a,b). Investigate whether the available carrier
+parameters suffice to eliminate higher missing-coefficient
+conditions before adding general low-degree casework.
