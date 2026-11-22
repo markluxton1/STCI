@@ -972,3 +972,24 @@ as a rectangular special case of a classical algebra-consistency criterion.
 The STCI-specific content of MJ2--MJ4 is the consequence of that gate for the
 actual marked graph and homogeneous contact constraints, not the
 border-basis criterion itself.
+
+
+### Trace matrices and the radical of a zero-dimensional section
+
+Itnuit Janovitz-Freireich, Bernard Mourrain, Lajos Rónyai and Ágnes Szántó,
+*On the Computation of Matrices of Traces and Radicals of Ideals*,
+J. Symbolic Computation **47** (2012), 102--122,
+[arXiv:0901.2778](https://arxiv.org/abs/0901.2778), compute moment and trace
+matrices from Macaulay-type resultant matrices and, for affine complete
+intersections, from Bezoutians; these matrices recover the radical of a
+zero-dimensional ideal.  The underlying characteristic-zero fact that the
+radical of the regular trace pairing is the nilradical is also already used
+in the repository's finite-algebra arguments.
+
+The
+[five-row translated-support gate CHR1--CHR6](../arguments/torus/chow_arrangement_moments.md#a-five-row-trace-rank-gate-for-one-translate-versus-residual-translates)
+applies this classical theorem to the fixed symmetric plane section.
+Its project-specific contribution is the five homogeneous degree-four test
+sections whose restricted trace map has rank four for exactly one translated
+quartic and rank five for every arrangement containing at least two distinct
+translates.  No general trace-radical theorem is attributed to this project.
