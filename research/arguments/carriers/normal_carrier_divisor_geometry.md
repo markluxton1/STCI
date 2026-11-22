@@ -767,14 +767,20 @@ index slope**
  s_{\max}\ge
  \left\lceil\frac{4b^2-6b}{7b-16}\right\rceil
 \]
-gives sharpened necessary targets:
+first yields these **arithmetic
+possibilities**. The stronger
+moving-singularity theorem (MV5),
+proved below from the **actual
+source linear system**, then forces
+\(R=m=5b/4\) for the **general
+normal replacement carrier**:
 
-| Original degree pair | Exact possible \(R\) on normal larger carrier, after the slope bound | Forced index at some point of \(C_0\) |
+| Original pair | Index lcm from torsion + slope alone | Actual lcm \(R=m\) after general replacement |
 | --- | --- | --- |
-| \((5,8)\) | \(10\) | \(10\) |
-| \((5,12)\) | \(15\) | \(15\) |
-| \((5,16)\) | \(10\) or \(20\) | at least \(10\) |
-| \((5,20)\) | \(25\) | \(25\) |
+| \((5,8)\) | \(10\) | **10** |
+| \((5,12)\) | \(15\) | **15** |
+| \((5,16)\) | \(10\) or \(20\) | **20** |
+| \((5,20)\) | \(25\) | **25** |
 
 For example, at degree eight the slope
 requires \(s_{\max}\ge6\).
@@ -786,9 +792,16 @@ impossible. Thus a hypothetical
 original quintic normal*, forces
 an **actual index-ten point** on
 a normal octic replacement carrier.
-This is substantially stronger
-than merely requiring some
+This is more precise
+than merely requiring a
 5-primary local class.
+However, the moving
+\(A_{m-1}\) singularity
+mechanism below shows
+that these high indices
+may be **automatic**, rather
+than an exclusion, on a
+normal general replacement.
 
 ### A local countermodel: high index can be a **moving pencil singularity**
 
