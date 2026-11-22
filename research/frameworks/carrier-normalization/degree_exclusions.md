@@ -469,6 +469,53 @@ equation restrictions would have to remove that room; repeating
 the same cover construction without an additional inequality
 would not advance the question.
 
+### Why the global singularity-counting approach weakens in higher degree
+
+The required correction \(4a-14+16/a\) grows only
+**linearly** with \(a\). By contrast, the classical
+Chern/Noether/Hodge formulas for the minimal resolution of a
+degree-\(a\) hypersurface with only Du Val singularities give
+\[
+ h^{1,1}=
+ \frac{2a^3-6a^2+7a}{3},\qquad
+ \operatorname{rk}(\text{exceptional root lattice})
+ \le h^{1,1}-1. \tag{S10}
+\]
+The upper rank budgets are \(19,44,85\) in degrees \(4,5,6\),
+respectively; the subtraction of one reserves the positive
+hyperplane class. These are the established surface bounds
+used in the [quartic-pair proof](../../arguments/normal-geometry/quartic_pair_obstruction.md),
+[quintic ADE proof](../../arguments/carriers/quintic_octic_surface_constraints.md#41-the-rank-bound-leaves-one-configuration)
+and [sextic ADE reduction](../../arguments/carriers/sextic_ade_reduction.md#the-rank-budget-and-the-surviving-row).
+
+| \(a\) | Required \(-Z^2\) under a mate | ADE root-rank capacity |
+| --- | ---: | ---: |
+| \(4\) | \(6\) | \(19\) |
+| \(5\) | \(46/5\) | \(44\) |
+| \(6\) | \(38/3\) | \(85\) |
+
+This gives a structural reason that a **raw exceptional-rank
+contradiction cannot simply be extrapolated** from degree four:
+the available ambient cohomological capacity grows cubically
+while the correction target grows linearly. Additional restrictions
+must connect *where* the singularities occur, their actual local
+indices and first-normal orders, and the integral divisor/cover
+geometry. The quintic even-node cover provides a concrete
+example: its last configuration fits the rank budget but
+violates an integral global relation.
+
+The transition from quintic to sextic should therefore not be
+explained as simply "a longer thickening": the first numerically
+possible pairs have generic lengths \(10\) for \((5,8)\)
+and **\(9\)** for \((6,6)\). Nor does order-two generic
+singularity persist for both sextic equations, by (S6).
+What grows is the **geometric room on the carrier**:
+larger Picard/root capacity, a more positive canonical class,
+and the much larger canonical volume of the required
+triple cover. This guides what to seek in higher-degree
+arguments: genuine compatibility constraints, not just
+a higher-volume repetition of low-degree enumeration.
+
 ### The synthesis should change what each narrow case is asked to prove
 
 There are **three distinct levels** of compatibility:
