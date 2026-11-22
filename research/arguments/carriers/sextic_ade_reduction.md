@@ -18,8 +18,29 @@ The [all-pair sextic reduction](sextic_pair_reduction.md) owns the normal
 pencil, smoothness off the curve and saturated divisor profile. Retain
 \(L=\mathcal O(-l)\), \(l\in\{5,6,7\}\), \(D_8=2T\), and
 \(\deg T=4l-17\). The full first-symbol divisor of a general member
-\(S\) has degree \(l+10\). Its mate cuts \(9C_0\), so local Cartier
-indices divide nine. All singularities of \(S\) lie on \(C_0\).
+\(S\) has degree \(l+10\). All singularities of \(S\) lie on \(C_0\).
+
+**What this ADE proof adds to the general theorem.** On the chosen
+normal sextic, the all-degree
+[Hodge-gap and exact-index criteria](normal_carrier_divisor_geometry.md#4-strongest-current-all-degree-consequence-for-the-fixed-rational-quartic)
+already force
+\[
+ C_0^2=\tfrac83,\quad
+ \sum_q\Delta_q=\tfrac{38}{3},\quad
+ R=\operatorname{lcm}_P r_P=9,\quad
+ \operatorname{ord}(3C_0-2H)=3.
+\]
+The correction and exact index are *necessary for any*
+normal sextic mate, not conclusions peculiar to ADE types.
+The present proof asks a different question: **can a
+globally Du Val sextic realize that equality geometry while
+carrying an actual length-nine intersection?** Jaffe's
+classification, the root-rank bound and the saturated triple
+show that only the stated primitive-triple geometry survives.
+In particular every local index divides nine and at least
+one point of \(C_0\) has actual index nine. A list of
+ADE singularities without this integral Cartier constraint
+would be a weaker and less informative classification.
 
 ## Marked local models and exact defects
 
@@ -31,6 +52,10 @@ which cannot divide nine. There is no smooth marked \(E_8\) case.
 A smooth Cartier curve cannot pass through a singular hypersurface point:
 quotienting an embedding-dimension-three surface ring by one equation
 leaves embedding dimension at least two.
+
+The normal-carrier reduction already forces an **index-nine point**;
+the following local table must obey that global condition collectively,
+not merely the individual order-divides-nine tests.
 
 For \(A_{r-1}^{c}\), the first-symbol order is \(c\), with
 \(1\le c\le r/2\), and the actual index is \(r/\gcd(r,c)\).
