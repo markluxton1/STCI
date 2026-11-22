@@ -458,3 +458,16 @@ R-0070 gives the two lengths of the target but not \(\kappa_L\).  A useful
 boundary refinement therefore needs the actual endpoint correction algebra
 or the weight-graded full ideal; another classification of the pure orbit
 quotient cannot exploit contact.
+
+
+**CI-polynomial controls do not restore two-generation.**  The diagonal
+constant quotient \(B_n=k[\epsilon]/(\epsilon^n)\), \(u=v=1+\epsilon\),
+has symmetric endpoint defect \(3n(n-1)/2\) and polynomial
+\(4nd+4n-3n^2\).  At \(n=4\) this is the \((4,4)\) CI polynomial; at
+\(n=6\) it is the \((3,8)\) polynomial.  These pure sole-supported images
+are torus-fixed and automatically involutive, but cannot be homogeneous CIs
+in characteristic zero because an invariant supported CI ideal is excluded.
+Thus even an involutive point of the correct CI-polynomial supported Hilbert
+locus need not have the moving two-generator presentation.  Boundary work
+must retain the actual minimal-generator incidence, not only the pure image
+and its endpoint lengths.
