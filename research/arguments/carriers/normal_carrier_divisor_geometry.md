@@ -790,6 +790,92 @@ This is substantially stronger
 than merely requiring some
 5-primary local class.
 
+### A local countermodel: high index can be a **moving pencil singularity**
+
+The exact-index conclusions (NR2)--(NQ2)
+must not be mistaken for a new geometric
+impossibility. At the formal germ of a
+smooth support curve in a smooth
+threefold, take characteristic zero and
+\[
+ F=u,\qquad
+ G=tu+v^m,\qquad
+ C=(u,v)\subset\operatorname{Spec}k[[t,u,v]],
+ \quad m\ge2.
+\]
+The actual complete intersection
+\((F,G)=(u,v^m)\) is curvilinear
+of length \(m\), with **sole
+reduced support \(C\)** in this
+formal neighborhood. For a scalar
+\(\lambda\), make the permitted
+generator replacement
+\[
+ K_\lambda=G-\lambda F
+         =(t-\lambda)u+v^m.
+\]
+At the marked point \(t=\lambda\)
+the surface \(K_\lambda=0\)
+has a Du Val \(A_{m-1}\)
+singularity \(xy+z^m=0\),
+and the marked curve
+\((u,v)\) represents the
+standard local Weil class
+of **exact Cartier index \(m\)**.
+This is an elementary instance
+of the accepted
+[local class-group calculation](normal_carrier_symbolic_torsion.md#3-exact-index-formula-on-every-normal-c0-carrier).
+The singular point **moves**
+with \(\lambda\); \(F=u\)
+is smooth at every marked point,
+so the two original surfaces
+do not have a common singular
+point on \(C\).
+
+The model is *formal local*,
+not a global projective
+STCI construction. It proves
+the following interpretative
+limits on (NR1):
+
+- Passing to a normal larger-degree
+  carrier **can create** precisely
+  the large local Cartier index
+  required by its true global
+  mate relation; the index's
+  mere existence is therefore
+  not an additional obstruction.
+- The normal carrier's singular
+  point need **not** be singular
+  for both original generators.
+  Neither the normal-replacement
+  lemma nor its index consequences
+  prove the unestablished
+  common-singular-point conjecture.
+- A genuine global restriction
+  must control **how those moving
+  singularities fit the finite
+  dimensional homogeneous
+  equation system**, including
+  their global distribution,
+  total first-symbol divisor,
+  and exact normal-layer defects.
+
+In particular, for the normal
+replacement of a \((5,4n)\)
+candidate, the forced index
+\(5n\) (when attained in one
+moving \(A_{5n-1}\) point)
+is exactly the generic
+transverse intersection length
+\(m=5n\). This explains
+why the table above may be
+**necessary but not
+discriminating**: it identifies
+a geometric pattern to compare
+with the ambient equations,
+not a contradiction.
+
 **Scope.** The table does not
 exclude the listed singularities.
 Normality of the larger member
