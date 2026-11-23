@@ -30,6 +30,50 @@ example or descent assertion.
 
 The constant-image results do not by themselves cover moving transverse quotients.
 
+### Universal full-Chow envelope above every moving quotient
+
+The [full two-dimensional Chow pullback](../../arguments/torus/full_transverse_chow_pullback_envelope.md)
+supplies a canonical constant **fat-point**
+algebra above *every* actual translated-cycle
+CI, with no invariant-ideal hypothesis.
+For \(\sigma=\sum_i n_i[(u_i,v_i)]\),
+\[
+ B_\sigma=
+ k[u^{\pm1},v^{\pm1}]/
+       \bigcap_i\mathfrak m_i^{n_i},
+ \quad
+ \dim B_\sigma=\sum_i\binom{n_i+1}{2}.
+\]
+The full Chow form, pulled through
+the first degree-four three-monomial
+torus quotient and its opposite
+chart, gives \(2(m+1)\) explicit
+homogeneous ideal-membership conditions
+for any realizing CI.
+The resulting actual finite-flat algebra
+over the intrinsic orbit coordinate
+\(t\in\mathbf G_m\) is a **rank-\(m\)
+moving quotient** of
+\(B_\sigma\otimes k[t^{\pm1}]\),
+with kernel rank
+\(\sum_i\binom{n_i}{2}\).
+Its norm of \(X+uY+vZ\) is the
+**complete transverse Chow form**;
+its trace of \(u/v\) is \(M_1\).
+The quotient is forced constant for
+reduced cycles, while each double
+component adds a moving \(\mathbf P^1\)
+normal-direction choice.
+Unlike R-0051–R-0056, this is a
+**necessary constant envelope for an
+arbitrary moving CI quotient**,
+not a claim that every moving quotient
+comes from a constant embedded image.
+Both endpoint descent and generation
+by **two actual homogeneous equations**
+remain essential. The all-degree
+universal \(M_1=0\) theorem is not proved.
+
 ## Mathematical scope and interfaces
 
 This approach studies **embedded finite torus quotient images**, their
