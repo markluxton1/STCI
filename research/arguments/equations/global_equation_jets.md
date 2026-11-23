@@ -1783,8 +1783,9 @@ jet counting as a scalable strategy.
 
 ### Fixed determinant truncations forget containment of the quartic in large degrees
 
-**Source-image consequence (independently reviewed, 2026-11-23).**  Work in
-characteristic zero with \(S=k[x_0,x_1,x_2,x_3]\),
+**Source-image consequence (independently reviewed, 2026-11-23).** Work over
+any field \(k\), including finite or imperfect fields, with
+\(S=k[x_0,x_1,x_2,x_3]\),
 \(P=(x_0,x_3)\), and \(M=V_+(P)\), the line disjoint from \(C\).
 Fix \(r\ge1\) and degrees
 \[
@@ -1823,7 +1824,9 @@ Then the following sets of attainable coefficient tuples are equal:
 \]
 
 To prove this, take any pair in \(\mathcal U_{a,b}\) and set
-\(N=4r+1\).  By (HJ7) and (HJ8), its two arbitrary classes modulo
+\(N=4r+1\). By the characteristic-free
+[center-jet semigroup calculation](../torus/chow_matched_equation_layers.md#sharpness-and-the-last-missing-center-layer)
+and (HJ8), its two arbitrary classes modulo
 \(P^N\) lift independently to forms through \(C\) of the same degrees.
 Their binary leading forms are unchanged.  Nonzero binary resultant
 means that the resulting intersection misses \(M\).  It also proves
@@ -1835,6 +1838,13 @@ the smooth base curve.  The finite source-depth statement (CHD8) uses
 only base-degree layers through \(4j\) for \(\Delta_j\).  These layers
 agree for every \(j\le r\), so the tuples agree.  The reverse inclusion
 in (HJ9) is immediate.
+
+All lifts are defined over \(k\) by linear surjectivity; properness and
+finiteness can be checked after algebraic closure and descended. No general
+point or Bertini choice is needed. The characteristic-polynomial scaling
+proof of CHD8 uses no Newton division. These facts independently justify the
+stated any-field extension; they do not extend trace formulas that divide by
+integers.
 
 The [sharp semigroup calculation CJ1–CJ6](../torus/chow_matched_equation_layers.md#sharpness-and-the-last-missing-center-layer)
 shows that this individual source-surjectivity input has cokernel dimension

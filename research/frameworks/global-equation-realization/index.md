@@ -277,7 +277,12 @@ The first normalized polars satisfy
  x_2^2E_++x_0^2E_-+
  x_1H_\sigma(m x_1x_2+M_1x_0x_3)=0.
 \]
-This is a **specific cross-polar source syzygy** for every whole translated-cycle CI (and every abstract cycle), so a proposed proof of UM1 must extract an *additional two-generator global cofactor constraint* rather than divide the common factor \(H_\sigma\) in the CI ring. No new universal vanishing, proper-pair degree bound, or nonexistence theorem is asserted.
+This identity holds for every abstract cycle and reduces to Euler's identity.
+For a coordinate-saturated ideal, opposite-chain membership follows from
+plus-chain membership. It supplies no independent global cofactor constraint.
+The remaining question is actual single-chain two-generator realization with
+the prescribed norm and no coordinate-boundary components. No universal
+vanishing, proper-pair degree bound, or nonexistence theorem is asserted.
 
 ### Saturation review of the opposite-polar realization proposal
 
@@ -303,7 +308,7 @@ a priori boundary condition**.
 For spectrally separated
 translated supports, the full
 paired configuration—including
-nilpotent multiplicities—is
+cycle multiplicities—is
 already recovered from the
 binary spectrum \(H\) and
 the simple-pole rational function

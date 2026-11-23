@@ -570,7 +570,11 @@ The expected gain is a nontrivial restriction on actual two-generator sources
 or a realization in the chosen sector. On the distinct-spectral-value stratum,
 the pair \((H,K)\) recovers all cycle parameters, even with repeated
 multiplicities; it does not replace the full coefficient chain or norm test.
-At spectral collisions retain higher polars. Declare a bidegree or source sector before
+At spectral collisions retain higher polars. The distinct-spectral-support
+stratum already includes the one-support target \(m[C]\) and the exceptional
+non-invariant doubled-quartic control, so classifying collisions of different
+supports is not a prerequisite to a bounded probe containing both.
+Declare a bidegree or source sector before
 an initial elimination/geometry probe; stop or redirect if it merely rewrites
 support or separates known residual controls. UM1 remains an open, stronger
 than necessary conjecture, not an accepted intermediate theorem.

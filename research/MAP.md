@@ -124,6 +124,11 @@ truncated pure target is attainable; joint global conditions remain. A useful
 all-degree obstruction must add actual simultaneous source compatibility,
 rather than another scalar support detector.
 
+This determinant-image equality, and the analogous degree-\((2,3)\)
+characteristic-coefficient tower statement, hold over any field; their proofs
+use linear lifting and characteristic-polynomial scaling without Newton
+division. The characteristic-zero moment/trace assertions retain their scope.
+
 The [sharp center-jet calculation](arguments/torus/chow_matched_equation_layers.md#sharpness-and-the-last-missing-center-layer)
 has cokernel dimension \(N+1\) at degree \(N+1\), and vanishes in degrees
 at least \(N+2\). Sharpness of that source map does not establish sharpness

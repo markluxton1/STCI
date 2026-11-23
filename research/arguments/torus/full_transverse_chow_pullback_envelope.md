@@ -651,9 +651,11 @@ the restriction to the disjoint line
 tautological in the graded binary CI.
 It does **not** allow cancellation of
 \(D_+^m\) modulo \(J+(P_+,R_+)\).
-The opposite chart supplies independent
-boundary data, not an automatic
-cancellation theorem.
+The opposite chart supplies additional boundary coverage for unrestricted
+candidate ideals. Its memberships are redundant once coordinate saturation
+is imposed, by the same dense-torus contraction argument as the
+[polar saturation theorem](spectral_interpolation_and_polar_saturation.md).
+Neither chart supplies an automatic cancellation theorem.
 
 **A serious low-order limitation of the
 degree-\(4m\) Chow pullbacks.**
