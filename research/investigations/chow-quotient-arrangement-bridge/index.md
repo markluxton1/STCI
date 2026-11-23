@@ -226,6 +226,18 @@ a carrier-by-carrier mate search.
 No trace vanishing follows
 from the quotient condition alone.
 
+### Sharper full-Chow interface: opposite (2,3) rulings and an \(M_1\) syzygy
+
+The [opposite-ruling Chow polarizations](../../arguments/torus/weighted_chow_quadric_cubic_polarizations.md) improve the former degree-\(4m\) full-Chow pullbacks. Let \(Q_i=x_1x_2-\xi_i x_0x_3\), \(T_i^+=x_0^2x_2-u_i x_1^3\), \(T_i^-=x_1x_3^2-(v_i^2/u_i^3)x_2^3\). On \(Q_i\), their divisors are \(C_i+2L_{01}\) and \(C_i+2L_{23}\); the residual ruling lines are skew. Both degree-\((2m,\ldots,3m)\) coefficient chains of \(\prod_i(\lambda Q_i+\mu T_i^\pm)^{n_i}\) are actual ideal members in every proper translated-cycle CI. Their **sum has radical exactly the translated support**, and generically recovers the same full Chow fat-point envelope, with no single-carrier choice.
+
+The normalized first cubic polars satisfy the **exact degree-\((2m+3)\) global syzygy**
+\[
+ x_2^2E_++x_0^2E_-+
+ x_1 H_\sigma\bigl(m x_1x_2+M_1(\sigma)x_0x_3\bigr)=0,
+ \quad H_\sigma=\prod_i Q_i^{n_i}.
+\]
+This exposes the first elementary symmetric function as the coefficient in the **comparison quadric between the two residual rulings**. It is a stronger concrete source of a possible all-degree compatibility theorem than either the one-plane resultant or the degree-\(4m\) Chow envelope alone. However the polynomial syzygy holds for all **unrealized** cycles as well, so **global two-generation has not been shown to force its \(M_1\) coefficient to vanish**. The restricted characteristic-zero UM1 conjecture is unchanged.
+
 ## Primary Chow realization and first-moment separation
 
 For repeated curves the primary space remains the unordered cycle space
