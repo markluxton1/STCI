@@ -32,6 +32,17 @@ moment identity for unrestricted proper pairs, not a forced construction
 of marked Hilbert forgetful morphisms. Preserve the distinction between
 the proper-CI cycle image and its projective closure.
 
+The [cross-branch universal first-moment synthesis](../../arguments/torus/universal_first_moment_proof_boundary.md)
+compares main and PRs #171--#173. The existing all-degree trace and
+six-layer residue formula give an exact source target; exceptional
+non-invariant quartic cycles and same-ideal toric cancellations prohibit
+an unqualified invariant-degeneration proof. The normal-carrier replacement
+splits generically curvilinear from entirely-thick cases without covering
+the latter. The priority is a joint source/cycle identity forcing the
+mixed trace to vanish, not additional arrangement classification.
+This synthesis contains no new all-degree theorem and is not an
+independent mathematical review.
+
 
 ## Motivation and the three genuinely different parameter spaces
 
