@@ -91,6 +91,23 @@ replay identities for this pair and the fixed quartic's degree-four symbols.
 Actual equation recovery after projective contraction still requires the
 embedded quotient and the homogeneous source test.
 
+### Quadrics and cubics as the two quotient characters (PR #173)
+
+The [intrinsic spectral–Jacobian bridge](../../arguments/torus/spectral_jacobian_first_jet_bridge.md)
+replaces arbitrary affine quotient coordinates by the two homogeneous
+characters
+\(\xi=x_1x_2/(x_0x_3)\) and
+\(\eta=x_0x_2^2/(x_1^2x_3)\). They determine the
+unique containing quadric and a cubic scroll respectively, and
+\(Q_\xi\cap R_\eta\) is exactly the translated quartic plus
+two fixed endpoint ruling lines. Thus the full arrangement records
+paired points in these two character coordinates; a quadric spectral
+polynomial alone loses the cubic parameter and the pairing.
+The companion Jacobian identity is valid in the actual nonreduced
+CI ring, but does not reconstruct all nilpotent multiplication from
+its cycle. The new first-jet residue pairing is a necessary
+algebraic test conditional on whole translated-cycle support.
+
 ## Bridges
 
 The [comparison investigation](../../investigations/quotient-hilbert-comparison/index.md)
