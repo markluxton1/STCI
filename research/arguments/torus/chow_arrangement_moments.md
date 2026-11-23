@@ -463,6 +463,75 @@ extra equation hypotheses.  Higher \(\Delta_j\) give the canonical
 paired hierarchy; no assertion is made here that a fixed initial segment
 already excludes an arbitrary characteristic-zero STCI.
 
+
+### Control: the whole first paired coefficient can vanish with residual support
+
+The two first-order conditions in (CHD9) still do not suffice for support.
+In characteristic zero set
+\[
+\begin{aligned}
+ F&=x_1^4-x_0^3x_3+4q\,x_0x_3,\\
+ G&=x_2^4-x_0x_3^3+q\,x_1x_2.
+\end{aligned}                                           \tag{CHD10}
+\]
+Both contain \(C_0\).  On the projection axis \(M=V(x_0,x_3)\),
+\[
+ F|_M=x_1^4,\qquad
+ G|_M=x_2^2(x_2^2-x_1^2),
+\]
+so they have no common projective zero there; the pair is proper and its
+plane-pencil algebra is finite free of rank sixteen.
+
+On \(x_0=1,\ x_3=\lambda\), put \(z=x_1x_2\).  The equations give
+\[
+ x_1^4=\lambda(4z+1-4\lambda),\qquad
+ x_2^4=z^2-\lambda z+\lambda^3.
+\]
+Eliminating \(x_1,x_2\) gives a monic quartic for the four \(z\)-values
+whose first two power sums are
+\[
+ \sum_{\nu=1}^4z_\nu=4\lambda,\qquad
+ \sum_{\nu=1}^4z_\nu^2=2\lambda.              \tag{CHD11}
+\]
+Equivalently its polynomial begins
+\[
+ z^4-4\lambda z^3+(8\lambda^2-\lambda)z^2+\cdots .
+\]
+Each \(z_\nu\) carries four sheets in the full rank-sixteen algebra.
+Since \(q=\lambda-z\),
+\[
+ \operatorname{Tr}(q)
+ =4\sum_\nu(\lambda-z_\nu)=0.                 \tag{CHD12}
+\]
+Moreover \(R=x_1^4-\lambda=4\lambda(z-\lambda)\), while \(D=\lambda\)
+on this chart, so
+\[
+ \operatorname{Tr}(R/D)=0.
+\]
+Thus the **entire**
+\[
+ \boxed{\Delta_1(T,Z)=0}                      \tag{CHD13}
+\]
+in the joint determinant (CHD7).
+
+But (CHD11) also gives
+\[
+ \operatorname{Tr}(q^2)
+ =4\sum_\nu(\lambda-z_\nu)^2
+ =8\lambda-16\lambda^2\ne0.                  \tag{CHD14}
+\]
+Hence \(q\) is not nilpotent and the pair has residual support.  Indeed the
+elimination polynomial has the factor \(z-\lambda\) supplied by \(C_0\)
+and a nonconstant residual cubic factor.
+
+This control is stronger than the earlier zero-first-\(q\)-trace example:
+both linear coefficients of the **paired** source-to-Chow determinant vanish.
+Consequently no obstruction using only \(\Delta_1\) can settle the
+unrestricted problem.  The first new paired stage is \(\Delta_2\), which by
+(CHD8) depends only on the first eight base-degree layers of the actual
+sources.  No claim is made that \(\Delta_2\) alone is universally
+obstructed.
+
 ### Multiplication matrices and all transverse moments
 
 Let \(B_\Pi\) be the finite section algebra of an actual pair in this family.
