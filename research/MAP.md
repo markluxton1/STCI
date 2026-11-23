@@ -17,6 +17,21 @@ quintics on \(V_5\) give an equivalent equation problem with an explicit
 test for the contracted trisecant. [Connected directions](results/connected_normal_directions.md#statement) ·
 [Actual equation correspondence](arguments/residuals/blowup_residual_geometry.md#actual-equations-on-the-zero-direction-edge).
 
+### Source-to-attachment gate: avoid a tautological obstruction
+
+**Synthesis checkpoint (2026-11-23; strategic clarification, not a new theorem).**
+For a proper actual pair \(Y=(F,G)\), its full \(C\)-primary component \(T\), and genuine residual \(R\), the existing [LC-A1 proof](arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) gives
+\[
+Q_1=I_T/((F,G)+I_CI_T)
+\simeq (\omega_R/I_C\omega_R)\otimes\omega_Y^{-1}.
+\]
+The quotient is nonzero at each point of \(C\cap R\) by Nakayama, and vanishes if there is no residual. Connectedness of the proper projective complete intersection implies
+\(Q_1=0\) exactly when \(Y_{\rm red}=C\). Thus the proposed universal nonvanishing of \(Q_1\) is **equivalent to the original non-STCI assertion**; local duality by itself is a detector, not a positivity theorem. Hartshorne--Polini's coregularity/local-cohomology criterion is the established broader precedent, not a new STCI obstruction derived here.
+
+The next genuinely independent gate must use **homogeneous source restrictions before residual support is known**: identify a finite-degree jet, multiplication, or global-section incidence condition satisfied by every sole-supported pair, and show it is impossible using the actual \(H^0(I_C^r(d))\) source maps or a geometric restriction theorem. MJ1--MJ4 provide a local multiplication-closure test only in the primitive marked graph stratum; TR1--TR7 calculate attachment in a curvilinear triple but do not force its positivity. The toric proper-CI calibration demonstrates that \(Q_1>0\) is compatible with actual homogeneous equations; the BF lci quadruple shows that \(D_2>0\) does not imply conormal torsion. Do not conflate these tests, assume curvilinearity in the entirely-thick branch, or present the equivalence \(Q_1=0\iff\mathrm{STCI}\) as new progress toward nonexistence.
+
+**Decision rule for another iteration:** demand an independent source-level inequality or incidence obstruction that is not merely an expression for \(Q_1\). Otherwise switch from attachment reparametrizations to the general Chow/source realization problem.
+
 ### From candidate lattices to actual algebras and proper cuts
 
 The [marked border-product theorem](arguments/residuals/blowup_residual_geometry.md#finite-index-rigidity-of-higher-marked-jets)
