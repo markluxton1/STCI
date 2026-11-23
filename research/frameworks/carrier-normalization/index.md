@@ -63,6 +63,20 @@ comparisons have their own hypotheses and controls in
 These statements do not transfer automatically between normal, smooth
 normalization, and singular normalization regimes.
 
+There are now two concrete comparisons with the first-moment question.
+In characteristic different from two, on a sign-preserved carrier the
+[one-sign-eigen-generator norm argument](../../arguments/torus/sign_symmetry_and_actual_sources.md)
+puts every actual mate vector in the first-moment kernel, including
+entirely-thick generic support. In characteristic zero, every actual
+translated-support pair also supplies an [ordinary product of norms](../../arguments/torus/spectral_boundary_modulus.md#2-an-actual-carrier-relation-supplies-an-ordinary-norm)
+with divisor \(4(D_\sigma-m[0])\): normalization of hyperplane
+curves handles nonnormal carriers, and homogeneous row replacement
+avoids the pencil base lines. The unresolved condition is geometric
+cancellation of its aggregate first jet, already equal to
+\(-4M_1=-2\Theta(F,G)\), rather than existence or evaluation of
+the ordinary norm relation.
+These statements do not assert vanishing on arbitrary carrier monoids.
+
 ## Projection, polarization, and low-degree scopes
 
 A normalized model only becomes a carrier after choosing four sections of
@@ -162,6 +176,24 @@ entire parameter line at this support test. For the rest of the family, a
 birational fiber with full inverse support and an actual descending power
 are still needed to produce a mate. See the
 [elliptic carrier case](open_carrier_cases.md#full-inverse-support-in-the-elliptic-construction).
+The [actual contact and spectral comparison](../../arguments/carriers/elliptic_contact_and_spectral_comparison.md)
+retains every \(g=\operatorname{length}(Z\cap E)\in\{0,\ldots,4\}\):
+the vertical divisor has degree \(12+g\), while the horizontal trace
+conductor has degree \(4-g\). Only under saturation of the **actual**
+first relation kernel do four necessary mate degrees follow. The fixed
+elliptic marking prevents target sign symmetry throughout the birational
+locus, so the sign-preserved-carrier argument does not exclude this
+family. Full support, full-conductor descent and actual homogeneous
+source membership remain separate requirements.
+The [conjugate octic sources](../../arguments/carriers/elliptic_conjugate_sources.md)
+give an actual \((8,8)\) comparison with generic multiplicity four
+and residual degree \(48\). Their primary closure need not equal
+the saturation of the sum with a hypothetical mate. In the saturated
+sector the equation-source coefficients have degrees \(12+g\) and
+\(4b-20+g\), with exact cancellation poles along \(V\).
+Since \(Q_0^b\) is a global normalized section for every degree,
+a valuation bound depending only on that normalization and polarization
+cannot exclude the family; the actual subalgebra or conductor must enter.
 
 ## Boundary valuations as a mate-degree obstruction
 

@@ -116,8 +116,21 @@ moving torus degenerations. The [complete quotient proof](../../arguments/torus_
 and [endpoint image theorem](../../results/orbit_image_endpoint_polynomial.md)
 give constant-image controls. The [intrinsic endpoint-fiber comparison](../../results/intrinsic_limits_endpoint_fibers.md)
 determines pure parts and embedded lengths under its hypotheses, but does not
-resolve the full moving-family comparison in the
+resolve the full source-realization question in the
 [Investigation](../../investigations/quotient-hilbert-comparison/index.md).
+For CI origin, retain the pure image's free section hull and finite vertex
+defect separately from the full limit's finite endpoint correction. The
+[section-cohomology comparison](../../arguments/torus/boundary_section_cohomology.md)
+constrains the whole splitting profile and computes its cohomology by one
+two-endpoint interpolation map on the actual embedded algebra. The
+[actual-family specialization account](../../arguments/normal-geometry/source_specialization_and_linkage.md)
+provides canonical cohomological sources for the pure section defect;
+their allowed images under a two-equation presentation remain the issue.
+Independently, [symmetrizing the actual ACM source](../../results/sign_symmetrized_source_defect.md)
+identifies its invariant union's section defect with the torsion of
+\(S/(J+\tau J)\), including its equivariant sign twist. This is an
+explicit source comparison before degeneration, distinct from the
+endpoint correction and the pure torus limit's section defect.
 The [supported-boundary approach](../torus-supported-boundaries/index.md)
 provides complementary full-ideal and opposite-limit techniques; neither
 approach excludes studying the other's degenerations. Contact, polarization,
@@ -129,6 +142,9 @@ and conductor constraints meet in [contact and global descent](contact_and_globa
 splitting degrees and the generic secant and tangent ranks of the entire
 moving quotient of a characteristic-zero defining pair. Its endpoint
 inequality compares the two kernels in the same transverse coordinates.
+The fixed-involution refinement bounds the common quotient at \(r,-r\)
+by \(m-\lceil(4b-7)/7\rceil\) for general \(r\); in particular the
+embedded quotient cannot factor through \(r\mapsto r^2\).
 The [one-summand control](../../arguments/torus/tropical_thickenings_and_endpoint_duality.md#one-moving-summand-with-the-complete-intersection-polynomial)
 has the CI Hilbert polynomial in arbitrarily high degree and fails the
 splitting bound.
@@ -155,6 +171,14 @@ retains the construction, proofs, examples, and characteristic comparisons.
 distinct embeddings with isomorphic abstract algebra and their different
 endpoint images, including characteristic-dependent behavior and non-Gorenstein
 local structure. Defect lengths alone do not determine the full gluing algebra.
+They also do not determine the two-lattice interpolation ranks. The
+[diagonal-algebra exclusion](../../arguments/torus/boundary_section_cohomology.md#3-diagonal-endpoint-algebras-can-fail-despite-finite-correction)
+rules out \(u=v=1+\epsilon\), \(\epsilon^n=0\), as either endpoint of a
+sole-supported CI\((a,b)\) when \(n=ab/4\le a+b-3\). In the surviving
+degree range this excludes \((a,b,n)=(6,6,9),(5,8,10)\), up to degree
+exchange, even when finite corrections repair the Hilbert polynomial.
+This cohomological statement is characteristic free; when
+\(n\ge a+b-2\), the full diagonal profile passes every twist test.
 [R-0055](../../results/flat_collision_of_orbit_images.md) gives a controlled
 collision with verified relative image lattices; constancy of one numerical
 defect is not its flatness proof.
@@ -197,11 +221,19 @@ the embedded quotient has positive degree. Its endpoint budget constrains
 one moving object. [R-0070](../../results/intrinsic_limits_endpoint_fibers.md)
 determines the pure parts of both intrinsic limits and their two embedded
 lengths from the corresponding endpoint fibers. The full opposite-endpoint
-algebras and moving generator incidence remain open.
+algebras and moving generator incidence remain open. The pure section hull
+must pass cohomological semicontinuity. By contrast, the
+[nonstandard-parity condition](../../arguments/torus/chow_section_parity_defect.md)
+is automatic for every sole-support constant image in characteristic zero,
+with no CI-origin premise. It describes the multiplication and extra
+sections that an actual source would have to induce, rather than filtering
+the endpoint algebras independently. Endpoint \(T\), vertex defect \(D\),
+and the finite contact map on \(T\) are separate retained data.
 
 Use the relative image map in R-0070 when comparing an embedded quotient
-and an intrinsic limit. Recovering the full special equation module
-requires further data. Even the two completed endpoint presentations of
+and an intrinsic limit, together with the actual-family cohomological
+specialization maps when comparing section defects. Recovering the full
+special equation module requires further data. Even the two completed endpoint presentations of
 one raw equation family can lose first-layer classes along the disjoint
 coordinate line. The [endpoint kernel formula](../../results/endpoint_equation_torsion.md#statement)
 specifies what that restriction detects. Applying it to a proposed

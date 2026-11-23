@@ -37,7 +37,25 @@ The boundary-repair catalecticant and the local-cohomology polynomial left dual 
 
 The [complete endpoint owner](../../arguments/local-cohomology/degree_fifteen_obstruction.md#the-degree-fifteen-boundary-and-exact-duals) now assembles both rational target-u family exclusions with parameter coverage, all affine corrections, exact factor closure and actual tensor reconstruction. Its rational certificate scope is characteristic zero. The [positive-characteristic construction](../../arguments/arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-quartic-carrier) remains the global control: these duality mechanisms constrain specified sources; they do not exclude STCI in every characteristic.
 
-A precise proposed cross-topic bridge is to compare the nonsaturated-first-relation/resultant defect of R0016 with the saturated quasiprimitive residual zero-cycle of R0019 **using the actual global equations and a proper auxiliary intersection**. The two constructions have different hypotheses and targets. A general divisor inequality has not been established. Any comparison must identify correction terms when ordinary normal flatness, generic curvilinearity, saturation or properness fails, rather than equate the two numerical defects or infer an extra curve from a vertical exceptional cycle.
+A cross-topic comparison must first name the objects being compared.
+R-0016 assumes a full generic initial CI of degrees \(2\le r<s\),
+so the generic transverse algebra has embedding dimension two. R-0019
+assumes a generically curvilinear algebra, of embedding dimension one.
+These are disjoint hypotheses on the same quotient; asking for a direct
+divisor inequality without changing the object has no common input.
+
+A meaningful bridge must specify an operation transporting the actual
+equation source between these regimes. On the covered mixed
+\((6,4q;2,q)\) edge, the
+[first-graph recovery SC6](../../arguments/residuals/first_graph_finite_transfer.md#recovering-generic-curvilinearity-in-all-orders-on-a-subset-of-the-edge)
+provides such a change of object; the
+[actual finite-modification formulas](../../arguments/normal-geometry/curvilinear_genus_and_defects.md#cartier-cuts-and-finite-modifications-of-the-saturated-filtration)
+then compare stated curvilinear presentations where their hypotheses
+hold. Neither operation is asserted for arbitrary R-0016 data. A new
+comparison should retain the transported global equations, the full
+generic algebra, changed conormal data, saturation, attachment and proper
+auxiliary cuts, and derive its correction terms there. A vertical
+exceptional cycle alone still does not give a residual curve downstairs.
 
 
 

@@ -44,13 +44,16 @@ non-invariant repeated structures. An arbitrary translation of the spectral
 coordinate, containment of a translate, or a bounded determinant truncation
 does not establish this assertion.
 
-The November 23 parallel investigation extended vanishing through residual
-liaison and actual sign symmetry, and identified a sharper section-defect
-boundary. Its reviewed findings below replace the initial probes.
-The next bounded question is how degeneration of the same two equations
-constrains that defect; no general CI-compatible modulus relation or
-unrestricted vanishing theorem has been established. Full spectral
-classification is not a prerequisite to this first-coefficient question.
+The renewed November 23 reassessment changes the source question. Actual
+sign symmetry yields stronger carrier and source-plane exclusions, but
+sign-breaking repeated CI controls already exist. The direct conjugate-pair
+fiber product now presents the section defect from the original equations;
+family cohomology and linked-colon base change give other exact comparisons.
+The question concerns their marked multiplication and source maps, not
+existence of an unspecified map or a nonzero abstract defect. The strategic
+queue compares this with endpoint interpolation, the actual carrier norm
+jet and whole elliptic inverse support. Full spectral classification is not
+a prerequisite to UM1, and UM1 is not a prerequisite to those other routes.
 
 ## Motivation
 
@@ -79,8 +82,9 @@ the same proper equation pair.
   of a hypothetical characteristic-zero sole-supported CI must be non-ACM.
   Nonzero moment requires a [nonstandard-sign generator in the head of
   the finite section defect](../../arguments/torus/chow_section_parity_defect.md).
-  The single reduced quartic exhibits this defect; its acquisition by
-  actual CI limits is the remaining source-sensitive question.
+  The single reduced quartic exhibits this defect. Direct symmetrization
+  now supplies an actual-source presentation; compatibility of its marked
+  multiplication with nonzero moment remains unresolved.
 - The [Hilbert-scheme form](../../arguments/torus/chow_hilbert_symplectic_form.md)
   gives \(f^*\omega=2M_1\,dx_0\wedge dx_3\), including repeated
   components. An exact twisted-cubic-plus-line control shows that endpoint
@@ -154,17 +158,26 @@ the same proper equation pair.
 
 The following are **proposed tests**, not a priority ranking:
 
-- Retain the Rees degeneration of an actual two-generator ideal and construct
-  a connecting or lifting map that carries its equation information into
-  the invariant pure hull's finite section defect. The naive composite
-  through the pure coordinate algebra is zero; no useful comparison map
-  is already supplied. Then determine
-  which equal-degree opposite-sign generator pairs and matrix coefficients
-  can be reached. Start with the known opposite-limit controls before
-  probing a declared new degree/source sector. The goal is a new restriction
-  on actual CI origin, not another proof that arbitrary pure curves can
-  carry the defect. Compare this with constructing a modulus-compatible
-  norm relation on a named carrier; the strategic queue owns priority.
+- Retain the actual pair and its sign transform, both Koszul presentations,
+  their sum and intersection, and the
+  [explicit section-hull fiber product](../../results/sign_symmetrized_source_defect.md).
+  Determine what the marked presentation and multiplication impose beyond
+  expected saturation torsion. Calibrate on actual sign-breaking
+  zero-moment thickenings. In the generically curvilinear sector, compare
+  the two first-normal lines and their coincidence/nonprimitive loci.
+  A test that only finds the missing quadric or a nonzero Rao class adds
+  no obstruction. The entirely thick sector needs its own source analysis.
+- Use the [actual-family specialization maps](../../arguments/normal-geometry/source_specialization_and_linkage.md)
+  with their embedded corrections and parameter characters, or the
+  [endpoint interpolation profile](../../arguments/torus/boundary_section_cohomology.md).
+  The maps already exist; their surviving classes and joint realization are
+  the issue. The exact diagonal \((6,6)\) and \((5,8)\) endpoint models
+  are excluded by cohomology and are no longer open probes.
+- On a named source family, seek a new geometric cancellation condition
+  for the [existing norm jet](../../arguments/torus/spectral_boundary_modulus.md).
+  Ordinary norm existence is universal for actual pairs, and evaluating
+  its aggregate jet reproduces the source residue. That evaluation alone
+  is not a new test.
 
 - On a specified endpoint-rank stratum, determine whether normal flatness
   holds for the re-formed union and whether its Rees family agrees with the

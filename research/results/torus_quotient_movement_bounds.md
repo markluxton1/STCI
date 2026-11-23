@@ -7,7 +7,7 @@ statement: "#statement"
 proofs:
   - name: multiplier rank and the splitting of the moving quotient
     at: "#proof"
-    using: [STCI-R-0020, STCI-R-0042]
+    using: [STCI-R-0020, STCI-R-0042, STCI-R-0084]
     review:
       state: accepted
       basis: reconstructed
@@ -29,6 +29,17 @@ Set \(q=\lfloor b/a\rfloor\) and \(L_j=\lceil(4(a+b-ja)-7)/7\rceil\) for \(1\le 
  e\ \ge\ \sum_{j=1}^{q} L_j.                                      \tag{1}
 \]
 For general \(x,y\in\mathbf G_m\), the common quotient \(A/(K_x+K_y)\) has length at most \(m-L_1\). At a general \(x\), a nonzero tangent vector to the base induces a linear map \(K_x\to B_x\) of rank at least \(L_1\). Explicitly, for the classifying map \(f:\mathbf P^1\to\operatorname{Gr}(A,m)\) to the Grassmannian of rank-\(m\) quotients, \(df_x(v)\) is an element of \(\operatorname{Hom}(K_x,B_x)\). The bound counts the dimension of its image in \(B_x\). The classifying map itself has image of dimension at most one.
+
+The secant bound also holds along the fixed involution, rather than only
+for independently general fibers:
+\[
+ \dim_k A/(K_r+K_{-r})\le m-L_1
+ \qquad\text{for general }r\in\mathbf G_m.             \tag{1a}
+\]
+In particular the embedded quotient family cannot factor through
+\(r\mapsto r^2\). For \((6,6)\), the common quotient of the fibers at
+\(r,-r\) has length at most six. This does not increase the Plücker
+bound in (1); it restricts a specified pair of fibers of the same family.
 
 For example, \((6,6)\) requires at least three positive summands and general fibers of length nine share a quotient of length at most six. For \((6,16)\) there must be at least nine summands of degree at least one and at least five of degree at least two, giving \(e\ge14\). The latter assertion covers every actual sole-support pair in that bidegree, including all normal orders. At fixed \(a\) the lower bound in (1) grows as \(2b^2/(7a)+O_a(b)\), by summing the arithmetic progression and bounding each rounding error by one.
 
@@ -64,6 +75,20 @@ For the coefficient \(h\) of the weight component \(H\) of \(F\), it follows tha
 
 **General fibers and the derivative.** Put \(F_\lambda(x)=F(x_0,\lambda x_1,\lambda^3 x_2,\lambda^4 x_3)\). For general \(\lambda\in k^*\), \(F_\lambda\notin J_a\). Otherwise the entire orbit would lie in that closed linear subspace and separating its weights would put \(H\) in \(J_a\), already excluded. In the fixed frame the relation \(F(\lambda r,U,V)\) belongs to \(K_{\lambda r}\), viewing \(F\) in chart coordinates. Its image in \(B_r\) generates an ideal of dimension at least \(L_1\) at generic \(r\) by (2). The whole image of \(K_{\lambda r}\) there is an ideal. The rank condition is open on the pair of fibers, giving the asserted general secant bound.
 
+**The fixed involution.** Let
+\(\tau(x_0,x_1,x_2,x_3)=(x_0,-x_1,-x_2,x_3)\). The
+[one-sign-eigen-equation theorem](../arguments/torus/sign_symmetry_and_actual_sources.md#1-one-sign-eigen-equation-is-sufficient)
+excludes a \(\tau\)-eigenvector in \(J_a\): such a vector is a
+minimal-degree generator and can be mated with the other generator of
+the same CI. Consequently \(\tau F\notin J_a\) for every nonzero
+\(F\in J_a\). If \(a<b\), membership would make the line \(kF=J_a\)
+invariant. If \(a=b\), the invariant space spanned by \(F,\tau F\)
+would contain a sign eigenvector in the generating pencil. On the torus
+\(\tau F\) restricts to \(F(-r,U,V)\), a relation in \(K_{-r}\).
+Apply (2) to this nonzero degree-\(a\) multiplier on the original CI.
+Its image ideal in \(B_r\) has generic dimension at least \(L_1\),
+and is contained in the image of \(K_{-r}\). This proves (1a).
+
 For the derivative, let \(D\) be the diagonal weight derivation, acting as \(r\partial_r\) at fixed \(U,V\). There is a minimal-degree generator \(F\) with \(DF\notin J_a\). Otherwise \(D\) preserves \(J_a\), which is spanned by the degree-\(a\) generators. In characteristic zero its eigenvalues distinguish the integer weights, so this space would contain an eigenform. For \(a<b\) it would generate \(kF\), and for \(a=b\) it would extend to a basis of the generating pencil. Both violate the one-eigenform theorem. On the torus the tangent map takes a local relation to its coefficient derivative modulo the kernel, up to the choice of sign. On every multiple \(pF\) it gives \(pDF\) in the quotient. Its generic image thus has dimension at least \(L_1\) by (2). For equal degrees the choice of pencil member matters in this derivative argument.
 
 ## Consequence for opposite full limits
@@ -84,3 +109,9 @@ The known upper bound \(e\le m(4m-2a-2b+3)\) is compatible with (1) throughout \
 ## Review
 
 Independent reconstruction checked (2) both by the socle injection and by Serre duality on \(Z\): multiplication gives a nonzero map \(\mathcal O_X(a+b-d-4)\to\omega_Z\), while the conormal layers give \(H^1(\mathcal O_X(a+b-d-4))=0\) if \(7l<4(a+b-d)-14\). Independent checks also covered generator replacement at \(ja=b\), constancy of the quotient used to separate weights, multiplication of the splitting filtration, and the generic secant and differential ranks. The elementary upper bound on Grassmannian secant ranks is the kernel and span estimate. The lower bounds here use the homogeneous equations and their degrees. [Serre duality on a proper Cohen–Macaulay scheme](https://stacks.math.columbia.edu/tag/0FVZ), [Buch, §3, Lemma 1](https://arxiv.org/pdf/math/0106268#page=3), [Hellus–Hübl, Theorem 1.2 and Remark 1.4](https://arxiv.org/pdf/1312.7661).
+
+The fixed-involution extension was independently reconstructed during the
+November 23, 2026 geometry synthesis, using the sign-eigen-carrier exclusion
+and the same actual-CI multiplier bound (2). It needs no classification of
+the endpoint algebras and does not identify a special endpoint secant rank
+with its generic value.

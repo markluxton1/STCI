@@ -53,7 +53,25 @@ dependency. The higher-contact incidence in question 2 remains open.
 - [Punctual relative defect under sole support](open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 - Vary lower embeddings, their boundary divisors and extension classes **together**; determine the full vanishing locus rather than only a generic obstruction.
 - Apply global-source and properness tests to a surviving family of actual homogeneous pairs.
-- Construct a justified comparison among the R-0016, R-0019 and R-0030 defects, with all finite-flatness and curvilinearity hypotheses explicit.
+- For a comparison involving R-0016 and R-0019, first specify an operation
+  changing the actual object: R-0016's generic initial CI has both degrees
+  at least two and generic embedding dimension two, whereas R-0019's
+  generic algebra is curvilinear. The
+  [covered first-graph recovery](../../arguments/residuals/first_graph_finite_transfer.md#recovering-generic-curvilinearity-in-all-orders-on-a-subset-of-the-edge)
+  and actual finite modifications supply named interfaces in their stated
+  sectors. Transport the homogeneous sources, conormal and saturation
+  data, and attachment corrections before posing an inequality. R-0030
+  can be applied to a specified actual CI on either side, but it is not
+  a common detector identifying these two different generic regimes.
+
+On the ordinary normal-flat locus with generic CI initial algebra,
+[R-0063](../../results/normal_flat_comparison_specialization.md)
+already gives \(\Delta=0\). Thus a separate nonzero punctual
+\(\Delta\) is not an additional gate in the saturated-root sector
+where R-0010 gives normal flatness. Its actual homogeneous symbol image,
+higher embedded obstructions and global generator extension remain
+substantive constraints. Outside that locus the relative defect and the
+defect of an actual transverse slice require separate calculations.
 
 This document supplies the mechanism view; the linked current proof owners contain the actual arguments and their scope.
 

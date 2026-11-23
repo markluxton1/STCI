@@ -66,8 +66,28 @@ an effective CI-cycle decomposition. In characteristic zero both opposite
 invariant pure hulls of a hypothetical sole-supported CI must therefore
 be non-ACM. More precisely their finite section defects must contain a
 [nonstandard-parity head class](../../arguments/torus/chow_section_parity_defect.md).
-The single quartic has such a defect; the missing implication concerns
-which defects limits of actual two-equation ideals can acquire.
+In fact every pure constant-orbit image with sole translated support has
+this non-ACMness and parity defect in characteristic zero, without CI
+origin. Their presence is automatic on the proposed endpoint algebras;
+the source question concerns their compatible realization and multiplication.
+This section defect \(D=N/(S/I_Y)\), at the cone vertex of the pure hull
+\(Y\), is distinct from the full limit's finite embedded correction
+\(T=I_Y/I_L\) at projective endpoints. There is already a canonical
+surjection \(H^1(I_L(d))\twoheadrightarrow D_d\); the
+[actual-family specialization account](../../arguments/normal-geometry/source_specialization_and_linkage.md)
+retains its cohomological source. The question is which classes and
+parity pairings the same two equations can induce, rather than whether
+an unspecified comparison map exists. The
+[section-cohomology profile](../../arguments/torus/boundary_section_cohomology.md)
+also constrains every such pure hull, independently of the scalar
+endpoint budget.
+Before taking a limit, [actual-source sign symmetrization](../../results/sign_symmetrized_source_defect.md)
+gives another exact comparison: the pure union \(V(J\cap\tau J)\) has
+section defect \(H^0_{(x_0,x_3)}(S/(J+\tau J))\), with the specified
+equivariant sign twist. This computes a defect from the actual source;
+it is not an identification with the pure limit's \(D\). The issue is
+which resulting torsion heads and multiplication data are compatible
+with CI origin, rather than nonsaturation alone.
 [Residual liaison](../../results/chow_moment_residual_speciality.md) separately
 covers one doubled component with simple companions in all degrees and,
 in characteristic zero, one tripled component with simple companions.
@@ -127,13 +147,20 @@ For an actual characteristic-zero defining pair, the [paired endpoint
 inequality](../../results/torus_quotient_movement_bounds.md#consequence-for-opposite-full-limits)
 constrains the two full intrinsic limits using both matched embedded
 lengths and the relative positions of the endpoint kernels. Its proof
-uses surviving weight components of the moving equations. Recovering the
+uses surviving weight components of the moving equations. The same
+movement theorem bounds the common quotient at \(r,-r\) for general
+\(r\), using exclusion of a sign-eigen minimal generator; this is a
+restriction on a fixed involutive pair, not just independently general
+fibers. Recovering the
 full opposite-endpoint algebras and moving generators remains open.
 
 [R-0037](../../results/supported_hilbert_full_limits.md) supplies both full torus
 limits in the same supported incidence, retaining the Hilbert polynomial and
 the full limit schemes, including any embedded structure. Its exponent bound
-is individual, not uniform.
+for arbitrary supported Hilbert points is individual. For an actual
+sole-supported CI of generic length \(m=ab/4\), primary contraction gives
+\(I_C^m\subset J\), and this uniform containment persists along its
+supported orbit; the triple-graph argument below records the proof.
 [R-0038](../../results/torus_eigenvector_generator_lifting.md) lifts minimal
 generators only when the whole homogeneous ideal is invariant.
 [R-0040](../../results/invariant_supported_ci_exclusion.md) applies the trace
@@ -201,10 +228,15 @@ not prove that transfer can be iterated to sole support.
 The [supported generator investigation](../../investigations/supported-generator-incidence/index.md)
 asks for an actual specified supported family and its two-generator locus.
 The [quotient comparison investigation](../../investigations/quotient-hilbert-comparison/index.md)
-asks which transverse and endpoint data specialize through an actual map.
-Both must preserve the full embedded object.
-Its [endpoint comparison](../../results/intrinsic_limits_endpoint_fibers.md)
-now gives the pure limit and embedded lengths. Use the
+asks which transverse, endpoint, section-hull and source data can arise
+together from the same two equations. The relative-image and cohomological
+specialization maps are inputs to this question. Both investigations
+retain the full embedded object. The
+[endpoint comparison](../../results/intrinsic_limits_endpoint_fibers.md)
+gives the pure limit and embedded lengths; its
+[cohomology refinement](../../arguments/torus/boundary_section_cohomology.md)
+tests the whole pure section hull through a two-lattice interpolation map.
+Use this and the
 [sextic endpoint conditions](../../arguments/torus_hilbert_boundary.md#necessary-endpoint-conditions-for-a-sextic-pair)
 before assigning a curvilinear or noncurvilinear endpoint fiber to a
 proposed sole-support family.
@@ -212,7 +244,8 @@ proposed sole-support family.
 A construction must verify support, polynomial, and actual homogeneous ideal
 generation. An obstruction must cover its declared family. Extending it to all
 supported pairs of a fixed degree requires coverage of the relevant fixed
-limits and power bounds; extending it to all degrees is a further problem.
+limits and attracting families inside the known uniform incidence
+\(H_{ab/4}\); extending it to all degrees is a further problem.
 Finding an arbitrary supported flat deformation to a CI is already useful;
 realizing a prescribed torus boundary as an orbit limit is a stronger task.
 
@@ -493,25 +526,29 @@ or the weight-graded full ideal; another classification of the pure orbit
 quotient cannot exploit contact.
 
 
-**CI-polynomial controls do not restore two-generation.**  The diagonal
+**Diagonal controls and actual CI boundaries.** The diagonal
 constant quotient \(B_n=k[\epsilon]/(\epsilon^n)\), \(u=v=1+\epsilon\),
 is exactly the Cartier multiple \(nC\subset Q\).  Its symmetric endpoint
 defect is \(3n(n-1)/2\) and its polynomial is
 \(4nd+4n-3n^2\).  Matching a CI polynomial gives
 \((3a-8)(3b-8)=16\): \(4C\) matches \((4,4)\), while \(6C\) matches
 \((3,8)\), up to order.  These pure sole-supported curves are torus-fixed
-and automatically involutive, but cannot be homogeneous CIs in
-characteristic zero because an invariant supported CI ideal is excluded.
-Thus even an involutive point of the correct CI-polynomial supported Hilbert
-locus need not have the moving two-generator presentation.  Boundary work
-must retain the actual minimal-generator incidence, not only the pure image
-and its endpoint lengths.
+and automatically involutive, but the
+[cohomology obstruction](../../arguments/torus/boundary_section_cohomology.md)
+excludes them even as pure quotients of flat CIs of the matching types.
+More generally it excludes a diagonal endpoint algebra whenever
+\(n=ab/4\le a+b-3\). In the degree range \(a,b\ge5\), this removes
+\(B_9\) for \((6,6)\) and \(B_{10}\) for \((5,8)\), despite possible
+embedded corrections of lengths 63 and 80. These are controls on pure
+curves, not examples of CI-compatible acquisition of a section defect.
+The cohomology exclusion is characteristic free. For diagonal models with
+\(n\ge a+b-2\), their complete splitting profile passes every such
+inequality, so testing further twists gives no additional exclusion.
 
-
-In these controls the missing presentation is visible already in the source
-gcd: for the Cartier multiple \(nC\subset Q\), every degree
-\(d<3n\) equation through the scheme is divisible by the unique quadric
-\(Q\).  Since any degrees \(a,b\ge2\) with \(ab=4n\) satisfy
-\(a,b<3n\), no such source pair can be proper.  This is the simplest model
-of why a correct supported Hilbert point need not lie in the CI
-presentation locus.
+The known exceptional quartic limits have ACM pure hulls, and the
+\((16,16)\) equation-layer control has a CI pure hull, despite their
+nonzero endpoint corrections. A bounded alternative is to construct or
+exclude an actual full-translated-cycle CI boundary with \(D\ne0\),
+including moment-zero cases where parity contributions might cancel.
+This asks about the section hull's attainability; noninvariance of an
+actual CI and nonzero \(T\) are already realized phenomena.

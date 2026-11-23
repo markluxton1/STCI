@@ -83,9 +83,8 @@ equations and local Hilbert--Burch
 matrix; they do not require assuming
 a local-cohomology model to derive
 the attachment lengths. This
-calibrates LC-A1 without claiming
-its general proof is independently
-reviewed.
+calibrates the general comparison
+proved and reviewed below.
 
 In the generically curvilinear
 multiplicity-three branch, the
@@ -114,8 +113,11 @@ primary.
 
 ## Actual attachment equation modules are the dual annihilator layers
 
-**New application of ordinary local duality, pending independent
-review.** The [full-primary attachment](../residuals/residual_capacity_and_constructions.md#full-primary-equation-module-and-exact-attachment-divisor)
+**Application of ordinary local duality.** The actual linkage quotient,
+Matlis-dual annihilator layers and adjunction twist were independently
+reconstructed in the renewed November 23 F3/F7/F9 reassessment and checked
+by the integrating lead. This review concerns the projective comparison
+below, not recovery of the full graded module at the cone vertex. The [full-primary attachment](../residuals/residual_capacity_and_constructions.md#full-primary-equation-module-and-exact-attachment-divisor)
 provides the previously missing bridge from the actual
 equation module to the ordered-pair local cohomology. This
 does not require a carrier normalization, a first-symbol

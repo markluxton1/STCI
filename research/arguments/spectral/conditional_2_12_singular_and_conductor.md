@@ -600,8 +600,9 @@ The other surviving two-node stratum is
 
     kappa_1=kappa_2=0,
 
-including all its B/C and endpoint boundaries, with the quadric
-direction component removed. Each factor satisfies
+with its B/C and endpoint boundaries retained, the quadric direction
+component removed, and the sign-odd sublocus excluded below. Each
+factor satisfies
 
     (Ai+2Di)*((Di-Ai/2)^2+Bi*Ci/2)=0.
 
@@ -620,9 +621,17 @@ does not establish normality, global realization, or emptiness
 when `eta!=0`. It gives a concrete cubic-product pencil for the
 remaining global cubic-jet condition.
 
+The [sign-odd cubic-factor proof](sign_odd_two_node_sextics.md)
+now excludes `Ai=Di=0`, `Bi*Ci!=0` for both factors, with
+`B1*C2-B2*C1!=0`. The unique actual cubics there are sign-odd,
+so (9) is sign-even for every `eta` and cannot have a sole-support
+mate of any degree. This is distinct from the earlier both-even
+diagonal slice. It does not exclude the remaining zero-defect locus
+or the nonzero-defect conic.
+
 ## 8. First unresolved lifting conditions and actual-pair boundary
 
-On the conic and zero-defect strata, impose the first incidence,
+On the remaining conic and zero-defect strata, impose the first incidence,
 the complete twenty-five second pairings and the actual spectral
 equation (6), along with the forced multiplier. The first
 unresolved global lifting test is still

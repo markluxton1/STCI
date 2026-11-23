@@ -13,12 +13,21 @@ The later [prime-to-p extraction theorem](prime_to_p_power_extraction.md)
 excludes **all** ramified supported lifts of the particular powered-quartic
 pairs below when the power is prime to \(p\). It uses full nilpotence
 and global primary-ideal membership, beyond the trace argument here.
-General eigen special fibers are still subject only to the stated trace
-restriction unless another result applies.
+The trace proof treats general eigen special fibers; prescribed-power
+extraction uses additional structure.
 The [Frobenius-power extension](frobenius_power_lifting_precision.md)
 also excludes unramified lifts of the prescribed \(p\)-divisible powers,
 gives their exact strong Witt precision, and requires ramification index
 at least \(p-1\) for any remaining supported trait.
+
+The [integral first-jet source theorem](integral_first_jet_lifting.md)
+now gives the more precise necessary trait condition
+\(ab/2\in L_F L_G\), retaining the separate coefficient ideals of the
+two first base-normal jets. It requires no special-fiber eigenform
+hypothesis and also excludes unramified traits through the explicit
+non-eigen \((16,p)\) points. Its proof is an integral matrix/residue
+identity; the finite strong \(W_2\) statement below retains its separate
+hypotheses and proof.
 
 ## The valuation obstruction
 
@@ -202,6 +211,23 @@ Over the ramified DVR \(\mathbb Z_7[\pi]/(\pi^2-7)\), choose
 \(u=\pi,\ v=(8/3)\pi\). The special fiber is the supported
 degree-\((7,8)\) pair above and the **entire first trace vanishes**.
 
+The differential source condition distinguishes this control before any
+higher support calculation. At \(L=V(x_0,Z)\), its first jets are
+\[
+ p=uX^5Y,\qquad q=0,\qquad r=0,\qquad s=vXY^6,
+ \qquad(f_0,g_0)=(X^7,Y^8).
+\]
+Thus the integral residue is
+\[
+ \Theta=\operatorname{Res}_{X^7,Y^8}(ps-qr)=uv=56/3,
+\]
+whereas sole support would require \(ab/2=28\). More generally, throughout
+this two-parameter family the scalar-trace coefficient is \(3uv\), while
+the differential coefficient is \(uv\). The two required sole-support
+values \(56\) and \(28\) cannot hold simultaneously in characteristic
+zero. Their identification with one moment depends on entire translated
+support; they are distinct tests on this unrestricted source.
+
 Its characteristic-zero generic fiber nevertheless has a residual curve.
 For any nonzero \(u,v\) in characteristic zero, on \(x_0=1,X\ne0\)
 put \(Y=X^3y,Z=X^4z,w=uX,t=uv\). Away from
@@ -215,9 +241,10 @@ evaluate at the corresponding divisors, using \(t\ne0\). Thus its
 zero set has a curve in that open. Recovering \(X=w/u\) maps it to
 an actual residual curve, with \(q=X^4(y-z)\ne0\).
 
-This control saturates the valuation bound for the first trace, but is **not** a
-supported mixed-characteristic lift. Higher nilpotence/support equations
-are essential even at the minimum permitted ramification.
+This control saturates the valuation bound for the first scalar trace, but
+is **not** a supported mixed-characteristic lift. Here the first
+differential source equation already detects the failure; the explicit
+residual calculation identifies the extra geometric support.
 
 ## Remaining characteristic-zero question
 
@@ -233,9 +260,11 @@ retains both arbitrary equations, ramification and actual generic support.
 The [power-extraction theorem](prime_to_p_power_extraction.md) proves that
 no horizontal component passes through the prescribed points
 \((G_p,F_4^n)\) when \(p\nmid n\), including \((G_p,F_4^2)\).
-The unrestricted horizontal-component question remains open. In particular, the
-non-eigen degree-\((16,p)\) examples in that proof home are not covered
-by this special-eigen theorem. The field-valued rank incidence is not
+The unrestricted horizontal-component question remains open. The non-eigen
+degree-\((16,p)\) examples are outside this special-eigen theorem, but the
+[first-jet product](integral_first_jet_lifting.md#a-non-eigen-source-detected-by-the-first-jets)
+excludes unramified actual traits through them for \(p\ge43\). Their
+arbitrary-ramification question remains open. The field-valued rank incidence is not
 silently identified with the stronger infinitesimal condition (3).
 
 The powered example uses the smoothness of \(G_p\); replacing generators

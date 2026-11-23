@@ -21,8 +21,11 @@ The subsequent [sign-symmetry theorem](chow_acm_parity_vanishing.md)
 extends vanishing to every actual sign-invariant ACM translated arrangement,
 without a prescribed Hilbert numerator. The
 [residual-cohomology criterion](chow_moment_residual_speciality.md)
-also covers new non-invariant repeated classes. These extensions do not
-settle arbitrary repeated CI support.
+also covers new non-invariant repeated classes. The
+[product-norm extension](sign_symmetry_and_actual_sources.md) needs only one
+actual sign-eigen generator, a weaker symmetry than a full intrinsic-torus
+eigenform. Actual sign-breaking repeated controls still have zero moment;
+these extensions do not settle arbitrary repeated CI support.
 
 ## The first-moment theorem
 

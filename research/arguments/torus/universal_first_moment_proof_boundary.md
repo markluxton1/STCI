@@ -350,23 +350,31 @@ Priority is **one source-sensitive implication**:
  \operatorname{Tr}_{E/k[x_0,x_3]}(x_1x_2)=0.
  \end{gathered}
 \]
-The earlier comparison of named controls now has an answer: actual sign
-symmetry covers invariant CIs, the explicit exceptional quartic pencils,
-and the displayed non-eigenform one-sided cone-jet control. In the latter
-two, the equations themselves are sign-even. This does not assert sign
-symmetry for every eigenform or one-sided source class. The new next probe
-is whether degeneration of an actual CI constrains the opposite-sign,
-equal-degree section generators that can carry nonzero moment on an
-invariant non-ACM pure hull. The single-quartic control prevents ruling
-out that defect for arbitrary invariant curves.
+The [renewed synthesis](universal_first_moment_corpus_review.md) replaces
+the earlier unspecified Rees-to-defect task with exact actual-source
+presentations. A sign-eigen carrier already forces vanishing, while explicit
+sign-breaking repeated CIs retain zero moment. The
+[conjugate-pair fiber product](../../results/sign_symmetrized_source_defect.md)
+identifies the section hull and defect from the original equations. Its
+nonzero saturation torsion is necessary under sole support, but can be
+supplied by a missing low-degree equation; the marked multiplication and
+both source presentations are essential.
 
-The [marked-boundary formulation](spectral_boundary_modulus.md) supplies a
-different conceptual probe: construct the first-order norm trivialization
-from actual Cartier/conductor relations. The additive target exists;
-the CI-compatible construction does not. The current cross-framework
-iteration has not supplied either missing implication or an all-degree
-exclusion. Additional repetitions of known numerical,
-endpoint or degeneration filters without a new equation relation
-would not advance the objective. Independent correctness,
-literature, editorial and generality review of any proposed
-new implication remains required before promotion.
+The [integral first-jet formula](../../results/integral_first_jet_lifting.md)
+changes prescribed lifting tests, and the
+[endpoint cohomology profile](boundary_section_cohomology.md) excludes two
+previously surviving diagonal models. Neither supplies a universal source
+obstruction. The [ordinary norm relation exists for every actual pair](spectral_boundary_modulus.md),
+after row replacement and normalized hyperplane sections of integral factors.
+Its aggregate first boundary jet is the source residue again; a new
+geometric cancellation condition, rather than another scalar evaluation,
+remains to be found.
+Actual-family cohomology and linked-colon specialization have their own
+explicit correction modules. Their defects are not a single invariant.
+
+The whole elliptic inverse-support/source-denominator question, normal
+carrier/APic equality, and entirely thick graph questions retain independent
+mathematical force. The [queue](../../investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment)
+compares concrete tasks without claiming payoff dominance. Independent proof
+review governs the new deductions; completion also requires consistency of
+the resulting account. No all-degree exclusion or UM1 proof is established.

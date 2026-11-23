@@ -12,6 +12,19 @@ For **saturated, full generic binary complete-intersection** initial data, [R-00
 
 When saturation fails, [R-0016](../../results/nonsaturated_first_relation_resultant.md) measures a conditional resultant/defect budget, while [R-0030](../../results/local_filtration_comparison_defect.md) identifies a *different* comparison between the filtered actual equation module and its initial generators. The latter leaves open whether a generically vanishing defect can be punctual under sole reduced support. Neither defect is automatically the jet-map rank shortfall from the historical order-one calculations. [R-0032](../../results/full_conormal_socle_budget.md) imposes a separate socle budget on supported complete intersections; [R-0033](../../results/constant_first_relation_lifting.md) obstructs a specified constant-relation lifting model, not every moving relation.
 
+The punctual question is now closed on the
+[normal-flat generic-CI locus](../../results/normal_flat_comparison_specialization.md):
+there \(\Delta=0\) and the relative initial generator module is free.
+In particular R-0010's saturated sector does not need another punctual
+comparison test. This does not eliminate its actual symbol-source and
+embedded-lifting constraints or settle the non-normal-flat question.
+Also distinguish the generic regimes before comparing R-0016 with
+R-0019: the former has a binary initial CI with both degrees at least
+two, while the latter is generically curvilinear. A bridge must change
+the object and transport the source, as in the covered first-graph
+recovery and finite modifications below; the two hypotheses cannot be
+imposed on the same transverse algebra.
+
 ### Cartier cuts and actual finite modifications retain the defects
 
 The [saturated filtration identities CF1--CF4](../../arguments/normal-geometry/curvilinear_genus_and_defects.md#cartier-cuts-and-finite-modifications-of-the-saturated-filtration) identify the punctual torsion of a Cartier cut of a generically curvilinear thickening with the sum of explicit saturated multiplication divisors. For a generic order-one cut, it is \((c-1)\Theta+D_{\rm top}\). A finite birational modification with unchanged generic algebra has length divisor satisfying \(2B_f/c=(c-1)\Xi+D_{+,\rm top}-D_{-,\rm top}\) in the Gorenstein case. Here \(\Xi\) records the first free normal-layer map, not a symbolic root, and the finite map and actual filtration are required. In the [first-graph application](../../arguments/residuals/first_graph_finite_transfer.md#socle-defects-on-the-two-presentations-of-the-first-graph) the first formula is exactly the divided exceptional resultant, while the second computes the marked-point defect created by the other contraction to \(V_5\). These are new pointwise bridges to actual equations and birational geometry, independently reconstructed on November 23, 2026 at the scope recorded in the linked proof owners; no analogous claim about arbitrary changes of the generic transverse algebra is made.
@@ -27,7 +40,12 @@ The [marked-line obstruction ML9](../../arguments/residuals/marked_line_local_ge
 
 ### Concrete remaining tests
 
-1. For a candidate actual pair with \(\sqrt J=I_C\), compute the full local initial ideal and the R-0030 comparison at every exceptional point. See the [punctual relative-defect question](open_normal_geometry.md#punctual-relative-defect-under-sole-support).
+1. For a candidate actual pair with \(\sqrt J=I_C\), identify its full
+   local initial algebra and whether ordinary normal flatness applies.
+   Use R-0063's vanishing conclusion on the normal-flat generic-CI locus;
+   elsewhere compute the relative R-0030 comparison at the exceptional
+   points, keeping actual slice defects distinct. See the
+   [punctual relative-defect question](open_normal_geometry.md#punctual-relative-defect-under-sole-support).
 2. In a surviving saturated-root family, check full fiberwise coprimality, the actual generator hypotheses, and successive embedded lifting separately; calculate the remaining zero locus rather than extrapolating from one obstructed seed.
 3. For a fixed lower thickening, compute the extension class and permitted repair divisor described in [the one-step note](../../arguments/torus/toric_torsion_and_endpoint_contacts.md#boundary-one-step-obstruction-and-endpoint-geometry), then impose the actual global degree-\(d\) source image. A vanishing extension class alone does not supply two defining equations.
 

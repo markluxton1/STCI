@@ -50,6 +50,38 @@ cokernel of the relative weighted image inclusion. In particular, image
 formation commutes with specialization on that chart exactly when
 \(D_i(B_i)=\delta_i\).
 
+## Additional restrictions for CI origin
+
+If \(Z\) is a CI of type \((a,b)\), each pure quotient \(Y_i\) also
+satisfies
+\[
+h^1(\mathcal O_{Y_i}(d))\ge
+h^1(\mathcal O_{X_{a,b}}(d))\qquad(d\in\mathbf Z).
+\]
+The endpoint correction cannot change \(H^1(\mathcal O)\). The
+[section-cohomology proof](../arguments/torus/boundary_section_cohomology.md)
+expresses the pure cohomology as the cokernel of one two-endpoint
+interpolation map for \(d\ge0\), or by the whole splitting profile of
+the free section hull for every integer \(d\). Neither follows just from
+the sum of the endpoint indices. This additional consequence has its own
+scoped independent reconstruction in the linked account; it is not an
+alternative proof of the endpoint-image theorem above.
+
+In every characteristic the diagonal endpoint algebra
+\(B_n=k[\epsilon]/(\epsilon^n)\), \(u=v=1+\epsilon\), with
+\(n=ab/4\), is excluded whenever \(a,b\ge2\), \(n\ge2\), and
+\(n\le a+b-3\). Its pure image is \(nC\subset Q\), whose
+\(H^1\) vanishes at the CI canonical twist \(a+b-4\), whereas the CI
+has \(h^1=1\) there. Among \(a\le b\), \(a,b\ge5\), this excludes
+\(B_9\) for \((6,6)\) and \(B_{10}\) for \((5,8)\), even with finite
+endpoint corrections of lengths 63 and 80 respectively. The
+[diagonal exclusion](../arguments/torus/boundary_section_cohomology.md#3-diagonal-endpoint-algebras-can-fail-despite-finite-correction)
+includes its independent reconstruction and exact scope.
+Its complete section-hull profile passes every cohomology inequality
+when \(n\ge a+b-2\); there are no further diagonal exclusions from
+testing more twists. Passing these necessary conditions does not realize
+the full limit or its two homogeneous generators.
+
 ## Limitations
 
 The formulas determine the pure quotient and both embedded lengths. The

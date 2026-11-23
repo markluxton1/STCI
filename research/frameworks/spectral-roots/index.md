@@ -38,4 +38,40 @@ When a root construction produces an actual proper pair, its [full-primary attac
 
 ### The actual elliptic conormal pencil as a spectral input
 
-On the [birational elliptic family](../../arguments/carriers/elliptic_double_inverse_construction.md#the-horizontal-symbol-and-the-actual-elliptic-pencils), the trace defect of the horizontal symbol curve is the same divisor as the direction-coincidence excess. At maximum marked conormal defect the horizontal root is a smooth (2,2) curve, and its Picard difference is determined by the actual divided normal coefficients. The missing first step is whether this stratum occurs in the lifting family. Torsion is not inferred from the Picard comparison, and the separate quadratic-root obstruction and actual-source gaps remain.
+In characteristic zero, the [actual elliptic comparison](../../arguments/carriers/elliptic_contact_and_spectral_comparison.md)
+starts with divided normal coefficients, rather than a freely chosen
+root. If \(g=\operatorname{length}(Z\cap E)\), the direction bundle is
+\(B=A^3(-G)\), the horizontal root has type \((6-g,2)\), and its
+normalization conductor has degree \(4-g\) on the base. Thus all
+contact lengths \(0\le g\le4\) have an exact Picard comparison.
+For \(g<4\), pullback to the elliptic normalization loses the root's
+conductor gluing. At \(g=0\) that pullback is even trivial in the
+actual failed member, while extra inverse support persists.
+
+If a hypothetical octic mate also has its **actual** first degree-two
+kernel as a line subbundle, ordinary normal flatness and the socle
+formula force \(g(b-2)=24\). The four necessary rows
+\((g,b)=(1,26),(2,14),(3,10),(4,8)\) retain full-root torsion and
+actual-source conditions; nonsaturation remains unexcluded. The full
+family's support question includes every contact stratum. Its fixed
+marking prevents target sign symmetry, so sign-invariant ACM vanishing
+does not directly answer it.
+
+The [conjugate-source comparison](../../arguments/carriers/elliptic_conjugate_sources.md)
+uses the disjoint quadratic residue fields to obtain an actual
+\((F_8,\tau F_8)\) pair of generic normal type \((2,2)\) and residual
+degree \(48\). In the saturated sector, the first cancellation has
+exact poles on the vertical divisor \(V\); it is not a homogeneous
+row operation. The equation-comparison defect then vanishes while
+the full normal-layer degree defect is \(3b(b-6)\), so those two
+defects cannot be substituted for each other.
+
+For the separate spectral line of translated **cycles**, the
+[marked-boundary norm comparison](../../arguments/torus/spectral_boundary_modulus.md#2-an-actual-carrier-relation-supplies-an-ordinary-norm)
+constructs an ordinary product of norms for every actual
+translated-support pair, including nonnormal and entirely-thick
+carriers after row replacement and factorization. Its aggregate
+first jet is already \(-4M_1=-2\Theta(F,G)\); the remaining task
+is a geometric cancellation constraint, not another scalar evaluation.
+That assertion remains distinct from root Picard torsion and from
+homogeneous realization.

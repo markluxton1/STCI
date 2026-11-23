@@ -7,7 +7,7 @@ statement: "#statement"
 proofs:
   - name: low-degree linkage symmetry and conormal filtration
     at: "research/arguments/torus/chow_moment_residual_speciality.md#1-a-low-degree-symmetry-criterion-from-linkage"
-    using: [STCI-R-0020]
+    using: [STCI-R-0020, STCI-R-0084]
     review:
       state: accepted
       basis: reconstructed
@@ -33,6 +33,21 @@ reduced support.
 Consequently the smaller generator is an eigenform if \(a<b\), and
 the ideal is invariant if \(a=b\). This symmetry criterion is valid in
 every characteristic.
+
+For the entire translated-cycle hypothesis in characteristic different
+from two, put \(r=\dim J_a\), equal to one for \(a<b\) and two for
+\(a=b\). A nonzero moment requires
+\[
+ J_a\cap(I_Y)_a^\pm=0,\qquad
+ \dim(I_Y)_a^\pm\ge r,\qquad
+ h^1(\mathcal O_R(b-4))\ge r.
+\]
+Indeed a sign-eigen member of \(J_a\) is an actual generator and the
+one-equation norm criterion forces moment zero. The two parity projections
+of \(J_a\) must therefore be injective. In equal degrees the required
+residual speciality is at least two; for unequal degrees the smaller
+equation must have both parities. This refines the same source-postulation
+identity, rather than introducing a second cohomological budget.
 
 For an entire translated-quartic cycle, the criterion implies
 \(M_1=\sum_i n_i u_i/v_i=0\). If exactly one component has multiplicity
@@ -83,3 +98,6 @@ The characteristic-zero one-triple closure and the exact source-space
 dimension identity were independently reconstructed by the separate
 algebraic-geometry reviewer; the latter also received a generalizations
 check. The proof retains inherited low-degree and regular-initial inputs.
+The source-parity dimension consequence was independently reconstructed
+in the current contribution, including the one- and two-dimensional
+actual generator spaces and the use of the inherited source identity.

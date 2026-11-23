@@ -54,6 +54,46 @@ Its linear multiples give \(\dim(I_Y)_4\ge4\). But the
 [exact linkage source identity](chow_moment_residual_speciality.md#1-a-low-degree-symmetry-criterion-from-linkage)
 gives \(\dim(I_Y)_4=1+h^1(\mathcal O_D(1))=3\), again a contradiction.
 
+### Single double and triple partitions in every characteristic
+
+The partitions \((2,1,1,1)\) and \((3,1,1)\) are also empty in every
+characteristic. The extension concerns this bidegree, not the all-degree
+one-triple theorem.
+
+First, every actual \(F_4\) is irreducible: a factor \(P\) gives a proper
+subpair \((P,G_5)\) with an entire translated cycle, hence
+\(4\mid5\deg P\) and \(\deg P=4\). For one double the residual is the
+smooth quartic itself. Its \(H^1(\mathcal O_C(1))\) vanishes, so the
+all-characteristic linkage criterion makes \(F_4\) an eigenform.
+The regular-initial-sequence construction then gives a proper invariant
+pair with the same cycle, contradicting Section 1. That construction is
+characteristic-free; its usual characteristic-zero qualification concerns
+the subsequent moment consequence.
+
+For one triple, let \(\mathcal O_{\mathbf P^1}(\ell)\) be the nilideal
+of the residual double. The [conormal splitting](../../results/quartic_conormal_characteristic_jump.md)
+gives \(\ell\ge-7\) outside characteristic two and \(\ell\ge-8\)
+in characteristic two. If \(\ell\ge-5\), the same cohomology argument
+applies. If \(\ell=-6\), linkage requires reduced-support genus fifteen,
+excluded by the endpoint table above. If \(\ell=-7\), the
+[irreducible-extreme argument](chow_moment_residual_speciality.md#5-one-tripled-component-in-every-degree-in-characteristic-zero)
+is characteristic-free: genus sixteen forces the two affine parameter
+relations; their nonzero intercepts give the irreducible extreme quartics
+\(E_4,E_{12}\). Their proper invariant initial pair contradicts Section 1.
+
+The additional case \(\ell=-8\) requires genus seventeen, hence endpoint
+deltas \((7,12)\) or \((12,7)\). The three curves lie on a common
+eigen-cubic \(H\). Thus \(HS_1\subseteq(I_Y)_4\) has dimension four.
+The nilideal sequence twisted by one gives
+\[
+h^1(\mathcal O_R(1))\le h^1(\mathcal O_{\mathbf P^1}(-4))=3.
+\]
+The exact linkage identity gives \(\dim(I_Y)_4\le4\), so
+\((I_Y)_4=HS_1\), contradicting irreducibility of \(F_4\).
+
+This bounded extension was independently reconstructed by the correctness
+and generalizations reviewers during the renewed November 23 reassessment.
+
 ## 3. The characteristic-zero frontier
 
 Every actual \(F_4\) is irreducible: any factor \(P\) gives the proper
@@ -61,12 +101,8 @@ subpair \((P,G_5)\) with only translated components, so
 \(4\mid5\deg P\), and necessarily \(\deg P=4\).
 A reduced fundamental cycle (partition \((1,1,1,1,1)\)) forces the
 unmixed CI ideal to be reduced and invariant, impossible by Section 1.
-Exactly one double component forces the quartic to be an eigenform by
-the [residual criterion](chow_moment_residual_speciality.md#1-a-low-degree-symmetry-criterion-from-linkage).
-Its irreducibility and the regular-initial-sequence lemma give an invariant
-proper pair with the same cycle, again impossible. The
-[one-triple proof](chow_moment_residual_speciality.md#5-one-tripled-component-in-every-degree-in-characteristic-zero)
-likewise gives an invariant proper pair and rules out \((3,1,1)\).
+The single-double and single-triple exclusions above apply in every
+characteristic.
 Sole partition \((5)\) is excluded by the
 [quartic-carrier theorem](../../results/quartic_carrier_exclusion.md).
 

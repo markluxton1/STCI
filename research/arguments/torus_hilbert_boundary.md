@@ -973,6 +973,12 @@ endpoint fiber. The all-pair
 gives generic curvilinearity on the curve, so noncurvilinear endpoint
 fibers with nonzero fourth power remain among the possibilities.
 
+There is a separate cohomology restriction on the same endpoint algebra:
+the [diagonal exclusion](torus/boundary_section_cohomology.md#3-diagonal-endpoint-algebras-can-fail-despite-finite-correction)
+removes \(u=v=1+\epsilon\), \(\epsilon^9=0\), even after the required
+embedded correction of length 63. It does not exclude every departure
+from that diagonal or the order-eight quadric direction above.
+
 ## Conclusion
 
 For each fixed \((a,b),N\), the supported incidence is a closed
@@ -1315,3 +1321,10 @@ corrects a tempting but false shortcut: the mere presence of a quadric
 equation in a special saturated ideal does **not** by itself contradict
 flatness, because \(H^1(I_L(d))\) can compensate.  The actual invariant is
 the fiber cohomology in (HB-C4).
+
+The [section-cohomology account](torus/boundary_section_cohomology.md)
+retains the full splitting-profile inequality, its two-endpoint lattice
+interpolation map, and the all-degree diagonal endpoint exclusion
+\(n=ab/4\le a+b-3\). In the surviving degree range \(a,b\ge5\), this
+excludes the diagonal endpoint fibers for \((6,6)\) and \((5,8)\), even
+when finite corrections repair their Hilbert polynomials.

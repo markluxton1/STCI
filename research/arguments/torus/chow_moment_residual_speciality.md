@@ -8,6 +8,8 @@ The input moment theorem and conormal splitting retain their existing reviews.
 The full one-triple proof in Section 5 and the source-space identity (RS2a)
 were also independently reconstructed by a distinct algebraic-geometry
 reviewer; the latter identity received a separate generalizations check.
+The source-parity consequence below was independently reconstructed in
+the current contribution, using the one-sign-eigen-equation norm reduction.
 
 ## 1. A low-degree symmetry criterion from linkage
 
@@ -82,6 +84,42 @@ nonzero residual speciality \(H^1(\mathcal O_R(b-4))\).
 Nonzero cohomology is only a necessary escape from this criterion; it
 neither supplies a counterexample nor proves that the actual source breaks
 symmetry.
+
+### Source-space parity and residual speciality
+
+The actual-source criterion can be strengthened from nonzero residual
+cohomology to a dimension and symmetry condition. Assume the entire
+translated-cycle hypotheses, \(\operatorname{char}k\ne2\), and
+\(M_1\ne0\). Put
+\[
+ W=J_a,\qquad r=\dim W=
+ \begin{cases}1,&a<b,\\2,&a=b.\end{cases}
+\]
+Let \(V^\pm=(I_Y)_a^\pm\) be the two \(\tau\)-eigenspaces, where
+\(\tau(x_0,x_1,x_2,x_3)=(x_0,-x_1,-x_2,x_3)\). Then
+\[
+ W\cap V^+=W\cap V^-=0,\qquad
+ \dim V^+\ge r,\quad\dim V^-\ge r,\qquad
+ h^1(\mathcal O_R(b-4))\ge r.                              \tag{RS2b}
+\]
+
+Indeed every nonzero element of \(W\) can be taken as an actual
+generator: this is immediate for unequal degrees, and follows by a
+constant change of the two generators in equal degrees. A sign-eigen
+member would force \(M_1=0\) by the
+[norm reduction](sign_symmetry_and_actual_sources.md#1-one-sign-eigen-equation-is-sufficient).
+Both projections \(W\to V^\pm\) are therefore injective, giving the
+two dimension bounds. Identity (RS2a) then gives
+\(h^1(\mathcal O_R(b-4))=\dim V^++\dim V^--r\ge r\).
+
+Thus for \(a=b\), a nonzero moment requires a source plane transverse
+to both parity eigenspaces and residual speciality at least two, not
+merely nonvanishing. For \(a<b\), the smaller equation must have both
+parities. Conversely, residual speciality less than \(r\), or either
+parity space of dimension less than \(r\), forces zero moment. These
+are necessary source-space restrictions; satisfying them does not
+construct a nonzero-moment pair. The cohomology is still the same
+postulation quotient in (RS2a), not an independent defect budget.
 
 ## 2. One repeated component, with arbitrary multiplicity
 

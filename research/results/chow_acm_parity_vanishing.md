@@ -1,7 +1,7 @@
 ---
 id: STCI-R-0084
 type: result
-title: Sign-invariant ACM translated arrangements have zero first moment
+title: Sign-invariant ACM sources and one sign-eigen equation force zero first moment
 scope: "#scope"
 statement: "#statement"
 proofs:
@@ -18,10 +18,12 @@ proofs:
 ## Scope
 
 Algebraically closed fields of characteristic different from two; entire
-translated-quartic cycles with positive multiplicities. Actual homogeneous
-ideals are invariant under \(\tau=\operatorname{diag}(1,-1,-1,1)\).
-The coordinate algebra must be finite flat over \(k[x_0,x_3]\), as holds
-for an ACM curve avoiding the fixed projection center.
+translated-quartic cycles with positive multiplicities. For the ACM theorem,
+actual homogeneous ideals are invariant under
+\(\tau=\operatorname{diag}(1,-1,-1,1)\). The coordinate algebra must
+be finite flat over \(k[x_0,x_3]\), as holds for an ACM curve avoiding
+the fixed projection center. For the additional CI consequence only one
+actual generator need be a \(\tau\)-eigenform.
 
 ## Statement
 
@@ -33,6 +35,15 @@ The proof constructs the basis-independent differential
 \(\operatorname{Tr}(dX\wedge dY)=2M_1\,dx_0\wedge dx_3\) from the
 actual commuting multiplication matrices. Homogeneous sign symmetry forces
 it to vanish term by term.
+
+For a proper actual CI with the same entire-cycle hypothesis, one
+sign-eigen generator \(F\) suffices, including reducible and nonreduced
+\(F\): the proper sign-invariant norm pair \((F,G\tau G)\) has twice
+the original cycle. Thus nonzero moment forbids a sign-eigen member of
+the smallest actual generator space. The
+[norm reduction and actual-source comparison](../arguments/torus/sign_symmetry_and_actual_sources.md)
+also give sign-breaking controls with zero moment and a canonical
+source-saturation description of the symmetrized union's section defect.
 
 In characteristic zero, both opposite invariant pure hulls of a hypothetical
 sole-supported CI must therefore be non-ACM. An ACM invariant pure hull of
@@ -60,3 +71,7 @@ repeated-structure investigator independently reconstructed the finite-flat
 basis, gauge-invariant differential, separable splitting with nilpotents and
 graded parity argument. The algebraic-geometry reviewer independently checked
 the same mechanism, including the odd-characteristic extension.
+The norm reduction was independently reconstructed in the current
+contribution, including properness and cycle additivity for nonreduced
+generators. This extends the actual-source coverage; it is not a review
+of arbitrary non-invariant CI ideals.

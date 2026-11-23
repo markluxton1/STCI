@@ -9,6 +9,37 @@ it should either force a positive contribution to the residual cycle,
 preserve the actual equations in a construction reaching zero, or identify
 an obstruction shared across proof families.
 
+## Current source comparisons
+
+The [renewed synthesis](../../arguments/torus/universal_first_moment_corpus_review.md)
+compares actual homogeneous generation across all nine frameworks. Several
+previously described missing maps now have explicit constructions:
+
+- [Conjugate-source fiber products](../../results/sign_symmetrized_source_defect.md)
+  give a section hull and its saturation defect directly from the pair.
+  Noninvariance and nonzero torsion alone are weak: known equation
+  thickenings break sign symmetry while keeping zero moment.
+- [Family cohomology and linked-colon base change](../../arguments/normal-geometry/source_specialization_and_linkage.md)
+  identify different actual correction modules. Local controls preclude
+  identifying normal comparison, attachment and vertex Rao vanishing.
+- [The actual-source norm](../../arguments/torus/spectral_boundary_modulus.md)
+  supplies an ordinary marked divisor relation for every actual pair after
+  row replacement and normalization of hyperplane curves on integral factors.
+  Its aggregate jet is the source residue again; geometric cancellation
+  remains unproved.
+- [Integral source jets](../../results/integral_first_jet_lifting.md) strengthen
+  prescribed arithmetic tests, while fixed-carrier unit quotients retain
+  deeper gluing and other polarized carriers retain frame conditions.
+
+This is a common issue of retained generators, extensions and multiplication,
+not a theorem identifying all defect modules. The
+[elliptic contact/source comparison](../../arguments/carriers/elliptic_contact_and_spectral_comparison.md)
+and the carrier/graph and attachment mechanisms below remain independent
+sources of all-degree understanding. UM1 is sufficient for STCI and is not
+an admission condition for progress on those routes. The
+[strategic queue](knowledge-gain-priorities.md#current-choice-and-reassessment)
+compares the resulting concrete tasks.
+
 ## The entirely-thick branch on a specified actual carrier
 
 The [first-graph refinement on normalized branches](../../arguments/carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) identifies a common geometric object for the previously distinct generic valuation and residual-capacity arguments. The strict mate is `div(G)-qD`, so its excess vector over the normalized carrier also controls the special exceptional coefficients. The exact square deficit is shared between normalized Hodge imbalance and exceptional principalization energy. This supplies all-degree no-vertical single-root exclusions and a rational two-branch matrix. The [ruling-cluster lattice](../../arguments/carriers/numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) extends the split-sextic Cartier and residual-root obstructions to all orders on the degree-three-per-order boundary and provides a further negative-square projection for more branches. This is a new connection to actual (not just numerical) graph cycles; it does not identify the full-ideal Rees valuations or spectral Picard torsion with normalized branch data. These deductions are covered by the scoped independent reconstruction in the linked proof owner.

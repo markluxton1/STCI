@@ -130,6 +130,15 @@ its algebra by an abstract free algebra would discard the embedding being
 tested. The reduced single quartic is non-ACM and has nonzero moment,
 consistently with this boundary.
 
+For an actual CI, symmetry of **one generator** is already sufficient:
+if \(\tau F=\pm F\), then \((F,G\tau G)\) is a proper sign-invariant
+CI with twice the original translated cycle. The theorem and \(2\ne0\)
+force the original moment to vanish, even when \(F\) is reducible or
+nonreduced. The [norm proof and source controls](sign_symmetry_and_actual_sources.md#1-one-sign-eigen-equation-is-sufficient)
+were independently reconstructed in the current contribution. Actual
+sign-breaking CI ideals with a full repeated translated cycle exist;
+the displayed controls still have a sign-eigen generator.
+
 The [section-parity refinement](chow_section_parity_defect.md) identifies
 what nonzero moment requires in a non-ACM invariant pure hull: opposite
 signs among equal-degree generators of its finite free section hull, and
@@ -142,5 +151,6 @@ the Hilbert-scheme form, and (AP4) extends the
 [CI residue interpretation](chow_hilbert_symplectic_form.md#1-an-exact-pullback-formula)
 without relying on that construction in positive characteristic.
 The contribution is the graded sign-symmetry vanishing criterion and its
-application to actual translated arrangements and invariant pure hulls.
+application to actual translated arrangements, invariant pure hulls and
+the one-generator norm reduction.
 It is not universal vanishing for non-invariant CI ideals.

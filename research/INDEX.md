@@ -60,6 +60,16 @@ identifies a necessary defect in non-ACM invariant pure hulls.
 For conceptual interpretations see the [marked-boundary class](arguments/torus/spectral_boundary_modulus.md)
 and [Hilbert-scheme form](arguments/torus/chow_hilbert_symplectic_form.md).
 
+For the renewed source picture, use the
+[conjugate-pair section hull](results/sign_symmetrized_source_defect.md),
+[integral first-jet lifting constraint](results/integral_first_jet_lifting.md),
+[endpoint cohomology profile](arguments/torus/boundary_section_cohomology.md),
+and [actual-family specialization maps](arguments/normal-geometry/source_specialization_and_linkage.md).
+The [cross-framework synthesis](arguments/torus/universal_first_moment_corpus_review.md)
+explains which generation, gluing, and source constraints these compare.
+For the independent constructive family see the
+[elliptic contact and spectral comparison](arguments/carriers/elliptic_contact_and_spectral_comparison.md).
+
 For local equation comparison and specialization use [conormal and actual
 quartic symbols](arguments/quartic_specialization_and_symbols.md), the
 [filtered equation defect](results/local_filtration_comparison_defect.md),
