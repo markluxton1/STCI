@@ -263,6 +263,150 @@ remains open for arbitrary non-invariant nonreduced CIs.
 The general Chow factorization and the existence of two
 defining equations do not individually prove it.
 
+## 1.2 The complete CI resultant as a product of two-step toric norms
+
+This makes explicit the **entire**, not merely mixed-linear,
+resultant of a translated-cycle CI, using exactly the two
+independent torus characters
+\(\xi=u/v,\ \eta=u^2/v\). It specializes the established
+four-point section polynomial in
+[chow_realization_moment_separation.md](chow_realization_moment_separation.md#2-the-universal-separator-and-its-exact-target)
+and the classical Chow-form/resultant identity,
+not a new universal vanishing theorem.
+
+On the hyperplane \(x_3=x_0=1\), a translated
+quartic \(C_{u,v}\) meets the plane in the four points
+\[
+ (X,Y)=(t,ut^3),\qquad t^4=v^{-1}.
+\]
+The same points, scheme-theoretically, are the
+length-four affine CI
+\[
+ \tag{N1}
+ XY=\xi,\qquad Y^2=\eta X^2.
+\]
+Indeed \(X^4=\xi^2/\eta=1/v\), and then
+\(Y=\xi/X=ut^3\).
+
+Its normalized Chow/norm polynomial is
+\[
+ \begin{aligned}
+ P_{u,v}(y,z)
+  &=\prod_{t^4=1/v}(1+yt+zut^3)\\
+  &=1-\frac{y^4}{v}
+    -4\frac uv yz
+    +2\frac{u^2}{v^2}y^2z^2
+    -\frac{u^4}{v^3}z^4\\
+  &=\tag{N2}
+    \boxed{1-4\xi yz-\frac{\xi^2}{\eta}
+                       (y^2-\eta z^2)^2}\\
+  &=\boxed{(1-2\xi yz)^2-
+           \frac{\xi^2}{\eta}(y^2+\eta z^2)^2}.
+ \end{aligned}
+\]
+The last formula follows **without expanding**:
+pair the four points by the involution
+\(t\mapsto-t\). For \(s=t^2\),
+\(s^2=\xi^2/\eta\), each pair contributes
+\[
+ (1+yt+zut^3)(1-yt-zut^3)
+ =1-2\xi yz-s(y^2+\eta z^2).
+\]
+Taking the remaining quadratic norm over
+\(s=\pm\sqrt{\xi^2/\eta}\) gives (N2).
+Thus the factorization is literally the composition
+of two quadratic norms for
+\(k(t)/k(t^2)/k(t^4)\). It geometrically remembers
+the paired-\(\pm t\) involution as well as both
+transverse characters.
+
+If
+\([Z]=\sum_i n_i[C_{u_i,v_i}]\)
+is the **entire** cycle of a proper actual CI,
+the normalized binary Sylvester resultant of
+its line-family restrictions satisfies the **full
+product identity**
+\[
+ \tag{N3}
+ \boxed{\frac{\mathscr R_{F,G}(y,z)}
+              {\mathscr R_{F,G}(0,0)}
+      =\prod_i P_{\xi_i,\eta_i}(y,z)^{n_i}.}
+\]
+The right side allows repeated translated
+components and nonreduced scheme structure;
+the resultant sees the fundamental cycle,
+including its multiplicities.
+
+**First coefficients, with multiplicities.**
+Write \(M_j=\sum_i n_i\xi_i^j\). Expanding (N3)
+through total degree four gives
+\[
+ \tag{N4}
+ \begin{array}{ll}
+ [yz]\widehat{\mathscr R}=-4M_1,
+ & [y^2z^2]\widehat{\mathscr R}=8M_1^2-6M_2,\\
+ [y^4]\widehat{\mathscr R}
+   =-\displaystyle\sum_i n_i\frac{\xi_i^2}{\eta_i},
+ & [z^4]\widehat{\mathscr R}
+   =-\displaystyle\sum_i n_i\xi_i^2\eta_i.
+ \end{array}
+\]
+Here \(\widehat{\mathscr R}=\mathscr R/\mathscr R(0,0)\).
+Moreover \(\widehat{\mathscr R}\in
+k[yz,y^4,z^4]\), reflecting its
+\(\mu_4\)-invariance on the four-point
+sections; no full \(\mathbf G_m\)-invariance
+of the defining ideal is presumed.
+
+The two **axis spectra** are
+\[
+ \tag{N5}
+ \widehat{\mathscr R}(y,0)=
+ \prod_i(1-\xi_i^2\eta_i^{-1}y^4)^{n_i},
+\qquad
+ \widehat{\mathscr R}(0,z)=
+ \prod_i(1-\xi_i^2\eta_i z^4)^{n_i}.
+\]
+For each **paired** toric point, the two
+axis parameters multiply to \(\xi_i^4\).
+The mixed \(yz\) coefficient instead
+records the **first power** \(\xi_i\)
+and therefore distinguishes the choice
+of fourth-root/paired torus coordinate.
+The axis spectra alone forget that
+pairing. This is a concrete structural
+reason the first moment is genuinely a
+*mixed* coefficient.
+
+**The individual quartic norm factors form a toric
+surface in coefficient space.** Write
+\(P_{\xi,\eta}
+ =1+A yz+B y^4+C y^2z^2+D z^4\). Then
+\[
+ A=-4\xi,\quad B=-\xi^2/\eta,\quad
+ C=2\xi^2,\quad D=-\xi^2\eta,
+\]
+and hence
+\[
+ \tag{N6}\boxed{A^2=8C,\qquad C^2=4BD.}
+\]
+Conversely, on the locus \(A,B,D\ne0\),
+these equations recover
+\(\xi=-A/4\), \(\eta=-\xi^2/B\).
+Thus actual translated-CI resultants lie
+in the **multiplicative Chow image of this
+explicit two-dimensional toric surface**
+inside the space of line-family resultants.
+The universality conjecture is that the
+**additional condition of being a resultant
+of two actual homogeneous surface equations**
+forces the linear coefficient
+\([yz]\widehat{\mathscr R}=-4M_1\) to vanish.
+The toric factor relations themselves
+do not imply it (a single factor with
+\(\xi\ne0\) is already a counterexample
+to such a bare implication).
+
 ## 2. Coefficients of the full Chow form are mixed symmetric functions
 
 Write
