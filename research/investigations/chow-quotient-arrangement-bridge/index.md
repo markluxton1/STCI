@@ -66,6 +66,63 @@ case remains an open mathematical
 implication, not established by the
 new residue/Poisson bridge.
 
+### The elementary coefficient of the full two-torus Chow form
+
+The [full transverse Chow coefficient comparison](../../arguments/torus/transverse_chow_moment_realization.md#11-the-first-moment-is-already-a-linear-full-chow-coefficient)
+now records, directly in the paired coordinates,
+\[
+ \mathcal C_\sigma(X,Y,Z)
+  =\prod_i(X+u_iY+v_iZ)^{n_i},\qquad
+ \boxed{[YZ^{m-1}]\mathcal C_\sigma
+  =[Z^m]\mathcal C_\sigma\,M_1.}
+\]
+This is an **elementary multisymmetric coefficient**,
+a linear projective Chow hyperplane on the full
+two-dimensional arrangement—not a quotient
+trace condition requiring denominators.
+The toric parameter plane \([W:U:V]=[1:u:v]\)
+makes \(\xi=U/V\) the parameter of **lines**
+\(U-\xi V=0\) and
+\(\eta=U^2/(WV)\) the parameter of **conics**
+\(U^2-\eta WV=0\).
+They meet in one interior point representing
+the translated quartic (and one fixed boundary
+point), so this rephrases complete paired
+realization as line/conic incidence.
+
+For a proper *actual* pair
+\(F_a,G_b\) with this entire cycle,
+restriction to the moving line family
+\(x_3=x_0,\ x_0+yx_1+zx_2=0\)
+gives a binary Sylvester resultant
+\(\mathscr R_{F,G}(y,z)\) with
+\[
+ \boxed{
+ M_1=\frac{[YZ^{m-1}]\mathcal C_\sigma}
+           {[Z^m]\mathcal C_\sigma}
+   =-\frac14\frac{[yz]\mathscr R_{F,G}}
+                   {\mathscr R_{F,G}(0,0)}
+   =\frac12\operatorname{Res}_{f_0,g_0}(ps-qr).
+ }
+\]
+Thus the **elementary symmetric coefficient**,
+the **mixed polar of the actual CI resultant**,
+and the **first-jet Serre pairing** are
+literally the same obstruction on the
+full translated-cycle incidence.
+None of these exact identifications
+proves its vanishing in the general
+non-invariant nonreduced case.
+The required theorem is that the
+**same actual two defining equations**
+realizing a full translated arrangement
+make this distinguished resultant
+coefficient zero. The projective
+hyperplane and the resultant side
+offer two complementary algebraic
+formulations of the one unresolved
+identity.
+
 ## Primary Chow realization and first-moment separation
 
 For repeated curves the primary space remains the unordered cycle space
