@@ -487,17 +487,22 @@ On \(x_0=1,\ x_3=\lambda\), put \(z=x_1x_2\).  The equations give
  x_1^4=\lambda(4z+1-4\lambda),\qquad
  x_2^4=z^2-\lambda z+\lambda^3.
 \]
-Eliminating \(x_1,x_2\) gives a monic quartic for the four \(z\)-values
-whose first two power sums are
+Eliminating \(x_1,x_2\) gives the monic quartic
+\[
+ (z-\lambda)
+ \bigl(z^3-3\lambda z^2+(5\lambda^2-\lambda)z
+              +\lambda^3-4\lambda^4\bigr).
+\]
+Its first two power sums are
 \[
  \sum_{\nu=1}^4z_\nu=4\lambda,\qquad
  \sum_{\nu=1}^4z_\nu^2=2\lambda.              \tag{CHD11}
 \]
-Equivalently its polynomial begins
-\[
- z^4-4\lambda z^3+(8\lambda^2-\lambda)z^2+\cdots .
-\]
-Each \(z_\nu\) carries four sheets in the full rank-sixteen algebra.
+Generically its constant term is nonzero.  Since the two displayed
+fourth-power equations satisfy \(x_1^4x_2^4=z^4\), this makes \(z\),
+\(x_1\), and \(x_2\) units over the generic field; hence the full algebra
+is a rank-four extension of the \(z\)-algebra.  Each \(z_\nu\) therefore
+carries four sheets in the rank-sixteen trace.
 Since \(q=\lambda-z\),
 \[
  \operatorname{Tr}(q)
