@@ -126,6 +126,14 @@ therefore invariant, so (1) applies without an additional symmetry
 hypothesis in that case. This is the
 [existing reduced-ideal bridge](../equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle).
 
+The [residual-speciality criterion](chow_moment_residual_speciality.md)
+gives additional nonreduced coverage: vanishing of the actual residual
+cohomology forces a genuine eigenform or invariant defining ideal.
+In particular, exactly one doubled component and any number of simple
+translated components satisfy (1) in every degree. More generally, one
+component of multiplicity \(n\ge2\) and simple companions are covered
+when \(4\max(a,b)\ge7n+1\), in characteristic different from two.
+
 ## A regular function on the Chow space
 
 Fix \(m>0\), and let \(R_Z(L,M)\) be the Chow form of an effective

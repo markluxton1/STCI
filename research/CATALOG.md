@@ -91,6 +91,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0080](results/fixed_depth_determinant_incidence.md) | Fixed-depth incidence products and actual residual cancellation | universal center jets and finite Laurent trace matching: accepted | [scope](results/fixed_depth_determinant_incidence.md#scope) |
 | [STCI-R-0081](results/jacobian_radical_support.md) | Relative Jacobian radical recovery and two-product quartic support | finite projection and the Artinian Jacobian socle: accepted | [scope](results/jacobian_radical_support.md#scope) |
 | [STCI-R-0082](results/arrangement_strata_and_orders.md) | Arrangement Hilbert strata, endpoint planarity and separate orders | endpoint ranks, formal planarity and exceptional valuations: accepted | [scope](results/arrangement_strata_and_orders.md#scope) |
+| [STCI-R-0083](results/chow_moment_residual_speciality.md) | Residual speciality forces first-moment vanishing on repeated arrangements | low-degree linkage symmetry and conormal filtration: accepted | [scope](results/chow_moment_residual_speciality.md#scope) |
 
 ## Arguments
 
@@ -208,6 +209,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0080: universal center jets and finite Laurent trace matching; joint premises []; proof `research/arguments/equations/fixed_depth_determinant_incidence.md#1-the-common-finite-jet-source`; review accepted, reconstructed at `#review`.
 - STCI-R-0081: finite projection and the Artinian Jacobian socle; joint premises []; proof `research/arguments/equations/jacobian_radical_support.md#radical-recovery-for-any-proper-pair-missing-the-projection-center`; review accepted, reconstructed at `#review`.
 - STCI-R-0082: endpoint ranks, formal planarity and exceptional valuations; joint premises []; proof `research/arguments/torus/arrangement_strata_and_orders.md#arrangement-strata-endpoint-planarity-and-separate-vanishing-orders`; review accepted, reconstructed at `#review`.
+- STCI-R-0083: low-degree linkage symmetry and conormal filtration; joint premises [STCI-R-0020]; proof `research/arguments/torus/chow_moment_residual_speciality.md#1-a-low-degree-symmetry-criterion-from-linkage`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
@@ -270,7 +272,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0017: no declared backlinks.
 - STCI-R-0018: no declared backlinks.
 - STCI-R-0019: no declared backlinks.
-- STCI-R-0020: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0058 (residual restriction through the unique quadric); premise of STCI-R-0071 (finite moments and actual multiplication); premise of STCI-R-0072 (multiplier rank and the splitting of the moving quotient); premise of STCI-R-0077 (quadric restriction, connectedness and the normal bundle of the surviving section); recorded reference from STCI-R-0022 (dependencies group [STCI-R-0001, STCI-R-0020]); recorded reference from STCI-R-0026 (dependencies group [STCI-R-0020]).
+- STCI-R-0020: premise of STCI-R-0031 (two-chart fourth-order lifts and filtered comparison); premise of STCI-R-0058 (residual restriction through the unique quadric); premise of STCI-R-0071 (finite moments and actual multiplication); premise of STCI-R-0072 (multiplier rank and the splitting of the moving quotient); premise of STCI-R-0077 (quadric restriction, connectedness and the normal bundle of the surviving section); premise of STCI-R-0083 (low-degree linkage symmetry and conormal filtration); recorded reference from STCI-R-0022 (dependencies group [STCI-R-0001, STCI-R-0020]); recorded reference from STCI-R-0026 (dependencies group [STCI-R-0020]).
 - STCI-R-0021: premise of STCI-R-0057 (filtered elimination and the initial term of a principal ideal); recorded reference from STCI-R-0023 (dependencies group [STCI-R-0021]); recorded reference from STCI-R-0029 (dependencies group [STCI-R-0021]).
 - STCI-R-0022: no declared backlinks.
 - STCI-R-0023: recorded reference from STCI-R-0024 (dependencies group [STCI-R-0023]).
@@ -333,3 +335,4 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0080: uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078, STCI-R-0080, STCI-R-0081] → [STCI-F-0006] (owner STCI-F-0006).
 - STCI-R-0081: uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078, STCI-R-0080, STCI-R-0081] → [STCI-F-0006] (owner STCI-F-0006).
 - STCI-R-0082: no declared backlinks.
+- STCI-R-0083: no declared backlinks.

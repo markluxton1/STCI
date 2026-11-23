@@ -81,3 +81,4 @@ mathematical rank.
 - [STCI-R-0081 — Relative Jacobian radical recovery and two-product quartic support](jacobian_radical_support.md).
 
 - [STCI-R-0082 — Arrangement Hilbert strata, endpoint planarity and separate orders](arrangement_strata_and_orders.md).
+- [STCI-R-0083 — Residual speciality and first-moment vanishing on repeated arrangements](chow_moment_residual_speciality.md).
