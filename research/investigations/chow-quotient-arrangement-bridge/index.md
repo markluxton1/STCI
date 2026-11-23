@@ -197,6 +197,32 @@ Poisson/Serre class and this later spectral
 power class under full two-equation
 realizability.
 
+### The decisive low-order negative control
+
+The [same-residue STCI-jet analysis](../../arguments/torus/sole_support_first_jet_gate.md#a-stronger-negative-control-both-leading-stci-conditions-can-hold)
+contains an explicit **proper global quartic pair**
+containing \(C\) for which **both** leading
+conditions hold:
+\(\mathcal R_{F,G}(M_{03})=8\)
+and \(\mathcal R_{F,G}(Q^4)=0\).
+Its first normal jets are
+\(p=x_1^3,q=x_2^3,r=-2x_1^3,
+s=6x_2^3\) along \(L\).
+Nevertheless it has residual degree twelve.
+The full Poisson ideal relation already fails at
+normal order one, and \(Q^4\in(F,G)\)
+fails at normal order three.
+This **supersedes any inference** that
+the specialized \((4,4)\) comparison
+\(\lambda\mu=8\) versus \(4\) supplies
+a general contradiction.
+The full actual ideal-membership tower,
+not the first two scalar/leading-residue
+conditions, is necessary.
+The rank and kernel of the canonical
+first spectral map remain informative
+but not sufficient.
+
 ## Motivation and the three genuinely different parameter spaces
 
 The [full Chow-polytope rigidity theorem R-0074](../../results/chow_polytope_rigidity.md) says that the cycles with full column-weight polytope \(mP_C\) are exactly effective sums of \(m\) diagonal translates of \(C\). This is a strong **cycle** classification, not a classification of reduced unions, their blow-ups, or equations.
