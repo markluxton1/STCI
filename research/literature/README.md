@@ -324,6 +324,23 @@ Mathématique de France* 131 (2003), no. 4, 553--585.
   intersection.  This makes P-035 a classical equivalence; “arithmetically
   Gorenstein,” not merely locally Gorenstein, is essential.
 
+## Contact geometry and Legendrian curves on quadrics
+
+Nikita Kalinin, [*Legendrian curves in CP3: cubics and curves on a quadric surface*](https://arxiv.org/abs/1607.07486), *Zapiski Nauchnykh Seminarov POMI* 476 (2018), 92–110, [published paper](https://ftp.pdmi.ras.ru/pub/publicat/znsl/v476/p092.pdf), **Theorem 4.3** (Theorem 13 in the arXiv numbering).
+The theorem classifies algebraic Legendrian curves on smooth quadrics
+in complex projective three-space using the characteristic foliation
+of the restricted contact structure. This is the established general
+classification, not a new result of the STCI project. In the
+[marked Segre graph comparison](../arguments/torus/quadric_pencil_spectral_intrinsic_geometry.md),
+the special contact forms
+\(\omega_q=dx_0\wedge dx_3-(2/q)dx_1\wedge dx_2\) select precisely the
+graphs \([s^3:u t^3]\) inside \(Q_q\), while their spectral trace
+still lacks a universal complete-intersection vanishing theorem.
+The [existing Hamiltonian/Jacobian theorem](../arguments/torus/contact_jacobians_and_hamiltonian_actions.md#the-six-ambient-minors-different-and-contact-identity)
+proves an actual Poisson-involutivity statement under **sole support**;
+neither the published Legendrian classification nor that theorem
+proves the unrestricted moment relation on multicomponent cycles.
+
 ## Multiple structures, bundles, and liaison
 
 ### Eisenbud--Van de Ven
