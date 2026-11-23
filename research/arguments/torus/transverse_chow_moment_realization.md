@@ -407,6 +407,66 @@ do not imply it (a single factor with
 \(\xi\ne0\) is already a counterexample
 to such a bare implication).
 
+### Full two-chart Chow pullback: the cycle determines actual ideal-membership equations
+
+The [focused full-Chow pullback theorem](full_transverse_chow_pullback_envelope.md)
+uses the first degree-four weight space with **three**
+monomials:
+\[
+ D_+=x_1^4,\quad P_+=x_0^2x_1x_2,\quad
+ R_+=x_0^3x_3.
+\]
+They simultaneously give the two-dimensional
+transverse quotient
+\([D_+:P_+:R_+]=[1:u:v]\).
+For a cycle \(\sigma=\sum_i n_i[(u_i,v_i)]\),
+the \(m+1\) coefficients of the
+**actual homogeneous pullback**
+\[
+ \Phi_\sigma^+(\lambda,\mu;x)
+ =\mathcal C_\sigma(\lambda P_++\mu R_+,
+                   -\lambda D_+,-\mu D_+)
+ =\prod_i[\lambda(P_+-u_iD_+)
+           +\mu(R_+-v_iD_+)]^{n_i}
+\]
+belong to **every proper CI ideal**
+whose entire fundamental cycle is \(\sigma\).
+On the dense coordinate torus their
+coefficient ideal is exactly
+\(\cap_i I_{C_i}^{n_i}\) (ordinary powers,
+characteristic zero). A coordinate-reversed
+weight-twelve quartic triple produces
+a second coefficient ideal; their sum
+has **set-theoretic support exactly**
+\(\cup C_i\), without residual coordinate
+lines. This supplies a canonical
+*full paired Chow-cycle-to-actual-ideal*
+interface—not just the quadric spectrum.
+
+On the ambient dense torus every realizing
+CI is a rank-\(m\) finite-flat
+**moving quotient** of the constant
+fat-point algebra
+\(B_\sigma=
+ k[u^{\pm1},v^{\pm1}]/\cap\mathfrak m_i^{n_i}\)
+of rank
+\(N=\sum_i\binom{n_i+1}{2}\).
+The exact kernel rank is
+\(\delta_\sigma=\sum_i\binom{n_i}{2}\).
+This recovers invariance for
+**reduced** full cycles (\(\delta=0\));
+doubled components introduce one
+moving tangent-line choice per support.
+The **norm** of the generic linear
+form in the moving quotient is
+\(\mathcal C_\sigma\), so \(M_1\)
+is literally its trace of \(u/v\).
+The unproved UM1 step is that
+*projective two-endpoint extension*
+as a two-surface CI forces this trace
+to vanish. The quotient and
+coefficient ideal alone do not.
+
 ## 2. Coefficients of the full Chow form are mixed symmetric functions
 
 Write
