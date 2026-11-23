@@ -70,7 +70,7 @@ matrix, plus Cartierness of the **total** divisor. The nonnormal
 extension replaces this by normalized intersection data and actual
 downstairs almost-Cartier/conductor relations. These are strong
 necessary/sufficient fixed-carrier criteria under their own
-hypotheses. The [all-mate exceptional quartic theorem](quartic_exceptional_carrier_geometry.md#all-mate-degrees-on-a-retained-exceptional-carrier)
+hypotheses. The [all-mate exceptional quartic theorem](https://github.com/markluxton1/STCI/blob/chatgpt/cross-degree-exclusion-synthesis/research/arguments/torus/quartic_exceptional_carrier_geometry.md#all-mate-degrees-on-a-retained-exceptional-carrier)
 forces \(n_+=n_-=2j\) for supports with \(u/v=\pm1\), and
 hence \(M_1=0\) for all mate degrees \(4j\). Here \(M_1\) is forced
 by the multiplicity **lattice**, not a proper invariant initial pair.
