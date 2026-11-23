@@ -202,6 +202,23 @@ limits and power bounds; extending it to all degrees is a further problem.
 Finding an arbitrary supported flat deformation to a CI is already useful;
 realizing a prescribed torus boundary as an orbit limit is a stronger task.
 
+### Jacobian recognition beyond invariant degenerations (PR #173)
+
+The [spectral–Jacobian criterion](../../arguments/torus/spectral_jacobian_first_jet_bridge.md)
+recognizes translated reduced support from **two actual ideal
+memberships**, assuming a proper CI disjoint from the opposite
+fixed line: a product of members of the quadric pencil belongs to
+the ideal, and the mixed Jacobian relation
+\(A M_{12}-2B M_{03}\) belongs to it. This holds for
+non-invariant nonreduced CI arrangements, including the exceptional
+quartic component outside the invariant-CI Chow closure. It does
+not assert that these two equations generate the CI ideal.
+The first moment is half a perfect skew residue of first projection-
+line jets. Proving isotropy for all pairs satisfying this entire
+support-recognition incidence remains open. Full toric limits can
+lose generators, so a fixed invariant limit is still not a substitute
+for this actual equation gate.
+
 ## Cycle incidence versus actual equations
 
 For a **proper** pair of degrees \((a,b)\) containing \(C\), its

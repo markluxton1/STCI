@@ -30,6 +30,52 @@ example or descent assertion.
 
 The constant-image results do not by themselves cover moving transverse quotients.
 
+### Universal full-Chow envelope above every moving quotient
+
+The [full two-dimensional Chow pullback](../../arguments/torus/full_transverse_chow_pullback_envelope.md)
+supplies a canonical constant **fat-point**
+algebra above *every* actual translated-cycle
+CI, with no invariant-ideal hypothesis.
+For \(\sigma=\sum_i n_i[(u_i,v_i)]\),
+\[
+ B_\sigma=
+ k[u^{\pm1},v^{\pm1}]/
+       \bigcap_i\mathfrak m_i^{n_i},
+ \quad
+ \dim B_\sigma=\sum_i\binom{n_i+1}{2}.
+\]
+The full Chow form, pulled through
+the first degree-four three-monomial
+torus quotient and its opposite
+chart, gives \(2(m+1)\) explicit
+homogeneous ideal-membership conditions
+for any realizing CI.
+The resulting actual finite-flat algebra
+over the intrinsic orbit coordinate
+\(t\in\mathbf G_m\) is a **rank-\(m\)
+moving quotient** of
+\(B_\sigma\otimes k[t^{\pm1}]\),
+with kernel rank
+\(\sum_i\binom{n_i}{2}\).
+Its norm of \(X+uY+vZ\) is the
+**complete transverse Chow form**;
+its trace of \(u/v\) is \(M_1\).
+The quotient is forced constant for
+reduced cycles, while each double
+component adds a moving \(\mathbf P^1\)
+normal-direction choice.
+Unlike R-0051–R-0056, this is a
+**necessary constant envelope for an
+arbitrary moving CI quotient**,
+not a claim that every moving quotient
+comes from a constant embedded image.
+Both endpoint descent and generation
+by **two actual homogeneous equations**
+remain essential. The all-degree
+universal \(M_1=0\) theorem is not proved.
+
+The [opposite quadric–cubic Chow polarization](../../arguments/torus/weighted_chow_quadric_cubic_polarizations.md) sharpens the constant fat-envelope source below: two degree-\((2m,\ldots,3m)\) coefficient chains, sharing the quadric-spectrum term, generate **the same dense-torus ordinary-power envelope** and have combined radical exactly the translated support. Their first opposite polars satisfy a homogeneous syzygy with coefficient \(M_1\). This gives lower-degree input for comparing the **same actual global two-generator quotient** with the moving-quotient and two-endpoint descent theorems. It does **not** extend the sole-supported movement bounds R-0072 to multiple supports, nor prove first-moment vanishing.
+
 ## Mathematical scope and interfaces
 
 This approach studies **embedded finite torus quotient images**, their
@@ -90,6 +136,23 @@ base change of the projective image. The [finite specialization checks](../../ar
 replay identities for this pair and the fixed quartic's degree-four symbols.
 Actual equation recovery after projective contraction still requires the
 embedded quotient and the homogeneous source test.
+
+### Quadrics and cubics as the two quotient characters (PR #173)
+
+The [intrinsic spectral–Jacobian bridge](../../arguments/torus/spectral_jacobian_first_jet_bridge.md)
+replaces arbitrary affine quotient coordinates by the two homogeneous
+characters
+\(\xi=x_1x_2/(x_0x_3)\) and
+\(\eta=x_0x_2^2/(x_1^2x_3)\). They determine the
+unique containing quadric and a cubic scroll respectively, and
+\(Q_\xi\cap R_\eta\) is exactly the translated quartic plus
+two fixed endpoint ruling lines. Thus the full arrangement records
+paired points in these two character coordinates; a quadric spectral
+polynomial alone loses the cubic parameter and the pairing.
+The companion Jacobian identity is valid in the actual nonreduced
+CI ring, but does not reconstruct all nilpotent multiplication from
+its cycle. The new first-jet residue pairing is a necessary
+algebraic test conditional on whole translated-cycle support.
 
 ## Bridges
 

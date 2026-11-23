@@ -219,6 +219,180 @@ open implications relevant to its approach.
 | [Arithmetic supported lifts](frameworks/arithmetic-supported-lifts/index.md) | Positive-characteristic equations, normal specialization and obstruction to prescribed lifts. Endpoint root defects have no proved identification with spectral Picard torsion or carrier Weil classes. |
 | [Local cohomology](frameworks/local-cohomology/index.md) | Simultaneous ancestors in actual homogeneous multiplication spaces. The quartic two-target reduction gives a bounded problem; higher multiplier degrees belong to the full-module question. |
 
+The [spectral–Jacobian first-jet reduction](arguments/torus/spectral_jacobian_first_jet_bridge.md)
+adds a direct bridge between the actual homogeneous equations,
+the quadric/cubic transverse parameters, the Jacobian–socle
+geometry and the first moment. For every proper CI with entire
+translated-quartic cycle, \(A M_{12}-2B M_{03}\) belongs to
+its actual ideal, and
+\(2M_1=\operatorname{Res}_{f_0,g_0}(ps-qr)\).
+Serre duality on the canonically disjoint line
+\(L=V(x_0,x_3)\simeq\mathbf P^1\) identifies this as a
+nondegenerate alternating pairing of the equations' **first
+normal jets**. Its symplectic space has dimension
+\(2\min(a,b)\), but no theorem forces the paired jets to
+be isotropic on the full realization locus. An independent
+recognition criterion now expresses entire translated support
+by a quadric-spectrum ideal member plus a Jacobian ideal
+member, assuming a proper pair disjoint from \(L\).
+This is a new proposed proof bridge, pending independent review;
+the older six-layer formula remains valid for arbitrary
+finite-free pairs and is not contradicted.
+
+The latest [direct STCI jet compatibility analysis](arguments/torus/sole_support_first_jet_gate.md)
+identifies a **common Grothendieck residue**
+for the two leading tests:
+\(\mathcal R_{F,G}(M_{03})=ab/2\)
+is the nonzero first-jet requirement,
+whereas \(\mathcal R_{F,G}(Q^m)=0\)
+is the first global spectral-power
+requirement for \(m=ab/4\).
+The latter is a homogeneous binary
+form of degree
+\(r_*=(a-2)(b-2)/2\) on the
+disjoint projection-line parameter
+and is the leading associated-graded
+class of \(Q^m\) in the CI algebra.
+The same residue defines a **linear map
+on the entire homogeneous spectral-form
+space**, vanishing on the canonical
+form of any realized translated
+arrangement. A restricted \((4,4)\)
+pair exhibits an incompatibility
+between the two requirements, but
+the all-degree relation between
+these same-residue evaluations is
+unknown. The contribution is a
+source/Chow algebraic bridge, not a
+universal first-moment theorem.
+
+A further [exact negative control](arguments/torus/sole_support_first_jet_gate.md#a-stronger-negative-control-both-leading-stci-conditions-can-hold)
+shows that even **simultaneously**
+satisfying the hypothetical-STCI
+first-jet residue and the
+first spectral-power residue can occur
+for actual global quartic equations
+containing \(C\), with residual degree
+twelve. The full Poisson and spectral
+ideal-membership identities fail at
+subsequent orders. Thus the
+Serre-duality pairing and the first
+binary spectral form are useful
+**source filters**, not a substitute
+for the global nilpotence/sole-support
+criterion. Do not elevate their low-order
+compatibility or incompatibility
+in a special family to a universal
+exclusion.
+
+For a hypothetical STCI of degrees
+\((a,b)\) and \(m=ab/4\),
+the [exact full residue criterion](arguments/torus/sole_support_first_jet_gate.md#full-exact-stci-jet-criterion-ideal-powers-and-the-perfect-residue-pairing)
+now writes **all required
+equation identities**, not
+just first moments:
+\(I_C^m\subset(F,G)\) iff
+the relative Gorenstein residue
+pairing kills each generator
+\(g\) of \(I_C^m\) against
+a full finite basis of
+\(E=k[x]/(F,G)\) over
+\(k[x_0,x_3]\).
+Because \(I_C\) has one
+quadric and three cubics,
+this is a finite explicit
+system for every fixed
+bidegree. The first scalar
+residue \(\mathcal R(M_{03})\)
+and the first power residue
+\(\mathcal R(Q^m)\) are only
+two tests. A global quartic
+control passes both but
+fails \(\mathcal R(x_1Q^4)\)
+and \(\mathcal R(x_2Q^4)\).
+This shows why all-duality
+compatibility, and its
+elimination in every degree,
+is the actual missing step.
+The exact criterion does
+not itself prove nonexistence.
+
+The [full two-dimensional Chow pullback
+envelope](arguments/torus/full_transverse_chow_pullback_envelope.md)
+now supplies a **carrier-free
+actual-ideal constraint**:
+the three degree-four
+same-weight monomials
+\((x_1^4,x_0^2x_1x_2,x_0^3x_3)\)
+give \([1:u:v]\) on each
+translate, so substituting them
+into the full transverse
+\(\mathcal C_\sigma\) yields
+\(m+1\) explicit homogeneous
+ideal-membership equations.
+The reversed quartic quotient
+gives a second system; together
+their radical is exactly the union
+of the translated components.
+They recover the full normal
+fat-point envelope
+\(\cap_i\mathfrak m_i^{n_i}\)
+on the dense torus.
+Every realizing CI is a
+moving rank-\(m\) quotient of
+the associated constant
+length-\(\sum\binom{n_i+1}{2}\)
+algebra, with kernel rank
+\(\sum\binom{n_i}{2}\).
+This directly extends the
+constant-source part of the
+embedded-torus framework
+to arbitrary translated
+residual components;
+R-0072's movement bounds
+do **not** extend automatically.
+Its norm gives the full Chow
+form and its \(u/v\) trace
+is the first moment.
+The unproved UM1 implication
+is that **two global homogeneous
+surface generators**, with
+both endpoint lifts, constrain
+this moving quotient enough
+to force the trace zero.
+
+**Refinement of the full-Chow source:** the [opposite quadric–cubic polarizations](arguments/torus/weighted_chow_quadric_cubic_polarizations.md) now give the **same full paired toric-support and fat-point envelope** with only \(2m+1\) eigenform constraints in degrees \(2m,\ldots,3m\), instead of degree \(4m\) pullbacks. The underlying \((2,3)\) intersections have residual *double opposite skew ruling lines*. Their normalized first cubic polars satisfy the exact syzygy
+\[
+ x_2^2E_+ +x_0^2E_-+
+ x_1H_\sigma\bigl(m x_1x_2+M_1(\sigma)x_0x_3\bigr)=0.
+\]
+This identifies \(M_1\) as a coefficient of the **same-degree homogeneous comparison quadric** between the two rulings, rather than only a resultant or trace coefficient. Since the identity holds for arbitrary toric cycles, it **does not prove** universal vanishing; the remaining problem is *actual two-generator cofactor compatibility at both endpoints*. The exact repeated-cycle cofactor/norm recognition criterion also admits this lower-degree source system. Its proof is the linked argument, pending independent review.
+
+The [cycle-first Chow realization program](arguments/torus/chow_realization_moment_separation.md)
+uses the symmetric power of the orbit quotient as its primary parameter
+space. The universal moment hyperplane misses every interior power locus
+in characteristic zero. Proposed proofs pending independent review extend
+moment vanishing to all (3,4) pairs and to (4,4) multiple-support pairs via
+cycle-preserving regular initial sequences and linkage. The (4,4) small
+diagonal is separately excluded by R-0022; extending the moment proof itself
+to that diagonal and arbitrary degrees remains a coverage question.
+
+The [corpus-wide universal-moment reassessment](arguments/torus/universal_first_moment_corpus_review.md)
+interprets all nine Frameworks and all 84 main-branch Results through
+the potential equation \(M_1=0\), with an [individual Result
+crosswalk](arguments/torus/universal_first_moment_result_crosswalk.md).
+The existing all-degree finite-cover identity is
+\(\operatorname{Tr}(x_1x_2)=4x_0x_3M_1\); the trace's value depends on only
+the first three projection-line layers of each actual equation, but
+this does not replace the full translated-cycle requirement.
+Divisor-class multiplicity lattices offer a distinct possible mechanism:
+the exceptional non-invariant quartic carrier has \(M_1=0\) for all
+proper mates whose cycles consist of translates. A universal
+relative divisor-cycle functional has not been constructed.
+The current literature comparison includes the October 2026
+very-general thick-carrier Picard theorem; it does not control
+special carriers chosen by a mate.
+
 For every characteristic-zero bidegree, the smaller defining equation and
 its weight components bound the splitting of the moving transverse quotient.
 At a general point, a single base tangent vector induces a map from the fiber
@@ -318,6 +492,27 @@ by this argument. These statements
 do not close the separate split-first-normal-cone frontier or improve the
 general degree bound. See the [current carrier scope](frameworks/carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)
 and [local/global interface](frameworks/global-equation-realization/projection_and_liaison.md#embedded-conductor-and-ambient-equations).
+
+The [Chow-quotient / arrangement blow-up bridge](investigations/chow-quotient-arrangement-bridge/index.md)
+works directly from the normalized toric Chow quotient of the weight-\((0,1,3,4)\)
+orbit family to reduced-union Hilbert strata and divisor systems on arrangement
+blow-ups. Its [explicit quotient and normalized graph fans, four Chow boundary cycles,
+and two global endpoint sections](arguments/torus/chow_quotient_fan_and_blowup_comparison.md)
+are established-theory computations. The [exact endpoint rank formula and
+dual-affine-line criterion for reduced quartic CI arrangements](arguments/torus/arrangement_endpoint_delta.md)
+computes the Hilbert polynomial of every reduced arrangement, identifies the
+necessary endpoint-defect identity for reduced-CI realizations in all bidegrees,
+and explains the distinct endpoint defects of known \((3,4)\) and \((4,4)\)
+eigenpairs. This supplies a scheme-level filter missing from Chow-polytope
+data. The [relative arrangement blow-up construction](arguments/torus/relative_arrangement_blowup_family.md)
+now gives the direct universal Rees blow-up, finite determinantal strata where
+the reduced unions are Hilbert flat, and a second **smooth** family obtained
+by blowing up disjoint lifted orbit curves on a toric graph resolution. The
+smooth family's divisor spaces recover every containing hypersurface, and
+the normal-bundle map has elementary divisors \((3,4)\) at each endpoint.
+Correct specialization of Rees fibers, the full collision/Chow boundary,
+actual general pair realization and complementary contractions remain open.
+The ordinary \(V_5\) blow-up does not resolve the torus quotient.
 
 Actual [pairs retaining the toric quartic as a defining equation](arguments/torus/fixed_carrier_chow_arrangements.md)
 have an exact coefficient description: the carrier's semigroup

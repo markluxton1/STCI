@@ -111,6 +111,174 @@ the geometry; none covers arbitrary higher-degree equations.
 - The [octic/root comparison](../../arguments/spectral/actual_octic_root_lift_comparison.md) has an actual source map and a proper pair of transverse length eight with residual degree 32. This illustrates compatibility without sole support, not a solution to the unrestricted question.
 - [Projected thickenings](../../arguments/linkage/projected_thickening_section_defects.md) distinguish an ACM source upstairs from its image in \(\mathbf P^3\): the displayed power and binary-mixture images fail ACM when the positive degree product is nonzero. This does not exclude other projected sources or arbitrary supported thickenings.
 
+### Spectral–Jacobian first-jet gate (PR #173; review pending)
+
+For any **actual proper pair** with whole translated quartic cycle,
+[spectral–Jacobian duality](../../arguments/torus/spectral_jacobian_first_jet_bridge.md)
+proves \(A M_{12}-2B M_{03}\in(F,G)\), where
+\(A=x_1x_2\), \(B=x_0x_3\). Together with the canonical spectral
+membership \(H(A,B)\in(F,G)\), this gives a **converse recognition test**
+for translated reduced support, provided the pair misses the
+canonically disjoint line \(V(x_0,x_3)\).
+Its first moment is \(M_1=\tfrac12\operatorname{Res}_{f_0,g_0}(ps-qr)\),
+an alternating perfect Gorenstein pairing of the actual first normal
+jets of the equations along that line. The universal obstruction is
+now the assertion that the image of the **joint complete spectral-
+Jacobian equation incidence** has isotropic first jets. No such
+isotropy theorem is established; a proper pair merely containing
+\(C\) can have nonzero pairing and residual degree twelve.
+
+### Sole-support jet requirement and why it does not suffice
+
+For a hypothetical characteristic-zero STCI,
+[the accepted Poisson identity restricted to the disjoint line](../../arguments/torus/sole_support_first_jet_gate.md)
+forces the first normal jets to have **nonzero**
+Macaulay/Serre symplectic pairing \(\Omega=ab/2\).
+This congruence occupies the one-dimensional socle
+of \(k[x_1,x_2]/(f_0,g_0)\). An explicit family of
+proper global containing pairs realizes that pairing
+for every \(a,b\ge4\) and has a residual curve,
+so the scalar by itself cannot exclude STCI.
+
+The scheme-theoretic power condition \(Q^m\in(F,G)\)
+is tautological after truncation by the disjoint
+line's \(r_*=(a-2)(b-2)/2\)-th ideal power,
+by the graded free fiber-basis bound. In bidegree
+\((6,6)\), the first potentially restrictive
+normal coefficient is order eight, not order one
+or two. Higher-order global compatibility can still
+constrain the first jets indirectly; no complete
+jet realization criterion is claimed.
+
+### First power obstruction as a homogeneous spectral coefficient map
+
+The [STCI jet gate](../../arguments/torus/sole_support_first_jet_gate.md)
+identifies a canonical leading obstruction to
+\(Q^m\in(F,G)\) for a hypothetical sole-support
+pair: a binary form
+\(\mathfrak o_{r_*}\) in
+\(H^1(L,\omega_L)\otimes
+\operatorname{Sym}^{r_*}\langle x_0,x_3\rangle\),
+where \(r_*=(a-2)(b-2)/2\) and
+\(L=V(x_0,x_3)\).
+It is the first nonautomatic normal-degree
+part of the class \([Q^m]\) in the actual
+CI algebra. The same construction gives a
+**linear map on every full homogeneous
+spectral form** \(H(A,B)\) of degree \(m\);
+realized translated arrangements must put
+their spectrum in its kernel.
+For the restricted quartic test family
+the first power class requires
+\(\lambda\mu=4\), incompatible with the
+sole-support Poisson requirement
+\(\lambda\mu=8\). This locates a real
+interaction between the two equations
+without promoting the family check
+into a general low-degree exclusion.
+
+### Complete residue detection of set-theoretic support
+
+The [exact power/residue criterion](../../arguments/torus/sole_support_first_jet_gate.md#full-exact-stci-jet-criterion-ideal-powers-and-the-perfect-residue-pairing)
+uses the accepted
+\(I_C^m\subset(F,G)\) bound
+for an actual supported CI.
+For a proper pair \(F,G\in I_C\),
+the converse holds, so STCI
+is equivalent to this ideal-power
+membership. The ideal
+\(I_C=(Q,U,W,V)\) has one
+quadric and three cubic
+generators. Its \(m\)th ordinary
+power has explicit monomial
+generators; perfect finite flat
+Gorenstein duality reduces their
+membership to finitely many
+relative residue vanishings
+\(\mathcal R_{F,G}(g e)=0\),
+for every generator \(g\)
+and every element \(e\) of a
+graded \(k[x_0,x_3]\)-basis
+of the **actual** CI algebra.
+This gives a precise necessary
+**and sufficient** coefficient
+gate for each bidegree, without
+selecting a carrier.
+The scalar first-jet condition,
+the first spectral-power
+residue and the first
+normal-jet pairing are
+only partial rows of this
+full perfect pairing; explicit
+quartics pass them and have
+residual support.
+The algebraic elimination of
+actual equation coefficients
+to obtain an all-degree
+contradiction remains open.
+
+### Two opposite full-Chow coefficient systems as actual equation constraints
+
+The [canonical full-Chow pullback envelope](../../arguments/torus/full_transverse_chow_pullback_envelope.md)
+takes the *entire paired* transverse Chow
+form \(\mathcal C_\sigma\), not just its
+ratio-spectrum. The degree-four
+weight-four torus-quotient sections
+\((D,P,R)=(x_1^4,x_0^2x_1x_2,
+x_0^3x_3)\), and their reversed
+weight-twelve counterparts, yield
+\(2(m+1)\) explicit degree-\(4m\)
+polynomials **in every proper
+CI ideal realizing** \(\sigma\).
+Their two coefficient ideals coincide
+with \(\cap_i I_{C_i}^{n_i}\)
+on the dense torus; their sum has
+radical the exact union of translated
+quartics, with no extra coordinate
+curve. The inclusion is a **necessary
+all-degree source condition** retaining
+the full pairing of transverse
+parameters; for reduced cycles and
+\(ab=4m\), it is also sufficient
+for degree exhaustion. For repeated
+cycles the full local lengths
+\(n_i\) remain essential.
+
+The coefficient algebra is the
+constant normal-fat-point ring
+of length
+\(N=\sum_i\binom{n_i+1}{2}\).
+Every actual CI selects a moving
+flat quotient of rank \(m\),
+with kernel rank
+\(\delta=\sum_i\binom{n_i}{2}\).
+The norm of \(X+uY+vZ\) in that
+quotient is exactly
+\(\mathcal C_\sigma\), and the
+trace of \(u/v\) is \(M_1\).
+This accounts for the already
+proved invariant reduced case
+(\(\delta=0\)), and isolates the
+nonreduced moving-quotient and
+two-endpoint gluing gap.
+It does **not** prove universal
+moment vanishing, a uniform
+degree cutoff, or that the
+necessary source inclusions
+admit a two-generator
+proper quotient.
+
+### Sharper full-paired Chow constraints from quadratic and cubic surfaces
+
+The [opposite (2,3) Chow polarizations](../../arguments/torus/weighted_chow_quadric_cubic_polarizations.md) replace the earlier raw degree-\(ab=4m\) full-Chow equations by **\(2m+1\) homogeneous equation constraints in degrees \(2m\) through \(3m\)**. The shared lowest term is the actual quadric-spectrum polynomial \(H_\sigma\); the two opposite chains come from cubic carriers with residual divisors \(2L_{01}\) and \(2L_{23}\) on the respective smooth quadrics. Their combined coefficient ideal has exactly the prescribed translated reduced support, and recovers the same canonical fat-point envelope on the dense torus.
+
+The first normalized polars satisfy
+\[
+ x_2^2E_++x_0^2E_-+
+ x_1H_\sigma(m x_1x_2+M_1x_0x_3)=0.
+\]
+This is a **specific cross-polar source syzygy** for every whole translated-cycle CI (and every abstract cycle), so a proposed proof of UM1 must extract an *additional two-generator global cofactor constraint* rather than divide the common factor \(H_\sigma\) in the CI ring. No new universal vanishing, proper-pair degree bound, or nonexistence theorem is asserted.
+
 ## Bridges
 
 An osculating quadric puts the entire quadratic conductor at one general

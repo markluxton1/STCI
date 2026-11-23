@@ -1,0 +1,773 @@
+# Pulling back the full transverse Chow form: opposite quartic quotient charts and the canonical fat-curve envelope
+
+**Status (2026-11-22):** new elementary project-specific consequence of the classical Chow form of a zero-cycle, the Artinian nilpotence bound, and unmixedness of a complete intersection. **Pending independent proof review.** The full UM1 assertion is *not* proved. Characteristic zero over an algebraically closed field unless indicated.
+
+**Established background:** the Chow product of a zero-cycle, e.g. Kollár, *Moduli of Varieties*, §3.1, [Chow varieties and Hilbert schemes](https://web.math.princeton.edu/~kollar/book/modbook20170720-hyper.pdf), and the characteristic-polynomial form of zero-dimensional Chow forms ([D'Andrea–Krick–Sombra–Schost](https://cs.uwaterloo.ca/~eschost/publications/DaKaSc09.pdf)); the exact translated-cycle and first-moment statements in [chow_arrangement_moments.md](chow_arrangement_moments.md) and [chow_realization_moment_separation.md](chow_realization_moment_separation.md); the accepted generic nilpotence / primary-contraction argument in [torus_hilbert_boundary.md](../torus_hilbert_boundary.md). No cited source is asserted to contain the specific quartic pullback construction.
+
+**Sharper source now available.** The [quadric–opposite-cubic Chow polarization](weighted_chow_quadric_cubic_polarizations.md) gives the **same full paired toric-support and ordinary-power envelope** with two coefficient chains in degrees \(2m,\ldots,3m\), rather than the degree-\(4m\) quartic pullbacks developed below. Their first polars satisfy an explicit opposite-ruling syzygy in which \(M_1\) is the coefficient of \(x_0x_3\). Consequently the high normal-order bound for the *raw degree-\(4m\) equations* below is **not** a general lower bound on all possible full-Chow equations. This file retains the simultaneous uniform-degree quotient and finite-flat norm interpretations as a complementary presentation; the lower-degree argument owns the improved source claim.
+
+## 1. The first homogeneous simultaneous presentation of the two torus characters
+
+Put \(S=k[x_0,x_1,x_2,x_3]\),
+\(C_{u,v}=[s^4:s^3t:u st^3:v t^4]\),
+and let the intrinsic torus have weights \((0,1,3,4)\).
+The degree-four weight-four monomial space has the **three** basis monomials
+\[
+ \tag{1}
+ D_+=x_1^4,\qquad
+ P_+=x_0^2x_1x_2,\qquad
+ R_+=x_0^3x_3.
+\]
+The ratios on the dense coordinate torus are
+\[
+ \frac{P_+}{D_+}=\frac{x_0^2x_2}{x_1^3}=:u(x),\qquad
+ \frac{R_+}{D_+}=\frac{x_0^3x_3}{x_1^4}=:v(x).
+\]
+Each \(C_{u,v}\) is mapped to the constant point
+\([D_+:P_+:R_+]=[1:u:v]\).
+The quartic triple therefore gives the rational transverse
+quotient
+\[
+ \tag{2}
+ \pi_+:\mathbf P^3\dashrightarrow\mathbf P^2,
+ \quad [x]\mapsto[D_+(x):P_+(x):R_+(x)].
+\]
+The first nontrivial *single-character* monomial
+pencils occur in degrees two and three, with
+\(\xi=P_+/R_+=x_1x_2/(x_0x_3)=u/v\)
+and
+\(\eta=P_+^2/(D_+R_+)=u^2/v\).
+But the degree-\(d\) monomial weight spaces for \(d=1,2,3\)
+all have dimension at most \(1,2,2\),
+respectively (direct exponent enumeration), so **degree four
+is the minimum degree admitting a single monomial
+weight space that realizes *both* independent torus
+characters by three sections.**
+The chart \([D_+:P_+:R_+]\) is defined on the dense
+ambient coordinate torus, where \(x_1\ne0\).
+
+## 2. The full Chow form produces an entire family of actual equations
+
+Let
+\[
+ \sigma=\sum_i n_i[(u_i,v_i)]\in\operatorname{Sym}^m(\mathbf G_m)^2,
+ \qquad m=\sum_i n_i,
+ \quad
+ \mathcal C_\sigma(X,Y,Z)
+   =\prod_i(X+u_iY+v_iZ)^{n_i}.
+\]
+Define the following **homogeneous polynomial in the actual
+ambient coordinates**:
+\[
+ \tag{3}
+ \Phi_\sigma^+(\lambda,\mu;x)
+ :=\mathcal C_\sigma(
+   \lambda P_+(x)+\mu R_+(x),
+   -\lambda D_+(x),-\mu D_+(x))
+ =\prod_i\left[
+  \lambda(P_+-u_iD_+)+\mu(R_+-v_iD_+)
+ \right]^{n_i}.
+\]
+Write
+\[
+ \tag{4}
+ \Phi_\sigma^+=\sum_{j=0}^m
+     \lambda^{m-j}\mu^j B_j^+(\sigma;x),
+ \qquad
+ \mathfrak B_\sigma^+=(B_0^+,\ldots,B_m^+)\subset S.
+\]
+Each \(B_j^+\) is homogeneous of degree \(4m\) in \(x\),
+and polynomial in the **elementary multisymmetric
+coefficients** of the full transverse Chow form.
+No carrier, torus eigenform, or decomposition into
+different \(n_i\)-schemes has been selected.
+
+**Proposition A (the actual-ideal containment).**
+For **any proper homogeneous CI**
+\(J=(F_a,G_b)\) whose entire fundamental
+cycle is \([V(J)]=\sum_i n_i[C_{u_i,v_i}]\),
+\[
+ \tag{5}\boxed{\mathfrak B_\sigma^+\subset J.}
+\]
+No invariant-ideal hypothesis is required.
+
+*Proof.* At the generic point of \(C_i\), the
+Artinian local ring \(S_{I_{C_i}}/J_{I_{C_i}}\)
+has length \(n_i\); its maximal ideal
+has \(n_i\)-th power zero. Every
+\(P_+-u_iD_+\) and \(R_+-v_iD_+\)
+vanishes in its residue field.
+Hence the \(i\)-th factor in (3),
+raised to \(n_i\), is zero.
+Thus \(\Phi_\sigma^+\), and therefore
+each of its \(\lambda,\mu\) coefficients,
+vanish in every generic local CI.
+The homogeneous CI ring is Cohen–Macaulay
+of pure dimension two and has no
+embedded associated primes. Injection into
+the product of localizations at minimal
+primes then yields (5). \(\square\)
+
+**Proposition B (exact toric coefficient ideal).**
+Inside the Laurent coordinate ring
+of the dense ambient coordinate torus,
+\[
+ \tag{6}
+ \boxed{\mathfrak B_\sigma^+
+   =\bigcap_i I_{C_{u_i,v_i}}^{\,n_i}.}
+\]
+The right-hand side uses **ordinary powers in
+this torus ring**, where each curve ideal
+is generated by the two transverse characters
+\(u(x)-u_i,v(x)-v_i\). Equivalently,
+in the transverse parameter plane \(k[U,V]\),
+the coefficient ideal of
+\(\prod_i[\lambda(U-u_i)+\mu(V-v_i)]^{n_i}\)
+is exactly
+\(\bigcap_i(U-u_i,V-v_i)^{n_i}\).
+
+*Proof.* Work at a point \(p_i=(u_i,v_i)\).
+The product factors as
+\[
+  [\lambda(U-u_i)+\mu(V-v_i)]^{n_i}\,Q_i(\lambda,\mu;U,V).
+\]
+At \(p_i\), \(Q_i(\lambda,\mu;p_i)\ne0\)
+as a polynomial, because all other \(p_j\ne p_i\).
+Multiplication by this nonzero binary form
+is injective between the finite-dimensional
+binary-form spaces of degrees \(n_i\) and \(m\).
+A maximal-rank minor is invertible in the
+local ring at \(p_i\), so the coefficient
+ideal of the product is the same as that
+of the first factor.
+In characteristic zero its binomial
+coefficients are units, and the latter
+ideal is precisely
+\((U-u_i,V-v_i)^{n_i}\).
+At any point away from all \(p_i\),
+the evaluated product is a nonzero
+polynomial in \(\lambda,\mu\), so at
+least one coefficient is a unit.
+These local identities prove equality
+of the affine ideals, and pulling back
+through the dense-torus quotient
+proves (6). \(\square\)
+
+The local length of the **canonical Chow
+envelope** at \(p_i\) is
+\(\binom{n_i+1}{2}\), whereas an actual
+CI realization with cycle multiplicity \(n_i\)
+has local length only \(n_i\). The
+difference
+\(\binom{n_i}{2}\) records exactly
+how much generic transverse fat-point
+structure must be **removed by the
+actual two-generator CI ideal**.
+It vanishes on reduced cycles and is
+nonzero for repeated components. In
+positive characteristic, mixed binomial
+coefficients can vanish and (6) need not
+identify the ordinary powers; (5)
+holds without this characteristic
+restriction.
+
+## 3. An opposite quartic presentation removes the extra coordinate lines
+
+Apply coordinate reversal
+\(\iota([x_0:x_1:x_2:x_3])
+      =[x_3:x_2:x_1:x_0]\).
+The degree-four weight-twelve monomials
+\[
+ \tag{7}
+ D_-=x_2^4,\quad
+ P_-=x_1x_2x_3^2,\quad
+ R_-=x_0x_3^3
+\]
+give the opposite transverse quotient
+\[
+ \pi_-([x])=[D_-:P_-:R_-].
+\]
+On the same translated curve,
+\[
+ \tag{8}
+ u^-=\frac{v^2}{u^3},\qquad
+ v^-=\frac{v^3}{u^4};
+ \quad
+ \xi^-=\frac{u^-}{v^-}=\frac uv=\xi,\qquad
+ \eta^-=\frac{(u^-)^2}{v^-}=\frac v{u^2}=\eta^{-1}.
+\]
+The parameter involution has
+exponent matrix
+\(\left(\begin{smallmatrix}-3&2\\-4&3\end{smallmatrix}\right)\),
+with determinant \(-1\) and square the identity.
+The two quotient charts preserve **the same first moment**
+\[
+ \tag{9}
+ M_1(\sigma^-)=\sum_i n_i \frac{u_i^-}{v_i^-}
+              =\sum_i n_i\frac{u_i}{v_i}=M_1(\sigma).
+\]
+
+Apply (3)–(4) to
+\(\sigma^-=\sum_i n_i[(u_i^-,v_i^-)]\)
+using \(D_-,P_-,R_-\).
+This yields a second set of \(m+1\)
+degree-\(4m\) forms and the ideal
+\(\mathfrak B_\sigma^-\).
+The same proof gives
+\[
+ \tag{10}
+ \mathfrak B_\sigma^-\subset J,\qquad
+ (\mathfrak B_\sigma^-)|_{\text{ambient torus}}
+ =\bigcap_i I_{C_i}^{n_i}.
+\]
+The two global systems have **the same
+dense-torus ordinary fat-point envelope**,
+but differ at their boundary bases:
+\[
+ \tag{11}
+ \operatorname{Base}(\pi_+)
+  =V(x_0,x_1)\cup V(x_1,x_3),
+ \qquad
+ \operatorname{Base}(\pi_-)
+  =V(x_0,x_2)\cup V(x_2,x_3).
+\]
+These are the **four** coordinate lines in
+the base of the quadric pencil
+\(V(x_1x_2,x_0x_3)\), split into opposite pairs.
+Their intersection is **exactly**
+\(\{p_0,p_\infty\}\), the endpoints of
+every translated quartic.
+
+**Proposition C (global set-theoretic recognition).**
+Set \(\mathfrak B_\sigma=
+  \mathfrak B_\sigma^++\mathfrak B_\sigma^-\).
+Then
+\[
+ \tag{12}
+ \boxed{
+ \sqrt{\mathfrak B_\sigma}
+   = I_{\bigcup_i C_{u_i,v_i}},
+ \quad
+ \mathfrak B_\sigma\subset J
+ \text{ for every proper CI realizing }\sigma.}
+\]
+*Proof.* In the domain of \(\pi_+\),
+coefficient vanishing in (3) means that the
+binary product in \(\lambda,\mu\) is the
+zero polynomial. Since its coefficient
+ring at a fixed point is a field, one
+linear factor must vanish identically,
+so \([D_+:P_+:R_+]=[1:u_i:v_i]\).
+All three entries are nonzero, so such
+a point lies in the dense coordinate
+torus and on \(C_i\). The remaining
+zeros of \(\mathfrak B_\sigma^+\)
+are exactly the two base lines
+in (11), and analogously for
+\(\mathfrak B_\sigma^-\).
+Intersecting the two zero sets removes
+the four base lines except their
+intersections at \(p_0,p_\infty\),
+which already lie on every \(C_i\).
+The Nullstellensatz gives (12).
+The containment follows from (5), (10).
+\(\square\)
+
+The coefficient ideal \(\mathfrak B_\sigma\)
+may retain **embedded endpoint thickness**.
+Equality of its saturated sheaf with the
+full symbolic power intersection, or
+automatic two-generation of its
+over-ideals, is **not** claimed.
+On the dense torus its local lengths
+are \(\binom{n_i+1}{2}\), not the
+multiplicities \(n_i\) of a realizing CI.
+
+**Reduced-cycle converse, with degree exhaustion.**
+When \(n_i=1\) at all \(m\) distinct points
+and \(ab=4m\), a proper CI \(J=(F_a,G_b)\)
+satisfies \([V(J)]=\sum_i[C_i]\)
+**if and only if**
+\(\mathfrak B_\sigma\subset J\).
+Indeed (12) confines its cycle to
+the specified \(m\) curves; (6) makes
+the generic local ideal of \(J\) equal
+to the maximal ideal at every
+included component, hence its
+multiplicity is one. Bézout degree
+\(ab=4m\) forces all \(m\) components
+to appear. For repeated \(n_i\),
+the inclusion alone does **not**
+fix each actual multiplicity;
+the full fiber algebra and its
+lengths must still be specified.
+For an exact **local algebra control**,
+a fat-point bound \((\epsilon,\delta)^3\)
+is contained in the two-generated
+CI ideal \((\epsilon^2,\delta^2)\),
+but the latter quotient has
+length \(4>3\). Thus even for
+Artinian complete intersections
+the nilpotence exponent \(n_i\)
+of the Chow coefficient ideal is
+not an upper bound on the
+actual local CI length. One
+must retain the multiplicity
+data of the target quotient,
+not infer it from the
+coefficient ideal alone.
+
+## 3.1 The exact moving-quotient defect: why reduced cycles are different
+
+The [accepted constant embedded quotient framework](../torus_embedded_quotients.md)
+provides the correct meaning of (6), and
+the [punctual Hilbert scheme](https://sites.math.washington.edu/~jarod/moduli-versions/moduli-2-17-25.pdf)
+describes its possible finite-length quotients.
+This comparison makes the distinction between
+reduced and nonreduced cycles quantitative.
+
+On the projective ambient coordinate torus
+use the invertible coordinates
+\[
+ t=x_1/x_0,\quad
+ u=x_0^2x_2/x_1^3,\quad
+ v=x_0^3x_3/x_1^4.
+\]
+Let \(p_i=(u_i,v_i)\), let
+\(\mathfrak m_i=(u-u_i,v-v_i)\), and put
+\[
+ \tag{17}
+ K_\sigma=\bigcap_i\mathfrak m_i^{n_i}
+ \subset k[u^{\pm1},v^{\pm1}],\qquad
+ B_\sigma=k[u^{\pm1},v^{\pm1}]/K_\sigma.
+\]
+In characteristic zero,
+\[
+ \tag{18}
+ \boxed{\dim_k B_\sigma
+ =N_\sigma:=\sum_i\binom{n_i+1}{2}
+ =m+\delta_\sigma,\quad
+ \delta_\sigma=\sum_i\binom{n_i}{2}.}
+\]
+The toric coefficient ideal (6) identifies
+the restriction of the canonical Chow envelope
+with \(K_\sigma\). Thus **every actual proper
+CI** with full translated fundamental cycle
+\(\sigma\) determines a quotient
+\[
+ \tag{19}
+ \boxed{
+ B_\sigma\otimes_k k[t^{\pm1}]
+ \longtwoheadrightarrow
+ \mathcal A_{F,G}:=
+ k[t^{\pm1},u^{\pm1},v^{\pm1}]
+ /\bigl(F(1,t,ut^3,vt^4),
+        G(1,t,ut^3,vt^4)\bigr).
+ }
+\]
+The target is finite locally free of rank
+\(m\) over \(k[t^{\pm1}]\):
+it is finite by the source on the left,
+and torsion-free because the
+complete-intersection curve is
+Cohen–Macaulay with no embedded
+associated primes, and no minimal
+component lies in a fiber \(t=t_0\).
+Over the PID \(k[t^{\pm1}]\),
+finite torsion-free implies locally
+free; its generic rank is the sum of
+the local generic lengths \(n_i=m\).
+
+**The full Chow polynomial is the norm of the
+moving quotient.** Since the rank-\(m\)
+algebra \(\mathcal A_{F,G}\) has
+length-\(n_i\) local fibers at the
+fixed transverse points \(p_i\),
+multiplication by a generic linear
+form \(X+uY+vZ\) has determinant
+\[
+ \tag{19a}
+ \boxed{
+ \operatorname{Nm}_{\mathcal A_{F,G}/k[t^{\pm1}]}
+       (X+uY+vZ)
+ =\mathcal C_\sigma(X,Y,Z)
+ =\prod_i(X+u_iY+v_iZ)^{n_i}.
+ }
+\]
+This equality holds already over
+the generic function field and
+extends over \(k[t^{\pm1}]\)
+by flatness. In particular
+\[
+ \tag{19b}
+ \boxed{
+ \operatorname{Tr}_{\mathcal A_{F,G}/k[t^{\pm1}]}
+            (u/v)
+ =M_1(\sigma)
+ =\frac{[YZ^{m-1}]\mathcal C_\sigma}
+        {[Z^m]\mathcal C_\sigma}.}
+\]
+The first equality is the
+additivity of trace across local
+Artinian composition series, and
+the second is the elementary
+coefficient identity.
+Thus the single linear moment
+and **every** multisymmetric Chow
+coefficient are intrinsic norm
+coefficients of the *same moving
+finite-flat algebra* obtained from
+the actual two surface equations.
+None of those norm identities
+alone forces \(M_1=0\); the
+point is that the quotient is
+required to globalize to a
+homogeneous height-two CI across
+the two orbit endpoints.
+
+Therefore the kernel is a locally
+free submodule of rank
+\[
+ \tag{20}
+ \boxed{\operatorname{rank}\ker(19)
+       =\delta_\sigma=\sum_i\binom{n_i}{2}.}
+\]
+It is also an **ideal submodule**
+in the constant torus algebra.
+This is a precise, degree-independent
+**quotient-selection defect**:
+the canonical Chow envelope remembers
+the largest ordinary-power normal jets
+\(\mathfrak m_i^{n_i}\), while the
+actual CI must select a length-\(n_i\)
+quotient at each point, potentially
+**moving with the orbit parameter \(t\)**.
+
+- **Reduced entire cycle.**
+  All \(n_i=1\), so
+  \(\delta_\sigma=0\).
+  The surjection (19) is an
+  isomorphism. The actual ideal
+  therefore equals the constant
+  reduced-translate ideal on the
+  dense torus, and, since the
+  proper-CI ideal is saturated,
+  globally as well. This recovers
+  the accepted theorem that a
+  reduced translated-cycle CI is
+  invariant; hence \(M_1=0\)
+  follows from the established
+  eigenform/invariant-ideal theorem.
+- **Double components.**
+  At a point of multiplicity
+  \(n_i=2\), the constant
+  quotient is
+  \(k[\epsilon,\delta]/
+    (\epsilon,\delta)^2\), of length
+  three. A local length-two quotient
+  has one-dimensional ideal kernel
+  in its two-dimensional square-zero
+  maximal ideal. It is thus given
+  by a line in the normal
+  two-space, parametrized by
+  \(\mathbf P^1\). For a moving
+  actual CI, the line becomes a
+  rational map
+  \(t\mapsto\mathbf P^1\),
+  and the projective two-endpoint
+  extension and **simultaneous two
+  homogeneous generators** impose
+  the missing compatibility.
+  In the exceptional \((4,4)\)
+  doubled-two-component pair,
+  \(\delta_\sigma=2\), one
+  moving normal line per component.
+- **Higher multiplicities.**
+  The quotient selection lives in
+  the appropriate punctual Hilbert
+  scheme of length \(n_i\)
+  subschemes of the formal
+  transverse surface, cut out of
+  the \(\mathfrak m_i^{n_i}\)
+  envelope. Its local complete-
+  intersection locus is further
+  constrained by the original
+  global pair.
+
+For clarity, (19) is a **necessary**
+constant-envelope quotient, not a
+sufficient construction of a
+projectively embedded CI.
+This extends the **constant fat-algebra source**
+of the accepted [R-0072 movement framework](../../results/torus_quotient_movement_bounds.md)
+from the single supported point
+\(m[(1,1)]\) to **an arbitrary full
+translated multicycle**. It does **not**
+extend R-0072's socle/Plücker
+degree bounds automatically:
+those estimates use the dualizing
+and conormal data of a *single*
+supported rational quartic, whereas
+several supports interact at the
+shared endpoints. The extra source
+rank \(\delta_\sigma\) alone carries
+no degree bound or moment vanishing.
+
+An arbitrary moving quotient
+over \(k[t^{\pm1}]\) need not
+extend across either endpoint,
+have the correct homogeneous
+source modules, or be generated
+by two global surface equations.
+Those missing conditions are
+already central to [the embedded
+quotient framework](../../frameworks/embedded-torus-quotients/index.md)
+and the [actual equation filtration](../equations/global_equation_jets.md).
+Here the **new exact input** is
+that the *full transverse Chow polynomial
+itself constructs the universal
+constant fat envelope* and determines
+the rank \(\delta_\sigma\) of every
+moving quotient that a full-cycle CI
+would have to select.
+
+## 3.2 Exact full-cycle realization criterion via cofactor identities and the norm
+
+Propositions A–C yield a simple
+**necessary-and-sufficient algebraic
+recognition criterion**, with no
+choice of a carrier. Let
+\(F_a,G_b\) be a proper pair with
+\(ab=4m\), and let \(\sigma\)
+be a prescribed effective
+translated multicycle of total
+multiplicity \(m\). Then
+\[
+ \tag{21}
+ \boxed{
+ [V(F,G)]=\sigma
+ \quad\Longleftrightarrow\quad
+ \begin{cases}
+  \mathfrak B_\sigma^++\mathfrak B_\sigma^-
+       \subset(F,G),\\
+  \operatorname{Nm}_{\mathcal A_{F,G}/k[t^{\pm1}]}
+        (X+uY+vZ)=\mathcal C_\sigma(X,Y,Z).
+ \end{cases}}
+\]
+Under the first condition the
+actual torus algebra \(\mathcal A_{F,G}\)
+is automatically finite flat of
+rank \(m\): its support lies on the
+prescribed translated curves, its
+generic transverse length sum is
+\(ab/4=m\) by Bézout, and
+Cohen–Macaulay purity removes
+vertical or embedded components.
+The second condition then checks
+**exactly the multiplicity partition**
+\(n_i\) by unique factorization of
+the zero-cycle Chow polynomial.
+For distinct reduced cycles the
+second condition is **redundant**,
+because each local generic length
+is at most one and Bézout forces
+all components to occur.
+
+Concretely, the first condition
+is a finite collection of
+**homogeneous cofactor identities**
+\[
+ \tag{22}
+ B_j^\pm(\sigma;x)
+   =A_j^\pm(x)F_a(x)
+      +C_j^\pm(x)G_b(x),
+ \quad j=0,\ldots,m,
+ \quad
+ \begin{cases}
+  \deg A_j^\pm=4m-a,\\
+  \deg C_j^\pm=4m-b.
+ \end{cases}
+\]
+The left sides are explicit
+polynomials in the **elementary
+multisymmetric coefficients**
+of \(\mathcal C_\sigma\).
+The right sides involve the
+**same actual two defining
+surfaces** throughout.
+The norm condition is a
+determinantal equation for the
+multiplication representation
+of the finite-flat quotient;
+it is polynomial in the
+universal quotient algebra's
+structure constants on a
+free-basis chart.
+Properness remains an essential
+open condition. Thus (21)–(22)
+give an **exact degree-by-degree
+algebraic incidence for full
+paired cycles**, including
+nonreduced multiplicities,
+without assuming an invariant
+or eigenform generator.
+This is an equivalent
+realization *formulation*,
+not an elimination of the
+surface or quotient variables,
+a degree-independent bound,
+or a vanishing theorem.
+
+## 4. Exact relation to the first moment and the all-degree gap
+
+The original coefficient is
+\[
+ \tag{13}
+ [YZ^{m-1}]\mathcal C_\sigma
+  =\left(\prod_i v_i^{n_i}\right)
+      \sum_i n_i\frac{u_i}{v_i}
+  =[Z^m]\mathcal C_\sigma\cdot M_1.
+\]
+The same normalized coefficient is
+unchanged under reversal (8).
+On the boundary formal specialization
+\(P_+=R_+=0\), (3) reduces to
+\[
+ \tag{14}
+ \Phi_\sigma^+
+ \equiv(-D_+)^m
+       \mathcal C_\sigma(0,\lambda,\mu)
+   \pmod{(P_+,R_+)}.
+\]
+Its \(\lambda\mu^{m-1}\) coefficient
+is \((-D_+)^m[YZ^{m-1}]\mathcal C_\sigma\).
+This is an exact source-side realization
+of the **elementary first moment**.
+But the large power \(D_+^m\), and the
+base lines of \(\pi_+\), make
+the restriction to the disjoint line
+tautological in the graded binary CI.
+It does **not** allow cancellation of
+\(D_+^m\) modulo \(J+(P_+,R_+)\).
+The opposite chart supplies independent
+boundary data, not an automatic
+cancellation theorem.
+
+**A serious low-order limitation of the
+degree-\(4m\) Chow pullbacks.**
+For any proper \((a,b)\) CI disjoint
+from the line \(L=V(x_0,x_3)\),
+the graded finite-free
+\(k[x_0,x_3]\)-basis has fiber
+degrees at most \(d=a+b-2\).
+Consequently, as in the
+[accepted free-basis comparison](fixed_surface_and_endpoint_algebras.md#4-the-plane-pencil-converts-every-admissible-pair-into-one-finite-cover),
+*every* class in
+\((S/(F,G))_{4m}\),
+\(4m=ab\), is automatically
+in \(I_L^{r_{\mathrm{Chow}}}\),
+where
+\[
+ \tag{23}
+ \boxed{r_{\mathrm{Chow}}
+ =ab-(a+b-2)
+ =(a-1)(b-1)+1.}
+\]
+Thus all the degree-\(4m\)
+coefficient-membership requirements
+from (3)–(4) are automatically true
+modulo \(I_L^{r_{\mathrm{Chow}}}\)
+for every proper pair, even without
+translated-cycle support.
+The first nonautomatic normal
+order of the **raw** full-Chow
+pullbacks is therefore \(10\) for
+\((4,4)\), \(26\) for \((6,6)\).
+The older quadric-spectrum
+power \(Q^m\) has smaller
+threshold
+\(2m-(a+b-2)\).
+Hence an effective all-degree
+proof cannot hope to extract
+\(M_1=0\) merely from **low-order
+unreduced pullback coefficients**.
+It must exploit the
+common **cofactor syzygies,
+multiplicity-sensitive quotient
+selection, or opposite-chart
+saturation/gluing** to lower
+the order of useful information.
+This is a precise limit on the
+method, not a denial of the
+full-Chow envelope's exact
+ideal-containment and support
+statements.
+
+The **degree-uniform realization problem** is
+now expressible without selecting
+individual carriers:
+
+> For every \(ab=4m\), characterize the
+> two-generator proper homogeneous
+> height-two ideals \(J=(F_a,G_b)\)
+> containing the explicit full
+> Chow-envelope ideal \(\mathfrak B_\sigma\),
+> with generic local intersection lengths
+> exactly \(n_i\). Prove (or disprove)
+> that their parameter cycles must satisfy
+> \([YZ^{m-1}]\mathcal C_\sigma=0\).
+
+This is a joint algebraic condition in the
+**entire paired parameter configuration**,
+its **two opposite toric quotient charts**,
+and **actual global equations**, not a
+carrier-by-carrier mate search.
+The characteristic-zero UM1 claim remains
+open; the construction does **not**
+imply the required coefficient vanishing.
+
+### The complementary full plane-pencil norm
+
+For \(x_3=w x_0\) on \(x_0=1\),
+the four section points of a single translate
+are \((X,Y)=(t,ut^3)\) with \(t^4=w/v\).
+Their moving norm is
+\[
+ \tag{15}
+ P_{\xi,\eta}(w;y,z)
+ =\boxed{(1-2\xi w yz)^2
+   -(\xi^2/\eta)w(y^2+\eta w z^2)^2}.
+\]
+An actual translated-cycle CI satisfies,
+for every finite \(w\),
+\[
+ \tag{16}
+ \widehat{\mathscr R}_{F,G}(w;y,z)
+   =\prod_iP_{\xi_i,\eta_i}(w;y,z)^{n_i},
+ \qquad
+ [yz]\widehat{\mathscr R}_{F,G}
+  =-4w\,M_1.
+\]
+The \(w=1\) identity was already
+recorded in
+[transverse_chow_moment_realization.md](transverse_chow_moment_realization.md#12-the-complete-ci-resultant-as-a-product-of-two-step-toric-norms).
+Formula (15) shows why the **single
+plane-section resultant** is insufficient:
+each toric factor is itself the Chow norm
+of an affine \((2,2)\) complete
+intersection \(XY=\xi w,\ Y^2=\eta w X^2\).
+The additional constraint is the **common
+homogeneous lifting of these plane
+sections over the whole pencil with
+both endpoint regimes**, precisely the
+same missing global compatibility
+expressed by the two opposite
+Chow-envelope charts.
+
+The two descriptions—the moving
+plane-resultant norm and the pulled-back
+two-dimensional Chow envelope—share
+the same underlying \(\sigma\). Their
+exact identification does not prove UM1;
+it exposes the unavoidable boundary
+gluing and actual-equation requirement.
