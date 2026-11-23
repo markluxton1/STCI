@@ -5,6 +5,67 @@
 **Scope:** fixed smooth rational quartic \(C=[s^4:s^3t:st^3:t^4]\subset\mathbf P^3\); prioritize geometry and actual equations, not new infrastructure. No STCI claim in characteristic zero.
 
 
+## Central target, with arbitrary translated residual components allowed
+
+**UM1 (conjecture, not proved):** For any proper actual
+two-surface CI \(Z=V(F_a,G_b)\) in characteristic
+zero, if its **entire fundamental cycle** is
+\[
+ [Z]=\sum_i n_i[C_{u_i,v_i}],\qquad
+ n_i>0,\qquad \sum_i n_i=ab/4,
+\]
+then \(\sum_i n_i u_i/v_i=0\).
+There may be multiple **residual translated
+quartics**, including nonreduced components.
+There may be **no additional
+nontranslated curve components**.
+The sole-support case \(m[C]\) is only
+the diagonal counterfactual; it would
+contradict UM1 in characteristic zero.
+
+**Actual-equation reduction.** Such a pair has
+\(H_Z(x_1x_2,x_0x_3)\in(F,G)\), where
+\(H_Z(A,B)=\prod_i(A-(u_i/v_i)B)^{n_i}\).
+It also satisfies
+\(A M_{12}-2B M_{03}\in(F,G)\).
+For first normal equation layers
+\(F=f_0+x_0p+x_3q+\cdots\),
+\(G=g_0+x_0r+x_3s+\cdots\)
+along the disjoint line \(L=V(x_0,x_3)\),
+the exact consequence of translated
+support is
+\[
+ 2M_1=\operatorname{Res}_{f_0,g_0}(ps-qr).
+\]
+Thus UM1 is **equivalent to first-jet
+isotropy on the joint actual-equation
+incidence with all components translated**.
+This isotropy does **not** follow from
+the regular-sequence condition alone.
+In particular, restricting the mixed
+Jacobian identity to \(L\) gives only
+\(x_1x_2 J(f_0,g_0)\equiv0\pmod{(f_0,g_0)}\);
+this is automatic because the Jacobian
+generates the binary CI's socle.
+One must exploit the **entire spectral
+and global support** constraint, beyond
+that tautological restriction. The
+stronger sole-support power test
+\(I_C^m\subset(F,G)\) is an independent
+*special-case equivalence*, not a
+substitute for UM1 and not a premise
+for the general translated-cycle proof.
+
+The [recognized proof scopes](../../arguments/torus/chow_arrangement_moments.md)
+cover actual invariant ideals,
+eigenform generators and certain
+congruences; selected low-degree cases
+on this PR still await review.
+The general non-invariant nonreduced
+case remains an open mathematical
+implication, not established by the
+new residue/Poisson bridge.
+
 ## Primary Chow realization and first-moment separation
 
 For repeated curves the primary space remains the unordered cycle space
