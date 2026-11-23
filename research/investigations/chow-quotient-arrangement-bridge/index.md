@@ -120,6 +120,29 @@ or that an intrinsic Hilbert limit remains a two-generator CI.
 **Review status:** proposed new argument, not independently
 six-perspective reviewed. No unrestricted STCI theorem.
 
+### Direct sole-support jet test: compatible but not sufficient
+
+The [STCI-specific necessary-jet check](../../arguments/torus/sole_support_first_jet_gate.md)
+shows that a hypothetical \((a,b)\) STCI with \(m=ab/4\)
+has \(\Omega(v_0,v_3)=ab/2=2m\), **not zero**,
+since \(M_{12}-2M_{03}\in(F,G)\).
+The first normal restriction of this Poisson identity is
+one scalar congruence in the binary CI's one-dimensional
+socle. Explicit proper containing pairs in all
+degrees \(a,b\ge4\) achieve exactly this scalar,
+yet \(C\) has generic multiplicity one and a residual
+degree \(ab-4\). No contradiction is available from
+the first jets alone.
+
+The spectral power \(Q^m\in(F,G)\) imposes **no
+nonautomatic constraint on its normal truncation**
+before order \(r_*=(a-2)(b-2)/2\)
+(\((6,6):8,\ (5,8):9\)), by the graded free
+\(k[x_0,x_3]\)-module splitting. This is a precise
+reason why a low-order jet check cannot settle the
+unrestricted STCI problem without the global
+full-equation/zero-support incidence.
+
 ## Motivation and the three genuinely different parameter spaces
 
 The [full Chow-polytope rigidity theorem R-0074](../../results/chow_polytope_rigidity.md) says that the cycles with full column-weight polytope \(mP_C\) are exactly effective sums of \(m\) diagonal translates of \(C\). This is a strong **cycle** classification, not a classification of reduced unions, their blow-ups, or equations.
