@@ -119,6 +119,46 @@ interaction between the two equations
 without promoting the family check
 into a general low-degree exclusion.
 
+### Complete residue detection of set-theoretic support
+
+The [exact power/residue criterion](../../arguments/torus/sole_support_first_jet_gate.md#full-exact-stci-jet-criterion-ideal-powers-and-the-perfect-residue-pairing)
+uses the accepted
+\(I_C^m\subset(F,G)\) bound
+for an actual supported CI.
+For a proper pair \(F,G\in I_C\),
+the converse holds, so STCI
+is equivalent to this ideal-power
+membership. The ideal
+\(I_C=(Q,U,W,V)\) has one
+quadric and three cubic
+generators. Its \(m\)th ordinary
+power has explicit monomial
+generators; perfect finite flat
+Gorenstein duality reduces their
+membership to finitely many
+relative residue vanishings
+\(\mathcal R_{F,G}(g e)=0\),
+for every generator \(g\)
+and every element \(e\) of a
+graded \(k[x_0,x_3]\)-basis
+of the **actual** CI algebra.
+This gives a precise necessary
+**and sufficient** coefficient
+gate for each bidegree, without
+selecting a carrier.
+The scalar first-jet condition,
+the first spectral-power
+residue and the first
+normal-jet pairing are
+only partial rows of this
+full perfect pairing; explicit
+quartics pass them and have
+residual support.
+The algebraic elimination of
+actual equation coefficients
+to obtain an all-degree
+contradiction remains open.
+
 ## Bridges
 
 An osculating quadric puts the entire quadratic conductor at one general
