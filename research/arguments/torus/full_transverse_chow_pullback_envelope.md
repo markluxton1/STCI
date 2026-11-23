@@ -651,6 +651,56 @@ The opposite chart supplies independent
 boundary data, not an automatic
 cancellation theorem.
 
+**A serious low-order limitation of the
+degree-\(4m\) Chow pullbacks.**
+For any proper \((a,b)\) CI disjoint
+from the line \(L=V(x_0,x_3)\),
+the graded finite-free
+\(k[x_0,x_3]\)-basis has fiber
+degrees at most \(d=a+b-2\).
+Consequently, as in the
+[accepted free-basis comparison](fixed_surface_and_endpoint_algebras.md#4-the-plane-pencil-converts-every-admissible-pair-into-one-finite-cover),
+*every* class in
+\((S/(F,G))_{4m}\),
+\(4m=ab\), is automatically
+in \(I_L^{r_{\mathrm{Chow}}}\),
+where
+\[
+ \tag{23}
+ \boxed{r_{\mathrm{Chow}}
+ =ab-(a+b-2)
+ =(a-1)(b-1)+1.}
+\]
+Thus all the degree-\(4m\)
+coefficient-membership requirements
+from (3)–(4) are automatically true
+modulo \(I_L^{r_{\mathrm{Chow}}}\)
+for every proper pair, even without
+translated-cycle support.
+The first nonautomatic normal
+order of the **raw** full-Chow
+pullbacks is therefore \(10\) for
+\((4,4)\), \(26\) for \((6,6)\).
+The older quadric-spectrum
+power \(Q^m\) has smaller
+threshold
+\(2m-(a+b-2)\).
+Hence an effective all-degree
+proof cannot hope to extract
+\(M_1=0\) merely from **low-order
+unreduced pullback coefficients**.
+It must exploit the
+common **cofactor syzygies,
+multiplicity-sensitive quotient
+selection, or opposite-chart
+saturation/gluing** to lower
+the order of useful information.
+This is a precise limit on the
+method, not a denial of the
+full-Chow envelope's exact
+ideal-containment and support
+statements.
+
 The **degree-uniform realization problem** is
 now expressible without selecting
 individual carriers:
