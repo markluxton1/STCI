@@ -5,7 +5,7 @@
 ## Sextic pairs with an ADE pencil carrier
 
 **Independently reviewed reduction.** Fix \(C_0=[s^4:s^3t:st^3:t^4]\) in characteristic zero.
-If a proper supported sextic pair has a general normal pencil carrier
+If a proper sole-supported sextic pair has a general normal pencil carrier
 with only rational double points, its canonical filtration satisfies
 \[
  \boxed{L=\mathcal O_{\mathbf P^1}(-6),\qquad D_2=0.}
@@ -20,18 +20,25 @@ pencil, smoothness off the curve and saturated divisor profile. Retain
 \(\deg T=4l-17\). The full first-symbol divisor of a general member
 \(S\) has degree \(l+10\). All singularities of \(S\) lie on \(C_0\).
 
-**What this ADE proof adds to the general theorem.** On the chosen
-normal sextic, the all-degree
+**What this ADE proof adds to the general theorem.** On any normal
+member of such a sole-supported \((6,6)\) pencil, the all-degree
 [Hodge-gap and exact-index criteria](normal_carrier_divisor_geometry.md#4-strongest-current-all-degree-consequence-for-the-fixed-rational-quartic)
 already force
 \[
  C_0^2=\tfrac83,\quad
- \sum_q\Delta_q=\tfrac{38}{3},\quad
  R=\operatorname{lcm}_P r_P=9,\quad
  \operatorname{ord}(3C_0-2H)=3.
 \]
-The correction and exact index are *necessary for any*
-normal sextic mate, not conclusions peculiar to ADE types.
+These self-intersection and exact-index constraints do not require
+ADE singularities. When the chosen carrier is Du Val, its crepant
+minimal resolution additionally gives the exceptional correction
+\[
+ \sum_q\Delta_q=\tfrac{38}{3}
+\]
+by [crepant adjunction](normal_carrier_divisor_geometry.md#25-the-ade-exceptional-correction-is-the-normal-layer-defect-budget).
+This correction target is asserted here only in that Du Val setting;
+for a noncrepant resolution, discrepancy terms alter the adjunction
+calculation.
 The present proof asks a different question: **can a
 globally Du Val sextic realize that equality geometry while
 carrying an actual length-nine intersection?** Jaffe's
