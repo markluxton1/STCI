@@ -203,6 +203,47 @@ Equivalently,
    \iff [YZ^{m-1}]\mathcal C_\sigma=0
    \iff [yz]\mathscr R_{F,G}=0.}
 \]
+### The Chow coefficient and first-jet residue are the *same* obstruction
+
+For an entire translated-cycle CI, the
+[spectral–Jacobian first-jet identity](spectral_jacobian_first_jet_bridge.md#4-the-first-moment-is-a-perfect-residue-pairing-of-first-jets)
+states, for
+\(F=f_0+x_0p+x_3q+\cdots\),
+\(G=g_0+x_0r+x_3s+\cdots\),
+\[
+ 2M_1=\operatorname{Res}_{f_0,g_0}(ps-qr).
+\]
+Comparing this with (M) and (R) gives the
+**three simultaneous exact presentations**
+\[
+ \tag{Triple}
+ \boxed{
+  \frac{[YZ^{m-1}]\mathcal C_\sigma}
+       {[Z^m]\mathcal C_\sigma}
+  =-\frac14
+    \frac{[yz]\mathscr R_{F,G}}{\mathscr R_{F,G}(0,0)}
+  =\frac12\operatorname{Res}_{f_0,g_0}(ps-qr).
+ }
+\]
+Thus the elementary multisymmetric coefficient,
+the mixed second-order polar of the *actual
+Sylvester resultant*, and the first-jet
+Macaulay/Serre pairing agree on the **whole**
+translated-cycle CI incidence, without invariance.
+For the unresolved universal moment theorem,
+the required identity is **not** any of these
+equalities—they are already proved
+conditionally on being a translated-cycle CI.
+It is the new statement that the three
+equal quantities always **vanish**.
+
+The full projective transverse Chow form is
+not the Grassmannian Chow form of the degree-\(4m\)
+curve. The latter is the actual resultant; (R)
+connects their **distinguished coefficients**
+through the four-point section of every
+translated quartic.
+
 This is an **exact coefficient bridge from the actual two
 defining equations to the full two-dimensional Chow
 polynomial**, with arbitrary translated residual components
