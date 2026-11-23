@@ -80,6 +80,23 @@ obstructions. The full norm is needed to specify the translated
 cycle; its perfect-power specialization for sole support is a
 restatement of the original realization problem, not a vanishing proof.
 
+## An all-mate non-invariant positive control
+
+The [PR #172 fixed exceptional-quartic carrier theorem](https://github.com/markluxton1/STCI/blob/e5f97d3b23c7023e6940b752d7fa4112e5706f78/research/arguments/torus/quartic_exceptional_carrier_geometry.md#all-mate-degrees-on-a-retained-exceptional-carrier)
+has an immediate first-moment consequence beyond the \((4,4)\)
+classification. On any fixed nonzero member \(T\) of the exceptional
+quartic pencil, every proper mate whose entire fundamental cycle is a
+sum of translated quartics has degree \(4j\) and cycle
+\(2j[C_{1,1}]+2j[C_{1,-1}]\), after the stated normalization.
+Hence \(M_1=2j(1-1)=0\) for **every \(j\ge1\)**, even though
+the carrier need not be an eigenform. The proof uses the actual
+fixed-carrier multiplicity lattice, \(S_2\) extension and the
+all-mate singleton quartic exclusion; for the distinguished nodal
+member the Hodge matrix and Cartier parity independently recover
+that lattice. It does not extend to arbitrary moving carriers.
+This is a concrete all-mate mechanism additional to direct
+finite-free trace or proper invariant degeneration.
+
 ## Downward controls: why apparent shortcuts fail
 
 1. **No universal invariant-CI degeneration.** The
