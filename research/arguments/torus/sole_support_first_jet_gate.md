@@ -180,6 +180,126 @@ truncation-only** contradiction; it does not
 assert first-jet independence from all higher
 STCI conditions.
 
+## The first power obstruction is another Serre-duality class
+
+The normal-order bound (8) has a **coordinate-independent leading
+term** in the associated graded module of the disjoint line.
+Put \(I_L=(x_0,x_3)\), \(R=k[x_1,x_2]\), \(T=k[x_0,x_3]\),
+\(d=a+b-2\), \(N=2m=ab/2\), and \(r_*=N-d\).
+The graded freeness of \(E=S/(F,G)\) over \(T\), with fiber
+\(A=R/(f_0,g_0)\), gives
+\[
+ \operatorname{gr}_{I_L} E\simeq A\otimes_k T
+ \quad\text{as a bigraded *module* (not as an algebra).}
+\]
+The \(I_L\)-adic leading class of \(Q^m\) therefore lies in
+\[
+ \tag{9}
+ \boxed{
+ \mathfrak o_{r_*}(F,G)
+ =[Q^m]\in
+ \big(I_L^{r_*}E/I_L^{r_*+1}E\big)_N
+ \simeq A_d\otimes_k T_{r_*}
+ \simeq H^1(L,\omega_L)\otimes_k
+       \operatorname{Sym}^{r_*}\langle x_0,x_3\rangle .
+ }
+\]
+The first identification of the *particular graded piece* is
+canonical: modulo the first powers of \(I_L\), the fiber quotient
+is precisely \(A\), and only fiber degree \(d\) can contribute
+at base degree \(r_*\). The identification \(A_d\simeq
+H^1(L,\omega_L)\) uses the ordered binary Koszul complex.
+Its vanishing is independent of the choice of CI generators
+and of the identification of the Serre line.
+
+Thus \(\mathfrak o_{r_*}\) is a **binary form of degree \(r_*\)**
+with coefficients in the *same* Serre-duality line that
+contains the first-jet pairing
+\(\Omega(v_0,v_3)=ab/2\).
+
+There is a useful cohomological proof that no lower-order
+power obstruction exists. At order \(j\), lifting a presentation
+\(Q^m=UF+VG\) reduces to the surjectivity of
+\[
+ R_{N-a-j}\oplus R_{N-b-j}
+ \xrightarrow{(f_0,g_0)}R_{N-j}.
+\]
+Its cokernel is \(A_{N-j}\). In the relevant range
+\(0\le j\le r_*\), the twisted Koszul sequence on
+\(L\simeq\mathbf P^1\) gives
+\[
+ A_{N-j}\simeq
+ H^1\bigl(L,\mathcal O_L(N-a-b-j)\bigr).
+\]
+For \(j<r_*\) this is zero because
+\(N-a-b-j\ge-1\). At \(j=r_*\) it is
+\(H^1(L,\mathcal O_L(-2))\simeq k\).
+This is exactly the graded Macaulay/Serre duality
+behind (9), via standard line-bundle cohomology
+([Stacks, Tag 01XS](https://stacks.math.columbia.edu/tag/01XS)).
+
+A **necessary** condition for sole support is therefore
+\(\mathfrak o_{r_*}(F,G)=0\). It is not sufficient:
+later filtration orders and the full power membership
+\(Q^m\in(F,G)\) still matter. In degree \((4,4)\), the
+first obstruction is a **quadratic** form on the base
+\(x_0,x_3\); in degree \((6,6)\), it is an **octavic**,
+with nine coefficients. This gives an exact geometric
+interface between the first-jet Serre scalar and the
+later spectral-power obstruction. There is **no proved
+universal relation** carrying the prescribed nonzero
+first-jet class to a nonzero \(\mathfrak o_{r_*}\).
+
+### Explicit quartic compatibility failure in the control family
+
+For \(a=b=4,m=4,r_*=2\), specialize (3) to
+\[
+ F=x^4-\lambda u x^2y+O((u,v)^3),\qquad
+ G=y^4-\mu v xy^2+O((u,v)^3),
+\]
+with \(x=x_1,y=x_2,u=x_0,v=x_3\).
+The actual family (3) has exactly these normal layers:
+its remaining terms have orders three or four.
+Modulo the two equations and normal order three,
+\[
+ x^4\equiv\lambda ux^2y,\qquad
+ y^4\equiv\mu vxy^2.
+\]
+Consequently
+\[
+ \begin{aligned}
+ Q^4=(uv-xy)^4
+ &\equiv x^4y^4-4uv\,x^3y^3\\
+ &\equiv(\lambda\mu-4)uv\,x^3y^3
+        \pmod{(F,G)+(u,v)^3}.
+ \end{aligned}
+\]
+Since \([x^3y^3]\) generates the
+socle \(A_6=k[x,y]/(x^4,y^4)\), the first power
+obstruction is
+\[
+ \tag{10}
+ \boxed{\mathfrak o_2(F,G)
+   =(\lambda\mu-4)\,uv\otimes[x^3y^3].}
+\]
+Thus \(Q^4\in(F,G)\) **requires**
+\(\lambda\mu=4\) for this family, while the
+sole-support Jacobian identity (1) **requires**
+\(\lambda\mu=8\). They cannot hold simultaneously.
+
+This is an **exact failure of compatibility between
+the two necessary conditions**, and it remains true
+for any modification of the family that preserves
+its normal layers through order two.
+It is **not** a new proof of all \((4,4)\) exclusions:
+generic first normal layers and second normal
+terms have not been classified or eliminated.
+The full \((4,4)\) exclusion is already an established
+independent result. In higher degrees the first
+power obstruction arises much later and can involve
+many higher normal equation layers, so (10)
+cannot simply be copied to \((6,6)\).
+
 ## Implication and stopping rule
 
 The direct first-jet check gives **no obstruction**:
