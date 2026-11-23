@@ -239,8 +239,9 @@ equal quantities always **vanish**.
 
 The full projective transverse Chow form is
 not the Grassmannian Chow form of the degree-\(4m\)
-curve. The latter is the actual resultant; (R)
-connects their **distinguished coefficients**
+curve. The restriction of the Grassmannian Chow form
+to the line family is the actual resultant;
+(R) connects their **distinguished coefficients**
 through the four-point section of every
 translated quartic.
 
