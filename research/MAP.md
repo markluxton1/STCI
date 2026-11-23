@@ -118,10 +118,14 @@ of the actual homogeneous source under the first nontrivial maps
 and compare it with the pure target \(\Delta=S^{ab}\).  The first coefficient
 alone cannot suffice, even in the **paired** determinant: the explicit proper
 quartic control in the Chow-moment owner has \(\Delta_1=0\) while
-\(\operatorname{tr}(q^2)\ne0\) and a residual cubic factor survives.  A useful next theorem must either (i) show that a
-bounded initial segment of the **paired** determinant is incompatible with
-\(F,G\in I_C\), uniformly in degree, or (ii) prove a structural recursion
-forcing a later coefficient nonzero.  Without such a source-image statement,
+\(\operatorname{tr}(q^2)\ne0\) and a residual cubic factor survives.  At the cycle level there is now a sharp warning: for every \(N\) a roots-of-unity translated arrangement containing \(C_0\) has
+\(\Delta_1=\cdots=\Delta_{N-1}=0\) but residual components.  Hence no fixed
+bounded moment truncation can isolate the collision independently of source
+realization.  A useful next theorem must either (i) show that a bounded initial
+segment of the **paired** determinant is incompatible with **actual**
+\(F,G\in I_C\), uniformly in degree despite those abstract cycle controls, or
+(ii) prove a source-induced structural recursion forcing a later coefficient
+nonzero.  Without such a source-image statement,
 the pure determinant remains an exact reformulation rather than an exclusion.
 
 ### From candidate lattices to actual algebras and proper cuts
