@@ -1,6 +1,8 @@
 # Divisor equality and local socle criteria on a normal carrier
 
-**Status:** independently reviewed Hodge-equality, index and local-socle theorems. The Hodge equality criterion and exact-order argument were reconstructed during consolidation; the local criterion retains the normal-carrier index/socle theorem, primitive-triple certificate and separately scoped low-index exclusions as inherited premises at their exact hypotheses. This characterizes mate existence on a specified normal carrier; it does not exclude arbitrary normal carriers. The fixed-carrier Hodge and exact-index tests in §§1,3 now use the stronger all-characteristic Picard theorem of Česnavičius–Scholze; this strengthening, as distinct from the previously reviewed characteristic-zero statements, awaits independent review. The local socle and generator-replacement results retain their own characteristic hypotheses. **The newly consolidated all-degree cyclic-cover Euler formula in §3.5 and its quintic/sextic identifications have been checked algebraically against the recorded cases, but are not yet independently reviewed as a new proof package.**
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed the Hodge/exact-index criteria (§§1,3), CE3–CE7 cyclic-cover identities, ADE1, NR1–NQ1, MV1–MV9, RG1 and the stated smooth-threefold transfer and graph applications. Inherited inputs are the local power–socle theorem, primitive-triple certificate, low-degree exclusions and the actual two-blowup correspondence.
+
+**Status:** independently reviewed Hodge-equality, index and local-socle theorems. The Hodge equality criterion and exact-order argument were reconstructed during consolidation; the local criterion retains the normal-carrier index/socle theorem, primitive-triple certificate and separately scoped low-index exclusions as inherited premises at their exact hypotheses. This characterizes mate existence on a specified normal carrier; it does not exclude arbitrary normal carriers. The fixed-carrier Hodge and exact-index tests in §§1,3 now use the stronger all-characteristic Picard theorem of Česnavičius–Scholze; this strengthening, as distinct from the previously reviewed characteristic-zero statements, was covered by the scoped correctness review above. The local socle and generator-replacement results retain their own characteristic hypotheses. **The newly consolidated all-degree cyclic-cover Euler formula in §3.5 and its quintic/sextic identifications were independently reconstructed as a unified proof package in the scoped review above, including their arithmetic specializations.**
 
 ## 1. A mate is equivalent to Hodge-index equality on a normal hypersurface
 
@@ -157,7 +159,7 @@ O_C(R E_X,C)=B^(-R) tensor O_X(-RC)|C.
 It should be retained in positive genus even when only the scalar Hodge gap
 is being used.
 
-**Further scope (pending independent review).** In characteristic
+**Further scope (covered by the scoped correctness review above).** In characteristic
 zero the [actual almost-Cartier power--socle extension](normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem)
 and [intrinsic divisor comparison](normal_index_socle_and_torsion.md#intrinsic-divisor-on-a-possibly-nonnormal-generically-regular-carrier)
 extend equations (3)--(5), the full local defect and symbolic-triple
@@ -559,7 +561,7 @@ the normalization/branch geometry.
 <a id="47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier"></a>
 ## 4.7 All-degree actual normal-carrier replacement
 
-**Status:** unified all-degree consequence of classical Bertini and Serre's criterion; independent mathematical review required. Equal degrees are included.
+**Status:** unified all-degree consequence of classical Bertini and Serre's criterion; covered by the scoped correctness review above. Equal degrees are included.
 
 **Normal-replacement theorem (NR1).** Over an algebraically closed field of characteristic zero, let \(C\subset\mathbf P^3\) be any smooth integral curve and let homogeneous forms \(F_a,G_b\), \(a\le b\), define a proper intersection with sole reduced support \(C\). Set
 \[
@@ -605,7 +607,7 @@ pencils. This does not make the individual components
 Q-Cartier at their intersections. The total Cartier condition
 and [exact Hodge matrix test](../torus/fixed_surface_restriction_lifts.md#normal-carriers-a-complete-geometric-description-of-the-arrangement-monoid)
 are the appropriate fixed-carrier formulation. This extension
-requires independent review.
+is included in the scoped correctness review above.
 
 ### Every-member integrality and arithmetic factor bounds
 
@@ -655,7 +657,7 @@ This is the usual end-marked \(A_{m-1}\) germ, not a novel singularity type.
 
 ### The global moving-root theorem: the larger normal carrier has index \(m\)
 
-**Unified first-symbol system (independent review required).** Assume the fixed char-zero quartic, \(a\le b\), \(m=ab/4>1\), with at least one generic order-one generator. The generic first symbols span the same saturated line in the conormal bundle (otherwise the transverse length would be one). Denote the quotient line by \(\mathcal O(-\ell)\), its kernel by \(M=\mathcal O(\ell-14)\), and write the actual symbols using a coprime binary vector \((A,B)\) of degree \(7-\ell\):
+**Unified first-symbol system (covered by the scoped correctness review above).** Assume the fixed char-zero quartic, \(a\le b\), \(m=ab/4>1\), with at least one generic order-one generator. The generic first symbols span the same saturated line in the conormal bundle (otherwise the transverse length would be one). Denote the quotient line by \(\mathcal O(-\ell)\), its kernel by \(M=\mathcal O(\ell-14)\), and write the actual symbols using a coprime binary vector \((A,B)\) of degree \(7-\ell\):
 \[
  \sigma_F=f(A,B),\quad \sigma_G=g(A,B),\qquad
  \deg f=4a-14+\ell,\quad \deg g=4b-14+\ell. \tag{MV2}
@@ -720,7 +722,7 @@ Ellia's finite primitive-degree list excludes an everywhere-primitive rational-q
 
 ### Reduced common first-normal divisor: a uniform marked ADE and rank test
 
-**Status: new generalization of the independently reviewed sextic reduced-gcd proof, pending independent review.** Assume the hypotheses of the unified first-symbol system and suppose \(B_{\rm np}\) is reduced (possibly empty). Then the generic normal replacement is smooth off \(C\), and *all* of its singularities on \(C\) are simple first-symbol zeros. At each such point the quadratic form has a nonzero paired curve/normal term and Hessian rank at least two; isolatedness gives an \(A_{r-1}\) singularity, and the marked smooth curve is end-marked by the first-symbol vanishing order one. This is exactly the local marked calculation already used in the [sextic reduced-gcd argument](sextic_pair_reduction.md#the-common-first-normal-divisor-must-be-nonreduced), using [Ellia, Definition 8 and Lemma 10](https://arxiv.org/abs/1409.3801). There is no sextic hypothesis in this local step.
+**Status: new generalization of the independently reviewed sextic reduced-gcd proof, covered by the scoped correctness review above.** Assume the hypotheses of the unified first-symbol system and suppose \(B_{\rm np}\) is reduced (possibly empty). Then the generic normal replacement is smooth off \(C\), and *all* of its singularities on \(C\) are simple first-symbol zeros. At each such point the quadratic form has a nonzero paired curve/normal term and Hessian rank at least two; isolatedness gives an \(A_{r-1}\) singularity, and the marked smooth curve is end-marked by the first-symbol vanishing order one. This is exactly the local marked calculation already used in the [sextic reduced-gcd argument](sextic_pair_reduction.md#the-common-first-normal-divisor-must-be-nonreduced), using [Ellia, Definition 8 and Lemma 10](https://arxiv.org/abs/1409.3801). There is no sextic hypothesis in this local step.
 
 More explicitly, choose completed parameters so the normal surface is \(tu-w^r=0\) and \(C=(u,w)\). The divisor of \(u\) is \(rC\), so the actual mate cutting \(mC\) is a unit times \(u^{m/r}\) on this normal germ. This requires \(r\mid m\); at a fixed point where both original equations are singular \(1<r<m\) (the case \(r=m\) gives a primitive local CI), and at moving points \(r=m\). The completed local CI is
 \[
@@ -781,7 +783,7 @@ and index-divisibility statements for hypersurfaces
 in \(\mathbf P^3\) are not transferred.
 
 In particular, on the graph of the quartic, the
-[ample strict-carrier replacement LC3](../residuals/blowup_residual_geometry.md#lefschetz-compression-on-ample-strict-carriers)
+[ample strict-carrier replacement LC3](../residuals/strict_carrier_picard_compression.md#lefschetz-compression-on-ample-strict-carriers)
 for \(a=3p,b=4q,p\le q\) has difference globally generated
 and \(d_2-d_1=9q-5p>0\). Whenever the strict
 degree-\(3p\) generator has order one on the surviving
@@ -792,11 +794,11 @@ index-eight points occur on a general strict octic,
 each away from the common first-symbol divisor.
 The forced index-eight point of LC4 is one part
 of this geometric statement. The [exceptional resultant
-and marked-point defect transfer](../residuals/blowup_residual_geometry.md#socle-defects-on-the-two-presentations-of-the-first-graph)
+and marked-point defect transfer](../residuals/first_graph_finite_transfer.md#socle-defects-on-the-two-presentations-of-the-first-graph)
 then identify the actual common-defect budget on this
-graph. These extensions await independent review.
+graph. These extensions were covered by the scoped correctness review above.
 
-The [primitive edge arithmetic and SC6](../residuals/blowup_residual_geometry.md#recovering-generic-curvilinearity-in-all-orders-on-a-subset-of-the-edge)
+The [primitive edge arithmetic and SC6](../residuals/first_graph_finite_transfer.md#recovering-generic-curvilinearity-in-all-orders-on-a-subset-of-the-edge)
 extend the mixed strict-sextic consequence to every
 \((6,4q;2,q)\), \(q\ge2\), on the zero-direction
 boundary: the strict sextic has order one and a
@@ -805,7 +807,7 @@ general normal strict larger carrier has at least
 the first strict CI necessarily has nonempty
 nonprimitive locus. The stronger marked-line theorem ML9 excludes the primitive mixed \((6,8)\) row even without the ADE premise. The nonprimitive and endpoint strata remain.
 
-The [marked line theorem ML1--ML6](../residuals/blowup_residual_geometry.md#the-marked-line-excludes-primitivity-at-the-mixed-sextic-boundary)
+The [marked line theorem ML1--ML6](../residuals/marked_line_local_geometry.md#the-marked-line-excludes-primitivity-at-the-mixed-sextic-boundary)
 strengthens this to nonprimitivity **at the prescribed
 marked point** for every mixed \((6,4q;2,q)\), \(q\ge2\).
 It excludes the globally primitive mixed \((6,8)\) row
@@ -818,13 +820,13 @@ endpoint analysis. This is not an exclusion of all entirely
 thick sextic pairs; the mixed slope-four row and endpoint
 slope-five row are still open.
 
-The [all-order marked-line inequality ML9](../residuals/blowup_residual_geometry.md#all-orders-the-marked-line-comparison-by-interpolation)
+The [all-order marked-line inequality ML9](../residuals/marked_line_local_geometry.md#all-orders-the-marked-line-comparison-by-interpolation)
 further excludes primitivity at the marked point for
 all mixed \((3p,4q)\) edge pairs with \(2\le p\le q\).
 It uses the actual section restriction and local
 Weierstrass interpolation, not the Hodge or ADE
 numerical test. The complementary
-[smooth marked image-carrier lane SM1--SM2](../residuals/blowup_residual_geometry.md#the-opposite-marked-stratum-a-smooth-image-carrier-and-a-forced-graph-defect)
+[smooth marked image-carrier lane SM1--SM2](../residuals/smooth_marked_image_geometry.md#the-opposite-marked-stratum-a-smooth-image-carrier-and-a-forced-graph-defect)
 has the full graph local algebra \(xv=t^{2p},v^q=0\),
 top defect \(q-1\), and a marked \(A_{2p-1}\) strict
 carrier. A degree-two image mate now compresses to
@@ -837,7 +839,7 @@ at \(p=2\) a smooth marked point forces an actual
 index-eight point elsewhere. This is one case in
 which Picard compression is proved to preserve
 the required conic normal-form condition.
-Independent review is pending.
+Independent reconstruction is recorded in the scoped review above.
 
 ## 5. What was removed, and what remains
 
@@ -857,8 +859,7 @@ The remaining boundaries are exact.
    extends the Hodge criterion to generically regular integral carriers
    using the actual downstairs almost-Cartier index. The
    [S2 local extension](normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem)
-   likewise extends the local power–socle formula. Both extensions await
-   independent review. Generically thick carriers still require their
+   likewise extends the local power–socle formula. Both extensions were independently reconstructed in the scoped review above. Generically thick carriers still require their
    inverse branches and conductor descent.
 
 2. **Local indices and the missing global bound.** Local smoothness of the
@@ -877,8 +878,7 @@ The remaining boundaries are exact.
    curve.
 
 4. **Characteristic.** The fixed-carrier numerical and Picard steps in
-   Sections 1 and 3 now have an all-characteristic proof (pending
-   independent review). The local power–socle theorem separately requires
+   Sections 1 and 3 now have an all-characteristic proof (covered by the scoped correctness review above). The local power–socle theorem separately requires
    its stated tame hypotheses; characteristic-zero Bertini and the
    characteristic-zero low-degree exclusions are not transferred by
    Picard saturation alone.
@@ -886,7 +886,7 @@ The remaining boundaries are exact.
 5. **Other generic algebras.** If both defining equations have generic
    normal order at least two, neither one is a normal order-one carrier and
    the generic algebra need not be curvilinear. That entirely-thick branch
-   requires the conormal/socle and formal-root program, supplemented by the [normalized branch and first-graph identities](numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup). On a smooth sole-support strict intersection, [Lefschetz compression](../residuals/blowup_residual_geometry.md#lefschetz-compression-on-ample-strict-carriers) applies once a suitable ample strict carrier is generically regular; this is not automatic for arbitrary thick pairs.
+   requires the conormal/socle and formal-root program, supplemented by the [normalized branch and first-graph identities](numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup). On a smooth sole-support strict intersection, [Lefschetz compression](../residuals/strict_carrier_picard_compression.md#lefschetz-compression-on-ample-strict-carriers) applies once a suitable ample strict carrier is generically regular; this is not automatic for arbitrary thick pairs.
 
 The normal branch has therefore been reduced, without a degree-by-degree
 mate search, to a sharply stated geometric question:

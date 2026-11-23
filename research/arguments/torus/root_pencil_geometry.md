@@ -289,8 +289,8 @@ collision the marked reduced attachment decreases from
 \(9p_0+9p_\infty\) to \(6p_0+6p_\infty\), but the full-thick
 attachment length increases from 18 to 24. The generic
 reduced conductor formula above alone cannot be applied
-to the nonreduced entire special fiber. These calculations
-await independent review.
+to the nonreduced entire special fiber. These calculations and their use here were independently reconstructed
+on November 23, 2026 at the scope recorded in the linked TS1–TS7 owner.
 
 ## 3. The topology is much simpler than the arithmetic genus suggests
 

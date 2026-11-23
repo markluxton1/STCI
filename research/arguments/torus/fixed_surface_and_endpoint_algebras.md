@@ -1,5 +1,7 @@
 # Fixed surfaces, endpoint equations, and the missing normal action
 
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed the finite source-depth tower and its two fixed test-surface criterion. Inherited inputs are the inherited finite-flat projection and characteristic-polynomial/Cayley–Hamilton formalism.
+
 These are full proofs for the fixed quartic C0. The finite-cover and elementary two-chart arguments are characteristic-free; the residue controls and trace criteria have the precise characteristic assumptions below. They are independently reviewed deductions. Independent source review reconstructed the finite-flat algebra, identical-full-restriction examples, trace-residue formula and zero-first-trace counterexample, followed by the two-chart/endpoint and determinant arguments. The elementary deductions require no finite search or inherited certificate rerun. The [global equation account](../equations/global_equations_and_constructions.md) supplies the elementary quartic geometry and affine-boundary theorem.
 
 ## Characteristic scope of the separate tests
@@ -647,7 +649,7 @@ moment, even if they substantially alter the intersection elsewhere.
 
 ### The whole characteristic tower has finite source depth
 
-**New source-filtration consequence, pending independent review.**  The
+**New source-filtration consequence, covered by the scoped correctness review above.**  The
 degree-two calculation above is the first case of a characteristic-free
 statement for every fixed homogeneous test surface.  Retain the finite-flat
 setup of Section 4 and the decomposition
@@ -710,6 +712,18 @@ six-layer formula (12)--(14).  For the quadric
 depth decides unrestricted STCI: the required order \(j\) can grow with
 \(ab\).  It gives an increasing hierarchy of **actual homogeneous-source**
 conditions, with a precise depth at every stage.
+
+The dependence on source parameters is **regular on the binary-resultant
+open**, rather than polynomial on the whole coefficient space.  Indeed,
+over the coefficient ring with \(\operatorname{Res}(f_0,g_0)\) inverted,
+the universal quotient is finite locally free, so its characteristic
+coefficients are regular.  Their expressions in the varying equation
+coefficients may have powers of that resultant in the denominator.
+If \(f_0,g_0\) are fixed, a fixed homogeneous basis of their binary
+quotient lifts to the free source algebra; successive degree reduction
+then makes the characteristic coefficients polynomial in the remaining
+source coefficients.  This qualification does not change (15b), which
+compares equations with exactly the same truncated leading data.
 
 The classical inputs are finite-algebra characteristic polynomials,
 Cayley--Hamilton and the trace/residue formulas cited above.  Cattani--

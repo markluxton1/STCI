@@ -578,7 +578,10 @@ The finite checks apply only to the displayed examples and do not establish geom
 
 ## Sole-support constant orbit images are automatically involutive in characteristic zero
 
-**New application, pending independent review.**  Retain the constant
+**Scoped independent reconstruction (2026-11-23):** the explicit chart
+brackets, localization/contraction argument and endpoint reversal below
+were checked, using the stated characteristic-zero Scheja--Storch theorem.
+This does not re-certify the earlier historical proof routes.  Retain the constant
 embedded quotient construction above and assume
 \[
  B=k[u^{\pm1},v^{\pm1}]/J
@@ -663,7 +666,11 @@ of the full ideal.
 
 ## The diagonal quotient recovers the Cartier multiples \(nC\)
 
-**Adversarial control and reinterpretation, pending independent review.**
+**Scoped independent reconstruction (2026-11-23):** the Cartier
+identification, both endpoint lattices and conductor, Hilbert polynomial,
+source threshold and complete CI-polynomial comparison (D0)--(D5) were
+checked directly.  The involutivity assertion uses the preceding scoped
+theorem; the separate invariant-CI exclusion remains an inherited input.
 This is not a new family of multiple curves.  The diagonal constant quotient
 below is exactly the familiar Cartier multiple \(nC\) on the unique smooth
 quadric \(Q\); for \(n=4\) the repository already uses \(4C\subset Q\) as

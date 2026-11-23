@@ -507,7 +507,9 @@ proved residual floor or conjectural bridge.
 
 ## Dense-orbit contact is automatic after sole-support collapse
 
-**New cross-framework synthesis, pending independent review.**  The global
+**Independent geometry review accepted the explicit transverse brackets,
+the characteristic-zero Kähler-different deduction, and the Hamiltonian
+counterexample at their stated scopes.** The global
 involutivity identity above is strong as a statement about the actual
 homogeneous ideal, but it places no additional condition on the generic
 transverse Artin algebra once the reduced support has collapsed to \(C\).

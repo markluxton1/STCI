@@ -1,6 +1,6 @@
 # Universal first moment viewed through every Framework and the current literature
 
-**Review scope (2026-11-22).** This is a synthesis of **all nine main-branch Framework indexes**, **all 84 main-branch Result statements** (individually routed in the [Result crosswalk](universal_first_moment_result_crosswalk.md)), the relevant owning Argument proofs and controls, and the mathematical changes exposed by open PRs [#171](https://github.com/markluxton1/STCI/pull/171), [#172](https://github.com/markluxton1/STCI/pull/172) and [#173](https://github.com/markluxton1/STCI/pull/173). It is not an independent six-perspective proof audit or a line-by-line certification of every historical Argument; the nine indexes route to 236 main-branch Argument files. New branch deductions have their stated pending-review status. The literature check uses primary theorem statements and abstracts; a bounded search is not a novelty certificate.
+**Review scope (2026-11-22).** This is a synthesis of **all nine main-branch Framework indexes**, **all 84 main-branch Result statements** (individually routed in the [Result crosswalk](universal_first_moment_result_crosswalk.md)), the relevant owning Argument proofs and controls, and the mathematical changes exposed by open PRs [#171](https://github.com/markluxton1/STCI/pull/171), [#172](https://github.com/markluxton1/STCI/pull/172) and [#173](https://github.com/markluxton1/STCI/pull/173). It is not an independent six-perspective proof audit or a line-by-line certification of every historical Argument; the nine indexes route to 236 main-branch Argument files. The combined integration of November 23, 2026 received six independent review perspectives; individual proof owners record their covered reconstruction routes and inherited dependencies. That review does not turn this synthesis into a line-by-line certification of the historical corpus. The literature check uses primary theorem statements and abstracts; a bounded search is not a novelty certificate.
 
 The sole mathematical target of this review is the **necessary condition**
 \[
@@ -45,12 +45,14 @@ and of the cubic scroll with the two fixed residual trisecants.
 The missing proof is now an **isotropy assertion for the
 first-jet image of the simultaneous spectral–Jacobian
 complete-intersection incidence**, rather than an unrestricted
-six-layer polynomial calculation. The new bridge is
-pending independent review and does not establish UM1.
+six-layer polynomial calculation. The bridge was independently reconstructed in the combined scoped
+correctness review of November 23, 2026; its spectral–Jacobian proof owner
+records the inherited mixed-minor/socle and residue-duality inputs. It does
+not establish UM1.
 
-## I. Three candidate general mechanisms, ranked by missing work
+## I. Three candidate mechanisms and their missing inputs
 
-### 1. Source trace / Chow norm: the closest exact reduction
+### 1. Source trace and Chow norm
 
 For any such Chow-matched pair, the disjoint line \(L=V(x_0,x_3)\)
 gives an actual finite free algebra
@@ -324,9 +326,14 @@ yet define an all-carrier character. The remaining obstacle is
 specific: connect the global Chow-matched support restrictions
 to the single degree-two finite-cover trace.
 
-## V. Bounded next questions, chosen for information gain
+## V. Bounded source questions and geometric alternatives
 
-The most useful first test is to **pull back the mixed Chow coefficient
+The [sole strategic queue](../../investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment)
+compares actual next tasks. These are mechanism questions, not an additional
+priority order. The newer opposite-polar cofactor incidence and determinant
+truncation theorem refine the source question below; neither supplies UM1.
+
+A source-level question is to **pull back the mixed Chow coefficient
 to the actual source incidence** for arbitrary degrees and express it
 via the universal six-layer residue formula, retaining the condition
 that the *entire* resultant lies in the translated-Chow product locus.
@@ -342,11 +349,11 @@ The independent geometric alternative is to test whether the
 fixed-carrier mate lattice gives an additive, equivariant
 \(q\)-functional on its realized divisor subgroup. The
 exceptional carrier and the fixed toric quartic provide contrasting
-non-normal models. One must verify that the proposed functional
+normal and nonnormal models. One must verify that the proposed functional
 respects **relations of actual Cartier divisors**; ordinary
 intersection theory alone is too coarse.
 
-The lower-priority alternatives are all-degree classification of
+Other alternatives are all-degree classification of
 CI arrangements, complete Hilbert/Chow compactification, additional
 sextic numerical tables, and new unrestricted fixed-depth normal
 jet calculations. None currently has a specified bridge to UM1

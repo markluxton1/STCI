@@ -1,6 +1,8 @@
 # Pulling back the full transverse Chow form: opposite quartic quotient charts and the canonical fat-curve envelope
 
-**Status (2026-11-22):** new elementary project-specific consequence of the classical Chow form of a zero-cycle, the Artinian nilpotence bound, and unmixedness of a complete intersection. **Pending independent proof review.** The full UM1 assertion is *not* proved. Characteristic zero over an algebraically closed field unless indicated.
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed Propositions A–C, both-chart fat-point coefficient ideals, the finite-flat envelope and norm recognition. Inherited inputs are classical zero-cycle Chow forms, generic Artinian nilpotence and complete-intersection unmixedness.
+
+**Status (2026-11-22):** new elementary project-specific consequence of the classical Chow form of a zero-cycle, the Artinian nilpotence bound, and unmixedness of a complete intersection. **Covered by the scoped correctness review above.** The full UM1 assertion is *not* proved. Characteristic zero over an algebraically closed field unless indicated.
 
 **Established background:** the Chow product of a zero-cycle, e.g. Kollár, *Moduli of Varieties*, §3.1, [Chow varieties and Hilbert schemes](https://web.math.princeton.edu/~kollar/book/modbook20170720-hyper.pdf), and the characteristic-polynomial form of zero-dimensional Chow forms ([D'Andrea–Krick–Sombra–Schost](https://cs.uwaterloo.ca/~eschost/publications/DaKaSc09.pdf)); the exact translated-cycle and first-moment statements in [chow_arrangement_moments.md](chow_arrangement_moments.md) and [chow_realization_moment_separation.md](chow_realization_moment_separation.md); the accepted generic nilpotence / primary-contraction argument in [torus_hilbert_boundary.md](../torus_hilbert_boundary.md). No cited source is asserted to contain the specific quartic pullback construction.
 

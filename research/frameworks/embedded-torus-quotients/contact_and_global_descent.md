@@ -161,7 +161,7 @@ is unavoidable. No such universal bridge is proved here. The displayed moving
 family and the twisted-cubic/contact/Rees controls explain which weaker
 conditions are insufficient.
 
-There is now a specific positive bridge: [layerwise attachment duality](../../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) bounds each complementary-layer defect by the marked attachment divisor, and a positive such defect forces a genuine residual. This uses the actual full primary inside a Gorenstein CI, not an arbitrary normalization or a defect of an unlifted ideal. The [fixed toric example](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) shows that total thick attachment is not monotone in residual degree. The [canonical ideal transfer](../../arguments/residuals/blowup_residual_geometry.md#local-canonical-ideal-version-and-several-marked-points) identifies the conductor when the image primary has no residual, and the corrected canonical colon otherwise. No universal obstruction follows. Pending independent review.
+There is now a specific positive bridge: [layerwise attachment duality](../../arguments/residuals/layerwise_attachment_and_triples.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) bounds each complementary-layer defect by the marked attachment divisor, and a positive such defect forces a genuine residual. This uses the actual full primary inside a Gorenstein CI, not an arbitrary normalization or a defect of an unlifted ideal. The [fixed toric example](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) shows that total thick attachment is not monotone in residual degree. The [canonical ideal transfer](../../arguments/residuals/first_graph_finite_transfer.md#local-canonical-ideal-version-and-several-marked-points) identifies the conductor when the image primary has no residual, and the corrected canonical colon otherwise. No universal obstruction follows. The scoped correctness reconstruction of November 23, 2026 is recorded at the linked proof owners.
 
 ## Literature and bounded stopping points
 
@@ -215,8 +215,10 @@ quotient and \(T=I_Y/I_L\) the finite endpoint correction.  The full-limit
 Poisson theorem makes \(L\) involutive, while \(Y\) is automatically so.
 The residual condition is the finite conormal map
 \[
- \kappa_L:\bigwedge^2(I_L/I_L^2)\to T.
+ \kappa_L:\bigwedge^2(I_L/I_L^2)\to T(-2).
 \]
+The twist records the ambient homogeneous bracket's degree \(-2\);
+the ungraded affine-cone version has target \(T\).
 Its vanishing is equivalent to involutivity of the full ideal.  The
 intrinsic endpoint theorem currently supplies the lengths of the two
 pieces of \(T\), not this conormal map.  Thus the next contact calculation

@@ -90,7 +90,7 @@ reviewed.
 In the generically curvilinear
 multiplicity-three branch, the
 [Bănică--Forster triple / source
-comparison TR1--TR4](../residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors)
+comparison TR1--TR4](../residuals/layerwise_attachment_and_triples.md#triples-the-full-attachment-has-only-two-independent-divisors)
 determines the first attachment
 quotient length divisor as
 \(\tau+\eta\), where \(\tau=D_2\)

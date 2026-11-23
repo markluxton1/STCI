@@ -1,5 +1,7 @@
 # Numerical pullback and the normal line
 
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed N1–N15, including branch valuations, the marked-ideal/Hodge-gap decomposition and ruling-cluster lattice. Inherited inputs are the actual mate relation and established first-graph model.
+
 This note separates a reusable surface inequality from the numerical assumptions
 of any particular carrier. Work over an algebraically closed field of
 characteristic zero. The lemma below concerns an **integral projective surface**
@@ -150,7 +152,7 @@ follows from these numerical identities.
 ## Branch valuations and the actual first blowup
 
 **Status: new synthesis of the normalization and graph-cycle proofs,
-pending independent mathematical review.** It applies to actual
+covered by the scoped correctness review above.** It applies to actual
 integral carriers, including those singular at the generic point of the
 marked curve. It does not identify the Rees valuations of the full CI
 ideal with the branches of a chosen carrier.

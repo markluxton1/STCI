@@ -144,9 +144,9 @@ zero its nonconstant degree-three solutions are precisely
 graphs for \(\omega_q\)**. This is an elementary specialization,
 not a new classification: Nikita Kalinin,
 [*Legendrian curves in \(\mathbf{CP}^3\): cubics and curves on a
-quadric surface*](https://arxiv.org/abs/1607.07486),
-Theorem 13 in the arXiv numbering (Theorem 4.3 in the printed
-2018 paper), classifies algebraic Legendrian curves on smooth
+quadric surface*](https://arxiv.org/abs/1607.07486v2),
+Theorem 4.3 in both arXiv v2 and the printed
+2018 paper, classifies algebraic Legendrian curves on smooth
 quadrics over \(\mathbf C\). Our calculation identifies the
 specified marked torus subfamily within that established
 picture.

@@ -529,7 +529,7 @@ sections is made here.
 
 ### The same determinant-versus-structure gap in a finite image algebra
 
-The [marked finite-index rigidity theorem MJ1--MJ4](../residuals/blowup_residual_geometry.md#finite-index-rigidity-of-higher-marked-jets)
+The [marked finite-index rigidity theorem MJ1--MJ4](../residuals/marked_line_local_geometry.md#finite-index-rigidity-of-higher-marked-jets)
 offers an instructive distinct model of the limitation
 of \(\nu\). On the first graph of the characteristic-zero
 \((3p,4q)\) equality edge, a proposed full-rank

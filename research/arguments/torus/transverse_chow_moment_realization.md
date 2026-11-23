@@ -1,5 +1,7 @@
 # Transverse Chow coefficients and determinantal CI realization
 
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed the reduced-cycle realization/evaluation and symmetric moment-matrix equivalence, full norm identities and coefficient/first-jet comparisons with their corrected characteristic restrictions. Inherited inputs are the established reduced-cycle degree-exhaustion theorem, classical Chow/norm identities and spectral–Jacobian lemma.
+
 **Scope and status.** Focused reformulation of the existing reduced-cycle
 realization theorem, with a self-contained interpolation argument and precise
 multiplicity limitations. The evaluation criterion is established in
@@ -8,8 +10,7 @@ the coefficient/moment dictionary is classical multisymmetric invariant
 theory (Vaccarino, *The ring of multisymmetric functions*, Ann. Inst. Fourier
 55 (2005), 717–731,
 [primary source](https://www.numdam.org/articles/10.5802/aif.2111/)).
-The moment-matrix equivalence below is an elementary deduction, **not yet
-independently reviewed**. No unrestricted characteristic-zero STCI exclusion
+The moment-matrix equivalence below is an elementary deduction, **independently reconstructed in the scoped review above**. No unrestricted characteristic-zero STCI exclusion
 or universal \(M_1=0\) statement is claimed.
 
 ## 1. The entire arrangement, without selecting a carrier
@@ -197,7 +198,7 @@ is \(-4u_i/v_i\). Therefore
         {[Z^m]\mathcal C_\sigma}.
  }
 \]
-Equivalently,
+When \(\operatorname{char}k\ne2\), equivalently,
 \[
  \boxed{M_1(\sigma)=0
    \iff [YZ^{m-1}]\mathcal C_\sigma=0
@@ -205,7 +206,7 @@ Equivalently,
 \]
 ### The Chow coefficient and first-jet residue are the *same* obstruction
 
-For an entire translated-cycle CI, the
+In characteristic zero, for an entire translated-cycle CI, the
 [spectral–Jacobian first-jet identity](spectral_jacobian_first_jet_bridge.md#4-the-first-moment-is-a-perfect-residue-pairing-of-first-jets)
 states, for
 \(F=f_0+x_0p+x_3q+\cdots\),
@@ -264,6 +265,9 @@ The general Chow factorization and the existence of two
 defining equations do not individually prove it.
 
 ## 1.2 The complete CI resultant as a product of two-step toric norms
+
+Assume \(\operatorname{char}k\ne2\) throughout this section, so the
+two quadratic field extensions and the coefficient recovery below are separable.
 
 This makes explicit the **entire**, not merely mixed-linear,
 resultant of a translated-cycle CI, using exactly the two

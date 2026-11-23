@@ -1,6 +1,8 @@
 # Chow realization and first-moment separation
 
-**Status:** proposed argument, pending independent review. Characteristic zero
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed the stated low-degree realization arguments, ACM Hilbert–Burch/basic-double-link decomposition, exceptional quartic construction, reciprocity and universal depressed-quartic spectrum construction. Inherited inputs are the accepted quartic diagonal exclusion and balanced normal splitting; arbitrary non-ACM limits and unrestricted moment vanishing are not covered.
+
+**Status:** proposed argument, covered by the scoped correctness review above. Characteristic zero
 unless otherwise stated. This develops the existing
 [first-moment theorem](chow_arrangement_moments.md), not a new unrestricted
 STCI exclusion. The classical cubic-carrier theorem of Craighero–Gattazzo
@@ -77,7 +79,7 @@ defines a closed locus in every \(A_m\). On \(D_m\) it takes the value
 holds when the characteristic does not divide \(m\). The existing
 linear Chow coefficient \(A_{yz}\) satisfies
 \(A_{yz}/A_0=-4M_1\) on the arrangement locus, with \(A_0\ne0\)
-([proof](chow_arrangement_moments.md#A-regular-function-on-the-Chow-space)).
+([proof](chow_arrangement_moments.md#a-regular-function-on-the-chow-space)).
 Thus when \(4m\) is invertible, a covered realization locus and its
 projective closure miss the *interior* deepest collision locus.
 The projective closures of the two loci can meet on the toric boundary:
@@ -292,13 +294,12 @@ linkage or other cycle-level mechanisms. Do not infer that the
 existence of a cycle-preserving flat Hilbert limit guarantees a proper
 CI at the limit. The desired generalization is an unrestricted moment
 identity, not an enumeration of normal algebra types or a new numerical
-bound. No independent review or unrestricted all-degree theorem is
-claimed by this draft.
+bound. The scoped correctness review above covers these proof routes; no unrestricted all-degree theorem is claimed.
 
 
 ## 7. Beyond coprime initials: basic double linkage and ACM full limits
 
-**Proposed statements, pending independent review.** Use the full graded
+**Proposed statements, covered by the scoped correctness review above.** Use the full graded
 initial ideal \(J\), before irrelevant saturation, for one weight end.
 The result is characteristic-free as a decomposition of cycles; moment
 vanishing here is in characteristic zero. The classical inputs are
@@ -464,7 +465,7 @@ must guide that next investigation.
 
 ## 8. Signed cycle decompositions for non-ACM limits
 
-**Proposed argument, pending independent review.** The adjacent literature is
+**Proposed argument, covered by the scoped correctness review above.** The adjacent literature is
 Goto--Heinzer--Kim, *The leading ideal of a complete intersection of height
 two, Part II*, J. Algebra 312 (2007), 709--732
 ([DOI](https://doi.org/10.1016/j.jalgebra.2007.02.025)), on leading ideals
@@ -562,7 +563,7 @@ The unrestricted vanishing on actual CI pairs remains open.
 
 ## 10. Density of reduced arrangements fails already for (4,4)
 
-**Proposed proof, pending independent review.** In characteristic zero
+**Proposed proof, covered by the scoped correctness review above.** In characteristic zero
 every invariant CI arrangement is in the closure of reduced ones in its
 own bidegree: vary its two weight-homogeneous generators in their weight
 spaces. The pure powers of the middle variables make these systems
@@ -1080,7 +1081,7 @@ or a nilpotent thickening after reduction.
 
 ## 13. Complete quadric-spectrum projections in degrees (3,4) and (4,4)
 
-**New calculation; pending independent mathematical review.** This is a
+**New calculation; covered by the scoped correctness review above.** This is a
 statement about projection to the unordered multiset of *quadric parameters*
 \(q=u/v\), not the full parameter pairs \((u,v)\). It uses the already
 proved invariant quartic-pair classification in

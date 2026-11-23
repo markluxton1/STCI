@@ -59,12 +59,14 @@ it is **not automatically**
 nonflat-specialization issue the family construction must confront,
 rather than suppress.
 
-## 2. An explicit finite flattening test from endpoint interpolation
+## 2. Finite endpoint strata and re-formed flat arrangement families
 
 The defect calculations in
 [endpoint delta invariants](arrangement_endpoint_delta.md)
-give much more than a fiberwise Hilbert polynomial: they describe
-the actual flattening stratification for the scheme-union family (1).
+give finite rank strata on which the union can be **formed anew** as a
+flat family with the intended fibers. This differs from restricting the
+scheme union (1), since formation of its kernel need not commute with a
+nonflat change of base.
 
 Fix \(M=4(m-1)\). For \(0\le n<M\), let \(\mathbf E_{0,n}\) be the
 \(m\times N_n\) evaluation matrix with columns
@@ -104,7 +106,7 @@ opposite-endpoint parameters. These are isomorphisms of
 identifications (not assertions that their full local algebra
 structures split into independent graded pieces).
 
-**Proposition (explicit flat-arrangement strata).**
+**Proposition (explicit flat-arrangement families on rank strata).**
 Take the locally closed determinantal loci
 \[
  B_{\mathbf r}=
@@ -114,24 +116,65 @@ Take the locally closed determinantal loci
   \text{ for all }n<M\}
 \tag{6}
 \]
-with their usual reduced locally closed scheme structures.
-On each such locus, every cokernel in (5) is locally free, so
-\(\mathcal Q_m\) is flat over \(B_{\mathbf r}\).
-Since every \(\mathcal C_i\) is flat, (2) implies
-\(\mathcal A_m|_{B_{\mathbf r}}\) is flat, and the
-sequence defining the intersection ideal remains exact under
-base change. In particular its geometric fiber is **exactly**
-the intended reduced union \(A_Z\).
+with their usual reduced locally closed scheme structures. For
+\(S=B_{\mathbf r}\), define on \(\mathbf P^3\times S\)
+\[
+ \mathcal I_{m,S}^{\mathrm{union}}
+   =\bigcap_i I_{\mathcal C_i\times_{B_m}S},\qquad
+ \mathcal A_{m,S}^{\mathrm{union}}
+   =V(\mathcal I_{m,S}^{\mathrm{union}}).
+ \tag{6a}
+\]
+This **re-formed union** is flat over \(S\) and commutes with every
+further base change from \(S\). Its geometric fiber is exactly the
+intended reduced union \(A_Z\). Neither assertion identifies (6a) with
+the restriction of \(\mathcal A_m\) or \(\mathcal I_m\) from \(B_m\).
 
 **Proof.** On a fixed rank stratum, a maximal nonzero minor
 can be inverted locally, and all larger minors vanish.
 Elementary row/column operations identify each evaluation
 map with a block containing an identity matrix and zero
 elsewhere. Thus its image and cokernel are vector bundles.
-Equations (2), (5) give flatness of \(\mathcal A_m\) and
-preservation of the map to the sum of the \(\mathcal C_i\).
-Taking the kernel after a base change recovers
-\(\bigcap I_{C_{z_i}}\) on every fiber. \(\square\)
+Apply the coefficient calculation (5) **over \(S\)** to the
+cokernel of the map to the pulled-back branch structure sheaves.
+It is locally free over \(S\). The image of the ambient structure
+sheaf in the branch sheaves is the structure sheaf of (6a), or
+equivalently the kernel of the map from the branch sheaves to this
+cokernel. The resulting exact sequence with the flat branch
+sheaves and flat cokernel proves both its flatness and compatibility
+with further base change. Flatness of this structure sheaf also
+preserves the defining ideal sequence. Thus the ideal after any
+further base change is the intersection of the corresponding branch
+ideals. \(\square\)
+
+**Why restriction of the original union fails.** Work in
+characteristic zero, with two branches near \(p_0\), over
+\(R=k[\tau]_{(\tau)}\), and choose
+\[
+ (u_1,v_1)=(1,1),\qquad (u_2,v_2)=(1+\tau,2).
+\]
+Put \(r=x_1/x_0\), \(\zeta=x_2/x_0-r^3\), and
+\(\eta=x_3/x_0-r^4\). In the map to the two normalization
+branches these have images
+\[
+ r\mapsto(r,r),\qquad
+ \zeta\mapsto(0,\tau r^3),\qquad
+ \eta\mapsto(0,r^4).
+\]
+The coefficient-of-\(r^3\) image module is the direct sum of
+\(R(1,1)\) and \(R(0,\tau)\). Its second generator survives
+tensoring with \(R/(\tau)\), but maps to zero on the two actual
+specialized branches. In the specialized union algebra it satisfies
+\(r\zeta=\zeta^2=0\), since before specialization
+\(r\zeta=\tau\eta\) and \(\zeta^2=\tau r^3\zeta\).
+Thus the original family has an embedded nilpotent at the endpoint,
+whereas the re-formed reduced union has \(\zeta=0\).
+The same coefficient module calculation on the open chart
+\(v_2-v_1\ne0\) of \(B_2\), replacing \(\tau\) by
+\(u_2-u_1\), exhibits the failure for (1) itself.
+Local freeness of the *restricted* cokernel does not remove
+\(\operatorname{Tor}_1^{\mathcal O_{B_m}}
+(\mathcal Q_m,\mathcal O_S)\); this is exactly the lost kernel term.
 
 This is a **finite** stratification: the uniform bound \(M\)
 means only finitely many determinantal ranks must be checked.
@@ -146,34 +189,39 @@ the full endpoint-filtration comparison.
 
 ### What more is needed for the direct Rees fiber
 
-On a stratum where (1) commutes with base change,
-a sufficient additional condition for the fiber of (3)
-to be the desired blow-up is **normal flatness over the
-parameter stratum**:
+For a rank stratum \(S\), form the Rees blow-up using the actual
+re-formed ideal \(\mathcal I=\mathcal I_{m,S}^{\mathrm{union}}\).
+A sufficient additional condition for this new family to have the
+desired blow-up fibers is **normal flatness over \(S\)**:
 \[
- \mathcal O/ \mathcal I_m^n\quad\text{flat over the stratum
+ \mathcal O/ \mathcal I^n\quad\text{flat over the stratum
  for every }n\ge1. \tag{7}
 \]
 Equivalently, the associated graded normal-cone modules
-\(\mathcal I_m^n/\mathcal I_m^{n+1}\) must be flat,
+\(\mathcal I^n/\mathcal I^{n+1}\) must be flat,
 together with the already-established flatness of
-\(\mathcal O/\mathcal I_m\).
+\(\mathcal O/\mathcal I\).
 Indeed (7) implies
 \[
- \mathcal I_m^n\otimes k(Z)\simeq I_{A_Z}^{\,n},
+ \mathcal I^n\otimes k(Z)\simeq I_{A_Z}^{\,n},
 \quad
- \left(\bigoplus_n\mathcal I_m^n\right)\otimes k(Z)
+ \left(\bigoplus_n\mathcal I^n\right)\otimes k(Z)
  \simeq \bigoplus_n I_{A_Z}^{\,n},
 \]
 so relative Proj has the correct fiber. This follows from
 the exact sequences
-\(0\to\mathcal I_m^n\to\mathcal O\to
- \mathcal O/\mathcal I_m^n\to0\).
+\(0\to\mathcal I^n\to\mathcal O\to
+ \mathcal O/\mathcal I^n\to0\).
 Condition (7) is **not** proved on the strata (6);
 it is a further test involving *all* infinitesimal
 neighborhoods, not just the reduced Hilbert polynomial.
 One can inspect the graded normal cones or refine by
 flattening before making an assertion about actual fibers.
+This proves nothing about the restriction of (3) to a nonopen
+stratum unless its original Rees algebra is separately shown to
+base-change to the re-formed Rees algebra. On the open maximum-rank
+locus the kernel already commutes with restriction, so the distinction
+disappears there.
 
 For \(m=1\), the center is smooth over \(T\) and the
 relative blow-up is the trivially transported family
@@ -355,8 +403,10 @@ not assertions that pushforward
 commutes with **all** nonflat
 specializations. On a constant-rank
 stratum of the explicit evaluation
-map (15), its kernel bundle gives the
-correct fiber spaces \(K_d(Z)\).
+map (15), the kernel **of the restricted map** gives the
+correct fiber spaces \(K_d(Z)\). This kernel need not be the
+restriction of the original kernel sheaf; equivalently one can apply
+(11b) afresh over that stratum using its re-formed union ideal.
 This identifies the original
 containing-equation family with a
 direct image from a **single smooth
@@ -468,12 +518,15 @@ not just eigenforms.
 
 Refine the endpoint strata (6) by imposing
 constant ranks of \(\epsilon_a,\epsilon_b\).
-Then \(\mathcal K_a=\ker\epsilon_a\)
-and \(\mathcal K_b=\ker\epsilon_b\)
-are vector bundles commuting with base change.
+On each resulting stratum \(S\), put
+\(\mathcal K_a=\ker(\epsilon_a\otimes\mathcal O_S)\)
+and \(\mathcal K_b=\ker(\epsilon_b\otimes\mathcal O_S)\).
+These are vector bundles commuting with further base change from
+\(S\); they are not asserted to be restrictions of the kernels on
+\(B_m\).
 The projective incidence
 \[
- \mathbf P(\mathcal K_a)\times_{B_m}
+ \mathbf P(\mathcal K_a)\times_S
  \mathbf P(\mathcal K_b) \tag{16}
 \]
 parametrizes chosen equations containing
@@ -507,11 +560,12 @@ thickenings with the same reduced support.
 
 ## 7. Direct fiberwise Rees blow-ups: a completed two-curve model
 
-The direct construction (3) is more tractable than its general
-base-change caution suggests. For **two distinct curves**,
+The direct construction using the re-formed union (6a) is tractable
+for **two distinct curves**:
 its local ideal and every Rees chart can be written explicitly.
-This solves the direct-family specialization problem for \(m=2\)
-after a finite, concrete stratification.
+This constructs the desired fiberwise direct blow-up families for
+\(m=2\) on a finite, concrete stratification. It does not identify
+them with the restrictions of (3) across a rank drop.
 
 At \(p_0\), write \(r=x_1/x_0\), \(y=x_2/x_0\),
 \(z=x_3/x_0\), and subtract the first branch:
@@ -549,10 +603,15 @@ are the principal ideals \((Y)\) and
 \((Y-ar^3)\) in \(k[[r,Y]]\).
 Those distinct irreducibles are relatively
 prime in this UFD, so their intersection
-is their product. The same argument with
-\(Y=0\) gives (19). Both resulting
-ideals are regular sequences in the
-regular threefold local ring. \(\square\)
+is their product. Relatively over a stratum where \(a\) is a unit,
+the quotient by \((Y)\) is the base's formal \(r\)-disk, on which
+\(Y-ar^3\) restricts to the nonzerodivisor \(-ar^3\).
+The same intersection-equals-product argument therefore works over
+the stratum without assuming its local rings are UFDs. With \(a=0\)
+and \(b\) a unit it instead applies to \(Z'\) and \(Z'-br^4\),
+giving (19). Both displayed pairs are relative regular sequences:
+eliminate the smooth first coordinate, then use the monic quadratic
+second generator. \(\square\)
 
 At the opposite endpoint use the regular
 coordinates
@@ -569,7 +628,7 @@ Consequently the two-curve configuration
 space has a **finite four-case stratification**
 according to whether \(u_1=u_2\) and
 whether \(\alpha_1=\alpha_2\). On each
-nonempty stratum the universal union is
+nonempty stratum the union **formed on that stratum** is
 a *relative regular immersion of codimension two*:
 near both endpoints the generators (18)–(19)
 are relative regular sequences, and elsewhere
@@ -591,9 +650,9 @@ is flat and the conormal bundle is locally free.
 The finite extensions
 \(\mathcal O/\mathcal I^n\) are therefore
 flat for all \(n\). Thus condition (7)
-holds and **the direct Rees blow-up (3)
-commutes with specialization on every
-one of these strata**. In particular we have
+holds and **the Rees blow-up of that stratum's re-formed union
+commutes with every further specialization within the stratum**.
+In particular we have
 a genuine family with fiber
 \(\operatorname{Bl}_{A_Z}\mathbf P^3\),
 not merely the separated model (9).
@@ -673,11 +732,11 @@ that connects directly to the dual
 affine-line incidence already established
 for reduced \((4,4)\) arrangements.
 
-Suppose all \(u_i\) are distinct and
-the quotient configuration satisfies
-\(v_i=A+B u_i\) for fixed \(A,B\).
-At \(p_0\), the **entire reduced union**
-has the relative local CI ideal
+Let \(S\) be a reduced locally closed parameter family on which all
+\(u_i-u_j\) are units and
+\(v_i=A+B u_i\), with \(A,B\) regular functions on \(S\).
+Form the union of the pulled-back branches over \(S\).
+At \(p_0\), this **re-formed union** has the relative local CI ideal
 \[
  \boxed{
  \left(z-Ar^4-Br y,\quad
@@ -688,9 +747,12 @@ has the relative local CI ideal
 The first equation is a smooth local
 carrier surface; modulo it each branch
 is a principal divisor \(y-u_i r^3\).
-The factors are distinct irreducibles
-and hence their intersection is
-their product. The ring defined by
+The factors need not be irreducibles over the parameter ring, so a
+relative argument is needed: the quotient by any one monic factor
+is \(\mathcal O_S[[r]]\), on which the product of the preceding
+factors restricts to a unit times a power of \(r\), a nonzerodivisor.
+Induction therefore identifies the intersection of their principal
+ideals with their product. The ring defined by
 (23) is free of rank \(m\) over
 the formal \(r\)-disk, with basis
 \(1,y,\ldots,y^{m-1}\).
@@ -713,13 +775,12 @@ then the identical construction at
  }\tag{24}
 \]
 Thus on this **dual-planar locus**
-the reduced arrangement has
+the union formed over the locus has
 a relative local CI ideal at both
 endpoints, and the direct arrangement
 Rees blow-up genuinely commutes with
-specialization in any locally closed
-family where the displayed conditions
-and distinctness hold.
+further specialization in any such family. This uses its re-formed
+ideal, not an unverified pullback of \(\mathcal I_m\) from \(B_m\).
 
 **Proposition (a degree-four rigidity gate).**
 Assume \(m\ge5\) distinct \(u_i\)'s,
@@ -806,10 +867,11 @@ finite symmetric-group quotient must also
 be taken into account.
 
 **Already constructed:** (3) as a relative
-Rees blow-up, including genuine fiberwise
-Rees families on the two-curve contact
+Rees blow-up with possibly incorrect arrangement fibers;
+genuine fiberwise Rees families formed anew on the two-curve contact
 strata and the dual-planar locus;
-the explicit endpoint-flat strata (6); the smooth separated family
+the explicit rank strata (6) with re-formed flat unions (6a);
+the smooth separated family
 (9) with fiber (10); the exact global
 section dictionary (11); the characteristic-
 independent normal modification (12)–(14);
@@ -817,8 +879,8 @@ the relative equation-pair incidence (16)
 and its reduced CI criterion.
 
 **Concrete unresolved steps:** identify
-further normal-flat strata where (3) has
-fiber \(\operatorname{Bl}_{A_Z}\mathbf P^3\)
+further strata with normally flat re-formed unions, and determine
+where their Rees algebras agree with the restriction of (3),
 for general non-planar configurations;
 compute local Rees and exceptional fibers
 at \(p_0,p_\infty\) for \(m=2,3,4\);
@@ -837,9 +899,11 @@ is asserted for \(m>1\).
 smooth relative model where all arrangement
 curves have been separated, and (11) proves
 that no homogeneous **containment** equations
-are lost. The singular direct blow-ups (3)
-are the geometric objects of interest,
-and (12)–(14) give the local modification
+are lost. The singular blow-ups \(\operatorname{Bl}_{A_Z}\mathbf P^3\)
+are the fiberwise geometric objects of interest; they are fibers of
+the re-formed normal-flat families just proved, and are not automatically
+fibers of the unrestricted universal construction (3).
+The normal-bundle formulas (12)–(14) give the local modification
 that must be reconciled when passing
 between the two. This is a substantive
 realization/contraction program rather than

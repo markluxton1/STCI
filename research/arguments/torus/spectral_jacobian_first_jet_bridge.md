@@ -1,6 +1,8 @@
 # The spectral–Jacobian bridge and first-jet Macaulay pairing
 
-**Status (2026-11-22):** new project-specific deductions from standard Grothendieck residue/graded Gorenstein duality, the accepted local Jacobian–socle lemma on main, and PR #173's spectral ideal-membership argument. **Pending independent mathematical review.** The argument does **not** prove universal moment vanishing or solve the STCI problem. Characteristic zero over algebraically closed \(k\).
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed Propositions A/B, the first-jet Macaulay/Serre pairing, explicit controls and leading relative-residue comparison. Inherited inputs are the accepted local mixed-Jacobian/socle lemma, generic spectral ideal membership and finite Gorenstein residue duality.
+
+**Status (2026-11-22):** new project-specific deductions from standard Grothendieck residue/graded Gorenstein duality, the accepted local Jacobian–socle lemma on main, and PR #173's spectral ideal-membership argument. **Covered by the scoped correctness review above.** The argument does **not** prove universal moment vanishing or solve the STCI problem. Characteristic zero over algebraically closed \(k\).
 
 ## 1. Set-up and the two intrinsic quotient characters
 
@@ -470,7 +472,7 @@ compatibility; that implication remains open.
 The [direct STCI power/jet comparison](sole_support_first_jet_gate.md#the-first-power-obstruction-is-another-serre-duality-class)
 identifies a second canonical use of the
 **same** relative Grothendieck residue
-\(\mathcal R_{F,G}:E\to k[x_0,x_3](-d)\),
+\(\mathcal R_{F,G}:E\to k[x_0,x_3]\!\left(-d\right)\),
 \(d=a+b-2\).
 For \(m=ab/4\), \(r_*=2m-d\),
 the first potentially nontrivial

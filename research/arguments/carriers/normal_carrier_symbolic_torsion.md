@@ -1,5 +1,7 @@
 # Normal carriers: class-group torsion, symbolic triples, and local indices
 
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed the strengthened Picard-saturation consequences, the K3 order-bound application and the almost-Cartier power extension. Inherited inputs are the earlier normal local-index, symbolic-triple and low-degree exclusion proofs.
+
 ## Integration guide: class-group torsion, index bounds, and the mate problem
 
 The [carrier torsion investigation](#2026-10-14-generalization-normal-carrier-torsion) distinguishes Cartier and Weil divisor information on possibly singular normal surfaces. The [symbolic-triple certificate](#2026-10-14-generalization-normal-carrier-symbolic-triple-certificate) adds a specific primitive structure and first torsion divisor; its [filtered comparison](#2026-10-14-generalization-symbolic-triple-torsion-comparison-audit) distinguishes actual Cartier indices and the hypotheses of stronger bounds.
@@ -205,7 +207,7 @@ not invert this implication without a separate global relation.
 
 ### 4. Cartier-index integrality and new all-degree exclusions
 
-**Stronger literature input (independent review pending).** Hartshorne--Polini, Lemma 7.6, already proves hyperplane saturation for all surfaces in projective three-space in characteristic zero. Česnavičius–Scholze, [*Purity for flat cohomology*, Corollary 7.2.3](https://annals.math.princeton.edu/2024/199-1/p02), prove `Pic(X)/Z[H]` torsion-free for any projective complete intersection of dimension at least two over a field. As `RC0` is Cartier and some multiple is linearly equivalent to a multiple of `H`, it follows that `RC0 ~ (4R/a)H`. Thus `a | 4R`, `mu | R`, `t=R/mu`, `b_min=4R/a`, and `m_min=R`, without a rationality or characteristic restriction on the fixed-carrier Picard argument. See the [strengthened exact theorem](normal_carrier_divisor_geometry.md#3-exact-exponent-and-minimal-mate-once-the-boundary-is-reached). The earlier weaker integrality calculation below is retained as an elementary independent necessary condition; applications of the characteristic-zero quartic exclusion remain characteristic-zero.
+**Stronger literature input (included in the scoped correctness review above).** Hartshorne--Polini, Lemma 7.6, already proves hyperplane saturation for all surfaces in projective three-space in characteristic zero. Česnavičius–Scholze, [*Purity for flat cohomology*, Corollary 7.2.3](https://annals.math.princeton.edu/2024/199-1/p02), prove `Pic(X)/Z[H]` torsion-free for any projective complete intersection of dimension at least two over a field. As `RC0` is Cartier and some multiple is linearly equivalent to a multiple of `H`, it follows that `RC0 ~ (4R/a)H`. Thus `a | 4R`, `mu | R`, `t=R/mu`, `b_min=4R/a`, and `m_min=R`, without a rationality or characteristic restriction on the fixed-carrier Picard argument. See the [strengthened exact theorem](normal_carrier_divisor_geometry.md#3-exact-exponent-and-minimal-mate-once-the-boundary-is-reached). The earlier weaker integrality calculation below is retained as an elementary independent necessary condition; applications of the characteristic-zero quartic exclusion remain characteristic-zero.
 
 The global Cartier index of `C0` is exactly `R`: a Weil divisor on
 a normal surface is Cartier if and only if it is Cartier at every
@@ -979,14 +981,13 @@ along the conic \(\Gamma\) needed to lift
 back to a sole-support pair in \(\mathbf P^3\).
 Do not substitute this global-ADE bound for
 the weaker local hypothesis in the
-[primitive graph-row obstruction](../residuals/blowup_residual_geometry.md#a-k3-marked-lattice-obstruction-to-the-primitive-graph-row):
+[primitive graph-row obstruction](../residuals/k3_marked_lattice.md#a-k3-marked-lattice-obstruction-to-the-primitive-graph-row):
 the rank proof there works even with worse
 singularities away from the curve.
 
 The classification input is established; its
 applications, including precise polarization
-and local-index interpretation, await
-independent review. They extend over
+and local-index interpretation, were independently reconstructed in the scoped review above. They extend over
 algebraically closed characteristic zero by
 descent to complex models, not to arbitrary
 characteristic without a new torsion argument.
@@ -1313,7 +1314,7 @@ charges those corrections rather than suppressing them.
 ### Normality is unnecessary: the actual almost-Cartier power theorem
 
 **Status: extension of the reviewed power--socle and symbolic-triple
-proofs, pending independent mathematical audit.** Let \(S\) be an
+proofs, independently reconstructed at the scope above.** Let \(S\) be an
 integral hypersurface in a smooth threefold, over an algebraically
 closed field of characteristic zero, and \(C\subset S\) a smooth
 curve such that \(S\) is regular at its generic point. Suppose

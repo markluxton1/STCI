@@ -1,5 +1,7 @@
 # Fixed-carrier descent and Cartier singleton models
 
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed AC1–AC3, their minimum-carrier compression consequence and the cited normalized first-graph refinements. Inherited inputs are the existing conductor-descent criterion and the actual mate/marked-ideal relations.
+
 This is the proof home for [R-0003](../../results/fixed_carrier_conductor_criterion.md) and the Cartier model classification [R-0002](../../results/cartier_singleton_lift.md). It incorporates the independent source audits' corrected scopes: arbitrary characteristic for the fixed-carrier lattice theorem; characteristic zero and an actual mate for the classification; full inverse support including isolated points; and two distinct torsion orders for producing and descending a section. The unrestricted characteristic-zero question for the fixed quartic remains open.
 
 The supporting local membership, unit-power, single-field/split-phase, and purity lemmas are proved in [full conductor algebra](conductor_descent_algebra.md). In particular, for an integral Cohen–Macaulay surface X and finite normalization nu, the sheaf nu_*O_S/O_X is pure of dimension one: at a closed point the source and normalization modules have depth at least two, so the depth lemma gives quotient depth at least one. This justifies generic-to-global descent below without discarding nilpotent conductor data or assuming the conductor is Cartier.
@@ -321,7 +323,7 @@ central task.
 
 ### The normalized Hodge matrix and downstairs almost-Cartier indices
 
-**Status: new synthesis of established inputs, pending independent review.** The
+**Status: new synthesis of established inputs, covered by the scoped correctness review above.** The
 class-group criterion in [Hartshorne--Polini, Proposition 7.1 and Lemma 7.6,
 *Divisors class groups of singular surfaces*](https://arxiv.org/abs/1301.3222)
 already works on nonnormal carriers in characteristic zero. Their Lemma 7.6
@@ -459,7 +461,7 @@ not bounds on Cartier indices of normalized inverse curves.
 
 ### A fixed-carrier numerical filter for the entirely-thick branch
 
-The [normalized first-graph dictionary](numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) strengthens the relation-lattice criterion before the conductor computation: the valuation vector of a sole-support mate lies in the kernel of the normalized Hodge matrix, while the actual marked ideal has a known self-intersection deficit split between branch imbalance and exceptional principalization. A content-free first normal divisor with only one horizontal root cannot occur on a mate-bearing carrier of C0. For two inverse branches without vertical fibers, the two actual Cartier relations (marked ideal and mate) determine the rational numerical branch matrix and impose integral intersections with all Cartier test divisors. At degree (3p), the [ruling cluster test](numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) gives explicit root multiplicity divisibility. These are necessary conditions on the normalization lattice and the actual source, not a replacement for the off-support conductor unit map in §4; nor do they use a reduced almost-Cartier class along a generically singular curve. Independent audit is pending.
+The [normalized first-graph dictionary](numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) strengthens the relation-lattice criterion before the conductor computation: the valuation vector of a sole-support mate lies in the kernel of the normalized Hodge matrix, while the actual marked ideal has a known self-intersection deficit split between branch imbalance and exceptional principalization. A content-free first normal divisor with only one horizontal root cannot occur on a mate-bearing carrier of C0. For two inverse branches without vertical fibers, the two actual Cartier relations (marked ideal and mate) determine the rational numerical branch matrix and impose integral intersections with all Cartier test divisors. At degree (3p), the [ruling cluster test](numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) gives explicit root multiplicity divisibility. These are necessary conditions on the normalization lattice and the actual source, not a replacement for the off-support conductor unit map in §4; nor do they use a reduced almost-Cartier class along a generically singular curve. Independent reconstruction is recorded in the scoped review above.
 
 ## 8. Positive characteristic comparison
 
@@ -710,7 +712,7 @@ Local Cartier indices \(e=3\) or \(6\) would compress to a quadric or quartic
 carrier and cannot represent a genuinely sextic-minimal phenomenon.
 
 
-The mechanism does not use rationality or genus: for a smooth integral curve of degree d in P3 under the same characteristic-zero, actual-minimum-carrier and generic-regularity hypotheses, the proof replaces 4 by d and gives `a|de`, `n=de/a>=a`, and `e>=a²/d`. This is a bounded extension of the compression statement, not a bound on a without control of actual local indices. It does not apply to a carrier generically singular along C, where the reduced curve need not define the assumed APic class. The [all-characteristic extension AC1--AC3](#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) now eliminates the characteristic restriction in this compression argument; this extension awaits independent review. The original minimum-carrier proof is retained at its reviewed scope.
+The mechanism does not use rationality or genus: for a smooth integral curve of degree d in P3 under the same characteristic-zero, actual-minimum-carrier and generic-regularity hypotheses, the proof replaces 4 by d and gives `a|de`, `n=de/a>=a`, and `e>=a²/d`. This is a bounded extension of the compression statement, not a bound on a without control of actual local indices. It does not apply to a carrier generically singular along C, where the reduced curve need not define the assumed APic class. The [all-characteristic extension AC1--AC3](#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) now eliminates the characteristic restriction in this compression argument; this extension was covered by the scoped correctness review above. The original minimum-carrier proof is retained at its reviewed scope.
 
 ## Singleton rays without a Cartier lift: exact index conditions
 

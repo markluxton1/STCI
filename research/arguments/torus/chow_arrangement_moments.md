@@ -1,5 +1,7 @@
 # A first moment and a linear Chow separator for translated CI arrangements
 
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed the full norm/Chow dictionary, paired determinant recognition and finite source-depth use, roots-of-unity controls and trace-rank compression, including the corrected CHN11 normalization. Inherited inputs are the established finite-flat projection, source-depth theorem and classical norm/trace identities.
+
 **Review, November 20, 2026:** independent review checked the finite-free
 trace, congruence and one-eigenform extensions, component multiplicities,
 linear Chow separator, closure corollary and scope qualifications below.
@@ -232,7 +234,7 @@ of \(T/H\) is a different condition, not assumed here.
 
 ## The homogeneous transverse Chow form as a section norm
 
-**New synthesis, pending independent review.** The first moment above is
+**New synthesis, covered by the scoped correctness review above.** The first moment above is
 only the first coefficient of a more canonical object. The algebraic inputs
 are classical: a zero-dimensional Chow form is a norm/determinant of
 multiplication, and border-basis theory characterizes genuine multiplication
@@ -327,7 +329,7 @@ Without the translated-family hypothesis, (CHN7) is only a section condition.
 
 ### A two-operator determinant recovers the full transverse Chow polynomial
 
-**New comparison, pending independent review.**  The binary specialization
+**New comparison, covered by the scoped correctness review above.**  The binary specialization
 \(H_Z\) remembers only \(U_i/V_i\).  There is an equally elementary
 finite-algebra determinant that retains the **paired** transverse coordinates
 and hence the full \({\cal C}_Z\).
@@ -446,8 +448,13 @@ multiplication by the degree-four section \(TP+ZR\).  By the
  \text{ base-degree layers of the actual }F,G.}       \tag{CHD8}
 \]
 Thus (CHD4) is not only a cycle identity: it identifies, order by order,
-specific coefficients of \({\cal C}_Z\) with finite-depth polynomial
-functions of the two **actual homogeneous source equations**.
+specific coefficients of \({\cal C}_Z\) with finite-depth regular
+functions of the two **actual homogeneous source equations** on the open
+where the binary leading resultant is nonzero.  With the leading forms
+varying, these are rational coefficient expressions with powers of that
+resultant allowed in the denominator; after fixing the binary leading
+forms, they are polynomial in the remaining source coefficients.  See the
+[source-parameter qualification](fixed_surface_and_endpoint_algebras.md#the-whole-characteristic-tower-has-finite-source-depth).
 
 At first order,
 \[
@@ -637,9 +644,10 @@ and for a translated arrangement
 for \(r,s\ge0\), not both zero. This follows by summing
 \(u_i^s t^{r+3s}\) over \(t^4=v_i^{-1}\).
 
-The existing first moment is exactly
+Write \(\widehat{\cal N}(y,z)={\cal N}_Z(1,y,z)/{\cal N}_Z(1,0,0)\),
+so its constant coefficient is one. The existing first moment is exactly
 \[
- [y]{\cal N}\,[z]{\cal N}-[yz]{\cal N}
+ [y]\widehat{\cal N}\,[z]\widehat{\cal N}-[yz]\widehat{\cal N}
  =\operatorname{Tr}(M_\xi M_\eta)
  =4\sum_i n_i{u_i\over v_i}. \tag{CHN11}
 \]
@@ -662,8 +670,7 @@ border-basis/commuting-multiplication-matrix criterion.
 
 The project-specific application is (CHN3), fixed-plane injectivity on the
 translated-quartic fiber, and the identification of the old first Chow
-separator with the first coefficient of the full norm transform. Independent
-review is pending.
+separator with the first coefficient of the full norm transform. Independent reconstruction is recorded in the scoped review above.
 
 The realization question is now finite and source-facing: determine which
 \({\cal C}_Z\) have \({\cal N}_Z\) in the resultant image of the prescribed

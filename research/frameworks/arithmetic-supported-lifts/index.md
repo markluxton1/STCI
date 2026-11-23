@@ -110,7 +110,7 @@ The shared [positive-characteristic references](../../literature/README.md#posit
 distinguish the quartic constructions from affine theorems and from
 hypotheses needed for degree transfer.
 
-The [linkage formulas](../../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) and [local duality](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) use characteristic-free canonical module arguments. The explicit [toric semigroup lattice](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) uses invertible binomial minors in characteristic zero or the indicated large-characteristic range. Do not specialize this basis when the minors vanish.
+The [linkage formulas](../../arguments/residuals/layerwise_attachment_and_triples.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) and [local duality](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) use characteristic-free canonical module arguments. The explicit [toric semigroup lattice](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) uses invertible binomial minors in characteristic zero or the indicated large-characteristic range. Do not specialize this basis when the minors vanish.
 
 ### A comparison for compatible quadratic-conductor lattices
 

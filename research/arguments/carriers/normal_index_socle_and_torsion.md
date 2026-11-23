@@ -1,5 +1,7 @@
 # Normal indices, socle divisors, and torsion
 
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed the intrinsic divisor extension to a possibly nonnormal generically regular carrier. Inherited inputs are the established local power–socle theorem and finite normalization; other inherited local-index results retain their earlier review scope.
+
 ## Integration guide: numerical indices and actual symbolic structures
 
 The [general index scope](#2026-10-14-generalization-normal-index-general-scope) derives inequalities that may be applied before a second defining surface is chosen; the [socle theorem](#2026-10-14-generalization-normal-index-socle-theorem) then imposes additional local structure under its exact assumptions. The scalar inequalities, equality-case conclusions, and characteristic restrictions have distinct hypotheses.
@@ -165,7 +167,7 @@ of the actual downstairs indices. The older normal proof
 is the specialization. In particular the all-degree
 low-index and symbolic-triple exclusions apply in the
 broader generically regular characteristic-zero scope.
-The present extension awaits independent review; it is
+The present extension is included in the scoped correctness review above; it is
 not an assertion that arbitrary normalization indices
 or abstract conductor data alone decide descent.
 

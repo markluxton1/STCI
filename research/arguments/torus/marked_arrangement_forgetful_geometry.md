@@ -161,4 +161,79 @@ For general \(\lambda\), the cross-ratio fiber in the plane is the smooth conic 
 
 **Important distinction about collisions.** The nodal point \([1:1:1:1]\) is collision with boundary label 1 in this normalized carrier chart. With \(A,B\) fixed nonzero it means \(q_i=0\), i.e. it leaves the quotient torus \(T\). It is not the deepest diagonal of the original arrangement space at an interior point \(z\in T\). The two framing parameters and their degeneration cannot be omitted when comparing collision strata. The trace-moment separator, not the K3 compactification, excludes \(m[C_z]\) from the reduced CI closure.
 
-The \(\overline M_{0,7}\) graph and its cross-ratio embedding in §4 remain useful for this particular carrier model, but are **secondary**. The primary compactification should be independent of the defining degrees and of the choice of carrier, retain the entire configuration and its subconfigurations, and only then select the CI loci. See the [arrangement-first compactification program](../../investigations/chow-quotient-arrangement-bridge/index.md#the-arrangement-first-compactification-program).
+The \(\overline M_{0,7}\) graph and its cross-ratio embedding in §4 remain useful for this particular carrier model, but are **secondary**. The primary compactification should be independent of the defining degrees and of the choice of carrier, retain the entire configuration and its subconfigurations, and only then select the CI loci. The following all-subsets model is one such proposed construction.
+
+## 7. Arrangement-first compactification
+
+Let \(S\) be a projective compactification of \(T\) mapping to the orbit Chow closure, such as the normalized Chow quotient in
+[the fan calculation](chow_quotient_fan_and_blowup_comparison.md). Close the graph of the map from \(T\) to
+\(\operatorname{Hilb}_{4d+1}(\mathbf P^3)\) over \(S\), and allow a projective
+equivariant refinement \(S'\). This gives a projective parameter surface
+with a universal single-curve family
+\(\mathscr C\subset\mathbf P^3\times S'\). It retains the chosen Hilbert
+polynomial \(4d+1\) for individual curves; it does not make the embedded
+unions of varying arrangements flat.
+
+For a finite label set \(J\), take the reduced closure
+\[
+ \mathcal X_J=\overline{\{(\{z_i:i\in I\})_{\varnothing\ne I\subseteq J}:
+ (z_i)\in\operatorname{Conf}_J(T)\}}
+ \subseteq\prod_{\varnothing\ne I\subseteq J}
+       \operatorname{Hilb}^{|I|}(S').
+\]
+The singleton factors retain ordered positions; the full-set and other
+subset factors retain limiting collision schemes. Projections to factors
+indexed by subsets of \(K\subseteq J\) extend deletion to proper surjective
+forgetful maps \(\mathcal X_J\to\mathcal X_K\); relabeling acts by the
+symmetric group. On the distinct locus this model is the original ordered
+configuration space. It is projective, but is not claimed minimal, smooth,
+or identical to a Fulton–MacPherson compactification.
+
+Each subset factor has a universal finite flat scheme
+\(\mathscr Z_I\subset S'\times\mathcal X_J\). Pulling back the universal
+single-curve family gives
+\[
+ \mathscr D_I=\mathscr C\times_{S'}\mathscr Z_I
+ \longrightarrow\mathcal X_J,
+ \qquad \mathscr D_I\longrightarrow\mathbf P^3\times\mathcal X_J.
+\]
+The source family is flat and projective and maps compatibly with subset
+inclusions, relabeling, and forgetting. Its embedded image need not be flat:
+on collision the image can acquire scheme structure, and scheme-theoretic
+image does not automatically commute with base change. Thus this constructs
+a compactified family of **maps from arrangements**, not a universal flat
+family of embedded unions. To obtain embedded flat families, take closures
+inside a common endpoint-rank/Hilbert-polynomial stratum (and its relevant
+Hilbert scheme); compatibility with relative Rees blow-ups must be checked.
+
+On the locus where \(\mathscr Z_J\subset T\), restriction of degree-\(d\)
+equations is represented by
+\[
+ H^0(\mathbf P^3,\mathcal O(d))\otimes\mathcal O_{\mathcal X_J}
+ \longrightarrow
+ H^0(\mathbf P^1,\mathcal O(4d))\otimes
+       p_*\mathcal O_{\mathscr Z_J},
+\]
+where \(p:\mathscr Z_J\to\mathcal X_J\) is finite flat. On distinct fibers
+its kernel is the space of equations containing the reduced arrangement.
+At collisions it records equations vanishing on this family of curves over
+the finite scheme; it does not parametrize every embedded non-invariant
+thickening. Across the toric boundary, extend monomial-weight evaluation
+maps on a suitable refinement or use the flat single-curve family with
+relative cohomology and base change where applicable. Ranks may jump, so
+use rank strata or graph closures rather than presuming a vector bundle of
+kernels. The reduced complete-intersection locus is the open properness
+part of this incidence; it remains distinct from arbitrary non-invariant
+repeated-cycle equation incidence.
+
+The full-set Hilbert–Chow map followed by addition of single-curve cycles
+gives a projective cycle map to the Chow variety. In characteristic zero,
+the [Chow trace-moment theorem](chow_arrangement_moments.md) shows that the
+closure of the reduced arrangement CI locus misses every interior full
+collision cycle \(|J|[C_z]\), since its first moment there is
+\(|J|u/v\ne0\). The theorem's stated eigenform-covered repeated-cycle
+cases share this exclusion. This does not cover a non-invariant proper CI
+supported on a repeated cycle unless it lies in that reduced-locus closure.
+Keep simultaneous translations and label permutations on the arrangement
+model; an ambient \(\operatorname{PGL}_4\) quotient is a separate operation
+and need not preserve the fixed-coordinate slice.

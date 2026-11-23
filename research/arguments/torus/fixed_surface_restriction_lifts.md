@@ -1,5 +1,7 @@
 # Translate coordinates and fixed-surface equation lifts
 
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed the seed/Hodge multiplicity monoids, symmetry lattice, ADE contact-capacity bound and sextic endpoint consequences. Inherited inputs are the established local power–socle theorem, Picard saturation, actual almost-Cartier criterion and stated marked ADE formulas.
+
 **Review:** the coefficient, syzygy, descent and certificate statements and
 their controls received independent proof review. The fixed-carrier
 multiplicity comparison also received independent reconstruction.
@@ -398,11 +400,11 @@ comparison target for the residual-capacity framework.
 
 **Review status:** the exact monoid characterization and its
 consequences are new deductions from the cited classical inputs;
-independent audit is pending. The original seed theorem on
+independent reconstruction is recorded in the scoped review above. The original seed theorem on
 generically regular integral, possibly nonnormal carriers is
 preserved above.
 
-**Nonnormal extension with no seed mates.** The [normalized Hodge matrix and downstairs almost-Cartier theorem AC1](../carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) drops normality from the exact monoid characterization whenever the carrier is regular at the marked generic points: replace the intersection matrix by that of the strict transforms on the normalization, and impose actual local almost-Cartier relations downstairs. This is stronger than the seed monoid but retains exactly the local conductor obstruction; it cannot be applied to reduced branches supported generically in the singular locus. Independent review of this extension is pending.
+**Nonnormal extension with no seed mates.** The [normalized Hodge matrix and downstairs almost-Cartier theorem AC1](../carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) drops normality from the exact monoid characterization whenever the carrier is regular at the marked generic points: replace the intersection matrix by that of the strict transforms on the normalization, and impose actual local almost-Cartier relations downstairs. This is stronger than the seed monoid but retains exactly the local conductor obstruction; it cannot be applied to reduced branches supported generically in the singular locus. This extension is included in the scoped correctness review above.
 
 ### Symmetry and the multiplicity lattice
 
@@ -792,7 +794,7 @@ singularities.
 
 ### Local index lattice and contact capacity of symmetric arrangements
 
-**Status: new deductions, pending independent mathematical audit.** The
+**Status: new deductions, covered by the scoped correctness review above.** The
 localization of the actual mate lattice gives more than the global
 singleton construction. At a point \(P\) on a generically regular
 integral carrier, each actual mate vector \(v\) yields
@@ -958,7 +960,7 @@ is therefore at least
 \]
 a contradiction.
 
-We conclude, **subject to independent review of the stated extensions**,
+We conclude, **with the stated extensions independently reconstructed in the scoped review above**,
 that an actual symmetric sextic two-translate arrangement would have
 a common endpoint that is neither smooth nor Du Val. For a normal
 carrier the proof uses the previously reviewed normal socle theorem
@@ -988,7 +990,7 @@ generic-regularity hypothesis used in the involution--Bézout argument is
 satisfied. The conclusions below are necessary conditions for this
 normal/Du-Val sextic sector only.
 
-The stronger [local lattice and contact argument above](#local-index-lattice-and-contact-capacity-of-symmetric-arrangements) now bounds the off-endpoint index by \(\gcd(n_+,n_-)\), not just the difference, and excludes the full ADE symmetric sextic sector (pending review). The earlier weaker difference calculation and its independent endpoint numerator argument follow for comparison.
+The stronger [local lattice and contact argument above](#local-index-lattice-and-contact-capacity-of-symmetric-arrangements) now bounds the off-endpoint index by \(\gcd(n_+,n_-)\), not just the difference, and excludes the full ADE symmetric sextic sector (included in the scoped correctness review above). The earlier weaker difference calculation and its independent endpoint numerator argument follow for comparison.
 
 At any singular point \(q\in C_+\setminus C_-\)
 (or vice versa), the local class of the smooth branch

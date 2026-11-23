@@ -161,7 +161,11 @@ formulas and inequalities rather than a finite search. The
 **Status:** mathematical consequence of the accepted
 ADE local classification, the normalized triple-cover construction
 and the classical canonical-map inequality; the comparison is
-newly integrated here and requires independent review.
+independently reconstructed in the combined scoped correctness review of
+November 23, 2026 (AE1–AE3). The reconstruction checked the ADE local-cover
+Euler corrections, their dependence on the existing first-symbol budgets,
+prime-degree canonical birationality and Debarre's inequality, retaining
+the globally ADE general-pencil hypotheses.
 
 Under the one surviving *globally ADE* \((6,6)\) row,
 \(\ell=6,D_2=0\), the complete local list above consists of

@@ -1593,7 +1593,7 @@ The retained [finite normal-jet verifier](https://github.com/markluxton1/STCI/bl
 
 ## A terminal hyperplane-jet defect in every degree
 
-**New application of the classical Rao module, pending independent review.**
+**Scoped correctness review (2026-11-23, combined integration):** the terminal hyperplane-jet calculation HJ1–HJ7 and fixed determinant-truncation image equality HJ8–HJ9 were independently reconstructed, using the classical Rao module and inherited finite source-depth theorem. This does not assert pure-target nonemptiness or unrestricted STCI nonexistence.
 The fixed rational quartic has Hartshorne--Rao module
 \[
  M_C=\bigoplus_nH^1(\mathbf P^3,\mathcal I_C(n))
@@ -1761,9 +1761,11 @@ For the disjoint center line \(P\), that theorem gives
  H^0(\mathcal I_C(d))\longrightarrow(S/P^N)_d
  \quad\text{surjective whenever}\quad d\ge N+2.        \tag{HJ7}
 \]
-Thus every source obstruction depending only on a **fixed** transverse depth
-eventually disappears as the equation degree grows.  A nontrivial
-all-degree jet obstruction must allow its depth to grow with \(d\).
+Thus restrictions coming solely from membership in the individual source
+space \(H^0(\mathcal I_C(d))\), at a **fixed** center depth, eventually
+disappear as the equation degree grows.  An obstruction using further
+joint CI or global support conditions need not be a source-membership
+restriction; those conditions are not removed by (HJ7).
 
 The hyperplane calculation attains exactly the first possible moving scale:
 its first failure is at thickness
@@ -1771,9 +1773,85 @@ its first failure is at thickness
  e=d-1,
 \]
 equivalently normal order \(d-2\).  In that sense (HJ4) is a sharp model for
-what an all-degree source obstruction must look like: a bounded first,
-second, or other fixed jet cannot suffice.  This does not assert that the
+what an all-degree source-membership obstruction must look like: counting
+bounded first, second, or other fixed jets cannot suffice.  This does not
+assert that the
 single Rao residue itself obstructs an STCI; actual equations through \(C\)
 satisfy it by definition.  Its role is to locate the first global source
 information that survives uniformly in degree and to rule out fixed-depth
 jet counting as a scalable strategy.
+
+### Fixed determinant truncations forget containment of the quartic in large degrees
+
+**Source-image consequence (independently reviewed, 2026-11-23).**  Work in
+characteristic zero with \(S=k[x_0,x_1,x_2,x_3]\),
+\(P=(x_0,x_3)\), and \(M=V_+(P)\), the line disjoint from \(C\).
+Fix \(r\ge1\) and degrees
+\[
+ a,b\ge4r+3.
+ \tag{HJ8}
+\]
+Let \(\mathcal U_{a,b}\) be the set of pairs of homogeneous forms of
+degrees \((a,b)\) whose binary restrictions to \(M\) have nonzero
+resultant, and put
+\[
+ \mathcal U^C_{a,b}
+ =\mathcal U_{a,b}\cap
+   \bigl(H^0(\mathcal I_C(a))\times
+         H^0(\mathcal I_C(b))\bigr).
+\]
+Every pair in \(\mathcal U_{a,b}\) is proper and has the finite-flat
+plane-pencil cover used in the
+[paired determinant](../torus/chow_arrangement_moments.md#a-two-operator-determinant-recovers-the-full-transverse-chow-polynomial).
+Use its fixed test sections
+\[
+ D=x_0^3x_3,\qquad P_4=x_0^2(x_0x_3-x_1x_2),\qquad
+ R_4=x_1^4-x_0^3x_3,
+\]
+with \(P_4\) distinguished from the center ideal \(P\), to define
+\[
+ \Delta_Y(S_0,T,Z)
+   =\sum_{j=0}^{ab}S_0^{ab-j}\Delta_j(T,Z).
+\]
+Then the following sets of attainable coefficient tuples are equal:
+\[
+ \boxed{\quad
+ \{(\Delta_1,\ldots,\Delta_r):(F,G)\in\mathcal U^C_{a,b}\}
+ =
+ \{(\Delta_1,\ldots,\Delta_r):(F,G)\in\mathcal U_{a,b}\}.
+ \quad}                                                   \tag{HJ9}
+\]
+
+To prove this, take any pair in \(\mathcal U_{a,b}\) and set
+\(N=4r+1\).  By (HJ7) and (HJ8), its two arbitrary classes modulo
+\(P^N\) lift independently to forms through \(C\) of the same degrees.
+Their binary leading forms are unchanged.  Nonzero binary resultant
+means that the resulting intersection misses \(M\).  It also proves
+properness: a common positive-degree surface factor would meet the
+projective line \(M\), giving a common binary zero.  Projection from
+\(M\) is finite on this projective CI, since a curve in a fiber plane
+would meet its line \(M\); Cohen--Macaulayness then gives flatness over
+the smooth base curve.  The finite source-depth statement (CHD8) uses
+only base-degree layers through \(4j\) for \(\Delta_j\).  These layers
+agree for every \(j\le r\), so the tuples agree.  The reverse inclusion
+in (HJ9) is immediate.
+
+The same argument for the
+[quadric/cubic characteristic towers](../torus/fixed_surface_and_endpoint_algebras.md#two-fixed-test-surfaces-give-an-exact-support-criterion)
+uses only \(a,b\ge3r+3\) when retaining both towers through order \(r\).
+No assertion about equality of full cycles or full characteristic towers
+is involved.
+
+This is stronger than a cycle-level cancellation control but is not a
+nonexistence theorem or a construction of pure-target jets.  It does
+**not** prove that \(\Delta_1=\cdots=\Delta_r=0\) has any solution on
+either side of (HJ9).  It says that, in the degree range (HJ8), a fixed
+determinant truncation cannot distinguish equations containing \(C\)
+from arbitrary proper equations avoiding \(M\).  A contradiction in
+that truncation would already have to come from the general finite-CI
+source algebra; any further use of the marked curve must enter through
+deeper source data or an additional joint global condition.  In particular,
+the marked-containment condition adds no restriction to this tuple for
+\(r\le\lfloor(\min(a,b)-3)/4\rfloor\).  The
+roots-of-unity cycle construction remains a distinct warning, since it
+does not realize its cycles by actual equation pairs.

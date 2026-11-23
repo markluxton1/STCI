@@ -1,5 +1,7 @@
 # Horizontal blowup paths: resultants, bundles, and missing higher jets
 
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed the horizontal extensions and source-support deductions in the new recursion sections. Inherited inputs are the established two-blowup identities and the explicitly stated finite-map, local-support and positivity hypotheses.
+
 Let C be a smooth integral curve of degree d in projective three-space,
 and let an actual proper pair F_a,G_b have sole reduced support C. Write
 p,q for its generic normal orders and m=ab/d for its transverse length.
@@ -227,7 +229,7 @@ degrees and no automatic homogeneous realization of a local path.
 
 ## What can actually be iterated beyond the first graph
 
-The [ample strict-carrier compression LC1--LC2](blowup_residual_geometry.md#lefschetz-compression-on-ample-strict-carriers)
+The [ample strict-carrier compression LC1--LC2](strict_carrier_picard_compression.md#lefschetz-compression-on-ample-strict-carriers)
 and the [general moving symbol and socle theorem](../carriers/normal_carrier_divisor_geometry.md#first-symbol-movement-and-socle-comparison-on-an-arbitrary-smooth-threefold)
 are not tied to projective-space ambient classes. On any
 smooth projective characteristic-zero threefold in the
@@ -267,7 +269,7 @@ give precise local comparisons in this iteration,
 when the required generic curvilinearity or
 finite same-support modification hypotheses hold.
 In particular the [marked-point transfer on the
-first graph](blowup_residual_geometry.md#socle-defects-on-the-two-presentations-of-the-first-graph)
+first graph](first_graph_finite_transfer.md#socle-defects-on-the-two-presentations-of-the-first-graph)
 accounts for the actual loss of primitivity under
 the other contraction. This illustrates why
 one must not simply transport the previous
@@ -278,7 +280,7 @@ review.
 
 ### A local contact versus global degree obstruction beyond this graph
 
-The [marked-line interpolation ML9](blowup_residual_geometry.md#all-orders-the-marked-line-comparison-by-interpolation)
+The [marked-line interpolation ML9](marked_line_local_geometry.md#all-orders-the-marked-line-comparison-by-interpolation)
 has the following smooth-threefold formulation. Suppose a smooth
 threefold \(Y\) contains two smooth curves \(\Gamma,\Delta\) meeting
 at \(z\), with formal ideals \(\Gamma=(x,y),\Delta=(t,y)\).
@@ -314,10 +316,10 @@ the relevant orders must be established rather than presumed.
 The condition that \(t\) have order one explains why the
 endpoint test line of ML6 does not imply the same exclusion.
 This formulation and the
-[complementary smooth-image local algebra and conic-order compression](blowup_residual_geometry.md#the-opposite-marked-stratum-a-smooth-image-carrier-and-a-forced-graph-defect)
-await independent review.
+[complementary smooth-image local algebra and conic-order compression](smooth_marked_image_geometry.md#the-opposite-marked-stratum-a-smooth-image-carrier-and-a-forced-graph-defect)
+were covered by the scoped correctness review above.
 
-The [first-symbol transfer SM3](blowup_residual_geometry.md#first-symbol-transfer-and-the-remaining-mixed-sextic-strata)
+The [first-symbol transfer SM3](smooth_marked_image_geometry.md#first-symbol-transfer-and-the-remaining-mixed-sextic-strata)
 additionally accounts for the actual first normal
 order after exceptional division:
 \(A_{i,+}=A_{i,-}+1-\xi-e_i\).
@@ -336,7 +338,7 @@ and cannot be used unchanged for a center
 equal to the support or for generically
 different algebras.
 
-The [interior signed finite transfer](blowup_residual_geometry.md#signed-finite-transfer-throughout-the-interior-equality-boundary)
+The [interior signed finite transfer](first_graph_finite_transfer.md#signed-finite-transfer-throughout-the-interior-equality-boundary)
 removes the earlier sole-support image limitation for the
 transverse-center comparison by using the full primary component
 and actual attachment to the residual center. If the strict

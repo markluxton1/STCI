@@ -928,7 +928,7 @@ On a smooth auxiliary surface Q, let h cut out C and write F|Q=h rho, G|Q=h sigm
 ### Residual-corrected R0019 and the actual equation source
 
 The earlier R0019 proof immediately above is the \(R=0\)
-case of the [proper-cut identity LA5--LA6](../residuals/residual_capacity_and_constructions.md#cutting-the-residual-pair-rather-than-just-its-primary-part).
+case of the [proper-cut identity LA5--LA6](../residuals/layerwise_attachment_and_triples.md#cutting-the-residual-pair-rather-than-just-its-primary-part).
 For a **full actual generically curvilinear primary** \(T\)
 of multiplicity \(m\) inside a proper CI \(Y=T\cup R\),
 and a smooth auxiliary Cartier surface \(Q\) containing
@@ -982,11 +982,11 @@ or first-relation defect becomes an
 attachment. New applications pending
 independent review.
 
-For full-primary **triples** the [BF triple and actual-pair attachment TR1--TR4](../residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors) strengthens the residual-corrected R0019 account: the saturated normal defect \(D_2\) is exactly the primary conormal-torsion divisor by Bănică--Forster's local normal form and Hilbert--Burch. The actual two-equation determinant supplies the other contribution \(\eta\), and the attachment layers are \((D_2+\eta,\eta,D_2+\eta)\). This is a level of resolution stronger than the generic-length-independent residual-cut identity, but specific to quasiprimitive triples. It does not assert R0016's nonsaturated first-relation defect is \(\tau\) or \(\eta\).
+For full-primary **triples** the [BF triple and actual-pair attachment TR1--TR4](../residuals/layerwise_attachment_and_triples.md#triples-the-full-attachment-has-only-two-independent-divisors) strengthens the residual-corrected R0019 account: the saturated normal defect \(D_2\) is exactly the primary conormal-torsion divisor by Bănică--Forster's local normal form and Hilbert--Burch. The actual two-equation determinant supplies the other contribution \(\eta\), and the attachment layers are \((D_2+\eta,\eta,D_2+\eta)\). This is a level of resolution stronger than the generic-length-independent residual-cut identity, but specific to quasiprimitive triples. It does not assert R0016's nonsaturated first-relation defect is \(\tau\) or \(\eta\).
 
 In multiplicity three there is an
 extra simplification of R19+: by
-[TR7](../residuals/residual_capacity_and_constructions.md#triple-determinant-recovery-from-an-actual-auxiliary-cut)
+[TR7](../residuals/layerwise_attachment_and_triples.md#triple-determinant-recovery-from-an-actual-auxiliary-cut)
 the proper-cut divisor satisfies
 \(B_Y-[R\cap Q]=2\Theta-\eta\).
 The actual primary equation determinant

@@ -184,7 +184,7 @@ or a fixed abstract quotient type requires a coverage argument. The
 [finite controls](../../arguments/torus_sextic_residuals.md#finite-replay-evidence)
 check identities but do not establish image descent or projective realization.
 
-The [finite primary canonical colon identity](../../arguments/residuals/blowup_residual_geometry.md#local-canonical-ideal-version-and-several-marked-points) supplies an actual curve-conductor comparison in transverse charts with identical generic algebras. With an image residual it uses the attachment ideal, not the conductor of the ambient surface. The [semigroup primary computation](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) gives explicit layer indices on the classified carrier.
+The [finite primary canonical colon identity](../../arguments/residuals/first_graph_finite_transfer.md#local-canonical-ideal-version-and-several-marked-points) supplies an actual curve-conductor comparison in transverse charts with identical generic algebras. With an image residual it uses the attachment ideal, not the conductor of the ambient surface. The [semigroup primary computation](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) gives explicit layer indices on the classified carrier.
 
 ## From contact to descent
 
@@ -232,7 +232,7 @@ complete Hilbert lift or its limit corrections.
 
 ### From endpoint contacts to local divisor classes
 
-The [orbit-lattice/contact theorem](../../arguments/torus/fixed_surface_restriction_lifts.md#local-index-lattice-and-contact-capacity-of-symmetric-arrangements) supplies an intersection-theoretic use of the two-branch endpoint length: actual mate relations bound local index orders, and at odd-index smooth or Du Val common endpoints the first-symbol vanishing cannot exceed the contact length (for the stated involution). For the exchanged sextic translates the two contact lengths are four. Together with the mixed Hodge pairing this excludes both endpoints being smooth or Du Val, pending independent review. It does not identify the completed nonreduced endpoint algebra or reconstruct a pair from its cycle.
+The [orbit-lattice/contact theorem](../../arguments/torus/fixed_surface_restriction_lifts.md#local-index-lattice-and-contact-capacity-of-symmetric-arrangements) supplies an intersection-theoretic use of the two-branch endpoint length: actual mate relations bound local index orders, and at odd-index smooth or Du Val common endpoints the first-symbol vanishing cannot exceed the contact length (for the stated involution). For the exchanged sextic translates the two contact lengths are four. Together with the mixed Hodge pairing this excludes both endpoints being smooth or Du Val, independently reconstructed on November 23, 2026 at the scope recorded in the linked proof owners. It does not identify the completed nonreduced endpoint algebra or reconstruct a pair from its cycle.
 
 ## Universal translate incidence
 

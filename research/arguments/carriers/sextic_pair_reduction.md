@@ -250,7 +250,7 @@ quasi-étale triple cover** studied below. This is the
 sextic specialization of the same index/torsion mechanism
 that forces a double cover for normal \((5,8)\) candidates.
 
-The [unified all-degree normal replacement](normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) (pending independent audit) explains why this normality argument is not limited to sextics or to degrees below ten. The present independently reviewed special proof is retained; its graph-bound input remains essential to the unconditional (6,6) reduction.
+The [unified all-degree normal replacement](normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) (independently reconstructed on November 23, 2026 at its linked owner) explains why this normality argument is not limited to sextics or to degrees below ten. The present independently reviewed special proof is retained; its graph-bound input remains essential to the unconditional (6,6) reduction.
 
 The equal-degree normal-pencil reduction is indispensable:
 the Hodge/index criterion applies to this chosen normal
@@ -356,7 +356,7 @@ reviewed necessary evidence, not an exclusion of the cover.
 
 ## The common first-normal divisor must be nonreduced
 
-The [uniform reduced-gcd ADE and rank test](normal_carrier_divisor_geometry.md#reduced-common-first-normal-divisor-a-uniform-marked-ade-and-rank-test) extracts the general mechanism below in arbitrary degrees, including new congruence consequences. That extension requires independent audit; this previously reviewed proof remains the actual sextic exclusion.
+The [uniform reduced-gcd ADE and rank test](normal_carrier_divisor_geometry.md#reduced-common-first-normal-divisor-a-uniform-marked-ade-and-rank-test) extracts the general mechanism below in arbitrary degrees, including new congruence consequences. That extension was independently reconstructed on November 23, 2026 at its linked owner; this previously reviewed proof remains the actual sextic exclusion.
 
 In characteristic zero, **no supported sextic pair has reduced common
 first-normal divisor**. This is a restriction on every pair, rather than

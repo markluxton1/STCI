@@ -1,5 +1,7 @@
 # Curvilinear normal layers: genus, saturation and the actual socle
 
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed CF1–CF4, the LA/TR attachment comparisons and the stated finite-transfer, marked-line and smooth-image applications. Inherited inputs are the inherited saturated filtration/Frobenius duality, actual full-primary linkage and two-blowup correspondence.
+
 For a proper complete-intersection curve with sole smooth support and generically curvilinear transverse algebra, this is the full proof owner for the genus and boundary account. It explains why ordinary-layer torsion and saturated multiplication divisors are two accounts of one contribution, rather than independent errors to add. The Frobenius lattice proof retains pointwise data beyond arithmetic genus; the separate perfect-pairing proof and non-Gorenstein counterexample isolate the exact duality hypothesis. In particular, the pointwise identity `2 tau_p = m mult_p D_soc` concerns the actual Gorenstein complete intersection and does not follow from a numerical Hilbert polynomial alone. The statements are characteristic free unless a fixed-quartic application explicitly adds its conormal or equation hypotheses.
 
 <a id="normal-torsion-spectral-genus-budget"></a>
@@ -218,7 +220,7 @@ than a general theorem here.
 
 ### Full-primary attachment replaces Gorensteinness in the duality
 
-The [layerwise attachment duality LA1--LA4](../residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component)
+The [layerwise attachment duality LA1--LA4](../residuals/layerwise_attachment_and_triples.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component)
 extends the actual complementary-layer calculation to a full
 generically curvilinear primary component \(T\) of a Gorenstein
 CI \(Y\) with residual \(R\). Here the attachment ideal
@@ -243,12 +245,12 @@ module linkage and saturated perfect duality, not a
 Gorensteinness assumption on \(T\). The corresponding
 cutting-surface formula LA5 retains the high attachment
 layers seen by the annihilator of a cutting equation.
-Independent mathematical review is pending.
+Independent reconstruction is recorded in the scoped review above.
 
 ### The triple is an exact meeting point of three defect theories
 
 The [classical Bănică--Forster local triple
-normal form and its application TR1--TR4](../residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors)
+normal form and its application TR1--TR4](../residuals/layerwise_attachment_and_triples.md#triples-the-full-attachment-has-only-two-independent-divisors)
 show that at multiplicity three the
 second saturated multiplication defect
 \(D_2\) equals the torsion divisor of
@@ -275,10 +277,10 @@ attachment ledger. Higher
 multiplicity and noncurvilinear
 primaries require the original
 uncompressed LA1--LA6. Independent
-review pending.
+review completed at the scope above.
 
 The [BF quasiprimitive quadruple
-TR5--TR6](../residuals/residual_capacity_and_constructions.md#a-classical-fourth-order-counterexample-to-extrapolating-tr2)
+TR5--TR6](../residuals/layerwise_attachment_and_triples.md#a-classical-fourth-order-counterexample-to-extrapolating-tr2)
 shows precisely why the triple
 identity \(\tau=D_2\) is special.
 For \(I_T=(t^d x-y^2,x^2)\)
@@ -296,7 +298,7 @@ a global STCI or an exclusion.
 ## Cartier cuts and finite modifications of the saturated filtration
 
 **Status: new general application of the saturated filtration,
-pending independent mathematical review.** Work on a pure CM
+covered by the scoped correctness review above.** Work on a pure CM
 curve \(W\) in a smooth threefold with smooth reduced support \(T\)
 and generically curvilinear algebra of length \(c\). Write \(P_i\)
 for the saturated normal-power flag of §4, \(L=P_1/P_2\),
@@ -405,7 +407,7 @@ are full primary components of actual Gorenstein CIs, write
 \(H_{\pm,0}\) for their marked attachment divisors and
 \(H_\pm\) for the zero-cycles of their full thick attachment
 lengths (zero for sole support). Then LA3 in the
-[full-primary attachment account](../residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component)
+[full-primary attachment account](../residuals/layerwise_attachment_and_triples.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component)
 substitutes into the determinant formula to give
 \[
  \frac2c B_f=(c-1)\Xi+
@@ -415,7 +417,7 @@ substitutes into the determinant formula to give
 This is a pointwise identity of length divisors. It does not
 identify the two residuals or require the ambient surfaces
 themselves to be finite modifications. The
-[interior equality-boundary application FT1--FT2](../residuals/blowup_residual_geometry.md#signed-finite-transfer-throughout-the-interior-equality-boundary)
+[interior equality-boundary application FT1--FT2](../residuals/first_graph_finite_transfer.md#signed-finite-transfer-throughout-the-interior-equality-boundary)
 uses adjunction to compute the combined finite-quotient
 and thick-attachment contribution on the image quintic
 and conic in \(V_5\). Thus the previous sole-support
@@ -426,7 +428,7 @@ power times \(B\), rather than just bounding its
 length. This connects the curve-conductor and
 attachment duality frameworks under one actual
 finite-modification hypothesis. The scope
-and new applications await independent review.
+and new applications were covered by the scoped correctness review above.
 
 ### Finite birational modification of a curvilinear thickening
 
@@ -469,9 +471,9 @@ surface. This is a new comparison of the finite curve
 algebras and their genuine socle defects.
 
 Applications to the two presentations of the first graph
-are in [the exceptional-cut and marked-point comparison](../residuals/blowup_residual_geometry.md#socle-defects-on-the-two-presentations-of-the-first-graph).
+are in [the exceptional-cut and marked-point comparison](../residuals/first_graph_finite_transfer.md#socle-defects-on-the-two-presentations-of-the-first-graph).
 
-The [marked line and full finite-modification lattice ML1--ML8](../residuals/blowup_residual_geometry.md#the-marked-line-excludes-primitivity-at-the-mixed-sextic-boundary)
+The [marked line and full finite-modification lattice ML1--ML8](../residuals/marked_line_local_geometry.md#the-marked-line-excludes-primitivity-at-the-mixed-sextic-boundary)
 give an actual realization-sensitive application of CF4. In the transverse
 conic-blowup situation with length \(c=2pq\), primitivity on the graph
 at the marked point forces the image algebra to have an explicit
@@ -488,9 +490,9 @@ the actual \(V_5\) source excludes primitivity at the marked point
 for every mixed \((6,4q;2,q)\) pair. The proof uses the
 actual trace and the restriction degree of a line, and does
 not require the smaller carrier normal.
-All these applications await independent review.
+All these applications were covered by the scoped correctness review above.
 
-In the opposite [smooth image-carrier marked stratum SM1--SM2](../residuals/blowup_residual_geometry.md#the-opposite-marked-stratum-a-smooth-image-carrier-and-a-forced-graph-defect),
+In the opposite [smooth image-carrier marked stratum SM1--SM2](../residuals/smooth_marked_image_geometry.md#the-opposite-marked-stratum-a-smooth-image-carrier-and-a-forced-graph-defect),
 the exact graph algebra is \(xv=t^{2p},v^q=0\),
 with saturated multiplication defects
 \(D_k=\lfloor k/(2p)\rfloor\), and the image

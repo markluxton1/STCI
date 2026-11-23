@@ -173,9 +173,23 @@ but correctly identified the previously overstated
 characteristic scope and the separate degree-independent
 involution--Bézout regularity hypothesis; both
 statements have now been restricted at their owners.
-This is a scoped independent correctness reconstruction,
-not a claim that all six independent review perspectives
-have been completed.
+That earlier review was a scoped independent correctness reconstruction.
+The combined integration of November 23, 2026 (integration base
+`94dfe44d`, combining the cross-degree-exclusion-synthesis and
+chow-quotient-arrangement-blowups branches) subsequently received all six
+independent perspectives: correctness, journal editorial review, seasoned
+algebraic geometry, generalizations/implications/connections, relevant
+literature, and the general research picture. The correctness review
+reconstructed the endpoint/weight exhaustion, residual-genus and
+canonical-module classification, full special ideal, retained-carrier
+mate theorem and weighted polarization arguments. It retained the accepted
+single-support quartic exclusion, balanced normal splitting and Chow-polytope
+rigidity as inherited inputs, and did not reprove all of their proofs.
+The combined review repaired a separate relative-union base-change error,
+norm normalization and characteristic qualifications at their owners; it
+does not establish unrestricted higher-degree moment vanishing. The six
+perspectives cover the combined integration, rather than replacing the
+precise scope of the earlier reviews below.
 The earlier separate reviews of the characteristic-two
 specialization, opposite full limits, and retained-carrier
 theorem preserve their stated scopes. The liaison/self-linkage,

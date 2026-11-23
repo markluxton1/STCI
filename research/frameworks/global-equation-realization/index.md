@@ -33,9 +33,9 @@ cycles. None alone supplies a proper homogeneous pair with sole support.
 [Projection and liaison](projection_and_liaison.md) studies supported ACM
 sources and section defects.
 
-**A complete fixed-carrier realization theorem takes precedence over the generic lifting discussion.** For an integral carrier \(X\subset\mathbf P^3\) regular at the generic point of the smooth curve \(C\), the [normalized Hodge/APic criterion](../../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) states that a sole-support mate exists exactly when the actual downstairs almost-Cartier index \(R_X\) is finite and the normalized strict transform has numerical square \(e^2/a\) (\(e=\deg C,a=\deg X\)). This includes nonnormal carriers and arbitrary characteristic. The exact minimum mate degree is \(eR_X/a\); all multiples occur by taking powers. The [normal-carrier extremal-ray theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface) is its specialization. There is no separate homogeneous lifting gate once both conditions hold: the Cartier class is a hyperplane multiple and its section lifts. The new broader deduction awaits independent review. A prescribed pair degree still has to satisfy the exact semigroup.
+**A complete fixed-carrier realization theorem takes precedence over the generic lifting discussion.** For an integral carrier \(X\subset\mathbf P^3\) regular at the generic point of the smooth curve \(C\), the [normalized Hodge/APic criterion](../../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) states that a sole-support mate exists exactly when the actual downstairs almost-Cartier index \(R_X\) is finite and the normalized strict transform has numerical square \(e^2/a\) (\(e=\deg C,a=\deg X\)). This includes nonnormal carriers and arbitrary characteristic. The exact minimum mate degree is \(eR_X/a\); all multiples occur by taking powers. The [normal-carrier extremal-ray theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface) is its specialization. There is no separate homogeneous lifting gate once both conditions hold: the Cartier class is a hyperplane multiple and its section lifts. The broader deduction was independently reconstructed on November 23, 2026, at the scope recorded in its linked AC1–AC3 owner. A prescribed pair degree still has to satisfy the exact semigroup.
 
-**Normality is a property of the actual generator system.** For a sole-supported pair \((a,b)\), \(a\le b\), the [all-degree Bertini--Serre replacement](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) gives a general normal integral \(K_b=\lambda G_b+F_aL_{b-a}\), \(\lambda\ne0\), defining precisely the same ideal together with \(F_a\) if and only if at least one generator has generic order one. In equal degrees both general generators can be chosen normal. This is an actual homogeneous source statement, not a claim that formal structures lift. On the resulting **fixed** normal carrier the Hodge-index equality is sufficient for a mate; do not impose a second independent global lifting test there. Finding a carrier reaching equality with the required defects is the realization problem. For genuinely thick generic CI algebras, no such degree-compatible normal replacement exists, and the full two-generator source test remains essential. The theorem is degree independent and pending independent audit. 
+**Normality is a property of the actual generator system.** For a sole-supported pair \((a,b)\), \(a\le b\), the [all-degree Bertini--Serre replacement](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) gives a general normal integral \(K_b=\lambda G_b+F_aL_{b-a}\), \(\lambda\ne0\), defining precisely the same ideal together with \(F_a\) if and only if at least one generator has generic order one. In equal degrees both general generators can be chosen normal. This is an actual homogeneous source statement, not a claim that formal structures lift. On the resulting **fixed** normal carrier the Hodge-index equality is sufficient for a mate; do not impose a second independent global lifting test there. Finding a carrier reaching equality with the required defects is the realization problem. For genuinely thick generic CI algebras, no such degree-compatible normal replacement exists, and the full two-generator source test remains essential. The theorem is degree independent and independently reconstructed on November 23, 2026 at the scope recorded in the linked proof owner.
 
 For **upstairs-only** nonnormal data, finite normalization indices
 and divisor relations do not establish finite downstairs almost-Cartier
@@ -44,7 +44,7 @@ computations of the missing condition. For generically thick carriers
 the full supported-section descent problem remains separate.
 The [extended all-index-at-most-four exclusion](../../arguments/carriers/normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem)
 works before fixed-degree source computations on every generically regular
-integral carrier in characteristic zero, subject to independent audit.
+integral carrier in characteristic zero, independently reconstructed on November 23, 2026 at the scope recorded in the linked proof owner.
 The relevant index is downstairs, not upstairs.
 
 Two distinct equation questions survive passage to a thickening. The
@@ -111,7 +111,7 @@ the geometry; none covers arbitrary higher-degree equations.
 - The [octic/root comparison](../../arguments/spectral/actual_octic_root_lift_comparison.md) has an actual source map and a proper pair of transverse length eight with residual degree 32. This illustrates compatibility without sole support, not a solution to the unrestricted question.
 - [Projected thickenings](../../arguments/linkage/projected_thickening_section_defects.md) distinguish an ACM source upstairs from its image in \(\mathbf P^3\): the displayed power and binary-mixture images fail ACM when the positive degree product is nonzero. This does not exclude other projected sources or arbitrary supported thickenings.
 
-### Spectral–Jacobian first-jet gate (PR #173; review pending)
+### Spectral–Jacobian first-jet gate (combined scoped review, November 23, 2026)
 
 For any **actual proper pair** with whole translated quartic cycle,
 [spectral–Jacobian duality](../../arguments/torus/spectral_jacobian_first_jet_bridge.md)
@@ -380,7 +380,7 @@ can contain a power \(A^N\) only with \(4N>b\). No upper bound meeting
 that threshold, or automatic extension of scalar semigroup descent to
 the relation module, is established.
 
-The [marked finite-index multiplication gate MJ1--MJ4](../../arguments/residuals/blowup_residual_geometry.md#finite-index-rigidity-of-higher-marked-jets)
+The [marked finite-index multiplication gate MJ1--MJ4](../../arguments/residuals/marked_line_local_geometry.md#finite-index-rigidity-of-higher-marked-jets)
 adds a necessary local test for the primitive-at-marked-point
 edge: the prescribed colength must be attained by an
 **algebra**, not just a rank-\(c\) lattice. Multiplication
@@ -406,7 +406,7 @@ boundary data supplies that pair. An endpoint and an interior slope
 are distinct tests; a result on either should say which realization
 condition it actually decides.
 
-The [residual-corrected transfer](../../arguments/residuals/blowup_residual_geometry.md#signed-finite-transfer-throughout-the-interior-equality-boundary) identifies the signed top defect on the image quintic even when the actual image intersection includes the conic. Its [local canonical ideal formulation](../../arguments/residuals/blowup_residual_geometry.md#local-canonical-ideal-version-and-several-marked-points) identifies a colon ideal, not merely a genus correction. Neither substitutes for actual common-support realization in the section spaces.
+The [residual-corrected transfer](../../arguments/residuals/first_graph_finite_transfer.md#signed-finite-transfer-throughout-the-interior-equality-boundary) identifies the signed top defect on the image quintic even when the actual image intersection includes the conic. Its [local canonical ideal formulation](../../arguments/residuals/first_graph_finite_transfer.md#local-canonical-ideal-version-and-several-marked-points) identifies a colon ideal, not merely a genus correction. Neither substitutes for actual common-support realization in the section spaces.
 
 ## Coregularity and actual equation filtrations
 
@@ -495,7 +495,7 @@ resultant to transverse plane variation through the terminal Rao order, or
 use a different simultaneous global constraint.
 
 
-### Fixed-depth jets cannot support an all-degree obstruction
+### Fixed-depth individual source restrictions disappear in large degrees
 
 The
 [terminal hyperplane-jet theorem](../../arguments/equations/global_equation_jets.md#a-terminal-hyperplane-jet-defect-in-every-degree)
@@ -506,10 +506,17 @@ of degree-\(d\) equations through \(C\) to \(V(\ell^e)\) is surjective for
 any fixed center depth \(N\) is eventually source-surjective once
 \(d\ge N+2\).
 
-Therefore a bounded first-, second-, or other fixed-order source obstruction
-cannot prove an all-degree theorem.  A scalable source condition must move
-to depth comparable with the equation degree, or encode genuinely global
-simultaneous compatibility.  On the symmetric hyperplane the unique
+Therefore restrictions obtained solely from membership in the individual
+equation source disappear at fixed depth.  This does not remove further
+joint CI or global support conditions.  More precisely, the
+[determinant truncation-image consequence](../../arguments/equations/global_equation_jets.md#fixed-determinant-truncations-forget-containment-of-the-quartic-in-large-degrees)
+shows that for \(a,b\ge4r+3\), the attainable tuples
+\((\Delta_1,\ldots,\Delta_r)\) are the same for pairs through \(C\) as
+for arbitrary proper pairs avoiding the disjoint center line.  This does
+not prove that the truncated pure target is attainable.  A fixed-depth
+contradiction would have to hold already for general finite-CI source
+jets; a curve-specific obstruction needs deeper data or another joint
+global condition.  On the symmetric hyperplane the unique
 terminal class is represented by
 \[
  (x_3-x_0)^{d-2}(x_1^2-x_2^2).

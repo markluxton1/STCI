@@ -164,7 +164,7 @@ multiplicity at most two and residual degree at least eight, attained here.
 
 ## All-order primary structure and attachment on the classified carrier
 
-**New application, pending independent review.** The arrangement
+**Scoped correctness review (2026-11-23, combined integration):** TS1–TS7 were independently reconstructed, including the complete semigroup image lattice, individual saturated layers, signed attachment, actual quadric cut and explicit triple equation/conormal determinant. The fixed-carrier classification and LA1/LA4 are inherited inputs; small-characteristic semigroup minors retain the restrictions below. The arrangement
 semigroup criterion above already solves the fixed-carrier existence
 question. It does not by itself describe the full embedded primary
 structures when a root repeats. The following gives that description
@@ -308,7 +308,7 @@ coordinates is a product of
 \((x_1-a_i x_2^3)^{n_i}\);
 hence the residual restriction on \(C\) has
 order \(3(N-m)\) there.
-The [signed top-class identity LA4](../residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component)
+The [signed top-class identity LA4](../residuals/layerwise_attachment_and_triples.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component)
 gives
 \[
  \deg H_0=4N+2-6(m-1)+\deg D_{m-1}
@@ -381,11 +381,11 @@ normal form of Bănică--Forster also makes
 the observed equality in TS7 universal
 within the **generically curvilinear
 triple stratum**: the
-[TR2 conormal-torsion identity](../residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors)
+[TR2 conormal-torsion identity](../residuals/layerwise_attachment_and_triples.md#triples-the-full-attachment-has-only-two-independent-divisors)
 gives \(\tau=D_2\) for any such full
 primary. Combined with the actual
 equation determinant \(\eta\), the
-[TR3 two-divisor theorem](../residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors)
+[TR3 two-divisor theorem](../residuals/layerwise_attachment_and_triples.md#triples-the-full-attachment-has-only-two-independent-divisors)
 gives attachment layers
 \((\tau+\eta,\eta,\tau+\eta)\).
 For TS5--TS7 this is \((7,5,7)\)
@@ -398,7 +398,7 @@ a different characteristic scope
 from this formal local triple
 argument.
 
-The [triple proper-cut identity TR7](../residuals/residual_capacity_and_constructions.md#triple-determinant-recovery-from-an-actual-auxiliary-cut)
+The [triple proper-cut identity TR7](../residuals/layerwise_attachment_and_triples.md#triple-determinant-recovery-from-an-actual-auxiliary-cut)
 extracts the actual equation
 determinant from the same \(Q\)-cut
 when the marked multiplicity is
@@ -518,7 +518,7 @@ whose first free symbol has one extra
 \(z\)-factor above the generator
 \(z^2(t-z)\). At \(p_\infty\) it is
 the factor \(z\epsilon\).
-Thus [LA6](../residuals/residual_capacity_and_constructions.md#cutting-the-residual-pair-rather-than-just-its-primary-part)
+Thus [LA6](../residuals/layerwise_attachment_and_triples.md#cutting-the-residual-pair-rather-than-just-its-primary-part)
 gives
 \[
  \begin{aligned}
@@ -669,7 +669,7 @@ signed proper-cut formula.
 
 The equality \(\tau(p_0)=D_2(p_0)=2\)
 is now identified as an instance of
-the [general triple identity TR2](../residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors):
+the [general triple identity TR2](../residuals/layerwise_attachment_and_triples.md#triples-the-full-attachment-has-only-two-independent-divisors):
 it holds for any generically curvilinear
 primary *triple*, but has not been
 established for arbitrary higher
@@ -678,7 +678,7 @@ primaries. The
 Hilbert--Burch and local-duality inputs
 are classical; the displayed calculation
 is a calibration of their combined use.
-Independent mathematical review pending.
+The scoped correctness reconstruction above includes this explicit triple and its actual equation determinant; it does not reprove the general Bănică–Forster classification.
 
 ## When a reduced fundamental cycle supplies the quartic equation
 

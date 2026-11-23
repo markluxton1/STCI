@@ -258,7 +258,7 @@ generator replacement produces a normal integral larger carrier
 without changing the CI ideal. The converse fails for the
 **entirely-thick** generic transverse algebras. This partitions the
 possible source approach but proves neither regime's moment
-vanishing. Its new synthesis is pending independent review.
+vanishing. The normal-replacement mechanism and its stated generic-embedding-dimension boundary were independently reconstructed on November 23, 2026 at the linked carrier proof owner; neither regime's unrestricted moment vanishing is proved.
 
 If a sole-support STCI exists, choose one of **minimal degree
 product**. The [factor-descent argument in the same source](https://github.com/markluxton1/STCI/blob/e5f97d3b23c7023e6940b752d7fa4112e5706f78/research/arguments/carriers/normal_carrier_divisor_geometry.md#equal-degree-pencils-below-degree-ten-the-sextic-proof-extends-to-octics)

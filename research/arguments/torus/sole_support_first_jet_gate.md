@@ -1,6 +1,14 @@
-# A hypothetical STCI fixes the first-jet symplectic pairing, but that condition is realizable with residual curves
+# Sole-support residue criteria and the limits of leading-jet tests
 
-**Scope (2026-11-22):** characteristic zero, \(C=C_{1,1}\), homogeneous actual CI \(Y=V(F_a,G_b)\) with hypothetical \(Y_{\rm red}=C\). The main Poisson/Jacobian identity and relative Gorenstein residue are accepted/established sources; the explicit all-degree control and the normal-order gap are elementary deductions, **pending independent mathematical review**. No new STCI exclusion.
+**Scope.** Characteristic zero for the Poisson and first-jet conclusions below,
+with \(C=C_{1,1}\) and actual proper homogeneous pairs. There are three levels:
+the necessary nonzero first-jet residue, an actual global pair with residual
+curves satisfying both leading residue tests, and the complete finite
+ideal-power/perfect-residue criterion in each bidegree. The full criterion
+has the characteristic scope stated in its own section. These statements
+separate exact support recognition from an obstruction; none proves STCI
+nonexistence. The independent integration review and its limits are recorded
+in the combined PR.
 
 ## Exact first-jet consequence
 
@@ -778,15 +786,12 @@ does not establish their incompatibility.
 
 ## Implication and stopping rule
 
-The direct first-jet check gives **no obstruction**:
-a hypothetical STCI must have nonzero symplectic
-jet area \(ab/2\), and there are proper global
-containing pairs with precisely that area and
-nonzero residual degree. The new useful question
-is whether the *full* joint Poisson and spectral
-power equations prohibit this prescribed area
-when combined with the entire reduced-support
-condition. A proof that **all** translated-cycle
-CIs have area zero would contradict (2) and
-settle the characteristic-zero rational quartic
-STCI problem. No such theorem is claimed here.
+The first-jet scalar and the first spectral-power residue can both have their
+hypothetical-STCI values on actual global pairs with residual curves. The full
+ideal-power/perfect-residue system, rather than either leading test, is the
+exact criterion. What remains unresolved is compatibility or elimination of
+that full system on actual homogeneous sources in every possible bidegree.
+Universal first-moment vanishing on the translated-cycle locus would imply
+nonexistence, but it is an open stronger statement, not a consequence of the
+Poisson identity or the leading residue calculation. Further work must add
+source information beyond these tested necessary conditions.

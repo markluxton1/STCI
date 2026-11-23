@@ -236,8 +236,7 @@ the local classes determine its parity; the Nikulin cover
 explains the latter by an actual anti-invariant square root.
 It does not classify moving carriers or all Hilbert lifts.
 For other retained members that may be nonnormal, keep the
-generically regular seed-monoid proof below. This new independent
-route for the nodal members awaits review.
+generically regular seed-monoid proof below. This independent route for the nodal members was reconstructed in the combined scoped correctness review of November 23, 2026, retaining the accepted quartic exclusion and Picard saturation as inherited inputs.
 
 ## All mate degrees on a retained exceptional carrier
 

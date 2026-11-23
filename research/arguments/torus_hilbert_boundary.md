@@ -1109,7 +1109,9 @@ residual degree of an actual proper pair.
 
 ## Involutivity persists through the full torus boundary
 
-**New consequence, pending independent review.**  Combine the supported
+**Independent geometry review accepted the weight-initial and saturation
+argument, the constant-orbit comparison, and the endpoint-map formulation
+with its projective twist.** Combine the supported
 Hilbert-limit theorem above with the
 [actual contact identity](torus/contact_jacobians_and_hamiltonian_actions.md).
 In characteristic zero, if a sole-supported complete intersection
@@ -1192,14 +1194,20 @@ If \(Y\) is sole-supported then the constant-orbit theorem makes \(I_Y\)
 involutive.  Hence the bracket defines
 \[
  \kappa_L:\bigwedge\nolimits^2(I_L/I_L^2)
- \longrightarrow T,\qquad
+ \longrightarrow T(-2),\qquad
  \bar f\wedge\bar g\longmapsto\{f,g\}\bmod I_L.        \tag{HB-P4}
 \]
-This is well defined and \(\mathcal O_L\)-linear: replacing either
+Here \(I_L/I_L^2\) and \(T\) denote projective sheaves. The homogeneous
+ambient bracket has ordinary degree \(-2\), so its degree-zero sheaf
+map has target \(T(-2)\). On ungraded affine-cone modules the same
+formula takes values in \(T\); local trivializations of the twist
+give the displayed bracket formula. This map is well defined and
+\(\mathcal O_L\)-linear: replacing either
 argument by an element of \(I_L^2\) inserts an explicit factor from
 \(I_L\), and the Leibniz correction in multiplying an argument by a
 function likewise vanishes modulo \(I_L\).  Because
-\(\{I_Y,I_Y\}\subset I_Y\), the target really is \(T\).  Moreover
+\(\{I_Y,I_Y\}\subset I_Y\), the class lies in the indicated endpoint
+quotient. Moreover
 \[
  \boxed{\quad L\text{ is involutive}\iff\kappa_L=0.\quad} \tag{HB-P5}
 \]
@@ -1214,7 +1222,11 @@ have to retain for contact to produce a new boundary exclusion.
 
 ## Pure-quotient cohomology is a flat-boundary obstruction
 
-**New consequence of standard semicontinuity, pending independent review.**
+**Scoped independent reconstruction (2026-11-23):** (HB-C1)--(HB-C8),
+including the finite-kernel cohomology comparison, semicontinuity
+inequality and the two Cartier-control exclusions, were checked directly.
+The input is standard proper-flat semicontinuity; this status does not
+extend to other historical proof routes in this Argument.
 The endpoint-length formula of R-0070 records the Euler-characteristic
 difference between a full torus limit and its pure quotient.  There is a
 strictly stronger necessary condition: a zero-dimensional endpoint correction
