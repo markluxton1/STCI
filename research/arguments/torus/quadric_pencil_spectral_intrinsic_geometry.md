@@ -160,6 +160,28 @@ substantive existing comparison to revisit at the common
 six-layer trace, but no proof currently derives \(M_1=0\)
 from the contact structure or the Poisson ideal.
 
+## The computed Jacobian/residue bridge
+
+The [companion first-jet proof](spectral_jacobian_first_jet_bridge.md)
+identifies the second quotient character
+\(\eta=x_0x_2^2/(x_1^2x_3)\) with the cubic pencil
+\(R_\eta=V(x_0x_2^2-\eta x_1^2x_3)\), and proves
+\(Q_\xi\cap R_\eta=C_{\eta/\xi,\eta/\xi^2}+L_{01}+L_{23}\)
+as actual intersection cycles. For every proper translated-cycle
+CI, its Jacobian minors satisfy
+\(x_1x_2M_{12}-2x_0x_3M_{03}\in(F,G)\), without
+requiring invariance. The exact Grothendieck residue calculation then
+gives \(2M_1=\operatorname{Res}_{f_0,g_0}(p s-q r)\),
+where the four polynomials are the two actual first normal jets
+of \(F,G\) along the disjoint line \(L=V(x_0,x_3)\).
+Graded Gorenstein duality makes this a perfect alternating pairing
+on \((k[x_1,x_2]/(f_0,g_0))_{a-1}\oplus
+(k[x_1,x_2]/(f_0,g_0))_{b-1}\).
+This connects the spectral trace to the existing Jacobian/socle theorem
+in a way that removes the higher projection-line layers **after**
+the translated support hypothesis is imposed. It does not prove
+the two first jets are isotropic for all actual CI realizations.
+
 ## The chosen bridge, not a new agenda
 
 Compare (i) the canonical spectral equation and its actual Koszul
