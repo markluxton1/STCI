@@ -103,6 +103,38 @@ compatibility or incompatibility
 in a special family to a universal
 exclusion.
 
+For a hypothetical STCI of degrees
+\((a,b)\) and \(m=ab/4\),
+the [exact full residue criterion](arguments/torus/sole_support_first_jet_gate.md#full-exact-stci-jet-criterion-ideal-powers-and-the-perfect-residue-pairing)
+now writes **all required
+equation identities**, not
+just first moments:
+\(I_C^m\subset(F,G)\) iff
+the relative Gorenstein residue
+pairing kills each generator
+\(g\) of \(I_C^m\) against
+a full finite basis of
+\(E=k[x]/(F,G)\) over
+\(k[x_0,x_3]\).
+Because \(I_C\) has one
+quadric and three cubics,
+this is a finite explicit
+system for every fixed
+bidegree. The first scalar
+residue \(\mathcal R(M_{03})\)
+and the first power residue
+\(\mathcal R(Q^m)\) are only
+two tests. A global quartic
+control passes both but
+fails \(\mathcal R(x_1Q^4)\)
+and \(\mathcal R(x_2Q^4)\).
+This shows why all-duality
+compatibility, and its
+elimination in every degree,
+is the actual missing step.
+The exact criterion does
+not itself prove nonexistence.
+
 The [cycle-first Chow realization program](arguments/torus/chow_realization_moment_separation.md)
 uses the symmetric power of the orbit quotient as its primary parameter
 space. The universal moment hyperplane misses every interior power locus
