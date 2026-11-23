@@ -92,6 +92,33 @@ or two. Higher-order global compatibility can still
 constrain the first jets indirectly; no complete
 jet realization criterion is claimed.
 
+### First power obstruction as a homogeneous spectral coefficient map
+
+The [STCI jet gate](../../arguments/torus/sole_support_first_jet_gate.md)
+identifies a canonical leading obstruction to
+\(Q^m\in(F,G)\) for a hypothetical sole-support
+pair: a binary form
+\(\mathfrak o_{r_*}\) in
+\(H^1(L,\omega_L)\otimes
+\operatorname{Sym}^{r_*}\langle x_0,x_3\rangle\),
+where \(r_*=(a-2)(b-2)/2\) and
+\(L=V(x_0,x_3)\).
+It is the first nonautomatic normal-degree
+part of the class \([Q^m]\) in the actual
+CI algebra. The same construction gives a
+**linear map on every full homogeneous
+spectral form** \(H(A,B)\) of degree \(m\);
+realized translated arrangements must put
+their spectrum in its kernel.
+For the restricted quartic test family
+the first power class requires
+\(\lambda\mu=4\), incompatible with the
+sole-support Poisson requirement
+\(\lambda\mu=8\). This locates a real
+interaction between the two equations
+without promoting the family check
+into a general low-degree exclusion.
+
 ## Bridges
 
 An osculating quadric puts the entire quadratic conductor at one general
