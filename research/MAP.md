@@ -135,6 +135,50 @@ is the actual missing step.
 The exact criterion does
 not itself prove nonexistence.
 
+The [full two-dimensional Chow pullback
+envelope](arguments/torus/full_transverse_chow_pullback_envelope.md)
+now supplies a **carrier-free
+actual-ideal constraint**:
+the three degree-four
+same-weight monomials
+\((x_1^4,x_0^2x_1x_2,x_0^3x_3)\)
+give \([1:u:v]\) on each
+translate, so substituting them
+into the full transverse
+\(\mathcal C_\sigma\) yields
+\(m+1\) explicit homogeneous
+ideal-membership equations.
+The reversed quartic quotient
+gives a second system; together
+their radical is exactly the union
+of the translated components.
+They recover the full normal
+fat-point envelope
+\(\cap_i\mathfrak m_i^{n_i}\)
+on the dense torus.
+Every realizing CI is a
+moving rank-\(m\) quotient of
+the associated constant
+length-\(\sum\binom{n_i+1}{2}\)
+algebra, with kernel rank
+\(\sum\binom{n_i}{2}\).
+This directly extends the
+constant-source part of the
+embedded-torus framework
+to arbitrary translated
+residual components;
+R-0072's movement bounds
+do **not** extend automatically.
+Its norm gives the full Chow
+form and its \(u/v\) trace
+is the first moment.
+The unproved UM1 implication
+is that **two global homogeneous
+surface generators**, with
+both endpoint lifts, constrain
+this moving quotient enough
+to force the trace zero.
+
 The [cycle-first Chow realization program](arguments/torus/chow_realization_moment_separation.md)
 uses the symmetric power of the orbit quotient as its primary parameter
 space. The universal moment hyperplane misses every interior power locus
