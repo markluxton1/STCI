@@ -10,6 +10,12 @@ at the generic point of \(C\). Neither normality of \(S\) nor Cartierness
 of \(C\) is required. Its application to a hypothetical STCI requires the actual
 carrier and its normal line, not only an abstract singularity model.
 
+The [degree-and-genus and shared-index refinements](branch_energy_generality.md)
+explain which parts extend beyond the fixed quartic: strict positivity holds
+whenever \(4d+2g-2<2d\sqrt d\), and actual Cartier relations localize
+specific denominator corrections to shared branch points. Neither refinement
+replaces conductor descent or proves realization of the required indices.
+
 ## The pullback defect
 
 Write \(I=I_{C/S}\), let

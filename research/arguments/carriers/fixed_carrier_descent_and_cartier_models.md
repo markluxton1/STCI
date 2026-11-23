@@ -456,8 +456,9 @@ Thus AC2 can be tested directly by the first normal line, actual
 local Cartier-multiple socles, and the equality in the intrinsic
 divisor formula. Local indices at most four are incompatible
 with a mate on every generically regular integral carrier of
-the fixed quartic. These are new deductions requiring review,
-not bounds on Cartier indices of normalized inverse curves.
+the fixed quartic. These deductions are covered by the scoped independent
+reconstruction above; they are not bounds on Cartier indices of normalized
+inverse curves.
 
 ### A fixed-carrier numerical filter for the entirely-thick branch
 

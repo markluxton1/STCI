@@ -545,6 +545,12 @@ sources.  No claim is made that \(\Delta_2\) alone is universally
 obstructed.
 
 
+The [actual residual-control theorem](../equations/fixed_depth_determinant_incidence.md#4-an-explicit-containing-mate-and-all-bounded-fixed-tests)
+now gives proper equation pairs through \(C\) with arbitrarily long
+vanishing determinant truncations. It strengthens the warning below at
+the equation-source level, without realizing the particular translated
+cycles constructed here. Full translated-cycle incidence remains separate.
+
 ### No bounded moment truncation can isolate the collision at cycle level
 
 The failure of first order is not special to quartics.  Over an algebraically

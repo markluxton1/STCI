@@ -1857,16 +1857,14 @@ uses only \(a,b\ge3r+3\) when retaining both towers through order \(r\).
 No assertion about equality of full cycles or full characteristic towers
 is involved.
 
-This is stronger than a cycle-level cancellation control but is not a
-nonexistence theorem or a construction of pure-target jets.  It does
-**not** prove that \(\Delta_1=\cdots=\Delta_r=0\) has any solution on
-either side of (HJ9).  It says that, in the degree range (HJ8), a fixed
-determinant truncation cannot distinguish equations containing \(C\)
-from arbitrary proper equations avoiding \(M\).  A contradiction in
-that truncation would already have to come from the general finite-CI
-source algebra; any further use of the marked curve must enter through
-deeper source data or an additional joint global condition.  In particular,
-the marked-containment condition adds no restriction to this tuple for
-\(r\le\lfloor(\min(a,b)-3)/4\rfloor\).  The
-roots-of-unity cycle construction remains a distinct warning, since it
-does not realize its cycles by actual equation pairs.
+The image equality alone supplies no pure-target witness. The stronger
+[fixed-depth incidence and actual residual-control theorem](fixed_depth_determinant_incidence.md)
+now supplies both a scheme-level refinement and such witnesses. The
+incidences are related by an affine-space factor over every field. In
+characteristic zero, explicit proper residual pairs through \(C\) make
+all bounded characteristic tests from fixed containing surfaces vanish.
+Thus fixed truncation cannot recognize sole support uniformly in degree.
+Full growing-depth tests and additional simultaneous source restrictions
+remain distinct. The roots-of-unity construction is still useful as a
+separate control within translated cycles, rather than as proof that those
+particular cycles have actual CI realizations.

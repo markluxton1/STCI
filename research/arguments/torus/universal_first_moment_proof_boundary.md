@@ -82,8 +82,8 @@ proves UM1 when the ideal is torus-invariant, when an actual generator
 is an eigenform, or when the specified pair of coordinate congruences
 holds. The whole reduced CI arrangement is invariant, hence covered.
 The [PR #173 cycle-first argument](chow_realization_moment_separation.md)
-offers further \((3,4)\) and \((4,4)\) coverage; its new proofs await
-independent review. The \((4,4)\) diagonal is separately excluded by R-0022.
+gives further \((3,4)\) and \((4,4)\) coverage at the scope of its
+recorded independent reconstruction, retaining the declared inherited inputs. The \((4,4)\) diagonal is separately excluded by R-0022.
 No unrestricted all-degree theorem is known. These are statements about
 the **actual CI cycle**, not arbitrary reduced support, a containing
 surface, or a flat Hilbert limit.
@@ -131,7 +131,8 @@ pencil \(R_\eta\), with
 \(Q_\xi\cap R_\eta=C_{\eta/\xi,\eta/\xi^2}+L_{01}+L_{23}\).
 Thus the actual remaining obstacle is to prove **first-jet
 isotropy** on this full source-incidence locus, not merely to
-calculate the residue. Independent proof review remains due.
+calculate the residue. The bridge and pairing are covered by the scoped
+independent reconstruction in their proof owner; universal isotropy remains open.
 
 ### Full spectral-power compatibility: the same Serre line at a later order
 

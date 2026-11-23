@@ -287,7 +287,7 @@ question; exclusion from the exact Chow-polytope fibre does not settle it.
   \(\mathbf Z/2\) divisor class **excludes every such pair
   on a carrier with only ordinary nodes**. The surviving search
   must use more complicated singularities on the quartics.
-- **The actual endpoint frontier.** The [orbit-lattice/contact theorem](../../arguments/torus/fixed_surface_restriction_lifts.md#the-sextic-symmetric-arrangement-must-escape-ade-at-an-endpoint) strengthens the earlier nodal and ADE class calculations, pending independent audit. Off the shared endpoints each local almost-Cartier index divides the gcd of the two multiplicities. Thus (7,2) and (8,1) are smooth along both curves away from those endpoints; the contact/defect budget excludes both endpoints being smooth or Du Val. For (6,3) the same budget forces two index-nine A-type endpoints under that assumption, and the mixed exceptional pairing is too large for two numerical classes \(2H/3\). All three partitions therefore require at least one non-Du-Val endpoint. The new bound is not a normality assumption on the carrier away from the endpoints. Audit this extension before probing the actual worse endpoint strata in the symmetric sextic space; another global ADE lattice enumeration no longer addresses the remaining locus.
+- **The actual endpoint frontier.** The [orbit-lattice/contact theorem](../../arguments/torus/fixed_surface_restriction_lifts.md#the-sextic-symmetric-arrangement-must-escape-ade-at-an-endpoint) strengthens the earlier nodal and ADE class calculations and is covered by the scoped independent reconstruction in the proof owner. Off the shared endpoints each local almost-Cartier index divides the gcd of the two multiplicities. Thus (7,2) and (8,1) are smooth along both curves away from those endpoints; the contact/defect budget excludes both endpoints being smooth or Du Val. For (6,3) the same budget forces two index-nine A-type endpoints under that assumption, and the mixed exceptional pairing is too large for two numerical classes \(2H/3\). All three partitions therefore require at least one non-Du-Val endpoint. The new bound is not a normality assumption on the carrier away from the endpoints. The actual worse endpoint strata in the symmetric sextic space remain the source problem; another global ADE lattice enumeration no longer addresses the remaining locus.
 - **Remaining equation bridge.** The joint first-layer kernel on a declared
   proper family with \(e_L>0\) remains a distinct question. A bound below
   \(e_L\) would force residual degree there; retain canonical end-adapted
@@ -549,7 +549,7 @@ Treat the toric example as a
 hypothesis test, not a basis for
 a universal monotonicity claim.
 
-The [BF triple and actual-pair attachment TR1--TR4](../../arguments/residuals/layerwise_attachment_and_triples.md#triples-the-full-attachment-has-only-two-independent-divisors) is a precise model for the sought general synthesis in KG03/KG04/KG09: one classical local presentation plus the *actual equation source* identifies the intrinsic multiplication divisor, the primary conormal torsion, the reduced attachment and every thick attachment layer through only two divisors \(\tau,\eta\). In the actual \((4,6)\) test \(\tau=2p_0\), \(\eta=5p_0+9p_\infty\), and full attachment has length 46. A next all-order argument would have to show which further syzygy/Fitting data are indispensable at multiplicity four and above, rather than extrapolate the triple identity. Before doing so, check the Bănică--Forster and Manolache higher-multiplicity classifications for known formulas and whether the extra defect data is genuinely new. No new experiment is justified just to reproduce another triple example.
+The [BF triple and actual-pair attachment TR1--TR4](../../arguments/residuals/layerwise_attachment_and_triples.md#triples-the-full-attachment-has-only-two-independent-divisors) is a precise model for the sought general synthesis in KG03/KG04/KG09: one classical local presentation plus the *actual equation source* identifies the intrinsic multiplication divisor, the primary conormal torsion, the reduced attachment and every thick attachment layer through only two divisors \(\tau,\eta\). In the actual \((4,6)\) test \(\tau=2p_0\), \(\eta=5p_0+9p_\infty\), and full attachment has length 46. A next all-order argument would have to show which further syzygy/Fitting data are indispensable at multiplicity four and above, rather than extrapolate the triple identity. The linked Bănică–Forster fourth-order calculation already supplies the first boundary: an lci quadruple can have zero conormal torsion while both multiplication divisors are nonzero. Higher-order work must retain independent multiplication and saturated-syzygy/Fitting data, and compare any proposed new formula with the applicable higher-multiplicity classifications. No new experiment is justified just to reproduce another triple example.
 
 ## Current choice and reassessment
 
@@ -574,6 +574,16 @@ At spectral collisions retain higher polars. The distinct-spectral-support
 stratum already includes the one-support target \(m[C]\) and the exceptional
 non-invariant doubled-quartic control, so classifying collisions of different
 supports is not a prerequisite to a bounded probe containing both.
+An alternative exact presentation is the [two-product Jacobian incidence](../../results/jacobian_radical_support.md):
+\(QD,UD\in(F,G)\), with identity degrees \(a+b\) and \(a+b+1\).
+The full source-dependent Jacobian grows with the equations, so this
+compression is outside the fixed-depth limitation. A bounded structural
+probe in the smallest degree-product case \((6,6)\), retaining the actual
+first-normal sources and both memberships, is a concrete KG02 alternative;
+its value must come from a new source restriction or survivor, rather than
+another restatement of support. No tractability or payoff dominance over
+KG05 is asserted.
+
 Declare a bidegree or source sector before
 an initial elimination/geometry probe; stop or redirect if it merely rewrites
 support or separates known residual controls. UM1 remains an open, stronger
@@ -587,9 +597,15 @@ The [center-jet source theorem](../../arguments/equations/global_equation_jets.m
 shows eventual freedom of each fixed-depth individual source map. Its HJ8–HJ9
 consequence gives equality of the actual paired-determinant truncation images
 for pairs through \(C\) and arbitrary center-avoiding pairs when
-\(a,b\ge4r+3\), without asserting a pure-target witness. Such freedom
-does not remove constraints imposed by the simultaneous global translated-cycle
-incidence. A \(\Delta_2\) test therefore remains possible as a declared bounded
+\(a,b\ge4r+3\). The [scheme-level refinement and actual controls](../../results/fixed_depth_determinant_incidence.md)
+now give affine-product equivalence of each retained incidence, and actual
+residual pairs attaining the pure truncated target for every fixed order
+in characteristic zero. These controls extend to any bounded family of
+fixed containing-surface characteristic tests. In sufficiently large
+degrees the controls can be reduced CIs of normal integral carriers, with
+generic multiplicity one along \(C\). Thus normality, integrality or
+reducedness alone does not repair the tests. The full translated-cycle
+incidence and a prescribed high-multiplicity source stratum remain separate. A \(\Delta_2\) test therefore remains possible as a declared bounded
 source diagnostic; for \(\min(a,b)\ge11\), containment of \(C\) alone
 adds no constraint on that two-coefficient image. It is not a uniform support detector or an automatically
 preferred all-degree obstruction.
@@ -597,13 +613,23 @@ preferred all-degree obstruction.
 KG05 asks whether the **whole** elliptic inverse scheme can be supported and
 descend in the existing finite-algebra family. Its length-twelve algebra,
 dimension-bounded remaining locus and exact support conditions make this a
-substantial constructive alternative. It is narrower in source coverage than
-the Chow incidence but has a more concrete family and decisive whole-family
-question. Compare actual progress on these two tasks at the next reassessment;
+substantial constructive alternative. The concrete first probe pulls the
+full support section \(Q_0^{12}|_Z\) to the normalized meeting divisor,
+retaining every fiber and Jordan stratum. Full support at a normal point is
+still possible in the current account; restricting to the nonnormal locus
+would lose coverage. Stop at a new restriction, verified survivor or precise
+missing representation, then attempt descent only for a survivor. Its fixed
+rank twelve makes this a full-algebra test, unaffected by bounded truncations
+of growing CI algebras. It is narrower in source coverage than the Chow
+incidence but has a more concrete family and decisive whole-family question. Compare actual progress on these two tasks at the next reassessment;
 neither inherits priority from the breadth of its framework.
 
 A neglected conceptual alternative is the
-[relative divisor-cycle functional](../../arguments/torus/universal_first_moment_corpus_review.md#2-supported-divisor-cycles-and-class-group-relations-a-distinct-route),
+[actual normal-cone to marked-Quot deformation comparison](../../frameworks/formal-normal-geometry/open_normal_geometry.md#comparing-the-normal-cone-with-marked-quot-incidence)
+on a named absorption control, retaining its kernel, cokernel and zero
+section. Its missing comparison map is a different possible source of
+transferable structure; no local defect count supplies it. A further alternative
+is the [relative divisor-cycle functional](../../arguments/torus/universal_first_moment_corpus_review.md#2-supported-divisor-cycles-and-class-group-relations-a-distinct-route),
 which could explain the moment through actual Cartier relations. Its additive
 construction is still missing; ordinary \(\mathrm{CH}_1(\mathbf P^3)\)
 is too coarse. It currently offers less operational evidence than the elliptic

@@ -84,10 +84,13 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0073](results/endpoint_equation_torsion.md) | Endpoint detection of equation torsion and a residual degree bound | endpoint localization and the first equation layer: accepted | [scope](results/endpoint_equation_torsion.md#scope) |
 | [STCI-R-0074](results/chow_polytope_rigidity.md) | Full Chow-polytope rigidity for the fixed quartic | endpoint support and separating-face degree exhaustion: accepted | [scope](results/chow_polytope_rigidity.md#scope) |
 | [STCI-R-0075](results/toric_quintic_carrier_exclusion.md) | Toric quintic normalizations exclude every mate degree | marked normalization and full inverse support at every projection center: pending | [scope](results/toric_quintic_carrier_exclusion.md#scope) |
-| [STCI-R-0076](results/elliptic_inverse_support.md) | Full inverse support in the marked elliptic double-cover construction | target rulings and a Cartier zero scheme on the residual divisor: pending | [scope](results/elliptic_inverse_support.md#scope) |
+| [STCI-R-0076](results/elliptic_inverse_support.md) | Full inverse support in the marked elliptic double-cover construction | target rulings and a Cartier zero scheme on the residual divisor: accepted | [scope](results/elliptic_inverse_support.md#scope) |
 | [STCI-R-0077](results/connected_normal_directions.md) | Connected normal directions, residual degree and deep contact on the equality boundary | quadric restriction, connectedness and the normal bundle of the surviving section: accepted | [scope](results/connected_normal_directions.md#scope) |
 | [STCI-R-0078](results/moving_quadratic_conductors.md) | Quadratic conductor postulation at one moving point | separated covers, transverse lattices and the osculating quadric: accepted | [scope](results/moving_quadratic_conductors.md#scope) |
 | [STCI-R-0079](results/quartic_chow_pencil_classification.md) | Quartic pencils with the fixed Chow polytope | endpoint contact, liaison residual genus, and canonical-module rigidity: accepted | [scope](results/quartic_chow_pencil_classification.md#scope) |
+| [STCI-R-0080](results/fixed_depth_determinant_incidence.md) | Fixed-depth incidence products and actual residual cancellation | universal center jets and finite Laurent trace matching: accepted | [scope](results/fixed_depth_determinant_incidence.md#scope) |
+| [STCI-R-0081](results/jacobian_radical_support.md) | Relative Jacobian radical recovery and two-product quartic support | finite projection and the Artinian Jacobian socle: accepted | [scope](results/jacobian_radical_support.md#scope) |
+| [STCI-R-0082](results/arrangement_strata_and_orders.md) | Arrangement Hilbert strata, endpoint planarity and separate orders | endpoint ranks, formal planarity and exceptional valuations: accepted | [scope](results/arrangement_strata_and_orders.md#scope) |
 
 ## Arguments
 
@@ -198,10 +201,13 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0073: endpoint localization and the first equation layer; joint premises []; proof `#proof`; review accepted, reconstructed at `#review-and-scope-of-the-comparison`.
 - STCI-R-0074: endpoint support and separating-face degree exhaustion; joint premises []; proof `research/arguments/equations/chow_polytope_rigidity.md#chow-forms-products-and-the-one-parameter-subgroup`; review accepted, reconstructed at `#review`.
 - STCI-R-0075: marked normalization and full inverse support at every projection center; joint premises [STCI-R-0003]; proof `research/arguments/carriers/quintic_toric_center_incidence.md#1-geometric-object-and-scope`; review pending at `#review`.
-- STCI-R-0076: target rulings and a Cartier zero scheme on the residual divisor; joint premises []; proof `research/arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber`; review pending at `#review`.
+- STCI-R-0076: target rulings and a Cartier zero scheme on the residual divisor; joint premises []; proof `research/arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber`; review accepted, reconstructed at `#review`.
 - STCI-R-0077: quadric restriction, connectedness and the normal bundle of the surviving section; joint premises [STCI-R-0020]; proof `#proof`; review accepted, reconstructed at `#review`.
 - STCI-R-0078: separated covers, transverse lattices and the osculating quadric; joint premises []; proof `#proof`; review accepted, reconstructed at `#review`.
 - STCI-R-0079: endpoint contact, liaison residual genus, and canonical-module rigidity; joint premises [STCI-R-0074]; proof `research/arguments/torus/quartic_chow_pencils.md#proof-route`; review accepted, reconstructed at `#review`.
+- STCI-R-0080: universal center jets and finite Laurent trace matching; joint premises []; proof `research/arguments/equations/fixed_depth_determinant_incidence.md#1-the-common-finite-jet-source`; review accepted, reconstructed at `#review`.
+- STCI-R-0081: finite projection and the Artinian Jacobian socle; joint premises []; proof `research/arguments/equations/jacobian_radical_support.md#radical-recovery-for-any-proper-pair-missing-the-projection-center`; review accepted, reconstructed at `#review`.
+- STCI-R-0082: endpoint ranks, formal planarity and exceptional valuations; joint premises []; proof `research/arguments/torus/arrangement_strata_and_orders.md#arrangement-strata-endpoint-planarity-and-separate-vanishing-orders`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
@@ -218,7 +224,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - [STCI-R-0075, STCI-R-0076] — uses → [STCI-F-0005]; [explanation owned by STCI-F-0005](frameworks/carrier-normalization/index.md#projection-polarization-and-low-degree-scopes).
 - [STCI-R-0075, STCI-R-0076, STCI-R-0077] — uses → [STCI-F-0007]; [explanation owned by STCI-F-0007](frameworks/residual-construction/index.md#interfaces).
 - [STCI-R-0076] — uses → [STCI-I-0005]; [explanation owned by STCI-I-0005](investigations/stci-equation-search/index.md#inputs).
-- [STCI-R-0076, STCI-R-0077, STCI-R-0078] — uses → [STCI-F-0006]; [explanation owned by STCI-F-0006](frameworks/global-equation-realization/index.md#bridges).
+- [STCI-R-0076, STCI-R-0077, STCI-R-0078, STCI-R-0080, STCI-R-0081] — uses → [STCI-F-0006]; [explanation owned by STCI-F-0006](frameworks/global-equation-realization/index.md#bridges).
 - [STCI-R-0077] — uses → [STCI-F-0003]; [explanation owned by STCI-F-0003](frameworks/formal-normal-geometry/index.md#exceptional-geometry-and-components-downstairs).
 
 ## Object backlinks
@@ -237,7 +243,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-F-0003: uses: [STCI-R-0077] → [STCI-F-0003] (owner STCI-F-0003).
 - STCI-F-0004: no declared backlinks.
 - STCI-F-0005: motivates: [STCI-F-0005, STCI-F-0006] → [STCI-I-0005] (owner STCI-I-0005); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005).
-- STCI-F-0006: motivates: [STCI-F-0001, STCI-F-0002, STCI-F-0006] → [STCI-I-0006] (owner STCI-I-0006); motivates: [STCI-F-0005, STCI-F-0006] → [STCI-I-0005] (owner STCI-I-0005); uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078] → [STCI-F-0006] (owner STCI-F-0006).
+- STCI-F-0006: motivates: [STCI-F-0001, STCI-F-0002, STCI-F-0006] → [STCI-I-0006] (owner STCI-I-0006); motivates: [STCI-F-0005, STCI-F-0006] → [STCI-I-0005] (owner STCI-I-0005); uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078, STCI-R-0080, STCI-R-0081] → [STCI-F-0006] (owner STCI-F-0006).
 - STCI-F-0007: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007).
 - STCI-F-0008: no declared backlinks.
 - STCI-F-0009: no declared backlinks.
@@ -320,7 +326,10 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0073: uses: [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072, STCI-R-0073] → [STCI-F-0001] (owner STCI-F-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] → [STCI-I-0002] (owner STCI-I-0002).
 - STCI-R-0074: premise of STCI-R-0079 (endpoint contact, liaison residual genus, and canonical-module rigidity).
 - STCI-R-0075: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005).
-- STCI-R-0076: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005); uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078] → [STCI-F-0006] (owner STCI-F-0006); uses: [STCI-R-0076] → [STCI-I-0005] (owner STCI-I-0005).
-- STCI-R-0077: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007); uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078] → [STCI-F-0006] (owner STCI-F-0006); uses: [STCI-R-0077] → [STCI-F-0003] (owner STCI-F-0003).
-- STCI-R-0078: uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078] → [STCI-F-0006] (owner STCI-F-0006).
+- STCI-R-0076: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007); uses: [STCI-R-0075, STCI-R-0076] → [STCI-F-0005] (owner STCI-F-0005); uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078, STCI-R-0080, STCI-R-0081] → [STCI-F-0006] (owner STCI-F-0006); uses: [STCI-R-0076] → [STCI-I-0005] (owner STCI-I-0005).
+- STCI-R-0077: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007); uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078, STCI-R-0080, STCI-R-0081] → [STCI-F-0006] (owner STCI-F-0006); uses: [STCI-R-0077] → [STCI-F-0003] (owner STCI-F-0003).
+- STCI-R-0078: uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078, STCI-R-0080, STCI-R-0081] → [STCI-F-0006] (owner STCI-F-0006).
 - STCI-R-0079: no declared backlinks.
+- STCI-R-0080: uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078, STCI-R-0080, STCI-R-0081] → [STCI-F-0006] (owner STCI-F-0006).
+- STCI-R-0081: uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078, STCI-R-0080, STCI-R-0081] → [STCI-F-0006] (owner STCI-F-0006).
+- STCI-R-0082: no declared backlinks.

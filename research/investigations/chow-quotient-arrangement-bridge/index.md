@@ -61,8 +61,8 @@ the same proper equation pair.
   [Jacobian and first-jet bridge](../../arguments/torus/spectral_jacobian_first_jet_bridge.md),
   and [full-Chow envelope](../../arguments/torus/full_transverse_chow_pullback_envelope.md)
   own the formulas and their exact scope. The latter's UM1 implication
-  remains open and its stated review status should be checked before relying
-  on its new claims.
+  remains open; its proof owner records the precise scoped reconstruction
+  and inherited inputs.
 - The [saturation and interpolation theorem](../../arguments/torus/spectral_interpolation_and_polar_saturation.md)
   identifies opposite-chain membership for coordinate-saturated ideals. A full
   translated-support CI is automatically saturated this way; the second chain
@@ -71,6 +71,15 @@ the same proper equation pair.
   nonreduced cycles. Spectral collisions need higher polars. Recovering those
   cycle parameters does not replace full-chain membership and the norm test
   on the actual two-generator ideal.
+- The [fixed-depth source controls](../../results/fixed_depth_determinant_incidence.md)
+  give scheme-level affine-product incidence and actual residual pairs
+  cancelling every bounded fixed containing-surface test. They can be
+  reduced CIs of normal integral carriers, with generic multiplicity one on
+  \(C\); their residual components need not be translates. Thus they do not
+  settle the full translated-cycle question here. The characteristic-zero
+  [two-product Jacobian criterion](../../results/jacobian_radical_support.md)
+  is a compact alternative exact support incidence, using both full
+  equations through a source-dependent growing-degree Jacobian.
 - The three parameter spaces stay distinct: the [normalized Chow quotient](../../arguments/torus/chow_quotient_fan_and_blowup_comparison.md)
   compactifies orbit **cycles**; the [endpoint calculation](../../arguments/torus/arrangement_endpoint_delta.md)
   describes Hilbert data for **reduced unions** and shows their Hilbert
@@ -85,11 +94,14 @@ the same proper equation pair.
 - For arrangement blow-ups, restriction of the original universal scheme
   union need not give the reduced union on a special fiber. On finite
   endpoint-rank strata, the correct union is **re-formed** and is flat with
-  the intended fibers. Normal flatness of all its infinitesimal neighborhoods
+  the intended fibers. The [Hilbert-stratum refinement](../../results/arrangement_strata_and_orders.md)
+  shows that constant Hilbert polynomial already forces those ranks locally
+  constant on a reduced stratum; reduced CI arrangements with at least five
+  components must be nonplanar at an endpoint. Normal flatness of all its infinitesimal neighborhoods
   remains an additional condition for its Rees blow-up to have the intended
   fibers. Independently, the [smooth separated model](../../arguments/torus/relative_arrangement_blowup_family.md#3-a-smooth-simultaneous-blow-up-model-on-the-resolved-quotient)
-  has the desired fiberwise blow-ups and an exact section-space dictionary;
-  it is not identified with the singular arrangement blow-up without
+  has the desired fiberwise blow-ups and an exact section-space dictionary,
+  now including arbitrary individual vanishing orders; it is not identified with the singular arrangement blow-up without
   principalization. The one-curve \(V_5\) contraction is known, but a
   complementary contraction for multiple curves across boundary strata is
   not constructed.

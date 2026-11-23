@@ -182,10 +182,22 @@ The formula
 \[
  P_{A_Z}(d)=4md+m-\delta_0(Z)-\delta_\infty(Z)
 \]
-is constant on these strata. Merely requiring its *sum*
-\(\delta_0+\delta_\infty\) to be constant is a weaker condition
-than requiring all ranks in (6), and is insufficient for
-the full endpoint-filtration comparison.
+is constant on these strata. Conversely, on a reduced locally closed
+configuration stratum, constancy of this Hilbert polynomial forces every
+endpoint rank to be locally constant: the finite lower-semicontinuous
+ranks have constant sum. Thus it already suffices for flatness and further
+base change of the union formed anew. The [proof and scope](arrangement_strata_and_orders.md#1-constant-hilbert-polynomial-already-gives-flat-re-formed-unions)
+retain the distinction from restriction of the ambient universal union and
+from higher ideal powers. Different clopen pieces can have different rank
+vectors, so a global numerical rank vector is not claimed.
+
+The [intrinsic planarity and separate-order extensions](arrangement_strata_and_orders.md)
+clarify two other boundaries of this construction. Every reduced CI
+arrangement with at least five components is nonplanar at an endpoint, so
+the dual-planar normally flat locus cannot cover those CIs. On the smooth
+separated model, the equation-space dictionary extends to arbitrary
+individual powers \(\bigcap I_{C_i}^{n_i}\); this retains separate orders,
+without determining the same two equations' joint intersection algebra.
 
 ### What more is needed for the direct Rees fiber
 
@@ -883,7 +895,7 @@ further strata with normally flat re-formed unions, and determine
 where their Rees algebras agree with the restriction of (3),
 for general non-planar configurations;
 compute local Rees and exceptional fibers
-at \(p_0,p_\infty\) for \(m=2,3,4\);
+at \(p_0,p_\infty\) for \(m=3,4\), beyond the completed two-curve calculation in §7;
 principalize the pulled-back singular
 arrangement ideal on (9) and determine
 the induced morphism to (3);

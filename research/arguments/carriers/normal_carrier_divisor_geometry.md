@@ -742,7 +742,38 @@ Consequently the entire reduced-gcd stratum obeys the single combinatorial/geome
 \]
 The inequality follows from the negative-definite exceptional ADE root lattice and the positive-square hyperplane class; the surface invariants are those of the smooth degree-\(b\) hypersurface because its only singularities are rational double points (equivalently use a characteristic-zero complex model for Hodge numbers). Use binomial zero for \(b<4\). This recovers the sextic rank bound 85 and the three rows of its fixed \(A_2\), moving \(A_8\) argument; its last row still requires the curve-specific constant-direction primitive-triple obstruction. It does not prove that every admitted assignment of indices, defects or points occurs globally.
 
-**An all-degree arithmetic consequence requiring no rank bound.** If every prime factor of \(m\) is \(1\bmod4\), then \(m\equiv1\bmod4\), and each contribution \(m/r_P-1\) in RG1 is divisible by four. But MV7 gives \(\deg D_{\rm top}\equiv14\equiv2\bmod4\). This is impossible. Thus in this entire multiplicity class **every generically curvilinear sole-support pair must have a nonreduced common first-normal divisor**. Examples include hypothetical \((5,20)\) and the order-one sector of \((10,10)\), both with \(m=25\). The result excludes the reduced-defect stratum, not those pairs or their entirely-thick sectors. More generally RG1 forces congruence modulo \(\gcd_{p\mid m}(p-1)\) for composite \(m\); it retains the individual local divisors and exact global rank test when the congruence is vacuous.
+**An all-degree arithmetic consequence requiring no rank bound.** The following
+explicit strengthening was independently reconstructed during the geometry
+review; a distinct generalizations reviewer independently reconstructed this
+written formulation on November 23, 2026. For \(m>1\),
+put
+\[
+ G_m=\gcd_{\substack{\varpi\mid m\\\varpi\ {\rm prime}}}(\varpi-1).
+\]
+Every positive divisor of \(m\) is \(1\bmod G_m\), because each prime
+factor is. Consequently \(G_m\) divides every contribution \(m/r_P-1\)
+in RG1 and also divides \(m-1\). Combining RG1 with MV7 gives the
+necessary congruence
+\[
+ \boxed{G_m\mid 4(a+b)-14.} \tag{RG2}
+\]
+If every prime factor of \(m\) is \(1\bmod4\), then \(4\mid G_m\),
+whereas \(4(a+b)-14\equiv2\bmod4\). Thus **every generically
+curvilinear sole-support pair in this multiplicity class must have a
+nonreduced common first-normal divisor**. This recovers the hypothetical
+\((5,20)\) and order-one \((10,10)\) examples with \(m=25\).
+The general congruence also treats other prime classes: a hypothetical
+generically curvilinear \((14,14)\) pair has \(m=49\) and \(G_m=6\),
+but \(4(14+14)-14=98\) is not divisible by six. Its common first-normal
+divisor must therefore be nonreduced as well.
+
+These conclusions retain RG1's characteristic-zero, fixed-quartic and
+generic-curvilinearity hypotheses. They exclude the reduced common
+first-normal divisor stratum, including the empty divisor; they do not
+exclude the degree pairs themselves, their nonreduced-defect strata, or
+their entirely-thick sectors. When (RG2) is satisfied, the individual
+local divisor identities and ADE rank inequality of RG1 still impose
+their separate conditions.
 
 ### First-symbol movement and socle comparison on an arbitrary smooth threefold
 

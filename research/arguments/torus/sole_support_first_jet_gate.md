@@ -10,6 +10,12 @@ separate exact support recognition from an obstruction; none proves STCI
 nonexistence. The independent integration review and its limits are recorded
 in the combined PR.
 
+The characteristic-zero [two-product Jacobian criterion](../equations/jacobian_radical_support.md#two-jacobian-products-recognize-sole-support-on-the-fixed-quartic)
+provides a shorter exact polynomial-membership presentation of sole support.
+It retains the full equations and does not make the residue or first-jet
+vanishing automatic. The ideal-power criterion below retains its stated
+characteristic scope and remains a distinct useful presentation.
+
 ## Exact first-jet consequence
 
 Set \(S=k[x_0,x_1,x_2,x_3]\),

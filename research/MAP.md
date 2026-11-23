@@ -51,6 +51,16 @@ The [branch valuation and principalization comparison](arguments/carriers/numeri
 retains individual inverse branches, exceptional energy and actual first-blowup
 coefficients in the entirely-thick branch.
 
+The [branch-energy generality](arguments/carriers/branch_energy_generality.md)
+needs only \(4d+2g-2<2d\sqrt d\), covering smooth rational curves of
+degree at least three; it excludes the specified no-vertical singleton or
+proportional-branch carrier locus, not all carriers. Actual Cartier relations
+also localize denominator corrections beyond branch coefficients to shared
+points. In the generically curvilinear quartic branch, RG2's stronger
+prime-divisor gcd test forces, for example, a hypothetical \((14,14)\)
+pair to have nonreduced common first-normal divisor. It leaves that stratum
+and the entirely-thick branch open.
+
 ### Residual attachment and marked finite transfer
 
 The [two-blowup dictionary](arguments/residuals/blowup_residual_geometry.md)
@@ -93,6 +103,12 @@ non-invariant repeated-cycle pairs is an open conjecture. The
 expresses \(2M_1\) as the first-jet residue pairing on the full translated
 realization locus; it does not force isotropy there.
 
+The [two-product Jacobian criterion](results/jacobian_radical_support.md)
+recognizes sole support in characteristic zero by two actual polynomial
+memberships of degrees \(a+b\) and \(a+b+1\). It globalizes the classical
+Artinian Jacobian-socle mechanism and supplies a compact exact source
+incidence, without forcing nonvanishing.
+
 The [full residue criterion](arguments/torus/sole_support_first_jet_gate.md#full-exact-stci-jet-criterion-ideal-powers-and-the-perfect-residue-pairing)
 is a finite exact sole-support system in each bidegree. Explicit actual pairs
 with residual curves pass its two leading tests. The full
@@ -114,20 +130,19 @@ detects sole support under its finite-pencil hypotheses. Its coefficient of
 order \(j\) uses only source depth \(4j\). With varying binary leading
 forms these coefficients are regular on the resultant-nonzero source open;
 polynomial dependence requires fixing leading forms or clearing denominators.
-Roots-of-unity cycles can cancel arbitrarily many initial coefficients while
-retaining residual translates; those controls do not assert actual CI
-realizability. The [actual jet-source theorem](arguments/equations/global_equation_jets.md)
-likewise shows eventual freedom at every fixed center-jet depth. In particular,
-for \(a,b\ge4r+3\), the attainable tuples \(\Delta_1,\ldots,\Delta_r\)
-are unchanged by imposing containment of \(C\). This does not prove the
-truncated pure target is attainable; joint global conditions remain. A useful
-all-degree obstruction must add actual simultaneous source compatibility,
-rather than another scalar support detector.
-
-This determinant-image equality, and the analogous degree-\((2,3)\)
-characteristic-coefficient tower statement, hold over any field; their proofs
-use linear lifting and characteristic-polynomial scaling without Newton
-division. The characteristic-zero moment/trace assertions retain their scope.
+The [fixed-depth incidence and residual-control theorem](results/fixed_depth_determinant_incidence.md)
+strengthens the center-jet image statement. Over any field, for
+\(a,b\ge4r+3\), imposing containment of \(C\) changes every incidence
+on \(\Delta_1,\ldots,\Delta_r\) only by an affine-space factor; this
+includes its nilpotent scheme structure. In characteristic zero, explicit
+actual residual pairs through \(C\) cancel every bounded family of
+characteristic tests from fixed containing surfaces. In the larger degree
+range these pairs can be reduced intersections of normal integral carriers,
+smooth and generically transverse along \(C\). Thus pure truncated
+targets really occur on residual pairs; the roots-of-unity cycle controls
+remain distinct statements about translated cycles. The obstruction needs
+full growing-depth or simultaneous source information. Fixed-rank full
+support tests, including the elliptic rank-twelve algebra, are unaffected.
 
 The [sharp center-jet calculation](arguments/torus/chow_matched_equation_layers.md#sharpness-and-the-last-missing-center-layer)
 has cokernel dimension \(N+1\) at degree \(N+1\), and vanishes in degrees
@@ -144,11 +159,19 @@ connects the quotient fan, endpoint Hilbert data, equation incidence and blowups
 The [endpoint evaluation ranks](arguments/torus/arrangement_endpoint_delta.md)
 compute reduced-union Hilbert polynomials. In the
 [relative construction](arguments/torus/relative_arrangement_blowup_family.md),
-the union must be formed anew on a rank stratum: restriction of the universal
+the union must be formed anew on a suitable reduced stratum (constant
+Hilbert polynomial suffices): restriction of the universal
 scheme union can acquire an embedded nilpotent. Correct Rees specialization
 requires control of ideal powers as well as the reduced union. The separate
 smooth model blows up disjoint lifted curves and recovers containing-section
 spaces; it is not an identification with the direct singular blowup.
+The [arrangement-strata refinement](results/arrangement_strata_and_orders.md)
+shows that constant Hilbert polynomial already suffices locally for flat
+re-formed reduced unions. Reduced CI arrangements with at least five
+components must be nonplanar at an endpoint, locating a genuine coverage
+boundary of the dual-planar Rees models. The separated-model section
+dictionary also retains every prescribed individual vanishing order;
+joint pair lengths and residual support remain additional conditions.
 Collision strata, general two-equation realization and complementary
 contractions retain their separate missing steps.
 

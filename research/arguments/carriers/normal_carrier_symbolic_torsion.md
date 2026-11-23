@@ -1403,8 +1403,8 @@ to this substantially larger class. They cannot be applied
 to the indices on the normalization alone, nor when the
 carrier is singular at the generic point of \(C\). The
 independently reviewed normal statements below are retained;
-the extension requires separate review, especially the use
-of actual Cartier support and the symbolic primary quotients.
+the extension, including actual Cartier support and the symbolic primary
+quotients, is covered by the scoped independent reconstruction above.
 
 ### 4. A pointwise index bound gives a linear carrier-degree bound
 

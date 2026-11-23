@@ -74,3 +74,10 @@ mathematical rank.
 
 - [STCI-R-0075 — Integral quintics with toric normalization exclude every mate degree](toric_quintic_carrier_exclusion.md).
 - [STCI-R-0076 — Length-twelve support test for the marked elliptic double cover](elliptic_inverse_support.md).
+
+## Actual equation support and finite-depth incidence
+
+- [STCI-R-0080 — Fixed-depth incidence products and actual residual cancellation](fixed_depth_determinant_incidence.md).
+- [STCI-R-0081 — Relative Jacobian radical recovery and two-product quartic support](jacobian_radical_support.md).
+
+- [STCI-R-0082 — Arrangement Hilbert strata, endpoint planarity and separate orders](arrangement_strata_and_orders.md).

@@ -7,7 +7,7 @@ scope: "#scope"
 bridges: "#bridges"
 relations:
   - kind: uses
-    from: [STCI-R-0076, STCI-R-0077, STCI-R-0078]
+    from: [STCI-R-0076, STCI-R-0077, STCI-R-0078, STCI-R-0080, STCI-R-0081]
     to: [STCI-F-0006]
     at: "#bridges"
 ---
@@ -22,6 +22,18 @@ For a proper pair of degrees \((a,b)\), the cycle identity \(ab=4m_{C_0}+\deg R\
 The fundamental object is the labelled map
 \(\mathcal O_{\mathbf P^3}(-a)\oplus\mathcal O_{\mathbf P^3}(-b)\to I_{C_0}\)
 whose components are the equations. Its image must define a proper complete intersection and have no residual support if the goal is STCI. The [Sylvester Hom identity](../../arguments/equations/chow_bundle_maps.md#the-prescribed-sylvester-bundles-already-retain-the-equations) recovers forms directly from a map of the prescribed bundles; the required nonzero Chow-power determinant is still an existence condition. The [complement calculation](../../arguments/equations/complement_section_obstructions.md) distinguishes the checked continuous and primary algebraic conditions from actual homogeneous section realization. The [Chow/bundle and complement criteria](../../arguments/equations/global_equations_and_constructions.md#geometric-orientation-the-locus-of-globally-presented-multiple-curves) are equivalent formulations or necessary shadows only when their stated hypotheses hold; a cycle identity or a section on the complement does not by itself provide homogeneous lifts with the required base locus.
+
+## Two growing-degree Jacobian memberships give exact support
+
+In characteristic zero, the [relative Jacobian criterion](../../results/jacobian_radical_support.md)
+gives \(J:D=\sqrt J\) for every proper pair missing the fixed projection
+center, with \(D=F_{x_1}G_{x_2}-F_{x_2}G_{x_1}\). For equations through the
+quartic, sole support is exactly the two memberships \(QD,UD\in J\),
+where \(Q=x_0x_3-x_1x_2\) and \(U=x_0^2x_2-x_1^3\). Their cofactor
+identities have degrees \(a+b\) and \(a+b+1\). This is an economical
+actual-source formulation; an obstruction still needs information forcing
+one of these two classes to survive. The source-dependent Jacobian grows
+with both equations, so this criterion is outside a fixed finite-jet test.
 
 ## Interfaces
 
@@ -559,10 +571,16 @@ joint CI or global support conditions.  More precisely, the
 [determinant truncation-image consequence](../../arguments/equations/global_equation_jets.md#fixed-determinant-truncations-forget-containment-of-the-quartic-in-large-degrees)
 shows that for \(a,b\ge4r+3\), the attainable tuples
 \((\Delta_1,\ldots,\Delta_r)\) are the same for pairs through \(C\) as
-for arbitrary proper pairs avoiding the disjoint center line.  This does
-not prove that the truncated pure target is attainable.  A fixed-depth
-contradiction would have to hold already for general finite-CI source
-jets; a curve-specific obstruction needs deeper data or another joint
+for arbitrary proper pairs avoiding the disjoint center line. The
+[scheme-level refinement and actual residual controls](../../results/fixed_depth_determinant_incidence.md)
+show more: imposing containment changes every such incidence only by an
+affine factor, and in characteristic zero pure truncated targets occur on
+actual residual pairs for every fixed order. This extends simultaneously
+to bounded characteristic tests from any fixed containing surfaces, even
+on reduced intersections of normal integral carriers in the stated larger
+degree range. The controls have generic multiplicity one along \(C\);
+they do not meet a prescribed higher-multiplicity candidate stratum. A
+uniform support obstruction therefore needs deeper data or another joint
 global condition.  On the symmetric hyperplane the unique
 terminal class is represented by
 \[

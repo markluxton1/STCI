@@ -325,7 +325,9 @@ polarizations.** It is to show that
 a single weighted Chow-polarization
 envelope admits **no proper
 two-generator homogeneous CI
-quotient with the prescribed
+quotient of degree \(ab=4m\),
+with \(h=x_0x_1x_2x_3\) regular
+modulo its ideal and with the prescribed
 finite-flat norm** when the
 spectral divisor has nonzero
 centroid \(M_1=-H_B(1,0)\),
