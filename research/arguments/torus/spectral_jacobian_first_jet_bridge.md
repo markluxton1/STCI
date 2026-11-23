@@ -298,6 +298,18 @@ changed while residual curves appear. Hence (13) is a sharp
 *reduction of the desired identity*, not a proof that all such
 jets are isotropic.
 
+### An immediate wider sufficient vanishing condition
+
+Within the full translated-cycle hypotheses, equation (11) gives
+\(M_1=0\) whenever **either equation has vanishing first
+normal layer** along the disjoint line, i.e. \(p=q=0\) or
+\(r=s=0\). More generally it vanishes whenever the two normal
+jet vectors span an isotropic plane in \((\mathcal V,\Omega)\).
+These are all-degree sufficient conditions without any torus-invariance
+assumption. The existence of a generator with such a vanishing jet
+is **not** known for arbitrary Chow-matched pairs, and cannot be
+inferred merely from the cycle or a torus-fixed initial ideal.
+
 ## 5. Two exact controls
 
 **Invariant binomial example.** For
