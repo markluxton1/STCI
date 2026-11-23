@@ -115,6 +115,31 @@ No general transgression/compatibility
 theorem between the Serre pairing and the
 higher spectral class is established.
 
+### Exact low-order control of the common-residue bridge
+
+The [global \((4,4)\) example](sole_support_first_jet_gate.md#a-stronger-negative-control-both-leading-stci-conditions-can-hold)
+chooses first normal jets
+\(p=x_1^3,q=x_2^3,r=-2x_1^3,s=6x_2^3\)
+and lifts them to two **actual homogeneous
+equations containing** \(C\).
+It satisfies the hypothetical-STCI
+first-jet residue \(8\) **and** vanishing
+first spectral-power residue
+\(\mathcal R_{F,G}(Q^4)=0\),
+yet has a degree-twelve residual curve.
+The full Poisson identity fails at
+normal order one; full \(Q^4\)-membership
+fails at order three. Thus the same
+Serre-line and first spectral leading-class
+comparison cannot be a complete exclusion.
+The earlier restricted \((4,4)\) mismatch
+is a special first-jet pattern, not
+an all-quartic argument. The genuine
+unknown remains compatibility of the
+**entire** ideal identities across the
+global equation-source filtration
+and all degrees.
+
 ## Upward synthesis: the smallest exact common algebraic target
 
 **All-degree finite-cover trace.** Every such proper pair avoids the line
