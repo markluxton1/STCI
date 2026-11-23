@@ -116,8 +116,9 @@ of the actual homogeneous source under the first nontrivial maps
 (F,G)\longmapsto\Delta_1,\Delta_2,\ldots
 \]
 and compare it with the pure target \(\Delta=S^{ab}\).  The first coefficient
-alone cannot suffice: the existing quartic control has zero \(q\)-trace and
-residual degree twelve.  A useful next theorem must either (i) show that a
+alone cannot suffice, even in the **paired** determinant: the explicit proper
+quartic control in the Chow-moment owner has \(\Delta_1=0\) while
+\(\operatorname{tr}(q^2)\ne0\) and a residual cubic factor survives.  A useful next theorem must either (i) show that a
 bounded initial segment of the **paired** determinant is incompatible with
 \(F,G\in I_C\), uniformly in degree, or (ii) prove a structural recursion
 forcing a later coefficient nonzero.  Without such a source-image statement,
