@@ -551,6 +551,42 @@ zero. The generic intersection multiplicity
 along \(C\) is therefore one, and Bézout
 gives a residual cycle of degree \(16-4=12\).
 
+The two first **failing higher-jet tests** of this
+global pair can also be written down without
+computing its residual curve:
+\[
+ \tag{16}
+ M_{12}-2M_{03}
+ \equiv 12u\,x^2y^3+72v\,x^3y^2
+ \pmod{(F,G)+(u,v)^2},
+\]
+\[
+ \tag{17}
+ Q^4
+ \equiv 2u^2v\,x^2y^3
+       +12uv^2\,x^3y^2
+ \pmod{(F,G)+(u,v)^4}.
+\]
+Both are nonzero. For (16), expand the actual
+gradients and note that the two displayed
+monomials represent independent classes in
+\((R/(x^4,y^4))_5\).
+For (17), reduce
+\(x^4=-ux^3-vy^3+O((u,v)^3)\) and
+\(y^4=2ux^3-6vy^3+O((u,v)^3)\)
+iteratively; the order-two terms cancel
+by (12), but at order three the displayed
+coefficients remain.
+The higher corrections of (14) only begin
+at normal order three, so they do not
+alter this calculation.
+Hence the **full** Poisson identity fails
+already at order one, while the
+**full** spectral power identity fails at
+order three. Passing the leading scalar
+residue tests is not passing either
+full ideal-membership requirement.
+
 **Conclusion of the paired controls.**
 The special family with \(q=r=0\) is
 incompatible at second normal order
