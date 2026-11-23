@@ -143,6 +143,60 @@ reason why a low-order jet check cannot settle the
 unrestricted STCI problem without the global
 full-equation/zero-support incidence.
 
+### New joint-jet test: the first spectral-power obstruction and its Serre line
+
+The [direct STCI test](../../arguments/torus/sole_support_first_jet_gate.md)
+now exhibits the first possible **nonautomatic**
+normal-order class of the necessary spectral power
+\(Q^m\in(F_a,G_b)\), \(m=ab/4\).
+Let \(L=V(x_0,x_3)\),
+\(d=a+b-2\), \(r_*=2m-d=(a-2)(b-2)/2\).
+For **any** proper CI missing \(L\), every
+degree-\(2m\) class has \(I_L\)-order at least \(r_*\).
+Its leading class defines
+\[
+ \mathfrak o_{r_*}(F,G)
+ \in H^1(L,\omega_L)\otimes
+       \operatorname{Sym}^{r_*}\langle x_0,x_3\rangle.
+\]
+A hypothetical STCI requires this binary form of
+degree \(r_*\) to vanish, *in addition* to the
+nonzero first-normal Serre pairing
+\(\Omega(v_0,v_3)=ab/2\).
+The two objects have the **same Serre-duality
+coefficient line** but generally occur at
+different normal orders; no universal
+transgression has been proved.
+
+More generally the leading map
+\(\Phi_{F,G}:\operatorname{Sym}^m\langle A,B\rangle
+ \to H^1(L,\omega_L)\otimes
+     \operatorname{Sym}^{r_*}\langle x_0,x_3\rangle\)
+is **linear in the entire homogeneous spectral form**.
+Every realized translated-cycle spectrum lies in
+its kernel. This creates a coefficient-level
+source/Chow bridge without selecting a carrier,
+but kernel membership at this first order is
+not full ideal membership and gives no
+unrestricted STCI exclusion.
+
+In the explicit \((4,4)\) control family with
+first normal terms \(-\lambda x_0x_1^2x_2\)
+and \(-\mu x_3x_1x_2^2\), the first power
+obstruction is \((\lambda\mu-4)x_0x_3\),
+while the sole-support Poisson jet condition
+requires \(\lambda\mu=8\). These are
+incompatible **for this restricted family**,
+not a new all-quartic exclusion.
+For \((6,6)\), \(r_*=8\), so higher normal
+coefficients intervene and the same
+two-layer argument does not apply.
+The exact new gap is a degree-uniform
+compatibility between the first-normal
+Poisson/Serre class and this later spectral
+power class under full two-equation
+realizability.
+
 ## Motivation and the three genuinely different parameter spaces
 
 The [full Chow-polytope rigidity theorem R-0074](../../results/chow_polytope_rigidity.md) says that the cycles with full column-weight polytope \(mP_C\) are exactly effective sums of \(m\) diagonal translates of \(C\). This is a strong **cycle** classification, not a classification of reduced unions, their blow-ups, or equations.
