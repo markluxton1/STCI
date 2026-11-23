@@ -304,6 +304,102 @@ rank and kernel of \(\Phi_{F,G}\) on the full
 translated-cycle equation incidence is a
 precise bounded algebraic problem.
 
+### The leading obstruction equals a *single relative Grothendieck residue*
+
+The map \(\Phi_{F,G}\) has a more concrete expression
+in the **same relative residue functional** as the
+first-jet area. Let
+\[
+ \mathcal R_{F,G}:E\longrightarrow T(-d),\qquad
+ d=a+b-2
+\]
+be the relative Grothendieck residue for fiber
+variables \(x=x_1,y=x_2\) and ordered equations
+\((F,G)\), with orientation \(dx\wedge dy\).
+The standard residue normalization is homogeneous
+of degree \(-d\), \(T\)-linear and commutes with
+specialization at \(u=v=0\).
+On the binary Artin CI \(A=R/(f_0,g_0)\), it
+annihilates all degrees below \(d\) and
+induces a nonzero functional \(A_d\to k\).
+
+Take any homogeneous \(h\in E_N\) with \(N\ge d\),
+and write it in an arbitrary graded \(T\)-free
+basis lifting a homogeneous basis of \(A\).
+Every basis vector of fiber degree \(d_i<d\)
+has zero relative residue **by degree**, while
+the unique vector of degree \(d\) has
+nonzero *constant* residue. Its coefficient
+is necessarily a binary form of degree
+\(N-d\) in \(u,v\).
+Consequently,
+\[
+ \tag{9c}
+ \boxed{
+ [h]_{I_L^{N-d}}=0
+ \quad\Longleftrightarrow\quad
+ \mathcal R_{F,G}(h)=0;
+ \qquad
+ \Phi_{F,G}(H)
+ =\mathcal R_{F,G}(H(A,B)).
+ }
+\]
+Both sides take values in the Serre top-degree
+line, with the canonical residue trace fixing
+its scalar normalization. Thus the **first
+spectral-power obstruction is exactly**
+\[
+ \tag{9d}
+ \boxed{P_{F,G}(u,v)
+ :=\mathcal R_{F,G}\bigl((uv-xy)^m\bigr)
+ \in k[u,v]_{r_*}.}
+\]
+The STCI hypothesis forces \(P_{F,G}=0\);
+this condition is necessary, not sufficient
+for \(Q^m\in(F,G)\). It is not the same
+as ordinary algebra trace (which inserts
+the relative Jacobian into the residue).
+
+For general homogeneous spectral forms
+\(H(A,B)=\sum_{j=0}^m h_jA^{m-j}B^j\),
+the T-linearity of the residue gives
+\[
+ \tag{9e}
+ \boxed{
+ \Phi_{F,G}(H)
+ =\sum_{j=0}^{\lfloor r_*/2\rfloor}
+ h_j(uv)^j\,
+ \mathcal R_{F,G}\bigl((xy)^{m-j}\bigr).
+ }
+\]
+Terms with \(j>r_*/2\) vanish because
+their residue would have negative base degree.
+In particular the **entire** degree-\(m\)
+Chow spectral form is tested through
+finitely many higher relative residue
+moments, not through an ad hoc choice of
+cofactors.
+
+The STCI comparison now has a particularly
+uniform form:
+\[
+ \tag{9f}
+ \underbrace{\mathcal R_{F,G}(M_{03})=ab/2}
+       _{\text{accepted sole-support Poisson/first-jet theorem}},
+ \qquad
+ \underbrace{\mathcal R_{F,G}(Q^m)=0}
+       _{\text{necessary spectral nilpotence}}.
+\]
+These are evaluations of the **same** duality
+functional on **different homogeneous
+numerators**. In the quartic control family,
+\(\mathcal R_{F,G}(Q^4)=(\lambda\mu-4)uv\).
+No universal identity expressing the second
+residue in terms of the first has been proved.
+The missing implication concerns the full
+global support/equation compatibility, not
+the existence of either residue.
+
 ### Explicit quartic compatibility failure in the control family
 
 For \(a=b=4,m=4,r_*=2\), specialize (3) to
