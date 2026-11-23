@@ -84,6 +84,25 @@ unknown. The contribution is a
 source/Chow algebraic bridge, not a
 universal first-moment theorem.
 
+A further [exact negative control](arguments/torus/sole_support_first_jet_gate.md#a-stronger-negative-control-both-leading-stci-conditions-can-hold)
+shows that even **simultaneously**
+satisfying the hypothetical-STCI
+first-jet residue and the
+first spectral-power residue can occur
+for actual global quartic equations
+containing \(C\), with residual degree
+twelve. The full Poisson and spectral
+ideal-membership identities fail at
+subsequent orders. Thus the
+Serre-duality pairing and the first
+binary spectral form are useful
+**source filters**, not a substitute
+for the global nilpotence/sole-support
+criterion. Do not elevate their low-order
+compatibility or incompatibility
+in a special family to a universal
+exclusion.
+
 The [cycle-first Chow realization program](arguments/torus/chow_realization_moment_separation.md)
 uses the symmetric power of the orbit quotient as its primary parameter
 space. The universal moment hyperplane misses every interior power locus
