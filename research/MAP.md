@@ -109,6 +109,35 @@ of these ambient test sections, the exact linear recovery of
 literature replaces two arbitrary defining equations by two torus
 eigenforms.
 
+**Sharp fixed-depth source limitation.**  The center-jet theorem is now
+exact: for \(P=(x_0,x_3)\),
+\[
+\dim\operatorname{coker}\!\left[
+H^0(I_C(N+1))\to(S/P^N)_{N+1}\right]=N+1,
+\qquad
+H^0(I_C(d))\twoheadrightarrow(S/P^N)_d\quad(d\ge N+2).
+\]
+The missing degree-\(N+1\) classes are precisely the parameter exponents
+\(4i+2\), \(0\le i\le N\), in
+\(k[s^4,s^3t,st^3,t^4]\).  Therefore \(\Delta_j\), which only uses the
+source modulo \(P^{4j+1}\), sees **no individual \(I_C\)-membership
+restriction at all** once a defining degree is at least \(4j+3\).
+For \(\Delta_2\), degree ten is the last exceptional source degree
+(cokernel dimension ten), and full center-jet freedom starts in degree
+eleven.  This sharpens the earlier qualitative warning: a fixed-order
+determinant obstruction can be uniform only if it uses joint/global
+structure beyond separate center jets.
+
+This also explains why the next comparison belongs to the existing
+canonical-source problem in
+[chow-matched equation layers](arguments/torus/chow_matched_equation_layers.md):
+the opposite weight filtrations of the **same** degree-labeled equations,
+their higher cancellation relations, and properness/full support remain
+coupled even when every fixed center jet can be prescribed.  Hellus--Hübl
+controls the extreme gcds, while the fixed-depth center source eventually
+becomes free; the missing information is between those two statements,
+not another local rank count.
+
 **Next decision point.**  Do not search for another abstract residual
 detector.  The next meaningful obstruction is now concrete: study the image
 of the actual homogeneous source under the first nontrivial maps
