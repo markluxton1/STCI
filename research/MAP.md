@@ -8,22 +8,9 @@ The principal investigative interfaces are **actual global realization and forma
 
 Before prioritizing new work, state the exact class of equation pairs covered, the theorem or decision obtainable, its implication for unrestricted STCI, and the strongest existing result that leaves the gap open. A bounded question may remain open without being an active priority.
 
-The common zeros of the two leading forms give a residual test in all
-possible defining degrees. If a sole-support pair has zero degree
-in the normal-direction factor, its strict intersection is supported
-on one section. The normal bundle of that section forces deeper contact in
-characteristic zero. On the edge \((3p,4q)\) two marked rational
-quintics on \(V_5\) give an equivalent equation problem with an explicit
-test for the contracted trisecant. [Connected directions](results/connected_normal_directions.md#statement) ·
-[Actual equation correspondence](arguments/residuals/blowup_residual_geometry.md#actual-equations-on-the-zero-direction-edge).
-
-Use the [active front door](investigations/proof-audit/open-items.md) for the current research organization. The KG queue owns strategic ranking; this map and its linked frameworks own the mathematical approaches. The cross-framework audit is a comparison aid, not another queue.
-
-Choose an approach by the object it studies and the map it would need to
-construct. Use the [index](INDEX.md) for exact proof routes and
-`python3 scripts/research.py frameworks` for entry and bridge addresses and
-links to connected work. Each Framework owns the mathematical discussion and
-open implications relevant to its approach.
+Use the [research index](INDEX.md) for exact proof routes and the
+[active front door](investigations/proof-audit/open-items.md) for current work.
+The map routes to mathematical owners; the strategic queue alone ranks tasks.
 
 | Framework | Mechanism and connection to other approaches |
 | --- | --- |
@@ -37,162 +24,193 @@ open implications relevant to its approach.
 | [Arithmetic supported lifts](frameworks/arithmetic-supported-lifts/index.md) | Positive-characteristic equations, normal specialization and obstruction to prescribed lifts. Endpoint root defects have no proved identification with spectral Picard torsion or carrier Weil classes. |
 | [Local cohomology](frameworks/local-cohomology/index.md) | Simultaneous ancestors in actual homogeneous multiplication spaces. The quartic two-target reduction gives a bounded problem; higher multiplier degrees belong to the full-module question. |
 
-For every characteristic-zero bidegree, the smaller defining equation and
-its weight components bound the splitting of the moving transverse quotient.
-At a general point, a single base tangent vector induces a map from the fiber
-kernel to the fiber algebra whose rank also has a lower bound. The unresolved
-global question is which such families arise as the entire torus modification
-of a saturated homogeneous ideal with two generators of the prescribed
-degrees. Splitting, generic ranks, the CI Hilbert polynomial, and both endpoint
-image algebras give tests for a candidate. The remaining compatibility concerns
-relations among its actual homogeneous equations throughout the family.
-[Movement bounds](results/torus_quotient_movement_bounds.md) ·
-[Moving quotient and equation comparison](investigations/quotient-hilbert-comparison/index.md#completion-and-next-decisions).
+## Current mathematical interfaces
 
-For primitive-triple sextic pencils, the current interfaces are (i) higher contact
-through the surviving ADE primitive triples with independent restrictions
-to the containing quadric, and (ii) comparison of the established canonical
-cohomological obstruction and unique-quadric filtration for the eleven
-missing sextic symbols with the order-five Čech target filtration.
-For pencils with a first-order member and dependent quadric restrictions,
-the sharp generic length is five in all three orbits, so the residual
-degree is at least sixteen. See
-[the ADE contact bound](arguments/carriers/sextic_ade_reduction.md#sharp-length-five-for-pencils-with-a-quadric-divisible-member),
-[global symbol cohomology](arguments/equations/global_equation_jets.md#verified-characters-and-the-quadric-flag-cohomology),
-and [formal normal questions](frameworks/formal-normal-geometry/filtered_equation_module_and_sextic_obstruction.md#two-precise-sextic-questions).
-Existing torus-boundary investigations continue to require a single
-realizable moving ideal with both full limits.
-For the three fixed characteristic-zero primitive triples, the
-[intrinsic source and determinant proof](arguments/carriers/sextic_triple_intrinsic_contact.md)
-replaces the degree-four through degree-six source ranks, restricted-contact
-ranks and determinant ranks by quadric interpolation and a rank-two bundle
-on the curve.
-It gives the source dimension in every degree at least four and a full
-determinant image for \(a,b\ge5\) with \(a+b\ge11\), including
-the mixed quintic-sextic case. The equal-quintic case retains a specific
-six-jet interpolation gap in the geometric proof.
-The remaining issue in this framework is higher contact of actual proper pencils;
-surjectivity of the determinant span does not settle that incidence.
-For an actual orbit pair in any bidegree, the two endpoints together
-detect raw equation torsion but can miss classes on a parameter layer.
-On the first layer the multiplicity of the disjoint coordinate line in
-the intersection of the stripped extreme forms bounds the moving residual
-degree from below after subtracting the generic length missed there.
-A residual sextic pencil exhibits the loss even when the full limit
-omits the line. [Endpoint and residual degree theorem](results/endpoint_equation_torsion.md).
+### Carriers, divisor classes, and normal replacement
+
+The [carrier-degree account](frameworks/carrier-normalization/degree_exclusions.md)
+separates all-mate exclusions on fixed carriers from pair-specific reductions.
+The arbitrary-mate quartic-carrier theorem remains the independent base case;
+neither the quintic nor sextic landscape is completely excluded.
+
+For an integral carrier regular at the generic points of the supported curves,
+the [normalized Hodge matrix and actual downstairs almost-Cartier relations](arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices)
+give distinct numerical and integral conditions. In the singleton case,
+finite downstairs index plus normalized Hodge equality is the exact mate test.
+Upstairs normalization index alone omits conductor descent. On a fixed normal
+carrier the minimal multiplicity equals the Cartier index; Picard saturation
+is a classical input, not a new characteristic-zero theorem.
+
+The [actual normal-replacement argument](arguments/carriers/normal_carrier_divisor_geometry.md#47-all-degree-actual-normal-carrier-replacement)
+applies to the generically curvilinear branch of an actual pair, preserving
+its CI ideal. It does not replace an entirely-thick pair by a normal one.
+Moving high-index points of a general replacement must be distinguished from
+the fixed nonprimitive defect divisor. The same owner gives the reduced-gcd
+ADE/rank test and its precise scope; large indices alone are not obstructions.
+The [branch valuation and principalization comparison](arguments/carriers/numerical_surface_pullback.md)
+retains individual inverse branches, exceptional energy and actual first-blowup
+coefficients in the entirely-thick branch.
+
+The [branch-energy generality](arguments/carriers/branch_energy_generality.md)
+needs only \(4d+2g-2<2d\sqrt d\), covering smooth rational curves of
+degree at least three; it excludes the specified no-vertical singleton or
+proportional-branch carrier locus, not all carriers. Actual Cartier relations
+also localize denominator corrections beyond branch coefficients to shared
+points. In the generically curvilinear quartic branch, RG2's stronger
+prime-divisor gcd test forces, for example, a hypothetical \((14,14)\)
+pair to have nonreduced common first-normal divisor. It leaves that stratum
+and the entirely-thick branch open.
+
+### Residual attachment and marked finite transfer
+
+The [two-blowup dictionary](arguments/residuals/blowup_residual_geometry.md)
+identifies actual homogeneous sources with sections having prescribed conic
+vanishing and compares their residual cycles. Its marked \(V_5\) equation
+correspondence, nef bounds and equality strata require the actual lifting and
+contact conditions in that proof. They are not arbitrary-carrier exclusions.
+
+The [layerwise attachment theorem](arguments/residuals/layerwise_attachment_and_triples.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component)
+and [actual attachment/local-cohomology comparison](arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers)
+connect saturated defects, genuine residual attachment and actual equation
+quotients. For a proper pair through \(C\), the first quotient \(Q_1\)
+vanishes exactly for sole support. Universal nonvanishing would therefore
+already be the desired non-STCI theorem; local duality supplies a detector,
+not independent positivity. The BF triple calculation is a useful calibration,
+while the lci quadruple prevents extrapolating its torsion identity to every
+multiplicity. A characteristic-zero candidate has multiplicity at least nine,
+so triples are not a direct candidate stratum.
+
+The marked finite-transfer and border-product calculations retain the actual
+image algebra beyond its index. Their primitive marked-edge hypotheses are
+essential. They do not identify a graph modification index with a torus-endpoint
+Sylvester index or resolve the nonprimitive source incidence.
+
+### Chow cycles, actual equations, and finite source depth
+
+The [quartic-pencil classification](results/quartic_chow_pencil_classification.md)
+classifies proper \((4,4)\) pencils in characteristic zero, including a
+non-invariant exceptional orbit. Liaison and the canonical module explain
+its rigidity. Its [K3/even-eight carrier](arguments/torus/quartic_exceptional_carrier_geometry.md)
+and [opposite full Hilbert limits](arguments/torus/quartic_hilbert_chow_limits.md)
+have different information from the Chow cycle. The characteristic-two
+sole-support construction is separate from that classification.
+
+The [trace-moment theorem](arguments/torus/chow_arrangement_moments.md)
+forces \(M_1=\sum n_i u_i/v_i=0\) on its proved invariant/eigenform/congruence
+loci, including reduced CI arrangements. The same vanishing for arbitrary
+non-invariant repeated-cycle pairs is an open conjecture. The
+[spectral–Jacobian residue bridge](arguments/torus/spectral_jacobian_first_jet_bridge.md)
+expresses \(2M_1\) as the first-jet residue pairing on the full translated
+realization locus; it does not force isotropy there.
+
+The [two-product Jacobian criterion](results/jacobian_radical_support.md)
+recognizes sole support in characteristic zero by two actual polynomial
+memberships of degrees \(a+b\) and \(a+b+1\). It globalizes the classical
+Artinian Jacobian-socle mechanism and supplies a compact exact source
+incidence, without forcing nonvanishing.
+
+The [full residue criterion](arguments/torus/sole_support_first_jet_gate.md#full-exact-stci-jet-criterion-ideal-powers-and-the-perfect-residue-pairing)
+is a finite exact sole-support system in each bidegree. Explicit actual pairs
+with residual curves pass its two leading tests. The full
+[opposite Chow envelopes](arguments/torus/full_transverse_chow_pullback_envelope.md)
+and [quadric/cubic polarizations](arguments/torus/weighted_chow_quadric_cubic_polarizations.md)
+give exact same-generator incidences. Their norm gate is required to recover
+exact component multiplicities. The [saturation and interpolation theorem](arguments/torus/spectral_interpolation_and_polar_saturation.md)
+shows that the opposite coefficient chains impose equivalent membership on
+coordinate-saturated ideals, including full-translated-support CIs. A second
+polarization adds boundary coverage, not an independent cofactor obstruction.
+On the stratum of distinct spectral values, \((H,K)\) recovers all paired
+torus parameters, even with repeated multiplicities; collisions need higher
+polars. This parameter compression does not replace full-chain membership or
+the norm condition by the two first polars.
+
+The [paired source determinant](arguments/torus/chow_arrangement_moments.md#a-two-operator-determinant-recovers-the-full-transverse-chow-polynomial)
+recovers the full transverse Chow polynomial on the translated locus and
+detects sole support under its finite-pencil hypotheses. Its coefficient of
+order \(j\) uses only source depth \(4j\). With varying binary leading
+forms these coefficients are regular on the resultant-nonzero source open;
+polynomial dependence requires fixing leading forms or clearing denominators.
+The [fixed-depth incidence and residual-control theorem](results/fixed_depth_determinant_incidence.md)
+strengthens the center-jet image statement. Over any field, for
+\(a,b\ge4r+3\), imposing containment of \(C\) changes every incidence
+on \(\Delta_1,\ldots,\Delta_r\) only by an affine-space factor; this
+includes its nilpotent scheme structure. In characteristic zero, explicit
+actual residual pairs through \(C\) cancel every bounded family of
+characteristic tests from fixed containing surfaces. In the larger degree
+range these pairs can be reduced intersections of normal integral carriers,
+smooth and generically transverse along \(C\). Thus pure truncated
+targets really occur on residual pairs; the roots-of-unity cycle controls
+remain distinct statements about translated cycles. The obstruction needs
+full growing-depth or simultaneous source information. Fixed-rank full
+support tests, including the elliptic rank-twelve algebra, are unaffected.
+
+The [sharp center-jet calculation](arguments/torus/chow_matched_equation_layers.md#sharpness-and-the-last-missing-center-layer)
+has cokernel dimension \(N+1\) at degree \(N+1\), and vanishes in degrees
+at least \(N+2\). Sharpness of that source map does not establish sharpness
+of the determinant-image threshold. The [canonical projection order](arguments/carriers/tame_projection_sections.md#the-canonical-projection-order)
+packages both endpoint failures in one rank-four algebra with rational
+normalization and genus \(1\le\delta\le6(m-1)\), under its tame
+sole-support hypotheses. It has no proved comparison forcing residual support.
+
+### Arrangement families and their boundaries
+
+The [arrangement investigation](investigations/chow-quotient-arrangement-bridge/index.md)
+connects the quotient fan, endpoint Hilbert data, equation incidence and blowups.
+The [endpoint evaluation ranks](arguments/torus/arrangement_endpoint_delta.md)
+compute reduced-union Hilbert polynomials. In the
+[relative construction](arguments/torus/relative_arrangement_blowup_family.md),
+the union must be formed anew on a suitable reduced stratum (constant
+Hilbert polynomial suffices): restriction of the universal
+scheme union can acquire an embedded nilpotent. Correct Rees specialization
+requires control of ideal powers as well as the reduced union. The separate
+smooth model blows up disjoint lifted curves and recovers containing-section
+spaces; it is not an identification with the direct singular blowup.
+The [arrangement-strata refinement](results/arrangement_strata_and_orders.md)
+shows that constant Hilbert polynomial already suffices locally for flat
+re-formed reduced unions. Reduced CI arrangements with at least five
+components must be nonplanar at an endpoint, locating a genuine coverage
+boundary of the dual-planar Rees models. The separated-model section
+dictionary also retains every prescribed individual vanishing order;
+joint pair lengths and residual support remain additional conditions.
+Collision strata, general two-equation realization and complementary
+contractions retain their separate missing steps.
 
 ## Questions and active work
 
-The [same-radical equation lemma and higher-rank torus control](arguments/torus/equivariant_set_theoretic_descent.md)
-separate unbounded set-theoretic equations from generators of a moving ideal.
-The [general pair-rank and weight formulas](arguments/torus/equation_pair_rank_and_weights.md)
-retain degree and source information across that distinction. The
-[finite-group-scheme orbit model](arguments/arithmetic/frobenius_power_lifting_precision.md#torus-eigenforms-and-the-finite-group-scheme-orbit)
-explains the splitting and coalescence of one explicit arithmetic family.
-These connections sharpen the boundary and realization questions; none
-establishes a moving supported pair in characteristic zero or decides
-unrestricted STCI.
+The [strategic queue](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment)
+owns the comparison of actual next tasks. Single-chain Chow realization with
+its norm and boundary conditions and
+the [whole elliptic inverse-support locus](results/elliptic_inverse_support.md)
+are substantial competing questions. Low-order determinant tests are bounded
+diagnostics; they acquire no all-degree priority from their small matrices.
 
-Fixed-carrier normalization has established exclusions for particular
-quintic models and necessary inverse-support conditions for a marked
-elliptic octic family. These are bounded results, not a classification
-of all possible carriers or a degree-independent obstruction. See the
-[carrier framework](frameworks/carrier-normalization/index.md),
-[toric quintic exclusion](results/toric_quintic_carrier_exclusion.md),
-and [elliptic inverse-support criterion](results/elliptic_inverse_support.md).
+The [common-quadric boundary theorem](arguments/equations/common_quadric_chow_boundary.md)
+and [resultant blowup calculation](arguments/equations/common_quadric_resultant_blowup.md)
+exclude the stated clean strata and the \(h_2=0\) center, including higher
+contact arcs in that scope. Positive-\(h_2\) cancellation, zero restrictions
+and common ambient cofactors remain distinct open strata.
 
-The quadratic conductor now compares global postulation with both actual
-endpoint capacities on the same object, excluding specified carrier families
-in all mate degrees. [Choosing the auxiliary cover](arguments/linkage/quadratic_cover_choice.md)
-makes the nonsplit onset available for every integral carrier of degree
-greater than two in characteristic different from two. In characteristic
-zero the uniform all-minors bound applies, but even one
-[smooth-transverse endpoint](arguments/linkage/endpoint_lattice_capacity.md#transverse-endpoints-throughout-the-cover-pencil)
-already has capacity exceeding the displayed scalar postulation bound for
-every cover. For a smaller carrier smooth at both endpoints, the two
-conormal slopes leave at most one candidate for a scalar deficit in
-degrees at least six, and at most two in degree five. Singular endpoints
-still require their full lattices. An osculating cover instead puts the
-full conductor at one general point and tests actual homogeneous kernels
-there. [Moving conductor theorem](results/moving_quadratic_conductors.md).
-Its exact length cannot give a scalar deficit on any generically regular
-smaller carrier, including every integral quintic. The fixed osculating quotient
-has a [primitive-triple obstruction and a classification of all pure CM triple extensions](arguments/normal-geometry/osculating_ribbon_obstruction.md):
-defect degree two gives a projective line, degree three has a determinant
-condition, and every divisor of degree at least four occurs. The algebraic
-classification holds in every odd characteristic, but in characteristic three
-the fixed quotient is not the unique osculating direction; this does not extend
-the characteristic-zero moving-cover theorem. The
-[flat graph at the endpoint](arguments/linkage/moving_quadratic_covers.md#the-flat-graph-at-the-endpoint)
-retains the entire generic conductor as punctual torsion. These identify
-information lost by scalar lengths and pure specialization.
-The characteristic-zero fixed-cover
-two-lift sextic sector is excluded without normality. Its surviving
-one-lift sector is generically regular along the lift, has non-Du-Val
-behavior there, and satisfies the symbolic defect strata \(g=5,6,8\)
-without a normality assumption. The unique singular-cubic exclusion
-also holds in odd characteristic; the Du Val/K3 exclusions do not extend
-by this argument. These statements
-do not close the separate split-first-normal-cone frontier or improve the
-general degree bound. See the [current carrier scope](frameworks/carrier-normalization/index.md#quadratic-cover-exclusions-and-the-remaining-one-lift-sector)
-and [local/global interface](frameworks/global-equation-realization/projection_and_liaison.md#embedded-conductor-and-ambient-equations).
+The [quadratic-conductor account](results/moving_quadratic_conductors.md)
+compares global postulation with actual local lattices on one object.
+Its scalar length test cannot obstruct a generically regular smaller carrier;
+the remaining questions concern actual homogeneous kernels and embedded graph
+corrections. The [full toric conductor comparison](arguments/linkage/toric_limit_conductor_comparison.md)
+retains both endpoint corrections, with no general sign inequality.
 
-Actual [pairs retaining the toric quartic as a defining equation](arguments/torus/fixed_carrier_chow_arrangements.md)
-have an exact coefficient description: the carrier's semigroup
-gaps force \(c_1=c_2=c_5=0\). In characteristic zero at least three distinct
-translates remain, while partial collisions occur; the root-of-unity examples
-form a special locus. This does not classify arbitrary CI thickenings whose
-support merely lies on that surface. The smooth quadric admits no such section,
-by its ruling
-classes. More generally, the [Chow trace moment](arguments/torus/chow_arrangement_moments.md)
-vanishes for pairs with an eigenform generator or specified polynomial
-congruences, including every invariant CI and reduced CI arrangement.
-Its linear Chow-coefficient equation separates their entire Chow closure
-from \(m[C_{u,v}]\) in characteristic zero. Non-invariant CI lifts over
-repeated cycles need not lie in that closure. Their realization geometry is
-the [current exploratory priority](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment).
-The [coordinate-to-equation interface](arguments/torus/fixed_surface_restriction_lifts.md)
-gives linear coefficient constraints for arbitrary surfaces containing the
-chosen translates, then retains joint transverse lengths and normal lifts.
-Fixed-surface syzygies recover a first annihilator, not the full embedded
-pair. For a sole-support \(C_0\) candidate, a sufficiently low-degree
-carrier-power certificate would force a forbidden fixed-carrier mate in
-characteristic zero.
-For pairs tending to a common smooth quadric, the
-[clean boundary theorem](arguments/equations/common_quadric_chow_boundary.md)
-computes the full special scheme for all degrees \(a,b\ge3\), under
-coprime ambient cofactors and nonzero first cancellation on the quadric,
-in every characteristic. For nonzero cofactor restrictions with common
-divisor of class \((h_1,h_2)\), the normal source has kernel dimension
-\((h_1+2)h_2\) and a known exact image. When \(h_2=0\), the
-resultant base ideal is the square of the center ideal and its graph is
-the ordinary blowup; these center points are outside the closure of the
-fixed-degree sole-support locus, including higher-contact arcs. When
-\(h_2>0\), that square-ideal model fails and the graph and deeper
-cancellation remain unresolved, as do zero restrictions, common ambient
-cofactors and other global strata. The balanced quadric subcycle excludes
-constant sole support throughout the special-scheme theorem's scope; for
-the fixed monomial quartic it also excludes the exact Chow-polytope fibre.
-Closure of varying translate arrangements remains a separate question.
-Separately, [simultaneous torus degeneration of the quadratic graph](arguments/linkage/toric_limit_conductor_comparison.md)
-compares original and pure-limit conductor lengths using the difference of
-the two embedded endpoint corrections. Their control by global equations is
-the missing comparison; endpoint concentration alone supplies no inequality.
+The [full-limit comparison](investigations/quotient-hilbert-comparison/index.md)
+remains active. The [supported-generator incidence test](investigations/supported-generator-incidence/index.md)
+remains planned and unperformed without a declared supported family.
+The [contact-boundary map](arguments/torus_hilbert_boundary.md#involutivity-persists-through-the-full-torus-boundary)
+depends on actual embedded endpoint corrections, not just their lengths.
+Pure involutive constant-orbit controls can even have the CI Hilbert polynomial
+without two homogeneous generators.
 
-Two bounded objects in [Investigations](investigations/) currently connect the
-torus approaches, at different stages of readiness: [moving quotient and full Hilbert comparison](investigations/quotient-hilbert-comparison/index.md)
-is active, and [generator incidence](investigations/supported-generator-incidence/index.md)
-describes a **planned, unperformed** test requiring an actual declared supported family. Its existing generator criterion is not evidence that such a family has been constructed. The Frameworks
-explain how either outcome would change the approach.
-
-Other usable starting points include
-[normal-geometry questions](frameworks/formal-normal-geometry/open_normal_geometry.md),
-[carrier and conductor cases](frameworks/carrier-normalization/open_carrier_cases.md),
-[actual lifts of spectral roots](frameworks/spectral-roots/open_root_lifts.md),
-[projected ACM constructions](frameworks/global-equation-realization/projection_and_liaison.md),
-[octic multiplier kernels](frameworks/residual-construction/octic_multiplier_kernels.md), and
-[the quartic two-target problem](frameworks/local-cohomology/open_quartic_ancestors.md).
-These are mathematical entry points. Use the [bounded work guide](MODEL.md#choosing-bounded-work)
-to decide whether a particular question is ready for an Investigation.
-
-A [geometric synthesis of quadric restriction and contact rigidity](frameworks/residual-construction/quadric_restriction_and_contact_rigidity.md) separates the degree-independent Picard-class support obstruction from the computational sharp sextic contact bound. It records the symbolic-power vanishing equivalent to the rank test, the residual quartic cycles, and a bounded uniform proof-replacement question; it does not assert a new exclusion.
+The remaining frameworks retain their own exact gaps:
+[actual spectral-root lifts](frameworks/spectral-roots/open_root_lifts.md),
+[arithmetic specialization](frameworks/arithmetic-supported-lifts/index.md),
+[normal realization](frameworks/formal-normal-geometry/open_normal_geometry.md),
+[carrier cases](frameworks/carrier-normalization/open_carrier_cases.md),
+[marked absorption](frameworks/residual-construction/index.md), and
+[actual local-cohomology ancestors](frameworks/local-cohomology/open_quartic_ancestors.md).
+No numerical similarity identifies their defect modules or supplies a missing
+comparison map. The unrestricted characteristic-zero STCI question remains open.

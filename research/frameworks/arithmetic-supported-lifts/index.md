@@ -110,6 +110,8 @@ The shared [positive-characteristic references](../../literature/README.md#posit
 distinguish the quartic constructions from affine theorems and from
 hypotheses needed for degree transfer.
 
+The [linkage formulas](../../arguments/residuals/layerwise_attachment_and_triples.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) and [local duality](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) use characteristic-free canonical module arguments. The explicit [toric semigroup lattice](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) uses invertible binomial minors in characteristic zero or the indicated large-characteristic range. Do not specialize this basis when the minors vanish.
+
 ### A comparison for compatible quadratic-conductor lattices
 
 The [actual endpoint matrix](../../arguments/linkage/endpoint_lattice_capacity.md#arithmetic-control-and-comparison-of-traits) gives a fixed characteristic-three calibration and lower semicontinuity in the direction \(\delta_{\mathrm{special}}\le\delta_{\mathrm{generic}}\). This uses compatible finite free endpoint lattices on a supported trait. It does not identify the conductor with a Frobenius-root endpoint defect or give the opposite inequality needed for an obstruction by specialization.

@@ -67,3 +67,166 @@ nonvanishing theorem for all pairs is asserted here.
 Independent correctness review checked the two exact sequences, the
 general form (1), grading shifts and support restriction on November 20,
 2026.
+
+
+A concrete global check is the
+[fixed toric (4,6) triple TS5--TS7](../torus/fixed_carrier_chow_arrangements.md#an-actual-non-lci-curvilinear-triple-the-conormal-torsion-is-visible).
+Its actual proper pair has first
+attachment annihilator lengths seven
+and nine at the two endpoints.
+At the cuspidal endpoint the full
+primary has conormal torsion length
+two and a determinant contribution
+five. These numbers are computed
+from the explicit homogeneous
+equations and local Hilbert--Burch
+matrix; they do not require assuming
+a local-cohomology model to derive
+the attachment lengths. This
+calibrates LC-A1 without claiming
+its general proof is independently
+reviewed.
+
+In the generically curvilinear
+multiplicity-three branch, the
+[Bănică--Forster triple / source
+comparison TR1--TR4](../residuals/layerwise_attachment_and_triples.md#triples-the-full-attachment-has-only-two-independent-divisors)
+determines the first attachment
+quotient length divisor as
+\(\tau+\eta\), where \(\tau=D_2\)
+is the intrinsic second saturated
+normal defect and \(\eta\) is the
+actual equation determinant divisor.
+LC-A1 then identifies its canonical
+dual with the first local annihilator
+layer of \(\mathcal H_C^1(\mathcal O_Y)\).
+This is an **actual-pair** comparison:
+it does not identify the full graded
+Hartshorne--Polini module at the
+cone vertex or prove every such
+pair has nonzero \(\tau+\eta\).
+When a sole-supported pair exists
+the two divisors both vanish.
+The local normal form is classical;
+the dual comparison and global
+attachment apply to its full
+primary.
+
+## Actual attachment equation modules are the dual annihilator layers
+
+**New application of ordinary local duality, pending independent
+review.** The [full-primary attachment](../residuals/residual_capacity_and_constructions.md#full-primary-equation-module-and-exact-attachment-divisor)
+provides the previously missing bridge from the actual
+equation module to the ordered-pair local cohomology. This
+does not require a carrier normalization, a first-symbol
+hypothesis, or curvilinearity.
+
+Let \(L=(f,g)\) define an actual proper projective CI \(Y\)
+containing the fixed smooth curve \(C\); denote its full
+primary component by \(T\) and its linked genuine residual
+by \(R\). In homogeneous coordinates set \(I=I_C,\ J=I_T\).
+Use saturated sheaf ideals when passing to projective
+stalks. For \(n\ge1\) define
+\[
+ Q_n=J/(L+I^nJ)
+\]
+as a sheaf (so \(Q_1\) is precisely the actual attachment
+equation module of the cited argument).
+These sheaves are supported on \(C\cap R\), not arbitrary
+normal-symbol syzygy modules. Classical linkage identifies
+\[
+ J/L\simeq\omega_R\otimes\omega_Y^{-1}|_R .
+\]
+Taking the quotient by \(I^n\) of this module isomorphism gives \(Q_n\simeq(\omega_R/I^n\omega_R)\otimes\omega_Y^{-1}\).
+The parent canonical module on \(R\) is essential;
+it cannot be replaced by a finite conductor on \(C\).
+
+The sequence \(0\to I_{R/Y}\to\mathcal O_Y\to\mathcal O_R\to0\)
+has first term supported on \(C\); its higher local
+cohomology with respect to \(C\) vanishes. Therefore
+\[
+ \mathcal H_C^1(\mathcal O_Y)\simeq
+             \mathcal H_C^1(\mathcal O_R).
+\]
+At each attachment point \(P\), put \(B=\mathcal O_{R,P}\).
+The ideal \(I_CB\) is maximal-ideal-primary since \(R\)
+has no \(C\)-component, and \(B\) is one-dimensional
+Cohen--Macaulay. Hence the last stalk is \(H^1_{\mathfrak m}(B)\).
+Writing \(D_P(-)\) for local Matlis duality using the
+injective hull of the residue field, Grothendieck local
+duality gives
+\(D_P(H^1_{\mathfrak m}(B))=\widehat{\omega_B}\).
+Taking annihilators and using the exact finite-length
+duality (the resulting modules are already complete)
+now yields
+\[
+ \boxed{\, (Q_n\otimes\omega_Y)_P
+ \ \simeq\ D_P\big(0:_{\mathcal H_C^1(\mathcal O_Y)_P}
+                         I_C^n\big).\,}                 \tag{LC-A1}
+\]
+Equivalently, work directly over the completed \(B\);
+\(\operatorname{Hom}_B(B/I^nB,H^1_{\mathfrak m}(B))\)
+is dual to \(\widehat{\omega_B}\otimes B/I^nB\).
+The finite canonical quotient is unchanged by completion.
+This is an identification up to the chosen canonical
+module normalization, with the displayed invertible
+adjunction twist retained. The transition maps
+\(Q_{n+1}\to Q_n\) are dual to inclusion of the
+annihilator layers. Since local cohomology is
+\(I\)-power torsion, all these layers exhaust the
+projective stalk. In particular the *first* layer
+already detects nonvanishing at the stalk, by the
+torsion property, and its length is exactly
+\(\operatorname{length}(C\cap R)_P\) by the existing
+attachment theorem. The higher layers describe the
+entire local module via a direct limit, not just its
+support.
+
+For the homogeneous module, localization in a standard
+projective affine chart and taking degree zero identifies
+the sheafification of \(H_I^1(S/(f,g))\) with
+\(\mathcal H_C^1(\mathcal O_Y)\); this follows from
+the Čech complex with homogeneous generators of \(I\).
+Under the first-element coregularity and ambient
+vanishing hypotheses earlier in this argument, this is
+also the sheafification of
+\(\mathcal D(f,g)(-\deg f)\).
+Thus LC-A1 identifies the actual attachment equation
+module with the dual of a finite annihilator layer
+of the actual coregularity defect at each projective
+attachment, with twists. Without first-element
+coregularity it concerns the full \(H_I^1(S/(f,g))\),
+not just its submodule \(\mathcal D(f,g)\).
+
+The first-layer support criterion and connectedness
+show that \(Q_1=0\) iff \(Y_{\rm red}=C\); hence for
+actual proper pairs \(Q_1=0\) iff the full homogeneous
+\(H_I^1(S/(f,g))=0\). The implication uses global
+connectedness (or radical equality), not mere
+sheafification, which in general could lose a module
+at the cone vertex. No assertion that LC-A1 recovers
+the entire graded homogeneous module including vertex
+data is made. Under first-element coregularity the
+same vanishing tests the second condition. Without
+that hypothesis, it cannot be used to infer
+\(\mathcal D(f,g)\ne0\) separately.
+
+The already-established inputs are Hartshorne--Polini,
+[*Quasi-cyclic modules and coregular sequences*](https://arxiv.org/abs/1907.05472),
+Grothendieck local duality ([Stacks 0A81](https://stacks.math.columbia.edu/tag/0A81),
+especially Lemma 47.18.4, and [0DW3](https://stacks.math.columbia.edu/tag/0DW3)),
+and ordinary liaison's residual canonical module.
+The new comparison is the application to the *actual*
+full-primary equation module and all its \(I\)-normal
+powers, not an extension of the coregularity theorem.
+The open research question has changed: find a uniform
+positive lower bound on the actual attachment equation
+module (or rule out its vanishing) by global equation
+lifts or geometric obstructions. It is no longer
+necessary to seek a map from a purely local conductor
+module to the first pairwise defect. A finite module
+supported on \(C\) has zero higher \(I\)-local
+cohomology; LC-A1 uses Matlis duality of the canonical
+module on the residual, and only then restriction.
+This is characteristic-free with the stated
+coregularity hypotheses for that interpretation.

@@ -9,7 +9,8 @@ proofs:
     at: "research/arguments/carriers/elliptic_double_inverse_construction.md#a-length-twelve-scheme-testing-every-basepoint-free-fiber"
     using: []
     review:
-      state: pending
+      state: accepted
+      basis: reconstructed
       at: "#review"
 ---
 # Full inverse support in the marked elliptic double-cover construction
@@ -51,7 +52,16 @@ octic. The completed parameter-line search found no eligible fiber.
 
 ## Review
 
-Review of the revised proof route is pending. The PR review requested
-the componentwise degree estimates, the argument on repeated components
-and the full column span in (9). The investigation records the separate
-parameter-line and finite-field computations. [PR review](https://github.com/markluxton1/STCI/pull/154#pullrequestreview-5977922254) · [Bounded computations](../investigations/stci-equation-search/index.md#findings)
+The revised geometric and full column-span proof route was independently
+reconstructed on November 23, 2026, against commit
+`9ee976fe28f4e496230d9b2e22523d4fa5eabe9d`. The review checked the
+componentwise ruling-degree estimates, regularity of the divided section
+on repeated components, both cohomology vanishings on nonreduced divisors,
+the complete degree-24 column span and rank 613, and the length-twelve
+nilpotence criterion. Reducible and nonreduced residual fibers are included;
+birationality onto the image is not required. The criterion is accepted at
+the hypotheses in Scope. This review did not establish a surviving support
+fiber, ambient power descent, or the later relative norm-divisor and
+dimension-bound arguments. The investigation records the separate
+parameter-line and finite-field computations; none was rerun for this proof
+review. [Earlier review request](https://github.com/markluxton1/STCI/pull/154#pullrequestreview-5977922254) · [Bounded computations](../investigations/stci-equation-search/index.md#findings)

@@ -30,6 +30,84 @@ example or descent assertion.
 
 The constant-image results do not by themselves cover moving transverse quotients.
 
+### Universal full-Chow envelope above every moving quotient
+
+The [full two-dimensional Chow pullback](../../arguments/torus/full_transverse_chow_pullback_envelope.md)
+supplies a canonical constant **fat-point**
+algebra above *every* actual translated-cycle
+CI, with no invariant-ideal hypothesis.
+For \(\sigma=\sum_i n_i[(u_i,v_i)]\),
+\[
+ B_\sigma=
+ k[u^{\pm1},v^{\pm1}]/
+       \bigcap_i\mathfrak m_i^{n_i},
+ \quad
+ \dim B_\sigma=\sum_i\binom{n_i+1}{2}.
+\]
+The full Chow form, pulled through
+the first degree-four three-monomial
+torus quotient and its opposite
+chart, gives \(2(m+1)\) explicit
+homogeneous ideal-membership conditions
+for any realizing CI.
+The resulting actual finite-flat algebra
+over the intrinsic orbit coordinate
+\(t\in\mathbf G_m\) is a **rank-\(m\)
+moving quotient** of
+\(B_\sigma\otimes k[t^{\pm1}]\),
+with kernel rank
+\(\sum_i\binom{n_i}{2}\).
+Its norm of \(X+uY+vZ\) is the
+**complete transverse Chow form**;
+its trace of \(u/v\) is \(M_1\).
+The quotient is forced constant for
+reduced cycles, while each double
+component adds a moving \(\mathbf P^1\)
+normal-direction choice.
+Unlike R-0051–R-0056, this is a
+**necessary constant envelope for an
+arbitrary moving CI quotient**,
+not a claim that every moving quotient
+comes from a constant embedded image.
+Both endpoint descent and generation
+by **two actual homogeneous equations**
+remain essential. The all-degree
+universal \(M_1=0\) theorem is not proved.
+
+The [opposite quadric–cubic Chow polarization](../../arguments/torus/weighted_chow_quadric_cubic_polarizations.md) sharpens the constant fat-envelope source below: two degree-\((2m,\ldots,3m)\) coefficient chains, sharing the quadric-spectrum term, generate **the same dense-torus ordinary-power envelope** and have combined radical exactly the translated support. Their first opposite polars satisfy a homogeneous syzygy with coefficient \(M_1\). This gives lower-degree input for comparing the **same actual global two-generator quotient** with the moving-quotient and two-endpoint descent theorems. It does **not** extend the sole-supported movement bounds R-0072 to multiple supports, nor prove first-moment vanishing.
+
+**Saturation correction.**
+The [spectral-interpolation review](../../arguments/torus/spectral_interpolation_and_polar_saturation.md)
+proves that the *two*
+opposite polarized fat-point
+envelopes are the **same**
+after restriction to the
+dense ambient torus.
+An actual full-support CI
+is saturated by the
+coordinate product, so
+opposite-polar membership
+is automatic from one
+chain; the syzygy containing
+\(M_1\) is not an
+independent obstruction.
+What remains is a
+**moving finite quotient
+of the single canonical
+fat-point source**, with
+the correct norm and
+two-endpoint global descent.
+When the quadric parameters
+are distinct, the
+entire paired configuration
+is compactly encoded by
+the spectral polynomial
+\(H\) and an interpolation
+polynomial \(K\), with
+\(K/H\) residues
+\(n_i/u_i\), even for
+nonreduced multiplicities.
+
 ## Mathematical scope and interfaces
 
 This approach studies **embedded finite torus quotient images**, their
@@ -91,6 +169,23 @@ replay identities for this pair and the fixed quartic's degree-four symbols.
 Actual equation recovery after projective contraction still requires the
 embedded quotient and the homogeneous source test.
 
+### Quadrics and cubics as the two quotient characters (PR #173)
+
+The [intrinsic spectral–Jacobian bridge](../../arguments/torus/spectral_jacobian_first_jet_bridge.md)
+replaces arbitrary affine quotient coordinates by the two homogeneous
+characters
+\(\xi=x_1x_2/(x_0x_3)\) and
+\(\eta=x_0x_2^2/(x_1^2x_3)\). They determine the
+unique containing quadric and a cubic scroll respectively, and
+\(Q_\xi\cap R_\eta\) is exactly the translated quartic plus
+two fixed endpoint ruling lines. Thus the full arrangement records
+paired points in these two character coordinates; a quadric spectral
+polynomial alone loses the cubic parameter and the pairing.
+The companion Jacobian identity is valid in the actual nonreduced
+CI ring, but does not reconstruct all nilpotent multiplication from
+its cycle. The new first-jet residue pairing is a necessary
+algebraic test conditional on whole translated-cycle support.
+
 ## Bridges
 
 The [comparison investigation](../../investigations/quotient-hilbert-comparison/index.md)
@@ -121,6 +216,8 @@ or a fixed abstract quotient type requires a coverage argument. The
 [finite controls](../../arguments/torus_sextic_residuals.md#finite-replay-evidence)
 check identities but do not establish image descent or projective realization.
 
+The [finite primary canonical colon identity](../../arguments/residuals/first_graph_finite_transfer.md#local-canonical-ideal-version-and-several-marked-points) supplies an actual curve-conductor comparison in transverse charts with identical generic algebras. With an image residual it uses the attachment ideal, not the conductor of the ambient surface. The [semigroup primary computation](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) gives explicit layer indices on the classified carrier.
+
 ## From contact to descent
 
 [Contact and global descent](contact_and_global_descent.md) compares the
@@ -134,13 +231,40 @@ checking normal specialization separately from the projective family.
 
 For [specified reduced Chow cycles](../../arguments/equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle),
 purity forces a reduced scheme and closes the invariance gap in
-testing actual generators. It does not do so on the partial diagonals.
-The invariant quartic collision examples give embedded quotient
-controls; a general repeated cycle may instead lift to a non-invariant
-ideal. Test one partial diagonal in actual pencils, and compare its
-local finite quotients with both full flat limits while retaining the
-equation source. A cycle or canonical endpoint index alone cannot
-make that comparison.
+testing actual generators. On the partial diagonals, the
+[exceptional \((4,4)\) orbit](../../arguments/torus/quartic_chow_pencils.md#classification)
+has generic length two on each of two translates and full opposite
+limits gaining embedded length two at opposite endpoints. Its
+[relative different](../../arguments/torus/chow_endpoint_different.md)
+recovers the reduced support count and the endpoint normalization
+colength from the actual finite pencil algebra. Extending the equation
+comparison to higher-degree repeated cycles requires the moving
+generators and their parameter relations.
+
+The [exceptional quartic](../../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
+is an exact control: a nontrivial \(\mathbf G_m\)-orbit of Hilbert
+points has a **constant Chow point**, but its two full flat limits
+acquire different embedded endpoint corrections. The
+[Hilbert--Burch normal-map model](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+retains first-normal data invisible to Chow. The
+[geometric classification](../../arguments/torus/quartic_chow_pencils.md#proof-route)
+is now complete: linkage excludes asymmetric multiplicities,
+and the canonical module of the Hilbert--Burch resolution
+with restriction to the residual line forces the
+\(\lambda\)-orbit. This applies to actual proper quartic
+pencils over the fixed two-support cycle, not arbitrary
+embedded torus-quotient families. In
+characteristic two, the same formulas give a non-invariant quartic
+single-support complete intersection, a \((2,2)\) splitting that
+contrasts with the binomial \((1,1,1,1)\) split in characteristic
+zero. The [relative different](../../arguments/torus/chow_endpoint_different.md#classical-discriminant-and-index-interpretation)
+measures the reduced endpoint normalization lattice, not the
+complete Hilbert lift or its limit corrections.
+
+
+### From endpoint contacts to local divisor classes
+
+The [orbit-lattice/contact theorem](../../arguments/torus/fixed_surface_restriction_lifts.md#local-index-lattice-and-contact-capacity-of-symmetric-arrangements) supplies an intersection-theoretic use of the two-branch endpoint length: actual mate relations bound local index orders, and at odd-index smooth or Du Val common endpoints the first-symbol vanishing cannot exceed the contact length (for the stated involution). For the exchanged sextic translates the two contact lengths are four. Together with the mixed Hodge pairing this excludes both endpoints being smooth or Du Val, independently reconstructed on November 23, 2026 at the scope recorded in the linked proof owners. It does not identify the completed nonreduced endpoint algebra or reconstruct a pair from its cycle.
 
 ## Universal translate incidence
 
@@ -170,8 +294,13 @@ This standard, trivial incidence construction packages the
 It does not impose properness, exclude coordinate-boundary components,
 or compute transverse multiplicities. The smaller locus of proper pairs
 whose **entire** cycle consists of translates has the Chow-polytope
-criterion of [R-0074](../../results/chow_polytope_rigidity.md); its scheme
-structure and non-invariant repeated-cycle lifts require further work.
+criterion of [R-0074](../../results/chow_polytope_rigidity.md).
+[R-0079](../../results/quartic_chow_pencil_classification.md) gives its
+geometric pencils in \((4,4)\) **in characteristic zero**.
+The characteristic-two single-support example is a separate
+construction, not a positive-characteristic classification.
+Its incidence scheme structure and
+higher-degree repeated-cycle lifts require further work.
 
 For a fixed translate, the [common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
 describes the full special scheme when ambient cofactors are coprime and

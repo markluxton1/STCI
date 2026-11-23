@@ -40,6 +40,10 @@ strata can reveal the next useful question.
 
 The [coordinate-contact theorem](../../arguments/torus/general_coordinate_boundary.md) assigns tropical rays and gcd weights to punctures of \(C\) in any realized coordinate-torus embedding and constructs its ray-only tropical compactification. It is a statement about the curve's coordinate contact orders, **not** about the initial ideals of hypothetical defining surfaces. Separately, the [fixed-sextic boundary theorem](../../results/ci_fixed_sextic_jet_rigidity.md) uses divisorial valuations of the **surface normalization** to bound the degree and generic contact of a mate. The former does not imply the latter: identifying a useful map between curve contact rays, surface boundary divisors, and the full equation/Hilbert degeneration data remains an open comparison. Do not treat a shared tropical ray as evidence of a residual component without controlling the actual intersection initial ideal.
 
+**Generically regular arrangement carriers.** The [normalized almost-Cartier matrix theorem](../../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) extends the exact fixed-carrier monoid to possibly nonnormal integral carriers regular at every marked generic point. The [local orbit-lattice projection and contact theorem](../../arguments/torus/fixed_surface_restriction_lifts.md#local-index-lattice-and-contact-capacity-of-symmetric-arrangements) bounds the local index on an unshared branch by the gcd of its coefficients in all actual mates. For the exchanged sextic translates this now excludes all positive two-support partitions on carriers smooth or Du Val at both common endpoints, even allowing nonnormality elsewhere (independently reconstructed on November 23, 2026 at the scope recorded in the linked proof owner). This constrains actual mates on a specified fixed carrier, not limits reconstructed from cycles alone.
+
+**Normal arrangement carriers.** The [componentwise normal-replacement theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) covers every proper CI arrangement that is generically of embedding dimension at most one on each component, including reduced arrangements and every quartic translate pencil with more than one component in characteristic zero. The [exact fixed-normal-carrier monoid](../../arguments/torus/fixed_surface_restriction_lifts.md#normal-carriers-a-complete-geometric-description-of-the-arrangement-monoid) then reduces allowable multiplicity vectors to the kernel of a negative-semidefinite Hodge matrix together with Cartierness of the total divisor. This is seed-free on a specified normal surface. It agrees with the existing exceptional pencil's even diagonal lattice on its [nodal distinguished carrier](../../arguments/torus/quartic_exceptional_carrier_geometry.md#the-hodge-matrix-of-the-exceptional-carrier). It does not supply the missing classification of moving or nonnormal carriers or the reconstruction of limits. These deductions were independently reconstructed on November 23, 2026, at the scopes recorded in the linked proof owners.
+
 ## Available results
 
 For effective one-cycles in every characteristic, [full Chow-polytope rigidity](../../arguments/equations/chow_polytope_rigidity.md) classifies equality with a multiple of the fixed quartic's full, unshifted column-weight polytope as a sum of diagonal translates. The subgroup fixes the cycle, not necessarily its defining ideal. This cycle statement does not recover Hilbert data, embedded points, moving generators, or a two-equation realization; projected polygons do not suffice.
@@ -47,8 +51,47 @@ For effective one-cycles in every characteristic, [full Chow-polytope rigidity](
 The [first-moment theorem](../../arguments/torus/chow_arrangement_moments.md)
 adds a linear Chow equation for invariant proper CI arrangements, including
 every reduced CI arrangement. In characteristic zero their full Chow closure
-avoids every complete collision \(m[C_{u,v}]\). Non-invariant repeated-cycle
-CI lifts need not belong to that closure; their realization remains open.
+avoids every complete collision \(m[C_{u,v}]\). In bidegree \((4,4)\) **in characteristic zero**, 
+the [classification](../../results/quartic_chow_pencil_classification.md)
+finds non-invariant lifts outside the invariant Chow closure. These are
+one orbit over each \(2[C_{u,v}]+2[C_{u,-v}]\), and all still satisfy the
+moment. A [one-carrier trace argument](../../arguments/torus/chow_trace_cone_jets.md)
+reaches further presentation classes in arbitrary degrees. The general
+higher-degree realization locus remains open.
+
+The [exceptional-pencil interpretation](../../arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+relates two-sided endpoint cubic contact to an explicit even eight
+on a ten-nodal quartic K3 resolution and nontrivial Weil
+two-torsion. The [first-normal map](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+describes a doubled-support degeneracy locus inside
+\(\operatorname{Gr}(2,9)\). By
+[complete-intersection self-linkage](../../arguments/torus/quartic_chow_pencils.md#self-linkage-and-the-canonical-conormal-quotient),
+the nilpotent layer of any proper doubled pair is
+canonically \(\omega_Y(-4)\); Serre duality controls the
+degree-three and degree-four maps.
+On the exceptional two-support locus this gives
+**geometric uniqueness of proper quartic pencils**:
+residual genus and the balanced normal bundle
+exclude asymmetric multiplicities; the
+[canonical-module rigidity proof](../../arguments/torus/quartic_chow_pencils.md#proof-route)
+forces the entire \(\lambda\)-orbit, using the
+Hilbert--Burch canonical presentation and restriction
+to the residual line. Support reduction to that
+locus still uses the distinguished torus coordinates. The [Hilbert-over-Chow orbit](../../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
+has opposite full embedded limits and specializes in characteristic
+two to a non-invariant single-support quartic pair. The exact
+Hilbert state-polytope comparison has not been carried out.
+
+For [fixed-carrier mate cycles](../../arguments/torus/fixed_surface_restriction_lifts.md#symmetry-and-the-multiplicity-lattice),
+the group orbit of a multiplicity vector generates a lattice of
+realizable effective vectors on an integral \(S_2\) carrier regular
+at the relevant generic points. The **generically regular** symmetric sextic
+construction (generic regularity proved for an integral
+symmetric sextic by its first-normal geometry) **excludes \((5,4)\)** by Bézout, and excludes all
+remaining unequal two-support partitions on ordinary nodal
+carriers. The [Du Val correction budget](../../arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
+is conditional; neither this nor the K3 mechanism is a
+general-degree STCI obstruction.
 
 The [fixed-carrier arrangement and simultaneous conductor comparisons](supported_deformation_questions.md)
 add actual incidence geometry and an exact endpoint correction. The quartic
@@ -159,6 +202,23 @@ limits and power bounds; extending it to all degrees is a further problem.
 Finding an arbitrary supported flat deformation to a CI is already useful;
 realizing a prescribed torus boundary as an orbit limit is a stronger task.
 
+### Jacobian recognition beyond invariant degenerations (PR #173)
+
+The [spectral–Jacobian criterion](../../arguments/torus/spectral_jacobian_first_jet_bridge.md)
+recognizes translated reduced support from **two actual ideal
+memberships**, assuming a proper CI disjoint from the opposite
+fixed line: a product of members of the quadric pencil belongs to
+the ideal, and the mixed Jacobian relation
+\(A M_{12}-2B M_{03}\) belongs to it. This holds for
+non-invariant nonreduced CI arrangements, including the exceptional
+quartic component outside the invariant-CI Chow closure. It does
+not assert that these two equations generate the CI ideal.
+The first moment is half a perfect skew residue of first projection-
+line jets. Proving isotropy for all pairs satisfying this entire
+support-recognition incidence remains open. Full toric limits can
+lose generators, so a fixed invariant limit is still not a substitute
+for this actual equation gate.
+
 ## Cycle incidence versus actual equations
 
 For a **proper** pair of degrees \((a,b)\) containing \(C\), its
@@ -200,12 +260,14 @@ duplicate them.
 For a [prescribed reduced Chow-matched cycle](../../arguments/equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle),
 the degree-labeled eigenform evaluation spaces and their common fixed
 factors decide actual CI realization; degree exhaustion excludes boundary
-residuals after properness. In degree (4,4) the distinct-cycle image has
-an explicit line-and-quartic model. On a repeated cycle the ideal need
-not be stable, and the invariant collision calculation does not decide
-the actual non-invariant incidence on the partial diagonals. Testing
-that incidence requires full quartic pencils, not the cycle or two limits
-alone.
+residuals after properness. In degree \((4,4)\) the explicit
+line-and-quartic model and the exceptional orbit exhaust the actual
+pencils. The latter has two [saturated five-generator limits](../../arguments/torus/quartic_hilbert_chow_limits.md#chow-closure-and-full-opposite-limits),
+each with an embedded length-two point, whereas its cycle is fixed.
+For an original proper Chow-matched pair in any degree, the
+[relative different](../../arguments/torus/chow_endpoint_different.md)
+detects single support from one finite jet. A global bound on that jet
+from unrestricted equation sources remains open.
 
 ## Clean-cancellation boundary
 
@@ -229,6 +291,8 @@ intrinsic \(I_C\)-adic comparison defect in
 [R-0030](../../results/local_filtration_comparison_defect.md).
 Keep these two filtrations separate when connecting torus
 limits to normal Rees data.
+
+The [classified collision](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) and [attachment duality](../../arguments/residuals/layerwise_attachment_and_triples.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) calibrate actual proper pairs. Do not apply linkage to a pure hull of a full limit with embedded points without identifying an actual Gorenstein CI and its full primary. Full attachment is not a monotone proxy for residual degree.
 
 ## Embedded-point control for full limits
 
@@ -387,3 +451,53 @@ The canonical [R-0074](../../results/chow_polytope_rigidity.md) classifies **all
 The [general-coordinate boundary calculation](../../arguments/torus/general_coordinate_boundary.md) is a different compactification from the marked two-ray torus: it proves normalization-order and gcd-weight formulas for all realized coordinate frames, with a proper ray-only tropical compactification and flat multiplication (smooth exactly for primitive contacts), not a global parameter fan. The [H16 parameterization](../../arguments/equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16) identifies geometric cycle points with a symmetric power, not the Chow fiber scheme; multiple-cycle infinitesimal stabilizers require special care in characteristic p.
 
 [H17 boundary reconstruction](../../arguments/torus/boundary_reconstruction_and_defects.md) distinguishes whole-boundary embedded data from separate face images. It proves bounded-degree CI reconstruction and finite-order nonuniqueness with restricted ordinary Rees data; torus radical support and equation-lifting defects remain distinct.
+
+
+### Poisson restriction on full supported boundaries
+
+A sole-supported CI is involutive by the reviewed contact theorem.  The
+intrinsic torus weight filtration is compatible with the bracket (weight
+shift \(-4\)), so initial ideals remain involutive; localization,
+contraction and projective saturation preserve self-involutivity.  Hence
+[both full torus limits](../../arguments/torus_hilbert_boundary.md#involutivity-persists-through-the-full-torus-boundary)
+of any hypothetical supported CI are torus-fixed involutive points of the
+same supported Hilbert locus, even when they acquire extra generators.
+
+This does **not** reduce the problem to invariant complete intersections.
+For sole transverse support, Scheja--Storch and the explicit quartic
+transverse bracket make every pure constant-orbit image automatically
+involutive.  If \(L\) is a full limit and \(Y=L^{\rm pure}\), the only
+remaining contact datum is the finite endpoint obstruction
+\[
+ \kappa_L:\wedge^2(I_L/I_L^2)\to (I_Y/I_L)(-2).
+\]
+The projective twist records bracket degree \(-2\); the ungraded
+affine-cone version has target \(I_Y/I_L\).
+R-0070 gives the two lengths of the target but not \(\kappa_L\).  A useful
+boundary refinement therefore needs the actual endpoint correction algebra
+or the weight-graded full ideal; another classification of the pure orbit
+quotient cannot exploit contact.
+
+
+**CI-polynomial controls do not restore two-generation.**  The diagonal
+constant quotient \(B_n=k[\epsilon]/(\epsilon^n)\), \(u=v=1+\epsilon\),
+is exactly the Cartier multiple \(nC\subset Q\).  Its symmetric endpoint
+defect is \(3n(n-1)/2\) and its polynomial is
+\(4nd+4n-3n^2\).  Matching a CI polynomial gives
+\((3a-8)(3b-8)=16\): \(4C\) matches \((4,4)\), while \(6C\) matches
+\((3,8)\), up to order.  These pure sole-supported curves are torus-fixed
+and automatically involutive, but cannot be homogeneous CIs in
+characteristic zero because an invariant supported CI ideal is excluded.
+Thus even an involutive point of the correct CI-polynomial supported Hilbert
+locus need not have the moving two-generator presentation.  Boundary work
+must retain the actual minimal-generator incidence, not only the pure image
+and its endpoint lengths.
+
+
+In these controls the missing presentation is visible already in the source
+gcd: for the Cartier multiple \(nC\subset Q\), every degree
+\(d<3n\) equation through the scheme is divisible by the unique quadric
+\(Q\).  Since any degrees \(a,b\ge2\) with \(ab=4n\) satisfy
+\(a,b<3n\), no such source pair can be proper.  This is the simplest model
+of why a correct supported Hilbert point need not lie in the CI
+presentation locus.

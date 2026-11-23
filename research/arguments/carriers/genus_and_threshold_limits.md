@@ -114,7 +114,7 @@ local intersection inequality
 m\ge(\operatorname{ord}F)(\operatorname{ord}G)\ge q^2.
 \]
 
-The [normalized-CI-blowup identity](../residuals/blowup_residual_geometry.md#the-normalized-blowup-of-the-full-complete-intersection)
+The [normalized-CI-blowup identity](../residuals/full_ci_normalized_blowup.md#the-normalized-blowup-of-the-full-complete-intersection)
 likewise distributes existing component multiplicities exactly; it
 supplies no extra upper capacity. The
 [Milnor comparison](pencil_milnor_budget.md#5-cluster-interpretation-and-a-stronger-local-bound)

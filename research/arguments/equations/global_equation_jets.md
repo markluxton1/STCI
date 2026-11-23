@@ -1589,3 +1589,282 @@ of the curve to be an STCI.
 
 
 The retained [finite normal-jet verifier](https://github.com/markluxton1/STCI/blob/65f5122ff816052fc76e5876d501e7b9ef86253b/research/computations/finite_normal_jet_certificate.m2) supplies the exact twisted-cubic containments and finite characteristic controls; the uniform family statements have the proofs above.
+
+
+## A terminal hyperplane-jet defect in every degree
+
+**Scoped correctness review (2026-11-23, combined integration):** the terminal hyperplane-jet calculation HJ1–HJ7 and fixed determinant-truncation image equality HJ8–HJ9 were independently reconstructed, using the classical Rao module and inherited finite source-depth theorem. This does not assert pure-target nonemptiness or unrestricted STCI nonexistence.
+The fixed rational quartic has Hartshorne--Rao module
+\[
+ M_C=\bigoplus_nH^1(\mathbf P^3,\mathcal I_C(n))
+ \simeq k
+\]
+concentrated in degree \(1\).  This standard fact is recorded explicitly,
+for example, in Zhang's *The SpaceCurves package in Macaulay2*, J. Software
+for Algebra and Geometry 8 (2018), 31--48.  The following does not claim a
+new Rao-module computation.  Its point is that, for one canonical
+hyperplane, the single Rao class becomes an explicit all-degree transverse
+source obstruction.
+
+Put
+\[
+ L=x_3-x_0,\qquad \Pi=V(L).
+\]
+In characteristic zero the section \(D=C\cap\Pi\) consists of the four
+points \(t^4=s^4\).  In the plane \(\Pi\), with \(x_3=x_0\), its ideal is
+the complete intersection
+\[
+ I_{D/\Pi}=(q,r),\qquad
+ q=x_0^2-x_1x_2,\qquad r=x_1^2-x_2^2.                 \tag{HJ1}
+\]
+The first quadric is the restriction of the unique ambient quadric
+\(Q=x_0x_3-x_1x_2\); the second is the missing quadratic direction.
+
+For \(e\ge1\), let
+\[
+ \Pi_e=V(L^e),\qquad D_e=C\cap\Pi_e.
+\]
+Since \(L\) is a nonzerodivisor on the integral curve \(C\),
+\[
+ I_C\cap(L^e)=L^eI_C.
+\]
+Therefore for every \(d,e\) there is an exact restriction sequence
+\[
+ 0\longrightarrow\mathcal I_C(d-e)
+ \xrightarrow{\ L^e\ }
+ \mathcal I_C(d)
+ \longrightarrow
+ \mathcal I_{D_e/\Pi_e}(d)
+ \longrightarrow0.                                   \tag{HJ2}
+\]
+
+The Rao module gives the exact source behavior.  For \(d\ge2\),
+\[
+ H^1(\mathcal I_C(n))=
+ \begin{cases}
+  k,&n=1,\\
+  0,&n\ge2.
+ \end{cases}
+\]
+Hence
+\[
+ H^0(\mathcal I_C(d))
+ \longrightarrow
+ H^0(\mathcal I_{D_e/\Pi_e}(d))                       \tag{HJ3}
+\]
+is surjective for every
+\[
+ 1\le e\le d-2,
+\]
+while at the next thickness \(e=d-1\) its cokernel is exactly one
+dimensional:
+\[
+ \boxed{\quad
+ \operatorname{coker}\!\left[
+ H^0(\mathcal I_C(d))\to
+ H^0(\mathcal I_{D_{d-1}/\Pi_{d-1}}(d))
+ \right]\simeq k.
+ \quad}                                                \tag{HJ4}
+\]
+Thus all compatible transverse hyperplane jets through normal order
+\(d-3\) lift; the first failure occurs at normal order \(d-2\), and it has
+dimension one.
+
+Nothing in this cohomological statement depends on the special symmetric
+hyperplane.  If \(\ell\) is **any** linear form nonzero on \(C\), put
+\(H_e=V(\ell^e)\).  The same nonzerodivisor argument and the same Rao module
+give
+\[
+ H^0(\mathcal I_C(d))\to
+ H^0(\mathcal I_{C\cap H_e/H_e}(d))
+\]
+surjective for \(e\le d-2\), with one-dimensional cokernel at
+\(e=d-1\).  Thus the terminal order \(d-2\) is intrinsic to the embedded
+quartic; the choice \(L=x_3-x_0\) is used only to exhibit a particularly
+simple generator of the missing class.
+
+The missing class is explicit.  On \(C=[s^4:s^3t:st^3:t^4]\),
+\[
+ r|_C=s^6t^2-s^2t^6
+     =-s^2t^2\,L|_C.                                  \tag{HJ5}
+\]
+Consequently
+\[
+ L^{d-2}r
+ \in H^0(\mathcal I_{D_{d-1}/\Pi_{d-1}}(d))
+\]
+because its restriction to \(C\) is divisible by \(L^{d-1}\).
+It does not lift to an element of \(H^0(\mathcal I_C(d))\): such a lift
+would have the form
+\[
+ F=L^{d-2}r+L^{d-1}\ell
+\]
+modulo \(L^{d-1}\), with \(\ell\) linear, and restriction to \(C\) would
+force
+\[
+ \ell|_C=s^2t^2.
+\]
+But the restrictions of ambient linear forms span
+\[
+ \langle s^4,s^3t,st^3,t^4\rangle
+ \subset H^0(\mathbf P^1,\mathcal O(4)),
+\]
+whose unique missing direction is \(s^2t^2\).  Therefore
+\(L^{d-2}r\) spans the cokernel in (HJ4).
+
+Equivalently, (HJ4) has an intrinsic obstruction functional.  If
+\([P]\in H^0(\mathcal I_{D_{d-1}/\Pi_{d-1}}(d))\), then
+\(P|_C\) is divisible by \(L_C^{d-1}\), and
+\[
+ \rho_d([P])
+ =
+ \left[
+ {P|_C\over L_C^{\,d-1}}
+ \right]
+ \in
+ {H^0(C,\mathcal O_C(1))
+  \over
+  \operatorname{im}H^0(\mathbf P^3,\mathcal O(1))}
+ \simeq k.                                             \tag{HJ6}
+\]
+The section lifts to a degree-\(d\) equation through \(C\) exactly when
+\(\rho_d([P])=0\).  Formula (HJ5) gives
+\(\rho_d(L^{d-2}r)=-[s^2t^2]\ne0\).
+
+### Consequence for the fixed-plane Chow and trace tests
+
+The preceding transverse Chow norm and five-row trace gate use only the
+reduced plane section \(D=D_1\).  For every degree \(d\ge3\), (HJ3) with
+\(e=1\) says that **every** plane equation of degree \(d\) through \(D\)
+already lifts individually to a homogeneous degree-\(d\) equation through
+\(C\).  Therefore no obstruction based solely on membership in the
+one-plane restriction image can distinguish the desired global source in
+the degree range relevant to STCI.
+
+The first genuinely global source information on this hyperplane flag is
+instead the terminal scalar \(\rho_d\), at normal order \(d-2\).  A useful
+resultant/Chow obstruction must therefore couple the fixed-plane norm to
+transverse variation through this order (or use a different genuinely
+global compatibility condition).  This does not say that arbitrary
+restricted **pairs** lift to proper ambient pairs: common factors,
+properness, and simultaneous residual support remain separate conditions.
+It only removes the individual one-plane restriction map as a source of
+higher-degree obstruction.
+
+
+### The moving-depth principle
+
+The terminal Rao defect should be compared with the independently proved
+[fixed-depth center-jet surjectivity](../torus/chow_matched_equation_layers.md#a-fixed-depth-center-jet-limitation).
+For the disjoint center line \(P\), that theorem gives
+\[
+ H^0(\mathcal I_C(d))\longrightarrow(S/P^N)_d
+ \quad\text{surjective whenever}\quad d\ge N+2.        \tag{HJ7}
+\]
+Thus restrictions coming solely from membership in the individual source
+space \(H^0(\mathcal I_C(d))\), at a **fixed** center depth, eventually
+disappear as the equation degree grows.  An obstruction using further
+joint CI or global support conditions need not be a source-membership
+restriction; those conditions are not removed by (HJ7).
+
+The hyperplane calculation attains exactly the first possible moving scale:
+its first failure is at thickness
+\[
+ e=d-1,
+\]
+equivalently normal order \(d-2\).  In that sense (HJ4) is a sharp model for
+what an all-degree source-membership obstruction must look like: counting
+bounded first, second, or other fixed jets cannot suffice.  This does not
+assert that the
+single Rao residue itself obstructs an STCI; actual equations through \(C\)
+satisfy it by definition.  Its role is to locate the first global source
+information that survives uniformly in degree and to rule out fixed-depth
+jet counting as a scalable strategy.
+
+### Fixed determinant truncations forget containment of the quartic in large degrees
+
+**Source-image consequence (independently reviewed, 2026-11-23).** Work over
+any field \(k\), including finite or imperfect fields, with
+\(S=k[x_0,x_1,x_2,x_3]\),
+\(P=(x_0,x_3)\), and \(M=V_+(P)\), the line disjoint from \(C\).
+Fix \(r\ge1\) and degrees
+\[
+ a,b\ge4r+3.
+ \tag{HJ8}
+\]
+Let \(\mathcal U_{a,b}\) be the set of pairs of homogeneous forms of
+degrees \((a,b)\) whose binary restrictions to \(M\) have nonzero
+resultant, and put
+\[
+ \mathcal U^C_{a,b}
+ =\mathcal U_{a,b}\cap
+   \bigl(H^0(\mathcal I_C(a))\times
+         H^0(\mathcal I_C(b))\bigr).
+\]
+Every pair in \(\mathcal U_{a,b}\) is proper and has the finite-flat
+plane-pencil cover used in the
+[paired determinant](../torus/chow_arrangement_moments.md#a-two-operator-determinant-recovers-the-full-transverse-chow-polynomial).
+Use its fixed test sections
+\[
+ D=x_0^3x_3,\qquad P_4=x_0^2(x_0x_3-x_1x_2),\qquad
+ R_4=x_1^4-x_0^3x_3,
+\]
+with \(P_4\) distinguished from the center ideal \(P\), to define
+\[
+ \Delta_Y(S_0,T,Z)
+   =\sum_{j=0}^{ab}S_0^{ab-j}\Delta_j(T,Z).
+\]
+Then the following sets of attainable coefficient tuples are equal:
+\[
+ \boxed{\quad
+ \{(\Delta_1,\ldots,\Delta_r):(F,G)\in\mathcal U^C_{a,b}\}
+ =
+ \{(\Delta_1,\ldots,\Delta_r):(F,G)\in\mathcal U_{a,b}\}.
+ \quad}                                                   \tag{HJ9}
+\]
+
+To prove this, take any pair in \(\mathcal U_{a,b}\) and set
+\(N=4r+1\). By the characteristic-free
+[center-jet semigroup calculation](../torus/chow_matched_equation_layers.md#sharpness-and-the-last-missing-center-layer)
+and (HJ8), its two arbitrary classes modulo
+\(P^N\) lift independently to forms through \(C\) of the same degrees.
+Their binary leading forms are unchanged.  Nonzero binary resultant
+means that the resulting intersection misses \(M\).  It also proves
+properness: a common positive-degree surface factor would meet the
+projective line \(M\), giving a common binary zero.  Projection from
+\(M\) is finite on this projective CI, since a curve in a fiber plane
+would meet its line \(M\); Cohen--Macaulayness then gives flatness over
+the smooth base curve.  The finite source-depth statement (CHD8) uses
+only base-degree layers through \(4j\) for \(\Delta_j\).  These layers
+agree for every \(j\le r\), so the tuples agree.  The reverse inclusion
+in (HJ9) is immediate.
+
+All lifts are defined over \(k\) by linear surjectivity; properness and
+finiteness can be checked after algebraic closure and descended. No general
+point or Bertini choice is needed. The characteristic-polynomial scaling
+proof of CHD8 uses no Newton division. These facts independently justify the
+stated any-field extension; they do not extend trace formulas that divide by
+integers.
+
+The [sharp semigroup calculation CJ1–CJ6](../torus/chow_matched_equation_layers.md#sharpness-and-the-last-missing-center-layer)
+shows that this individual source-surjectivity input has cokernel dimension
+\(4r+2\) in degree \(4r+2\). It does not prove failure of (HJ9) there:
+the determinant tuple may forget those missing jet directions.
+
+The same argument for the
+[quadric/cubic characteristic towers](../torus/fixed_surface_and_endpoint_algebras.md#two-fixed-test-surfaces-give-an-exact-support-criterion)
+uses only \(a,b\ge3r+3\) when retaining both towers through order \(r\).
+No assertion about equality of full cycles or full characteristic towers
+is involved.
+
+The image equality alone supplies no pure-target witness. The stronger
+[fixed-depth incidence and actual residual-control theorem](fixed_depth_determinant_incidence.md)
+now supplies both a scheme-level refinement and such witnesses. The
+incidences are related by an affine-space factor over every field. In
+characteristic zero, explicit proper residual pairs through \(C\) make
+all bounded characteristic tests from fixed containing surfaces vanish.
+Thus fixed truncation cannot recognize sole support uniformly in degree.
+Full growing-depth tests and additional simultaneous source restrictions
+remain distinct. The roots-of-unity construction is still useful as a
+separate control within translated cycles, rather than as proof that those
+particular cycles have actual CI realizations.

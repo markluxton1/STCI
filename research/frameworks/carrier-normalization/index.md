@@ -53,7 +53,7 @@ double locus. A class-group relation alone is not a mate. See the
 [fixed-carrier conductor criterion](../../results/fixed_carrier_conductor_criterion.md)
 and [descent algebra](../../arguments/carriers/conductor_descent_algebra.md).
 
-The normal and nonnormal settings require distinct arguments. For specified
+The [normalized Hodge matrix and local almost-Cartier test](../../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) now unify fixed-carrier existence whenever the marked generic points are regular. Conductor geometry remains essential to computing the downstairs relations from the normalization; the entirely-thick generic case is outside the almost-Cartier test. The [actual local power–socle theorem](../../arguments/carriers/normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem) removes normality from the characteristic-zero local defect bounds and all-index-at-most-four exclusion, independently reconstructed on November 23, 2026 at the scope recorded in the linked proof owners. For specified
 normal hypersurfaces in characteristic zero, the Hodge criterion is a
 Q-Cartier and self-intersection test; realizing its numerical equality on an
 actual carrier is separate. For nonnormal surfaces, the full conductor and
@@ -74,22 +74,85 @@ admissibility, inverse-support control, and conductor descent are separate
 stages. The [Cartier singleton models](#projection-and-conductor-descent-for-the-three-cartier-singleton-models)
 are a restricted necessary classification, not existence results.
 
-The degree exclusions retain their hypotheses. The fixed quartic carrier
-exclusion is in characteristic zero and uses its stated integral-carrier
-setup; it does not imply an unrestricted exclusion of all equation degrees.
-The nonnormal quintic theorem in characteristic zero excludes every mate
-degree when the normalization is Gorenstein; normal quintics and
-non-Gorenstein normalizations are outside that theorem. A separate globally
-ADE quintic theorem excludes sole-supported pairs of degree \((5,8)\) when
-the quintic surface has only rational double points; it does not exclude all
-quintic-octic pairs. See [degree exclusions](degree_exclusions.md),
-[the Gorenstein-normalized quintic proof](../../arguments/carriers/quintic_gorenstein_normalizations.md),
-and [the ADE quintic proof](../../arguments/carriers/quintic_octic_ade_cover_and_triple.md).
+**Read the [full carrier-degree × mate-degree coverage
+map](degree_exclusions.md) before using isolated low-degree results.**
+The complete characteristic-zero theorem excludes every
+**integral quartic carrier with every mate degree**;
+it does **not** settle higher carrier degrees. The
+degree-five and degree-six programs contain
+**several entire all-mate exclusion families**,
+not just the pairs \((5,8)\) and \((6,6)\).
+These results overlap; a special-projection certificate
+already covered by a full normalization theorem
+is valuable proof geometry, but not additional
+disjoint carrier coverage.
 
-The [toric quintic proof](../../arguments/carriers/quintic_toric_center_incidence.md)
-excludes every admissible projection center of the classified marked toric
-source by full inverse support. Non-toric, non-Gorenstein quintic
-normalizations remain among the [open carrier cases](open_carrier_cases.md).
+**All-degree normal replacement (independently reconstructed on November 23, 2026 at the scope recorded in the linked proof owner).**
+Over an algebraically closed field of characteristic zero, for any actual sole-supported pair of degrees \(a\le b\), the [normal-replacement theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) gives a general normal integral \(K_b\in kG_b+F_aH^0(\mathcal O(b-a))\) defining the same CI with \(F_a\) exactly when the generic transverse embedding dimension is at most one. Equal degrees are included without a degree restriction. All hypothetical \((5,b)\) pairs satisfy the condition, even with a nonnormal quintic. The moving-root analysis gives \(R=m=ab/4\) and minimal mate degree \(a\) whenever the moving first-symbol divisor is nonempty; this is automatic for \(a<b\) with a nonzero smaller symbol, or for an equal-degree pencil with linearly independent symbols. Thus all general \((5,4n)\) replacements have \(R=5n\). These often automatic indices cannot be used alone to exclude the pair. In equal degrees a rank-one symbol pencil has a unique entirely order-at-least-two member and still has normal general members. Both originally thick is the precise case outside the replacement theorem for the fixed CI.
+
+The stronger [complete-intersection Picard saturation](../../arguments/carriers/normal_carrier_divisor_geometry.md#3-exact-exponent-and-minimal-mate-once-the-boundary-is-reached) gives minimal mate multiplicity `R`, least mate degree `eR/a`, and `a | eR`, including in positive characteristic for fixed normal carriers. Thus on every normal degree-`4n` carrier with a quintic mate one already has `R=5n`; the moving-root theorem adds attainment at individual simple roots, and minimality for arbitrary degrees when they occur. Flat Lefschetz does not assert absence of Weil torsion.
+
+The [fixed-defect theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#the-exact-defect-budget-is-concentrated-at-common-singularities) identifies the support of the actual top-socle divisor with the common first-symbol divisor, independent of moving-root existence. The [reduced-gcd test RG1](../../arguments/carriers/normal_carrier_divisor_geometry.md#reduced-common-first-normal-divisor-a-uniform-marked-ade-and-rank-test) extracts the universal local ADE and global duality/rank mechanism from the sextic proof, and gives the RG2 congruence \(\gcd_{\varpi\mid m}(\varpi-1)\mid4(a+b)-14\), with the gcd over prime divisors. It forces a nonreduced common first-normal divisor in the hypothetical generically curvilinear \((14,14)\) case as well as the prime-\(1\bmod4\) cases. The fixed-defect and RG1 extensions are covered by the scoped independent reconstruction recorded in their proof owner. The precise scopes, remaining strata and arithmetic factor thresholds are in the [degree-exclusion synthesis](degree_exclusions.md#normal-carrier-replacement-across-unequal-defining-degrees).
+
+**Classical primitive starting point.**
+[Ellia (2015), Theorems 12 and 15,
+Corollary 16](../../literature/README.md#ellia)
+already gives stronger uniform
+marked \(A_n^k\) normal
+surface geometry for a
+**primitive** CI and a
+finite list of ten primitive
+rational-quartic degree pairs.
+None has a degree-five
+generator or is \((6,6)\).
+Consequently every
+hypothetical pair of those
+degrees has a
+**common singular point on
+\(C_0\)**; for quintic
+pairs the intersection
+is generically curvilinear
+but nonprimitive at
+finitely many points.
+This does **not** prove the
+unrestricted common-singular
+point assertion. The new
+all-degree Bertini lemma allows
+those finitely nonprimitive
+points, whereas Ellia's
+stronger primitive theorem
+requires a smooth containing
+surface locally at
+**every** point.
+
+For degree five, [Gorenstein-normalized
+nonnormal quintics](../../arguments/carriers/quintic_gorenstein_normalizations.md)
+and [toric-normalized quintics](../../arguments/carriers/quintic_toric_center_incidence.md)
+are excluded in **every mate degree**.
+The normal [globally ADE quintic theorem](../../arguments/carriers/quintic_octic_ade_cover_and_triple.md)
+excludes the specified \((5,8)\) case,
+not every normal quintic mate.
+The [all-degree normal-carrier index/Hodge criterion](../../arguments/carriers/normal_carrier_divisor_geometry.md)
+gives necessary exact-index spectra for **any**
+mate degree on a normal quintic; it is not
+a classification of all normal quintics.
+Non-Gorenstein, non-toric quintic normalizations
+remain among the [open cases](open_carrier_cases.md).
+
+For degree six, the [two-lift norm theorem](../../arguments/linkage/two_lift_sextic_exclusion.md)
+and eligible [one-lift conormal theorem](../../arguments/linkage/one_lift_sextic_conormal_exclusion.md)
+exclude **all mate degrees in their carrier sectors**;
+the [split-cone conductor and thick-sextic constraints](../../arguments/carriers/split_sextic_conductor_and_contact.md)
+and [fixed-sextic all-mate valuation theorem](../../results/ci_fixed_sextic_jet_rigidity.md)
+cover further sectors. Separately, **every hypothetical
+\((6,6)\) pair** admits the [normal general-pencil
+reduction](../../arguments/carriers/sextic_pair_reduction.md),
+with an index-nine cyclic cover and strong
+ADE/higher-contact restrictions. This does
+not yield a general normal sextic for a
+fixed \((6,b)\) pair with \(b\ne6\).
+The [remaining sextic strata](open_carrier_cases.md)
+are not retired by the pair-specific theorem.
 
 The elliptic double-inverse construction supplies actual quadratic sections
 and a finite birational octic example. A length-twelve zero
@@ -168,6 +231,16 @@ carrier, including every integral quintic. Its surviving test concerns
 the kernel on actual homogeneous forms; this does not close the
 fixed-endpoint candidates, singular lattices or normalization-descent
 questions just described.
+
+## First-graph geometry of the normalization branches
+
+The [normalized branch matrix and principalization theorem](../../arguments/carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) supplies a common first test of generically thick carriers: decompose the marked-ideal Hodge gap into branch imbalance and exceptional energy. No-vertical singleton or single-root carriers are excluded in every degree; exactly two no-vertical inverse branches force numerical intersection and normalization-index restrictions. The [ruling cluster divisibility](../../arguments/carriers/numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) extends both split-sextic rows to every degree-three-per-order boundary with two degree-one inverse branches, excluding Cartier low branches and forcing the same two partition patterns scaled by the order. At an arbitrary vertical point, the branchwise excess must supply the actual exceptional correction. These new deductions connect the normalization relation lattice to the reduced-support first graph; they do not identify it with the full-ideal Rees data or eliminate off-support conductor descent. The scoped correctness reconstruction of November 23, 2026 is recorded at the linked proof owners.
+
+The [ample strict-carrier compression](../../arguments/residuals/strict_carrier_picard_compression.md#lefschetz-compression-on-ample-strict-carriers) transfers the actual-index method to a smooth sole-support strict intersection on the first blowup. If its multiplicity is \(c\) and the ample strict carrier is generically regular along it, then its index lcm \(R\) satisfies \(c/R\mid\gcd(a,p)\). Under the stated section-lifting inequalities, a nontrivial quotient gives a lower-degree ambient mate. On the \((3p,4q)\) edge with \(p\le q\) those inequalities hold. In particular the entirely-thick \((6,8;2,2)\) case has a generically curvilinear first strict intersection, a normal general strict octic and an actual index-eight point (LC4). This uses R-0077 and the characteristic-zero low-degree exclusion; it neither proves normality of the original octic nor excludes the pair. The scoped correctness reconstruction of November 23, 2026 is recorded in the linked proof owner.
+
+The [pointwise graph resultant and finite modification formulas](../../arguments/residuals/first_graph_finite_transfer.md#socle-defects-on-the-two-presentations-of-the-first-graph) identify the divided exceptional resultant with \((c-1)\Theta+D_{\rm top}\) for a generically curvilinear sole-support strict CI, where \(\Theta\) is tangency of its normal line to the exceptional surface. This is the specialization of [CF1--CF4](../../arguments/normal-geometry/curvilinear_genus_and_defects.md#cartier-cuts-and-finite-modifications-of-the-saturated-filtration), valid for actual Cartier cuts and finite modifications of curvilinear thickenings in arbitrary smooth ambient threefolds. On the \((3p,4q)\) edge, the finite map to the image quintic CI in \(V_5\) has length defect \(pq(q-1)\) at the marked point, with pointwise top-defect change \((c-1)\xi-(q-1)\), \(\xi=0,1\) from the actual conormal modification. The [marked-line obstruction ML9](../../arguments/residuals/marked_line_local_geometry.md#all-orders-the-marked-line-comparison-by-interpolation) eliminates primitivity at the prescribed marked point for every mixed \((3p,4q)\) edge pair with \(2\le p\le q\), without ADE or normality assumptions. Thus the globally primitive mixed \((6,8)\) row is excluded, not merely conditionally: only the mixed slope-four and endpoint slope-five rows remain there, with positive marked defect in the mixed row. Of the five necessary global primitive order pairs on the full edge, mixed directions survive this test only at \((10,4),(21,3)\); endpoint directions remain subject to their separate splitting and line contact. The [full marked finite-modification lattice](../../arguments/residuals/marked_line_local_geometry.md#full-marked-finite-modification-lattice-in-the-primitive-at-the-point-stratum) identifies the completed image ideal for \(q=2\) in the primitive graph stratum as \((y^2-x^2t,t^{2p})\), with multiplication defects \(D_j=2\lfloor j/2\rfloor\); for a generically regular image carrier the local index is two (marked \(D_{2p+1}\)) or \(4p\) (multiplicity at least three). The opposite [smooth marked image-carrier lane](../../arguments/residuals/smooth_marked_image_geometry.md#the-opposite-marked-stratum-a-smooth-image-carrier-and-a-forced-graph-defect) gives strict equations \(xv=t^{2p},v^q=0\), defects \(D_j=\lfloor j/(2p)\rfloor\) and marked index \(2p\) on the strict carrier. A degree-two image mate there would descend to an original degree-four mate by exact conic trace cancellation, so is excluded. For \(q=2\) and an integral smaller image carrier its minimal image mate degree is therefore four; for \(p=2\) an actual index-eight point away from the smooth marked point is forced. These deductions were independently reconstructed on November 23, 2026, at the scopes recorded in the linked proof owners.
+
+The [edge recovery theorem SC6](../../arguments/residuals/first_graph_finite_transfer.md#recovering-generic-curvilinearity-in-all-orders-on-a-subset-of-the-edge) shows that on the mixed \((6,4q;2,q)\) edge the strict sextic always has order one, and for \(q\ge2\) a general strict carrier of the other equation is normal with at least \(9q-10\) distinct moving index-\(4q\) points. The first strict CI must be nonprimitive somewhere for \(q>2\). Across the full \((3p,4q)\) edge, global primitivity on the graph has only the five necessary order pairs \((2,2),(5,19),(6,8),(10,4),(21,3)\), by the [primitive edge arithmetic](../../arguments/residuals/first_graph_finite_transfer.md#primitive-graph-structures-on-the-full-degree-threefour-slope-edge). This is not the classical primitive list on \(C_0\); it applies to the first strict intersection. The [normal K3 torsion theorem](../../arguments/carriers/normal_carrier_symbolic_torsion.md#a-uniform-torsion-bound-on-normal-k3-carriers) also gives an all-mate-degree bound \(R\le16\) on globally ADE degree-two image carriers in \(V_5\), with a mate there in degree at most eight; conic vanishing for an actual lift to the original problem is separate. These results were independently reconstructed on November 23, 2026, at the scopes recorded in the linked proof owners.
 
 ## Distinct sextic directions
 

@@ -324,6 +324,57 @@ Mathématique de France* 131 (2003), no. 4, 553--585.
   intersection.  This makes P-035 a classical equivalence; “arithmetically
   Gorenstein,” not merely locally Gorenstein, is essential.
 
+**Bănică--Forster's classical local triple.** In §3 of [*Multiplicity Structures on Space Curves*](https://www.mathematik.uni-muenchen.de/~forster/eprints/multip_struct.pdf), the local quasiprimitive triple has ideal \((t^d x-y^2,xy,x^2)\). This is existing theory. The [BF triple and actual-pair attachment TR1--TR4](../arguments/residuals/layerwise_attachment_and_triples.md#triples-the-full-attachment-has-only-two-independent-divisors) uses its Hilbert--Burch syzygies to identify the actual full-primary conormal-torsion divisor with \(D_2\), then combines this with the previously recorded liaison duality and attachment-module determinant to express the whole three-layer attachment filtration through two effective divisors. Do not attribute the local form to this project or extend the two-divisor identity to arbitrary multiplicity. The cross-module linkage was independently reconstructed in the scoped November 23 attachment review.
+
+**Fourth-order scope and source check.**
+In the original 1986 Bănică--Forster
+§3.9, p. 61, the lci quasiprimitive
+quadruple with \(D_2=D_3=d[P]\)
+has local ideal \((t^d x-y^2,x^2)\).
+It has nonzero multiplication defects
+but a torsion-free rank-two
+conormal equation module. This
+[TR5--TR6 counterexample](../arguments/residuals/layerwise_attachment_and_triples.md#a-classical-fourth-order-counterexample-to-extrapolating-tr2)
+rules out extending the triple
+torsion identity to all
+multiplicities. Moreover the
+[original 1986 scan](https://sites.lsa.umich.edu/idolga-new/wp-content/uploads/sites/1467/2024/08/coxeter86.pdf)
+prints \(y(t^dx-y^2)\) in the
+other, non-lci quadruple ideal,
+while a re-typeset PDF gives
+\(y(t^d-y^2)\), omitting \(x\).
+Use the original formula in
+subsequent calculations; the
+transcription variant cannot
+have the announced generic
+multiplicity.
+
+## Contact geometry and Legendrian curves on quadrics
+
+Nikita Kalinin, [*Legendrian curves in CP3: cubics and curves on a quadric surface*](https://arxiv.org/abs/1607.07486v2), *Zapiski Nauchnykh Seminarov POMI* 476 (2018), 92–110, [published paper](https://ftp.pdmi.ras.ru/pub/publicat/znsl/v476/p092.pdf), **Theorem 4.3** in both arXiv v2 and the published paper.
+The theorem classifies algebraic Legendrian curves on smooth quadrics
+in complex projective three-space using the characteristic foliation
+of the restricted contact structure. This is the established general
+classification, not a new result of the STCI project. In the
+[marked Segre graph comparison](../arguments/torus/quadric_pencil_spectral_intrinsic_geometry.md),
+the special contact forms
+\(\omega_q=dx_0\wedge dx_3-(2/q)dx_1\wedge dx_2\) select precisely the
+graphs \([s^3:u t^3]\) inside \(Q_q\), while their spectral trace
+still lacks a universal complete-intersection vanishing theorem.
+The [existing Hamiltonian/Jacobian theorem](../arguments/torus/contact_jacobians_and_hamiltonian_actions.md#the-six-ambient-minors-different-and-contact-identity)
+proves an actual Poisson-involutivity statement under **sole support**;
+neither the published Legendrian classification nor that theorem
+proves the unrestricted moment relation on multicomponent cycles.
+
+A related obstruction has a stricter scheme hypothesis: Buczyński,
+[*Properties of Legendrian subvarieties of projective space*, Theorem 4.9](https://arxiv.org/pdf/math/0503528),
+proves that an irreducible normal complex Legendrian variety which is a
+scheme-theoretic complete intersection is a linear subspace. This does
+not cover a nonreduced complete intersection supported on a smooth
+Legendrian quartic, or a reducible translated arrangement. The theorem
+therefore does not turn the contact description of the reduced support
+into an STCI exclusion.
+
 ## Multiple structures, bundles, and liaison
 
 ### Eisenbud--Van de Ven
@@ -424,6 +475,30 @@ Philippe Ellia, “Complete intersections primitive structures on space curves,�
   (19,84),(18,118),(17,220).
   \]
 
+**Further exact application of Ellia, not a new theorem.**
+[Theorem 12](https://arxiv.org/abs/1409.3801)
+proves that for a **primitive**
+multiple curve \(X\) cut
+scheme-theoretically by degrees
+\((a,b)\), a general degree-\(b\)
+surface containing \(X\) is
+normal and has *uniform*
+marked \(A_n^k\) singularities
+along the smooth support,
+as well as being smooth
+outside it. [Theorem 15 and
+Corollary 16](https://arxiv.org/abs/1409.3801)
+then give the ten rational-quartic
+primitive candidate pairs in the
+preceding list. This is
+considerably stronger than
+generic Bertini **within the
+primitive setting**.
+
+The [all-degree normal replacement theorem](../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) uses classical characteristic-zero Bertini smoothness ([Kleiman 1997, Theorem 4.1](https://arxiv.org/abs/alg-geom/9704018)), Serre's criterion and hypersurface connectedness. Neither a non-pencil hypothesis nor prior integrality is required. It allows nonprimitive special points and equal or unequal degrees. This is a direct application of classical theory, not a new foundational Bertini result. Ellia's primitive theorem is stronger within its hypotheses. Simple first-symbol roots give the standard marked \(A_{r-1}\) germs of Ellia's Definition 8 and Lemma 10; the [reduced-gcd argument](../arguments/carriers/normal_carrier_divisor_geometry.md#reduced-common-first-normal-divisor-a-uniform-marked-ade-and-rank-test) uses this local geometry outside the everywhere-primitive case, combining it with the actual CI defect budget. The generalization was independently reconstructed in the scoped November 23 carrier review.
+
+The complete quartic exclusion removes \((4,7)\) from the ten eligible primitive pairs. Thus **outside the remaining nine pairs**, a hypothetical CI has a common singular point on \(C_0\). In the generically curvilinear branch this means a nonempty finite nonprimitive locus; if both generators have higher generic order then nonprimitivity is already generic. No primitive existence is claimed within the nine pairs, and the unrestricted common-singular assertion remains open.
+
 ### Franco--Kleiman--Lascu
 
 Daniele Franco, Steven Kleiman, and Alexandru Lascu, “Gherardelli linkage and
@@ -435,7 +510,46 @@ complete intersections,” *Michigan Mathematical Journal* 48 (2000), 271--279.
   and self-linkage criterion. This is useful for recognizing a multiple
   structure once constructed; it does not construct one on every support.
 
+### Saturated attachment and finite primary images
+
+The Bănică--Forster and Manolache filtration and Gorenstein duality inputs, together with ordinary liaison and the Benguş-Lasnier--Rangachev discrepancy/genus formula, supply the ingredients of the [layerwise attachment comparison](../arguments/residuals/layerwise_attachment_and_triples.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component); the local canonical-ideal application retains individual layers rather than only total length. The [actual-pair local-cohomology application](../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) uses Grothendieck local duality after liaison and retains Hartshorne--Polini's first-coregularity hypothesis. Numerical-semigroup binomial interpolation in the [toric primary lattice](../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) is related to Yasuda's higher Nash blowup jet matrices and Chávez-Martínez--Duarte--Giles Flores; no identification with a higher Nash blowup is asserted. Exact references and hypotheses are at the proof owners. These are applications and refinements, not priority claims.
+
 ## Carrier surfaces, divisor classes, and blowups
+
+### Sharp complete-intersection Picard input (2024)
+
+Česnavičius–Scholze, [*Purity for flat cohomology*](https://annals.math.princeton.edu/2024/199-1/p02), Annals 199 (2024), 51–180, Corollary 7.2.3 ([preprint](https://arxiv.org/abs/1912.10932)), prove that `Pic(X)/Z[O_X(1)]` is torsion-free for a projective complete intersection of dimension at least two over any field. Cotner–Zavyalov, [*Lefschetz theorems in flat cohomology and applications*](https://www.cambridge.org/core/journals/compositio-mathematica/article/lefschetz-theorems-in-flat-cohomology-and-applications/8556201EDB51D7F2F76F5950A800CD64), Theorem 1.1.8, give torsion-free Picard group, nondivisibility of the hyperplane class, and trivial numerically trivial Picard scheme. This includes singular hypersurfaces, in arbitrary characteristic. Hartshorne--Polini (2015), Lemma 7.6, had already proved hyperplane saturation for surfaces in P3 in characteristic zero, without normality; the recent result is its arbitrary-characteristic extension. Together with their Proposition 2.2(c) and Proposition 7.1 it yields the [normalized Hodge and downstairs almost-Cartier criterion](../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) and separates the upstairs Cartier index from the true downstairs minimum multiplicity. The numerical detection argument also extends their Theorem 4.5 (Picard pullback injectivity over C) to arbitrary characteristic for integral hypersurfaces. These are new applications, not newly discovered characteristic-zero Picard results. It strengthens our [fixed-carrier exact-index theorem](../arguments/carriers/normal_carrier_divisor_geometry.md#3-exact-exponent-and-minimal-mate-once-the-boundary-is-reached): under existence of a mate, the least Cartier multiple RC already lies on the integral hyperplane ray, hence the least mate multiplicity is R and the least mate degree is eR/a. The Hodge equality criterion on a normal Q-Cartier carrier also extends independently of characteristic. These statements do not imply torsion-free Weil class groups or arbitrary-characteristic Bertini or local socle formulas. The application was independently reconstructed in the scoped November 23 carrier review; the primary Picard statements were also checked against their sources.
+
+### Brevik--Nollet, October 2026: very general thick carriers
+
+John Brevik and Scott Nollet, *Noether--Lefschetz theory and surfaces
+containing a multiple curve*, *Nagoya Mathematical Journal* 261 (2026),
+e54, published online October 19, 2026, [publisher primary source](https://doi.org/10.1017/nmj.2026.10139).
+
+**Theorem 1.1, exact hypotheses.** Let (X\subset\mathbf P^N_{\mathbf C})
+be a smooth projective threefold with (H^1(X,\mathcal O_X)=0), let
+(C\subseteq X) be a smooth connected curve, (m\ge2), and let
+(Z=C^{(m)}\) be the *ordinary infinitesimal neighborhood* defined by
+(\mathcal I_Z=\mathcal I_C^m). For sufficiently large (d) and a
+**very general** degree-(d) hypersurface section (Y) containing
+(Z), restriction (\operatorname{Pic}(X)\to\operatorname{Pic}(Y))
+is an isomorphism. For (X=\mathbf P^3), the Picard group of that
+very general thick carrier is generated by (\mathcal O_Y(1)).
+The paper explicitly treats nonnormal surfaces and also considers
+other thick complete-intersection base loci with different Picard behavior.
+
+**Implication for our entirely-thick regime.** This is a strong
+very-general carrier theorem, directly relevant when both defining
+equations vanish to order at least two on the rational quartic. It
+does **not** cover the special surface selected by a hypothetical
+actual mate, or classify its Weil/almost-Cartier curve class. The
+curve need not define an invertible divisor on the generically
+singular carrier. Hence the theorem neither excludes arbitrary
+entirely-thick mates nor forces the first transverse trace
+(M_1=\sum n_i u_i/v_i) to vanish. Any application must
+first prove a suitable genericity/semicontinuity or actual
+divisor-descent bridge, not merely invoke Picard rank one.
+
 
 For quintic carriers, Andreatta–Sommese's sectional-genus classification
 describes polarized surfaces. The fixed quartic and its projection center
@@ -443,6 +557,83 @@ require additional data. The repository's marked toric classification and
 inverse-image calculation supply those data and exclude every mate on
 an integral quintic with toric normalization. [External hypotheses and their application](../arguments/carriers/quintic_non_gorenstein_toric_sources.md#1-why-this-source-remains-relevant) ·
 [Repository theorem](../results/toric_quintic_carrier_exclusion.md)
+
+**Ample divisors on the graph.** Cotner–Zavyalov, Theorem 3.2.2 (same reference), gives the low-degree finite-coefficient Lefschetz comparison for an ample Cartier surface in a smooth proper threefold with affine complement. In characteristic zero the Kummer sequence implies saturation of the ambient Picard restriction when the ambient Picard group is torsion-free; normality of the surface is unnecessary. The [strict-carrier compression LC1–LC4](../arguments/residuals/strict_carrier_picard_compression.md#lefschetz-compression-on-ample-strict-carriers) uses this established theorem on the blowup, where the Picard group has rank two, plus an explicit graph cohomology vanishing to lift the compressed Cartier divisor to an actual homogeneous mate. This is an application of Lefschetz, not an assertion that the ample surface's entire Picard group comes from the blowup. The LC1–LC4 application is covered by the scoped independent reconstruction in its proof owner.
+
+### K3 ADE saturation and the Fano-side carrier
+
+Garbagnati--Penegini--Perego, [*Singular symplectic surfaces* (2026), §4.2.1, Lemma 4.10 and Proposition 4.11](https://link.springer.com/article/10.1007/s13366-026-00838-w), classify divisible exceptional ADE classes on K3 surfaces, with individual orders bounded by eight, building on Nikulin and the torus quotient classifications. Thus for a normal K3 carrier any finite-order Weil class has order at most eight, via the Picard group of its resolution modulo the exceptional lattice. The [carrier application](../arguments/carriers/normal_carrier_symbolic_torsion.md#a-uniform-torsion-bound-on-normal-k3-carriers) identifies the actual primitive ray \(\mu\Delta-vH\) and bounds local indices; on \(|2M|\) in \(V_5\) this gives \(R\le16\) and a mate in degree at most eight on \(V_5\). Prescribed conic vanishing is separate. This is an application of existing classification, not a newly proved bound for K3 divisible classes. The [marked ADE obstruction on the primitive graph row](../arguments/residuals/k3_marked_lattice.md#a-k3-marked-lattice-obstruction-to-the-primitive-graph-row) instead uses the classical K3 signature and local even ADE discriminant forms together with a new pointwise finite-thickening transfer. A smoothing of the actual anticanonical carrier bounds the marked ADE ranks even if singularities away from the curve are worse. These applications were independently reconstructed in the scoped November 23 carrier and residual reviews, with the published divisible-ADE input checked separately.
+
+### Brevik--Nollet, 2026: Noether--Lefschetz with a thick base curve
+
+John Brevik and Scott Nollet,
+[*Noether–Lefschetz theory and surfaces containing a multiple curve*](https://www.cambridge.org/core/journals/nagoya-mathematical-journal/article/noetherlefschetz-theory-and-surfaces-containing-a-multiple-curve/7C89E45108F00A35D058DFF899040964),
+*Nagoya Mathematical Journal* 261 (2026), e54
+(published online **19 October 2026**),
+Theorem 3.9; compare the earlier
+[*Noether–Lefschetz theorem with base locus*](https://arxiv.org/abs/0806.1243).
+
+**Exact hypotheses and application.**
+The 2026 theorem considers the ordinary
+\(m\)-th infinitesimal neighborhood
+\(C^{(m)}=V(\mathcal I_C^m)\), \(m\ge2\),
+of a smooth connected curve in a smooth
+complex projective threefold \(X\) with
+\(H^1(X,\mathcal O_X)=0\). If
+\(\mathcal I_C(\lfloor d/m\rfloor-1)\)
+is globally generated and
+\(H^0(\mathcal I_C^{m-1}(K_X+dH))\ne0\),
+then for a **very general** degree-\(d\)
+surface \(Y\) containing \(C^{(m)}\)
+the map \(\operatorname{Pic}X\to\operatorname{Pic}Y\)
+is an isomorphism.
+
+For our **fixed non-linearly-normal**
+rational quartic \(C_0\subset\mathbf P^3\),
+the ideal \(\mathcal I_{C_0}\) is
+**3-regular**, since its quadratic
+restriction is surjective and the higher
+cohomology required by regularity vanishes;
+therefore \(\mathcal I_{C_0}(3)\)
+is globally generated. Its unique
+quadric \(q\) gives
+\(q^{m-1}\in H^0(\mathcal I_C^{m-1}(2m-2))\).
+Thus **Theorem 3.9**, not the paper's
+complete-intersection Corollary 4.1,
+applies whenever
+\[
+ \boxed{d\ge4m, \qquad
+ \operatorname{Pic}(Y)\cong\mathbb Z[O_Y(1)]
+ \quad\text{for very general }
+ Y\supset C_0^{(m)}.}                \tag{NL}
+\]
+The stated \(d\ge4m\) is a sufficient
+bound from the theorem, **not claimed
+optimal**. At \(m=2\) it starts at
+\(d=8\), so the important thick-sextic
+degree-six case is **not** covered.
+
+**Limits for STCI.** These \(Y\)
+are generically singular along \(C_0\)
+and nonnormal. The theorem controls
+\(\operatorname{Pic}Y\), not the
+normalization conductor, the appropriate
+almost-Cartier divisor group or the
+actual homogeneous mate equations.
+In particular \(\operatorname{Pic}Y
+=\mathbb Z H\) does **not**
+exclude a supported Cartier divisor
+cut by a hypothetical mate:
+such a divisor already has class \(bH\).
+A very-general Picard theorem also
+does **not** exclude exceptional
+carriers in the same linear system.
+The comparison clarifies why high-degree
+generic thick carriers and the exceptional
+STCI-realization locus are different
+problems, and why the
+[normalization/conductor framework](../frameworks/carrier-normalization/index.md)
+remains necessary.
 
 ### Normalization conductors and ordinary double surfaces
 
@@ -812,3 +1003,99 @@ retain the everywhere-potential-good-reduction and simultaneous-conjugacy
 hypotheses of Petsche–Szpiro–Tepper and Silverman. Their final source review
 closed the earlier audit gap; neither comparison provides an unrestricted
 STCI construction or obstruction.
+
+
+### Zero-dimensional Chow norms, traces, and border bases
+
+Carlos D'Andrea and Gabriela Jeronimo, *Rational Formulas for Traces in
+Zero-Dimensional Algebras*, Applicable Algebra in Engineering,
+Communication and Computing **19** (2008), 495--508,
+[arXiv:math/0503721](https://arxiv.org/abs/math/0503721), express traces of
+multiplication in a finite-dimensional algebra through generalized Chow
+forms; for torus complete intersections they give sparse-resultant formulas.
+This is the established input behind the
+[homogeneous transverse Chow/norm comparison](../arguments/torus/chow_arrangement_moments.md#the-homogeneous-transverse-chow-form-as-a-section-norm).
+The project-specific calculation there is the explicit quartic kernel
+\(\Psi_{W,U,V}\), its fixed-plane injectivity on the translated family, and
+its comparison with the already-established global source resultant.
+
+Achim Kehrein and Martin Kreuzer, *Characterizations of Border Bases*,
+J. Pure Appl. Algebra **196** (2005), 251--270,
+[DOI 10.1016/j.jpaa.2004.08.028](https://doi.org/10.1016/j.jpaa.2004.08.028),
+give the standard border-basis characterizations. In particular, the formal
+multiplication matrices commute exactly when the border prebasis defines the
+intended zero-dimensional algebra. Their theory identifies the
+[marked border-product gate MJ1](../arguments/residuals/marked_line_local_geometry.md#finite-index-rigidity-of-higher-marked-jets)
+as a rectangular special case of a classical algebra-consistency criterion.
+The STCI-specific content of MJ2--MJ4 is the consequence of that gate for the
+actual marked graph and homogeneous contact constraints, not the
+border-basis criterion itself.
+
+
+### Trace matrices and the radical of a zero-dimensional section
+
+Itnuit Janovitz-Freireich, Bernard Mourrain, Lajos Rónyai and Ágnes Szántó,
+*On the Computation of Matrices of Traces and Radicals of Ideals*,
+J. Symbolic Computation **47** (2012), 102--122,
+[arXiv:0901.2778](https://arxiv.org/abs/0901.2778), compute moment and trace
+matrices from Macaulay-type resultant matrices and, for affine complete
+intersections, from Bezoutians; these matrices recover the radical of a
+zero-dimensional ideal.  The underlying characteristic-zero fact that the
+radical of the regular trace pairing is the nilradical is also already used
+in the repository's finite-algebra arguments.
+
+The
+[five-row translated-support gate CHR1--CHR6](../arguments/torus/chow_arrangement_moments.md#a-five-row-trace-rank-gate-for-one-translate-versus-residual-translates)
+applies this classical theorem to the fixed symmetric plane section.
+Its project-specific contribution is the five homogeneous degree-four test
+sections whose restricted trace map has rank four for exactly one translated
+quartic and rank five for every arrangement containing at least two distinct
+translates.  No general trace-radical theorem is attributed to this project.
+
+
+### The rational quartic Rao module and a hyperplane-jet application
+
+Mengyuan Zhang, *The SpaceCurves package in Macaulay2*, Journal of Software
+for Algebra and Geometry **8** (2018), 31--48, records explicitly that the
+smooth rational quartic in \(\mathbf P^3\) has Hartshorne--Rao module \(k\)
+concentrated in degree \(1\), and that its ideal consists of the unique
+quadric together with three cubic generators.  This is standard liaison
+theory and is not new to the project.
+
+The
+[terminal hyperplane-jet theorem HJ1--HJ6](../arguments/equations/global_equation_jets.md#a-terminal-hyperplane-jet-defect-in-every-degree)
+uses this known one-dimensional Rao module on the symmetric hyperplane
+\(x_3=x_0\).  The reduced section is the plane \((2,2)\) complete
+intersection
+\((x_0^2-x_1x_2,\ x_1^2-x_2^2)\).  All truncated hyperplane jets of a
+degree-\(d\) equation lift through normal order \(d-3\); at order \(d-2\)
+there is exactly one missing class, represented by
+\((x_3-x_0)^{d-2}(x_1^2-x_2^2)\).  The all-degree placement of the Rao
+class in this particular transverse flag is the project-specific
+application; the Rao-module computation itself is classical.
+
+
+### Scheja--Storch: Kähler different versus the Artin socle
+
+For a finite-dimensional local algebra
+\(A=k[[x_1,\ldots,x_n]]/I\) in characteristic zero, the classical
+Scheja--Storch theorem identifies the Kähler different
+\(\mathfrak D_K(A/k)=\operatorname{Fitt}_0\Omega_{A/k}\):
+it is nonzero exactly when \(A\) is a zero-dimensional complete
+intersection, and then it is the socle of \(A\).  Equivalently, for a
+non-complete-intersection Artin algebra the maximal Jacobian-minor ideal
+vanishes in \(A\).  A modern proof/reference is
+[Ulrich et al., *Duality and socle generators for residual intersections*,
+Theorem 7.1 and Appendix](https://www.math.purdue.edu/~bulrich/papers/Duality-and-Socle-180119.pdf);
+the same theorem is summarized in Vasconcelos' survey on Jacobian ideals.
+
+This is the strongest established input in the
+[dense-orbit contact calculation](../arguments/torus/contact_jacobians_and_hamiltonian_actions.md#dense-orbit-contact-is-automatic-after-sole-support-collapse).
+For the quartic's induced transverse Poisson bracket,
+\(\{u,v\}\) is a unit times \(u-v\).  Since \(u-v\) belongs to the maximal
+ideal at the sole-support point \((1,1)\), it kills the Kähler different in
+the CI case and the different is already zero in the non-CI case.
+Accordingly every finite transverse ideal supported at \((1,1)\) is
+automatically involutive.  The project-specific content is the explicit
+transverse bracket and its consequence for where the global contact
+obstruction can live, not the Scheja--Storch theorem.

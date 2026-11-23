@@ -1,5 +1,7 @@
 # Residual degree, attachment, and carrier capacity
 
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed the full-primary attachment/equation-module comparisons and their LA/TR and finite-transfer bridges. Inherited inputs are actual full-primary linkage, canonical-module duality and the established graph correspondence.
+
 Fix the embedded quartic \(C=C_0\). For an actual proper homogeneous pair
 \(Y=V(F_a,G_b)\), write \([Y]=m[C]+R\) and
 \(\delta=\deg R=ab-4m\). Let \(T\) be its **full** \(C\)-primary
@@ -8,7 +10,8 @@ reduced \(C\) instead gives \(D_{\rm red}=Y:C\) with cycle \((m-1)[C]+R\).
 These three curves must be distinguished before using a degree or attachment
 formula.
 
-This chapter consolidates reviewed proofs and counterexamples;
+This chapter collects the full-primary attachment and capacity arguments;
+the layerwise extensions have a separate proof and review account.
 The saturated-flag statement
 is [R-0019](../../results/quasiprimitive_residual_cycles.md). The fixed-source jet
 statement is [R-0025](../../results/ci_fixed_sextic_jet_rigidity.md).
@@ -192,6 +195,11 @@ is imposed. Its reduced Jacobian/Milnor formulas are separate and are not
 applied to T after removing nilpotents. The proof of (9) above independently
 fixes the distinction between full T cap D and marked C cap D.
 
+The [layerwise attachment and triple account](layerwise_attachment_and_triples.md)
+owns LA1--LA6 and TR1--TR7, including the canonical-ideal duality proof,
+BF triple specialization, fourth-order counterexample, and actual auxiliary-cut
+comparison. It uses the attachment-module identities proved above.
+
 ## 5. A sharp control: the determinant can be a unit at a real attachment
 
 This is a local explanatory example, not a global homogeneous realization on the fixed quartic. It is used to test exactly the proposed omission of \(\mathcal T_T\), not to launch a case classification.
@@ -354,6 +362,35 @@ The full attachment has length
 For \(s>1\), substituting that length into \(A\le3\delta\) would be
 false. This family therefore gives an actual fixed-quartic control for
 both sharpness and the necessary marked/full distinction.
+
+### A direct capacity bound from saturated duality defects
+
+For a generically curvilinear full primary \(T\), [LA1](layerwise_attachment_and_triples.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) also
+gives the following estimate from its individual saturated
+multiplication divisors, without computing the entire residual:
+\[
+ A=\deg H_0\ \ge
+ \sum_{P\in C}\ \max_{0\le i<m}
+ (D_{m-1,P}-D_{i,P}-D_{m-1-i,P}).
+\]
+Every term inside the maximum is nonnegative by
+multiplicativity. The capacity estimate (1) (or (2)
+when the quadric is available) therefore gives an
+actual lower bound on residual degree from any
+certified failure of complementary-layer duality.
+For a primary triple the right side is exactly
+\(\deg D_2\). This needs the **full actual primary**
+filtration, not the displayed initial equations or an
+arbitrary formal thickening. For an actual Gorenstein
+primary it is zero and gives no exclusion; the
+adjunction class LA4 and the separate equation-module
+constraint may then still supply attachment.
+The total residue-degree bound retains the original
+congruence \(\deg R\equiv ab\bmod4\).
+This is a sufficient route from a particular intrinsic
+duality defect to positive residual degree, not a proof
+that every characteristic-zero primary has such a defect.
+LA1 is included in the scoped correctness review above.
 
 ## 4. How to use the bound without making it circular
 
@@ -657,8 +694,12 @@ when \(d_0a>cef\). Indeed \(d_0H-Z\) is nef,
 \(H\cdot\Gamma^{\rm num}=cf\), and Hodge index makes the displayed
 denominator positive. This separates the reusable lemma from the numbers
 \((c,d_0)=(4,3)\). If the denominator vanishes retain the undivided nef
-inequality. A zero Hodge gap leaves the endpoint open; conductor descent and
-actual equation realization still require proof.
+inequality. A zero Hodge gap alone leaves the endpoint open. In the
+generically regular singleton case, however, the [exact almost-Cartier
+criterion](../carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) closes fixed-carrier existence in some
+degree if the actual downstairs index is finite, with minimum degree
+\(cR_X/a\). The more general upstairs-only or thick setting still needs
+actual section descent.
 
 There are three different mechanisms here: a finite-scheme quotient bounds
 marked attachment by degree; surface positivity bounds the valuation vector
@@ -669,6 +710,43 @@ The prescribed A-type family shows why a large local Cartier index alone
 neither constructs sole support nor supplies the needed global divisor
 relation. In particular its residual cancels the local class and survives
 with explicitly different marked and full attachment lengths.
+
+### Local index forces residual attachment
+
+Let \(X=V(F_a)\) be integral and regular at the generic point of the
+smooth marked curve \(C\), and let \(G_b\) define an actual proper
+intersection of cycle \(m[C]+R\), \(m>0\), with genuine residual
+scheme \(Z\) (the pure residual after removing the full C-primary
+component). Write \(r_P\) for the order of \([C]_P\) in the local
+almost-Cartier group of \(X\), allowing infinite order. Define
+\[
+ S_m=\{P\in C:r_P\nmid m\},
+\]
+where infinite order never divides a positive integer. Off the finite
+on-curve singular set the index is one. If \(P\notin\operatorname{Supp}R\),
+the actual effective Cartier divisor cut by \(G\) has local cycle
+\(mC\); since the generic point is regular and the surface is S2, it
+represents precisely the almost-Cartier class \(m[C]\). Hence \(r_P\mid m\).
+In particular
+\[
+ S_m\subset C\cap\operatorname{Supp}Z,\qquad
+ \#S_m\le\ell(C\cap Z)\le d_0\deg R
+\]
+whenever \(I_C(d_0)\) is globally generated, by the marked-attachment
+capacity above. This connects local divisor-class failure to positive
+residual degree even at Hodge equality. For the fixed quartic use
+\(d_0=3\) and also the congruence \(\deg R=ab-4m\). The assertion does
+not bound residual *multiplicity* at a point or give a converse. If the
+residual divisor itself has regular marked generic points, its local
+almost-Cartier class cancels \(m[C]\); in general only the support
+necessity is asserted. Combine independent lower bounds by their maximum,
+not by addition.
+
+The local argument is a direct application of the almost-Cartier
+divisor criterion of Hartshorne–Polini (Proposition 7.1) and the
+existing marked-attachment inequality, not a new general theorem of
+intersection theory. It uses actual local classes downstairs, not
+normalization indices. This bridge is included in the scoped correctness review above.
 
 ## Literature and verification boundary
 

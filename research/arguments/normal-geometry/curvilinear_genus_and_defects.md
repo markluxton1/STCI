@@ -1,5 +1,7 @@
 # Curvilinear normal layers: genus, saturation and the actual socle
 
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed CF1–CF4, the LA/TR attachment comparisons and the stated finite-transfer, marked-line and smooth-image applications. Inherited inputs are the inherited saturated filtration/Frobenius duality, actual full-primary linkage and two-blowup correspondence.
+
 For a proper complete-intersection curve with sole smooth support and generically curvilinear transverse algebra, this is the full proof owner for the genus and boundary account. It explains why ordinary-layer torsion and saturated multiplication divisors are two accounts of one contribution, rather than independent errors to add. The Frobenius lattice proof retains pointwise data beyond arithmetic genus; the separate perfect-pairing proof and non-Gorenstein counterexample isolate the exact duality hypothesis. In particular, the pointwise identity `2 tau_p = m mult_p D_soc` concerns the actual Gorenstein complete intersection and does not follow from a numerical Hilbert polynomial alone. The statements are characteristic free unless a fixed-quartic application explicitly adds its conormal or equation hypotheses.
 
 <a id="normal-torsion-spectral-genus-budget"></a>
@@ -173,6 +175,8 @@ Its degree is
 
     (m-1) ell=2g-2-d(a+b-4)-deg D_soc.                 (8)
 
+Here `ell=deg L` as in (3), unlike the carrier chapters which use the positive-slope convention `deg L=-ell_car`. In that notation (8) becomes `(m-1)ell_car=d(a+b-4)-2g+2+deg D_soc`. These are the same identity; the sign convention must change with the definition.
+
 There is also a pointwise constraint stronger than the total genus formula:
 
     2 sum_n B_n = m D_soc.                              (9)
@@ -213,6 +217,296 @@ saturated Gorenstein pairing gives the more refined relations
 D_i+D_(m-1-i)=D_soc; these are inherited in the precise quasiprimitive
 scope used by [R0022](../../results/quartic_44_filtered_exclusion.md), rather
 than a general theorem here.
+
+### Full-primary attachment replaces Gorensteinness in the duality
+
+The [layerwise attachment duality LA1--LA4](../residuals/layerwise_attachment_and_triples.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component)
+extends the actual complementary-layer calculation to a full
+generically curvilinear primary component \(T\) of a Gorenstein
+CI \(Y\) with residual \(R\). Here the attachment ideal
+\(K=I_{T\cap R/T}\) is the twisted canonical module of \(T\)
+by linkage, even when \(T\) is not Gorenstein. Define
+\(H_i\) as the lengths lost in its induced saturated flag,
+\(H_0=C\cap R\). Then
+\[
+ D_i+D_{m-1-i}=D_{m-1}-H_0+H_i,\qquad
+ H_i=H_{m-1-i}\le H_0.
+\]
+Thus the aggregate pure CI Frobenius identity has the
+precise correction \(2\sum D_i=m(D_{m-1}-H_0)+\sum H_i\).
+The actual signed top class is
+\(\mathcal L^{m-1}(D_{m-1}-H_0)=\omega_C\otimes\omega_Y^{-1}|_C\).
+For a full primary triple \(D_2\le C\cap R\), so a positive
+multiplication defect actually forces residual support.
+This is a new limited mechanism giving that implication;
+it does not turn an arbitrary defect of a formal presentation
+into residual support. The proof uses ordinary canonical
+module linkage and saturated perfect duality, not a
+Gorensteinness assumption on \(T\). The corresponding
+cutting-surface formula LA5 retains the high attachment
+layers seen by the annihilator of a cutting equation.
+Independent reconstruction is recorded in the scoped review above.
+
+### The triple is an exact meeting point of three defect theories
+
+The [classical Bănică--Forster local triple
+normal form and its application TR1--TR4](../residuals/layerwise_attachment_and_triples.md#triples-the-full-attachment-has-only-two-independent-divisors)
+show that at multiplicity three the
+second saturated multiplication defect
+\(D_2\) equals the torsion divisor of
+the full-primary equation conormal
+\(I_T/(I_CI_T)\), regardless of whether
+the triple is locally a complete
+intersection. For an actual proper
+two-surface CI with this full primary,
+write \(\eta\) for the determinant
+divisor of its two defining equations
+in the torsion-free conormal quotient.
+Then the three full attachment layers
+are \((D_2+\eta,\eta,D_2+\eta)\)
+and the full attachment length cycle is
+\(2D_2+3\eta\). The signed top
+class simplifies to \(\mathcal
+L^2(-\eta)=\omega_C\otimes
+\omega_Y^{-1}|_C\).
+The source of the local form is BF,
+not a novel classification; the
+identification is with the separate
+actual-equation module and residual
+attachment ledger. Higher
+multiplicity and noncurvilinear
+primaries require the original
+uncompressed LA1--LA6. Independent
+review completed at the scope above.
+
+The [BF quasiprimitive quadruple
+TR5--TR6](../residuals/layerwise_attachment_and_triples.md#a-classical-fourth-order-counterexample-to-extrapolating-tr2)
+shows precisely why the triple
+identity \(\tau=D_2\) is special.
+For \(I_T=(t^d x-y^2,x^2)\)
+the saturated defects are
+\(D_2=D_3=d[P]>0\), yet the
+primary is lci and its conormal
+equation module has no torsion.
+The full LA1--LA6 identities
+retain the additional layer
+rather than extrapolating
+a two-divisor triple formula.
+This is a local example, not
+a global STCI or an exclusion.
+
+## Cartier cuts and finite modifications of the saturated filtration
+
+**Status: new general application of the saturated filtration,
+covered by the scoped correctness review above.** Work on a pure CM
+curve \(W\) in a smooth threefold with smooth reduced support \(T\)
+and generically curvilinear algebra of length \(c\). Write \(P_i\)
+for the saturated normal-power flag of §4, \(L=P_1/P_2\),
+\(W_i=P_i/P_{i+1}=L^i(D_i)\), with \(D_0=D_1=0\).
+Here all \(D_i\) are actual multiplication divisors and
+\(D_{\rm top}=D_{c-1}\). The following first assertion does
+not require that \(W\) is lci.
+
+### Determinant of a Cartier cut
+
+Let \(J\) be an ambient effective Cartier divisor containing
+\(T\). Assume its equation on the generic algebra of \(W\)
+has exact order \(k\), with \(1\le k<c\). Its first nonzero
+saturated symbol is a map
+\[
+ \mathcal O_T(-J)\longrightarrow W_k
+\]
+with effective zero divisor \(\Theta_k\). Define \(B_J\) as
+the divisor of lengths of the maximal zero-dimensional
+subsheaf of \(\mathcal O_{W\cap J}\).
+Then
+\[
+ \boxed{B_J=(c-k)(\Theta_k-D_k)
+       +\sum_{i=c-k}^{c-1}D_i-\sum_{i=0}^{k-1}D_i.}       \tag{CF1}
+\]
+In particular when \(k=1\), writing \(\Theta=\Theta_1\),
+\[
+ \boxed{B_J=(c-1)\Theta+D_{\rm top}.}                     \tag{CF2}
+\]
+
+**Proof.** Locally trivialize the equation \(j\) of \(J\)
+and complete at a point of \(T\). Lift a uniformizer to the
+finite free DVR algebra as in §4. The element \(j\) belongs
+to \(P_k\); its annihilator is \(P_{c-k}\), because this
+holds generically and \(W\) is pure. Thus multiplication
+induces an injection
+\[
+ (\mathcal O_W/P_{c-k})(-J)\xrightarrow{\ j\ } P_k
+\]
+of finite free modules of the same rank over the DVR.
+Its cokernel is exactly the punctual torsion in
+\(\mathcal O_W/(j)\): the remaining quotient
+\(\mathcal O_W/P_k\) is pure. The map is strict for the
+shifted saturated flags, since membership in each \(P_i\)
+is detected at the generic point. The determinant is the
+product of the shifted rank-one graded determinants.
+On the \(i\)-th layer, its zero order is the coefficient
+of \(\Theta_k+D_{i+k}-D_i-D_k\), by comparing the actual
+multiplication of generators of \(L\) with generators of
+each saturated layer. Summing for \(i=0,\dots,c-k-1\)
+gives (CF1) by telescoping. This calculation is a length
+of an actual cokernel, not a zero divisor of a generic
+frame or a length of an ordinary power filtration.
+\(\square\)
+
+If \(W\) is Gorenstein, the duality in §5 and the
+[saturated pairing proof](#2-direct-proof-of-the-saturated-duality-and-effective-defects)
+give \(D_i+D_{c-1-i}=D_{\rm top}\). Thus (CF1) also equals
+\[
+ (c-k)(\Theta_k-D_k)+kD_{\rm top}-2\sum_{i<k}D_i.
+\]
+For \(k=1\), \(\Theta\) is the zero divisor of the
+map from the free normal direction \(L^\vee\subset N_{T/X}\)
+to \(\mathcal O_T(J)\); it measures tangency of that direction
+to the cutting divisor, including orders.
+
+**Residual interpretation on a smooth cutting surface.**
+Suppose now \(W\) is an actual proper CI of two Cartier
+divisors, \(J\) is smooth, and neither divisor contains \(J\).
+The restrictions of the two equations to \(J\) have divisorial
+gcd exactly \(kT\) (at the generic point their local length
+on the surface is \(k\), and sole support excludes other curves).
+Divide both by its canonical equation. Their remaining
+intersection is a finite scheme \(Z\) supported on \(T\).
+Locally the original ideal on \(J\) is
+\(h^k(f',g')\), where \(h\) cuts \(T\).
+Multiplication by \(h^k\) gives
+\[
+ 0\longrightarrow \mathcal O_Z(-kT)
+ \longrightarrow\mathcal O_{W\cap J}
+ \longrightarrow\mathcal O_{kT}\longrightarrow0 .
+\]
+Since \(kT\) is a pure Cartier divisor on the smooth surface,
+\(Z\) accounts for exactly the punctual torsion. Hence CF1
+computes its intersection-length divisor on \(T\). For \(k=1\)
+and at a primitive point of \(W\), the residual intersection
+length is a multiple of \(c-1\), with nonzero value precisely
+at tangency points. When the divided equations are binary
+forms on a ruled surface over \(T\), their relative resultant
+is the pushforward of this finite intersection-length divisor,
+with residue degrees. CF1 is therefore a pointwise resultant
+identity in that setting, not merely the corresponding
+intersection number. The usual resultant/finite intersection
+comparison follows from the divisor of the determinant of
+the Sylvester map, or the standard local intersection
+formula; see Busé–Khalil–Mourrain,
+[*Resultant-based methods for plane curves*, §3.1](https://hal.science/inria-00100288).
+The saturated-flag identity is the argument above, not a
+theorem attributed to that source.
+
+### Residual-corrected version of the finite modification formula
+
+The general strict saturated-flag comparison below does not
+require Gorensteinness. If both thickenings in that comparison
+are full primary components of actual Gorenstein CIs, write
+\(H_{\pm,0}\) for their marked attachment divisors and
+\(H_\pm\) for the zero-cycles of their full thick attachment
+lengths (zero for sole support). Then LA3 in the
+[full-primary attachment account](../residuals/layerwise_attachment_and_triples.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component)
+substitutes into the determinant formula to give
+\[
+ \frac2c B_f=(c-1)\Xi+
+ (D_{+,\rm top}-H_{+,0})-(D_{-,\rm top}-H_{-,0})
+ +\frac{H_+-H_-}{c}.
+\]
+This is a pointwise identity of length divisors. It does not
+identify the two residuals or require the ambient surfaces
+themselves to be finite modifications. The
+[interior equality-boundary application FT1--FT2](../residuals/first_graph_finite_transfer.md#signed-finite-transfer-throughout-the-interior-equality-boundary)
+uses adjunction to compute the combined finite-quotient
+and thick-attachment contribution on the image quintic
+and conic in \(V_5\). Thus the previous sole-support
+image hypothesis is replaceable by the actual attachment
+correction on its full primary component. The local canonical ideal formula FT3 identifies the
+actual colon \((K:B)\) with the strict exceptional
+power times \(B\), rather than just bounding its
+length. This connects the curve-conductor and
+attachment duality frameworks under one actual
+finite-modification hypothesis. The scope
+and new applications were covered by the scoped correctness review above.
+
+### Finite birational modification of a curvilinear thickening
+
+Suppose \(f:W_+\to W_-\) is a finite morphism of pure CM
+thickenings of the same smooth curve \(T\), inducing the
+identity on \(T\) and an isomorphism of the generic algebras
+of common curvilinear length \(c\). Both schemes may be
+embedded in different smooth threefolds, and are not
+assumed to have a global retraction onto \(T\).
+Purity gives the injection
+\(\mathcal O_{W_-}\to f_*\mathcal O_{W_+}\).
+Let \(B_f\) be its punctual cokernel-length divisor.
+The induced map of free first normal layers
+\(L_-\to L_+\) has zero divisor \(\Xi\).
+Using the two saturated flags, for every \(0\le i<c\)
+the induced line-bundle map has divisor
+\[
+ i\Xi+D_{+,i}-D_{-,i}\ \ge 0.                            \tag{CF3}
+\]
+Indeed membership in the saturated flag is detected by
+the common generic algebra. The first-layer symbols
+of a local generator multiply to the corresponding
+\(i\)-th powers, and comparing these with saturated
+generators proves the asserted divisor. The map is
+strict for the flags by generic detection. Summing
+the cokernel lengths gives
+\[
+ B_f=\binom c2\Xi+\sum_i(D_{+,i}-D_{-,i}).
+\]
+If both thickenings are Gorenstein, their saturated duality
+therefore gives the pointwise identity
+\[
+ \boxed{\frac{2}{c}B_f=(c-1)\Xi+
+                     D_{+,\rm top}-D_{-,\rm top}.}       \tag{CF4}
+\]
+This works with actual finite modifications, not arbitrary
+deformations or two different generic algebras. Neither
+\(B_f\) nor \(\Xi\) is the conductor divisor of a normalized
+surface. This is a new comparison of the finite curve
+algebras and their genuine socle defects.
+
+Applications to the two presentations of the first graph
+are in [the exceptional-cut and marked-point comparison](../residuals/first_graph_finite_transfer.md#socle-defects-on-the-two-presentations-of-the-first-graph).
+
+The [marked line and full finite-modification lattice ML1--ML8](../residuals/marked_line_local_geometry.md#the-marked-line-excludes-primitivity-at-the-mixed-sextic-boundary)
+give an actual realization-sensitive application of CF4. In the transverse
+conic-blowup situation with length \(c=2pq\), primitivity on the graph
+at the marked point forces the image algebra to have an explicit
+\(k[[x]]\)-basis with determinant length \(pq(q-1)\).
+When \(q=2\), the entire completed algebra is
+\(k[[x]][w^2,xw]\subset k[[x]][w]/(w^{4p})\);
+its saturated multiplication defects are exactly
+\(D_j=2\lfloor j/2\rfloor\) at the point. Thus the top divisor
+does not generally determine the whole filtration, but this
+specific geometric modification does. The actual carrier equation
+has a local index dichotomy (two or \(4p\)) in the
+generically regular stratum. More importantly the marked line in
+the actual \(V_5\) source excludes primitivity at the marked point
+for every mixed \((6,4q;2,q)\) pair. The proof uses the
+actual trace and the restriction degree of a line, and does
+not require the smaller carrier normal.
+All these applications were covered by the scoped correctness review above.
+
+In the opposite [smooth image-carrier marked stratum SM1--SM2](../residuals/smooth_marked_image_geometry.md#the-opposite-marked-stratum-a-smooth-image-carrier-and-a-forced-graph-defect),
+the exact graph algebra is \(xv=t^{2p},v^q=0\),
+with saturated multiplication defects
+\(D_k=\lfloor k/(2p)\rfloor\), and the image
+algebra is primitive at the marked point.
+Thus the finite modification can either create
+or remove graph defects; the actual orientation
+of the free normal line matters. Smoothness
+at the marked point also gives a genuine
+degree-two image-mate descent to the original
+degree-four mate, excluded in characteristic zero.
+The all-order interpolation version of the
+marked-line theorem excludes marked primitivity
+for mixed \((3p,4q)\) when \(p\le q\), not just
+the degree-two image carrier.
 
 ## 6. What the spectral sequence adds, and what it does not
 

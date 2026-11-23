@@ -221,32 +221,47 @@ hypersurface is Cohen–Macaulay and regular in codimension one, hence normal.
 Two independent members in this open set give the same original thick
 intersection with both carriers normal.
 
-On either normal sextic \(S\), the mate cuts the Cartier divisor
+On either such normal sextic \(S\), the mate cuts the Cartier divisor
 \[
- \operatorname{div}_S(K)=9C_0,\qquad 9C_0\sim6H_S.
+ 9C_0\sim6H_S,\qquad C_0^2=\frac{16}{6}=\frac83.
 \]
-Every actual on-curve local Cartier index therefore divides nine. Its
-possibilities are \(1,3,9\), and at least one is nine: otherwise
-[R-0035](../../results/normal_carrier_bounded_index_exclusion.md) would exclude
-this normal integral carrier with its actual supported mate. That theorem requires no ADE hypothesis; its stated characteristic-zero scope is
-retained here.
-
-There is also a concrete torsion class to retain:
+This is exactly the **Hodge equality** in the
+[all-degree normal-carrier existence theorem](normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface),
+not merely a necessary numerical approximation.
+Let \(R\) be the lcm of the actual on-curve Cartier indices.
+The [exact local-index theorem](normal_carrier_symbolic_torsion.md#3-exact-index-formula-on-every-normal-c0-carrier)
+gives \(R\mid9\), \(6\mid16R\), and
 \[
+ t=\frac{R}{\gcd(R,3)},\qquad b_{\min}=2t.
+\]
+Thus \(3\mid R\). If \(R=3\), then \(t=1\) and an
+actual quadric mate exists, impossible by the unique-quadric
+class calculation. Therefore
+\[
+ \boxed{R=9,\qquad b_{\min}=6,\qquad
  \Delta=3[C_0]-2[H_S]\in\operatorname{Cl}(S)
- \quad\text{has exact order three.}
+ \text{ has exact order }3.}
 \]
-The mate gives \(3\Delta=0\). If \(\Delta=0\), the effective divisor
-\(3C_0\sim2H_S\) would supply a section of \(\mathcal O_S(2)\) with
-sole support \(C_0\). It lifts to an ambient quadric because
-\(H^1(\mathbf P^3,\mathcal O(2-6))=0\), contradicting the no-quadric-mate
-argument. This is a class in the Weil divisor class group, not an assertion
-that \(3C_0\) is Cartier.
+Since each \(r_P\mid9\), at least one singular point
+**on \(C_0\)** has actual local index nine. No
+ADE hypothesis or singularity classification is used.
+The nonzero class \(\Delta\) forces the **connected
+quasi-étale triple cover** studied below. This is the
+sextic specialization of the same index/torsion mechanism
+that forces a double cover for normal \((5,8)\) candidates.
 
-Independent reconstruction accepted this pencil and index reduction,
-including factor support, repeated factors, Bertini's exact use, Serre's
-normality criterion, the nonzero order-three class, and the bounded-index
-theorem's hypotheses. It leaves
+The [unified all-degree normal replacement](normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) (independently reconstructed on November 23, 2026 at its linked owner) explains why this normality argument is not limited to sextics or to degrees below ten. The present independently reviewed special proof is retained; its graph-bound input remains essential to the unconditional (6,6) reduction.
+
+The equal-degree normal-pencil reduction is indispensable:
+the Hodge/index criterion applies to this chosen normal
+sextic member, not to every possible special member
+or to a generic-singular carrier in arbitrary degree.
+Independent reconstruction of the original pencil reduction accepted
+factor support, repeated factors, Bertini's exact use, Serre's
+normality criterion and the nonzero order-three class. The present
+replacement of the **index calculation** is a direct application
+of the independently reviewed all-degree normal-carrier theorem;
+no new sextic classification is inferred. It leaves
 an actual normal sextic with an index-nine point and one of the defect
 profiles above as the remaining characteristic-zero target. It does not
 classify the singularities or exclude that target. In particular, no
@@ -268,51 +283,50 @@ The connected normal cyclic cover \(\pi:Y\to S\) associated with
 These statements concern the normal covering surface itself, not a
 resolution. No rational-singularity or ADE hypothesis is imposed.
 
-To compute the eigensheaves, put \(I_i=\mathcal O_S(-iC_0)\).
-They are rank-one reflexive sheaves, hence maximal Cohen–Macaulay on
-the normal surface. Since \(I_9=\mathcal O_S(-6H_S)\), the quotient
-\(I_i/I_9\) inside \(\mathcal O_Z\) has the generic stalk of the
-\(i\)-th nilradical power and a pure quotient. It is exactly its
-saturation. Moreover \(I_C I_i\subset I_{i+1}\), and
-\(I_i/I_{i+1}\) is pure of rank one on \(C_0\); thus it is the
-previously defined line bundle \(E_i\), including at every defective
-point. This identification incurs no unknown punctual correction.
+**Use the general cyclic-cover Euler identity**, rather than a
+separate sextic computation. The
+[all-degree normal-carrier formula (CE1)--(CE4)](normal_carrier_divisor_geometry.md#35-a-single-cyclic-cover-euler-formula-for-all-normal-carrier-degrees)
+applies with
+\[
+ (a,\mu,v,t_{\mathrm{cover}})=(6,3,2,3),\qquad
+ \Delta=3C_0-2H_S,\qquad 9C_0\sim6H_S.
+\]
+Here \(t_{\mathrm{cover}}=3\) is the torsion order;
+it must not be confused with the divisor degree
+\(t=\deg T=4l-17\) used above. The normalized
+Kummer cover has the **exact** decomposition
+\[
+ \pi_*\mathcal O_Y
+ =\mathcal O_S\oplus\mathcal O_S(\Delta)
+                  \oplus\mathcal O_S(2\Delta).
+\]
+This is the normal cyclic-cover construction of
+[Ambro, §4, Lemmas 4.1--4.2](https://arxiv.org/abs/1310.3951),
+not an unnormalized formal root cover.
 
-The sextic hypersurface formula and the curve layers give, for every
-integer \(n\),
+The key point is that the reflexive divisorial layers
+\(I_i=\mathcal O_S(-iC_0)\) satisfy
+\(I_i/I_{i+1}=E_i\), with **no extra punctual term**:
+the quotient is pure of generic rank one on the smooth
+\(C_0\), hence a line bundle. Using
 \[
  \chi(\mathcal O_S(nH_S))=3n^2-6n+11,\qquad
- \chi(E_i(nH_S))=-il+\deg D_i+4n+1.
+ \chi(E_i(nH_S))=-il+\deg D_i+4n+1,
 \]
-Use \(\Delta\sim4H_S-6C_0\) and
-\(2\Delta\sim2H_S-3C_0\), which follow from \(9C_0\sim6H_S\).
-The divisorial filtrations then yield
+with the exact saturated profile
+\((D_0,\ldots,D_8)=(0,0,A,B,T,2T-B,2T-A,2T,2T)\),
+the general identity gives
 \[
-\begin{aligned}
  \chi(\mathcal O_S(\Delta))
- &=35+\sum_{i=6}^8\chi(E_i(4H_S))
-   =86-21l+6t-a_2=3l-16-a_2,\\
- \chi(\mathcal O_S(2\Delta))
- &=83+\sum_{i=3}^8\chi(E_i(2H_S))
-   =137-33l+9t-a_2=3l-16-a_2.
-\end{aligned}
+ =\chi(\mathcal O_S(2\Delta))=3l-16-a_2,
+ \qquad
+ \chi(\mathcal O_Y)=6l-21-2a_2.
 \]
-
-Choose a Weil representative of \(\Delta\) and a rational function
-whose divisor is three times that representative. Exact order three
-makes its Kummer extension a field of degree three. The normalized
-cover has the exact eigensheaf decomposition
-\[
- \pi_*\mathcal O_Y=
- \mathcal O_S\oplus\mathcal O_S(\Delta)\oplus\mathcal O_S(2\Delta).
-\]
-This is the integral-divisor case of
-[Ambro, §4, Lemmas 4.1–4.2](https://arxiv.org/pdf/1310.3951).
-The normalization is already included in this formula. Equivalently,
-the reflexive cyclic algebra is \(S_2\) and is normal in codimension
-one by the unramified Kummer calculation. Adding the three Euler
-characteristics proves the asserted \(\chi(\mathcal O_Y)\).
-
+This **replaces** the two separate
+degree-six eigensheaf Euler calculations:
+it is the specialization of the same formula
+that applies to normal quintic double covers.
+No ADE hypothesis is needed.
 The cover is étale in codimension one. The resulting equality
 \(\omega_Y=\pi^*\omega_S\) extends across the remaining finite set
 by reflexivity. Since \(\omega_S=\mathcal O_S(2H_S)\), the cover is
@@ -334,13 +348,15 @@ on \(q(Y)\) has been obtained. In particular a smooth-surface or
 rational-singularity inequality must not be applied to \(Y\) without
 establishing its hypotheses.
 
-Independent reconstruction accepted the divisorial-layer identification,
-both Euler computations, exact normalized-cover eigensheaves, canonical
+Independent reconstruction accepted the original divisorial-layer identification,
+both Euler values, exact normalized-cover eigensheaves, canonical
 pullback and irregularity bound. It covered arbitrary normal singularities
 and retained the distinction between \(Y\) and a resolution. This is
 reviewed necessary evidence, not an exclusion of the cover.
 
 ## The common first-normal divisor must be nonreduced
+
+The [uniform reduced-gcd ADE and rank test](normal_carrier_divisor_geometry.md#reduced-common-first-normal-divisor-a-uniform-marked-ade-and-rank-test) extracts the general mechanism below in arbitrary degrees, including new congruence consequences. That extension was independently reconstructed on November 23, 2026 at its linked owner; this previously reviewed proof remains the actual sextic exclusion.
 
 In characteristic zero, **no supported sextic pair has reduced common
 first-normal divisor**. This is a restriction on every pair, rather than

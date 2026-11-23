@@ -925,6 +925,85 @@ On a smooth auxiliary surface Q, let h cut out C and write F|Q=h rho, G|Q=h sigm
 
 **Assessment: PASS conditional on finite-flat curvilinearity, saturated invertible order quotients, nonzero generic first class of q, and proper residual intersection.** The identity is one of zero-cycles. It neither asserts scheme equality nor survives an improper residual intersection without a separate correction.
 
+### Residual-corrected R0019 and the actual equation source
+
+The earlier R0019 proof immediately above is the \(R=0\)
+case of the [proper-cut identity LA5--LA6](../residuals/layerwise_attachment_and_triples.md#cutting-the-residual-pair-rather-than-just-its-primary-part).
+For a **full actual generically curvilinear primary** \(T\)
+of multiplicity \(m\) inside a proper CI \(Y=T\cup R\),
+and a smooth auxiliary Cartier surface \(Q\) containing
+\(C\), cutting the generic primitive normal direction
+once and containing no residual curve,
+\[
+ \boxed{\quad
+ [\operatorname{tors}\mathcal O_{Y\cap Q}]
+ -[R\cap Q]
+ =(m-1)\Theta+D_{m-1}-H_0,\quad H_0=C\cap R.
+ \quad}                                                  \tag{R19+}
+\]
+The proof does **not** extend R0019 by applying
+the same multiplication determinant to a scheme
+with genuine residual curves: the actual
+union sequence and annihilator of the cut
+subtract the first attachment layer \(H_0\).
+The characteristic-free identity depends on
+the full primary, proper auxiliary cut and
+generic curvilinearity, and does not assert
+a universal positive lower bound. In
+particular the signed top divisor is not
+an independent nonnegative contact invariant;
+one must keep the actual \(R\cap Q\).
+
+For the entire classified fixed-quartic arrangement
+family, the independent
+[actual quadric cut TS4](../torus/fixed_carrier_chow_arrangements.md#a-fixed-auxiliary-quadric-detects-the-same-punctual-defect-at-every-collision)
+gives \(3(N-3)p_0+(N-1)p_\infty\),
+independent of the collision partition.
+The explicit [\((4,6)\) triple TS5--TS7](../torus/fixed_carrier_chow_arrangements.md#an-actual-non-lci-curvilinear-triple-the-conormal-torsion-is-visible)
+simultaneously exhibits \(D_2=2p_0\),
+non-lci conormal torsion length two,
+reduced attachment \(7p_0+9p_\infty\),
+and the directly computed proper-cut
+torsion \(9p_0+5p_\infty\).
+Thus R19+ is checked by an actual
+homogeneous pair, including a primary
+that is *not* lci at an endpoint.
+The equality \(D_2=\tau\) is specific to
+the example; no general comparison
+between those distinct defect modules
+is asserted.
+
+R0019 still needs the same source and
+properness hypotheses for its resultants.
+The corrected identity supplies a reusable
+generalization when residual curves are
+present; it does not show that every formal
+or first-relation defect becomes an
+attachment. New applications pending
+independent review.
+
+For full-primary **triples** the [BF triple and actual-pair attachment TR1--TR4](../residuals/layerwise_attachment_and_triples.md#triples-the-full-attachment-has-only-two-independent-divisors) strengthens the residual-corrected R0019 account: the saturated normal defect \(D_2\) is exactly the primary conormal-torsion divisor by Bănică--Forster's local normal form and Hilbert--Burch. The actual two-equation determinant supplies the other contribution \(\eta\), and the attachment layers are \((D_2+\eta,\eta,D_2+\eta)\). This is a level of resolution stronger than the generic-length-independent residual-cut identity, but specific to quasiprimitive triples. It does not assert R0016's nonsaturated first-relation defect is \(\tau\) or \(\eta\).
+
+In multiplicity three there is an
+extra simplification of R19+: by
+[TR7](../residuals/layerwise_attachment_and_triples.md#triple-determinant-recovery-from-an-actual-auxiliary-cut)
+the proper-cut divisor satisfies
+\(B_Y-[R\cap Q]=2\Theta-\eta\).
+The actual primary equation determinant
+\(\eta\) is therefore recovered from
+a proper cut and tangency without
+computing its conormal torsion
+independently; \(\tau=D_2\) then
+recovers reduced attachment.
+In the global toric \((4,6)\)
+triple this gives the verified
+\(5p_0+9p_\infty\).
+For the classical lci quadruple
+with \(D_2=D_3>0\) the term
+\(D_3\) remains in the cut identity.
+The cancellation is genuinely
+triple-specific.
+
 ### 3. Remaining scope boundaries
 
 These checks validate the two logical interfaces but do not independently re-run all Macaulay2/Python calculations or prove that an arbitrary characteristic-zero STCI has the quasiprimitive filtration of R0019. In R0016, the nonsaturated resultant identity is proved by its separately audited duality and local flatness lemmas; R0010 serves as the saturated comparison and R0011 supports only the repeated-root strengthening.

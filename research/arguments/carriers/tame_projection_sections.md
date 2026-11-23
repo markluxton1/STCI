@@ -77,6 +77,148 @@ At infinity use \(x=x_2/x_3\), \(z=x_0/x_3\), and the reduced parameter
 \(s/t\). The identical argument proves the other endpoint bound.
 Uniqueness makes the two sections agree on the overlap.
 
+
+## The canonical projection order
+
+**Scoped independent reconstruction (November 23, 2026).** The order construction,
+normalization sequence, splitting and both bounds below were independently
+checked against the actual finite-cover hypotheses. The rational section above
+has a canonical saturated order inside the actual finite algebra. This
+packages the two endpoint failures into one global object rather than two
+separate pole calculations.
+
+Put \(K=k(B)\).  Extend the unique section on \(B^\circ\) to the generic
+point,
+\[
+ \sigma_K:\mathcal R_K\hookrightarrow\mathcal E_K,
+\]
+and define, sheafwise on \(B\),
+\[
+ \boxed{\mathcal A=
+ \mathcal E\cap\sigma_K(\mathcal R_K)\subset\mathcal E_K.}
+ \tag{4a}
+\]
+Equivalently, \(\mathcal A\) is the saturation in \(\mathcal E\) of the
+image of \(\mathcal R|_{B^\circ}\).  Then:
+
+1. \(\mathcal A\) is a finite locally free rank-four
+   \(\mathcal O_B\)-subalgebra of \(\mathcal E\), equal to
+   \(\sigma(\mathcal R)\) over \(B^\circ\).
+2. Reduction \(\rho:\mathcal E\twoheadrightarrow\mathcal R\) restricts
+   injectively to \(\mathcal A\).  Via this map,
+   \[
+      \mathcal O_B\subset\mathcal A\subset\mathcal R,
+      \qquad
+      \mathcal R/\mathcal A
+      \text{ is supported on }\{0,\infty\}.             \tag{4b}
+   \]
+3. If
+   \[
+      \delta=\operatorname{length}_B(\mathcal R/\mathcal A),
+   \]
+   then the finite curve \(C_{\mathcal A}=\operatorname{Spec}_B\mathcal A\)
+   is an integral rational curve whose normalization is \(C\), and
+   \[
+      \boxed{p_a(C_{\mathcal A})=\delta.}                \tag{4c}
+   \]
+4. For every hypothetical supported complete intersection with
+   \(a,b\ge2\),
+   \[
+      \boxed{1\le\delta\le6(m-1).}                       \tag{4d}
+   \]
+
+Here the lower bound is the global missing-section obstruction in a
+normalization/order form; it is not a new STCI exclusion.  The upper bound
+is the endpoint pole theorem above.
+
+**Proof.**  On the smooth base curve, the intersection in (4a) is a
+coherent torsion-free lattice of rank four, hence locally free.  It contains
+the unit and is closed under multiplication because both
+\(\mathcal E\) and \(\sigma_K(\mathcal R_K)\) are subalgebras of
+\(\mathcal E_K\).  Since
+\(\rho_K\circ\sigma_K=\mathrm{id}_{\mathcal R_K}\), the kernel of
+\(\rho|\mathcal A\) is generically zero.  Torsion-freeness makes it zero
+everywhere, proving (4b).  The identified algebra is a subalgebra of the
+normal integral algebra \(\mathcal R\) with the same function field and is
+equal to it away from the two marked points.  Thus
+\(C\to C_{\mathcal A}\) is its finite normalization.  This is the standard
+normalization/order situation; compare
+[Stacks, normalization](https://stacks.math.columbia.edu/tag/0BXR).
+
+The normalization sequence
+\[
+ 0\longrightarrow\mathcal A\longrightarrow\mathcal R
+ \longrightarrow\mathcal Q\longrightarrow0,
+ \qquad \operatorname{length}\mathcal Q=\delta,
+\]
+has \(\chi(\mathcal R)=\chi(\mathcal O_C)=1\).  Since
+\(C_{\mathcal A}\) is integral and proper,
+\(H^0(C_{\mathcal A},\mathcal O)=k\), so
+\(\chi(\mathcal A)=1-\delta\) gives (4c).  This is the usual
+normalization-defect formula for the arithmetic genus.
+
+For the lower bound, first determine the fixed reduced algebra bundle.
+Projection formula and the degree-four map give
+\[
+ \mathcal R=f_*\mathcal O_C
+ \simeq\mathcal O_B\oplus\mathcal O_B(-1)^{\oplus3}.    \tag{4e}
+\]
+Indeed the unit splits off \(\mathcal O_B\): in the present
+characteristic \(4\) is invertible, so one quarter of the finite-cover trace
+is an \(\mathcal O_B\)-linear retraction onto the unit summand.
+Moreover
+\(\deg\mathcal R=\chi(\mathcal O_C)-4\chi(\mathcal O_B)=-3\), while
+\(h^0(\mathcal R)=1\) forces the remaining three summands to have negative
+degree.  Their degrees therefore sum to \(-3\), so each is \(-1\).
+Hence
+\[
+ \deg\mathcal A=\deg\mathcal R-\delta=-3-\delta.        \tag{4f}
+\]
+On the other hand the actual CI cover has
+\[
+ \mathcal E\simeq
+ \bigoplus_{0\le i<a,\ 0\le j<b}\mathcal O_B(-i-j).
+\]
+For \(a,b\ge2\), the four largest summand degrees are
+\(0,-1,-1,-2\).  Since
+\(\det\mathcal A\hookrightarrow\bigwedge^4\mathcal E\), and the largest
+line-bundle degree occurring in that exterior power is \(-4\),
+\[
+ \deg\mathcal A\le-4.
+\]
+Together with (4f) this gives \(\delta\ge1\).  Equality
+\(\delta=0\) would be exactly a regular algebra section and hence the
+pencil-compatible retraction already excluded by the missing fifth
+hyperplane section.
+
+For the upper bound, work at either marked point with base uniformizer
+\(z\) and normalized basis \(1,t,t^2,t^3\) of \(\mathcal R\).  Equations
+(2)--(3) show
+\[
+ 1,\quad z^{m-1}t,\quad z^{m-1}t^2,\quad z^{m-1}t^3
+ \in\mathcal A
+\]
+under the identification (4b).  The sublattice generated by these four
+elements has index \(3(m-1)\) in \(\mathcal R\).  Therefore the local
+normalization defect is at most \(3(m-1)\) at each end, giving
+\(\delta\le6(m-1)\).
+
+The conductor
+\[
+ \mathfrak c=\operatorname{Ann}_{\mathcal A}
+             (\mathcal R/\mathcal A)
+\]
+is a canonical ideal equal to \(\mathcal A\) away from the endpoints.
+The finite-length quotients \(\mathcal A/\mathfrak c\) and
+\(\mathcal R/\mathfrak c\), and the finer elementary divisors,
+may retain information lost by the scalar
+\(\delta\).  No bound here connects them to residual projective support;
+the local model below shows that large endpoint pole defects are compatible
+with local complete intersections.  The value of \(\mathcal A\) is instead
+that it is one global algebra built from the same actual pair and both
+endpoints, so any future comparison with the two equation filtrations has
+a canonical target.
+
 ## A local complete intersection with the full pole order
 
 For \(m\ge2\), let

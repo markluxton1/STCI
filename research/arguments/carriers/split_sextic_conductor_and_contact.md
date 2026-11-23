@@ -72,6 +72,8 @@ iterate the same fractionality argument.
 
 ### P-020: the split-sextic branch has only two extreme numerical types
 
+**General mechanism (independently reconstructed on November 23, 2026 at the linked numerical-pullback owner).** The [normalized branch matrix from the actual first graph](numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) recovers both surviving P-020 ratios and their mixed numerical intersection for arbitrary two-branch carriers without vertical first-normal fibers. The slope threshold here is (5/3), and the relevant Hodge vector has negative square (20/3). A single horizontal root, even an irreducible quadratic multisection or a repeated section, also requires substantial vertical content; the new all-mate bound is at least seven (at least eight for a repeated section). The split calculation below remains useful for its explicit equation sources and local correction geometry.
+
 Let
 
 \[
@@ -376,6 +378,8 @@ A large \(d=1\) chart has the same behavior.  The full projective space of
 
 
 ### P-030: residual-root multiplicities in the split sextic cases
+
+The [two-row Cartier cluster test](numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) gives an all-degree version of this mechanism for no-vertical two-branch carriers on the full degree-(3p) boundary. It recovers the split-sextic partitions directly from actual Cartier intersections with the full clusters, and gives an integer matrix condition for more than two branches. For every degree-\(3p\) carrier with exactly two degree-one inverse branches and no vertical first-normal fibers, the low slopes \(0,1\) force ruling partitions \([2p]\) or \([2p],[p,p]\), and low-branch squares \(9/(2p)\) or \(26/(5p)\), neither integral. The Cartier-branch obstruction is thus an all-order theorem, with explicit normalization-index divisibility. The higher-order non-Cartier cases remain. The independently audited Hodge-geometric proof below is retained; the generalization was independently reconstructed on November 23, 2026 at the linked numerical-pullback owner.
 
 Assume the split/no-vertical hypotheses of P-020 and P-023.  Let
 \(K_i\) be the full Cartier cluster lying over a distinct root of the residual

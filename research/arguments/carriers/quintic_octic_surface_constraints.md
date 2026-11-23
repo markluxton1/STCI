@@ -27,6 +27,23 @@ an instance of the normal-carrier theorem.
 
 ## 1. Filtration data and the three numerical rows
 
+**Uniform normal-carrier reduction (the actual shortest proof entry).**
+For a normal quintic \(S\) occurring in a hypothetical \((5,8)\)
+pair, the [all-degree Hodge equality and index theorem](normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface)
+already gives \(C^2=16/5\), on-curve local-index lcm
+\(R=10\), exact order-two class \(5C-4H\), and the
+required crepant correction \(46/5\) if \(S\) is ADE.
+The [strong ADE exclusion](quintic_octic_ade_cover_and_triple.md#3-the-forced-double-cover-and-its-canonical-map)
+uses that forced **quasi-étale double cover** with the
+actual symbolic triple; it is the primary theorem proof.
+The following reduced-symbol/exceptional-lattice calculation
+is an *independent geometric explanation of a surviving
+numerical equality*, not an extra case required to prove
+the already stronger ADE theorem. In particular its
+surviving \(4A_1+9A_4\) row has exact lcm \(10\) and
+saturates the same correction \(46/5\), but fails
+the integral even-node cover condition.
+
 The inputs are [R-0001](../../results/quartic_carrier_exclusion.md) and its factor/lower-degree reduction, [R-0020](../../results/quartic_conormal_characteristic_jump.md), and the ordinary curvilinear-layer and socle identities of [R-0034](../../results/normal_carrier_index_socle.md). The [ordinary-layer/lattice proof](../normal-geometry/curvilinear_genus_and_defects.md#normal-torsion-spectral-genus-budget) identifies torsion-free ordinary layers with powers of the first quotient and proves the pointwise socle/torsion relation. This is ordinary normal-layer torsion, not the filtered-equation comparison invariant of R-0030.
 
 Bézout gives transverse length \(m=40/4=10\), and complete-intersection adjunction gives \(\omega_Y=\mathcal O_Y(9)\), \(p_a(Y)=181\). The quintic is integral by the accepted factor reduction and has a nonzero first normal symbol by §2, so it is smooth at the generic point of C. Its equation supplies one ambient normal parameter there; the generic length-ten transverse algebra is therefore curvilinear. Thus no additional generic-curvilinearity hypothesis is needed for the actual supported pair. The following identities still concern that specific generic algebra, rather than arbitrary length-ten plane algebras. Write \(K=I_C\mathcal O_Y\),
@@ -267,6 +284,32 @@ The actual integral divisor relation eliminates it as follows.
 
 ### 4.2 The actual divisor relation forces an even set
 
+**Shortest contradiction, now using the general normal-cover
+framework.** The sole rank-surviving reduced-symbol row
+\(4A_1+9A_4\), with \(q=7\), already forces the
+nontrivial index-two class \(\Delta_5=5C-4H\).
+Its connected normalized double cover has local exceptional
+contribution \(w=4\): each of the four \(A_1\) points
+contributes one and the \(A_4\) points, of odd
+local index five, contribute zero. The
+[quintic cover's canonical-map bound](quintic_octic_ade_cover_and_triple.md#3-the-forced-double-cover-and-its-canonical-map)
+requires \(w\ge16\). Thus this numerical row is
+**already excluded**, without needing to derive an
+additional even-set relation. In the
+[all-degree Euler formulation](normal_carrier_divisor_geometry.md#35-a-single-cyclic-cover-euler-formula-for-all-normal-carrier-degrees),
+it would have \(\chi(\mathcal O_Z)=10-w/4=9\)
+and \(K_Z^2=10\), violating that canonical-map
+bound after ADE resolution. This is the primary
+**shorter proof**, conditional on using the independently
+proved full ADE cover theorem.
+
+**Independent integral-Picard explanation (retained).**
+The following even-node construction gives a different
+geometric reason the same row cannot occur. It remains
+useful as a model of a Picard-integrality obstruction,
+but is *no longer necessary for the shortest
+quintic ADE exclusion*.
+
 Let \(\pi:X\to S=V(F_5)\) be the minimal resolution, let H denote the
 pulled-back hyperplane class, and write \(\widetilde C\) for the strict
 transform of C. The actual octic cuts the Cartier divisor \(10C\), so
@@ -300,7 +343,7 @@ nodes form an even set in the Picard group. Exceptional curves over points
 away from C have coefficient zero in the pullback of \(10C\); they do not
 enter (11).
 
-The obstruction now concerns this integral Picard relation, rather than the rank of the root lattice. The following general lemma completes the argument and separates its reusable surface mechanism.
+The obstruction now concerns this **integral Picard relation**, rather than the rank of the root lattice: the row has already saturated the general Hodge correction and exact index requirements. The following general lemma completes the independent reduced-symbol argument and isolates the genuinely additional global condition.
 
 ### 4.3 An even-node budget from a branched double cover
 

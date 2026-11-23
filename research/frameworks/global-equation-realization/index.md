@@ -7,7 +7,7 @@ scope: "#scope"
 bridges: "#bridges"
 relations:
   - kind: uses
-    from: [STCI-R-0076, STCI-R-0077, STCI-R-0078]
+    from: [STCI-R-0076, STCI-R-0077, STCI-R-0078, STCI-R-0080, STCI-R-0081]
     to: [STCI-F-0006]
     at: "#bridges"
 ---
@@ -23,6 +23,18 @@ The fundamental object is the labelled map
 \(\mathcal O_{\mathbf P^3}(-a)\oplus\mathcal O_{\mathbf P^3}(-b)\to I_{C_0}\)
 whose components are the equations. Its image must define a proper complete intersection and have no residual support if the goal is STCI. The [Sylvester Hom identity](../../arguments/equations/chow_bundle_maps.md#the-prescribed-sylvester-bundles-already-retain-the-equations) recovers forms directly from a map of the prescribed bundles; the required nonzero Chow-power determinant is still an existence condition. The [complement calculation](../../arguments/equations/complement_section_obstructions.md) distinguishes the checked continuous and primary algebraic conditions from actual homogeneous section realization. The [Chow/bundle and complement criteria](../../arguments/equations/global_equations_and_constructions.md#geometric-orientation-the-locus-of-globally-presented-multiple-curves) are equivalent formulations or necessary shadows only when their stated hypotheses hold; a cycle identity or a section on the complement does not by itself provide homogeneous lifts with the required base locus.
 
+## Two growing-degree Jacobian memberships give exact support
+
+In characteristic zero, the [relative Jacobian criterion](../../results/jacobian_radical_support.md)
+gives \(J:D=\sqrt J\) for every proper pair missing the fixed projection
+center, with \(D=F_{x_1}G_{x_2}-F_{x_2}G_{x_1}\). For equations through the
+quartic, sole support is exactly the two memberships \(QD,UD\in J\),
+where \(Q=x_0x_3-x_1x_2\) and \(U=x_0^2x_2-x_1^3\). Their cofactor
+identities have degrees \(a+b\) and \(a+b+1\). This is an economical
+actual-source formulation; an obstruction still needs information forcing
+one of these two classes to survive. The source-dependent Jacobian grows
+with both equations, so this criterion is outside a fixed finite-jet test.
+
 ## Interfaces
 
 [Formal normal geometry](../formal-normal-geometry/index.md) concerns local
@@ -32,6 +44,20 @@ requires full inverse support and conductor descent; and
 cycles. None alone supplies a proper homogeneous pair with sole support.
 [Projection and liaison](projection_and_liaison.md) studies supported ACM
 sources and section defects.
+
+**A complete fixed-carrier realization theorem takes precedence over the generic lifting discussion.** For an integral carrier \(X\subset\mathbf P^3\) regular at the generic point of the smooth curve \(C\), the [normalized Hodge/APic criterion](../../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) states that a sole-support mate exists exactly when the actual downstairs almost-Cartier index \(R_X\) is finite and the normalized strict transform has numerical square \(e^2/a\) (\(e=\deg C,a=\deg X\)). This includes nonnormal carriers and arbitrary characteristic. The exact minimum mate degree is \(eR_X/a\); all multiples occur by taking powers. The [normal-carrier extremal-ray theorem](../../arguments/carriers/normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface) is its specialization. There is no separate homogeneous lifting gate once both conditions hold: the Cartier class is a hyperplane multiple and its section lifts. The broader deduction was independently reconstructed on November 23, 2026, at the scope recorded in its linked AC1–AC3 owner. A prescribed pair degree still has to satisfy the exact semigroup.
+
+**Normality is a property of the actual generator system.** For a sole-supported pair \((a,b)\), \(a\le b\), the [all-degree Bertini--Serre replacement](../../arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier) gives a general normal integral \(K_b=\lambda G_b+F_aL_{b-a}\), \(\lambda\ne0\), defining precisely the same ideal together with \(F_a\) if and only if at least one generator has generic order one. In equal degrees both general generators can be chosen normal. This is an actual homogeneous source statement, not a claim that formal structures lift. On the resulting **fixed** normal carrier the Hodge-index equality is sufficient for a mate; do not impose a second independent global lifting test there. Finding a carrier reaching equality with the required defects is the realization problem. For genuinely thick generic CI algebras, no such degree-compatible normal replacement exists, and the full two-generator source test remains essential. The theorem is degree independent and independently reconstructed on November 23, 2026 at the scope recorded in the linked proof owner.
+
+For **upstairs-only** nonnormal data, finite normalization indices
+and divisor relations do not establish finite downstairs almost-Cartier
+index. Conductor gluing and full inverse support remain essential
+computations of the missing condition. For generically thick carriers
+the full supported-section descent problem remains separate.
+The [extended all-index-at-most-four exclusion](../../arguments/carriers/normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem)
+works before fixed-degree source computations on every generically regular
+integral carrier in characteristic zero, independently reconstructed on November 23, 2026 at the scope recorded in the linked proof owner.
+The relevant index is downstairs, not upstairs.
 
 Two distinct equation questions survive passage to a thickening. The
 [radical-power lemma](../../arguments/torus/equivariant_set_theoretic_descent.md)
@@ -45,13 +71,272 @@ and terminal support remain conditions on those equations.
 
 ## Available mathematics and controls
 
-The [full Chow-polytope rigidity theorem](../../arguments/equations/chow_polytope_rigidity.md) classifies effective one-cycles whose full, unshifted column-weight polytope equals a multiple of that of the fixed quartic, in every characteristic: they are sums of diagonal translates of the quartic. This controls cycle support types only. It neither forces those translates to coincide nor constructs a scheme or a pair with the prescribed Sylvester determinant.
+The [full Chow-polytope rigidity theorem](../../arguments/equations/chow_polytope_rigidity.md) classifies effective one-cycles whose full, unshifted column-weight polytope equals a multiple of that of the fixed quartic, in every characteristic: they are sums of diagonal translates of the quartic. This controls cycle support types only. It neither forces those translates to coincide nor constructs a scheme or a pair with the prescribed Sylvester determinant. The
+[quartic realization theorem](../../results/quartic_chow_pencil_classification.md)
+adds genuine **non-invariant** equation-pair fibers over fixed Chow
+cycles and full flat limits whose endpoint embedded structure is
+not recorded by Chow. Its
+[Hilbert--Burch first-normal criterion](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+keeps actual source data. The
+[canonical self-linkage quotient](../../arguments/torus/quartic_chow_pencils.md#self-linkage-and-the-canonical-conormal-quotient)
+identifies \(I_Y/I_Z\simeq\omega_Y(-4)\), with the
+degree-three source map an isomorphism and the
+degree-four kernel the defining pencil. A general Ferrand doubling need not have
+two quartic generators. **For this fixed union**, however,
+[linkage and canonical-module rigidity](../../arguments/torus/quartic_chow_pencils.md#proof-route)
+combine the actual equation space with the canonical
+module relations and a residual-line restriction
+to prove that all proper quartic pencils are the
+exceptional \(\lambda\)-family. This completes the
+previously unresolved geometric uniqueness step,
+not a general-degree STCI theorem. A
+[fixed-carrier multiplicity lattice](../../arguments/torus/fixed_surface_restriction_lifts.md#symmetry-and-the-multiplicity-lattice)
+can turn existing mates into new mates, but a corrected sextic
+involution bound excludes \((5,4)\) and every remaining unequal
+two-support partition on ordinary nodal sextic carriers.
+Read backwards, the same fixed-carrier
+lattice theorem
+[turns the quartic all-mate exclusion into
+rank-one multiplicity rigidity](../../arguments/torus/fixed_surface_restriction_lifts.md#reverse-application-single-curve-exclusions-constrain-multi-curve-chow-cycles)
+for any two projective translates
+on an integral quartic carrier.
+Prime cyclic orbits of translates
+are forced to have **equal**
+multiplicities in every supported
+mate cycle. The generic normal
+order-one hypothesis needed by
+the rational-product theorem is
+automatic on such an integral
+quartic by restriction to each
+translate's unique quadric.
+This connects individual STCI
+exclusions to Chow **multi-support**
+realization without asserting that
+such a carrier exists.
+
+Conditional ADE classes and an exceptional-lattice budget refine
+the geometry; none covers arbitrary higher-degree equations.
 
 - Restriction of an actual orbit presentation to the two completed endpoints preserves the parameter-annihilation order of each homogeneous torsion class. A class can nevertheless become divisible by the parameter there. This explains how endpoint computations can miss global equation relations even with the correct degree and parameter. [Endpoint detection and its first-layer kernel](../../results/endpoint_equation_torsion.md).
 - For a characteristic-zero sole-support pair of degrees \(a\le b\), every nonzero weight component of the smaller equation has surviving powers through \(\lfloor b/a\rfloor\). Their multiplication ranks bound the splitting of the moving quotient. This tests the degrees of actual homogeneous generators even when a proposed image has the prescribed CI polynomial. [Power and splitting bounds](../../results/torus_quotient_movement_bounds.md#proof).
 - Actual source spaces at fixed degree and normal order and their successive lifting quotients are computed in [global equation jets](../../arguments/equations/global_equation_jets.md). They show why independently selected sections of \(\mathrm{Sym}^r(I/I^2)\) need not come from equations. Finite compatible-jet existence is not an effective bound on all degrees: no general all-degree cutoff is established from a rank plateau or a finite truncation.
 - The [octic/root comparison](../../arguments/spectral/actual_octic_root_lift_comparison.md) has an actual source map and a proper pair of transverse length eight with residual degree 32. This illustrates compatibility without sole support, not a solution to the unrestricted question.
 - [Projected thickenings](../../arguments/linkage/projected_thickening_section_defects.md) distinguish an ACM source upstairs from its image in \(\mathbf P^3\): the displayed power and binary-mixture images fail ACM when the positive degree product is nonzero. This does not exclude other projected sources or arbitrary supported thickenings.
+
+### Spectral–Jacobian first-jet gate (combined scoped review, November 23, 2026)
+
+For any **actual proper pair** with whole translated quartic cycle,
+[spectral–Jacobian duality](../../arguments/torus/spectral_jacobian_first_jet_bridge.md)
+proves \(A M_{12}-2B M_{03}\in(F,G)\), where
+\(A=x_1x_2\), \(B=x_0x_3\). Together with the canonical spectral
+membership \(H(A,B)\in(F,G)\), this gives a **converse recognition test**
+for translated reduced support, provided the pair misses the
+canonically disjoint line \(V(x_0,x_3)\).
+Its first moment is \(M_1=\tfrac12\operatorname{Res}_{f_0,g_0}(ps-qr)\),
+an alternating perfect Gorenstein pairing of the actual first normal
+jets of the equations along that line. The universal obstruction is
+now the assertion that the image of the **joint complete spectral-
+Jacobian equation incidence** has isotropic first jets. No such
+isotropy theorem is established; a proper pair merely containing
+\(C\) can have nonzero pairing and residual degree twelve.
+
+### Sole-support jet requirement and why it does not suffice
+
+For a hypothetical characteristic-zero STCI,
+[the accepted Poisson identity restricted to the disjoint line](../../arguments/torus/sole_support_first_jet_gate.md)
+forces the first normal jets to have **nonzero**
+Macaulay/Serre symplectic pairing \(\Omega=ab/2\).
+This congruence occupies the one-dimensional socle
+of \(k[x_1,x_2]/(f_0,g_0)\). An explicit family of
+proper global containing pairs realizes that pairing
+for every \(a,b\ge4\) and has a residual curve,
+so the scalar by itself cannot exclude STCI.
+
+The scheme-theoretic power condition \(Q^m\in(F,G)\)
+is tautological after truncation by the disjoint
+line's \(r_*=(a-2)(b-2)/2\)-th ideal power,
+by the graded free fiber-basis bound. In bidegree
+\((6,6)\), the first potentially restrictive
+normal coefficient is order eight, not order one
+or two. Higher-order global compatibility can still
+constrain the first jets indirectly; no complete
+jet realization criterion is claimed.
+
+### First power obstruction as a homogeneous spectral coefficient map
+
+The [STCI jet gate](../../arguments/torus/sole_support_first_jet_gate.md)
+identifies a canonical leading obstruction to
+\(Q^m\in(F,G)\) for a hypothetical sole-support
+pair: a binary form
+\(\mathfrak o_{r_*}\) in
+\(H^1(L,\omega_L)\otimes
+\operatorname{Sym}^{r_*}\langle x_0,x_3\rangle\),
+where \(r_*=(a-2)(b-2)/2\) and
+\(L=V(x_0,x_3)\).
+It is the first nonautomatic normal-degree
+part of the class \([Q^m]\) in the actual
+CI algebra. The same construction gives a
+**linear map on every full homogeneous
+spectral form** \(H(A,B)\) of degree \(m\);
+realized translated arrangements must put
+their spectrum in its kernel.
+For the restricted quartic test family
+the first power class requires
+\(\lambda\mu=4\), incompatible with the
+sole-support Poisson requirement
+\(\lambda\mu=8\). This locates a real
+interaction between the two equations
+without promoting the family check
+into a general low-degree exclusion.
+
+### Complete residue detection of set-theoretic support
+
+The [exact power/residue criterion](../../arguments/torus/sole_support_first_jet_gate.md#full-exact-stci-jet-criterion-ideal-powers-and-the-perfect-residue-pairing)
+uses the accepted
+\(I_C^m\subset(F,G)\) bound
+for an actual supported CI.
+For a proper pair \(F,G\in I_C\),
+the converse holds, so STCI
+is equivalent to this ideal-power
+membership. The ideal
+\(I_C=(Q,U,W,V)\) has one
+quadric and three cubic
+generators. Its \(m\)th ordinary
+power has explicit monomial
+generators; perfect finite flat
+Gorenstein duality reduces their
+membership to finitely many
+relative residue vanishings
+\(\mathcal R_{F,G}(g e)=0\),
+for every generator \(g\)
+and every element \(e\) of a
+graded \(k[x_0,x_3]\)-basis
+of the **actual** CI algebra.
+This gives a precise necessary
+**and sufficient** coefficient
+gate for each bidegree, without
+selecting a carrier.
+The scalar first-jet condition,
+the first spectral-power
+residue and the first
+normal-jet pairing are
+only partial rows of this
+full perfect pairing; explicit
+quartics pass them and have
+residual support.
+The algebraic elimination of
+actual equation coefficients
+to obtain an all-degree
+contradiction remains open.
+
+### Two opposite full-Chow coefficient systems as actual equation constraints
+
+The [canonical full-Chow pullback envelope](../../arguments/torus/full_transverse_chow_pullback_envelope.md)
+takes the *entire paired* transverse Chow
+form \(\mathcal C_\sigma\), not just its
+ratio-spectrum. The degree-four
+weight-four torus-quotient sections
+\((D,P,R)=(x_1^4,x_0^2x_1x_2,
+x_0^3x_3)\), and their reversed
+weight-twelve counterparts, yield
+\(2(m+1)\) explicit degree-\(4m\)
+polynomials **in every proper
+CI ideal realizing** \(\sigma\).
+Their two coefficient ideals coincide
+with \(\cap_i I_{C_i}^{n_i}\)
+on the dense torus; their sum has
+radical the exact union of translated
+quartics, with no extra coordinate
+curve. The inclusion is a **necessary
+all-degree source condition** retaining
+the full pairing of transverse
+parameters; for reduced cycles and
+\(ab=4m\), it is also sufficient
+for degree exhaustion. For repeated
+cycles the full local lengths
+\(n_i\) remain essential.
+
+The coefficient algebra is the
+constant normal-fat-point ring
+of length
+\(N=\sum_i\binom{n_i+1}{2}\).
+Every actual CI selects a moving
+flat quotient of rank \(m\),
+with kernel rank
+\(\delta=\sum_i\binom{n_i}{2}\).
+The norm of \(X+uY+vZ\) in that
+quotient is exactly
+\(\mathcal C_\sigma\), and the
+trace of \(u/v\) is \(M_1\).
+This accounts for the already
+proved invariant reduced case
+(\(\delta=0\)), and isolates the
+nonreduced moving-quotient and
+two-endpoint gluing gap.
+It does **not** prove universal
+moment vanishing, a uniform
+degree cutoff, or that the
+necessary source inclusions
+admit a two-generator
+proper quotient.
+
+### Sharper full-paired Chow constraints from quadratic and cubic surfaces
+
+The [opposite (2,3) Chow polarizations](../../arguments/torus/weighted_chow_quadric_cubic_polarizations.md) replace the earlier raw degree-\(ab=4m\) full-Chow equations by **\(2m+1\) homogeneous equation constraints in degrees \(2m\) through \(3m\)**. The shared lowest term is the actual quadric-spectrum polynomial \(H_\sigma\); the two opposite chains come from cubic carriers with residual divisors \(2L_{01}\) and \(2L_{23}\) on the respective smooth quadrics. Their combined coefficient ideal has exactly the prescribed translated reduced support, and recovers the same canonical fat-point envelope on the dense torus.
+
+The first normalized polars satisfy
+\[
+ x_2^2E_++x_0^2E_-+
+ x_1H_\sigma(m x_1x_2+M_1x_0x_3)=0.
+\]
+This identity holds for every abstract cycle and reduces to Euler's identity.
+For a coordinate-saturated ideal, opposite-chain membership follows from
+plus-chain membership. It supplies no independent global cofactor constraint.
+The remaining question is actual single-chain two-generator realization with
+the prescribed norm and no coordinate-boundary components. No universal
+vanishing, proper-pair degree bound, or nonexistence theorem is asserted.
+
+### Saturation review of the opposite-polar realization proposal
+
+The [Hermite-interpolation and opposite-polar saturation theorem](../../arguments/torus/spectral_interpolation_and_polar_saturation.md)
+corrects the significance of the
+earlier \(M_1\) syzygy. On every
+proper CI with entire translated
+support, \(x_0\) is regular modulo
+the ideal and the first opposite
+polar is a consequence of the
+plus polar and the spectral power.
+Both **full** polar ideals agree
+after localization to the dense
+ambient torus, so the opposite
+chain contributes no independent
+global cofactor condition when
+the original CI has no boundary
+components. Their sum remains
+convenient for **set-theoretic
+support recognition without an
+a priori boundary condition**.
+
+For spectrally separated
+translated supports, the full
+paired configuration—including
+cycle multiplicities—is
+already recovered from the
+binary spectrum \(H\) and
+the simple-pole rational function
+\(K/H\), with
+\(K=\sum_i(n_i/u_i)H/(A-\xi_iB)\).
+A support collision at fixed
+quadric parameter loses the
+individual reciprocal cubic
+parameters and requires higher
+polar coefficients. The true
+remaining equation-source
+problem is the **single-chain
+moving quotient and projective
+endpoint descent**, not a
+formal independent compatibility
+between opposite first polars.
 
 ## Bridges
 
@@ -91,6 +376,24 @@ and for [affine results and the projective gap](../../literature/README.md#affin
 The canonical [R-0074](../../results/chow_polytope_rigidity.md) classifies **all** effective cycles in this rigid Chow-polytope fiber; invariance is deduced, not assumed. Its [proper-pair reformulation](../../arguments/equations/chow_polytope_rigidity.md#proper-surface-pairs-and-the-remaining-equation-question) is a classical resultant coefficient condition, not a criterion in the Newton polytopes of the equations alone. The [R-0050 integration](../../arguments/equations/chow_polytope_rigidity.md#eigenpairs-and-transverse-finite-quotients) keeps boundary exclusion and binomial-only subgroup structure explicit.
 
 The [H16 cycle parameterization](../../arguments/equations/chow_polytope_rigidity.md#set-level-symmetric-power-fiber-h16) is set-theoretic and supplies neither homogeneous equations nor scheme structure. The [proof-dependency inventory](../../investigations/proof-audit/README.md) separates essential computations from evidence, and records the geometric R-0024 rank replacement.
+
+[R-0079](../../results/quartic_chow_pencil_classification.md) gives
+actual defining equations for every geometric pencil in the
+\((4,4)\) Chow-polytope fiber **in characteristic zero**.
+The characteristic-two specialization is a separate construction,
+not an extension of this uniqueness theorem. In every degree the
+[trace tower](../../arguments/torus/chow_trace_cone_jets.md#a-sole-support-test-at-an-arbitrary-disjoint-line)
+excludes sole support if just one actual generator has a cone jet
+through degree four along a disjoint line. The coverage question is
+whether further equation constraints force this or another usable
+trace identity without a cone hypothesis.
+
+On a fixed, generically regular carrier, the
+[multiplicity comparison](../../arguments/torus/fixed_surface_restriction_lifts.md#comparing-multiplicities-on-one-fixed-carrier)
+realizes nonnegative integer combinations of actual supported section
+cycles by clearing their codimension-one denominators. The two-support
+sextic criterion identifies one family in which the carrier symmetry
+would supply the needed sections.
 
 The [clean common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
 determines the full special scheme in every degree \(a,b\ge3\), for
@@ -136,6 +439,20 @@ can contain a power \(A^N\) only with \(4N>b\). No upper bound meeting
 that threshold, or automatic extension of scalar semigroup descent to
 the relation module, is established.
 
+The [marked finite-index multiplication gate MJ1--MJ4](../../arguments/residuals/marked_line_local_geometry.md#finite-index-rigidity-of-higher-marked-jets)
+adds a necessary local test for the primitive-at-marked-point
+edge: the prescribed colength must be attained by an
+**algebra**, not just a rank-\(c\) lattice. Multiplication
+closure reduces to \(q+h\) border products, and for
+\(q\ge3\) forces the first base-direction jet to be
+linear in the normal parameter modulo its \(q\)-th
+power. The endpoint test line yields a specific
+second-base-jet coefficient when \(q\ge4\).
+These are testable in the *actual* \(V_5\)
+section spaces. They do not identify the
+remaining nonprimitive mixed or endpoint
+realization loci.
+
 ### What the equality-boundary correspondence leaves to realization
 
 The [actual marked section spaces](../../arguments/residuals/blowup_residual_geometry.md#the-marked-correspondence-on-the-whole-equality-boundary)
@@ -148,13 +465,127 @@ boundary data supplies that pair. An endpoint and an interior slope
 are distinct tests; a result on either should say which realization
 condition it actually decides.
 
+The [residual-corrected transfer](../../arguments/residuals/first_graph_finite_transfer.md#signed-finite-transfer-throughout-the-interior-equality-boundary) identifies the signed top defect on the image quintic even when the actual image intersection includes the conic. Its [local canonical ideal formulation](../../arguments/residuals/first_graph_finite_transfer.md#local-canonical-ideal-version-and-several-marked-points) identifies a colon ideal, not merely a genus correction. Neither substitutes for actual common-support realization in the section spaces.
+
 ## Coregularity and actual equation filtrations
 
 The [local-cohomology interface](../local-cohomology/index.md#simultaneous-coregularity-versus-geometric-defects)
 asks whether full actual equation filtrations detect failure of the
 second-element coregularity condition. The pairwise cokernel is
 \(H_I^1(S/(f,g))(\deg f)\) under the stated first-coregularity and
-vanishing hypotheses. A comparison from the full filtered equation module
-to this actual-intersection module remains open; a finite conductor module
-already supported on \(C\) has zero higher local cohomology and cannot
-alone supply that comparison.
+vanishing hypotheses. The [actual full-primary attachment quotient comparison](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) gives its local annihilator layers by canonical duality. The open step is to force their nonvanishing from actual homogeneous equations, or identify a specific filtered lifting obstruction with an attachment quotient. A finite conductor module already supported on \(C\) has zero higher local cohomology and cannot alone supply that argument.
+
+
+## Transverse Chow norm as a finite source interface
+
+The [homogeneous transverse Chow/norm comparison](../../arguments/torus/chow_arrangement_moments.md#the-homogeneous-transverse-chow-form-as-a-section-norm)
+compresses the global Chow-resultant condition after Chow-polytope rigidity
+has placed the cycle in the translated-quartic family. The homogeneous
+transverse form \({\cal C}_Z\) determines a norm polynomial
+\({\cal N}_Z\) through an explicit bihomogeneous quartic kernel. For an
+actual pair, the same \({\cal N}_Z\) is the projective resultant of the two
+restricted homogeneous sources and a moving line in \(x_3=x_0\). On this
+translated fiber the fixed-plane section is set-theoretically injective, so
+this compression loses no arrangement-cycle information. Outside that
+fiber, one plane section is not a global support criterion.
+
+Classical border-basis theory supplies the complementary algebra gate:
+formal multiplication data with the expected vector-space basis must satisfy
+the commuting-matrix/border-reduction equations. The marked MJ1 test is a
+specialized instance. This separates three levels that must not be
+identified: transverse roots/Chow coefficients, a genuine finite algebra
+with those roots, and a finite algebra arising from the prescribed
+homogeneous source spaces.
+
+The attachment quotient \(Q_1\) is not the next computable invariant to
+force. For an actual proper pair,
+[LC-A1 and the support criterion](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers)
+give \(Q_1=0\) exactly when the reduced support is the fixed curve.
+Universal nonvanishing of \(Q_1\) is therefore essentially the terminal
+STCI nonexistence statement. The intermediate source problem is to find
+lower-complexity equations on the resultant/norm image, or on its tangent
+and border-algebra strata, that the perfect-power target cannot satisfy.
+
+
+### Five-row radical test on the translated Chow fiber
+
+The [trace-rank refinement](../../arguments/torus/chow_arrangement_moments.md#a-five-row-trace-rank-gate-for-one-translate-versus-residual-translates)
+uses the characteristic-zero equality between the nilradical and the radical
+of the regular trace pairing.  For the finite section algebra \(B\), the
+full trace rank is four times the number of distinct translated components.
+More sharply, the five homogeneous degree-four sections
+\[
+ x_0^4,\ x_0^3x_1,\ x_0^2x_1^2,\ x_0x_1^3,\
+ x_1^4+x_0^3x_2
+\]
+already distinguish one translate from two or more: their restricted trace
+map to \(B^\vee\) has rank four versus five.  Thus the rank-four locus is
+given on each finite source chart by \(5\times5\) minors of a
+\(5\times ab\) trace matrix.
+
+This is the first concrete lower-complexity predecessor to the terminal
+\(Q_1\) condition produced by the transverse-norm synthesis.  On a
+Chow-matched pair containing \(C_0\), it is equivalent to sole support; the
+point is computational form, not a logically stronger criterion.  Before
+the translated-family reduction it is only a fixed-section test.
+
+
+### The Rao defect is a terminal transverse source condition
+
+The
+[all-degree hyperplane-jet calculation](../../arguments/equations/global_equation_jets.md#a-terminal-hyperplane-jet-defect-in-every-degree)
+puts the rational quartic's classical one-dimensional Rao module into the
+same transverse flag as the Chow norm.  For \(L=x_3-x_0\), restriction of a
+degree-\(d\) equation through \(C\) to \(V(L^e)\) is surjective for
+\(e\le d-2\).  The next restriction, to \(V(L^{d-1})\), has one-dimensional
+cokernel generated by
+\[
+L^{d-2}(x_1^2-x_2^2).
+\]
+Thus the first source deficit on this flag occurs at normal order \(d-2\),
+not at the reduced plane section.
+
+In particular, for \(d\ge3\) every individual degree-\(d\) plane equation
+through \(C\cap V(L)\) lifts to an ambient equation through \(C\).  The
+fixed-plane norm and five-row trace tests are therefore useful cycle/support
+compressions, but their reduced restriction spaces alone cannot supply an
+all-degree homogeneous-source obstruction.  A next test must couple the
+resultant to transverse plane variation through the terminal Rao order, or
+use a different simultaneous global constraint.
+
+
+### Fixed-depth individual source restrictions disappear in large degrees
+
+The
+[terminal hyperplane-jet theorem](../../arguments/equations/global_equation_jets.md#a-terminal-hyperplane-jet-defect-in-every-degree)
+and the earlier fixed-center theorem give a uniform limitation on jet
+strategies.  For any hyperplane \(\ell=0\) not containing \(C\), restriction
+of degree-\(d\) equations through \(C\) to \(V(\ell^e)\) is surjective for
+\(e\le d-2\) and first fails by one dimension at \(e=d-1\).  Independently,
+any fixed center depth \(N\) is eventually source-surjective once
+\(d\ge N+2\).
+
+Therefore restrictions obtained solely from membership in the individual
+equation source disappear at fixed depth.  This does not remove further
+joint CI or global support conditions.  More precisely, the
+[determinant truncation-image consequence](../../arguments/equations/global_equation_jets.md#fixed-determinant-truncations-forget-containment-of-the-quartic-in-large-degrees)
+shows that for \(a,b\ge4r+3\), the attainable tuples
+\((\Delta_1,\ldots,\Delta_r)\) are the same for pairs through \(C\) as
+for arbitrary proper pairs avoiding the disjoint center line. The
+[scheme-level refinement and actual residual controls](../../results/fixed_depth_determinant_incidence.md)
+show more: imposing containment changes every such incidence only by an
+affine factor, and in characteristic zero pure truncated targets occur on
+actual residual pairs for every fixed order. This extends simultaneously
+to bounded characteristic tests from any fixed containing surfaces, even
+on reduced intersections of normal integral carriers in the stated larger
+degree range. The controls have generic multiplicity one along \(C\);
+they do not meet a prescribed higher-multiplicity candidate stratum. A
+uniform support obstruction therefore needs deeper data or another joint
+global condition.  On the symmetric hyperplane the unique
+terminal class is represented by
+\[
+ (x_3-x_0)^{d-2}(x_1^2-x_2^2).
+\]
+The reduced fixed-plane Chow norm and trace-rank tests remain useful support
+compressions, but their individual restriction spaces are already saturated
+in every relevant degree.

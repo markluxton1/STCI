@@ -34,6 +34,8 @@ source conditions. [Global equation realization](../global-equation-realization/
 [carrier normalization](../carrier-normalization/index.md) impose distinct
 conditions on sections, local compatibility, and descent.
 
+When a root construction produces an actual proper pair, its [full-primary attachment quotient](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) measures the residual by local duality irrespective of generic embedding dimension. The [rank-one layer formula](../../arguments/residuals/layerwise_attachment_and_triples.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) requires a curvilinear primary, not an arbitrary higher-rank spectral root. Picard torsion is not a substitute for either module.
+
 ### The actual elliptic conormal pencil as a spectral input
 
 On the [birational elliptic family](../../arguments/carriers/elliptic_double_inverse_construction.md#the-horizontal-symbol-and-the-actual-elliptic-pencils), the trace defect of the horizontal symbol curve is the same divisor as the direction-coincidence excess. At maximum marked conormal defect the horizontal root is a smooth (2,2) curve, and its Picard difference is determined by the actual divided normal coefficients. The missing first step is whether this stratum occurs in the lifting family. Torsion is not inferred from the Picard comparison, and the separate quadratic-root obstruction and actual-source gaps remain.

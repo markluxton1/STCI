@@ -7,6 +7,10 @@ and support-sensitive numerical bounds are proved in [the two-blowup account](..
 
 
 
+## A dictionary for the first blowup of the reduced support
+
+The [normalized carrier-branch refinement](../carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) runs on a common resolution of a chosen integral carrier and the blowup of the **reduced** curve. Unlike the full-ideal Rees decomposition below, its horizontal coefficients are actual branchwise excesses \(n_i-qe_i\), pushed forward with residue degrees. Sole support forces the associated exceptional correction to dominate \(qV\), where \(V\) measures principalization over the finite normalization; each exceptional connected component with nonzero \(V\) must be met by a branch carrying positive excess. At the zero-direction boundary the excess on the constant section must supply the entire exceptional principalization energy. This ties generic valuation excess to special points on the same carrier, without identifying Rees valuations of the full ideal. The new argument awaits independent audit.
+
 ## Full lci ideals: exceptional divisors, coefficient budget, and Segre class
 
 ## 2. No special-point divisorial Rees valuations for an lci curve ideal

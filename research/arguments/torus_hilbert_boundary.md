@@ -1105,3 +1105,213 @@ exhibits two independent degree-12 first-layer classes missed by both
 completed endpoints. The general result identifies the joint kernel and
 relates its generic length on the disjoint coordinate line to the
 residual degree of an actual proper pair.
+
+
+## Involutivity persists through the full torus boundary
+
+**Independent geometry review accepted the weight-initial and saturation
+argument, the constant-orbit comparison, and the endpoint-map formulation
+with its projective twist.** Combine the supported
+Hilbert-limit theorem above with the
+[actual contact identity](torus/contact_jacobians_and_hamiltonian_actions.md).
+In characteristic zero, if a sole-supported complete intersection
+\(J=(F,G)\) existed, then **both full intrinsic torus limits** would be
+torus-fixed, sole-supported, involutive schemes with the same Hilbert
+polynomial \(P_{a,b}\).  The special fibers need not remain complete
+intersections and may acquire additional generators.
+
+The point requiring proof is preservation of involutivity by the full
+weight limit.  For the intrinsic weights
+\[
+ w=(0,1,3,4),
+\]
+the Poisson bracket is homogeneous of weight \(-4\):
+\[
+ \{S_p,S_q\}\subset S_{p+q-4}.                         \tag{HB-P1}
+\]
+Let \(I\) be any homogeneous involutive ideal and
+\(\operatorname{in}_w I\) its full weight initial ideal.  If
+\(f^\circ,g^\circ\) are leading weight forms of \(f,g\in I\), then either
+\(\{f^\circ,g^\circ\}=0\), or it is the leading form of
+\(\{f,g\}\in I\).  Hence
+\[
+ \{\operatorname{in}_wI,\operatorname{in}_wI\}
+ \subset\operatorname{in}_wI.                         \tag{HB-P2}
+\]
+This is the elementary ideal version of the standard fact that an
+associated graded of a compatible filtered Poisson algebra is again
+Poisson.
+
+The projective full limit uses the saturated initial ideal.  Saturation
+does not destroy self-involutivity.  Indeed, localization of an involutive
+ideal is involutive: in the bracket of \(a/s^m\) and \(b/s^n\), the only
+term without an explicit factor \(a\) or \(b\) is a unit multiple of
+\(\{a,b\}\).  Contraction from the localization preserves involutivity, and
+\[
+ I^{\rm sat}
+ =\bigcap_i (I S_{x_i})\cap S.
+\]
+Intersections of involutive ideals are involutive.  Therefore
+\[
+ \boxed{\ 
+ \bigl(\operatorname{in}_w I\bigr)^{\rm sat}
+ \text{ is involutive whenever }I\text{ is involutive}.
+ \ }                                                   \tag{HB-P3}
+\]
+The opposite torus limit is identical with \(w\) replaced by \(-w\).
+
+For a hypothetical STCI pair, the contact theorem gives
+\(\{J,J\}\subset J\); the already-proved closed supported incidence gives
+both full saturated limits with unchanged Hilbert polynomial and reduced
+support \(C\).  Hence (HB-P3) supplies the asserted two involutive boundary
+points.
+
+The
+[constant-orbit theorem](torus_embedded_quotients.md#sole-support-constant-orbit-images-are-automatically-involutive-in-characteristic-zero)
+shows that this extra boundary condition is **automatic on the pure
+constant-orbit image**, even when its transverse algebra is not a complete
+intersection.  Consequently contact can distinguish a full sole-supported
+torus boundary only through
+
+1. the finite embedded endpoint correction by which the full Hilbert limit
+   differs from its pure orbit image, or
+2. the global homogeneous presentation of that full ideal.
+
+This prevents a false shortcut: one cannot combine contact with the
+eigenform trace obstruction merely by taking a torus limit, because the
+limit may require more than two generators and its pure thick curve is
+already involutive.  The sharpened boundary problem is to impose
+(HB-P3) on the **embedded endpoint correction module** together with the
+known Hilbert and source constraints.
+
+There is a finite exact formulation of that last condition.  Write
+\(L\) for a candidate full limit, \(Y=L^{\rm pure}\) for its pure
+constant-orbit quotient, and
+\[
+ I_L\subset I_Y,\qquad T=I_Y/I_L.
+\]
+If \(Y\) is sole-supported then the constant-orbit theorem makes \(I_Y\)
+involutive.  Hence the bracket defines
+\[
+ \kappa_L:\bigwedge\nolimits^2(I_L/I_L^2)
+ \longrightarrow T(-2),\qquad
+ \bar f\wedge\bar g\longmapsto\{f,g\}\bmod I_L.        \tag{HB-P4}
+\]
+Here \(I_L/I_L^2\) and \(T\) denote projective sheaves. The homogeneous
+ambient bracket has ordinary degree \(-2\), so its degree-zero sheaf
+map has target \(T(-2)\). On ungraded affine-cone modules the same
+formula takes values in \(T\); local trivializations of the twist
+give the displayed bracket formula. This map is well defined and
+\(\mathcal O_L\)-linear: replacing either
+argument by an element of \(I_L^2\) inserts an explicit factor from
+\(I_L\), and the Leibniz correction in multiplying an argument by a
+function likewise vanishes modulo \(I_L\).  Because
+\(\{I_Y,I_Y\}\subset I_Y\), the class lies in the indicated endpoint
+quotient. Moreover
+\[
+ \boxed{\quad L\text{ is involutive}\iff\kappa_L=0.\quad} \tag{HB-P5}
+\]
+For the intrinsic limits of R-0070, \(T\) is supported at the two
+endpoints and its two lengths are already known.  Thus (HB-P4) converts
+the remaining contact condition into a **finite endpoint conormal map**.
+The existing length formulas alone do not determine this map; one needs
+the actual endpoint algebra or the weight-graded minimal generators of
+the full ideal.  This identifies exactly which extra datum R-0070 would
+have to retain for contact to produce a new boundary exclusion.
+
+
+## Pure-quotient cohomology is a flat-boundary obstruction
+
+**Scoped independent reconstruction (2026-11-23):** (HB-C1)--(HB-C8),
+including the finite-kernel cohomology comparison, semicontinuity
+inequality and the two Cartier-control exclusions, were checked directly.
+The input is standard proper-flat semicontinuity; this status does not
+extend to other historical proof routes in this Argument.
+The endpoint-length formula of R-0070 records the Euler-characteristic
+difference between a full torus limit and its pure quotient.  There is a
+strictly stronger necessary condition: a zero-dimensional endpoint correction
+can alter \(\chi\) and \(h^0\), but it cannot alter \(H^1\).
+
+Let \(\mathcal X\to\operatorname{Spec}R\) be a flat projective family over a
+DVR whose generic fiber \(X_\eta\) is a degree-\((a,b)\) complete
+intersection.  Let \(L=\mathcal X_0\) be the special fiber.  Suppose \(Y\)
+is a pure quotient of \(L\) with finite kernel
+\[
+ 0\longrightarrow T\longrightarrow\mathcal O_L
+ \longrightarrow\mathcal O_Y\longrightarrow0,
+ \qquad \dim T=0.                                     \tag{HB-C1}
+\]
+Then for every \(d\),
+\[
+ H^1(L,\mathcal O_L(d))
+ \simeq H^1(Y,\mathcal O_Y(d)),                        \tag{HB-C2}
+\]
+because \(H^i(T(d))=0\) for \(i>0\).  On the other hand, the standard
+upper-semicontinuity theorem for cohomology in a proper flat family gives
+\[
+ h^1(L,\mathcal O_L(d))
+ \ge h^1(X_\eta,\mathcal O_{X_\eta}(d)).               \tag{HB-C3}
+\]
+Therefore every pure quotient of a flat CI boundary satisfies
+\[
+ \boxed{\quad
+ h^1(Y,\mathcal O_Y(d))
+ \ge h^1(X_{a,b},\mathcal O_{X_{a,b}}(d))
+ \quad\text{for all }d.
+ \quad}                                                \tag{HB-C4}
+\]
+Here the right side depends only on the CI type.  The same argument gives
+\[
+ h^0(L,\mathcal O_L(d))
+ =h^0(Y,\mathcal O_Y(d))+\operatorname{length}T,
+ \tag{HB-C5}
+\]
+while
+\[
+ P_L=P_Y+\operatorname{length}T.
+\]
+Thus endpoint length can repair the constant term of the Hilbert polynomial
+but cannot repair an \(H^1\)-deficit of the pure quotient.
+
+The only external input in (HB-C3) is the classical semicontinuity theorem;
+see Stacks Project, Lemma 36.32.1 (Tag 0BDN).  No special property of the
+quartic is used in (HB-C1)--(HB-C5).
+
+### Cartier controls are excluded as pure CI boundaries
+
+Apply (HB-C4) to the Cartier multiples \(nC\subset Q\).  From
+\[
+ 0\to\mathcal O_Q(dH-nC)\to\mathcal O_Q(dH)
+ \to\mathcal O_{nC}(d)\to0
+\]
+and \(C=(3,1)\) up to ruling exchange, one obtains
+\[
+ h^1(nC,\mathcal O_{nC}(d))
+ =
+ \begin{cases}
+  (3n-d-1)(n-d-1),&0\le d\le n-2,\\
+  0,&d\ge n-1.
+ \end{cases}                                           \tag{HB-C6}
+\]
+For \(4C\) and the matching \((4,4)\) polynomial,
+\[
+ h^1(4C,\mathcal O_{4C}(4))=0,
+ \qquad
+ h^1(X_{4,4},\mathcal O_{X_{4,4}}(4))=1.               \tag{HB-C7}
+\]
+Hence \(4C\) is not merely non-CI: it cannot be the pure quotient of **any**
+flat \((4,4)\) CI boundary, even after arbitrary finite endpoint correction.
+
+Likewise \(6C\) has the matching \((3,8)\) polynomial, but
+\[
+ h^1(6C,\mathcal O_{6C}(3))=28,
+ \qquad
+ h^1(X_{3,8},\mathcal O_{X_{3,8}}(3))=31.              \tag{HB-C8}
+\]
+So \(6C\) cannot be the pure quotient of a flat \((3,8)\) CI boundary.
+
+This is stronger than comparing Hilbert polynomials or endpoint lengths and
+corrects a tempting but false shortcut: the mere presence of a quadric
+equation in a special saturated ideal does **not** by itself contradict
+flatness, because \(H^1(I_L(d))\) can compensate.  The actual invariant is
+the fiber cohomology in (HB-C4).

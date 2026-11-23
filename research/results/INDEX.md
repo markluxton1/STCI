@@ -67,9 +67,17 @@ mathematical rank.
 
 ## Full Chow-polytope rigidity
 
-- [STCI-R-0074: full Chow-polytope rigidity for the fixed quartic](chow_polytope_rigidity.md).
+- [STCI-R-0074 — Full Chow-polytope rigidity for the fixed quartic](chow_polytope_rigidity.md).
+- [STCI-R-0079 — Quartic pencils with the fixed Chow polytope](quartic_chow_pencil_classification.md).
 
 ## Inverse support on quintic and octic carriers
 
 - [STCI-R-0075 — Integral quintics with toric normalization exclude every mate degree](toric_quintic_carrier_exclusion.md).
 - [STCI-R-0076 — Length-twelve support test for the marked elliptic double cover](elliptic_inverse_support.md).
+
+## Actual equation support and finite-depth incidence
+
+- [STCI-R-0080 — Fixed-depth incidence products and actual residual cancellation](fixed_depth_determinant_incidence.md).
+- [STCI-R-0081 — Relative Jacobian radical recovery and two-product quartic support](jacobian_radical_support.md).
+
+- [STCI-R-0082 — Arrangement Hilbert strata, endpoint planarity and separate orders](arrangement_strata_and_orders.md).

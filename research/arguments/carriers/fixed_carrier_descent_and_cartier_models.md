@@ -1,5 +1,7 @@
 # Fixed-carrier descent and Cartier singleton models
 
+**Scoped correctness review (2026-11-23, combined integration):** independently reconstructed AC1–AC3, their minimum-carrier compression consequence and the cited normalized first-graph refinements. Inherited inputs are the existing conductor-descent criterion and the actual mate/marked-ideal relations.
+
 This is the proof home for [R-0003](../../results/fixed_carrier_conductor_criterion.md) and the Cartier model classification [R-0002](../../results/cartier_singleton_lift.md). It incorporates the independent source audits' corrected scopes: arbitrary characteristic for the fixed-carrier lattice theorem; characteristic zero and an actual mate for the classification; full inverse support including isolated points; and two distinct torsion orders for producing and descending a section. The unrestricted characteristic-zero question for the fixed quartic remains open.
 
 The supporting local membership, unit-power, single-field/split-phase, and purity lemmas are proved in [full conductor algebra](conductor_descent_algebra.md). In particular, for an integral Cohen–Macaulay surface X and finite normalization nu, the sheaf nu_*O_S/O_X is pure of dimension one: at a closed point the source and normalization modules have depth at least two, so the depth lemma gives quotient depth at least one. This justifies generic-to-global descent below without discarding nilpotent conductor data or assuming the conductor is Cartier.
@@ -319,6 +321,149 @@ precise replacement for an unjustified single reduced-curve APic
 class in the entirely thick situation. Computing them remains the
 central task.
 
+### The normalized Hodge matrix and downstairs almost-Cartier indices
+
+**Status: new synthesis of established inputs, covered by the scoped correctness review above.** The
+class-group criterion in [Hartshorne--Polini, Proposition 7.1 and Lemma 7.6,
+*Divisors class groups of singular surfaces*](https://arxiv.org/abs/1301.3222)
+already works on nonnormal carriers in characteristic zero. Their Lemma 7.6
+is precisely hyperplane saturation, not merely torsion-freeness of Picard.
+[Česnavičius--Scholze, Corollary 7.2.3](https://annals.math.princeton.edu/2024/199-1/p02)
+and [Cotner--Zavyalov, Theorem 1.1.8](https://www.cambridge.org/core/journals/compositio-mathematica/article/lefschetz-theorems-in-flat-cohomology-and-applications/8556201EDB51D7F2F76F5950A800CD64)
+give the needed Picard saturation and trivial numerically trivial Picard scheme
+in arbitrary characteristic for any projective complete intersection of
+dimension at least two.
+
+Let \(X\subset\mathbf P^3\) be an **integral, possibly nonnormal** degree-\(a\)
+hypersurface over an algebraically closed field. Let \(C_i\) be distinct
+integral curves of degree \(e_i\), with \(X\) regular at each generic point.
+They define almost-Cartier divisors (Cartier off a finite set), with strict
+transforms \(\Gamma_i\) on the finite normalization \(\nu:S\to X\).
+Take \(H_S=\nu^*H\), so \(H_S^2=a,\ H_S\cdot\Gamma_i=e_i\).
+Using Mumford numerical pullback on a resolution of the normal surface \(S\),
+put
+\[
+ D(n)=\sum_i n_i C_i,\qquad
+ Q^{\nu}_{ij}=\Gamma_i\cdot\Gamma_j-e_i e_j/a.
+\]
+This rational Gram matrix is negative semidefinite by Hodge index.
+
+**Exact criterion (AC1).** The actual supported mate multiplicity monoid on
+\(X\), including zero, is
+\[
+ M_X=\{\,n\in\mathbf Z_{\ge0}^s:Q^\nu n=0,\ 
+          [D(n)]_P=0\text{ in }\operatorname{APic}(\mathcal O_{X,P})
+          \text{ for every }P\,\}.
+ \tag{AC1}
+\]
+Only the finitely many singular points on the curves need checking.
+The degree of the mate, when \(n\ne0\), is necessarily
+\(b=\sum_i e_i n_i/a\), automatically integral.
+
+Proof. The local-to-global almost-Cartier sequence (Hartshorne--Polini,
+Proposition 2.2(c)) identifies the kernel of local classes with
+\(\operatorname{Pic}(X)\). For an actual divisor this means that \(D(n)\)
+is Cartier, not that its numerical pullback has integral coefficients.
+Its effectivity extends from codimension one by \(S_2\); a local defining
+rational function regular in codimension one is regular on the whole
+local ring. Its support is exactly the selected curves by purity of an
+effective Cartier divisor. The normalization pullback has Weil divisor
+\(\sum_i n_i\Gamma_i\), since \(\nu\) is an isomorphism at the marked generic
+points and finite elsewhere. In particular, no extra isolated inverse
+points over the selected support can occur when its positive combination
+is Cartier. The equation \(Q^\nu n=0\) says that this Cartier pullback is
+numerically proportional to \(H_S\). After clearing the denominator,
+\[
+ \nu^*(aD(n)-(\sum_i e_i n_i)H)
+\]
+is numerically trivial. Finite surjective pullback of line bundles detects
+numerical triviality: each integral curve downstairs is dominated by an
+integral curve upstairs, and intersection degrees scale by its mapping
+degree. Thus the Cartier difference downstairs is numerically trivial,
+hence trivial by the complete-intersection Picard theorem. Hyperplane
+saturation then implies \(D(n)\sim bH\) with \(b\) an integer.
+The canonical section lifts from \(X\) by the hypersurface restriction
+sequence. Conversely an actual mate gives both the Cartier relation and
+the normalized numerical ray. This proves AC1.
+
+For a single degree-\(e\) curve, define \(R_X\) as the lcm of the orders of
+its local almost-Cartier classes, allowing infinity for a nontorsion
+class. Write \(\gamma=\Gamma^2\) for Mumford's numerical square. Then
+\[
+ \boxed{C\text{ has a mate on }X\ \Longleftrightarrow\
+ R_X<\infty\quad\text{and}\quad\gamma=e^2/a .} \tag{AC2}
+\]
+When these conditions hold,
+\[
+ R_X C\sim(eR_X/a)H,\qquad
+ m_{\min}=R_X,\qquad b_{\min}=eR_X/a,\qquad a\mid eR_X . \tag{AC3}
+\]
+All mate degrees are positive multiples of \(b_{\min}\). In particular
+the minimum actual-carrier compression below is just AC3 followed by
+minimality: \(b_{\min}\ge a\) forces \(R_X\ge a^2/e\).
+This does not require rationality or smoothness of the support; all that
+is needed for AC1--AC3 is regularity of \(X\) at its generic point.
+Normality is one way to ensure this hypothesis. The characteristic-zero
+low-degree exclusions retain their original scope.
+
+**What this unifies and what it does not.** On a normal carrier,
+\(R_X\) is the ordinary Cartier index, \(\Gamma=C\), and AC1 is the
+[normal arrangement criterion](../torus/fixed_surface_restriction_lifts.md#normal-carriers-a-complete-geometric-description-of-the-arrangement-monoid).
+For a nonnormal generically regular carrier, AC2 is a normalized Hodge
+equality **with actual downstairs local Cartierness**. It does not replace
+that local condition by Cartierness on the normalization or by finite
+local class orders there. If the support is a single curve and a mate
+exists, the two-order formula of §6 gives
+\[
+ R_X=(a/\gcd(a,e))\,tE.
+ \tag{AC4}
+\]
+Here \(t\) is the order of the primitive ray on the normalization, and
+\(E\) the conductor descent order. In contrast the normalization Cartier
+index \(R_\nu\) merely divides \(R_X\) (indeed divides \((a/\gcd(a,e))t\)).
+The normalization need not have a saturated hyperplane subgroup, so the
+stronger divisor \(a\mid eR_X\) cannot be imposed on \(R_\nu\).
+The explicit conductor and full inverse-support machinery remains the
+way to compute these local classes or to disprove their finiteness.
+An entirely-thick generic carrier has no such reduced almost-Cartier
+class in general; it still requires the multibranch theorem of §4.
+
+There is also a precise bridge for that latter regime. For any normal
+finite normalization \(S\), an effective Cartier divisor \(A\) supported
+on the full inverse curves is linearly equivalent to an integral
+multiple \(bH_S\) if and only if its numerical class lies on the
+hyperplane ray **and** \(\mathcal O_S(A)\) belongs to the image of
+\(\nu^*:\operatorname{Pic}(X)\to\operatorname{Pic}(S)\). The same numerical
+argument above proves the sufficiency. In fact \(\nu^*\) is injective
+because its kernel is numerically trivial; it also induces an injection
+modulo the hyperplane subgroups. This recovers Hartshorne--Polini,
+Theorem 4.5, without the complex-field restriction for hypersurfaces.
+Their Theorem 4.1(a) describes the line-bundle image by the restrictions
+to the full conductor square. This **line-bundle descent** is not
+descent of the canonical section of \(A\). Even after these tests the
+actual section must pass the full generic conductor membership test
+of §4 (and purity transfers actual membership globally). The cusp
+value-semigroup example remains a control against conflating the tests.
+Thus the numerical Hodge matrix can separate the linear-class gate on
+arbitrary normalizations into a numerical ray and conductor
+line-bundle gluing, but does not eliminate the remaining section gate.
+
+**Local realization becomes the same defect problem.** In
+characteristic zero the [almost-Cartier power--socle extension](normal_carrier_symbolic_torsion.md#normality-is-unnecessary-the-actual-almost-cartier-power-theorem)
+removes the normality hypothesis from the full intrinsic local
+defect budget once the actual downstairs indices are finite.
+Thus AC2 can be tested directly by the first normal line, actual
+local Cartier-multiple socles, and the equality in the intrinsic
+divisor formula. Local indices at most four are incompatible
+with a mate on every generically regular integral carrier of
+the fixed quartic. These deductions are covered by the scoped independent
+reconstruction above; they are not bounds on Cartier indices of normalized
+inverse curves.
+
+### A fixed-carrier numerical filter for the entirely-thick branch
+
+The [normalized first-graph dictionary](numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) strengthens the relation-lattice criterion before the conductor computation: the valuation vector of a sole-support mate lies in the kernel of the normalized Hodge matrix, while the actual marked ideal has a known self-intersection deficit split between branch imbalance and exceptional principalization. A content-free first normal divisor with only one horizontal root cannot occur on a mate-bearing carrier of C0. For two inverse branches without vertical fibers, the two actual Cartier relations (marked ideal and mate) determine the rational numerical branch matrix and impose integral intersections with all Cartier test divisors. At degree (3p), the [ruling cluster test](numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) gives explicit root multiplicity divisibility. These are necessary conditions on the normalization lattice and the actual source, not a replacement for the off-support conductor unit map in §4; nor do they use a reduced almost-Cartier class along a generically singular curve. Independent reconstruction is recorded in the scoped review above.
+
 ## 8. Positive characteristic comparison
 
 The local nilpotent distinction changes in characteristic `p>0`.
@@ -568,7 +713,7 @@ Local Cartier indices \(e=3\) or \(6\) would compress to a quadric or quartic
 carrier and cannot represent a genuinely sextic-minimal phenomenon.
 
 
-The mechanism does not use rationality or genus: for a smooth integral curve of degree d in P3 under the same characteristic-zero, actual-minimum-carrier and generic-regularity hypotheses, the proof replaces 4 by d and gives `a|de`, `n=de/a>=a`, and `e>=a²/d`. This is a bounded extension of the compression statement, not a bound on a without control of actual local indices. It does not apply to a carrier generically singular along C, where the reduced curve need not define the assumed APic class. The characteristic-zero Picard torsion-freeness input has not been extended here to unrestricted characteristic p.
+The mechanism does not use rationality or genus: for a smooth integral curve of degree d in P3 under the same characteristic-zero, actual-minimum-carrier and generic-regularity hypotheses, the proof replaces 4 by d and gives `a|de`, `n=de/a>=a`, and `e>=a²/d`. This is a bounded extension of the compression statement, not a bound on a without control of actual local indices. It does not apply to a carrier generically singular along C, where the reduced curve need not define the assumed APic class. The [all-characteristic extension AC1--AC3](#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) now eliminates the characteristic restriction in this compression argument; this extension was covered by the scoped correctness review above. The original minimum-carrier proof is retained at its reviewed scope.
 
 ## Singleton rays without a Cartier lift: exact index conditions
 
@@ -636,7 +781,7 @@ Cartier canonical multiple exists.
 On a normal hypersurface, the exact criterion is torsion of the primitive ray class.
 The canonical index filter imposes no new restriction there:
 `K_X=(a-4)H`, so `K_X.c=d(a-4)` is already integral. If a mate exists,
-the curve's Cartier index is at least `a/gcd(a,d^2)` by the Cartier-index condition.
+the curve's Cartier index is a multiple of `a/gcd(a,d)` by the exact Picard saturation formula. The weaker divisibility by `a/gcd(a,d^2)` can still be relevant to indices on a distinct normalization where the hyperplane class need not be saturated.
 This lower bound grows with `a`; it is not an upper degree bound.
 
 For a rational singleton lift on a normal carrier whose singularities

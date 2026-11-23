@@ -40,6 +40,18 @@ For a proposed moving family in any characteristic-zero bidegree, compare
 its splitting and generic first-order motion with the [bounds imposed by
 two homogeneous equations](results/torus_quotient_movement_bounds.md).
 
+For actual equation support, the [two-product Jacobian criterion](results/jacobian_radical_support.md)
+gives a compact characteristic-zero exact incidence. The
+[fixed-depth incidence and residual-control theorem](results/fixed_depth_determinant_incidence.md)
+explains why bounded containing-surface characteristic tests cannot replace
+full source information, even on reduced CIs of normal integral carriers
+in its stated large-degree range.
+
+For actual pairs in the fixed Chow-polytope fiber, start with the
+[quartic-pencil classification](results/quartic_chow_pencil_classification.md),
+the [one-carrier trace constraints](arguments/torus/chow_trace_cone_jets.md)
+and the [endpoint support test](arguments/torus/chow_endpoint_different.md).
+
 For local equation comparison and specialization use [conormal and actual
 quartic symbols](arguments/quartic_specialization_and_symbols.md), the
 [filtered equation defect](results/local_filtration_comparison_defect.md),

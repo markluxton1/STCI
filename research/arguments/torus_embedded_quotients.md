@@ -574,3 +574,259 @@ The exact endpoint rank sums, determinants and truncated algebra identities
 used in the embedded quotient examples are covered by the shared replay suite
 in [the sextic Argument evidence](torus_sextic_residuals.md#finite-replay-evidence).
 The finite checks apply only to the displayed examples and do not establish geometric proofs or additional characteristic coverage.
+
+
+## Sole-support constant orbit images are automatically involutive in characteristic zero
+
+**Scoped independent reconstruction (2026-11-23):** the explicit chart
+brackets, localization/contraction argument and endpoint reversal below
+were checked, using the stated characteristic-zero Scheja--Storch theorem.
+This does not re-certify the earlier historical proof routes.  Retain the constant
+embedded quotient construction above and assume
+\[
+ B=k[u^{\pm1},v^{\pm1}]/J
+\]
+is supported only at \((u,v)=(1,1)\).  In characteristic zero, the pure
+projective image \(Z_B\) is automatically involutive for the quartic
+symplectic bracket.  Thus involutivity places no additional restriction on
+the finite transverse algebra \(B\) or on the pure endpoint lattices (2)--(5).
+
+On the dense orbit, the
+[explicit transverse calculation](torus/contact_jacobians_and_hamiltonian_actions.md#dense-orbit-contact-is-automatic-after-sole-support-collapse)
+gives, up to an invertible factor,
+\[
+ \{f,g\}_{\rm tr}
+ =(u-v)(f_u g_v-f_vg_u).                              \tag{9}
+\]
+Scheja--Storch implies that the \(2\times2\) Jacobian-minor ideal of the
+finite local algebra \(B\) is its socle if \(B\) is a complete intersection
+and is zero if it is not.  Since \(u-v\) belongs to the maximal ideal,
+\[
+ (u-v)\mathfrak D_K(B/k)=0,
+\]
+so \(J\) is involutive for (9).
+
+It remains to check that no new obstruction appears when the orbit is
+closed across an endpoint.  On \(x_0\ne0\), put
+\[
+ r={x_1\over x_0},\qquad
+ U={x_0^2x_2-x_1^3\over x_0^3}=r^3(u-1),\qquad
+ V={x_0^3x_3-x_1^4\over x_0^4}=r^4(v-1).              \tag{10}
+\]
+For degree-zero rational functions the ambient bracket is, up to the
+invertible factor \(x_0^{-2}\), determined by
+\[
+ \boxed{\quad
+ \{r,U\}_0=-\tfrac12,\qquad
+ \{r,V\}_0=-r,\qquad
+ \{U,V\}_0=-U .
+ \quad}                                                \tag{11}
+\]
+Equivalently
+\[
+\begin{aligned}
+ \{f,g\}_0={}&-\tfrac12(f_rg_U-f_Ug_r)
+ -r(f_rg_V-f_Vg_r)\\
+ &-U(f_Ug_V-f_Vg_U).                                  \tag{12}
+\end{aligned}
+\]
+
+Let \(K_0\subset k[r,U,V]\) be the kernel of the first-chart image map
+\[
+ r\longmapsto r,\qquad U\longmapsto r^3(u-1),\qquad
+ V\longmapsto r^4(v-1)
+\]
+into \(B[r]\).  Because \(B[r]\) has no \(r\)-torsion,
+\[
+ K_0=(K_0)_r\cap k[r,U,V].                             \tag{13}
+\]
+After inverting \(r\), the coordinate change recovers \(u,v\), so
+\((K_0)_r\) is just the extension of \(J\).  Formula (12), transformed
+back to \(u,v\), has the transverse term (9); all other terms in the
+bracket of two elements of the extended ideal retain one of the two ideal
+factors.  Hence \((K_0)_r\) is involutive.  Its contraction (13) is
+therefore involutive as well, since the bracket of two polynomial elements
+of \(K_0\) remains polynomial.
+
+The opposite chart follows from the coordinate reversal
+\[
+ (x_0,x_1,x_2,x_3)\longleftrightarrow(x_3,x_2,x_1,x_0),
+\]
+which preserves \(C\) and changes the symplectic form only by sign.
+The two charts cover \(Z_B\), proving involutivity of its ideal sheaf.
+
+This theorem concerns the **pure constant-orbit image**.  A full flat
+Hilbert limit can contain additional finite embedded endpoint structure
+even when its pure image is \(Z_B\).  The theorem says precisely that the
+contact condition cannot distinguish the pure image: any residual
+quartic-specific contact obstruction at a torus-fixed sole-support boundary
+must live in that finite endpoint correction or in the global presentation
+of the full ideal.
+
+
+## The diagonal quotient recovers the Cartier multiples \(nC\)
+
+**Scoped independent reconstruction (2026-11-23):** the Cartier
+identification, both endpoint lattices and conductor, Hilbert polynomial,
+source threshold and complete CI-polynomial comparison (D0)--(D5) were
+checked directly.  The involutivity assertion uses the preceding scoped
+theorem; the separate invariant-CI exclusion remains an inherited input.
+This is not a new family of multiple curves.  The diagonal constant quotient
+below is exactly the familiar Cartier multiple \(nC\) on the unique smooth
+quadric \(Q\); for \(n=4\) the repository already uses \(4C\subset Q\) as
+a \((4,4)\)-Hilbert-polynomial control.  The useful new observation is the
+all-\(n\) endpoint calculation and the exact list of CI polynomials that a
+Cartier multiple \(nC\) can share.
+
+Fix characteristic zero and
+\[
+ B_n=k[\epsilon]/(\epsilon^n),\qquad
+ u=v=1+\epsilon,\qquad n\ge2.
+\]
+Let \(Z_n\) be the constant embedded orbit image
+\[
+ [s^4:s^3t:(1+\epsilon)st^3:(1+\epsilon)t^4].
+\]
+Because \(u=v\), the quadric equation
+\[
+ Q=x_0x_3-x_1x_2
+\]
+vanishes identically.  On \(x_0=1\), put
+\(r=x_1\) and \(A=x_2-r^3\).  The map to \(B_n[r]\) sends
+\(A\mapsto r^3\epsilon\).  Since the \(\epsilon^j\) are a
+\(k[r]\)-basis and \(r\) is a nonzerodivisor, the kernel in the quadric
+chart is exactly
+\[
+ (A^n).
+\]
+The opposite chart gives the same statement.  Hence
+\[
+ \boxed{\quad Z_n=nC\ \text{as a Cartier divisor on }Q.\quad} \tag{D0}
+\]
+
+The constant-quotient endpoint description nevertheless gives a useful
+independent check.  At zero, \(r^4v=r(r^3u)\), so after subtracting scalar
+terms
+\[
+ A_0
+ =k[[r]][r^3\epsilon]
+ =\bigoplus_{j=0}^{n-1} r^{3j}k[[r]]\,\epsilon^j.
+ \tag{D1}
+\]
+Hence
+\[
+ \delta_0=3\sum_{j=1}^{n-1}j
+ ={3n(n-1)\over2},
+ \qquad
+ \mathfrak c_0=r^{3(n-1)}B_n[[r]].
+ \tag{D2}
+\]
+At infinity,
+\[
+ \alpha=\beta=(1+\epsilon)^{-1}.
+\]
+Writing \(\epsilon'=(1+\epsilon)^{-1}-1\), another generator of the
+maximal ideal of \(B_n\), gives
+\[
+ A_\infty
+ =\bigoplus_{j=0}^{n-1} z^{3j}k[[z]]\,(\epsilon')^j,
+ \qquad
+ \delta_\infty={3n(n-1)\over2}.
+ \tag{D3}
+\]
+Thus the endpoint defects are exactly symmetric.
+
+R-0052 gives
+\[
+ \boxed{
+ P_{nC}(d)=4nd+4n-3n^2,\qquad
+ p_a(nC)=3n^2-4n+1 .
+ }
+ \tag{D4}
+\]
+This is also immediate from adjunction on \(Q\):
+\(C^2=6\) and \(K_Q\!\cdot C=-8\), so
+\[
+p_a(nC)=1+\frac{n^2C^2+nK_Q\!\cdot C}{2}.
+\]
+The curve \(nC\) is intrinsic-torus fixed and, by the
+[sole-support constant-orbit involutivity theorem](#sole-support-constant-orbit-images-are-automatically-involutive-in-characteristic-zero),
+is involutive for the quartic symplectic bracket.
+
+The actual homogeneous source spaces make the failure of two-generation
+completely transparent.  The standard restriction sequence on the smooth
+quadric is
+\[
+ 0\to\mathcal O_{\mathbf P^3}(d-2)
+ \xrightarrow{\cdot Q}\mathcal I_{nC}(d)
+ \to\mathcal O_Q(dH-nC)\to0.                          \tag{D4a}
+\]
+Up to exchanging the two rulings, \(H=(1,1)\) and \(C=(3,1)\), so
+\[
+ dH-nC=(d-3n,d-n).
+\]
+A line bundle \(\mathcal O_Q(r,s)\) has a nonzero section exactly when
+\(r,s\ge0\).  Since \(H^1(\mathbf P^3,\mathcal O(d-2))=0\), (D4a) gives
+the sharp source threshold
+\[
+ \boxed{\quad
+ d<3n\Longrightarrow
+ H^0(\mathcal I_{nC}(d))
+ =Q\cdot H^0(\mathcal O_{\mathbf P^3}(d-2)).
+ \quad}                                                \tag{D4b}
+\]
+At \(d=3n\), the quotient acquires
+\(H^0(Q,\mathcal O_Q(0,2n))\), so the threshold is exact.
+
+Thus every surface of degree below \(3n\) containing the Cartier
+thickening \(nC\) has the fixed quadric component \(Q\).  In particular,
+if \(a,b\ge2\) and \(ab=4n\), then
+\[
+ \max(a,b)<3n
+\]
+and any degree-\(a\) and degree-\(b\) equations through \(nC\) share \(Q\).
+So \(nC\) itself can never be a proper degree-\((a,b)\) CI with
+\(ab=4n\).  This is the elementary global-source explanation; the invariant
+trace theorem is an independent stronger exclusion for arbitrary invariant
+supported CI ideals.
+
+Compare (D4) with
+\[
+ P_{a,b}(d)=ab\,d+{ab(4-a-b)\over2}.
+\]
+Degree equality requires \(ab=4n\).  Equality of constant terms is then
+equivalent to
+\[
+ 3n=2a+2b-4,
+\]
+or
+\[
+ \boxed{\ (3a-8)(3b-8)=16.\ }                         \tag{D5}
+\]
+For positive integers \(a,b\), the only solutions are
+\[
+ (a,b)=(3,8),(4,4),(8,3),
+\]
+with \(n=6,4,6\), respectively.
+
+Thus the already familiar \(4C\subset Q\) has the exact \((4,4)\)
+polynomial \(16d-32\), while \(6C\subset Q\) has the exact \((3,8)\)
+polynomial \(24d-84\).  In characteristic zero neither is a homogeneous
+complete intersection of the matching type: their ideals are torus invariant
+with radical \(I_C\), so the accepted
+[invariant-supported CI exclusion](../results/invariant_supported_ci_exclusion.md)
+forbids any two-generator complete-intersection presentation.
+
+The point is therefore not a new thickening but a sharp control on the
+current invariant package.  Even
+\[
+ \text{sole support}
+ +\text{purity/CM}
+ +\text{intrinsic-torus invariance}
+ +\text{Poisson involutivity}
+ +\text{the exact CI Hilbert polynomial}
+\]
+does **not** recover the actual homogeneous two-generator presentation.
+The endpoint/contact program must retain minimal-generator incidence or an
+equivalent source condition.
+
