@@ -529,6 +529,93 @@ the rank \(\delta_\sigma\) of every
 moving quotient that a full-cycle CI
 would have to select.
 
+## 3.2 Exact full-cycle realization criterion via cofactor identities and the norm
+
+Propositions A–C yield a simple
+**necessary-and-sufficient algebraic
+recognition criterion**, with no
+choice of a carrier. Let
+\(F_a,G_b\) be a proper pair with
+\(ab=4m\), and let \(\sigma\)
+be a prescribed effective
+translated multicycle of total
+multiplicity \(m\). Then
+\[
+ \tag{21}
+ \boxed{
+ [V(F,G)]=\sigma
+ \quad\Longleftrightarrow\quad
+ \begin{cases}
+  \mathfrak B_\sigma^++\mathfrak B_\sigma^-
+       \subset(F,G),\\
+  \operatorname{Nm}_{\mathcal A_{F,G}/k[t^{\pm1}]}
+        (X+uY+vZ)=\mathcal C_\sigma(X,Y,Z).
+ \end{cases}}
+\]
+Under the first condition the
+actual torus algebra \(\mathcal A_{F,G}\)
+is automatically finite flat of
+rank \(m\): its support lies on the
+prescribed translated curves, its
+generic transverse length sum is
+\(ab/4=m\) by Bézout, and
+Cohen–Macaulay purity removes
+vertical or embedded components.
+The second condition then checks
+**exactly the multiplicity partition**
+\(n_i\) by unique factorization of
+the zero-cycle Chow polynomial.
+For distinct reduced cycles the
+second condition is **redundant**,
+because each local generic length
+is at most one and Bézout forces
+all components to occur.
+
+Concretely, the first condition
+is a finite collection of
+**homogeneous cofactor identities**
+\[
+ \tag{22}
+ B_j^\pm(\sigma;x)
+   =A_j^\pm(x)F_a(x)
+      +C_j^\pm(x)G_b(x),
+ \quad j=0,\ldots,m,
+ \quad
+ \begin{cases}
+  \deg A_j^\pm=4m-a,\\
+  \deg C_j^\pm=4m-b.
+ \end{cases}
+\]
+The left sides are explicit
+polynomials in the **elementary
+multisymmetric coefficients**
+of \(\mathcal C_\sigma\).
+The right sides involve the
+**same actual two defining
+surfaces** throughout.
+The norm condition is a
+determinantal equation for the
+multiplication representation
+of the finite-flat quotient;
+it is polynomial in the
+universal quotient algebra's
+structure constants on a
+free-basis chart.
+Properness remains an essential
+open condition. Thus (21)–(22)
+give an **exact degree-by-degree
+algebraic incidence for full
+paired cycles**, including
+nonreduced multiplicities,
+without assuming an invariant
+or eigenform generator.
+This is an equivalent
+realization *formulation*,
+not an elimination of the
+surface or quotient variables,
+a degree-independent bound,
+or a vanishing theorem.
+
 ## 4. Exact relation to the first moment and the all-degree gap
 
 The original coefficient is
