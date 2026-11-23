@@ -159,6 +159,57 @@ actual equation coefficients
 to obtain an all-degree
 contradiction remains open.
 
+### Two opposite full-Chow coefficient systems as actual equation constraints
+
+The [canonical full-Chow pullback envelope](../../arguments/torus/full_transverse_chow_pullback_envelope.md)
+takes the *entire paired* transverse Chow
+form \(\mathcal C_\sigma\), not just its
+ratio-spectrum. The degree-four
+weight-four torus-quotient sections
+\((D,P,R)=(x_1^4,x_0^2x_1x_2,
+x_0^3x_3)\), and their reversed
+weight-twelve counterparts, yield
+\(2(m+1)\) explicit degree-\(4m\)
+polynomials **in every proper
+CI ideal realizing** \(\sigma\).
+Their two coefficient ideals coincide
+with \(\cap_i I_{C_i}^{n_i}\)
+on the dense torus; their sum has
+radical the exact union of translated
+quartics, with no extra coordinate
+curve. The inclusion is a **necessary
+all-degree source condition** retaining
+the full pairing of transverse
+parameters; for reduced cycles and
+\(ab=4m\), it is also sufficient
+for degree exhaustion. For repeated
+cycles the full local lengths
+\(n_i\) remain essential.
+
+The coefficient algebra is the
+constant normal-fat-point ring
+of length
+\(N=\sum_i\binom{n_i+1}{2}\).
+Every actual CI selects a moving
+flat quotient of rank \(m\),
+with kernel rank
+\(\delta=\sum_i\binom{n_i}{2}\).
+The norm of \(X+uY+vZ\) in that
+quotient is exactly
+\(\mathcal C_\sigma\), and the
+trace of \(u/v\) is \(M_1\).
+This accounts for the already
+proved invariant reduced case
+(\(\delta=0\)), and isolates the
+nonreduced moving-quotient and
+two-endpoint gluing gap.
+It does **not** prove universal
+moment vanishing, a uniform
+degree cutoff, or that the
+necessary source inclusions
+admit a two-generator
+proper quotient.
+
 ## Bridges
 
 An osculating quadric puts the entire quadratic conductor at one general
