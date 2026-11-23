@@ -77,6 +77,12 @@ ordinary degree, makes it zero. Thus \(I=(F,G)\). Finiteness over
 actual ideal-lifting proof, not a claim about an arbitrary free algebra
 with a prescribed module splitting.
 
+Without specifying the degrees in advance, it suffices to require the
+central fiber to be Gorenstein: its homogeneous Artin ideal in \(k[x,y]\)
+has height two, so Gorensteinness makes that ideal a two-generated CI.
+The preceding argument then applies. Its generator degrees are determined
+by the central Hilbert series, rather than by the rank alone.
+
 Equivalently, a homogeneous Hilbert lift of the entire quartet-cycle map,
 through a central binary CI of type \((a,b)\), is already a global
 two-equation realization. The Hilbert scheme retains the cyclic quotient
@@ -142,9 +148,10 @@ absent from (HF3). Repeated schemes need not have invariant ideals.
 Equivariant Hilbert/quiver constructions therefore require an additional
 lift, as in the existing distinction between invariant cycles and ideals.
 
-A useful remaining question is whether a homogeneous finite-flat CI lift
-of this full quartet-cycle map can have nonzero pulled-back form while
-extending through the central Gorenstein locus. This is unproved. Dropping
+A useful remaining question is whether a homogeneous finite-flat cyclic
+Hilbert lift of this full quartet-cycle map, with central Gorenstein fiber,
+can have nonzero pulled-back form. The converse above makes it an actual
+global CI already. This is unproved. Dropping
 the quartet condition is explicitly disproved by (HF3).
 
 The underlying symplectic construction is classical: Beauville,

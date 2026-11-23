@@ -136,8 +136,10 @@ CI with twice the original translated cycle. The theorem and \(2\ne0\)
 force the original moment to vanish, even when \(F\) is reducible or
 nonreduced. The [norm proof and source controls](sign_symmetry_and_actual_sources.md#1-one-sign-eigen-equation-is-sufficient)
 were independently reconstructed in the current contribution. Actual
-sign-breaking CI ideals with a full repeated translated cycle exist;
-the displayed controls still have a sign-eigen generator.
+sign-breaking CI ideals with a full repeated translated cycle exist.
+The degree-eight control retains a sign-eigen generator, while the
+[degree-sixteen control](sign_source_controls.md#2-breaking-both-parity-projections-of-the-source-pencil)
+has no sign-eigen member of its source plane and still has zero moment.
 
 The [section-parity refinement](chow_section_parity_defect.md) identifies
 what nonzero moment requires in a non-ACM invariant pure hull: opposite

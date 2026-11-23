@@ -591,7 +591,13 @@ most twelve. Wherever the actual images span the conormal bundle, Nakayama gives
 \(\widetilde{J+\tau J}=\mathcal I_C\) locally. Thus projective deviations
 are confined to line-coincidence and nonprimitive loci; their higher jets,
 not merely their lengths, enter the source module. Start by testing the
-known sign-breaking zero-moment control against this presentation. Declare
+known sign-breaking zero-moment control against this presentation.
+The original degree-eight control has coincident generic first-normal
+lines, and its degree-sixteen successor is entirely thick. The
+[separate angular control](../../arguments/torus/sign_source_controls.md#a-control-with-noncoincident-first-normal-lines)
+tests noncoincidence on a zero-moment arrangement; it does not have sole
+support. These benchmarks distinguish the sectors without yet obstructing
+the unknown source. Declare
 a new source sector only when that comparison identifies an informative
 condition distinguishing nonzero moment. Stop or redirect if it merely
 reproduces a missing low-degree equation or restates UM1. The entirely

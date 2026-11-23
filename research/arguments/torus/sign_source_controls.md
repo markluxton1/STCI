@@ -56,6 +56,35 @@ and factor descent instead force integral actual generators. This does
 not make every integral presentation primitive, nor remove the entirely
 thick alternative. The source-plane parity test is necessary, not sufficient.
 
+### A control with noncoincident first-normal lines
+
+The degree-eight control (AS7), wherever it is generically curvilinear,
+has first-normal line spanned by \(dG\); its sign transform has the same
+line. The entirely thick control (AS7b) has no first-order normal line.
+To test the noncoincident case in characteristic zero, take
+\[
+ F_4=x^4-z^3w,\qquad
+ G_8=(y^4-zw^3)(y^4-czw^3),\qquad H_4=z^3x,
+ \qquad c\ne0,1.
+\]
+The reduced CI \((F_4,G_8)\) has eight translated components
+\(C_{u,1}\), with \(u^4=1\) or \(u^4=c\), and is generically
+transverse along each. Their degrees exhaust the intersection degree
+\(32\). For every \(n\ge2\),
+\[
+                   (G_8+H_4F_4,\ F_4^n)                    \tag{AS7c}
+\]
+is a proper CI of type \((8,4n)\), with \(n\) times that reduced
+cycle. Its moment is zero, also forced by the sign-eigen generator
+\(F_4^n\). Its generic first-normal line and its sign transform are
+spanned by \(dG_8+H_4dF_4\) and \(dG_8-H_4dF_4\); their wedge
+is nonzero because \(H_4\) is generically nonzero and the reduced
+pair is transverse. Thus noncoincidence itself is compatible with zero
+moment. This is an arrangement control, not a sole-support candidate or
+a minimal nonzero-moment source; endpoint attachments still belong in its
+actual parity-part quotient. The construction and normal-line check
+were independently reconstructed in the drafting-agent response review.
+
 ## 3. A parity homotopy preserving the central binary CI
 
 There is a canonical parity projection for every proper pair
