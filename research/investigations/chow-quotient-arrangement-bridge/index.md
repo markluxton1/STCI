@@ -59,6 +59,16 @@ a speculative relative divisor-cycle functional is the most distinct
 geometric alternative, not an established obstruction.
 
 
+The [intrinsic quadric-spectrum and opposite-projection comparison](../../arguments/torus/quadric_pencil_spectral_intrinsic_geometry.md)
+starts from the Segre graph (C\subset Q\subset\mathbf P^3), explains
+why (q=u/v) labels a unique containing quadric **and** an associated
+contact structure, identifies the first moment as the trace of the
+projected effective divisor, and compares degree-four and resolved
+degree-two projections. It also distinguishes the canonical spectral
+form from the complete Chow form and from a minimal nilpotent equation.
+Kalinin's existing Legendrian-on-quadric classification is the
+literature benchmark. No new moment vanishing is inferred.
+
 ## Motivation and the three genuinely different parameter spaces
 
 The [full Chow-polytope rigidity theorem R-0074](../../results/chow_polytope_rigidity.md) says that the cycles with full column-weight polytope \(mP_C\) are exactly effective sums of \(m\) diagonal translates of \(C\). This is a strong **cycle** classification, not a classification of reduced unions, their blow-ups, or equations.
