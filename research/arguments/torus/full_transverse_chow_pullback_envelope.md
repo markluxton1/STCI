@@ -481,6 +481,21 @@ For clarity, (19) is a **necessary**
 constant-envelope quotient, not a
 sufficient construction of a
 projectively embedded CI.
+This extends the **constant fat-algebra source**
+of the accepted [R-0072 movement framework](../../results/torus_quotient_movement_bounds.md)
+from the single supported point
+\(m[(1,1)]\) to **an arbitrary full
+translated multicycle**. It does **not**
+extend R-0072's socle/Plücker
+degree bounds automatically:
+those estimates use the dualizing
+and conormal data of a *single*
+supported rational quartic, whereas
+several supports interact at the
+shared endpoints. The extra source
+rank \(\delta_\sigma\) alone carries
+no degree bound or moment vanishing.
+
 An arbitrary moving quotient
 over \(k[t^{\pm1}]\) need not
 extend across either endpoint,
