@@ -324,6 +324,145 @@ sole support is therefore equivalent to
 \]
 Without the translated-family hypothesis, (CHN7) is only a section condition.
 
+
+### A two-operator determinant recovers the full transverse Chow polynomial
+
+**New comparison, pending independent review.**  The binary specialization
+\(H_Z\) remembers only \(U_i/V_i\).  There is an equally elementary
+finite-algebra determinant that retains the **paired** transverse coordinates
+and hence the full \({\cal C}_Z\).
+
+Use the plane-pencil finite cover obtained by projection from
+\(M=V(x_0,x_3)\), and work over its generic base field \(K\).  Put
+\[
+ q=x_0x_3-x_1x_2,\qquad
+ D=x_0^3x_3,\qquad
+ P=x_0^2q,\qquad
+ R=x_1^4-x_0^3x_3 .
+ \tag{CHD1}
+\]
+The base section \(D\) is nonzero over the generic point.  On the finite
+\(K\)-algebra \(A\) of the intersection define
+\[
+ A_1=P/D,\qquad A_2=R/D
+\]
+and their commuting multiplication operators.  Set
+\[
+ \Delta_Y(S,T,Z)
+ =\det_K\!\left(SI+T M_{A_1}+Z M_{A_2}\right).
+ \tag{CHD2}
+\]
+This is monic of degree \(n=ab\) in \(S\).
+
+For a translated quartic
+\[
+ C_{[W:U:V]}=[Ws^4:Ws^3t:Ust^3:Vt^4]
+\]
+one has, literally on its generic point,
+\[
+ {P\over D}=1-{U\over V},\qquad
+ {R\over D}={W\over V}-1.                       \tag{CHD3}
+\]
+Indeed
+\[
+ P=W^3(V-U)s^{12}t^4,\quad
+ R=W^3(W-V)s^{12}t^4,\quad
+ D=W^3V s^{12}t^4.
+\]
+If the fundamental cycle is
+\(Z=\sum_i n_i[C_{[W_i:U_i:V_i]}]\), finite-algebra norm
+multiplicativity, including the local lengths \(n_i\), therefore gives
+\[
+\begin{aligned}
+ \Delta_Y(S,T,Z)
+ &=\prod_i
+ \left(
+ S+T{V_i-U_i\over V_i}
+   +Z{W_i-V_i\over V_i}
+ \right)^{4n_i}\\
+ &=\boxed{
+ \left[
+ { {\cal C}_Z(Z,-T,S+T-Z)\over
+   {\cal C}_Z(0,0,1)}
+ \right]^4 } .                                      \tag{CHD4}
+\end{aligned}
+\]
+The exponent four is the degree of each translated quartic over the
+projection base; the exponent \(n_i\) is its cycle multiplicity.  Nilpotent
+structure changes those multiplicities but not the residue values in
+(CHD3).  Formula (CHD4) is the ordinary norm/product formula for a finite
+algebra applied to these two fixed ambient functions, not a new general
+norm theorem.
+
+The linear change
+\[
+ (X,Y,Z_0)=(Z,-T,S+T-Z)
+\]
+is invertible.  Since \({\cal C}_Z(0,0,1)\ne0\) on the transverse torus,
+(CHD4) shows that \(\Delta_Y\) determines the normalized full transverse
+Chow polynomial, not merely \(H_Z\) or its moments.  In particular
+\[
+ Z=m[C_0]
+ \quad\Longleftrightarrow\quad
+ \Delta_Y(S,T,Z)=S^{4m}                         \tag{CHD5}
+\]
+within the translated-quartic locus.  No factorization of
+\({\cal C}_Z\) is required to test the right side.
+
+There is also a source-side statement that does **not** require prior
+Chow-polytope reduction.  For any proper pair containing \(C_0\) and
+finite over the same plane pencil,
+\[
+ \boxed{
+ Y_{\rm red}=C_0
+ \quad\Longleftrightarrow\quad
+ \Delta_Y(S,T,Z)=S^{ab}.}
+ \tag{CHD6}
+\]
+The forward implication holds because \(A_1,A_2\) lie in the nilradical;
+all their linear combinations are nilpotent.  Conversely, specialize
+(CHD2) first to \(Z=0\) and then to \(T=0\).  Cayley--Hamilton makes
+\(A_1,A_2\) nilpotent.  On the generic open \(D\ne0\), their common zero
+set is
+\[
+ q=0,\qquad x_1^4-x_0^3x_3=0,
+\]
+which is exactly the generic fiber of \(C_0\).  Finiteness over the base
+precludes the vertical boundary lines in the projective closure, so the
+reduced curve support is \(C_0\).
+
+This determinant also interfaces with the actual source filtration.
+Write
+\[
+ \Delta_Y=\sum_{j=0}^{n} S^{n-j}\Delta_j(T,Z),
+ \qquad \deg_{T,Z}\Delta_j=j.
+ \tag{CHD7}
+\]
+Then \(D^j\Delta_j(T,Z)\) is the \(j\)-th characteristic coefficient of
+multiplication by the degree-four section \(TP+ZR\).  By the
+[finite source-depth theorem](fixed_surface_and_endpoint_algebras.md#the-whole-characteristic-tower-has-finite-source-depth),
+\[
+ \boxed{\Delta_j\text{ is determined by the first }4j
+ \text{ base-degree layers of the actual }F,G.}       \tag{CHD8}
+\]
+Thus (CHD4) is not only a cycle identity: it identifies, order by order,
+specific coefficients of \({\cal C}_Z\) with finite-depth polynomial
+functions of the two **actual homogeneous source equations**.
+
+At first order,
+\[
+\begin{aligned}
+ [S^{n-1}T]\Delta_Y
+   &=4\sum_i n_i(1-U_i/V_i),\\
+ [S^{n-1}Z]\Delta_Y
+   &=4\sum_i n_i(W_i/V_i-1).
+\end{aligned}                                         \tag{CHD9}
+\]
+The old first-moment theorem controls the first of these only under its
+extra equation hypotheses.  Higher \(\Delta_j\) give the canonical
+paired hierarchy; no assertion is made here that a fixed initial segment
+already excludes an arbitrary characteristic-zero STCI.
+
 ### Multiplication matrices and all transverse moments
 
 Let \(B_\Pi\) be the finite section algebra of an actual pair in this family.
