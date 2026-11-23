@@ -38,6 +38,45 @@ The equation \(M_1=0\) is a regular hypersurface equation on the interior
 Chow closure of each covered locus. No closure argument can recover
 points outside those closures.
 
+### Stronger first-jet refinement from the intrinsic geometry (November 22)
+
+The [spectral–Jacobian/Serre-duality argument](spectral_jacobian_first_jet_bridge.md)
+makes the earlier six-layer trace formula **strictly sharper under full
+translated-cycle support**. Set \(A=x_1x_2,B=x_0x_3\),
+\(M_{ij}=F_iG_j-F_jG_i\). Every such CI satisfies
+\[
+ A M_{12}-2B M_{03}\in(F,G).
+\]
+This follows from the **actual** Artinian Jacobian socle and the
+tangent Plücker coordinates of each translated component, not
+invariance. If \(f_0,g_0\) are the restrictions of \(F,G\) to
+\(L=V(x_0,x_3)\), and \(p,q,r,s\) their four first normal
+coefficients, then
+\[
+ \boxed{2M_1=\operatorname{Res}_{f_0,g_0}(ps-qr)
+ =\operatorname{Tr}_L\partial_{f_0,g_0}(ps-qr).}
+\]
+The last equality identifies the residue with the connecting class
+for the **Koszul sequence on** \(L\simeq\mathbf P^1\),
+whose target is \(H^1(L,\omega_L)\simeq k\).
+The moment is half a nondegenerate alternating pairing of two
+first normal equation jets. Its critical symplectic space has
+dimension \(2\min(a,b)\). The six-layer formula still applies to
+**arbitrary** finite-free CI pairs, while this refinement requires
+the *entire translated cycle*.
+
+The same argument proves an equation-level **support recognition
+criterion**: among proper pairs avoiding \(L\), all reduced
+components are translated quartics exactly when the ideal contains
+some product of nonzero-parameter quadric-pencil members
+and the displayed Jacobian relation. The second quotient
+character \(\eta=x_0x_2^2/(x_1^2x_3)\) is encoded by the cubic
+pencil \(R_\eta\), with
+\(Q_\xi\cap R_\eta=C_{\eta/\xi,\eta/\xi^2}+L_{01}+L_{23}\).
+Thus the actual remaining obstacle is to prove **first-jet
+isotropy** on this full source-incidence locus, not merely to
+calculate the residue. Independent proof review remains due.
+
 ## Upward synthesis: the smallest exact common algebraic target
 
 **All-degree finite-cover trace.** Every such proper pair avoids the line
