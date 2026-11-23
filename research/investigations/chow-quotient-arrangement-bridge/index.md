@@ -69,6 +69,57 @@ form from the complete Chow form and from a minimal nilpotent equation.
 Kalinin's existing Legendrian-on-quadric classification is the
 literature benchmark. No new moment vanishing is inferred.
 
+## Iteration: from quadric spectrum and actual Jacobians to a Serre-duality class
+
+The [new complete argument](../../arguments/torus/spectral_jacobian_first_jet_bridge.md)
+integrates the main-branch *actual Jacobian/socle theorem* with
+the spectral form and all-degree trace identities. The two independent
+characters of the transverse quotient are
+\[
+ \xi=\frac{x_1x_2}{x_0x_3}=\frac uv,\qquad
+ \eta=\frac{x_0x_2^2}{x_1^2x_3}=\frac{u^2}v .
+\]
+They determine a unique quadric and a cubic scroll, and
+\[
+ Q_\xi\cap R_\eta=C_{\eta/\xi,\eta/\xi^2}+L_{01}+L_{23}
+\]
+as actual intersection cycles. For any proper CI with *entire*
+translated-quartic cycle, the actual Jacobian minors obey
+\[
+ x_1x_2 M_{12}-2x_0x_3 M_{03}\in(F,G).
+\]
+Combined with the existing spectral equation \(H(A,B)\in(F,G)\),
+this provides a **converse recognition criterion** for translated
+reduced support, when \(Y\cap V(x_0,x_3)=\varnothing\).
+For the first moment, the same identity and classical residue/duality
+give the much smaller exact test
+\[
+ \boxed{2M_1
+ =\operatorname{Res}_{f_0,g_0}(ps-qr)
+ =\operatorname{Tr}_{L}\partial_{f_0,g_0}(ps-qr).}
+\]
+The right side is the Serre trace on \(L\simeq\mathbf P^1\)
+of the Koszul connecting class of the **first normal jets** of
+the actual pair. Equivalently it is a perfect alternating
+Macaulay pairing on a symplectic space of dimension
+\(2\min(a,b)\). This supersedes the general six-layer trace
+formula as the *shortest expression* **once** translated support
+is known; the six-layer formula remains necessary for
+arbitrary proper pairs.
+
+**Present result:** the geometry and reduction above, plus a
+proper quartic containing pair with nonzero pairing and residual
+degree twelve. **Still missing:** proof that the image of the
+full actual-equation incidence satisfying both recognition
+conditions is isotropic under this perfect pairing. The pairing
+itself is not zero for arbitrary containing pairs. This is now the
+preferred precise joint-source gate for UM1; it avoids the false
+assumptions that non-invariant pairs can be torus-diagonalized
+or that an intrinsic Hilbert limit remains a two-generator CI.
+
+**Review status:** proposed new argument, not independently
+six-perspective reviewed. No unrestricted STCI theorem.
+
 ## Motivation and the three genuinely different parameter spaces
 
 The [full Chow-polytope rigidity theorem R-0074](../../results/chow_polytope_rigidity.md) says that the cycles with full column-weight polytope \(mP_C\) are exactly effective sums of \(m\) diagonal translates of \(C\). This is a strong **cycle** classification, not a classification of reduced unions, their blow-ups, or equations.
