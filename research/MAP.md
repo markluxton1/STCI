@@ -34,6 +34,95 @@ The next genuinely independent gate must use **homogeneous source restrictions b
 
 **Decision rule for another iteration:** demand an independent source-level inequality or incidence obstruction that is not merely an expression for \(Q_1\). Otherwise switch from attachment reparametrizations to the general Chow/source realization problem.
 
+
+### Source-to-Chow determinant: the new global equation gate
+
+**Synthesis checkpoint (2026-11-23; new comparisons pending independent
+review).**  The source-side search now has an exact finite-algebra interface
+that is independent of the attachment quotient.  For any proper pair
+\(Y=V(F_a,G_b)\) containing \(C_0\) and finite over the plane pencil from
+\(M=V(x_0,x_3)\), the characteristic coefficient of multiplication by a
+fixed degree-\(d\) ambient form at order \(j\) depends only on the first
+\(dj\) base-degree layers of the **actual** \(F,G\).  This is the
+[finite source-depth theorem](arguments/torus/fixed_surface_and_endpoint_algebras.md#the-whole-characteristic-tower-has-finite-source-depth),
+obtained by the flat scaling to the binary leading forms.  It is
+characteristic-free at the characteristic-polynomial level.  The old
+two-lower-layer first-trace formula is its \(d=2,j=1\) case.
+
+Two very low-degree fixed surfaces already make the support test exact:
+for
+\[
+ q=x_0x_3-x_1x_2,\qquad c=x_1^3-x_0^2x_2
+\]
+one has \(V(q,c)_{\rm red}=C_0\cup V(x_0,x_1)\), and the extra line is a
+vertical fiber of the pencil.  Hence
+\[
+Y_{\rm red}=C_0
+\iff
+\chi_{m_q}=T^{ab}\ \text{and}\ \chi_{m_c}=T^{ab}.
+\]
+The \(j\)-th equations use only source depth \(2j\) and \(3j\).  This is an
+exact source-to-support criterion, not a nonexistence theorem: the remaining
+problem is to show that the required two towers cannot arise from actual
+homogeneous sources.
+
+The same idea recovers the **full paired transverse Chow polynomial**, not
+only its first moment.  Put
+\[
+ D=x_0^3x_3,\quad P=x_0^2q,\quad R=x_1^4-x_0^3x_3
+\]
+and over the generic pencil field define
+\[
+ \Delta_Y(S,T,Z)=
+ \det(SI+T M_{P/D}+Z M_{R/D}).
+\]
+For a translated cycle with homogeneous transverse Chow form
+\({\cal C}_Z\),
+\[
+ \boxed{\displaystyle
+ \Delta_Y(S,T,Z)=
+ \left[
+ { {\cal C}_Z(Z,-T,S+T-Z)\over{\cal C}_Z(0,0,1)}
+ \right]^4 .}
+\]
+Thus the [two-operator determinant comparison](arguments/torus/chow_arrangement_moments.md#a-two-operator-determinant-recovers-the-full-transverse-chow-polynomial)
+recovers the paired \([W_i:U_i:V_i]\), unlike the binary \(H_Z\).
+Moreover
+\[
+Y_{\rm red}=C_0\iff\Delta_Y=S^{ab}
+\]
+even before Chow-polytope reduction, under the finite-cover hypotheses.
+If
+\(\Delta_Y=\sum S^{ab-j}\Delta_j(T,Z)\), then \(\Delta_j\) is determined
+by the first \(4j\) source layers.  On the translated locus this identifies
+specific coefficients of \({\cal C}_Z\), order by order, with finite-depth
+polynomial functions of the actual pair.
+
+**What is genuinely new versus classical.**  Norms, multiplication
+matrices, characteristic polynomials and trace/resultant formulas are
+classical; the checked literature includes Cattani--Dickenstein--Sturmfels
+and D'Andrea--Jeronimo, while Hellus--Hübl remains the strongest general
+published restriction on the extreme torus-weight pieces of a hypothetical
+Macaulay-quartic STCI pair.  The new project-specific content is the choice
+of these ambient test sections, the exact linear recovery of
+\({\cal C}_Z\), and the source-depth comparison.  No theorem in the checked
+literature replaces two arbitrary defining equations by two torus
+eigenforms.
+
+**Next decision point.**  Do not search for another abstract residual
+detector.  The next meaningful obstruction is now concrete: study the image
+of the actual homogeneous source under the first nontrivial maps
+\[
+(F,G)\longmapsto\Delta_1,\Delta_2,\ldots
+\]
+and compare it with the pure target \(\Delta=S^{ab}\).  The first coefficient
+alone cannot suffice: the existing quartic control has zero \(q\)-trace and
+residual degree twelve.  A useful next theorem must either (i) show that a
+bounded initial segment of the **paired** determinant is incompatible with
+\(F,G\in I_C\), uniformly in degree, or (ii) prove a structural recursion
+forcing a later coefficient nonzero.  Without such a source-image statement,
+the pure determinant remains an exact reformulation rather than an exclusion.
+
 ### From candidate lattices to actual algebras and proper cuts
 
 The [marked border-product theorem](arguments/residuals/blowup_residual_geometry.md#finite-index-rigidity-of-higher-marked-jets)
