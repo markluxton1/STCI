@@ -141,6 +141,26 @@ degree decreases. Extracting the **full** \(C\)-primary component is a
 different operation and need not commute with specialization. Its
 nonflatness does not obstruct the flat family (2b).
 
+The fiberwise proper-CI hypothesis is essential for the asserted
+commutation with the special colon. After a full Hilbert degeneration
+loses that hypothesis, the flat closure of the generic once-link and
+the colon of the special curve can differ. The
+[actual-source specialization comparison](../normal-geometry/source_specialization_and_linkage.md#once-linkage-and-the-special-colon)
+identifies the difference over a trait: for the flat family algebra
+\(A\), fixed mark ideal \(I\), and
+\(P=\operatorname{Ann}_A(I)\), the quotient \(A/P\) remains flat, but
+\[
+0\to\operatorname{Ext}^1_{\mathcal R}(\mathcal R/I,A)[t]
+\to(A/P)\otimes k
+\to A_0/\operatorname{Ann}_{A_0}(I)\to0.
+\]
+The Ext term carries the parameter-character twist in an equivariant
+weighted family. The linked local length-three control has flat
+once-link limit a double line and actual special colon a reduced line.
+It supplies no global quartic construction. Thus a special colon
+cannot replace the flat linked limit without checking this base-change
+condition; full-primary extraction is still a separate operation.
+
 ### 2.2. Equation recovery for every smooth rational space curve
 
 The same recovery argument has a useful general scope.

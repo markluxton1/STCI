@@ -4,6 +4,24 @@
 
 The target of this construction test is a homogeneous ACM thickening in the fixed downstairs \(\mathbf P^3\). It is weaker than an AG thickening there, which in codimension two would be a complete intersection. [Singh–Walther, Example 3.5 and Question 3.6](https://www.math.utah.edu/~singh/publications/singh_walther_pure.pdf) ask the still weaker historical question whether the exact quartic ideal is the radical of an ideal with CM quotient, without requiring homogeneity. This attribution does not assert that every later publication has been checked. The CI sources here, and the basic-double-link ACM schemes in the [supported-linkage account](supported_linkage_operations.md), live upstairs on \(Q_3\subset\mathbf P^4\). Their ACM property alone supplies no ACM conclusion about their four-coordinate images in \(\mathbf P^3\); the theorem below proves failure for the displayed power and binary-mixture images.
 
+## Structural symmetry interpretation
+
+In characteristic zero, the [sign-symmetry theorem](../torus/chow_acm_parity_vanishing.md)
+already prevents **any pure sign-invariant homogeneous image** solely
+supported on a translated quartic from being ACM. The image need not come
+from the power or binary-mixture sources below: its nonzero cycle moment
+contradicts that theorem if it is ACM. Thus equivariant projection failure
+is a structural generation obstruction, not an accidental coefficient
+failure in these examples.
+
+The displayed sources are equivariant for
+\((a,d,b,c,z)\mapsto(a,d,-b,-c,z)\). Their explicit missing-section classes
+remain valuable: they identify actual degrees and characters and retain
+positive-characteristic scope when the cycle moment may vanish. The
+[conjugate-source fiber product](../torus/sign_symmetry_and_actual_sources.md)
+is a different actual presentation with the same local-cohomology pattern
+\(H^1(A)=H^0(B/A)\). It does not identify the two quotient modules.
+
 ## Uniform failure of ACM for the actual power images
 
 Let k be an algebraically closed field, let \(u,v>0\), and assume

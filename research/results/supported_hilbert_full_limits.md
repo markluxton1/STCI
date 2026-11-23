@@ -61,8 +61,20 @@ Every projective subscheme with reduced support \(C\) satisfies
 \(\mathcal I^N\subset\mathcal I_Y\subset\mathcal I\) for some positive
 integer \(N\) depending on that subscheme. Thus every actual
 sole-supported proper degree-\((a,b)\) complete intersection belongs to
-some \(H_N\), together with both of its full torus limits. This assertion
-does not supply a uniform value of \(N\).
+some \(H_N\), together with both of its full torus limits. For arbitrary
+supported Hilbert points this nilpotence argument is individual. On the
+actual CI sublocus there is the stronger uniform bound
+\[
+\mathcal I_C^{m}\subset\mathcal I_Y,
+\qquad m=ab/4.
+\]
+The CI ideal is \(I_C\)-primary, and the \(m\)-th power of the maximal
+ideal of its generic length-\(m\) algebra is zero. Primary contraction
+therefore gives \(I_C^{(m)}\subset I_Y\), hence the displayed ordinary
+power containment. Closedness of this incidence preserves it along the
+supported orbit. Thus \(H_m\) covers every actual sole-supported CI of
+this degree type and both intrinsic limits; for \((6,6)\) one can use
+\(H_9\).
 
 For every point of \(H_N\), the generic length along \(C\) is
 \(ab/4\). In particular nonemptiness implies \(4\mid ab\). For
@@ -80,6 +92,11 @@ scheme, sufficiently positive relative generation and cohomology/base
 change, and extension over a nonsingular curve into a proper scheme;
 their precise uses are explained there.
 
+The uniform actual-CI power containment is proved in the
+[supported graph comparison](../arguments/torus_hilbert_boundary.md#equationhilbertchow-graph-and-its-top-fiber).
+Its primary-contraction argument is independent of characteristic. It does
+not assert the same bound on arbitrary points of a larger top-Chow fiber.
+
 The source is the
 [supported Hilbert-boundary section](../arguments/equations/global_equations_and_constructions.md#the-supported-hilbert-locus-and-its-full-torus-boundary),
 with the fixed-\(N\) directional formulation in
@@ -90,12 +107,16 @@ with the fixed-\(N\) directional formulation in
 This is a bounded support-preservation theorem, not a classification of
 fixed points or their attracting loci. It proves neither finiteness nor
 local closedness of any proposed point-indexed decomposition. A fixed
-\(N\) covers only its declared incidence, and no nonempty supported
-complete-intersection locus is exhibited.
+\(N\) covers only its declared incidence of arbitrary Hilbert points.
+For actual CIs the fixed-degree bound \(N=m\) above supplies coverage;
+classification of fixed limits and their attracting families remains
+unperformed, and no nonempty supported CI locus is exhibited.
 
 The two full limits need not be the same ideal and need not retain two
 generators. Neither the ideal of two equation initials, an
 \(\mathcal I\)-adic normal-cone initial ideal, a pure hull, nor the
-fundamental cycle is a substitute for the full limit. This result gives
-no map identifying endpoint data of a finite transverse modification
-with these opposite Hilbert limits, and no unrestricted STCI conclusion.
+fundamental cycle is a substitute for the full limit. The separate
+[endpoint-fiber theorem](intrinsic_limits_endpoint_fibers.md) identifies
+their pure orbit images and embedded lengths from the finite transverse
+modification. That comparison does not recover all full endpoint algebras
+or prescribed-degree generators. No unrestricted STCI conclusion follows.

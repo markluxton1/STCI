@@ -32,19 +32,22 @@ power bound, and finite cutoff where one is used.
 
 Starting from one actual moving embedded family, which transverse algebra,
 endpoint image-lattice, and actual homogeneous equation-module data specialize
-to its two full torus limits? Can a proved comparison morphism or specialization
-statement constrain generator incidence on an opposite-limit intersection?
-In particular, can the paired endpoint profiles give a compatibility
-restriction beyond the individual Hilbert-polynomial and defect budgets?
+to its two full torus limits? Which section-hull profiles and parity classes
+can arise through the canonical relative-image and cohomological
+specialization maps of the same two equations? Can these constraints decide
+generator incidence on a declared opposite-limit intersection, beyond the
+individual Hilbert-polynomial and endpoint-length budgets?
 
 ## Purpose
 
 [F-0001](../../frameworks/torus-supported-boundaries/index.md) organizes full
 supported limits and moving equations.
 [F-0002](../../frameworks/embedded-torus-quotients/index.md) retains embedded
-quotients and projective contraction. This joint investigation asks for the
-missing mathematical bridge between those objects. It does not identify them
-because they share a defect length or resemble one another geometrically.
+quotients and projective contraction. Their relative-image and
+[actual-family cohomological maps](../../arguments/normal-geometry/source_specialization_and_linkage.md)
+are now inputs, rather than an unspecified missing bridge. This joint
+investigation asks which actual homogeneous source data can induce the
+required pure section hull and full endpoint correction simultaneously.
 
 ## Inputs
 
@@ -56,6 +59,16 @@ with residual curves as well as to a hypothetical defining pair.
 For characteristic-zero candidates, [R-0072](../../results/torus_quotient_movement_bounds.md)
 supplies the rank and splitting bounds on the entire moving quotient used
 in the [findings](#findings).
+
+The [section-cohomology comparison](../../arguments/torus/boundary_section_cohomology.md)
+computes the pure image's \(H^1\) from one two-lattice interpolation map
+and imposes the whole splitting-profile inequality for CI origin. The
+[sign-symmetrized source theorem](../../results/sign_symmetrized_source_defect.md)
+computes the invariant union's section defect from the actual source
+\(J+\tau J\), with its equivariant sign twist. Its
+[one-equation norm reduction](../../arguments/torus/sign_symmetry_and_actual_sources.md#1-one-sign-eigen-equation-is-sufficient)
+also restricts the actual minimal-degree source space. The union defect
+is not automatically the pure torus limit's defect.
 
 [R-0037](../../results/supported_hilbert_full_limits.md) preserves the whole
 supported Hilbert object; [R-0039](../../results/moving_ideal_generator_criterion.md)
@@ -120,16 +133,10 @@ shows that a flat full ideal can acquire embedded punctual
 structure while its pure hull has a different Hilbert
 polynomial. It reinforces the existing requirement to
 compare **the same moving embedded family**, including
-its equation modules and both endpoint images. Neither
-the residual orbit classification nor a cycle-level
-absorption argument supplies the missing comparison map.
-
-**Priority consequence:** retain this active bridge as a
-prerequisite for interpreting proposed opposite-limit
-generator strata, but do not expand its scope to classify
-all invariant residual arrangements. A decisive outcome
-remains an actual specialization statement or a concrete
-compatibility obstruction for one declared family.
+its equation modules and both endpoint images. A cycle-level absorption
+argument does not determine those maps or their images. A decisive outcome
+can be a compatibility obstruction or a realization on one declared family;
+classifying all invariant residual arrangements is not required.
 
 ## Findings
 
@@ -140,6 +147,9 @@ uses the common embedded quotient of the two endpoint fibers and the
 matched embedded lengths. At a general point \(x\), the larger equation degree \(b\) gives the lower bound \(\lceil(4b-7)/7\rceil\) on the rank of the
 linear map \(K_x\to B_x\) induced by a single base tangent vector. That rank
 can exceed the dimension of the classifying image, which is a curve.
+Its fixed-involution refinement also bounds the common quotient at
+\(r,-r\) by \(m-\lceil(4b-7)/7\rceil\) for general \(r\), so the
+embedded family cannot factor through \(r\mapsto r^2\).
 Specialization to the two endpoint fibers can lower the secant rank. These conclusions
 need neither an endpoint classification nor a specified type of transverse
 algebra. The missing step for a family passing the bounds is the comparison
@@ -162,6 +172,31 @@ coordinate is a parameter unless the direction is the containing
 quadric. The latter exclusion uses the actual dimension of the
 degree-six source, beyond the defect inequality.
 
+The cohomology profile adds an independent restriction: the diagonal
+length-nine algebra \(u=v=1+\epsilon\), \(\epsilon^9=0\), cannot be
+either endpoint fiber, even after the endpoint correction of length 63
+repairs its polynomial. More generally the
+[diagonal exclusion](../../arguments/torus/boundary_section_cohomology.md#3-diagonal-endpoint-algebras-can-fail-despite-finite-correction)
+applies when \(n=ab/4\le a+b-3\), including the length-ten diagonal
+algebra for \((5,8)\), whose required correction would be 80. The
+two-lattice map and full section-hull profile can test other surviving
+embedded algebras; total endpoint length alone cannot do so.
+The cohomology exclusion itself is characteristic free. The complete
+diagonal splitting calculation also shows that all twist inequalities
+pass when \(n\ge a+b-2\); more twists of that model give no further test.
+
+For each pure hull \(Y\), distinguish its vertex section defect
+\(D=\bigoplus_d H^1(I_Y(d))\) from the projective endpoint correction
+\(T=I_Y/I_L\). There is a canonical surjection
+\(H^1(I_L(d))\twoheadrightarrow D_d\), and the actual flat family
+supplies cohomological specialization sources for the former. The
+nonstandard-sign head class in \(D\) is automatic for every sole-support
+constant image in characteristic zero, without any CI-origin assumption.
+It is not an additional endpoint filter. Restrictions must concern the
+actual source inducing that class and its extended multiplication; contact separately
+requires the finite conormal map into \(T(-2)\) to vanish. The remaining
+question concerns their simultaneous images and actual equation sources.
+
 The full algebra at the opposite endpoint of a limit, its additional
 generators, and the incidence of compatible moving equations remain
 unresolved. Transverse one-parameter subgroups move the marked support
@@ -178,9 +213,20 @@ of its pure projective image. Over an infinite field, once that ideal
 \(J\) has the whole CI polynomial \(P_{a,b}\), it suffices to check
 \(J_a\ne0\) and that the degree-\(b\) forms have no common irreducible
 factor. The open question is what restrictions two global generators impose
-on a *family* beyond its splitting, generic secant and tangent ranks,
-Hilbert polynomial and endpoint image algebras.
+on a *family* passing the movement, involutive-secant, pure-cohomology
+and full endpoint-contact conditions, while inducing the required actual
+section-algebra presentation.
 [Proper-pencil criterion](../../arguments/torus_hilbert_boundary.md#complete-intersection-polynomial-and-a-proper-pencil).
+
+One bounded alternative is to construct or exclude an actual
+full-translated-cycle CI boundary with nonzero pure section defect \(D\),
+including moment-zero cases. The known exceptional quartic limits have
+ACM pure hulls, while the \((16,16)\) equation-layer control has a CI pure
+hull, despite their nonzero \(T\). Noninvariance of actual CIs and the
+appearance of endpoint corrections are already realized; the proposed
+test concerns section-hull data and its compatible source. It sits beside
+the interpolation and actual-family source problems, without claiming
+priority over a carrier-based section lift or modulus-compatible relation.
 
 ### What the presentation theorems already give
 

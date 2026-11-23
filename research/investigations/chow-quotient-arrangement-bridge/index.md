@@ -34,6 +34,27 @@ obstruct a proper pair realizing a full translated cycle? In particular, can
 the embedding and boundary conditions lost by the Chow quotient be recovered
 from endpoint data and the same two global equations?
 
+### Current first-moment probe
+
+The current investigation focuses on UM1 itself: why should the spectral
+polynomial \(H_\sigma(T,1)=\prod_i(T-u_i/v_i)^{n_i}\) be depressed in
+the distinguished quadric-pencil coordinate for every actual complete
+intersection with full translated support? The target includes arbitrary
+non-invariant repeated structures. An arbitrary translation of the spectral
+coordinate, containment of a translate, or a bounded determinant truncation
+does not establish this assertion.
+
+The renewed November 23 reassessment changes the source question. Actual
+sign symmetry yields stronger carrier and source-plane exclusions, but
+sign-breaking repeated CI controls already exist. The direct conjugate-pair
+fiber product now presents the section defect from the original equations;
+family cohomology and linked-colon base change give other exact comparisons.
+The question concerns their marked multiplication and source maps, not
+existence of an unspecified map or a nonzero abstract defect. The strategic
+queue compares this with endpoint interpolation, the actual carrier norm
+jet and whole elliptic inverse support. Full spectral classification is not
+a prerequisite to UM1, and UM1 is not a prerequisite to those other routes.
+
 ## Motivation
 
 [Full torus boundaries (STCI-F-0001)](../../frameworks/torus-supported-boundaries/index.md),
@@ -45,6 +66,33 @@ The central interface is whether those objects encode compatible data for
 the same proper equation pair.
 
 ## Findings
+
+- [Residual liaison](../../results/chow_moment_residual_speciality.md)
+  proves vanishing when the reduced support's smallest equation space is
+  exhausted by the actual CI sources. Conormal and conductor bounds cover
+  one double with simple companions in all degrees and one triple with
+  simple companions in all degrees in characteristic zero. The precise
+  cohomology dimension is \(\dim(I_Y)_a-\dim J_a\), so it measures
+  reduced-support postulation, not independent hidden nilpotent freedom.
+  The [quartic–quintic analysis](../../arguments/torus/chow_quintic_mate_partitions.md)
+  leaves only \((4,1)\) and \((3,2)\) unexcluded in characteristic zero.
+- [Actual sign symmetry and ACMness](../../results/chow_acm_parity_vanishing.md)
+  force \(M_1=0\), without a CI presentation or fixed Hilbert numerator,
+  in characteristic different from two. Thus both invariant pure hulls
+  of a hypothetical characteristic-zero sole-supported CI must be non-ACM.
+  Nonzero moment requires a [nonstandard-sign generator in the head of
+  the finite section defect](../../arguments/torus/chow_section_parity_defect.md).
+  The single reduced quartic exhibits this defect. Direct symmetrization
+  now supplies an actual-source presentation; compatibility of its marked
+  multiplication with nonzero moment remains unresolved.
+- The [Hilbert-scheme form](../../arguments/torus/chow_hilbert_symplectic_form.md)
+  gives \(f^*\omega=2M_1\,dx_0\wedge dx_3\), including repeated
+  components. An exact twisted-cubic-plus-line control shows that endpoint
+  collapse and a Gorenstein central fiber alone do not force isotropy.
+  The [boundary-modulus interpretation](../../arguments/torus/spectral_boundary_modulus.md)
+  makes depression equivalent to triviality in
+  \(J(\mathbf P^1,2\infty)\simeq\mathbf G_a\). The additive target
+  is constructed; compatibility with actual CI/Cartier relations is not.
 
 - **UM1 remains a conjecture.** If a proper actual CI \(Z=V(F_a,G_b)\) has
   \[
@@ -109,6 +157,27 @@ the same proper equation pair.
 ## Remaining questions and bounded tests
 
 The following are **proposed tests**, not a priority ranking:
+
+- Retain the actual pair and its sign transform, both Koszul presentations,
+  their sum and intersection, and the
+  [explicit section-hull fiber product](../../results/sign_symmetrized_source_defect.md).
+  Determine what the marked presentation and multiplication impose beyond
+  expected saturation torsion. Calibrate on actual sign-breaking
+  zero-moment thickenings. In the generically curvilinear sector, compare
+  the two first-normal lines and their coincidence/nonprimitive loci.
+  A test that only finds the missing quadric or a nonzero Rao class adds
+  no obstruction. The entirely thick sector needs its own source analysis.
+- Use the [actual-family specialization maps](../../arguments/normal-geometry/source_specialization_and_linkage.md)
+  with their embedded corrections and parameter characters, or the
+  [endpoint interpolation profile](../../arguments/torus/boundary_section_cohomology.md).
+  The maps already exist; their surviving classes and joint realization are
+  the issue. The exact diagonal \((6,6)\) and \((5,8)\) endpoint models
+  are excluded by cohomology and are no longer open probes.
+- On a named source family, seek a new geometric cancellation condition
+  for the [existing norm jet](../../arguments/torus/spectral_boundary_modulus.md).
+  Ordinary norm existence is universal for actual pairs, and evaluating
+  its aggregate jet reproduces the source residue. That evaluation alone
+  is not a new test.
 
 - On a specified endpoint-rank stratum, determine whether normal flatness
   holds for the re-formed union and whether its Rees family agrees with the

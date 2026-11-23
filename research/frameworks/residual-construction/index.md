@@ -55,6 +55,40 @@ birational fiber, while computing \(\deg R\) requires an actual pair of
 surfaces in \(\mathbf P^3\). [Quintic exclusion](../../results/toric_quintic_carrier_exclusion.md) ·
 [Elliptic support theorem](../../results/elliptic_inverse_support.md)
 
+### Actual sources, once linkage and full attachment
+
+Three complementary objects retain different parts of absorption. A
+persistent lower thickening is a flat marked witness; the full primary
+component records actual attachment but need not remain flat when its
+multiplicity rises; and the
+[once-linked curve](../../arguments/residuals/residual_liaison.md#21-the-once-linked-curve-is-flat-through-multiplicity-jumps)
+is flat through such jumps while every fiber remains a proper CI.
+Its low-degree ideal recovers the equations for a smooth rational mark
+when both defining degrees are at least four. After the CI property is
+lost, the flat once-link closure need not equal the special colon: the
+[Hom/Ext specialization sequence](../../arguments/normal-geometry/source_specialization_and_linkage.md#once-linkage-and-the-special-colon)
+measures that difference exactly. The linked length-three control
+exhibits a double-line flat limit and a reduced-line special colon.
+
+The full-primary equation quotient
+\(Q_1=I_T/((F,G)+I_CI_T)\) instead detects genuine residual attachment.
+The [comparison controls](../../arguments/normal-geometry/source_specialization_and_linkage.md#normal-cancellation-is-not-actual-residual-attachment)
+show that its vanishing and normal-equation cancellation \(\Delta=0\)
+have neither implication in general local geometry. Linkage and local
+duality supply actual attachment comparisons; global source constraints
+are needed for any additional fixed-quartic relation.
+
+For a whole translated arrangement, the residual obtained by peeling one
+layer from every component is different again. Its
+[speciality identity](../../arguments/torus/chow_moment_residual_speciality.md#1-a-low-degree-symmetry-criterion-from-linkage)
+\(h^1(\mathcal O_R(b-4))=\dim(I_{Z_{\mathrm{red}}})_a-\dim(F,G)_a\)
+is exactly the gap in the lowest equation source. The filtration and
+conductor bounds can constrain that gap; the cohomology dimension at
+this twist is not an additional independent invariant. None of these
+comparisons proves universal positivity or complete absorption, and
+the carrier, marked-graph and actual deformation constructions below
+remain separate geometric questions.
+
 ### The normalized carrier refines the graph capacity
 
 The [branch valuation and marked-ideal square identity](../../arguments/carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) refines the scalar first-graph slack by resolving a specified integral carrier. The strict mate is the actual divisor `div(G)-qD`; its horizontal and vertical coefficients retain the branchwise and special-point data. For sole support the total exceptional energy must be supplied by excess branches, and the normalized branch matrix governs the allowed positive valuation vector. No-vertical single-root carriers are excluded in every degree; [Cartier ruling clusters](../../arguments/carriers/numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) give explicit all-order residual-root divisibility on the degree-three-per-order locus. These are new fixed-carrier necessary filters, not additive scalar residual bounds or a constructed residual absorption. The scoped correctness reconstruction of November 23, 2026 is recorded in the linked proof owner.

@@ -17,6 +17,16 @@ the polynomial congruences (2). Reduced translated CI arrangements
 automatically have invariant ideals. Repeated cycle support alone does
 not establish any of these hypotheses.
 
+The subsequent [sign-symmetry theorem](chow_acm_parity_vanishing.md)
+extends vanishing to every actual sign-invariant ACM translated arrangement,
+without a prescribed Hilbert numerator. The
+[residual-cohomology criterion](chow_moment_residual_speciality.md)
+also covers new non-invariant repeated classes. The
+[product-norm extension](sign_symmetry_and_actual_sources.md) needs only one
+actual sign-eigen generator, a weaker symmetry than a full intrinsic-torus
+eigenform. Actual sign-breaking repeated controls still have zero moment;
+these extensions do not settle arbitrary repeated CI support.
+
 ## The first-moment theorem
 
 Suppose \(I=(F,G)\subset S=k[x_0,x_1,x_2,x_3]\) is a homogeneous
@@ -125,6 +135,17 @@ of the translated curves, each preserved by \(H\). Its ideal is
 therefore invariant, so (1) applies without an additional symmetry
 hypothesis in that case. This is the
 [existing reduced-ideal bridge](../equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle).
+
+The [residual-speciality criterion](chow_moment_residual_speciality.md)
+gives additional nonreduced coverage: vanishing of the actual residual
+cohomology forces a genuine eigenform or invariant defining ideal.
+In particular, exactly one doubled component and any number of simple
+translated components satisfy (1) in every degree. More generally, one
+component of multiplicity \(n\ge2\) and simple companions are covered
+when \(4\max(a,b)\ge7n+1\), in characteristic different from two.
+In characteristic zero, exactly one tripled component and arbitrary simple
+companions are covered in every degree, including the remaining
+\((4,5)\) case by the irreducible-extreme initial-sequence mechanism.
 
 ## A regular function on the Chow space
 

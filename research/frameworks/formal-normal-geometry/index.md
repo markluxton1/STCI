@@ -85,6 +85,17 @@ intrinsic data from dependence on chosen generators. For proved local comparison
 of full initial ideals and actual equations, see
 [R-0030](../../results/local_filtration_comparison_defect.md).
 
+The [normal-flat generic-CI consequence](../../results/normal_flat_comparison_specialization.md)
+closes the punctual comparison question on that restricted locus: the
+relative full initial ideal remains a two-generator CI and its equation
+comparison defect vanishes. The non-normal-flat question remains open.
+The [actual-source specialization sequences](../../arguments/normal-geometry/source_specialization_and_linkage.md)
+compare section base change and linked-colon base change with different
+correction modules. Cross-regime comparisons must name an operation
+changing the actual object; generic curvilinearity and a binary generic
+initial CI with both relation degrees at least two are disjoint hypotheses
+on the same quotient.
+
 At the generic point \(\eta_C\), after a choice of formal parameters, study \(I\subset K[[X,Y]]\), \(K=k(C)\simeq k(t)\). Orders \(r=\operatorname{ord}_C F\), \(s=\operatorname{ord}_C G\) and the leading forms provide the first layer, not a complete invariant. When \(C\) is an isolated generic component of the intersection, the length \(\ell_{K[[X,Y]]}(K[[X,Y]]/I)\) measures its generic multiplicity. The identity \(de/4\) for this length requires that C be the only one-dimensional component of the global complete intersection; it must not be imposed in the broader setup.
 
 <a id="which-mixed-degree-pairs-truly-need-an-entirely-thick-analysis"></a>

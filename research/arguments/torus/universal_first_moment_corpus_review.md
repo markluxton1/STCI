@@ -1,187 +1,166 @@
 # Universal first moment viewed through every Framework and the current literature
 
-**Review scope (2026-11-22).** This is a synthesis of **all nine main-branch Framework indexes**, **all 84 main-branch Result statements** (individually routed in the [Result crosswalk](universal_first_moment_result_crosswalk.md)), the relevant owning Argument proofs and controls, and the mathematical changes exposed by open PRs [#171](https://github.com/markluxton1/STCI/pull/171), [#172](https://github.com/markluxton1/STCI/pull/172) and [#173](https://github.com/markluxton1/STCI/pull/173). It is not an independent six-perspective proof audit or a line-by-line certification of every historical Argument; the nine indexes route to 236 main-branch Argument files. The combined integration of November 23, 2026 received six independent review perspectives; individual proof owners record their covered reconstruction routes and inherited dependencies. That review does not turn this synthesis into a line-by-line certification of the historical corpus. The literature check uses primary theorem statements and abstracts; a bounded search is not a novelty certificate.
+**Scope.** Current mathematical synthesis after the November 23 renewed
+reassessment. The [inherited Result crosswalk](universal_first_moment_result_crosswalk.md)
+is a historical inventory, not the present proof boundary. Frameworks and
+catalogs located the mathematics; comparisons below follow the actual proof
+owners. This is neither a line-by-line audit of every historical proof nor
+an exhaustive originality assessment. New deductions have their independent
+reconstruction scopes at their owners.
 
-The sole mathematical target of this review is the **necessary condition**
+For an actual proper homogeneous pair with entire cycle
 \[
- \tag{UM1}
- [V(F_a,G_b)]=\sum_i n_i[C_{u_i,v_i}]
- \quad\Longrightarrow\quad
- M_1=\sum_i n_i\,\frac{u_i}{v_i}=0
+ [V(F_a,G_b)]=\sum_i n_i[C_{u_i,v_i}],\qquad ab=4\sum_i n_i,
 \]
-for **every actual proper homogeneous pair** in characteristic zero, of **any**
-degrees \(a,b>0\), with \(ab=4\sum_i n_i\). It is stronger than is
-needed for STCI, but would exclude \(m[C]\) since \(M_1=m\neq0\).
-Do not confuse: (i) a pair containing a translate, (ii) its complete
-intersection *cycle* consisting entirely of translates, (iii) the
-reduced union of these translates, and (iv) a proper two-generated ideal.
+UM1 asks whether \(M_1=\sum_i n_i u_i/v_i=0\) in characteristic zero.
+It would exclude sole support, but is stronger than necessary for STCI.
+A contained translate, a translated fundamental cycle, a pure embedded
+scheme, and an actual pair remain different objects.
 
-The projected binary Chow polynomial
-\(H_\sigma(A,B)=\prod_i(A-(u_i/v_i)B)^{n_i}\) has \(M_1\) as its negative
-next-to-leading coefficient. The full homogeneous transverse Chow
-polynomial retains both \(u_i,v_i\); the first moment is only a
-necessary possible separator, not the full realization criterion.
-The equation \(V(M_1)\) is stable under simultaneous transverse
-torus translation, since \(M_1\) transforms by the character \(u/v\).
-It is not a translation-invariant scalar; its **vanishing** is intrinsic
-to the chosen torus character.
-
-### Post-review strengthened bridge: Serre duality of first normal jets
-
-The [new first-jet spectral–Jacobian argument](spectral_jacobian_first_jet_bridge.md)
-refines the earlier exact source picture. A translated-cycle CI
-satisfies \(A M_{12}-2B M_{03}=0\) in its actual ring, and
-\[
- 2M_1=\operatorname{Res}_{f_0,g_0}(p s-q r).
-\]
-Unlike the **general** six-layer degree-two trace, this formula
-depends only on the first normal equations jets **provided**
-the entire cycle is translated. The residue is the Serre trace
-of a Koszul connecting class in \(H^1(\mathbf P^1,\omega)\),
-and is a nondegenerate alternating Macaulay pairing.
-The two quotient characters \(\xi=u/v,\eta=u^2/v\) are
-respectively the parameters of the unique containing quadric
-and of the cubic scroll with the two fixed residual trisecants.
-The missing proof is now an **isotropy assertion for the
-first-jet image of the simultaneous spectral–Jacobian
-complete-intersection incidence**, rather than an unrestricted
-six-layer polynomial calculation. The bridge was independently reconstructed in the combined scoped
-correctness review of November 23, 2026; its spectral–Jacobian proof owner
-records the inherited mixed-minor/socle and residue-duality inputs. It does
-not establish UM1.
+A major changed interface concerns **homogeneous generation and its actual
+presentations**. This does not replace exact fixed-carrier existence criteria
+by a new universal generation problem: on the accepted Hodge/APic locus,
+descent and source lifting are already discharged by that theorem. The same generic cycle can have a free section hull while
+the retained ambient coordinates fail to generate that hull. Several
+constructions now give exact presentations of this failure. Their defect
+modules are not interchangeable, and merely exhibiting a nonzero defect
+is generally insufficient.
 
 ## I. Three candidate mechanisms and their missing inputs
 
 ### 1. Source trace and Chow norm
 
-For any such Chow-matched pair, the disjoint line \(L=V(x_0,x_3)\)
-gives an actual finite free algebra
-\(E=k[x_0,x_1,x_2,x_3]/(F,G)\) over \(A=k[x_0,x_3]\).
-Its graded module decomposition is fixed by the CI degrees; its
-multiplication is not. The exact identity
+Every center-avoiding homogeneous CI gives a finite flat algebra
+\(E=k[z,w,x,y]/(F,G)\) over \(B=k[z,w]\). Its graded module is fixed
+by the degrees; its multiplication is not. On the entire translated-cycle
+locus,
 \[
- \tag{T} \operatorname{Tr}_{E/A}(x_1x_2)
- =4x_0x_3 M_1
+ \operatorname{Tr}(xy)=4M_1zw,
+ \qquad \operatorname{Tr}(dX\wedge dY)=2M_1\,dz\wedge dw.
 \]
-uses trace additivity through generic nilpotent layers. This equality
-requires no invariance of \(E\). The
-[all-degree degree-two trace theorem in PR #171](https://github.com/markluxton1/STCI/blob/codex/chow-polytope-realization/research/arguments/torus/fixed_surface_and_endpoint_algebras.md#7-the-first-trace-depends-only-on-two-lower-fiber-degree-layers)
-shows that its **value** is determined by the six layers
-\(f_0,f_1,f_2,g_0,g_1,g_2\) in powers of the center coordinates
-\(x_0,x_3\), and expresses it by a Grothendieck residue.
-The [norm/Chow identity in PR #172](https://github.com/markluxton1/STCI/blob/chatgpt/cross-degree-exclusion-synthesis/research/arguments/torus/chow_arrangement_moments.md#the-homogeneous-transverse-chow-form-as-a-section-norm)
-expresses the same scalar as the mixed coefficient of the plane-section
-resultant. These are **two descriptions of one condition**, not
-two independent obstructions. Invariant or eigenform sources,
-coordinate congruences and certain one-sided cone jets make (T) vanish.
-Nothing known says Chow matching forces one of those source conditions.
+Outside that locus the two coefficients are different invariants. The
+[integral first-jet identity](../arithmetic/integral_first_jet_lifting.md)
+expresses the second as \(\operatorname{Res}_{f_0,g_0}(ps-qr)\) for
+**every** center-avoiding pair, and puts it in the product of the two
+first-normal-jet coefficient ideals. Its actual-trait consequence excludes
+unramified lifts of the specified non-eigen \((16,p)\) sources. It does
+not give an all-degree support detector: the
+[fixed-depth controls](../../results/fixed_depth_determinant_incidence.md)
+retain their actual residual examples.
 
-The genuine open gate is to use **the full translated-cycle restriction**
-on \(F,G\) to force the six-layer trace to vanish, or to find a
-non-eigenform counterexample. The fixed quadric/endpoint restriction
-alone is insufficient: the explicit quartic source counterexample
-can have zero first trace and nonetheless retain residual sheets.
-The center-jet restriction from \(I_C(d)\) is surjective at fixed depth
-for \(d\gg0\) (PR #172), so a proof based only on one source's
-low-order jet cannot be degree uniform. Test *joint* equations,
-their syzygies, and the global Chow requirement.
+The [sign theorem](chow_acm_parity_vanishing.md) is a generation obstruction:
+standard central generation fixes generator parity and kills the matrix
+differential. It covers invariant ACM schemes without CI or Gorenstein
+hypotheses. The [one-sign-eigen-carrier norm](sign_symmetry_and_actual_sources.md)
+further forces vanishing for a pair with only one sign-eigen generator,
+including entirely thick carriers. Equal-degree nonzero-moment sources
+must project injectively to both parity spaces of the reduced support;
+[residual speciality at most one](chow_moment_residual_speciality.md)
+therefore already forces vanishing in equal degrees.
+
+There is a direct actual-source presentation, without first degenerating.
+Put \(J' =\tau J\), \(U=J\cap J'\), \(K=J+J'\),
+\(A=S/J\), \(A'=S/J'\), \(Q=S/K\), and \(T=H^0_{\rm irr}(Q)\).
+Then
+\[
+ S/U=A\times_Q A',\quad
+ (S/U)^{**}_B=A\times_{Q/T}A',\quad
+ D_U\simeq(K^{\rm sat}/K)\otimes\mathrm{sgn}.
+\]
+The [source-defect theorem](../../results/sign_symmetrized_source_defect.md)
+retains the actual algebra inclusions and the character twist. Sole support
+forces this saturation torsion to be nonzero, but that fact may be cheap:
+if \(K^{\rm sat}=I_C\), its low-degree equations already supply torsion.
+The useful question concerns the full presentation and multiplication,
+not just existence, length, or an abstract Rao module.
+
+Actual sign-breaking repeated CIs also exist: for an exceptional even
+quartic pair and a nonzero odd quartic \(H\),
+\((F^2+HG,G^2)\) has four times its cycle and is not sign invariant.
+Thus breaking symmetry is not itself a new realization frontier.
+A [homogeneous cyclic Hilbert lift](chow_hilbert_symplectic_form.md)
+with central binary CI already gives the global prescribed-degree pair;
+there is no further generator gate once those hypotheses hold.
 
 ### 2. Supported divisor cycles and class-group relations: a distinct route
 
-On a fixed normal integral carrier \(X\), PR #172 describes all
-supported mate multiplicity vectors via a negative-semidefinite Hodge
-matrix, plus Cartierness of the **total** divisor. The nonnormal
-extension replaces this by normalized intersection data and actual
-downstairs almost-Cartier/conductor relations. These are strong
-necessary/sufficient fixed-carrier criteria under their own
-hypotheses. The [all-mate exceptional quartic theorem](https://github.com/markluxton1/STCI/blob/chatgpt/cross-degree-exclusion-synthesis/research/arguments/torus/quartic_exceptional_carrier_geometry.md#all-mate-degrees-on-a-retained-exceptional-carrier)
-forces \(n_+=n_-=2j\) for supports with \(u/v=\pm1\), and
-hence \(M_1=0\) for all mate degrees \(4j\). Here \(M_1\) is forced
-by the multiplicity **lattice**, not a proper invariant initial pair.
-This mechanism transfers to a broader carrier only after proving
-that its allowable mate vectors lie in the kernel of the
-additive functional \(n\mapsto\sum n_iq_i\).
+On a specified generically regular carrier, actual downstairs almost-Cartier
+relations and the normalized Hodge kernel give an exact mate monoid.
+Normalization indices or numerical equality alone do not replace that test.
+The full conductor criterion also retains all inverse branches in the
+entirely thick setting. These remain independent all-degree mechanisms.
 
-**Open geometric comparison:** is there a canonically constructed,
-suitably equivariant additive cycle functional (for example arising
-from a residual trace, a relative divisor-class map, or a reciprocity
-pairing) that sends every ambient hyperplane section to zero and
-evaluates to \(q_i\) on each \(C_{u_i,v_i}\)?
-No such global homomorphism has been constructed. Ordinary
-\(\mathrm{CH}_1(\mathbf P^3)=\mathbb Z\) cannot carry it, since all
-degree-four translates have the same ordinary Chow class but different
-\(q_i\). Any construction must remember the *marked projection line,
-torus quotient or boundary*, and be compatible with actual
-divisor descent. This is a precise conceptual alternative to
-the six-layer source computation, not a claimed theorem.
+The [marked-boundary calculation](spectral_boundary_modulus.md) identifies
+\(M_1\) with the class in \(J(\mathbf P^1,2\infty)\), but ordinary
+rational equivalence forgets its first jet. An actual pair already supplies
+an ordinary norm relation **universally**. Replace one generator to avoid
+the four pencil-base lines, factor it, and take normalized general
+hyperplane curves on its integral factors. On each curve the mate is an
+actual downstairs section, so normalization preserves its Cartier cycle;
+no surface-normality or generic-order-one hypothesis is needed. The
+product of the normalized norms is
+\[
+ \prod_j\operatorname{Nm}(g_j)^{e_j}
+ =H_\sigma(T)^4/T^{ab}.
+\]
+The aggregate boundary trace is \(-4M_1=-2\Theta(F,G)\), where
+\(\Theta=\operatorname{Res}_{f_0,g_0}(ps-qr)\). Evaluating the norm
+jet again therefore gives the same detector, not independent evidence.
+The missing assertion is a geometric condition forcing its cancellation.
+Conductor descent remains essential when constructing a mate from
+upstairs data; it is not a missing correction to the norm of a section
+already defined downstairs. Pointwise modulus congruence remains a stronger
+sufficient condition.
+
+The [classified cuspidal carrier](fixed_carrier_chow_arrangements.md)
+shows what a full gluing group can retain beyond \(M_1\):
+\[
+ (1+zk[z]/z^6)/\{1+b_3z^3+b_4z^4\}.
+\]
+Its first additive quotient is the moment; its deeper classes explain the
+exact characteristic-dependent powers. This is a carrier-specific group
+with actual polarized descent, not a universal replacement for source
+conditions. Other cubic controls retain polarization-frame obstructions.
 
 ### 3. Normal structures, multiplication and global realization
 
-The third approach asks whether the support hypothesis forces
-relations on the *multiplication map* of the finite cover, not just
-its graded module. Primitive/quasiprimitive filtrations, socle duality,
-root Picard torsion and local coregularity constrain that algebra
-when appropriate. But there are explicit normal-Koszul cancellations
-of arbitrarily high order, equal restricted graded diagrams with
-different embedded algebras, and two opposite weight limits with the
-same indices but different generic contact. Their common implication
-is **negative:** splitting, Hilbert data, root torsion or determinant
-indices alone do not recover \(\operatorname{Tr}(\mu_{x_1x_2})\).
-A useful theorem would compare the full algebra-law and actual
-homogeneous equation maps to that specific trace functional.
+For a full intrinsic limit \(L\), keep both its projective embedded
+correction \(T_{\rm end}\) and its pure hull's vertex section defect
+\(D\). Contact tests the former; sign parity and multiplication in the
+free section hull test the latter. The
+[full cohomology profile](boundary_section_cohomology.md) constrains the
+pure hull independently of either scalar length. It excludes diagonal
+\(9C\) and \(10C\) as endpoint hulls in types \((6,6)\), \((5,8)\),
+even with their required endpoint corrections.
+
+The [actual-family specialization sequences](../normal-geometry/source_specialization_and_linkage.md)
+already compare full-limit Rao classes with \(D\), and identify the
+once-linked special-colon error as an Ext parameter-torsion module.
+Thus there are concrete maps to analyze. Their existence does not imply
+that a required parity class vanishes; weighted-parameter character
+shifts and embedded corrections remain part of the maps.
+
+Formal-normal comparison \(\Delta\), residual attachment \(Q_1\),
+vertex Rao \(D\), and root/conductor gluing record different failures.
+Actual controls separate their vanishing directions. On the
+[normal-flat generic-initial-CI locus](../../results/normal_flat_comparison_specialization.md),
+the formerly open punctual \(\Delta\) subcase closes; outside normal
+flatness its question remains. Attachment duality describes actual
+residual support, and does not force universal positive attachment.
 
 ## II. Framework-by-Framework assessment (all nine)
 
-| Main Framework | What it contributes to UM1 | Precisely what is not supplied |
-|---|---|---|
-| [F-0001 Torus-supported boundaries](../../frameworks/torus-supported-boundaries/index.md) | Invariant cycle versus possibly non-invariant ideal; both full Hilbert limits; actual generator and cancellation layers; paired extrema from the same source | A proper invariant CI in the fixed Chow fiber, or a theorem that the mixed trace of non-invariant sources is zero |
-| [F-0002 Embedded torus quotients](../../frameworks/embedded-torus-quotients/index.md) | Exact constant embedded quotient, evaluation ranks, degree-exhaustion, endpoint algebras and moving quotient lower bounds | Constant quotient coverage for arbitrary moving nonreduced CI; an equality between endpoint ranks and \(M_1\) |
-| [F-0003 Formal normal geometry](../../frameworks/formal-normal-geometry/index.md) | Curvilinear/entirely-thick split, actual source filtrations, root lifting, Gorenstein socle and projective compatibility | Any canonical map from local root/jet obstruction to the additive function \(M_1\); all-degree finite truncation |
-| [F-0004 Arithmetic supported lifts](../../frameworks/arithmetic-supported-lifts/index.md) | Char-2 and odd-prime explicit realizations, Frobenius collisions, finite-order nonlifting and endpoint specialization | Extension of a prescribed arithmetic obstruction to arbitrary characteristic-zero sources; \(p\mid m\) permits \(M_1(m[C])=0\) |
-| [F-0005 Carrier normalization](../../frameworks/carrier-normalization/index.md) | Exact Cartier/Hodge/descent monoids and many all-mate exclusions; candidate geometric explanation of linear relations in multiplicity vectors | A carrier-independent functional of those relations equal to \(M_1\), especially on singular/non-Cartier generic branches |
-| [F-0006 Global equation realization](../../frameworks/global-equation-realization/index.md) | Correct actual-source incidence, Sylvester Chow determinant, trace/norm, and necessary coprimeness | A source relation forcing its mixed coefficient to vanish on the entire Chow-matched image |
-| [F-0007 Residual construction](../../frameworks/residual-construction/index.md) | Degree-exhaustion terminal condition, residual attachment and movement bounds, actual absorption examples | A rule identifying a general residual curve with a sum of translates, or a universal zero-moment identity under residual absorption |
-| [F-0008 Spectral roots](../../frameworks/spectral-roots/index.md) | Relative Picard torsion of a root divisor gives an exact graded second-relation criterion; actual octic and (6,16) tests | Identification of root Picard class with the \(q=u/v\) character, or ambient source/CI lift in the remaining strata |
-| [F-0009 Local cohomology](../../frameworks/local-cohomology/index.md) | Hartshorne–Polini/Hellus exact two-coregular-elements test; simultaneous ancestors and actual multiplication targets | A map whose value is \(M_1\) and which vanishes for all coregular pairs; bounded quartic ancestors have residual degree |
-
-### Consequences of this matrix
-
-1. **Proofs about a chosen carrier are important but not a universal
-   source reduction.** In PR #172, generic curvilinearity on every
-   component allows a general normal integral replacement of the larger
-   equation via Bertini and Serre's criterion. Entirely-thick
-   generic algebras (embedding dimension two) do not admit that
-   replacement. The two regimes must remain separate. For a
-   *hypothetical sole-support pair of minimal degree product*, factor
-   descent makes its actual generators integral; this is a weaker
-   STCI-specific route than UM1 for all arrangements.
-2. **Hilbert-flat limits are not enough.** The exceptional non-invariant
-   quartic cycles in PR #171 lie outside the Chow closure of invariant
-   quartic CI cycles, yet have \(M_1=0\). Full toric limits can require
-   three generators with the CI polynomial (R-0046).
-   Invariant-cycle continuity extends the *linear Chow equation* only
-   from a **covered** locus, not from all possible CIs.
-3. **Finite-jet versus all-degree statements must be sorted by their
-   actual source.** The trace itself is determined by six
-   center-of-projection layers in all degrees, but the property
-   "the entire cycle is translated" is not determined by those
-   layers; high-degree single-form jets are flexible. Conversely,
-   normal-cone filtrations admit arbitrarily high cancellation pages.
-   Neither observation contradicts the other: they are different
-   filtrations and different questions.
-4. **The two types of torus boundary cannot be merged.**
-   Low/high intrinsic-weight equation filtrations, completed image
-   algebras at \(p_0,p_\infty\), and jets at the *disjoint projection
-   line* \(L\) are different. PR #173's two canonical sections of the
-   Chow quotient graph explain the intrinsic extremes, not the
-   six-layer trace restriction by themselves.
-5. **Do not trade necessary conditions for a classification.**
-   The exact \((4,4)\) dual affine-line incidence is a reduced-CI
-   criterion. The endpoint Hilbert polynomial, normal-carrier
-   multiplicity matrix and mixed-moment determinants impose further
-   conditions on realizability. Their classification is unnecessary
-   for proving UM1 and none by itself covers repeated non-invariant
-   cycles.
+| Framework | Revised role and exact remaining question |
+|---|---|
+| [F-0001 Torus boundaries](../../frameworks/torus-supported-boundaries/index.md) | Keep endpoint correction, section-hull multiplication and cohomology profile together; test their joint CI origin, not a scalar endpoint budget. |
+| [F-0002 Embedded quotients](../../frameworks/embedded-torus-quotients/index.md) | Actual endpoint algebras supply two-lattice interpolation and section splitting; fixed involutive secants now obey the source movement bound. |
+| [F-0003 Formal normal geometry](../../frameworks/formal-normal-geometry/index.md) | Normal-flat generic-CI punctual comparison is closed; actual filtered flags and parameter torsion govern the remaining specialization questions. |
+| [F-0004 Arithmetic](../../frameworks/arithmetic-supported-lifts/index.md) | Integral first jets constrain non-eigen unramified sources; conductor-group depth, polarized descent and strong-root precision remain distinct. |
+| [F-0005 Carrier normalization](../../frameworks/carrier-normalization/index.md) | Exact downstairs mate monoids persist; ordinary source-derived norm relations exist for all actual pairs, and their boundary trace is the same source residue; fixed-carrier Hodge/APic criteria remain independent. |
+| [F-0006 Global realization](../../frameworks/global-equation-realization/index.md) | Direct symmetrization presents a concrete source defect; actual cyclic homogeneous Hilbert lifts with binary-CI center already realize the two generators. |
+| [F-0007 Residual construction](../../frameworks/residual-construction/index.md) | Once-link source recovery and its Ext specialization differ from full-primary attachment; geometric absorption/graph questions retain independent content. |
+| [F-0008 Spectral roots](../../frameworks/spectral-roots/index.md) | Full-root Picard torsion includes conductor gluing and still needs ambient source lifts; elliptic contact strata separate these conditions and saturation. |
+| [F-0009 Local cohomology](../../frameworks/local-cohomology/index.md) | Actual annihilator layers dualize attachment, not finite vertex Rao. A positive bounded quartic-ancestor pair has residual outside the translated-cycle incidence; that source question remains independent. |
 
 ## III. Relevant literature, strongest applicable statements and non-implications
 
@@ -293,80 +272,100 @@ ordinary limits of a literature search.
 
 ## IV. Upward iteration: what newly changes
 
-**A. The strongest common identity is not an intersection-number
-budget.** UM1 is the vanishing of a **semi-invariant linear Chow
-coefficient**, equivalently a specific trace of the actual finite
-cover. Replacing it with endpoint delta, Hodge equality, degree
-exhaustion or a root torsion condition may lose exactly the
-coefficient to be explained. Their rigorous role is to restrict
-the image of a *joint actual-equation map* into that trace.
+**Generation is the common issue, not a common defect module.** A free hull,
+a quotient second relation, a divisor class, and an upstairs section can all
+exist while the marked ambient coordinates fail to realize them. The exact
+fiber-product, specialization and conductor maps explain different instances
+of this phenomenon. They cannot be identified by matching lengths or names.
+Even \(D(C_{u,v})\simeq k(-1)\) with its sign is unchanged as \(u/v\)
+varies; it does not recover the value of the moment. The embedding and
+extended multiplication must be retained.
 
-**B. Two rigorously distinct possible bridges emerge.** The
-six-layer residue functional is a concrete source-level equation.
-The proposed relative-divisor functional would be a geometric
-explanation if constructed, but cannot factor through the ordinary
-ambient Chow group. Both must account for the exceptional
-non-invariant quartic family and arbitrary repeated multiplicities.
+**Finite sign symmetry is more relevant than full torus symmetry, but
+asymmetry is also easy to manufacture.** The exceptional quartic family is
+already sign invariant. Its ramified equation thickenings give genuine
+sign-breaking repeated CIs with zero moment, including a degree-sixteen
+pencil transverse to both parity spaces. In the sector \(K^{\rm sat}=I_C\),
+even the signed generator profile of the free hull is already forced by
+the CI degrees. Along the parity homotopy, the full parity-part quotient
+algebra is fixed away from zero while the source differential varies. A useful new constraint must
+survive such sources and the known projected-image defects. It cannot stop
+at noninvariance or nonsaturation. Nor does merely escaping all sign-eigen
+members of a source plane suffice: the explicit degree-sixteen control
+does so with zero moment.
 
-**C. Minimal STCI need not wait for all arrangements.** The
-complete all-degree UM1 statement is sufficient but stronger than
-needed. A proof that (T) vanishes for all *minimal-degree-product*
-sole-supported pairs would suffice. PR #172's factor descent and
-normal replacement can be used for that narrower target, subject
-to the entire-thick case. Conversely, restricting attention
-solely to minimal pairs loses the advantageous symmetric cycle
-family and should not be confused with a derivation of UM1.
+**The new identities change old tests.** The first-jet differential has an
+integral product-of-source-ideals constraint and rejects a known ramified
+trace-matching residual control. It also reaches a specified non-eigen
+unramified source family. Conversely fixed-depth residual controls still
+prevent promoting these necessary conditions to complete support criteria.
+Endpoint cohomology supplies restrictions before any unknown Rees map,
+while actual source specialization now has explicit correction modules.
 
-**D. A second synthesis pass does not close the gap.** The new
-Brevik–Nollet paper is a useful very-general result but cannot
-remove the exceptional-special-carrier locus. The all-mate
-exceptional quartic theorem is a genuine extension of known
-vanishing coverage, but fixed-carrier lattice constraints do not
-yet define an all-carrier character. The remaining obstacle is
-specific: connect the global Chow-matched support restrictions
-to the single degree-two finite-cover trace.
+**The carrier and entirely thick routes retain independent force.**
+A minimal-degree-product nonzero-moment counterexample can have integral
+carriers: factor additivity would otherwise yield a smaller nonzero
+translated subpair. This does not force normality or generic order one.
+The [elliptic comparison](../carriers/elliptic_contact_and_spectral_comparison.md)
+retains every contact/conductor stratum and the nonsaturated normal-relation
+alternative. Its [conjugate-carrier intersection](../carriers/elliptic_conjugate_sources.md)
+is an actual generic normal CI of type \((2,2)\), with marked length four
+and residual degree 48. Actual source cancellation has prescribed poles on
+the vertical divisor; normalized global sections already exist in every
+degree and cannot alone settle descent. Its birational carriers break the relevant sign symmetry,
+so the norm exclusion does not dispose of this constructive family.
 
 ## V. Bounded source questions and geometric alternatives
 
-The [sole strategic queue](../../investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment)
-compares actual next tasks. These are mechanism questions, not an additional
-priority order. The [saturation and interpolation theorem](spectral_interpolation_and_polar_saturation.md)
-removes the proposed independent opposite-polar cofactor gate: on a
-coordinate-saturated ideal the opposite chains have equivalent membership.
-The single full-chain/norm realization problem remains, with \((H,K)\)
-recovering cycle parameters on the distinct-spectral-value stratum. The
-determinant truncation theorem limits separate fixed-depth source arguments;
-neither parameter recovery nor truncation supplies UM1.
+The [strategic queue](../../investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment)
+owns the task comparison. The current Chow question should retain the actual
+source presentation of \(J\), \(\tau J\), their sum and intersection,
+including both Koszul maps, the induced multiplication and first-normal
+coincidence loci. A useful probe must distinguish the required nonzero-moment
+source from known sign-breaking zero-moment thickenings. Merely finding
+saturation torsion, a nonstandard class, or another free replacement is
+insufficient. The original universal UM1 assertion remains open.
 
-A source-level question is to **pull back the mixed Chow coefficient
-to the actual source incidence** for arbitrary degrees and express it
-via the universal six-layer residue formula, retaining the condition
-that the *entire* resultant lies in the translated-Chow product locus.
-Compare three exact solved inputs on the same functional:
-(1) invariant/eigenform CI; (2) the exceptional non-invariant
-quartic pencils; (3) non-eigenform one-sided cone-jet presentations.
-Ask whether a common relation on the actual **pair** is forced,
-rather than separately postulating a normal form for each generator.
-A failure should produce a concrete candidate counterexample or an
-identified missing higher-source condition.
+Independent alternatives remain concrete:
 
-The independent geometric alternative is to test whether the
-fixed-carrier mate lattice gives an additive, equivariant
-\(q\)-functional on its realized divisor subgroup. The
-exceptional carrier and the fixed toric quartic provide contrasting
-normal and nonnormal models. One must verify that the proposed functional
-respects **relations of actual Cartier divisors**; ordinary
-intersection theory alone is too coarse.
+- Test a surviving endpoint algebra by its full two-lattice interpolation,
+  section splitting, actual multiplication, contact correction and fixed-involution movement,
+  rather than only its total index. The diagonal examples above are closed.
+- On a named source family, seek a geometric cancellation condition for the
+  existing norm jet. Its equality with the source residue is already known
+  for all actual translated-cycle pairs. Computing that same scalar again
+  or forgetting actual polarized descent adds no obstruction.
+- Test the whole elliptic inverse-support algebra across every contact/Jordan
+  stratum, retaining root gluing, saturation and actual section descent.
+  Smooth-root torsion alone is not the whole-family question.
+- Use the actual filtered flag and its specialization maps on a marked
+  absorption control. Normal-flat generic-CI comparison is no longer an open
+  test; non-normal-flat behavior and global source lifting remain genuine.
 
-Other alternatives are all-degree classification of
-CI arrangements, complete Hilbert/Chow compactification, additional
-sextic numerical tables, and new unrestricted fixed-depth normal
-jet calculations. None currently has a specified bridge to UM1
-stronger than the two above.
+These comparisons do not establish a strict expected-payoff ranking over the
+whole elliptic support test or independent carrier/graph approaches. Stability
+means no further supported change after feeding the combined account back
+through its owners; it does not mean that another pass failed to prove UM1.
+The present account retains exact unknowns requiring new source restrictions,
+realizations or boundary-jet cancellation, rather than declaring them absent
+because an earlier synthesis did not construct them.
 
-**Stop condition for this review:** the current proof corpus
-supplies no additional justified all-degree necessary equation after
-the trace/residue, divisor-monoid and global source comparisons.
-The missing bridges are explicit; further claims require new
-arguments and independent review. This document is not a proof of
-UM1 and does not mark PR #173 ready for merge.
+### Synthesis coverage and stopping judgment
+
+The final reassessment followed the combined understanding back through the
+Result-statement clusters, all nine Frameworks, their actual Investigations
+and relevant unchanged consumers, reading owning proofs wherever a scope
+comparison depended on them. Independent proof review covered consequential
+new deductions; it did not recertify every inherited proof. Fresh broad
+review challenged the combined account in addition to domain follow-up.
+
+The last full downward/upward pass changed no justified generality,
+organizing object, interpretation, remaining gap or comparison of actual
+next tasks. The reduced-quartet blowup control was checked against the
+existing four-quartet CI: collective gluing prevents applying an individual
+no-lift conclusion componentwise. Thus even that control does not select
+another unrestricted obstruction or new priority. Further progress now
+needs new source/multiplication information, compatible realizations,
+conductor gluing or a cancellation law on the existing norm. This is a
+stable assessment of the available mathematics, not a proof that further
+insight is impossible or that UM1 or unrestricted STCI is resolved.

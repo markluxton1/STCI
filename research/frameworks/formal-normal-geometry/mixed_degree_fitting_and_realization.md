@@ -4,6 +4,14 @@
 
 ## Mixed (4,6): Fitting divisor and pole strata
 
+The formulas below retain structural information from the historical
+degree-\((4,6)\) tests. The characteristic-zero quartic-mate cases are
+closed by the [quartic-carrier theorem R-0001](../../results/quartic_carrier_exclusion.md).
+References to strata remaining outside an individual calculation describe
+that calculation's scope, not open quartic-mate or \((4,6)\) STCI cases.
+The saturated-filtration and Fitting identities remain useful comparisons
+for higher-degree work under their stated hypotheses.
+
 The [October 5 mixed-six calculation](../../arguments/residuals/quasiprimitive_residual_cycles.md#mixed-46-the-first-normal-fitting-divisor-and-the-multiplicity-six-defects) assumes a finite-flat quasiprimitive length-six Gorenstein algebra, locally free Banica–Forster pieces, and perfect multiplication pairings. For defect divisors `0<=D2<=D3`, the graded pieces are `O,L,L^2(D2),L^3(D3),L^4(D2+D3),L^5(D2+D3)`. The coordinate-independent first-normal cokernel Fitting divisor satisfies `A=D3+min(D2,D3-D2)`, with the minimum taken pointwise. The proof computes torsion `T=N/yB`: its length is `ord(D2+D3)`, while `length(T^2)=max(ord D2-ord(D3-D2),0)`, and `length(T/T^2)=ord A`. In particular `D3<=A<=D2+D3`; neither extreme equality is universal.
 
 For degree pair `(4,6)`, the seven necessary numerical types are `e=0: (d2,d3)=(1,8),(2,7),(3,6),(4,5)` and `e=1: (0,4),(1,3),(2,2)`. Their coarse nonregular pole lengths reduce to `e=0: p=1,2,3,4` and `e=1: p=4,5,6`. This is a restriction on possible strata, not a realization or an STCI exclusion. The [regular-ratio proof](../../arguments/residuals/quasiprimitive_residual_cycles.md#regular-ratio-degree-46-pairs-a-pure-horizontal-direction-is-impossible) separately excludes only the two pure constant horizontal directions when `e=0` and the quotient ratio is globally regular. Its quadric-residual and cubic-jet argument does not treat mixed directions, e=1, or nonregular pairs. The [earlier rank-six audit](../../arguments/residuals/quasiprimitive_residual_cycles.md#mf6-audit-and-higher-jet-exclusions-for-the-mixed-46-pole-branch) records the saturated-lattice hypotheses and the remaining `(4,5)` defect case.

@@ -1,47 +1,86 @@
 ---
 id: STCI-F-0004
 type: framework
-title: Arithmetic lifting of prescribed supported intersections
+title: Arithmetic realization, descent, and supported lifts
 status: proposed
 scope: "#scope"
 bridges: "#bridges"
 ---
-# Arithmetic lifting of prescribed supported intersections
+# Arithmetic realization, descent, and supported lifts
 
 ## Scope
 
-For the fixed rational quartic, study which prescribed positive-characteristic
-equation pairs can occur as special fibers of supported mixed-characteristic
-traits. Keep finite Witt lifts, lifts satisfying a strong nilpotence condition,
-and actual supported traits under their respective hypotheses. The open
-endpoint test below concerns the powered quartic construction and actual
-traits in the [root specialization theorem](../../arguments/arithmetic/frobenius_power_lifting_precision.md#root-specialization-and-the-remaining-endpoint-defects).
+For the fixed rational quartic, arithmetic geometry connects three distinct
+questions: how actual equation degrees vary with the characteristic, how
+powers descend through a specified nonnormal carrier, and which special
+pairs lie on supported mixed-characteristic traits. The first question has
+unrestricted quantifiers: characteristic-zero nonexistence is equivalent
+to divergence of the minimum larger defining degree \(\delta(p)\) as
+\(p\to\infty\). The known sharp minima and nonlifting theorems cover
+specified sources, rather than that full minimum.
+
+Finite Witt lifts, lifts with a strong uniform nilpotence containment,
+and actual supported traits retain different hypotheses. The
+[root-specialization theorem](../../arguments/arithmetic/frobenius_power_lifting_precision.md#root-specialization-and-the-remaining-endpoint-defects)
+concerns the prescribed powered-quartic source and actual traits.
 
 ## Available mathematics and controls
 
+- [Integral equation incidence](../../arguments/arithmetic/arithmetic_equations_and_jet_gaps.md#the-full-simultaneous-equation-incidence)
+  and [effective degree transfer](../../arguments/arithmetic/effective_characteristic_transfer.md)
+  treat all actual pairs at fixed degrees. They make the characteristic
+  limit precise without assuming a lifting theorem for chosen special pairs.
 - The [explicit equations](../../arguments/arithmetic/positive_characteristic_constructions.md#every-positive-characteristic-a-quartic-carrier)
-  give sources in every positive characteristic. In the prescribed powered
-  construction for \(p\ge7\),
-  the lower root closure in the theorem has a special fiber mapping to the
-  unpowered intersection, with a finite-length kernel. Quartic-carrier
-  exclusion forces this kernel to be nonzero with support contained in the
-  two marked endpoints. Its length is the genus deficit in the theorem.
+  give sources in every positive characteristic. On the fixed cuspidal
+  quartic, all mate degrees are controlled by the exact semigroup condition
+  \(p^{v_p(N)}\in\langle3,4\rangle\). The
+  [conductor-unit quotient](../../arguments/torus/fixed_carrier_chow_arrangements.md#the-conductor-unit-quotient-behind-the-characteristic-dependence)
+  explains why the additive first moment retains only its first gluing jet.
+- The [integral first-jet product](../../results/integral_first_jet_lifting.md)
+  gives \(ab/2\in L_F L_G\) on any actual supported trait avoiding the
+  fixed projection center. This is a condition on the two actual equation
+  sources, independent of special-fiber symmetry. In particular it excludes
+  unramified traits through the non-eigen \((16,p)\) points for \(p\ge43\).
 - The [prescribed Z/4 embedded nonlift](../../results/prescribed_z4_arithmetic_nonlifting.md#statement-and-hypotheses)
   tests a separate fixed lower neighborhood. [Prime-to-p extraction](../../arguments/arithmetic/prime_to_p_power_extraction.md#extraction-theorem)
   and the [strong precision shift](../../arguments/arithmetic/frobenius_power_lifting_precision.md#strong-lifts-and-the-exact-unramified-precision-shift)
   provide different controls on actual traits or finite lifts.
-- [Integral equation incidence](../../arguments/arithmetic/arithmetic_equations_and_jet_gaps.md#the-full-simultaneous-equation-incidence)
-  and [effective degree transfer](../../arguments/arithmetic/effective_characteristic_transfer.md)
-  address the separate question of varying the equation pairs. A prescribed
-  lift obstruction has no coverage over those pairs.
+- In the prescribed powered construction for \(p\ge7\), quartic-carrier
+  exclusion forces a nonzero finite-length kernel in specialization of the
+  lower root. It is supported at the two marked endpoints, and its length
+  is the genus deficit in the root theorem.
 
 ## Bridges
 
-For one prescribed powered source, compare the actual specialization kernel
-with the corresponding annihilator, linkage, or duality data. A conductor
-approach needs a map to or from the full conductor for a specified normalized
-carrier and a check that the map retains the endpoint algebra. A comparison
-that supplies only the genus identity leaves the compatibility open.
+The first-jet product and root extraction now place source and specialization
+conditions on the same hypothetical trait. For the prescribed powered
+source, the maximum unramified strong precision is already exactly
+\(1+v_p(n)\); any remaining actual trait has \(p\mid n\), ramification
+index at least \(p-1\), and a nonzero endpoint root defect. The open issue
+is compatibility of the actual equations with that defect at the remaining
+ramification, not another finite-precision test of the same presentation.
+
+An annihilator, linkage, or conductor comparison must retain the actual
+root-specialization sequence and the two homogeneous source spaces. A genus
+identity or a matching length alone does not determine this compatibility.
+The finite section/Rao defect of an invariant pure torus hull has a different
+definition from the embedded-point kernel of a specialized arithmetic root;
+their relation needs the relevant exact sequence, not an identification by
+numerical resemblance.
+
+At two, even the source symmetrization must retain its arithmetic object.
+The [flat sign-orbit control](../../arguments/arithmetic/arithmetic_sign_orbit_comparison.md)
+has a triple-line schematic \(\mu_2\) orbit, although the reduced pointwise
+involution sees only its double line. The correction in its split source
+presentation is supported along the curve. This connects the actual
+sign-source comparison to the existing \(\mu_4\) arithmetic orbit proof;
+it supplies no characteristic-two finite Rao or moment-vanishing theorem.
+
+For the full characteristic-limit strategy, an obstruction must cover all
+actual degree-bounded pairs, or a proved reduction must place them in a
+controlled source. Neither the fixed-carrier unit quotient nor the
+first-jet valuation inequality supplies that reduction. The non-eigen
+\((16,p)\) source remains an independent arbitrary-ramification question.
 
 ## Bounded comparison
 
@@ -71,18 +110,34 @@ places this binomial family inside the larger coefficient space
 \(c_1=c_2=c_5=0\). Partial collisions occur in characteristic zero, but
 at least three distinct translates must remain on that fixed carrier.
 Frobenius explains complete collapse in the prescribed family; it does not
-classify all arrangements or all characteristic-zero degenerations.
+classify all arrangements or all characteristic-zero degenerations. In the
+same characteristic \(p\ge7\), the actual flat \((4,p)\) family with
+polynomial \(T^p+cT^{p-3}-(1+c)\) connects \(p\) distinct reduced translates
+to \(p[C_0]\). All ideals remain invariant ACM ideals and all first moments
+vanish. Moment vanishing therefore detects neither inseparability nor
+branch coalescence by itself.
 The [general arrangement moment](../../arguments/torus/chow_arrangement_moments.md)
 separates the Chow closure of invariant CI arrangements from complete collision
 in characteristic zero. At \(m[C_{u,v}]\), its normalized Chow coefficient
 is \(-4m u/v\); the obstruction vanishes when the characteristic divides
 \(4m\), consistently with Frobenius collapse, without proving realizability.
+For odd characteristic, the additive generalized-Jacobian target is killed
+by \(p\), whereas the fixed cusp's unit quotient can retain higher
+\(p\)-power information: characteristic five requires 25 even after its
+first moment vanishes at five. This height is still carrier-dependent.
+The [standard and nonclassical cubic cusp minima](../../arguments/arithmetic/rational_quartics_in_positive_characteristic.md#exact-cuspidal-carrier-minima-p-014-sharp-degree-on-the-cuspidal-cubic-carriers)
+in characteristic three are \(N=3\) and \(N=9\), respectively. The latter's
+coefficient condition \(c_{3m-1}=m\alpha c_{3m}\) retains the polarized
+section frame after Frobenius removes the cross terms. Local additive
+torsion alone cannot replace this graded descent condition.
 The [root-defect grading](../../arguments/arithmetic/frobenius_power_lifting_precision.md#equivariant-grading-of-the-root-specialization-defect)
 requires an equivariant total trait and the original root theorem's
 hypotheses. For the fixed quartic a supported mixed-characteristic trait
 with trivial torus action on the base cannot have that equivariance:
 its characteristic-zero generic fiber would contradict the invariant-CI
-exclusion. Thus any remaining supported lift must break this symmetry;
+exclusion. The [sign-symmetric ACM theorem](../../results/chow_acm_parity_vanishing.md)
+also rules out preservation of that weaker ideal symmetry. Thus any
+remaining supported lift must break these symmetries;
 the invariant special equations do not grade its root defect. In a
 setting where the equivariant specialization lemma applies, the endpoint
 modules need not have opposite characters or equal lengths. Comparing

@@ -189,11 +189,13 @@ lift. For example, the special point \(x=0\) of \(x^2=p\) has no lift
 to \(\mathbb Z/p^2\mathbb Z\): every possible lift is divisible by
 \(p\), whose square is zero there, whereas \(p\ne0\). It does lift
 to the ramified complete DVR
-\(\mathbb Z_p[\varpi]/(\varpi^2-p)\), by \(x=\varpi\). Therefore the
+\(\mathbb Z_p[\varpi]/(\varpi^2-p)\), by \(x=\varpi\). Thus the
 [known higher-degree \((16,p)\) examples](#a-larger-source-with-an-actual-transverse-jet-gap)
-remain unresolved under simultaneous deformation of both equations.
-Their fixed-carrier jet obstruction cannot decide the local ring of the
-full incidence. The [Granger–Schulze construction](https://arxiv.org/abs/1804.01316)
+remain unresolved under arbitrary ramified simultaneous deformation of
+both equations. The new first-jet source condition below excludes their
+unramified actual traits; the fixed-carrier jet obstruction alone cannot
+decide the local ring of the full incidence.
+The [Granger–Schulze construction](https://arxiv.org/abs/1804.01316)
 concerns deformations of monomial space-curve singularities; its analytic,
 equicharacteristic semigroup setting supplies no support-preserving
 projective mixed-characteristic lift here.
@@ -213,6 +215,32 @@ ramified zero-trace example still has a residual curve. Its stronger
 \(W_2\) nonlifting conclusion requires \(p\ge7\), \(v_p(ab)=1\),
 generic curvilinearity and the displayed uniform ideal containments. Formal nilpotence alone does not justify the
 same trace argument over a nonreduced base.
+
+There is now a source condition on arbitrary center-avoiding pairs, without
+an eigenform hypothesis. The
+[integral first-jet theorem](integral_first_jet_lifting.md#the-integral-source-identity)
+identifies the matrix differential with
+\(\Theta=\operatorname{Res}_{f_0,g_0}(ps-qr)\), using the two actual
+first base-normal equation jets at \(L=V(x_0,x_3)\). For every actual
+supported mixed-characteristic trait it gives
+\[
+ \frac{ab}{2}=\Theta\in L_F L_G,\qquad
+ v_\pi(L_F)+v_\pi(L_G)\le v_\pi(ab/2).
+\]
+The identity is integral, including at the prime two; the generic
+supported-fiber calculation is made in characteristic zero. Both first
+jets vanish at the explicit non-eigen \((16,p)\) points for \(p\ge43\),
+so any trait through them must have \(v_\pi(p)\ge2\). This broadens the
+initial-source obstruction beyond symmetric equations, while leaving
+arbitrary ramification and the full horizontal-component question open.
+It is not an asserted strong \(W_2\) extension.
+
+At the prime two, a separate
+[source-orbit comparison](arithmetic_sign_orbit_comparison.md)
+keeps the full \(\mu_2\) coaction: the pointwise sign involution reduces
+to the identity and loses an infinitesimal orbit direction. Its flat
+double-line control separates this arithmetic base-change issue from a
+finite section/Rao defect or a characteristic-two moment obstruction.
 
 An actual supported trait supplies more structure. The
 [prime-to-\(p\) power-extraction theorem](prime_to_p_power_extraction.md)
@@ -629,6 +657,16 @@ The minimum maximum defining degree in (1), restricted to birational
 admissible members, is also exactly \(p\) for \(p\ge43\): (4) is
 the lower bound and (2),(7) attain it. This is a restricted-source
 minimum, not the unrestricted \(\delta(p)\).
+
+These same non-eigen points also test the new simultaneous-source
+obstruction. Both equations reduce to their central pure powers modulo
+\((x_0,x_3)^2\); the
+[first-jet proof](integral_first_jet_lifting.md#a-non-eigen-source-detected-by-the-first-jets)
+checks this directly from every term in (7). Consequently an actual
+supported mixed-characteristic trait through this pair requires
+\(v_\pi(p)\ge2\), even when both equations vary. This conclusion is
+strictly about traits: arbitrary ramified lifts and strong finite Witt
+lifts of this source have not been decided here.
 
 The dependency-free [exact verifier](https://github.com/markluxton1/STCI/blob/5484e6f7760cee5f5512c01529856910007151e7/research/computations/stci_arithmetic_beyond_2026_10_29.py)
 checks homogeneity, nonnegative exponents and sparse polynomial pullbacks

@@ -131,6 +131,87 @@ recovers the
 there is no characteristic-zero mate, while in characteristic \(p>0\)
 descent is equivalent to \(p^{v_p(N)}\in\langle3,4\rangle\).
 
+## The conductor unit quotient behind the characteristic dependence
+
+**Review (November 23, 2026).** Independent reconstruction checked the unit
+quotient, its first additive quotient and the exact orders below. The flat
+family is a direct application of the existing coefficient-descent theorem.
+
+The coefficient criterion has an exact unit-group interpretation. Put
+\(\zeta=1/T\) and consider the commutative truncated unit group
+\[
+ U_6=1+\zeta k[\zeta]/(\zeta^6),\qquad
+ H_S=\{1+b_3\zeta^3+b_4\zeta^4:b_3,b_4\in k\}.
+\]
+The second set is a subgroup: products of its positive-degree terms vanish
+modulo \(\zeta^6\). It retains exactly the allowed positive semigroup
+orders below the conductor six of \(S=\langle3,4\rangle\). For the
+normalized polynomial
+\[
+ f_P=P(T)/T^N=\prod_i(1-a_i\zeta)^{n_i},
+\]
+the existing descent theorem is precisely \([f_P]=0\) in \(U_6/H_S\).
+This is the conductor-unit reformulation of the fixed-carrier calculation,
+using the classical generalized-Jacobian language of
+[marked boundary units](spectral_boundary_modulus.md), rather than a new
+coverage theorem for other carriers.
+
+There is an actual singular-curve Picard group here. Let
+\(\Gamma=[s^4:st^3:t^4]\subset\mathbf P^2\), the plane quartic underlying
+this cone. Its normalization is \(\mathbf P^1\); its only singularity
+is the \((3,4)\) cusp, with completed ring \(k[[u^3,u^4]]\subset k[[u]]\)
+and conductor \(u^6\), where \(u=t/s\). The normalization unit sequence,
+\(\operatorname{Pic}^0(\mathbf P^1)=0\), and cancellation of the common
+global units \(k^\times\) identify, on \(k\)-points,
+\[
+ \operatorname{Pic}^0(\Gamma)(k)
+ \simeq k[[u]]^\times/k[[u^3,u^4]]^\times
+ \simeq U_6/H_S.
+\]
+The last identification uses \(u=\zeta\); truncation is legitimate
+because all orders at least six belong to the cusp ring. Thus the
+coefficient obstruction is a specified local-unit class in the Picard
+group of this rational cuspidal quartic, with the marking retained.
+
+The homomorphism \([f]\mapsto-[\zeta]f\) to \((k,+)\) is well defined
+on \(U_6/H_S\). For \(f_P\) it is \(\sum_i n_i a_i=M_1\), after
+rescaling each curve parameter to the standard \(C_{u,v}\) convention.
+Thus the additive first moment is only the first quotient of this
+carrier's gluing condition. For \(a\ne0\), the order of \([1-a\zeta]\)
+is infinite in characteristic zero and is respectively
+\[
+ \begin{array}{c|cccc}
+ \operatorname{char}k&2&3&5&p\ge7\\\hline
+ \operatorname{ord}[1-a\zeta]&4&3&25&p.
+ \end{array}
+\]
+Indeed, writing \(N=p^eM\), \(p\nmid M\), the first nonzero coefficient
+of \((1-a\zeta)^N\) is at order \(p^e\). If that order is a semigroup
+gap it blocks membership in \(H_S\); if it is in \(S\), all its positive
+multiples are allowed. This recovers the exact mate-degree sets. In
+particular, in characteristic five the additive class is already killed
+by five, while the nonzero fifth-order gap still blocks descent until 25.
+
+Triviality in the full group \(U_6\), equivalently the full modulus
+\(6\infty\), would impose too much: in characteristic two,
+\((1-a\zeta)^4=1+a^4\zeta^4\) descends although it is nontrivial in
+\(U_6\); characteristic three has the analogous allowed cubic term.
+The quotient by the allowed semigroup units is essential.
+
+An actual flat family separates moment vanishing from inseparability.
+For \(p\ge7\), set
+\[
+ P_c(T)=T^p+cT^{p-3}-(1+c),\qquad c\ne-1.
+\]
+It satisfies the descent criterion and has the marked root one. At \(c=0\)
+it is \((T-1)^p\), giving sole support \(p[C_0]\). For \(c\ne0\),
+its derivative is \(-3cT^{p-4}\), and its constant term is nonzero, so
+it gives \(p\) distinct reduced translates. The resulting proper
+\((4,p)\) intersections form a flat family: every fiber is a regular
+sequence of the same degrees. All ideals are invariant ACM ideals and
+all moments vanish. The moment therefore distinguishes neither these
+different branch structures nor whether the scheme is reduced.
+
 ## An actual partial collision in characteristic zero
 
 For \(c\ne-1\), take the proper quartic pair

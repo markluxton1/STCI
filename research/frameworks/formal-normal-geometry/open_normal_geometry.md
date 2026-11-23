@@ -93,6 +93,17 @@ which duality or support condition forces vanishing? This is a local
 question about the full equation comparison of
 [R-0030](../../results/local_filtration_comparison_defect.md#statement).
 
+In the split formal DVR model, the
+[normal-flat generic-CI corollary](../../arguments/transverse_specialization.md#generic-ci-cones-have-no-punctual-comparison-defect-under-normal-flatness)
+now answers this negatively under ordinary normal flatness: if the
+generic full initial ideal has two generators, the relative full
+initial ideal is a homogeneous CI, its generator module is free, and
+\(\Delta=0\). It applies in arbitrary characteristic and, with the
+stated finite-flat hypotheses, over an arbitrary DVR in split normal
+coordinates. A counterexample to the question above must therefore
+leave this normal-flat locus; actual flatness of the quotient alone
+does not suffice.
+
 The [punctual comparison controls](../../arguments/punctual_comparison_defects.md#statements-and-proofs)
 separate actual residual support from torsion that survives in the filtered
 equation quotient. The [degree-four cancellation](../../results/initial_equation_cancellation_counterexample.md)
@@ -102,14 +113,29 @@ and zero relative defect, see the
 
 ## Comparing the normal cone with marked Quot incidence
 
-For a specified proper pair with intersection ideal \(J\), compare
-\(\operatorname{gr}_{\mathcal I_C}(\mathcal O/J)\) with a marked lower
-thickening in the [Quot incidence for residual absorption](../../arguments/residuals/marked_deformation_and_absorption.md).
-Projectivizing the full normal cone on the exceptional surface can discard
-zero-section data. The open task is to construct a comparison of the two
-deformation problems with its kernel and cokernel and to specify the normal
-relations that the comparison retains. See the [formal-normal framework](index.md)
-and the [normal-filtration account](normal_filtration_boundaries.md).
+Retain an actual flag of embedded ideals
+\(L\subset J_T\subset I_C\), where \(L\) is a proper pair and \(J_T\)
+is a persistent lower thickening in the
+[Quot incidence for residual absorption](../../arguments/residuals/marked_deformation_and_absorption.md).
+The quotient \(\mathcal O/L\to\mathcal O/J_T\) already induces a
+canonical surjection of the full \(I_C\)-normal graded algebras, hence
+a closed immersion of the corresponding cones. Their full Rees algebras
+retain the quotient map before passing to that special fiber.
+
+The open comparison concerns which deformations of this graded quotient
+lift to the same marked embedded flag and the declared homogeneous
+equation sources. Check flatness of the persistent witness and the
+normal-cone base-change hypotheses rather than assuming them from
+flatness of the original pair. Projectivizing a cone can discard
+zero-section data, and a cone alone omits higher embedded relations.
+The [actual-family section and colon sequences](../../arguments/normal-geometry/source_specialization_and_linkage.md)
+give exact comparisons for two further losses under specialization;
+they do not identify those losses with the
+[Rees conormal torsion \(\Delta\)](../../arguments/normal-geometry/rees_equation_persistence.md#delta-as-the-specialization-of-equation-module-torsion).
+The same account gives local controls showing that \(\Delta\) and
+actual residual attachment have neither vanishing implication in general.
+Additional fixed-quartic homogeneous-source hypotheses could impose
+relations; the local controls neither establish nor disprove them.
 
 ## Relative defect in the supported length-five degeneration
 

@@ -1,7 +1,8 @@
 # Universal first moment: exact proof boundary across the active branches
 
-**Status:** mathematical synthesis of existing main-branch and PR #171--#173
-arguments, not a new vanishing theorem or an independent proof audit.
+**Status:** current mathematical synthesis, including the independently
+reviewed November 23 research-group extensions. Proofs live in their linked
+owners; this summary is not an independent proof audit.
 Characteristic zero throughout. The objective is the **necessary** relation,
 not a classification of all realizable arrangements.
 
@@ -84,9 +85,20 @@ holds. The whole reduced CI arrangement is invariant, hence covered.
 The [PR #173 cycle-first argument](chow_realization_moment_separation.md)
 gives further \((3,4)\) and \((4,4)\) coverage at the scope of its
 recorded independent reconstruction, retaining the declared inherited inputs. The \((4,4)\) diagonal is separately excluded by R-0022.
-No unrestricted all-degree theorem is known. These are statements about
-the **actual CI cycle**, not arbitrary reduced support, a containing
-surface, or a flat Hilbert limit.
+The [residual criterion](chow_moment_residual_speciality.md) adds the
+one-double class in all degrees and the one-triple class with simple
+companions in all degrees in characteristic zero, plus explicit conductor
+bounds for several doubles. The [sign-symmetry theorem](chow_acm_parity_vanishing.md)
+proves vanishing for every sign-invariant ACM translated arrangement,
+regardless of Hilbert numerator. Both invariant pure hulls of a hypothetical
+sole-supported CI must be non-ACM and have the
+[section-parity defect](chow_section_parity_defect.md). The
+[quartic–quintic partition analysis](chow_quintic_mate_partitions.md)
+leaves only \((4,1)\) and \((3,2)\) unexcluded in that bidegree in
+characteristic zero. No unrestricted all-degree theorem is known.
+For CI realization, these conclusions concern the **entire actual cycle**;
+arbitrary reduced support, a containing surface or an uncontrolled flat
+Hilbert limit does not supply the stated hypotheses.
 
 The equation \(M_1=0\) is a regular hypersurface equation on the interior
 \(\operatorname{Sym}^m T\). More strongly, the linear Chow coefficient
@@ -338,19 +350,31 @@ Priority is **one source-sensitive implication**:
  \operatorname{Tr}_{E/k[x_0,x_3]}(x_1x_2)=0.
  \end{gathered}
 \]
-The first useful probe is to compare the established invariant-pair,
-exceptional non-invariant quartic, and one-sided cone-jet
-arguments **at the common six-layer trace functional**, asking
-what additional *joint equation/cycle* identity makes each vanish.
-A candidate identity must survive the exceptional quartic control
-and the known higher-source cancellation examples. This is narrower
-than determining all Chow coefficients or classifying all CI
-arrangements.
+The [renewed synthesis](universal_first_moment_corpus_review.md) replaces
+the earlier unspecified Rees-to-defect task with exact actual-source
+presentations. A sign-eigen carrier already forces vanishing, while explicit
+sign-breaking repeated CIs retain zero moment. The
+[conjugate-pair fiber product](../../results/sign_symmetrized_source_defect.md)
+identifies the section hull and defect from the original equations. Its
+nonzero saturation torsion is necessary under sole support, but can be
+supplied by a missing low-degree equation; the marked multiplication and
+both source presentations are essential.
 
-The current cross-framework iteration has not produced that
-joint identity, an independent proof of UM1, or an all-degree
-exclusion. Additional repetitions of the known numerical,
-endpoint or degeneration filters without a new equation relation
-would not advance the objective. Independent correctness,
-literature, editorial and generality review of any proposed
-new implication remains required before promotion.
+The [integral first-jet formula](../../results/integral_first_jet_lifting.md)
+changes prescribed lifting tests, and the
+[endpoint cohomology profile](boundary_section_cohomology.md) excludes two
+previously surviving diagonal models. Neither supplies a universal source
+obstruction. The [ordinary norm relation exists for every actual pair](spectral_boundary_modulus.md),
+after row replacement and normalized hyperplane sections of integral factors.
+Its aggregate first boundary jet is the source residue again; a new
+geometric cancellation condition, rather than another scalar evaluation,
+remains to be found.
+Actual-family cohomology and linked-colon specialization have their own
+explicit correction modules. Their defects are not a single invariant.
+
+The whole elliptic inverse-support/source-denominator question, normal
+carrier/APic equality, and entirely thick graph questions retain independent
+mathematical force. The [queue](../../investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment)
+compares concrete tasks without claiming payoff dominance. Independent proof
+review governs the new deductions; completion also requires consistency of
+the resulting account. No all-degree exclusion or UM1 proof is established.

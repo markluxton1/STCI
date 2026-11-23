@@ -22,8 +22,8 @@ additional positive case when it changes which comparison to attempt.
 
 Compare the actual next investigations, not the historical importance of their
 frameworks. A restricted scalar test does not inherit the coverage of the whole
-deep-contact program. The current comparison is between single-chain Chow realization
-incidence and the whole elliptic inverse-support locus. The symmetric sextic
+deep-contact program. The current comparison is between actual source-presentation constraints
+for the Chow problem and the whole elliptic inverse-support/descent locus. The symmetric sextic
 criterion and marked graph tests remain narrower alternatives. No evidence
 currently establishes a strict expected-payoff ranking of the first two tasks.
 
@@ -553,109 +553,147 @@ The [BF triple and actual-pair attachment TR1--TR4](../../arguments/residuals/la
 
 ## Current choice and reassessment
 
-KG02 and KG05 are the two leading competing investigations; the evidence does
-not justify a strict ordering of their expected mathematical payoff. This is
-a research comparison, not a claim that either is close to settling STCI.
+KG02 and KG05 remain leading competing investigations. The present evidence
+supports no strict ordering of expected mathematical payoff and no claim
+that either is close to settling STCI. The renewed synthesis has changed the
+**actual tasks** being compared; their Framework names do not settle the choice.
 
-For KG02, the concrete source question is now **single-chain two-generator
-realization**, retaining the norm and coordinate-boundary conditions of the
-same actual pair. The [saturation theorem](../../arguments/torus/spectral_interpolation_and_polar_saturation.md)
-settles the previously proposed independent opposite-chain compatibility
-test: the two chains impose equivalent membership on a coordinate-saturated
-ideal. The opposite chain remains useful for boundary coverage, but comparing
-its cofactors adds no independent obstruction. Start from the
-[exact polarized incidence](../../arguments/torus/weighted_chow_quadric_cubic_polarizations.md#31-exact-lower-degree-carrier-free-realization-incidence)
-and [cofactor/norm criterion](../../arguments/torus/full_transverse_chow_pullback_envelope.md#32-exact-full-cycle-realization-criterion-via-cofactor-identities-and-the-norm).
-The expected gain is a nontrivial restriction on actual two-generator sources
-or a realization in the chosen sector. On the distinct-spectral-value stratum,
-the pair \((H,K)\) recovers all cycle parameters, even with repeated
-multiplicities; it does not replace the full coefficient chain or norm test.
-At spectral collisions retain higher polars. The distinct-spectral-support
-stratum already includes the one-support target \(m[C]\) and the exceptional
-non-invariant doubled-quartic control, so classifying collisions of different
-supports is not a prerequisite to a bounded probe containing both.
-An alternative exact presentation is the [two-product Jacobian incidence](../../results/jacobian_radical_support.md):
-\(QD,UD\in(F,G)\), with identity degrees \(a+b\) and \(a+b+1\).
-The full source-dependent Jacobian grows with the equations, so this
-compression is outside the fixed-depth limitation. A bounded structural
-probe in the smallest degree-product case \((6,6)\), retaining the actual
-first-normal sources and both memberships, is a concrete KG02 alternative;
-its value must come from a new source restriction or survivor, rather than
-another restatement of support. No tractability or payoff dominance over
-KG05 is asserted.
+### The current Chow question
 
-Declare a bidegree or source sector before
-an initial elimination/geometry probe; stop or redirect if it merely rewrites
-support or separates known residual controls. UM1 remains an open, stronger
-than necessary conjecture, not an accepted intermediate theorem.
+The user-selected UM1 direction asks for a necessary coefficient identity,
+not a classification of every arrangement. The
+[current synthesis](../../arguments/torus/universal_first_moment_corpus_review.md)
+now makes the source issue more concrete. One sign-eigen carrier already
+forces vanishing, even for entirely thick generic intersections. But actual
+sign-breaking repeated CIs can be made from the exceptional quartic pair by
+\((F^2+HG,G^2)\). Breaking symmetry alone is therefore easy and cannot be
+the next target.
 
-The [paired determinant hierarchy](../../arguments/torus/chow_arrangement_moments.md#a-two-operator-determinant-recovers-the-full-transverse-chow-polynomial)
-gives finite-depth diagnostics for that source incidence. Its first coefficient
-can vanish for an actual residual pair. Roots-of-unity **cycles** can cancel
-arbitrarily long initial segments; these are not proved actual CI arrangements.
-The [center-jet source theorem](../../arguments/equations/global_equation_jets.md)
-shows eventual freedom of each fixed-depth individual source map. Its HJ8–HJ9
-consequence gives equality of the actual paired-determinant truncation images
-for pairs through \(C\) and arbitrary center-avoiding pairs when
-\(a,b\ge4r+3\). The [scheme-level refinement and actual controls](../../results/fixed_depth_determinant_incidence.md)
-now give affine-product equivalence of each retained incidence, and actual
-residual pairs attaining the pure truncated target for every fixed order
-in characteristic zero. These controls extend to any bounded family of
-fixed containing-surface characteristic tests. In sufficiently large
-degrees the controls can be reduced CIs of normal integral carriers, with
-generic multiplicity one along \(C\). Thus normality, integrality or
-reducedness alone does not repair the tests. The full translated-cycle
-incidence and a prescribed high-multiplicity source stratum remain separate. A \(\Delta_2\) test therefore remains possible as a declared bounded
-source diagnostic; for \(\min(a,b)\ge11\), containment of \(C\) alone
-adds no constraint on that two-coefficient image. It is not a uniform support detector or an automatically
-preferred all-degree obstruction.
+The **actual conjugate-pair presentation** now gives a concrete interface. For \(J=(F,G)\), retain \(J\), \(\tau J\), both Koszul
+presentations, \(K=J+\tau J\), and the section-hull algebra
+\[
+ (S/J)\times_{(S/K)/H^0_{\rm irr}(S/K)}(S/\tau J).
+\]
+The [direct source-defect theorem](../../results/sign_symmetrized_source_defect.md)
+already identifies its missing sections and character twist. No unspecified
+Rees-to-defect map has to be constructed first. Nonsaturation can be cheap:
+when \(K^{\rm sat}=I_C\), low-degree equations absent from \(K\) already
+give it. An abstract defect module also does not recover the value of the
+moment. Even its entire signed free-generator profile is forced in that sector.
+Along the parity homotopy for \(\lambda\ne0\), the actual parity-part
+quotient and its torsion are fixed while the differential varies. The expected gain must concern
+the marked extension, multiplication or compatibility of the two actual
+source presentations. This interface alone does not select a next task.
 
-KG05 asks whether the **whole** elliptic inverse scheme can be supported and
-descend in the existing finite-algebra family. Its length-twelve algebra,
-dimension-bounded remaining locus and exact support conditions make this a
-substantial constructive alternative. The concrete first probe pulls the
-full support section \(Q_0^{12}|_Z\) to the normalized meeting divisor,
-retaining every fiber and Jordan stratum. Full support at a normal point is
-still possible in the current account; restricting to the nonnormal locus
-would lose coverage. Stop at a new restriction, verified survivor or precise
-missing representation, then attempt descent only for a survivor. Its fixed
-rank twelve makes this a full-algebra test, unaffected by bounded truncations
-of growing CI algebras. It is narrower in source coverage than the Chow
-incidence but has a more concrete family and decisive whole-family question. Compare actual progress on these two tasks at the next reassessment;
-neither inherits priority from the breadth of its framework.
+For the generically curvilinear sector, the two saturated first-normal
+lines either agree identically or have a coincidence divisor of degree at
+most twelve. Wherever the actual images span the conormal bundle, Nakayama gives
+\(\widetilde{J+\tau J}=\mathcal I_C\) locally. Thus projective deviations
+are confined to line-coincidence and nonprimitive loci; their higher jets,
+not merely their lengths, enter the source module. Start by testing the
+known sign-breaking zero-moment control against this presentation.
+The original degree-eight control has coincident generic first-normal
+lines, and its degree-sixteen successor is entirely thick. The
+[separate angular control](../../arguments/torus/sign_source_controls.md#a-control-with-noncoincident-first-normal-lines)
+tests noncoincidence on a zero-moment arrangement; it does not have sole
+support. These benchmarks distinguish the sectors without yet obstructing
+the unknown source. Declare
+a new source sector only when that comparison identifies an informative
+condition distinguishing nonzero moment. Stop or redirect if it merely
+reproduces a missing low-degree equation or restates UM1. The entirely
+thick sector remains separate; normal replacement does not cover it. A
+concrete named sector is the [elliptic conjugate-carrier intersection](../../arguments/carriers/elliptic_conjugate_sources.md):
+it has generic normal CI type \((2,2)\), marked length four and residual
+degree 48. It retains actual equations without assuming a hypothetical
+mate, but its residual geometry is larger than the original rank-twelve
+inverse algebra. These are competing tests, not a reason to prefer the
+new presentation merely because its map is now available.
 
-A neglected conceptual alternative is the
-[actual normal-cone to marked-Quot deformation comparison](../../frameworks/formal-normal-geometry/open_normal_geometry.md#comparing-the-normal-cone-with-marked-quot-incidence)
-on a named absorption control, retaining its kernel, cokernel and zero
-section. Its missing comparison map is a different possible source of
-transferable structure; no local defect count supplies it. A further alternative
-is the [relative divisor-cycle functional](../../arguments/torus/universal_first_moment_corpus_review.md#2-supported-divisor-cycles-and-class-group-relations-a-distinct-route),
-which could explain the moment through actual Cartier relations. Its additive
-construction is still missing; ordinary \(\mathrm{CH}_1(\mathbf P^3)\)
-is too coarse. It currently offers less operational evidence than the elliptic
-support test, while remaining a meaningful alternative to coefficient elimination.
+The actual [family-cohomology and once-link specialization maps](../../arguments/normal-geometry/source_specialization_and_linkage.md)
+are a complementary route. They give canonical source and correction
+modules, rather than an unknown map. Which classes survive their embedded
+corrections is open. In weighted families the parameter character must be
+retained. A proof about one of these maps does not identify all defects.
 
-The symmetric sextic test now concerns worse-than-Du-Val endpoints after the
-proved exclusions in its scope. The marked \(V_5\) tests concern specified
-nonprimitive source strata after the primitive mixed exclusion. These remain
-useful alternatives when a genuine candidate source is available; they do not
-outrank the first two questions merely because their local invariants are
-explicit. The common-quadric boundary still leaves positive-\(h_2\)
-cancellation, zero restrictions and common cofactors, rather than the already
-settled clean graph. The quotient/Hilbert comparison and planned generator
-incidence retain their original unresolved maps.
+### Concrete alternatives within and beyond Chow
 
-Do not repeat the proposed residual/coregularity calibration as a new support
-obstruction. The first attachment quotient \(Q_1\) is already an exact terminal
-support detector. The BF triple identifies its layers in a useful calibration,
-but the lci quadruple prevents extrapolating conormal torsion and the actual
-characteristic-zero candidate multiplicity is at least nine. Any follow-up
-must provide independent global source information or genuinely new higher-order
-structure, rather than another expression for \(Q_1\).
+- **Endpoint algebras.** Impose the
+  [whole section-cohomology profile](../../arguments/torus/boundary_section_cohomology.md),
+  extended multiplication, contact correction and the
+  [fixed-involution movement bound](../../results/torus_quotient_movement_bounds.md).
+  The exact diagonal length-nine \((6,6)\) and length-ten \((5,8)\)
+  endpoint algebras are now excluded even after finite endpoint repair.
+  The complete diagonal profile proves there are no further exclusions
+  from testing more twists there. Parity is automatic for every proposed
+  sole-support constant image; it is not a new CI-origin filter. Other
+  endpoint algebras still need their actual interpolation and source data. A bounded test should
+  produce a new restriction or a genuine compatible source, not another
+  total-index comparison.
+- **Carrier boundary trace.** An [ordinary source-derived norm already
+  exists for every actual pair](../../arguments/torus/spectral_boundary_modulus.md),
+  using a base-line-avoiding generator replacement and normalized sections
+  of its integral factors. Its aggregate jet is exactly minus twice the
+  source residue, so evaluating it again is not independent evidence.
+  Seek a geometric condition forcing cancellation of this known trace. Pointwise modulus trivializations are sufficient but
+  stronger than needed; ordinary divisor equivalence alone cannot prove it.
+- **Exact whole-source incidence.** Single-chain Chow/cofactor/norm incidence
+  and the [two-product Jacobian criterion](../../results/jacobian_radical_support.md)
+  remain exact alternatives. Opposite coefficient-chain membership is
+  equivalent on coordinate-saturated ideals, so adding it is not an
+  independent gate. Parameter recovery on distinct spectral support does
+  not replace full-chain membership or the norm test. The full Jacobian
+  grows with the sources and lies outside the fixed-depth no-go result.
 
-The full-suite comparison retains separate gaps in fixed-carrier conductor
-lattices, embedded torus endpoints, spectral-root lifting, arithmetic
-specialization and actual local-cohomology sources. No comparison map between
-their defect modules follows from their numerical similarities. A further
-synthesis pass should reopen these conclusions only when a new proof,
-realization, source restriction or counterexample changes their interpretation.
+KG05 retains a constructive, genuinely different whole-family question:
+can the full rank-twelve inverse algebra be supported and its pure power
+descend? The [elliptic contact/spectral comparison](../../arguments/carriers/elliptic_contact_and_spectral_comparison.md)
+shows why the family survives the sign theorem: every birational image in
+this fixed marked family is sign-breaking. All contact strata \(g=1,2,3,4\)
+remain relevant. The four spectral arithmetic rows apply only when the
+actual degree-two relation kernel is already saturated; the nonsaturated
+sector is not excluded. For singular horizontal roots, torsion on the
+elliptic normalization still omits conductor gluing.
+
+Its expected gain can be assessed in two concrete ways: compute full
+nilpotence across all Jordan/contact strata, or determine whether local
+normal cancellations globalize through the actual vertical symbol divisor.
+Formal multiples of the octic are not automatically permitted homogeneous
+row operations. Neither successful generic cancellation nor normalization
+Picard torsion supplies actual descent. A new restriction, verified survivor
+or exact source-denominator obstruction would be consequential. Restricting
+to the smooth root just because its torsion is easier would lose coverage.
+
+A neglected bounded phenomenon is whether an actual full-translated-cycle
+CI can have an intrinsic limit with non-ACM pure hull, even at zero moment.
+One declared member of the explicit \((8,8)\) control, for example
+\(H=z^3x\) and a fixed exceptional quartic pair, is a concrete initial
+probe. Its expected gain is understanding acquisition of a pure section
+defect from actual sources, not finding a nonzero-moment pair. Stop or
+redirect if it only reproduces the known ACM hull; do not classify all
+odd \(H\) by momentum. This does not become a prerequisite for the
+source-presentation, elliptic or carrier routes, and no strict payoff
+ordering of these tasks has been established.
+
+Another independent alternative is the actual normal-cone/marked-Quot comparison on
+a named absorption control. The filtered flag supplies canonical maps;
+flatness and liftability of the specified deformation remain the problem.
+The normal-flat generic-initial-CI punctual comparison is now closed and
+should not be investigated as an unresolved case. Existing marked graph,
+nonprimitive and carrier/APic questions retain independent force; UM1 is
+not a prerequisite to progress on them.
+
+### Arithmetic and synthesis limits
+
+The [integral first-jet product](../../results/integral_first_jet_lifting.md)
+closes the specified non-eigen \((16,p)\) unramified lifting test for
+\(p\ge43\). Ramified traits and powered sources remain separate questions.
+The fixed cuspidal carrier's unit quotient explains its exact Frobenius
+height, while other polarized carriers retain additional frame conditions;
+no universal conductor-group explanation of all lifting is asserted.
+
+The bounded \((4,5)\) partition improvements and numerical residual bounds
+are controls. They do not by themselves justify replacing the actual-source
+probe or whole elliptic question. A future reassessment must compare the
+new information obtained on those tasks, including counterexamples and
+changed formulations. No quantity of matching defect lengths or repeated
+failure to prove UM1 establishes stability of the mathematical perspective.

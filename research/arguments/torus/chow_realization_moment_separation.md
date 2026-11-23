@@ -450,12 +450,18 @@ The recursive last-row argument applies to any invariant
 Hilbert–Burch matrix having the requisite successive one-entry
 rows, regardless of the Hilbert series. But an arbitrary ACM pure
 hull need not retain the CI numerator and need not have that
-staircase; no general claim about its moment follows from ACMness alone.
-Likewise the full non-ACM limit has a longer free resolution,
+staircase. The subsequent [sign-symmetry theorem](chow_acm_parity_vanishing.md)
+nevertheless proves moment vanishing for **every invariant ACM pure hull**
+with the entire translated cycle, in characteristic different from two,
+without a prescribed numerator or CI-cycle decomposition. Thus in
+characteristic zero both invariant pure hulls of a hypothetical
+sole-supported CI must be non-ACM. The decomposition question retains its
+independent structural meaning but is no longer needed for this vanishing.
+The full non-ACM limit has a longer free resolution,
 whose alternating Hilbert numerator does not give the matrix above.
 The next question is whether the non-ACM boundary can always
-be reduced, at the cycle level, to these decomposable pure hulls,
-or whether there are invariant pure-hull cores escaping this
+be reduced, at the cycle level, to moment-zero pieces,
+or whether genuinely non-ACM invariant pure-hull cores escape this
 mechanism. Do not assume such a reduction. In particular a
 degree-independent bound on the number of missing line layers
 is not supplied by this argument. The existing non-ACM controls
@@ -532,8 +538,9 @@ particular it is ACM. Its moment is zero, but it cannot be an
 effective sum of nonempty translated-arrangement CIs, since each such
 CI has degree at least twelve. This is a counterexample to demanding
 such a decomposition for all invariant ACM pure schemes, not an
-example of a Chow-matched CI full limit. Boundary-compatible signed
-decomposition is the weaker sufficient condition worth testing.
+example of a Chow-matched CI full limit. The sign-symmetry theorem now
+explains its zero moment without such a decomposition. Boundary-compatible
+signed decomposition remains a sufficient condition for non-ACM cores.
 
 ## 9. Uniqueness of the regular additive first-moment candidate
 

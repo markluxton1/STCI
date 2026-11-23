@@ -95,13 +95,49 @@ and [opposite full Hilbert limits](arguments/torus/quartic_hilbert_chow_limits.m
 have different information from the Chow cycle. The characteristic-two
 sole-support construction is separate from that classification.
 
-The [trace-moment theorem](arguments/torus/chow_arrangement_moments.md)
-forces \(M_1=\sum n_i u_i/v_i=0\) on its proved invariant/eigenform/congruence
-loci, including reduced CI arrangements. The same vanishing for arbitrary
-non-invariant repeated-cycle pairs is an open conjecture. The
-[spectral–Jacobian residue bridge](arguments/torus/spectral_jacobian_first_jet_bridge.md)
-expresses \(2M_1\) as the first-jet residue pairing on the full translated
-realization locus; it does not force isotropy there.
+The [sign-symmetry theorem](results/chow_acm_parity_vanishing.md) is a
+constraint on standard homogeneous generation: a sign-invariant ACM image
+has zero moment without a CI or Gorenstein hypothesis. The
+[actual-source comparison](results/sign_symmetrized_source_defect.md)
+now gives both a one-sign-eigen-carrier exclusion and an explicit
+fiber-product section hull for the pair and its sign transform. Its
+saturation defect is necessary under sole support, but can be supplied
+by missing low-degree equations; retain the original source maps and
+multiplication. Sign-breaking repeated CI controls exist and still have
+zero moment, even with no sign-eigen member of the source pencil. Abstract
+defect modules do not recover the moment value; in a transverse intersection
+sector even the signed hull profile is forced by the degrees.
+
+The [residual source identity](results/chow_moment_residual_speciality.md)
+measures lowest-source non-exhaustion, with a sharper equal-degree parity
+criterion. It retains all-degree one-double and characteristic-zero
+one-triple coverage. Both invariant pure hulls of a hypothetical
+sole-supported CI require the specified section-parity defect, while their
+[full cohomology profiles](arguments/torus/boundary_section_cohomology.md)
+exclude the exact diagonal endpoint models in types \((6,6)\), \((5,8)\).
+Actual-family cohomology and linked-colon specialization have
+[canonical comparison sequences](arguments/normal-geometry/source_specialization_and_linkage.md),
+with distinct corrections; an unspecified comparison map is no longer
+the preliminary question.
+
+The [integral first-jet product](results/integral_first_jet_lifting.md)
+constrains actual mixed-characteristic sources even without special
+symmetry, excluding the specified non-eigen \((16,p)\) unramified traits.
+The [Hilbert-scheme form](arguments/torus/chow_hilbert_symplectic_form.md)
+remains a differential formulation, not universal vanishing. An actual
+homogeneous cyclic Hilbert lift with binary-CI center already realizes
+the two global generators. An [ordinary norm relation exists for every
+actual translated-cycle pair](arguments/torus/spectral_boundary_modulus.md),
+using row replacement and normalized sections of integral carrier factors.
+Its aggregate jet is the same source residue; a new geometric cancellation
+condition remains to be proved. The fixed cuspidal
+carrier's deeper unit quotient retains gluing lost by the additive moment.
+
+The [elliptic contact/spectral comparison](arguments/carriers/elliptic_contact_and_spectral_comparison.md)
+keeps all contact strata, full root-conductor gluing, actual-kernel
+saturation and ambient descent separate. Its birational carriers break sign
+symmetry, preserving this constructive alternative. None of these results
+settles arbitrary repeated arrangements or unrestricted STCI.
 
 The [two-product Jacobian criterion](results/jacobian_radical_support.md)
 recognizes sole support in characteristic zero by two actual polynomial

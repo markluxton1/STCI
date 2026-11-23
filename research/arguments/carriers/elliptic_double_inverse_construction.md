@@ -752,40 +752,30 @@ higher-degree descent.
 
 #### The horizontal symbol and the actual elliptic pencils
 
-On the birational octic locus put \(G=Z\cap E\) and
-\(d=6-\operatorname{length}(G)\). The horizontal curve \(\Sigma_{\rm sym}\)
-of the primitive quadratic symbol has type \((d,2)\) in the two
-projective lines of base and normal direction. It is the image of the
-map \((\pi,\Theta)\) from \(E\), where \(\Theta\) is the saturated
-direction pencil, and that map is its normalization: its two generic
-directions separate the two deck conjugates. Both curves are finite
-flat double covers of the base line. Their trace-zero lines are
-\(\mathcal O(-d)\) and \(\mathcal O(-2)\), by their genera. The
-inclusion is multiplication by a binary form \(j\) of degree \(d-2\).
-In a local trace frame the inclusion is \(A\oplus jAw\subset A\oplus Aw\),
-so the relative conductor is \(j\mathcal O_E\) and the discriminant is
-multiplied by \(j^2\). Consequently the coincidence-excess divisor
-\(J\) above is \(\operatorname{div}(j)\), and the conductor identity on
-\(E\) is the vertical contribution \(\pi^*V\) plus this relative
-conductor. This compares a particular actual symbol curve, not a
-free choice of a spectral root.
+The focused [contact and spectral comparison](elliptic_contact_and_spectral_comparison.md#1-contact-moves-defect-between-the-vertical-and-horizontal-curves)
+owns this geometry across all contact lengths \(g=\operatorname{length}(Z\cap E)\).
+The actual direction bundle is \(B=A^3(-G)\), where
+\(A=\pi^*\mathcal O(1)\) and \(G=Z\cap E\). The horizontal root
+has type \((6-g,2)\), normalization \(E\), and trace conductor of
+degree \(4-g\) on the base. Its full-root Picard classes retain the
+conductor gluing when \(g<4\); at \(g=4\) the root is smooth and
+the pencil difference is \(A^2(-G)\).
 
-At \(\operatorname{length}(G)=4\), \(d=2\) and \(j\) is a unit, so the
-horizontal symbol curve is itself a smooth \((2,2)\) curve isomorphic
-to \(E\). Let \(A=\pi^*\mathcal O(1)\) and
-\(B=\Theta^*\mathcal O(1)\) denote its two pencils. Dividing the
-actual normal coefficients by their common divisor gives
-\(B=A^3(-G)\). The degree-zero pencil difference in the
-[spectral comparison](../../frameworks/spectral-roots/index.md)
-is therefore \(B\otimes A^{-1}=A^2(-G)\). In particular \(G\) cannot
-be the pullback of a degree-two divisor on the base: that would
-identify the two degree-two line bundles, whose complete pencils
-would then agree up to an automorphism, contradicting the
-\((2,2)\) embedding. No mate hypothesis here forces this difference
-to be torsion. It is not the conditional \((6,16)\) comparison.
-The next bounded test is to determine whether the actual
-length-four stratum is nonempty and, there, test full inverse
-support and only then descent.
+If the **actual** first degree-two kernel itself is a line subbundle,
+the [socle comparison](elliptic_contact_and_spectral_comparison.md#3-four-necessary-rows-when-the-actual-first-kernel-is-saturated)
+forces \(g(b-2)=24\), leaving four necessary degree rows. This
+hypothesis is stronger than taking the saturation of a kernel and
+does not classify all mates. The [fixed marking also prevents target
+sign symmetry](elliptic_contact_and_spectral_comparison.md#4-the-fixed-marking-prevents-target-sign-symmetry).
+Neither statement settles full inverse support or actual descending
+powers. The support question concerns the whole family and every
+contact stratum, including the singular-root strata \(g<4\).
+The [conjugate-source account](elliptic_conjugate_sources.md) identifies
+the actual \((8,8)\) pair \((F_8,\tau F_8)\), its residual degree
+\(48\), and the precise poles in the saturated local cancellation.
+Upstairs \(Q_0^b\) is already a global section for every \(b\);
+the remaining descent question concerns the actual four-section
+subalgebra and full conductor.
 
 #### Descent and the remaining degrees
 

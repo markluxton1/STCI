@@ -46,6 +46,19 @@ normal directions, filtrations, and embedded-structure questions;
 complementary geometric interpretation when actual multipliers give
 proper pairs. The formulations are related without being equivalent.
 
+### The quartic ancestor remainder leaves translated-cycle incidence
+
+A proper positive answer in the bounded quartic common-ancestor source
+has marked generic length three and residual degree four, by its
+[owning source calculation](../../arguments/local-cohomology/direction_and_apolarity.md).
+That residual cannot be a translated quartic: otherwise the entire
+\((4,4)\) cycle would have partition \((3,1)\), excluded by the
+[quartic-pencil classification](../../results/quartic_chow_pencil_classification.md).
+Thus the new full-translated-cycle moment and sign-source theorems do not
+directly test this remainder. Its relative-extension and multiplication
+tensor question retains independent content; this is a coverage separation,
+not a new vanishing theorem for the ancestor module.
+
 ## Bridges
 
 Work on the two surviving interior components in the actual equation
@@ -97,9 +110,50 @@ sequence with \(\mathcal D(f,g)(-\deg f)\) as submodule of
 by the first-coregularity hypothesis without identifying either term
 with a finite conductor module.
 
-For the actual full-primary ideal \(J\) of a proper pair with ideal \(L=(f,g)\), the [attachment equation quotients](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) \(Q_n=J/(L+I^nJ)\) now identify, after the adjunction twist and at projective attachment points, the Matlis duals of the \(I^n\)-annihilator layers of the actual-CI local cohomology. The first layer detects residual attachment, and connectedness gives the global vanishing equivalence for actual proper pairs. Under first-element coregularity this detects the second condition. It neither identifies the entire graded module at the cone vertex nor identifies arbitrary intrinsic filtered lifting defects with \(Q_n\). The remaining comparison is whether normal-symbol obstructions or actual homogeneous-source constraints force \(Q_1\ne0\). The scoped correctness reconstruction of November 23, 2026 is recorded at the linked proof owners.
+For the actual full-primary ideal \(J\) of a proper pair with ideal
+\(L=(f,g)\), the
+[attachment equation quotients](../../arguments/local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers)
+\(Q_n=J/(L+I^nJ)\) identify, with the adjunction twist and at
+projective attachment points, the Matlis duals of the \(I^n\)-annihilator
+layers of the actual-CI local cohomology. The first layer detects residual
+attachment, and connectedness gives the global vanishing equivalence for
+actual proper pairs. Under first-element coregularity this detects the
+second condition. The linked proof retains its own review scope. It
+does not identify the entire graded module at the cone vertex or
+arbitrary intrinsic filtered lifting defects with \(Q_n\). In fact
+[local controls](../../arguments/normal-geometry/source_specialization_and_linkage.md#normal-cancellation-is-not-actual-residual-attachment)
+separate the vanishing of normal cancellation \(\Delta\) and of
+\(Q_1\) in both directions. The remaining question is which actual
+homogeneous-source or geometric constraints force \(Q_1\ne0\),
+rather than an unrestricted local identification of these modules.
 The bounded common-ancestor calculations do not prove nonvanishing for
 all pairs or non-quasi-cyclicity of \(M\); failure for one ordered pair
 does not exclude all coregular pairs. The existing individually-coregular
 counterexample in the linked proof account explains why the pairwise
 condition matters.
+
+### Section parity and actual-family specialization
+
+The finite section/Rao defect required by a nonzero first moment on an
+invariant pure hull is a different cohomology module. The reduced quartic
+has nonzero section defect \(kh\), but
+\(H_I^1(S/I)=0\), since \(I\) annihilates its coordinate ring.
+Conversely a projective CI has zero Rao module while a genuine residual
+attachment gives nonzero relative local cohomology. The
+[support controls](../../arguments/normal-geometry/source_specialization_and_linkage.md#section-parity-and-relative-coregularity-have-different-supports)
+exclude substituting one detector for the other.
+
+There is nevertheless an exact actual-family comparison. For a flat
+graded family \(A\) over a parameter DVR and its special pure quotient
+\(0\to T\to A_0\to E\to0\), the
+[section-specialization sequences](../../arguments/normal-geometry/source_specialization_and_linkage.md#sections-after-the-pure-hull-correction)
+express the finite \(H^1_{(z,w)}(E)\) as a quotient of
+\(H^1_{(z,w)}(A_0)\), corrected by \(H^1_{(z,w)}(T)\), and relate
+that middle module to the family cohomology and its parameter torsion.
+The removed projective embedded structure \(T\) can have dimension one
+over \(k[z,w]\), despite the finite length of the final Rao defect.
+Parameter-character twists must be retained in weighted equivariant
+families. These sequences locate the required parity class in actual
+family sources without proving that it cannot survive. They complement
+the relative attachment and common-ancestor questions, rather than
+answering them.
