@@ -361,6 +361,53 @@ finite torsion-free implies locally
 free; its generic rank is the sum of
 the local generic lengths \(n_i=m\).
 
+**The full Chow polynomial is the norm of the
+moving quotient.** Since the rank-\(m\)
+algebra \(\mathcal A_{F,G}\) has
+length-\(n_i\) local fibers at the
+fixed transverse points \(p_i\),
+multiplication by a generic linear
+form \(X+uY+vZ\) has determinant
+\[
+ \tag{19a}
+ \boxed{
+ \operatorname{Nm}_{\mathcal A_{F,G}/k[t^{\pm1}]}
+       (X+uY+vZ)
+ =\mathcal C_\sigma(X,Y,Z)
+ =\prod_i(X+u_iY+v_iZ)^{n_i}.
+ }
+\]
+This equality holds already over
+the generic function field and
+extends over \(k[t^{\pm1}]\)
+by flatness. In particular
+\[
+ \tag{19b}
+ \boxed{
+ \operatorname{Tr}_{\mathcal A_{F,G}/k[t^{\pm1}]}
+            (u/v)
+ =M_1(\sigma)
+ =\frac{[YZ^{m-1}]\mathcal C_\sigma}
+        {[Z^m]\mathcal C_\sigma}.}
+\]
+The first equality is the
+additivity of trace across local
+Artinian composition series, and
+the second is the elementary
+coefficient identity.
+Thus the single linear moment
+and **every** multisymmetric Chow
+coefficient are intrinsic norm
+coefficients of the *same moving
+finite-flat algebra* obtained from
+the actual two surface equations.
+None of those norm identities
+alone forces \(M_1=0\); the
+point is that the quotient is
+required to globalize to a
+homogeneous height-two CI across
+the two orbit endpoints.
+
 Therefore the kernel is a locally
 free submodule of rank
 \[
