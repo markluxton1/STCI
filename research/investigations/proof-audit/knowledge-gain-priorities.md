@@ -22,7 +22,7 @@ additional positive case when it changes which comparison to attempt.
 
 Compare the actual next investigations, not the historical importance of their
 frameworks. A restricted scalar test does not inherit the coverage of the whole
-deep-contact program. The current comparison is between the shared-cofactor Chow realization
+deep-contact program. The current comparison is between single-chain Chow realization
 incidence and the whole elliptic inverse-support locus. The symmetric sextic
 criterion and marked graph tests remain narrower alternatives. No evidence
 currently establishes a strict expected-payoff ranking of the first two tasks.
@@ -557,14 +557,20 @@ KG02 and KG05 are the two leading competing investigations; the evidence does
 not justify a strict ordering of their expected mathematical payoff. This is
 a research comparison, not a claim that either is close to settling STCI.
 
-For KG02, the concrete source question is now **shared-cofactor compatibility
-for the opposite quadric/cubic Chow polarizations**, retaining the norm and
-properness gates of the same actual pair. Start from the
+For KG02, the concrete source question is now **single-chain two-generator
+realization**, retaining the norm and coordinate-boundary conditions of the
+same actual pair. The [saturation theorem](../../arguments/torus/spectral_interpolation_and_polar_saturation.md)
+settles the previously proposed independent opposite-chain compatibility
+test: the two chains impose equivalent membership on a coordinate-saturated
+ideal. The opposite chain remains useful for boundary coverage, but comparing
+its cofactors adds no independent obstruction. Start from the
 [exact polarized incidence](../../arguments/torus/weighted_chow_quadric_cubic_polarizations.md#31-exact-lower-degree-carrier-free-realization-incidence)
 and [cofactor/norm criterion](../../arguments/torus/full_transverse_chow_pullback_envelope.md#32-exact-full-cycle-realization-criterion-via-cofactor-identities-and-the-norm).
-The expected gain is a nontrivial restriction on actual two-generator sources,
-or an explicit demonstration that these cofactor equations add no independent
-restriction in the chosen sector. Declare a bidegree or source sector before
+The expected gain is a nontrivial restriction on actual two-generator sources
+or a realization in the chosen sector. On the distinct-spectral-value stratum,
+the pair \((H,K)\) recovers all cycle parameters, even with repeated
+multiplicities; it does not replace the full coefficient chain or norm test.
+At spectral collisions retain higher polars. Declare a bidegree or source sector before
 an initial elimination/geometry probe; stop or redirect if it merely rewrites
 support or separates known residual controls. UM1 remains an open, stronger
 than necessary conjecture, not an accepted intermediate theorem.

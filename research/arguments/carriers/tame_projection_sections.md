@@ -80,8 +80,10 @@ Uniqueness makes the two sections agree on the overlap.
 
 ## The canonical projection order
 
-**New synthesis, pending independent review.**  The rational section above
-has a canonical integral closure inside the actual finite algebra.  This
+**Scoped independent reconstruction (November 23, 2026).** The order construction,
+normalization sequence, splitting and both bounds below were independently
+checked against the actual finite-cover hypotheses. The rational section above
+has a canonical saturated order inside the actual finite algebra. This
 packages the two endpoint failures into one global object rather than two
 separate pole calculations.
 
@@ -206,8 +208,10 @@ The conductor
  \mathfrak c=\operatorname{Ann}_{\mathcal A}
              (\mathcal R/\mathcal A)
 \]
-is consequently a canonical endpoint-supported ideal.  Its length and
-the finer elementary divisors may retain information lost by the scalar
+is a canonical ideal equal to \(\mathcal A\) away from the endpoints.
+The finite-length quotients \(\mathcal A/\mathfrak c\) and
+\(\mathcal R/\mathfrak c\), and the finer elementary divisors,
+may retain information lost by the scalar
 \(\delta\).  No bound here connects them to residual projective support;
 the local model below shows that large endpoint pole defects are compatible
 with local complete intersections.  The value of \(\mathcal A\) is instead

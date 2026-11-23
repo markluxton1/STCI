@@ -485,7 +485,15 @@ More importantly, their *normalized first cubic polars* \(E_+,E_-\) obey
  \boxed{x_2^2E_++x_0^2E_-+
  x_1H_\sigma\bigl(mA+M_1(\sigma)B\bigr)=0.}
 \]
-This explicit syzygy simultaneously displays the two opposite ruling corrections and the **first elementary symmetric function \(M_1=\sum n_i\xi_i\)** in the same equation. It holds for every paired toric cycle, so it does **not** by itself imply vanishing; the outstanding condition is compatibility of the syzygy with the same two homogeneous CI generators. The linked proof is the single mathematical owner.
+This syzygy displays the opposite ruling corrections and
+\(M_1=\sum n_i\xi_i\), but reduces to Euler's identity for the spectral
+polynomial. The [saturation theorem](spectral_interpolation_and_polar_saturation.md)
+shows that opposite-chain membership is equivalent on a coordinate-saturated
+ideal, including every full-translated-support CI. Compatibility of this
+syzygy supplies no independent obstruction. The remaining question is
+single-chain two-generator realization with the prescribed norm and no
+coordinate-boundary components; recovering its cycle parameters from
+\((H,K)\) on distinct spectral values does not settle those source conditions.
 
 ## 2. Coefficients of the full Chow form are mixed symmetric functions
 

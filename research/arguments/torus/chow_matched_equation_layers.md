@@ -405,7 +405,10 @@ center coefficients in sufficiently large degree.
 
 ### Sharpness and the last missing center layer
 
-**New exact refinement, pending independent review.**  The threshold
+**Scoped independent reconstruction (November 23, 2026).** The semigroup
+calculation and its source-depth application below were independently checked.
+Retain \(N\ge1\); this semigroup calculation works over any field.
+The threshold
 \(d\ge N+2\) is sharp, and the final cokernel is completely explicit:
 \[
  \boxed{\dim_k\operatorname{coker}\!\left[
@@ -481,6 +484,10 @@ are incompatible with \(F,G\in I_C\) **separately**.  Any successful
 fixed-order argument must use additional joint structure: the two equations
 together, properness/full support, the opposite torus filtrations, or a
 source-induced recursion to deeper orders.
+
+This proves sharpness of the full individual center-jet surjectivity threshold,
+not sharpness of the threshold for equality of determinant-truncation images:
+the nonlinear determinant map may forget missing jet directions.
 
 ## Opposite full limits can retain a large embedded Hilbert correction
 

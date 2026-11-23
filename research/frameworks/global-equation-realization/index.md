@@ -279,6 +279,48 @@ The first normalized polars satisfy
 \]
 This is a **specific cross-polar source syzygy** for every whole translated-cycle CI (and every abstract cycle), so a proposed proof of UM1 must extract an *additional two-generator global cofactor constraint* rather than divide the common factor \(H_\sigma\) in the CI ring. No new universal vanishing, proper-pair degree bound, or nonexistence theorem is asserted.
 
+### Saturation review of the opposite-polar realization proposal
+
+The [Hermite-interpolation and opposite-polar saturation theorem](../../arguments/torus/spectral_interpolation_and_polar_saturation.md)
+corrects the significance of the
+earlier \(M_1\) syzygy. On every
+proper CI with entire translated
+support, \(x_0\) is regular modulo
+the ideal and the first opposite
+polar is a consequence of the
+plus polar and the spectral power.
+Both **full** polar ideals agree
+after localization to the dense
+ambient torus, so the opposite
+chain contributes no independent
+global cofactor condition when
+the original CI has no boundary
+components. Their sum remains
+convenient for **set-theoretic
+support recognition without an
+a priori boundary condition**.
+
+For spectrally separated
+translated supports, the full
+paired configuration—including
+nilpotent multiplicities—is
+already recovered from the
+binary spectrum \(H\) and
+the simple-pole rational function
+\(K/H\), with
+\(K=\sum_i(n_i/u_i)H/(A-\xi_iB)\).
+A support collision at fixed
+quadric parameter loses the
+individual reciprocal cubic
+parameters and requires higher
+polar coefficients. The true
+remaining equation-source
+problem is the **single-chain
+moving quotient and projective
+endpoint descent**, not a
+formal independent compatibility
+between opposite first polars.
+
 ## Bridges
 
 An osculating quadric puts the entire quadratic conductor at one general

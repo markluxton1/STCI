@@ -330,8 +330,13 @@ to the single degree-two finite-cover trace.
 
 The [sole strategic queue](../../investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment)
 compares actual next tasks. These are mechanism questions, not an additional
-priority order. The newer opposite-polar cofactor incidence and determinant
-truncation theorem refine the source question below; neither supplies UM1.
+priority order. The [saturation and interpolation theorem](spectral_interpolation_and_polar_saturation.md)
+removes the proposed independent opposite-polar cofactor gate: on a
+coordinate-saturated ideal the opposite chains have equivalent membership.
+The single full-chain/norm realization problem remains, with \((H,K)\)
+recovering cycle parameters on the distinct-spectral-value stratum. The
+determinant truncation theorem limits separate fixed-depth source arguments;
+neither parameter recovery nor truncation supplies UM1.
 
 A source-level question is to **pull back the mixed Chow coefficient
 to the actual source incidence** for arbitrary degrees and express it

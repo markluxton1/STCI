@@ -5,6 +5,62 @@ arguments, not a new vanishing theorem or an independent proof audit.
 Characteristic zero throughout. The objective is the **necessary** relation,
 not a classification of all realizable arrangements.
 
+**November 23 review of the full-Chow polar mechanism.**
+The [paired spectral interpolation/saturation result](spectral_interpolation_and_polar_saturation.md)
+identifies a tempting but **nonoperative**
+proposed UM1 gate: the
+opposite-ruling first-polar
+syzygy is Euler's identity
+for the spectral polynomial
+and the opposite polar
+is automatically in the
+actual CI ideal if the
+plus polar and spectrum
+are, because \(x_0\)
+is a nonzerodivisor
+under entire translated
+support. The full opposite
+polar chain follows after
+dense-torus localization
+and CM saturation.
+Hence two cofactor
+representations of
+opposite polars do **not**
+supply independent
+conditions capable of
+forcing \(M_1=0\).
+
+The real parameter reduction
+on spectrally separated
+support is
+\(H=\prod_i(A-\xi_iB)^{n_i}\)
+and \(K=\sum_i(n_i/u_i)
+H/(A-\xi_iB)\).
+The rational function
+\(K/H\) has simple poles
+with residues \(n_i/u_i\),
+so it recovers the full
+paired configuration,
+including repeated components.
+The exceptional non-invariant
+\((4,4)\) doubled pair
+lies in this stratum and
+has \(K=H_A/u\).
+When different translates
+share the same quadric
+parameter, only the
+weighted sum of reciprocal
+cubic parameters appears;
+higher polar data is
+necessary. UM1 remains
+unproved on **both**
+nonreduced strata. The
+remaining global step is
+genuine **one-sided
+source/quotient and endpoint
+realization**, not a
+formal cross-polar syzygy.
+
 ## Target and proved coverage
 
 For a proper homogeneous pair \(F_a,G_b\) with entire fundamental cycle

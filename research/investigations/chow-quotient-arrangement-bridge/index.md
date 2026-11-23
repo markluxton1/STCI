@@ -63,6 +63,14 @@ the same proper equation pair.
   own the formulas and their exact scope. The latter's UM1 implication
   remains open and its stated review status should be checked before relying
   on its new claims.
+- The [saturation and interpolation theorem](../../arguments/torus/spectral_interpolation_and_polar_saturation.md)
+  identifies opposite-chain membership for coordinate-saturated ideals. A full
+  translated-support CI is automatically saturated this way; the second chain
+  gives no independent cofactor gate. On the distinct-spectral-value stratum,
+  \((H,K)\) recovers paired torus points with their multiplicities, including
+  nonreduced cycles. Spectral collisions need higher polars. Recovering those
+  cycle parameters does not replace full-chain membership and the norm test
+  on the actual two-generator ideal.
 - The three parameter spaces stay distinct: the [normalized Chow quotient](../../arguments/torus/chow_quotient_fan_and_blowup_comparison.md)
   compactifies orbit **cycles**; the [endpoint calculation](../../arguments/torus/arrangement_endpoint_delta.md)
   describes Hilbert data for **reduced unions** and shows their Hilbert

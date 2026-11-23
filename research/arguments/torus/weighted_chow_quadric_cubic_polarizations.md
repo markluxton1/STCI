@@ -6,6 +6,8 @@
 
 **Literature and accepted inputs checked:** the standard rational-quartic divisor class \((1,3)\) on a smooth quadric and its quadric plus three cubic generators ([*The Practice of Algebraic Curves*](https://doi.org/10.1090/gsm/218)); the two-ruling divisor calculation on \(\mathbf P^1\times\mathbf P^1\); the classical Chow polynomial of finite points and Artinian nilpotence; CM/unmixedness of homogeneous complete intersections (Stacks [00S8](https://stacks.math.columbia.edu/tag/00S8), [00N2](https://stacks.math.columbia.edu/tag/00N2)). The [existing full paired Chow/moment theorem](transverse_chow_moment_realization.md) and [spectral–Jacobian bridge](spectral_jacobian_first_jet_bridge.md) remain the project authorities for their separate conclusions.
 
+**Review correction (2026-11-23).** The [spectral interpolation and saturation review](spectral_interpolation_and_polar_saturation.md) proves that the opposite first-polar membership in this note is **automatic** from the plus first-polar and spectral memberships for a proper CI supported entirely on translates: from the displayed comparison identity, \(x_0^2E_-\in J\), and \(x_0\) is a nonzerodivisor modulo such a CI. More generally the **entire** opposite coefficient chain is redundant under saturation by the product of the four ambient coordinate variables, since the two ideals coincide on the dense torus. Consequently the proposed cross-ruling cofactor *compatibility gate* described below is **not an independent obstruction to UM1**. The syzygy itself reduces to Euler's homogeneous identity for \(H\) and a polynomial identity for its first spectral derivative. The pair \((H,K)\), \(K=\sum_i n_i u_i^{-1}H/(A-\xi_iB)\), is the genuinely smaller parameter object; for pairwise distinct \(\xi_i\) its partial-fraction residues recover all the paired toric points, including repeated multiplicities. This refines and partly supersedes the research interpretation below; it does **not** alter the correctness of the stated polynomial identities and support envelopes.
+
 ## 1. The first two independent transverse pencils occur in degrees two and three
 
 Let
@@ -334,62 +336,63 @@ equations
    x_1(mA+M_1B)h_G &=-T\,F.
  \end{aligned}}
 \]
-Thus (10d) is the exact
-**two-generator lifting condition**
-for the first opposite-ruling
-Chow syzygy. All unknown
-cofactors are constrained by the
-*same* \(F,G\) and the *same*
-symmetric toric points; they
-cannot be chosen independently
-one carrier at a time.
-For \((a,b)=(4,4)\) the
-Koszul multiplier has degree \(3\);
-for \((6,6)\) it has degree \(9\).
+Equations (10d) are exact
+**Koszul cofactor identities**,
+but their existence follows
+formally from (10b) and the
+regular-sequence hypothesis.
+Their Koszul multiplier has
+degree \(3\) for \((4,4)\)
+and \(9\) for \((6,6)\);
+neither case offers a
+negative-degree obstruction.
 
-The Koszul theorem guarantees
-such a \(T\) **whenever all the
-membership conditions in (10b)
-already hold**. Thus (10d) is
-an equivalent **source-incidence
-formulation**, not an additional
-independent obstruction.
-To deduce UM1 one would need
-to show that this entire
-cofactor system is impossible
-when \(M_1\ne0\), or isolate
-a tighter consequence by
-combining it with the opposite
-endpoint filtrations.
-No cancellation or
-degree-count contradiction
-has yet been proved.
+**Stronger review finding.**
+The [spectral interpolation and saturation theorem](spectral_interpolation_and_polar_saturation.md)
+shows that even the membership
+of the *opposite* first polar
+\(E_-\) is **automatic**:
+if \(H,E_+\in J\) and \(x_0\)
+is a nonzerodivisor modulo \(J\),
+(10) gives \(x_0^2E_-\in J\),
+hence \(E_-\in J\).
+This nonzerodivisor property
+holds for every proper CI
+whose entire support consists
+of translated quartics.
+The *whole* opposite coefficient
+chain follows from the plus chain
+by saturation on the ambient
+coordinate torus. Therefore
+**neither the syzygy nor
+simultaneous opposite-polar
+cofactor membership defines
+an additional gate on the UM1
+incidence**, contrary to the
+earlier research suggestion.
+The syzygy is ultimately
+Euler's homogeneous formula
+for \(H\) after one
+partial-fraction identity.
 
-**Exact boundary of the implication.**
-(10) is an *identity of polynomials
-constructed from \(\sigma\)*.
-It is true even for cycles that are
-**not** realizable CIs.
-Thus it does **not** by itself
-imply \(M_1=0\).
-One must prove that the simultaneous
-membership of the two opposite
-polar chains in the **same
-two-generated homogeneous regular
-sequence**, including endpoint
-gluing, forces the \(B\)-coefficient
-of the comparison quadric to vanish.
-That further claim is **open**.
-In particular, no cancellation
-of \(H\) modulo \(J\) is valid
-since \(H\in J\), and the ordinary
-Koszul-cofactor syzygy of degree
-\(2m+3\) can involve a multiplier
-of nonnegative degree
-\(2m+3-a-b\) (for the admissible
-bidegrees). Neither a formal division
-nor the presence of the syzygy
-is a new STCI exclusion.
+What remains open is the
+**single-chain** realization
+problem: can a proper homogeneous
+two-generator ideal with no
+coordinate-boundary components
+contain the entire canonical
+paired Chow coefficient ideal
+and have its prescribed
+finite-flat norm when
+\(M_1=-H_B(1,0)\ne0\)?
+The opposite polarization is
+still useful for removing
+boundary lines when one does
+*not* assume that their
+components are absent, but it
+does not supply independent
+information once the full-support
+CI hypothesis is imposed.
 
 ## 3.1 Exact lower-degree carrier-free realization incidence
 
@@ -487,20 +490,16 @@ charts selecting disjoint residual
 lines. The syzygy (10) is
 the algebraic comparison between
 these two rulings.
-It is precisely where the
-elementary coefficient \(M_1\)
-enters a **joint, degree-uniform
-global-equation condition**,
-rather than merely appearing as a
-coefficient in the Chow form or a
-trace on a finite algebra.
+The comparison displays \(M_1\), but reduces to Euler's identity and
+the first spectral derivative identity. Once the actual ideal is
+coordinate-saturated, opposite-chain membership is equivalent to plus-chain
+membership. This gives no independent compatibility obstruction.
 
-The still unresolved statement is
-that the image of the **actual
-proper-CI realization incidence**
-under these low-degree opposite
-polarization/cofactor equations
-lies in \(M_1=0\).
-No such vanishing or elimination
-of arbitrary non-invariant
-nonreduced pairs is established.
+The remaining source question is whether a proper two-generator ideal with
+no coordinate-boundary components can contain one full coefficient chain,
+have the prescribed finite-flat norm, and satisfy \(M_1\ne0\).
+On the distinct-spectral-value stratum, the interpolation pair \((H,K)\)
+recovers the cycle parameters, including repeated multiplicities; the full
+memberships and norm remain conditions on the actual ideal. Collisions
+require higher polars. No universal vanishing or elimination of arbitrary
+non-invariant nonreduced pairs is established.

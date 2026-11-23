@@ -1836,6 +1836,11 @@ only base-degree layers through \(4j\) for \(\Delta_j\).  These layers
 agree for every \(j\le r\), so the tuples agree.  The reverse inclusion
 in (HJ9) is immediate.
 
+The [sharp semigroup calculation CJ1–CJ6](../torus/chow_matched_equation_layers.md#sharpness-and-the-last-missing-center-layer)
+shows that this individual source-surjectivity input has cokernel dimension
+\(4r+2\) in degree \(4r+2\). It does not prove failure of (HJ9) there:
+the determinant tuple may forget those missing jet directions.
+
 The same argument for the
 [quadric/cubic characteristic towers](../torus/fixed_surface_and_endpoint_algebras.md#two-fixed-test-surfaces-give-an-exact-support-criterion)
 uses only \(a,b\ge3r+3\) when retaining both towers through order \(r\).

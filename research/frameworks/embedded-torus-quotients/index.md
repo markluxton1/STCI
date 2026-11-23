@@ -76,6 +76,38 @@ universal \(M_1=0\) theorem is not proved.
 
 The [opposite quadric–cubic Chow polarization](../../arguments/torus/weighted_chow_quadric_cubic_polarizations.md) sharpens the constant fat-envelope source below: two degree-\((2m,\ldots,3m)\) coefficient chains, sharing the quadric-spectrum term, generate **the same dense-torus ordinary-power envelope** and have combined radical exactly the translated support. Their first opposite polars satisfy a homogeneous syzygy with coefficient \(M_1\). This gives lower-degree input for comparing the **same actual global two-generator quotient** with the moving-quotient and two-endpoint descent theorems. It does **not** extend the sole-supported movement bounds R-0072 to multiple supports, nor prove first-moment vanishing.
 
+**Saturation correction.**
+The [spectral-interpolation review](../../arguments/torus/spectral_interpolation_and_polar_saturation.md)
+proves that the *two*
+opposite polarized fat-point
+envelopes are the **same**
+after restriction to the
+dense ambient torus.
+An actual full-support CI
+is saturated by the
+coordinate product, so
+opposite-polar membership
+is automatic from one
+chain; the syzygy containing
+\(M_1\) is not an
+independent obstruction.
+What remains is a
+**moving finite quotient
+of the single canonical
+fat-point source**, with
+the correct norm and
+two-endpoint global descent.
+When the quadric parameters
+are distinct, the
+entire paired configuration
+is compactly encoded by
+the spectral polynomial
+\(H\) and an interpolation
+polynomial \(K\), with
+\(K/H\) residues
+\(n_i/u_i\), even for
+nonreduced multiplicities.
+
 ## Mathematical scope and interfaces
 
 This approach studies **embedded finite torus quotient images**, their

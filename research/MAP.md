@@ -98,9 +98,15 @@ is a finite exact sole-support system in each bidegree. Explicit actual pairs
 with residual curves pass its two leading tests. The full
 [opposite Chow envelopes](arguments/torus/full_transverse_chow_pullback_envelope.md)
 and [quadric/cubic polarizations](arguments/torus/weighted_chow_quadric_cubic_polarizations.md)
-retain shared cofactors in the same two actual generators. Their norm gate
-is required to recover exact component multiplicities. An exact incidence
-reformulation is not an existence or nonexistence theorem.
+give exact same-generator incidences. Their norm gate is required to recover
+exact component multiplicities. The [saturation and interpolation theorem](arguments/torus/spectral_interpolation_and_polar_saturation.md)
+shows that the opposite coefficient chains impose equivalent membership on
+coordinate-saturated ideals, including full-translated-support CIs. A second
+polarization adds boundary coverage, not an independent cofactor obstruction.
+On the stratum of distinct spectral values, \((H,K)\) recovers all paired
+torus parameters, even with repeated multiplicities; collisions need higher
+polars. This parameter compression does not replace full-chain membership or
+the norm condition by the two first polars.
 
 The [paired source determinant](arguments/torus/chow_arrangement_moments.md#a-two-operator-determinant-recovers-the-full-transverse-chow-polynomial)
 recovers the full transverse Chow polynomial on the translated locus and
@@ -117,6 +123,14 @@ are unchanged by imposing containment of \(C\). This does not prove the
 truncated pure target is attainable; joint global conditions remain. A useful
 all-degree obstruction must add actual simultaneous source compatibility,
 rather than another scalar support detector.
+
+The [sharp center-jet calculation](arguments/torus/chow_matched_equation_layers.md#sharpness-and-the-last-missing-center-layer)
+has cokernel dimension \(N+1\) at degree \(N+1\), and vanishes in degrees
+at least \(N+2\). Sharpness of that source map does not establish sharpness
+of the determinant-image threshold. The [canonical projection order](arguments/carriers/tame_projection_sections.md#the-canonical-projection-order)
+packages both endpoint failures in one rank-four algebra with rational
+normalization and genus \(1\le\delta\le6(m-1)\), under its tame
+sole-support hypotheses. It has no proved comparison forcing residual support.
 
 ### Arrangement families and their boundaries
 
@@ -136,7 +150,8 @@ contractions retain their separate missing steps.
 ## Questions and active work
 
 The [strategic queue](investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment)
-owns the comparison of actual next tasks. Shared-cofactor Chow realization and
+owns the comparison of actual next tasks. Single-chain Chow realization with
+its norm and boundary conditions and
 the [whole elliptic inverse-support locus](results/elliptic_inverse_support.md)
 are substantial competing questions. Low-order determinant tests are bounded
 diagnostics; they acquire no all-degree priority from their small matrices.
