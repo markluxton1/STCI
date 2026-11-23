@@ -53,6 +53,23 @@ The [full Chow-polytope rigidity theorem](../../arguments/equations/chow_polytop
 - The [octic/root comparison](../../arguments/spectral/actual_octic_root_lift_comparison.md) has an actual source map and a proper pair of transverse length eight with residual degree 32. This illustrates compatibility without sole support, not a solution to the unrestricted question.
 - [Projected thickenings](../../arguments/linkage/projected_thickening_section_defects.md) distinguish an ACM source upstairs from its image in \(\mathbf P^3\): the displayed power and binary-mixture images fail ACM when the positive degree product is nonzero. This does not exclude other projected sources or arbitrary supported thickenings.
 
+### Spectral–Jacobian first-jet gate (PR #173; review pending)
+
+For any **actual proper pair** with whole translated quartic cycle,
+[spectral–Jacobian duality](../../arguments/torus/spectral_jacobian_first_jet_bridge.md)
+proves \(A M_{12}-2B M_{03}\in(F,G)\), where
+\(A=x_1x_2\), \(B=x_0x_3\). Together with the canonical spectral
+membership \(H(A,B)\in(F,G)\), this gives a **converse recognition test**
+for translated reduced support, provided the pair misses the
+canonically disjoint line \(V(x_0,x_3)\).
+Its first moment is \(M_1=\tfrac12\operatorname{Res}_{f_0,g_0}(ps-qr)\),
+an alternating perfect Gorenstein pairing of the actual first normal
+jets of the equations along that line. The universal obstruction is
+now the assertion that the image of the **joint complete spectral-
+Jacobian equation incidence** has isotropic first jets. No such
+isotropy theorem is established; a proper pair merely containing
+\(C\) can have nonzero pairing and residual degree twelve.
+
 ## Bridges
 
 An osculating quadric puts the entire quadratic conductor at one general
