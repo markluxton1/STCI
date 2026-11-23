@@ -396,6 +396,45 @@ perfectly compatible with merely **containing** the marked
 quartic; the translated-cycle hypothesis in (11) cannot be
 silently replaced by such containment.
 
+### Why the obvious low-order spectral-coefficient test fails in high degree
+
+The actual spectral equation has degree \(2m=ab/2\) and begins
+\[
+ H(A,B)=A^m-M_1A^{m-1}B+\cdots.
+\]
+As a section near the disjoint line \(L\), \(B=x_0x_3\)
+has **normal order two**. The first coefficient that could
+directly detect \(M_1\) is therefore the order-two term
+\(-M_1 A^{m-1}x_0x_3\), whose fiber coefficient
+\(A^{m-1}\) has degree \(2m-2=ab/2-2\).
+But the Artin Gorenstein quotient
+\(\mathscr A=k[x,y]/(f_0,g_0)\) has top degree
+\(a+b-2\). Hence
+\[
+ \tag{16}
+ \deg A^{m-1}-(a+b-2)
+ =\frac{ab}{2}-a-b
+ =\frac{(a-2)(b-2)-4}{2}.
+\]
+For \((a,b)=(4,4)\) this is zero: the first polar
+coefficient is exactly in the socle degree, which helps explain
+why the quartic case is exceptional. For \((6,6)\) it is
+six: the same fiber coefficient is zero in
+\(\mathscr A\) automatically, whatever the unknown value
+of \(M_1\). Thus a **direct** order-two projection of the
+spectral equation to the binary CI quotient cannot force
+the universal isotropy relation in those higher degrees.
+This does not show the full second-order *lifting problem*
+is unobstructed: cofactor corrections and the coupled
+Jacobian condition can carry further information.
+
+This degree comparison is an all-degree **negative control**:
+the first-jet moment formula (13) is sharp, but the global
+constraint forcing its vanishing cannot generally be read
+off just from the coefficient of \(A^{m-1}B\) in the
+order-two spectral restriction. It must use genuine
+joint equation compatibility.
+
 ## 6. Cross-framework interpretation and the actual remaining gap
 
 1. The **Segre/quadrics** viewpoint supplies \(\xi\), the spectral
