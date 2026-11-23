@@ -137,6 +137,16 @@ finite-free trace or proper invariant degeneration.
    data cannot be silently identified with the additive \(u_i/v_i\)
    coordinates.
 
+**Three different filtrations.** The jet filtration at the **disjoint
+projection line** \(L=V(x_0,x_3)\), the two **opposite intrinsic
+weight** filtrations of an actual generator system, and the local
+normalization filtrations at the **contracted curve endpoints**
+\(p_0,p_\infty\) are not interchangeable. The six-layer trace
+functional belongs to the first, whereas the global endpoint sections
+in PR #173 describe the second, and the delta/Hilbert strata describe
+the third. An all-degree implication between them must be proved using
+the same actual source equations; numerical coincidences are insufficient.
+
 ## A weaker target sufficient for STCI and its two regimes
 
 The [all-degree normal-replacement theorem in PR #172](https://github.com/markluxton1/STCI/blob/e5f97d3b23c7023e6940b752d7fa4112e5706f78/research/arguments/carriers/normal_carrier_divisor_geometry.md#47-unequal-degree-pairs-can-acquire-an-actual-normal-carrier)
