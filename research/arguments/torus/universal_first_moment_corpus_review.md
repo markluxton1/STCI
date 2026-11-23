@@ -26,6 +26,28 @@ torus translation, since \(M_1\) transforms by the character \(u/v\).
 It is not a translation-invariant scalar; its **vanishing** is intrinsic
 to the chosen torus character.
 
+### Post-review strengthened bridge: Serre duality of first normal jets
+
+The [new first-jet spectral–Jacobian argument](spectral_jacobian_first_jet_bridge.md)
+refines the earlier exact source picture. A translated-cycle CI
+satisfies \(A M_{12}-2B M_{03}=0\) in its actual ring, and
+\[
+ 2M_1=\operatorname{Res}_{f_0,g_0}(p s-q r).
+\]
+Unlike the **general** six-layer degree-two trace, this formula
+depends only on the first normal equations jets **provided**
+the entire cycle is translated. The residue is the Serre trace
+of a Koszul connecting class in \(H^1(\mathbf P^1,\omega)\),
+and is a nondegenerate alternating Macaulay pairing.
+The two quotient characters \(\xi=u/v,\eta=u^2/v\) are
+respectively the parameters of the unique containing quadric
+and of the cubic scroll with the two fixed residual trisecants.
+The missing proof is now an **isotropy assertion for the
+first-jet image of the simultaneous spectral–Jacobian
+complete-intersection incidence**, rather than an unrestricted
+six-layer polynomial calculation. The new bridge is
+pending independent review and does not establish UM1.
+
 ## I. Three candidate general mechanisms, ranked by missing work
 
 ### 1. Source trace / Chow norm: the closest exact reduction
