@@ -537,6 +537,75 @@ unrestricted problem.  The first new paired stage is \(\Delta_2\), which by
 sources.  No claim is made that \(\Delta_2\) alone is universally
 obstructed.
 
+
+### No bounded moment truncation can isolate the collision at cycle level
+
+The failure of first order is not special to quartics.  Over an algebraically
+closed field of characteristic zero, for every \(N\ge2\) there is a reduced
+translated arrangement containing \(C_0\), but not supported on \(C_0\), for
+which
+\[
+ \Delta_1=\Delta_2=\cdots=\Delta_{N-1}=0.       \tag{CHD15}
+\]
+This is a cycle construction, **not** an assertion that the arrangement is
+the intersection cycle of two actual surfaces.
+
+Indeed choose a primitive \(N\)-th root of unity \(\zeta\) and general
+\(t,c\in k^\times\).  Put
+\[
+ a_j=t\zeta^j,\qquad b_j=ct\zeta^j
+ \qquad(0\le j<N),
+\]
+avoiding the finitely many choices for which \(a_j=1\) or \(b_j=-1\).
+Use the centered transverse coordinates from (CHD3),
+\[
+ a=1-U/V,\qquad b=W/V-1.
+\]
+With \(W_j=1\), set
+\[
+ V_j={1\over1+b_j},\qquad
+ U_j={1-a_j\over1+b_j}.
+ \tag{CHD16}
+\]
+All \(W_j,U_j,V_j\) are nonzero for a general choice, so these are distinct
+points of the transverse torus.  For the reduced cycle
+\[
+ Z_N=[C_0]+\sum_{j=0}^{N-1}[C_{[1:U_j:V_j]}]
+\]
+formula (CHD4) gives
+\[
+\begin{aligned}
+ \Delta_{Z_N}(S,T,Z)
+ &=S^4\prod_{j=0}^{N-1}
+      \bigl(S+t\zeta^j(T+cZ)\bigr)^4\\
+ &=\boxed{
+ S^4\bigl(S^N-[-t(T+cZ)]^N\bigr)^4 .}
+ \tag{CHD17}
+\end{aligned}
+\]
+The elementary roots-of-unity identity
+\(\prod_{\zeta^N=1}(S+\zeta L)=S^N-(-L)^N\) is the only input.
+Consequently the first term involving \(T,Z\) has total degree \(N\),
+which proves (CHD15).
+
+Thus even the **full paired** transverse Chow coordinates admit residual
+cycles with an arbitrarily long initial string of vanishing determinant
+coefficients.  No fixed \(r\) can make
+\[
+ \Delta_1=\cdots=\Delta_r=0
+\]
+a cycle-theoretic characterization of \(m[C_0]\) uniformly in the number
+of components.  Any degree-independent STCI obstruction using this hierarchy
+must therefore use the fact that \(\Delta_j\) comes from the actual
+homogeneous source, or prove a recursion tying later coefficients to earlier
+ones.  Pure moment positivity is unavailable over the algebraically closed
+field.
+
+Vanishing sums of roots of unity are classical; the stronger classification
+problems studied by Lam--Leung are not needed here.  The project-specific
+point is the substitution (CHD16) into the transverse torus and its
+consequence for the source-to-Chow determinant.
+
 ### Multiplication matrices and all transverse moments
 
 Let \(B_\Pi\) be the finite section algebra of an actual pair in this family.
