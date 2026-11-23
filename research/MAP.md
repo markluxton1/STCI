@@ -179,6 +179,13 @@ both endpoint lifts, constrain
 this moving quotient enough
 to force the trace zero.
 
+**Refinement of the full-Chow source:** the [opposite quadric–cubic polarizations](arguments/torus/weighted_chow_quadric_cubic_polarizations.md) now give the **same full paired toric-support and fat-point envelope** with only \(2m+1\) eigenform constraints in degrees \(2m,\ldots,3m\), instead of degree \(4m\) pullbacks. The underlying \((2,3)\) intersections have residual *double opposite skew ruling lines*. Their normalized first cubic polars satisfy the exact syzygy
+\[
+ x_2^2E_+ +x_0^2E_-+
+ x_1H_\sigma\bigl(m x_1x_2+M_1(\sigma)x_0x_3\bigr)=0.
+\]
+This identifies \(M_1\) as a coefficient of the **same-degree homogeneous comparison quadric** between the two rulings, rather than only a resultant or trace coefficient. Since the identity holds for arbitrary toric cycles, it **does not prove** universal vanishing; the remaining problem is *actual two-generator cofactor compatibility at both endpoints*. The exact repeated-cycle cofactor/norm recognition criterion also admits this lower-degree source system. Its proof is the linked argument, pending independent review.
+
 The [cycle-first Chow realization program](arguments/torus/chow_realization_moment_separation.md)
 uses the symmetric power of the orbit quotient as its primary parameter
 space. The universal moment hyperplane misses every interior power locus
