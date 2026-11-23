@@ -43,6 +43,21 @@ mixed trace to vanish, not additional arrangement classification.
 This synthesis contains no new all-degree theorem and is not an
 independent mathematical review.
 
+The broader [nine-Framework and literature reassessment](../../arguments/torus/universal_first_moment_corpus_review.md)
+and the [complete 84-Result crosswalk](../../arguments/torus/universal_first_moment_result_crosswalk.md)
+now assess every Result on main by its precise relationship to the
+first moment: direct proof input, bridge needing an additional theorem,
+negative control, or currently independent background. This reorients
+carrier, spectral, normal-filtration, residual, arithmetic, and local
+cohomology results around their **missing map to the mixed trace**
+rather than assuming those frameworks prove or even determine it.
+The October 2026 Brevik--Nollet very-general thick-carrier Picard
+theorem is recorded in [literature](../../literature/README.md#brevik--nollet-october-2026-very-general-thick-carriers),
+with its special-carrier and non-Cartier limitations. The first
+priority remains a joint actual-equation/Chow-matched source identity;
+a speculative relative divisor-cycle functional is the most distinct
+geometric alternative, not an established obstruction.
+
 
 ## Motivation and the three genuinely different parameter spaces
 
