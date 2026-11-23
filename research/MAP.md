@@ -46,6 +46,22 @@ cycle-preserving regular initial sequences and linkage. The (4,4) small
 diagonal is separately excluded by R-0022; extending the moment proof itself
 to that diagonal and arbitrary degrees remains a coverage question.
 
+The [corpus-wide universal-moment reassessment](arguments/torus/universal_first_moment_corpus_review.md)
+interprets all nine Frameworks and all 84 main-branch Results through
+the potential equation \(M_1=0\), with an [individual Result
+crosswalk](arguments/torus/universal_first_moment_result_crosswalk.md).
+The existing all-degree finite-cover identity is
+\(\operatorname{Tr}(x_1x_2)=4x_0x_3M_1\); the trace's value depends on only
+the first three projection-line layers of each actual equation, but
+this does not replace the full translated-cycle requirement.
+Divisor-class multiplicity lattices offer a distinct possible mechanism:
+the exceptional non-invariant quartic carrier has \(M_1=0\) for all
+proper mates whose cycles consist of translates. A universal
+relative divisor-cycle functional has not been constructed.
+The current literature comparison includes the October 2026
+very-general thick-carrier Picard theorem; it does not control
+special carriers chosen by a mate.
+
 For every characteristic-zero bidegree, the smaller defining equation and
 its weight components bound the splitting of the moving transverse quotient.
 At a general point, a single base tangent vector induces a map from the fiber
