@@ -157,6 +157,45 @@ segment of the **paired** determinant is incompatible with **actual**
 nonzero.  Without such a source-image statement,
 the pure determinant remains an exact reformulation rather than an exclusion.
 
+
+### Canonical projection order: one global endpoint defect
+
+The [canonical projection section](arguments/carriers/tame_projection_sections.md)
+over the unramified pencil has a natural saturated closure inside the
+actual finite algebra:
+\[
+ \mathcal A=\mathcal E\cap\sigma_K(\mathcal R_K),
+ \qquad
+ \mathcal R=f_*\mathcal O_C.
+\]
+Reduction identifies
+\(\mathcal O_B\subset\mathcal A\subset\mathcal R\), with quotient supported
+only at the two branch points.  Thus \(C_{\mathcal A}=\operatorname{Spec}_B
+\mathcal A\) is a singular rational curve normalized by \(C\).  Its
+normalization defect
+\[
+ \delta=\operatorname{length}(\mathcal R/\mathcal A)
+        =p_a(C_{\mathcal A})
+\]
+satisfies
+\[
+ 1\le\delta\le6(m-1),\qquad m=ab/4.
+\]
+The lower bound follows from the actual CI bundle
+\(\mathcal E=\bigoplus_{i<a,j<b}\mathcal O(-i-j)\): its largest four
+summand degrees sum to \(-4\), while
+\(\mathcal R\simeq\mathcal O\oplus\mathcal O(-1)^3\) has degree \(-3\).
+The upper bound is the existing canonical-section pole bound at the two
+ramification points.
+
+This packages the missing fifth hyperplane section and the two endpoint
+poles into one canonical algebra.  It is **not** a new exclusion: the lower
+bound is another form of the known failure of a global pencil-compatible
+retraction, and the local CI control permits large pole defects.  Its possible
+future value is as a common target for the two equation filtrations or their
+conductors; no theorem presently identifies those filtration defects with
+\(\mathcal R/\mathcal A\).
+
 ### From candidate lattices to actual algebras and proper cuts
 
 The [marked border-product theorem](arguments/residuals/blowup_residual_geometry.md#finite-index-rigidity-of-higher-marked-jets)
