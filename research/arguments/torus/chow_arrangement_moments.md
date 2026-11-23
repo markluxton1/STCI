@@ -602,7 +602,7 @@ ones.  Pure moment positivity is unavailable over the algebraically closed
 field.
 
 Vanishing sums of roots of unity are classical; the stronger classification
-problems studied by Lam--Leung are not needed here.  The project-specific
+problems studied by [Lam--Leung](https://arxiv.org/abs/math/9511209) are not needed here.  The project-specific
 point is the substitution (CHD16) into the transverse torus and its
 consequence for the source-to-Chow determinant.
 
