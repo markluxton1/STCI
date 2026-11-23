@@ -389,6 +389,75 @@ bidegrees). Neither a formal division
 nor the presence of the syzygy
 is a new STCI exclusion.
 
+## 3.1 Exact lower-degree carrier-free realization incidence
+
+The [full-Chow cofactor/norm criterion](full_transverse_chow_pullback_envelope.md#32-exact-full-cycle-realization-criterion-via-cofactor-identities-and-the-norm)
+can now be sharpened **without changing its
+hypotheses or its exact scope**.
+Fix a prescribed paired translated multicycle
+\(\sigma=\sum_i n_i[C_i]\),
+\(m=\sum n_i\), and let
+\(J=(F_a,G_b)\) be a proper
+homogeneous CI with \(ab=4m\).
+Then
+\[
+ \tag{11}
+ \boxed{
+ [V(J)]=\sigma\quad\Longleftrightarrow\quad
+ \begin{cases}
+ \mathfrak T_\sigma^++\mathfrak T_\sigma^-\subset J,\\[2pt]
+ \operatorname{Nm}_{\mathcal A_J/k[t^{\pm1}]}
+    (X+uY+vZ)=\mathcal C_\sigma(X,Y,Z).
+ \end{cases}}
+\]
+As before, the **norm requirement is
+redundant when all \(n_i=1\)**.
+The inclusion makes the actual
+scheme support lie in \(\cup C_i\);
+the CI degree gives total generic
+transverse length \(m\);
+the factorization of the norm
+records each local length separately.
+
+The inclusion in (11) consists
+precisely of the **same-equations
+homogeneous cofactor identities**
+\[
+ \tag{12}
+ \boxed{
+ \Theta_j^\pm
+ =A_j^\pm F_a+B_j^\pm G_b,\quad
+ \deg A_j^\pm=2m+j-a,\quad
+ \deg B_j^\pm=2m+j-b,
+ \quad j=0,\ldots,m.}
+\]
+One copy of the \(j=0\) equation
+is redundant because it is
+the common \(H_\sigma\).
+Thus (11)–(12) are an **exact
+degree-by-degree** elimination
+interface involving only the
+two actual surface equations,
+the full paired toric points,
+and the local length/norm
+condition, with **the lowest
+possible quadratic spectral
+source followed by opposite
+cubic corrections**.
+They replace \(2(m+1)\)
+equations of degree \(4m\)
+with \(2m+1\) equations in
+degrees \(2m,\ldots,3m\).
+
+This remains an **equivalent
+formulation of realization**,
+not a new criterion expressed
+solely in the toric-point
+coefficients, a proof of
+\(M_1=0\), or a shortcut around
+the unknown scheme structure
+of repeated components.
+
 ## 4. Improvement, intrinsic meaning, and the remaining gap
 
 The earlier degree-four full-Chow
