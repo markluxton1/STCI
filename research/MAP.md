@@ -37,6 +37,26 @@ open implications relevant to its approach.
 | [Arithmetic supported lifts](frameworks/arithmetic-supported-lifts/index.md) | Positive-characteristic equations, normal specialization and obstruction to prescribed lifts. Endpoint root defects have no proved identification with spectral Picard torsion or carrier Weil classes. |
 | [Local cohomology](frameworks/local-cohomology/index.md) | Simultaneous ancestors in actual homogeneous multiplication spaces. The quartic two-target reduction gives a bounded problem; higher multiplier degrees belong to the full-module question. |
 
+The [spectral–Jacobian first-jet reduction](arguments/torus/spectral_jacobian_first_jet_bridge.md)
+adds a direct bridge between the actual homogeneous equations,
+the quadric/cubic transverse parameters, the Jacobian–socle
+geometry and the first moment. For every proper CI with entire
+translated-quartic cycle, \(A M_{12}-2B M_{03}\) belongs to
+its actual ideal, and
+\(2M_1=\operatorname{Res}_{f_0,g_0}(ps-qr)\).
+Serre duality on the canonically disjoint line
+\(L=V(x_0,x_3)\simeq\mathbf P^1\) identifies this as a
+nondegenerate alternating pairing of the equations' **first
+normal jets**. Its symplectic space has dimension
+\(2\min(a,b)\), but no theorem forces the paired jets to
+be isotropic on the full realization locus. An independent
+recognition criterion now expresses entire translated support
+by a quadric-spectrum ideal member plus a Jacobian ideal
+member, assuming a proper pair disjoint from \(L\).
+This is a new proposed proof bridge, pending independent review;
+the older six-layer formula remains valid for arbitrary
+finite-free pairs and is not contradicted.
+
 The [cycle-first Chow realization program](arguments/torus/chow_realization_moment_separation.md)
 uses the symmetric power of the orbit quotient as its primary parameter
 space. The universal moment hyperplane misses every interior power locus
