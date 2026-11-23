@@ -51,6 +51,14 @@ For actual pairs in the fixed Chow-polytope fiber, start with the
 [quartic-pencil classification](results/quartic_chow_pencil_classification.md),
 the [one-carrier trace constraints](arguments/torus/chow_trace_cone_jets.md)
 and the [endpoint support test](arguments/torus/chow_endpoint_different.md).
+The [residual-cohomology criterion](results/chow_moment_residual_speciality.md)
+extends moment vanishing to new repeated strata. The
+[sign-symmetry theorem](results/chow_acm_parity_vanishing.md) covers every
+actual sign-invariant ACM arrangement; its
+[section-parity refinement](arguments/torus/chow_section_parity_defect.md)
+identifies a necessary defect in non-ACM invariant pure hulls.
+For conceptual interpretations see the [marked-boundary class](arguments/torus/spectral_boundary_modulus.md)
+and [Hilbert-scheme form](arguments/torus/chow_hilbert_symplectic_form.md).
 
 For local equation comparison and specialization use [conormal and actual
 quartic symbols](arguments/quartic_specialization_and_symbols.md), the

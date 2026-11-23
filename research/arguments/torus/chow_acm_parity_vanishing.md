@@ -130,6 +130,13 @@ its algebra by an abstract free algebra would discard the embedding being
 tested. The reduced single quartic is non-ACM and has nonzero moment,
 consistently with this boundary.
 
+The [section-parity refinement](chow_section_parity_defect.md) identifies
+what nonzero moment requires in a non-ACM invariant pure hull: opposite
+signs among equal-degree generators of its finite free section hull, and
+a nonstandard-sign class in the head of its finite Rao defect. Such a
+defect occurs for the single quartic; its compatibility with actual CI
+limits remains unproved.
+
 The matrix differential is the classical commuting-matrix expression of
 the Hilbert-scheme form, and (AP4) extends the
 [CI residue interpretation](chow_hilbert_symplectic_form.md#1-an-exact-pullback-formula)

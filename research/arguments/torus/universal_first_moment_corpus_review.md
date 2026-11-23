@@ -107,7 +107,14 @@ suitably equivariant additive cycle functional (for example arising
 from a residual trace, a relative divisor-class map, or a reciprocity
 pairing) that sends every ambient hyperplane section to zero and
 evaluates to \(q_i\) on each \(C_{u_i,v_i}\)?
-No such global homomorphism has been constructed. Ordinary
+The [marked-boundary calculation](spectral_boundary_modulus.md) now
+constructs the concrete additive target \(J(\mathbf P^1,2\infty)\simeq
+\mathbf G_a\), taking the spectral divisor minus \(m[0]\) to \(M_1\).
+Depression is exactly its first-order trivialization at infinity.
+What remains unconstructed is a map of **actual CI/Cartier relations**
+into modulus-trivial relations, including conductor and exceptional terms;
+the sufficient norm condition in that owner makes the missing input exact.
+Ordinary
 \(\mathrm{CH}_1(\mathbf P^3)=\mathbb Z\) cannot carry it, since all
 degree-four translates have the same ordinary Chow class but different
 \(q_i\). Any construction must remember the *marked projection line,
@@ -134,15 +141,15 @@ homogeneous equation maps to that specific trace functional.
 
 | Main Framework | What it contributes to UM1 | Precisely what is not supplied |
 |---|---|---|
-| [F-0001 Torus-supported boundaries](../../frameworks/torus-supported-boundaries/index.md) | Invariant cycle versus possibly non-invariant ideal; both full Hilbert limits; actual generator and cancellation layers; paired extrema from the same source | A proper invariant CI in the fixed Chow fiber, or a theorem that the mixed trace of non-invariant sources is zero |
+| [F-0001 Torus-supported boundaries](../../frameworks/torus-supported-boundaries/index.md) | Both full limits; sign-symmetric ACM vanishing for any numerator; nonzero moment forces non-ACM pure hulls with section-parity defects at both ends | A restriction from actual CI origin excluding those defects; invariant cycles alone do not impose ideal symmetry |
 | [F-0002 Embedded torus quotients](../../frameworks/embedded-torus-quotients/index.md) | Exact constant embedded quotient, evaluation ranks, degree-exhaustion, endpoint algebras and moving quotient lower bounds | Constant quotient coverage for arbitrary moving nonreduced CI; an equality between endpoint ranks and \(M_1\) |
-| [F-0003 Formal normal geometry](../../frameworks/formal-normal-geometry/index.md) | Curvilinear/entirely-thick split, actual source filtrations, root lifting, Gorenstein socle and projective compatibility | Any canonical map from local root/jet obstruction to the additive function \(M_1\); all-degree finite truncation |
+| [F-0003 Formal normal geometry](../../frameworks/formal-normal-geometry/index.md) | Curvilinear/entirely-thick split; conormal bounds force residual cohomology vanishing; actual source and first-jet residue pairing | A general isotropy or source-exhaustion theorem; fixed normal layers do not establish full support |
 | [F-0004 Arithmetic supported lifts](../../frameworks/arithmetic-supported-lifts/index.md) | Char-2 and odd-prime explicit realizations, Frobenius collisions, finite-order nonlifting and endpoint specialization | Extension of a prescribed arithmetic obstruction to arbitrary characteristic-zero sources; \(p\mid m\) permits \(M_1(m[C])=0\) |
-| [F-0005 Carrier normalization](../../frameworks/carrier-normalization/index.md) | Exact Cartier/Hodge/descent monoids and many all-mate exclusions; candidate geometric explanation of linear relations in multiplicity vectors | A carrier-independent functional of those relations equal to \(M_1\), especially on singular/non-Cartier generic branches |
-| [F-0006 Global equation realization](../../frameworks/global-equation-realization/index.md) | Correct actual-source incidence, Sylvester Chow determinant, trace/norm, and necessary coprimeness | A source relation forcing its mixed coefficient to vanish on the entire Chow-matched image |
-| [F-0007 Residual construction](../../frameworks/residual-construction/index.md) | Degree-exhaustion terminal condition, residual attachment and movement bounds, actual absorption examples | A rule identifying a general residual curve with a sum of translates, or a universal zero-moment identity under residual absorption |
+| [F-0005 Carrier normalization](../../frameworks/carrier-normalization/index.md) | Exact Cartier/Hodge/descent monoids; marked rational-line Jacobian gives the additive target and a sufficient norm relation | A CI-compatible modulus relation, with conductor/exceptional terms, especially on singular or non-Cartier generic branches |
+| [F-0006 Global equation realization](../../frameworks/global-equation-realization/index.md) | Actual-source incidence; residual source-space identity; matrix differential and sign-symmetric ACM theorem; Hilbert-form interpretation | A source relation forcing isotropy on arbitrary non-invariant repeated ideals, or constraining the section defects of their invariant limits |
+| [F-0007 Residual construction](../../frameworks/residual-construction/index.md) | Attachment and movement bounds; peeling one layer of every component gives exact linkage and new repeated-cycle classes | The layer-peeling residual is not the off-support residual \(Q_1\); neither yields a universal positivity or absorption theorem |
 | [F-0008 Spectral roots](../../frameworks/spectral-roots/index.md) | Relative Picard torsion of a root divisor gives an exact graded second-relation criterion; actual octic and (6,16) tests | Identification of root Picard class with the \(q=u/v\) character, or ambient source/CI lift in the remaining strata |
-| [F-0009 Local cohomology](../../frameworks/local-cohomology/index.md) | Hartshorne–Polini/Hellus exact two-coregular-elements test; simultaneous ancestors and actual multiplication targets | A map whose value is \(M_1\) and which vanishes for all coregular pairs; bounded quartic ancestors have residual degree |
+| [F-0009 Local cohomology](../../frameworks/local-cohomology/index.md) | Exact coregularity test; finite section/Rao defect now has a necessary nonstandard-parity head class for nonzero moment on invariant pure curves | This finite Rao defect is not identified with the unrestricted STCI local-cohomology/coregularity obstruction; no general comparison map is supplied |
 
 ### Consequences of this matrix
 
@@ -301,12 +308,15 @@ exhaustion or a root torsion condition may lose exactly the
 coefficient to be explained. Their rigorous role is to restrict
 the image of a *joint actual-equation map* into that trace.
 
-**B. Two rigorously distinct possible bridges emerge.** The
-six-layer residue functional is a concrete source-level equation.
-The proposed relative-divisor functional would be a geometric
-explanation if constructed, but cannot factor through the ordinary
-ambient Chow group. Both must account for the exceptional
-non-invariant quartic family and arbitrary repeated multiplicities.
+**B. Source and marked-divisor bridges are now more precise.** The
+[Hilbert-form interpretation](chow_hilbert_symplectic_form.md) identifies
+\(2M_1\) with a pulled-back symplectic form. Actual sign symmetry forces
+its vanishing for [every ACM arrangement](chow_acm_parity_vanishing.md).
+For invariant non-ACM pure curves, nonzero moment requires the
+[specific section-parity defect](chow_section_parity_defect.md).
+The rational-line generalized Jacobian supplies the additive divisor
+target, but CI-compatible modulus reciprocity remains missing. Neither
+bridge permits arbitrary repeated ideals to inherit symmetry from cycles.
 
 **C. Minimal STCI need not wait for all arrangements.** The
 complete all-degree UM1 statement is sufficient but stronger than
@@ -342,13 +352,14 @@ A source-level question is to **pull back the mixed Chow coefficient
 to the actual source incidence** for arbitrary degrees and express it
 via the universal six-layer residue formula, retaining the condition
 that the *entire* resultant lies in the translated-Chow product locus.
-Compare three exact solved inputs on the same functional:
-(1) invariant/eigenform CI; (2) the exceptional non-invariant
-quartic pencils; (3) non-eigenform one-sided cone-jet presentations.
-Ask whether a common relation on the actual **pair** is forced,
-rather than separately postulating a normal form for each generator.
-A failure should produce a concrete candidate counterexample or an
-identified missing higher-source condition.
+The sign-symmetry proof supplies a common mechanism for invariant CIs,
+the explicit exceptional quartic pencils, and the displayed one-sided
+non-eigenform cone-jet control. It does not cover every source in the
+broader eigenform/one-sided theorems. The new bounded source question is
+whether actual CI degeneration constrains the opposite-sign equal-degree
+generators of the free section hull and their finite defect. Nonzero
+moment forces such generators; the single quartic shows they are possible
+without CI origin. A useful probe must retain that origin.
 
 The independent geometric alternative is to test whether the
 fixed-carrier mate lattice gives an additive, equivariant
@@ -365,8 +376,8 @@ jet calculations. None currently has a specified bridge to UM1
 stronger than the two above.
 
 **Stop condition for this review:** the current proof corpus
-supplies no additional justified all-degree necessary equation after
-the trace/residue, divisor-monoid and global source comparisons.
-The missing bridges are explicit; further claims require new
-arguments and independent review. This document is not a proof of
-UM1 and does not mark PR #173 ready for merge.
+now supplies new covered classes and a sharper non-ACM section-defect
+boundary, but no universal vanishing after the trace/residue,
+marked-divisor and global-source comparisons. The missing bridges remain
+explicit; new claims require arguments and independent review. This
+document is not a proof of UM1.

@@ -59,6 +59,20 @@ moment. A [one-carrier trace argument](../../arguments/torus/chow_trace_cone_jet
 reaches further presentation classes in arbitrary degrees. The general
 higher-degree realization locus remains open.
 
+The [sign-symmetry theorem](../../results/chow_acm_parity_vanishing.md)
+now covers every actual sign-invariant ACM arrangement in characteristic
+different from two, without retaining a CI Hilbert numerator or requiring
+an effective CI-cycle decomposition. In characteristic zero both opposite
+invariant pure hulls of a hypothetical sole-supported CI must therefore
+be non-ACM. More precisely their finite section defects must contain a
+[nonstandard-parity head class](../../arguments/torus/chow_section_parity_defect.md).
+The single quartic has such a defect; the missing implication concerns
+which defects limits of actual two-equation ideals can acquire.
+[Residual liaison](../../results/chow_moment_residual_speciality.md) separately
+covers one doubled component with simple companions in all degrees and,
+in characteristic zero, one tripled component with simple companions.
+Neither mechanism establishes symmetry or ACMness of an arbitrary limit.
+
 The [exceptional-pencil interpretation](../../arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
 relates two-sided endpoint cubic contact to an explicit even eight
 on a ten-nodal quartic K3 resolution and nontrivial Weil

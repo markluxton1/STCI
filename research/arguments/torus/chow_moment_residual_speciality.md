@@ -221,9 +221,9 @@ linear conditions. The common quadratic coefficient is free exactly when
 \(h^0(\mathcal O_D(1))=4+g\), and Riemann–Roch gives (RS8).
 \(\square\)
 
-Consequently a \((4,5)\) counterexample with all multiplicities at most
-two would require two doubled components sharing at least one of
-\(u,h,\eta\). These special loci are not excluded by this argument.
+The cohomology formula alone leaves special \((4,5)\) loci sharing one
+of \(u,h,\eta\). Combining it with the three-component genus calculation
+now [excludes the entire partition \((2,2,1)\)](chow_quintic_mate_partitions.md#2-partition-221-is-empty-in-any-characteristic).
 
 ## 5. One tripled component in every degree, in characteristic zero
 

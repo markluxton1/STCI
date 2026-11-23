@@ -1,7 +1,8 @@
 # Universal first moment: exact proof boundary across the active branches
 
-**Status:** mathematical synthesis of existing main-branch and PR #171--#173
-arguments, not a new vanishing theorem or an independent proof audit.
+**Status:** current mathematical synthesis, including the independently
+reviewed November 23 research-group extensions. Proofs live in their linked
+owners; this summary is not an independent proof audit.
 Characteristic zero throughout. The objective is the **necessary** relation,
 not a classification of all realizable arrangements.
 
@@ -84,7 +85,18 @@ holds. The whole reduced CI arrangement is invariant, hence covered.
 The [PR #173 cycle-first argument](chow_realization_moment_separation.md)
 gives further \((3,4)\) and \((4,4)\) coverage at the scope of its
 recorded independent reconstruction, retaining the declared inherited inputs. The \((4,4)\) diagonal is separately excluded by R-0022.
-No unrestricted all-degree theorem is known. These are statements about
+The [residual criterion](chow_moment_residual_speciality.md) adds the
+one-double class in all degrees and the one-triple class with simple
+companions in all degrees in characteristic zero, plus explicit conductor
+bounds for several doubles. The [sign-symmetry theorem](chow_acm_parity_vanishing.md)
+proves vanishing for every sign-invariant ACM translated arrangement,
+regardless of Hilbert numerator. Both invariant pure hulls of a hypothetical
+sole-supported CI must be non-ACM and have the
+[section-parity defect](chow_section_parity_defect.md). The
+[quartic–quintic partition analysis](chow_quintic_mate_partitions.md)
+leaves only \((4,1)\) and \((3,2)\) unexcluded in that bidegree in
+characteristic zero. No unrestricted all-degree theorem is known.
+These are statements about
 the **actual CI cycle**, not arbitrary reduced support, a containing
 surface, or a flat Hilbert limit.
 
@@ -338,18 +350,22 @@ Priority is **one source-sensitive implication**:
  \operatorname{Tr}_{E/k[x_0,x_3]}(x_1x_2)=0.
  \end{gathered}
 \]
-The first useful probe is to compare the established invariant-pair,
-exceptional non-invariant quartic, and one-sided cone-jet
-arguments **at the common six-layer trace functional**, asking
-what additional *joint equation/cycle* identity makes each vanish.
-A candidate identity must survive the exceptional quartic control
-and the known higher-source cancellation examples. This is narrower
-than determining all Chow coefficients or classifying all CI
-arrangements.
+The earlier comparison of named controls now has an answer: actual sign
+symmetry covers invariant CIs, the explicit exceptional quartic pencils,
+and the displayed non-eigenform one-sided cone-jet control. In the latter
+two, the equations themselves are sign-even. This does not assert sign
+symmetry for every eigenform or one-sided source class. The new next probe
+is whether degeneration of an actual CI constrains the opposite-sign,
+equal-degree section generators that can carry nonzero moment on an
+invariant non-ACM pure hull. The single-quartic control prevents ruling
+out that defect for arbitrary invariant curves.
 
-The current cross-framework iteration has not produced that
-joint identity, an independent proof of UM1, or an all-degree
-exclusion. Additional repetitions of the known numerical,
+The [marked-boundary formulation](spectral_boundary_modulus.md) supplies a
+different conceptual probe: construct the first-order norm trivialization
+from actual Cartier/conductor relations. The additive target exists;
+the CI-compatible construction does not. The current cross-framework
+iteration has not supplied either missing implication or an all-degree
+exclusion. Additional repetitions of known numerical,
 endpoint or degeneration filters without a new equation relation
 would not advance the objective. Independent correctness,
 literature, editorial and generality review of any proposed

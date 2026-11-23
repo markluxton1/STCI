@@ -568,9 +568,38 @@ This choice prioritizes the direct all-degree conjecture and the possibility
 of a structural explanation; it does not supply comparative evidence that
 its expected payoff exceeds KG05. Reassess from new mathematical findings.
 
-For KG02, the concrete source question is now **single-chain two-generator
-realization**, retaining the norm and coordinate-boundary conditions of the
-same actual pair. The [saturation theorem](../../arguments/torus/spectral_interpolation_and_polar_saturation.md)
+The November 23 research group changes the most promising **current Chow
+probe**. [Actual sign symmetry and ACMness](../../results/chow_acm_parity_vanishing.md)
+force the moment to vanish, with no CI numerator assumption. Both invariant
+pure hulls of a hypothetical characteristic-zero sole-supported CI must
+therefore be non-ACM. The [section-parity refinement](../../arguments/torus/chow_section_parity_defect.md)
+identifies the remaining carrier of nonzero moment: opposite-sign free
+section generators in one ordinary degree, with a nonstandard-sign class
+in the head of the finite Rao defect. The single quartic has that defect,
+so non-ACMness or parity failure alone is not an obstruction.
+
+The preferred bounded follow-up is to retain an **actual two-equation Rees
+degeneration**, its pure hull and section-defect map, and determine what
+restrictions CI origin imposes on those generator pairs and their linear
+multiplication entries. Begin with the known opposite-limit controls, then
+declare one new degree/source sector only if that comparison supplies a
+transferable condition. Stop or redirect if the result merely reproduces
+the single-quartic defect or rewrites vanishing of the moment. The expected
+gain is a condition distinguishing CI-origin pure hulls from arbitrary
+invariant curves. This directly uses the strongest new structural theorem;
+it does not imply that the missing condition must hold.
+
+The [residual source criterion](../../results/chow_moment_residual_speciality.md)
+adds whole one-double and characteristic-zero one-triple strata, but its
+particular cohomology dimension is already fixed by reduced-support
+postulation. Extending the same numerical bound on high sole multiplicity
+does not presently promise a new all-degree obstruction. The remaining
+\((4,5)\) partitions \((4,1)\) and \((3,2)\) are bounded alternative
+tests, not the reason for preferring the new defect question.
+
+Single-chain two-generator realization remains an exact alternative,
+retaining the norm and coordinate-boundary conditions of the same actual
+pair. The [saturation theorem](../../arguments/torus/spectral_interpolation_and_polar_saturation.md)
 settles the previously proposed independent opposite-chain compatibility
 test: the two chains impose equivalent membership on a coordinate-saturated
 ideal. The opposite chain remains useful for boundary coverage, but comparing
@@ -641,10 +670,15 @@ on a named absorption control, retaining its kernel, cokernel and zero
 section. Its missing comparison map is a different possible source of
 transferable structure; no local defect count supplies it. A further alternative
 is the [relative divisor-cycle functional](../../arguments/torus/universal_first_moment_corpus_review.md#2-supported-divisor-cycles-and-class-group-relations-a-distinct-route),
-which could explain the moment through actual Cartier relations. Its additive
-construction is still missing; ordinary \(\mathrm{CH}_1(\mathbf P^3)\)
-is too coarse. It currently offers less operational evidence than the elliptic
-support test, while remaining a meaningful alternative to coefficient elimination.
+which could explain the moment through actual Cartier relations. The
+[marked rational-line Jacobian](../../arguments/torus/spectral_boundary_modulus.md)
+now supplies its additive target and identifies depression with triviality
+modulo \(2\infty\). The missing construction is a norm/reciprocity relation
+from the actual CI retaining that modulus, including conductor corrections.
+A bounded test on the exceptional carrier offers a geometric alternative
+to the section-defect probe, although its known moment vanishing is not new.
+Neither is evidence that the Chow task has higher expected payoff than the
+whole elliptic support test; the current Chow focus remains the user's choice.
 
 The symmetric sextic test now concerns worse-than-Du-Val endpoints after the
 proved exclusions in its scope. The marked \(V_5\) tests concern specified

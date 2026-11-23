@@ -97,11 +97,22 @@ sole-support construction is separate from that classification.
 
 The [trace-moment theorem](arguments/torus/chow_arrangement_moments.md)
 forces \(M_1=\sum n_i u_i/v_i=0\) on its proved invariant/eigenform/congruence
-loci, including reduced CI arrangements. The same vanishing for arbitrary
-non-invariant repeated-cycle pairs is an open conjecture. The
+loci, including reduced CI arrangements. The
+[sign-symmetry extension](results/chow_acm_parity_vanishing.md) covers every
+actual sign-invariant ACM arrangement; both invariant pure hulls of a
+hypothetical characteristic-zero sole-supported CI must be non-ACM and
+have the [specified section-parity defect](arguments/torus/chow_section_parity_defect.md).
+[Residual liaison](results/chow_moment_residual_speciality.md) covers one
+double component in every degree, and one triple with simple companions
+in every degree in characteristic zero. Arbitrary non-invariant repeated
+pairs remain open. The
 [spectral–Jacobian residue bridge](arguments/torus/spectral_jacobian_first_jet_bridge.md)
 expresses \(2M_1\) as the first-jet residue pairing on the full translated
-realization locus; it does not force isotropy there.
+realization locus; it does not force isotropy there. The
+[Hilbert-scheme form](arguments/torus/chow_hilbert_symplectic_form.md) explains
+that isotropy question, while the [marked-boundary class](arguments/torus/spectral_boundary_modulus.md)
+identifies depression with triviality modulo \(2\infty\). Compatibility
+of actual CI relations with that modulus is unproved.
 
 The [two-product Jacobian criterion](results/jacobian_radical_support.md)
 recognizes sole support in characteristic zero by two actual polynomial

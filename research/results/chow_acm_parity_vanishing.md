@@ -38,6 +38,12 @@ In characteristic zero, both opposite invariant pure hulls of a hypothetical
 sole-supported CI must therefore be non-ACM. An ACM invariant pure hull of
 any Hilbert numerator already suffices to force vanishing.
 
+The [section-defect refinement](../arguments/torus/chow_section_parity_defect.md)
+shows more: nonzero moment on an invariant pure curve requires opposite
+signs among equal-degree free section generators and a nonstandard-parity
+class in the head of its finite section/Rao defect. This necessary condition
+occurs for the single reduced quartic; no exclusion of it in CI limits is known.
+
 ## Limitations
 
 Invariant cycles do not establish invariant ideals. Non-ACM finite projections

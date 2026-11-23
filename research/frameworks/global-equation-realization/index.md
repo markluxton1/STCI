@@ -37,6 +37,21 @@ with both equations, so this criterion is outside a fixed finite-jet test.
 
 ## Interfaces
 
+The [residual-linkage source identity](../../results/chow_moment_residual_speciality.md)
+identifies \(h^1(\mathcal O_R(b-4))\) with
+\(\dim(I_{Z_{\rm red}})_a-\dim J_a\): vanishing exhausts the reduced
+support's smallest equation space and forces an actual eigenform or invariant
+ideal. Conormal and endpoint-conductor bounds yield new repeated-cycle
+classes; the identity alone does not constrain arbitrary high multiplicity.
+The [commuting-matrix differential](../../results/chow_acm_parity_vanishing.md)
+equals \(2M_1\,dx_0\wedge dx_3\) and vanishes on actual sign-invariant
+ACM sources, without a CI numerator. For invariant non-ACM pure hulls its
+possible nonzero terms are [equal-degree opposite-sign section generators](../../arguments/torus/chow_section_parity_defect.md).
+Constraints from the original two equations on those defect classes remain
+unknown. The [Hilbert-form control](../../arguments/torus/chow_hilbert_symplectic_form.md)
+shows that axis collapse and a Gorenstein central fiber alone do not force
+isotropy; the full translated-cycle restriction must still be used.
+
 [Formal normal geometry](../formal-normal-geometry/index.md) concerns local
 compatibility; [carrier normalization](../carrier-normalization/index.md)
 requires full inverse support and conductor descent; and

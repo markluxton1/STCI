@@ -44,13 +44,12 @@ non-invariant repeated structures. An arbitrary translation of the spectral
 coordinate, containment of a translate, or a bounded determinant truncation
 does not establish this assertion.
 
-The initial parallel probes examine intrinsic divisor relations, global
-residue/trace duality, actual two-generator source algebra, repeated
-structures and possible failure mechanisms, and applicable primary
-literature. The reassessment point is a new forcing identity, genuinely
-extended vanishing theorem, actual counterexample, or a precise obstruction
-to a proposed mechanism. Consequential deductions require independent proof
-review before they become inputs to the synthesis. Full spectral
+The November 23 parallel investigation extended vanishing through residual
+liaison and actual sign symmetry, and identified a sharper section-defect
+boundary. Its reviewed findings below replace the initial probes.
+The next bounded question is how degeneration of the same two equations
+constrains that defect; no general CI-compatible modulus relation or
+unrestricted vanishing theorem has been established. Full spectral
 classification is not a prerequisite to this first-coefficient question.
 
 ## Motivation
@@ -64,6 +63,32 @@ The central interface is whether those objects encode compatible data for
 the same proper equation pair.
 
 ## Findings
+
+- [Residual liaison](../../results/chow_moment_residual_speciality.md)
+  proves vanishing when the reduced support's smallest equation space is
+  exhausted by the actual CI sources. Conormal and conductor bounds cover
+  one double with simple companions in all degrees and one triple with
+  simple companions in all degrees in characteristic zero. The precise
+  cohomology dimension is \(\dim(I_Y)_a-\dim J_a\), so it measures
+  reduced-support postulation, not independent hidden nilpotent freedom.
+  The [quartic–quintic analysis](../../arguments/torus/chow_quintic_mate_partitions.md)
+  leaves only \((4,1)\) and \((3,2)\) unexcluded in characteristic zero.
+- [Actual sign symmetry and ACMness](../../results/chow_acm_parity_vanishing.md)
+  force \(M_1=0\), without a CI presentation or fixed Hilbert numerator,
+  in characteristic different from two. Thus both invariant pure hulls
+  of a hypothetical characteristic-zero sole-supported CI must be non-ACM.
+  Nonzero moment requires a [nonstandard-sign generator in the head of
+  the finite section defect](../../arguments/torus/chow_section_parity_defect.md).
+  The single reduced quartic exhibits this defect; its acquisition by
+  actual CI limits is the remaining source-sensitive question.
+- The [Hilbert-scheme form](../../arguments/torus/chow_hilbert_symplectic_form.md)
+  gives \(f^*\omega=2M_1\,dx_0\wedge dx_3\), including repeated
+  components. An exact twisted-cubic-plus-line control shows that endpoint
+  collapse and a Gorenstein central fiber alone do not force isotropy.
+  The [boundary-modulus interpretation](../../arguments/torus/spectral_boundary_modulus.md)
+  makes depression equivalent to triviality in
+  \(J(\mathbf P^1,2\infty)\simeq\mathbf G_a\). The additive target
+  is constructed; compatibility with actual CI/Cartier relations is not.
 
 - **UM1 remains a conjecture.** If a proper actual CI \(Z=V(F_a,G_b)\) has
   \[
@@ -128,6 +153,15 @@ the same proper equation pair.
 ## Remaining questions and bounded tests
 
 The following are **proposed tests**, not a priority ranking:
+
+- Retain the Rees degeneration of an actual two-generator ideal and the
+  induced map to its invariant pure hull's finite section defect. Determine
+  which equal-degree opposite-sign generator pairs and matrix coefficients
+  can be reached. Start with the known opposite-limit controls before
+  probing a declared new degree/source sector. The goal is a new restriction
+  on actual CI origin, not another proof that arbitrary pure curves can
+  carry the defect. Compare this with constructing a modulus-compatible
+  norm relation on a named carrier; the strategic queue owns priority.
 
 - On a specified endpoint-rank stratum, determine whether normal flatness
   holds for the re-formed union and whether its Rees family agrees with the
