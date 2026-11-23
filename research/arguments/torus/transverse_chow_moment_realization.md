@@ -467,6 +467,22 @@ as a two-surface CI forces this trace
 to vanish. The quotient and
 coefficient ideal alone do not.
 
+### Lower-degree opposite-ruling polarizations and the first-moment syzygy
+
+The [optimal degree-\((2,3)\) paired Chow construction](weighted_chow_quadric_cubic_polarizations.md) replaces the uniform-degree quartic quotient by the two independent torus characters \(\xi=u/v\) and \(u\) (or the opposite \(u^-=v^2/u^3\)). Each translated quartic is the moving component of two \((2,3)\) intersections,
+\[
+ Q_\xi\cap T_u^+=C_{u,v}+2L_{01},\qquad
+ Q_\xi\cap T_{u^-}^-=C_{u,v}+2L_{23},
+\]
+with **skew** residual ruling lines. The two polarized full-cycle Chow products yield \(2m+1\) distinct canonical homogeneous eigenforms in **every** proper realizing CI ideal, of degrees \(2m,\ldots,3m\), with common lowest member \(H_\sigma(A,B)=\prod_i(A-\xi_iB)^{n_i}\). Their combined coefficient ideal has radical exactly the translated support and recovers the canonical ordinary-power fat envelope on the dense torus.
+
+More importantly, their *normalized first cubic polars* \(E_+,E_-\) obey
+\[
+ \boxed{x_2^2E_++x_0^2E_-+
+ x_1H_\sigma\bigl(mA+M_1(\sigma)B\bigr)=0.}
+\]
+This explicit syzygy simultaneously displays the two opposite ruling corrections and the **first elementary symmetric function \(M_1=\sum n_i\xi_i\)** in the same equation. It holds for every paired toric cycle, so it does **not** by itself imply vanishing; the outstanding condition is compatibility of the syzygy with the same two homogeneous CI generators. The linked proof is the single mathematical owner.
+
 ## 2. Coefficients of the full Chow form are mixed symmetric functions
 
 Write
