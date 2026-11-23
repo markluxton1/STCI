@@ -579,9 +579,12 @@ in the head of the finite Rao defect. The single quartic has that defect,
 so non-ACMness or parity failure alone is not an obstruction.
 
 The preferred bounded follow-up is to retain an **actual two-equation Rees
-degeneration**, its pure hull and section-defect map, and determine what
-restrictions CI origin imposes on those generator pairs and their linear
-multiplication entries. Begin with the known opposite-limit controls, then
+degeneration** and its pure hull, construct a nontrivial connecting/lifting
+map into the section defect, and determine what restrictions CI origin
+imposes on those generator pairs and their linear multiplication entries.
+The naive composite from the limit algebra through the pure algebra to
+its section quotient is zero; the useful comparison is part of the task,
+not an established input. Begin with the known opposite-limit controls, then
 declare one new degree/source sector only if that comparison supplies a
 transferable condition. Stop or redirect if the result merely reproduces
 the single-quartic defect or rewrites vanishing of the moment. The expected

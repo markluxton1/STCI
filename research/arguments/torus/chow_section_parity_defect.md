@@ -9,7 +9,7 @@ vanishing](chow_acm_parity_vanishing.md), not an obstruction to every CI limit.
 
 Let \(k\) be algebraically closed of characteristic different from two.
 Let \(E=k[z,w,x,y]/I\) be the saturated homogeneous coordinate algebra of
-a projective curve with no embedded points and entire cycle
+a pure projective curve with no embedded points and entire cycle
 \(\sum n_i[C_{u_i,v_i}]\), and put \(Y=\operatorname{Proj}E\),
 the actual possibly nonreduced curve. Assume the **ideal** is invariant under
 \(\tau(z,w,x,y)=(z,w,-x,-y)\). Set \(B=k[z,w]\),

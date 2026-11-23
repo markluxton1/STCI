@@ -1,6 +1,16 @@
-# First-moment reinterpretation: complete main-branch Result crosswalk
+# First-moment reinterpretation: inherited Result crosswalk
 
-**Status:** research synthesis, not a mathematical certification of the inherited Results. Reviewed as a map to the universal characteristic-zero necessary relation `M1 = sum n_i u_i/v_i = 0`, *assuming the full proper-CI cycle consists of translated quartics*. The current main branch contains 84 Result files; each appears once below. PR #171--#173 contribute additional branch arguments, reviewed in the companion synthesis. A direct result is not thereby an all-degree theorem.
+**Status:** inherited pre-investigation snapshot, retained and contextualized
+on November 23, 2026; not a certification of the inherited Results.
+The 84 Result files in the snapshot each appear once below, mapped to
+the characteristic-zero target `M1 = sum n_i u_i/v_i = 0`, assuming the
+entire proper-CI cycle consists of translated quartics. The table is not
+an exhaustive current inventory. The subsequent
+[residual theorem R-0083](../../results/chow_moment_residual_speciality.md)
+and [sign-symmetric ACM theorem R-0084](../../results/chow_acm_parity_vanishing.md),
+with their implications and remaining gaps, are integrated in the
+[current corpus synthesis](universal_first_moment_corpus_review.md).
+A direct result is not thereby an all-degree theorem.
 
 Role meanings: **D** = Direct moment/Chow and actual-CI interface; **I** = Possible bridge requiring an additional map or hypothesis; **C** = Counterexample or scope control; **X** = Background / presently no justified direct bridge. These record *relevance to this objective*, not a judgment of the result's mathematical importance. Counts: I 44, D 11, C 25, X 4.
 
@@ -93,6 +103,12 @@ Role meanings: **D** = Direct moment/Chow and actual-CI interface; **I** = Possi
 
 ## Reading this classification
 
-The decisive positive inputs are the Chow-polytope rigidity theorem, actual finite-cover trace, the first-moment theorem for invariant/eigenform/congruence pairs, and pure degree exhaustion. The strongest counterexamples concern replacing actual equations by invariant Chow cycles, replacing an ideal by its full invariant Hilbert limits, or replacing multiplication data by numerical or initial-form data. All remaining Result families require a mathematically specified map to the trace functional, to the Chow norm, or to a proved reduction covering **every** actual pair.
+The decisive positive inputs in this snapshot were Chow-polytope rigidity,
+actual finite-cover trace, invariant/eigenform/congruence vanishing and
+degree exhaustion. The current account additionally uses residual source
+rigidity and sign-symmetric ACM vanishing, with the section-parity defect
+describing the non-ACM boundary. The strongest controls still reject replacing
+actual equations by invariant cycles, or multiplication by numerical data.
+No reduction covering every actual repeated CI has been established.
 
 The companion [corpus and literature synthesis](universal_first_moment_corpus_review.md) gives nine framework-level judgments, cross-branch findings, the literature hypotheses, and the selected research questions. Its priority ranking does not imply the other Results are invalid or irrelevant to unrestricted STCI.

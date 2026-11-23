@@ -96,9 +96,9 @@ sole-supported CI must be non-ACM and have the
 [quartic–quintic partition analysis](chow_quintic_mate_partitions.md)
 leaves only \((4,1)\) and \((3,2)\) unexcluded in that bidegree in
 characteristic zero. No unrestricted all-degree theorem is known.
-These are statements about
-the **actual CI cycle**, not arbitrary reduced support, a containing
-surface, or a flat Hilbert limit.
+For CI realization, these conclusions concern the **entire actual cycle**;
+arbitrary reduced support, a containing surface or an uncontrolled flat
+Hilbert limit does not supply the stated hypotheses.
 
 The equation \(M_1=0\) is a regular hypersurface equation on the interior
 \(\operatorname{Sym}^m T\). More strongly, the linear Chow coefficient

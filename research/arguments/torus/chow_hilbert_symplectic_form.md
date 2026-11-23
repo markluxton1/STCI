@@ -28,7 +28,8 @@ Let \(\omega_H\) be the classical symplectic form extending
 \]
 Summing is the ordinary reduced-fiber residue formula. Apply this on the
 total universal base (the resultant-nonzero homogeneous CI source times
-\(\mathbf A^2_{z,w}\)): both sides of (HF1)
+\(\mathbf A^2_{z,w}\)), comparing relative two-forms over the
+coefficient source (holding its coefficients fixed). Both sides of (HF1)
 are regular there, and its reduced-fiber locus is dense. The identity
 therefore extends over the universal source and specializes to families
 whose fibers can be everywhere nonreduced. This argument uses regularity

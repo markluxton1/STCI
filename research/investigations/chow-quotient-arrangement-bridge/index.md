@@ -154,8 +154,11 @@ the same proper equation pair.
 
 The following are **proposed tests**, not a priority ranking:
 
-- Retain the Rees degeneration of an actual two-generator ideal and the
-  induced map to its invariant pure hull's finite section defect. Determine
+- Retain the Rees degeneration of an actual two-generator ideal and construct
+  a connecting or lifting map that carries its equation information into
+  the invariant pure hull's finite section defect. The naive composite
+  through the pure coordinate algebra is zero; no useful comparison map
+  is already supplied. Then determine
   which equal-degree opposite-sign generator pairs and matrix coefficients
   can be reached. Start with the known opposite-limit controls before
   probing a declared new degree/source sector. The goal is a new restriction
