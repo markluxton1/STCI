@@ -250,6 +250,60 @@ later spectral-power obstruction. There is **no proved
 universal relation** carrying the prescribed nonzero
 first-jet class to a nonzero \(\mathfrak o_{r_*}\).
 
+### The first obstruction is a degree-uniform *linear map on the spectral form*
+
+The preceding leading-class construction applies to **any**
+homogeneous polynomial of degree \(N=2m\), not only \(Q^m\).
+For \(a,b>0\) with \(ab=4m\), let
+\(\mathbf H_m=\operatorname{Sym}^m\langle A,B\rangle\)
+denote the \((m+1)\)-dimensional space of binary
+homogeneous spectral forms, where
+\(A=x_1x_2\) and \(B=x_0x_3\).
+There is a canonical linear map associated with the actual CI:
+\[
+ \tag{9a}
+ \boxed{
+ \Phi_{F,G}:\mathbf H_m
+  \longrightarrow
+  H^1(L,\omega_L)\otimes_k
+        \operatorname{Sym}^{r_*}\langle x_0,x_3\rangle,
+ \quad
+ H\longmapsto[H(A,B)]_{I_L^{r_*}} .
+ }
+\]
+The class is well-defined because **every**
+degree-\(2m\) element of \(E=S/(F,G)\) has
+\(I_L\)-order at least \(r_*\).
+No choice of a Groebner basis, projection splitting
+or cofactor presentation is required.
+
+For an entire translated-cycle CI, the [canonical
+spectral equation](chow_realization_moment_separation.md#11-the-two-extreme-mixed-coefficients-of-the-quadric-spectrum-equation)
+satisfies \(H_\sigma(A,B)\in(F,G)\), so
+\[
+ \tag{9b}\boxed{H_\sigma\in\ker\Phi_{F,G}.}
+\]
+For a hypothetical sole-support STCI the prescribed
+element of this kernel is exactly
+\((A-B)^m\). Thus the **first** global
+compatibility condition on the known cycle
+is a set of at most \(r_*+1\) linear equations
+in the **coefficients of its spectral form**,
+whose matrix depends algebraically on the
+actual pair \(F,G\). Later \(I_L\)-orders
+still impose additional conditions.
+
+This is a direct coefficient-level interface between
+the full Chow/spectral approach and the equation-source
+approach, rather than a carrier-by-carrier test.
+It does not prove that \(M_1\) must vanish:
+kernel membership can allow nonzero first coefficient
+for special pairs, and the map depends on the
+same equations being tested. Determining the
+rank and kernel of \(\Phi_{F,G}\) on the full
+translated-cycle equation incidence is a
+precise bounded algebraic problem.
+
 ### Explicit quartic compatibility failure in the control family
 
 For \(a=b=4,m=4,r_*=2\), specialize (3) to
