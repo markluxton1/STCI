@@ -644,6 +644,131 @@ It does not inspect all their normal contact or all residual sheets.
 Corrections invisible to these six layers are invisible to this first
 moment, even if they substantially alter the intersection elsewhere.
 
+
+### The whole characteristic tower has finite source depth
+
+**New source-filtration consequence, pending independent review.**  The
+degree-two calculation above is the first case of a characteristic-free
+statement for every fixed homogeneous test surface.  Retain the finite-flat
+setup of Section 4 and the decomposition
+\[
+ F=\sum_i f_i,\qquad G=\sum_i g_i
+\]
+by base degree in \(u=x_0,v=x_3\).  Let \(H\in k[u,v,x,y]\) be homogeneous
+of ordinary degree \(d>0\).  Multiplication by \(H\) gives a twisted
+endomorphism \(E\to E(d)\), with characteristic coefficients
+\[
+ \chi_H(T)=T^n+\eta_1(H)T^{n-1}+\cdots+\eta_n(H),
+ \qquad
+ \eta_j(H)\in H^0(\mathbf P^1,\mathcal O(dj)).
+ \tag{15a}
+\]
+Then
+\[
+ \boxed{\eta_j(H)\text{ is determined by }
+ f_0,\ldots,f_{dj},g_0,\ldots,g_{dj}.}
+ \tag{15b}
+\]
+Indices beyond the degrees of \(F,G\) are simply absent.  More precisely,
+put
+\[
+ F_\epsilon=\sum_i\epsilon^i f_i,\qquad
+ G_\epsilon=\sum_i\epsilon^i g_i,\qquad
+ H_\epsilon=H(\epsilon u,\epsilon v,x,y),
+\]
+and form the finite free algebra
+\[
+ A_\epsilon=
+ k[u,v,\epsilon][x,y]/(F_\epsilon,G_\epsilon).
+\]
+The common binary leading forms \(f_0,g_0\) remain a regular sequence, so
+the same homogeneous-basis argument used above makes \(A_\epsilon\) finite
+free of rank \(n=ab\).  After inverting \(\epsilon\), set
+\(x=\epsilon X,\ y=\epsilon Y\).  Homogeneity gives
+\[
+ F_\epsilon=\epsilon^aF(u,v,X,Y),\quad
+ G_\epsilon=\epsilon^bG(u,v,X,Y),\quad
+ H_\epsilon=\epsilon^dH(u,v,X,Y).
+\]
+Therefore the \(j\)-th characteristic coefficient of multiplication by
+\(H_\epsilon\) is exactly
+\[
+ \epsilon^{dj}\eta_j(H).                                      \tag{15c}
+\]
+Both sides are polynomial over the finite-free base, so the identity extends
+across \(\epsilon=0\).  Reducing modulo \(\epsilon^{dj+1}\) proves (15b).
+Equivalently, \(\eta_j(H)\) is the coefficient of \(\epsilon^{dj}\) in
+the characteristic coefficient computed from the truncated source.  This
+argument uses no Newton division and is valid in every characteristic.
+When the needed integers are invertible, the corresponding power trace
+\(\operatorname{tr}(H^j)\) has the same source-depth bound.
+
+For \(H=xy\), \(d=2\), the trace statement at \(j=1\) is exactly the
+six-layer formula (12)--(14).  For the quadric
+\(q=uv-xy\), the \(j\)-th nilpotence coefficient depends only on the first
+\(2j\) base-degree layers.  The point of (15b) is not that a fixed finite
+depth decides unrestricted STCI: the required order \(j\) can grow with
+\(ab\).  It gives an increasing hierarchy of **actual homogeneous-source**
+conditions, with a precise depth at every stage.
+
+The classical inputs are finite-algebra characteristic polynomials,
+Cayley--Hamilton and the trace/residue formulas cited above.  Cattani--
+Dickenstein--Sturmfels and D'Andrea--Jeronimo provide the general
+zero-dimensional residue/trace framework; the degree-\(dj\) truncation is
+the project-specific scaling consequence for this plane-pencil source.
+
+### Two fixed test surfaces give an exact support criterion
+
+There is a particularly small exact target for this tower.  Put
+\[
+ q=x_0x_3-x_1x_2,\qquad
+ c=x_1^3-x_0^2x_2.
+ \tag{15d}
+\]
+The fixed Segre calculation already used in Section 2 gives
+\[
+ V(q,c)_{\mathrm{red}}=C\cup L_\infty,\qquad
+ L_\infty=V(x_0,x_1),
+ \tag{15e}
+\]
+indeed \([V(q,c)]=[C]+2[L_\infty]\).  The extra line lies in the single
+projection fiber \(x_0=0\).
+
+Let \(Y=V(F,G)\) contain \(C\) and satisfy the finite-cover hypotheses of
+Section 4.  Then
+\[
+ \boxed{
+ Y_{\mathrm{red}}=C
+ \quad\Longleftrightarrow\quad
+ m_q\text{ and }m_c\text{ are nilpotent on }E
+ }
+ \tag{15f}
+\]
+where \(m_q:E\to E(2)\) and \(m_c:E\to E(3)\) are multiplication.  The
+forward implication is immediate.  Conversely, nilpotence makes both
+sections vanish at every generic point of \(Y\), so every reduced component
+lies in (15e).  A component of the finite morphism \(Y\to\mathbf P^1\)
+cannot be the vertical line \(L_\infty\); because \(C\subset Y\), the only
+remaining support is \(C\).
+
+Since the base is reduced, nilpotence is equivalent to the characteristic
+polynomial being a pure power after checking the generic point.  Thus (15f)
+is equivalently
+\[
+ \chi_q(T)=T^n,\qquad \chi_c(T)=T^n.                         \tag{15g}
+\]
+By (15b), their \(j\)-th coefficient conditions use only the first \(2j\)
+and \(3j\) source layers respectively.  In characteristic zero they may
+equivalently be written as the vanishing of the power traces through
+\(j=n\).
+
+This is an exact source-to-support reformulation, not a nonexistence theorem:
+a hypothetical STCI is precisely a pair for which the two characteristic
+towers vanish.  Its advantage over the single \(q\)-criterion in Section 5
+is that no separate assumption on \((Y\cap Q)_{\mathrm{red}}\) is needed;
+the cubic removes the sole horizontal ambiguity, while finite flatness
+removes its one vertical residual line.
+
 ## 8. All three boundary supports are compatible with zero first trace
 
 **Counterexample.** Set
