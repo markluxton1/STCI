@@ -4,6 +4,8 @@
 
 **Established background:** the Chow product of a zero-cycle, e.g. Kollár, *Moduli of Varieties*, §3.1, [Chow varieties and Hilbert schemes](https://web.math.princeton.edu/~kollar/book/modbook20170720-hyper.pdf), and the characteristic-polynomial form of zero-dimensional Chow forms ([D'Andrea–Krick–Sombra–Schost](https://cs.uwaterloo.ca/~eschost/publications/DaKaSc09.pdf)); the exact translated-cycle and first-moment statements in [chow_arrangement_moments.md](chow_arrangement_moments.md) and [chow_realization_moment_separation.md](chow_realization_moment_separation.md); the accepted generic nilpotence / primary-contraction argument in [torus_hilbert_boundary.md](../torus_hilbert_boundary.md). No cited source is asserted to contain the specific quartic pullback construction.
 
+**Sharper source now available.** The [quadric–opposite-cubic Chow polarization](weighted_chow_quadric_cubic_polarizations.md) gives the **same full paired toric-support and ordinary-power envelope** with two coefficient chains in degrees \(2m,\ldots,3m\), rather than the degree-\(4m\) quartic pullbacks developed below. Their first polars satisfy an explicit opposite-ruling syzygy in which \(M_1\) is the coefficient of \(x_0x_3\). Consequently the high normal-order bound for the *raw degree-\(4m\) equations* below is **not** a general lower bound on all possible full-Chow equations. This file retains the simultaneous uniform-degree quotient and finite-flat norm interpretations as a complementary presentation; the lower-degree argument owns the improved source claim.
+
 ## 1. The first homogeneous simultaneous presentation of the two torus characters
 
 Put \(S=k[x_0,x_1,x_2,x_3]\),
