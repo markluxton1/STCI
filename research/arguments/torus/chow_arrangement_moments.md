@@ -17,6 +17,13 @@ the polynomial congruences (2). Reduced translated CI arrangements
 automatically have invariant ideals. Repeated cycle support alone does
 not establish any of these hypotheses.
 
+The subsequent [sign-symmetry theorem](chow_acm_parity_vanishing.md)
+extends vanishing to every actual sign-invariant ACM translated arrangement,
+without a prescribed Hilbert numerator. The
+[residual-cohomology criterion](chow_moment_residual_speciality.md)
+also covers new non-invariant repeated classes. These extensions do not
+settle arbitrary repeated CI support.
+
 ## The first-moment theorem
 
 Suppose \(I=(F,G)\subset S=k[x_0,x_1,x_2,x_3]\) is a homogeneous

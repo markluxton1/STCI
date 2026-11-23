@@ -18,8 +18,8 @@ proofs:
 ## Scope
 
 Over an algebraically closed field, let \(J=(F_a,G_b)\), \(a\le b\),
-be a homogeneous proper complete intersection with reduced support \(Y\),
-preserved by a diagonal torus action. Let \(R\) be residual to \(Y\) in
+be a homogeneous proper complete intersection whose reduced support \(Y\)
+is preserved by a diagonal torus action. Let \(R\) be residual to \(Y\) in
 \(V(J)\). The translated-quartic consequences require characteristic
 different from two, with all positive cycle multiplicities interpreted in
 the field. The unrestricted target remains characteristic zero.

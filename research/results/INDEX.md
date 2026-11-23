@@ -82,3 +82,4 @@ mathematical rank.
 
 - [STCI-R-0082 — Arrangement Hilbert strata, endpoint planarity and separate orders](arrangement_strata_and_orders.md).
 - [STCI-R-0083 — Residual speciality and first-moment vanishing on repeated arrangements](chow_moment_residual_speciality.md).
+- [STCI-R-0084 — Sign-invariant ACM translated arrangements have zero first moment](chow_acm_parity_vanishing.md).

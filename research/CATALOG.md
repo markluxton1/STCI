@@ -92,6 +92,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0081](results/jacobian_radical_support.md) | Relative Jacobian radical recovery and two-product quartic support | finite projection and the Artinian Jacobian socle: accepted | [scope](results/jacobian_radical_support.md#scope) |
 | [STCI-R-0082](results/arrangement_strata_and_orders.md) | Arrangement Hilbert strata, endpoint planarity and separate orders | endpoint ranks, formal planarity and exceptional valuations: accepted | [scope](results/arrangement_strata_and_orders.md#scope) |
 | [STCI-R-0083](results/chow_moment_residual_speciality.md) | Residual-cohomology vanishing forces first-moment vanishing on repeated arrangements | low-degree linkage symmetry and conormal filtration: accepted | [scope](results/chow_moment_residual_speciality.md#scope) |
+| [STCI-R-0084](results/chow_acm_parity_vanishing.md) | Sign-invariant ACM translated arrangements have zero first moment | commuting-matrix differential and homogeneous parity: accepted | [scope](results/chow_acm_parity_vanishing.md#scope) |
 
 ## Arguments
 
@@ -210,6 +211,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0081: finite projection and the Artinian Jacobian socle; joint premises []; proof `research/arguments/equations/jacobian_radical_support.md#radical-recovery-for-any-proper-pair-missing-the-projection-center`; review accepted, reconstructed at `#review`.
 - STCI-R-0082: endpoint ranks, formal planarity and exceptional valuations; joint premises []; proof `research/arguments/torus/arrangement_strata_and_orders.md#arrangement-strata-endpoint-planarity-and-separate-vanishing-orders`; review accepted, reconstructed at `#review`.
 - STCI-R-0083: low-degree linkage symmetry and conormal filtration; joint premises [STCI-R-0020]; proof `research/arguments/torus/chow_moment_residual_speciality.md#1-a-low-degree-symmetry-criterion-from-linkage`; review accepted, reconstructed at `#review`.
+- STCI-R-0084: commuting-matrix differential and homogeneous parity; joint premises []; proof `research/arguments/torus/chow_acm_parity_vanishing.md#1-the-finite-flat-sign-symmetry-theorem`; review accepted, reconstructed at `#review`.
 
 ## Research relationships (grouped)
 
@@ -336,3 +338,4 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-R-0081: uses: [STCI-R-0076, STCI-R-0077, STCI-R-0078, STCI-R-0080, STCI-R-0081] → [STCI-F-0006] (owner STCI-F-0006).
 - STCI-R-0082: no declared backlinks.
 - STCI-R-0083: no declared backlinks.
+- STCI-R-0084: no declared backlinks.
