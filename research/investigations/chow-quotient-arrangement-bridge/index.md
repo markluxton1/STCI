@@ -238,6 +238,59 @@ The normalized first cubic polars satisfy the **exact degree-\((2m+3)\) global s
 \]
 This exposes the first elementary symmetric function as the coefficient in the **comparison quadric between the two residual rulings**. It is a stronger concrete source of a possible all-degree compatibility theorem than either the one-plane resultant or the degree-\(4m\) Chow envelope alone. However the polynomial syzygy holds for all **unrealized** cycles as well, so **global two-generation has not been shown to force its \(M_1\) coefficient to vanish**. The restricted characteristic-zero UM1 conjecture is unchanged.
 
+### Review correction: the opposite polar chain is redundant on the full-CI locus
+
+The [spectral Hermite-interpolation and saturation review](../../arguments/torus/spectral_interpolation_and_polar_saturation.md)
+resolves the main uncertainty left by the
+opposite-ruling \(M_1\)-syzygy.
+The polynomial comparison is simply
+Euler's formula applied to the
+quadric-spectrum binary form \(H\).
+For any actual proper CI with all
+components on translated quartics,
+\(x_0\) is a nonzerodivisor on its
+Cohen–Macaulay coordinate ring;
+hence \(H,E_+\in(F,G)\) implies
+\(E_-\in(F,G)\) directly from the
+syzygy. The **full opposite
+coefficient chain** is similarly
+forced by saturation, since the
+two chains generate the *same*
+ordinary fat-point ideal on the
+dense torus. Thus their common
+cofactor equations cannot be
+treated as an independent
+two-generator obstruction or a
+route to \(M_1=0\).
+
+What survives as a useful smaller
+parameter space is \(H\) together
+with the degree-\((m-1)\) form
+\[
+ K(A,B)=\sum_i(n_i/u_i)\,H/(A-\xi_iB).
+\]
+The two first polarizations are
+\(E_+=x_0^2x_2K-x_1^3H_A\)
+and \(E_-=x_1x_3^2L-x_2^3K\),
+where \(BL=-AH_B-M_1H\)
+determines \(L\) from \(H\) alone.
+On the stratum where distinct
+translated curves have **distinct
+quadric parameters** \(\xi_i\),
+the simple-pole residues of \(K/H\)
+recover \(n_i/u_i\) and hence
+the full **paired** \((u_i,v_i)\)
+configuration, even with repeated
+multiplicities. If distinct
+curves share the same \(\xi\),
+the residues only retain
+\(\sum n_i/u_i\); higher
+polarizations remain necessary.
+This is an intrinsic spectral
+divisor plus interpolation-function
+description, not a new UM1
+vanishing theorem.
+
 ## Primary Chow realization and first-moment separation
 
 For repeated curves the primary space remains the unordered cycle space
