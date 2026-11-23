@@ -298,6 +298,54 @@ changed while residual curves appear. Hence (13) is a sharp
 *reduction of the desired identity*, not a proof that all such
 jets are isotropic.
 
+### Serre duality makes the pairing intrinsic to the disjoint line
+
+The same form can be defined without mentioning an affine quotient
+or a chosen monomial basis. Since \(f_0,g_0\) have no simultaneous
+zero on the line \(L\simeq\mathbf P^1\), their Koszul complex on
+\(L\), twisted by \(a+b-2\), is the short exact sequence
+\[
+ \tag{14}
+ 0\to\mathcal O_L(-2)\xrightarrow{(-g_0,f_0)}
+ \mathcal O_L(b-2)\oplus\mathcal O_L(a-2)
+ \xrightarrow{(f_0,g_0)}
+ \mathcal O_L(a+b-2)\to0 .
+\]
+For \(a,b>0\), both middle summands have zero \(H^1\), so its
+connecting homomorphism identifies
+\[
+ \mathscr A_{a+b-2}
+ \simeq H^1(L,\mathcal O_L(-2))
+ =H^1(L,\omega_L)\simeq k.
+\]
+The last arrow is the **Serre trace**, and with the usual
+ordered Koszul orientation the resulting functional is the
+Grothendieck residue of \((f_0,g_0)\).
+Consequently,
+\[
+ \tag{15}
+ \boxed{\ \Omega(v_0,v_3)
+ =\operatorname{Tr}_L\!\big(\partial_{f_0,g_0}(ps-qr)\big)
+ =2M_1\ } .
+\]
+Thus the conjectural vanishing can be stated as the vanishing of
+a **canonical Serre-duality class on the line disjoint from the
+quartic**, formed from the two actual first normal jets.
+The line itself is the \((-1)\)-eigenspace line of the
+osculating involution described in
+[the intrinsic curve geometry](../curve/special_plane_and_line_sections.md#3-osculation-and-its-residual-involution).
+This connects the geometric uniqueness of the projection center
+to the Macaulay residue pairing. The class depends on the ordered
+equation presentation and normal framing; its vanishing is intrinsic
+to the corresponding CI and its distinguished center, by (8).
+
+For fixed degrees \(a\le b\), the two dual factors
+\(\mathscr A_{a-1}\), \(\mathscr A_{b-1}\) have dimension \(a\).
+Hence the **critical symplectic space has dimension \(2a\) for all
+mate degrees \(b\)**. This is a degree-uniform *dimension of the
+trace detector at fixed smaller degree*, not a degree bound
+or a classification of source realizations.
+
 ### An immediate wider sufficient vanishing condition
 
 Within the full translated-cycle hypotheses, equation (11) gives
