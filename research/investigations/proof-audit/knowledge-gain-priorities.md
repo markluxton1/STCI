@@ -557,6 +557,17 @@ KG02 and KG05 are the two leading competing investigations; the evidence does
 not justify a strict ordering of their expected mathematical payoff. This is
 a research comparison, not a claim that either is close to settling STCI.
 
+The current research commitment is KG02's universal first-moment question,
+as selected for the collaborative investigation: explain why the spectral
+polynomial of an actual full-translated-support CI must be depressed in its
+distinguished coordinate. The first target is the necessary coefficient
+identity, not full cycle classification. Parallel geometric, residue,
+source-algebra and repeated-structure probes are described in the
+[existing arrangement investigation](../chow-quotient-arrangement-bridge/index.md#current-first-moment-probe).
+This choice prioritizes the direct all-degree conjecture and the possibility
+of a structural explanation; it does not supply comparative evidence that
+its expected payoff exceeds KG05. Reassess from new mathematical findings.
+
 For KG02, the concrete source question is now **single-chain two-generator
 realization**, retaining the norm and coordinate-boundary conditions of the
 same actual pair. The [saturation theorem](../../arguments/torus/spectral_interpolation_and_polar_saturation.md)

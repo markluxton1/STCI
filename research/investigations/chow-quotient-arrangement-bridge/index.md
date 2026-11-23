@@ -34,6 +34,25 @@ obstruct a proper pair realizing a full translated cycle? In particular, can
 the embedding and boundary conditions lost by the Chow quotient be recovered
 from endpoint data and the same two global equations?
 
+### Current first-moment probe
+
+The current investigation focuses on UM1 itself: why should the spectral
+polynomial \(H_\sigma(T,1)=\prod_i(T-u_i/v_i)^{n_i}\) be depressed in
+the distinguished quadric-pencil coordinate for every actual complete
+intersection with full translated support? The target includes arbitrary
+non-invariant repeated structures. An arbitrary translation of the spectral
+coordinate, containment of a translate, or a bounded determinant truncation
+does not establish this assertion.
+
+The initial parallel probes examine intrinsic divisor relations, global
+residue/trace duality, actual two-generator source algebra, repeated
+structures and possible failure mechanisms, and applicable primary
+literature. The reassessment point is a new forcing identity, genuinely
+extended vanishing theorem, actual counterexample, or a precise obstruction
+to a proposed mechanism. Consequential deductions require independent proof
+review before they become inputs to the synthesis. Full spectral
+classification is not a prerequisite to this first-coefficient question.
+
 ## Motivation
 
 [Full torus boundaries (STCI-F-0001)](../../frameworks/torus-supported-boundaries/index.md),
