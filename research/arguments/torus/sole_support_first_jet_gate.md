@@ -450,6 +450,127 @@ power obstruction arises much later and can involve
 many higher normal equation layers, so (10)
 cannot simply be copied to \((6,6)\).
 
+## A stronger negative control: both *leading* STCI conditions can hold
+
+The incompatible \((4,4)\) family above
+has the specialized jets \(q=r=0\).
+Allowing the two other first normal jets
+shows that its incompatibility does **not**
+extend to arbitrary first-jet presentations.
+
+Take **any** proper quartic pair with
+\(f_0=x^4,\ g_0=y^4\), and write
+\[
+ F=x^4+u p+v q+O((u,v)^2),\qquad
+ G=y^4+u r+v s+O((u,v)^2),
+\]
+where \(p,q,r,s\in k[x,y]_3\). Put
+\(\rho=\operatorname{Res}_{x^4,y^4}\),
+which extracts the coefficient of \(x^3y^3\).
+The simultaneous **first normal Poisson requirement**
+and **first spectral power requirement** become
+\[
+ \tag{11}
+ \rho(ps-qr)=8,
+\]
+\[
+ \tag{12}
+ \boxed{
+ P_{F,G}(u,v)
+ =u^2\rho(pr)
+ +uv\bigl(\rho(ps+qr)-4\bigr)
+ +v^2\rho(qs)=0.
+ }
+\]
+To prove (12), reduce
+\(Q^4=(uv-xy)^4\) modulo
+\((F,G)+(u,v)^3\). Its terms of normal
+order at most two are \(x^4y^4-4uvx^3y^3\).
+Replacing \(x^4,y^4\) by their *first*
+normal equations yields exactly (12).
+Higher normal layers of either defining
+equation cannot affect this order-two class
+because each of \(x^4,y^4\) already
+vanishes in the binary CI.
+
+Equations (11) and (12) are **compatible**:
+they require
+\[
+ \rho(pr)=\rho(qs)=0,\qquad
+ \rho(ps)=6,\quad\rho(qr)=-2.
+\]
+The simple choice
+\[
+ \tag{13}
+ p=x^3,\quad q=y^3,\quad
+ r=-2x^3,\quad s=6y^3
+\]
+satisfies all four scalar conditions.
+
+Crucially, these jets arise from **actual homogeneous
+global equations containing \(C\)**. Set
+\[
+ U=x_0^2x_2-x_1^3,\qquad
+ V=x_2^3-x_1x_3^2,\qquad Q=x_0x_3-x_1x_2,
+\]
+and define
+\[
+ \tag{14}
+ \boxed{
+ F=(x_1^4-x_0^3x_3)-x_0U+x_3V,\qquad
+ G=(x_2^4-x_0x_3^3)+2x_0U+6x_3V.
+ }
+\]
+All three of \(Q,U,V\) vanish on \(C\),
+and both binomial quartics do as well.
+Thus \(F,G\in I_C(4)\).
+Their restrictions to \(L\) are
+\(x_1^4,x_2^4\), so the pair is
+proper and misses the projection center.
+The first normal coefficients are exactly
+(13), and hence
+\[
+ \boxed{\Omega(v_0,v_3)=8,\qquad
+        \mathcal R_{F,G}(Q^4)=0.}
+\]
+These are **both** of the necessary low-order
+STCI conditions, with no formal or source-lifting
+assumption: the equations themselves are global.
+
+Nevertheless \(Y_{\rm red}\ne C\).
+Indeed, on the dense torus
+\([1:t:w t^3:z t^4]\), the transverse
+Jacobian determinant of \((F,G)\) at
+\(w=z=1\) is
+\[
+ \tag{15}
+ -t^7\bigl(t^{18}-18t^{10}-20t^9-3t^8-2\bigr),
+\]
+which is not identically zero in characteristic
+zero. The generic intersection multiplicity
+along \(C\) is therefore one, and Bézout
+gives a residual cycle of degree \(16-4=12\).
+
+**Conclusion of the paired controls.**
+The special family with \(q=r=0\) is
+incompatible at second normal order
+(\(\lambda\mu=4\) versus \(8\)); but
+the general first normal data can
+satisfy the Poisson/spectral leading
+conditions simultaneously, even for
+actual global containing pairs.
+Consequently there is **no contradiction
+from these two leading tests alone**.
+One must impose the **full**
+membership \(Q^m\in(F,G)\) and the complete
+actual Poisson/source incidence, not merely
+their lowest nontrivial residue classes.
+The \((4,4)\) unrestricted exclusion is
+independently known and is **not** being
+reproved here. The example is a diagnostic
+against overpromoting the restricted
+compatibility failure into a theorem.
+
 ## Implication and stopping rule
 
 The direct first-jet check gives **no obstruction**:
