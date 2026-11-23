@@ -161,7 +161,10 @@ Projection formula and the degree-four map give
  \mathcal R=f_*\mathcal O_C
  \simeq\mathcal O_B\oplus\mathcal O_B(-1)^{\oplus3}.    \tag{4e}
 \]
-Indeed the unit splits off \(\mathcal O_B\);
+Indeed the unit splits off \(\mathcal O_B\): in the present
+characteristic \(4\) is invertible, so one quarter of the finite-cover trace
+is an \(\mathcal O_B\)-linear retraction onto the unit summand.
+Moreover
 \(\deg\mathcal R=\chi(\mathcal O_C)-4\chi(\mathcal O_B)=-3\), while
 \(h^0(\mathcal R)=1\) forces the remaining three summands to have negative
 degree.  Their degrees therefore sum to \(-3\), so each is \(-1\).
