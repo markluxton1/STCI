@@ -74,6 +74,153 @@ the full \(\mathcal C_\sigma\) remains more restrictive.
 Therefore further universal (4,4) constraints cannot consist only
 of additional equations in the \(H_\sigma\)-coefficients.
 
+## 1.1 The first moment is already a *linear full-Chow coefficient*
+
+The **existing** quotient-spectrum identity above can be expressed directly
+and polynomially in the *full* paired transverse coordinates, without a
+division by any individual parameter. Let
+\[
+ D=\prod_i v_i^{n_i}\ne0,\qquad
+ E_{1,m-1}(\sigma)=
+ \sum_i n_i u_i v_i^{n_i-1}\prod_{j\ne i}v_j^{n_j}.
+\]
+Then
+\[
+ \tag{M}
+ \boxed{
+  [Z^m]\mathcal C_\sigma=D,\quad
+  [YZ^{m-1}]\mathcal C_\sigma=E_{1,m-1}=D\,M_1(\sigma).
+ }
+\]
+Here \(E_{1,m-1}\) is an **elementary multisymmetric function**
+of the \(m\) paired points (including repetitions). In particular
+\[
+ M_1=0\iff
+  [YZ^{m-1}]\mathcal C_\sigma=0
+ \iff
+ \left.\partial_Y\mathcal C_\sigma\right|_{(X,Y,Z)=(0,0,1)}=0.
+\]
+The last equality can be normalized as
+\(M_1=(\partial_Y\mathcal C_\sigma/\mathcal C_\sigma)(0,0,1)\).
+This is a **single linear hyperplane condition on the full
+projective zero-cycle Chow coefficients**, not merely a rational
+condition on the \((u_i,v_i)\). It extends as a polynomial
+hyperplane to the entire projective Chow closure, although the
+ratio expression needs \(D\ne0\). On the deepest interior diagonal
+\(\mathcal C=(X+uY+vZ)^m\), it has value
+\(muv^{m-1}\ne0\) in characteristic zero.
+
+There is a geometric toric dictionary which also retains the
+second transverse coordinate. In the parameter plane
+\([W:U:V]=[1:u:v]\), set
+\[
+ \xi=\frac UV=\frac uv,\qquad
+ \eta=\frac{U^2}{WV}=\frac{u^2}v.
+\]
+The first character selects the unique containing quadric
+\(Q_\xi=V_{\mathbf P^3}(x_1x_2-\xi x_0x_3)\).
+The second selects the cubic scroll
+\(R_\eta=V_{\mathbf P^3}(x_0x_2^2-\eta x_1^2x_3)\).
+Their intersection cycle is the translated quartic
+\(C_{\eta/\xi,\eta/\xi^2}\) plus the two fixed
+endpoint ruling lines, as derived in
+[the spectral–Jacobian bridge](spectral_jacobian_first_jet_bridge.md#1-set-up-and-the-two-intrinsic-quotient-characters).
+
+In the **projective parameter plane**, the two character fibers
+are, respectively, the **lines** \(U-\xi V=0\)
+and the **conics** \(U^2-\eta WV=0\).
+They meet at the fixed boundary point \([1:0:0]\)
+and at exactly one interior point
+\[
+ [W:U:V]=[\xi^2:\xi\eta:\eta].
+\]
+Thus the two-dimensional transverse torus may be read as a
+marked line/conic incidence. In these coordinates
+\[
+ \mathcal C_\sigma(X,Y,Z)
+ =\Bigl(\prod_i\xi_i^{-2n_i}\Bigr)
+   \prod_i(\xi_i^2X+\xi_i\eta_iY+\eta_iZ)^{n_i}
+\]
+and the ratio in (M) becomes
+\[
+ \tag{M'}
+ \boxed{
+ \frac{[YZ^{m-1}]\mathcal C_\sigma}
+      {[Z^m]\mathcal C_\sigma}
+ =\sum_i n_i\xi_i=M_1(\sigma).}
+\]
+The conic parameters \(\eta_i\) cancel from this *single*
+coefficient ratio; nevertheless the requirement that **the
+same two equations** realize the full paired arrangement
+necessarily couples both characters. That coupling is
+the genuinely unknown step in the all-degree moment theorem.
+
+### The exact equation-side coefficient
+
+Let \(J=(F_a,G_b)\) be a **proper actual homogeneous CI**
+with entire fundamental cycle equal to \(\sigma\).
+Use the two-parameter line family
+\[
+ \ell_{y,z}:\quad x_3=x_0,\qquad
+       x_0+yx_1+zx_2=0.
+\]
+Write its binary restrictions as
+\[
+ \widehat F_{y,z}(r,s)=F(-yr-zs,r,s,-yr-zs),\quad
+ \widehat G_{y,z}(r,s)=G(-yr-zs,r,s,-yr-zs).
+\]
+Let \(\mathscr R_{F,G}(y,z)
+=\operatorname{Res}_{[r:s]}(\widehat F_{y,z},\widehat G_{y,z})\),
+using any fixed resultant convention. Since
+\(\ell_{0,0}=V(x_0,x_3)\) misses every translated quartic,
+\(\mathscr R_{F,G}(0,0)\ne0\).
+The classical **Chow form/resultant identity** for an
+actual proper CI, including generic multiplicities, gives
+\[
+ \frac{\mathscr R_{F,G}(y,z)}
+      {\mathscr R_{F,G}(0,0)}
+ =\prod_i
+  \left[\prod_{t^4=1/v_i}
+    (1+yt+zu_it^3)\right]^{n_i}.
+\]
+For each translated component the linear coefficients
+in \(y,z\) vanish, and its mixed \(yz\) coefficient
+is \(-4u_i/v_i\). Therefore
+\[
+ \tag{R}
+ \boxed{
+ \frac{[yz]\mathscr R_{F,G}}
+      {\mathscr R_{F,G}(0,0)}
+ =-4M_1(\sigma)
+ =-4\,
+   \frac{[YZ^{m-1}]\mathcal C_\sigma}
+        {[Z^m]\mathcal C_\sigma}.
+ }
+\]
+Equivalently,
+\[
+ \boxed{M_1(\sigma)=0
+   \iff [YZ^{m-1}]\mathcal C_\sigma=0
+   \iff [yz]\mathscr R_{F,G}=0.}
+\]
+This is an **exact coefficient bridge from the actual two
+defining equations to the full two-dimensional Chow
+polynomial**, with arbitrary translated residual components
+and multiplicities. The final equivalence already follows
+from the accepted linear Chow separator in
+[chow_arrangement_moments.md](chow_arrangement_moments.md#a-regular-function-on-the-chow-space);
+the explicit parameter-plane equation and specialized
+binary Sylvester resultant make its algebraic content
+particularly transparent. The proof of the underlying
+coefficient/resultant dictionary is classical (Chow forms
+and elementary multisymmetric functions; cf.
+[Vaccarino, 2005](https://www.numdam.org/articles/10.5802/aif.2111/)).
+No new universal vanishing is deduced: the assertion
+that **every** such actual resultant has \([yz]=0\)
+remains open for arbitrary non-invariant nonreduced CIs.
+The general Chow factorization and the existence of two
+defining equations do not individually prove it.
+
 ## 2. Coefficients of the full Chow form are mixed symmetric functions
 
 Write
