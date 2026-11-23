@@ -167,6 +167,65 @@ the missing step is a restriction
 imposed by its **actual two-equation
 Sylvester resultant realization**.
 
+### New common carrier-free realization object: the full-Chow envelope
+
+The [opposite quartic Chow-envelope theorem](../../arguments/torus/full_transverse_chow_pullback_envelope.md)
+strengthens the previous single-resultant
+factorization. The *same full*
+\(\mathcal C_\sigma=\prod_i(X+u_iY+v_iZ)^{n_i}\)
+has two **homogeneous quartic pullbacks**
+through the weight-four and weight-twelve
+three-monomial quotient maps. Each
+produces \(m+1\) degree-\(4m\)
+equations lying in every proper
+actual CI ideal realizing \(\sigma\).
+On the dense ambient torus the
+coefficient ideals both equal the
+canonical fat-point ideal
+\(\cap_i I_{C_i}^{n_i}\);
+their **sum** has radical
+\(I_{\cup_i C_i}\) globally, because
+their two distinct pairs of base
+coordinate lines meet only at
+\(p_0,p_\infty\).
+These facts retain **both paired torus
+coordinates** and arbitrary repeated
+components, rather than one quadric
+pencil spectrum.
+
+The corresponding constant fat-point
+algebra has length
+\(N=\sum\binom{n_i+1}{2}\).
+Any realizing CI selects a finite-flat
+rank-\(m\) **moving algebra quotient**
+over the orbit coordinate, whose kernel
+has rank
+\(\delta=\sum\binom{n_i}{2}\).
+For \(\delta=0\), invariance is
+forced and UM1 is already covered.
+For a double component the moving
+choice is a tangent line, i.e. a
+\(\mathbf P^1\)-valued rational map;
+higher multiplicities give
+punctual-Hilbert quotient choices.
+Its **norm** is exactly
+\(\mathcal C_\sigma\) and its
+**trace of \(u/v\)** is \(M_1\).
+Thus the missing all-degree theorem
+is sharply localized to **which
+moving fat-envelope quotients can
+extend simultaneously across
+both orbit endpoints and arise
+from two global homogeneous
+surface generators**. This
+identifies the actual loss of
+information between cycle
+coefficients and CI structure,
+rather than replacing it with
+a carrier-by-carrier mate search.
+No trace vanishing follows
+from the quotient condition alone.
+
 ## Primary Chow realization and first-moment separation
 
 For repeated curves the primary space remains the unordered cycle space
