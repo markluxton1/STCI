@@ -186,6 +186,62 @@ to force the trace zero.
 \]
 This identifies \(M_1\) as a coefficient of the **same-degree homogeneous comparison quadric** between the two rulings, rather than only a resultant or trace coefficient. Since the identity holds for arbitrary toric cycles, it **does not prove** universal vanishing; the remaining problem is *actual two-generator cofactor compatibility at both endpoints*. The exact repeated-cycle cofactor/norm recognition criterion also admits this lower-degree source system. Its proof is the linked argument, pending independent review.
 
+**Review refinement (Nov 23):** the [spectral Hermite-interpolation and saturation argument](arguments/torus/spectral_interpolation_and_polar_saturation.md)
+shows the opposite normalized
+Chow polar is **not** an
+independent actual-equation
+obstruction. In a proper CI
+with full translated support,
+\(x_0\) is regular modulo
+the ideal; therefore
+\(H,E_+\in(F,G)\)
+already implies \(E_-\in(F,G)\)
+from the opposite-ruling
+\(M_1\)-syzygy. Both full
+polar coefficient ideals
+agree on the dense torus,
+so **the entire opposite
+chain** is redundant once
+coordinate-boundary components
+are excluded.
+That syzygy reduces to
+Euler's identity for
+the spectrum \(H\), not
+to a new moment-vanishing
+condition. Its correct role
+is geometric support
+recognition and a
+one-sided cofactor
+presentation.
+
+The retained **new
+simplification** is one
+degree-\((m-1)\)
+binary interpolation form
+\(K=\sum_i(n_i/u_i)
+H/(A-\xi_iB)\).
+When quadric parameters
+separate distinct support
+curves, residues of
+\(K/H\) recover every
+\((u_i,v_i)\) even for
+nonreduced multiplicities.
+On spectral-collision
+fibers the first polar
+remembers only weighted
+reciprocal sums, and
+higher polars are needed.
+The exceptional non-invariant
+doubled \((4,4)\) component
+is itself spectral-separated,
+with \(K=H_A/u\) and
+\(H=(A^2-q^2B^2)^2\).
+Thus the unsolved UM1
+incidence is **not**
+reduced to invariant
+equations by this
+interpolation.
+
 The [cycle-first Chow realization program](arguments/torus/chow_realization_moment_separation.md)
 uses the symmetric power of the orbit quotient as its primary parameter
 space. The universal moment hyperplane misses every interior power locus
