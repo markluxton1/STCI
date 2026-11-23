@@ -77,6 +77,44 @@ Thus the actual remaining obstacle is to prove **first-jet
 isotropy** on this full source-incidence locus, not merely to
 calculate the residue. Independent proof review remains due.
 
+### Full spectral-power compatibility: the same Serre line at a later order
+
+The [sole-support first-jet gate](sole_support_first_jet_gate.md)
+now compares *both* necessary actual-equation
+identities. Sole support imposes
+\(\Omega(v_0,v_3)=ab/2\ne0\) in
+\(H^1(L,\omega_L)\), but also the
+spectral membership \(Q^m\in(F,G)\),
+\(m=ab/4\). The latter is automatically
+satisfied to normal order
+\(r_*=(a-2)(b-2)/2\) near the disjoint
+line; its first possible obstruction is the
+canonical **degree-\(r_*\) binary form**
+\[
+ [Q^m]_{r_*}\in H^1(L,\omega_L)\otimes
+ \operatorname{Sym}^{r_*}\langle x_0,x_3\rangle .
+\]
+Thus the low and first high compatibility
+conditions land in the **same Serre line**
+but at distinct normal degrees, providing
+a precise global-jet bridge target.
+For any translated-cycle CI, a canonical
+linear map from the **full homogeneous
+quadric-spectrum space** to this first
+obstruction space annihilates the realized
+spectral form. The relevant map is not
+claimed to be injective or to force
+its first coefficient zero.
+
+The two requirements conflict for a
+concrete restricted \((4,4)\) family
+(\(\lambda\mu=8\) versus \(4\));
+the calculation does not cover unrestricted
+quartic coefficients or higher degrees.
+No general transgression/compatibility
+theorem between the Serre pairing and the
+higher spectral class is established.
+
 ## Upward synthesis: the smallest exact common algebraic target
 
 **All-degree finite-cover trace.** Every such proper pair avoids the line
