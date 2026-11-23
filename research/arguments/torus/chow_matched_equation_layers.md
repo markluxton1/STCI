@@ -403,6 +403,85 @@ not Chow matching, prescribed opposite extrema, or a global contact identity.
 It rules out an obstruction obtained solely by counting these fixed-depth
 center coefficients in sufficiently large degree.
 
+### Sharpness and the last missing center layer
+
+**New exact refinement, pending independent review.**  The threshold
+\(d\ge N+2\) is sharp, and the final cokernel is completely explicit:
+\[
+ \boxed{\dim_k\operatorname{coker}\!\left[
+ H^0(\mathcal I_C(N+1))\to(S/P^N)_{N+1}
+ \right]=N+1.}                                      \tag{CJ1}
+\]
+Equivalently,
+\[
+ \bigl(S/(I_C+P^N)\bigr)_d=
+ \begin{cases}
+  k^{\,N+1},&d=N+1,\\
+  0,&d\ge N+2.
+ \end{cases}                                        \tag{CJ2}
+\]
+Only the displayed top two degrees are asserted here; lower degrees have
+their own Hilbert function.
+
+The proof is the semigroup ring of the actual quartic.  Identify
+\[
+ S/I_C
+ =k[s^4,s^3t,st^3,t^4]\subset k[s,t],
+\]
+graded so each of the four displayed generators has degree one.  Record
+only the exponent of \(t\); the degree-one exponent set is
+\[
+ E_1=\{0,1,3,4\}.
+\]
+For every \(r\ge2\), its \(r\)-fold sum is the full interval
+\[
+ E_r=\{0,1,\ldots,4r\}.                             \tag{CJ3}
+\]
+The case \(r=2\) is immediate, and adding \(E_1\) preserves the full
+interval.
+
+Modulo \(I_C\), the center ideal \(P=(x,w)\) becomes
+\((s^4,t^4)\).  In degree \(d\), the exponent set of
+\(P^N(S/I_C)\) is
+\[
+ \bigcup_{i=0}^{N}\left(4i+E_{d-N}\right).          \tag{CJ4}
+\]
+If \(d\ge N+2\), (CJ3) makes these overlapping intervals cover
+\(\{0,\ldots,4d\}\), proving the old surjectivity statement.  If
+\(d=N+1\), then \(E_{d-N}=E_1\), and (CJ4) misses exactly
+\[
+ 4i+2,\qquad 0\le i\le N.                          \tag{CJ5}
+\]
+The corresponding parameter monomials
+\[
+ s^{\,4(N+1)-(4i+2)}t^{\,4i+2},\qquad 0\le i\le N,
+\]
+are linearly independent in \(k[s,t]\), proving (CJ1)--(CJ2).
+
+This gives an exact limitation on the new source-to-Chow determinant
+hierarchy.  The coefficient \(\Delta_j\) of the
+[two-operator determinant](chow_arrangement_moments.md#a-two-operator-determinant-recovers-the-full-transverse-chow-polynomial)
+depends on the source layers \(f_0,\ldots,f_{4j}\) and
+\(g_0,\ldots,g_{4j}\), i.e. only on the restrictions modulo
+\(P^{4j+1}\).  Taking \(N=4j+1\), individual membership in
+\(I_C\) imposes **no condition at all** on those center jets once the
+surface degree is
+\[
+ \boxed{d\ge4j+3.}                                  \tag{CJ6}
+\]
+At the last exceptional degree \(d=4j+2\), the obstruction space has
+dimension \(4j+2\), represented by the middle exponents (CJ5).
+
+In particular \(\Delta_2\) uses the quotient modulo \(P^9\).  Its
+individual source jets are arbitrary for every equation of degree at
+least eleven; degree ten is the final exceptional degree, with a
+ten-dimensional cokernel.  Thus a uniform all-degree exclusion cannot
+come from the claim that the first finitely many determinant coefficients
+are incompatible with \(F,G\in I_C\) **separately**.  Any successful
+fixed-order argument must use additional joint structure: the two equations
+together, properness/full support, the opposite torus filtrations, or a
+source-induced recursion to deeper orders.
+
 ## Opposite full limits can retain a large embedded Hilbert correction
 
 A separate proper Chow-matched control has degrees (16,16). Set
