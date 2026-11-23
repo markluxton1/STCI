@@ -120,159 +120,80 @@ or that an intrinsic Hilbert limit remains a two-generator CI.
 **Review status:** proposed new argument, not independently
 six-perspective reviewed. No unrestricted STCI theorem.
 
-### Direct sole-support jet test: compatible but not sufficient
+### Sole-support jet tower: a complete duality criterion and tested limits
 
-The [STCI-specific necessary-jet check](../../arguments/torus/sole_support_first_jet_gate.md)
-shows that a hypothetical \((a,b)\) STCI with \(m=ab/4\)
-has \(\Omega(v_0,v_3)=ab/2=2m\), **not zero**,
-since \(M_{12}-2M_{03}\in(F,G)\).
-The first normal restriction of this Poisson identity is
-one scalar congruence in the binary CI's one-dimensional
-socle. Explicit proper containing pairs in all
-degrees \(a,b\ge4\) achieve exactly this scalar,
-yet \(C\) has generic multiplicity one and a residual
-degree \(ab-4\). No contradiction is available from
-the first jets alone.
-
-The spectral power \(Q^m\in(F,G)\) imposes **no
-nonautomatic constraint on its normal truncation**
-before order \(r_*=(a-2)(b-2)/2\)
-(\((6,6):8,\ (5,8):9\)), by the graded free
-\(k[x_0,x_3]\)-module splitting. This is a precise
-reason why a low-order jet check cannot settle the
-unrestricted STCI problem without the global
-full-equation/zero-support incidence.
-
-### New joint-jet test: the first spectral-power obstruction and its Serre line
-
-The [direct STCI test](../../arguments/torus/sole_support_first_jet_gate.md)
-now exhibits the first possible **nonautomatic**
-normal-order class of the necessary spectral power
-\(Q^m\in(F_a,G_b)\), \(m=ab/4\).
-Let \(L=V(x_0,x_3)\),
-\(d=a+b-2\), \(r_*=2m-d=(a-2)(b-2)/2\).
-For **any** proper CI missing \(L\), every
-degree-\(2m\) class has \(I_L\)-order at least \(r_*\).
-Its leading class defines
+The [sole-support jet and residue argument](../../arguments/torus/sole_support_first_jet_gate.md)
+compares two established **actual-equation**
+consequences for a hypothetical characteristic-zero
+STCI \(J=(F_a,G_b)\), \(m=ab/4\):
 \[
- \mathfrak o_{r_*}(F,G)
- \in H^1(L,\omega_L)\otimes
-       \operatorname{Sym}^{r_*}\langle x_0,x_3\rangle.
+ M_{12}-2M_{03}\in J,\qquad I_C^m\subset J.
 \]
-A hypothetical STCI requires this binary form of
-degree \(r_*\) to vanish, *in addition* to the
-nonzero first-normal Serre pairing
+The first requires a **nonzero** first-normal
+Macaulay/Serre pairing
 \(\Omega(v_0,v_3)=ab/2\).
-The two objects have the **same Serre-duality
-coefficient line** but generally occur at
-different normal orders; no universal
-transgression has been proved.
+It is achievable for global containing
+pairs of every bidegree \(a,b\ge4\),
+without eliminating their residual curves.
 
-More generally the leading map
-\(\Phi_{F,G}:\operatorname{Sym}^m\langle A,B\rangle
- \to H^1(L,\omega_L)\otimes
-     \operatorname{Sym}^{r_*}\langle x_0,x_3\rangle\)
-is **linear in the entire homogeneous spectral form**.
-Every realized translated-cycle spectrum lies in
-its kernel. This creates a coefficient-level
-source/Chow bridge without selecting a carrier,
-but kernel membership at this first order is
-not full ideal membership and gives no
-unrestricted STCI exclusion.
+The unique minimum-degree member of \(I_C^m\)
+is \(Q^m\). For \(L=V(x_0,x_3)\),
+its first potentially nonautomatic
+normal coefficient occurs at
+\[
+ r_*=(a-2)(b-2)/2;
+ \qquad
+ [Q^m]_{r_*}
+ =\mathcal R_{F,G}(Q^m)\in
+ H^1(L,\omega_L)\otimes
+ \operatorname{Sym}^{r_*}\langle x_0,x_3\rangle .
+\]
+The same **relative Grothendieck residue**
+also yields
+\(\mathcal R_{F,G}(M_{03})=ab/2\).
+The linear map
+\(H(A,B)\mapsto\mathcal R_{F,G}(H(A,B))\)
+annihilates each realized entire-cycle
+spectral form. This is a joint source/Chow
+coefficient condition, not full ideal membership;
+in \((6,6)\) the first power class is an
+octavic, at normal order eight.
 
-In the explicit \((4,4)\) control family with
-first normal terms \(-\lambda x_0x_1^2x_2\)
-and \(-\mu x_3x_1x_2^2\), the first power
-obstruction is \((\lambda\mu-4)x_0x_3\),
-while the sole-support Poisson jet condition
-requires \(\lambda\mu=8\). These are
-incompatible **for this restricted family**,
-not a new all-quartic exclusion.
-For \((6,6)\), \(r_*=8\), so higher normal
-coefficients intervene and the same
-two-layer argument does not apply.
-The exact new gap is a degree-uniform
-compatibility between the first-normal
-Poisson/Serre class and this later spectral
-power class under full two-equation
-realizability.
+In a restricted \((4,4)\) first-jet family,
+the sole-support Poisson and first power
+conditions demand incompatible
+\(\lambda\mu=8\) and \(4\).
+But the stronger [explicit global negative
+control](../../arguments/torus/sole_support_first_jet_gate.md#a-stronger-negative-control-both-leading-stci-conditions-can-hold)
+passes **both** leading residue requirements
+while retaining a residual degree-twelve curve.
+Indeed \(\mathcal R_{F,G}(Q^4)=0\),
+but \(\mathcal R_{F,G}(x_1Q^4)=2x_0^2x_3\)
+and \(\mathcal R_{F,G}(x_2Q^4)=12x_0x_3^2\);
+the full Poisson identity fails at the
+next normal order as well.
 
-### The decisive low-order negative control
-
-The [same-residue STCI-jet analysis](../../arguments/torus/sole_support_first_jet_gate.md#a-stronger-negative-control-both-leading-stci-conditions-can-hold)
-contains an explicit **proper global quartic pair**
-containing \(C\) for which **both** leading
-conditions hold:
-\(\mathcal R_{F,G}(M_{03})=8\)
-and \(\mathcal R_{F,G}(Q^4)=0\).
-Its first normal jets are
-\(p=x_1^3,q=x_2^3,r=-2x_1^3,
-s=6x_2^3\) along \(L\).
-Nevertheless it has residual degree twelve.
-The full Poisson ideal relation already fails at
-normal order one, and \(Q^4\in(F,G)\)
-fails at normal order three.
-This **supersedes any inference** that
-the specialized \((4,4)\) comparison
-\(\lambda\mu=8\) versus \(4\) supplies
-a general contradiction.
-The full actual ideal-membership tower,
-not the first two scalar/leading-residue
-conditions, is necessary.
-The rank and kernel of the canonical
-first spectral map remain informative
-but not sufficient.
-
-### Exact finite duality criterion, not only leading residue gates
-
-The [full same-residue STCI criterion](../../arguments/torus/sole_support_first_jet_gate.md#full-exact-stci-jet-criterion-ideal-powers-and-the-perfect-residue-pairing)
-returns to an **established main-branch
-power bound** \(I_C^m\subset(F,G)\)
-for every actual sole-supported
-proper CI, where \(m=ab/4\).
-The reverse implication also holds
-for any proper pair \(F,G\in I_C\):
-containment \(I_C^m\subset(F,G)\subset I_C\)
-forces reduced support exactly \(C\).
-The homogeneous ideal
-\(I_C=(Q,U,W,V)\) has one unique
-quadric and three cubics, so
-\(I_C^m\) has explicit finite
-generators \(Q^{m-j}U^\alpha
-W^\beta V^\gamma\).
-By **finite flat Gorenstein
-duality**, the relative residue
-pairing \((h,h')\mapsto\mathcal
-R_{F,G}(hh')\) is perfect.
-Therefore STCI is equivalent to
-vanishing of \(\mathcal R_{F,G}(g e)\)
-for all those generators \(g\)
-and all \(ab\) elements \(e\)
-of a graded \(k[x_0,x_3]\)-basis
-of the actual CI algebra.
-This is an exact finite coefficient
-criterion at every fixed bidegree;
-it still does not eliminate or
-exclude all \(F,G\).
-
-The concrete globally lifted
-quartic negative control has
-\(\mathcal R(Q^4)=0\) while
-\(\mathcal R(x_1Q^4)=2x_0^2x_3\)
-and \(\mathcal R(x_2Q^4)=12x_0x_3^2\)
-are nonzero. It also passes the
-first Poisson scalar while
-multiplying its Poisson error by
-\(x_1,x_2\) detects nonzero
-residues. This proves the
-**necessity of the whole
-Gorenstein pairing test**,
-not merely its \(h=1\) row.
-The unique degree-\(2m\) generator
-\(Q^m\) only sees the containing
-quadric; cubic generators retain
-the moving \((1,3)\) divisor
-inside \(Q\).
+The **complete** condition is the [necessary-and-
+sufficient ideal-power/perfect-residue criterion](../../arguments/torus/sole_support_first_jet_gate.md#full-exact-stci-jet-criterion-ideal-powers-and-the-perfect-residue-pairing):
+for a proper pair \(F,G\in I_C\),
+STCI is equivalent to \(I_C^m\subset J\),
+or to \(\mathcal R_{F,G}(ge)=0\)
+for every explicit monomial generator
+\(g=Q^{m-j}U^\alpha W^\beta V^\gamma\)
+of \(I_C^m\) and every element \(e\)
+of a finite \(k[x_0,x_3]\)-basis of
+\(S/J\). Finite flat **Gorenstein duality**
+makes that pairing perfect, so it detects
+the *actual* ideal rather than one trace.
+This is an all-degree **equivalent algebraic
+formulation**, not an all-degree
+nonexistence theorem or an elimination
+of the source coefficients. The precise
+research gap is whether these jointly
+realized source equations have a solution
+for any bidegree in characteristic zero.
+All new specializations remain **pending
+independent mathematical review**.
 
 ## Motivation and the three genuinely different parameter spaces
 
