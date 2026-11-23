@@ -70,6 +70,28 @@ Jacobian equation incidence** has isotropic first jets. No such
 isotropy theorem is established; a proper pair merely containing
 \(C\) can have nonzero pairing and residual degree twelve.
 
+### Sole-support jet requirement and why it does not suffice
+
+For a hypothetical characteristic-zero STCI,
+[the accepted Poisson identity restricted to the disjoint line](../../arguments/torus/sole_support_first_jet_gate.md)
+forces the first normal jets to have **nonzero**
+Macaulay/Serre symplectic pairing \(\Omega=ab/2\).
+This congruence occupies the one-dimensional socle
+of \(k[x_1,x_2]/(f_0,g_0)\). An explicit family of
+proper global containing pairs realizes that pairing
+for every \(a,b\ge4\) and has a residual curve,
+so the scalar by itself cannot exclude STCI.
+
+The scheme-theoretic power condition \(Q^m\in(F,G)\)
+is tautological after truncation by the disjoint
+line's \(r_*=(a-2)(b-2)/2\)-th ideal power,
+by the graded free fiber-basis bound. In bidegree
+\((6,6)\), the first potentially restrictive
+normal coefficient is order eight, not order one
+or two. Higher-order global compatibility can still
+constrain the first jets indirectly; no complete
+jet realization criterion is claimed.
+
 ## Bridges
 
 An osculating quadric puts the entire quadratic conductor at one general
