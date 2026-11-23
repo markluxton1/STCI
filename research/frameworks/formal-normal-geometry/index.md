@@ -24,6 +24,22 @@ to obtain \(N_{C/\mathbf P^3}\simeq\mathcal O_{\mathbf P^1}(7)^{\oplus2}\).
 
 Let \(F,G\) define distinct integral surfaces containing \(C\), and set \(Z=V(F,G)\). **Do not assume** \(Z_{\mathrm{red}}=C\). The eventual STCI condition is a constraint to detect, not a standing hypothesis. In particular, a component of \(Z\) different from \(C\) may meet \(C\) at finitely many points, and the formal completion along \(C\) need not record its full global geometry.
 
+### The first-jet symplectic residue of an actual Chow-matched pair
+
+The [spectral–Jacobian calculation](../../arguments/torus/spectral_jacobian_first_jet_bridge.md)
+uses the independently established mixed-minor/socle lemma without
+normal flatness, saturated first relations or normal-order hypotheses.
+For a proper CI whose **entire cycle** consists of translates,
+\(A M_{12}-2B M_{03}\in(F,G)\) as a relation in the actual
+nonreduced ring. The relative-residue trace converts the remaining
+first moment into an alternating perfect Macaulay pairing of the
+**first normal equation jets** along the canonically disjoint
+projection line. The family of such jets is not known to be
+isotropic; this is a global source/Chow constraint, not a local
+multiple-structure classification. The first-normal layers here
+refer to the line disjoint from \(C\), not to the conormal filtration
+along \(C\); the two filtrations must not be identified.
+
 ## Simultaneous realization and compatibility problems
 
 For any homogeneous form nonzero on a characteristic-zero CI supported on
