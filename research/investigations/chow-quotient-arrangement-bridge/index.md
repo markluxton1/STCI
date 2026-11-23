@@ -123,6 +123,50 @@ offer two complementary algebraic
 formulations of the one unresolved
 identity.
 
+### Explicit resultant factors: the full two-torus data
+
+The [two-step toric norm computation](../../arguments/torus/transverse_chow_moment_realization.md#12-the-complete-ci-resultant-as-a-product-of-two-step-toric-norms)
+writes the **entire normalized actual CI line
+resultant** as
+\[
+ \widehat{\mathscr R}_{F,G}(y,z)
+ =\prod_i
+  \left[(1-2\xi_i yz)^2-
+      \frac{\xi_i^2}{\eta_i}
+       (y^2+\eta_i z^2)^2\right]^{n_i},
+ \qquad
+ \xi_i=\frac{u_i}{v_i},\
+ \eta_i=\frac{u_i^2}{v_i}.
+\]
+Each factor is a composition of **two quadratic
+norms** along \(t\mapsto-t\) on
+the four-point plane section, with
+\(X_iY_i=\xi_i\), \(Y_i^2=\eta_iX_i^2\).
+A single factor
+\(1+A yz+B y^4+C y^2z^2+D z^4\)
+satisfies the two **toric equations**
+\(A^2=8C,\ C^2=4BD\).
+Consequently the translated arrangement
+maps to the multiplicative Chow image
+of this explicit toric surface inside
+the line-resultant space. The target
+\(M_1=0\) is simply the **first
+elementary symmetric equation** on
+the \(yz\)-coefficients of these factors:
+\([yz]\widehat{\mathscr R}=-4\sum_i n_i\xi_i\).
+The \(y^4\) and \(z^4\) axis spectra
+respectively record \(\xi_i^2/\eta_i\)
+and \(\xi_i^2\eta_i\); their
+**paired products** are \(\xi_i^4\),
+so the mixed coefficient is what
+retains the fourth-root phase and
+the pairing of the two torus characters.
+The full product formula alone does
+not force this coefficient to vanish;
+the missing step is a restriction
+imposed by its **actual two-equation
+Sylvester resultant realization**.
+
 ## Primary Chow realization and first-moment separation
 
 For repeated curves the primary space remains the unordered cycle space
