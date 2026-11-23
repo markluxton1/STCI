@@ -299,6 +299,21 @@ the inclusion alone does **not**
 fix each actual multiplicity;
 the full fiber algebra and its
 lengths must still be specified.
+For an exact **local algebra control**,
+a fat-point bound \((\epsilon,\delta)^3\)
+is contained in the two-generated
+CI ideal \((\epsilon^2,\delta^2)\),
+but the latter quotient has
+length \(4>3\). Thus even for
+Artinian complete intersections
+the nilpotence exponent \(n_i\)
+of the Chow coefficient ideal is
+not an upper bound on the
+actual local CI length. One
+must retain the multiplicity
+data of the target quotient,
+not infer it from the
+coefficient ideal alone.
 
 ## 3.1 The exact moving-quotient defect: why reduced cycles are different
 
