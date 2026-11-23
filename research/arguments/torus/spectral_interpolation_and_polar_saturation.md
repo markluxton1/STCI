@@ -164,6 +164,54 @@ a faithful classification on the
 spectral-collision locus; the complete
 paired Chow form remains necessary there.
 
+### The non-invariant quartic exceptional component in \((H,K)\) coordinates
+
+The already-classified characteristic-zero
+\((4,4)\) exceptional realization has
+\[
+ \sigma=2[(u,v)]+2[(u,-v)],
+ \qquad q=u/v\ne0.
+\]
+Its spectral roots \(q,-q\) are **distinct**,
+even though both supports are doubled.
+The interpolation package is
+\[
+ \tag{8a}
+ \boxed{
+ H=(A^2-q^2B^2)^2,\qquad
+ K=\frac1u\,H_A
+   =\frac{4A(A^2-q^2B^2)}u,\qquad
+ M_1=2q+2(-q)=0.}
+\]
+Hence **the spectral-separating stratum
+does include non-invariant nonreduced CI
+realizations**. It cannot be discarded
+as the already-solved reduced/invariant
+locus. The simple relation \(K=cH_A\)
+on a spectral-separating stratum is
+equivalent to all its component
+\(u_i\)'s being equal (\(c=1/u_i\)),
+because residues of \(K/H\) are
+\(n_i/u_i\), whereas those of
+\(H_A/H\) are \(n_i\).
+This recovers the exceptional
+same-\(u\) geometry from one
+polynomial identity without
+choosing a carrier.
+
+A first-moment theorem on the
+spectrally separated nonreduced
+incidence would therefore go
+beyond the accepted
+reduced/eigenform theorem;
+it is still unknown in
+unbounded degrees. The
+quartic example checks the
+interpolation formulas and
+shows that the new parameter
+reduction does not by itself
+force invariant ideals.
+
 ## 3. Opposite chain membership is redundant for a full-support CI
 
 Let \(h=x_0x_1x_2x_3\). In the
