@@ -126,7 +126,97 @@ degree pairs are \((3,4),(4,4),(4,5)\). In characteristic zero the first two hav
 [low-degree coverage](universal_first_moment_proof_boundary.md#target-and-proved-coverage).
 The criterion alone leaves \((4,5)\), not an established survivor.
 
-## 3. Meaning and remaining gap
+## 3. Several double components: an explicit conductor bound
+
+Suppose every \(n_i\) is one or two. Let \(D\) be the reduced union of
+the \(r\) doubled components. The actual residual \(R\) is exactly
+\(D\): its generic lengths are \(n_i-1\), so it is generically reduced,
+and liaison gives purity. A generically reduced pure curve is reduced.
+For \(r=0\) the original ideal is already reduced and invariant.
+
+For \(r\ge1\), write the doubled parameters as \((u_i,v_i)\) and put
+\[
+ h_i=v_i^2/u_i^3,\qquad
+ \alpha_i=3(r-1)+\#\{j\ne i:u_j=u_i\},\qquad
+ \beta_i=3(r-1)+\#\{j\ne i:h_j=h_i\}.
+\]
+Then the sufficient, configuration-sensitive bound is
+\[
+ 4(b-4)\ge\max_i(\alpha_i+\beta_i)-1
+       \quad\Longrightarrow\quad M_1=0.             \tag{RS6}
+\]
+
+**Proof.** On branch \(i\) near \(p_0\), with coordinate \(z=x_1/x_0\),
+the other coordinates are \((u_i z^3,v_i z^4)\). For each \(j\ne i\),
+choose the local equation \(x_2/x_0-u_jz^3\) of branch \(j\) when
+\(u_i\ne u_j\), and \(x_3/x_0-v_jz^4\) otherwise. Their product
+vanishes on every other branch and restricts to a nonzero scalar times
+\(z^{\alpha_i}\) on branch \(i\). Surjectivity onto the smooth branch
+local ring supplies every multiple of this branch-supported function.
+At infinity use \(z=x_2/x_3\); the cubic and quartic parameters are
+\(h_i=v_i^2/u_i^3\) and \(v_i^3/u_i^4\), giving order \(\beta_i\).
+
+For the normalization \(\nu:\coprod_i\mathbf P^1_i\to D\), this proves
+the conductor inclusion
+\[
+ \nu_*\!\bigoplus_i
+ \mathcal O_{\mathbf P^1_i}(-\alpha_i p_0-\beta_i p_\infty)
+       \ \subset\ \mathcal O_D
+\]
+with zero-dimensional cokernel. After twisting by \(t\), its source
+has zero \(H^1\) if \(4t\ge\max_i(\alpha_i+\beta_i)-1\).
+The same follows for \(\mathcal O_D(t)\), proving (RS6) by (RS1–RS4).
+The conductor calculation itself is valid in every characteristic.
+\(\square\)
+
+For \(r\ge2\) in characteristic different from two, at most one other
+point can share both \(u_i\) and \(h_i\): it must have \(v_j=-v_i\).
+Thus \(\alpha_i+\beta_i\le7r-6\), and a uniform sufficient condition is
+\[
+ b-4\ge\left\lceil\frac{7(r-1)}4\right\rceil.      \tag{RS7}
+\]
+If neither cubic parameter repeats, the stronger bound is
+\(4(b-4)\ge6r-7\). For smaller generator degree \(a=4\),
+\(r\le\lfloor b/2\rfloor\); hence (RS7) covers every \(b\ge17\),
+as well as the odd values \(11,13,15\). This is a multiplicity-at-most-two
+statement, not an all-mate theorem on arbitrary quartic carriers.
+
+## 4. The exact two-double residual in degree one
+
+For two distinct doubled components, let
+\(\eta_i=u_i^2/v_i\). There is an exact formula
+\[
+ h^1(\mathcal O_D(1))
+   =[u_1=u_2]+[h_1=h_2]+[\eta_1=\eta_2],           \tag{RS8}
+\]
+where brackets are ordinary integer indicators, not field-valued sums.
+The formula is valid in every characteristic.
+
+**Proof.** Put \(e=[u_1=u_2]\), \(f=[h_1=h_2]\), and
+\(g=[\eta_1=\eta_2]\). The branch intersections have lengths
+\(3+e\) and \(3+f\) at the endpoints, giving
+\(p_a(D)=5+e+f\) and \(\chi(\mathcal O_D(1))=4-e-f\).
+Write a section on normalization branch \(i\) as
+\(\sum_{j=0}^4 a_{ij}s^{4-j}t^j\).
+At \(p_0\), gluing requires equality of the coefficients indexed
+\(0,1,2\), and of index \(3\) if \(e=1\).
+At infinity the coefficients through cubic order in \(x_2/x_3\),
+using the \(x_3\) trivialization, are
+\[
+ (a_{i4}/v_i,\ a_{i3}/u_i,\ a_{i2}v_i/u_i^2,\ a_{i1}h_i).
+\]
+The first three must agree, and the fourth must agree if \(f=1\).
+The extra cubic conditions are redundant with the opposite endpoint's
+linear conditions. The common quadratic coefficient is free exactly when
+\(\eta_1=\eta_2\), and otherwise is zero. Thus
+\(h^0(\mathcal O_D(1))=4+g\), and Riemann–Roch gives (RS8).
+\(\square\)
+
+Consequently a \((4,5)\) counterexample with all multiplicities at most
+two would require two doubled components sharing at least one of
+\(u,h,\eta\). These special loci are not excluded by this argument.
+
+## 5. Meaning and remaining gap
 
 The obstruction uses the actual residual scheme of the complete
 intersection, not merely its reduced support or cycle. It converts a

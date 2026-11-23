@@ -38,6 +38,18 @@ For an entire translated-quartic cycle, the criterion implies
 number of simple components satisfy the moment relation in every degree;
 one triple component and simple companions satisfy it for \(b\ge6\).
 
+If every multiplicity is at most two, the residual is the reduced union
+\(D\) of doubled components. Explicit endpoint conductor orders
+\(\alpha_i,\beta_i\) give the sufficient condition
+\(4(b-4)\ge\max_i(\alpha_i+\beta_i)-1\). For two doubled components,
+\[
+ h^1(\mathcal O_D(1))
+ =[u_1=u_2]+[v_1^2/u_1^3=v_2^2/u_2^3]
+              +[u_1^2/v_1=u_2^2/v_2].
+\]
+The proof states the configuration-sensitive orders and uniform degree
+consequences; this is a sufficient source criterion, not a converse.
+
 [Proof and precise boundaries](../arguments/torus/chow_moment_residual_speciality.md).
 
 ## Limitations
@@ -54,7 +66,9 @@ A repeated-structure researcher derived the linkage and conormal-filtration
 criteria. A distinct Sol/max correctness reviewer independently reconstructed
 the residual identification, ideal-sheaf duality, saturation, all-characteristic
 torus representation argument, and filtration including possible torsion
-layers on November 23, 2026. The existing moment theorem and R-0020 are
+layers on November 23, 2026. The source-algebra lead supplied the conductor
+bound and exact two-component cohomology formula; the same distinct reviewer
+reconstructed those proofs and their written formulations. The existing moment theorem and R-0020 are
 inherited inputs. That reviewer also checked the written argument and its
 characteristic qualifications. Full contribution synthesis and integration
 review is in progress.
