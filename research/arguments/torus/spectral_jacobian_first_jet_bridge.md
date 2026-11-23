@@ -465,6 +465,48 @@ eight. The global incidence may still impose indirect
 restrictions on the first jets through its high-order
 compatibility; that implication remains open.
 
+### The same residue detects the first global spectral-power obstruction
+
+The [direct STCI power/jet comparison](sole_support_first_jet_gate.md#the-first-power-obstruction-is-another-serre-duality-class)
+identifies a second canonical use of the
+**same** relative Grothendieck residue
+\(\mathcal R_{F,G}:E\to k[x_0,x_3](-d)\),
+\(d=a+b-2\).
+For \(m=ab/4\), \(r_*=2m-d\),
+the first potentially nontrivial
+\(I_L\)-adic class of the **necessary**
+power \(Q^m\) is exactly
+\[
+ \boxed{\mathcal R_{F,G}(Q^m)
+       \in H^0(\mathbf P^1,\mathcal O(r_*)) .}
+\]
+More generally the map
+\(H(A,B)\mapsto\mathcal R_{F,G}(H(A,B))\)
+is linear on the full degree-\(m\)
+homogeneous quadric-spectrum forms and
+annihilates the spectrum of every actual
+translated-cycle CI.
+For a hypothetical STCI the two necessary
+relative-residue values are
+\[
+ \mathcal R_{F,G}(M_{03})=ab/2
+ \quad\text{and}\quad
+ \mathcal R_{F,G}(Q^m)=0 .
+\]
+The first is a scalar encoding the first
+normal jets; the second is a binary
+form of degree \(r_*\) encoding
+higher normal compatibility.
+Both use \(H^1(L,\omega_L)\) via
+the binary CI's Koszul sequence.
+An exact restricted \((4,4)\) example
+forces incompatible first and second
+conditions \(\lambda\mu=8\) and \(4\);
+no general implication is known.
+The first spectral residue vanishing
+is not sufficient for full membership
+\(Q^m\in(F,G)\) or for sole support.
+
 ## 6. Cross-framework interpretation and the actual remaining gap
 
 1. The **Segre/quadrics** viewpoint supplies \(\xi\), the spectral
