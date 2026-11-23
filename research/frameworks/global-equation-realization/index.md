@@ -210,6 +210,17 @@ necessary source inclusions
 admit a two-generator
 proper quotient.
 
+### Sharper full-paired Chow constraints from quadratic and cubic surfaces
+
+The [opposite (2,3) Chow polarizations](../../arguments/torus/weighted_chow_quadric_cubic_polarizations.md) replace the earlier raw degree-\(ab=4m\) full-Chow equations by **\(2m+1\) homogeneous equation constraints in degrees \(2m\) through \(3m\)**. The shared lowest term is the actual quadric-spectrum polynomial \(H_\sigma\); the two opposite chains come from cubic carriers with residual divisors \(2L_{01}\) and \(2L_{23}\) on the respective smooth quadrics. Their combined coefficient ideal has exactly the prescribed translated reduced support, and recovers the same canonical fat-point envelope on the dense torus.
+
+The first normalized polars satisfy
+\[
+ x_2^2E_++x_0^2E_-+
+ x_1H_\sigma(m x_1x_2+M_1x_0x_3)=0.
+\]
+This is a **specific cross-polar source syzygy** for every whole translated-cycle CI (and every abstract cycle), so a proposed proof of UM1 must extract an *additional two-generator global cofactor constraint* rather than divide the common factor \(H_\sigma\) in the CI ring. No new universal vanishing, proper-pair degree bound, or nonexistence theorem is asserted.
+
 ## Bridges
 
 An osculating quadric puts the entire quadratic conductor at one general
