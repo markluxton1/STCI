@@ -272,6 +272,97 @@ three \(H,E_+,E_-\) are **actual ideal
 members**, so (10) is a concrete
 Koszul/cofactor comparison source.
 
+### What the **same two generators** now have to satisfy
+
+The comparison quadric in (10) is
+the **first polar** of the spectral
+form at the reducible member
+\(B=0\):
+\[
+ \tag{10a}
+ mA+M_1B
+ =A\,\partial_AH(1,0)
+  -B\,\partial_BH(1,0),
+\]
+because \(H(A,B)=
+A^m-M_1A^{m-1}B+\cdots\).
+The \(\eta_i\) parameters
+**cancel completely** in this
+comparison: geometrically this
+is the principal difference
+between the two residual double
+ruling lines on each smooth
+quadric. That is precisely
+why the *first* elementary
+symmetric function of the
+quadric parameters appears,
+rather than an independent
+moment of the cubic parameters.
+
+More concretely, write the
+**actual** cofactor identities
+\[
+ \tag{10b}
+ \begin{array}{lll}
+ H=h_FF+h_GG,&
+ E_+=p_FF+p_GG,&
+ E_-=q_FF+q_GG,
+ \end{array}
+\]
+with each cofactor homogeneous
+of the uniquely indicated
+degree. Substitution into (10)
+and the Koszul syzygy theorem
+for a regular sequence give
+**a homogeneous polynomial**
+\[
+ \tag{10c}
+ T\in S_{2m+3-a-b}
+ =S_{(a-2)(b-2)/2+1}
+\]
+satisfying the **two simultaneous**
+equations
+\[
+ \tag{10d}
+ \boxed{
+ \begin{aligned}
+ x_2^2p_F+x_0^2q_F+
+   x_1(mA+M_1B)h_F &= T\,G,\\
+ x_2^2p_G+x_0^2q_G+
+   x_1(mA+M_1B)h_G &=-T\,F.
+ \end{aligned}}
+\]
+Thus (10d) is the exact
+**two-generator lifting condition**
+for the first opposite-ruling
+Chow syzygy. All unknown
+cofactors are constrained by the
+*same* \(F,G\) and the *same*
+symmetric toric points; they
+cannot be chosen independently
+one carrier at a time.
+For \((a,b)=(4,4)\) the
+Koszul multiplier has degree \(3\);
+for \((6,6)\) it has degree \(9\).
+
+The Koszul theorem guarantees
+such a \(T\) **whenever all the
+membership conditions in (10b)
+already hold**. Thus (10d) is
+an equivalent **source-incidence
+formulation**, not an additional
+independent obstruction.
+To deduce UM1 one would need
+to show that this entire
+cofactor system is impossible
+when \(M_1\ne0\), or isolate
+a tighter consequence by
+combining it with the opposite
+endpoint filtrations.
+No cancellation or
+degree-count contradiction
+has yet been proved.
+
 **Exact boundary of the implication.**
 (10) is an *identity of polynomials
 constructed from \(\sigma\)*.
