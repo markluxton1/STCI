@@ -57,6 +57,33 @@ This is a new proposed proof bridge, pending independent review;
 the older six-layer formula remains valid for arbitrary
 finite-free pairs and is not contradicted.
 
+The latest [direct STCI jet compatibility analysis](arguments/torus/sole_support_first_jet_gate.md)
+identifies a **common Grothendieck residue**
+for the two leading tests:
+\(\mathcal R_{F,G}(M_{03})=ab/2\)
+is the nonzero first-jet requirement,
+whereas \(\mathcal R_{F,G}(Q^m)=0\)
+is the first global spectral-power
+requirement for \(m=ab/4\).
+The latter is a homogeneous binary
+form of degree
+\(r_*=(a-2)(b-2)/2\) on the
+disjoint projection-line parameter
+and is the leading associated-graded
+class of \(Q^m\) in the CI algebra.
+The same residue defines a **linear map
+on the entire homogeneous spectral-form
+space**, vanishing on the canonical
+form of any realized translated
+arrangement. A restricted \((4,4)\)
+pair exhibits an incompatibility
+between the two requirements, but
+the all-degree relation between
+these same-residue evaluations is
+unknown. The contribution is a
+source/Chow algebraic bridge, not a
+universal first-moment theorem.
+
 The [cycle-first Chow realization program](arguments/torus/chow_realization_moment_separation.md)
 uses the symmetric power of the orbit quotient as its primary parameter
 space. The universal moment hyperplane misses every interior power locus
