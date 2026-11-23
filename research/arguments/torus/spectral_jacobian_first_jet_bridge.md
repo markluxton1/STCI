@@ -435,6 +435,36 @@ off just from the coefficient of \(A^{m-1}B\) in the
 order-two spectral restriction. It must use genuine
 joint equation compatibility.
 
+### Direct test on a hypothetical sole-support CI
+
+The [companion necessary-jet analysis](sole_support_first_jet_gate.md)
+applies the already-proved main-branch sole-support Poisson theorem
+\(M_{12}-2M_{03}\in(F,G)\) to the first normal
+neighborhood of the disjoint line. It yields the exact
+congruence
+\[
+ J(f_0,g_0)\equiv2(ps-qr)\pmod{(f_0,g_0)},
+ \qquad
+ \Omega(v_0,v_3)=\frac{ab}{2}=2m\neq0.
+\]
+This is the **STCI requirement**, not the conjectural
+**moment-vanishing condition** on all translated-CI cycles.
+In the graded binary CI's one-dimensional socle degree, the
+congruence is equivalent to this scalar requirement.
+For every \(a,b\ge4\) an explicit family of proper global
+equations containing \(C\) realizes *every* scalar value
+of \(\Omega\), including \(ab/2\), but retains a residual cycle
+of degree \(ab-4\). Consequently no first-jet-only
+contradiction results from the accepted Poisson theorem.
+Moreover, the spectral power \(Q^m\in(F,G)\) for a hypothetical
+STCI has **automatically zero truncation** modulo
+\(I_L^{r_*}\), \(r_*=(a-2)(b-2)/2\), for all proper
+degree-\((a,b)\) pairs avoiding \(L\). In the sextic
+\((6,6)\) case this first nontrivial detection order is
+eight. The global incidence may still impose indirect
+restrictions on the first jets through its high-order
+compatibility; that implication remains open.
+
 ## 6. Cross-framework interpretation and the actual remaining gap
 
 1. The **Segre/quadrics** viewpoint supplies \(\xi\), the spectral
