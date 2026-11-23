@@ -223,6 +223,57 @@ The rank and kernel of the canonical
 first spectral map remain informative
 but not sufficient.
 
+### Exact finite duality criterion, not only leading residue gates
+
+The [full same-residue STCI criterion](../../arguments/torus/sole_support_first_jet_gate.md#full-exact-stci-jet-criterion-ideal-powers-and-the-perfect-residue-pairing)
+returns to an **established main-branch
+power bound** \(I_C^m\subset(F,G)\)
+for every actual sole-supported
+proper CI, where \(m=ab/4\).
+The reverse implication also holds
+for any proper pair \(F,G\in I_C\):
+containment \(I_C^m\subset(F,G)\subset I_C\)
+forces reduced support exactly \(C\).
+The homogeneous ideal
+\(I_C=(Q,U,W,V)\) has one unique
+quadric and three cubics, so
+\(I_C^m\) has explicit finite
+generators \(Q^{m-j}U^\alpha
+W^\beta V^\gamma\).
+By **finite flat Gorenstein
+duality**, the relative residue
+pairing \((h,h')\mapsto\mathcal
+R_{F,G}(hh')\) is perfect.
+Therefore STCI is equivalent to
+vanishing of \(\mathcal R_{F,G}(g e)\)
+for all those generators \(g\)
+and all \(ab\) elements \(e\)
+of a graded \(k[x_0,x_3]\)-basis
+of the actual CI algebra.
+This is an exact finite coefficient
+criterion at every fixed bidegree;
+it still does not eliminate or
+exclude all \(F,G\).
+
+The concrete globally lifted
+quartic negative control has
+\(\mathcal R(Q^4)=0\) while
+\(\mathcal R(x_1Q^4)=2x_0^2x_3\)
+and \(\mathcal R(x_2Q^4)=12x_0x_3^2\)
+are nonzero. It also passes the
+first Poisson scalar while
+multiplying its Poisson error by
+\(x_1,x_2\) detects nonzero
+residues. This proves the
+**necessity of the whole
+Gorenstein pairing test**,
+not merely its \(h=1\) row.
+The unique degree-\(2m\) generator
+\(Q^m\) only sees the containing
+quadric; cubic generators retain
+the moving \((1,3)\) divisor
+inside \(Q\).
+
 ## Motivation and the three genuinely different parameter spaces
 
 The [full Chow-polytope rigidity theorem R-0074](../../results/chow_polytope_rigidity.md) says that the cycles with full column-weight polytope \(mP_C\) are exactly effective sums of \(m\) diagonal translates of \(C\). This is a strong **cycle** classification, not a classification of reduced unions, their blow-ups, or equations.
