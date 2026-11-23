@@ -527,6 +527,48 @@ all homogeneous multipliers need not preserve contact. No contact bound
 for sole support or assertion about arbitrary limits of marked
 sections is made here.
 
+### The same determinant-versus-structure gap in a finite image algebra
+
+The [marked finite-index rigidity theorem MJ1--MJ4](../residuals/blowup_residual_geometry.md#finite-index-rigidity-of-higher-marked-jets)
+offers an instructive distinct model of the limitation
+of \(\nu\). On the first graph of the characteristic-zero
+\((3p,4q)\) equality edge, a proposed full-rank
+submodule \(M\) of the primitive strict algebra has
+the **correct** finite quotient length, but it need
+not be an algebra: its border products must also
+lie in \(M\). The actual image must be multiplication
+closed. In the simplest new test,
+\(f=v^3+xv^2\) fails because \(f^4\)
+escapes the index-correct lattice, forcing
+a smaller actual finite quotient length.
+The vanishing of the forbidden first base
+jets \(xv^2,\ldots,xv^{q-1}\) (up to the
+\(xv\) correction) is therefore an
+equation-level condition, not a determinant
+identity.
+
+In the present torus degeneration, the
+canonical Sylvester determinant measures an
+index of \(\mathcal O_R\)-submodules
+\(U_{\rm gen}\subset U_{\rm full}\subset W\).
+It neither measures algebra closure of a
+finite primary image nor identifies its
+saturated normal layers; the existing
+three controls already prove that different
+layers can have the same \(\nu\).
+The common general mechanism is the
+**failure of determinant/index data to
+reconstruct actual multiplication and
+presentation**, not an equality between
+the two different indices or their
+geometric defects. This suggests a
+source-first continuation: fix the
+correct full lattice, check the
+multiplication and relation maps, and
+only then impose homogeneous liftability
+and support. The marked test does not
+supply a new toric full-limit theorem.
+
 ## Remaining equation-source comparison
 
 For a specified degree pair, retain the weight-filtered spaces J_a and J_b,

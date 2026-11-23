@@ -279,6 +279,19 @@ There is another distinction worth preserving. On a nodal \(C\cup D\) with \(D\)
 
 This makes \(B_C\) a good marked invariant and an incomplete invariant of the total curve. A proposed ordering using only \(B_C\) must expect large fibers.
 
+The [all-order toric primary and attachment theorem TS1--TS3](fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier)
+is the repeated-root extension of this marked boundary
+comparison on the classified fixed carrier. It computes
+the finite-image normal layers by the cusp semigroup and
+the full-primary attachment by the signed socle class,
+including the actual quartic partial collision. At that
+collision the marked reduced attachment decreases from
+\(9p_0+9p_\infty\) to \(6p_0+6p_\infty\), but the full-thick
+attachment length increases from 18 to 24. The generic
+reduced conductor formula above alone cannot be applied
+to the nonreduced entire special fiber. These calculations
+await independent review.
+
 ## 3. The topology is much simpler than the arithmetic genus suggests
 
 Topologically, a high-order tangency still glues the same points as an ordinary gluing. The normalization consists of four spheres, and at each endpoint four points are identified. The bipartite incidence graph has four component vertices, two singular-point vertices, and eight branch edges. Its first Betti number is \(8-6+1=3\).

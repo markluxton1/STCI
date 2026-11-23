@@ -205,6 +205,8 @@ not invert this implication without a separate global relation.
 
 ### 4. Cartier-index integrality and new all-degree exclusions
 
+**Stronger literature input (independent review pending).** Hartshorne--Polini, Lemma 7.6, already proves hyperplane saturation for all surfaces in projective three-space in characteristic zero. Česnavičius–Scholze, [*Purity for flat cohomology*, Corollary 7.2.3](https://annals.math.princeton.edu/2024/199-1/p02), prove `Pic(X)/Z[H]` torsion-free for any projective complete intersection of dimension at least two over a field. As `RC0` is Cartier and some multiple is linearly equivalent to a multiple of `H`, it follows that `RC0 ~ (4R/a)H`. Thus `a | 4R`, `mu | R`, `t=R/mu`, `b_min=4R/a`, and `m_min=R`, without a rationality or characteristic restriction on the fixed-carrier Picard argument. See the [strengthened exact theorem](normal_carrier_divisor_geometry.md#3-exact-exponent-and-minimal-mate-once-the-boundary-is-reached). The earlier weaker integrality calculation below is retained as an elementary independent necessary condition; applications of the characteristic-zero quartic exclusion remain characteristic-zero.
+
 The global Cartier index of `C0` is exactly `R`: a Weil divisor on
 a normal surface is Cartier if and only if it is Cartier at every
 point, and its local classes are already zero at the regular points
@@ -223,9 +225,7 @@ bundle restricted to the smooth projective curve. Therefore
 a divides 16R.
 ```
 
-This is separate from the torsion order `t` of `Delta_0`: the global
-Cartier index of the curve is `R`, whereas `t=R/gcd(R,mu)`. Keeping
-those two integers distinct avoids a false divisibility claim.
+This is separate from the torsion order `t` of `Delta_0`. The stronger complete-intersection Picard theorem above shows `mu | R`, so `t=R/mu`; it is not in general equal to the global curve index `R`.
 
 #### Index-dividing-degree exclusion
 
@@ -287,7 +287,7 @@ then under a mate
 ```
 t divides L/gcd(L,mu),
 b_min <= (4/g) L/gcd(L,mu).
-R divides L,  a divides 16R,  hence a divides 16L.
+R divides L,  a divides 4R,  hence a divides 4L.
 ```
 
 Thus a carrier class with bounded local index exponent has both a
@@ -295,8 +295,8 @@ uniform mate-degree bound and a **finite list of possible carrier
 degrees**. Retain only divisor pairs
 
 ```
-R|L,  a|16R,  a>=5,
-(4/g) R/gcd(R,a/g) > 4.
+R|L,  a|4R,  a>=5,
+4R/a > 4.
 ```
 
 Elementary exact divisor arithmetic gives:
@@ -310,12 +310,12 @@ Elementary exact divisor arithmetic gives:
 | 12 | `(6,12,4,8)` and `(8,12,6,6)` |
 
 For `L=12`, the possible `R` are `1,2,3,4,6,12`. The first five
-give no survivor. For `R=12`, the carrier degrees at least five
-dividing 192 are
-`6,8,12,16,24,32,48,64,96,192`; their respective first mate degrees
-are `8,6,4,3,2,3,1,3,1,1`. Only the first two exceed four.
-The corresponding elementary calculation is preserved in
+give no survivor: any carrier degree at least five with first mate
+degree greater than four would require `5<=a<R` and `a|4R`.
+For `R=12`, these restrictions alone give `a=6,8`. The older,
+weaker divisor arithmetic and its independent replay are preserved in
 `research/computations/normal_carrier_index_reduction_2026_10_14.py`.
+The survivor list is unchanged, but far fewer candidates need testing.
 
 Consequently all normal carrier classes with on-curve local indices
 dividing `2`, `3`, `4` or `6` are excluded across all degrees.
@@ -354,41 +354,26 @@ subsections correct.
 
 #### General integral curves, not just the rational quartic
 
-The hypersurface Picard route in section 5 removes the rationality
-hypothesis from the index formulas. Let `C` be **any integral**
-degree-`e` projective curve on a normal degree-`a` hypersurface in
-`P^3` over an algebraically closed characteristic-zero field, and
-suppose it has a mate on that carrier. Put `g=gcd(a,e)` and let
-`R` be the least common multiple of the actual local Cartier indices
-of `C`. All those indices are finite by the mate. Then
+For any integral degree-e curve on a normal degree-a hypersurface
+in P3 over an algebraically closed field, the cited flat-cohomological
+theorem removes both the rationality and characteristic restrictions
+from the fixed-carrier index formula. If a mate exists, then
 
 ```
 Delta_0 = (a/g)[C] - (e/g)[H],
-t = order(Delta_0) = R/gcd(R,a/g),
-b_min = (e/g) R/gcd(R,a/g),
-a divides e^2 R.
+t = R/(a/g),  b_min = eR/a,  m_min=R,
+a divides e R.
 ```
 
-The first two formulas use the torsion-free Picard group and the
-localization kernel; the last uses the integer degree of the actual
-line bundle `O_X(RC)` restricted to the integral curve. Its numerical
-degree is `R C^2=R e^2/a`. Degree of a line bundle remains an integer
-on a possibly singular integral projective curve.
-
-Consequently, if the actual on-curve Cartier indices all divide
-`L`, then
-
-```
-a divides e^2 L.
-```
-
-Thus **a bound on local curve indices gives a finite carrier-degree
-reduction for all integral curves**, in every mate degree. This does
-not impose or prove such an index bound for unrestricted carriers;
-it identifies precisely the new geometric invariant whose control
-would turn the normal branch into a finite carrier problem.
+Here R is the least common multiple of the actual local Cartier
+indices, and g=gcd(a,e). Hence if the actual local indices divide L,
+then a divides e L. This is a finite list of possible carrier degrees,
+not a proof of a uniform index bound. The local socle theorems and
+characteristic-zero low-degree exclusions retain their original scope.
 
 ### 5. Primary literature and the Pic/Cl distinction
+
+The stronger arbitrary-characteristic input is Česnavičius–Scholze, Corollary 7.2.3, as stated above. The following earlier characteristic-zero argument supplies an independent torsion-freeness proof for Pic(X), without the stronger hyperplane saturation statement.
 
 The exact literature input inspected for projective hypersurfaces is
 SGA 2, Expose XII, Corollary 3.5, printed page 120, PDF page 128 in
@@ -911,6 +896,101 @@ carriers, nonnormal carriers, or all STCI presentations of C0.
 ---
 
 <a id="2026-10-14-generalization-curvilinear-torsion-and-index12"></a>
+## A uniform torsion bound on normal K3 carriers
+
+An established surface classification gives another
+all-degree tool when a carrier is a normal K3 surface,
+including anticanonical K3 carriers on a Fano threefold.
+This is not a new classification. Garbagnati--Penegini--Perego,
+[*Singular symplectic surfaces* (2026), §4.2.1,
+Lemma 4.10 and Proposition 4.11](https://link.springer.com/article/10.1007/s13366-026-00838-w),
+describe the possible nonprimitive exceptional ADE
+lattices and their cyclic covers, using Nikulin and
+the torus quotient classification. In particular,
+the order of an individual divisible exceptional
+class is at most eight. Its applicability here is
+as follows.
+
+Let \(U\) be an integral normal complex projective
+surface with only Du Val singularities whose minimal
+resolution \(S\) is K3. Write \(\mathcal E\) for
+the integral lattice generated by its exceptional
+curves. Since \(\operatorname{Pic}(S)\) is torsion-free,
+\[
+ \operatorname{Cl}(U)=\operatorname{Pic}(S)/\mathcal E,
+ \qquad
+ \operatorname{Cl}(U)_{\rm tors}
+       =(\mathcal E\otimes\mathbf Q\cap\operatorname{Pic}(S))
+         /\mathcal E .
+\]
+The first equality is proper birational strict
+transform of Weil divisors modulo exceptional
+divisors; the second is the elementary lattice
+saturation identity. The quoted classification
+is exactly a classification of these divisible
+classes. Hence every torsion class of \(\operatorname{Cl}(U)\)
+has order at most eight (not necessarily dividing eight).
+An equivalent proof uses the cyclic quasi-etale
+cover determined by the torsion class, with minimal
+resolution K3 or abelian, and the classification
+of cyclic symplectic actions; the latter proof
+would need to retain the torus translation/inertia
+distinction, so the divisible-class theorem is
+the simpler existing result.
+
+For an ample Cartier polarization \(H\) and a smooth
+marked prime curve \(\Delta\) which has an actual
+mate proportional to \(H\), put
+\(a=H^2,e=H\Delta\), \(g=\gcd(a,e)\),
+\(\mu=a/g,\ v=e/g\).
+The primitive class \(\tau=\mu\Delta-vH\) is torsion
+since any actual relation is a positive multiple
+of this class. If \(t=\operatorname{ord}\tau\), then
+\[
+ t\le8,\qquad R=\operatorname{lcm}r_P\mid\mu t,
+ \qquad r_P/\gcd(r_P,\mu)\mid t.
+\]
+These are uniform bounds independent of the
+mate degree. If \(H\) has saturated primitive
+restriction from the ambient Picard lattice and
+the only ambient polarization direction is \(H\),
+then \(R=\mu t\) by the same Picard-saturation
+argument as in the original hypersurface theorem.
+Finiteness of local indices alone is still not
+sufficient without numerical equality (or an
+actual mate).
+
+For the degree-two image carrier \(U\in|2M|\)
+in \(V_5\) with the marked rational quintic,
+\(a=10,e=5,\mu=2,v=1\). When \(U\) is globally
+normal with only ADE singularities, its minimal
+resolution is K3 by adjunction and rationality
+of those singularities. The ample Lefschetz
+input gives primitive \(M\) in \(\operatorname{Pic}(U)\).
+Therefore \(R=2t\le16\), and the smallest
+\(V_5\)-mate degree is exactly \(t\le8\).
+The Cartier relation lifts by the hypersurface
+sequence on \(V_5\):
+\(H^1(V_5,\mathcal O((t-2)M))=0\) by Kodaira
+vanishing for \(t>0\), since \(K_{V_5}=-2M\).
+This compresses image mates, but does **not**
+automatically preserve the prescribed order
+along the conic \(\Gamma\) needed to lift
+back to a sole-support pair in \(\mathbf P^3\).
+Do not substitute this global-ADE bound for
+the weaker local hypothesis in the
+[primitive graph-row obstruction](../residuals/blowup_residual_geometry.md#a-k3-marked-lattice-obstruction-to-the-primitive-graph-row):
+the rank proof there works even with worse
+singularities away from the curve.
+
+The classification input is established; its
+applications, including precise polarization
+and local-index interpretation, await
+independent review. They extend over
+algebraically closed characteristic zero by
+descent to complex models, not to arbitrary
+characteristic without a new torsion argument.
+
 ## Curvilinear ordinary normal layers and local index compatibility
 
 The [full filtered compatibility theorem](#2026-10-14-generalization-index12-filtered-compatibility) proves that the torsion-free ordinary layers are powers of the first free line, while retaining torsion and actual top-socle defects. Its pointwise Frobenius-lattice proof yields \(2\sum_i\operatorname{length}T_{i,P}=nD_{n,P}\); for odd \(n\), every local top-socle multiplicity is even. Neither result silently identifies ordinary powers with the saturated Bănică–Forster filtration. The distinct length-twelve pole and first-symbol calculations follow.
@@ -1229,6 +1309,101 @@ dimension at most two and is regular. Thus A_F,P = D_r,P = 0, and
 The class index r does not bound A_F,P or D_r,P. For example index-four
 D_n singularities may have large higher corrections. Formula (7)
 charges those corrections rather than suppressing them.
+
+### Normality is unnecessary: the actual almost-Cartier power theorem
+
+**Status: extension of the reviewed power--socle and symbolic-triple
+proofs, pending independent mathematical audit.** Let \(S\) be an
+integral hypersurface in a smooth threefold, over an algebraically
+closed field of characteristic zero, and \(C\subset S\) a smooth
+curve such that \(S\) is regular at its generic point. Suppose
+\(rC\) is an effective Cartier divisor locally at \(P\in C\),
+where \(r\) is the order of the **downstairs almost-Cartier class**
+of \(C\) at \(P\). No normality of \(S\) is assumed.
+
+All the local formulas (7)--(11) above continue to hold for any
+actual Cartier multiple \(n=kr\). The only two uses of normality in
+their proof were extension of \(c/h^{k-1}\) and \(z^r/h\), where
+\(h\) defines \(rC\) and \(z\) generates the free first-conormal
+direction. Work first in the algebraic local ring of the integral
+hypersurface, which is \(S_2\). At its height-one prime \(C\) the
+local ring is a DVR, so exactly the same valuation comparisons
+give regularity of these fractions. At every other height-one
+prime, **\(h\) is a unit**, because its actual Cartier divisor
+has support only \(C\). Thus both fractions are regular at every
+height-one prime, hence in the local ring by \(S_2\).
+This is the same Hartogs argument for rational sections used in
+[Hartshorne, *Generalized Divisors and Biliaison*](https://arxiv.org/abs/math/0301162)
+and the [fixed-carrier mate lattice](../torus/fixed_surface_restriction_lifts.md#comparing-multiplicities-on-one-fixed-carrier).
+The local Cartier equation for \(nC\) is a unit times \(h^k\), by
+equality of actual Cartier divisors (or the same argument for the
+ratio in both directions). The algebraic fraction identities can
+now be completed; no assumption that an arbitrary nonnormal
+completion is a normal domain is needed. The generic-order-one
+condition, actual effective Cartier multiples, and purity of
+complete intersections supply the same finite free Artin algebras
+over the smooth curve parameter. The relative Jacobian and
+Frobenius arguments of §§3.2--3.3 therefore apply unchanged.
+For index one, the effective Cartier divisor is the reduced
+smooth curve: it is pure, generically reduced, hence reduced.
+A regular quotient by a principal ideal forces the surface to
+be regular at \(P\), as before.
+
+The symbolic powers needed for the triple argument are now defined
+intrinsically by contraction from the DVR at \(C\):
+\[
+ I_C^{(j)}=\mathcal O_S\cap I_{C,\eta}^{\,j}.
+\]
+They are primary to the curve, so their quotients are pure of
+dimension one. In the index-two case, \(I_C^{(j+2)}=hI_C^{(j)}\)
+by exactly the same \(S_2\) fraction-extension test, because
+\(h\) is a unit at other height-one primes. At index \(r\ge3\),
+the quotient from the actual local Cartier multiple \(W_r\)
+to the symbolic triple still exists; its first relation module
+and Frobenius-lattice comparison are unchanged. If \(W_r\) is
+primitive, the symbolic quotient of length \(j\le r\) is its
+saturated quotient (both ideals agree generically, and the
+monogenic quotient is already pure). This justifies the
+argument without identifying symbolic powers with ordinary
+powers or presupposing normality.
+
+Consequently the complete
+[symbolic-triple certificate](#a-symbolic-triple-defect-certificate-for-unrestricted-normal-carriers),
+including its first-layer apolar condition, parity bounds and
+one-unit improved slope (7) of the later comparison, applies to
+every generically regular carrier of \(C_0\) with finite actual
+downstairs local almost-Cartier indices and a mate, with precisely
+the same formulas. The local arguments are characteristic zero
+here; the flat Lefschetz Picard theorem alone does not extend
+the relative Jacobian identities to wild indices.
+
+**All-degree consequence, not just an extension of the formula.**
+The [almost-Cartier minimum-mate formula AC3](fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices)
+gives \(a\mid4R,\ b_{\min}=4R/a,\ m_{\min}=R\). If every local
+almost-Cartier index is at most four, then \(R\mid12\).
+The accepted quartic theorem excludes \(a\le4\) and
+\(b_{\min}\le4\). Thus \(5\le a<R\), \(a\mid4R\), so the only
+ordered carrier/mate possibilities are \((6,8),(8,6)\), \(R=12\).
+The proof in §§5--6 below then excludes both with no change:
+the octic slack is negative; the sextic slack forces the
+constant-direction primitive symbolic triple, which is
+impossible for the fixed embedding. All of its normality
+uses have just been replaced. Therefore
+
+> No integral characteristic-zero carrier, normal or nonnormal,
+> generically regular along the fixed rational quartic and with
+> all actual local **almost-Cartier** indices at most four, can
+> admit a mate of any degree.
+
+In particular the slope bound
+\(4a^2-(7s+6)a+16s\le0\) for \(s\ge3\), the full intrinsic
+local defect budget, and the low-index exclusion transfer
+to this substantially larger class. They cannot be applied
+to the indices on the normalization alone, nor when the
+carrier is singular at the generic point of \(C\). The
+independently reviewed normal statements below are retained;
+the extension requires separate review, especially the use
+of actual Cartier support and the symbolic primary quotients.
 
 ### 4. A pointwise index bound gives a linear carrier-degree bound
 

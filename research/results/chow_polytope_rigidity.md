@@ -78,5 +78,7 @@ toric surface, with a contrasting quadric exclusion. These are scoped
 realization results, not a classification of all Hilbert lifts of this fiber.
 The [general first moment](../arguments/torus/chow_arrangement_moments.md)
 further separates the Chow closure of invariant CI cycles, including reduced
-arrangements, from the deepest diagonal in characteristic zero. It does not
-classify non-invariant repeated-cycle lifts.
+arrangements, from the deepest diagonal in characteristic zero.
+[R-0079](quartic_chow_pencil_classification.md) classifies the full
+\((4,4)\) realization locus, including an exceptional non-invariant
+orbit beyond that degree's invariant cycle closure.

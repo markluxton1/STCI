@@ -161,6 +161,8 @@ is unavoidable. No such universal bridge is proved here. The displayed moving
 family and the twisted-cubic/contact/Rees controls explain which weaker
 conditions are insufficient.
 
+There is now a specific positive bridge: [layerwise attachment duality](../../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) bounds each complementary-layer defect by the marked attachment divisor, and a positive such defect forces a genuine residual. This uses the actual full primary inside a Gorenstein CI, not an arbitrary normalization or a defect of an unlifted ideal. The [fixed toric example](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) shows that total thick attachment is not monotone in residual degree. The [canonical ideal transfer](../../arguments/residuals/blowup_residual_geometry.md#local-canonical-ideal-version-and-several-marked-points) identifies the conductor when the image primary has no residual, and the corrected canonical colon otherwise. No universal obstruction follows. Pending independent review.
+
 ## Literature and bounded stopping points
 
 The primary literature is integrated where its hypotheses are checked:
@@ -188,3 +190,46 @@ genus identities, or abstract cover normalizations alone cannot supply it.
 - [Normal directions and apolar tests for quartic ancestors](../../arguments/local-cohomology/direction_and_apolarity.md)
 - [Endpoint ancestors and simultaneous targets](../../arguments/local-cohomology/endpoint_and_two_target_lifts.md)
 - [Ancestor exclusions and conductor endpoint comparisons](../../arguments/local-cohomology/ancestor_and_conductor_endpoints.md)
+
+
+## Contact is automatic on the pure sole-support orbit image
+
+The
+[dense-orbit calculation](../../arguments/torus/contact_jacobians_and_hamiltonian_actions.md#dense-orbit-contact-is-automatic-after-sole-support-collapse)
+puts the induced transverse bracket in the form
+\[
+ (u-v)(\partial_u\wedge\partial_v)
+\]
+up to an invertible factor.  Scheja--Storch's theorem on the Kähler
+different implies that every finite local transverse ideal supported at
+\((1,1)\) is automatically involutive: for a CI the Jacobian different is
+the socle and is killed by \(u-v\); for a non-CI the different is zero.
+The
+[constant-orbit theorem](../../arguments/torus_embedded_quotients.md#sole-support-constant-orbit-images-are-automatically-involutive-in-characteristic-zero)
+shows that weighted contraction across both endpoints preserves this
+involutivity.  Hence contact imposes no extra condition on the finite
+transverse quotient or on its pure endpoint image.
+
+For a **full** torus limit \(L\), let \(Y\) be its pure constant-orbit
+quotient and \(T=I_Y/I_L\) the finite endpoint correction.  The full-limit
+Poisson theorem makes \(L\) involutive, while \(Y\) is automatically so.
+The residual condition is the finite conormal map
+\[
+ \kappa_L:\bigwedge^2(I_L/I_L^2)\to T.
+\]
+Its vanishing is equivalent to involutivity of the full ideal.  The
+intrinsic endpoint theorem currently supplies the lengths of the two
+pieces of \(T\), not this conormal map.  Thus the next contact calculation
+must retain the actual endpoint algebra or the graded generators of the
+full limit; pure quotient data and endpoint lengths alone cannot decide it.
+
+
+**Exact Hilbert-polynomial controls.**  The
+[diagonal quotient/Cartier-multiple control](../../arguments/torus_embedded_quotients.md#the-diagonal-quotient-recovers-the-cartier-multiples-nc)
+provides pure sole-supported, torus-fixed and automatically involutive
+images whose Hilbert polynomial is exactly that of a complete intersection:
+\(n=4\) matches \((4,4)\), and \(n=6\) matches \((3,8)\).
+The invariant-supported CI theorem still forbids a two-generator
+presentation in characteristic zero.  Hence neither endpoint symmetry nor
+contact plus the correct Hilbert polynomial can substitute for the actual
+homogeneous source spaces and proper-pencil condition.

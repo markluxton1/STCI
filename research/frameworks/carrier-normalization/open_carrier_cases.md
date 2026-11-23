@@ -16,7 +16,7 @@ Consider an integral sextic of exact normal order two whose first exceptional
 divisor is the reduced sum of two distinct integral, content-free sections
 with no vertical component. A hypothetical sole-support mate must pass the
 [split numerical and first-normal reductions](../../arguments/carriers/split_sextic_conductor_and_contact.md#p-041-torsion-corrected-sharpening-of-the-surviving-split-sextics).
-Keep the \([4]\) and \([2,2]\) strata separate.
+Keep the \([4]\) and \([2,2]\) strata separate. The [all-order branch/first-graph theorem](../../arguments/carriers/numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) now explains why these are the two low-slope classes on the entire degree-\(3p\) no-vertical two-degree-one-branch boundary. A single horizontal root without vertical content is excluded in every degree, and for arbitrary vertical fibers the branchwise excess must pay for the exceptional correction. Review these general deductions before applying them to a surviving sextic source; non-Cartier corrections and full descent are still necessary. No additional exclusion of the specified one-parameter line is claimed.
 The [fixed ramified first-normal specimen](../../arguments/residuals/quasiprimitive_residual_cycles.md#proved-the-fixed-p-041-boundary-normal-form-has-no-stci-carrier)
 has an all-mate exclusion from higher jets. In the \(d=1,[2,2]\) family
 with both residual ruling roots totally ramified and the two low evaluation

@@ -56,8 +56,26 @@ Intersecting with H and c gives
 
     4m=ab,   c^2=16/a.                                   (1)
 
-In particular c^2 is integral, but that divisibility is not needed
-for the contradiction below.
+**First, a degree-independent exclusion before conductor analysis.**
+Since \(c\) is Cartier on its smooth normalization neighborhood,
+\(c^2=16/a\) is an integer. Thus a necessary condition for any
+sole-support mate in this smooth-normalization regime is
+\[
+ \boxed{a\mid16.} \tag{1a}
+\]
+For \(a\ge5\) this leaves only \(a=8\) and \(a=16\).
+In particular a **degree-five or degree-six nonnormal carrier
+with a mate cannot have normalization smooth along the lifted
+curve**, regardless of its conductor geometry. The rest of
+this proof is still needed to exclude smooth-conductor
+contact when \(a=8\) or \(16\), and more generally to
+quantify the singular-conductor excess.
+
+This integral-self-intersection restriction is independent
+of the local conductor comparison; it belongs to the
+same forced divisor-ray mechanism as the normal-carrier
+Hodge equality, but **does not** assert a normal
+Hodge sufficiency criterion on the nonnormal image.
 
 Let I be the full conductor ideal on X. Finite duality, together with
 the hypersurface identity `omega_S=O_S(a-4)`, gives near c

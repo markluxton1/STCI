@@ -121,6 +121,8 @@ R_F=\lambda\prod_i \ell_i^{M_i},
 \]
 where the \ell_i cut ruling fibers.
 
+On the no-vertical first-normal locus, the [Cartier cluster test](../carriers/numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) imposes additional, mate-degree-independent divisibility on these ruling multiplicities: for two inverse branches of degrees (f_i) and direction-degrees (h_i), every (M_j) is divisible by (2p/gcd(2p,f_i+h_i)) for each branch. For more branches it gives an integer matrix of actual ruling/branch intersections. This is an extension of the split-sextic root-partition theorem, subject to independent review; it does not cover the vertical-content stratum.
+
 Thus on Q the degree-3p carrier has the exact form
 \[
 F|_Q=h^p\prod_i\ell_i^{M_i}.
@@ -475,7 +477,7 @@ but rather:
 
 ### 5. Local APic contribution
 
-When X is nonnormal along C, the class of a divisor supported on C is more naturally an almost-Cartier class. Hartshorne-Polini's normalization framework relates APic(X) to Pic(S) and local data along the conductor/singular locus.
+When X is nonnormal along C, do **not** assume the reduced curve defines an almost-Cartier class: it need not be Cartier at its generic point. An actual mate defines a Cartier divisor with the branch valuation vector upstairs. The [full normalization/conductor lattice theorem](../carriers/fixed_carrier_descent_and_cartier_models.md#4-an-exact-fixed-carrier-criterion-including-thick-support) is the correct test here, not a scalar reduced-curve APic class. When X is regular at the generic point, the [normalized Hodge/APic criterion](../carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) does give an exact almost-Cartier criterion. Hartshorne-Polini's normalization framework relates APic(X) to Pic(S) and local data along the conductor/singular locus.
 
 Accordingly the full filter has two layers:
 
@@ -499,7 +501,7 @@ For a fixed carrier:
 
 The generic Rees/cluster invariant becomes useful only after fixing enough geometry of one carrier to map its valuations to normalization branches.
 
-Thus there is no carrier-independent APic inequality analogous to the first-blowup inequality presently justified.
+The [branch valuation and first-graph dictionary](../carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) now makes this relation exact on a common principalizing resolution: the actual horizontal strict-intersection multiplicity is the pushforward of the normalized valuation of G minus q times the valuation of the marked ideal. Local exceptional valuations give the vertical cycle. The normalized Hodge gap and exceptional principalization gap add to the explicit first-graph marked-ideal square deficit. This excludes all content-free singleton or single-root carriers in every degree for C0 and determines the two-branch numerical matrix without special sextic coordinates. These new deductions await independent review. They do not turn an arbitrary ambient Rees valuation into a normalized branch or supply a converse to the valuation test.
 
 The next effective use of APic should occur when an explicit nonnormal carrier survivor emerges from the split/thick classification. At that point the normalization lattice test should be applied immediately rather than after a long local jet analysis.
 

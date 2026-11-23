@@ -40,6 +40,11 @@ For a proposed moving family in any characteristic-zero bidegree, compare
 its splitting and generic first-order motion with the [bounds imposed by
 two homogeneous equations](results/torus_quotient_movement_bounds.md).
 
+For actual pairs in the fixed Chow-polytope fiber, start with the
+[quartic-pencil classification](results/quartic_chow_pencil_classification.md),
+the [one-carrier trace constraints](arguments/torus/chow_trace_cone_jets.md)
+and the [endpoint support test](arguments/torus/chow_endpoint_different.md).
+
 For local equation comparison and specialization use [conormal and actual
 quartic symbols](arguments/quartic_specialization_and_symbols.md), the
 [filtered equation defect](results/local_filtration_comparison_defect.md),

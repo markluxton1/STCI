@@ -47,6 +47,8 @@ A single colon J:I, used for linkage to the reduced C, is a different operation.
 
 Completion is flat and exact for finite modules, and is faithfully flat at a local stalk with ideal of completion inside its maximal ideal: [Stacks 00MB](https://stacks.math.columbia.edu/tag/00MB), [00MC](https://stacks.math.columbia.edu/tag/00MC). Thus these ideal calculations can be compared to their algebraic stalks. The saturation statement is elementary local algebra; it is not asserted to be new.
 
+For an actual proper pair, [local duality of the full-primary attachment equation quotients](../local-cohomology/actual_pair_coregularity.md#actual-attachment-equation-modules-are-the-dual-annihilator-layers) now identifies the tower of finite quotients with dual annihilator layers of actual-intersection local cohomology at projective attachments. This needs the full primary extracted from the actual ideal. The intrinsic filtered \(I_C\)-adic lifting obstruction and the graded module including the cone vertex remain separate questions.
+
 ## 5. Full formal geometry can carry global information: the G3 qualification
 
 It would be too strong to say that a formal neighborhood intrinsically has no global information. For a connected positive-dimensional closed subvariety C of projective space over an algebraically closed field, Hironaka–Matsumura prove

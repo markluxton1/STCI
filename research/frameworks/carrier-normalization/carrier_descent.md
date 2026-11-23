@@ -69,6 +69,10 @@ The [full lattice proof](../../arguments/carriers/fixed_carrier_descent_and_cart
 
 This is an **exact theorem for a specified carrier**, not an effective classification of every possible carrier: its class group, inverse branches, and conductor-unit map still have to be computed.
 
+### Necessary first-graph and cluster tests before descent
+
+For the fixed quartic the [branch valuation and marked-ideal Hodge identity](../../arguments/carriers/numerical_surface_pullback.md#branch-valuations-and-the-actual-first-blowup) applies also when the carrier is generically singular along C. The positive relation vector of its mate must lie in the normalized Hodge kernel, whereas the marked ideal's vector participates in the explicit gap split between branch imbalance and vertical principalization. The actual strict mate coefficients are obtained by subtracting the marked-ideal contribution from the branch valuations, with extra inequalities over special points. No-vertical single-root geometry is excluded irrespective of individual Cartierness. The [two-branch Cartier-cluster tests](../../arguments/carriers/numerical_surface_pullback.md#cartier-test-divisors-and-the-degree-three-per-order-boundary) supply exact rational matrices and integer ruling partitions for the degree-three-per-order locus. These necessary filters precede the conductor power test; they do not replace it. For generically regular support the [almost-Cartier criterion AC1--AC4](../../arguments/carriers/fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) additionally makes finite actual downstairs index and Hodge equality sufficient. These extensions await independent review.
+
 ## 4.3 The special case of one Cartier inverse curve
 
 Suppose \(W=c\) is a single curve, \(\nu|_c:c\to C\) is an isomorphism, and \(c\) is Cartier on \(S\). These are **additional hypotheses**, not properties of an arbitrary normalization.
@@ -140,6 +144,8 @@ The exact fixed-carrier descent criterion [R-0003](../../results/fixed_carrier_c
 The latter implies the pointwise necessary inequality \((n-1)\operatorname{ord}_p(A)\ge\operatorname{ord}_p(B|_c)\). It is not a substitute for full conductor-unit torsion or nilpotent gluing. Nor does a positive class-group relation establish the existence of the actual pair required to invoke R-0036.
 
 The marked cubic and ruled normalizations illustrate why the distinction matters: reduced inverse support, finite normalization, resolution, and scheme-theoretic conductor are different objects. There is no established extension of the singleton divisor identity to multiple inverse branches or non-Cartier inverse curves by summing branchwise formulas.
+
+For the actual finite primary map in a transverse graph chart, the [canonical ideal formula](../../arguments/residuals/blowup_residual_geometry.md#local-canonical-ideal-version-and-several-marked-points) identifies \((K:B)=x^{u+v-1}B\), with \(K\) the image-primary attachment ideal. Without a residual this is the actual curve conductor. The [signed socle class](../../arguments/residuals/residual_capacity_and_constructions.md#layerwise-attachment-duality-on-a-non-gorenstein-primary-component) corrects for image residual attachment. Neither identifies the curve conductor with that of the ambient surface normalization.
 
 ## 4.7B Full Artinian phases and bounded-power exceptions
 

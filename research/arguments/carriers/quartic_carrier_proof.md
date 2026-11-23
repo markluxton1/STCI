@@ -27,6 +27,28 @@ argument. This account owns the common lemmas, the normal-carrier proof,
 and the exhaustive assembly. The linked specialized proofs own the long
 projection and local-attachment calculations.
 
+**Relationship to the general proof.** The
+[normal-carrier Hodge-gap equivalence](normal_carrier_divisor_geometry.md#1-a-mate-is-equivalent-to-hodge-index-equality-on-a-normal-hypersurface)
+can be used here as a *conceptual reduction*: any normal quartic
+with a mate would have \(C^2=4\), i.e. \(\Gamma_X(C)=0\).
+That equivalence itself does not exclude all normal quartics;
+the present exceptional/actual-ideal analysis does. For
+a **Du Val** normal quartic, the resolution would have to supply
+\(-Z^2=6\); Jaffe's theorem already rules out this rational
+singularity regime. Other normal quartics require the specialized
+non-crepant correction analysis below.
+
+**Avoid a circular proof.** The later
+[all-degree local-index exclusion](normal_carrier_symbolic_torsion.md#1-immediate-torsion-free-class-group-exclusion)
+uses R-0001 to rule out the first small-degree mate. It cannot
+be invoked to prove R-0001. Similarly, the nonnormal
+degree-\(a\ge5\) smooth-conductor theorem does not prove the
+degree-four classification or control singular conductor gluing
+in this proof. The general synthesis
+[separates the necessary mechanisms](../../frameworks/carrier-normalization/degree_exclusions.md#56-reusable-exclusion-proof-the-actual-dependency-order),
+but **the quartic exceptional and conductor arguments remain
+indispensable base-case lemmas**, not cases silently deleted.
+
 ## 1. Sole support, smooth passage, and the common correction identity
 
 Let \(\nu:S\to X\) be the finite normalization,
@@ -126,6 +148,13 @@ dimensions alone do not prove an embedding or classify a polarization.
 These two refinements retain their unchanged accepted source proofs.
 
 ## 3. Normal quartics: exceptional correction and actual ideal vanishing
+
+The degree-independent Hodge test reduces a hypothetical normal
+quartic mate to the **equality geometry** \(C^2=4\).
+This is not an exclusion by itself. The proof below determines
+why a normal quartic hypersurface containing this embedded \(C\)
+cannot realize that equality with an **actual** supporting mate,
+including normal surfaces with non-Du-Val singularities.
 
 There are two external surface inputs. Jaffe's
 [Theorem B / 11.11](https://arxiv.org/pdf/alg-geom/9410008) says a smooth

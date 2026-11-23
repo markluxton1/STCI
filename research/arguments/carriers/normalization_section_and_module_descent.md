@@ -155,6 +155,8 @@ prime on a regular surface is Cartier.  What fails when \(X\) is singular at
 the generic point of \(C\) is the scalar relation \(r[C]=b[H]\); it must be
 replaced by the branch-valuation vector and conductor condition above.
 
+The [all-characteristic AC1--AC3 theorem](fixed_carrier_descent_and_cartier_models.md#the-normalized-hodge-matrix-and-downstairs-almost-cartier-indices) strengthens this compression mechanism to an exact fixed-carrier criterion without minimality, by combining a normalized Hodge equality with finite downstairs almost-Cartier index. It recovers minimum-carrier compression as a corollary, without a characteristic restriction. This extension requires independent review; the older proof above retains its scope.
+
 Finally, let
 \(\mathcal J=(F,G)O_{\mathbf P^3}\) have no common factor, let
 \(B=\operatorname{Bl}_{\mathcal J}\mathbf P^3\), and let \(W=B^\nu\).

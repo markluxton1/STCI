@@ -21,15 +21,51 @@ reduced CI arrangement, in characteristic different from two.
 A linear equation in Chow coefficients expresses the condition and
 separates the entire Chow closure of this locus from \(m[C_{u,v}]\) in
 characteristic zero. This is stronger than losing CI structure only at the
-final collision. It does not exclude a different, non-invariant CI lift over
-a repeated cycle outside these equation classes and their cycle closure.
-Ambient smoothability does not imply
-smoothability through translated-component cycles.
+final collision. The [quartic-pencil classification](../../results/quartic_chow_pencil_classification.md)
+exhibits a distinct non-invariant realization locus outside the
+invariant \((4,4)\) Chow closure with the same vanishing moment.
+The [one-carrier trace](../../arguments/torus/chow_trace_cone_jets.md)
+extends the equation to some non-invariant presentations in all degrees.
+Ambient smoothability does not imply smoothability through
+translated-component cycles.
 
-The next geometry includes those repeated-cycle lifts, their possible
-components and deformations, and the boundary of the moment-constrained
-realization locus. A parameter escaping the torus can leave the fixed-polytope
-fiber, so its compactification must retain the full projective limiting cycle.
+The exceptional family now has a geometric description at several
+distinct levels. [Simultaneous endpoint cubic contact](../../arguments/torus/quartic_exceptional_carrier_geometry.md#two-sided-contact-and-the-nodal-even-eight-carrier)
+forces the opposite-sign translates; on the carrier \(G_1\)
+the minimal K3 resolution has a ten-node configuration and an
+explicit **even eight** whose half maps to a nontrivial order-two
+Weil divisor class. A
+[Hilbert--Burch normal-map locus](../../arguments/torus/quartic_chow_pencils.md#hilbert--burch-and-first-normal-interpretation)
+records generic doubled support without assuming
+invariant equations. The
+[geometric uniqueness argument](../../arguments/torus/quartic_chow_pencils.md#proof-route)
+now upgrades it to a complete quartic-pencil classification:
+liaison excludes the asymmetric multiplicities, while
+the dual Hilbert--Burch canonical presentation and a
+residual-line restriction yield the \(\lambda\)-orbit.
+The classified non-invariant \(H\)-orbit moves **inside one Hilbert
+fiber over a fixed Chow point** and acquires embedded corrections at
+its opposite ends. It does not prove a general relation between
+state polytopes and the relative endpoint different.
+The [characteristic-two collapse](../../arguments/torus/quartic_hilbert_chow_limits.md#hilbert-over-chow-and-the-characteristic-two-collision)
+is a non-invariant single-support quartic CI, outside the
+multi-support classification in that characteristic.
+
+The [fixed-carrier symmetry lattice](../../arguments/torus/fixed_surface_restriction_lifts.md#symmetry-and-the-multiplicity-lattice)
+turns certain nonnegative integer combinations of actual
+mate cycles into new actual mates. The proposed two-translate
+sextic test has a sharp correction: \((5,4)\) is impossible by the
+[involution--Bézout bound](../../arguments/torus/fixed_surface_restriction_lifts.md#involution--bezout-bound-and-the-remaining-sextic-locus);
+the remaining unequal partitions are impossible on a nodal sextic.
+For a normal Du Val sextic, the surviving
+[ADE local classes and global correction budget](../../arguments/torus/fixed_surface_restriction_lifts.md#ade-local-classes-and-the-global-sextic-correction-budget)
+must be satisfied simultaneously. Those tests do not
+exclude arbitrary higher-singularity carriers or solve STCI.
+
+The next geometry concerns higher-degree repeated-cycle lifts and the
+boundary of their moment-constrained loci. A parameter escaping the
+torus can leave the fixed-polytope fiber, so its compactification must
+retain the full projective limiting cycle.
 
 The [clean common-quadric boundary](../../arguments/equations/common_quadric_chow_boundary.md)
 supplies the full special scheme in every degree \(a,b\ge3\) whenever
@@ -75,10 +111,41 @@ does not determine that power, even for same-degree proper pairs.
 The smooth quadric gives a contrasting answer: all its translates have the
 same ruling class \((1,3)\), so their positive sum cannot be a degree-\(N\)
 hypersurface section of class \((N,N)\). Thus the carrier geometry matters.
-The [moving quartic locus](../../arguments/equations/chow_polytope_rigidity.md#realization-of-a-reduced-chow-matched-cycle)
-permits collision partitions excluded on the fixed toric quartic. Understanding
-its non-invariant thickenings and discriminant strata is a substantive question
-even without a known route to an STCI obstruction.
+The [moving quartic locus](../../results/quartic_chow_pencil_classification.md)
+permits collision partitions excluded on the fixed toric quartic. Its
+exceptional non-invariant thickenings supply a fixed-cycle comparison
+with both full torus limits.
+
+The [all-order primary computation](../../arguments/torus/fixed_carrier_chow_arrangements.md#all-order-primary-structure-and-attachment-on-the-classified-carrier) on the classified fixed toric quartic calculates saturated layers from the semigroup. In its actual quartic collision residual degree drops from 12 to 8 and marked attachment from 18 to 12, but full thick attachment rises from 18 to 24. Extracting full primaries before and after absorption is not a flat-primary argument. The binomial-interpolation calculation is characteristic zero; it does not realize other carriers.
+
+The [fixed auxiliary-quadric cut TS4](../../arguments/torus/fixed_carrier_chow_arrangements.md#a-fixed-auxiliary-quadric-detects-the-same-punctual-defect-at-every-collision)
+shows that in the classified arrangements the
+pointwise torsion divisor of \(Y_N\cap Q\)
+is \(3(N-3)p_0+(N-1)p_\infty\), irrespective
+of repeated-root collisions. The direct
+source computation and the signed attachment
+formula agree. This provides a control:
+a stable fixed-cut resultant does not imply
+stable reduced attachment, full attachment,
+or residual degree. A complete moving
+family with different carriers still
+requires its actual equation source and
+primary extraction.
+
+The [explicit (4,6) proper pair TS5--TS7](../../arguments/torus/fixed_carrier_chow_arrangements.md#an-actual-non-lci-curvilinear-triple-the-conormal-torsion-is-visible)
+has a full marked primary triple
+whose generic transverse algebra is
+curvilinear but whose cusp conormal
+module has torsion \(k[[x]]/(x^2)\).
+The pointwise attachment splits into
+two torsion units and five determinant
+units at that endpoint. It is a
+useful actual-source check on
+the filtration and local-cohomology
+comparisons, not another sole-support
+or arithmetic degeneration claim.
+
+The [BF triple and actual-pair attachment TR1--TR4](../../arguments/residuals/residual_capacity_and_constructions.md#triples-the-full-attachment-has-only-two-independent-divisors) upgrades the \((4,6)\) triple calibration to a general statement: at multiplicity three the full-primary non-lci conormal torsion equals the saturated second normal defect, so every proper-pair full attachment layer is determined by that divisor and the actual equation determinant. The earlier semigroup calculation supplies one global family, not the underlying proof. At higher multiplicity the two-invariant collapse has not been proved; toric root collisions still cannot be treated using a universally monotone full-attachment invariant.
 
 ## Concentrating interior information at the endpoints
 

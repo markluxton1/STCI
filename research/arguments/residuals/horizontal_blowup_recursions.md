@@ -225,6 +225,142 @@ cutoff at fixed degrees; it supersedes the archive's blanket claim that no
 finite cutoff is justified. It supplies no cutoff uniform in unbounded
 degrees and no automatic homogeneous realization of a local path.
 
+## What can actually be iterated beyond the first graph
+
+The [ample strict-carrier compression LC1--LC2](blowup_residual_geometry.md#lefschetz-compression-on-ample-strict-carriers)
+and the [general moving symbol and socle theorem](../carriers/normal_carrier_divisor_geometry.md#first-symbol-movement-and-socle-comparison-on-an-arbitrary-smooth-threefold)
+are not tied to projective-space ambient classes. On any
+smooth projective characteristic-zero threefold in the
+horizontal blowup sequence, suppose the actual strict
+intersection has sole smooth support, is generically
+curvilinear, and an ample integral strict carrier is
+generically regular along that support. If the ambient
+Picard group is free of finite rank, the lcm \(R\) of
+its actual local indices satisfies
+\[
+ (c/R)\mid \operatorname{content}([D_1])
+\]
+where \(c\) is the actual strict length and the content
+is the gcd of the coefficients of the mate divisor
+class in *any* integral basis of the Picard lattice.
+The class of \(RT\) is the restricted quotient of
+that ambient class by \(c/R\). This is the same
+Kummer/Lefschetz theorem checked in LC1, not
+a new hyperplane theorem. Under an effective actual
+section lift it compresses the mate on that model.
+For example, the exact lifting sequence and Serre
+duality reduce lifting to \(H^2(K_Y+D_2-D_1')=0\),
+which follows by Kawamata--Viehweg when
+\(D_2-D_1'\) is nef and big. No statement is made
+that the strict classes retain these positivity
+properties after an additional blowup, or that a
+compressed mate reconstructs the original equations
+with the required exceptional orders.
+
+The \([D_i]\) update in the previous section is
+integral Picard-lattice bookkeeping; the next
+generic normal slope, actual cohomology, and
+global support of the next intersection must
+be supplied separately. The
+[Cartier-cut determinant and finite modification formulas CF1--CF4](../normal-geometry/curvilinear_genus_and_defects.md#cartier-cuts-and-finite-modifications-of-the-saturated-filtration)
+give precise local comparisons in this iteration,
+when the required generic curvilinearity or
+finite same-support modification hypotheses hold.
+In particular the [marked-point transfer on the
+first graph](blowup_residual_geometry.md#socle-defects-on-the-two-presentations-of-the-first-graph)
+accounts for the actual loss of primitivity under
+the other contraction. This illustrates why
+one must not simply transport the previous
+normal-symbol gcd or deformation class from
+one smooth ambient model to another. These
+new recursive interfaces await independent
+review.
+
+### A local contact versus global degree obstruction beyond this graph
+
+The [marked-line interpolation ML9](blowup_residual_geometry.md#all-orders-the-marked-line-comparison-by-interpolation)
+has the following smooth-threefold formulation. Suppose a smooth
+threefold \(Y\) contains two smooth curves \(\Gamma,\Delta\) meeting
+at \(z\), with formal ideals \(\Gamma=(x,y),\Delta=(t,y)\).
+Let an actual proper pair \(P,S\) have sole support \(\Delta\),
+let \(P|_\Gamma\) have exact order \(d>1\) at \(z\), and let
+\(S\) have center order \(q\ge2\) with leading homogeneous
+binary form at \(z\) having its only root the direction
+\([1:0]\). Assume the strict CI on the blowup is primitive
+at the marked point and has length \(c\) along the strict
+\(\Delta\). Its smooth strict mate is then \(t=f(x,v)\) with
+\(y=xv\), \(f(x,0)=0\), \(f(0,v)\) of exact order \(q\);
+the pullback of \(P\) on that surface is a unit times \(v^c\).
+Restricting to \(x=0\) gives \(c=dq\).
+
+Now suppose a smooth complete test curve \(L_0\subset Y\)
+meets \(\Delta\) only at \(z\). Assume on it \(x\) is a
+uniformizer, \(t\) has order one and \(y\) has order at least
+two at \(z\). The interpolation proof of ML9 applies verbatim:
+\[
+ \operatorname{ord}_z(P|_{L_0})\ge\min(d,q+1),\qquad
+ \operatorname{ord}_z(S|_{L_0})=q+1.
+\]
+If \(P\) has restriction degree less than \(\min(d,q+1)\),
+it contains \(L_0\), so sole support forces the degree of
+\(S|_{L_0}\) to be exactly \(q+1\). Any other degree is a
+contradiction. The test curve must have the specified contact
+with the blowup center and section, and the strict actual pair
+must be primitive at the mark. This is an actual
+restriction-degree criterion, independent of Picard rank,
+carrier normality, or ambient Fano classification.
+On later horizontal blowups a suitable test curve and
+the relevant orders must be established rather than presumed.
+The condition that \(t\) have order one explains why the
+endpoint test line of ML6 does not imply the same exclusion.
+This formulation and the
+[complementary smooth-image local algebra and conic-order compression](blowup_residual_geometry.md#the-opposite-marked-stratum-a-smooth-image-carrier-and-a-forced-graph-defect)
+await independent review.
+
+The [first-symbol transfer SM3](blowup_residual_geometry.md#first-symbol-transfer-and-the-remaining-mixed-sextic-strata)
+additionally accounts for the actual first normal
+order after exceptional division:
+\(A_{i,+}=A_{i,-}+1-\xi-e_i\).
+Here the common generic relation line is saturated
+on both embeddings, \(\xi\) measures the free
+quotient map, the ambient conormal determinant
+has length one at the transverse marked point,
+and \(e_i\) is the actual exceptional order
+subtracted from the equation. The identity
+is proved by the short exact sequences of
+conormal bundle, saturated relation line and
+free quotient; it applies alongside CF4's
+full top-socle transfer. It is explicitly
+local to finite transverse marked modifications,
+and cannot be used unchanged for a center
+equal to the support or for generically
+different algebras.
+
+The [interior signed finite transfer](blowup_residual_geometry.md#signed-finite-transfer-throughout-the-interior-equality-boundary)
+removes the earlier sole-support image limitation for the
+transverse-center comparison by using the full primary component
+and actual attachment to the residual center. If the strict
+sole-support intersection has length \(c\), the image equations
+subtract center orders \(u,v\), and the marked curve meets the
+center once transversely, the finite quotient length \(\delta\)
+and full image attachment \(h\) satisfy
+\(2\delta+h=c(u+v-1)\) by adjunction and linkage.
+When generic curvilinearity holds, the signed image
+top defect \(D_{Z,\rm top}-H_0\), not its unsigned defect,
+is obtained from the strict one by adding
+\(((c-1)\xi-(u+v-1))[z]\).
+This is useful on the genuine interior of the marked
+\(V_5\) equality boundary and on other actual transverse
+blowup diagrams. The local canonical-ideal proof FT3 further identifies
+\((K:B)=x^{u+v-1}B\), where \(K\) is the actual
+attachment ideal inside the image primary and \(B\)
+the strict primary algebra. It computes the length
+identity pointwise at each transverse marked point,
+and identifies the actual conductor when \(K\) is
+the full image algebra. It requires the actual residual center
+and finite primary map, and does not address arbitrary
+vertical components or generic multiplicity changes.
+
 ## Review and unresolved scope
 
 A ramified multisection

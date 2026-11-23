@@ -18,8 +18,29 @@ The [all-pair sextic reduction](sextic_pair_reduction.md) owns the normal
 pencil, smoothness off the curve and saturated divisor profile. Retain
 \(L=\mathcal O(-l)\), \(l\in\{5,6,7\}\), \(D_8=2T\), and
 \(\deg T=4l-17\). The full first-symbol divisor of a general member
-\(S\) has degree \(l+10\). Its mate cuts \(9C_0\), so local Cartier
-indices divide nine. All singularities of \(S\) lie on \(C_0\).
+\(S\) has degree \(l+10\). All singularities of \(S\) lie on \(C_0\).
+
+**What this ADE proof adds to the general theorem.** On the chosen
+normal sextic, the all-degree
+[Hodge-gap and exact-index criteria](normal_carrier_divisor_geometry.md#4-strongest-current-all-degree-consequence-for-the-fixed-rational-quartic)
+already force
+\[
+ C_0^2=\tfrac83,\quad
+ \sum_q\Delta_q=\tfrac{38}{3},\quad
+ R=\operatorname{lcm}_P r_P=9,\quad
+ \operatorname{ord}(3C_0-2H)=3.
+\]
+The correction and exact index are *necessary for any*
+normal sextic mate, not conclusions peculiar to ADE types.
+The present proof asks a different question: **can a
+globally Du Val sextic realize that equality geometry while
+carrying an actual length-nine intersection?** Jaffe's
+classification, the root-rank bound and the saturated triple
+show that only the stated primitive-triple geometry survives.
+In particular every local index divides nine and at least
+one point of \(C_0\) has actual index nine. A list of
+ADE singularities without this integral Cartier constraint
+would be a weaker and less informative classification.
 
 ## Marked local models and exact defects
 
@@ -31,6 +52,10 @@ which cannot divide nine. There is no smooth marked \(E_8\) case.
 A smooth Cartier curve cannot pass through a singular hypersurface point:
 quotienting an embedding-dimension-three surface ring by one equation
 leaves embedding dimension at least two.
+
+The normal-carrier reduction already forces an **index-nine point**;
+the following local table must obey that global condition collectively,
+not merely the individual order-divides-nine tests.
 
 For \(A_{r-1}^{c}\), the first-symbol order is \(c\), with
 \(1\le c\le r/2\), and the actual index is \(r/\gcd(r,c)\).
@@ -130,6 +155,100 @@ rank budget and all three row dispositions. Existing surface and triple
 results were reused within their established scopes. The proof uses exact
 formulas and inequalities rather than a finite search. The
 \(\mathcal O(-6)\) primitive-triple case and non-ADE carriers remain open.
+
+## Up-and-down comparison: the ADE cover Euler budget adds no new row exclusion
+
+**Status:** mathematical consequence of the accepted
+ADE local classification, the normalized triple-cover construction
+and the classical canonical-map inequality; the comparison is
+newly integrated here and requires independent review.
+
+Under the one surviving *globally ADE* \((6,6)\) row,
+\(\ell=6,D_2=0\), the complete local list above consists of
+\(A_{9c-1}^{c}\) (type \(k=1\)),
+\(A_{9h-1}^{2h}\) (type \(k=2\)),
+\(A_{3c-1}^{c}\) (type \(k=3\)), and \(E_{6,1}\).
+Sum their parameters as \(U=\sum c\) for type 1,
+\(V=\sum h\) for type 2, \(W=\sum c\) for
+type 3, and let \(E\) be the number of marked \(E_6\) points.
+The *existing* first-normal and torsion budgets give
+\[
+ U+2V+W+2E=16,\qquad V+W+2E=7,
+ \quad\text{hence}\quad \boxed{U+V=9}.      \tag{AE1}
+\]
+The exact-order-three Weil class is
+\(\Delta=3C_0-2H\). Its local cover is trivial at
+the index-three \(A\) and \(E_6\) points.
+At a type-1 \(A_{9c-1}\) or type-2 \(A_{9h-1}\)
+point, the cover has one point of type
+\(A_{3c-1}\) or \(A_{3h-1}\) respectively.
+The crepant-resolution Euler correction, relative
+to three copies of the base, is
+\[
+ \frac{3(9c)-(3c)}{12}=2c
+ \quad\text{or}\quad
+ \frac{3(9h)-(3h)}{12}=2h.
+\]
+Thus the **entire** cover has
+\[
+ \boxed{\chi(\mathcal O_Y)=3\chi(\mathcal O_S)
+                 -2(U+V)
+               =33-18=15.}                   \tag{AE2}
+\]
+This is *exactly* what the
+[unified actual-filtration Euler formula](normal_carrier_divisor_geometry.md#35-a-single-cyclic-cover-euler-formula-for-all-normal-carrier-degrees)
+gives at \(\ell=6,D_2=0\):
+\(\chi(\mathcal O_Y)=6\ell-21-2\deg D_2=15\).
+
+**Research consequence:** the two Euler calculations
+are structurally linked and automatically agree on
+*every* numerically admissible ADE row.
+Their agreement supplies **no further exclusion**
+of the remaining primitive triples. It would be
+incorrect to count this equality as an independent
+new compatibility condition after imposing (AE1).
+The quintic cover Euler comparison likewise
+expresses existing actual ADE geometry; its
+*additional* exclusion comes from the global
+canonical-map inequality, not merely equating
+two Euler formulas.
+
+There is, nevertheless, a modest further
+global constraint on the sextic ADE cover.
+Its singularities are again ADE, so on the
+crepant minimal resolution \(\widetilde Y\) one has
+\[
+ K_{\widetilde Y}^2=72,\quad
+ \chi(\mathcal O_{\widetilde Y})=15,\quad
+ p_g(\widetilde Y)=14+q(\widetilde Y).
+\]
+The canonical system of the normal sextic \(S\)
+is the embedding by \(2H\), with \(p_g(S)=10\).
+Because \(p_g(\widetilde Y)\ge14>10\),
+the canonical cover acquires a nontrivial
+\(\mathbf Z/3\)-eigenspace of canonical sections.
+A ratio with a nonzero invariant canonical
+section generates the **prime-degree**
+field extension \(k(Y)/k(S)\). The complete
+canonical map of \(\widetilde Y\) is therefore
+birational. [Debarre's classical inequality](https://www.numdam.org/article/BSMF_1982__110__319_0.pdf)
+for a minimal smooth general-type surface
+with birational canonical map gives
+\[
+ 72\ge3p_g+q-7=35+4q,
+ \qquad\boxed{0\le q(\widetilde Y)\le9}.     \tag{AE3}
+\]
+This is an upper bound absent from the original
+sextic cover discussion, but it does **not**
+contradict the existing profiles. The
+quintic cover benefits from a much smaller
+canonical square \(K^2=10\), which is why
+the same classical inequality can eliminate
+its surviving numerical rows while
+it does not resolve the sextic case.
+Do not apply (AE2)--(AE3) to a non-ADE
+normal sextic: its cyclic cover need not have
+rational singularities or a crepant resolution.
 
 ## Three remaining primitive-triple orbits
 
