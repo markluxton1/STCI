@@ -300,6 +300,158 @@ fix each actual multiplicity;
 the full fiber algebra and its
 lengths must still be specified.
 
+## 3.1 The exact moving-quotient defect: why reduced cycles are different
+
+The [accepted constant embedded quotient framework](../torus_embedded_quotients.md)
+provides the correct meaning of (6), and
+the [punctual Hilbert scheme](https://sites.math.washington.edu/~jarod/moduli-versions/moduli-2-17-25.pdf)
+describes its possible finite-length quotients.
+This comparison makes the distinction between
+reduced and nonreduced cycles quantitative.
+
+On the projective ambient coordinate torus
+use the invertible coordinates
+\[
+ t=x_1/x_0,\quad
+ u=x_0^2x_2/x_1^3,\quad
+ v=x_0^3x_3/x_1^4.
+\]
+Let \(p_i=(u_i,v_i)\), let
+\(\mathfrak m_i=(u-u_i,v-v_i)\), and put
+\[
+ \tag{17}
+ K_\sigma=\bigcap_i\mathfrak m_i^{n_i}
+ \subset k[u^{\pm1},v^{\pm1}],\qquad
+ B_\sigma=k[u^{\pm1},v^{\pm1}]/K_\sigma.
+\]
+In characteristic zero,
+\[
+ \tag{18}
+ \boxed{\dim_k B_\sigma
+ =N_\sigma:=\sum_i\binom{n_i+1}{2}
+ =m+\delta_\sigma,\quad
+ \delta_\sigma=\sum_i\binom{n_i}{2}.}
+\]
+The toric coefficient ideal (6) identifies
+the restriction of the canonical Chow envelope
+with \(K_\sigma\). Thus **every actual proper
+CI** with full translated fundamental cycle
+\(\sigma\) determines a quotient
+\[
+ \tag{19}
+ \boxed{
+ B_\sigma\otimes_k k[t^{\pm1}]
+ \longtwoheadrightarrow
+ \mathcal A_{F,G}:=
+ k[t^{\pm1},u^{\pm1},v^{\pm1}]
+ /\bigl(F(1,t,ut^3,vt^4),
+        G(1,t,ut^3,vt^4)\bigr).
+ }
+\]
+The target is finite locally free of rank
+\(m\) over \(k[t^{\pm1}]\):
+it is finite by the source on the left,
+and torsion-free because the
+complete-intersection curve is
+Cohen–Macaulay with no embedded
+associated primes, and no minimal
+component lies in a fiber \(t=t_0\).
+Over the PID \(k[t^{\pm1}]\),
+finite torsion-free implies locally
+free; its generic rank is the sum of
+the local generic lengths \(n_i=m\).
+
+Therefore the kernel is a locally
+free submodule of rank
+\[
+ \tag{20}
+ \boxed{\operatorname{rank}\ker(19)
+       =\delta_\sigma=\sum_i\binom{n_i}{2}.}
+\]
+It is also an **ideal submodule**
+in the constant torus algebra.
+This is a precise, degree-independent
+**quotient-selection defect**:
+the canonical Chow envelope remembers
+the largest ordinary-power normal jets
+\(\mathfrak m_i^{n_i}\), while the
+actual CI must select a length-\(n_i\)
+quotient at each point, potentially
+**moving with the orbit parameter \(t\)**.
+
+- **Reduced entire cycle.**
+  All \(n_i=1\), so
+  \(\delta_\sigma=0\).
+  The surjection (19) is an
+  isomorphism. The actual ideal
+  therefore equals the constant
+  reduced-translate ideal on the
+  dense torus, and, since the
+  proper-CI ideal is saturated,
+  globally as well. This recovers
+  the accepted theorem that a
+  reduced translated-cycle CI is
+  invariant; hence \(M_1=0\)
+  follows from the established
+  eigenform/invariant-ideal theorem.
+- **Double components.**
+  At a point of multiplicity
+  \(n_i=2\), the constant
+  quotient is
+  \(k[\epsilon,\delta]/
+    (\epsilon,\delta)^2\), of length
+  three. A local length-two quotient
+  has one-dimensional ideal kernel
+  in its two-dimensional square-zero
+  maximal ideal. It is thus given
+  by a line in the normal
+  two-space, parametrized by
+  \(\mathbf P^1\). For a moving
+  actual CI, the line becomes a
+  rational map
+  \(t\mapsto\mathbf P^1\),
+  and the projective two-endpoint
+  extension and **simultaneous two
+  homogeneous generators** impose
+  the missing compatibility.
+  In the exceptional \((4,4)\)
+  doubled-two-component pair,
+  \(\delta_\sigma=2\), one
+  moving normal line per component.
+- **Higher multiplicities.**
+  The quotient selection lives in
+  the appropriate punctual Hilbert
+  scheme of length \(n_i\)
+  subschemes of the formal
+  transverse surface, cut out of
+  the \(\mathfrak m_i^{n_i}\)
+  envelope. Its local complete-
+  intersection locus is further
+  constrained by the original
+  global pair.
+
+For clarity, (19) is a **necessary**
+constant-envelope quotient, not a
+sufficient construction of a
+projectively embedded CI.
+An arbitrary moving quotient
+over \(k[t^{\pm1}]\) need not
+extend across either endpoint,
+have the correct homogeneous
+source modules, or be generated
+by two global surface equations.
+Those missing conditions are
+already central to [the embedded
+quotient framework](../../frameworks/embedded-torus-quotients/index.md)
+and the [actual equation filtration](../equations/global_equation_jets.md).
+Here the **new exact input** is
+that the *full transverse Chow polynomial
+itself constructs the universal
+constant fat envelope* and determines
+the rank \(\delta_\sigma\) of every
+moving quotient that a full-cycle CI
+would have to select.
+
 ## 4. Exact relation to the first moment and the all-degree gap
 
 The original coefficient is
