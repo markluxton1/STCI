@@ -133,6 +133,9 @@ In particular, exactly one doubled component and any number of simple
 translated components satisfy (1) in every degree. More generally, one
 component of multiplicity \(n\ge2\) and simple companions are covered
 when \(4\max(a,b)\ge7n+1\), in characteristic different from two.
+In characteristic zero, exactly one tripled component and arbitrary simple
+companions are covered in every degree, including the remaining
+\((4,5)\) case by the irreducible-extreme initial-sequence mechanism.
 
 ## A regular function on the Chow space
 

@@ -5,6 +5,9 @@ component filtration were independently reconstructed during the November 23,
 2026 first-moment investigation. The written account was independently
 checked by a distinct Sol/max correctness reviewer on the same date.
 The input moment theorem and conormal splitting retain their existing reviews.
+The full one-triple proof in Section 5 and the source-space identity (RS2a)
+were also independently reconstructed by a distinct algebraic-geometry
+reviewer; the latter identity received a separate generalizations check.
 
 ## 1. A low-degree symmetry criterion from linkage
 
@@ -37,14 +40,20 @@ Shared components are allowed. If the residual is empty the quotient is zero.
 
 Serre duality identifies the dual of the group in (RS1) with
 \(H^0(\omega_R(4-b))\). Twist (RS2) by \(a\) and take sections.
-Its vanishing gives
+In fact \(H^1(\mathcal J(a))=0\): the twisted CI Koszul sequence has
+line-bundle terms \(\mathcal O(-b)\), \(\mathcal O\) and
+\(\mathcal O(a-b)\), whose relevant intermediate cohomology on
+\(\mathbf P^3\) vanishes. Therefore
+\[
+ (I_Y)_a/J_a\simeq H^0(\omega_R(4-b)),\qquad
+ h^1(\mathcal O_R(b-4))=\dim(I_Y)_a-\dim J_a.       \tag{RS2a}
+\]
+The assumed vanishing gives
 \[
                  (I_Y)_a=J_a.                      \tag{RS3}
 \]
 Here the CI ideal is saturated, since \(S/J\) has depth two, so global
-sections of \(\mathcal J(a)\) are exactly \(J_a\). Exactness at
-\(H^0(\mathcal I_Y(a))\) suffices; no vanishing of
-\(H^1(\mathcal J(a))\) is asserted or needed.
+sections of \(\mathcal J(a)\) are exactly \(J_a\).
 
 Since \(Y\) is invariant, (RS3) is an invariant subrepresentation of
 \(S_a\). If \(a<b\), it is the line \(kF_a\), so \(F_a\) is an
@@ -60,6 +69,8 @@ and the entire cycle is
  C_{u,v}=[s^4:s^3t:u st^3:v t^4],\qquad
  ab=4\sum_i n_i.
 \]
+Here \((u_i,v_i)\in(k^\times)^2\) are pairwise distinct; repeated
+components are recorded in the positive integers \(n_i\).
 Each reduced component is invariant for weights \((0,1,3,4)\).
 Thus (RS1) implies
 \[
@@ -121,10 +132,8 @@ For \(n=2\), the bound is \(b\ge4\), which is automatic: if
 component and any number of simple components satisfy UM1 in every
 bidegree**. Here the residual is the reduced smooth quartic itself.
 
-For \(n=3\), the bound is \(b\ge6\). Below that bound, the possible
-degree pairs are \((3,4),(4,4),(4,5)\). In characteristic zero the first two have existing
-[low-degree coverage](universal_first_moment_proof_boundary.md#target-and-proved-coverage).
-The criterion alone leaves \((4,5)\), not an established survivor.
+For \(n=3\), the bound is \(b\ge6\). In characteristic zero the
+remaining small-degree cases also satisfy UM1, by Section 5 below.
 
 ## 3. Several double components: an explicit conductor bound
 
@@ -216,13 +225,110 @@ Consequently a \((4,5)\) counterexample with all multiplicities at most
 two would require two doubled components sharing at least one of
 \(u,h,\eta\). These special loci are not excluded by this argument.
 
-## 5. Meaning and remaining gap
+## 5. One tripled component in every degree, in characteristic zero
 
-The obstruction uses the actual residual scheme of the complete
-intersection, not merely its reduced support or cycle. It converts a
-cohomology vanishing into an actual equation-symmetry statement and then
-uses the established trace theorem. It does not assume that symmetry
-lifts from the cycle to an arbitrary ideal.
+Assume characteristic zero, exactly one component of multiplicity three,
+and every other component simple. Then \(M_1=0\) in every bidegree.
+Section 2 covers \(b\ge6\); for \(b\le5\), divisibility \(4\mid ab\)
+and total multiplicity at least three leave \((3,4),(4,4),(4,5)\).
+The first two have existing
+[low-degree coverage](universal_first_moment_proof_boundary.md#target-and-proved-coverage).
+We prove the remaining case by recovering an irreducible extreme component
+of the actual quartic generator, not by asserting that the original pair
+is invariant.
+
+In degree \((4,5)\), the cycle is \(3C_1+C_2+C_3\), with three distinct
+translates. Set \(Y=C_1\cup C_2\cup C_3\). Its actual residual is a
+pure double structure \(R\) on \(C_1\); purity gives
+\(\mathcal I_{C_1}^2\mathcal O_R=0\). The nilideal is a torsion-free
+rank-one sheaf on the smooth \(C_1\), hence a line bundle
+\(\mathcal O_{\mathbf P^1}(\ell)\), with
+\[
+ 0\to\mathcal O_{\mathbf P^1}(\ell)\to\mathcal O_R
+       \to\mathcal O_{C_1}\to0,\qquad \ell\ge-7.
+\]
+The inequality follows from its conormal quotient. If \(\ell\ge-5\),
+twisting by one gives zero \(H^1\), so (RS1) applies. Otherwise
+\(\ell=-7\) or \(-6\). The standard liaison genus formula gives
+\[
+ p_a(R)-p_a(Y)=\tfrac12(4+5-4)(8-12)=-10,
+ \quad p_a(R)=-\ell-1,
+ \quad p_a(Y)=9-\ell\in\{16,15\}.                 \tag{RS9}
+\]
+
+The [exact endpoint ranks](arrangement_endpoint_delta.md#the-exact-two-endpoint-rank-formula)
+leave only three possibilities for a reduced union of three translates:
+\[
+\begin{array}{c|c|c}
+\text{parameter condition at }p_0&\text{weighted basis}&\delta_0\\\hline
+\operatorname{rank}(1,u,v)=3&1,u,v&7\\
+v=\alpha u+\beta,\ u\text{ nonconstant}&1,u,u^2&9\\
+u\text{ constant}&1,v,v^2&12.
+\end{array}
+\]
+Their weights are respectively \((0,3,4),(0,3,6),(0,4,8)\).
+In the middle case distinctness forces three distinct \(u\)-values.
+At infinity the same table holds for
+\(u'=v^2/u^3,\ v'=v^3/u^4\). Since
+\(p_a(Y)=\delta_0+\delta_\infty-2\), genus fifteen is impossible;
+genus sixteen forces \(\delta_0=\delta_\infty=9\). Therefore
+\[
+ v_i=\alpha u_i+\beta,\qquad
+ v_i'=\alpha'u_i'+\beta',
+\]
+with three distinct values in each cubic parameter.
+
+Both intercepts are nonzero. If \(\beta=0\), all three curves have
+the same \(q=u/v\) and lie on the same smooth quadric. Each has ruling
+class \((1,3)\), so a quartic containing them must contain the quadric:
+its \((4,4)\) restriction cannot contain \((3,9)\). The proper subpair
+consisting of that quadric and \(G_5\) would have degree ten and only
+quartic translated components, an impossibility. Reversal preserves
+\(u'/v'=u/v\), so the same argument excludes \(\beta'=0\).
+
+Now put
+\[
+ E_4=x_0^3x_3-\alpha x_0^2x_1x_2-\beta x_1^4,
+ \qquad
+ E_{12}=x_3^3x_0-\alpha'x_3^2x_1x_2-\beta'x_2^4.
+\]
+We claim \((I_Y)_4=\langle E_4,E_{12}\rangle\). Indeed the
+degree-four monomial evaluation lists at weights zero through eight are
+\[
+ \{1\},\{1\},\{1\},\{1,u\},\{1,u,v\},\{u,v\},
+ \{u,v,u^2\},\{v,u^2,uv\},\{u^2,uv,v^2\}.
+\]
+With \(v=\alpha u+\beta\), \(\beta\ne0\), and three distinct
+\(u\)'s, every list is independent except the one-dimensional kernel
+at weight four. For the three-element lists this follows by expansion
+in the basis \(1,u,u^2\); the determinants are nonzero powers of
+\(\beta\), up to sign. Reversal proves the remaining weights, with
+its only kernel at weight twelve.
+
+The polynomial \(E_4\) is primitive and linear in \(x_3\) over
+\(k[x_0,x_1,x_2]\): its coefficient \(x_0^3\) is coprime to its
+constant term because \(\beta\ne0\). Gauss's lemma makes it
+irreducible. Reversal gives the same for \(E_{12}\).
+Thus every actual quartic generator in this pencil has an irreducible
+extreme weight component. The established
+[cycle-preserving regular-initial-sequence lemma](chow_realization_moment_separation.md#3-cycle-preserving-regular-initial-sequences)
+provides an invariant proper CI with the same entire cycle. The accepted
+moment theorem proves \(M_1=0\). \(\square\)
+
+## 6. Meaning and remaining gap
+
+Here \(R=Z:Y\) removes one layer along every supported component. It
+is distinct from an off-support residual curve in a decomposition into a
+curve-primary part and unwanted components.
+
+The obstruction converts a cohomology vanishing into an actual equation-
+symmetry statement and then uses the established trace theorem. By (RS2a),
+at this particular twist its dimension is already determined by the
+reduced support's degree-\(a\) equation space and the CI degrees. Thus the
+criterion is also a source-space rigidity condition; the additional
+filtration and conductor bounds are what establish new covered classes.
+They use the actual residual or its justified identification with a reduced
+union, and do not assume symmetry lifts from a cycle to an arbitrary ideal.
 
 The multiplicity bound is sufficient, not claimed optimal. For a hypothetical
 sole-supported pair, \(n=ab/4\); (RS5) would require
@@ -232,3 +338,8 @@ a source-sensitive residual-cohomology condition for UM1. Higher residual
 speciality and the particular source classes in (RS2) remain genuine
 unresolved information. No unrestricted characteristic-zero STCI theorem
 or classification of repeated arrangements follows.
+
+In characteristic zero a nonzero-moment counterexample must therefore
+have at least two repeated components, or have a unique repeated component
+of multiplicity \(n\ge4\) with \(4b\le7n\). This necessary restriction
+does not assert that either remaining class is nonempty.

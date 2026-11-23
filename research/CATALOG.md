@@ -91,7 +91,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-R-0080](results/fixed_depth_determinant_incidence.md) | Fixed-depth incidence products and actual residual cancellation | universal center jets and finite Laurent trace matching: accepted | [scope](results/fixed_depth_determinant_incidence.md#scope) |
 | [STCI-R-0081](results/jacobian_radical_support.md) | Relative Jacobian radical recovery and two-product quartic support | finite projection and the Artinian Jacobian socle: accepted | [scope](results/jacobian_radical_support.md#scope) |
 | [STCI-R-0082](results/arrangement_strata_and_orders.md) | Arrangement Hilbert strata, endpoint planarity and separate orders | endpoint ranks, formal planarity and exceptional valuations: accepted | [scope](results/arrangement_strata_and_orders.md#scope) |
-| [STCI-R-0083](results/chow_moment_residual_speciality.md) | Residual speciality forces first-moment vanishing on repeated arrangements | low-degree linkage symmetry and conormal filtration: accepted | [scope](results/chow_moment_residual_speciality.md#scope) |
+| [STCI-R-0083](results/chow_moment_residual_speciality.md) | Residual-cohomology vanishing forces first-moment vanishing on repeated arrangements | low-degree linkage symmetry and conormal filtration: accepted | [scope](results/chow_moment_residual_speciality.md#scope) |
 
 ## Arguments
 
