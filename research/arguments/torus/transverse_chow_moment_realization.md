@@ -13,6 +13,8 @@ theory (Vaccarino, *The ring of multisymmetric functions*, Ann. Inst. Fourier
 The moment-matrix equivalence below is an elementary deduction, **independently reconstructed in the scoped review above**. No unrestricted characteristic-zero STCI exclusion
 or universal \(M_1=0\) statement is claimed.
 
+**Constructive interpretation.** The [coefficient-realization synthesis](transverse_coefficient_realization_synthesis.md) records the cycle-first organizing principle: construct the intrinsic spectral, Chow, product and canonical-section data before choosing equations, and use their simultaneous realization as requirements on the unknown proper pair. It includes the three opposite-projection Grassmannian restrictions and the centered differential comparison. The full paired Chow coefficients, not just the quadric spectrum, are needed for full realization; the central STCI objective only needs a necessary relation separating the small diagonal. This does not change the established reduced-cycle criterion or the open universal first-moment proof boundary.
+
 ## 1. The entire arrangement, without selecting a carrier
 
 Let \(k\) be algebraically closed and let
