@@ -471,6 +471,33 @@ The first equivalence uses the explicit residues on the reduced corner sections 
 
 This closes the requested construction of a differential on the full intersection with all attachment residues canceled and identifies its actual global equation numerator; it localizes the unresolved regularity to the two complete corner sections over one degenerate quadric. It does not show that the actual CI forces that numerator to vanish on this fiber. A further argument must use more than the length count or global existence of the twisted section. Provisional pending independent review.
 
+
+### Endpoint plane deformation: the residue generating function and the degree budget
+
+Near \(p_0\), in \(z=1\), write \(\lambda=1/q\) for the pencil parameter (distinct from the character \(q_i\)). The equations of the slice \(w=\lambda xy\) are
+\[
+ f_\lambda=F(1,x,y,\lambda xy),\quad g_\lambda=G(1,x,y,\lambda xy).
+\]
+For \(\lambda\ne 1/q_i\) their common affine zero is the origin, with local intersection length \(ab\); this includes \(\lambda=0\). The first variation at zero is \(xy(F_w,G_w)|_{w=0}\). Define \(\mathcal R_\lambda(T)\) to be the local plane Grothendieck residue of the numerator \(T(1,x,y,\lambda xy)\) with respect to the ordered equations \((f_\lambda,g_\lambda)\). Put \(P=D_{03}/2\), \(J=D_{12}\), and \(K(\lambda)=\prod_i(1-\lambda q_i)^{n_i}\). Then the explicit corner differential of the preceding section and adjunction give
+\[
+ \mathcal R_\lambda(P)=\sum_i\frac{n_iq_i}{1-\lambda q_i}
+   =-\frac{K'(\lambda)}{K(\lambda)},\qquad
+ \mathcal R_\lambda(J)=4\sum_i\frac{n_i}{1-\lambda q_i}.
+\]
+For clarity, the residue on the plane slice is the residue at \(p_0\) on \(Z\) of the adjunction differential represented by \(T/(w-\lambda xy)\). This is the standard iterated complete-intersection residue with the third equation \(w-\lambda xy\), whose derivative in \(w\) is one. On the normalization the weighted branch expressions of \(P/w\) and \(J/w\) are \(n_iq_i\,dr/r\) and \(4n_i\,dr/r\) respectively by the fundamental-class and finite trace formulas. Multiplication by \(w/(w-\lambda xy)\) on these socle-supported forms multiplies the branch by \(1/(1-\lambda q_i)\). Summing the residues proves the formulas without assuming that this rational multiplier is a regular function at the endpoint or that the thickening is reduced. This is the classical local residue/duality formalism (Cattani--Dickenstein--Sturmfels, [Computing Multidimensional Residues](https://arxiv.org/abs/alg-geom/9404011)), applied to the actual pencil deformation.
+
+In particular the corner differential in the parameter \(\lambda\) is \(\mathcal R_\lambda(P)d\lambda/\lambda\), with residue \(+M_1\), by substituting \(q=1/\lambda\) in \(\theta_0\). The Taylor coefficients of \(\mathcal R_\lambda(P)\) are the power sums \(M_{j+1}=\sum_i n_iq_i^{j+1}\). Thus the actual local plane residue family recovers the whole spectral logarithmic derivative, not only the endpoint value.
+
+The Jacobian of the substituted pair is exactly \(J+\lambda(xD_{13}-yD_{23})\) in \(z=1\). The componentwise tangent-minor identities from the spectral--Jacobian bridge give \(xD_{13}-yD_{23}=-2D_{03}=-4P\) modulo the actual ideal (use purity and the generic socle calculation). Consequently the degree budget says
+\[
+ ab=\mathcal R_\lambda(J-4\lambda P).
+\]
+This is also immediate from the two spectral sums. Differentiating at zero gives \((d/d\lambda)\mathcal R_\lambda(J)|_0=4M_1\), **not** a vanishing: the residue of the changing plane Jacobian is constant, but the residue of the original projective minor \(J\) need not be. Constant length alone cannot be used to identify these two numerators.
+
+An exact control within the same substitution geometry is \(F=x^2-zy,\ G=y^2-wx\), the previously established twisted-cubic-plus-line example in [the Hilbert symplectic account](chow_hilbert_symplectic_form.md). Its graph has both corner sections with generic length \(4\) and its local plane family is \((x^2-y,y^2-\lambda x^2y)\), equivalent to \((x^2-y,(1-\lambda)x^4)\). For every \(\lambda\ne1\) the length is four, all at the origin. Here \(P=xy/2\) and the plane Jacobian modulo the ideal is \(4(1-\lambda)xy\). Hence \(\mathcal R_\lambda(P)=1/(2(1-\lambda))\), nonzero at zero. The example contains a twisted cubic and the coordinate line \(x=y=0\) (a moving component over \(q=0\) in the compact graph), not an entire translated-quartic cycle. It disproves using just the fixed local length and the special \(w=\lambda xy\) deformation, even for actual global homogeneous pairs. The distinct quartic hypothesis and the absence of any such degenerate-fiber moving component remain relevant; the control is not a counterexample to UM1.
+
+This is a direct local plane implementation of the corner differential, with all higher spectral moments available. It isolates an additional comparison needed for a proof: why the residue of the original minor \(J\), not the moving plane Jacobian, would be stationary at \(\lambda=0\) under the complete translated-quartic cycle hypothesis. No such stationarity theorem has been shown. In particular the Euler--Jacobi vanishing theorem cannot simply be applied to \(P\) at \(\lambda=0\), because its degree is the critical \(a+b-2\), not strictly below it. Provisional pending independent review.
+
 ## 5. Global sections as requirements on F,G
 
 For a proper CI \(Z\) of the stated cycle, adjunction gives
