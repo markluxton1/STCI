@@ -27,6 +27,8 @@ Finally, a degree-\((a,b)\) CI is the zero locus of a regular section of \(O(a)\
 
 **Geometric questions to carry forward:** Which information about a moving neighborhood is visible in the conormal graph, its exterior square, and the two projected divisors? How do the conormal classes supplied by the common envelope relate to the actual rank-two equation bundle? What is preserved when the separated endpoint model is contracted to projective space? How do the different projection descriptions express the same global section? These are questions about realization, whether or not an obstruction follows. The sum fiber provides one concrete observable with which to compare answers.
 
+The [shape and motion comparison](transverse_neighborhood_motion_and_conormal.md) develops the first geometric question: the longitudinal conormal component is the second fundamental form of the moving kernel in the fixed fat-point envelope. It distinguishes embedded motion from abstract first-order deformation, and interprets full compatibility of transverse forms through the kernel of that longitudinal map. The rotating double and changing length-four examples explain what the exterior square forgets. The next interface is its behavior under the endpoint contractions.
+
 ## 1. Universal construction: resolve only the sum
 
 Let \(W=K\oplus V^*\) with dimensions 2 and 4, and \(G=\operatorname{Gr}(2,W)\). Choose the ordered coordinates of \(W\) to consist of the two auxiliary directions followed by \(z,x,y,w\) covector directions. On \(G^m\) write the Plücker coordinates of factor \(i\) as \(P_{jk}^{(i)}\), \(1\le j<k\le6\). Put
