@@ -15,6 +15,42 @@ Existing owners: [spectral-Jacobian bridge](../../arguments/torus/spectral_jacob
 3. **Simultaneous projection geometry.** For sole smooth support all six complementary Jacobian minors lie in the same socle twist \(\omega_C(2)\simeq\mathcal O_{\mathbb P^1}(6)\). Compare their relations for the same actual two equations (including Plucker and Euler relations); projection base divisors and ramification give \(\operatorname{div}W_{ij}=2B_{ij}+R_{ij}\). The complementary pair 03/12 has identical divisor \(3p_0+3p_\infty\) despite degrees 4 and 2. Seek other residue identities with appropriate exceptional corrections, not naive symmetry. Degree list for retained pairs 01,02,03,12,13,23: 1,3,4,2,3,1; base divisors: \(3p_\infty,p_\infty,0,p_0+p_\infty,p_0,3p_0\). Connect to \(J:D_{12}=\sqrt J\), actual socle and the previously used projective line.
 4. **Toric realization and descent.** Blow up the four coordinate points and six strict-transformed coordinate lines: the permutohedral threefold resolves all six projections, and refines the product fan for consecutive ratios \(\alpha=x/z,\beta=y/x,\gamma=w/y\). On the product, a translate is \((\alpha,\beta,\gamma)=(r,ur^2,(v/u)r)\), a graph CI of bidegrees \((2,1,0),(1,0,1)\) (multidegrees in the three factors). The quotient characters are \(\xi=\alpha/\gamma,\eta=\beta/(\alpha\gamma)\); \(\xi\) is inverse tangent slope in the alpha-gamma plane and \(\eta\) records weighted second-order contact. Compare opposite endpoint configurations and extreme weight sections on the existing quotient graph. The permutohedral refinement alone does not separate the weighted endpoint configurations; further rays of weights \((1,2,1)\) and opposite in product coordinates are relevant. Track strict transforms, exceptional scheme structure and descent of the SAME two divisors; graph CI upstairs does not imply STCI downstairs.
 
+## Explicit checklist of the original 20 questions
+
+The four directions above consolidate, rather than replace, these individual investigations.
+
+### Spectral geometry
+1. Marked spectral divisor: first-order triviality at infinity.
+2. Generalized Jacobians: higher boundary moduli and moments.
+3. Moving spectral divisors: characteristic polynomials over the projection base for arbitrary intersections.
+
+### Residue and first jets
+4. First-jet compatibility: geometric meaning of the vanishing residue pairing.
+5. Serre duality on the disjoint line: meaning of the connecting class of the jet determinant.
+6. Actual equation constraints: expand the spectral and Jacobian ideal memberships along the disjoint line.
+
+### General intersections and residual components
+7. Residual contributions to the spectral trace and differential residue separately.
+8. Trace–residue discrepancy: what its vanishing does and does not detect.
+9. Space of equation pairs: compare trace and residue before imposing translated support.
+
+### Finite algebras and Hilbert schemes
+10. Separate the CI condition from the cycle condition for traces, symplectic forms and dualizing modules.
+11. Symplectic movement: what restrictions does a global two-equation realization impose?
+12. Central Gorenstein fiber: constraints on possible movements and extensions.
+
+### Six coordinate projections
+13. Common sextic geometry: all six Jacobian minors simultaneously.
+14. Projection compatibility: relations among minors of the same two surfaces.
+15. Ramification and base divisors: explain the coincidence for the complementary 03/12 projections.
+16. Other residue identities: account for exceptional and base contributions.
+
+### Toric blowups and product model
+17. Permutohedral resolution: study all six projections on a common space.
+18. Endpoint tangent configurations: spectral direction and quadratic contact in the product.
+19. Opposite endpoint compatibility: compare configurations and extreme weight sections.
+20. CI descent: determine what prevents the product graph CI from descending without residual support.
+
 ## First probe: projective differential trace (elementary, awaiting independent review)
 
 Let \(Y\) be any pure curve avoiding \(L\), with cycle \(\sum n_i[Y_i]\). Work on the normalizations of the reduced components and use the finite separable maps to \(P=\mathbb P^1_{[z:w]}\). The pullback of \(\mathcal O_P(1)\) equals \(\mathcal O_{Y_i}(1)\) pulled to each normalization. The ambient twisted forms \(\theta=x\,dy-y\,dx\) and \(\theta_0=z\,dw-w\,dz\) are sections of \(\Omega^1(2)\). The first pulls back to a regular section of the normalized component's \(\omega\otimes\pi^*\mathcal O_P(2)\); the second comes from the base. Weighted field traces give
@@ -29,6 +65,10 @@ For an actual CI missing \(L\), generic socle comparison (or the existing trace-
 On the dense torus chart \(z=1,w=t,x=a,y=b\), one has \(2\rho-\xi=ab\,d\log(b^2/(a^2t))/dt\), where \(\rho=\theta/\theta_0\). Thus \(T-2S\) is minus the weighted trace of \(ab\,d\log\eta/dt\). A scalar cancellation does not imply pointwise constancy of \(\eta\). Full weighted tests against the generic reduced algebra are a trace-pairing version of existing radical/Jacobian support recognition, not a new obstruction.
 
 Classical inputs: Beauville's Hilbert symplectic form; Cattani–Dickenstein–Sturmfels, [Computing Multidimensional Residues](https://arxiv.org/abs/alg-geom/9404011), trace-Jacobian formula; Stacks trace of differentials above.
+
+### Averaging interpretation (user observation)
+
+Put \(U=\operatorname{Tr}_{\pi}(\alpha\beta\,d\log\eta/d\lambda)\), with the dense chart conventions above. The discrepancy identity is equivalently \(S=(T+U)/2\); that is, \(S\) is the arithmetic mean of the spectral trace and the signed weighted variation trace. If instead the variation trace is defined with a minus sign, the formula is \(S=(T-\operatorname{Tr}_{\pi}(-\alpha\beta\,d\log\eta/d\lambda))/2\). Keep the sign convention explicit: \(T-2S=-U\). This is an average of two trace values, not a trace normalized by degree. On translated support \(U=0\) componentwise; for general cycles its trace can cancel. Investigate the geometry of this averaging before assuming vanishing of either summand.
 
 ## Residual control (verified elimination; no claim of a general residual theorem)
 
