@@ -259,6 +259,61 @@ The [existing Chow/first-jet comparison](transverse_chow_moment_realization.md)
 identifies the equation-side coefficient; no Hessian vanishing
 for arbitrary proper pairs is proved.
 
+
+
+## 4a. The six-line configuration: two rulings and a secant projection
+
+The complementary-pair geometry has a direct common surface interpretation. Write \(L_{ij}\) for the span of coordinate vertices \(i,j\), not the line cut out by those coordinates. Projection from \(L_{ij}\) to the opposite coordinate line has degree \(d\) on each normalized translated quartic; its base divisor has orders \(c_0,c_\infty\) at the endpoints:
+ 
+| Center | \(d\) | \(c_0\) | \(c_\infty\) |
+|---|---:|---:|---:|
+| \(L_{01}\) | 1 | 3 | 0 |
+| \(L_{23}\) | 1 | 0 | 3 |
+| \(L_{02}\) | 3 | 1 | 0 |
+| \(L_{13}\) | 3 | 0 | 1 |
+| \(L_{03}\) | 2 | 1 | 1 |
+| \(L_{12}\) | 4 | 0 | 0 |
+
+These are just the orders of the two complementary coordinate sections of \(O_{\mathbf P^1}(4)\) after removing their common factor, so \(d+c_0+c_\infty=4\). For a full translated cycle of multiplicity \(m\), a generic plane through the center meets it in a moving part of length \(dm\) and fixed endpoint parts of lengths \(c_0m,c_\infty m\), by the Cartier intersection formula (Stacks [43.16](https://stacks.math.columbia.edu/tag/0B01)). On the blowup of a complementary skew pair, the **full inverse image** of an actual CI is still a proper intersection of the two total pullback divisors: away from the centers it is the original curve and over the finitely many endpoint points it has fibers of dimension one. Its cycle consists of the strict transforms with original multiplicities plus exceptional fibers over the endpoint points on the centers, with coefficients \(c_pm\) from the table. Indeed intersect with a generic plane-pencil fiber for the projection from that center; the exceptional fiber maps isomorphically to the pencil base, and the strict transforms avoid the fixed endpoint in a generic such slice. This proves the coefficients by the preceding plane length calculation. This concerns the pairwise line blowups, not the full inverse image on the common resolution after blowing up points, which can contain exceptional surfaces. The product of the two projections gives the joining-line bundle over \(L_{ij}\times L_{kl}\) (the projective bundle of lines in \(O(-1,0)\oplus O(0,-1)\)); its projection of the full CI cycle is the Chow restriction in Section 4. Generic degree of a reduced component onto its projected image is not the scheme-theoretic fiber length of an arbitrary nonreduced thickening.
+
+On a fixed smooth quadric \(Q_c=V(xy-czw)\), use the dense Segre chart
+\[
+ [z:x:y:w]=[1:A:B:AB/c].
+\]
+Here the first complementary pair \(01|23\) produces precisely the ruling \(A=\mathrm{constant}\): the joining line runs from \([1:A:0:0]\) to \([0:0:1:A/c]\). The second \(02|13\) produces the other ruling \(B=\mathrm{constant}\). The third \(03|12\) produces secants: on the torus its two coordinates are
+\[
+ R=AB/c,\quad S=B/A,\qquad A^2=cR/S,\quad B^2=cRS .
+\]
+The two preimages are exchanged by the simultaneous sign involution \((A,B)\mapsto(-A,-B)\) (characteristic not two). For \(B=uA^3\), \(S^2/R=uc=\eta\) when \(q=c=u/v\). Thus on a common quadric the three line models are the two rulings and a two-to-one secant projection, not three unrelated observations. The projection degree two holds on the torus; the rational map has boundary base loci and its exceptional structure must not be treated as an everywhere finite quotient of \(Q_c\). At the scheme level the sign involution preserves the cycle, but need not preserve an arbitrary thick CI ideal. Compare the existing [sign-symmetry theorem](chow_acm_parity_vanishing.md) and [actual source comparison](sign_symmetry_and_actual_sources.md). The fixed quadric and the two-to-one projection explain why \(q,\eta\) jointly encode the orbit, while separate projected spectra can forget pairing and thick structure.
+
+### Common coordinate planes and what line data does not see
+
+The four coordinate planes give a particularly elementary comparison of the three pencil descriptions: every coordinate plane contains three edges, and is a special member of each of their plane pencils. An actual full translated-cycle CI cuts each plane in a finite plane CI of length \(4m\), with lengths at \(p_0,p_\infty\) respectively:
+\[
+ z=0:(0,4m),\quad x=0:(m,3m),\quad
+ y=0:(3m,m),\quad w=0:(4m,0).
+\]
+This follows directly from the four coordinate orders on the normalization. The restriction of the two equations to an edge is common to the two adjacent plane sections. In particular the two planes \(z=0\) and \(w=0\) share the disjoint edge \(L_{12}\), and the first-normal-jet comparison there is the alternating comparison of the first layers of those two plane restrictions, not isolated data on that edge. The generic pencil contact at a fixed endpoint is not in general the length of the scheme-theoretic intersection with the center edge: in a local ring \(A_p=O_{Z,p}\) the latter is a quotient by both center equations, whereas the former is a quotient by one generic linear combination. The inequality follows from that surjection.
+
+The established [first-jet flexibility family](sole_support_first_jet_gate.md) is a useful concrete control for this whole configuration. At \((4,4)\) take \(Q=zw-xy\) and
+\[
+ F=x^4-z^3w+\lambda zQx,\quad G=y^4-zw^3+\mu wQy.
+\]
+For all \(\lambda,\mu\), the restrictions of both forms on **all six edges** are identical to those of the invariant binomial pair (\(\lambda=\mu=0\)): every perturbing monomial uses at least three distinct coordinates. All four coordinate-plane intersection cycles also have exactly the prescribed lengths with \(m=4\). On \(z=0\) the first form is \(x^4\), and its common zero with the second is only \(p_\infty\); on \(w=0\) the second is \(y^4\), and their common zero is only \(p_0\). Both lengths are sixteen by Bezout. On \(x=0\), the first form is \(-z^3w\); restriction of the second to \(z=0\) or \(w=0\) there is \(y^4\). Cartier intersection additivity gives lengths \(4\) at \(p_0\), \(12\) at \(p_\infty\). On \(y=0\) the second is \(-zw^3\), and the same argument with \(x^4\) gives \(12,4\). Yet the cofactor transition on the disjoint edge is \(\lambda\mu\,d(y/x)/(y/x)\) (Section 9 of [plane-pencil account](plane_pencil_equation_bundles.md)). In particular for \(\lambda\mu\ne0\) these are not full translated-cycle pairs: on substituting \([1:t:ut^3:vt^4]\), the first equation requires \(v=u=1\) for an entire translated component, while the generic length along that component is one by the existing flexibility calculation. All six edge restrictions and the four special-plane *cycles*, even jointly, fail to determine the geometry of the moving intersections. The full plane schemes are not claimed equal.
+
+We can see exactly where the missing intersection goes on the common quadrics. For \(q=c\ne0,1\), use the torus coordinates \(t,u,v\) with \(u=cv\) in this control. The two equations, divided by their nonzero torus monomials, become
+\[
+ 1-v+\lambda t v(1-c)=0,\qquad
+ c^4v-1+\mu c(1-c)/t=0 .
+\]
+Eliminate \(v\):
+\[
+ c^4t=(t-\mu c(1-c))(1-\lambda t(1-c)).
+\]
+For \(\lambda\mu\ne0\) this is a quadratic in \(t\) with nonzero leading and constant coefficients for every \(c\ne0,1\). Its roots over an algebraically closed field are nonzero, and none zeros \(1-\lambda t(1-c)\) (the left hand side would be nonzero). They give actual intersection points in the torus of every such \(Q_c\). By contrast for the invariant pair the only smooth-quadric fibers with torus intersections are \(c^4=1\); there the torus common loci are the translated quartics. The two ruling descriptions see the same off-endpoint points, and the third observes their secant projections. This is an elementary control, not a new obstruction: it identifies the geometric information lost by looking only at the edges and special-plane lengths.
+
+The constructive comparison is therefore to keep the **same two restricted curves on the varying quadrics**, including their actual common schemes, and use the two rulings to compare them with the secant observation. The prescribed full translated-cycle geometry says that for \(c\) outside its spectrum the common scheme of the two restricted curves is entirely at the two corners (length \(4m\) each, as in Section 3). For spectral fibers the common curves and their residual/embedded scheme structures must be retained. This comparison returns to the existing product dictionary without requiring another auxiliary bundle. The standard blowup and intersection inputs plus the explicit control establish the stated comparisons; there is no general reconstruction or new universal moment vanishing. Provisional pending independent review.
+
 ## 5. Global sections as requirements on F,G
 
 For a proper CI \(Z\) of the stated cycle, adjunction gives
