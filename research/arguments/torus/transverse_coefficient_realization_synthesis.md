@@ -355,7 +355,13 @@ Macaulay pairing is in [spectral--Jacobian bridge](spectral_jacobian_first_jet_b
 A single local smooth branch \(y=ux^3,w=vx^4\) has all the local
 spectral identities yet a pole \(2q\,dx/x\); the missing input is global.
 
-## 6. What to carry forward
+## 6. Grassmannian sum pencil and return to equations
+
+The [Grassmannian sum and conormal compatibility account](grassmannian_sum_and_conormal_compatibility.md) records the enlarged relative Grassmannian, the direct sum-pencil blowup (without resolving individual spectral pencils), the integral ambient finite fibers, collision relations, the intrinsic conormal graph and the compatible weighted q-form. It distinguishes graph incidence from a canonical lift of nilpotent Plücker data and records the scalar supplied by the actual cycle.
+
+The useful next step is to work backwards: eliminate the auxiliary Grassmannian coordinates and identify which compatibility equations impose genuine constraints on the common homogeneous source. The immediate target is the existing binary first-normal-jet pairing on the disjoint projection line. The weighted q-form follows from spectral ideal membership and Euler, so it does not independently prove balance. No new UM1 coverage or priority change is asserted.
+
+## 7. What to carry forward
 
 * Use the existing reduced-cycle evaluation/moment-matrix criterion
   as the constructive model, and the canonical fat-point envelope
