@@ -2,6 +2,8 @@
 
 **Status:** geometric comparison of established sources and elementary specializations, **not** a universal first-moment theorem. Characteristic zero. This note is subordinate to [the universal-moment corpus synthesis](universal_first_moment_corpus_review.md), [the exact first-moment theorem](chow_arrangement_moments.md), and [the actual spectral equation](chow_realization_moment_separation.md#11-the-two-extreme-mixed-coefficients-of-the-quadric-spectrum-equation).
 
+The [constructive coefficient-realization synthesis](transverse_coefficient_realization_synthesis.md#3-product-geometry-a-fixed-quadric-and-the-q-translation) records the quadric-adapted product, six elementary coordinate ratios, common toric resolution, and their three opposite-pair Segre restrictions in the Grassmannian. Its centered-section comparison explains the scalar/traceless decomposition of the transverse endomorphism in terms of global canonical sections. These are interfaces to the same realization problem, not independent proofs of universal balance.
+
 ## 1. The original embedding is induced from the quadric
 
 Let \(Q_1=V(x_1x_2-x_0x_3)=\mathbf P^1_A\times\mathbf P^1_B\)
