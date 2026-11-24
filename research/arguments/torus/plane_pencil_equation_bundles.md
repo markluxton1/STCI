@@ -114,3 +114,58 @@ Even requiring all fibers to be plane CIs with the specified dense-torus cycle a
 is a nowhere-zero family of linear equations: its coefficients define the injection \(O(-2)\to V_1=O(1)\oplus O^2\) with entries \((-u t^3,s^2,0)\). Its zero surface is a smooth ruled surface over the base (projectivization of the rank-two kernel of the corresponding everywhere-surjective map \(E\to O(2)\)). On this surface the two orbit sections \([R:Y:W]=[s^3:u st^3:\pm t^4]\) and the fixed section \([0:0:1]\) exist at every base point. Take the relative effective Cartier divisor consisting of the sum of the first two sections and six times the fixed section. By standard relative divisor theory (Stacks [44.3.2](https://stacks.math.columbia.edu/tag/0B9E)) it is finite flat of degree eight. Each fiber is a degree-eight divisor on a line, hence is a plane CI of type \((1,8)\), including the endpoints where sections collide. On the dense base it has exactly the desired two moving points and a length-six endpoint piece. Its minimal linear equation bundle is \(G_1=O(-2)\), not trivial. The example is a relative plane family, **not** an actual projective CI, and is in low degrees; it does not rule out a stronger statement for a more constrained canonical completion or a narrower degree range. It shows why the spectral determinant alone is not sufficient for the general equation-bundle criterion.
 
 There is also a prior example at type \((4,4)\) of a balanced reduced configuration that does not admit a global pair (same-u fourth-root cycle in the [coefficient synthesis](transverse_coefficient_realization_synthesis.md#what-the-spectrum-can-and-cannot-encode)). This excludes a blanket claim of sufficiency from the first moment alone without requiring the above relative completion. The positive question remains: is there a geometrically distinguished completion or a marked determinant comparison in which the residual transition is exactly the spectral first jet? Preserve the distinction between this question and universal UM1. The new relative example and transition comparisons are provisional pending independent review.
+
+
+## 6. An actual equation-side transition: the Koszul cofactor torsor
+
+The [established first-jet residue formula](spectral_jacobian_first_jet_bridge.md#4-the-first-moment-is-a-perfect-residue-pairing-of-first-jets) supplies an exact equation-side geometric interpretation of the marked spectral scalar. Work in characteristic zero, with an actual proper homogeneous CI \(Z=V(F_a,G_b)\) whose entire cycle is translated quartics. Let \(L=V(z,w)\) be the disjoint projection line, write
+\[
+ F=f+zp+wq'+\cdots,\qquad G=g+zr+ws+\cdots,\qquad P=ps-q'r.
+\]
+Here \(r,s\) in the jet expansion denote coefficients, not longitudinal parameters. The twisted Koszul sequence on \(L\) is
+\[
+ 0\to O_L(-2)\xrightarrow{(-g,f)}
+ O_L(b-2)\oplus O_L(a-2)\xrightarrow{(f,g)}O_L(a+b-2)\to0 .
+\]
+Use the coordinate identification \(O_L(-2)\simeq\omega_L\) and the ordered Koszul orientation from the residue proof. The sheaf of cofactor presentations of \(P\) is the torsor of lifts of this section through the last surjection. On \(D(f),D(g)\), choose \((P/f,0),(0,P/g)\). Their difference is \(P(-g,f)/(fg)\). Thus the translation cocycle in the kernel, expressed as a differential, is
+\[
+ \gamma_{fg}=\frac{P}{fg}(x\,dy-y\,dx).
+\]
+The order of the Cech cover and the identification of the kernel with \(\omega_L\) are taken consistently with the Serre-trace orientation. The class is the connecting image \(\delta(P)\). The standard classification of additive sheaf torsors by \(H^1\) ([Stacks 20.4](https://stacks.math.columbia.edu/tag/02FN)) gives the geometric interpretation. With the normalized Serre-trace generator represented by the logarithmic cocycle \(d\xi/\xi\), \(\xi=y/x\), one has
+\[
+ [\gamma_{fg}]=2M_1[d\xi/\xi],\qquad
+ M_1=0\iff \text{the cofactor torsor is trivial}.
+\]
+When it is trivial its global section is unique, since \(H^0(L,\omega_L)=0\). This is an interpretation of the existing equality, not a new proof of vanishing. The class is constructed from the actual normal equation jets, not independently prescribed from the cycle.
+
+There is also a natural multiplicative version. Let \(L^{(1)}\) be the first infinitesimal neighborhood of the zero section in the total space of \(T_L\); its algebra over \(L\) is \(O_L\oplus\omega_L\), with square-zero second summand. The unit subgroup \(1+\omega_L\) identifies with the additive sheaf \(\omega_L\). Glue a line bundle on \(L^{(1)}\), trivialized on \(L\), by \(1+\gamma_{fg}\). Its isomorphism class lies in the kernel of \(\operatorname{Pic}(L^{(1)})\to\operatorname{Pic}(L)\), canonically \(H^1(L,\omega_L)\) by the split unit sequence. In standard charts its cocycle class is represented by \(1+2M_1 d\xi/\xi\), where the differential denotes a square-zero ideal section. The line is trivial precisely when \(M_1=0\). Equivalently, pull the Koszul sequence back along \(P:O_L\to O_L(a+b-2)\) to obtain an extension of \(O_L\) by \(\omega_L\); its splitting is the same condition. Do not call the underlying rank-two extension bundle trivial when the extension splits: it then equals \(O\oplus O(-2)\). These are standard geometric realizations of the cohomology class. The split ribbon is a natural auxiliary scheme, not an assertion that it is the first neighborhood of \(L\) in \(\mathbf P^3\).
+
+## 7. Why the longitudinal logarithmic form is the same scalar
+
+Use the actual finite flat projection \(\pi:Z\to B=\mathbf P^1_{[z:w]}\), disjoint from \(L\), of degree \(4m\). Put \(R=w/z\), \(D_B=[0]+[\infty]\), \(D_Z=\pi^*D_B\), and \(\mathcal A=\pi_*O_Z\). Here \(D_Z\) is the full Cartier endpoint divisor, not just the reduced points. Finite duality and adjunction give
+\[
+ \pi_*\omega_Z(D_Z)=\mathcal A^\vee\otimes\omega_B(D_B),
+ \qquad \omega_Z(D_Z)=O_Z(a+b-2).
+\]
+The duality trace of a functional is evaluation at \(1\) (Stacks [49.15](https://stacks.math.columbia.edu/tag/0DWM), [48.20](https://stacks.math.columbia.edu/tag/0AU5)). On the punctured base the functional \(\lambda_q(h)=\operatorname{Tr}_{\mathcal A/O_B}(qh)\) gives the section \(\lambda_q\,dR/R\). The [spectral--Jacobian identity](spectral_jacobian_first_jet_bridge.md) and relative Jacobian trace formula extend \(\lambda_q\) as a section of \(\mathcal A^\vee\) over the endpoints, even when \(q\) is not itself regular there. In the adjunction convention the homogeneous expression
+\[
+ \omega=(x\,dy-y\,dx)/(zw)
+\]
+under the fundamental-class map is \(\frac12\lambda_q\,dR/R\): the relative Jacobian corresponds to the multiplication trace, and \(qD_{12}=2D_{03}\). On each reduced normalization \(R=v_i t^4\), so \(dR/R=4dt/t\) and its weighted branch expression is \(2n_i q_i\,dt/t\). The fundamental-class interpretation is essential for nonreduced schemes; no ordinary differential on the reduction is being identified with the full dualizing sheaf.
+
+The finite duality trace therefore gives exactly
+\[
+ \operatorname{Tr}^{\mathrm{dual}}_\pi(\omega)
+ =\frac12\lambda_q(1)\frac{dR}{R}
+ =2M_1\frac{dR}{R}.
+\]
+Consequently its logarithmic coefficient at zero agrees with the Serre trace of the actual cofactor torsor on \(L\), and its coefficient at infinity is opposite. The ordinary residue theorem does not force either individually to vanish. The [centered-section account](transverse_coefficient_realization_synthesis.md#centered-differential-and-scalar-part-of-the-spectrum) already proves that \(\omega\) is regular iff \(M_1=0\) for these actual CIs, a stronger statement than just taking its aggregate trace.
+
+On the same punctured base the first-order norm is
+\[
+ \operatorname{Nm}_{\pi}(1-\epsilon q)
+ =1-\epsilon\lambda_q(1)=1-4M_1\epsilon\quad(\epsilon^2=0).
+\]
+On the separated rank-\(m\) longitudinal algebra it is \(1-M_1\epsilon\) instead. This is the usual determinant/trace relation for finite locally free norms ([Stacks 31.18.6](https://stacks.math.columbia.edu/tag/0BD2)). It agrees with the first jet of the already-reviewed spectral framing in Section 5. Thus the norm, longitudinal log coefficient and actual cofactor transition all compute the same scalar with their known factors of 4 and 2. The three bases (spectral line, longitudinal projection line and disjoint center line) remain distinct. The comparison uses their canonical trace coordinates, not an identification of their vector bundles or their local transition functions.
+
+**Geometric consequence and limitation.** We now have a line whose triviality detects the sum and whose cocycle comes directly from actual equations. This answers the marked-transition question for the first-jet cofactor presentation. It does not identify this line with either minimal generator bundle of Section 3, and those generator bundles are already trivial for an actual global pair. The remaining meaningful comparison is to understand whether the cofactor framing is induced by the same global degree-labeled presentation through the opposite pencil and its endpoint geometry, or is extra information independent of ordinary generation. The torsor and ribbon interpretations use standard cohomology; the comparisons are a provisional synthesis of existing identities, pending independent review, not new UM1 coverage.
