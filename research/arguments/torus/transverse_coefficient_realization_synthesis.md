@@ -42,13 +42,7 @@ including a coprime-pair condition, is already proved in
 [transverse Chow coefficients](transverse_chow_moment_realization.md).
 The moving nonreduced case is the genuine gap.
 
-**Research objective:** extract useful, preferably degree-uniform
-relations on the coefficients from the joint existence of \(F,G\).
-The complete set of spectral conditions may be much richer than a first
-moment, but we do not need to classify the realization locus to settle
-STCI. A single necessary coefficient relation excluding its small
-diagonal would suffice. Do not make full classification a prerequisite
-to using a successful small part of this framework.
+**Research objective:** understand the geometry of realization: how an orbit configuration, a family of embedded transverse neighborhoods, and a common global section of two prescribed line bundles fit together. The coefficient relations record this geometry. Spectral balance is one informative test case, not the organizing principle, and obtaining an exclusion is not a prerequisite for useful understanding.
 
 ### What the spectrum can and cannot encode
 
@@ -359,16 +353,14 @@ spectral identities yet a pole \(2q\,dx/x\); the missing input is global.
 
 The [Grassmannian sum and conormal compatibility account](grassmannian_sum_and_conormal_compatibility.md) records the enlarged relative Grassmannian, the direct sum-pencil blowup (without resolving individual spectral pencils), the integral ambient finite fibers, collision relations, the intrinsic conormal graph and the compatible weighted q-form. It distinguishes graph incidence from a canonical lift of nilpotent Plücker data and records the scalar supplied by the actual cycle.
 
-The useful next step is to work backwards: eliminate the auxiliary Grassmannian coordinates and identify which compatibility equations impose genuine constraints on the common homogeneous source. The immediate target is the existing binary first-normal-jet pairing on the disjoint projection line. The weighted q-form follows from spectral ideal membership and Euler, so it does not independently prove balance. No new UM1 coverage or priority change is asserted.
+Work backwards geometrically, not by eliminating all structure to reach a single equation. Section 0 of the companion account interprets the orbit quotient, fixed fat-point envelope, moving transverse neighborhoods, the two normal geometries, compatible forms as functorial conormal maps, and the sum graph as the resolution of an observable. The weighted q-form follows from spectral ideal membership and Euler, but its geometric content is the factorization through the projected cycle divisor. The first-normal-jet pairing is an independent presentation of one observable, not the immediate objective of the realization program. No new UM1 coverage is asserted.
 
 ## 7. What to carry forward
 
 * Use the existing reduced-cycle evaluation/moment-matrix criterion
   as the constructive model, and the canonical fat-point envelope
   for repeated components. Do not infer scheme structure from trace.
-* Extract simultaneous equation constraints from intrinsic coefficient
-  constructions. Check that a proposed additional constraint is not
-  already automatic by saturation, duality, or Chow compatibility.
+* Reconstruct each intrinsic construction in terms of its geometric objects, maps and forgotten information. Use coefficient relations to express the geometry, and distinguish automatic functorial compatibility from additional global realization information.
 * Compare the common homogeneous equation presentation across the
   product models and the three Grassmannian restrictions. Boundary
   compactification is essential; arbitrary spectra occur on the torus.
@@ -378,10 +370,7 @@ The useful next step is to work backwards: eliminate the auxiliary Grassmannian 
   Hartshorne--Serre gives the established subcanonical lci-to-rank-two
   bundle construction; a CI corresponds to a split bundle, and
   prescribing the cycle is weaker than prescribing an lci scheme.
-* Keep the first-moment problem as one possible small, consequential
-  part of the coefficient-realization program. Neither centered
-  regularity nor the spectral polynomial recurrences remove the
-  scalar term. No universal first-moment vanishing is proved here.
+* Use the first moment as one observable for comparing the constructions, not as the definition of progress. Neither centered regularity nor the spectral polynomial recurrences remove the scalar term. No universal first-moment vanishing is proved here.
 
 The current proof boundary is maintained in
 [universal first moment proof boundary](universal_first_moment_proof_boundary.md)
