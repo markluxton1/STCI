@@ -16,6 +16,14 @@ Thus the actual calculation concerns the residue or its equivalent trace on arbi
 
 The small diagonal is a separate, already calculated benchmark: \(H_1(m[C])=4m\ne0\) in characteristic zero. Only after understanding the full CI realization locus should one compare its values with this benchmark. Do not repeatedly redirect investigations to sole support, the existence of a thickening of \(C\), or the search for a new STCI obstruction. The twenty questions below are subordinate to this governing calculation, and remain available for exploration.
 
+### Chow-space separation formulation (governing viewpoint)
+
+Write \(\mathcal A_m=\operatorname{Sym}^m(\mathbb G_m^2)\) for the interior translated-cycle Chow parameter space, of dimension \(2m\). Let \(\mathcal R_{a,b}\) be the actual proper-CI Chow image of degree pair \((a,b)\) in \(\mathcal A_m\), where \(ab=4m\), and \(\mathcal R_m=\bigcup_{ab=4m}\mathcal R_{a,b}\). These are constructible loci, not assumed closed. The objective is to determine whether the regular function \(M_1:\mathcal A_m\to\mathbb A^1\) belongs to the vanishing ideal of \(\overline{\mathcal R_m}\) (closure relative to \(\mathcal A_m\)). Equivalently, is \(\mathcal R_m\subseteq V(M_1)\)? By the established identities we may calculate \(H_1,T,S\) or the first-jet residue instead.
+
+This is a **single-equation separation problem in Chow space**, not a classification of realizability. The small diagonal \(D_m\) is disjoint from \(V(M_1)\) in characteristic zero, since \(M_1(m[(u,v)])=mu/v\). The desired hypersurface separates the full realization locus (and its relative closure) from \(D_m\); it would also certify nonrealizability of every cycle with nonzero moment. It need not distinguish all nonrealizable cycles: the zero set may strictly contain the realization locus. No claim of \(V(M_1)=\mathcal R_m\) is intended.
+
+The known [(4,4) classification](../../arguments/torus/chow_realization_moment_separation.md) illustrates why one condition can be useful without classifying a high-codimension locus: in the eight-dimensional \(\mathcal A_4\) the realization locus has a four-dimensional component and a two-dimensional exceptional nonreduced component, both in the seven-dimensional \(V(M_1)\). General high-codimension estimates remain to be established; they are not needed for this separation question. Existing [transverse Chow moment realization](../../arguments/torus/transverse_chow_moment_realization.md) and [Chow realization and first-moment separation](../../arguments/torus/chow_realization_moment_separation.md) already formulate the separator and establish restricted cases. The current investigation seeks the unrestricted calculation, rather than inventing a new separator or re-solving the reduction.
+
 ### Reduction of the original problem
 
 The characteristic-zero STCI nonexistence problem for the fixed rational quartic is reduced, in the sufficient-implication sense, to a single general statement:
