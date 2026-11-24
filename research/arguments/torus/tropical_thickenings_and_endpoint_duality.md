@@ -298,6 +298,29 @@ Taking degrees in (8) gives only twice (4):
 The duality supplies the whole boundary algebra and compatible subalgebra,
 but not an independent numerical contradiction.
 
+
+
+### The simple-pole part of the conductor gluing
+
+For the actual finite separated modification (also with several distinct weighted supports), isolate the first layer of (9), rather than the whole conductor quotient. At either endpoint write \(R=k[[r]]\), \(A=R[r^3u,r^4v]\subset B\), with the corresponding opposite parameter and units at infinity. The maximal ideal of \(A\) satisfies \(\mathfrak m_A B=rB\), and \(A\to B/rB\) has image \(k\cdot1\). Thus when \(m>1\) the conductor \(\mathfrak c\subset rB\): an element of the conductor with nonzero image in \(B/rB\) would be a unit of \(B\), forcing \(A=B\), inconsistent with the image dimension.
+
+Choose the Frobenius functional \(\lambda:A\to R\) used in (9). In its dualizing frame the relative canonical module of \(B\) is \(\mathfrak c\), and the simple-pole module is \(r^{-1}\mathfrak c\subset B\). The perfect pairing of (9) identifies
+\[
+ (r^{-1}\mathfrak c)/\mathfrak c
+ = (0:_{B/\mathfrak c} r)
+ \simeq (B/rB)^\vee,
+ \qquad b\mapsto[\bar h\mapsto\operatorname{res}_{r=0}\lambda(bh)\,dr].
+\]
+The functionals corresponding to elements also in \(A\) are precisely the annihilator of \(k\cdot1\), by the self-orthogonality \(E=E^\perp\) or directly by the residue test. Thus the \(m\)-dimensional first layer contains exactly an \((m-1)\)-dimensional subspace of gluing simple-pole differentials, regardless of the thick structures or the rest of the conductor. The algebra trace is not the Frobenius pairing; it supplies particular functionals in its dualizing module. The particular covector for the moment is \(\bar h\mapsto\operatorname{Tr}_{B/rB}(q\bar h)\), where \(q=u/v\) is the ambient unit; its value at \(1\) is \(M_1\) by flat trace base change and generic cycle multiplicities. In the opposite parameter its associated differential has the negative residue. The local target is therefore exactly this one hyperplane, not all higher gluing conditions.
+
+Globally put \(D_W=\pi^*(0+\infty)\) on the separated scheme \(W\). Finite-flat duality gives
+\[
+ \pi_*\omega_W(D_W)=\mathcal B^\vee
+\]
+using \(dr/r\) to trivialize the twisted base canonical bundle. The endpoint parameters \(r^-=q/r\) and \(1/r\) differ by a unit, so the boundary divisors agree. A global logarithmic dualizing section corresponds to an \(O_{\mathbf P^1}\)-linear map \(\ell:\mathcal B\to O_{\mathbf P^1}\). Its two total residues downstairs are \(\ell(1)\) and \(-\ell(1)\), by trace to the longitudinal base and the residue theorem (equivalently the two local finite-duality tests; the change of uniformizer at infinity leaves the total residue unchanged). This assertion includes nonreduced \(W\): local duality residues are invariant under the choice of finite parameter and evaluate the coefficient of the simple pole at the unit. In a Frobenius frame downstairs, these simple-pole sections are already regular sections of \(\rho^*\omega_Z\) upstairs, by \(r^{-1}\mathfrak c\subset B\). They descend to \(\omega_Z\) exactly when \(\ell(1)=0\).
+
+If \(\mathcal B=\bigoplus_i O(\beta_i)\), \(\beta_i\ge0\), and \(h=\#\{i:\beta_i=0\}\), the global simple-pole space has dimension \(h\), of which precisely \(h-1\) dimensions descend in characteristic zero. Indeed the normalized algebra trace \(\operatorname{Tr}_{\mathcal B/O}/m\) evaluates to one on the unit. There is a canonical decomposition of this space into trace-zero functionals (the kernel of evaluation at the unit) and the scalar normalized trace. For \(\ell=\operatorname{Tr}(q\,\cdot)\) the scalar coefficient is \(M_1\), and subtraction of \(M_1/m\) times the unweighted trace is the already-established centered logarithmic differential. This identifies the exact global first-layer matching map with the unit evaluation, without the assumption that \(\mathcal B\) is constant or that its generic algebra is reduced. For sole support the trace-weighted form equals \(q_0\) times the unweighted trace form; it never descends in characteristic zero. This is not itself a contradiction to a CI: the normalized unweighted trace is always a global simple-pole section and does not descend. Thus the genus and self-orthogonality identities do not by themselves place the prescribed section in the kernel. The missing implication must use additional global equation information distinguishing that particular covector from the scalar trace direction. Classical inputs: finite duality (Stacks 49.2, https://stacks.math.columbia.edu/tag/0BUK), trace base change (Stacks 49.4, https://stacks.math.columbia.edu/tag/0BSY), residue pairing (Rosenlicht, see https://doi.org/10.1007/s11565-024-00495-8). This is an elementary comparison in the already-established conductor framework, provisional pending independent review, not a proof of UM1.
+
 ### A conductor that cannot be replaced by a scalar
 
 In every characteristic take
