@@ -339,6 +339,10 @@ UM1 for all Chow-matched arrangements is a stronger, potentially
 more geometrically accessible, statement. Do not transfer
 normal replacement to the entirely-thick alternative.
 
+## Grassmannian reformulation (provisional)
+
+The [direct sum-pencil and conormal comparison](grassmannian_sum_and_conormal_compatibility.md) on the coefficient-realization branch expresses the first coefficient as a resolved homogeneous Plücker pencil on a product of relative Grassmannians. Its finite ambient fibers are integral by the graph-chart quadric calculation. The compatible weighted q-form follows from actual spectral membership by the conormal map and Euler identity, so it adds no independent first-moment vanishing condition. For nilpotent Jacobian data, the cycle supplies the scalar lift; the graph equation alone does not determine it at the exceptional boundary. The precise equation-level target is still the binary first-normal-jet pairing described above. This provisional construction changes neither proved coverage nor the current research priority.
+
 ## Research decision and stopping condition
 
 Priority is **one source-sensitive implication**:
