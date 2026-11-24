@@ -532,6 +532,33 @@ and the latter is nontrivial since
 \(0\to O_Q(-6,-6)\to O_Q(-2,6)\to O_D(-2,6)\to0\)
 gives \(H^0(O_D(-2,6))=0\) by the cohomology of the product. Similarly \(h^1(I_D(4))=h^1(O_Q(0,-8))=7\), via the ideal sequence of \(Q\). These are standard quadric-divisor computations (Hartshorne, *Algebraic Geometry*, III Ex. 5.6 for ACM curves on quadrics; the genus and canonical comparison follow directly from adjunction). This is not a candidate counterexample to UM1, nor a new low-degree exclusion. It demonstrates even in the reduced case that local lci, matching endpoint deformation lengths and corner cycles, absence of degenerate moving components and even the entire CI Hilbert polynomial cannot force the double zero. A successful use of the global two-equation hypothesis must retain genuine global equation/section compatibility (not only numerical adjunction or local residue conservation). The example is a control, not a proposal to classify quadric carriers. No new universal vanishing established; provisional pending review.
 
+
+### Global section gluing: from the Hilbert polynomial to the actual graded maps
+
+The [endpoint delta theorem](arrangement_endpoint_delta.md) gives the two coefficient filtrations \(W_j^0,W_j^\infty\subset k^m\) for a distinct reduced configuration. Classical inputs are the normalization sequence, the Koszul resolution of a projective CI, and Serre duality; see Hartshorne, *Algebraic Geometry*, III §§5, 7, and Rosenlicht's residue criterion in [Gorenstein curve singularities of genus three, §1.3.1](https://doi.org/10.1007/s11565-024-00495-8). The existing reduced-cycle invariant-ideal theorem already proves the first moment for reduced CIs. The point here is to read graded global sections as actual two-endpoint gluing conditions, not to reprove that theorem.
+
+For \(d\ge0\), write a normalized section of \(O_Z(d)\) on branch \(i\) in the \(z^d\)-frame as \(\sum_{j=0}^{4d}c_{ij}r^j\). Since \(w/z=v_i r^4\) and \(r^-=q_i/r\), the coefficient in the opposite frame is \(c_{ij}v_i^{-d}q_i^{j-4d}\) at order \(4d-j\). Therefore the complete space of global sections is the direct sum over \(0\le j\le4d\) of
+\[
+ L_{d,j}=W_j^0\cap\left(\mathbf v^d\mathbf q^{4d-j} W_{4d-j}^\infty\right)\subset k^m.
+\]
+Here and below multiplication by the displayed invertible vectors is componentwise. The actual ambient degree-\(d\) weight-\(j\) span is
+\[
+ V_{d,j}=\operatorname{span}\{\mathbf u^b\mathbf v^c:
+ b,c\ge0,\ 3b+4c\le j,\ 2b+3c\ge j-d\}.
+\]
+Indeed the exponents of \(x\) and \(z\) in the corresponding ambient monomial are \(j-3b-4c\) and \(d-j+2b+3c\), respectively. Every such monomial belongs to \(L_{d,j}\). For a reduced union, the ACM condition is exactly equality of these two spaces for all \(d\ge0,j\); the ideal restriction sequence proves this, since \(H^1(P^3,O(d))=0\) and negative-degree sections vanish on the normalized curves. A CI further prescribes the Hilbert series \((1-T^a)(1-T^b)/(1-T)^4\). This is an exact check in the existing coefficient model, not a sufficient claim based on the Hilbert polynomial alone.
+
+For instance compare the two four-point configurations \((u,v)=(\zeta,1)\) and \((\zeta,\zeta)\) as \(\zeta^4=1\), in characteristic zero. Their endpoint rank profiles and arithmetic genera agree (\(\delta_0=\delta_\infty=18,\ p_a=33\)). At \(d=2,j=4\), \(W_4^0=\langle1,\mathbf u,\mathbf v\rangle\), and the transported opposite span is \(\langle\boldsymbol\eta^2,\mathbf u,\mathbf v\rangle\), where \(\eta=u^2/v\). The balanced example has \(L_{2,4}=\langle1,\mathbf u\rangle\) of dimension two, while the unbalanced example has \(L_{2,4}=\langle\mathbf u\rangle\) of dimension one. These are the spans of \(zw,xy\), independent in the former but equal in the latter. The known (4,4) binomial CI has \(h^0(O_Z(d))=1,4,10,20,33,48,64\) for \(d=0,\ldots,6\). The latter is a divisor of type (4,12) on \(Q_1\), whose standard ideal sequence on the quadric gives \(1,4,9,16,32,48,64\). Both have polynomial \(16d-32\). They differ already in degree two, and at canonical degree four.
+
+For an arbitrary actual CM thickening the same *global* matching operation is available without separating branches into a constant coefficient algebra. Let \(\rho:W\to Z\) be the finite separated modification, \(B=\pi_*O_W\) on the longitudinal \(P^1\), and \(e=\deg B\); use the [established endpoint comparison](tropical_thickenings_and_endpoint_duality.md). The pullback of \(O_Z(d)\) is \(\pi^*O(4d)\) (the two frames have transition \(V^d r^{4d}\), with \(V\) a global unit on \(W\)). Thus for \(d\ge0\) the kernel of the map from \(H^0(P^1,B(4d))\) to the two endpoint discrepancy quotients is exactly \(H^0(Z,O_Z(d))\). Global generation gives \(H^1(B(4d))=0\). The dimension of the source is \(m(4d+1)+e\), and the total dimension of the target is \(e+m(2a+2b-7)\) for an actual CI. The constant algebra coefficient decomposition above need not hold for this moving \(B\). The gluing map itself, not its dimensions, is the common object.
+
+There is an especially direct check in canonical degree \(s=a+b-4\). Use the actual divisor \(D=V(zw)\cap Z\) of degree \(8m\), with two endpoint pieces of length \(4m\) each. By the actual CI adjunction identification and Serre duality,
+\[
+ 0\to H^0(\omega_Z)\to H^0(\omega_Z(2))\to
+ H^0(\omega_Z(2)|_D)\xrightarrow{\partial} k\to0 .
+\]
+Here the inclusion is multiplication by \(zw\) and \(H^1(\omega_Z(2))=0\), since \(H^0(O_Z(-2))=0\) by the CI resolution. The last \(k=H^1(\omega_Z)\) is one-dimensional since \(H^0(O_Z)=k\). The connecting map is the sum of the two local residue functionals (the global residue theorem). In particular the global canonical gluing imposes *one* relation on these restrictions, not separate zero restrictions at the endpoints. Our numerator \(P\in H^0(\omega_Z(2))\) has endpoint residues \(M_1,-M_1\), which already obey that relation. This explains why even using the canonical Hilbert function, without further information on the specific numerator, does not turn the global residue condition into separate endpoint vanishing. No proof of arbitrary first-moment vanishing is claimed. Provisional synthesis; independent review still needed.
+
 ## 5. Global sections as requirements on F,G
 
 For a proper CI \(Z\) of the stated cycle, adjunction gives
