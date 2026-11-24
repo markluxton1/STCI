@@ -82,3 +82,35 @@ from the relative Koszul resolution and \(R^1p_*O_P(j)=0\) for all \(j\). It dis
 The constructive realization question now has two geometric parts: complete the moving transverse neighborhoods to the full plane-CI family by the endpoint-supported part, and understand whether its minimal equation bundles are trivial. The opposite pencil through \(L_{01}\) supplies the complementary observation of the same global equations. Its base parameter \(t^-=q/t\) differs by a transverse character, so do not identify the full plane fibers of the two pencils over a single common base; compare their incidence maps to projective space.
 
 This is a way to organize the previously studied quotient, normal graph, Chow restrictions and endpoint contraction without reducing them to an obstruction. The criterion is conditional on fixed-type plane-CI fibers at **all** base points, and says nothing by itself about existence of such a completion or triviality of its equation bundles. No first-moment theorem or new STCI coverage is asserted. Independent review of the new synthesis remains outstanding.
+
+
+## 5. Transition functions: the spectral framing and the equation bundles
+
+The opposite longitudinal parameter satisfies \(t^-=q/t\). On the moving rank-\(m\) algebra let \(\Phi=\mu_q\). Multiplication by \(t^-\) in the original \(t\)-frame has determinant \(t^{-m}\det\Phi=t^{-m}\prod_i q_i^{n_i}\). This is a norm of a coordinate relation, **not** an identification of the two different plane-family base projections or a transition matrix for the minimal equation bundles. The natural additive invariant occurs instead in the first boundary jet of the spectral determinant:
+\[
+ \det(1-\epsilon\Phi)=\prod_i(1-\epsilon q_i)^{n_i}
+ \equiv1-\epsilon M_1\pmod{\epsilon^2}.
+\]
+Here \(\epsilon\) is the inverse coordinate at infinity on the spectral projective line, not the longitudinal parameter. The [already-reviewed spectral boundary modulus](spectral_boundary_modulus.md) identifies this with the rigidified line bundle of the divisor \(D_q-m[0]\) in \(\operatorname{Pic}(\mathbf P^1,2\infty)\); its underlying line bundle is always trivial. Thus \(M_1=0\) is exactly first-order **framed** triviality of that line, not ordinary triviality of the equation bundles.
+
+The latter bundles have their own transition matrices. For \(a=b\), local frames of \(J_a\) are related by a rank-two transition matrix. For \(a<b\) there are scalar transitions for the two minimal equation lines, and lifting the higher-degree generator introduces the addition of a degree-\((b-a)\) multiple of the lower one. These are the graded changes of generators, not changes of the transverse spectral coordinates. The standard Birkhoff--Grothendieck theorem (algebraic bundles on \(\mathbf P^1\)) reduces ordinary triviality to vanishing of all splitting degrees. Even triviality of the determinant is insufficient in rank two, as \(O(1)\oplus O(-1)\) shows.
+
+There is nevertheless an actual comparison through evaluation. For \(d\ge a+b-2\), the relative plane-CI Hilbert function gives a surjection \(V_d\to p_*O_\Gamma(d)\), hence
+\[
+ \det J_d=\det V_d\otimes(\det p_*O_\Gamma(d))^{-1}.
+\]
+Over the open base on which \(\Gamma=W\sqcup E\), the last determinant factors as \(\det p_*O_W(d)\otimes\det p_*O_E(d)\). Thus changes of evaluation frames on the moving and endpoint-supported neighborhoods contribute jointly to the transition of the equation spaces. The low-degree generator transitions can be recovered from \(J_a,J_b\); for \(a<b\),
+\[
+ \det J_b=\det V_{b-a}\otimes G_a^{\otimes\operatorname{rk} V_{b-a}}\otimes G_b.
+\]
+In equal degrees \(J_a\) itself is the generator bundle. The geometric task is to relate the marked spectral determinant transition to these actual equation transitions, including the endpoint-supported evaluation factor and changes of frame. No canonical identification has yet been established.
+
+### Balanced cycle does not trivialize arbitrary fixed-type plane completions
+
+Even requiring all fibers to be plane CIs with the specified dense-torus cycle and endpoint multiplicity is insufficient in general. An illustrative type \((1,8)\) completion has \(m=2\). Choose two curves \(C_{u,1},C_{u,-1}\), \(u\ne0\), in characteristic zero, so \(M_1=u-u=0\). In the plane bundle of Section 1 use unscaled fiber coordinates \([R:Y:W]\mapsto[sR:tR:Y:W]\). The relative line
+\[
+ s^2Y-u t^3R=0
+\]
+is a nowhere-zero family of linear equations: its coefficients define the injection \(O(-2)\to V_1=O(1)\oplus O^2\) with entries \((-u t^3,s^2,0)\). Its zero surface is a smooth ruled surface over the base (projectivization of the rank-two kernel of the corresponding everywhere-surjective map \(E\to O(2)\)). On this surface the two orbit sections \([R:Y:W]=[s^3:u st^3:\pm t^4]\) and the fixed section \([0:0:1]\) exist at every base point. Take the relative effective Cartier divisor consisting of the sum of the first two sections and six times the fixed section. By standard relative divisor theory (Stacks [44.3.2](https://stacks.math.columbia.edu/tag/0B9E)) it is finite flat of degree eight. Each fiber is a degree-eight divisor on a line, hence is a plane CI of type \((1,8)\), including the endpoints where sections collide. On the dense base it has exactly the desired two moving points and a length-six endpoint piece. Its minimal linear equation bundle is \(G_1=O(-2)\), not trivial. The example is a relative plane family, **not** an actual projective CI, and is in low degrees; it does not rule out a stronger statement for a more constrained canonical completion or a narrower degree range. It shows why the spectral determinant alone is not sufficient for the general equation-bundle criterion.
+
+There is also a prior example at type \((4,4)\) of a balanced reduced configuration that does not admit a global pair (same-u fourth-root cycle in the [coefficient synthesis](transverse_coefficient_realization_synthesis.md#what-the-spectrum-can-and-cannot-encode)). This excludes a blanket claim of sufficiency from the first moment alone without requiring the above relative completion. The positive question remains: is there a geometrically distinguished completion or a marked determinant comparison in which the residual transition is exactly the spectral first jet? Preserve the distinction between this question and universal UM1. The new relative example and transition comparisons are provisional pending independent review.
