@@ -1,6 +1,20 @@
 # Trace, residue, simultaneous projections, and toric descent
 
-**Status:** active exploratory note, not a promoted result. Characteristic zero unless stated otherwise. Goal: understand the geometry behind the moment and residue identity without assuming universal moment vanishing or restricting carriers. Reassess after the first cycle-level comparison and source-lifting probe.
+**Status:** active exploratory note, not a promoted result. Characteristic zero unless stated otherwise. Goal: calculate the trace and residue on the full CI realization locus of translated cycles, without assuming universal moment vanishing or restricting carriers.
+
+## Governing research question (user clarification)
+
+The primary object is the **full complete-intersection realization locus of translated cycles**, not the small diagonal and not the sole-supported quartic problem. Fix a total cycle multiplicity \(m\), and consider every \(\sigma=\sum_i n_i[C_{u_i,v_i}]\) in \(\operatorname{Sym}^m(\mathbb G_m^2)\). For every degree pair \(a,b>0\) with \(ab=4m\), consider actual proper homogeneous CI pairs \((F_a,G_b)\) with entire intersection cycle \([V(F,G)]=\sigma\). Repeated components and arbitrary compatible scheme structures are allowed; additional translated components besides the marked quartic are allowed. Nontranslated residual components are outside this locus and serve only as comparison controls.
+
+**Task:** calculate and understand the restrictions of \(H_1,T,S,U\) to this full realization locus; in particular determine whether \(H_1,T,S\) vanish there. Do not assume vanishing, restrict to sign-eigen sources, or substitute the known small-diagonal calculation for this task. No construction of a new obstruction is required as a condition for pursuing the calculation.
+
+With \(H_1\) denoting the positive first projection trace (the negative of the first nonleading coefficient of the monic degree-\(4m\) characteristic polynomial of \(\xi\)), the established identities on this locus are
+\[
+H_1=T=4M_1=2S=2\operatorname{Res}_{f,g}(ps-qr),\qquad U=0.
+\]
+Thus the actual calculation concerns the residue or its equivalent trace on arbitrary CI realizations of translated cycles. Special sign-invariant cases are already solved, but universal vanishing remains open. The cycle formula alone does not determine what configurations the CI condition permits.
+
+The small diagonal is a separate, already calculated benchmark: \(H_1(m[C])=4m\ne0\) in characteristic zero. Only after understanding the full CI realization locus should one compare its values with this benchmark. Do not repeatedly redirect investigations to sole support, the existence of a thickening of \(C\), or the search for a new STCI obstruction. The twenty questions below are subordinate to this governing calculation, and remain available for exploration.
 
 ## Inputs and scope
 
@@ -76,4 +90,4 @@ Take \(F=x^4-z^3w+zx(zw-xy),G=y^4-zw^3+wy(zw-xy)\). The pair misses \(L\); its r
 
 ## Next bounded probe
 
-Since the scalar values are already cycle invariants, focus on the *extension* of a fixed moving cycle from the punctured affine cone base to a homogeneous finite-flat embedded family across the origin. Existing sign-invariant ACM theorem rules out invariant lifts for nonzero moment; central Gorenstein condition alone does not imply isotropy. Identify which conditions on an actual two-equation lift could force isotropy, by comparing the full quartet cycle with the residual control and testing actual support identities in the first jets. Do not infer invariance of ideals from invariance of cycles. Reassess before pursuing a new formal obstruction; independent correctness/generality review required before promotion.
+Start with an arbitrary actual CI pair with entire translated cycle, not a prescribed small-diagonal cycle. Calculate the first projection trace and residue on this locus using the established support identities and first normal layers; determine the restrictions on their values, including whether they must be zero. Use sign-invariant realizations as known zero controls and nontranslated residual examples only as comparisons. When useful, examine the homogeneous finite-flat embedded family and central binary Gorenstein fiber, but do not replace the calculation by a sole-support extension problem. Retain both possibilities (vanishing and nonvanishing) until proved; independent correctness/generality review required before promotion.
