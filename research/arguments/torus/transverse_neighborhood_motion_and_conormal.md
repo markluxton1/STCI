@@ -66,4 +66,69 @@ Indeed a lift \(e\in E\) must satisfy \(d_T(e)=\omega\) and \(d_B(e)=0\). Relati
 
 The separated model \(\mathbf P^1\times T_\sigma\) gives the finite flat closure of the moving quotient: extend the generic quotient by taking its torsion-free scheme closure in the fixed envelope, equivalently extend the ideal-valued quotient map into the projective quotient Grassmannian. The closure is finite flat over the smooth base curve; ideal preservation holds by closure. The same second fundamental form then has the global target \(\mathcal B\otimes\Omega_{\mathbf P^1}\) on that separated model. The conormal module at the endpoints need not be locally free of rank two; no such extension of the original relative rank-two graph is asserted. The contraction to \(\mathbf P^3\) is the existing endpoint modification (see [embedded quotient framework](../../frameworks/embedded-torus-quotients/index.md) and [endpoint duality](tropical_thickenings_and_endpoint_duality.md) for the sole-supported case). A global homogeneous CI presentation has further information beyond the quotient and its first derivative.
 
-The natural next comparison is how the fixed-envelope conormal classes, the relative fiber equations, and the velocity transform under the two endpoint contractions. This brings the Grassmannian geometry back into contact with our normal bundles and endpoint lattices. The examples show why neither the cycle nor the determinant of the conormal map alone captures this geometry. The formulas here are applications of standard deformation theory; their project-specific interpretation and subsequent global comparison are the research task. No new general realization theorem or first-moment vanishing is asserted.
+## 6. Endpoint geometry: a common logarithmic space and two ordinary lattices
+
+The [existing endpoint normal-map and lattice calculations](tropical_thickenings_and_endpoint_duality.md) establish the transverse weights 3 and 4 on the reduced normal bundle and the corresponding function lattices. The comparison here uses those same monomial coordinates on the entire smooth ambient product \(Y=\mathbf P^1\times T\), not just the reduced curve. Standard inputs are the logarithmic cotangent trivialization of a smooth toric variety by its character lattice (e.g. the toric differential discussion in Cortiñas--Haesemeyer--Walker--Weibel, *The K-theory of toric varieties*, §3), and the right-exact transitivity and quotient sequences of Kähler differentials ([Stacks 10.131](https://stacks.math.columbia.edu/tag/00RM), [37.63](https://stacks.math.columbia.edu/tag/06BB)). These give the comparisons below; they are not new general deformation theorems.
+
+Near zero the toric contraction \(\rho\) is \((t,u,v)\mapsto[1:t:t^3u:t^4v]\). Its cotangent map on the ambient affine chart has image
+\[
+ \operatorname{im}(\rho^*\Omega_{\mathbf P^3}\to\Omega_Y)
+ = O_Y\,dt\oplus t^3 O_Y\,du\oplus t^4 O_Y\,dv .
+\]
+Indeed the coordinate differentials are \(dt,3t^2u\,dt+t^3du,4t^3v\,dt+t^4dv\); eliminate the first column terms. The ambient cokernel is the sum of the two torsion modules with exponents 3 and 4, and the determinant has order seven. Restricting the matrix to the separated finite flat family \(W\) preserves injectivity because \(t\) is regular there. This is a statement about the pulled-back **ambient** cotangent bundle, not injectivity of the induced Kähler map of the possibly nonreduced schemes.
+
+The opposite adapted coordinates are
+\[
+ t^-=y/w=q/t,\quad u^-=v^2/u^3,\quad v^-=v^3/u^4.
+\]
+They give the reversed projective chart \([ (t^-)^4 v^-:(t^-)^3 u^-:t^-:1]\), with the same two cotangent weights. Since \(q=u/v,\eta=u^2/v\) form a character basis, the coordinate transition is particularly meaningful:
+\[
+ (t,q,\eta)\mapsto(q/t,q,\eta^{-1}).
+\]
+In logarithmic coordinates \(\ell=d\log t,\alpha=d\log q,\beta=d\log\eta\), it is
+\[
+ \ell^-=-\ell+\alpha,\quad\alpha^-=\alpha,\quad\beta^-=-\beta.
+\]
+A differential written \(h\ell+c\alpha+d\beta\) is therefore
+\[
+ -h\ell^-+(c+h)\alpha^- -d\beta^- .
+\]
+The longitudinal evaluation reverses sign, whereas the relative transverse component changes by a shear through the distinguished q-direction. This is a change between the two **endpoint-adapted product splittings**, not a claim that an intrinsic transverse cotangent space depends on its chart. A stationary equation (zero longitudinal evaluation) has no such shear. The original fixed transverse characters are unchanged up to inversion; what changes is the parameter used to describe a transverse slice. On moving thick schemes one must not identify the two relative fiber projections as the same map.
+
+The toric logarithmic cotangent bundles are trivial with fiber \(M\otimes_{\mathbf Z}k\), where \(M\) is the common dense-torus character lattice. The pullback is an isomorphism for this toric contraction (check on monomial \(d\log\) bases, related by a unimodular matrix). Ordinary projective cotangent forms define sublattices in this common logarithmic space. Near zero, using \(u=\eta/q,v=\eta/q^2\), the lattice is generated, up to units, by
+\[
+ t\ell,\quad t^3(\beta-\alpha),\quad t^4(\beta-2\alpha).
+\]
+Near infinity it is generated by the same expressions with all symbols replaced by their minus versions. These are canonical images of ordinary ambient cotangent bundles; the listed generators merely record them in adapted torus coordinates. This identifies the differential meaning of both endpoint weights and gives a common ambient space for comparing conormal geometry across endpoints.
+
+If \(W\to Z\) is the actual finite modification, the pullback of the rank-two conormal bundle \(E_Z=I_Z/I_Z^2\) maps to \(I_W/I_W^2\) on the separated model. Differentiation commutes with the two maps to ambient cotangent bundles. It follows that the differential of a pulled-back actual equation factors through the indicated ordinary lattice. This pulled-back bundle is always locally free, but \(I_W/I_W^2\) need not be: the separated closure uses saturation and need not be a regular immersion at the endpoints. Thus do not identify the conormal map of the separated scheme with that of the pulled-back projective presentation.
+
+For example the stationary equation supplied by the spectral cycle satisfies, on the first affine chart,
+\[
+ \rho^*H(xy,zw)=t^{4m}H(u,v)=t^{4m}v^m h(q),
+ \qquad h(Q)=H(Q,1).
+\]
+Its class in \(I_W/I_W^2\) is the stationary transverse class \([h(q)]\) multiplied by \(t^{4m}v^m\). Its differential on \(W\) is \(t^{4m}v^m h'(q)dq\), since \(h(q)=0\) on \(W\). Likewise \(zw\,d(xy)-xy\,d(zw)\) pulls back to \(t^8uv\,d\log q\). The homogeneous weights simply account for the extension of the transverse relation through the contraction. The analogous statement in the reversed chart uses \(q^-=q\), but the projective trivialization has changed. These formulas hold without assuming reducedness.
+
+## 7. The differential defect of an endpoint
+
+Let \(R=k[[t]]\) and \(A\subset B\) be the endpoint function lattices (at infinity use \(t^-\) and the adapted transverse coordinates). Write \(B=R[u^{\pm1},v^{\pm1}]/J\) and \(A=R[t^3u,t^4v]\subset B\). For a finite flat separated family the completed algebra is finite over \(R\). At infinity the change from \(\tau=1/t\) to \(t^-=q\tau\) preserves the parameter ideals in \(B\); completeness and finiteness modulo that parameter give finiteness over \(k[[t^-]]\), and regularity gives flatness. The two local descriptions need not give the same relative family.
+
+By the standard quotient and transitivity sequences,
+\[
+ \Omega_{B/A}
+ =\frac{B\,du\oplus B\,dv}
+ { \langle d_{/R}J,\ t^3du,\ t^4dv\rangle }.
+\]
+This is the module representing infinitesimal variations upstairs invisible to the downstairs functions: a derivation vanishing on \(A\) is exactly a homomorphism from this module. It is supported at the endpoint, because the lattices agree away from it. It is distinct from the function defect \(B/A\), and from the ambient cokernel of the cotangent map: the latter must be quotiented by the actual relative equations to get this module.
+
+For a local illustration in characteristic zero take \(B=R[\epsilon]/(\epsilon^n)\), \(u=u_0+\epsilon,v=v_0\), with nonzero \(u_0,v_0\). The endpoint algebra is \(A=R[t^3\epsilon]\); hence
+\[
+ \ell_R(B/A)=3n(n-1)/2,\quad
+ \Omega_{B/A}\simeq (R/(t^3))[\epsilon]/(\epsilon^{n-1})\,d\epsilon,
+ \quad\ell_R\Omega_{B/A}=3(n-1).
+\]
+For \(n=1\) interpret the differential module as zero. The full function defect counts all weighted powers; the differential defect also records relations among their variations. They already differ at \(n=3\), where the lengths are 9 and 6. For a varying double direction \(u=u_0+\lambda(t)\epsilon,v=v_0+\epsilon,\epsilon^2=0\), the endpoint algebra is \(R\oplus t^d R\epsilon\) with \(d=\min(3+\operatorname{ord}_t\lambda,4)\) (order infinity for zero). The contraction distinguishes whether the limiting direction has a nonzero weight-three component; it need not distinguish all higher-order motion. Both examples are local controls, not global degree-labelled constructions.
+
+The geometric picture is now: the cycle fixes an envelope, the moving quotient selects neighborhoods inside it, its conormal map describes shape and motion, and the two weighted ordinary cotangent lattices express how that information becomes accessible in projective space. The stationary q-form and the change of splitting through q are particularly natural comparisons. The remaining geometric question is how the full pulled-back projective equation bundle, the actual conormal module of the separated family, and the two function/conductor lattices determine or constrain one another; no sufficiency or global realization theorem is asserted. The present calculations are provisional pending independent review.
+
