@@ -169,3 +169,39 @@ On the same punctured base the first-order norm is
 On the separated rank-\(m\) longitudinal algebra it is \(1-M_1\epsilon\) instead. This is the usual determinant/trace relation for finite locally free norms ([Stacks 31.18.6](https://stacks.math.columbia.edu/tag/0BD2)). It agrees with the first jet of the already-reviewed spectral framing in Section 5. Thus the norm, longitudinal log coefficient and actual cofactor transition all compute the same scalar with their known factors of 4 and 2. The three bases (spectral line, longitudinal projection line and disjoint center line) remain distinct. The comparison uses their canonical trace coordinates, not an identification of their vector bundles or their local transition functions.
 
 **Geometric consequence and limitation.** We now have a line whose triviality detects the sum and whose cocycle comes directly from actual equations. This answers the marked-transition question for the first-jet cofactor presentation. It does not identify this line with either minimal generator bundle of Section 3, and those generator bundles are already trivial for an actual global pair. The remaining meaningful comparison is to understand whether the cofactor framing is induced by the same global degree-labeled presentation through the opposite pencil and its endpoint geometry, or is extra information independent of ordinary generation. The torsor and ribbon interpretations use standard cohomology; the comparisons are a provisional synthesis of existing identities, pending independent review, not new UM1 coverage.
+
+
+## 8. The actual local frames and the exceptional plane-pencil divisor
+
+There is a direct interpretation of the cofactor cocycle in Section 6 using the local equation frames. No new residue computation is needed. The standard conormal input is [Stacks 29.32](https://stacks.math.columbia.edu/tag/01R1). With the chosen normal directions \(z,w\), the conormal bundle \(N^\vee_{L/\mathbf P^3}\) is \(O_L(-1)^2\) and its determinant identifies with \(\omega_L\), with the orientation used in Section 6.
+
+The coordinate projection from the opposite line \(V(x,y)\) makes its complement the total space of \(O_L(1)^2\), with zero section \(L\). In particular it provides a specified retraction and identifies the ambient \(O(d)\) with the pullback of \(O_L(d)\) there. Use this identification to compare \(F\) with \(f=F|_L\) over \(U_f\), and \(G\) with \(g=G|_L\) over \(U_g\). The ratios are units equal to 1 on \(L\), and their first normal variations in \(I_L/I_L^2\) are
+\[
+ \alpha_F=(p\,dz+q'\,dw)/f,\qquad
+ \alpha_G=(r\,dz+s\,dw)/g .
+\]
+Here \(dz,dw\) denote the conormal classes in the ordered normal frame, not global ordinary differentials of homogeneous coordinates. This is the additive identification of first-order units \(1+I_L/I_L^2\) with \(I_L/I_L^2\). Their wedge on the overlap is
+\[
+ \alpha_F\wedge\alpha_G
+ =\frac{ps-q'r}{fg}\,dz\wedge dw.
+\]
+The determinant identification gives exactly the cocycle \(\gamma_{fg}\) of Section 6. Thus its class is the alternating product of the normal changes of the two local equation frames. The calculation uses the distinguished coordinate retraction and the chosen presentation; the scalar class has the invariance inherited from the existing residue identity. It is not asserted that arbitrary changes of normal splitting preserve the pointwise representative.
+
+This comparison has a geometric interpretation on the blowup of the disjoint center \(L\), i.e. the plane pencil \([z:w]\) rather than either of the pencils with base meeting the curves. Its exceptional divisor is \(L\times\mathbf P^1_{[\lambda:\mu]}\), since \(N_{L/\mathbf P^3}=O_L(1)\otimes k^2\). The strict transform of \(Z\) misses this divisor, because \(Z\cap L=\varnothing\). The two equations nevertheless have a first normal variation on it. The plane indexed by \([\lambda:\mu]\) substitutes \(z=\lambda R,w=\mu R\); the coefficient of \(R\) in the normalized frame change is
+\[
+ A_F(\lambda,\mu)=\frac{\lambda p+\mu q'}f,\qquad
+ A_G(\lambda,\mu)=\frac{\lambda r+\mu s}g .
+\]
+These are sections of \(O_L(-1)\boxtimes O_{\mathbf P^1}(1)\) on their respective opens of the exceptional divisor: the line is the dual of the normal line \(O_L(1)\boxtimes O_{\mathbf P^1}(-1)\). Comparing two plane directions gives
+\[
+ A_F(\lambda,\mu)A_G(\lambda',\mu')
+ -A_F(\lambda',\mu')A_G(\lambda,\mu)
+ =(\lambda\mu'-\mu\lambda')\frac{P}{fg}.
+\]
+In particular the alternating comparison vanishes on the diagonal of the plane-direction product, and division by its canonical diagonal equation leaves the determinant-conormal cocycle on \(L\). Equivalently this is the Wronskian of the two linear functions of the plane parameter: on \(\lambda=1\), \(R_B=\mu/\lambda\),
+\[
+ A_F\,\partial_{R_B} A_G-A_G\,\partial_{R_B} A_F=P/(fg).
+\]
+The invariant Wronskian is a section of \(O_L(-2)\boxtimes(\Omega^1_{\mathbf P^1}\otimes O_{\mathbf P^1}(2))\); the fixed normal-coordinate basis trivializes the second factor. The ordinary projective-frame transitions alone do not record this alternating variation. It is a mixed first-normal-jet comparison of the actual equations along the pencil's exceptional divisor.
+
+This links the previously defined torsor/ribbon line to the geometry of the plane pencil and actual local equation frames. It does not turn ordinary triviality of the minimal equation bundles on the pencil base into the condition \(M_1=0\). Those bundles of an actual global pair are already trivial, and the first-normal-jet comparison is extra framed information. The two normalized frame variations are only defined on their respective opens, not global sections of the conormal bundle. The cocycle need not be a coboundary simply because the original equations exist globally. The calculation is an elementary reinterpretation of the existing first-jet class, with no new vanishing or sufficiency claim.
