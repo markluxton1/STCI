@@ -354,6 +354,23 @@ These give the same weighted moment \(M_1\) and the two marginal spectral polyno
 
 An actual degree-\(D\) homogeneous polynomial \(F\) has the three torus expressions \(F(1,a,c,bc), F(1,r,d,re), F(1,r,rh,p)\). They agree by substitution, and their allowed monomials are indexed by the same ordinary-degree-\(D\) tetrahedron; homogenize separately and track exceptional factors on the common blowup. This is the concrete common-equation constraint, stronger than choosing unrelated graph equations on each product. The dense-torus dictionary and cycle images are explicit; boundary descent of a realizing scheme remains the missing part. No new sufficiency or moment theorem asserted.
 
+
+### The common logarithmic differential geometry
+
+For a smooth toric compactification with its full toric boundary \(D\), the standard character-lattice description is \(\Omega^1(\log D)=O\otimes_{\mathbb Z}M\) (Danilov, *The Geometry of Toric Varieties*, and Cox--Little--Schenck, *Toric Varieties*, Chapter 8). Thus toric refinements identify the pulled-back logarithmic cotangent bundles. With \(\ell=d\log r,\alpha=d\log U,\beta=d\log V\), the three product bases are
+\[
+ I:(\ell,\ell+\beta-\alpha,3\ell+\alpha),\quad
+ II:(3\ell+\alpha,3\ell+\beta,\ell),\quad
+ III:(4\ell+\beta,2\ell+\alpha,\ell).
+\]
+The fixed quadric product gives \((\ell,3\ell+\alpha,\alpha-\beta)\). In particular the character basis \((r,q,\eta)\) has \(d\log q=\alpha-\beta,\ d\log\eta=2\alpha-\beta\), and
+\[
+ \ell\wedge d\log q\wedge d\log\eta=\ell\wedge\alpha\wedge\beta.
+\]
+On an individual reduced graph the two transverse forms vanish after restriction to ordinary differentials on the curve and form a normal covector basis before restriction. On nonreduced schemes they need not vanish. This describes the log-normal geometry, not ordinary conormal lattices at the boundary.
+
+The earlier differential is exactly \(q\,d\log(y/x)=q(2\ell+\alpha)\) on the torus, with weighted fundamental-class branch expression \(2n_iq_i\ell\). The same construction can be read cycle-first: for any Laurent polynomial \(\varphi(U,V)\) assign the branch tuple \((n_i\varphi(u_i,v_i)\,dr/r)_i\). On the reduced union of the distinct graphs in projective space, Rosenlicht's residue criterion says that this tuple is a regular dualizing differential iff \(\sum_i n_i\varphi(u_i,v_i)=0\). Indeed only the two endpoints are shared, the poles are simple, and a regular germ takes the same value on every branch above an endpoint. This is the standard reduced-curve theorem (Rosenlicht; see also https://doi.org/10.1007/s11565-024-00495-8), not a CI-specific vanishing theorem. For a CM thickening, finite duality for the closed immersion of its reduction identifies the latter's dualizing sheaf with \(\operatorname{Hom}_{O_Z}(O_{Z_{\mathrm{red}}},\omega_Z)\subset\omega_Z\). Hence the regular tuples yield regular dualizing sections on a realizing thickening too; they are not arbitrary Kähler forms on it. In characteristic zero, interpolation in the two transverse characters gives all tuples of coefficients with sum zero, a space of dimension number of distinct components minus one. This simple-pole subspace depends on the support and the marked endpoints, not on higher transverse nilpotent motion. The first moment is the instance \(\varphi=2q\). This explains precisely which part of logarithmic gluing follows from the classical residue criterion and which additional boundary information is required for realization. No new universal moment vanishing is claimed.
+
 ## 5. Global sections as requirements on F,G
 
 For a proper CI \(Z\) of the stated cycle, adjunction gives
