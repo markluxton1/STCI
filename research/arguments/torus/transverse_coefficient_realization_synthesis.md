@@ -498,6 +498,40 @@ An exact control within the same substitution geometry is \(F=x^2-zy,\ G=y^2-wx\
 
 This is a direct local plane implementation of the corner differential, with all higher spectral moments available. It isolates an additional comparison needed for a proof: why the residue of the original minor \(J\), not the moving plane Jacobian, would be stationary at \(\lambda=0\) under the complete translated-quartic cycle hypothesis. No such stationarity theorem has been shown. In particular the Euler--Jacobi vanishing theorem cannot simply be applied to \(P\) at \(\lambda=0\), because its degree is the critical \(a+b-2\), not strictly below it. Provisional pending independent review.
 
+
+### Opposite degeneration and a reduced numerical control
+
+Compare the two degenerate quadric charts using the same intrinsic numerator \(P=\tfrac12 c_Z(x\,dy-y\,dx)\). On \(z=1\) put
+\[
+ S(q)=\operatorname{Res}_{p_0;F,G,xy-qw}(P)
+\]
+with the iterated residue orientation matching the preceding plane-residue family. Here the notation for \(P\) as a polynomial uses actual ordered adjunction; intrinsically this is the residue of the dualizing differential \(P/(xy-qw)\) on \(Z\). The standard residue transformation law and the weighted normalized branch expressions give
+\[
+ S(q)=\sum_i\frac{n_iq_i}{q_i-q}
+     =-q^{-1}\mathcal R_{1/q}(P).
+\]
+At \(q=0\), the degenerate quadric is the union of \(x=0,y=0\), and
+\[
+ P/(xy)=\tfrac12(dy/y-dx/x),\qquad
+ S(0)=\tfrac12(3m-m)=m .
+\]
+All formulas involving Kähler differentials here mean their fundamental-class images. The two component plane intersection lengths are \(m,3m\), summing to \(ab\), and both contributions to the differential residue are the indicated signed halves. At infinity \(S=-M_1/q+O(q^{-2})\). Thus degree exhaustion plus the known weighted identities give the value at zero and a zero at infinity. The wanted stationarity is exactly a **second-order zero** at infinity; the value at zero supplies no independent cancellation. In fact \(S'(0)=\sum n_i/q_i\), the reciprocal first moment, already known not to vanish universally. The opposite residue formula is valid away from the spectral parameters and uses the same classical residue duality as the preceding section, not a new residue theorem.
+
+There is a useful entirely reduced control for the proposed implication from local geometry and numerical degree exhaustion. Take four distinct translates on \(Q_1\), with \(u_i=v_i\ne0\) pairwise distinct, and let \(D\) be their reduced union, a Cartier divisor of type \((4,12)\) on the smooth quadric (ordering the rulings so each quartic has type \((1,3)\)). It has the prescribed entire cycle \(m=4\), no components on either degenerate quadric, and is a projective lci. Its degree is sixteen and its arithmetic genus is \((4-1)(12-1)=33\), exactly those of a \((4,4)\) CI. The genus formula is classical Cartier adjunction on \(Q\) (Stacks [48.14.1](https://stacks.math.columbia.edu/tag/0B4B)). In particular this matches the full Hilbert polynomial, not just the degree. Its local equations near \(p_0\) are
+\[
+ w-xy,\quad \prod_{i=1}^4(y-u_i x^3)
+\]
+in \(z=1\). On \(w=\lambda xy\) for \(\lambda\ne1\) the local intersection length is \(4+12=16\), using the two axes. All nonspectral quadric slices have the prescribed lengths sixteen at each corner by Cartier intersection multiplicity. Both degenerate quadric fibers meet the curve in the prescribed endpoint supports and lengths, and the compact graph has exactly the same cycle prescription as above, with sixteen times each corner section. Its weighted logarithmic numerator has \(S(q)=4/(1-q)\) and \(M_1=4\), so the required second-order zero fails. These are actual local two-equation presentations and actual global locally CI schemes, but not one global homogeneous pair of type \((4,4)\).
+
+The failure of global presentation is completely visible: any quartic vanishing on \(D\) contains the quadric, since a \((4,4)\) divisor on \(Q\) cannot contain a \((4,12)\) divisor. The global adjunction distinction is also exact:
+\[
+ \omega_D=O_D(2,10),\qquad
+ \omega_D\otimes O_D(-4)=O_D(-2,6),
+\]
+and the latter is nontrivial since
+\(0\to O_Q(-6,-6)\to O_Q(-2,6)\to O_D(-2,6)\to0\)
+gives \(H^0(O_D(-2,6))=0\) by the cohomology of the product. Similarly \(h^1(I_D(4))=h^1(O_Q(0,-8))=7\), via the ideal sequence of \(Q\). These are standard quadric-divisor computations (Hartshorne, *Algebraic Geometry*, III Ex. 5.6 for ACM curves on quadrics; the genus and canonical comparison follow directly from adjunction). This is not a candidate counterexample to UM1, nor a new low-degree exclusion. It demonstrates even in the reduced case that local lci, matching endpoint deformation lengths and corner cycles, absence of degenerate moving components and even the entire CI Hilbert polynomial cannot force the double zero. A successful use of the global two-equation hypothesis must retain genuine global equation/section compatibility (not only numerical adjunction or local residue conservation). The example is a control, not a proposal to classify quadric carriers. No new universal vanishing established; provisional pending review.
+
 ## 5. Global sections as requirements on F,G
 
 For a proper CI \(Z\) of the stated cycle, adjunction gives
