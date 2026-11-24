@@ -16,6 +16,14 @@ Thus the actual calculation concerns the residue or its equivalent trace on arbi
 
 The small diagonal is a separate, already calculated benchmark: \(H_1(m[C])=4m\ne0\) in characteristic zero. Only after understanding the full CI realization locus should one compare its values with this benchmark. Do not repeatedly redirect investigations to sole support, the existence of a thickening of \(C\), or the search for a new STCI obstruction. The twenty questions below are subordinate to this governing calculation, and remain available for exploration.
 
+### Reduction of the original problem
+
+The characteristic-zero STCI nonexistence problem for the fixed rational quartic is reduced, in the sufficient-implication sense, to a single general statement:
+
+**First-moment vanishing conjecture.** Every effective translated-quartic cycle \(Z\) realized by a proper homogeneous complete intersection of two surfaces satisfies \(H_1(Z)=0\).
+
+By the established identities on the full CI realization locus this is equivalent to \(M_1=T=S=0\), or \(\operatorname{Res}_{f,g}(ps-qr)=0\). The condition \(U=0\) already holds for every translated cycle. The small diagonal has \(H_1(m[C])=4m\ne0\) in characteristic zero for every positive integer \(m\), so proving the conjecture excludes all sole-supported pairs at once. The general vanishing conjecture is stronger than the original non-STCI assertion; its converse is not established. The research task is to calculate the invariant on the full CI realization locus, not repeatedly to reduce the original problem or seek separate obstructions.
+
 ## Inputs and scope
 
 For the fixed quartic \(C=[s^4:s^3t:st^3:t^4]\), write \([z:x:y:w]=[x_0:x_1:x_2:x_3]\), \(A=xy,B=zw,\xi=A/B,\eta=zy^2/(x^2w)\). A translate \(C_{u,v}=[s^4:s^3t:ust^3:vt^4]\) has \(\xi=u/v,\eta=u^2/v\). The entire translated cycle \(\sum n_i[C_{u_i,v_i}]\) has spectral polynomial \(H(A,B)=\prod(A-\xi_iB)^{n_i}\), first moment \(M_1=\sum n_i\xi_i\). For an actual proper CI \((F,G)\) with that entire cycle, \(AD_{12}=2BD_{03}\) modulo the ideal and \(\operatorname{Res}_{F,G}(D_{03})=2M_1\). First jets along the disjoint center \(L=V(z,w)\) give \(\operatorname{Res}_{f,g}(ps-qr)\). Universal vanishing is **open**, not an established CI consequence. Arbitrary residual curves invalidate the special identity.
