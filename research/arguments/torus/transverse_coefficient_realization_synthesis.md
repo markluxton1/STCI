@@ -387,6 +387,27 @@ By Rosenlicht's residue criterion for a reduced curve (e.g. https://doi.org/10.1
 
 All the monomial transitions and the graph defining equations are compatible for the single graph \(C_{u,v}\), where \(M_1=q\ne0\). In particular these transitions alone do not force regularity of the weighted tuple. Even the two homogeneous equations \(z^2y-u x^3,\ z^3w-vx^4\) define that graph on the dense torus; their projective intersection also contains the coordinate line \(z=x=0\) (residual cycle degree eight by Bezout, since on \(z\ne0\) the intersection is the reduced quartic chart). They are not a proper realization of the sole graph as the entire cycle. The minimal outstanding implication is from actual global proper two-equation realization without boundary or other residual cycles to the weighted residue cancellation at a single contracted endpoint. This is the known UM1 gap, not a new theorem; no thick-structure classification is required to state or check that target. Conversely one cannot infer it from the weighted cycle alone. Provisional pending review.
 
+
+### Degree exhaustion in the fixed-quadric product
+
+The equality \(ab=4m\) gives a particularly elementary form of the complete-cycle hypothesis. On a nonspectral nonzero quadric, the restrictions of \(F_a,G_b\) have bidegrees \((a,a),(b,b)\), and their intersection number \(2ab=8m\) is exhausted by the two corner lengths \(ab\) each. On the product over \(\mathbf G_{m,q}\), the intersection cycle of these restrictions (viewed as divisors of the threefold) consists precisely of the graph cycles with weights \(n_i\) and the two constant corner sections with coefficients \(ab\). Indeed away from the four base edges of the quadric pencil the map to projective space is locally an isomorphism, and along the edges the original CI meets only the two endpoints; the generic transverse slice gives the corner coefficients. This cycle statement does not prescribe the schemes along those sections.
+
+Fix a general \(A\ne0,\infty\). Compactifying its slice to \(\mathbf P^1_B\times\mathbf P^1_q\), the inverse rational map in homogeneous coordinates is
+\[
+ [z:x:y:w]=[Q_0B_0:Q_0AB_0:Q_0B_1:Q_1AB_1].
+\]
+The two substituted forms have bidegrees \((a,a),(b,b)\). Their binary resultant in \(B\) is homogeneous of degree \(2ab\) in \([Q_0:Q_1]\). It is nonzero at \(Q_1=0\), since the resulting joining line in the plane \(w=0\) misses \(Z\). For nonzero finite \(q\), each graph meets the slice once, and multiplicativity of the existing Chow/resultant identity (Section 4) gives the roots \(q_i\) with multiplicities \(n_i\). The remaining root is \(q=0\), where there is a common collapsed boundary fiber. Consequently with monic normalization in the affine parameter \(q\),
+\[
+ R_A(q)=q^{2ab-m}H(q)=q^{7m}H(q),\qquad H(q)=\prod_i(q-q_i)^{n_i}.
+\]
+Fixing a general \(B\ne0,\infty\) instead gives the symmetric substitution \([Q_0 A_0:Q_0 A_1:Q_0 B A_0:Q_1 B A_1]\); each graph meets the slice three times in characteristic zero. The analogous resultant in \(A\) is
+\[
+ R_B(q)=q^{2ab-3m}H(q)^3=q^{5m}H(q)^3 .
+\]
+This is exactly the already-proved pair of ruling Chow restrictions, read with the homogenizing factors of the product model. The normalization is separately by the nonzero value at infinity. Neither resultant degree is the length of the moving zero-dimensional scheme alone, because the degenerate quadric contributes a common boundary fiber.
+
+The first subleading coefficients are \(-M_1\) and \(-3M_1\) respectively. Degree exhaustion fixes the large root multiplicities at zero, and fixes the degrees of the remaining factors, but imposes no vanishing of the subleading coefficient by itself. In particular both monic factorizations are algebraically consistent for arbitrary monic \(H\) of degree \(m\) with nonzero constant term. The genuine remaining question is whether being the two resultant presentations of the **same global pair** implies the vanishing of that coefficient, in addition to the already automatic relation \(R_A^3=q^{16m}R_B\). This recovers the existing Chow/first-jet gate in a simple product/Bezout picture; no new independent moment condition follows. Provisional synthesis.
+
 ## 5. Global sections as requirements on F,G
 
 For a proper CI \(Z\) of the stated cycle, adjunction gives
