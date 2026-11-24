@@ -134,3 +134,49 @@ The geometric picture is now: the cycle fixes an envelope, the moving quotient s
 
 
 The [plane-pencil and equation-bundle comparison](plane_pencil_equation_bundles.md) reconnects this local picture with the realization objective: the moving degree-m neighborhood is part of a full degree-ab plane CI, and the degree-labelled minimal generator bundles of a fixed-type plane-CI family determine whether its equations come from one global homogeneous pair. This is a complementary projective family, not an identification with the separated modification or an existence assertion for its completion.
+
+
+## 8. Recovering the ordinary reduced conormal from product-model intersections
+
+Use the [three independent product presentations](transverse_coefficient_realization_synthesis.md#three-independent-complementary-pair-product-models) and the logarithmic normal space \(\mathcal V=k\alpha\oplus k\beta\), \(\alpha=d\log U,\beta=d\log V\), with \(U,V\) ambient characters and \(u,v\) fixed on the individual reduced graph. This is the kernel of restriction to the logarithmic differential on the normalized orbit. Standard toric input: Cox--Little--Schenck, *Toric Varieties*, §8.1, especially the discussion following Theorem 8.1.1 (https://pi.math.cornell.edu/~tsh/cornell-only/cox-little-schenck-toric.pdf). We use it to recover ordinary conormal data rather than derive a new normal bundle classification.
+
+Differentiating the two graph equations in the three models gives respectively
+\[
+ I:(ur^3\alpha,(v/u)r(\beta-\alpha)),\quad
+ II:(ur^3\alpha,vr^3\beta),\quad
+ III:(ur^2\alpha,vr^4\beta).
+\]
+These are bases of the generic conormal space; their spans over \(R=k[[r]]\) are the ordinary conormal lattices of the corresponding smooth graph at zero. Suppressing unit factors gives
+\[
+ \Lambda_I=Rr^3\alpha+Rr(\beta-\alpha),\quad
+ \Lambda_{II}=r^3(\mathcal V\otimes R),\quad
+ \Lambda_{III}=Rr^2\alpha+Rr^4\beta.
+\]
+The ordinary projective conormal of the reduced curve, using \(y-ux^3,w-vx^4\) in \(z=1\), is exactly
+\[
+ \Lambda_{\mathbf P^3,0}=\Lambda_{II}\cap\Lambda_{III}
+ =Rr^3\alpha+Rr^4\beta .
+\]
+It also lies in \(\Lambda_I\). This is an actual recovery of a local ordinary conormal from compatibility of the product graphs, not a general assertion of intersection-descent for ideals. At infinity one must reverse the product charts as well as the parameter. In the adapted coordinates of Section 6 the new transverse basis is
+\[
+ \alpha^-=2\beta-3\alpha,\qquad \beta^-=3\beta-4\alpha .
+\]
+With \(R^-=k[[r^-]]\), \(r^-=q/r\), the same intersection of the **reversed** II and III lattices yields
+\[
+ \Lambda_{\mathbf P^3,\infty}
+ =R^-(r^-)^3\alpha^-+R^-(r^-)^4\beta^-.
+\]
+The unreversed III lattice at infinity generally does not give this intersection. The inverse-chart transition and not just the longitudinal inversion matters.
+
+The common model-II lattice is globally \(\mathcal O_{\mathbf P^1}(-3p_0-3p_\infty)\otimes\mathcal V\) (the reversed II gives the same lattice at infinity, because the change of transverse basis is unimodular). The projective conormal is obtained from it by requiring the leading value at zero to lie in \(k\alpha\), and at infinity to lie in \(k\alpha^-\); in other words, one elementary modification at each endpoint. In characteristic different from two these two lines in \(\mathcal V\) are independent. Using them as constant basis vectors splits the conormal as
+\[
+ \mathcal O(-3p_0-4p_\infty)\alpha
+ \ \oplus\ \mathcal O(-4p_0-3p_\infty)\alpha^- .
+\]
+This recovers the classical \(N_{C/\mathbf P^3}\simeq O(7)^2\) result (Eisenbud--Van de Ven, *On the normal bundles of smooth rational space curves*, https://eisenbud.github.io/papers/pdfs/1981-001.pdf). In characteristic two the lines coincide and the splitting instead is \(O(-6)\oplus O(-8)\) for the conormal. These are classical splitting types, not new exclusions; the product-intersection interpretation is the point.
+
+For actual homogeneous \(F\), set \(f=F(1,r,r^3U,r^4V)\). The full logarithmic differential before restriction is
+\[
+ df=(rF_x+3r^3UF_y+4r^4VF_w)\ell+r^3UF_y\alpha+r^4VF_w\beta
+\]
+where partials are evaluated at the substituted homogeneous coordinates. On a reduced orbit contained in \(F=0\), the longitudinal coefficient vanishes and the other two belong to \(\Lambda_{\mathbf P^3,0}\). On a moving thick scheme the longitudinal coefficient can survive, and we must retain it. On changing affine projective frame or multiplying by an exceptional factor, the identity \(d(hf)=h\,df+f\,dh\) gives the differential transition on the common zero scheme (where the second term vanishes). For a pair the wedge acquires the product of the exceptional factors. This does not identify the strict-transform ideal with the pair after individual saturation, nor recover a rank-two conormal for the separated nonreduced closure. A pair of regular forms in the reduced intersection lattice alone does not imply a global polynomial lift or actual CI realization. The precise extension question is to recover the *full equations and their differential maps*, including the longitudinal component and thick structure, by the analogous boundary compatibility, not to demand a new splitting result for the reduced curve. Provisional comparison pending independent review.
