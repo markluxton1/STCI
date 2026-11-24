@@ -408,6 +408,69 @@ This is exactly the already-proved pair of ruling Chow restrictions, read with t
 
 The first subleading coefficients are \(-M_1\) and \(-3M_1\) respectively. Degree exhaustion fixes the large root multiplicities at zero, and fixes the degrees of the remaining factors, but imposes no vanishing of the subleading coefficient by itself. In particular both monic factorizations are algebraically consistent for arbitrary monic \(H\) of degree \(m\) with nonzero constant term. The genuine remaining question is whether being the two resultant presentations of the **same global pair** implies the vanishing of that coefficient, in addition to the already automatic relation \(R_A^3=q^{16m}R_B\). This recovers the existing Chow/first-jet gate in a simple product/Bezout picture; no new independent moment condition follows. Provisional synthesis.
 
+
+### Complete corner sections and the explicit logarithmic lift
+
+Use the actual compact graph of the quadric pencil (rather than naively homogenizing the inverse Segre product, which has extra base loci):
+\[
+ X=V(Q_1xy-Q_0zw)\subset\mathbf P^3\times\mathbf P^1_Q,\qquad
+ Y=X\times_{\mathbf P^3} Z,\quad Z=V(F_a,G_b),\quad q=Q_0/Q_1 .
+\]
+The pencil graph construction is classical (SGA 7, XVIII.3, https://grothendiecksga.com/read/sga7/en/18-3.html). The following comparison uses only adjunction, the cohomology of the projective line, finite duality for the inclusion of a reduced curve in a CM curve (Stacks, https://stacks.math.columbia.edu/tag/0E31 and Duality for Schemes, closed-immersion duality), and Rosenlicht's criterion (Altman--Kleiman VIII.1.16; see https://doi.org/10.1007/s11565-024-00495-8). These are standard inputs; there is no new universal moment vanishing.
+
+The equation of \(Y\) is a nonzerodivisor on \(Z\times\mathbf P^1\), since it is nonzero generically on every surface component \(C_i\times\mathbf P^1\) and that product is CM. Thus \(Y\) is a pure lci curve, and is the proper intersection of the two pulled-back divisors in \(X\). The full inverse image, not merely the closure of the torus intersection, has cycle
+\[
+ [Y]=\sum_i n_i[\Gamma_i]+ab[E_0]+ab[E_\infty],
+ \qquad \Gamma_i=C_i\times\{q_i\},\quad E_j=\{p_j\}\times\mathbf P^1 .
+\]
+There are no other components: away from \(p_0,p_\infty\) the pencil is defined on the given support; over those points its fibers are complete projective lines. At a generic nonspectral \(q\), each corner length is \(4m=ab\) by intersecting the original cycle with \(Q_q\). This uses the entire-cycle hypothesis, not just containment.
+
+On the normalization of the reduced union \(Y_{\rm red}\), prescribe
+\[
+ \theta_i=n_iq_i\,dr/r,\qquad
+ \theta_0=\left(m-qH'(q)/H(q)\right)dq
+       =-\sum_i\frac{n_iq_i}{q-q_i}dq,\qquad
+ \theta_\infty=-\theta_0 .
+\]
+The two corner forms have exactly the negative of the moving-component residue sums at each spectral attachment, even when several graphs have the same \(q\). At any such point a regular function has the same value on all incident branches, so the simple-pole tuple satisfies the full Rosenlicht criterion, independently of contact orders. It is regular at \(q=0\); at \(q=\infty\) the two residues are \(+M_1,-M_1\). Thus writing \(D_\infty=Y\cap\{Q_1=0\}\), an effective Cartier divisor (no component of \(Y\) lies in that fiber), this constructs a section of \(\omega_{Y_{\rm red}}(D_\infty|_{Y_{\rm red}})\). Finite duality identifies it with a section of \(\omega_Y(D_\infty)\) annihilated by the nilradical. The corner differential is determined uniquely among forms with at most simple poles at the attachments and at infinity and no other poles, since a regular differential on \(\mathbf P^1\) is zero. The prescribed weights are already the fundamental-class branch weights; do not multiply the corner coefficients by \(ab\) again after embedding the reduced dualizing sheaf into the full one.
+
+This lift can be identified directly with the actual global equation presentation. Put \(\pi:Y\to Z\). The exact sequence on \(Z\times\mathbf P^1\) is
+\[
+ 0\to O_Z(-2)\boxtimes O(-1)
+ \xrightarrow{Q_1xy-Q_0zw}O\to O_Y\to0.
+\]
+Consequently \(\pi_*O_Y=O_Z\), \(R^1\pi_*O_Y=0\). Adjunction gives
+\(\omega_Y=\omega_Z(2)\boxtimes O(-1)|_Y\), and hence
+\[
+ \pi_*\omega_Y(D_\infty)=\omega_Z(2),\qquad
+ \pi_*\omega_Y=\omega_Z .
+\]
+For the second identity apply the projection to
+\(0\to\omega_Z\boxtimes O(-2)\to\omega_Z(2)\boxtimes O(-1)\to\omega_Y\to0\).
+Explicitly, the regular section
+\[
+ e=\frac{xy}{Q_0}=\frac{zw}{Q_1}
+ \quad\text{of }O_Y(2,-1)
+\]
+identifies \(\omega_Z\) with \(\pi_*\omega_Y\) by pullback and multiplication by \(e\): the difference of the two local lifts is the graph equation divided by \(Q_0Q_1\), so the connecting homomorphism gives the generator of \(H^1(O(-2))\) (choose the matching orientation). Multiplication by \(Q_1\), the inclusion into the twisted dualizing bundle, therefore becomes exactly multiplication by \(zw\) on \(Z\).
+
+Under the twisted identification the constructed form corresponds to
+\[
+ P=\tfrac12\,c_Z(x\,dy-y\,dx)\in H^0(Z,\omega_Z(2)),
+\]
+where \(c_Z\) is the fundamental class map, or \(P=D_{03}/2\) in the existing ordered adjunction convention. Indeed on the dense moving locus the identification of a section with its actual differential divides its numerator by \(zw\), and \(c_Z(xdy-ydx)/(2zw)\) has the prescribed weighted branch expression. Both sections agree there as sections on the actual scheme, by the reduced-dualizing inclusion and the generic multiplicity formula for the fundamental class. Their equality globally follows from purity of \(Z\). In particular the constructed section is not an arbitrary auxiliary differential: it is the actual equation numerator on the compact graph with its natural twist.
+
+The entire remaining obstruction is removal of the twist:
+\[
+ \theta\in H^0(Y,\omega_Y)
+ \ \Longleftrightarrow\ M_1=0
+ \ \Longleftrightarrow\
+ P\in zw H^0(Z,\omega_Z).
+\]
+The first equivalence uses the explicit residues on the reduced corner sections and their inclusion in \(\omega_Y\): a regular lift annihilating the nilradical must come from \(\omega_{Y_{\rm red}}\). The second is the explicit multiplication comparison above. In particular the condition is scheme-theoretic vanishing of the numerator on the degenerate fiber \(D_\infty=Z\cap V(zw)\), not mere vanishing at the two underlying points. Each of these endpoint pieces has length \(ab\). The earlier [endpoint socle comparison](#centered-differential-and-scalar-part-of-the-spectrum) expresses the \(p_0\) restriction as \(\bar P=(M_1/ab)\bar D_{12}\). The degree equality fixes the length and the normalization, not the scalar. The global residue theorem on the full curve only sees the opposite residues canceling. Choosing instead to put the permitted poles at \(q=0\) adds \(M_1dq/q\) on \(E_0\) and its negative on \(E_\infty\), leaving the moving restrictions unchanged. So a different chart or permitted boundary divisor does not remove the missing condition.
+
+This closes the requested construction of a differential on the full intersection with all attachment residues canceled and identifies its actual global equation numerator; it localizes the unresolved regularity to the two complete corner sections over one degenerate quadric. It does not show that the actual CI forces that numerator to vanish on this fiber. A further argument must use more than the length count or global existence of the twisted section. Provisional pending independent review.
+
 ## 5. Global sections as requirements on F,G
 
 For a proper CI \(Z\) of the stated cycle, adjunction gives
