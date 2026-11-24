@@ -314,6 +314,46 @@ For \(\lambda\mu\ne0\) this is a quadratic in \(t\) with nonzero leading and con
 
 The constructive comparison is therefore to keep the **same two restricted curves on the varying quadrics**, including their actual common schemes, and use the two rulings to compare them with the secant observation. The prescribed full translated-cycle geometry says that for \(c\) outside its spectrum the common scheme of the two restricted curves is entirely at the two corners (length \(4m\) each, as in Section 3). For spectral fibers the common curves and their residual/embedded scheme structures must be retained. This comparison returns to the existing product dictionary without requiring another auxiliary bundle. The standard blowup and intersection inputs plus the explicit control establish the stated comparisons; there is no general reconstruction or new universal moment vanishing. Provisional pending independent review.
 
+
+### Three independent complementary-pair product models
+
+The two opposite ratios together with their quotient character are dependent: \((r_{01},r_{23},q)\), \((r_{02},r_{13},q)\), \((r_{03},r_{12},\eta)\) describe projected images, not birational ambient product coordinates. In particular their separate spectra forget the paired configuration. Complete each opposite pair to a spanning tree as in Section 3, keeping a degree-one parameter. One convenient (not unique) choice is
+\[
+ \begin{array}{c|c|c}
+ &\text{coordinates}& C_{u,v}\text{ on the dense torus}\\
+ I&(a,b,c)=(x/z,w/y,y/z)&(r,(v/u)r,ur^3)\\
+ II&(d,e,r)=(y/z,w/x,x/z)&(ur^3,vr^3,r)\\
+ III&(p,h,r)=(w/z,y/x,x/z)&(vr^4,ur^2,r).
+ \end{array}
+\]
+The homogeneous graph parametrizations are respectively
+\[
+ ([s:t],[us:vt],[s^3:ut^3]),\quad
+ ([s^3:ut^3],[s^3:vt^3],[s:t]),\quad
+ ([s^4:vt^4],[s^2:ut^2],[s:t]).
+\]
+The inverse ambient maps are \([1:a:c:bc]\), \([1:r:d:re]\), \([1:r:rh:p]\); thus the transitions are
+\[
+ I\to II:(c,bc/a,a),\quad I\to III:(bc,c/a,a),\quad
+ II\to III:(re,d/r,r).
+\]
+These are monomial torus isomorphisms (unimodular changes of character basis), rational maps on the products, and resolve on the already-described common toric modification. They commute on the dense torus and the individual curve maps extend on their normalizations. Do not infer everywhere-defined product automorphisms or identical closures of arbitrary thick schemes. Each individual reduced graph is a CI of its two graph equations, but the sum of graphs with cycle multiplicities is not a specification of an actual thick scheme.
+
+In model II, in homogeneous coordinates \(D,E,R\) on the factors, a single graph is defined by \(D_1R_0^3=uD_0R_1^3,\ E_1R_0^3=vE_0R_1^3\). Model I has \(uB_1A_0=vB_0A_1,\ C_1A_0^3=uC_0A_1^3\); model III has \(P_1R_0^4=vP_0R_1^4,\ H_1R_0^2=uH_0R_1^2\). Thus the full translated cycle in each product is the sum of these explicit graphs with coefficients \(n_i\).
+
+On the common longitudinal fiber \(r\ne0\), the paired coordinates in II are \(d/r^3=u,\ e/r^3=v\). The fiber Chow polynomial in \(d,e\) is
+\[
+ \prod_i(X+u_i r^3Y+v_i r^3Z)^{n_i}=\mathcal C_\sigma(X,r^3Y,r^3Z).
+\]
+In I use \((c/a^3,bc/a^4)\), and in III use \((h/r^2,p/r^4)\), to obtain the identical normalized paired polynomial. The same characters in the three product models are
+\[
+ q=a/b=d/e=r^2h/p,\qquad
+ \eta=c/(a^2b)=d^2/(r^3e)=h^2/p.
+\]
+These give the same weighted moment \(M_1\) and the two marginal spectral polynomials \(H,K\); the full paired polynomial is needed to preserve pairing. Projection to the two opposite factors alone gives image graphs of bidegrees \((1,1),(1,1),(1,2)\) (with the latter ordering interpreted as degree in the first and second variables of the equation), with generic mapping degrees \(1,3,2\), respectively; equivalently the last image equation is linear in \(p\) and quadratic in \(h\). These are not the multidegrees of the three embedded graphs above.
+
+An actual degree-\(D\) homogeneous polynomial \(F\) has the three torus expressions \(F(1,a,c,bc), F(1,r,d,re), F(1,r,rh,p)\). They agree by substitution, and their allowed monomials are indexed by the same ordinary-degree-\(D\) tetrahedron; homogenize separately and track exceptional factors on the common blowup. This is the concrete common-equation constraint, stronger than choosing unrelated graph equations on each product. The dense-torus dictionary and cycle images are explicit; boundary descent of a realizing scheme remains the missing part. No new sufficiency or moment theorem asserted.
+
 ## 5. Global sections as requirements on F,G
 
 For a proper CI \(Z\) of the stated cycle, adjunction gives
