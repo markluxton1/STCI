@@ -205,3 +205,27 @@ In particular the alternating comparison vanishes on the diagonal of the plane-d
 The invariant Wronskian is a section of \(O_L(-2)\boxtimes(\Omega^1_{\mathbf P^1}\otimes O_{\mathbf P^1}(2))\); the fixed normal-coordinate basis trivializes the second factor. The ordinary projective-frame transitions alone do not record this alternating variation. It is a mixed first-normal-jet comparison of the actual equations along the pencil's exceptional divisor.
 
 This links the previously defined torsor/ribbon line to the geometry of the plane pencil and actual local equation frames. It does not turn ordinary triviality of the minimal equation bundles on the pencil base into the condition \(M_1=0\). Those bundles of an actual global pair are already trivial, and the first-normal-jet comparison is extra framed information. The two normalized frame variations are only defined on their respective opens, not global sections of the conormal bundle. The cocycle need not be a coboundary simply because the original equations exist globally. The calculation is an elementary reinterpretation of the existing first-jet class, with no new vanishing or sufficiency claim.
+
+
+## 9. Closure of the transition comparison and its precise limit
+
+The marked transition interpretation is complete at the level of the first moment. It is extra information, not a disguised ordinary generator-bundle transition. In fact, for the actual first normal neighborhood \(L_1=V(I_L^2)\subset\mathbf P^3\), the standard unit exact sequence ([Stacks 37.4.1](https://stacks.math.columbia.edu/tag/0C6R)) and \(I_L/I_L^2=O_L(-1)^2\) give
+\[
+ \operatorname{Pic}(L_1)\simeq\operatorname{Pic}(L).
+\]
+Here both \(H^1(I_L/I_L^2)\) and \(H^2(I_L/I_L^2)\) vanish. In contrast the alternating comparison takes values in \(H^1(\det N_L^\vee)=H^1(\omega_L)=k\). The auxiliary determinant ribbon of Section 6 (equivalently the first neighborhood of the diagonal in \(L\times L\), with its first-projection splitting) is appropriate for that class; it is not the actual first normal neighborhood in projective space. Ordinary Picard descent to the latter cannot detect it.
+
+The [all-degree first-jet flexibility control](sole_support_first_jet_gate.md#all-degree-first-jet-flexibility-a-strict-negative-control), already established, gives an exact counterexample to any implication from ordinary generator triviality to comparison triviality. At \((a,b)=(4,4)\) take \(Q=zw-xy\),
+\[
+ F=x^4-z^3w+\lambda zQx,\qquad G=y^4-zw^3+\mu wQy.
+\]
+They are proper, avoid \(L\), and contain the marked quartic with generic length one; the residual degree is twelve. Every plane through the disjoint \(L\) cuts a plane CI, with its degree-four generator bundle trivialized by \(F,G\). Yet on the standard cover \(D(x),D(y)\) of \(L\) their cocycle is exactly \(\lambda\mu\,d\xi/\xi\) with \(\xi=y/x\). Every scalar occurs. This is an explicit transition-level negative control, not a counterexample to UM1: the entire-cycle hypothesis is absent. The earlier type-(1,8) example in Section 5 supplies the other distinction (balance does not suffice for arbitrary plane-completion generator triviality).
+
+There is also an exact way to read the logarithmic form without dividing by endpoint equations. In Section 7 multiply the duality-trace equality by \(zw\), a section of \(O_B(2)\). Using \(R=w/z\) gives
+\[
+ \operatorname{Tr}^{\mathrm{dual}}_\pi(x\,dy-y\,dx)
+ =2M_1(z\,dw-w\,dz)\in H^0(B,\omega_B(2)).
+\]
+The numerator on the left is a dualizing section with twist two (via the fundamental-class map). Since \(\omega_B(2)\simeq O_B\), this is already a global regular section for arbitrary \(M_1\). Its division by \(zw\) has the two opposite logarithmic residues. Global existence of the equation presentation or of the twisted differential cannot require the coefficient to vanish. Regularity *without the twist* is the additional condition; the previously established centered-section comparison shows the full untwisted differential on \(Z\) is regular iff the scalar vanishes. The trace formula is also the homogeneous primitive of the [existing symplectic pullback](chow_hilbert_symplectic_form.md), up to the factor two used for the alternating differential. No new symplectic theorem is needed.
+
+Thus the completed dictionary identifies the same marked scalar via the spectral generalized Jacobian, logarithmic trace, actual local equation-frame variations, and the auxiliary determinant ribbon. The full translated-cycle support condition is the missing geometric input if one asks for universal triviality: it would need to imply cancellation of the alternating variation, i.e. existence of a common cofactor lift of \(ps-q'r\). Neither the fixed fat-point envelope nor differentiation of its membership conditions has supplied that implication. This is exactly the existing UM1 question, not a lesser unsolved transition calculation. Conversely balance is not a sufficient realization condition (the paired configuration and actual scheme/source are essential). Close the transition-comparison investigation at this distinction; no additional abstract bundle construction alone advances the missing implication. The broader geometric realization program can retain this line as one observable, with no priority change or new exclusion claimed. The interpretation is provisional pending independent review.
