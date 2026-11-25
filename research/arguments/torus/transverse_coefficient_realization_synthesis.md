@@ -678,3 +678,7 @@ and the [corpus synthesis](universal_first_moment_corpus_review.md).
 This synthesis records the geometric motivation and interfaces, not a
 parallel proof of the established results or a replacement for the
 existing open-problem priorities.
+
+### Marked moduli continuation (provisional)
+
+The [marked Chow configuration boundary](marked_chow_configuration_boundary.md) and [endpoint incidence systems](marked_chow_endpoint_incidence.md) record the continuation of the geometric program: distinguish the independent and diagonal Chow quotients, separate the marked longitudinal curves in an ambient family, and determine the boundary from the quotient pencils and the two endpoint linear systems before choosing blowups. The generic four-pencil blown-up surface has an ample log canonical divisor by the direct calculation there. The three- and four-marking tests explain why the cusp and moment hyperplane arise from opposite-endpoint incidence and why toric-vertex incidence is essential beyond delta ranks. The stable extension and source-sensitive compatibility for arbitrary nonreduced CIs remain open; no new UM1 coverage or change in global priorities is asserted.
