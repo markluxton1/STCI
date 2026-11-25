@@ -382,3 +382,7 @@ mathematical force. The [queue](../../investigations/proof-audit/knowledge-gain-
 compares concrete tasks without claiming payoff dominance. Independent proof
 review governs the new deductions; completion also requires consistency of
 the resulting account. No all-degree exclusion or UM1 proof is established.
+
+## Marked Chow boundary interpretation (provisional)
+
+The [marked configuration and log-boundary construction](marked_chow_configuration_boundary.md) distinguishes the vertical log-map gluing of a single orbit from the horizontal contraction of the marked family. The [endpoint incidence analysis](marked_chow_endpoint_incidence.md) recovers the cusp modulus from the opposite plane map in the reduced three- and four-marking tests and distinguishes equal-rank common-quadric configurations from actual quartic CIs by incidence with a toric vertex. These give geometric reasons for the known reduced moment vanishing; they do not supply a descent mechanism for the uncentered trace form on an arbitrary actual CI. The full marked-pair discriminant, extension over coincident points and comparison with actual source equations remain open. No change to proved coverage.
