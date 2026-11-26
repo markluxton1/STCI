@@ -404,6 +404,8 @@ The provisional [plane-pencil generator-bundle comparison](../../arguments/torus
 
 ## Bridges
 
+The [source-parameter argument](../../arguments/torus/chow_source_parameter_geometry.md) distinguishes framed equations from CI ideals and proves provisionally that the equal-degree proper-pencil Chow map is affine. Unequal-degree tautological generator lines are different. The [literature discovery review](../../literature/chow_realization_connections.md) also identifies the Busé–Nonkané source discriminant factorization: a possible additional comparison of the same global generators and their Jacobian minors under a declared smoothing, not a support criterion by itself.
+
 An osculating quadric puts the entire quadratic conductor at one general
 point. Its principal parts map takes actual degree-\(d\) polynomials
 to a finite transverse jet space and computes their boundary kernel.
