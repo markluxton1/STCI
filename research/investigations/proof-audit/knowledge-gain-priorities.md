@@ -647,6 +647,22 @@ retained. A proof about one of these maps does not identify all defects.
   not replace full-chain membership or the norm test. The full Jacobian
   grows with the sources and lies outside the fixed-depth no-go result.
 
+- **Full plane-family realization (provisional geometry).** The
+  [minimal generator bundle comparison](../../arguments/torus/plane_pencil_equation_bundles.md)
+  separates extending the moving transverse neighborhoods to a fixed-type
+  plane-CI family from trivializing its degree-labeled minimal generators.
+  Ordinary generator triviality is not the framed cofactor condition, and
+  balanced spectra do not suffice for arbitrary relative completions.
+  A bounded alternative is to compare the endpoint-supported evaluation
+  factors on a known non-invariant quartic realization and the balanced
+  nonrealizable paired configuration in the
+  [cycle-first synthesis](../../arguments/torus/transverse_coefficient_realization_synthesis.md).
+  The expected gain is a source-sensitive distinction between genuine
+  completions and compatible cycle data; do not treat triviality for an
+  already given global pair as a new obstruction. The marked log-surface
+  extension over collisions remains a different, geometric question.
+  These are alternatives to the sign-source probe, not a revised ranking.
+
 KG05 retains a constructive, genuinely different whole-family question:
 can the full rank-twelve inverse algebra be supported and its pure power
 descend? The [elliptic contact/spectral comparison](../../arguments/carriers/elliptic_contact_and_spectral_comparison.md)

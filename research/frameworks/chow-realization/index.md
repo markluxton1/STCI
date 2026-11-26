@@ -177,11 +177,13 @@ despite satisfying the tested first-order congruences. The pair lies
 outside the full translated-cycle locus, so a vanishing argument still
 needs a condition that uses global support beyond those congruences.
 
-[Draft PR #176](https://github.com/markluxton1/STCI/pull/176) develops
-provisional coefficient, conormal and marked moduli descriptions. The
-open steps include stable extension across collisions, compatibility
-with actual nonreduced structures and a vanishing or realization theorem
-for the full translated-cycle CI locus.
+The provisional [cycle-first coefficient synthesis](../../arguments/torus/transverse_coefficient_realization_synthesis.md)
+compares the same homogeneous source across the product models, quadric
+graph and global section maps. The [plane-pencil criterion](../../arguments/torus/plane_pencil_equation_bundles.md)
+leaves the full family completion open. The [marked Chow boundary](../../arguments/torus/marked_chow_configuration_boundary.md)
+and [endpoint incidence systems](../../arguments/torus/marked_chow_endpoint_incidence.md)
+describe distinct-marking models. Their open steps are stable extension
+across collisions and comparison with actual nonreduced CI structures.
 
 The [cross-ratio source note](https://chatgpt.com/space/page_d434441dcb688191999bf266b13c4c11)
 records a relative-projectivity interpretation of reduced moment balance,

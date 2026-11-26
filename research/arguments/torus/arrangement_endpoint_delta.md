@@ -194,3 +194,7 @@ It realizes the three translates \(C_{u,v}\) with \(u=c^{-1}\) and \(v^3=u^4\). 
 ## Existing theory / boundaries
 
 The normalization sequence, arithmetic-genus formula and flatness/Hilbert-polynomial principle are standard. The explicit rank-filtration evaluation is an elementary consequence of the chosen monomial parametrizations, not a new general algebraic-geometric theorem. This calculation does **not** establish a new degree-independent obstruction, nor does it extend the fixed-carrier mate theorem to arbitrary equations. For proof coverage and actual-pair criteria see [R-0074](../../results/chow_polytope_rigidity.md), [actual translate restriction](fixed_surface_restriction_lifts.md), and [the \(V_5\) section dictionary](../residuals/blowup_residual_geometry.md).
+
+## Marked-pair interpretation (provisional)
+
+The [endpoint incidence boundary](marked_chow_endpoint_incidence.md) develops the two weighted filtrations as projective maps of the Chow surface and records the complete three- and four-marking rank lists. In the three-marking test, the vertical pencil becomes a cuspidal cubic under the opposite plane map. In the four-marking test, the nonzero-intercept line criterion gives a missing spectral coefficient and the full squarefree balanced spectral hyperplane, whereas the common-quadric line through a toric vertex has identical ranks but no proper quartic realization. These are geometric interpretations of the existing reduced criterion; they do not extend it to repeated cycles.

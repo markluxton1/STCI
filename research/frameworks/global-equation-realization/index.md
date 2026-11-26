@@ -400,6 +400,8 @@ not a
 formal independent compatibility
 between opposite first polars.
 
+The provisional [plane-pencil generator-bundle comparison](../../arguments/torus/plane_pencil_equation_bundles.md) gives a complementary source presentation: for a full finite flat plane-CI family of fixed type, trivial minimal equation bundles give the two homogeneous forms. Completing the moving transverse part by the endpoint-supported family remains open. The first-normal cofactor torsor is a different, framed invariant; ordinary generator triviality does not force its vanishing. See the [Chow realization framework](../chow-realization/index.md#bridges) for the paired configuration and marked geometry.
+
 ## Bridges
 
 An osculating quadric puts the entire quadratic conductor at one general

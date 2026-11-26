@@ -465,6 +465,11 @@ generation or cycle support can change without providing supported limits.
 
 The original [section-address compatibility page](weights_and_limits.md) retains old headings for existing references. The developments distinguish individual equation symbols from the saturated full initial ideal, and generic normal algebra from endpoint extension and global support.
 
+The [Chow realization framework](../chow-realization/index.md#bridges)
+routes to the provisional marked moduli and endpoint incidence models.
+Their collision boundary still needs comparison with full Hilbert
+limits carrying the actual embedded ideals.
+
 ## Relation persistence as a boundary refinement
 
 The [degree-12 rational sextic control](../../arguments/torus_hilbert_boundary.md#degree-12-relation-persistence-for-the-residual-sextic-pencil)
