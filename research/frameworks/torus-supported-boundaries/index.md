@@ -268,6 +268,10 @@ for this actual equation gate.
 
 ## Cycle incidence versus actual equations
 
+For actual pairs whose entire cycle consists of translates, see the
+[Chow realization framework](../chow-realization/index.md) for the
+equation conditions on the prescribed cycle.
+
 For a **proper** pair of degrees \((a,b)\) containing \(C\), its
 fundamental cycle is \([Y]=m[C]+R\), with \(ab=4m+\deg R\).
 The existing [multiplicity-strata argument](../../arguments/residuals/marked_deformation_and_absorption.md#fixed-degree-multiplicity-strata-of-actual-pairs)

@@ -64,6 +64,8 @@ motivate this investigation: respectively, moving supported equations,
 embedded quotient limits, and realization by actual homogeneous equations.
 The central interface is whether those objects encode compatible data for
 the same proper equation pair.
+The [Chow realization framework](../../frameworks/chow-realization/index.md)
+provides the equation and cycle interfaces used below.
 
 ## Findings
 
@@ -188,11 +190,11 @@ The following are **proposed tests**, not a priority ranking:
   then determine whether any resulting map supports a multiple-curve
   analogue of the \(V_5\) contraction. A section-space identity alone does
   not provide that morphism.
-- For the actual-equation incidence, test whether endpoint evaluation and
-  properness conditions extend over a chosen collision stratum while
-  retaining the same two generators. The reduced \((4,4)\) model is an
-  available bounded test; its conclusions must not be promoted to
-  non-invariant or nonreduced equation pairs without a separate argument.
+- For the actual-equation incidence, choose a higher-degree collision
+  stratum and test whether endpoint evaluation and properness conditions
+  extend while retaining the same two generators. Use the
+  [\((4,4)\) classification](../../results/quartic_chow_pencil_classification.md)
+  as a control for both invariant and non-invariant pencils.
 - For UM1, the exact remaining gate is to derive vanishing of the
   distinguished first-moment coefficient from the full support of the same
   actual equation pair. The [corpus review](../../arguments/torus/universal_first_moment_corpus_review.md)

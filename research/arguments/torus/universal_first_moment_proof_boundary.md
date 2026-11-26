@@ -209,6 +209,13 @@ unknown remains compatibility of the
 global equation-source filtration
 and all degrees.
 
+The [simultaneous Jacobian control](../../investigations/trace-residue-projection-geometry/first_order_wedge_control.md)
+tests a different proposed shortcut. Its six minors come from one proper
+quartic pair and satisfy the displayed relations modulo the square of
+the projection center ideal. The central residue equals two. The tested
+truncation kills the support relation's (zw) term, so a global argument
+must supply compatibility beyond this first neighborhood.
+
 ## Upward synthesis: the smallest exact common algebraic target
 
 **All-degree finite-cover trace.** Every such proper pair avoids the line
