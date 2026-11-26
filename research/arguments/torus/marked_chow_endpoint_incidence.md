@@ -1,6 +1,6 @@
 # Marked Chow boundary from the two endpoint interpolation systems
 
-**Status.** Companion to [marked Chow configurations](marked_chow_configuration_boundary.md). The reduced endpoint rank formula and the \((4,4)\) line criterion are already established; the projective boundary interpretation and explicit spectral-image calculations here are provisional deductions, pending independent review. Work over an algebraically closed field of characteristic zero unless stated otherwise. The purpose is to identify the intrinsic incidence boundary, not to enumerate low-degree STCI cases.
+**Status.** Companion to [marked Chow configurations](marked_chow_configuration_boundary.md). The reduced endpoint rank formula and the \((4,4)\) line and root criteria are established. The projective boundary interpretation and its deductions remain provisional pending independent review. Work over an algebraically closed field of characteristic zero unless stated otherwise.
 
 ## 1. Two sequences of projective maps supplied by contraction
 
@@ -45,7 +45,7 @@ For three distinct points at either endpoint there are exactly three interpolati
 \text{vertical collinear}&0,4,8&12
 \end{array}
 \]
-The rank at weight three is two unless \(u\) is constant; the other rows follow from independence of \(1,u,v\) or Vandermonde interpolation on the line. See the established [three-branch calculation](chow_moment_residual_speciality.md).
+The rank at weight three is two unless \(u\) is constant. The remaining jumps follow from independence of \(1,u,v\) or Vandermonde interpolation on the line. See the established [three-branch calculation](chow_moment_residual_speciality.md#5-one-tripled-component-in-every-degree-in-characteristic-zero).
 
 For a reduced \((3,4)\) CI the Hilbert polynomial \(12d-18\) requires \(\delta_0+\delta_\infty=21\). Hence up to endpoint exchange the points are vertical at \(p_0\) and nonvertical collinear at \(p_\infty\). Write \(u=c\ne0\) and \(q=c/v\). The image of the vertical pencil fiber in the opposite plane is
 \[
@@ -66,7 +66,7 @@ The complete list of possible jump orders for four distinct points at one endpoi
 0,4,8,12&24
 \end{array}
 \]
-Indeed constant \(u\) gives the last row by Vandermonde; affine dependence \(v=A+Bu\) with nonconstant \(u\) gives the preceding row. Otherwise \(1,u,v\) are independent. If adjoining all three of \(u^2,uv,v^2\) failed to reach rank four, their evaluations would lie in the span of \(1,u,v\), making it a unital subalgebra stable under multiplication by both \(u\) and \(v\). Those two functions generate all functions on the four distinct points, a contradiction. So the fourth jump is at six, seven or eight. This argument also gives the rank possibilities in any characteristic; the stated moment exclusion below uses characteristic zero.
+Indeed constant \(u\) gives the last row by Vandermonde, and affine dependence \(v=A+Bu\) with nonconstant \(u\) gives the preceding row. Otherwise \(1,u,v\) are independent. If adjoining all three of \(u^2,uv,v^2\) failed to reach rank four, their evaluations would lie in the span of \(1,u,v\), making it a unital subalgebra stable under multiplication by both \(u\) and \(v\). Those two functions generate all functions on the four distinct points, a contradiction. The jump occurs at weight six for general points. For two distinct \(u\)-values with two points over each, \(u^2\) depends on \(1,u\) and \(uv\) supplies independent slopes on the two fibers, giving weight seven. For three distinct points in one \(u\)-fiber and a fourth in another, both \(u^2\) and \(uv\) lie in the span of \(1,u,v\), and \(v^2\) is independent by Vandermonde on the triple, giving weight eight. The rank list holds in any characteristic. The common-quadric example below has nonzero moment whenever \(4\ne0\) in the field.
 
 For a reduced \((4,4)\) CI the Hilbert polynomial \(16d-32\) requires sum 36, forcing the pair \((18,18)\). Thus both endpoint planes have nonvertical collinearity. Write
 \[
@@ -96,7 +96,9 @@ Its homogeneous degree-four linear system lies in \(\langle Q^4,Q^2 S^2,QS^3,S^4
 
 ### Exact spectral image of the reduced realization locus
 
-Conversely let \(H(q)=q^4+c_2q^2+c_1q+c_0\) be squarefree and \(c_0\ne0\). Choose \(AC=-1/c_0,\ BD=c_2/c_0,\ B+D=-c_1/c_0\); the last two conditions have a solution because the field is algebraically closed, and \(A,C\ne0\) can be chosen with their specified product. For every root of \(H\), neither \(1-Bq\) nor \(1-Dq\) is zero by the quartic equation, so \(\eta=Aq^2/(1-Bq)\ne0\) gives four distinct interior Chow points on the two required lines. The established line criterion supplies the actual reduced \((4,4)\) CI. Hence the spectral image is exactly the squarefree nonzero-root open part of \(V(h_1)\subset\mathbf P^4\), and its projective closure is that hyperplane. This is about the spectral projection of the reduced realization locus, not identification of the entire Chow or Hilbert closure with that hyperplane; repeated roots need separate analysis.
+The spectral image is a corollary of the established [quartic root model](marked_arrangement_forgetful_geometry.md#2-the-full-ordered-reduced-44-model-including-constant-v-carriers). The endpoint lines give a direct coefficient proof. Let \(H(q)=q^4+c_2q^2+c_1q+c_0\) be squarefree with \(c_0\ne0\). Choose \(AC=-1/c_0\), \(BD=c_2/c_0\) and \(B+D=-c_1/c_0\). Over the algebraically closed field, \(B,D\) are roots of the quadratic with the specified sum and product. Choose \(A,C\ne0\) with their specified product. Since \(H(q)=0\) gives \((1-Bq)(1-Dq)=ACq^4\), both factors on the left are nonzero at each root. Then \(\eta=Aq^2/(1-Bq)\ne0\) gives four distinct interior points on the two lines. The established line criterion supplies the reduced \((4,4)\) CI. Hence the spectral image is the squarefree nonzero-root open part of the hyperplane \(V(h_1)\subset\mathbf P^4\), where \(h_1\) is the coefficient of \(Q^3S\) in a binary quartic. Its projective closure in the spectral space is that hyperplane.
+
+The same coefficient choice allows repeated nonzero roots. For the associated eigenquartics, the first equation gives \(\eta=Aq^2/(1-Bq)\), and substitution into the second gives \(H(q)=0\) up to a unit on the torus. The [complete centered-spectrum construction](chow_realization_moment_separation.md#13-complete-quadric-spectrum-projections-in-degrees-34-and-44) treats both \((3,4)\) and \((4,4)\) and records the quartic equation identity and root multiplicities. The [quartic pencil classification](../../results/quartic_chow_pencil_classification.md) covers the actual \((4,4)\) pencils. What remains open here is the stable extension of the marked family across collisions, its comparison with the embedded scheme limits, and the extension to higher degrees.
 
 ## 4. What the two tests establish about the boundary
 

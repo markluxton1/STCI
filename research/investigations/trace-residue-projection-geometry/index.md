@@ -19,8 +19,7 @@ relations:
 Work over an algebraically closed field of characteristic zero. Let
 \(Y=V(F_a,G_b)\) be a proper homogeneous complete intersection (CI) with
 entire fundamental cycle \(\sum_i n_i[C_{u_i,v_i}]\), where
-\(C_{u,v}=[s^4:s^3t:u st^3:v t^4]\), (u,v
-e 0), and
+\(C_{u,v}=[s^4:s^3t:u st^3:v t^4]\), \(u,v\ne0\), and
 \(m=\sum_i n_i=ab/4\). Write coordinates \([z:x:y:w]\),
 \(q_i=u_i/v_i\), and \(M_1=\sum_i n_iq_i\). Multiplicities and arbitrary
 compatible scheme structures are allowed. Cycles with other components

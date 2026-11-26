@@ -465,9 +465,10 @@ generation or cycle support can change without providing supported limits.
 
 The original [section-address compatibility page](weights_and_limits.md) retains old headings for existing references. The developments distinguish individual equation symbols from the saturated full initial ideal, and generic normal algebra from endpoint extension and global support.
 
-## Marked Chow moduli and attachment boundary (provisional)
-
-The [marked Chow configuration family](../../arguments/torus/marked_chow_configuration_boundary.md) starts with the normalized orbit quotient and distinguishes the relative diagonal Losev–Manin family from the universal marked ambient threefold. Four carrier/contact pencils give a generic stable blown-up surface pair; its configuration discriminant is distinct from the boundary in each fiber. The [two endpoint incidence systems](../../arguments/torus/marked_chow_endpoint_incidence.md) recover the full reduced gluing-length stratification by weighted evaluation ranks and explain the three- and four-marking cuspidal geometry. The quartic common-quadric control has identical endpoint ranks to a realized reduced quartic pair, but a different incidence with the toric vertex. Thus a moduli boundary must retain more than numerical endpoint lengths. No extension over arbitrary nonreduced CIs or stable compactification is established. This complements, rather than replaces, the full Hilbert boundary and equation-lifting mechanisms in this framework.
+The [Chow realization framework](../chow-realization/index.md#bridges)
+routes to the provisional marked moduli and endpoint incidence models.
+Their collision boundary still needs comparison with full Hilbert
+limits carrying the actual embedded ideals.
 
 ## Relation persistence as a boundary refinement
 

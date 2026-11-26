@@ -298,11 +298,9 @@ Taking degrees in (8) gives only twice (4):
 The duality supplies the whole boundary algebra and compatible subalgebra,
 but not an independent numerical contradiction.
 
-
-
 ### The simple-pole part of the conductor gluing
 
-For the actual finite separated modification (also with several distinct weighted supports), isolate the first layer of (9), rather than the whole conductor quotient. At either endpoint write \(R=k[[r]]\), \(A=R[r^3u,r^4v]\subset B\), with the corresponding opposite parameter and units at infinity. The maximal ideal of \(A\) satisfies \(\mathfrak m_A B=rB\), and \(A\to B/rB\) has image \(k\cdot1\). Thus when \(m>1\) the conductor \(\mathfrak c\subset rB\): an element of the conductor with nonzero image in \(B/rB\) would be a unit of \(B\), forcing \(A=B\), inconsistent with the image dimension.
+For the actual finite separated modification of generic length \(m>1\), including several distinct weighted supports, isolate the first layer of (9). In rank one the normalization is already an isomorphism on these charts and the fractional simple-pole module need not lie in \(B\). At either endpoint write \(R=k[[r]]\), \(A=R[r^3u,r^4v]\subset B\), with the corresponding opposite parameter and units at infinity. The maximal ideal of \(A\) satisfies \(\mathfrak m_A B=rB\), and \(A\to B/rB\) has image \(k\cdot1\). Thus when \(m>1\) the conductor \(\mathfrak c\subset rB\): a conductor element with nonzero image in \(B/rB\) has a nonzero scalar image there and is a unit of \(B\), forcing \(A=B\), inconsistent with the image dimension.
 
 Choose the Frobenius functional \(\lambda:A\to R\) used in (9). In its dualizing frame the relative canonical module of \(B\) is \(\mathfrak c\), and the simple-pole module is \(r^{-1}\mathfrak c\subset B\). The perfect pairing of (9) identifies
 \[

@@ -64,7 +64,11 @@ Indeed a lift \(e\in E\) must satisfy \(d_T(e)=\omega\) and \(d_B(e)=0\). Relati
 
 ## 5. Return to the projective geometry
 
-The separated model \(\mathbf P^1\times T_\sigma\) gives the finite flat closure of the moving quotient: extend the generic quotient by taking its torsion-free scheme closure in the fixed envelope, equivalently extend the ideal-valued quotient map into the projective quotient Grassmannian. The closure is finite flat over the smooth base curve; ideal preservation holds by closure. The same second fundamental form then has the global target \(\mathcal B\otimes\Omega_{\mathbf P^1}\) on that separated model. The conormal module at the endpoints need not be locally free of rank two; no such extension of the original relative rank-two graph is asserted. The contraction to \(\mathbf P^3\) is the existing endpoint modification (see [embedded quotient framework](../../frameworks/embedded-torus-quotients/index.md) and [endpoint duality](tropical_thickenings_and_endpoint_duality.md) for the sole-supported case). A global homogeneous CI presentation has further information beyond the quotient and its first derivative.
+In the separated model \(\mathbf P^1\times T_\sigma\), take the torsion-free scheme closure \(W\) of the moving quotient. Equivalently, extend the quotient map to the projective Grassmannian of quotients of \(A_\sigma\). The ideal condition is closed, and the resulting family is finite flat over the base curve. Its second fundamental form has target \(p_*O_W\otimes\Omega_{\mathbf P^1}\). The endpoint conormal module can fail to be locally free of rank two.
+
+The contraction extends the [sole-support endpoint modification](tropical_thickenings_and_endpoint_duality.md) to translated arrangements. On the affine chart with parameter \(t\), write \(B_0\) for the algebra of \(W\). The contraction to \(z=1\) has image algebra \(A_0=k[t,t^3u,t^4v]\subset B_0\). Since \(B_0\) is finite over \(k[t]\), it is finite over \(A_0\). Its image ideal agrees with \(I_Z\) on the dense torus. The image ideal is contracted from the torus because \(t\) is a nonzerodivisor on \(B_0\) and \(u,v\) are units. Also \(I_Z\) is contracted from the torus because the CI is unmixed and all its support curves meet the torus densely. This identifies the image scheme with \(Z\) on that chart.
+
+On the opposite chart let \(\tau=1/t\) and \(t^-=q\tau\). The units \(q,q^{-1}\) belong to the fixed finite envelope algebra, so \(q^{-1}\) is integral over \(k\). Thus \(\tau=q^{-1}t^-\) is integral over \(k[t^-]\), and the algebra of \(W\), finite over \(k[\tau]\), is finite over \(k[t^-]\). The nonzerodivisor property also holds for \(t^-\). In the reversed coordinates of Section 6 the same image-ideal argument identifies the contraction with \(Z\) on \(w=1\). The two charts agree on the torus and give the finite modification \(W\to Z\). The resulting function lattices and differential map supply local tests for a lift to the original homogeneous equation bundles. Such a lift would have to recover the full conormal maps and the projective ideal across both endpoints.
 
 ## 6. Endpoint geometry: a common logarithmic space and two ordinary lattices
 
@@ -138,7 +142,7 @@ The [plane-pencil and equation-bundle comparison](plane_pencil_equation_bundles.
 
 ## 8. Recovering the ordinary reduced conormal from product-model intersections
 
-Use the [three independent product presentations](transverse_coefficient_realization_synthesis.md#three-independent-complementary-pair-product-models) and the logarithmic normal space \(\mathcal V=k\alpha\oplus k\beta\), \(\alpha=d\log U,\beta=d\log V\), with \(U,V\) ambient characters and \(u,v\) fixed on the individual reduced graph. This is the kernel of restriction to the logarithmic differential on the normalized orbit. Standard toric input: Cox--Little--Schenck, *Toric Varieties*, §8.1, especially the discussion following Theorem 8.1.1 (https://pi.math.cornell.edu/~tsh/cornell-only/cox-little-schenck-toric.pdf). We use it to recover ordinary conormal data rather than derive a new normal bundle classification.
+Use the [three independent product presentations](transverse_chow_product_models.md#three-independent-complementary-pair-product-models) and the logarithmic normal space \(\mathcal V=k\alpha\oplus k\beta\), \(\alpha=d\log U,\beta=d\log V\), with \(U,V\) ambient characters and \(u,v\) fixed on the individual reduced graph. This is the kernel of restriction to the logarithmic differential on the normalized orbit. Standard toric input: Cox--Little--Schenck, *Toric Varieties*, §8.1, especially the discussion following Theorem 8.1.1 (https://pi.math.cornell.edu/~tsh/cornell-only/cox-little-schenck-toric.pdf). We use it to recover ordinary conormal data rather than derive a new normal bundle classification.
 
 Differentiating the two graph equations in the three models gives respectively
 \[
@@ -173,7 +177,7 @@ The common model-II lattice is globally \(\mathcal O_{\mathbf P^1}(-3p_0-3p_\inf
  \mathcal O(-3p_0-4p_\infty)\alpha
  \ \oplus\ \mathcal O(-4p_0-3p_\infty)\alpha^- .
 \]
-This recovers the classical \(N_{C/\mathbf P^3}\simeq O(7)^2\) result (Eisenbud--Van de Ven, *On the normal bundles of smooth rational space curves*, https://eisenbud.github.io/papers/pdfs/1981-001.pdf). In characteristic two the lines coincide and the splitting instead is \(O(-6)\oplus O(-8)\) for the conormal. These are classical splitting types, not new exclusions; the product-intersection interpretation is the point.
+In characteristic zero this recovers the classical \(N_{C/\mathbf P^3}\simeq O(7)^2\) result (Eisenbud--Van de Ven, *On the normal bundles of smooth rational space curves*, https://eisenbud.github.io/papers/pdfs/1981-001.pdf). In characteristic two the lines coincide and the splitting instead is \(O(-6)\oplus O(-8)\) for the conormal. Compare the characteristic-sensitive [normal splitting calculation](../../results/quartic_conormal_characteristic_jump.md). The product-intersection description interprets those splitting types.
 
 For actual homogeneous \(F\), set \(f=F(1,r,r^3U,r^4V)\). The full logarithmic differential before restriction is
 \[

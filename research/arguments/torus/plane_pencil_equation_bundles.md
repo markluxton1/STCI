@@ -79,7 +79,7 @@ from the relative Koszul resolution and \(R^1p_*O_P(j)=0\) for all \(j\). It dis
 
 ## 4. What to compare next
 
-The constructive realization question now has two geometric parts: complete the moving transverse neighborhoods to the full plane-CI family by the endpoint-supported part, and understand whether its minimal equation bundles are trivial. The opposite pencil through \(L_{01}\) supplies the complementary observation of the same global equations. Its base parameter \(t^-=q/t\) differs by a transverse character, so do not identify the full plane fibers of the two pencils over a single common base; compare their incidence maps to projective space.
+For a proposed moving transverse family, the construction requires an endpoint-supported complement on the punctured pencil and an extension of the full family across both special planes. One must show that every fiber is a CI of type \((a,b)\) and that the minimal equation bundles are trivial. For \(a<b\) this means degree zero for both generator lines. For \(a=b\) both splitting summands of \(J_a\) must have degree zero. The opposite pencil through \(L_{01}\) supplies another incidence map to projective space, with its own base parameter \(t^-=q/t\).
 
 This is a way to organize the previously studied quotient, normal graph, Chow restrictions and endpoint contraction without reducing them to an obstruction. The criterion is conditional on fixed-type plane-CI fibers at **all** base points, and says nothing by itself about existence of such a completion or triviality of its equation bundles. No first-moment theorem or new STCI coverage is asserted. Independent review of the new synthesis remains outstanding.
 
@@ -159,7 +159,7 @@ The finite duality trace therefore gives exactly
  =\frac12\lambda_q(1)\frac{dR}{R}
  =2M_1\frac{dR}{R}.
 \]
-Consequently its logarithmic coefficient at zero agrees with the Serre trace of the actual cofactor torsor on \(L\), and its coefficient at infinity is opposite. The ordinary residue theorem does not force either individually to vanish. The [centered-section account](transverse_coefficient_realization_synthesis.md#centered-differential-and-scalar-part-of-the-spectrum) already proves that \(\omega\) is regular iff \(M_1=0\) for these actual CIs, a stronger statement than just taking its aggregate trace.
+Consequently its logarithmic coefficient at zero agrees with the Serre trace of the actual cofactor torsor on \(L\), and its coefficient at infinity is opposite. The ordinary residue theorem does not force either individually to vanish. The [centered-section account](transverse_chow_quadric_graph_gluing.md#centered-differential-and-scalar-part-of-the-spectrum) already proves that \(\omega\) is regular iff \(M_1=0\) for these actual CIs, a stronger statement than just taking its aggregate trace.
 
 On the same punctured base the first-order norm is
 \[
@@ -175,7 +175,7 @@ On the separated rank-\(m\) longitudinal algebra it is \(1-M_1\epsilon\) instead
 
 There is a direct interpretation of the cofactor cocycle in Section 6 using the local equation frames. No new residue computation is needed. The standard conormal input is [Stacks 29.32](https://stacks.math.columbia.edu/tag/01R1). With the chosen normal directions \(z,w\), the conormal bundle \(N^\vee_{L/\mathbf P^3}\) is \(O_L(-1)^2\) and its determinant identifies with \(\omega_L\), with the orientation used in Section 6.
 
-The coordinate projection from the opposite line \(V(x,y)\) makes its complement the total space of \(O_L(1)^2\), with zero section \(L\). In particular it provides a specified retraction and identifies the ambient \(O(d)\) with the pullback of \(O_L(d)\) there. Use this identification to compare \(F\) with \(f=F|_L\) over \(U_f\), and \(G\) with \(g=G|_L\) over \(U_g\). The ratios are units equal to 1 on \(L\), and their first normal variations in \(I_L/I_L^2\) are
+The coordinate projection from the opposite line \(V(x,y)\) makes its complement the total space of \(O_L(1)^2\), with zero section \(L\). In particular it provides a specified retraction and identifies the ambient \(O(d)\) with the pullback of \(O_L(d)\) there. Use this identification to compare \(F\) with \(f=F|_L\) over \(U_f\), and \(G\) with \(g=G|_L\) over \(U_g\). The ratios restrict to \(1\) on their respective parts of \(L\), so they are units on open neighborhoods of those parts and on the corresponding first infinitesimal neighborhoods. Their first normal variations in \(I_L/I_L^2\) are
 \[
  \alpha_F=(p\,dz+q'\,dw)/f,\qquad
  \alpha_G=(r\,dz+s\,dw)/g .
