@@ -212,6 +212,8 @@ CI ring, but does not reconstruct all nilpotent multiplication from
 its cycle. The new first-jet residue pairing is a necessary
 algebraic test conditional on whole translated-cycle support.
 
+The provisional [moving neighborhood/conormal comparison](../../arguments/torus/transverse_neighborhood_motion_and_conormal.md) interprets longitudinal differentiation as the second fundamental form of the kernel in the fixed envelope. The exterior square can lose motion, and the separated closure's conormal need not be locally free at the endpoints. The [first conductor layer](../../arguments/torus/tropical_thickenings_and_endpoint_duality.md) identifies the simple-pole matching hyperplane by evaluation at the unit, not by the total lattice index. Neither comparison establishes global realization or extends the sole-support movement bounds.
+
 ## Bridges
 
 The [comparison investigation](../../investigations/quotient-hilbert-comparison/index.md)

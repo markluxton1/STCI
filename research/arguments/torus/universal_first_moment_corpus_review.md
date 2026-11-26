@@ -354,6 +354,8 @@ The present account retains exact unknowns requiring new source restrictions,
 realizations or boundary-jet cancellation, rather than declaring them absent
 because an earlier synthesis did not construct them.
 
+The [cycle-first geometric synthesis](transverse_coefficient_realization_synthesis.md) adds provisional interfaces to these alternatives: the common product-model equations, the full plane-CI family and its generator bundles, and the separated conormal and marked log-pair geometries. The first conductor layer and the twisted corner differential again separate a scalar trace from actual section descent. No added universal vanishing follows. The [current queue](../../investigations/proof-audit/knowledge-gain-priorities.md#concrete-alternatives-within-and-beyond-chow) records a bounded plane-family comparison; stable extension across marking collisions remains separate from embedded CI limits. This later integration does not extend the prior independent review or synthesis stopping scope recorded below.
+
 ### Synthesis coverage and stopping judgment
 
 The final reassessment followed the combined understanding back through the
