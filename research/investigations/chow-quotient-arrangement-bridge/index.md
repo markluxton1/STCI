@@ -36,10 +36,10 @@ from endpoint data and the same two global equations?
 
 ### First moment as a test of realization
 
-One question within the broader realization program is why should the spectral
+One question within the broader realization program is whether the spectral
 polynomial \(H_\sigma(T,1)=\prod_i(T-u_i/v_i)^{n_i}\) be depressed in
 the distinguished quadric-pencil coordinate for every actual complete
-intersection with full translated support? The target includes arbitrary
+intersection with full translated support. The target includes arbitrary
 non-invariant repeated structures. An arbitrary translation of the spectral
 coordinate, containment of a translate, or a bounded determinant truncation
 does not establish this assertion.

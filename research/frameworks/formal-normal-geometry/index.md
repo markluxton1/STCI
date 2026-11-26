@@ -40,6 +40,8 @@ multiple-structure classification. The first-normal layers here
 refer to the line disjoint from \(C\), not to the conormal filtration
 along \(C\); the two filtrations must not be identified.
 
+The provisional [moving-neighborhood comparison](../../arguments/torus/transverse_neighborhood_motion_and_conormal.md) connects the conormal graph of an actual translated-cycle CI on the coordinate torus with the derivative of its embedded quotient in the fixed fat-point envelope. The socle-valued exterior square can forget longitudinal motion. The ordinary endpoint cotangent lattices and the conormal module of the separated closure must be distinguished from the pulled-back projective equation bundle; this does not extend the sole-support movement theorem or construct a global realization.
+
 ## Simultaneous realization and compatibility problems
 
 For any homogeneous form nonzero on a characteristic-zero CI supported on
