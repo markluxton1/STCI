@@ -547,6 +547,10 @@ vanishing hypotheses. The [actual full-primary attachment quotient comparison](.
 
 ## Transverse Chow norm as a finite source interface
 
+The [Chow realization framework](../chow-realization/index.md) connects
+this norm condition with the full translated-cycle incidence and the
+first-moment question.
+
 The [homogeneous transverse Chow/norm comparison](../../arguments/torus/chow_arrangement_moments.md#the-homogeneous-transverse-chow-form-as-a-section-norm)
 compresses the global Chow-resultant condition after Chow-polytope rigidity
 has placed the cycle in the translated-quartic family. The homogeneous

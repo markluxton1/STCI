@@ -32,6 +32,8 @@ The constant-image results do not by themselves cover moving transverse quotient
 
 ### Universal full-Chow envelope above every moving quotient
 
+The [Chow realization framework](../chow-realization/index.md) follows
+the same cycle back to actual equations and their multiplicities.
 The [full two-dimensional Chow pullback](../../arguments/torus/full_transverse_chow_pullback_envelope.md)
 supplies a canonical constant **fat-point**
 algebra above *every* actual translated-cycle

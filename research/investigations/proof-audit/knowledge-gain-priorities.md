@@ -155,6 +155,9 @@ neither supply a capacity bound for every cover nor remove its need.
 
 ### KG02. Actual Chow arrangements, collisions and full torus limits
 
+The [Chow realization framework](../../frameworks/chow-realization/index.md)
+routes to the exact equation conditions and their coverage.
+
 The [clean common-quadric theorem](../../arguments/equations/common_quadric_chow_boundary.md)
 settles one boundary chart in every degree: its full special scheme has
 a balanced effective quadric subcycle forbidding constant sole support

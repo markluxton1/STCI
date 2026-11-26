@@ -17,7 +17,7 @@ The order, status and detailed next gates live in KG, not in a second ranking he
 | Decision | Strategic owner |
 | --- | --- |
 | What do full toric limits and embedded corrections say about the quadratic conductor? | [KG01](knowledge-gain-priorities.md#kg01-projective-limits-on-deep-generic-normal-contact) |
-| Which actual Chow arrangements and collisions occur as the carrier and thickening vary? | [KG02](knowledge-gain-priorities.md#kg02-actual-chow-arrangements-collisions-and-full-torus-limits) |
+| Which translated cycles can actual equation pairs realize, and must every such cycle have zero first moment? | [KG02](knowledge-gain-priorities.md#kg02-actual-chow-arrangements-collisions-and-full-torus-limits) |
 | Can marked absorption lift to proper ambient equations and terminate at zero residual? | [KG03](knowledge-gain-priorities.md#kg03-globalizing-a-marked-absorption-step) |
 | What controls exceptional carriers outside the proved fixed-residual lifting opens? | [KG04](knowledge-gain-priorities.md#kg04-residual-capacity-outside-the-ordinary-open) |
 | Can the full elliptic inverse scheme have marked support and admit actual power descent? | [KG05](knowledge-gain-priorities.md#kg05-full-inverse-support-and-descent-for-the-elliptic-family) |
@@ -39,7 +39,7 @@ Their current hypotheses and controls remain at the linked source.
 - **Projection and liaison:** [actual homogeneous realization](../../frameworks/global-equation-realization/projection_and_liaison.md) asks for sources overcoming the missing-section or conductor-postulation gates; ACMness, AG and two-generation are different conditions.
 - **Octic multiplier kernels:** [actual kernels, fixed divisors and joint generation](../../frameworks/residual-construction/octic_multiplier_kernels.md) remain to be determined on the stated first-compatible roots.
 - **Finite common ancestors:** the [quartic tensor incidence remainder](../../frameworks/local-cohomology/open_quartic_ancestors.md) is a bounded question separate from KG09's all-degree persistence.
-- **Chow realization and collisions:** the [quartic classification](../../results/quartic_chow_pencil_classification.md) settles the \((4,4)\) fiber, including a non-invariant orbit outside the invariant quartic Chow closure. The [two-translate sextic criterion](../../arguments/torus/fixed_surface_restriction_lifts.md#a-two-translate-sextic-construction-criterion) gives a specified construction target with existence open. The [sign-breaking equation thickenings](../../arguments/torus/sign_source_controls.md) give higher-degree non-invariant realizations, including a pencil with neither sign-eigen member. Nonzero moment and actual limits with non-ACM pure hulls remain distinct unresolved questions.
+- **Chow realization and collisions:** the [Chow realization framework (STCI-F-0010)](../../frameworks/chow-realization/index.md) tracks actual equation pairs with entire translated cycles. Universal first-moment vanishing and the classification of realizable higher-degree repeated cycles remain open. The [quartic classification](../../results/quartic_chow_pencil_classification.md), [two-translate sextic criterion](../../arguments/torus/fixed_surface_restriction_lifts.md#a-two-translate-sextic-construction-criterion), and [sign-breaking thickenings](../../arguments/torus/sign_source_controls.md) constrain different parts of that problem. Whether a torus limit of these pairs can have a non-ACM pure hull remains a separate question.
 
 ## Proof explanations with a distinct purpose
 

@@ -19,6 +19,7 @@ The map routes to mathematical owners; the strategic queue alone ranks tasks.
 | [Global equation realization](frameworks/global-equation-realization/index.md) | Actual source spaces, lifting quotients, Sylvester bundles and the complement. Projection and liaison supply constructive sources; missing ambient sections can destroy ACMness after projection. |
 | [Residual construction](frameworks/residual-construction/index.md) | Generic length, projective residual cycles, attachment and marked absorption. Local transfer must persist in an actual proper pair before degree exhaustion can be applied. |
 | [Spectral roots](frameworks/spectral-roots/index.md) | Genus-one Picard torsion produces graded equations. Actual embedded sextic and octic lifts have different source conditions; a positive octic lift can still leave a residual curve. |
+| [Chow realization](frameworks/chow-realization/index.md) | Full coefficient chains and a norm characterize the exact translated cycle of a proper pair under the boundary condition. General repeated-cycle construction and unrestricted first-moment vanishing are open. |
 | [Full torus boundaries](frameworks/torus-supported-boundaries/index.md) | Opposite limits of the full ideal preserve Hilbert data and can gain generators. A supported deformation needs a test of the actual moving ideal. |
 | [Embedded torus quotients](frameworks/embedded-torus-quotients/index.md) | Embedded finite algebras and endpoint images recover more than the abstract quotient. Pure limit components and embedded lengths are known separately; comparing the full opposite endpoints in one family is further work. |
 | [Arithmetic supported lifts](frameworks/arithmetic-supported-lifts/index.md) | Positive-characteristic equations, normal specialization and obstruction to prescribed lifts. Endpoint root defects have no proved identification with spectral Picard torsion or carrier Weil classes. |
@@ -87,129 +88,36 @@ Sylvester index or resolve the nonprimitive source incidence.
 
 ### Chow cycles, actual equations, and finite source depth
 
-The [quartic-pencil classification](results/quartic_chow_pencil_classification.md)
-classifies proper \((4,4)\) pencils in characteristic zero, including a
-non-invariant exceptional orbit. Liaison and the canonical module explain
-its rigidity. Its [K3/even-eight carrier](arguments/torus/quartic_exceptional_carrier_geometry.md)
-and [opposite full Hilbert limits](arguments/torus/quartic_hilbert_chow_limits.md)
-have different information from the Chow cycle. The characteristic-two
-sole-support construction is separate from that classification.
+The [Chow realization framework](frameworks/chow-realization/index.md)
+starts with the full translated-cycle incidence. It routes to exact reduced
+and quartic realization, the full coefficient chains and norm, and the
+separate first-moment and endpoint tests for repeated cycles. The
+[quartic exception](arguments/torus/quartic_hilbert_chow_limits.md)
+distinguishes the full Hilbert boundary from the cycle. The
+[arrangement strata](results/arrangement_strata_and_orders.md)
+and [relative blowup models](arguments/torus/relative_arrangement_blowup_family.md)
+describe where marked incidence and individual section orders persist.
 
-The [sign-symmetry theorem](results/chow_acm_parity_vanishing.md) is a
-constraint on standard homogeneous generation: a sign-invariant ACM image
-has zero moment without a CI or Gorenstein hypothesis. The
-[actual-source comparison](results/sign_symmetrized_source_defect.md)
-now gives both a one-sign-eigen-carrier exclusion and an explicit
-fiber-product section hull for the pair and its sign transform. Its
-saturation defect is necessary under sole support, but can be supplied
-by missing low-degree equations; retain the original source maps and
-multiplication. Sign-breaking repeated CI controls exist and still have
-zero moment, even with no sign-eigen member of the source pencil. Abstract
-defect modules do not recover the moment value; in a transverse intersection
-sector even the signed hull profile is forced by the degrees.
+The [conjugate-pair section hull](results/sign_symmetrized_source_defect.md),
+[actual-family specialization maps](arguments/normal-geometry/source_specialization_and_linkage.md)
+and [integral first-jet product](results/integral_first_jet_lifting.md)
+compare different constraints on actual equation sources. The
+[cross-framework synthesis](arguments/torus/universal_first_moment_corpus_review.md)
+tracks their implications for moment vanishing. The [elliptic
+contact/spectral comparison](arguments/carriers/elliptic_contact_and_spectral_comparison.md)
+retains the independent constructive family.
 
-The [residual source identity](results/chow_moment_residual_speciality.md)
-measures lowest-source non-exhaustion, with a sharper equal-degree parity
-criterion. It retains all-degree one-double and characteristic-zero
-one-triple coverage. Both invariant pure hulls of a hypothetical
-sole-supported CI require the specified section-parity defect, while their
-[full cohomology profiles](arguments/torus/boundary_section_cohomology.md)
-exclude the exact diagonal endpoint models in types \((6,6)\), \((5,8)\).
-Actual-family cohomology and linked-colon specialization have
-[canonical comparison sequences](arguments/normal-geometry/source_specialization_and_linkage.md),
-with distinct corrections; an unspecified comparison map is no longer
-the preliminary question.
-
-The [integral first-jet product](results/integral_first_jet_lifting.md)
-constrains actual mixed-characteristic sources even without special
-symmetry, excluding the specified non-eigen \((16,p)\) unramified traits.
-The [Hilbert-scheme form](arguments/torus/chow_hilbert_symplectic_form.md)
-remains a differential formulation, not universal vanishing. An actual
-homogeneous cyclic Hilbert lift with binary-CI center already realizes
-the two global generators. An [ordinary norm relation exists for every
-actual translated-cycle pair](arguments/torus/spectral_boundary_modulus.md),
-using row replacement and normalized sections of integral carrier factors.
-Its aggregate jet is the same source residue; a new geometric cancellation
-condition remains to be proved. The fixed cuspidal
-carrier's deeper unit quotient retains gluing lost by the additive moment.
-
-The [elliptic contact/spectral comparison](arguments/carriers/elliptic_contact_and_spectral_comparison.md)
-keeps all contact strata, full root-conductor gluing, actual-kernel
-saturation and ambient descent separate. Its birational carriers break sign
-symmetry, preserving this constructive alternative. None of these results
-settles arbitrary repeated arrangements or unrestricted STCI.
-
-The [two-product Jacobian criterion](results/jacobian_radical_support.md)
-recognizes sole support in characteristic zero by two actual polynomial
-memberships of degrees \(a+b\) and \(a+b+1\). It globalizes the classical
-Artinian Jacobian-socle mechanism and supplies a compact exact source
-incidence, without forcing nonvanishing.
-
-The [full residue criterion](arguments/torus/sole_support_first_jet_gate.md#full-exact-stci-jet-criterion-ideal-powers-and-the-perfect-residue-pairing)
-is a finite exact sole-support system in each bidegree. Explicit actual pairs
-with residual curves pass its two leading tests. The full
-[opposite Chow envelopes](arguments/torus/full_transverse_chow_pullback_envelope.md)
-and [quadric/cubic polarizations](arguments/torus/weighted_chow_quadric_cubic_polarizations.md)
-give exact same-generator incidences. Their norm gate is required to recover
-exact component multiplicities. The [saturation and interpolation theorem](arguments/torus/spectral_interpolation_and_polar_saturation.md)
-shows that the opposite coefficient chains impose equivalent membership on
-coordinate-saturated ideals, including full-translated-support CIs. A second
-polarization adds boundary coverage, not an independent cofactor obstruction.
-On the stratum of distinct spectral values, \((H,K)\) recovers all paired
-torus parameters, even with repeated multiplicities; collisions need higher
-polars. This parameter compression does not replace full-chain membership or
-the norm condition by the two first polars.
-
-The [paired source determinant](arguments/torus/chow_arrangement_moments.md#a-two-operator-determinant-recovers-the-full-transverse-chow-polynomial)
-recovers the full transverse Chow polynomial on the translated locus and
-detects sole support under its finite-pencil hypotheses. Its coefficient of
-order \(j\) uses only source depth \(4j\). With varying binary leading
-forms these coefficients are regular on the resultant-nonzero source open;
-polynomial dependence requires fixing leading forms or clearing denominators.
-The [fixed-depth incidence and residual-control theorem](results/fixed_depth_determinant_incidence.md)
-strengthens the center-jet image statement. Over any field, for
-\(a,b\ge4r+3\), imposing containment of \(C\) changes every incidence
-on \(\Delta_1,\ldots,\Delta_r\) only by an affine-space factor; this
-includes its nilpotent scheme structure. In characteristic zero, explicit
-actual residual pairs through \(C\) cancel every bounded family of
-characteristic tests from fixed containing surfaces. In the larger degree
-range these pairs can be reduced intersections of normal integral carriers,
-smooth and generically transverse along \(C\). Thus pure truncated
-targets really occur on residual pairs; the roots-of-unity cycle controls
-remain distinct statements about translated cycles. The obstruction needs
-full growing-depth or simultaneous source information. Fixed-rank full
-support tests, including the elliptic rank-twelve algebra, are unaffected.
-
-The [sharp center-jet calculation](arguments/torus/chow_matched_equation_layers.md#sharpness-and-the-last-missing-center-layer)
-has cokernel dimension \(N+1\) at degree \(N+1\), and vanishes in degrees
-at least \(N+2\). Sharpness of that source map does not establish sharpness
-of the determinant-image threshold. The [canonical projection order](arguments/carriers/tame_projection_sections.md#the-canonical-projection-order)
-packages both endpoint failures in one rank-four algebra with rational
-normalization and genus \(1\le\delta\le6(m-1)\), under its tame
-sole-support hypotheses. It has no proved comparison forcing residual support.
-
-### Arrangement families and their boundaries
-
-The [arrangement investigation](investigations/chow-quotient-arrangement-bridge/index.md)
-connects the quotient fan, endpoint Hilbert data, equation incidence and blowups.
-The [endpoint evaluation ranks](arguments/torus/arrangement_endpoint_delta.md)
-compute reduced-union Hilbert polynomials. In the
-[relative construction](arguments/torus/relative_arrangement_blowup_family.md),
-the union must be formed anew on a suitable reduced stratum (constant
-Hilbert polynomial suffices): restriction of the universal
-scheme union can acquire an embedded nilpotent. Correct Rees specialization
-requires control of ideal powers as well as the reduced union. The separate
-smooth model blows up disjoint lifted curves and recovers containing-section
-spaces; it is not an identification with the direct singular blowup.
-The [arrangement-strata refinement](results/arrangement_strata_and_orders.md)
-shows that constant Hilbert polynomial already suffices locally for flat
-re-formed reduced unions. Reduced CI arrangements with at least five
-components must be nonplanar at an endpoint, locating a genuine coverage
-boundary of the dual-planar Rees models. The separated-model section
-dictionary also retains every prescribed individual vanishing order;
-joint pair lengths and residual support remain additional conditions.
-Collision strata, general two-equation realization and complementary
-contractions retain their separate missing steps.
+The [Jacobian radical criterion](results/jacobian_radical_support.md)
+and [full residue criterion](arguments/torus/sole_support_first_jet_gate.md#full-exact-stci-jet-criterion-ideal-powers-and-the-perfect-residue-pairing)
+give exact fixed-degree tests for sole support. The
+[fixed-depth determinant theorem](results/fixed_depth_determinant_incidence.md)
+gives large-degree residual controls for any fixed number of leading
+coefficients, including reduced intersections of normal integral
+carriers in its stated range. Compare the [sharp center-jet
+range](arguments/torus/chow_matched_equation_layers.md#sharpness-and-the-last-missing-center-layer)
+and the [canonical projection
+order](arguments/carriers/tame_projection_sections.md#the-canonical-projection-order)
+for distinct constraints on the original equations.
 
 ## Questions and active work
 

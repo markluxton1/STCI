@@ -1,4 +1,4 @@
-# Universal first moment viewed through every Framework and the current literature
+# Universal first moment across the research frameworks and literature
 
 **Scope.** Current mathematical synthesis after the November 23 renewed
 reassessment. The [inherited Result crosswalk](universal_first_moment_result_crosswalk.md)
@@ -7,6 +7,8 @@ catalogs located the mathematics; comparisons below follow the actual proof
 owners. This is neither a line-by-line audit of every historical proof nor
 an exhaustive originality assessment. New deductions have their independent
 reconstruction scopes at their owners.
+The [Chow realization framework](../../frameworks/chow-realization/index.md)
+routes to the exact realization conditions and first-moment results.
 
 For an actual proper homogeneous pair with entire cycle
 \[
@@ -148,7 +150,9 @@ the formerly open punctual \(\Delta\) subcase closes; outside normal
 flatness its question remains. Attachment duality describes actual
 residual support, and does not force universal positive attachment.
 
-## II. Framework-by-Framework assessment (all nine)
+## II. Framework-by-Framework assessment
+
+The table covers the nine frameworks in place at the November 23 reassessment.
 
 | Framework | Revised role and exact remaining question |
 |---|---|
@@ -353,7 +357,7 @@ because an earlier synthesis did not construct them.
 ### Synthesis coverage and stopping judgment
 
 The final reassessment followed the combined understanding back through the
-Result-statement clusters, all nine Frameworks, their actual Investigations
+Result-statement clusters, the nine frameworks then in place, their investigations
 and relevant unchanged consumers, reading owning proofs wherever a scope
 comparison depended on them. Independent proof review covered consequential
 new deductions; it did not recertify every inherited proof. Fresh broad
