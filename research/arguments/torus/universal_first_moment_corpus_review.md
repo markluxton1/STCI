@@ -152,7 +152,7 @@ residual support, and does not force universal positive attachment.
 
 ## II. Framework-by-Framework assessment
 
-The table covers the nine frameworks in place at the November 23 reassessment.
+The table carries forward the November 23 reassessment and includes F-0010, the later Chow realization framework. The added row and the new interfaces below retain the provisional review scope of the November 26 consolidation.
 
 | Framework | Revised role and exact remaining question |
 |---|---|
@@ -165,6 +165,8 @@ The table covers the nine frameworks in place at the November 23 reassessment.
 | [F-0007 Residual construction](../../frameworks/residual-construction/index.md) | Once-link source recovery and its Ext specialization differ from full-primary attachment; geometric absorption/graph questions retain independent content. |
 | [F-0008 Spectral roots](../../frameworks/spectral-roots/index.md) | Full-root Picard torsion includes conductor gluing and still needs ambient source lifts; elliptic contact strata separate these conditions and saturation. |
 | [F-0009 Local cohomology](../../frameworks/local-cohomology/index.md) | Actual annihilator layers dualize attachment, not finite vertex Rao. A positive bounded quartic-ancestor pair has residual outside the translated-cycle incidence; that source question remains independent. |
+
+| [F-0010 Chow realization](../../frameworks/chow-realization/index.md) | Exact reduced and quartic realization and weighted support/norm tests; the provisional product, plane-generator, conormal and marked-boundary comparisons retain different levels of information. General repeated-cycle realization, stable marked-pair extension and universal moment vanishing remain distinct open questions. |
 
 ## III. Relevant literature, strongest applicable statements and non-implications
 

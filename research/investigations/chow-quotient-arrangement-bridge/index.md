@@ -34,9 +34,9 @@ obstruct a proper pair realizing a full translated cycle? In particular, can
 the embedding and boundary conditions lost by the Chow quotient be recovered
 from endpoint data and the same two global equations?
 
-### Current first-moment probe
+### First moment as a test of realization
 
-The current investigation focuses on UM1 itself: why should the spectral
+One question within the broader realization program is why should the spectral
 polynomial \(H_\sigma(T,1)=\prod_i(T-u_i/v_i)^{n_i}\) be depressed in
 the distinguished quadric-pencil coordinate for every actual complete
 intersection with full translated support? The target includes arbitrary
@@ -44,7 +44,7 @@ non-invariant repeated structures. An arbitrary translation of the spectral
 coordinate, containment of a translate, or a bounded determinant truncation
 does not establish this assertion.
 
-The renewed November 23 reassessment changes the source question. Actual
+The November 23 source reassessment identifies a concrete source question. Actual
 sign symmetry yields stronger carrier and source-plane exclusions, but
 sign-breaking repeated CI controls already exist. The direct conjugate-pair
 fiber product now presents the section defect from the original equations;
@@ -155,6 +155,8 @@ provides the equation and cycle interfaces used below.
   principalization. The one-curve \(V_5\) contraction is known, but a
   complementary contraction for multiple curves across boundary strata is
   not constructed.
+
+The provisional [cycle-first synthesis](../../arguments/torus/transverse_coefficient_realization_synthesis.md) adds complementary product-model equations, moving conormal maps, and the full plane-family criterion; the [marked configuration boundary](../../arguments/torus/marked_chow_configuration_boundary.md) and [two endpoint incidence systems](../../arguments/torus/marked_chow_endpoint_incidence.md) add distinct-marking geometry. The fixed-type plane-CI completion and its degree-labeled generator bundles are separate from the stable extension of marked pairs over collisions. The conductor and corner comparisons recover the same trace scalar and do not force its vanishing. No new UM1 coverage is asserted.
 
 ## Remaining questions and bounded tests
 

@@ -232,8 +232,7 @@ the [Chow trace-moment theorem](chow_arrangement_moments.md) shows that the
 closure of the reduced arrangement CI locus misses every interior full
 collision cycle \(|J|[C_z]\), since its first moment there is
 \(|J|u/v\ne0\). The theorem's stated eigenform-covered repeated-cycle
-cases share this exclusion. This does not cover a non-invariant proper CI
-supported on a repeated cycle unless it lies in that reduced-locus closure.
+cases share this exclusion. This closure argument does not cover an arbitrary non-invariant proper CI supported on a repeated cycle outside the reduced-locus closure; other proved repeated-cycle cases have their own hypotheses in the [first-moment proof boundary](universal_first_moment_proof_boundary.md). The later provisional [marked configuration boundary](marked_chow_configuration_boundary.md) supplies a different four-pencil log-surface model on a generic distinct-marking open, and the [endpoint incidence systems](marked_chow_endpoint_incidence.md) recover the opposite-plane rank strata. Neither identifies the all-subsets compactification here with the stable extension of those pairs or with flat embedded CI limits.
 Keep simultaneous translations and label permutations on the arrangement
 model; an ambient \(\operatorname{PGL}_4\) quotient is a separate operation
 and need not preserve the fixed-coordinate slice.

@@ -12,7 +12,7 @@ an obstruction shared across proof families.
 ## Current source comparisons
 
 The [renewed synthesis](../../arguments/torus/universal_first_moment_corpus_review.md)
-compares actual homogeneous generation across all nine frameworks. Several
+compares actual homogeneous generation across the frameworks, including the later Chow realization interface. Several
 previously described missing maps now have explicit constructions:
 
 - [Conjugate-source fiber products](../../results/sign_symmetrized_source_defect.md)
@@ -31,11 +31,13 @@ previously described missing maps now have explicit constructions:
   prescribed arithmetic tests, while fixed-carrier unit quotients retain
   deeper gluing and other polarized carriers retain frame conditions.
 
+The later provisional [Chow realization synthesis](../../arguments/torus/transverse_coefficient_realization_synthesis.md) compares the same sources via the full plane-family, moving conormal and marked-boundary constructions. The [plane-generator criterion](../../arguments/torus/plane_pencil_equation_bundles.md) does not construct a fixed-type completion, and the [corner and conductor gluing comparisons](../../arguments/torus/transverse_chow_quadric_graph_gluing.md) identify scalar cancellation rather than prove it. Stable extension of marked configurations is not an embedded CI limit theorem.
+
 This is a common issue of retained generators, extensions and multiplication,
 not a theorem identifying all defect modules. The
 [elliptic contact/source comparison](../../arguments/carriers/elliptic_contact_and_spectral_comparison.md)
 and the carrier/graph and attachment mechanisms below remain independent
-sources of all-degree understanding. UM1 is sufficient for STCI and is not
+sources of all-degree understanding. UM1 would exclude characteristic-zero sole support and is not
 an admission condition for progress on those routes. The
 [strategic queue](knowledge-gain-priorities.md#current-choice-and-reassessment)
 compares the resulting concrete tasks.

@@ -98,6 +98,8 @@ distinguishes the full Hilbert boundary from the cycle. The
 and [relative blowup models](arguments/torus/relative_arrangement_blowup_family.md)
 describe where marked incidence and individual section orders persist.
 
+The provisional [cycle-first geometric account](arguments/torus/transverse_coefficient_realization_synthesis.md) compares the paired cycle with moving transverse neighborhoods, conormal maps and the same global equations in complementary product models. The [plane-family criterion](arguments/torus/plane_pencil_equation_bundles.md) distinguishes completion to a full fixed-type plane CI from triviality of the minimal generator bundles. The [marked configuration boundary](arguments/torus/marked_chow_configuration_boundary.md) and [opposite endpoint incidence](arguments/torus/marked_chow_endpoint_incidence.md) distinguish stable extension across collisions from actual embedded CI limits. Neither the boundary gluing nor the scalar trace identities prove universal first-moment vanishing.
+
 The [conjugate-pair section hull](results/sign_symmetrized_source_defect.md),
 [actual-family specialization maps](arguments/normal-geometry/source_specialization_and_linkage.md)
 and [integral first-jet product](results/integral_first_jet_lifting.md)
