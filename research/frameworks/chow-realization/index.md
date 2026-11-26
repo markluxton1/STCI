@@ -149,7 +149,13 @@ links the quotient fan, endpoint incidence and separated blowups.
 [Reduced-union Hilbert strata and the individual-order
 dictionary](../../results/arrangement_strata_and_orders.md)
 give flat re-formed reduced unions on constant-polynomial strata and
-section spaces for prescribed individual vanishing orders. A reduced CI
+section spaces for prescribed individual vanishing orders. The
+[two endpoint evaluation filtrations](../../arguments/torus/arrangement_endpoint_delta.md#the-exact-two-endpoint-rank-formula)
+compute the gluing lengths by finite rank tests on distinct markings. In the
+[reduced quartic case](../../arguments/torus/arrangement_endpoint_delta.md#the-reduced-44-locus-as-two-affine-line-incidence-conditions),
+nonvertical collinearity in both endpoint planes gives gluing lengths
+\((18,18)\). Actual \((4,4)\) realization further requires both lines to
+avoid the toric vertex \([1:0:0]\) in their respective planes. A reduced CI
 arrangement with at least five components must be nonplanar at an endpoint,
 so the [dual-planar Rees
 models](../../arguments/torus/relative_arrangement_blowup_family.md#8-a-higher-m-planar-locus-and-a-rigidity-threshold)
@@ -163,13 +169,17 @@ from all single-support cycles. The [strategic
 queue](../../investigations/proof-audit/knowledge-gain-priorities.md#current-choice-and-reassessment)
 compares this question with constructive ones.
 
-Pending work develops the cycle-first coefficient, conormal and marked
-moduli descriptions in [draft PR #176](https://github.com/markluxton1/STCI/pull/176).
 The [trace and simultaneous-projection
-investigation](https://github.com/markluxton1/STCI/tree/chatgpt/trace-residue-projection-geometry/research/investigations/trace-residue-projection-geometry)
-explores residue comparisons, complementary Jacobian data and descent of
-the same two equations from product models. These are provisional routes.
-Their open steps include stable extension across collisions, compatibility
+investigation](../../investigations/trace-residue-projection-geometry/index.md)
+compares the Jacobian data of the same two equations in complementary
+projections. Its explicit quartic control has nonzero central residue
+despite satisfying the tested first-order congruences. The pair lies
+outside the full translated-cycle locus, so a vanishing argument still
+needs a condition that uses global support beyond those congruences.
+
+[Draft PR #176](https://github.com/markluxton1/STCI/pull/176) develops
+provisional coefficient, conormal and marked moduli descriptions. The
+open steps include stable extension across collisions, compatibility
 with actual nonreduced structures and a vanishing or realization theorem
 for the full translated-cycle CI locus.
 

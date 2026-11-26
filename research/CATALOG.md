@@ -133,6 +133,7 @@ Untyped source passages do not synthesize proof-route reviews.
 | [STCI-I-0002](investigations/quotient-hilbert-comparison/index.md) | Specialization between moving transverse quotients and full Hilbert limits | active | [scope](investigations/quotient-hilbert-comparison/index.md#scope) |
 | [STCI-I-0005](investigations/stci-equation-search/index.md) | Bounded equation search through the elliptic double inverse | complete | [scope](investigations/stci-equation-search/index.md#scope) |
 | [STCI-I-0006](investigations/chow-quotient-arrangement-bridge/index.md) | Chow arrangements, embedded limits, and equation incidence | active | [scope](investigations/chow-quotient-arrangement-bridge/index.md#scope) |
+| [STCI-I-0007](investigations/trace-residue-projection-geometry/index.md) | Trace residues and simultaneous coordinate projections | complete | [scope](investigations/trace-residue-projection-geometry/index.md#scope) |
 
 ## Aliases
 
@@ -226,6 +227,7 @@ Untyped source passages do not synthesize proof-route reviews.
 - [STCI-F-0001, STCI-F-0002] — motivates → [STCI-I-0002]; [explanation owned by STCI-I-0002](investigations/quotient-hilbert-comparison/index.md#purpose).
 - [STCI-F-0001, STCI-F-0002, STCI-F-0006] — motivates → [STCI-I-0006]; [explanation owned by STCI-I-0006](investigations/chow-quotient-arrangement-bridge/index.md#motivation).
 - [STCI-F-0005, STCI-F-0006] — motivates → [STCI-I-0005]; [explanation owned by STCI-I-0005](investigations/stci-equation-search/index.md#purpose).
+- [STCI-F-0010] — motivates → [STCI-I-0007]; [explanation owned by STCI-I-0007](investigations/trace-residue-projection-geometry/index.md#purpose).
 - [STCI-R-0037, STCI-R-0039, STCI-R-0040, STCI-R-0072, STCI-R-0073] — uses → [STCI-F-0001]; [explanation owned by STCI-F-0001](frameworks/torus-supported-boundaries/index.md#available-results).
 - [STCI-R-0037, STCI-R-0039, STCI-R-0046] — uses → [STCI-I-0001]; [explanation owned by STCI-I-0001](investigations/supported-generator-incidence/index.md#inputs).
 - [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] — uses → [STCI-I-0002]; [explanation owned by STCI-I-0002](investigations/quotient-hilbert-comparison/index.md#inputs).
@@ -257,11 +259,12 @@ Untyped source passages do not synthesize proof-route reviews.
 - STCI-F-0007: uses: [STCI-R-0075, STCI-R-0076, STCI-R-0077] → [STCI-F-0007] (owner STCI-F-0007).
 - STCI-F-0008: no declared backlinks.
 - STCI-F-0009: no declared backlinks.
-- STCI-F-0010: uses: [STCI-R-0074, STCI-R-0079, STCI-R-0082, STCI-R-0083, STCI-R-0084, STCI-R-0086] → [STCI-F-0010] (owner STCI-F-0010).
+- STCI-F-0010: motivates: [STCI-F-0010] → [STCI-I-0007] (owner STCI-I-0007); uses: [STCI-R-0074, STCI-R-0079, STCI-R-0082, STCI-R-0083, STCI-R-0084, STCI-R-0086] → [STCI-F-0010] (owner STCI-F-0010).
 - STCI-I-0001: motivates: [STCI-F-0001] → [STCI-I-0001] (owner STCI-I-0001); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0046] → [STCI-I-0001] (owner STCI-I-0001).
 - STCI-I-0002: motivates: [STCI-F-0001, STCI-F-0002] → [STCI-I-0002] (owner STCI-I-0002); uses: [STCI-R-0037, STCI-R-0039, STCI-R-0051, STCI-R-0052, STCI-R-0053, STCI-R-0070, STCI-R-0072, STCI-R-0073] → [STCI-I-0002] (owner STCI-I-0002).
 - STCI-I-0005: motivates: [STCI-F-0005, STCI-F-0006] → [STCI-I-0005] (owner STCI-I-0005); uses: [STCI-R-0076] → [STCI-I-0005] (owner STCI-I-0005).
 - STCI-I-0006: motivates: [STCI-F-0001, STCI-F-0002, STCI-F-0006] → [STCI-I-0006] (owner STCI-I-0006).
+- STCI-I-0007: motivates: [STCI-F-0010] → [STCI-I-0007] (owner STCI-I-0007).
 - STCI-R-0001: recorded reference from STCI-R-0002 (dependencies group [STCI-R-0001]); recorded reference from STCI-R-0013 (dependencies group [STCI-R-0001, STCI-R-0010]); recorded reference from STCI-R-0014 (dependencies group [STCI-R-0001, STCI-R-0008, STCI-R-0010, STCI-R-0011, STCI-R-0013]); recorded reference from STCI-R-0022 (dependencies group [STCI-R-0001, STCI-R-0020]); recorded reference from STCI-R-0035 (dependencies group [STCI-R-0034, STCI-R-0001]).
 - STCI-R-0002: recorded reference from STCI-R-0004 (dependencies group [STCI-R-0002, STCI-R-0003]); recorded reference from STCI-R-0017 (dependencies group [STCI-R-0002, STCI-R-0003]).
 - STCI-R-0003: premise of STCI-R-0075 (marked normalization and full inverse support at every projection center); recorded reference from STCI-R-0004 (dependencies group [STCI-R-0002, STCI-R-0003]); recorded reference from STCI-R-0017 (dependencies group [STCI-R-0002, STCI-R-0003]).
