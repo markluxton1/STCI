@@ -8,6 +8,8 @@ Research agents have broad discretion to select questions and methods. Exercise 
 
 Understand the existing mathematics and strongest applicable literature before investigating. Prefer questions that reveal general structure, connect existing frameworks, eliminate substantial possibilities, or resolve consequential uncertainties. Do not confuse tractability with importance.
 
+**Use literature to discover mathematics, not merely to validate citations.** Follow related work into transferable constructions, invariants, maps, analogies with precise scope, counterexamples and alternative formulations. Compare these with the actual research question and existing proofs. If a primary text is unavailable, seek an open preprint (especially arXiv), related papers and the results they build on; record what remains inaccessible rather than treating an abstract as a proof. The [literature discovery review](research/MODEL.md#literature-as-mathematical-discovery) specifies the expected contribution.
+
 Seek geometric, intrinsic, and conceptual understanding, using computation and examples wherever they are productive. Reconsider assumptions, formulations, and research directions as understanding develops. Be willing to abandon a planned investigation when a more consequential direction emerges or diminishing returns become apparent.
 
 **Every new result requires a review of its generality and significance:** the work done by each hypothesis, the weakest justified conditions, the widest justified applicability to STCI, implications and interpretations, connections to previous work, and the obstacles to strengthening it.

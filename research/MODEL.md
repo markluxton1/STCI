@@ -292,7 +292,7 @@ prior acceptance prose and the producer's preferred strategy are not premises.
 | Journal editorial review | Judge contribution, explanation, notation, proof organization and mathematical economy; identify changes that improve understanding rather than cosmetic preferences. |
 | Seasoned algebraic geometer | Examine the intrinsic geometry, conceptual mechanisms, hidden assumptions and stronger geometric interpretations. |
 | Generalizations, implications and connections | Seek weakest justified conditions, widest applicability, alternative interpretations and deductions using the full body of prior work; distinguish proofs from missing bridges. |
-| Relevant literature | Check the strongest applicable primary sources, precise hypotheses, overlap and novelty limits; do not treat an unsuccessful bounded search as proof of originality. |
+| Relevant literature | Discover and evaluate transferable mathematics: stronger results, new maps, constructions, invariants, interpretations, counterexamples and consequential questions. Verify primary-source hypotheses and limits, compare existing proofs, and pursue open preprints or related work if access fails. Feed concrete connections into the synthesis; citation checking alone is insufficient. |
 | General research picture | Reassess established coverage, remaining gaps and actual next tasks, including neglected alternatives; identify stale conclusions and unsupported priority claims. |
 
 Choose each reviewer's model and reasoning depth for the depth of judgment
@@ -316,6 +316,30 @@ including relevant unchanged consumers. Reaching the synthesis stopping conditio
 still requires all resulting propagation, consolidation, navigation, catalog and
 verification work. Maintenance-only PRs need the affected checks, not an artificial
 six-perspective mathematical review.
+
+### Literature as mathematical discovery
+
+The purpose of the literature perspective is to improve understanding and
+research choices, not simply check attribution. Begin with the exact question
+and known results; search adjacent geometries and generalizations, references
+and later work. Follow promising sources far enough to identify the mechanism,
+not merely the theorem's title. Prefer accessible primary texts, including
+arXiv preprints and author copies. If one is inaccessible, seek related papers,
+earlier results or a stronger generalization; state the remaining access gap.
+
+For each consequential connection, explain what the external result supplies,
+which actual objects and maps in our problem match its hypotheses, what it
+changes relative to existing repository work, and where the transfer stops.
+A useful finding may be a reusable construction, a new interpretation, an
+exact negative control, a simplification, or a concrete unexplored question.
+Develop a bounded application or test when the connection supports one; do
+not generate speculative research directions merely to fill a list. Give
+the mathematical findings to the lead for the full synthesis, revise proof
+owners and existing questions when warranted, and preserve the distinction
+between proved external inputs, independently reviewed deductions and
+provisional transfers. Do not assume that matching hypotheses of a related
+theorem settle a different realization problem. Citation and novelty checks
+remain necessary safeguards, but are not the principal deliverable.
 
 ### Corrections and conflicting claims
 

@@ -136,6 +136,54 @@ initial equations may have common surface factors and the full
 flat limit may have extra generators or embedded points. No
 general fixed-point theorem on these open fibers is available.
 
+### Source parameter space and equal-degree Chow fibers
+
+**Provisional elementary transfer, November 26; pending independent
+review.** Benoist's [codimension-two CI parameter space](https://arxiv.org/abs/1212.4862),
+Introduction and §0.3, separates degree-labeled minimal generators from
+arbitrary ordered presentations. For \(a<b\) it is the proper-pair open
+in the projective bundle over \(\mathbf P(S_a)\) with fiber
+\(\mathbf P(S_b/F S_{b-a})\); for equal degrees use the proper-pencil
+open \(U\subset\operatorname{Gr}(2,S_a)\). These parametrize actual
+CI ideals, not just their cycles.
+
+For \(a=b\), the binary resultant on a line transforms under changing
+the basis of a pencil by \((\det M)^a\) (row addition leaves it unchanged,
+scaling one row gives the \(a\)-th power, and swapping has the required
+sign). Thus the coefficients of the universal line resultant are
+sections of \((\det\mathcal U^\vee)^a\), where \(\mathcal U\) is the
+tautological pencil, and give the Chow map on \(U\). Their common zero
+locus is exactly the nonproper locus: a common surface factor meets
+every projective line, while a proper curve has a disjoint line.
+Consequently, for every standard affine coordinate chart of the
+projective Chow-form space, the preimage is the nonvanishing locus
+of a section of the ample Plücker power on the projective Grassmannian.
+It is affine. The Chow map on the equal-degree proper-pencil locus is
+therefore affine; in particular each scheme fiber is affine.
+
+For a fixed Chow point no nonconstant map from a connected reduced
+complete curve can remain entirely in the equal-degree CI-ideal
+fiber. A nontrivial intrinsic-torus orbit of actual pencils with
+fixed cycle cannot have both limits proper pencils. The full Hilbert
+limit can still exist and retain the cycle; this explains why compact
+fixed-cycle families must admit non-CI limits. The exceptional quartic
+orbit in [the Hilbert boundary](quartic_hilbert_chow_limits.md) is a
+control, not a newly excluded cycle. The observation applies over an
+algebraically closed field, without a first-moment hypothesis, and
+does not forbid nonconstant maps to a punctual transverse Hilbert
+fiber or imply a fixed point in the affine source fiber.
+
+In unequal degrees the resultant line on Benoist's projective bundle
+is \(L_a^{\vee\, b}\otimes L_b^{\vee\, a}\) for the tautological
+degree-labeled generator lines; its restriction is trivial along
+a complete family with fixed Chow point. One cannot reuse the
+Plücker ampleness argument for this different parameter space.
+Benoist's complete punctual-CI curves make it particularly important
+to retain the distinction between a family of ideals and one global
+framed pair. The [literature comparison](../../literature/chow_realization_connections.md#the-actual-source-parameter-space)
+explains the unresolved source/compactification question. No new
+classification of realization fibers is claimed.
+
 ## 4. The cubic–quartic case
 
 For \(ab=12\), write \(B(h)\subset A_3\) for configurations all of whose
