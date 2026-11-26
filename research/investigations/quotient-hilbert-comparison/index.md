@@ -205,6 +205,8 @@ off the coordinate torus. Their
 has a full CI limit on coordinate lines and residual degree \(28\)
 before specialization.
 
+The provisional [moving neighborhood/conormal comparison](../../arguments/torus/transverse_neighborhood_motion_and_conormal.md) identifies the derivative of the embedded quotient with the longitudinal conormal component; the exterior square can lose this motion. Its extension to the two weighted endpoint cotangent lattices does not identify the separated closure's conormal with the pulled-back projective equation bundle. The [plane-family criterion](../../arguments/torus/plane_pencil_equation_bundles.md) gives a separate full fixed-type plane-CI completion and generator-triviality test; this is not a construction of the required opposite full Hilbert limits. The sole-support hypotheses of R-0072 are unchanged.
+
 ## Completion and next decisions
 
 For a fully specified embedded moving family, the kernels of homogeneous

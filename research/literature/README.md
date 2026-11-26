@@ -15,6 +15,8 @@ not an exhaustive new literature survey or a claim of originality.
 
 The [affine/projective scope account](../arguments/equations/global_equations_and_constructions.md#affineprojective-scope-and-explicit-literature-counterchecks) retains the exact lci-cone criterion, tensor-quotient proof failure, real-sphere CI counterexample, fixed-quadric Picard control, SCIP distinction, and failed unique-prime inference. They have distinct field and quantifier scopes; none settles the projective algebraically closed STCI problem.
 
+For the later Chow geometry, source-specific references and scope are retained in the [marked quotient/log-pair account](../arguments/torus/marked_chow_configuration_boundary.md#external-inputs-and-scope), [plane-family comparison](../arguments/torus/plane_pencil_equation_bundles.md), and [corner residue account](../arguments/torus/transverse_chow_quadric_graph_gluing.md). These link toric Chow quotients, stable log maps, configuration compactifications, relative plane liaison and duality to the provisional geometric comparisons; they do not establish a stable extension for the marked family or universal CI moment vanishing. This is a navigation update, not a fresh literature search or extension of the dated checks.
+
 ## Current status and general bounds
 
 ### Eisenbud--Harris, 2024

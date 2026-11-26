@@ -563,8 +563,7 @@ that either is close to settling STCI. The renewed synthesis has changed the
 
 ### The current Chow question
 
-The user-selected UM1 direction asks for a necessary coefficient identity,
-not a classification of every arrangement. The
+The broader Chow question concerns constructing and recognizing actual realizations, not only excluding complete collision. UM1 asks for a necessary coefficient identity and remains one test of that geometry, rather than a prerequisite for its study. The
 [current synthesis](../../arguments/torus/universal_first_moment_corpus_review.md)
 now makes the source issue more concrete. One sign-eigen carrier already
 forces vanishing, even for entirely thick generic intersections. But actual
