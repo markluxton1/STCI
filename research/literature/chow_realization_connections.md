@@ -137,6 +137,12 @@ quartic pair as a comparison; do not infer a global realization
 from the punctual family alone. The problem is source descent,
 not another classification of all local complete intersections.
 
+The source argument also compares the resultant class \(\mathcal O(b,a)\)
+with Benoist's explicit nef cone: for \(1<a<b\) it is outside that cone
+on the compact equation bundle. This locates the exact obstruction to
+transferring the equal-degree affineness proof; it is not a proof of
+nonaffineness of the unequal-degree proper locus or its Chow fibers.
+
 ## Enriching Chow with a limiting discriminant
 
 Sturmfels, [The Hurwitz Form of a Projective Variety](https://arxiv.org/abs/1410.6703),
