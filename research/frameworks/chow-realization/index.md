@@ -185,6 +185,8 @@ and [endpoint incidence systems](../../arguments/torus/marked_chow_endpoint_inci
 describe distinct-marking models. Their open steps are stable extension
 across collisions and comparison with actual nonreduced CI structures.
 
+The [literature discovery comparison](../../literature/chow_realization_connections.md) supplies a toric wonderful model for the character-incidence open, a multigraded reconstruction dimension test, and Benoist's actual CI parameter-space geometry. It also identifies a provisional [affineness comparison](../../arguments/torus/chow_realization_moment_separation.md#source-parameter-space-and-equal-degree-chow-fibers) in equal degrees, and a separate source-sensitive direction through limiting Hurwitz forms. The latter cannot be recovered from a weighted Chow cycle alone; the needed deformation and projection corrections remain open. These are not new universal moment vanishing results.
+
 The [cross-ratio source note](https://chatgpt.com/space/page_d434441dcb688191999bf266b13c4c11)
 records a relative-projectivity interpretation of reduced moment balance,
 including the two-component harmonicity case.

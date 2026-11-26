@@ -136,6 +136,10 @@ initial equations may have common surface factors and the full
 flat limit may have extra generators or embedded points. No
 general fixed-point theorem on these open fibers is available.
 
+### Source parameter space and equal-degree Chow fibers
+
+The [focused source-parameter argument](chow_source_parameter_geometry.md#source-parameter-space-and-equal-degree-chow-fibers) records a provisional deduction from the resultant linear system: the Chow morphism from the proper equal-degree pencil locus is affine. In particular a nonconstant fixed-cycle orbit cannot have both limiting pencils proper. This explains the need for non-CI boundary points without proving moment vanishing. The unequal-degree source geometry is different.
+
 ## 4. The cubic–quartic case
 
 For \(ab=12\), write \(B(h)\subset A_3\) for configurations all of whose

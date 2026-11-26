@@ -17,6 +17,18 @@ The [affine/projective scope account](../arguments/equations/global_equations_an
 
 For the later Chow geometry, source-specific references and scope are retained in the [marked quotient/log-pair account](../arguments/torus/marked_chow_configuration_boundary.md#external-inputs-and-scope), [plane-family comparison](../arguments/torus/plane_pencil_equation_bundles.md), and [corner residue account](../arguments/torus/transverse_chow_quadric_graph_gluing.md). These link toric Chow quotients, stable log maps, configuration compactifications, relative plane liaison and duality to the provisional geometric comparisons; they do not establish a stable extension for the marked family or universal CI moment vanishing. This is a navigation update, not a fresh literature search or extension of the dated checks.
 
+## Discovery review: Chow realization and marked geometry (November 26, 2026)
+
+The [focused literature-to-geometry comparison](chow_realization_connections.md)
+records transferable constructions, precise limits, and bounded questions from
+the primary-source checks of toric wonderful models, multigraded Chow forms,
+coisotropic hypersurfaces, incidence determinants, CI parameter spaces and
+Hurwitz degenerations. It identifies a concrete character-boundary model and
+an elementary source-space comparison, and distinguishes discriminant limits
+from cycle data. Méo's full text remains inaccessible; related open work was
+examined instead. This is a focused mathematical discovery review, not an
+updated general STCI literature status survey.
+
 ## Current status and general bounds
 
 ### Eisenbud--Harris, 2024

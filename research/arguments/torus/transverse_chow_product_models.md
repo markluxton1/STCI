@@ -204,6 +204,10 @@ These give the same weighted moment \(M_1\) and the two marginal spectral polyno
 An actual degree-\(D\) homogeneous polynomial \(F\) has the three torus expressions \(F(1,a,c,bc), F(1,r,d,re), F(1,r,rh,p)\). They agree by substitution, and their allowed monomials are indexed by the same ordinary-degree-\(D\) tetrahedron; homogenize separately and track exceptional factors on the common blowup. This is the concrete common-equation constraint, stronger than choosing unrelated graph equations on each product. The dense-torus dictionary and cycle images are explicit; boundary descent of a realizing scheme remains the missing part. No new sufficiency or moment theorem asserted.
 
 
+### Reconstruction from multigraded incidence
+
+Osserman–Trager's [Multigraded Cayley–Chow forms](https://arxiv.org/abs/1708.03335), Theorem 1.1 and Remark 1.2, give a sharp dimension test for a single multigraded incidence hypersurface to determine an irreducible subvariety. For a curve in three projective-line factors with no product factor, no single such form reconstructs the general curve: only two factors can be cut by a total of two conditions. For a graph in two factors with both projections dominant the dimension test succeeds. This explains the need for joint information in the product models, though it does not prove nonreconstruction inside the special translated-graph class. See the [literature comparison](../../literature/chow_realization_connections.md#multigraded-incidence-and-the-limit-of-projection-reconstruction). The classical Chow form in the Segre embedding or compatible incidence data retain the missing simultaneous information.
+
 ### The common logarithmic differential geometry
 
 For a smooth toric compactification with its full toric boundary \(D\), the standard character-lattice description is \(\Omega^1(\log D)=O\otimes_{\mathbb Z}M\) (Danilov, *The Geometry of Toric Varieties*, and Cox--Little--Schenck, *Toric Varieties*, Chapter 8). Thus toric refinements identify the pulled-back logarithmic cotangent bundles. With \(\ell=d\log r,\alpha=d\log U,\beta=d\log V\), the three product bases are

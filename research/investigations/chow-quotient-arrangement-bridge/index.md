@@ -160,6 +160,8 @@ The provisional [cycle-first synthesis](../../arguments/torus/transverse_coeffic
 
 ## Remaining questions and bounded tests
 
+The [literature discovery review](../../literature/chow_realization_connections.md) gives an existing wonderful compactification of the character-incidence open over C. Compare the base and total layer arrangements to obtain a compatible relative model; endpoint rank strata and stable extension remain separate. The multigraded reconstruction criterion limits what one projection retains. Source-parameter geometry and limiting sectional discriminants give two further bounded tests, with no priority or UM1 conclusion asserted.
+
 The following are **proposed tests**, not a priority ranking:
 
 - Retain the actual pair and its sign transform, both Koszul presentations,

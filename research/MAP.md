@@ -88,6 +88,8 @@ Sylvester index or resolve the nonprimitive source incidence.
 
 ### Chow cycles, actual equations, and finite source depth
 
+The [literature discovery synthesis](literature/chow_realization_connections.md) connects character-layer compactifications, multigraded reconstruction, actual CI parameter spaces and limiting sectional discriminants. The [provisional equal-degree source argument](arguments/torus/chow_source_parameter_geometry.md) proves affineness of the proper-pencil Chow morphism; the unresolved issue is the geometry and realization of its fibers, not compactness of the proper locus.
+
 The [Chow realization framework](frameworks/chow-realization/index.md)
 starts with the full translated-cycle incidence. It routes to exact reduced
 and quartic realization, the full coefficient chains and norm, and the

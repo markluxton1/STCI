@@ -662,6 +662,8 @@ retained. A proof about one of these maps does not identify all defects.
   extension over collisions remains a different, geometric question.
   These are alternatives to the sign-source probe, not a revised ranking.
 
+- **Literature-transferred geometric tests.** The [Chow literature comparison](../../literature/chow_realization_connections.md) gives the character-incidence wonderful compactification; the unresolved question is the relative family and additional rank strata, not existence of that ambient model. Benoist's CI parameter spaces and complete punctual-CI curves give a source-space comparison for the full plane-family problem. The [provisional equal-degree affine fiber observation](../../arguments/torus/chow_realization_moment_separation.md#source-parameter-space-and-equal-degree-chow-fibers) explains why compact nontrivial fixed-cycle families of pencils must leave the proper locus. A distinct bounded probe is to compare the first nonzero limiting Hurwitz coefficient of a known repeated-cycle CI under two explicit smoothings, using the same global pair and tracking projection corrections. Stop if the retained information is only the support and known endpoint index or only the arbitrary smoothing choice. No priority change is justified without this comparison; none is required for the other approaches.
+
 KG05 retains a constructive, genuinely different whole-family question:
 can the full rank-twelve inverse algebra be supported and its pure power
 descend? The [elliptic contact/spectral comparison](../../arguments/carriers/elliptic_contact_and_spectral_comparison.md)
